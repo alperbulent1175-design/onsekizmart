@@ -79,3 +79,56 @@ test("16 ve 17 Mart tek güne indirilmez", () => {
   assert.ok(campaign.includes('robeckGorev: "17 Mart 1915"'));
   assert.ok(campaign.includes('komutaDurumu: "insan_incelemesi_gerekli"'));
 });
+
+test("kaynakça süzgeci mevcut kartları süzer ve veri basmaz", () => {
+  const page = fs.readFileSync(path.join(root, "kaynakca/index.html"), "utf8");
+  ["katalog-q", "katalog-kurum", "katalog-tur", "katalog-durum", "katalog-temizle"].forEach((id) => {
+    assert.ok(page.includes(`id="${id}"`), id);
+  });
+  assert.equal(page.includes("innerHTML"), false);
+  assert.match(page, /getAttribute\("data-status"\)/);
+  assert.match(page, /createElement\("option"\)/);
+  assert.match(page, /opt\.textContent = pair\.label/);
+  const devam = page.slice(page.indexOf("<!-- DEVAM:BAS -->"), page.indexOf("<!-- DEVAM:SON -->"));
+  assert.equal(devam.includes("<script"), false);
+  const start = page.indexOf("function foldCatalog");
+  const end = page.indexOf("function readCards");
+  assert.ok(start > 0 && end > start);
+  const api = new Function(
+    page.slice(start, end) + "\nreturn { foldCatalog: foldCatalog, catalogMatch: catalogMatch };"
+  )();
+  assert.equal(api.foldCatalog("Üst veri"), api.foldCatalog("ust veri"));
+  const item = {
+    text: api.foldCatalog("Australian War Memorial Gallipoli"),
+    institution: "Australian War Memorial",
+    kind: "Dijital dosya",
+    status: "bulundu"
+  };
+  assert.equal(api.catalogMatch(item, "gallipoli", "", "", ""), true);
+  assert.equal(api.catalogMatch(item, "", "Imperial War Museums", "", ""), false);
+  assert.equal(api.catalogMatch(item, "", "Australian War Memorial", "Dijital dosya", "bulundu"), true);
+  assert.equal(api.catalogMatch(item, "", "", "", "insan_incelemesi_gerekli"), false);
+  assert.equal(api.catalogMatch(item, "yokboyle", "", "", ""), false);
+});
+
+test("yayımlanan sayfalarda GA4 etiketi tektir", () => {
+  function walk(dir, out) {
+    for (const name of fs.readdirSync(dir)) {
+      if (name === ".git" || name === "tests" || name === "node_modules" || name === "research") continue;
+      const full = path.join(dir, name);
+      if (fs.statSync(full).isDirectory()) walk(full, out);
+      else if (name === "index.html") out.push(full);
+    }
+    return out;
+  }
+  const pages = walk(root, []);
+  assert.ok(pages.length > 0);
+  const id = "G-MKGGXNVR7V";
+  for (const file of pages) {
+    const html = fs.readFileSync(file, "utf8");
+    const ids = html.match(/G-[A-Z0-9]+/g) || [];
+    assert.deepEqual(ids, [id, id], file);
+    assert.equal((html.match(/googletagmanager\.com\/gtag\/js\?id=G-MKGGXNVR7V/g) || []).length, 1, file);
+    assert.equal((html.match(/gtag\('config', 'G-MKGGXNVR7V'\)/g) || []).length, 1, file);
+  }
+});

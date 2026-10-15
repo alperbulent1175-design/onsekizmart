@@ -196,3 +196,30 @@ test("iletişim notu göndermez ve erişilebilirlik kuralları durur", () => {
   assert.match(css, /\.map-fallback/);
   assert.match(css, /overflow-x: auto/);
 });
+
+test("yayın sayfalarında analytics kimliği bir kez kurulur", () => {
+  const id = "G-MKGGXNVR7V";
+  const loader = `<script async src="https://www.googletagmanager.com/gtag/js?id=${id}"></script>`;
+  const config = `gtag('config', '${id}')`;
+  function occurrences(text, needle) {
+    return text.split(needle).length - 1;
+  }
+  const htmlFiles = walk(root, []).filter((file) => file.endsWith(".html"));
+  const published = htmlFiles.filter((file) => path.basename(file) === "index.html");
+  assert.ok(published.length > 10);
+  for (const file of published) {
+    const html = fs.readFileSync(file, "utf8");
+    if (html.includes('content="noindex')) continue;
+    assert.equal(occurrences(html, loader), 1, file);
+    assert.equal(occurrences(html, config), 1, file);
+    assert.equal(occurrences(html, id), 2, file);
+    assert.equal(html.includes("GTM-"), false, file);
+    assert.ok(html.indexOf(loader) < html.indexOf("</head>"), file);
+  }
+  const shell = fs.readFileSync(path.join(root, "page-shell.html"), "utf8");
+  assert.equal(occurrences(shell, loader), 1);
+  assert.equal(occurrences(shell, config), 1);
+  const app = fs.readFileSync(path.join(root, "js/app.js"), "utf8");
+  assert.equal(app.includes("gtag"), false);
+  assert.equal(app.includes("page_view"), false);
+});

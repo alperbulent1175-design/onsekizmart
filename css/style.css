@@ -1145,3 +1145,60 @@ body.home .map-tile-note a { display: inline-flex; align-items: center; min-heig
     animation: none;
   }
 }
+
+.catalog-filter {
+  display: grid;
+  gap: 4px;
+  margin: 8px 0 20px;
+  max-width: 40rem;
+  min-width: 0;
+}
+.catalog-filter label { margin-top: 8px; }
+.catalog-filter input,
+.catalog-filter select {
+  width: 100%;
+  max-width: 100%;
+  min-height: 44px;
+  font-size: 16px;
+  padding: 8px 10px;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid rgba(13, 24, 35, 0.28);
+}
+.catalog-filter button {
+  justify-self: start;
+  margin-top: 12px;
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 1px solid var(--gold);
+  background: transparent;
+  color: var(--gold-2);
+  cursor: pointer;
+}
+#katalog-sayim { margin: 0 0 4px; color: var(--muted); }
+#katalog,
+#katalog-devam {
+  list-style: none;
+  padding-left: 0;
+  margin: 12px 0 28px;
+  min-width: 0;
+}
+#katalog > li,
+#katalog-devam > li {
+  border: 1px solid var(--line);
+  padding: 12px 14px;
+  margin: 0 0 12px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  background: rgba(18, 26, 38, 0.55);
+}
+#katalog > li[hidden],
+#katalog-devam > li[hidden] { display: none; }
+#katalog > li p,
+#katalog-devam > li p,
+#katalog a,
+#katalog-devam a {
+  overflow-wrap: anywhere;
+}
+#katalog > li p,
+#katalog-devam > li p { margin: 0 0 8px; }

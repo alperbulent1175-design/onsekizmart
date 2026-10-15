@@ -149,7 +149,7 @@ PAGES = {
 <h1>Gizlilik</h1>
 <div class="prose">
 <p>Sitede üyelik ve hesap yoktur. Ziyaretçi adı, parola veya ödeme bilgisi istenmez.</p>
-<p>Yazı tipleri Google Fonts üzerinden, harita karoları OpenStreetMap ve Esri üzerinden yüklenir. Bu istekler o hizmetlerin kendi kayıtlarına düşebilir. Sitenin ayrıca bir analiz aracı bu sayfada ilan edilmemiştir; ilan edilmeyen bir araç çalışıyor sayılmaz.</p>
+<p>Yazı tipleri Google Fonts üzerinden, harita karoları OpenStreetMap ve Esri üzerinden yüklenir. Bu istekler o hizmetlerin kendi kayıtlarına düşebilir. Sayfa görüntülemeleri Google Analytics 4 ile ölçülür. Başka bir analiz aracı ilan edilmemiştir.</p>
 </div>""",
     ),
 }
