@@ -233,6 +233,14 @@ test("yayın sayfalarında analytics kimliği bir kez kurulur", () => {
   assert.equal(occurrences(shell, loader), 1);
   assert.equal(occurrences(shell, config), 1);
   const app = fs.readFileSync(path.join(root, "js/app.js"), "utf8");
-  assert.equal(app.includes("gtag"), false);
   assert.equal(app.includes("page_view"), false);
+  assert.equal(app.includes("G-MKGGXNVR7V"), false);
+  assert.equal(app.includes("search_used"), false);
+  assert.equal(app.includes("source_open"), false);
+  assert.equal(app.includes("related_page_open"), false);
+  assert.equal((app.match(/window\.gtag\(/g) || []).length, 1);
+  assert.match(app, /typeof window\.gtag !== "function"/);
+  assert.equal((app.match(/map_event_select/g) || []).length, 1);
+  assert.equal((app.match(/timeline_play/g) || []).length, 1);
+  assert.equal((app.match(/filter_used/g) || []).length, 1);
 });

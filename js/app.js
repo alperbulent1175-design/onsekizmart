@@ -245,6 +245,41 @@
   var navalMinute = 450;
   var playing = false;
   var playTimer = null;
+  var filterTokens = {
+    both: true,
+    turk: true,
+    itilaf: true,
+    all: true,
+    deniz: true,
+    kara: true,
+    tabya: true,
+    birlik: true,
+    gemi: true,
+    enkaz: true,
+    komuta: true,
+    mayin: true,
+    filo: true,
+    kampanya: true
+  };
+
+  function track(name, params) {
+    if (typeof window.gtag !== "function") return;
+    window.gtag("event", name, params || {});
+  }
+
+  function trackMapSelect(kind) {
+    if (kind !== "yer" && kind !== "olay") return;
+    track("map_event_select", { item_type: kind });
+  }
+
+  function trackPlay() {
+    track("timeline_play", { mode: mode === "camp" ? "camp" : "naval" });
+  }
+
+  function trackFilter(token) {
+    if (!filterTokens[token]) return;
+    track("filter_used", { filter_value: token });
+  }
 
   function allPlaces() {
     var extra = D.campaign && D.campaign.places ? D.campaign.places : [];
@@ -452,6 +487,7 @@
   function selectPlace(id, fly) {
     var p = findPlace(id);
     if (!p) return;
+    trackMapSelect("yer");
     if (mode === "naval") {
       var hit = null;
       D.events.forEach(function (ev) { if (ev.place === id) hit = ev; });
@@ -535,6 +571,7 @@
       b.setAttribute("aria-pressed", on ? "false" : "true");
       if (on) map.removeLayer(groups[l.id]);
       else groups[l.id].addTo(map);
+      trackFilter(l.id);
     });
     if (layerBox) layerBox.appendChild(b);
   });
@@ -600,6 +637,7 @@
         navalMinute = ev.m;
         range.value = String(ev.m);
         showTime(ev.m, true);
+        trackMapSelect("olay");
       }, null);
     });
     if (D.campaign) {
@@ -762,7 +800,9 @@
 
   function setSide(s) {
     stopPlay();
+    var changed = sideFilter !== s;
     sideFilter = s;
+    if (changed) trackFilter(s);
     campSide = s === "turk" ? "osmanli" : s === "itilaf" ? "itilaf" : "all";
     document.getElementById("tl-both").setAttribute("aria-pressed", s === "both" ? "true" : "false");
     document.getElementById("tl-turk").setAttribute("aria-pressed", s === "turk" ? "true" : "false");
@@ -779,14 +819,18 @@
 
   function setDomain(d) {
     stopPlay();
+    var changed = campDomain !== d;
     campDomain = d;
+    if (changed) trackFilter(d);
     paintCampChips();
     renderCampList();
     refreshCampRange(true);
   }
 
   function clearFilters() {
+    var domainChanged = campDomain !== "all";
     campDomain = "all";
+    if (domainChanged) trackFilter("all");
     setSide("both");
   }
 
@@ -836,6 +880,7 @@
     this.setAttribute("aria-pressed", playing ? "true" : "false");
     if (playTimer) clearInterval(playTimer);
     if (!playing) return;
+    trackPlay();
     playTimer = setInterval(function () {
       if (mode === "camp") {
         var list = campEvents();
@@ -885,6 +930,7 @@
   }
 
   function focusCampEvent(ev) {
+    trackMapSelect("olay");
     if (ev.navalMinute) {
       navalMinute = ev.navalMinute;
       if (mode !== "naval") setMode("naval");
@@ -991,6 +1037,7 @@
         range.value = String(ev.m);
         showTime(ev.m, true);
         scrollToMap();
+        trackMapSelect("olay");
       });
       li.appendChild(btn);
       ol.appendChild(li);
