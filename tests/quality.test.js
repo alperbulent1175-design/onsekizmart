@@ -184,11 +184,24 @@ test("harita kütüphanesi yokken kronoloji çizilir ve arama metni html olmaz",
 
 test("iletişim notu göndermez ve erişilebilirlik kuralları durur", () => {
   const html = fs.readFileSync(path.join(root, "iletisim/index.html"), "utf8");
-  assert.match(html, /data-mailto=""/);
+  const source = fs.readFileSync(path.join(root, "build_pages.py"), "utf8");
+  assert.match(html, /data-mailto="iletisim@onsekizmart\.com"/);
+  assert.match(html, /href="mailto:iletisim@onsekizmart\.com"/);
+  assert.match(html, />iletisim@onsekizmart\.com</);
+  assert.match(source, /data-mailto="iletisim@onsekizmart\.com"/);
+  assert.match(source, /href="mailto:iletisim@onsekizmart\.com"/);
   assert.match(html, /id="contact-copy"/);
   assert.match(html, /Bir sunucuya gönderilmez/);
+  assert.match(html, /Bir sunucuya gönderilmedi/);
+  assert.match(html, /Yazışma adresi tanımlı değil/);
+  assert.match(html, /kendi posta programınızı açar/);
   assert.match(html, /for="contact-page"/);
+  assert.match(html, /for="contact-event"/);
+  assert.match(html, /name="kaynak"/);
+  assert.match(html, /name="not"/);
   assert.doesNotMatch(html, /type="submit"/);
+  assert.doesNotMatch(html, /başarıyla gönderildi/);
+  assert.doesNotMatch(html, /yazışma adresi yoktur/);
   const css = fs.readFileSync(path.join(root, "css/style.css"), "utf8");
   assert.match(css, /:focus-visible/);
   assert.match(css, /prefers-reduced-motion/);

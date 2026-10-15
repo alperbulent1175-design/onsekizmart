@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>İletişim · Çanakkale 1915</title>
-  <meta name="description" content="Bu sürümde kamuya açık bir yazışma adresi yoktur. Düzeltme notu yalnızca bu cihazda hazırlanır.">
+  <meta name="description" content="Yazışma adresi iletisim@onsekizmart.com. Düzeltme notu yalnızca bu cihazda hazırlanır; form bir sunucuya gönderilmez.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://onsekizmart.com/iletisim/">
   <meta property="og:title" content="İletişim · Çanakkale 1915">
-  <meta property="og:description" content="Bu sürümde kamuya açık bir yazışma adresi yoktur. Düzeltme notu yalnızca bu cihazda hazırlanır.">
+  <meta property="og:description" content="Yazışma adresi iletisim@onsekizmart.com. Düzeltme notu yalnızca bu cihazda hazırlanır; form bir sunucuya gönderilmez.">
   <meta property="og:url" content="https://onsekizmart.com/iletisim/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="tr_TR">
@@ -48,9 +48,9 @@
 <p class="kicker">Yazışma</p>
 <h1>İletişim</h1>
 <div class="prose">
-<p>Bu sürümde kamuya açık bir yazışma adresi yoktur. Aşağıdaki not yalnızca bu cihazda hazırlanır. Bir sunucuya gönderilmez ve çalışan bir form gibi davranmaz.</p>
+<p>Yazışma adresi <a href="mailto:iletisim@onsekizmart.com">iletisim@onsekizmart.com</a>. Bu bağlantı kendi posta programınızı açar; notu site sunucusuna kendiliğinden göndermez. Aşağıdaki not yalnızca bu cihazda hazırlanır. Bir sunucuya gönderilmez ve çalışan bir form gibi davranmaz.</p>
 <p>Düzeltme, ancak yayımlanmış bir kaynağa dayanıyorsa sonraki sürüme eklenir. Kaynağı olmayan bir iddia sessizce kesinleştirilmez.</p>
-<form class="contact-note" id="contact-note" data-mailto="" action="#">
+<form class="contact-note" id="contact-note" data-mailto="iletisim@onsekizmart.com" action="#">
 <p id="contact-status" role="status"></p>
 <label for="contact-page">İlgili sayfa adresi</label>
 <input id="contact-page" name="sayfa" type="url" inputmode="url" autocomplete="off">
@@ -111,7 +111,7 @@
   document.getElementById("contact-copy").addEventListener("click", function () {
     var text = packet();
     var sent = " Bir sunucuya gönderilmedi.";
-    var address = mail.hidden ? " Yazışma adresi tanımlı değil." : " E-posta taslağı ayrıca açılabilir.";
+    var address = mail.hidden ? " Yazışma adresi tanımlı değil." : " Bağlantı kendi posta programınızı açar; kopyalanan metin buradan gönderilmez.";
     function showLocal() {
       preview.hidden = false;
       preview.textContent = text;

@@ -19,9 +19,9 @@ GUIDE_PATHS = {"/kaynakca/", "/nasil-okunur/", "/sozluk/"}
 CONTACT_BODY = """<p class="kicker">Yazışma</p>
 <h1>İletişim</h1>
 <div class="prose">
-<p>Bu sürümde kamuya açık bir yazışma adresi yoktur. Aşağıdaki not yalnızca bu cihazda hazırlanır. Bir sunucuya gönderilmez ve çalışan bir form gibi davranmaz.</p>
+<p>Yazışma adresi <a href="mailto:iletisim@onsekizmart.com">iletisim@onsekizmart.com</a>. Bu bağlantı kendi posta programınızı açar; notu site sunucusuna kendiliğinden göndermez. Aşağıdaki not yalnızca bu cihazda hazırlanır. Bir sunucuya gönderilmez ve çalışan bir form gibi davranmaz.</p>
 <p>Düzeltme, ancak yayımlanmış bir kaynağa dayanıyorsa sonraki sürüme eklenir. Kaynağı olmayan bir iddia sessizce kesinleştirilmez.</p>
-<form class="contact-note" id="contact-note" data-mailto="" action="#">
+<form class="contact-note" id="contact-note" data-mailto="iletisim@onsekizmart.com" action="#">
 <p id="contact-status" role="status"></p>
 <label for="contact-page">İlgili sayfa adresi</label>
 <input id="contact-page" name="sayfa" type="url" inputmode="url" autocomplete="off">
@@ -82,7 +82,7 @@ CONTACT_BODY = """<p class="kicker">Yazışma</p>
   document.getElementById("contact-copy").addEventListener("click", function () {
     var text = packet();
     var sent = " Bir sunucuya gönderilmedi.";
-    var address = mail.hidden ? " Yazışma adresi tanımlı değil." : " E-posta taslağı ayrıca açılabilir.";
+    var address = mail.hidden ? " Yazışma adresi tanımlı değil." : " Bağlantı kendi posta programınızı açar; kopyalanan metin buradan gönderilmez.";
     function showLocal() {
       preview.hidden = false;
       preview.textContent = text;
@@ -137,7 +137,7 @@ PAGES = {
     ),
     "iletisim/index.html": (
         "İletişim",
-        "Bu sürümde kamuya açık bir yazışma adresi yoktur. Düzeltme notu yalnızca bu cihazda hazırlanır.",
+        "Yazışma adresi iletisim@onsekizmart.com. Düzeltme notu yalnızca bu cihazda hazırlanır; form bir sunucuya gönderilmez.",
         "https://onsekizmart.com/iletisim/",
         CONTACT_BODY,
     ),
