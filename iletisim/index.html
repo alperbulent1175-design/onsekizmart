@@ -4,14 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>İletişim · Çanakkale 1915</title>
-  <meta name="description" content="Bu sürümde kamuya açık bir yazışma adresi yoktur.">
+  <meta name="description" content="Bu sürümde kamuya açık bir yazışma adresi yoktur. Düzeltme notu yalnızca bu cihazda hazırlanır.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://onsekizmart.com/iletisim/">
+  <meta property="og:title" content="İletişim · Çanakkale 1915">
+  <meta property="og:description" content="Bu sürümde kamuya açık bir yazışma adresi yoktur. Düzeltme notu yalnızca bu cihazda hazırlanır.">
+  <meta property="og:url" content="https://onsekizmart.com/iletisim/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="tr_TR">
+  <link rel="stylesheet" href="/css/style.css?v=20261015d">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261015b">
 </head>
 <body>
 <a class="skip" href="#icerik">İçeriğe geç</a>
@@ -36,9 +41,83 @@
 <p class="kicker">Yazışma</p>
 <h1>İletişim</h1>
 <div class="prose">
-<p>Bu sürümde kamuya açık bir yazışma adresi ve iletişim formu yoktur. Çalışmayan bir form konmadı.</p>
+<p>Bu sürümde kamuya açık bir yazışma adresi yoktur. Aşağıdaki not yalnızca bu cihazda hazırlanır. Bir sunucuya gönderilmez ve çalışan bir form gibi davranmaz.</p>
 <p>Düzeltme, ancak yayımlanmış bir kaynağa dayanıyorsa sonraki sürüme eklenir. Kaynağı olmayan bir iddia sessizce kesinleştirilmez.</p>
+<form class="contact-note" id="contact-note" data-mailto="" action="#">
+<p id="contact-status" role="status"></p>
+<label for="contact-page">İlgili sayfa adresi</label>
+<input id="contact-page" name="sayfa" type="url" inputmode="url" autocomplete="off">
+<label for="contact-event">Olay adı</label>
+<input id="contact-event" name="olay" type="text" autocomplete="off">
+<label for="contact-source">Kaynak bağlantısı</label>
+<input id="contact-source" name="kaynak" type="url" inputmode="url" autocomplete="off">
+<label for="contact-body">Düzeltme notu</label>
+<textarea id="contact-body" name="not" rows="5"></textarea>
+<button class="btn" type="button" id="contact-copy">Notu kopyala</button>
+<p><a id="contact-mail" hidden rel="noopener noreferrer"></a></p>
+<pre id="contact-preview" hidden></pre>
+</form>
 </div>
+<script>
+(function () {
+  var form = document.getElementById("contact-note");
+  if (!form) return;
+  var status = document.getElementById("contact-status");
+  var preview = document.getElementById("contact-preview");
+  var mail = document.getElementById("contact-mail");
+  function clip(value, kind) {
+    var s = String(value || "").replace(/^[\s\u0000-\u001F]+|[\s\u0000-\u001F]+$/g, "");
+    if (!s) return "";
+    if (kind === "text") return s.slice(0, 500);
+    if (s.charAt(0) === "/" && s.indexOf("//") !== 0) return s.slice(0, 500);
+    if (/^https:\/\/onsekizmart\.com\//i.test(s)) return s.slice(0, 500);
+    if (kind === "source" && /^https:\/\//i.test(s)) return s.slice(0, 500);
+    return "";
+  }
+  var params;
+  try { params = new URLSearchParams(window.location.search); } catch (err) { params = null; }
+  if (params) {
+    document.getElementById("contact-page").value = clip(params.get("sayfa"), "page");
+    document.getElementById("contact-event").value = clip(params.get("olay"), "text");
+    document.getElementById("contact-source").value = clip(params.get("kaynak"), "source");
+  }
+  var raw = (form.getAttribute("data-mailto") || "").trim();
+  if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(raw)) {
+    mail.hidden = false;
+    mail.href = "mailto:" + raw;
+    mail.textContent = "E-posta taslağını aç";
+  }
+  function packet() {
+    return [
+      "Sayfa: " + (document.getElementById("contact-page").value || "—"),
+      "Olay: " + (document.getElementById("contact-event").value || "—"),
+      "Kaynak: " + (document.getElementById("contact-source").value || "—"),
+      "",
+      document.getElementById("contact-body").value || ""
+    ].join("\n");
+  }
+  function say(text) { status.textContent = text; }
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    say("Form bir sunucuya gönderilmedi.");
+  });
+  document.getElementById("contact-copy").addEventListener("click", function () {
+    var text = packet();
+    var sent = " Bir sunucuya gönderilmedi.";
+    var address = mail.hidden ? " Yazışma adresi tanımlı değil." : " E-posta taslağı ayrıca açılabilir.";
+    function showLocal() {
+      preview.hidden = false;
+      preview.textContent = text;
+      say("Kopyalanamadı; metin aşağıda." + sent + address);
+    }
+    if (!navigator.clipboard || !navigator.clipboard.writeText) { showLocal(); return; }
+    navigator.clipboard.writeText(text).then(function () {
+      preview.hidden = true;
+      say("Metin panoya kopyalandı." + sent + address);
+    }).catch(showLocal);
+  });
+})();
+</script>
 </main>
 <footer class="site-footer">
   <div class="inner">

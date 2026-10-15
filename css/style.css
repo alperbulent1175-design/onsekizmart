@@ -340,7 +340,11 @@ h2.sec {
   padding: 16px 16px 14px; cursor: pointer; text-align: left; color: inherit;
   width: 100%;
 }
-.card:hover, .card:focus { border-color: var(--gold); outline: none; }
+.card:hover, .card:focus { border-color: var(--gold); }
+.card:focus-visible, a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--gold-2);
+  outline-offset: 2px;
+}
 .card h3 { font-family: var(--serif); margin: 0 0 6px; font-size: 1.2rem; }
 .card .who { color: var(--gold-2); font-size: 0.86rem; margin-bottom: 8px; }
 .card p { margin: 0; color: var(--muted); font-size: 0.92rem; }
@@ -544,6 +548,35 @@ a.btn {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .panel, .om-marker--pulse .om-pin { transition: none; animation: none; }
+}
+
+.map-fallback, .map-tile-note {
+  position: relative;
+  z-index: 500;
+  margin: 12px;
+  max-width: 28rem;
+  padding: 12px 14px;
+  background: var(--paper);
+  color: var(--ink);
+}
+.map-fallback .btn, .map-tile-note button {
+  margin-top: 8px;
+  min-height: 44px;
+}
+.page-main table { max-width: 100%; }
+.contact-note label { display: block; margin: 14px 0 4px; }
+.contact-note input, .contact-note textarea {
+  width: 100%;
+  max-width: 40rem;
+  font: inherit;
+  padding: 8px 10px;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid rgba(13, 24, 35, 0.28);
+}
+.contact-note .btn { margin-top: 14px; }
+@media (max-width: 860px) {
+  .page-main table { display: block; overflow-x: auto; }
 }
 
 

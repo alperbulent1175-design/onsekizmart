@@ -1,10 +1,103 @@
 # -*- coding: utf-8 -*-
+"""Yasal sayfaları şablondan üretir ve site haritasını yayımlanan sayfalardan kurar."""
+from datetime import datetime, timezone
 from pathlib import Path
+import sys
+import xml.etree.ElementTree as ET
 
-root = Path(r"C:\Users\crawi\Desktop\onsekizmart-atlas")
-shell = (root / "page-shell.html").read_text(encoding="utf-8")
+SITE = "https://onsekizmart.com"
+SKIP_PARTS = {".git", "tests", "css", "js"}
+INFO_PATHS = {
+    "/hakkinda/",
+    "/kaynak-politikasi/",
+    "/telif/",
+    "/iletisim/",
+    "/gizlilik/",
+}
+GUIDE_PATHS = {"/kaynakca/", "/nasil-okunur/", "/sozluk/"}
 
-pages = {
+CONTACT_BODY = """<p class="kicker">Yazışma</p>
+<h1>İletişim</h1>
+<div class="prose">
+<p>Bu sürümde kamuya açık bir yazışma adresi yoktur. Aşağıdaki not yalnızca bu cihazda hazırlanır. Bir sunucuya gönderilmez ve çalışan bir form gibi davranmaz.</p>
+<p>Düzeltme, ancak yayımlanmış bir kaynağa dayanıyorsa sonraki sürüme eklenir. Kaynağı olmayan bir iddia sessizce kesinleştirilmez.</p>
+<form class="contact-note" id="contact-note" data-mailto="" action="#">
+<p id="contact-status" role="status"></p>
+<label for="contact-page">İlgili sayfa adresi</label>
+<input id="contact-page" name="sayfa" type="url" inputmode="url" autocomplete="off">
+<label for="contact-event">Olay adı</label>
+<input id="contact-event" name="olay" type="text" autocomplete="off">
+<label for="contact-source">Kaynak bağlantısı</label>
+<input id="contact-source" name="kaynak" type="url" inputmode="url" autocomplete="off">
+<label for="contact-body">Düzeltme notu</label>
+<textarea id="contact-body" name="not" rows="5"></textarea>
+<button class="btn" type="button" id="contact-copy">Notu kopyala</button>
+<p><a id="contact-mail" hidden rel="noopener noreferrer"></a></p>
+<pre id="contact-preview" hidden></pre>
+</form>
+</div>
+<script>
+(function () {
+  var form = document.getElementById("contact-note");
+  if (!form) return;
+  var status = document.getElementById("contact-status");
+  var preview = document.getElementById("contact-preview");
+  var mail = document.getElementById("contact-mail");
+  function clip(value, kind) {
+    var s = String(value || "").replace(/^[\\s\\u0000-\\u001F]+|[\\s\\u0000-\\u001F]+$/g, "");
+    if (!s) return "";
+    if (kind === "text") return s.slice(0, 500);
+    if (s.charAt(0) === "/" && s.indexOf("//") !== 0) return s.slice(0, 500);
+    if (/^https:\\/\\/onsekizmart\\.com\\//i.test(s)) return s.slice(0, 500);
+    if (kind === "source" && /^https:\\/\\//i.test(s)) return s.slice(0, 500);
+    return "";
+  }
+  var params;
+  try { params = new URLSearchParams(window.location.search); } catch (err) { params = null; }
+  if (params) {
+    document.getElementById("contact-page").value = clip(params.get("sayfa"), "page");
+    document.getElementById("contact-event").value = clip(params.get("olay"), "text");
+    document.getElementById("contact-source").value = clip(params.get("kaynak"), "source");
+  }
+  var raw = (form.getAttribute("data-mailto") || "").trim();
+  if (/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(raw)) {
+    mail.hidden = false;
+    mail.href = "mailto:" + raw;
+    mail.textContent = "E-posta taslağını aç";
+  }
+  function packet() {
+    return [
+      "Sayfa: " + (document.getElementById("contact-page").value || "—"),
+      "Olay: " + (document.getElementById("contact-event").value || "—"),
+      "Kaynak: " + (document.getElementById("contact-source").value || "—"),
+      "",
+      document.getElementById("contact-body").value || ""
+    ].join("\\n");
+  }
+  function say(text) { status.textContent = text; }
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    say("Form bir sunucuya gönderilmedi.");
+  });
+  document.getElementById("contact-copy").addEventListener("click", function () {
+    var text = packet();
+    var sent = " Bir sunucuya gönderilmedi.";
+    var address = mail.hidden ? " Yazışma adresi tanımlı değil." : " E-posta taslağı ayrıca açılabilir.";
+    function showLocal() {
+      preview.hidden = false;
+      preview.textContent = text;
+      say("Kopyalanamadı; metin aşağıda." + sent + address);
+    }
+    if (!navigator.clipboard || !navigator.clipboard.writeText) { showLocal(); return; }
+    navigator.clipboard.writeText(text).then(function () {
+      preview.hidden = true;
+      say("Metin panoya kopyalandı." + sent + address);
+    }).catch(showLocal);
+  });
+})();
+</script>"""
+
+PAGES = {
     "hakkinda/index.html": (
         "Hakkında",
         "onsekizmart.com, Çanakkale Cephesi için eğitim amaçlı bir harita ve kronolojidir.",
@@ -44,14 +137,9 @@ pages = {
     ),
     "iletisim/index.html": (
         "İletişim",
-        "Bu sürümde kamuya açık bir yazışma adresi yoktur.",
+        "Bu sürümde kamuya açık bir yazışma adresi yoktur. Düzeltme notu yalnızca bu cihazda hazırlanır.",
         "https://onsekizmart.com/iletisim/",
-        """<p class="kicker">Yazışma</p>
-<h1>İletişim</h1>
-<div class="prose">
-<p>Bu sürümde kamuya açık bir yazışma adresi ve iletişim formu yoktur. Çalışmayan bir form konmadı.</p>
-<p>Düzeltme, ancak yayımlanmış bir kaynağa dayanıyorsa sonraki sürüme eklenir. Kaynağı olmayan bir iddia sessizce kesinleştirilmez.</p>
-</div>""",
+        CONTACT_BODY,
     ),
     "gizlilik/index.html": (
         "Gizlilik",
@@ -66,47 +154,160 @@ pages = {
     ),
 }
 
-for rel, (title, desc, canon, body) in pages.items():
-    html = shell.replace("TITLE", title).replace("DESC", desc).replace("CANON", canon).replace("BODY", body)
-    dest = root / rel
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    dest.write_text(html, encoding="utf-8", newline="\n")
-    print(dest)
 
-sm = (root / "sitemap.xml").read_text(encoding="utf-8")
-block = """
-  <url>
-    <loc>https://onsekizmart.com/hakkinda/</loc>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://onsekizmart.com/kaynak-politikasi/</loc>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://onsekizmart.com/telif/</loc>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://onsekizmart.com/iletisim/</loc>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://onsekizmart.com/gizlilik/</loc>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-"""
-if "hakkinda/" not in sm:
-    sm = sm.replace("</urlset>", block + "</urlset>")
-    (root / "sitemap.xml").write_text(sm, encoding="utf-8", newline="\n")
-    print("sitemap")
+def project_root():
+    return Path(__file__).resolve().parent
+
+
+def fill_shell(shell, title, desc, canon, body):
+    if shell.count("BODY") != 1:
+        raise ValueError("Şablonda tam bir BODY yer tutucusu olmalı.")
+    for token in ("TITLE", "DESC", "CANON"):
+        if token not in shell.split("BODY", 1)[0]:
+            raise ValueError(f"Şablonda {token} yer tutucusu yok.")
+    head, tail = shell.split("BODY", 1)
+    head = head.replace("TITLE", title).replace("DESC", desc).replace("CANON", canon)
+    leftover = [token for token in ("TITLE", "DESC", "CANON") if token in head]
+    if leftover:
+        raise ValueError("Şablon yer tutucusu doldurulamadı: " + ", ".join(leftover))
+    html = head + body + tail
+    if "<html" not in html or "</html>" not in html or html.count("<h1>") != 1:
+        raise ValueError("Üretilen HTML yapısal olarak geçersiz.")
+    return html
+
+
+def write_if_changed(path, text):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.is_file():
+        current = path.read_text(encoding="utf-8")
+        if current == text or current.replace("\r\n", "\n") == text:
+            return False
+    path.write_text(text, encoding="utf-8", newline="\n")
+    return True
+
+
+def build_pages(root, pages=None, shell_name="page-shell.html"):
+    root = Path(root)
+    shell_path = root / shell_name
+    if not shell_path.is_file():
+        raise FileNotFoundError(f"Sayfa şablonu yok: {shell_path}")
+    shell = shell_path.read_text(encoding="utf-8")
+    written = []
+    for rel, (title, desc, canon, body) in (pages or PAGES).items():
+        if not str(canon).startswith(SITE + "/"):
+            raise ValueError(f"Canonical adres site kökünde değil: {canon}")
+        dest = root / rel
+        if write_if_changed(dest, fill_shell(shell, title, desc, canon, body)):
+            written.append(dest)
+    return written
+
+
+def published_pages(root):
+    root = Path(root)
+    pages = []
+    for path in sorted(root.rglob("index.html")):
+        if any(part in SKIP_PARTS or part.startswith(".") for part in path.relative_to(root).parts):
+            continue
+        pages.append(path)
+    return pages
+
+
+def expected_canonical(root, path):
+    rel = path.relative_to(root).as_posix()
+    if rel == "index.html":
+        return SITE + "/"
+    if not rel.endswith("/index.html"):
+        raise ValueError(f"Yayımlanan sayfa index.html değil: {rel}")
+    return SITE + "/" + rel[: -len("index.html")]
+
+
+def canonical_of(html):
+    start = html.find('rel="canonical" href="')
+    if start < 0:
+        return None
+    start += len('rel="canonical" href="')
+    end = html.find('"', start)
+    if end < 0:
+        return None
+    return html[start:end]
+
+
+def lastmod_of(path):
+    stamp = path.stat().st_mtime
+    return datetime.fromtimestamp(stamp, timezone.utc).date().isoformat()
+
+
+def priority_for(loc):
+    path = loc[len(SITE):] or "/"
+    if path == "/":
+        return "1.0"
+    if path in INFO_PATHS:
+        return "0.3"
+    if path in GUIDE_PATHS:
+        return "0.5"
+    return "0.6"
+
+
+def sitemap_entries(root):
+    root = Path(root)
+    found = {}
+    for path in published_pages(root):
+        html = path.read_text(encoding="utf-8")
+        if 'content="noindex' in html:
+            continue
+        canon = canonical_of(html)
+        if not canon:
+            raise ValueError(f"Canonical adresi yok: {path}")
+        expect = expected_canonical(root, path)
+        if canon != expect:
+            raise ValueError(f"Canonical adres dosyayla uyuşmuyor: {path} -> {canon}")
+        if canon in found:
+            raise ValueError(f"Mükerrer canonical: {canon}")
+        found[canon] = (lastmod_of(path), priority_for(canon))
+    return sorted(found.items(), key=lambda item: (item[0] != SITE + "/", item[0]))
+
+
+def render_sitemap(entries):
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ]
+    for loc, (modified, priority) in entries:
+        lines.extend([
+            "  <url>",
+            f"    <loc>{loc}</loc>",
+            f"    <lastmod>{modified}</lastmod>",
+            "    <changefreq>yearly</changefreq>",
+            f"    <priority>{priority}</priority>",
+            "  </url>",
+        ])
+    lines.append("</urlset>")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def write_sitemap(root):
+    root = Path(root)
+    xml = render_sitemap(sitemap_entries(root))
+    ET.fromstring(xml)
+    dest = root / "sitemap.xml"
+    write_if_changed(dest, xml)
+    return dest
+
+
+def main():
+    root = project_root()
+    try:
+        written = build_pages(root)
+        sitemap = write_sitemap(root)
+    except (OSError, ValueError) as exc:
+        print(f"Hata: {exc}", file=sys.stderr)
+        return 1
+    for path in written:
+        print(path)
+    print(sitemap)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

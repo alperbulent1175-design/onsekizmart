@@ -1,0 +1,122 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+import tempfile
+import unittest
+import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+import build_pages
+
+SHELL = """<!DOCTYPE html>
+<html lang="tr"><head>
+<title>TITLE · Çanakkale 1915</title>
+<meta name="description" content="DESC">
+<link rel="canonical" href="CANON">
+</head><body><main>
+BODY
+</main></body></html>
+"""
+
+
+class BuildPagesTests(unittest.TestCase):
+    def test_kok_betigin_klasorudur(self):
+        self.assertEqual(build_pages.project_root(), ROOT)
+        source = (ROOT / "build_pages.py").read_text(encoding="utf-8")
+        self.assertNotIn("C:\\Users", source)
+
+    def test_sablon_yoksa_anlasilir_hata(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaises(FileNotFoundError) as caught:
+                build_pages.build_pages(tmp, {})
+            self.assertIn("Sayfa şablonu yok", str(caught.exception))
+
+    def test_yer_tutucu_yoksa_hata(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "page-shell.html").write_text("<html><body>BODY</body></html>", encoding="utf-8")
+            pages = {"hakkinda/index.html": ("Hakkında", "A", "https://onsekizmart.com/hakkinda/", "<h1>Hakkında</h1>")}
+            with self.assertRaises(ValueError) as caught:
+                build_pages.build_pages(root, pages)
+            self.assertIn("TITLE", str(caught.exception))
+
+    def test_ikinci_calistirma_dosyayi_yeniden_yazmaz_ve_yeni_url_eklenir(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "page-shell.html").write_text(SHELL, encoding="utf-8")
+            (root / "page-shell.html").write_text(SHELL, encoding="utf-8")
+            pages = {
+                "hakkinda/index.html": (
+                    "Hakkında",
+                    "Açıklama",
+                    "https://onsekizmart.com/hakkinda/",
+                    "<h1>Hakkında</h1>",
+                )
+            }
+            self.assertEqual(len(build_pages.build_pages(root, pages)), 1)
+            self.assertEqual(build_pages.build_pages(root, pages), [])
+            (root / "sitemap.xml").write_text(
+                "<urlset><url><loc>https://onsekizmart.com/hakkinda/</loc></url></urlset>",
+                encoding="utf-8",
+            )
+            pages["gizlilik/index.html"] = (
+                "Gizlilik",
+                "Veri",
+                "https://onsekizmart.com/gizlilik/",
+                "<h1>Gizlilik</h1>",
+            )
+            build_pages.build_pages(root, pages)
+            xml = build_pages.render_sitemap(build_pages.sitemap_entries(root))
+            self.assertEqual(xml.count("https://onsekizmart.com/hakkinda/"), 1)
+            self.assertIn("https://onsekizmart.com/gizlilik/", xml)
+            self.assertNotIn("page-shell", xml)
+            ET.fromstring(xml)
+            build_pages.write_sitemap(root)
+            again = (root / "sitemap.xml").read_text(encoding="utf-8")
+            self.assertEqual(again.count("<loc>"), again.count("</loc>"))
+            self.assertEqual(len(ET.fromstring(again).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")), 2)
+
+    def test_lastmod_dosya_zamani(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "page-shell.html").write_text(SHELL, encoding="utf-8")
+            pages = {
+                "index.html": (
+                    "Ana",
+                    "Giriş",
+                    "https://onsekizmart.com/",
+                    "<h1>Ana</h1>",
+                )
+            }
+            build_pages.build_pages(root, pages)
+            page = root / "index.html"
+            stamp = datetime(2020, 1, 2, 12, 0, tzinfo=timezone.utc).timestamp()
+            os.utime(page, (stamp, stamp))
+            entries = dict(build_pages.sitemap_entries(root))
+            self.assertEqual(entries["https://onsekizmart.com/"][0], "2020-01-02")
+
+    def test_ayni_canonical_hata(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "olaylar").mkdir()
+            (root / "olaylar" / "index.html").write_text(
+                '<link rel="canonical" href="https://onsekizmart.com/olaylar/">',
+                encoding="utf-8",
+            )
+            (root / "kopya").mkdir()
+            (root / "kopya" / "index.html").write_text(
+                '<link rel="canonical" href="https://onsekizmart.com/olaylar/">',
+                encoding="utf-8",
+            )
+            with self.assertRaises(ValueError) as caught:
+                build_pages.sitemap_entries(root)
+            self.assertTrue(
+                "uyuşmuyor" in str(caught.exception) or "Mükerrer" in str(caught.exception)
+            )
+
+
+if __name__ == "__main__":
+    unittest.main()

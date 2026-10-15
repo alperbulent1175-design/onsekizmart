@@ -10,7 +10,9 @@
       title: "Yayımlanmış Çanakkale sefer özetleri",
       page: null,
       documentNo: null,
-      url: null
+      url: null,
+      scope: "kurum",
+      claimSupport: false
     },
     {
       id: "awm",
@@ -19,7 +21,9 @@
       title: "Gallipoli kronolojileri",
       page: null,
       documentNo: null,
-      url: "https://www.awm.gov.au/"
+      url: "https://www.awm.gov.au/",
+      scope: "kurum",
+      claimSupport: false
     },
     {
       id: "iwm",
@@ -28,7 +32,9 @@
       title: "Gallipoli anlatıları",
       page: null,
       documentNo: null,
-      url: "https://www.iwm.org.uk/"
+      url: "https://www.iwm.org.uk/",
+      scope: "kurum",
+      claimSupport: false
     }
   ];
 
@@ -95,6 +101,26 @@
     return !!(doc && doc.rights === "izinli" && doc.title && doc.date);
   }
 
+  function escapeHtml(value) {
+    return String(value == null ? "" : value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function safeUrl(value) {
+    var s = String(value == null ? "" : value).trim();
+    if (!s || /[\u0000-\u001F\s]/.test(s)) return "";
+    if (s.indexOf("//") === 0) return "";
+    if (s.charAt(0) === "/" || s.charAt(0) === "#" || s.charAt(0) === "?") return s;
+    var match = s.match(/^([a-z][a-z0-9+.-]*):/i);
+    if (!match) return "";
+    if (match[1].toLowerCase() === "https" || match[1].toLowerCase() === "http") return s;
+    return "";
+  }
+
   root.OMModel = {
     catalog: catalog,
     archive: archive,
@@ -102,6 +128,8 @@
     annotate: annotate,
     eventsOnDate: eventsOnDate,
     dayMessage: dayMessage,
-    publishable: publishable
+    publishable: publishable,
+    escapeHtml: escapeHtml,
+    safeUrl: safeUrl
   };
 })(typeof window !== "undefined" ? window : globalThis);
