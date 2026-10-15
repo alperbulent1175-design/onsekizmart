@@ -3,3 +3,16 @@ verify-out.txt
 __pycache__/
 *.pyc
 
+archive/
+*.jsonl
+research/**/ham/
+
+.env
+.env.*
+!.env.example
+!*.env.example
+
+.venv/
+venv/
+env/
+
