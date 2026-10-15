@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Telif · Çanakkale 1915</title>
+  <meta name="description" content="Site metni onsekizmart.com yayınıdır. Harita karoları OpenStreetMap ve Esri’ye aittir.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://onsekizmart.com/telif/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css?v=20261015b">
+</head>
+<body>
+<a class="skip" href="#icerik">İçeriğe geç</a>
+<header class="nav">
+  <a class="brand" href="/">
+    <span class="brand-mark">18 MART 1915</span>
+    <span class="brand-sub">Çanakkale</span>
+  </a>
+  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">Menü</button>
+  <nav class="nav-panel" id="nav-panel" aria-label="Site">
+    <ul class="nav-links">
+      <li><a href="/#harita">Harita</a></li>
+      <li><a href="/#kronoloji">Kronoloji</a></li>
+      <li><a href="/olaylar/">Olaylar</a></li>
+      <li><a href="/komutanlar/">Komutanlar</a></li>
+      <li><a href="/donanma/">Donanma</a></li>
+      <li><a href="/kaynakca/">Kaynakça</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="page-main" id="icerik">
+<p class="kicker">Kullanım</p>
+<h1>Telif</h1>
+<div class="prose">
+<p>Sayfa metinleri onsekizmart.com yayınıdır. Kopyalarken site adı ve ilgili olayın adresi belirtilmelidir.</p>
+<p>Yol haritası karoları OpenStreetMap katkıda bulunanlara, uydu görüntüsü Esri’ye aittir. Atıf, haritanın köşesindedir. Bu karolar sitenin malı değildir.</p>
+<p>Üçüncü taraf arşivinden fotoğraf, mektup veya harita, kullanım hakkı yazılmadan sayfaya konmaz. Hakkı bilinmeyen belge serbest sayılmaz.</p>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="inner">
+    <p>onsekizmart.com · Çanakkale Cephesi. Eğitim modeli; resmî birlik cetveli değildir.</p>
+    <nav class="foot-links" aria-label="Alt">
+      <a href="/hakkinda/">Hakkında</a>
+      <a href="/kaynak-politikasi/">Kaynak politikası</a>
+      <a href="/telif/">Telif</a>
+      <a href="/iletisim/">İletişim</a>
+      <a href="/gizlilik/">Gizlilik</a>
+      <a href="/kaynakca/">Kaynakça</a>
+    </nav>
+  </div>
+</footer>
+<script>
+(function () {
+  var b = document.getElementById("nav-toggle");
+  var p = document.getElementById("nav-panel");
+  if (!b || !p) return;
+  b.addEventListener("click", function () {
+    var open = p.classList.toggle("is-open");
+    b.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+})();
+</script>
+</body>
+</html>

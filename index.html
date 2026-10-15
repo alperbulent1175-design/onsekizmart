@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>18 Mart 1915 · Çanakkale</title>
+  <meta name="description" content="Çanakkale Cephesi’nin haritası ve kronolojisi. 18 Mart 1915’ten olayın yerine, komutanına ve gemisine.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://onsekizmart.com/">
+  <meta property="og:title" content="18 Mart 1915 · Çanakkale">
+  <meta property="og:description" content="Çanakkale Cephesi’nin haritası ve kronolojisi. Olaydan yere, komutana ve gemiye.">
+  <meta property="og:url" content="https://onsekizmart.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="tr_TR">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="css/style.css?v=20261015c">
+</head>
+<body class="home">
+<a class="skip" href="#map">Haritaya geç</a>
+<header class="nav">
+  <a class="brand" href="/">
+    <span class="brand-mark">18 MART 1915</span>
+    <span class="brand-sub">Çanakkale</span>
+  </a>
+  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">Menü</button>
+  <nav class="nav-panel" id="nav-panel" aria-label="Site">
+    <ul class="nav-links">
+      <li><a href="/#harita">Harita</a></li>
+      <li><a href="/#kronoloji">Kronoloji</a></li>
+      <li class="has-sub">
+        <a href="/olaylar/">Olaylar</a>
+        <ul class="sub">
+          <li><a href="/olaylar/#deniz">Deniz</a></li>
+          <li><a href="/olaylar/#kara">Kara</a></li>
+          <li><a href="/olaylar/#tahliye">Tahliye</a></li>
+        </ul>
+      </li>
+      <li class="has-sub">
+        <a href="/komutanlar/">Komutanlar</a>
+        <ul class="sub">
+          <li><a href="/komutanlar/#osmanli">Osmanlı</a></li>
+          <li><a href="/komutanlar/#itilaf">İtilaf</a></li>
+        </ul>
+      </li>
+      <li><a href="/donanma/">Donanma</a></li>
+      <li class="has-sub nav-site">
+        <a href="/kaynakca/">Kaynakça</a>
+        <ul class="sub">
+          <li><a href="/nasil-okunur/">Nasıl okunur</a></li>
+          <li><a href="/sozluk/">Sözlük</a></li>
+          <li><a href="/hakkinda/">Hakkında</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<section class="gate" id="giris">
+  <div>
+    <p class="kicker">Çanakkale Cephesi</p>
+    <h1>18 Mart 1915</h1>
+    <p class="gate-verse">Dur Yolcu, bilmeden gelip bastığın<br>bu toprak bir devrin battığı yerdir.</p>
+  </div>
+  <div>
+    <p class="gate-copy">Boğaz’ın geçilemediği günün haritası ve Şubat 1915–Ocak 1916 seferinin kronolojisi. Bir olaydan yerine, komutanına ve gemisine geçilir.</p>
+    <div class="gate-actions">
+      <a class="btn btn-solid" href="#harita">Haritayı aç</a>
+      <a class="btn" href="#kronoloji">Kronolojiyi keşfet</a>
+    </div>
+  </div>
+</section>
+
+<section class="map-stage" id="harita" aria-label="Harekât haritası">
+  <div class="map-frame">
+    <div id="map" role="application" aria-label="Çanakkale 1915 haritası. Açılış: 18 Mart deniz muharebesi. Taban harita günümüz uydu görüntüsüdür."></div>
+    <div class="map-chrome layers" id="layers"></div>
+    <div class="map-chrome search">
+      <label class="visually-hidden" for="q" style="position:absolute;left:-999px">Mevki ara</label>
+      <input id="q" type="search" placeholder="Tabya, gemi, muharebe ara…" autocomplete="off">
+      <ul class="search-results" id="q-results" hidden></ul>
+    </div>
+  </div>
+  <div class="stage-side">
+    <div class="timeline">
+      <div class="timeline-top">
+        <strong id="clock">07:30</strong>
+        <div class="tl-controls">
+          <button type="button" id="mode-18" aria-pressed="true">18 Mart</button>
+          <button type="button" id="mode-camp" aria-pressed="false">Kampanya</button>
+          <button type="button" id="tl-play">Oynat</button>
+          <span id="naval-side">
+            <button type="button" id="tl-both" aria-pressed="true">İki taraf</button>
+            <button type="button" id="tl-turk" aria-pressed="false">Osmanlı</button>
+            <button type="button" id="tl-itilaf" aria-pressed="false">İtilaf</button>
+          </span>
+        </div>
+      </div>
+      <input id="tl-range" type="range" min="450" max="1350" value="450" step="1" aria-label="Saat">
+      <p class="tl-hint" id="tl-hint">Saat çubuğu 18 Mart 1915 günüdür.</p>
+      <p class="tl-event" id="tl-event"><em>07:30</em> Zaman çubuğunu kaydırın; harita o saatteki mevkiye uçar.</p>
+      <ul class="legend" aria-label="İşaretler">
+        <li><b class="t">T</b>Tabya</li>
+        <li><b class="b">B</b>Birlik</li>
+        <li><b class="g">G</b>Gemi</li>
+        <li><b class="x">X</b>Batış</li>
+        <li><b class="k">K</b>Komuta</li>
+        <li><b class="h">H</b>Kara</li>
+      </ul>
+      <p class="accuracy">Taban harita günümüz görüntüsüdür. İşaretler yaklaşıktır. <a href="/kaynakca/">Kaynakça</a></p>
+    </div>
+    <aside class="panel" id="panel" inert>
+      <div class="panel-head">
+        <div>
+          <h2 id="panel-title"></h2>
+          <p id="panel-meta"></p>
+        </div>
+        <button class="panel-close" type="button" id="panel-close" aria-label="Notu kapat">×</button>
+      </div>
+      <div class="panel-body" id="panel-body"></div>
+    </aside>
+  </div>
+</section>
+
+<section class="sheet" id="secilmis" data-date="18 Mart 1915">
+  <p class="section-kicker" id="day-kicker">Seçilmiş gün</p>
+  <h2 class="sec" id="day-heading">18 Mart 1915</h2>
+  <div class="prose" id="day-body"></div>
+  <p class="accuracy" id="day-empty" hidden></p>
+  <div class="record-grid" id="day-links"></div>
+</section>
+
+<section class="sheet" id="kronoloji">
+  <p class="section-kicker">Şubat 1915 – Ocak 1916</p>
+  <h2 class="sec">Kronoloji</h2>
+  <div class="prose">
+    <p>Satıra basınca harita o mevkiye gider. 18 Mart satırı saat şeridini açar. Listede olmayan bir gün için olay üretilmez. Aralık notu, ayrı bir muharebe sayfası değildir. Adı olan olaylar <a href="/olaylar/">Olaylar</a> sayfasındadır.</p>
+  </div>
+  <div class="filters" id="camp-filters">
+    <button class="chip" type="button" data-camp="all" aria-pressed="true">Tümü</button>
+    <button class="chip" type="button" data-camp="osmanli" aria-pressed="false">Osmanlı</button>
+    <button class="chip" type="button" data-camp="itilaf" aria-pressed="false">İtilaf</button>
+    <button class="chip" type="button" data-camp="deniz" aria-pressed="false">Deniz</button>
+    <button class="chip" type="button" data-camp="kara" aria-pressed="false">Kara</button>
+  </div>
+  <ol class="event-list" id="camp-list"></ol>
+
+  <h2 class="sec" id="saat">18 Mart, saat saat</h2>
+  <div class="prose">
+    <p>Bu şerit yalnız 18 Mart 1915 günüdür. Saati yazılmayan bir olaya saat verilmez.</p>
+  </div>
+  <div class="filters" id="kron-filters">
+    <button class="chip" type="button" data-side="both" aria-pressed="true">Tümü</button>
+    <button class="chip" type="button" data-side="turk" aria-pressed="false">Osmanlı</button>
+    <button class="chip" type="button" data-side="itilaf" aria-pressed="false">İtilaf</button>
+  </div>
+  <ol class="event-list" id="event-list"></ol>
+</section>
+
+<section class="sheet" id="kayitlar">
+  <p class="section-kicker">Kayıtlar</p>
+  <h2 class="sec">Komutan, gemi, muharebe</h2>
+  <div class="record-grid">
+    <a href="/komutanlar/cevat-bey-cobanli/"><span>Osmanlı</span><strong>Cevat Bey</strong><em>Müstahkem Mevkii Komutanı</em></a>
+    <a href="/komutanlar/mustafa-kemal/"><span>Osmanlı</span><strong>Mustafa Kemal</strong><em>19. Tümen, sonra Anafartalar</em></a>
+    <a href="/komutanlar/liman-von-sanders/"><span>Osmanlı</span><strong>Liman von Sanders</strong><em>5. Ordu Komutanı</em></a>
+    <a href="/komutanlar/john-de-robeck/"><span>İtilaf</span><strong>John de Robeck</strong><em>Deniz komutanı, 17 Mart’tan</em></a>
+    <a href="/donanma/"><span>Donanma</span><strong>Gemi kadrosu</strong><em>Nusret, Bouvet ve hat</em></a>
+    <a href="/olaylar/seddulbahir-cikarmasi/"><span>25 Nisan</span><strong>Seddülbahir</strong><em>Çıkarma</em></a>
+    <a href="/olaylar/ariburnu-cikarmasi/"><span>25 Nisan</span><strong>Arıburnu</strong><em>Çıkarma</em></a>
+    <a href="/olaylar/conkbayiri-muharebesi/"><span>Kara</span><strong>Conkbayırı</strong><em>Muharebe</em></a>
+    <a href="/#harita"><span>Harita</span><strong>Birlik işaretleri</strong><em>Sorumluluk sahasının merkezi</em></a>
+  </div>
+
+  <h2 class="sec">Kaynak ve rehber</h2>
+  <div class="record-grid">
+    <a href="/kaynakca/"><span>Kaynak</span><strong>Kaynakça</strong><em>ATASE, AWM, IWM</em></a>
+    <a href="/nasil-okunur/"><span>Rehber</span><strong>Nasıl okunur</strong><em>Harita ve saat şeridi</em></a>
+    <a href="/sozluk/"><span>Rehber</span><strong>Sözlük</strong><em>Tabya, hat, kolordu</em></a>
+  </div>
+  <div class="prose">
+    <p>Belge arşivi bu sürümde yok. Fotoğraf ve rapor, hakkı bilinmeden sayfaya konmaz.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <p>onsekizmart.com · Çanakkale Cephesi. Eğitim modeli; resmî birlik cetveli değildir. Mevkiler yaklaşıktır.</p>
+    <nav class="foot-links" aria-label="Alt">
+      <a href="/hakkinda/">Hakkında</a>
+      <a href="/kaynak-politikasi/">Kaynak politikası</a>
+      <a href="/telif/">Telif</a>
+      <a href="/iletisim/">İletişim</a>
+      <a href="/gizlilik/">Gizlilik</a>
+      <a href="/kaynakca/">Kaynakça</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="js/data.js"></script>
+<script src="js/campaign.js?v=20261015"></script>
+<script src="js/model.js?v=20261015"></script>
+<script src="js/app.js?v=20261015"></script>
+</body>
+</html>
