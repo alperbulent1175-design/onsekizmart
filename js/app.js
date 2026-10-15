@@ -47,6 +47,14 @@
     return !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
   }
 
+  function foldTr(value) {
+    var s = String(value == null ? "" : value);
+    s = s.replace(/İ/g, "i").replace(/I/g, "ı");
+    s = s.toLocaleLowerCase("tr");
+    s = s.replace(/ş/g, "s").replace(/ğ/g, "g").replace(/ç/g, "c").replace(/ö/g, "o").replace(/ü/g, "u").replace(/ı/g, "i");
+    return s;
+  }
+
   function textEl(tag, text, className) {
     var node = document.createElement(tag);
     if (className) node.className = className;
@@ -139,6 +147,17 @@
     box.className = "map-fallback";
     box.setAttribute("role", "alert");
     box.appendChild(textEl("p", message + " Kronoloji ve olay listesi kullanılabilir."));
+    var jump = document.createElement("p");
+    var toChron = document.createElement("a");
+    toChron.href = "#kronoloji";
+    toChron.textContent = "Kronolojiye geç";
+    var toEvents = document.createElement("a");
+    toEvents.href = "/olaylar/";
+    toEvents.textContent = "Olay listesi";
+    jump.appendChild(toChron);
+    jump.appendChild(document.createTextNode(" · "));
+    jump.appendChild(toEvents);
+    box.appendChild(jump);
     var retry = document.createElement("button");
     retry.type = "button";
     retry.className = "btn";
@@ -157,7 +176,7 @@
     var note = document.createElement("p");
     note.className = "map-tile-note";
     note.setAttribute("role", "status");
-    note.appendChild(document.createTextNode("Harita karoları yüklenemedi. İşaretler duruyor. "));
+    note.appendChild(document.createTextNode("Harita karoları yüklenemedi. İşaretler duruyor. Kronoloji kullanılabilir. "));
     var retry = document.createElement("button");
     retry.type = "button";
     retry.textContent = "Karoları yeniden dene";
@@ -168,6 +187,11 @@
       if (tiles && tiles.yol && map && map.hasLayer(tiles.yol) && tiles.yol.redraw) tiles.yol.redraw();
     });
     note.appendChild(retry);
+    var toChron = document.createElement("a");
+    toChron.href = "#kronoloji";
+    toChron.textContent = "Kronolojiye geç";
+    note.appendChild(document.createTextNode(" "));
+    note.appendChild(toChron);
     frame.appendChild(note);
   }
 
@@ -215,7 +239,8 @@
   var activeId = null;
   var mode = "naval";
   var sideFilter = "both";
-  var campFilter = "all";
+  var campSide = "all";
+  var campDomain = "all";
   var campIndex = 0;
   var navalMinute = 450;
   var playing = false;
@@ -256,69 +281,205 @@
     });
   }
 
+  function closeTools() {
+    var root = document.body;
+    if (!root || !root.classList) return;
+    root.classList.remove("is-search-open", "is-filter-open", "is-layer-open");
+    ["tool-search", "tool-filter", "tool-layers"].forEach(function (id) {
+      var btn = document.getElementById(id);
+      if (btn) btn.setAttribute("aria-expanded", "false");
+    });
+  }
+
+  function fillPanel(spec) {
+    var panel = document.getElementById("panel");
+    var title = document.getElementById("panel-title");
+    var meta = document.getElementById("panel-meta");
+    var body = document.getElementById("panel-body");
+    var empty = document.getElementById("dock-empty");
+    if (!panel || !title || !meta || !body) return;
+    title.textContent = spec.title || "";
+    var bits = [];
+    if (spec.date) bits.push(spec.date);
+    if (spec.side) bits.push(spec.side);
+    if (spec.meta) bits.push(spec.meta);
+    meta.textContent = bits.join(" · ");
+    if (body.replaceChildren) body.replaceChildren();
+    else body.innerHTML = "";
+    if (spec.text) body.appendChild(textEl("p", spec.text));
+    if (spec.accuracy) body.appendChild(textEl("p", spec.accuracy));
+    if (spec.source) body.appendChild(textEl("p", spec.source));
+    if (spec.href) {
+      var link = document.createElement("a");
+      link.className = "event-page-link";
+      link.href = spec.href;
+      link.textContent = spec.hrefLabel || "Ayrıntı";
+      body.appendChild(link);
+    }
+    (spec.extra || []).forEach(function (node) { body.appendChild(node); });
+    panel.classList.add("open");
+    panel.inert = false;
+    if (empty) empty.hidden = true;
+    closeTools();
+  }
+
+  function paintCurrent(listSel, isOn) {
+    var nodes = document.querySelectorAll(listSel);
+    Array.prototype.forEach.call(nodes, function (li) {
+      var on = !!isOn(li);
+      li.classList.toggle("is-current", on);
+      var btn = li.querySelector ? li.querySelector("button") : null;
+      if (btn) btn.setAttribute("aria-current", on ? "true" : "false");
+    });
+  }
+
+  function flyToPlace(place, fly) {
+    if (!fly || !place || !map) return;
+    map.flyTo([place.lat, place.lng], Math.max(map.getZoom(), 13), { duration: motionOn() ? 0.85 : 0 });
+  }
+
+  function fillFromNaval(ev, fly) {
+    var place = ev.place ? findPlace(ev.place) : null;
+    fillPanel({
+      title: ev.title,
+      date: "18 Mart 1915 · " + ev.t,
+      side: sideLabel(ev.side),
+      meta: place ? place.name : "",
+      text: ev.text,
+      accuracy: place ? accuracyText(place) : "Haritada ayrı nokta yok.",
+      source: sourceText(ev),
+      href: "/olaylar/18-mart-deniz-muharebesi/",
+      hrefLabel: "18 Mart sayfası"
+    });
+    activeId = place ? place.id : null;
+    paintIcons();
+    flyToPlace(place, fly);
+    paintCurrent("#event-list li", function (li) {
+      var time = li.querySelector("time");
+      var heading = li.querySelector("h3");
+      return !!(time && heading && time.textContent === ev.t && heading.textContent === ev.title);
+    });
+  }
+
+  function fillFromCamp(ev, fly) {
+    var place = ev.place ? findPlace(ev.place) : null;
+    var href = localHref(eventPageHref(ev));
+    var accuracy = ev.quiet
+      ? "Aralık notu. Ayrı bir muharebe kaydı değildir."
+      : (place ? accuracyText(place) : "Haritada ayrı nokta yok.");
+    fillPanel({
+      title: ev.title,
+      date: ev.date,
+      side: sideLabel(ev.side),
+      meta: place ? place.name : "",
+      text: ev.text,
+      accuracy: accuracy,
+      source: sourceText(ev),
+      href: href,
+      hrefLabel: "Ayrıntı"
+    });
+    activeId = place ? place.id : null;
+    paintIcons();
+    flyToPlace(place, fly);
+    paintCurrent("#camp-list li", function (li) { return li.id === "event-" + ev.id; });
+  }
+
   function openPlace(id, fly) {
     var p = findPlace(id);
     if (!p) return;
     activeId = id;
     paintIcons();
-    if (map && fly !== false) {
-      map.flyTo([p.lat, p.lng], Math.max(map.getZoom(), 13), { duration: motionOn() ? 0.85 : 0 });
-    }
-    var panel = document.getElementById("panel");
-    document.getElementById("panel-title").textContent = p.name;
-    document.getElementById("panel-meta").textContent = p.meta || "";
-    var body = document.getElementById("panel-body");
-    if (body.replaceChildren) body.replaceChildren();
-    else body.innerHTML = "";
-    if (p.hits) body.appendChild(textEl("span", p.hits, "hits"));
-    if (p.strength) body.appendChild(textEl("span", p.strength, "hits"));
-    (p.note || []).forEach(function (n) { body.appendChild(textEl("p", n)); });
-    body.appendChild(textEl("p", accuracyText(p)));
-    body.appendChild(textEl("p", sourceText(p)));
+    flyToPlace(p, fly);
+    var extra = [];
+    if (p.hits) extra.push(textEl("span", p.hits, "hits"));
+    if (p.strength) extra.push(textEl("span", p.strength, "hits"));
     var related = [];
-    if (D.campaign) {
-      related = D.campaign.events.filter(function (ev) { return ev.place === id; });
+    if (D.campaign) related = D.campaign.events.filter(function (ev) { return ev.place === id; });
+    var href = "";
+    related.some(function (ev) {
+      href = localHref(eventPageHref(ev));
+      return !!href;
+    });
+    if (related.length) extra.push(textEl("h3", "Bu mevkideki sefer olayları"));
+    related.forEach(function (ev) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "ev-btn";
+      btn.setAttribute("data-camp", ev.id);
+      btn.appendChild(textEl("strong", ev.date));
+      btn.appendChild(document.createTextNode(" " + (ev.title || "")));
+      extra.push(btn);
+    });
+    var navalHere = (D.events || []).filter(function (ev) { return ev.place === id; });
+    var date = "";
+    var side = "";
+    if (related.length === 1) {
+      date = related[0].date;
+      side = sideLabel(related[0].side);
+    } else if (navalHere.length && !related.length) {
+      date = "18 Mart 1915";
+      var sides = {};
+      navalHere.forEach(function (ev) { sides[ev.side] = true; });
+      var keys = Object.keys(sides);
+      side = keys.length === 1 ? sideLabel(keys[0]) : (keys.length > 1 ? "İki taraf" : "");
     }
-    if (related.length) {
-      body.appendChild(textEl("h3", "Bu mevkideki sefer olayları"));
-      related.forEach(function (ev) {
-        var btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "ev-btn";
-        btn.setAttribute("data-camp", ev.id);
-        btn.appendChild(textEl("strong", ev.date));
-        btn.appendChild(document.createTextNode(" " + (ev.title || "")));
-        body.appendChild(btn);
-        var pageHref = localHref(eventPageHref(ev));
-        if (pageHref) {
-          var link = document.createElement("a");
-          link.className = "event-page-link";
-          link.href = pageHref;
-          link.textContent = "Olay sayfası";
-          body.appendChild(link);
-        }
-      });
-    }
-    panel.classList.add("open");
-    panel.inert = false;
-    var search = document.querySelector(".search");
-    if (search) search.classList.add("is-hidden");
+    fillPanel({
+      title: p.name,
+      date: date,
+      side: side,
+      meta: p.meta || "",
+      text: p.short || (p.note && p.note[0]) || "",
+      accuracy: accuracyText(p),
+      source: sourceText(p),
+      href: href,
+      hrefLabel: "Ayrıntı",
+      extra: extra
+    });
   }
 
   function closePanel() {
     activeId = null;
     var panel = document.getElementById("panel");
-    panel.classList.remove("open");
-    panel.inert = true;
-    var search = document.querySelector(".search");
-    if (search) search.classList.remove("is-hidden");
+    if (panel) {
+      panel.classList.remove("open");
+      panel.inert = true;
+    }
+    var empty = document.getElementById("dock-empty");
+    if (empty) empty.hidden = false;
     paintIcons();
+  }
+
+  function selectPlace(id, fly) {
+    var p = findPlace(id);
+    if (!p) return;
+    if (mode === "naval") {
+      var hit = null;
+      D.events.forEach(function (ev) { if (ev.place === id) hit = ev; });
+      if (hit) {
+        navalMinute = hit.m;
+        range.value = String(hit.m);
+        showTime(hit.m, fly);
+        return;
+      }
+    } else if (D.campaign) {
+      var list = campEvents();
+      var idx = -1;
+      list.forEach(function (ev, i) { if (ev.place === id) idx = i; });
+      if (idx >= 0) {
+        campIndex = idx;
+        range.max = String(Math.max(0, list.length - 1));
+        range.value = String(idx);
+        showCamp(idx, fly);
+        return;
+      }
+    }
+    openPlace(id, fly);
   }
 
   function addMarker(p) {
     var m = L.marker([p.lat, p.lng], { icon: iconFor(p.type), title: p.name })
       .addTo(groups[p.type] || groups.tabya)
-      .on("click", function () { openPlace(p.id, false); });
+      .on("click", function () { selectPlace(p.id, false); });
     m.bindTooltip(p.name, { direction: "top", offset: [0, -12] });
     markers[p.id] = m;
   }
@@ -343,16 +504,12 @@
     }).addTo(groups[ln.type]);
     pl.bindTooltip(ln.name);
     pl.on("click", function () {
-      document.getElementById("panel-title").textContent = ln.name;
-      document.getElementById("panel-meta").textContent = "Hat / manevra";
-      var lineBody = document.getElementById("panel-body");
-      if (lineBody.replaceChildren) lineBody.replaceChildren(textEl("p", ln.note));
-      else lineBody.appendChild(textEl("p", ln.note));
-      var panel = document.getElementById("panel");
-      panel.classList.add("open");
-      panel.inert = false;
-      var lineSearch = document.querySelector(".search");
-      if (lineSearch) lineSearch.classList.add("is-hidden");
+      fillPanel({
+        title: ln.name,
+        meta: "Hat / manevra",
+        text: ln.note || "",
+        accuracy: "Şematik gösterim. Kesin koordinat değildir."
+      });
     });
   });
 
@@ -395,31 +552,67 @@
     if (ev) focusCampEvent(ev);
   });
   document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") closePanel();
+    if (e.key !== "Escape") return;
+    closeTools();
+    closePanel();
   });
 
   var q = document.getElementById("q");
   var qRes = document.getElementById("q-results");
-  q.addEventListener("input", function () {
-    var v = q.value.trim().toLocaleLowerCase("tr");
-    qRes.innerHTML = "";
-    if (v.length < 2) { qRes.hidden = true; return; }
-    allPlaces().filter(function (p) {
-      return (p.name + " " + (p.meta || "")).toLocaleLowerCase("tr").indexOf(v) !== -1;
-    }).slice(0, 8).forEach(function (p) {
-      var li = document.createElement("li");
-      var btn = document.createElement("button");
-      btn.type = "button";
-      btn.textContent = p.name;
-      btn.addEventListener("click", function () {
-        openPlace(p.id);
-        qRes.hidden = true;
-        q.value = p.name;
-      });
-      li.appendChild(btn);
-      qRes.appendChild(li);
+  function addSearchHit(label, onPick, p) {
+    var li = document.createElement("li");
+    var btn = document.createElement("button");
+    btn.type = "button";
+    if (p) btn.textContent = p.name;
+    else btn.textContent = label;
+    btn.addEventListener("click", function () {
+      qRes.hidden = true;
+      q.setAttribute("aria-expanded", "false");
+      q.value = label;
+      onPick();
     });
-    qRes.hidden = qRes.childElementCount === 0;
+    li.appendChild(btn);
+    qRes.appendChild(li);
+  }
+  q.addEventListener("input", function () {
+    var v = foldTr(q.value.trim());
+    qRes.innerHTML = "";
+    if (v.length < 2) {
+      qRes.hidden = true;
+      q.setAttribute("aria-expanded", "false");
+      return;
+    }
+    var count = 0;
+    allPlaces().forEach(function (p) {
+      if (count >= 8) return;
+      var hay = foldTr(p.name + " " + (p.meta || "") + " " + (p.short || ""));
+      if (hay.indexOf(v) === -1) return;
+      count += 1;
+      addSearchHit(p.name, function () { selectPlace(p.id, true); }, p);
+    });
+    (D.events || []).forEach(function (ev) {
+      if (count >= 8) return;
+      var hay = foldTr(ev.t + " " + ev.title + " " + ev.text);
+      if (hay.indexOf(v) === -1) return;
+      count += 1;
+      addSearchHit(ev.t + " " + ev.title, function () {
+        if (mode !== "naval") setMode("naval");
+        navalMinute = ev.m;
+        range.value = String(ev.m);
+        showTime(ev.m, true);
+      }, null);
+    });
+    if (D.campaign) {
+      D.campaign.events.forEach(function (ev) {
+        if (count >= 8) return;
+        var hay = foldTr(ev.date + " " + ev.title + " " + ev.text);
+        if (hay.indexOf(v) === -1) return;
+        count += 1;
+        addSearchHit(ev.date + " " + ev.title, function () { focusCampEvent(ev); }, null);
+      });
+    }
+    qRes.hidden = qRes.children.length === 0;
+    q.setAttribute("aria-expanded", qRes.hidden ? "false" : "true");
   });
 
   var clock = document.getElementById("clock");
@@ -442,21 +635,26 @@
   }
 
   function showTime(m, fly) {
-    clock.textContent = minsToClock(m);
+    navalMinute = m;
+    var label = minsToClock(m);
+    clock.textContent = "18 Mart · " + label;
+    if (range) range.setAttribute("aria-valuetext", "18 Mart 1915 " + label);
     var list = eventsAt(m, sideFilter);
     var last = list[list.length - 1];
     if (!last) {
-      tlEvent.replaceChildren(textEl("em", minsToClock(m)), document.createTextNode(" Bu saatten önce kayıtlı olay yok."));
+      tlEvent.replaceChildren(textEl("em", label), document.createTextNode(" Bu saatten önce kayıtlı olay yok."));
+      paintCurrent("#event-list li", function () { return false; });
       return;
     }
     tlEvent.replaceChildren(textEl("em", last.t), document.createTextNode(" " + last.title + " — " + last.text));
-    if (fly && last.place) openPlace(last.place);
+    fillFromNaval(last, fly);
   }
 
   function sideLabel(s) {
-    if (s === "osmanli") return "Osmanlı";
+    if (s === "osmanli" || s === "turk") return "Osmanlı";
     if (s === "itilaf") return "İtilaf";
-    return "İki taraf";
+    if (s === "both") return "İki taraf";
+    return "";
   }
 
   function domainLabel(d) {
@@ -468,12 +666,23 @@
   function campEvents() {
     if (!D.campaign) return [];
     return D.campaign.events.filter(function (ev) {
-      if (campFilter === "all") return true;
-      if (campFilter === "osmanli") return ev.side === "osmanli" || ev.side === "both";
-      if (campFilter === "itilaf") return ev.side === "itilaf" || ev.side === "both";
-      if (campFilter === "deniz") return ev.domain === "deniz" || ev.domain === "ikisi";
-      if (campFilter === "kara") return ev.domain === "kara" || ev.domain === "ikisi";
+      if (campSide === "osmanli" && ev.side !== "osmanli" && ev.side !== "both") return false;
+      if (campSide === "itilaf" && ev.side !== "itilaf" && ev.side !== "both") return false;
+      if (campDomain === "deniz" && ev.domain !== "deniz" && ev.domain !== "ikisi") return false;
+      if (campDomain === "kara" && ev.domain !== "kara" && ev.domain !== "ikisi") return false;
       return true;
+    });
+  }
+
+  function paintCampChips() {
+    Array.prototype.forEach.call(document.querySelectorAll("#camp-filters .chip"), function (c) {
+      var key = c.getAttribute("data-camp");
+      if (!key) return;
+      var on = false;
+      if (key === "all") on = campSide === "all" && campDomain === "all";
+      else if (key === "osmanli" || key === "itilaf") on = campSide === key;
+      else if (key === "deniz" || key === "kara") on = campDomain === key;
+      c.setAttribute("aria-pressed", on ? "true" : "false");
     });
   }
 
@@ -483,18 +692,24 @@
     campIndex = i;
     if (!ev) {
       clock.textContent = "—";
+      if (range) range.setAttribute("aria-valuetext", "Bu süzgeçte olay yok");
       tlEvent.textContent = "Bu süzgeçte olay yok.";
+      paintCurrent("#camp-list li", function () { return false; });
       return;
     }
     clock.textContent = ev.date;
+    if (range) range.setAttribute("aria-valuetext", ev.date + " " + ev.title);
     tlEvent.replaceChildren(textEl("em", ev.date), document.createTextNode(" " + ev.title + " — " + ev.text));
-    if (fly && ev.place) openPlace(ev.place, true);
+    fillFromCamp(ev, fly);
   }
 
   function stopPlay() {
     playing = false;
     var b = document.getElementById("tl-play");
-    if (b) b.textContent = "Oynat";
+    if (b) {
+      b.textContent = "Oynat";
+      b.setAttribute("aria-pressed", "false");
+    }
     if (playTimer) clearInterval(playTimer);
     playTimer = null;
   }
@@ -506,12 +721,10 @@
     mode = next;
     document.getElementById("mode-18").setAttribute("aria-pressed", next === "naval" ? "true" : "false");
     document.getElementById("mode-camp").setAttribute("aria-pressed", next === "camp" ? "true" : "false");
-    var navalSide = document.getElementById("naval-side");
-    if (navalSide) navalSide.hidden = next !== "naval";
     if (hint) {
       hint.textContent = next === "naval"
-        ? "Saat çubuğu 18 Mart 1915 günüdür."
-        : "Gün çubuğu, Kronoloji süzgecindeki olayları gezer.";
+        ? "Saat çubuğu 18 Mart 1915 günüdür. Geri ve ileri, kayıtlı olaya gider."
+        : "Kampanya çubuğu, süzgeçteki olayların sırasıdır. Aralık notu muharebe değildir.";
     }
     applyDateLayers(next);
     if (next === "naval") {
@@ -538,16 +751,78 @@
     else showTime(Number(range.value), true);
   });
 
+  function refreshCampRange(reset) {
+    if (mode !== "camp") return;
+    var list = campEvents();
+    range.max = String(Math.max(0, list.length - 1));
+    if (reset || campIndex >= list.length) campIndex = 0;
+    range.value = String(campIndex);
+    showCamp(campIndex, false);
+  }
+
   function setSide(s) {
+    stopPlay();
     sideFilter = s;
+    campSide = s === "turk" ? "osmanli" : s === "itilaf" ? "itilaf" : "all";
     document.getElementById("tl-both").setAttribute("aria-pressed", s === "both" ? "true" : "false");
     document.getElementById("tl-turk").setAttribute("aria-pressed", s === "turk" ? "true" : "false");
     document.getElementById("tl-itilaf").setAttribute("aria-pressed", s === "itilaf" ? "true" : "false");
     Array.prototype.forEach.call(document.querySelectorAll("#kron-filters .chip"), function (c) {
       c.setAttribute("aria-pressed", c.getAttribute("data-side") === s ? "true" : "false");
     });
+    paintCampChips();
     renderEvents();
+    renderCampList();
     if (mode === "naval") showTime(Number(range.value), false);
+    else refreshCampRange(false);
+  }
+
+  function setDomain(d) {
+    stopPlay();
+    campDomain = d;
+    paintCampChips();
+    renderCampList();
+    refreshCampRange(true);
+  }
+
+  function clearFilters() {
+    campDomain = "all";
+    setSide("both");
+  }
+
+  function stepTime(dir) {
+    stopPlay();
+    if (mode === "camp") {
+      var list = campEvents();
+      if (!list.length) return;
+      var i = Number(range.value) + dir;
+      if (i < 0) i = list.length - 1;
+      if (i >= list.length) i = 0;
+      range.value = String(i);
+      showCamp(i, true);
+      return;
+    }
+    var cur = Number(range.value);
+    var pool = D.events.filter(function (ev) {
+      if (sideFilter !== "both" && ev.side !== sideFilter && ev.side !== "both") return false;
+      return true;
+    });
+    if (!pool.length) return;
+    var target = null;
+    if (dir > 0) {
+      pool.some(function (ev) {
+        if (ev.m > cur) { target = ev; return true; }
+        return false;
+      });
+      if (!target) target = pool[0];
+    } else {
+      for (var n = pool.length - 1; n >= 0; n--) {
+        if (pool[n].m < cur) { target = pool[n]; break; }
+      }
+      if (!target) target = pool[pool.length - 1];
+    }
+    range.value = String(target.m);
+    showTime(target.m, true);
   }
   document.getElementById("tl-both").addEventListener("click", function () { setSide("both"); });
   document.getElementById("tl-turk").addEventListener("click", function () { setSide("turk"); });
@@ -557,7 +832,8 @@
 
   document.getElementById("tl-play").addEventListener("click", function () {
     playing = !playing;
-    this.textContent = playing ? "Durdur" : "Oynat";
+    this.textContent = playing ? "Duraklat" : "Oynat";
+    this.setAttribute("aria-pressed", playing ? "true" : "false");
     if (playTimer) clearInterval(playTimer);
     if (!playing) return;
     playTimer = setInterval(function () {
@@ -588,39 +864,49 @@
 
   showTime(450, false);
 
-  function goPlace(id) {
+  function scrollToMap() {
     var stage = document.getElementById("harita");
     if (stage) stage.scrollIntoView({ behavior: motionOn() ? "smooth" : "auto", block: "start" });
-    setTimeout(function () { openPlace(id); }, motionOn() ? 250 : 0);
+  }
+
+  function goPlace(id) {
+    scrollToMap();
+    setTimeout(function () { selectPlace(id, true); }, motionOn() ? 250 : 0);
   }
 
   function openLoose(title, meta, text) {
-    var stage = document.getElementById("harita");
-    if (stage) stage.scrollIntoView({ behavior: motionOn() ? "smooth" : "auto", block: "start" });
-    document.getElementById("panel-title").textContent = title;
-    document.getElementById("panel-meta").textContent = meta || "";
-    document.getElementById("panel-body").replaceChildren(textEl("p", text));
-    var panel = document.getElementById("panel");
-    panel.classList.add("open");
-    panel.inert = false;
-    document.querySelector(".search").classList.add("is-hidden");
+    scrollToMap();
+    fillPanel({
+      title: title,
+      meta: meta || "",
+      text: text || "",
+      accuracy: "Haritada ayrı nokta yok."
+    });
   }
 
   function focusCampEvent(ev) {
     if (ev.navalMinute) {
       navalMinute = ev.navalMinute;
       if (mode !== "naval") setMode("naval");
-      else {
-        range.value = String(navalMinute);
-        showTime(navalMinute, false);
-      }
-      if (ev.place) goPlace(ev.place);
-      else openLoose(ev.title, ev.date, ev.text);
+      range.value = String(navalMinute);
+      showTime(navalMinute, !!ev.place);
+      if (!ev.place) openLoose(ev.title, ev.date, ev.text);
+      else scrollToMap();
       return;
     }
-    if (campFilter !== "all") {
-      var visible = campEvents().indexOf(ev);
-      if (visible < 0) setCampFilter("all");
+    if (campEvents().indexOf(ev) < 0) {
+      campDomain = "all";
+      campSide = "all";
+      sideFilter = "both";
+      document.getElementById("tl-both").setAttribute("aria-pressed", "true");
+      document.getElementById("tl-turk").setAttribute("aria-pressed", "false");
+      document.getElementById("tl-itilaf").setAttribute("aria-pressed", "false");
+      Array.prototype.forEach.call(document.querySelectorAll("#kron-filters .chip"), function (c) {
+        c.setAttribute("aria-pressed", c.getAttribute("data-side") === "both" ? "true" : "false");
+      });
+      paintCampChips();
+      renderEvents();
+      renderCampList();
     }
     var list = campEvents();
     var idx = list.indexOf(ev);
@@ -629,9 +915,8 @@
     if (mode !== "camp") setMode("camp");
     range.max = String(Math.max(0, list.length - 1));
     range.value = String(idx);
-    showCamp(idx, false);
-    if (ev.place) goPlace(ev.place);
-    else openLoose(ev.title, ev.date + " · haritada ayrı nokta yok", ev.text);
+    showCamp(idx, !!ev.place);
+    if (ev.place) scrollToMap();
   }
 
   D.units.forEach(function (u) {
@@ -704,12 +989,8 @@
         navalMinute = ev.m;
         if (mode !== "naval") setMode("naval");
         range.value = String(ev.m);
-        showTime(ev.m, false);
-        if (ev.place) goPlace(ev.place);
-        else {
-          var hourStage = document.getElementById("harita");
-          if (hourStage) hourStage.scrollIntoView({ behavior: motionOn() ? "smooth" : "auto" });
-        }
+        showTime(ev.m, true);
+        scrollToMap();
       });
       li.appendChild(btn);
       ol.appendChild(li);
@@ -781,19 +1062,16 @@
   }
 
   function setCampFilter(f) {
-    stopPlay();
-    campFilter = f;
-    Array.prototype.forEach.call(document.querySelectorAll("#camp-filters .chip"), function (c) {
-      c.setAttribute("aria-pressed", c.getAttribute("data-camp") === f ? "true" : "false");
-    });
-    renderCampList();
-    if (mode === "camp") {
-      var list = campEvents();
-      range.max = String(Math.max(0, list.length - 1));
-      campIndex = 0;
-      range.value = "0";
-      showCamp(0, false);
+    if (f === "all") {
+      clearFilters();
+      return;
     }
+    if (f === "osmanli" || f === "itilaf") {
+      if (campSide === f) setSide("both");
+      else setSide(f === "osmanli" ? "turk" : "itilaf");
+      return;
+    }
+    if (f === "deniz" || f === "kara") setDomain(campDomain === f ? "all" : f);
   }
 
   var campFilters = document.getElementById("camp-filters");
@@ -1012,10 +1290,52 @@
     }
   }
 
+  function bindDock() {
+    var dockBtn = document.getElementById("dock-toggle");
+    if (dockBtn) dockBtn.addEventListener("click", function () {
+      var root = document.body;
+      if (!root || !root.classList) return;
+      var collapsed = root.classList.toggle("is-dock-collapsed");
+      dockBtn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+      dockBtn.textContent = collapsed ? "Panel" : "Gizle";
+      dockBtn.setAttribute("aria-label", collapsed ? "Kontrol panelini göster" : "Kontrol panelini gizle");
+      if (map && map.invalidateSize) setTimeout(function () { map.invalidateSize(); }, motionOn() ? 60 : 0);
+    });
+    function wireTool(id, cls) {
+      var btn = document.getElementById(id);
+      if (!btn) return;
+      btn.addEventListener("click", function () {
+        var root = document.body;
+        if (!root || !root.classList) return;
+        var willOpen = !root.classList.contains(cls);
+        closeTools();
+        if (!willOpen) return;
+        root.classList.add(cls);
+        btn.setAttribute("aria-expanded", "true");
+        if (id === "tool-search") {
+          var input = document.getElementById("q");
+          if (input && input.focus) input.focus();
+        }
+      });
+    }
+    wireTool("tool-search", "is-search-open");
+    wireTool("tool-filter", "is-filter-open");
+    wireTool("tool-layers", "is-layer-open");
+    var clearBtn = document.getElementById("filter-clear");
+    if (clearBtn) clearBtn.addEventListener("click", clearFilters);
+    var campClear = document.getElementById("camp-clear");
+    if (campClear) campClear.addEventListener("click", clearFilters);
+    var prev = document.getElementById("tl-prev");
+    var next = document.getElementById("tl-next");
+    if (prev) prev.addEventListener("click", function () { stepTime(-1); });
+    if (next) next.addEventListener("click", function () { stepTime(1); });
+  }
+
   bindNav();
-  showTime(Number(range.value) || 450, false);
+  bindDock();
   renderEvents();
   renderCampList();
+  showTime(Number(range.value) || 450, false);
   consumeDeepLink();
   setTimeout(function () { if (map) map.invalidateSize(); }, 200);
   var pinTouch = window.matchMedia("(max-width: 860px)").matches;

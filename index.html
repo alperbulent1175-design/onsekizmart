@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-  <link rel="stylesheet" href="css/style.css?v=20261015d">
+  <link rel="stylesheet" href="css/style.css?v=20261015j">
 </head>
 <body class="home">
 <a class="skip" href="#map">Haritaya geç</a>
@@ -31,30 +31,10 @@
     <ul class="nav-links">
       <li><a href="/#harita">Harita</a></li>
       <li><a href="/#kronoloji">Kronoloji</a></li>
-      <li class="has-sub">
-        <a href="/olaylar/">Olaylar</a>
-        <ul class="sub">
-          <li><a href="/olaylar/#deniz">Deniz</a></li>
-          <li><a href="/olaylar/#kara">Kara</a></li>
-          <li><a href="/olaylar/#tahliye">Tahliye</a></li>
-        </ul>
-      </li>
-      <li class="has-sub">
-        <a href="/komutanlar/">Komutanlar</a>
-        <ul class="sub">
-          <li><a href="/komutanlar/#osmanli">Osmanlı</a></li>
-          <li><a href="/komutanlar/#itilaf">İtilaf</a></li>
-        </ul>
-      </li>
+      <li><a href="/olaylar/">Olaylar</a></li>
+      <li><a href="/komutanlar/">Komutanlar</a></li>
       <li><a href="/donanma/">Donanma</a></li>
-      <li class="has-sub nav-site">
-        <a href="/kaynakca/">Kaynakça</a>
-        <ul class="sub">
-          <li><a href="/nasil-okunur/">Nasıl okunur</a></li>
-          <li><a href="/sozluk/">Sözlük</a></li>
-          <li><a href="/hakkinda/">Hakkında</a></li>
-        </ul>
-      </li>
+      <li><a href="/kaynakca/">Kaynakça</a></li>
     </ul>
   </nav>
 </header>
@@ -67,61 +47,87 @@
   </div>
   <div>
     <p class="gate-copy">Boğaz’ın geçilemediği günün haritası ve Şubat 1915–Ocak 1916 seferinin kronolojisi. Bir olaydan yerine, komutanına ve gemisine geçilir.</p>
-    <div class="gate-actions">
-      <a class="btn btn-solid" href="#harita">Haritayı aç</a>
-      <a class="btn" href="#kronoloji">Kronolojiyi keşfet</a>
-    </div>
   </div>
 </section>
 
 <section class="map-stage" id="harita" aria-label="Harekât haritası">
-  <div class="map-frame">
-    <div id="map" role="application" aria-label="Çanakkale 1915 haritası. Açılış: 18 Mart deniz muharebesi. Taban harita günümüz uydu görüntüsüdür."></div>
-    <div class="map-chrome layers" id="layers"></div>
-    <div class="map-chrome search">
-      <label class="visually-hidden" for="q" style="position:absolute;left:-999px">Mevki ara</label>
-      <input id="q" type="search" placeholder="Tabya, gemi, muharebe ara…" autocomplete="off">
-      <ul class="search-results" id="q-results" hidden></ul>
-    </div>
+  <div class="tool-row" role="toolbar" aria-label="Harita araçları">
+    <button type="button" id="tool-search" aria-expanded="false" aria-controls="search-pop">Ara</button>
+    <button type="button" id="tool-filter" aria-expanded="false" aria-controls="filter-pop">Süzgeç</button>
+    <button type="button" id="tool-layers" aria-expanded="false" aria-controls="layers">Katman</button>
   </div>
-  <div class="stage-side">
-    <div class="timeline">
-      <div class="timeline-top">
-        <strong id="clock">07:30</strong>
-        <div class="tl-controls">
-          <button type="button" id="mode-18" aria-pressed="true">18 Mart</button>
-          <button type="button" id="mode-camp" aria-pressed="false">Kampanya</button>
-          <button type="button" id="tl-play">Oynat</button>
-          <span id="naval-side">
-            <button type="button" id="tl-both" aria-pressed="true">İki taraf</button>
-            <button type="button" id="tl-turk" aria-pressed="false">Osmanlı</button>
-            <button type="button" id="tl-itilaf" aria-pressed="false">İtilaf</button>
-          </span>
-        </div>
+  <div class="atlas-grid">
+    <aside class="control-dock" id="control-dock" aria-label="Kontrol paneli">
+      <div class="dock-head">
+        <p class="section-kicker">Kontrol</p>
+        <button type="button" class="dock-toggle" id="dock-toggle" aria-expanded="true" aria-controls="control-dock" aria-label="Kontrol panelini gizle">Gizle</button>
       </div>
-      <input id="tl-range" type="range" min="450" max="1350" value="450" step="1" aria-label="Saat">
-      <p class="tl-hint" id="tl-hint">Saat çubuğu 18 Mart 1915 günüdür.</p>
-      <p class="tl-event" id="tl-event"><em>07:30</em> Zaman çubuğunu kaydırın; harita o saatteki mevkiye uçar.</p>
-      <ul class="legend" aria-label="İşaretler">
-        <li><b class="t">T</b>Tabya</li>
-        <li><b class="b">B</b>Birlik</li>
-        <li><b class="g">G</b>Gemi</li>
-        <li><b class="x">X</b>Batış</li>
-        <li><b class="k">K</b>Komuta</li>
-        <li><b class="h">H</b>Kara</li>
-      </ul>
-      <p class="accuracy">Taban harita günümüz görüntüsüdür. İşaretler yaklaşıktır. <a href="/kaynakca/">Kaynakça</a></p>
-    </div>
-    <aside class="panel" id="panel" inert>
-      <div class="panel-head">
-        <div>
-          <h2 id="panel-title"></h2>
-          <p id="panel-meta"></p>
-        </div>
-        <button class="panel-close" type="button" id="panel-close" aria-label="Notu kapat">×</button>
+      <div class="dock-search search" id="search-pop">
+        <label class="visually-hidden" for="q">Mevki, gemi veya olay ara</label>
+        <input id="q" type="search" placeholder="Tabya, gemi, muharebe ara…" autocomplete="off" aria-controls="q-results" aria-expanded="false" aria-autocomplete="list">
+        <ul class="search-results" id="q-results" hidden></ul>
       </div>
-      <div class="panel-body" id="panel-body"></div>
+      <div class="dock-filters" id="filter-pop">
+        <p class="dock-label" id="side-label">Taraf</p>
+        <div class="tl-controls" id="naval-side" role="group" aria-labelledby="side-label">
+          <button type="button" id="tl-both" aria-pressed="true">İki taraf</button>
+          <button type="button" id="tl-turk" aria-pressed="false">Osmanlı</button>
+          <button type="button" id="tl-itilaf" aria-pressed="false">İtilaf</button>
+        </div>
+        <button type="button" id="filter-clear">Süzgeci temizle</button>
+      </div>
+      <div class="dock-layers">
+        <p class="dock-label" id="layer-label">Katmanlar</p>
+        <div class="layers" id="layers" role="group" aria-labelledby="layer-label"></div>
+      </div>
+      <p class="dock-empty" id="dock-empty">Bir mevki veya olay seçin.</p>
+      <aside class="panel" id="panel" inert aria-labelledby="panel-title">
+        <div class="panel-head">
+          <div>
+            <h2 id="panel-title"></h2>
+            <p id="panel-meta"></p>
+          </div>
+          <button class="panel-close" type="button" id="panel-close" aria-label="Seçili olayı kapat">×</button>
+        </div>
+        <div class="panel-body" id="panel-body"></div>
+      </aside>
     </aside>
+    <div class="map-frame">
+      <div id="map" role="application" aria-label="Çanakkale 1915 haritası. Açılış: 18 Mart deniz muharebesi. Taban harita günümüz uydu görüntüsüdür."></div>
+    </div>
+    <div class="stage-side">
+      <div class="timeline">
+        <div class="timeline-top">
+          <div class="clock-block">
+            <p class="dock-label" id="time-label">Zaman</p>
+            <strong id="clock" aria-labelledby="time-label">18 Mart · 07:30</strong>
+          </div>
+          <div class="tl-controls">
+            <div class="mode-switch" role="group" aria-label="Zaman görünümü">
+              <button type="button" id="mode-18" aria-pressed="true">18 Mart</button>
+              <button type="button" id="mode-camp" aria-pressed="false">Kampanya</button>
+            </div>
+            <div class="transport" role="group" aria-label="Oynatma">
+              <button type="button" id="tl-prev" aria-label="Önceki olay">Geri</button>
+              <button type="button" id="tl-play" aria-pressed="false">Oynat</button>
+              <button type="button" id="tl-next" aria-label="Sonraki olay">İleri</button>
+            </div>
+          </div>
+        </div>
+        <input id="tl-range" type="range" min="450" max="1350" value="450" step="1" aria-label="Saat">
+        <p class="tl-hint" id="tl-hint">Saat çubuğu 18 Mart 1915 günüdür.</p>
+        <p class="tl-event" id="tl-event" aria-live="polite"><em>07:30</em> Zaman çubuğunu kaydırın; harita o saatteki mevkiye uçar.</p>
+        <ul class="legend" aria-label="İşaretler">
+          <li><b class="t">T</b>Tabya</li>
+          <li><b class="b">B</b>Birlik</li>
+          <li><b class="g">G</b>Gemi</li>
+          <li><b class="x">X</b>Batış</li>
+          <li><b class="k">K</b>Komuta</li>
+          <li><b class="h">H</b>Kara</li>
+        </ul>
+        <p class="accuracy">Taban harita günümüz görüntüsüdür. İşaretler yaklaşıktır. <a href="/kaynakca/">Kaynakça</a></p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -137,7 +143,7 @@
   <p class="section-kicker">Şubat 1915 – Ocak 1916</p>
   <h2 class="sec">Kronoloji</h2>
   <div class="prose">
-    <p>Satıra basınca harita o mevkiye gider. 18 Mart satırı saat şeridini açar. Listede olmayan bir gün için olay üretilmez. Aralık notu, ayrı bir muharebe sayfası değildir. Adı olan olaylar <a href="/olaylar/">Olaylar</a> sayfasındadır.</p>
+    <p>Satıra basınca harita o mevkiye gider. 18 Mart satırı saat şeridini açar. Listede olmayan bir gün için olay üretilmez. Aralık notu, ayrı bir muharebe sayfası değildir. Taraf ile deniz veya kara birlikte seçilir. Tümü ve Temizle süzgeci sıfırlar. Adı olan olaylar <a href="/olaylar/">Olaylar</a> sayfasındadır.</p>
   </div>
   <div class="filters" id="camp-filters">
     <button class="chip" type="button" data-camp="all" aria-pressed="true">Tümü</button>
@@ -145,6 +151,7 @@
     <button class="chip" type="button" data-camp="itilaf" aria-pressed="false">İtilaf</button>
     <button class="chip" type="button" data-camp="deniz" aria-pressed="false">Deniz</button>
     <button class="chip" type="button" data-camp="kara" aria-pressed="false">Kara</button>
+    <button class="chip" type="button" id="camp-clear">Temizle</button>
   </div>
   <ol class="event-list" id="camp-list"></ol>
 
@@ -204,6 +211,6 @@
 <script src="js/data.js"></script>
 <script src="js/campaign.js?v=20261015e"></script>
 <script src="js/model.js?v=20261015d"></script>
-<script src="js/app.js?v=20261015d"></script>
+<script src="js/app.js?v=20261015f"></script>
 </body>
 </html>

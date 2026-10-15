@@ -128,3 +128,41 @@ test("mobil düzen ve katman düğmesi kuralları durur", () => {
   assert.match(app, /Aralık notu/);
   assert.match(app, /şematik gösterim/);
 });
+
+test("çalışma alanı üç bölümlü, daraltılabilir ve türkçe arama katlar", () => {
+  const html = fs.readFileSync(path.join(root, "index.html"), "utf8");
+  const css = fs.readFileSync(path.join(root, "css/style.css"), "utf8");
+  const app = fs.readFileSync(path.join(root, "js/app.js"), "utf8");
+  ["id=\"map\"", "id=\"layers\"", "id=\"q\"", "id=\"q-results\"", "id=\"clock\"", "id=\"mode-18\"", "id=\"mode-camp\"", "id=\"tl-play\"", "id=\"naval-side\"", "id=\"tl-both\"", "id=\"tl-turk\"", "id=\"tl-itilaf\"", "id=\"tl-range\"", "id=\"tl-hint\"", "id=\"tl-event\"", "id=\"panel\"", "id=\"panel-title\"", "id=\"panel-meta\"", "id=\"panel-close\"", "id=\"panel-body\"", "id=\"camp-filters\"", "id=\"camp-list\"", "id=\"kron-filters\"", "id=\"event-list\"", "id=\"nav-toggle\"", "id=\"nav-panel\""].forEach((id) => {
+    assert.ok(html.includes(id), id);
+  });
+  assert.match(html, /id="tl-prev"/);
+  assert.match(html, /id="tl-next"/);
+  assert.match(html, /id="filter-clear"/);
+  assert.match(html, /id="dock-toggle"/);
+  assert.match(html, /id="tool-search"/);
+  assert.match(html, /min="450"/);
+  assert.match(html, /max="1350"/);
+  assert.match(html, /class="atlas-grid"/);
+  assert.match(css, /body\.home \.atlas-grid/);
+  assert.match(css, /grid-template-columns:\s*minmax\(240px,\s*300px\)/);
+  assert.match(css, /is-dock-collapsed/);
+  assert.match(css, /is-search-open/);
+  assert.match(css, /max-width:\s*430px/);
+  assert.match(css, /min-height:\s*44px/);
+  assert.match(css, /prefers-reduced-motion/);
+  assert.match(app, /function foldTr/);
+  assert.match(app, /function stepTime/);
+  assert.match(app, /function clearFilters/);
+  assert.match(app, /Duraklat/);
+  assert.match(app, /btn\.textContent = p\.name/);
+  const start = app.indexOf("function foldTr");
+  const end = app.indexOf("\n  function ", start + 10);
+  const foldTr = new Function(app.slice(start, end) + "\nreturn foldTr;")();
+  assert.equal(foldTr("Çanakkale"), foldTr("canakkale"));
+  assert.equal(foldTr("İstanbul"), "istanbul");
+  assert.equal(foldTr("Işık"), foldTr("ışık"));
+  assert.equal(foldTr("Şişe"), "sise");
+  assert.equal(foldTr("Ağaç"), "agac");
+  assert.equal(foldTr("çiğ"), "cig");
+});
