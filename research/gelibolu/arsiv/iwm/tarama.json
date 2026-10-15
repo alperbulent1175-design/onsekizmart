@@ -1,0 +1,892 @@
+{
+  "kol": "Imperial War Museums",
+  "tarih": "2026-10-15",
+  "deneme": "15 Ekim 2026 katalog denemesinin aynı gün yapılan yeniden denemesi",
+  "kapsam_uyarisi": "IWM koleksiyonu taranmış değildir. Her anahtar için arama sayfasının ilk sonuç dilimi okundu; açılan fiş sayısı anahtar başına birkaç ile sınırlandı.",
+  "gorsel_repoya_konmadi": true,
+  "iddia_dogrulandi_verilmedi": true,
+  "belge_acildi_verilmedi": true,
+  "koordinat_uydurulmadi": true,
+  "katalog_json_degistirilmedi": true,
+  "lisans_genel": "Sayfada IWM Non-Commercial Licence yazan kayıtlarda düşük çözünürlüklü görsel, özel ve ticari olmayan kullanım için sunuluyor. Atıf metni fişte duruyor. Görsel dosyası bu repoya konmadı. Ticari lisans ve yüksek çözünürlük alınmadı. Fotoğraf, resim veya üniforma fişi zayiat ya da emir belgesi sayılmadı.",
+  "ozet": {
+    "bilinen_adres_yeniden": 6,
+    "http_200_acilan_fis": 30,
+    "http_404": 2,
+    "http_404_gecmis_sayilmaz": ["IWM-001", "IWM-002"],
+    "kisitli_kitap_metni_acilmadi": 3,
+    "film_oynatilmadi": 1,
+    "ek_acilan_fis": 26,
+    "bilinen_icinden_acilan": 4,
+    "alan_doluluk": {
+      "acilan_fis_http_200": 30,
+      "birlik_ozel_ad": 20,
+      "birlik_yalniz_genel_etiket": 6,
+      "birlik_yok": 4,
+      "komutan_ad_ve_gorev": 4,
+      "komutan_hayat_cumlesi": 2,
+      "muharebe_ad_veya_tarihli_tarif": 13,
+      "muharebe_bunlarin_gelibolu_disi": 1,
+      "kayip_sayi_tamsayi": 0,
+      "kayip_sayi_ifadesi": 1,
+      "kayip_sayi_null_bu_turda_okunmadi": 29
+    },
+    "alan_doluluk_notu": "Birlik özel adı: gemi veya tümen, alay, tabur adı. Komutan: sanatçı veya fotoğrafçı sayılmadı; sayfada askerî görev yazan kişi sayıldı. Hayat cümlesi Houchemi ve Irvine notudur. Muharebe sayısı, başlık veya tanımda gün, saat ya da ay aralığı ile birlikte bir hareket yazan 13 fiştir; biri Falkland 1914 kaydıdır ve Gelibolu dışıdır. Yalnız üretim tarihi, yalnız yıl veya yalnız stok Gallipoli 1915-1916 etiketi bu 13'e konmadı. Kayıp tamsayısı hiçbir sayfada yok. HU 103301 'over 600 of her crew' yazar; bu tamsayı değildir ve doğrulanmış zayiat sayılmaz. Diğer 29 açılmış fişte kayıp sayısı null ve 'bu turda okunmadı'."
+  },
+  "aramalar": [
+    {
+      "anahtar": "Gallipoli 1915",
+      "url": "https://www.iwm.org.uk/collections/search?query=Gallipoli%201915",
+      "http": 200,
+      "sayim": "Showing 1-30 of 1934 records",
+      "acilan": ["205021951", "205193301", "205193295"],
+      "not": "İlk 30 başlığın ötesi açılmadı."
+    },
+    {
+      "anahtar": "Dardanelles",
+      "url": "https://www.iwm.org.uk/collections/search?query=Dardanelles",
+      "http": 200,
+      "sayim": "Showing 1-30 of 1384 records",
+      "acilan": ["205022546", "38064", "1500035974"],
+      "not": "İlk 30 başlığın ötesi açılmadı."
+    },
+    {
+      "anahtar": "Cape Helles",
+      "url": "https://www.iwm.org.uk/collections/search?query=Cape%20Helles",
+      "http": 200,
+      "sayim": "Showing 1-30 of 276 records",
+      "acilan": ["13142", "17153", "205357167"],
+      "not": "İlk 30 başlığın ötesi açılmadı."
+    },
+    {
+      "anahtar": "Suvla",
+      "url": "https://www.iwm.org.uk/collections/search?query=Suvla",
+      "http": 200,
+      "sayim": "Showing 1-30 of 223 records",
+      "acilan": ["38063", "38060", "205315254"],
+      "not": "İlk 30 başlığın ötesi açılmadı."
+    },
+    {
+      "anahtar": "Anzac",
+      "url": "https://www.iwm.org.uk/collections/search?query=Anzac",
+      "http": 200,
+      "sayim": "Showing 1-30 of 487 records",
+      "acilan": ["13080", "205340524", "5486"],
+      "not": "İlk sayfada 1953 Tobruk ve HMAS Sydney başlıkları da var. Onlar açılmadı. Sayfa 2 ve sonrası yok."
+    },
+    {
+      "anahtar": "Ottoman Army",
+      "url": "https://www.iwm.org.uk/collections/search?query=Ottoman%20Army",
+      "http": 200,
+      "sayim": "Showing 1-30 of 1517 records",
+      "acilan": ["205315254", "30100201", "1060023454"],
+      "not": "İlk 30 içinde Gelibolu başlığı olarak Q 67944 göründü. Sina, Filistin, fünye ve sözlü tarih başlıkları açılmadı. Birinci Dünya Savaşı süzgeci 1377 kayıt gösterdi; ilk 30 başlık aynı kaldı, tamamı açılmadı."
+    },
+    {
+      "anahtar": "naval operations",
+      "url": "https://www.iwm.org.uk/collections/search?query=naval%20operations",
+      "http": 200,
+      "sayim": "Showing 1-30 of 5499 records",
+      "acilan": [],
+      "not": "Süzmesiz ilk 30 başlık 1955 tatbikatı ve Kore harekâtı. Çanakkale fişi açılmadı. Aynı anahtara Birinci Dünya Savaşı dönem süzgeci konunca sayım 'Showing 1-30 of 915 records' oldu. Bu dilimden Q 109141, Q 109146 ve daha önce Dardanelles altında açılan Q 102523 seçildi. 915 kaydın geri kalanı açılmadı."
+    },
+    {
+      "anahtar": "Bouvet",
+      "url": "https://www.iwm.org.uk/collections/search?query=Bouvet",
+      "http": 200,
+      "sayim": "Showing 1-8 of 8 records",
+      "acilan": ["205093986", "205227618", "205193301"],
+      "acilmadi_liste": ["IWM 1062-4 WITH THE FRENCH NAVY 1910", "34511 Peter George Wells", "31505 Kenneth Scruton", "8870 Horace Geoffrey Norman", "660 Gilbert Adshead"],
+      "not": "Sekiz başlık görüldü, üç fiş açıldı. Sözlü tarih ve 1910 film fişi açılmadı."
+    },
+    {
+      "anahtar": "Irresistible",
+      "url": "https://www.iwm.org.uk/collections/search?query=Irresistible",
+      "http": 200,
+      "sayim": "Showing 1-27 of 27 records",
+      "acilan": ["205024811", "205319696", "205320039"],
+      "not": "27 başlığın 3 fişi açıldı. Kalan 24 başlık (fotoğraf dizisi, madalya, sözlü tarih) açılmadı."
+    },
+    {
+      "anahtar": "Ocean",
+      "url": "https://www.iwm.org.uk/collections/search?query=Ocean",
+      "http": 200,
+      "sayim": "Showing 1-30 of 2885 records",
+      "acilan_suzmesiz": [],
+      "not": "Süzmesiz ilk 30, 1952 HMS Ocean uçak gemisi ve Hint Okyanusu başlıkları. 1915 zırhlısı batış fişi bu dilimde yok, açılmadı. Birinci Dünya Savaşı süzgeci 'Showing 1-30 of 293 records' verdi. Bu dilimden Q 74918 (Battleship HMS Ocean) ve Q 50992 açıldı. Q 50992 Falkland 1914 fotoğrafıdır, Gelibolu değildir. 293 kaydın geri kalanında HMS Ocean batışı aranmadı."
+    },
+    {
+      "anahtar": "Q 13823 yeniden arama",
+      "url": "https://www.iwm.org.uk/collections/search?query=%22Q%2013823%22",
+      "http": 200,
+      "sayim": "Showing 1-17 of 17 records",
+      "acilan": [],
+      "not": "Katalog numarası tam 'Q 13823' olan satır yok. CH 13823, E 13823, A 13823 gibi yakın numaralar başka konulardır ve açılmadı. IWM-001 adresi 404 kaldı."
+    },
+    {
+      "anahtar": "Q 13339 yeniden arama",
+      "url": "https://www.iwm.org.uk/collections/search?query=%22Q%2013339%22",
+      "http": 200,
+      "sayim": "Showing 1-16 of 16 records",
+      "acilan": [],
+      "not": "Katalog numarası tam 'Q 13339' olan satır yok. E 13339, A 13339 gibi yakın numaralar açılmadı. IWM-002 adresi 404 kaldı."
+    }
+  ],
+  "kayitlar": [
+    {
+      "id": "IWM-001",
+      "url": "https://www.iwm.org.uk/collections/item/object/205248958",
+      "http": 404,
+      "sayfa_basligi": "Page not found | Imperial War Museums",
+      "durum": "insan_incelemesi_gerekli",
+      "gecmis_sayilir": false,
+      "not": "15 Ekim 2026 yeniden denemesinde HTTP 404 sürdü. Q 13823 araması bu numarayı getirmedi. Geçmiş sayılmadı.",
+      "birlikler": [],
+      "komutanlar": [],
+      "muharebeler": [],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "IWM-002",
+      "url": "https://www.iwm.org.uk/collections/item/object/205248554",
+      "http": 404,
+      "sayfa_basligi": "Page not found | Imperial War Museums",
+      "durum": "insan_incelemesi_gerekli",
+      "gecmis_sayilir": false,
+      "not": "15 Ekim 2026 yeniden denemesinde HTTP 404 sürdü. Q 13339 araması bu numarayı getirmedi. Geçmiş sayılmadı.",
+      "birlikler": [],
+      "komutanlar": [],
+      "muharebeler": [],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "IWM-003",
+      "url": "https://www.iwm.org.uk/collections/item/object/13136",
+      "http": 200,
+      "baslik": "A Party of Wounded, May 1915",
+      "kayit_no": "Art.IWM ART 4323",
+      "tur": "Art",
+      "uretici": "Hillier, Herbert William",
+      "uretim_tarihi": "1915",
+      "tanim": "image: a group of wounded soldiers sitting below deck on a ship.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Resim fişi. Zayiat veya emir belgesi değildir.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: © The rights holder. Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "Royal Navy, MANICA (HMS)", "konum": "Sayfadaki ilişkili yerler: Gallipoli, Edirne Vilayet, Turkey, Ottoman Empire; Dardanelles straits; Aegean Sea, Mediterranean Sea"},
+        {"ad": "Royal Navy, Royal Naval Air Service", "konum": "aynı ilişkili yer listesi"},
+        {"ad": "Royal Navy, Royal Naval Volunteer Reserve", "konum": "aynı ilişkili yer listesi"},
+        {"ad": "British Army", "konum": "aynı ilişkili yer listesi"},
+        {"ad": "Australian Army", "konum": "aynı ilişkili yer listesi"}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "Gallipoli 1915-1916", "tarih": "Başlıkta May 1915. Ayrı bir gün yok.", "yer": "Gallipoli; Dardanelles straits", "ayrinti": "Yaralı askerlerin gemide, güverte altında oturduğu resim. Muharebe adı yok."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"},
+      "alan": {"birlik": "genel ve gemi adı", "komutan": false, "muharebe": "kampanya etiketi ve Mayıs 1915 başlığı", "kayip_sayi": false}
+    },
+    {
+      "id": "IWM-004",
+      "url": "https://www.iwm.org.uk/collections/item/object/205227619",
+      "http": 200,
+      "baslik": "HMS AGAMEMNON DURING THE FIRST WORLD WAR",
+      "kayit_no": "HU 103302",
+      "tur": "Photographs",
+      "tanim": "The 9.2-inch guns of HMS AGAMEMNON firing on the Gallipoli peninsula.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi. Zayiat veya emir belgesi değildir.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: Image: IWM (HU 103302). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "Royal Navy, AGAMEMNON (HMS; battleship)", "konum": "Dardanelles straits; tanımda Gallipoli peninsula"}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "Gallipoli 1915-1916", "tarih": null, "yer": "Gallipoli peninsula; Dardanelles straits", "ayrinti": "HMS Agamemnon'un 9.2 inç toplarının yarımadaya ateş ettiği fotoğraf. Gün yok."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "IWM-005",
+      "url": "https://www.iwm.org.uk/collections/item/object/1500016242",
+      "http": 200,
+      "baslik": "The Dardanelles campaign",
+      "kayit_no": "LBY 14434",
+      "tur": "Books",
+      "uretici": "Sanders, Liman Von (Author); Schulz, E.H. (Edward H.) (Author); The Engineer School (Publisher)",
+      "uretim_tarihi": "1931",
+      "yer_basim": "Fort Humphreys, Virginia",
+      "tanim": ["Signed by Edward H. Schulz", "Includes index"],
+      "sayfa_olcusu": "23cm., Pagination: [12], 58p., 5 fold. leaves of plates: maps",
+      "medya": "This media is not currently available online",
+      "durum": "insan_incelemesi_gerekli",
+      "kisitli": true,
+      "not": "Künye açıldı. Kitap metni açılmadı. Liman von Sanders sayfada Author olarak geçer; komuta görevi veya hayat yazmaz.",
+      "birlikler": [],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "operations on the gallipoli peninsular april 1915 to january 1916", "tarih": "april 1915 to january 1916", "yer": "Operations on the Gallipoli peninsular 1915-1916", "ayrinti": "Konu başlığı. Muharebe anlatısı bu sayfada yok."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "IWM-006",
+      "url": "https://www.iwm.org.uk/collections/item/object/1500109641",
+      "http": 200,
+      "baslik": "Gallipoli : the Western Australia story",
+      "kayit_no": "LBY 12 / 1623",
+      "tur": "Books",
+      "uretici": "Olson, Wesley (Author); University of Western Australia Press (Publisher)",
+      "uretim_tarihi": "2006",
+      "yer_basim": "Crawley, Western Australia",
+      "tanim": ["Includes index", "Bibl.:p. 379-383"],
+      "sayfa_olcusu": "27cm., Pagination: xix, 396p.: ill., maps, plans, ports.",
+      "medya": "This media is not currently available online",
+      "durum": "insan_incelemesi_gerekli",
+      "kisitli": true,
+      "not": "Künye açıldı. Kitap metni açılmadı.",
+      "birlikler": [
+        {"ad": "Anzac", "konum": "Australia; Operations on the Gallipoli peninsular 1915-1916. Ayrı birlik konuşu yok."}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "Gallipoli 1915-1916", "tarih": null, "yer": "Operations on the Gallipoli peninsular 1915-1916", "ayrinti": "Konu başlıkları: australian army, general histories; army, corps. Anlatı yok."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-Q50483",
+      "anahtar": ["Gallipoli 1915"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205021951",
+      "http": 200,
+      "baslik": "GALLIPOLI 1915",
+      "kayit_no": "Q 50483",
+      "tur": "Photographs",
+      "uretici": "Graham C N (Lt)",
+      "uretim_tarihi": "1915-04-25",
+      "tanim": "Ships: British warships and transports off Cape Helles.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: Image: IWM (Q 50483). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "British warships and transports", "konum": "Cape Helles. İlişkili yer: Gallipoli, Edirne Vilayet, Turkey, Ottoman Empire. Tek tek gemi adı yok."}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": null, "tarih": "Üretim tarihi 1915-04-25", "yer": "Cape Helles", "ayrinti": "Savaş gemileri ve nakliye gemileri Seddülbahir açıklarında. Çatışma adı yok."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-SP682A",
+      "anahtar": ["Gallipoli 1915", "Bouvet"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205193301",
+      "http": 200,
+      "baslik": "GALLIPOLI 1915",
+      "kayit_no": "SP 682A",
+      "tur": "Photographs",
+      "uretim_tarihi": "1915-03-18",
+      "parca": "SURGEON PARKES COLLECTION OF SHIPS PORTRAITS",
+      "tanim": "Ships: The French Battleship BOUVET sinking after being mined.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi. Batış cümlesi künyededir; doğrulanmış zayiat değildir.",
+      "lisans": "IWM Non-Commercial Licence. Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "Navy, FRENCH, BOUVET", "konum": "İlişkili yer: Gallipoli, Edirne Vilayet, Turkey, Ottoman Empire. Ayrı boğaz noktası adı yok."}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "Gallipoli 1915-1916", "tarih": "Üretim tarihi 1915-03-18", "yer": "Gallipoli", "ayrinti": "Fransız zırhlısı Bouvet mayına çarptıktan sonra batıyor."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-Q112876",
+      "anahtar": ["Gallipoli 1915"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205193295",
+      "http": 200,
+      "baslik": "AUSTRALIAN FORCES IN GALLIPOLI, 1915",
+      "kayit_no": "Q 112876",
+      "tur": "Photographs",
+      "uretici": "Joyner A R H (Sgt, 1st Divisional Signal Company)",
+      "uretim_tarihi": "1915-04-25",
+      "tanim": "Bombardment and Landings: Australians landing at Anzac Cove at 8am, 25 April 1915 - part of the 4th Battalion and the mules for the 26th (Jacob's) Indian Mountain Battery. In the foreground is the staff of Colonel H N MacLaurin of the 1st Infantry Brigade. The officer with the rolled greatcoat over his shoulder is Major F D Irvine (killed on 27 April). Nearer the water's edge (centre) is Captain D M King, Orderly Officer. The officer on the left, with his chinstrap down, is Lieutenant R G Hamilton, the Brigade Signal Officer. At the water's edge lies an Australian engineer (Sapper R Reynolds), the first to fall during the war.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf künyesi. Zayiat belgesi değildir. iddia_dogrulandi verilmedi.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: Image: IWM (Q 112876). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "4th Battalion", "konum": "Anzac Cove"},
+        {"ad": "26th (Jacob's) Indian Mountain Battery", "konum": "Anzac Cove"},
+        {"ad": "1st Infantry Brigade", "konum": "Anzac Cove"},
+        {"ad": "1st Divisional Signal Company", "konum": "Fotoğrafçının künyesindeki birlik. Ayrı konuş yeri yok."},
+        {"ad": "Australian Army, Australian Imperial Force", "konum": "Gallipoli, Edirne Vilayet, Turkey, Ottoman Empire"}
+      ],
+      "komutanlar": [
+        {"ad": "Colonel H N MacLaurin", "gorev": "1st Infantry Brigade; ön planda karargâhı", "hayat": null},
+        {"ad": "Major F D Irvine", "gorev": "Künyede rütbe ve 27 Nisan'da öldüğü notu var; başka görev unvanı yok.", "hayat": "Sayfa yalnızca 'killed on 27 April' yazar."},
+        {"ad": "Captain D M King", "gorev": "Orderly Officer", "hayat": null},
+        {"ad": "Lieutenant R G Hamilton", "gorev": "Brigade Signal Officer", "hayat": null}
+      ],
+      "muharebeler": [
+        {"ad": "Bombardment and Landings", "tarih": "25 April 1915, 8am", "yer": "Anzac Cove", "ayrinti": "4. Tabur'un bir kısmı ve 26. Hint Dağ Bataryası'nın katırları çıkarma sırasında."}
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "Toplam sayı yok. Sayfa Major F D Irvine için killed on 27 April ve Sapper R Reynolds için the first to fall during the war der. bu turda okunmadı bir toplam anlamına gelir; sayı alanı null."
+      }
+    },
+    {
+      "id": "EK-Q102523",
+      "anahtar": ["Dardanelles", "naval operations"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205022546",
+      "http": 200,
+      "baslik": "NAVAL OPERATIONS IN THE DARDANELLES CAMPAIGN, FEBRUARY-MARCH 1915",
+      "kayit_no": "Q 102523",
+      "tur": "Photographs",
+      "uretici": "Crookshank G C C (Photographer)",
+      "uretim_tarihi": "1915-03-18",
+      "tanim": "View from the fore top of HMS AGAMEMNON, showing a salvo of three shells, one of which was a direct hit, directed at HMS PRINCE GEORGE off Gallipoli.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi. Üç mermi ve bir isabet, personel kaybı değildir.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: Image: IWM (Q 102523). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "Royal Navy, AGAMEMNON (HMS), battleship", "konum": "off Gallipoli; Dardanelles straits"},
+        {"ad": "Royal Navy, PRINCE GEORGE (HMS), battleship", "konum": "off Gallipoli"}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "NAVAL OPERATIONS IN THE DARDANELLES CAMPAIGN, FEBRUARY-MARCH 1915", "tarih": "Başlık February-March 1915. Üretim tarihi 1915-03-18.", "yer": "off Gallipoli; Dardanelles straits", "ayrinti": "Agamemnon'un fore topundan, Prince George'a yöneltilmiş üç mermilik salvo; birinin doğrudan isabet olduğu yazıyor."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-ART2453",
+      "anahtar": ["Dardanelles"],
+      "url": "https://www.iwm.org.uk/collections/item/object/38064",
+      "http": 200,
+      "baslik": "The Balloon Ship Hector with Kite Balloon Spotting Off the Left Flank at the Dardanelles Operations, 1915",
+      "kayit_no": "Art.IWM ART 2453",
+      "tur": "Art",
+      "uretici": "Wilkinson, Norman",
+      "uretim_tarihi": "1915",
+      "tanim": "image: A British balloon ship and destroyer lying on the horizon off the coast of the Dardanelles. The balloon floats in the top left hand part of the composition; while there are three clouds from gunfire on the right.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Resim fişi.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: © The rights holder (Art.IWM ART 2453). Görsel indirilmedi.",
+      "sayfa_gerilimi": "Başlık 1915 balon gemisi Hector der. İlişkili örgüt satırı 'Royal Navy, HMS Hector, Armed Merchant Cruiser, (1924)' der. Bu turda ikisi de sayfada bırakıldı, biri seçilmedi.",
+      "birlikler": [
+        {"ad": "balloon ship Hector", "konum": "off the coast of the Dardanelles"},
+        {"ad": "destroyer", "konum": "aynı ufuk; gemi adı yok"},
+        {"ad": "Royal Navy, HMS Hector, Armed Merchant Cruiser, (1924)", "konum": "Sayfadaki ilişkilendirme. 1915 konuşu ayrıca yazmaz."}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "Dardanelles Operations, 1915", "tarih": "1915", "yer": "off the coast of the Dardanelles", "ayrinti": "Uçurtma balonu gözetlemesi. Sağda üç top ateşi bulutu. İlişkili olay kodu 01/3(496.1) çözülmedi."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-LBY12520",
+      "anahtar": ["Dardanelles"],
+      "url": "https://www.iwm.org.uk/collections/item/object/1500035974",
+      "http": 200,
+      "baslik": "The uncensored Dardanelles",
+      "kayit_no": "LBY 12520",
+      "tur": "Books",
+      "uretici": "Bartlett, Ellis Ashmead- (Author); Hutchinson (Publisher)",
+      "yer_basim": "London",
+      "tanim": "Presented by the author, dated 1928",
+      "sayfa_olcusu": "24cm., Pagination: 287p., 24 leaves of plates (some fold.): ill., frontis., maps, ports.",
+      "medya": "Kitap metni sayfada yok. Non-Commercial lisanslı bir görsel var; 287 sayfa okunmadı.",
+      "durum": "insan_incelemesi_gerekli",
+      "kisitli": true,
+      "birlikler": [],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "operations on the gallipoli peninsular april 1915 to january 1916", "tarih": "april 1915 to january 1916", "yer": "Operations on the Gallipoli peninsular 1915-1916", "ayrinti": "Konu başlığı. Metin açılmadı."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-ART4328",
+      "anahtar": ["Cape Helles"],
+      "url": "https://www.iwm.org.uk/collections/item/object/13142",
+      "http": 200,
+      "baslik": "Off Cape Helles, V Beach and Camp, 3.10pm, May 17th 1915",
+      "kayit_no": "Art.IWM ART 4328",
+      "tur": "Art",
+      "uretici": "Hillier, Herbert William",
+      "uretim_tarihi": "1915",
+      "tanim": "image: an annotated sketch showing HMS Swiftsure in action off Cape Helles. The battleship is shown from the bow end, her guns firing away from her starboard side towards the Gallipoli coastline, smoke emanating both from the guns and the turrets of the ship. A few splashes in the water show Turkish retaliation and the coast is dotted with smoke from Royal Navy fire.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Resim fişi.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: © The rights holder. Görsel indirilmedi.",
+      "sayfa_gerilimi": "İlişkili örgütlerde 'Royal Navy, HMS Thankerton, Minesweepr, (1955)' da var. 1915 birliği olarak alınmadı.",
+      "birlikler": [
+        {"ad": "HMS Swiftsure", "konum": "off Cape Helles; V Beach"},
+        {"ad": "Royal Navy, MANICA (HMS)", "konum": "İlişkili örgüt. Tanımda ayrı konuş yok."},
+        {"ad": "Royal Navy, Royal Naval Air Service", "konum": "ilişkili örgüt"},
+        {"ad": "Royal Navy, Royal Naval Volunteer Reserve", "konum": "ilişkili örgüt"}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": null, "tarih": "May 17th 1915, 3.10pm", "yer": "Cape Helles; V Beach", "ayrinti": "Swiftsure kıyıya ateş ediyor. Suda Türk karşılığı diye birkaç düşüş ve kıyıda Kraliyet Donanması ateşinin dumanı yazıyor."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-ART1927",
+      "anahtar": ["Cape Helles"],
+      "url": "https://www.iwm.org.uk/collections/item/object/17153",
+      "http": 200,
+      "baslik": "The Headquarters of the 29th Division, Gully Ravine, Cape Helles, Gallipoli",
+      "kayit_no": "Art.IWM ART 1927",
+      "tur": "Art",
+      "uretici": "MacClure, Victor",
+      "tanim": "image: A view from the bottom of a deep ravine. There are wooden huts set into the ravine walls, groups of soldiers walking the pathways and standing around on the floor of the ravine.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Resim fişi.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: © The rights holder (Art.IWM ART 1927). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "British Army, 29th Division", "konum": "Gully Ravine, Cape Helles, Gallipoli, Turkey"}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "Gallipoli 1915-1916", "tarih": null, "yer": "Gully Ravine, Cape Helles", "ayrinti": "29. Tümen karargâhının dere tabanından görünümü. Ayrı muharebe günü yok. Olay kodu 01/3(496.1) çözülmedi."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-Q68351",
+      "anahtar": ["Cape Helles"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205357167",
+      "http": 200,
+      "baslik": "THE GALLIPOLI LANDINGS, APRIL 1915",
+      "kayit_no": "Q 68351",
+      "tur": "Photographs",
+      "uretim_tarihi": "1915-04",
+      "parca": "BISHOP E B (CAPT)",
+      "tanim": "British Army camps on the 'V' Beach during the Cape Helles landings.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi.",
+      "lisans": "IWM Non-Commercial Licence. Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "British Army", "konum": "V Beach; Cape Helles, Gallipoli, Edirne Vilayet, Turkey, Ottoman Empire"}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "THE GALLIPOLI LANDINGS", "tarih": "April 1915; üretim tarihi 1915-04", "yer": "V Beach, Cape Helles", "ayrinti": "Çıkarma sırasında V Beach'te İngiliz ordusu kampları."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-ART2452",
+      "anahtar": ["Suvla"],
+      "url": "https://www.iwm.org.uk/collections/item/object/38063",
+      "http": 200,
+      "baslik": "Troops Landing on C Beach, Suvla Bay, Later in the Day, 7th August 1915",
+      "kayit_no": "Art.IWM ART 2452",
+      "tur": "Art",
+      "uretici": "Wilkinson, Norman",
+      "uretim_tarihi": "1915",
+      "tanim": "image: A view down the beach at Suvla Bay with the sea to the left and a destroyer lying offshore. Boats filled with British troops land on the shore, and then make their way up the beach. In the foreground there is the body of a soldier who has been shot down lying face down in the sand. To the left are boxes of supplies stacked on the beach. There is a large cloud of grey smoke further down the beach, and soldiers moving towards the explosion.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Resim fişi. Tasvir edilen tek ceset zayiat sayısı değildir.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: © The rights holder (Art.IWM ART 2452). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "British Army, 10th Division", "konum": "C Beach, Suvla Bay, Gallipoli, Edirne Vilayet, Turkey, Ottoman Empire"},
+        {"ad": "Royal Navy", "konum": "Suvla Bay açıklarında bir destroyer; gemi adı yok"}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "Battle of the Landing at Suvla", "tarih": "7th August 1915, later in the day", "yer": "C Beach, Suvla Bay", "ayrinti": "İngiliz askerleri karaya çıkıyor. Kumda vurulmuş bir asker. İlişkili dizi: Battles of Suvla 1915. Olay kodu 01/3(496.1) çözülmedi."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-ART2326",
+      "anahtar": ["Suvla"],
+      "url": "https://www.iwm.org.uk/collections/item/object/38060",
+      "http": 200,
+      "baslik": "The Salt Lake, Suvla Bay: the advance of 21st August 1915",
+      "kayit_no": "Art.IWM ART 2326",
+      "tur": "Art",
+      "uretici": "Wilkinson, Norman",
+      "uretim_tarihi": "1915-08-21",
+      "tanim": "image: A view across a salt lake with hills in the distance. Two lines of soldiers move from right to left across the empty ground of the salt lake under heavy fire. The scene is dotted with small clouds of smoke, and there are several larger explosions in the background.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Resim fişi.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: © The rights holder (Art.IWM ART 2326). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "British Army, 2nd Mounted Division", "konum": "Salt Lake, Suvla Bay"}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "Battle of Scimitar Hill 1915", "tarih": "21st August 1915", "yer": "Salt Lake, Suvla Bay", "ayrinti": "İki hat asker tuz gölünü ağır ateş altında geçiyor. İlişkili dizi: Battles of Suvla 1915."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-Q67944",
+      "anahtar": ["Suvla", "Ottoman Army"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205315254",
+      "http": 200,
+      "baslik": "THE GALLIPOLI CAMPAIGN OF THE FIRST WORLD WAR 1915 - 1916",
+      "kayit_no": "Q 67944",
+      "tur": "Photographs",
+      "uretim_tarihi": "1915-12-19",
+      "parca": "FLOWER (LT)",
+      "tanim": "IWM exhibit; Suvla Bay evacuation order. Orders given to Lieutenant Flower concerning the evacuation of Suvla Bay, Gallipoli.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Emir metni dökülmedi. Bu bir fotoğraf künyesidir. belge_acildi ve iddia_dogrulandi verilmedi.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: Image: IWM (Q 67944). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "British Army", "konum": "Suvla Bay, Gallipoli, Edirne Vilayet, Turkey, Ottoman Empire"},
+        {"ad": "Ottoman Army", "konum": "aynı ilişkili yer. Tanımda Osmanlı birliği adı yok."}
+      ],
+      "komutanlar": [
+        {"ad": "Lieutenant Flower", "gorev": "Suvla Bay tahliyesine dair emirlerin verildiği kişi diye yazıyor. Rütbe sayfada Lieutenant.", "hayat": null}
+      ],
+      "muharebeler": [
+        {"ad": "Suvla Bay evacuation", "tarih": "Fotoğrafın üretim tarihi 1915-12-19. Sayfa bu günü tahliye günü diye ayrıca cümle etmez.", "yer": "Suvla Bay, Gallipoli", "ayrinti": "Teğmen Flower'a Suvla Bay tahliyesi hakkında verilen emirlerin sergilenen fotoğrafı."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-ART4276",
+      "anahtar": ["Anzac"],
+      "url": "https://www.iwm.org.uk/collections/item/object/13080",
+      "http": 200,
+      "baslik": "The Battle of the Landings - ANZAC - 5.15pm, April 25th 1915",
+      "kayit_no": "Art.IWM ART 4276",
+      "tur": "Art",
+      "uretici": "Hillier, Herbert William",
+      "uretim_tarihi": "1915",
+      "tanim": "image: A sketch of the scene in the evening of the initial landings at Anzac Cove on the western side of the Gallipoli peninsula. In the left foreground is a transport ship carrying ANZAC infantry, with warships and lighters close by. The coastline runs across the background.",
+      "ek_tanim": "H.H. 25 IV.15",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Resim fişi.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: © The rights holder. Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "Anzac", "konum": "Anzac Cove, western side of the Gallipoli peninsula"},
+        {"ad": "Royal Navy, MANICA (HMS)", "konum": "ilişkili örgüt; krokide ayrı ad yok"},
+        {"ad": "Royal Navy, Royal Naval Air Service", "konum": "ilişkili örgüt"},
+        {"ad": "Royal Navy, Royal Naval Volunteer Reserve", "konum": "ilişkili örgüt"}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "Landing at Anzac Cove 1915", "tarih": "April 25th 1915, 5.15pm; tanımda evening of the initial landings", "yer": "Anzac Cove", "ayrinti": "ANZAC piyadesi taşıyan bir nakliye gemisi, yakınında savaş gemileri ve mavnalar."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-Q97341",
+      "anahtar": ["Anzac"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205340524",
+      "http": 200,
+      "baslik": "Ari Burnu Cemetery, ANZAC Memorial Gallipoli [Title formed by the Online Collections Volunteer Project]",
+      "kayit_no": "Q 97341",
+      "tur": "Photographs",
+      "tanim": "Ari Burnu Cemetery, ANZAC Memorial Gallipoli shortly after construction with numerous wreaths and four First World War wooden grave markers. [Description formed by the Online Collections Volunteer Project]",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi. Dört ahşap mezar işareti zayiat toplamı değildir.",
+      "lisans": "IWM Non-Commercial Licence. Görsel indirilmedi.",
+      "birlikler": [],
+      "komutanlar": [],
+      "muharebeler": [],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"},
+      "yer_baslikta": "Ari Burnu Cemetery"
+    },
+    {
+      "id": "EK-ART269",
+      "anahtar": ["Anzac"],
+      "url": "https://www.iwm.org.uk/collections/item/object/5486",
+      "http": 200,
+      "baslik": "Suvla Bay, Samothrace : from Barking Gully, ANZAC",
+      "kayit_no": "Art.IWM ART 269",
+      "tur": "Art",
+      "uretici": "Conway, L Russell",
+      "tanim": "L. Russell CONWAY",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Resim fişi. Ayrıntı cümlesi yok.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: Image: IWM (Art.IWM ART 269). Görsel indirilmedi.",
+      "birlikler": [],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "Gallipoli 1915-1916", "tarih": null, "yer": "Başlık: Suvla Bay; Samothrace; Barking Gully, ANZAC", "ayrinti": "İlişkili olay etiketi dışında tarif yok."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-UNI12391",
+      "anahtar": ["Ottoman Army"],
+      "url": "https://www.iwm.org.uk/collections/item/object/30100201",
+      "http": 200,
+      "baslik": "Jacket, M1909 Service Dress: Officer's, 2nd Infantry Regiment, Turkish Army",
+      "kayit_no": "UNI 12391",
+      "tur": "Uniforms and insignia",
+      "tanim": "Jacket (of German manufacture) worn during the First World War by Muzalim-l-Sani (Second Lieutenant) Abedine Houchemi of the 2nd Turkish Infantry Regiment. The 2nd Infantry Regiment served in the Gallipoli Peninsula during the British landings, and later went to Syria where Houchemi deserted, and gave himself up to the Allied troops.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Üniforma fişi. iddia_dogrulandi verilmedi.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: Image: IWM (UNI 12391). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "Ottoman Army, 2nd Turkish Infantry Regiment", "konum": "Sayfa: served in the Gallipoli Peninsula during the British landings, and later went to Syria. İlişkili yer: Gallipoli, Edirne Vilayet, Turkey, Ottoman Empire."}
+      ],
+      "komutanlar": [
+        {"ad": "Abedine Houchemi", "gorev": "Muzalim-l-Sani (Second Lieutenant), 2nd Turkish Infantry Regiment", "hayat": "Sayfa: alay sonra Suriye'ye gitti; Houchemi firar etti ve İtilaf birliklerine teslim oldu. Başka biyografi yok."}
+      ],
+      "muharebeler": [
+        {"ad": "Gallipoli 1915-1916", "tarih": "during the British landings", "yer": "Gallipoli Peninsula", "ayrinti": "2. Piyade Alayı'nın İngiliz çıkarmaları sırasında yarımadada bulunduğu yazıyor. Çatışma günü yok."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-IWM1062-02a",
+      "anahtar": ["Ottoman Army"],
+      "url": "https://www.iwm.org.uk/collections/item/object/1060023454",
+      "http": 200,
+      "baslik": "THE TURKS [Main Title]",
+      "kayit_no": "IWM 1062-02a",
+      "tur": "Film",
+      "uretim_tarihi": "1915",
+      "yer_yapim": "Germany",
+      "tanim": "Incomplete film of a Turkish Army marchpast, probably not far from Constantinople, 1915. Limbered 77mm field guns pass at the trot, then halt for the crews to dismount. The caption points out that German NCOs lead each column. A posed group of senior officers, including one German in Turkish uniform. The full force, about a division in size including foot soldiers, horsemen and guns, starts its marchpast across a large training field.",
+      "durum": "metadata_kontrol_edildi",
+      "film_oynatilmadi": true,
+      "belge_degil": "Film künyesi okundu. Film oynatılmadı. Gelibolu sahnesi diye yazmıyor.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: Film: IWM (IWM 1062-02a). Dosya indirilmedi.",
+      "birlikler": [
+        {"ad": "Ottoman Army", "konum": "probably not far from Constantinople; ilişkili yer: Turkey & Constantinople area. Koordinat yok."}
+      ],
+      "komutanlar": [],
+      "muharebeler": [],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı. 'about a division in size' kuvvet büyüklüğü tahminidir, kayıp sayısı değildir."},
+      "not": "İlişkili olay kodu 31/3(560) çözülmedi."
+    },
+    {
+      "id": "EK-Q109141",
+      "anahtar": ["naval operations"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205351873",
+      "http": 200,
+      "baslik": "NAVAL OPERATIONS IN THE DARDANELLES CAMPAIGN, FEBRUARY-MARCH 1915",
+      "kayit_no": "Q 109141",
+      "tur": "Photographs",
+      "parca": "HENRY BRISTOW LTD",
+      "tanim": "Artwork from 'The Graphic' depicting the Franco British fleet bombarding the Dardanelles forts.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi. The Graphic resmi.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: © The rights holder (Q 109141). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "Royal Navy", "konum": "Dardanelles forts. Ayrı yer adı veya gemi adı yok."},
+        {"ad": "French Navy", "konum": "aynı"}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "NAVAL OPERATIONS IN THE DARDANELLES CAMPAIGN", "tarih": "FEBRUARY-MARCH 1915", "yer": "Dardanelles forts", "ayrinti": "Fransız-İngiliz filosunun boğaz tabyalarını bombardımanı."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-Q109146",
+      "anahtar": ["naval operations"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205351878",
+      "http": 200,
+      "baslik": "NAVAL OPERATIONS IN THE DARDANELLES CAMPAIGN, FEBRUARY-MARCH 1915",
+      "kayit_no": "Q 109146",
+      "tur": "Photographs",
+      "uretici": "Newton & Co. LTD (manufacturer)",
+      "yer_yapim": "London",
+      "parca": "HENRY BRISTOW LTD",
+      "tanim": "Reproduction of a drawing of HMS QUEEN ELIZABETH in action in the Dardanelles.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi. Çizim kopyası.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: © The rights holder (Q 109146). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "HMS QUEEN ELIZABETH", "konum": "in the Dardanelles. İlişkili yer: Gallipoli, Edirne Vilayet, Turkey, Ottoman Empire"}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "NAVAL OPERATIONS IN THE DARDANELLES CAMPAIGN", "tarih": "FEBRUARY-MARCH 1915", "yer": "Dardanelles", "ayrinti": "HMS Queen Elizabeth harekâtta."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-Q21399",
+      "anahtar": ["Irresistible"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205024811",
+      "http": 200,
+      "baslik": "BRITISH SHIPS OF THE FIRST WORLD WAR",
+      "kayit_no": "Q 21399",
+      "tur": "Photographs",
+      "uretici": "Symonds & Co",
+      "uretim_tarihi": "1914",
+      "tanim": ["H. M. S. IRRESISTIBLE, 1914.", "HMS IRRESISTABLE. Mined and then sunk by Turkish guns in the Dardanelles, 18 March 1915."],
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi. Batış cümlesi künyededir. iddia_dogrulandi verilmedi.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: Image: IWM (Q 21399). Görsel indirilmedi.",
+      "yazim": "Sayfa hem IRRESISTIBLE hem IRRESISTABLE yazar. İlişkili örgüt: Royal Navy, IRRESISTABLE (HMS).",
+      "birlikler": [
+        {"ad": "HMS Irresistible / IRRESISTABLE", "konum": "Dardanelles straits"}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": null, "tarih": "18 March 1915", "yer": "Dardanelles", "ayrinti": "Mayına çarptı, ardından Türk toplarıyla batırıldı diye yazıyor. Fotoğrafın üretim tarihi 1914."}
+      ],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-Q74909",
+      "anahtar": ["Irresistible"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205319696",
+      "http": 200,
+      "baslik": "THE ROYAL NAVY IN THE FIRST WORLD WAR",
+      "kayit_no": "Q 74909",
+      "tur": "Photographs",
+      "tanim": "Battleship HMS Irresistible.",
+      "iliski": "Royal Navy, HMS Irresistible, Battleship (1898)",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi. Batış, yer ve tarih yok.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: Image: IWM (Q 74909). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "HMS Irresistible", "konum": null}
+      ],
+      "komutanlar": [],
+      "muharebeler": [],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"},
+      "not": "(1898) örgüt etiketindedir. Muharebe tarihi diye okunmadı."
+    },
+    {
+      "id": "EK-Q75252",
+      "anahtar": ["Irresistible"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205320039",
+      "http": 200,
+      "baslik": "THE ROYAL NAVY IN THE FIRST WORLD WAR",
+      "kayit_no": "Q 75252",
+      "tur": "Photographs",
+      "tanim": "Battleship HMS Irresistible.",
+      "iliski": "Royal Navy, HMS Irresistible, Battleship (1898)",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi. Batış, yer ve tarih yok.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: © The rights holder (Q 75252). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "HMS Irresistible", "konum": null}
+      ],
+      "komutanlar": [],
+      "muharebeler": [],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-Q22256",
+      "anahtar": ["Bouvet"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205093986",
+      "http": 200,
+      "baslik": "photograph",
+      "kayit_no": "Q 22256",
+      "tur": "Photographs",
+      "tanim": ["French Battleship BOUVET, 1900.", "BOUVET (1896) under way c.1900."],
+      "donem": "Pre-1914 (content), First World War (content)",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi. Bu sayfada batış cümlesi yok.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: Image: IWM (Q 22256). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "Navy, FRENCH, BOUVET", "konum": null}
+      ],
+      "komutanlar": [],
+      "muharebeler": [],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-HU103301",
+      "anahtar": ["Bouvet"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205227618",
+      "http": 200,
+      "baslik": "HMS AGAMEMNON DURING THE FIRST WORLD WAR",
+      "kayit_no": "HU 103301",
+      "tur": "Photographs",
+      "tanim": "Survivors from the French battleship Bouvet coming on board HMS AGAMEMNON on 18 March 1915 during the Anglo-French naval attempt to force the Dardanelles. The Bouvet struck a Turkish mine and sank with the loss of over 600 of her crew.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi. 'over 600' künye cümlesidir. Zayiat belgesi değildir. iddia_dogrulandi verilmedi.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: Image: IWM (HU 103301). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "Navy, FRENCH, BOUVET", "konum": "Dardanelles straits"},
+        {"ad": "Royal Navy, AGAMEMNON (HMS; battleship)", "konum": "Dardanelles straits"}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "Anglo-French naval attempt to force the Dardanelles", "tarih": "18 March 1915", "yer": "Dardanelles straits", "ayrinti": "Bouvet Türk mayınına çarptı ve battı. Sağ kalanlar Agamemnon'a alınıyor."}
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "sayfa_ifadesi": "over 600 of her crew",
+        "not": "Sayfa bu ifadeyi açıkça yazar. Tek tamsayı yoktur. Doğrulanmış toplam değildir."
+      }
+    },
+    {
+      "id": "EK-Q74918",
+      "anahtar": ["Ocean"],
+      "url": "https://www.iwm.org.uk/collections/item/object/205319705",
+      "http": 200,
+      "baslik": "THE ROYAL NAVY IN THE FIRST WORLD WAR",
+      "kayit_no": "Q 74918",
+      "tur": "Photographs",
+      "tanim": "Battleship HMS Ocean.",
+      "iliski": ["Royal Navy", "Royal Navy, HMS OCEAN"],
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi. Batış, hasar, yer ve tarih yok.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: © The rights holder (Q 74918). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "HMS Ocean", "konum": null}
+      ],
+      "komutanlar": [],
+      "muharebeler": [],
+      "kayiplar": {"sayi": null, "not": "bu turda okunmadı"}
+    },
+    {
+      "id": "EK-Q50992",
+      "anahtar": ["Ocean"],
+      "gelibolu_disi": true,
+      "url": "https://www.iwm.org.uk/collections/item/object/205193145",
+      "http": 200,
+      "baslik": "THE FIRST WORLD WAR 1914 - 1918: THE WAR AT SEA",
+      "kayit_no": "Q 50992",
+      "tur": "Photographs",
+      "uretici": "German official photographer",
+      "tanim": "Admiral von Spee's squadron, SCHARNHORST, GNEISENAU, LEIPZIG, NURNBERG and DRESDEN, in line ahead off the Chilean coast. All but the DRESDEN were sunk in a battle with the British High Seas Fleet off the Falkland Islands, 8 December 1914.",
+      "durum": "metadata_kontrol_edildi",
+      "belge_degil": "Fotoğraf fişi. Gelibolu veya HMS Ocean yok. Ocean anahtarının Birinci Dünya Savaşı süzgecindeki ilk sayfadan açıldı.",
+      "lisans": "IWM Non-Commercial Licence. Atıf: Image: IWM (Q 50992). Görsel indirilmedi.",
+      "birlikler": [
+        {"ad": "SCHARNHORST", "konum": "off the Chilean coast"},
+        {"ad": "GNEISENAU", "konum": "off the Chilean coast"},
+        {"ad": "LEIPZIG", "konum": "off the Chilean coast"},
+        {"ad": "NURNBERG", "konum": "off the Chilean coast"},
+        {"ad": "DRESDEN", "konum": "off the Chilean coast"}
+      ],
+      "komutanlar": [
+        {"ad": "Admiral von Spee", "gorev": "squadron", "hayat": null}
+      ],
+      "muharebeler": [
+        {"ad": "Battle of the Falkland Islands 1914", "tarih": "8 December 1914", "yer": "off the Falkland Islands; ilişkili yer Pacific Ocean", "ayrinti": "Sayfa, Dresden dışında hepsinin battığını yazar. Gelibolu kaydı değildir."}
+      ],
+      "kayiplar": {"sayi": null, "not": "Gelibolu kaybı değil. Sayı da yok. bu turda Gelibolu kayıp sayısı okunmadı."}
+    }
+  ],
+  "taranmayan": [
+    "Gallipoli 1915: 1934 kayıttan ilk 30 başlık görüldü, 3 fiş açıldı.",
+    "Dardanelles: 1384 kayıttan ilk 30 başlık, 3 fiş.",
+    "Cape Helles: 276 kayıttan ilk 30 başlık, 3 fiş.",
+    "Suvla: 223 kayıttan ilk 30 başlık, 3 fiş.",
+    "Anzac: 487 kayıttan ilk 30 başlık; 1953 ve sonrası Anzac günü kayıtları açılmadı; 3 fiş.",
+    "Ottoman Army: 1517 kayıttan ilk 30. Sina-Filistin fotoğrafları, fünyeler ve sözlü tarihler açılmadı.",
+    "naval operations: süzmesiz 5499 kaydın ilk 30'u Kore ve 1955 tatbikatı, açılmadı. Dönem süzgeciyle 915 kaydın ilk 30'undan 2 yeni fiş.",
+    "Bouvet: 8 başlığın 5'i açılmadı.",
+    "Irresistible: 27 başlığın 24'ü açılmadı. Q 74909 ve Q 75252 batış yazmaz; Q 21399 yazar. Bu üçü birleştirilip doğrulanmış batış sırası yapılmadı.",
+    "Ocean: 1915 zırhlısının hasar ve batış künyesi açılmadı. Q 74918 yalnız gemi adı verir. Süzmesiz 2885 ve süzgeçli 293 kaydın geri kalanı yok.",
+    "IWM-001 Q 13823 ve IWM-002 Q 13339 hâlâ 404. Yerine başka numara konmadı.",
+    "Kitap metinleri: LBY 14434, LBY 12/1623, LBY 12520.",
+    "Q 67944 tahliye emrinin metni okunmadı.",
+    "IWM 1062-02a filmi oynatılmadı.",
+    "Özel evrak, harp ceridesi, mayın hattı ve Inflexible ile Gaulois bu turda aranmadı.",
+    "Koordinat üretilmedi. Sayfadaki Edirne Vilayet ibaresi düzeltimedi."
+  ]
+}

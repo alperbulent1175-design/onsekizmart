@@ -1,0 +1,186 @@
+{
+  "tarih": "2026-10-15",
+  "denemeler": [
+    {
+      "id": "GTA-001",
+      "url": "https://canakkaletarihialan.gov.tr/tr/canakkale-savaslari/arsiv",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "GTA-002",
+      "url": "https://casa.canakkaletarihialan.gov.tr/",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "GTA-003",
+      "url": "https://canakkaletarihialan.gov.tr/tr/yayinlar/kitaplar?page=2",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": true
+    },
+    {
+      "id": "GTA-004",
+      "url": "https://canakkaletarihialan.gov.tr/tr/yayinlar/kitaplar?page=1",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "GTA-005",
+      "url": "https://canakkaletarihialan.gov.tr/tr/yayinlar/kitaplar?page=2",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "GTA-006",
+      "url": "https://canakkaletarihialan.gov.tr/tr/yayinlar/kitaplar?page=1",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "AWM-001",
+      "url": "https://www.awm.gov.au/collection/C2128157",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": true
+    },
+    {
+      "id": "AWM-002",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000581",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "AWM-003",
+      "url": "https://www.awm.gov.au/collection/C2628030",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": true
+    },
+    {
+      "id": "AWM-004",
+      "url": "https://www.awm.gov.au/collection/accessing-records-at-the-memorial/findingaids/private/birdwood",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": true
+    },
+    {
+      "id": "AWM-005",
+      "url": "https://www.awm.gov.au/collection/C1378006",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": true
+    },
+    {
+      "id": "AWM-006",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000100",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "AWM-007",
+      "url": "https://www.awm.gov.au/collection/C2084670",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "AWM-008",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000077",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "AWM-009",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000081",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "AWM-010",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000093",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "AWM-011",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000593",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "AWM-012",
+      "url": "https://www.awm.gov.au/collection/C1422818",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "AWM-013",
+      "url": "https://www.awm.gov.au/collection/C1416977",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "IWM-001",
+      "url": "https://www.iwm.org.uk/collections/item/object/205248958",
+      "http": 404,
+      "hata": "http",
+      "govde_eslesti": false
+    },
+    {
+      "id": "IWM-002",
+      "url": "https://www.iwm.org.uk/collections/item/object/205248554",
+      "http": 404,
+      "hata": "http",
+      "govde_eslesti": false
+    },
+    {
+      "id": "IWM-003",
+      "url": "https://www.iwm.org.uk/collections/item/object/13136",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": true
+    },
+    {
+      "id": "IWM-004",
+      "url": "https://www.iwm.org.uk/collections/item/object/205227619",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": true
+    },
+    {
+      "id": "IWM-005",
+      "url": "https://www.iwm.org.uk/collections/item/object/1500016242",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": true
+    },
+    {
+      "id": "IWM-006",
+      "url": "https://www.iwm.org.uk/collections/item/object/1500109641",
+      "http": 200,
+      "hata": "",
+      "govde_eslesti": false
+    },
+    {
+      "id": "ATASE-001",
+      "url": "",
+      "http": null,
+      "hata": "adres_yok"
+    }
+  ]
+}

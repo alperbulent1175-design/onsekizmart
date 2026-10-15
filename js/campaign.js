@@ -155,7 +155,10 @@
         battle: false,
         quiet: true,
         title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Tarama sürer. 16 Mart’ta Amiral Carden sağlık nedeniyle komutayı bırakır; deniz komutanı John de Robeck olur.",
+        text: "Tarama sürer. Carden’ın komutayı bıraktığı gün sitede 16 Mart 1915, de Robeck’in görev satırı 17 Mart 1915’tir. İki tarih bu turda tek belgeyle birleştirilmedi.",
+        cardenBirakma: "16 Mart 1915",
+        robeckGorev: "17 Mart 1915",
+        komutaDurumu: "insan_incelemesi_gerekli",
         place: "kilitbahir"
       },
       {
@@ -644,13 +647,18 @@
         {
           name: "Sackville Carden",
           role: "Deniz komutanı, Şubat – 16 Mart 1915",
-          body: "Şubat bombardımanlarını yönetir. 16 Mart 1915’te sağlık nedeniyle komutayı bırakır.",
+          commandLeft: "16 Mart 1915",
+          commandDatesResolved: false,
+          body: "Şubat bombardımanlarını yönetir. 16 Mart 1915’te sağlık nedeniyle komutayı bırakır. De Robeck’in görev satırı sitede 17 Mart 1915’tir; iki tarih birleştirilmedi.",
           place: null
         },
         {
           name: "John de Robeck",
           role: "Deniz komutanı, 17 Mart 1915’ten",
-          body: "18 Mart taarruzunu yönetir. Kara çıkarması boyunca deniz kuvvetlerinin başındadır.",
+          commandFrom: "17 Mart 1915",
+          cardenLeft: "16 Mart 1915",
+          commandDatesResolved: false,
+          body: "18 Mart taarruzunu yönetir. Kara çıkarması boyunca deniz kuvvetlerinin başındadır. Görev satırı 17 Mart 1915’tir; Carden’ın bıraktığı gün 16 Mart 1915 olarak durur.",
           place: null
         },
         {

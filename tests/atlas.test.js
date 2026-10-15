@@ -83,6 +83,41 @@ test("kayıt sayfası özetten sonra kaynak çerçevesini gösterir", () => {
   assert.match(html18, /doğrulanmış kayıt olarak işaretlenmez/);
 });
 
+test("18 Mart’ta batan üç gemi durur ve Hamilton deniz komutanı yazılmaz", () => {
+  global.window = {};
+  load("js/data.js");
+  load("js/campaign.js");
+  const ev = global.window.OM.campaign.events.find((item) => item.title === "18 Mart Deniz Muharebesi");
+  assert.match(ev.text, /Bouvet, Irresistible ve Ocean batar/);
+  assert.equal(ev.text.includes("Yavuz"), false);
+  assert.equal(ev.text.includes("Midilli"), false);
+  assert.equal(ev.text.includes("Mesudiye"), false);
+  const navy = fs.readFileSync(path.join(root, "donanma/index.html"), "utf8");
+  assert.match(navy, /Yavuz Sultan Selim ile Midilli bu muharebenin gemi listesinde yoktur/);
+  assert.match(navy, /Mesudiye, Osmanlı bayrağı taşıyan eski bir zırhlıdır\. 18 Mart kadrosunda yoktur/);
+  const hamilton = fs.readFileSync(path.join(root, "komutanlar/ian-hamilton/index.html"), "utf8");
+  assert.match(hamilton, /18 Mart deniz muharebesinin komutanı değildir/);
+});
+
+test("boş hayat alanları doldurulmaz", () => {
+  function facts(file) {
+    return fs.readFileSync(path.join(root, file), "utf8");
+  }
+  assert.match(facts("komutanlar/mustafa-kemal/index.html"), /<dt>Doğum<\/dt><dd>1881, Selanik<\/dd>/);
+  assert.equal(facts("komutanlar/vehip-pasa-kaci/index.html").includes("<dt>Doğum</dt>"), false);
+  assert.equal(facts("komutanlar/remzi-bey/index.html").includes("<dt>Doğum</dt>"), false);
+  assert.equal(facts("komutanlar/remzi-bey/index.html").includes("<dt>Ölüm</dt>"), false);
+  assert.equal(facts("komutanlar/johannes-merten/index.html").includes("<dt>Doğum</dt>"), false);
+  assert.equal(facts("komutanlar/johannes-merten/index.html").includes("<dt>Ölüm</dt>"), false);
+  assert.match(facts("komutanlar/halil-sami-bey/index.html"), /<dt>Ölüm<\/dt><dd>1925<\/dd>/);
+  assert.match(facts("komutanlar/selahattin-adil-bey/index.html"), /<dt>Ölüm<\/dt><dd>27 Şubat 1961<\/dd>/);
+  assert.match(facts("komutanlar/albert-damade/index.html"), /<dt>Doğum<\/dt><dd>24 Aralık 1856<\/dd>/);
+  assert.match(facts("komutanlar/albert-damade/index.html"), /<dt>Ölüm<\/dt><dd>11 Kasım 1941<\/dd>/);
+  assert.match(facts("komutanlar/william-bridges/index.html"), /<dt>Ölüm<\/dt><dd>18 Mayıs 1915<\/dd>/);
+  assert.match(facts("komutanlar/roger-keyes/index.html"), /<dt>Doğum<\/dt><dd>4 Ekim 1872, Pencap<\/dd>/);
+  assert.match(facts("komutanlar/charles-monro/index.html"), /<dt>Doğum<\/dt><dd>15 Haziran 1860, denizde<\/dd>/);
+});
+
 test("mobil düzen ve katman düğmesi kuralları durur", () => {
   const css = fs.readFileSync(path.join(root, "css/style.css"), "utf8");
   const app = fs.readFileSync(path.join(root, "js/app.js"), "utf8");

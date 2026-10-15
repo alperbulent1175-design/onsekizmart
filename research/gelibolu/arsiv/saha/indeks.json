@@ -1,0 +1,2530 @@
+{
+  "baslik": "Gelibolu saha indeksi",
+  "sinir": "Site metnidir. Yeni doğrulama değildir.",
+  "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+  "kaynak_durumu": "cerceve",
+  "kurum_ana_sayfalari_iddia_kaniti_degil": [
+    "Genelkurmay ATASE çerçevesi (sayfa ve belge no yok)",
+    "https://www.awm.gov.au/",
+    "https://www.iwm.org.uk/"
+  ],
+  "sayim": {
+    "birlik": 23,
+    "birlik_harita_tablosu": 7,
+    "birlik_sefer": 13,
+    "birlik_filo": 3,
+    "komutan": 25,
+    "muharebe": 15,
+    "adli_olay": 13,
+    "adsiz_not": 1,
+    "aralik_notu": 15,
+    "bos_kayip_satiri": 29
+  },
+  "birlikler": [
+    {
+      "id": "mustahkem",
+      "ad": "Çanakkale Müstahkem Mevkii",
+      "taraf": "Osmanlı",
+      "saha": "Her iki yaka tabyaları, seyyar bataryalar, mayın ve projektörler",
+      "yer": "Çanakkale Müstahkem Mevkii Karargâhı",
+      "ilgili_olaylar": [
+        "e-subat19",
+        "e-subat25",
+        "e-nusret",
+        "e-mart18",
+        "e-e15"
+      ],
+      "grup": "harita-birlik-tablosu",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Miralay Cevat Bey (Çobanlı); Kurmay: Yarbay Selahattin Adil Bey",
+      "mevcut": "~18.000–20.000",
+      "mevcut_notu": "18 Mart birlik tablosundaki aralık. Zayiat toplamı değildir."
+    },
+    {
+      "id": "kolordu-3",
+      "ad": "3. Kolordu",
+      "taraf": "Osmanlı",
+      "saha": "Boğaz çevresi, Gelibolu, Saros’tan Anadolu kıyısına",
+      "yer": "3. Kolordu Komutanlığı",
+      "ilgili_olaylar": [
+        "e-mart18",
+        "e-ari",
+        "e-kumkale",
+        "e-may19",
+        "e-ateskes",
+        "e-triumph",
+        "e-kanli",
+        "e-suvla",
+        "e-conk",
+        "e-anaf1",
+        "e-anaf2",
+        "e-tahliye-ari"
+      ],
+      "grup": "harita-birlik-tablosu",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Mirliva Esat Paşa (Bülkat)",
+      "mevcut": "~50.000–55.000",
+      "mevcut_notu": "18 Mart birlik tablosundaki aralık. Zayiat toplamı değildir.",
+      "sefer_notu": "Yarımada tarafı. Arıburnu kesimi bu kolordunun sahasındadır."
+    },
+    {
+      "id": "tumen-19",
+      "ad": "19. Tümen (ihtiyat)",
+      "taraf": "Osmanlı",
+      "saha": "Maydos, Seddülbahir gerisi, Kilitbahir geçişi",
+      "yer": "19. Tümen — genel ihtiyat",
+      "ilgili_olaylar": [
+        "e-mart18",
+        "e-ari",
+        "e-may19",
+        "e-ateskes"
+      ],
+      "grup": "harita-birlik-tablosu",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Yarbay Mustafa Kemal",
+      "kurulus": "57., 72., 77. Piyade ve 39. Topçu Alayı",
+      "mevcut": "~12.000–14.000",
+      "mevcut_notu": "18 Mart birlik tablosundaki aralık. Zayiat toplamı değildir."
+    },
+    {
+      "id": "tumen-9",
+      "ad": "9. Tümen",
+      "taraf": "Osmanlı",
+      "saha": "Seddülbahir, Alçıtepe, Krithia ve güney kıyı",
+      "yer": "9. Tümen",
+      "ilgili_olaylar": [
+        "e-subat19",
+        "e-subat25",
+        "e-mart18",
+        "e-seddul",
+        "e-ari",
+        "e-kirte1",
+        "e-kirte2"
+      ],
+      "grup": "harita-birlik-tablosu",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Miralay Halil Sami Bey",
+      "kurulus": "25., 26., 27. Piyade Alayları",
+      "mevcut": "~12.000–13.000",
+      "mevcut_notu": "18 Mart birlik tablosundaki aralık. Zayiat toplamı değildir."
+    },
+    {
+      "id": "tumen-7",
+      "ad": "7. Tümen",
+      "taraf": "Osmanlı",
+      "saha": "Saros kıyıları ve Bolayır Kıstağı",
+      "yer": "7. Tümen",
+      "ilgili_olaylar": [
+        "e-mart18",
+        "e-saros"
+      ],
+      "grup": "harita-birlik-tablosu",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Miralay Remzi Bey",
+      "kurulus": "19., 20., 21. Piyade Alayları",
+      "mevcut": "~11.000–12.000",
+      "mevcut_notu": "18 Mart birlik tablosundaki aralık. Zayiat toplamı değildir."
+    },
+    {
+      "id": "tumen-11",
+      "ad": "11. Tümen",
+      "taraf": "Osmanlı",
+      "saha": "Kumkale, Erenköy, Yeniköy, Beşige",
+      "yer": "11. Tümen",
+      "ilgili_olaylar": [
+        "e-subat19",
+        "e-subat25",
+        "e-nusret",
+        "e-mart18",
+        "e-kumkale"
+      ],
+      "grup": "harita-birlik-tablosu",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Miralay Rafet Bey (Bele)",
+      "kurulus": "33., 126., 127. Piyade Alayları",
+      "mevcut": "~11.000–12.000",
+      "mevcut_notu": "18 Mart birlik tablosundaki aralık. Zayiat toplamı değildir."
+    },
+    {
+      "id": "mayin-grup",
+      "ad": "Mayın ve Deniz Savunma",
+      "taraf": "Osmanlı",
+      "saha": "11 enlemesine hat + Erenköy gizli hattı",
+      "yer": "Mayın ve Deniz Savunma Grubu",
+      "ilgili_olaylar": [
+        "e-nusret",
+        "e-mart18"
+      ],
+      "grup": "harita-birlik-tablosu",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Binbaşı Nazmi Bey; Nusret: Yzb. Tophaneli Hakkı",
+      "mevcut": "~400–500",
+      "mevcut_notu": "18 Mart birlik tablosundaki aralık. Zayiat toplamı değildir. Nazmi Bey ve Hakkı için ayrı komutan sayfası yok; hayat alanı açılmadı."
+    },
+    {
+      "id": "ordu-5",
+      "ad": "5. Ordu",
+      "taraf": "Osmanlı",
+      "saha": "Kara savunmasının üst komutanlığı",
+      "yer": null,
+      "ilgili_olaylar": [
+        "e-mart-nisan",
+        "e-e15",
+        "e-seddul",
+        "e-ari",
+        "e-kumkale",
+        "e-saros",
+        "e-kirte1",
+        "e-kirte2",
+        "e-may19",
+        "e-ateskes",
+        "e-triumph",
+        "e-majestic",
+        "e-kirte3",
+        "e-zigin",
+        "e-kereviz",
+        "e-kanli",
+        "e-suvla",
+        "e-conk",
+        "e-anaf1",
+        "e-anaf2",
+        "e-tahliye-ari",
+        "e-tahliye-suvla",
+        "e-tahliye-sedd"
+      ],
+      "grup": "sefer-duzeni",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Liman von Sanders",
+      "yer_notu": "Gelibolu’daki karargâh için ayrı bir nokta işaretlenmedi.",
+      "kurulus_notu": "24 Mart 1915’te kurulur. 18 Mart’ta henüz yoktur."
+    },
+    {
+      "id": "kolordu-15",
+      "ad": "XV. Kolordu",
+      "taraf": "Osmanlı",
+      "saha": "Anadolu yakası; Kumkale bu koldadır",
+      "yer": "Kumkale",
+      "ilgili_olaylar": [
+        "e-subat25",
+        "e-kumkale"
+      ],
+      "grup": "sefer-duzeni",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Weber Paşa"
+    },
+    {
+      "id": "guney-grubu",
+      "ad": "Güney Grubu",
+      "taraf": "Osmanlı",
+      "saha": "Seddülbahir cephesi",
+      "yer": "Seddülbahir",
+      "ilgili_olaylar": [
+        "e-zigin",
+        "e-kereviz",
+        "e-tahliye-sedd"
+      ],
+      "grup": "sefer-duzeni",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Vehip Paşa (Kaçı)",
+      "gorev_baslangic": "Temmuz 1915",
+      "not": "25 Nisan, Kirte muharebeleri ve 4 Haziran bu grubun onun komutasında olduğu günler değildir. Zığındere sayfası komutanlığın Temmuz’da olduğunu yazar; muharebe 5 Temmuz’da biter."
+    },
+    {
+      "id": "anafartalar-grubu",
+      "ad": "Anafartalar Grubu",
+      "taraf": "Osmanlı",
+      "saha": "Anafartalar",
+      "yer": null,
+      "ilgili_olaylar": [
+        "e-conk",
+        "e-anaf1",
+        "e-anaf2",
+        "e-tahliye-suvla"
+      ],
+      "grup": "sefer-duzeni",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Mustafa Kemal",
+      "gorev_baslangic": "8/9 Ağustos 1915 gecesi",
+      "yer_notu": "Ayrı birlik noktası işaretlenmedi."
+    },
+    {
+      "id": "anzak",
+      "ad": "Avustralya ve Yeni Zelanda Kolordusu (ANZAK)",
+      "taraf": "İtilaf",
+      "saha": "Arıburnu",
+      "yer": "Arıburnu (Anzak Koyu)",
+      "ilgili_olaylar": [
+        "e-ari",
+        "e-may19",
+        "e-ateskes",
+        "e-triumph",
+        "e-kanli",
+        "e-conk",
+        "e-tahliye-ari"
+      ],
+      "grup": "sefer-duzeni",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "William Birdwood"
+    },
+    {
+      "id": "tumen-aus-1",
+      "ad": "1. Avustralya Tümeni",
+      "taraf": "İtilaf",
+      "saha": "Arıburnu",
+      "yer": "Arıburnu (Anzak Koyu)",
+      "ilgili_olaylar": [
+        "e-ari",
+        "e-may19",
+        "e-ateskes",
+        "e-triumph",
+        "e-kanli"
+      ],
+      "grup": "sefer-duzeni",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "William Bridges",
+      "not": "25 Nisan’da tümeninin komutanıdır. 15 Mayıs 1915’te ağır yaralanır; sonraki günlerin başında yoktur."
+    },
+    {
+      "id": "tumen-nza",
+      "ad": "Yeni Zelanda ve Avustralya Tümeni",
+      "taraf": "İtilaf",
+      "saha": "Arıburnu",
+      "yer": "Arıburnu (Anzak Koyu)",
+      "ilgili_olaylar": [
+        "e-ari",
+        "e-may19",
+        "e-ateskes",
+        "e-triumph",
+        "e-kanli",
+        "e-conk",
+        "e-tahliye-ari"
+      ],
+      "grup": "sefer-duzeni",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Alexander Godley"
+    },
+    {
+      "id": "tumen-29",
+      "ad": "29. Tümen",
+      "taraf": "İtilaf",
+      "saha": "Seddülbahir; V, W, X, Y ve S kumsalları",
+      "yer": "Seddülbahir",
+      "ilgili_olaylar": [
+        "e-seddul",
+        "e-kirte1",
+        "e-kirte2",
+        "e-majestic",
+        "e-kirte3",
+        "e-zigin",
+        "e-kereviz",
+        "e-tahliye-sedd"
+      ],
+      "grup": "sefer-duzeni",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Aylmer Hunter-Weston"
+    },
+    {
+      "id": "kolordu-8",
+      "ad": "VIII. Kolordu",
+      "taraf": "İtilaf",
+      "saha": "Seddülbahir cephesi",
+      "yer": "Seddülbahir",
+      "ilgili_olaylar": [
+        "e-majestic",
+        "e-kirte3",
+        "e-tahliye-sedd"
+      ],
+      "grup": "sefer-duzeni",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Aylmer Hunter-Weston",
+      "not": "29. Tümen’den sonra bu cephedeki kolorduyu komuta eder. Başlangıç günü sitede ayrı bir tarih olarak yok."
+    },
+    {
+      "id": "kolordu-9",
+      "ad": "IX. Kolordu",
+      "taraf": "İtilaf",
+      "saha": "Suvla / Anafartalar",
+      "yer": "Anafartalar / Suvla",
+      "ilgili_olaylar": [
+        "e-suvla",
+        "e-anaf1",
+        "e-anaf2",
+        "e-tahliye-suvla"
+      ],
+      "grup": "sefer-duzeni",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Frederick Stopford",
+      "not": "6–7 Ağustos çıkarmasını komuta eder. Ağustos 1915 içinde görevden alınır. Gün sitede yok."
+    },
+    {
+      "id": "fr-kolordu",
+      "ad": "Fransız Sefer Kolordusu",
+      "taraf": "İtilaf",
+      "saha": "25 Nisan Kumkale; ardından Seddülbahir",
+      "yer": "Kumkale",
+      "ilgili_olaylar": [
+        "e-subat25",
+        "e-kumkale",
+        "e-seddul",
+        "e-kirte1",
+        "e-kirte2",
+        "e-kirte3",
+        "e-zigin",
+        "e-kereviz",
+        "e-tahliye-sedd"
+      ],
+      "grup": "sefer-duzeni",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "komuta": "Albert d’Amade, Mayıs 1915’ten Henri Gouraud",
+      "not": "d’Amade Mayıs 1915’te bırakır. Gouraud Haziran sonunda Seddülbahir’de yaralanır; 12 Temmuz’da kolun başında yoktur."
+    },
+    {
+      "id": "alay-27",
+      "ad": "27. Alay",
+      "taraf": "Osmanlı",
+      "saha": "Arıburnu kıyısı",
+      "yer": null,
+      "ilgili_olaylar": [
+        "e-ari"
+      ],
+      "grup": "sefer-duzeni",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "ust": "9. Tümen",
+      "yer_notu": "Ayrı nokta yok. Çıkarma metninde kıyıyı tutan alaydır."
+    },
+    {
+      "id": "alay-57",
+      "ad": "57. Alay",
+      "taraf": "Osmanlı",
+      "saha": "Arıburnu sırtları",
+      "yer": null,
+      "ilgili_olaylar": [
+        "e-ari",
+        "e-conk"
+      ],
+      "grup": "sefer-duzeni",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "ust": "19. Tümen",
+      "yer_notu": "Ayrı nokta yok. 25 Nisan’da aynı gün sırtlara sürülür."
+    },
+    {
+      "id": "hat-a",
+      "ad": "A Hattı",
+      "taraf": "İtilaf",
+      "saha": "İngiliz zırhlıları, 18 Mart",
+      "yer": null,
+      "ilgili_olaylar": [
+        "e-mart18"
+      ],
+      "grup": "filo-hatti",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve. Filo hattı, sitedeki hat işaretidir.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "gemiler": [
+        "HMS Queen Elizabeth",
+        "HMS Inflexible",
+        "HMS Agamemnon",
+        "HMS Lord Nelson"
+      ],
+      "komuta": "John de Robeck; sancak gemisi Queen Elizabeth"
+    },
+    {
+      "id": "hat-b",
+      "ad": "B Hattı (Fransız deniz tümeni)",
+      "taraf": "İtilaf",
+      "saha": "Fransız zırhlıları, 18 Mart",
+      "yer": null,
+      "ilgili_olaylar": [
+        "e-mart18"
+      ],
+      "grup": "filo-hatti",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve. Filo hattı, sitedeki hat işaretidir.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "gemiler": [
+        "Suffren",
+        "Bouvet",
+        "Gaulois",
+        "Charlemagne"
+      ],
+      "komuta": "Émile Guépratte"
+    },
+    {
+      "id": "hat-c",
+      "ad": "C Hattı",
+      "taraf": "İtilaf",
+      "saha": "İhtiyat ve destek, 18 Mart",
+      "yer": null,
+      "ilgili_olaylar": [
+        "e-mart18"
+      ],
+      "grup": "filo-hatti",
+      "konum_notu": "Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir. Eğitim haritasının modelidir: mevki veya saha merkezi, kesin koordinat ve siper hattı değildir. Sayfa ve belge numarası yok; durum cerceve. Filo hattı, sitedeki hat işaretidir.",
+      "durum": "cerceve",
+      "sayfa": null,
+      "belge_no": null,
+      "gemiler": [
+        "HMS Vengeance",
+        "HMS Irresistible",
+        "HMS Albion",
+        "HMS Ocean",
+        "HMS Majestic",
+        "HMS Swiftsure"
+      ]
+    }
+  ],
+  "komutanlar": [
+    {
+      "id": "liman-von-sanders",
+      "ad": "Liman von Sanders",
+      "taraf": "Osmanlı",
+      "gorev": "5. Ordu Komutanı",
+      "gorev_1915": "24 Mart 1915’ten 5. Ordu Komutanı",
+      "metin": "24 Mart 1915’te kurulan 5. Ordu’nun komutanıdır. Kara savunmasının üst komutanlığıdır.",
+      "dogum": "17 Şubat 1855, Stolp",
+      "olum": "22 Ağustos 1929, Münih",
+      "dogum_yeri": "Stolp",
+      "olum_yeri": "Münih",
+      "dogum_kasaba": "Stolp",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": null,
+      "ilgili_olaylar": [
+        {
+          "id": "e-mart-nisan"
+        },
+        {
+          "id": "e-e15"
+        },
+        {
+          "id": "e-seddul"
+        },
+        {
+          "id": "e-ari"
+        },
+        {
+          "id": "e-kumkale"
+        },
+        {
+          "id": "e-saros"
+        },
+        {
+          "id": "e-kirte1"
+        },
+        {
+          "id": "e-kirte2"
+        },
+        {
+          "id": "e-may19"
+        },
+        {
+          "id": "e-ateskes"
+        },
+        {
+          "id": "e-triumph"
+        },
+        {
+          "id": "e-majestic"
+        },
+        {
+          "id": "e-kirte3"
+        },
+        {
+          "id": "e-zigin"
+        },
+        {
+          "id": "e-kereviz"
+        },
+        {
+          "id": "e-kanli"
+        },
+        {
+          "id": "e-suvla"
+        },
+        {
+          "id": "e-conk"
+        },
+        {
+          "id": "e-anaf1"
+        },
+        {
+          "id": "e-anaf2"
+        },
+        {
+          "id": "e-tahliye-ari"
+        },
+        {
+          "id": "e-tahliye-suvla"
+        },
+        {
+          "id": "e-tahliye-sedd"
+        }
+      ],
+      "harita_notu": "Gelibolu’daki karargâh için ayrı bir nokta işaretlenmedi."
+    },
+    {
+      "id": "esat-pasa-bulkat",
+      "ad": "Esat Paşa (Bülkat)",
+      "taraf": "Osmanlı",
+      "gorev": "3. Kolordu Komutanı",
+      "gorev_1915": "3. Kolordu Komutanı",
+      "metin": "Yarımada tarafındaki 3. Kolordu’nun başındadır. Arıburnu kesimi bu kolordunun sahasındadır.",
+      "dogum": "18 Ekim 1862, Yanya",
+      "olum": "2 Kasım 1952, İstanbul",
+      "dogum_yeri": "Yanya",
+      "olum_yeri": "İstanbul",
+      "dogum_kasaba": "Yanya",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "3. Kolordu Komutanlığı",
+      "ilgili_olaylar": [
+        {
+          "id": "e-ari"
+        },
+        {
+          "id": "e-kumkale"
+        },
+        {
+          "id": "e-may19"
+        },
+        {
+          "id": "e-ateskes"
+        },
+        {
+          "id": "e-triumph"
+        },
+        {
+          "id": "e-kanli"
+        },
+        {
+          "id": "e-suvla"
+        },
+        {
+          "id": "e-conk"
+        },
+        {
+          "id": "e-anaf1"
+        },
+        {
+          "id": "e-anaf2"
+        },
+        {
+          "id": "e-tahliye-ari"
+        }
+      ]
+    },
+    {
+      "id": "weber-pasa",
+      "ad": "Weber Paşa",
+      "taraf": "Osmanlı",
+      "gorev": "XV. Kolordu Komutanı",
+      "gorev_1915": "XV. Kolordu Komutanı",
+      "metin": "Anadolu yakası, çıkarma günlerinde XV. Kolordu sahasıdır. Kumkale bu koldadır.",
+      "dogum": "12 Eylül 1860, Kamen",
+      "olum": "29 Ekim 1933, Berlin",
+      "dogum_yeri": "Kamen",
+      "olum_yeri": "Berlin",
+      "dogum_kasaba": "Kamen",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "Kumkale",
+      "ilgili_olaylar": [
+        {
+          "id": "e-subat25"
+        },
+        {
+          "id": "e-kumkale"
+        }
+      ]
+    },
+    {
+      "id": "mustafa-kemal",
+      "ad": "Mustafa Kemal",
+      "taraf": "Osmanlı",
+      "gorev": "19. Tümen, sonra Anafartalar Grubu",
+      "gorev_1915": "19. Tümen Komutanı; 8/9 Ağustos 1915’ten Anafartalar Grup Komutanı",
+      "metin": "25 Nisan 1915’te 19. Tümen komutanıdır. 8/9 Ağustos 1915 gecesi Anafartalar Grup Komutanlığına getirilir. 10 Ağustos Conkbayırı karşı taarruzu bu görevle anılır.",
+      "dogum": "1881, Selanik",
+      "olum": "10 Kasım 1938, İstanbul",
+      "dogum_yeri": "Selanik",
+      "olum_yeri": "İstanbul",
+      "dogum_kasaba": "Selanik",
+      "bos_alanlar": [
+        "dogum_gun",
+        "dogum_ay"
+      ],
+      "hayat_durumu": "insan_incelemesi_gerekli",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "19. Tümen — genel ihtiyat",
+      "ilgili_olaylar": [
+        {
+          "id": "e-ari"
+        },
+        {
+          "id": "e-may19"
+        },
+        {
+          "id": "e-ateskes"
+        },
+        {
+          "id": "e-suvla",
+          "not": "Sayfa: 6 ve 7 Ağustos’ta Anafartalar Grup Komutanı değildir. Grup, 8/9 Ağustos gecesi kurulur."
+        },
+        {
+          "id": "e-conk"
+        },
+        {
+          "id": "e-anaf1"
+        },
+        {
+          "id": "e-anaf2"
+        },
+        {
+          "id": "e-tahliye-ari"
+        },
+        {
+          "id": "e-tahliye-suvla"
+        }
+      ],
+      "dogum_yil": "1881",
+      "dogum_gun": null,
+      "dogum_ay": null
+    },
+    {
+      "id": "halil-sami-bey",
+      "ad": "Halil Sami Bey",
+      "taraf": "Osmanlı",
+      "gorev": "9. Tümen Komutanı",
+      "gorev_1915": "9. Tümen Komutanı",
+      "metin": "Seddülbahir–Kirte sahası 18 Mart’ta ve 25 Nisan çıkarmasının ilk günlerinde 9. Tümen’indir.",
+      "dogum": "1866, İstanbul",
+      "olum": "1925",
+      "dogum_yeri": "İstanbul",
+      "olum_yeri": null,
+      "dogum_kasaba": "İstanbul",
+      "bos_alanlar": [
+        "dogum_gun",
+        "dogum_ay",
+        "olum_gun",
+        "olum_ay",
+        "olum_yeri"
+      ],
+      "hayat_durumu": "insan_incelemesi_gerekli",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "9. Tümen",
+      "ilgili_olaylar": [
+        {
+          "id": "e-subat19"
+        },
+        {
+          "id": "e-subat25"
+        },
+        {
+          "id": "e-mart18"
+        },
+        {
+          "id": "e-seddul"
+        },
+        {
+          "id": "e-ari"
+        },
+        {
+          "id": "e-kirte1"
+        },
+        {
+          "id": "e-kirte2"
+        }
+      ],
+      "dogum_yil": "1866",
+      "olum_yil": "1925",
+      "dogum_gun": null,
+      "dogum_ay": null,
+      "olum_gun": null,
+      "olum_ay": null
+    },
+    {
+      "id": "rafet-bey-bele",
+      "ad": "Rafet Bey (Bele)",
+      "taraf": "Osmanlı",
+      "gorev": "11. Tümen Komutanı",
+      "gorev_1915": "11. Tümen Komutanı",
+      "metin": "Kumkale–Erenköy Anadolu kıyısı 11. Tümen sahasıdır. 25 Nisan Kumkale çıkarması bu kesime gelir.",
+      "dogum": "1881, Selanik",
+      "olum": "2 Ekim 1963, İstanbul",
+      "dogum_yeri": "Selanik",
+      "olum_yeri": "İstanbul",
+      "dogum_kasaba": "Selanik",
+      "bos_alanlar": [
+        "dogum_gun",
+        "dogum_ay"
+      ],
+      "hayat_durumu": "insan_incelemesi_gerekli",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "11. Tümen",
+      "ilgili_olaylar": [
+        {
+          "id": "e-subat19"
+        },
+        {
+          "id": "e-subat25"
+        },
+        {
+          "id": "e-nusret"
+        },
+        {
+          "id": "e-kumkale"
+        }
+      ],
+      "dogum_yil": "1881",
+      "dogum_gun": null,
+      "dogum_ay": null
+    },
+    {
+      "id": "remzi-bey",
+      "ad": "Remzi Bey",
+      "taraf": "Osmanlı",
+      "gorev": "7. Tümen Komutanı",
+      "gorev_1915": "7. Tümen Komutanı",
+      "metin": "Saros kıyıları ve Bolayır Kıstağı 7. Tümen sahasıdır. 25 Nisan’daki Saros gösterişi bu kesime yöneliktir.",
+      "dogum": null,
+      "olum": null,
+      "dogum_yeri": null,
+      "olum_yeri": null,
+      "dogum_kasaba": null,
+      "bos_alanlar": [
+        "dogum",
+        "olum",
+        "dogum_yeri",
+        "olum_yeri"
+      ],
+      "hayat_durumu": "insan_incelemesi_gerekli",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "7. Tümen",
+      "ilgili_olaylar": [
+        {
+          "id": "e-saros"
+        }
+      ]
+    },
+    {
+      "id": "vehip-pasa-kaci",
+      "ad": "Vehip Paşa (Kaçı)",
+      "taraf": "Osmanlı",
+      "gorev": "Güney Grubu Komutanı",
+      "gorev_1915": "Temmuz 1915’ten Güney Grubu Komutanı",
+      "metin": "Temmuz 1915’te Seddülbahir cephesinin (Güney Grubu) komutanı olur.",
+      "dogum": null,
+      "olum": "13 Haziran 1940, İstanbul",
+      "dogum_yeri": null,
+      "olum_yeri": "İstanbul",
+      "dogum_kasaba": null,
+      "bos_alanlar": [
+        "dogum",
+        "dogum_gun",
+        "dogum_ay",
+        "dogum_yil",
+        "dogum_yeri"
+      ],
+      "hayat_durumu": "insan_incelemesi_gerekli",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "Seddülbahir",
+      "ilgili_olaylar": [
+        {
+          "id": "e-seddul",
+          "not": "Sayfa: 25 Nisan’ın komutanı değildir. Güney Grubu Temmuz’dadır."
+        },
+        {
+          "id": "e-kirte1",
+          "not": "Sayfada adı geçer. Güney Grubu komutanlığı Temmuz’dadır."
+        },
+        {
+          "id": "e-kirte2",
+          "not": "Sayfa: 6–8 Mayıs’ta bu unvan onunki değildir."
+        },
+        {
+          "id": "e-majestic"
+        },
+        {
+          "id": "e-kirte3",
+          "not": "Sayfa: 4 Haziran’da Güney Grubu onun komutasında değildir."
+        },
+        {
+          "id": "e-zigin",
+          "not": "Sayfa: Güney Grubu komutanı Temmuz’da olur."
+        },
+        {
+          "id": "e-kereviz",
+          "not": "Sayfa: Temmuz 1915’te grubun komutanı olmuştur."
+        },
+        {
+          "id": "e-tahliye-sedd",
+          "not": "Sayfa: Temmuz 1915’te grubun komutanı olmuştur."
+        }
+      ],
+      "dogum_yil": null
+    },
+    {
+      "id": "cevat-bey-cobanli",
+      "ad": "Cevat Bey (Çobanlı)",
+      "taraf": "Osmanlı",
+      "gorev": "Müstahkem Mevkii Komutanı",
+      "gorev_1915": "18 Mart 1915’te Çanakkale Müstahkem Mevkii Komutanı",
+      "metin": "18 Mart 1915’te Çanakkale Müstahkem Mevkii komutanıdır. Boğaz tabyaları ve mayın savunması bu komutanlıktadır.",
+      "dogum": "14 Eylül 1870, İstanbul",
+      "olum": "13 Mart 1938, İstanbul",
+      "dogum_yeri": "İstanbul",
+      "olum_yeri": "İstanbul",
+      "dogum_kasaba": "İstanbul",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "Çanakkale Müstahkem Mevkii Karargâhı",
+      "ilgili_olaylar": [
+        {
+          "id": "e-subat19"
+        },
+        {
+          "id": "e-subat25"
+        },
+        {
+          "id": "e-nusret"
+        },
+        {
+          "id": "e-mart18"
+        },
+        {
+          "id": "e-e15"
+        }
+      ]
+    },
+    {
+      "id": "selahattin-adil-bey",
+      "ad": "Selahattin Adil Bey",
+      "taraf": "Osmanlı",
+      "gorev": "Müstahkem Mevkii kurmay başkanı",
+      "gorev_1915": "18 Mart 1915’te Müstahkem Mevkii kurmay başkanı",
+      "metin": "18 Mart’ta Cevat Bey’in kurmay başkanıdır.",
+      "dogum": "19 Ocak 1882, İstanbul",
+      "olum": "27 Şubat 1961",
+      "dogum_yeri": "İstanbul",
+      "olum_yeri": null,
+      "dogum_kasaba": "İstanbul",
+      "bos_alanlar": [
+        "olum_yeri"
+      ],
+      "hayat_durumu": "insan_incelemesi_gerekli",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "Çanakkale Müstahkem Mevkii Karargâhı",
+      "ilgili_olaylar": [
+        {
+          "id": "e-mart18"
+        }
+      ]
+    },
+    {
+      "id": "guido-von-usedom",
+      "ad": "Guido von Usedom",
+      "taraf": "Osmanlı",
+      "gorev": "Boğazlar genel müfettişi",
+      "gorev_1915": "Boğazlar genel müfettişi",
+      "metin": "18 Mart’ta Alman danışma heyetinin başında, Müstahkem Mevkii gözetleme yerindedir.",
+      "dogum": "2 Ekim 1854, Quanditten",
+      "olum": "24 Şubat 1925, Schwerin",
+      "dogum_yeri": "Quanditten",
+      "olum_yeri": "Schwerin",
+      "dogum_kasaba": "Quanditten",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "Kilitbahir Kalesi",
+      "ilgili_olaylar": [
+        {
+          "id": "e-mart18"
+        }
+      ]
+    },
+    {
+      "id": "johannes-merten",
+      "ad": "Johannes Merten",
+      "taraf": "Osmanlı",
+      "gorev": "Ağır topçu danışmanı",
+      "gorev_1915": "Ağır topçu danışmanı",
+      "metin": "18 Mart’ta Anadolu Hamidiye’de ağır top ateşinin idaresinde bulunur.",
+      "dogum": null,
+      "olum": null,
+      "dogum_yeri": null,
+      "olum_yeri": null,
+      "dogum_kasaba": null,
+      "bos_alanlar": [
+        "dogum",
+        "olum",
+        "dogum_yeri",
+        "olum_yeri"
+      ],
+      "hayat_durumu": "insan_incelemesi_gerekli",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "Anadolu Hamidiye Tabyası",
+      "ilgili_olaylar": [
+        {
+          "id": "e-mart18"
+        }
+      ]
+    },
+    {
+      "id": "sackville-carden",
+      "ad": "Sackville Carden",
+      "taraf": "İtilaf",
+      "gorev": "Deniz komutanı, Şubat – 16 Mart 1915",
+      "gorev_1915": "Deniz komutanı, Şubat – 16 Mart 1915",
+      "metin": "Şubat bombardımanlarını yönetir. 16 Mart 1915’te sağlık nedeniyle komutayı bırakır.",
+      "dogum": "3 Mayıs 1857, Templemore",
+      "olum": "6 Mayıs 1930, Lymington",
+      "dogum_yeri": "Templemore",
+      "olum_yeri": "Lymington",
+      "dogum_kasaba": "Templemore",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": null,
+      "ilgili_olaylar": [
+        {
+          "id": "e-subat19"
+        },
+        {
+          "id": "e-subat25"
+        },
+        {
+          "id": "e-nusret",
+          "not": "Sayfa: henüz deniz komutanıdır. 16 Mart’ta bırakacak."
+        },
+        {
+          "id": "e-mart-sessiz-2",
+          "not": "Bırakma günü 16 Mart 1915. Görev satırı ile birleştirilmedi."
+        },
+        {
+          "id": "e-mart18",
+          "not": "Devir cümlesinde adı geçer. Günün deniz komutanı olarak yazılmadı. Bırakma günü 16 Mart 1915."
+        }
+      ],
+      "komutayi_biraktigi_gun": "16 Mart 1915"
+    },
+    {
+      "id": "john-de-robeck",
+      "ad": "John de Robeck",
+      "taraf": "İtilaf",
+      "gorev": "Deniz komutanı, 17 Mart 1915’ten",
+      "gorev_1915": "Deniz komutanı, 17 Mart 1915’ten",
+      "metin": "18 Mart taarruzunu yönetir. Kara çıkarması boyunca deniz kuvvetlerinin başındadır. Carden’ın komutayı bıraktığı gün 16 Mart 1915, bu sayfadaki görev satırı 17 Mart 1915’tir. İki tarih bu turda açılmış bir belgeyle birleştirilmedi.",
+      "dogum": "10 Haziran 1862, Naas",
+      "olum": "20 Ocak 1928, Londra",
+      "dogum_yeri": "Naas",
+      "olum_yeri": "Londra",
+      "dogum_kasaba": "Naas",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": null,
+      "ilgili_olaylar": [
+        {
+          "id": "e-subat19",
+          "not": "Sayfa: 19 Şubat’ın komutanı Carden’dır. 16 Mart’ta Carden bırakacak, deniz komutanı de Robeck olacaktır."
+        },
+        {
+          "id": "e-nusret",
+          "not": "Sayfa: Carden henüz komutandır; 16 Mart’ta bırakacak, 17 Mart’tan itibaren de Robeck geçecektir."
+        },
+        {
+          "id": "e-mart-sessiz-2",
+          "not": "Aralık notu iki tarihi ayrı tutar. Birleştirilmedi."
+        },
+        {
+          "id": "e-mart18",
+          "not": "Günün deniz komutanı. Carden’ın bıraktığı gün 16 Mart 1915, görev satırı 17 Mart 1915. Birleştirilmedi."
+        }
+      ],
+      "carden_birakma": "16 Mart 1915",
+      "robeck_gorev": "17 Mart 1915",
+      "komuta_durumu": "insan_incelemesi_gerekli",
+      "birlestirme": "yapilmadi"
+    },
+    {
+      "id": "roger-keyes",
+      "ad": "Roger Keyes",
+      "taraf": "İtilaf",
+      "gorev": "De Robeck’in kurmay başkanı",
+      "gorev_1915": "De Robeck’in kurmay başkanı",
+      "metin": "Deniz kurmay başkanıdır. 18 Mart’tan sonra deniz taarruzunun yenilenmesinden yana olduğu kayıtlarda yer alır.",
+      "dogum": "4 Ekim 1872, Pencap",
+      "olum": "26 Aralık 1945, Tingewick",
+      "dogum_yeri": "Pencap",
+      "olum_yeri": "Tingewick",
+      "dogum_kasaba": null,
+      "bos_alanlar": [
+        "dogum_kasaba"
+      ],
+      "hayat_durumu": "insan_incelemesi_gerekli",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": null,
+      "ilgili_olaylar": [
+        {
+          "id": "e-mart18"
+        }
+      ]
+    },
+    {
+      "id": "emile-guepratte",
+      "ad": "Émile Guépratte",
+      "taraf": "İtilaf",
+      "gorev": "Fransız deniz tümeni",
+      "gorev_1915": "Fransız deniz tümeni; 18 Mart’ta B Hattı komutanı",
+      "metin": "18 Mart’ta B Hattı’ndaki Fransız zırhlılarının komutanıdır.",
+      "dogum": "30 Ağustos 1856, Granville",
+      "olum": "21 Kasım 1939, Brest",
+      "dogum_yeri": "Granville",
+      "olum_yeri": "Brest",
+      "dogum_kasaba": "Granville",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": null,
+      "ilgili_olaylar": [
+        {
+          "id": "e-mart18"
+        }
+      ]
+    },
+    {
+      "id": "ian-hamilton",
+      "ad": "Ian Hamilton",
+      "taraf": "İtilaf",
+      "gorev": "Akdeniz Sefer Kuvveti komutanı",
+      "gorev_1915": "Akdeniz Sefer Kuvveti komutanı (Mart–Ekim 1915)",
+      "metin": "Kara harekâtının komutanıdır (Mart–Ekim 1915). 18 Mart deniz muharebesinin komutanı değildir. Ekim 1915’te geri çağrılır.",
+      "dogum": "16 Ocak 1853, Korfu",
+      "olum": "12 Ekim 1947, Londra",
+      "dogum_yeri": "Korfu",
+      "olum_yeri": "Londra",
+      "dogum_kasaba": "Korfu",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": null,
+      "ilgili_olaylar": [
+        {
+          "id": "e-seddul"
+        },
+        {
+          "id": "e-ari"
+        },
+        {
+          "id": "e-kumkale"
+        },
+        {
+          "id": "e-saros"
+        },
+        {
+          "id": "e-kirte1"
+        },
+        {
+          "id": "e-kirte2"
+        },
+        {
+          "id": "e-may19"
+        },
+        {
+          "id": "e-ateskes"
+        },
+        {
+          "id": "e-kirte3"
+        },
+        {
+          "id": "e-zigin"
+        },
+        {
+          "id": "e-kereviz"
+        },
+        {
+          "id": "e-kanli"
+        },
+        {
+          "id": "e-suvla"
+        },
+        {
+          "id": "e-conk"
+        },
+        {
+          "id": "e-anaf1"
+        },
+        {
+          "id": "e-anaf2"
+        },
+        {
+          "id": "e-sonbahar",
+          "not": "Aralık notu: Ekim 1915’te geri çağrılır. 18 Mart deniz komutanı değildir."
+        },
+        {
+          "id": "e-tahliye-ari"
+        },
+        {
+          "id": "e-tahliye-suvla"
+        },
+        {
+          "id": "e-tahliye-sedd"
+        }
+      ],
+      "mart18_deniz_komutani": false
+    },
+    {
+      "id": "charles-monro",
+      "ad": "Charles Monro",
+      "taraf": "İtilaf",
+      "gorev": "Akdeniz Sefer Kuvveti komutanı",
+      "gorev_1915": "Ekim 1915 sonunda Akdeniz Sefer Kuvveti komutanı",
+      "metin": "Ekim 1915 sonunda Hamilton’un yerine gelir. Tahliyeyi önerir.",
+      "dogum": "15 Haziran 1860, denizde",
+      "olum": "7 Aralık 1929, Londra",
+      "dogum_yeri": "denizde",
+      "olum_yeri": "Londra",
+      "dogum_kasaba": null,
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": null,
+      "ilgili_olaylar": [
+        {
+          "id": "e-sonbahar"
+        },
+        {
+          "id": "e-tahliye-ari"
+        },
+        {
+          "id": "e-tahliye-suvla"
+        },
+        {
+          "id": "e-tahliye-sedd"
+        }
+      ],
+      "ifade_korundu": "15 Haziran 1860, denizde"
+    },
+    {
+      "id": "william-birdwood",
+      "ad": "William Birdwood",
+      "taraf": "İtilaf",
+      "gorev": "ANZAK komutanı",
+      "gorev_1915": "Avustralya ve Yeni Zelanda Kolordusu komutanı",
+      "metin": "Arıburnu’na çıkan Avustralya ve Yeni Zelanda Kolordusu’nun komutanıdır.",
+      "dogum": "13 Eylül 1865, Kirkee",
+      "olum": "17 Mayıs 1951, Hampton Court",
+      "dogum_yeri": "Kirkee",
+      "olum_yeri": "Hampton Court",
+      "dogum_kasaba": "Kirkee",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "Arıburnu (Anzak Koyu)",
+      "ilgili_olaylar": [
+        {
+          "id": "e-ari"
+        },
+        {
+          "id": "e-may19"
+        },
+        {
+          "id": "e-ateskes"
+        },
+        {
+          "id": "e-triumph"
+        },
+        {
+          "id": "e-kanli"
+        },
+        {
+          "id": "e-conk"
+        },
+        {
+          "id": "e-tahliye-ari"
+        }
+      ]
+    },
+    {
+      "id": "frederick-stopford",
+      "ad": "Frederick Stopford",
+      "taraf": "İtilaf",
+      "gorev": "IX. Kolordu Komutanı",
+      "gorev_1915": "IX. Kolordu Komutanı",
+      "metin": "6–7 Ağustos 1915 Suvla çıkarmasını komuta eder. Ağustos 1915 içinde görevden alınır.",
+      "dogum": "2 Şubat 1854, Dublin",
+      "olum": "4 Mayıs 1929, Londra",
+      "dogum_yeri": "Dublin",
+      "olum_yeri": "Londra",
+      "dogum_kasaba": "Dublin",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "Anafartalar / Suvla",
+      "ilgili_olaylar": [
+        {
+          "id": "e-suvla"
+        },
+        {
+          "id": "e-anaf1"
+        },
+        {
+          "id": "e-anaf2",
+          "not": "Sayfa: Ağustos içinde görevden alınmıştır. 21 Ağustos taarruzunu o yönetmez."
+        },
+        {
+          "id": "e-tahliye-suvla"
+        }
+      ]
+    },
+    {
+      "id": "albert-damade",
+      "ad": "Albert d’Amade",
+      "taraf": "İtilaf",
+      "gorev": "Fransız Sefer Kolordusu",
+      "gorev_1915": "Fransız Sefer Kolordusu komutanı; Mayıs 1915’te yerini Gouraud’ya bırakır",
+      "metin": "25 Nisan Kumkale çıkarmasının ve ardından Seddülbahir’deki Fransız kolunun komutanıdır. Mayıs 1915’te yerini Gouraud’ya bırakır.",
+      "dogum": "24 Aralık 1856",
+      "olum": "11 Kasım 1941",
+      "dogum_yeri": null,
+      "olum_yeri": null,
+      "dogum_kasaba": null,
+      "bos_alanlar": [
+        "dogum_yeri",
+        "olum_yeri"
+      ],
+      "hayat_durumu": "insan_incelemesi_gerekli",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "Kumkale",
+      "ilgili_olaylar": [
+        {
+          "id": "e-subat25"
+        },
+        {
+          "id": "e-seddul"
+        },
+        {
+          "id": "e-kumkale"
+        },
+        {
+          "id": "e-kirte1"
+        },
+        {
+          "id": "e-kirte2",
+          "not": "Sayfa: Mayıs içinde komuta Gouraud’ya geçecektir."
+        },
+        {
+          "id": "e-kirte3",
+          "not": "Sayfa: komutayı Mayıs’ta bırakmıştır."
+        }
+      ]
+    },
+    {
+      "id": "henri-gouraud",
+      "ad": "Henri Gouraud",
+      "taraf": "İtilaf",
+      "gorev": "Fransız Sefer Kolordusu",
+      "gorev_1915": "Mayıs 1915’ten Fransız Sefer Kolordusu komutanı",
+      "metin": "Mayıs 1915’te Fransız kolordusunun komutanı olur. Haziran 1915 sonunda Seddülbahir’de yaralanır.",
+      "dogum": "17 Kasım 1867, Paris",
+      "olum": "16 Eylül 1946, Paris",
+      "dogum_yeri": "Paris",
+      "olum_yeri": "Paris",
+      "dogum_kasaba": "Paris",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "Seddülbahir",
+      "ilgili_olaylar": [
+        {
+          "id": "e-seddul"
+        },
+        {
+          "id": "e-kumkale"
+        },
+        {
+          "id": "e-kirte2"
+        },
+        {
+          "id": "e-majestic"
+        },
+        {
+          "id": "e-kirte3"
+        },
+        {
+          "id": "e-zigin",
+          "not": "Sayfa: Haziran sonunda yaralanır. Zığındere onun kesimi değildir."
+        },
+        {
+          "id": "e-kereviz",
+          "not": "Sayfa: Haziran sonunda yaralanmıştır; 12 Temmuz’da kolun başında yoktur."
+        },
+        {
+          "id": "e-tahliye-sedd"
+        }
+      ]
+    },
+    {
+      "id": "william-bridges",
+      "ad": "William Bridges",
+      "taraf": "İtilaf",
+      "gorev": "1. Avustralya Tümeni Komutanı",
+      "gorev_1915": "1. Avustralya Tümeni Komutanı",
+      "metin": "25 Nisan’da Arıburnu’na çıkan tümeninin komutanıdır. 15 Mayıs 1915’te ağır yaralanır.",
+      "dogum": "18 Şubat 1861, Greenock",
+      "olum": "18 Mayıs 1915",
+      "dogum_yeri": "Greenock",
+      "olum_yeri": null,
+      "dogum_kasaba": "Greenock",
+      "bos_alanlar": [
+        "olum_yeri"
+      ],
+      "hayat_durumu": "insan_incelemesi_gerekli",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "Arıburnu (Anzak Koyu)",
+      "ilgili_olaylar": [
+        {
+          "id": "e-ari"
+        },
+        {
+          "id": "e-may19",
+          "not": "Sayfa: 15 Mayıs 1915’te ağır yaralanmıştır; 19 Mayıs’ta tümenin başında yoktur."
+        },
+        {
+          "id": "e-ateskes",
+          "not": "Sayfa: 15 Mayıs’ta ağır yaralanmıştır; 24 Mayıs’ta hattın başında yoktur."
+        },
+        {
+          "id": "e-triumph",
+          "not": "Sayfa: 15 Mayıs’ta ağır yaralanmıştır; 25 Mayıs’ta kıyının başında yoktur."
+        },
+        {
+          "id": "e-kanli",
+          "not": "Sayfa: 15 Mayıs’ta ağır yaralanmıştır; 6 Ağustos’ta plato muharebesinin başında yoktur."
+        },
+        {
+          "id": "e-tahliye-ari"
+        }
+      ],
+      "yaralanma": "15 Mayıs 1915"
+    },
+    {
+      "id": "alexander-godley",
+      "ad": "Alexander Godley",
+      "taraf": "İtilaf",
+      "gorev": "Yeni Zelanda ve Avustralya Tümeni Komutanı",
+      "gorev_1915": "Yeni Zelanda ve Avustralya Tümeni Komutanı",
+      "metin": "ANZAK’ın Arıburnu’ndaki diğer tümeninin komutanıdır.",
+      "dogum": "4 Şubat 1867, Gillingham",
+      "olum": "6 Mart 1957, Oxford",
+      "dogum_yeri": "Gillingham",
+      "olum_yeri": "Oxford",
+      "dogum_kasaba": "Gillingham",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "Arıburnu (Anzak Koyu)",
+      "ilgili_olaylar": [
+        {
+          "id": "e-ari"
+        },
+        {
+          "id": "e-may19"
+        },
+        {
+          "id": "e-ateskes"
+        },
+        {
+          "id": "e-triumph"
+        },
+        {
+          "id": "e-kanli"
+        },
+        {
+          "id": "e-conk"
+        },
+        {
+          "id": "e-tahliye-ari"
+        }
+      ]
+    },
+    {
+      "id": "aylmer-hunter-weston",
+      "ad": "Aylmer Hunter-Weston",
+      "taraf": "İtilaf",
+      "gorev": "29. Tümen, sonra VIII. Kolordu",
+      "gorev_1915": "29. Tümen Komutanı, sonra VIII. Kolordu",
+      "metin": "25 Nisan’da Seddülbahir’e çıkan 29. Tümen’in komutanıdır. Sonra Seddülbahir cephesindeki VIII. Kolordu’yu komuta eder.",
+      "dogum": "23 Eylül 1864, Hunterston",
+      "olum": "18 Mart 1940, Hunterston",
+      "dogum_yeri": "Hunterston",
+      "olum_yeri": "Hunterston",
+      "dogum_kasaba": "Hunterston",
+      "bos_alanlar": [],
+      "hayat_durumu": "sitede_yazilan",
+      "kaynak_durumu": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "harita": "Seddülbahir",
+      "ilgili_olaylar": [
+        {
+          "id": "e-seddul"
+        },
+        {
+          "id": "e-kirte1"
+        },
+        {
+          "id": "e-kirte2"
+        },
+        {
+          "id": "e-majestic"
+        },
+        {
+          "id": "e-kirte3"
+        },
+        {
+          "id": "e-zigin"
+        },
+        {
+          "id": "e-kereviz"
+        },
+        {
+          "id": "e-tahliye-sedd"
+        }
+      ]
+    }
+  ],
+  "muharebeler": [
+    {
+      "id": "e-mart18",
+      "ad": "18 Mart Deniz Muharebesi",
+      "tarih": "18 Mart 1915",
+      "taraf": "iki taraf",
+      "alan": "deniz",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Bouvet’nin battığı mevki",
+      "ozet": "De Robeck’in filosu Boğaz’a girer. Bouvet, Irresistible ve Ocean batar; Inflexible ve Gaulois ağır yara alır. Boğaz geçilmez. Saat saat döküm haritanın 18 Mart şeridindedir.",
+      "sayfa": "/olaylar/18-mart-deniz-muharebesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "deniz_komutani": "John de Robeck",
+      "hamilton_deniz_komutani": false,
+      "hamilton_notu": "Kara harekâtının komutanıdır. 18 Mart deniz muharebesinin komutanı değildir.",
+      "carden_birakma": "16 Mart 1915",
+      "robeck_gorev": "17 Mart 1915",
+      "komuta_durumu": "insan_incelemesi_gerekli",
+      "birlestirme": "yapilmadi",
+      "batan_gemiler": [
+        "Bouvet",
+        "Irresistible",
+        "Ocean"
+      ],
+      "batan_notu": "Nitel liste. Kayıp sayısı değildir."
+    },
+    {
+      "id": "e-seddul",
+      "ad": "Seddülbahir çıkarması",
+      "tarih": "25 Nisan 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Seddülbahir",
+      "ozet": "29. Tümen, Seddülbahir’de V, W, X, Y ve S kumsallarına çıkar. V kumsalı kale önü, W Tekke Koyu, S Morto tarafındadır. 9. Tümen güney kıyıyı karşılar.",
+      "sayfa": "/olaylar/seddulbahir-cikarmasi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-ari",
+      "ad": "Arıburnu çıkarması",
+      "tarih": "25 Nisan 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Arıburnu (Anzak Koyu)",
+      "ozet": "ANZAK Arıburnu’na çıkar. 9. Tümen’den 27. Alay kıyıyı tutar; 19. Tümen’den 57. Alay aynı gün sırtlara sürülür. Çıkarma denize dökülmez, iç kesime de yayılamaz.",
+      "sayfa": "/olaylar/ariburnu-cikarmasi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-kumkale",
+      "ad": "Kumkale oyalama çıkarması",
+      "tarih": "25 Nisan 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Kumkale",
+      "ozet": "Fransız sefer kolu Kumkale’ye çıkar. Anadolu yakasındaki 11. Tümen sahasındadır. Birlik ertesi gün Seddülbahir’e alınır.",
+      "sayfa": "/olaylar/kumkale-oyalama-cikarmasi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-kirte1",
+      "ad": "Birinci Kirte Muharebesi",
+      "tarih": "28 Nisan 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Kirte (Alçıtepe köyü)",
+      "ozet": "Seddülbahir’deki İtilaf kuvveti Kirte’ye ilerler. Köy ve gerisindeki sırt alınamaz.",
+      "sayfa": "/olaylar/birinci-kirte-muharebesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-kirte2",
+      "ad": "İkinci Kirte Muharebesi",
+      "tarih": "6–8 Mayıs 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Kirte (Alçıtepe köyü)",
+      "ozet": "İtilaf kuvveti Kirte’ye yeniden yüklenir. Hedef alınamaz.",
+      "sayfa": "/olaylar/ikinci-kirte-muharebesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-may19",
+      "ad": "Arıburnu genel taarruzu",
+      "tarih": "19 Mayıs 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Arıburnu (Anzak Koyu)",
+      "ozet": "Osmanlı kuvvetleri Arıburnu cephesine genel taarruz yapar. Hat kırılmaz.",
+      "sayfa": "/olaylar/ariburnu-genel-taarruzu/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-kirte3",
+      "ad": "Üçüncü Kirte Muharebesi",
+      "tarih": "4 Haziran 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Kirte (Alçıtepe köyü)",
+      "ozet": "Seddülbahir cephesinde Kirte’ye üçüncü büyük taarruz yapılır. Köy alınamaz.",
+      "sayfa": "/olaylar/ucuncu-kirte-muharebesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-zigin",
+      "ad": "Zığındere Muharebesi",
+      "tarih": "28 Haziran – 5 Temmuz 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Zığındere",
+      "ozet": "Seddülbahir cephesinin Ege yakasında, Zığındere boyunca muharebe edilir.",
+      "sayfa": "/olaylar/zigindere-muharebesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-kereviz",
+      "ad": "Kerevizdere Muharebesi",
+      "tarih": "12–13 Temmuz 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Kerevizdere",
+      "ozet": "Kirte doğusunda, Kerevizdere’de muharebe edilir. Cephe Kirte’yi geçemez.",
+      "sayfa": "/olaylar/kerevizdere-muharebesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-kanli",
+      "ad": "Kanlısırt Muharebesi",
+      "tarih": "6–9 Ağustos 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Kanlısırt",
+      "ozet": "Arıburnu cephesinin güney platosunda Kanlısırt muharebesi başlar ve birkaç gün sürer.",
+      "sayfa": "/olaylar/kanlisirt-muharebesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-suvla",
+      "ad": "Anafartalar / Suvla çıkarması",
+      "tarih": "6–7 Ağustos 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Anafartalar / Suvla",
+      "ozet": "IX. Kolordu (Stopford) Suvla Koyu’na çıkar. 7 Ağustos’ta iç kesimdeki sırtlara ulaşılamaz.",
+      "sayfa": "/olaylar/anafartalar-suvla-cikarmasi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-conk",
+      "ad": "Conkbayırı Muharebesi",
+      "tarih": "6–10 Ağustos 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Conkbayırı",
+      "ozet": "Conkbayırı el değiştirir. 10 Ağustos’ta Osmanlı karşı taarruzu tepeyi geri alır; taarruzu Mustafa Kemal yönetir. Kocaçimentepe alınamaz.",
+      "sayfa": "/olaylar/conkbayiri-muharebesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-anaf1",
+      "ad": "Birinci Anafartalar Muharebesi",
+      "tarih": "9 Ağustos 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Anafartalar / Suvla",
+      "ozet": "Suvla önünde Osmanlı karşı taarruzu (Birinci Anafartalar). Çıkarma kuvveti sırtlara yerleşemez.",
+      "sayfa": "/olaylar/birinci-anafartalar-muharebesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-anaf2",
+      "ad": "İkinci Anafartalar Muharebesi",
+      "tarih": "21 Ağustos 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "muharebe",
+      "muharebe": true,
+      "aralik_notu": false,
+      "yer": "Anafartalar / Suvla",
+      "ozet": "Suvla cephesinde İkinci Anafartalar (Yusufçuk Tepe) yapılır. Bomba Tepe çatışmaları 29 Ağustos’a kadar sürer. Sırtlar alınamaz.",
+      "sayfa": "/olaylar/ikinci-anafartalar-muharebesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    }
+  ],
+  "adli_olaylar": [
+    {
+      "id": "e-subat19",
+      "ad": "Dış tabyaların bombardımanı",
+      "tarih": "19 Şubat 1915",
+      "taraf": "iki taraf",
+      "alan": "deniz",
+      "tur": "olay",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": "Seddülbahir",
+      "ozet": "Amiral Carden’ın filosu Seddülbahir ve Kumkale’deki giriş tabyalarını bombardıman eder. Boğaz geçilmez.",
+      "sayfa": "/olaylar/dis-tabyalarin-bombardimani/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-subat25",
+      "ad": "Giriş tabyaları ve kısa çıkarmalar",
+      "tarih": "25 Şubat – 4 Mart 1915",
+      "taraf": "iki taraf",
+      "alan": "ikisi",
+      "tur": "olay",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": "Kumkale",
+      "ozet": "25 Şubat’ta dış tabyalar susturulur. Seddülbahir ve Kumkale’ye tahrip timleri çıkar; kalıcı tutunma yoktur.",
+      "sayfa": "/olaylar/giris-tabyalari-ve-kisa-cikarmalar/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-nusret",
+      "ad": "Nusret, Erenköy hattını döker",
+      "tarih": "8 Mart 1915",
+      "taraf": "Osmanlı",
+      "alan": "deniz",
+      "tur": "olay",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": "Mayın ve Deniz Savunma Grubu",
+      "ozet": "7–8 Mart gecesi Nusret, Erenköy Koyu’na kıyıya paralel 26 mayın döker. Bu hat 18 Mart’ta belirleyici olur.",
+      "sayfa": "/olaylar/nusret-erenkoy-hattini-doker/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-e15",
+      "ad": "E15 Boğaz’da karaya oturur",
+      "tarih": "17 Nisan 1915",
+      "taraf": "iki taraf",
+      "alan": "deniz",
+      "tur": "olay",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": "Dardanos Tabyası (Hasan-Mevsuf)",
+      "ozet": "İngiliz denizaltısı E15 Kepez önlerinde karaya oturur ve ateşle tahrip edilir. İşaret Dardanos Tabyası’dır.",
+      "sayfa": "/olaylar/e15-bogazda-karaya-oturur/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-saros",
+      "ad": "Saros gösterişi",
+      "tarih": "25 Nisan 1915",
+      "taraf": "İtilaf",
+      "alan": "kara",
+      "tur": "olay",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": "7. Tümen",
+      "ozet": "Saros açıklarında gösteriş yapılır; büyük çıkarma yoktur. İşaret, Bolayır’daki 7. Tümen sahasının merkezidir, gemi mevzii değildir.",
+      "sayfa": "/olaylar/saros-gosterisi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-goliath",
+      "ad": "Goliath batar",
+      "tarih": "13 Mayıs 1915",
+      "taraf": "iki taraf",
+      "alan": "deniz",
+      "tur": "olay",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": "Morto Koyu",
+      "ozet": "Muavenet-i Milliye, Morto Koyu’nda HMS Goliath’ı torpiller. Gemi batar. 18 Mart ana muharebe listesinde yoktur.",
+      "sayfa": "/olaylar/goliath-batar/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-ateskes",
+      "ad": "Arıburnu gömme ateşkesi",
+      "tarih": "24 Mayıs 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "olay",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": "Arıburnu (Anzak Koyu)",
+      "ozet": "İki taraf Arıburnu’nda ölüleri gömmek için ateşkes yapar. Bu bir muharebe değildir.",
+      "sayfa": "/olaylar/ariburnu-gomme-ateskesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-triumph",
+      "ad": "Triumph batar",
+      "tarih": "25 Mayıs 1915",
+      "taraf": "İtilaf",
+      "alan": "deniz",
+      "tur": "olay",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": "Arıburnu (Anzak Koyu)",
+      "ozet": "Alman denizaltısı U-21, HMS Triumph’u Arıburnu açıklarında batırır. Gemi 18 Mart’ta filodadır; o gün batmamıştır.",
+      "sayfa": "/olaylar/triumph-batar/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-majestic",
+      "ad": "Majestic batar",
+      "tarih": "27 Mayıs 1915",
+      "taraf": "İtilaf",
+      "alan": "deniz",
+      "tur": "olay",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": "Seddülbahir",
+      "ozet": "U-21, HMS Majestic’i Seddülbahir açıklarında batırır. Gemi 18 Mart’ta C Hattı’ndadır; o gün batmamıştır.",
+      "sayfa": "/olaylar/majestic-batar/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-barbaros",
+      "ad": "Barbaros Hayreddin batar",
+      "tarih": "8 Ağustos 1915",
+      "taraf": "iki taraf",
+      "alan": "deniz",
+      "tur": "olay",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": null,
+      "ozet": "Barbaros Hayreddin, Marmara’da İngiliz denizaltısı E11 tarafından batırılır. 18 Mart Boğaz hattında değildir. Batış noktasının koordinatı bu haritaya konmadı.",
+      "sayfa": "/olaylar/barbaros-hayreddin-batar/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "yer_notu": "Haritada ayrı nokta yok."
+    },
+    {
+      "id": "e-tahliye-ari",
+      "ad": "Arıburnu tahliyesi",
+      "tarih": "19–20 Aralık 1915",
+      "taraf": "İtilaf",
+      "alan": "kara",
+      "tur": "olay",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": "Arıburnu (Anzak Koyu)",
+      "ozet": "Arıburnu boşaltılır. Aynı gece Anafartalar da boşaltılır.",
+      "sayfa": "/olaylar/ariburnu-tahliyesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-tahliye-suvla",
+      "ad": "Anafartalar tahliyesi",
+      "tarih": "19–20 Aralık 1915",
+      "taraf": "İtilaf",
+      "alan": "kara",
+      "tur": "olay",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": "Anafartalar / Suvla",
+      "ozet": "Suvla / Anafartalar boşaltılır. Seddülbahir henüz tutulmaktadır.",
+      "sayfa": "/olaylar/anafartalar-tahliyesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-tahliye-sedd",
+      "ad": "Seddülbahir tahliyesi",
+      "tarih": "8–9 Ocak 1916",
+      "taraf": "İtilaf",
+      "alan": "kara",
+      "tur": "olay",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": "Seddülbahir",
+      "ozet": "Seddülbahir boşaltılır. Çanakkale kara harekâtı biter.",
+      "sayfa": "/olaylar/seddulbahir-tahliyesi/",
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    }
+  ],
+  "aralik_notlari": [
+    {
+      "id": "e-mart-sessiz-1",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "1–7 Mart 1915",
+      "taraf": "iki taraf",
+      "alan": "deniz",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": "Kilitbahir Kalesi",
+      "ozet": "Mayın tarama ve ara bombardıman sürer. Akıntı ve seyyar bataryalar yüzünden Boğaz açılmaz.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-mart-sessiz-2",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "9–17 Mart 1915",
+      "taraf": "iki taraf",
+      "alan": "deniz",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": "Kilitbahir Kalesi",
+      "ozet": "Tarama sürer. Carden’ın komutayı bıraktığı gün sitede 16 Mart 1915, de Robeck’in görev satırı 17 Mart 1915’tir. İki tarih bu turda tek belgeyle birleştirilmedi.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "carden_birakma": "16 Mart 1915",
+      "robeck_gorev": "17 Mart 1915",
+      "komuta_durumu": "insan_incelemesi_gerekli",
+      "birlestirme": "yapilmadi"
+    },
+    {
+      "id": "e-mart-nisan",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "19 Mart – 16 Nisan 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": null,
+      "ozet": "24 Mart’ta 5. Ordu kurulur; komutan Liman von Sanders’tır. Müttefik tarafında kara çıkarması hazırlanır.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "yer_notu": "Kronolojide mevki yok."
+    },
+    {
+      "id": "e-nisan-sessiz",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "18–24 Nisan 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": null,
+      "ozet": "Çıkarma hazırlığı sürer. Adı konmuş bir muharebe yoktur.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "yer_notu": "Kronolojide mevki yok."
+    },
+    {
+      "id": "e-nisan2627",
+      "ad": "Ayrı adı olan muharebe yok",
+      "tarih": "26–27 Nisan 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "adsiz-not",
+      "muharebe": false,
+      "aralik_notu": false,
+      "yer": "Seddülbahir",
+      "ozet": "Çıkarma kumsallarında çatışma sürer. Bu iki gün ayrıca adlandırılmış bir muharebe değildir.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    },
+    {
+      "id": "e-nisan-mayis",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "29 Nisan – 5 Mayıs 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": null,
+      "ozet": "Cephe yerinden oynamaz. Adı konmuş bir muharebe yoktur.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "yer_notu": "Kronolojide mevki yok."
+    },
+    {
+      "id": "e-mayis-sessiz-1",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "9–12 Mayıs 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": null,
+      "ozet": "Seddülbahir ve Arıburnu’nda siper muharebesi sürer; adı konmuş büyük muharebe yoktur.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "yer_notu": "Kronolojide mevki yok."
+    },
+    {
+      "id": "e-mayis-sessiz-2",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "14–18 Mayıs 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": null,
+      "ozet": "Adı konmuş bir kara muharebesi yoktur.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "yer_notu": "Kronolojide mevki yok."
+    },
+    {
+      "id": "e-mayis-sessiz-3",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "20–23 Mayıs 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": null,
+      "ozet": "Arıburnu’nda gömme ateşkesine kadar adı konmuş muharebe yoktur.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "yer_notu": "Kronolojide mevki yok."
+    },
+    {
+      "id": "e-mayis-haziran",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "28 Mayıs – 3 Haziran 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": null,
+      "ozet": "Karada adı konmuş muharebe yoktur.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "yer_notu": "Kronolojide mevki yok."
+    },
+    {
+      "id": "e-haziran-sessiz",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "5–27 Haziran 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": null,
+      "ozet": "Siper muharebesi sürer. Adı konmuş büyük muharebe yoktur.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "yer_notu": "Kronolojide mevki yok."
+    },
+    {
+      "id": "e-temmuz-sessiz",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "6–11 Temmuz 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": null,
+      "ozet": "Adı konmuş muharebe yoktur.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "yer_notu": "Kronolojide mevki yok."
+    },
+    {
+      "id": "e-temmuz-agustos",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "14 Temmuz – 5 Ağustos 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": null,
+      "ozet": "Ağustos taarruzuna kadar adı konmuş büyük muharebe yoktur.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "yer_notu": "Kronolojide mevki yok."
+    },
+    {
+      "id": "e-agustos-sessiz",
+      "ad": "Bu aralıkta yeni bir büyük muharebe kaydı yok",
+      "tarih": "11–20 Ağustos 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": null,
+      "ozet": "Conkbayırı ve Birinci Anafartalar bitmiştir. Sonraki adı konmuş muharebe 21 Ağustos’tadır.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "yer_notu": "Kronolojide mevki yok."
+    },
+    {
+      "id": "e-sonbahar",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "30 Ağustos – 18 Aralık 1915",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": null,
+      "ozet": "Siper muharebesi sürer. Ekim 1915’te Hamilton geri çağrılır; yerine Charles Monro gelir ve tahliyeyi önerir.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null,
+      "yer_notu": "Kronolojide mevki yok."
+    },
+    {
+      "id": "e-aralik-ocak",
+      "ad": "Bu aralıkta büyük muharebe kaydı yok",
+      "tarih": "21 Aralık 1915 – 7 Ocak 1916",
+      "taraf": "iki taraf",
+      "alan": "kara",
+      "tur": "aralik-notu",
+      "muharebe": false,
+      "aralik_notu": true,
+      "yer": "Seddülbahir",
+      "ozet": "Seddülbahir hâlâ tutulur. Adı konmuş büyük muharebe yoktur.",
+      "sayfa": null,
+      "durum": "cerceve",
+      "sayfa_no": null,
+      "belge_no": null
+    }
+  ],
+  "kayiplar": [
+    {
+      "olay_id": "e-subat19",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-subat25",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-nusret",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-mart18",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı",
+      "nitel_gemi": [
+        "Bouvet",
+        "Irresistible",
+        "Ocean"
+      ],
+      "nitel_sayi_degildir": true,
+      "nitel_not": "Nitel gemi listesi; kayıp sayısı değildir. 18 Mart’ta batanlar bu üç gemidir. Inflexible ve Gaulois o gün batmaz. Yavuz, Midilli ve Mesudiye eklenmedi."
+    },
+    {
+      "olay_id": "e-e15",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı",
+      "nitel_gemi": [
+        "E15"
+      ],
+      "nitel_sayi_degildir": true,
+      "nitel_not": "Karaya oturup ateşle tahrip edilen denizaltı. 18 Mart’ta batan üç zırhlıya eklenmedi. Sayı değildir."
+    },
+    {
+      "olay_id": "e-seddul",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-ari",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-kumkale",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-saros",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-nisan2627",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-kirte1",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-kirte2",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-goliath",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı",
+      "nitel_gemi": [
+        "HMS Goliath"
+      ],
+      "nitel_sayi_degildir": true,
+      "nitel_not": "Nitel. Sayı değildir. 18 Mart ana muharebe listesinde yoktur."
+    },
+    {
+      "olay_id": "e-may19",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-ateskes",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-triumph",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı",
+      "nitel_gemi": [
+        "HMS Triumph"
+      ],
+      "nitel_sayi_degildir": true,
+      "nitel_not": "Nitel. Sayı değildir. 18 Mart’ta batmamıştır."
+    },
+    {
+      "olay_id": "e-majestic",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı",
+      "nitel_gemi": [
+        "HMS Majestic"
+      ],
+      "nitel_sayi_degildir": true,
+      "nitel_not": "Nitel. Sayı değildir. 18 Mart’ta C Hattı’ndadır ve o gün batmamıştır."
+    },
+    {
+      "olay_id": "e-kirte3",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-zigin",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-kereviz",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-kanli",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-suvla",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-conk",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-barbaros",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı",
+      "nitel_gemi": [
+        "Barbaros Hayreddin"
+      ],
+      "nitel_sayi_degildir": true,
+      "nitel_not": "Nitel. Sayı değildir. 18 Mart Boğaz hattında değildir."
+    },
+    {
+      "olay_id": "e-anaf1",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-anaf2",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-tahliye-ari",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-tahliye-suvla",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    },
+    {
+      "olay_id": "e-tahliye-sedd",
+      "sayi": null,
+      "ifade": "sitede toplam yok; bu turda arşivden okunmadı"
+    }
+  ]
+}

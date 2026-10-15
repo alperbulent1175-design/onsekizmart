@@ -1,0 +1,596 @@
+{
+  "tarih": "2026-10-15",
+  "kol": "turk-kurumlar",
+  "kurumlar": [
+    "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı",
+    "Çanakkale Savaşları Araştırma Merkezi (CASA)",
+    "Genelkurmay ATASE"
+  ],
+  "kapsam": "Yalnızca bu turda açılan katalog ve arama sayfaları. Üç kurumun arşivinin tamamı taranmadı. iddia_dogrulandi verilmedi. belge_acildi verilmedi: kitap PDF’leri açılmadı, CASA dijital görüntüsü oturum istedi.",
+  "acilan_sayfa_sayisi": 45,
+  "acilan_sayfalar": [
+    "https://canakkaletarihialan.gov.tr/tr/canakkale-savaslari/arsiv",
+    "https://canakkaletarihialan.gov.tr/tr/canakkale-savaslari/arsiv?page=2",
+    "https://canakkaletarihialan.gov.tr/tr/canakkale-savaslari/arsiv/video",
+    "https://canakkaletarihialan.gov.tr/tr/yayinlar/kitaplar?page=1",
+    "https://canakkaletarihialan.gov.tr/tr/yayinlar/kitaplar?page=2",
+    "https://canakkaletarihialan.gov.tr/tr/yayinlar/kitaplar?page=3",
+    "https://casa.canakkaletarihialan.gov.tr/",
+    "https://casa.canakkaletarihialan.gov.tr/search?query=Çanakkale&mode=gallery",
+    "https://casa.canakkaletarihialan.gov.tr/search?query=Gelibolu&mode=gallery",
+    "https://casa.canakkaletarihialan.gov.tr/search?query=19.%20Tümen&mode=gallery",
+    "https://casa.canakkaletarihialan.gov.tr/search?query=57.%20Alay&mode=gallery",
+    "https://casa.canakkaletarihialan.gov.tr/search?query=harp%20ceridesi&mode=gallery",
+    "https://casa.canakkaletarihialan.gov.tr/search?query=mayın&mode=gallery",
+    "https://casa.canakkaletarihialan.gov.tr/search?query=tabya&mode=gallery",
+    "https://casa.canakkaletarihialan.gov.tr/search?query=Nusret&mode=gallery",
+    "https://casa.canakkaletarihialan.gov.tr/search?query=18%20Mart&mode=gallery",
+    "https://casa.canakkaletarihialan.gov.tr/search?query=25%20Nisan&mode=gallery",
+    "https://casa.canakkaletarihialan.gov.tr/search?query=Anafartalar&mode=gallery",
+    "https://casa.canakkaletarihialan.gov.tr/search?query=tahliye&mode=gallery",
+    "https://casa.canakkaletarihialan.gov.tr/details?id=6999&materialType=B",
+    "https://casa.canakkaletarihialan.gov.tr/details?id=6712&materialType=B",
+    "https://casa.canakkaletarihialan.gov.tr/details?id=6781&materialType=B",
+    "https://casa.canakkaletarihialan.gov.tr/details?id=6796&materialType=B",
+    "https://casa.canakkaletarihialan.gov.tr/details?id=6787&materialType=B",
+    "https://casa.canakkaletarihialan.gov.tr/details?id=6739&materialType=B",
+    "https://casa.canakkaletarihialan.gov.tr/details?id=6737&materialType=B",
+    "https://casa.canakkaletarihialan.gov.tr/details?id=6731&materialType=B",
+    "https://casa.canakkaletarihialan.gov.tr/details?id=6733&materialType=B",
+    "https://casa.canakkaletarihialan.gov.tr/details?id=7560&materialType=B",
+    "https://casa.canakkaletarihialan.gov.tr/details?id=7161&materialType=B",
+    "https://casa.canakkaletarihialan.gov.tr/details?id=6786&materialType=B",
+    "https://casa.canakkaletarihialan.gov.tr/details?id=6774&materialType=B",
+    "https://canakkaletarihialan.gov.tr/tr/ara/Çanakkale",
+    "https://canakkaletarihialan.gov.tr/tr/ara/Gelibolu",
+    "https://canakkaletarihialan.gov.tr/tr/ara/19.%20Tümen",
+    "https://canakkaletarihialan.gov.tr/tr/ara/57.%20Alay",
+    "https://canakkaletarihialan.gov.tr/tr/ara/harp%20ceridesi",
+    "https://canakkaletarihialan.gov.tr/tr/ara/mayın",
+    "https://canakkaletarihialan.gov.tr/tr/ara/tabya",
+    "https://canakkaletarihialan.gov.tr/tr/ara/Nusret",
+    "https://canakkaletarihialan.gov.tr/tr/ara/18%20Mart",
+    "https://canakkaletarihialan.gov.tr/tr/ara/25%20Nisan",
+    "https://canakkaletarihialan.gov.tr/tr/ara/Anafartalar",
+    "https://canakkaletarihialan.gov.tr/tr/ara/tahliye",
+    "https://askeriarsiv.msb.gov.tr/"
+  ],
+  "acilamayan_adresler": [
+    {
+      "url": "https://www.msb.gov.tr/ArsivAskeriTarih",
+      "ne_oldu": "Web isteği 302 döndü; aynı adrese bu ortamdan yapılan başlık isteği 403 döndü. Katalog metni okunmadı. Adres uydurulmadı."
+    },
+    {
+      "url": "",
+      "id": "ATASE-001",
+      "ne_oldu": "Pakette açık katalog adresi yoktu. Kurum giriş sayfası dışında açık çevrimiçi belge kataloğu bulunamadı."
+    }
+  ],
+  "oturum_duvari": [
+    {
+      "yer": "CASA dijital kaynak",
+      "denenen": "https://casa.canakkaletarihialan.gov.tr/details?id=6999&materialType=B kayıtında Dijital Kaynak 1",
+      "gorulen": "Giriş penceresi açıldı: e-posta, şifre, güvenlik kodu. Belge görüntüsü gelmedi. Ana sayfa, kısıtlı eser görüntüleri için oturum istediğini yazıyor."
+    },
+    {
+      "yer": "CASA fiziki eser",
+      "gorulen": "6999 künye sayfasındaki materyal penceresi: depodan istenen materyal yalnız kütüphane içinde kullanılır, dışarı ödünç verilmez."
+    },
+    {
+      "yer": "Millî Savunma Bakanlığı Arşivi",
+      "url": "https://askeriarsiv.msb.gov.tr/",
+      "gorulen": "Sayfa başlığı Giriş Yap - Askeri Arşiv. T.C. kimlik no, şifre ve e-Devlet girişi var. Katalog listesi yok."
+    }
+  ],
+  "bos_katalog": [
+    {
+      "url": "https://canakkaletarihialan.gov.tr/tr/canakkale-savaslari/arsiv/video",
+      "gorulen": "Videolar sekmesi açıldı. Kart alanı boş. Sayfalama yalnız 1’i gösteriyor; önceki ve sonraki de 1. sayfaya gidiyor. 404 değil."
+    }
+  ],
+  "katalog_satirlari": [
+    {
+      "id": "GTA-001",
+      "url": "https://canakkaletarihialan.gov.tr/tr/canakkale-savaslari/arsiv",
+      "http": 200,
+      "durum": "metadata_kontrol_edildi",
+      "not": "Fotoğraf sekmesinde iki sayfa var, sayfa başı 12 görsel, toplam 24. Görünen başlık yalnız Fotoğraf; açıklama data-caption dosya adında. Video sekmesi boş. Portal fişi tek belge değildir."
+    },
+    {
+      "id": "GTA-002",
+      "url": "https://casa.canakkaletarihialan.gov.tr/",
+      "http": 200,
+      "durum": "metadata_kontrol_edildi",
+      "not": "Katalog ana sayfası açıldı. Sayaçlar: yıl 621, yazar 4.699, materyal türü 6, dil 34. Bunlar Gelibolu’ya özel kayıt sayısı değildir. Aramalar ayrıca yapıldı."
+    },
+    {
+      "id": "GTA-003",
+      "url": "https://canakkaletarihialan.gov.tr/tr/yayinlar/kitaplar?page=2",
+      "http": 200,
+      "durum": "metadata_kontrol_edildi",
+      "baslik_sayfada": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı Arşiv Belgeleri Çanakkale 1915 Belgeleri Işığında Mustafa Kemal Atatürk ve 19. Tümen",
+      "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/3N5r1aQrLMIcZllxdCHQ60puNz09x7o5jXHyifSB.pdf",
+      "pdf_acildi": false
+    },
+    {
+      "id": "GTA-004",
+      "url": "https://canakkaletarihialan.gov.tr/tr/yayinlar/kitaplar?page=1",
+      "http": 200,
+      "durum": "metadata_kontrol_edildi",
+      "baslik_sayfada": "Askeri Kayıtlara Göre Çanakkale Cephesi'nde 19 Mayıs 1915 Türk Taarruzu Cilt-1",
+      "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/wklzdbrn09zX0S2lt01dgt7C8tBjrbvmpUvk51GU.pdf",
+      "pdf_acildi": false
+    },
+    {
+      "id": "GTA-005",
+      "url": "https://canakkaletarihialan.gov.tr/tr/yayinlar/kitaplar?page=2",
+      "http": 200,
+      "durum": "metadata_kontrol_edildi",
+      "baslik_sayfada": "Askeri Kayıtlara Göre Çanakkale Cephesi'nde 19 Mayıs 1915 Türk Taarruzu Cilt-2",
+      "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/zahNNEJiKbDMnmvn5A34sv3vnwhAbLSAPhGixy3F.pdf",
+      "pdf_acildi": false
+    },
+    {
+      "id": "GTA-006",
+      "url": "https://canakkaletarihialan.gov.tr/tr/yayinlar/kitaplar?page=1",
+      "http": 200,
+      "durum": "metadata_kontrol_edildi",
+      "baslik_sayfada": "Harp Ceridelerine Göre Çanakkale Savaşları'nda 57. Alay",
+      "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/ZnNQ7kxqoKG71kv3c4FtvDOl5SnFW552EkGgERgq.pdf",
+      "pdf_acildi": false
+    },
+    {
+      "id": "ATASE-001",
+      "url": "",
+      "http": null,
+      "durum": "insan_incelemesi_gerekli",
+      "not": "Açık çevrimiçi ATASE belge kataloğu bulunamadı. MSB arşiv girişi oturum duvarı. Belge adı, tasnif ve sayfa bu turda yok."
+    }
+  ],
+  "casa_aramalari": [
+    {"sorgu": "Çanakkale", "http": 200, "sonuc": 5059, "ilk_sayfa_okundu": 20, "belge_turu_ilk_sayfada": 0, "not": "İlk 20 kayıt kitap. Devam sayfaları açılmadı."},
+    {"sorgu": "Gelibolu", "http": 200, "sonuc": 5054, "ilk_sayfa_okundu": 20, "belge_turu_ilk_sayfada": 0, "not": "İlk 20 kayıt kitap. Devam sayfaları açılmadı."},
+    {"sorgu": "19. Tümen", "http": 200, "sonuc": 60, "ilk_sayfa_okundu": 20, "belge_turu_ilk_sayfada": 2, "not": "İlk sayfadaki iki B kaydının künyesi açıldı. Kalan 40 kayıt açılmadı."},
+    {"sorgu": "57. Alay", "http": 200, "sonuc": 140, "ilk_sayfa_okundu": 20, "belge_turu_ilk_sayfada": 11, "not": "İlk sayfadaki B kayıtlarının künyesi açıldı. 2–7. sayfalar açılmadı."},
+    {"sorgu": "harp ceridesi", "http": 200, "sonuc": 11, "ilk_sayfa_okundu": 11, "belge_turu_ilk_sayfada": 0, "not": "On birinin tümü kitap künyesi. Özgün harp ceridesi sayfası yok. Biri Balkan Savaşı Edirne ceridesi kitabı."},
+    {"sorgu": "mayın", "http": 200, "sonuc": 165, "ilk_sayfa_okundu": 20, "belge_turu_ilk_sayfada": 0, "not": "İlk sayfa kitap. Mayın adedi yazmıyor."},
+    {"sorgu": "tabya", "http": 200, "sonuc": 69, "ilk_sayfa_okundu": 20, "belge_turu_ilk_sayfada": 0, "not": "İlk sayfada İnce, Cevat: Çanakkale boğazı savunma yapıları: kaleler ve tabyalar. Kitap içi açılmadı."},
+    {"sorgu": "Nusret", "http": 200, "sonuc": 91, "ilk_sayfa_okundu": 20, "belge_turu_ilk_sayfada": 0, "not": "İlk sayfada gemi adını taşıyan kitaplar var (Nusret mayın gemisi; Sessiz gece Nusret Mayın Gemisi). Ayrıca kişi adı Nusret geçen kayıtlar var. 26 mayın cümlesi bu listede yok."},
+    {"sorgu": "18 Mart", "http": 200, "sonuc": 261, "ilk_sayfa_okundu": 20, "belge_turu_ilk_sayfada": 0, "not": "İlk sayfada kartpostal başlığı: 18 Mart 1915'te batan Irresistible ve Ocean zırhlıları temalı kartpostal. Kartın kendisi açılmadı; batış sırası buradan doğrulanmadı."},
+    {"sorgu": "25 Nisan", "http": 200, "sonuc": 175, "ilk_sayfa_okundu": 20, "belge_turu_ilk_sayfada": 0, "not": "İlk sayfa kitap. Çıkarma belgesi açılmadı."},
+    {"sorgu": "Anafartalar", "http": 200, "sonuc": 196, "ilk_sayfa_okundu": 20, "belge_turu_ilk_sayfada": 0, "not": "İlk sırada kitap: Anafartalar Muharebeleri’ne ait tarihçe. Kitap içi açılmadı."},
+    {"sorgu": "tahliye", "http": 200, "sonuc": 62, "ilk_sayfa_okundu": 20, "belge_turu_ilk_sayfada": 0, "not": "İlk sayfa kitap. Tahliye emri veya zayiat sayfası açılmadı."}
+  ],
+  "alan_baskanligi_aramalari": [
+    {"sorgu": "Çanakkale", "http": 200, "listelenen_kart": 372, "baslikta_gecen": 112, "not": "Arama, güncel haber ve duyuru yığınını da döndürüyor. Başlık vuruşlarının çoğu kurum adındaki Çanakkale. 1915 belgesi değil."},
+    {"sorgu": "Gelibolu", "http": 200, "listelenen_kart": 356, "baslikta_gecen": 38, "not": "Çoğu güncel duyuru. Tarihî tahliye anması başlığı ayrıca duruyor."},
+    {"sorgu": "19. Tümen", "http": 200, "listelenen_kart": 328, "baslikta_gecen": 1, "not": "Tek başlık vuruşu, GTA-003 kitap başlığı, 8 Ocak 2025 yayın kartı."},
+    {"sorgu": "57. Alay", "http": 200, "listelenen_kart": 329, "baslikta_gecen": 4, "not": "Kitap başlığı, yürüyüş rotası ve 2025-2026 anma haberleri. Haber metinleri açılmadı."},
+    {"sorgu": "harp ceridesi", "http": 200, "listelenen_kart": 328, "baslikta_gecen": 0, "not": "Bu tam dizi başlıklarda yok. Kitaplar Harp Ceridelerine diye yazılı; o yüzden bu aramaya düşmedi. Kitap listesinde ayrı görüldü."},
+    {"sorgu": "mayın", "http": 200, "listelenen_kart": 328, "baslikta_gecen": 1, "not": "Başlık: Nusrat Mayın Gemisinde Tören Düzenlendi, haber, 8 Mart 2025. Yazım Nusrat. Haber açılmadı. Mayın sayısı yok."},
+    {"sorgu": "tabya", "http": 200, "listelenen_kart": 344, "baslikta_gecen": 12, "not": "Namazgah Tabyası ve Anadolu Hamidiye Tabyası broşür ve ziyaret duyuruları. 1915 harp raporu değil."},
+    {"sorgu": "Nusret", "http": 200, "listelenen_kart": 328, "baslikta_gecen": 0, "not": "Nusret bu sitede başlık vuruşu vermedi. Mayın aramasındaki yazım Nusrat."},
+    {"sorgu": "18 Mart", "http": 200, "listelenen_kart": 332, "baslikta_gecen": 11, "not": "Güncel anma ve trafik duyuruları. Gemi belgesi yok."},
+    {"sorgu": "25 Nisan", "http": 200, "listelenen_kart": 330, "baslikta_gecen": 6, "not": "Anma ve ziyaret duyuruları. 1915 çıkarma raporu yok."},
+    {"sorgu": "Anafartalar", "http": 200, "listelenen_kart": 329, "baslikta_gecen": 10, "not": "10 Ağustos anma haberleri. Bir başlık tören yerini Conkbayırı diye yazıyor. Haber içi açılmadı."},
+    {"sorgu": "tahliye", "http": 200, "listelenen_kart": 328, "baslikta_gecen": 5, "not": "9 Ocak 1916 tahliye yıl dönümü anma başlıkları. Tören yeri başlıkta Seddülbahir. Zayiat yok. Haber içi açılmadı."}
+  ],
+  "kayitlar": [
+    {
+      "id": "CASA-6999",
+      "kurum": "CASA",
+      "url": "https://casa.canakkaletarihialan.gov.tr/details?id=6999&materialType=B",
+      "durum": "metadata_kontrol_edildi",
+      "sayfa_turu": "katalog_kunye",
+      "belge_goruntusu": "oturum_duvari",
+      "baslik": "19. Fırka Kumandanı Miralay Mustafa Kemal (Atatürk) imzalı 57. Alay Kumandanlığına yazılmış belge.",
+      "yayin_bilgisi": "6 Haziran 1915.",
+      "fiziksel": "1 sayfa belge.",
+      "dil": "Osmanlı Türkçesi",
+      "birlikler": [
+        {"ad": "57. Alay", "konum": "", "ozet": "Sağ cenahındaki siperlerin düşman eline geçtiği ve geri alınmasının emredildiği yazılı. Yer adı yok."},
+        {"ad": "19. Fırka", "konum": "", "ozet": "Belgeyi yazan makam."}
+      ],
+      "komutanlar": [
+        {"ad": "Mustafa Kemal (Atatürk)", "gorev": "19. Fırka Kumandanı, Miralay", "hayat": "1881-1938"}
+      ],
+      "muharebeler": [
+        {"ad": "", "tarih": "6 Haziran 1915 (24/3/1331), saat 5.15", "yer": "", "ayrinti": "Düşmanın 57. Alay sağ cenah siperlerini işgal ettiği, siperlerin geri alınması ve yazanın alay yanına gideceği."}
+      ],
+      "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]
+    },
+    {
+      "id": "CASA-6712",
+      "kurum": "CASA",
+      "url": "https://casa.canakkaletarihialan.gov.tr/details?id=6712&materialType=B",
+      "durum": "insan_incelemesi_gerekli",
+      "sayfa_turu": "katalog_kunye",
+      "belge_goruntusu": "bu_kayitta_ayrica_tiklanmadi_6999_oturum_istedi",
+      "baslik": "Ondokuzuncu Fırka Kumandanı Kaymakam Mustafa Kemal Bey, 72. Alay Kumandanı Binbaşı Münir Bey, 33.Alay Müretteb Tabur Kumandanı Binbaşı ve 125. Alay Kumandanı Kaymakam Abdürrezzak Bey imzalı Sol Cenah Grubu Kumandanlığına yazılmış belge.",
+      "yayin_bilgisi": "5-6 Mayıs 1915.",
+      "fiziksel": "1 sayfa belge.",
+      "dil": "Osmanlı Türkçesi",
+      "uyari": "Kişi başlığı Abdürrezzak Bey’i hem 33. Alay mürettep tabur binbaşısı hem 125. Alay kaymakamı diye tek dizgede yazıyor. İki kişi mi tek kişi mi sayfadan ayrılmıyor.",
+      "birlikler": [
+        {"ad": "19. Fırka", "konum": "", "ozet": "Yazan makam."},
+        {"ad": "57. Alay 2. Tabur", "konum": "", "ozet": "Sağ cenah cephesinde bir siper ve bir mitralyözün alındığı yazılı. Yer adı yok."},
+        {"ad": "72. Alay", "konum": "", "ozet": "İmza sıfatında geçiyor."},
+        {"ad": "33. Alay mürettep taburu", "konum": "", "ozet": "İmza sıfatında geçiyor."},
+        {"ad": "125. Alay", "konum": "", "ozet": "İmza sıfatında geçiyor."},
+        {"ad": "Sol Cenah Grubu", "konum": "", "ozet": "Belgenin gittiği makam."}
+      ],
+      "komutanlar": [
+        {"ad": "Mustafa Kemal Bey", "gorev": "19. Fırka Kumandanı, Kaymakam", "hayat": ""},
+        {"ad": "Münir Bey", "gorev": "72. Alay Kumandanı, Binbaşı", "hayat": ""},
+        {"ad": "Abdürrezzak Bey", "gorev": "Sayfa hem 33. Alay mürettep tabur binbaşısı hem 125. Alay kaymakamı diyor", "hayat": ""}
+      ],
+      "muharebeler": [
+        {"ad": "", "tarih": "5-6 Mayıs 1915 (22-23 Nisan 1331)", "yer": "", "ayrinti": "Sağ cenahta 57. Alay 2. Tabur cephesinde bir düşman siperi ve mitralyözün zaptı."}
+      ],
+      "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]
+    },
+    {
+      "id": "CASA-6781",
+      "kurum": "CASA",
+      "url": "https://casa.canakkaletarihialan.gov.tr/details?id=6781&materialType=B",
+      "durum": "metadata_kontrol_edildi",
+      "sayfa_turu": "katalog_kunye",
+      "belge_goruntusu": "bu_kayitta_ayrica_tiklanmadi_6999_oturum_istedi",
+      "baslik": "19.Fırka Kumandanı Miralay Mustafa Kemal (Atatürk) tarafından 27. Alay Kumandanlığına yazılmış belge.",
+      "yayin_bilgisi": "5 Haziran 1915",
+      "fiziksel": "1 sayfa belge.",
+      "dil": "Osmanlı Türkçesi",
+      "birlikler": [
+        {"ad": "27. Alay", "konum": "", "ozet": "Belgenin gittiği makam."},
+        {"ad": "57. Alay", "konum": "Düztepe; 57. Alay tarassut noktası", "ozet": "Yazan, Düztepe’den 57. Alay’a yardım tedbirini soruyor ve kendisinin 57. Alay tarassut noktasında olduğunu yazıyor."}
+      ],
+      "komutanlar": [
+        {"ad": "Mustafa Kemal (Atatürk)", "gorev": "19. Fırka Kumandanı, Miralay", "hayat": "1881-1938"}
+      ],
+      "muharebeler": [
+        {"ad": "", "tarih": "5 Haziran 1915 (22/3/1331)", "yer": "Düztepe", "ayrinti": "57. Alay’a yardım için alınan tedbir soruluyor."}
+      ],
+      "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]
+    },
+    {
+      "id": "CASA-6796",
+      "kurum": "CASA",
+      "url": "https://casa.canakkaletarihialan.gov.tr/details?id=6796&materialType=B",
+      "durum": "metadata_kontrol_edildi",
+      "sayfa_turu": "katalog_kunye",
+      "belge_goruntusu": "bu_kayitta_ayrica_tiklanmadi_6999_oturum_istedi",
+      "baslik": "Taarruz için alay emri.",
+      "yayin_bilgisi": "27 Nisan 1915",
+      "fiziksel": "1 sayfa belge.",
+      "dil": "Osmanlı Türkçesi",
+      "birlikler": [
+        {"ad": "64. Alay", "konum": "", "ozet": "27 Nisan 1915 taarruz emrinde adı geçiyor."},
+        {"ad": "57. Alay", "konum": "", "ozet": "Aynı emirde adı geçiyor."},
+        {"ad": "27. Alay", "konum": "", "ozet": "Aynı emirde adı geçiyor."},
+        {"ad": "72. Alay 3. Tabur", "konum": "", "ozet": "Aynı emirde adı geçiyor."},
+        {"ad": "77. Alay", "konum": "", "ozet": "Aynı emirde adı geçiyor."},
+        {"ad": "27. Alay Makineli Tüfek Bölüğü", "konum": "", "ozet": "Aynı emirde adı geçiyor. Sayfa tüfenk yazıyor."}
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {"ad": "", "tarih": "27 Nisan 1915 (14 Nisan 1331)", "yer": "", "ayrinti": "Sayılan birlikler için icra edilecek taarruz emri. Komutan adı ve yer adı yok."}
+      ],
+      "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]
+    },
+    {
+      "id": "CASA-6787",
+      "kurum": "CASA",
+      "url": "https://casa.canakkaletarihialan.gov.tr/details?id=6787&materialType=B",
+      "durum": "metadata_kontrol_edildi",
+      "sayfa_turu": "katalog_kunye",
+      "belge_goruntusu": "bu_kayitta_ayrica_tiklanmadi_6999_oturum_istedi",
+      "baslik": "19.Fırka Kumandanı Miralay Mustafa Kemal (Atatürk) tarafından 57. Alay Kumandanlığına yazılmış belge.",
+      "yayin_bilgisi": "5 Haziran 1915.",
+      "fiziksel": "1 sayfa belge.",
+      "dil": "Osmanlı Türkçesi",
+      "birlikler": [
+        {"ad": "57. Alay", "konum": "", "ozet": "Siperlerin geri alınması yetersiz bulunuyor; taarruz isteniyor."},
+        {"ad": "27. Alay", "konum": "", "ozet": "Kumandanıyla birlikte hareket edilmesi isteniyor."}
+      ],
+      "komutanlar": [
+        {"ad": "Mustafa Kemal (Atatürk)", "gorev": "19. Fırka Kumandanı, Miralay", "hayat": "1881-1938"}
+      ],
+      "muharebeler": [
+        {"ad": "", "tarih": "5 Haziran 1915 (23/3/1331), öğleden evvel 7.30", "yer": "", "ayrinti": "Geri alınan siperler yetersiz; bugünkü vaziyet taarruz için fırsat sayılıyor."}
+      ],
+      "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]
+    },
+    {
+      "id": "CASA-6739",
+      "kurum": "CASA",
+      "url": "https://casa.canakkaletarihialan.gov.tr/details?id=6739&materialType=B",
+      "durum": "metadata_kontrol_edildi",
+      "sayfa_turu": "katalog_kunye",
+      "belge_goruntusu": "bu_kayitta_ayrica_tiklanmadi_6999_oturum_istedi",
+      "baslik": "Ondokuzuncu Fırka Kumandanı Kaymakam Mustafa Kemal (Atatürk) imzalı Taarruz Emri.",
+      "yayin_bilgisi": "30 Nisan - 1 Mayıs 1915.",
+      "fiziksel": "1 sayfa belge.",
+      "dil": "Osmanlı Türkçesi",
+      "uyari": "Özet cümlesi okunan parçada 14. Alay, 17. Alay, istihkam ve süvari bölüklerinde kesildi. Kesilen kısım kullanılmadı.",
+      "birlikler": [
+        {"ad": "57. Alay 3. Tabur", "konum": "Merkezdeki topçu mevzii (yazanın yeri); sağ cenah", "ozet": "64. Alay 1. Tabur ile süngü hücumuna kalktığı yazılı."},
+        {"ad": "64. Alay 1. Tabur", "konum": "", "ozet": "Aynı hücumda adı geçiyor."}
+      ],
+      "komutanlar": [
+        {"ad": "Mustafa Kemal (Atatürk)", "gorev": "19. Fırka Kumandanı, Kaymakam", "hayat": "1881-1938"}
+      ],
+      "muharebeler": [
+        {"ad": "", "tarih": "30 Nisan - 1 Mayıs 1915 (17-18/2/1331), öğleden evvel 2", "yer": "Merkezdeki topçu mevzii", "ayrinti": "Sağ cenahda süngü hücumu. Düşmanın denize döküldüğü cümlesi başladı; cümlenin gerisi bu turda okunmadı."}
+      ],
+      "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]
+    },
+    {
+      "id": "CASA-6737",
+      "kurum": "CASA",
+      "url": "https://casa.canakkaletarihialan.gov.tr/details?id=6737&materialType=B",
+      "durum": "insan_incelemesi_gerekli",
+      "sayfa_turu": "katalog_kunye",
+      "belge_goruntusu": "bu_kayitta_ayrica_tiklanmadi_6999_oturum_istedi",
+      "baslik": "19. Fırka Kumandanı Miralay Mustafa Kemal (Atatürk), 27. Alay Kumandanı Kaymakam Mehmet Şefik Bey, 27.Alay 3.Tabur Komutanı Kıdemli Yüzbaşı Halis Bey, 27.Alay 1.Tabur Komutanı Yüzbaşı İbrahim Bey, 27.Alay 2.Tabur Komutanı Binbaşı İsmet ve 27. Alay Makineli Tüfek Komutanı Yüzbaşı Ahmet Hamdi Bey imzalı Fırka Emri.",
+      "yayin_bilgisi": "12 Temmuz 1915.",
+      "fiziksel": "1 sayfa belge.",
+      "dil": "Osmanlı Türkçesi",
+      "uyari": "Başlık Miralay diyor, özet ve kişi başlığı Kaymakam diyor. Başlık 2. tabur komutanını Binbaşı İsmet diye yazıyor; kişi başlığı Ahmed Hamdi Bey’i hem 2. tabur binbaşısı hem makineli tüfek yüzbaşısı diye yazıyor.",
+      "birlikler": [
+        {"ad": "57. Alay", "konum": "Merkeztepe", "ozet": "Merkeztepe’deki siperlerini takviye edeceği yazılı."},
+        {"ad": "27. Alay", "konum": "180 rakımlı tepenin güneydoğusu (yazanın yeri)", "ozet": "İmza sıfatlarında taburları sayılıyor."}
+      ],
+      "komutanlar": [
+        {"ad": "Mustafa Kemal (Atatürk)", "gorev": "Başlık: 19. Fırka Kumandanı, Miralay. Özet ve kişi başlığı: Kaymakam", "hayat": "1881-1938"},
+        {"ad": "Mehmet Şefik Aker", "gorev": "27. Alay Kumandanı, Kaymakam", "hayat": "1877-1964"},
+        {"ad": "Halis Bey (Halis Ataksor)", "gorev": "27. Alay 3. Tabur Komutanı, Kıdemli Yüzbaşı", "hayat": "1876-1933"},
+        {"ad": "İbrahim Bey", "gorev": "27. Alay 1. Tabur Komutanı, Yüzbaşı", "hayat": ""},
+        {"ad": "İsmet", "gorev": "Başlıkta 27. Alay 2. Tabur Komutanı, Binbaşı", "hayat": ""},
+        {"ad": "Ahmet Hamdi Bey", "gorev": "Başlıkta 27. Alay Makineli Tüfek Komutanı, Yüzbaşı. Kişi başlığı buna 2. tabur binbaşılığını da ekliyor", "hayat": ""}
+      ],
+      "muharebeler": [
+        {"ad": "", "tarih": "12 Temmuz 1915 (29/4/1331), saat 9.15", "yer": "180 rakımlı tepenin güneydoğusu; Merkeztepe", "ayrinti": "Cenup grubunda muharebenin sürdüğü ve 57. Alay’ın Merkeztepe siperlerini takviye edeceği yazılı."}
+      ],
+      "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]
+    },
+    {
+      "id": "CASA-6731",
+      "kurum": "CASA",
+      "url": "https://casa.canakkaletarihialan.gov.tr/details?id=6731&materialType=B",
+      "durum": "metadata_kontrol_edildi",
+      "sayfa_turu": "katalog_kunye",
+      "belge_goruntusu": "bu_kayitta_ayrica_tiklanmadi_6999_oturum_istedi",
+      "baslik": "Ondokuzuncu Fırka Kumandanı Kaymakam Mustafa Kemal (Atatürk) imzalı Üçüncü Kolordu Tebliği başlıklı belge.",
+      "yayin_bilgisi": "7 Mayıs 1915.",
+      "fiziksel": "1 sayfa belge.",
+      "dil": "Osmanlı Türkçesi",
+      "uyari": "Kişi başlığının dizininde Zığındere, Kabatepe, Kumtepe, Kayalıtepe, Ağıldere, Küçük Kemikli, Küçük Anafarta, Turşunköy ve Gelibolu Seyyar Jandarma Taburu da var. Bunlar özet cümlesinin yeri olarak yazılmadı.",
+      "birlikler": [
+        {"ad": "19. Fırka", "konum": "Kemal Yeri Karargâhı; Arıburnu", "ozet": "Arıburnu’nda düşmanın bu fırka tarafından sahilde dar bir mıntıkaya sıkıştırıldığı yazılı."}
+      ],
+      "komutanlar": [
+        {"ad": "Mustafa Kemal (Atatürk)", "gorev": "19. Fırka Kumandanı, Kaymakam", "hayat": "1881-1938"}
+      ],
+      "muharebeler": [
+        {"ad": "", "tarih": "7 Mayıs 1915 (24/2/1331), öğleden evvel 5.30", "yer": "Arıburnu; Kemal Yeri Karargâhı", "ayrinti": "Düşmanın geri çekildiği ve sahilde dar bir şeride sıkıştırıldığı tebliği. Ayrı muharebe adı yok."}
+      ],
+      "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]
+    },
+    {
+      "id": "CASA-6733",
+      "kurum": "CASA",
+      "url": "https://casa.canakkaletarihialan.gov.tr/details?id=6733&materialType=B",
+      "durum": "insan_incelemesi_gerekli",
+      "sayfa_turu": "katalog_kunye",
+      "belge_goruntusu": "bu_kayitta_ayrica_tiklanmadi_6999_oturum_istedi",
+      "baslik": "19.Fırka Kumandanı Kaymakam Mustafa Kemal (Atatürk) imzalı Alay Kumandanlığına yazılmış Fırka Emri.",
+      "yayin_bilgisi": "31 Temmuz - 1 Ağustos 1915.",
+      "fiziksel": "1 sayfa belge.",
+      "dil": "Osmanlı Türkçesi",
+      "uyari": "Başlık Kaymakam, özet ve kişi başlığı Miralay diyor.",
+      "birlikler": [
+        {"ad": "16. Fırka", "konum": "", "ozet": "Düşmanın sol cenahına taarruz ettiği yazılı. Sayfa bir yerde Frka yazıyor."},
+        {"ad": "72. Alay", "konum": "Sazlıdere", "ozet": "Sazlıdere’de zabit keşif kollarıyla gözetleme yapacağı yazılı."}
+      ],
+      "komutanlar": [
+        {"ad": "Mustafa Kemal (Atatürk)", "gorev": "Başlık: 19. Fırka Kumandanı, Kaymakam. Özet ve kişi başlığı: Miralay", "hayat": "1881-1938"}
+      ],
+      "muharebeler": [
+        {"ad": "", "tarih": "31 Temmuz - 1 Ağustos 1915 (18-19 Temmuz 1331), saat 11", "yer": "Sazlıdere", "ayrinti": "16. Fırka sol cenahına taarruz; keşif ve gözetleme emri."}
+      ],
+      "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]
+    },
+    {
+      "id": "CASA-7560",
+      "kurum": "CASA",
+      "url": "https://casa.canakkaletarihialan.gov.tr/details?id=7560&materialType=B",
+      "durum": "metadata_kontrol_edildi",
+      "sayfa_turu": "katalog_kunye",
+      "belge_goruntusu": "bu_kayitta_ayrica_tiklanmadi_6999_oturum_istedi",
+      "baslik": "19.Fırka Erkan-ı Harbiye Reisi Binbaşı İzzeddin Bey imzalı 27. Alay Kumandanlığına yazılmış belge.",
+      "yayin_bilgisi": "10 Temmuz 1915.",
+      "fiziksel": "1 sayfa belge.",
+      "dil": "Osmanlı Türkçesi",
+      "birlikler": [
+        {"ad": "57. Alay", "konum": "", "ozet": "Cephesinde 47 numaralı siperden ilerleyen lağım yazılı. Yer adı yok."},
+        {"ad": "27. Alay", "konum": "", "ozet": "Belgenin gittiği makam."},
+        {"ad": "19. Fırka", "konum": "", "ozet": "Erkan-ı harp reisliği yazıyor."}
+      ],
+      "komutanlar": [
+        {"ad": "İzzeddin Bey", "gorev": "19. Fırka Erkan-ı Harbiye Reisi, Binbaşı", "hayat": ""}
+      ],
+      "muharebeler": [
+        {"ad": "", "tarih": "10 Temmuz 1915 (27/4/1331)", "yer": "", "ayrinti": "47 numaralı siperin önündeki lağımın altında karşı lağım kazıldığı ve gece atılacağı yazılı. Sayı olarak zayiat yok."}
+      ],
+      "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]
+    },
+    {
+      "id": "CASA-7161",
+      "kurum": "CASA",
+      "url": "https://casa.canakkaletarihialan.gov.tr/details?id=7161&materialType=B",
+      "durum": "metadata_kontrol_edildi",
+      "sayfa_turu": "katalog_kunye",
+      "belge_goruntusu": "bu_kayitta_ayrica_tiklanmadi_6999_oturum_istedi",
+      "baslik": "19. Fırka Kumandanı emriyle Erkan-ı Harb Binbaşısı İzzeddin Bey imzalı 27. Alay Kumandanlığına yazılmış belge.",
+      "yayin_bilgisi": "30 Mayıs 1915.",
+      "fiziksel": "1 sayfa belge.",
+      "dil": "Osmanlı Türkçesi",
+      "birlikler": [
+        {"ad": "57. Alay 3. Tabur", "konum": "", "ozet": "Cepheye yaklaştırıldığı yazılı. Yer adı yok."},
+        {"ad": "27. Alay", "konum": "", "ozet": "Belgenin gittiği makam."}
+      ],
+      "komutanlar": [
+        {"ad": "İzzeddin Bey", "gorev": "Erkan-ı Harb Binbaşısı; 19. Fırka kumandanı emriyle imzalamış. Fırka kumandanının adı bu özette yok.", "hayat": ""}
+      ],
+      "muharebeler": [
+        {"ad": "", "tarih": "30 Mayıs 1915 (17/3/1331), saat 2.00", "yer": "", "ayrinti": "İrtibat ve fırsat olursa mukabil taarruz hatırlatması."}
+      ],
+      "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]
+    },
+    {
+      "id": "CASA-6786",
+      "kurum": "CASA",
+      "url": "https://casa.canakkaletarihialan.gov.tr/details?id=6786&materialType=B",
+      "durum": "metadata_kontrol_edildi",
+      "sayfa_turu": "katalog_kunye",
+      "belge_goruntusu": "bu_kayitta_ayrica_tiklanmadi_6999_oturum_istedi",
+      "baslik": "19. Fırka Kumandanı Miralay Mustafa Kemal (Atatürk) tarafından 27.Alay Kumandanlığına yazılmış belge.",
+      "yayin_bilgisi": "29 Haziran 1915",
+      "fiziksel": "1 sayfa belge.",
+      "dil": "Osmanlı Türkçesi",
+      "birlikler": [
+        {"ad": "57. Alay", "konum": "Merkez Tepe", "ozet": "Sol cenahına Merkez Tepe’den gelen taarruzun püskürtüldüğü yazılı."},
+        {"ad": "72. Alay", "konum": "", "ozet": "Taarruz emri verildiği yazılı."},
+        {"ad": "18. Alay", "konum": "Yüksek Sırt", "ozet": "Yüksek Sırt’a taarruz emri aldığı yazılı."},
+        {"ad": "27. Alay", "konum": "", "ozet": "Belgenin gittiği makam."}
+      ],
+      "komutanlar": [
+        {"ad": "Mustafa Kemal (Atatürk)", "gorev": "19. Fırka Kumandanı, Miralay", "hayat": "1881-1938"}
+      ],
+      "muharebeler": [
+        {"ad": "", "tarih": "29 Haziran 1915 (16/4/1331), öğleden sonra 10.20", "yer": "Merkez Tepe; Yüksek Sırt", "ayrinti": "57. Alay sol cenahına taarruz püskürtülmüş; 72. ve 18. alaylara taarruz emri verilmiş."}
+      ],
+      "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]
+    },
+    {
+      "id": "CASA-6774",
+      "kurum": "CASA",
+      "url": "https://casa.canakkaletarihialan.gov.tr/details?id=6774&materialType=B",
+      "durum": "metadata_kontrol_edildi",
+      "sayfa_turu": "katalog_kunye",
+      "belge_goruntusu": "bu_kayitta_ayrica_tiklanmadi_6999_oturum_istedi",
+      "baslik": "19. Fırka Kumandanı Miralay Mustafa Kemal (Atatürk) tarafından 27. Alay Kumandanlığına yazılmış belge.",
+      "yayin_bilgisi": "7 Ağustos 1915",
+      "fiziksel": "1 sayfa belge.",
+      "dil": "Osmanlı Türkçesi",
+      "birlikler": [
+        {"ad": "57. Alay", "konum": "Merkeztepe", "ozet": "Düşmanın sağına hücum edip orayı zapt edeceği yazılı."},
+        {"ad": "72. Alay", "konum": "", "ozet": "Bir taburunun 57. Alay kumandanı emrine gireceği yazılı."},
+        {"ad": "27. Alay", "konum": "", "ozet": "Emrin gittiği makam."}
+      ],
+      "komutanlar": [
+        {"ad": "Mustafa Kemal (Atatürk)", "gorev": "19. Fırka Kumandanı, Miralay", "hayat": "1881-1938"}
+      ],
+      "muharebeler": [
+        {"ad": "", "tarih": "7 Ağustos 1915 (25/5/1331), öğleden sonra 7.05", "yer": "Merkeztepe", "ayrinti": "Merkeztepe top ateşine alınacak; 57. Alay hücum hazırlığını bildirecek."}
+      ],
+      "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]
+    }
+  ],
+  "fotograf_arsivi": {
+    "url_sayfa_1": "https://canakkaletarihialan.gov.tr/tr/canakkale-savaslari/arsiv",
+    "url_sayfa_2": "https://canakkaletarihialan.gov.tr/tr/canakkale-savaslari/arsiv?page=2",
+    "sayfa_sayisi_gorulen": 2,
+    "sonraki_link": "2. sayfada sonraki de 2. sayfaya gidiyor. Üçüncü sayfa bağlantısı yok.",
+    "gorunen_baslik": "Fotoğraf",
+    "aciklama": "Alt metin boş. Açıklama data-caption alanındaki dosya adı. Görseller indirilmedi. Dosya adından okunan etiket aşağıda. Ayrı düzyazı künye yok.",
+    "durum": "bulundu",
+    "kayitlar": [
+      {"etiket": "13.jpg", "birlikler": [], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "27. Alaya sancak verilmesi töreninden sonra yapılan resmi geçit", "birlikler": [{"ad": "27. Alay", "konum": "", "ozet": "Sancak töreni sonrası geçit. Tarih ve yer adı yok."}], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "57. Alay komutanı şehit yarbay Hüseyin Avni Bey", "birlikler": [{"ad": "57. Alay", "konum": "", "ozet": "Komutan portresi etiketi."}], "komutanlar": [{"ad": "Hüseyin Avni Bey", "gorev": "57. Alay komutanı, şehit yarbay", "hayat": ""}], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Anafartalar Grubu komutanı albay Mustafa Kemal Bey", "birlikler": [{"ad": "Anafartalar Grubu", "konum": "", "ozet": "Komutan portresi etiketi."}], "komutanlar": [{"ad": "Mustafa Kemal Bey", "gorev": "Anafartalar Grubu komutanı, albay", "hayat": ""}], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Anafartaları uzaktan seyreden bir kumanda heyeti", "birlikler": [], "komutanlar": [], "muharebeler": [{"ad": "", "tarih": "", "yer": "Anafartalar", "ayrinti": "Etiket bir kumanda heyetinin uzaktan seyrettiğini söylüyor. İsim yok."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Anafartalar Grubu komutanı albay Mustafa Kemal karargâhıyla", "birlikler": [{"ad": "Anafartalar Grubu", "konum": "", "ozet": "Komutan karargâhıyla."}], "komutanlar": [{"ad": "Mustafa Kemal", "gorev": "Anafartalar Grubu komutanı, albay", "hayat": ""}], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Arıburnu cephesinde 19. Tümen komutanı albay Mustafa Kemal, Düztepe civarında tümen gözetleme yerinde", "birlikler": [{"ad": "19. Tümen", "konum": "Arıburnu cephesi; Düztepe civarı", "ozet": "Tümen gözetleme yeri."}], "komutanlar": [{"ad": "Mustafa Kemal", "gorev": "19. Tümen komutanı, albay", "hayat": ""}], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Arıburnu Bomba Sırtı’nda siperde dinlenen Mehmetçikler", "birlikler": [], "komutanlar": [], "muharebeler": [{"ad": "", "tarih": "", "yer": "Arıburnu Bomba Sırtı", "ayrinti": "Siperde dinlenme. Birlik adı yok."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Arıburnu Kanlısırt’ta düşman siperlerine dikilen gazi alay sancağıyla muhafızları", "birlikler": [{"ad": "gazi alay", "konum": "Arıburnu Kanlısırt", "ozet": "Etiket alay numarasını yazmıyor."}], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "askerlere yemek dağıtımı", "birlikler": [], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "bir bataryamız atış faaliyetinde", "birlikler": [{"ad": "batarya", "konum": "", "ozet": "Numara ve yer adı yok."}], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "ateşe hazırlanan bir top", "birlikler": [], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Boğaz muharebesi için askerlerimiz tarafından boğaza döşenen mayınlar", "birlikler": [], "komutanlar": [], "muharebeler": [{"ad": "Boğaz muharebesi", "tarih": "", "yer": "boğaz", "ayrinti": "Mayın döşendiği etikette var. Adet yok."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Çanakkale boğaz savunmasını yapan tabya ve top bataryamız", "birlikler": [{"ad": "tabya ve top bataryası", "konum": "Çanakkale boğazı", "ozet": "Numara yok."}], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Çanakkale Arif Bey çeşmesinden Mehmetçiklerin su alışı", "birlikler": [], "komutanlar": [], "muharebeler": [{"ad": "", "tarih": "", "yer": "Arif Bey çeşmesi", "ayrinti": "Su alışı. Birlik adı yok."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Çanakkale cenup grubu sağ cenah siperlerinde Mehmetler", "birlikler": [{"ad": "cenup grubu", "konum": "", "ozet": "Sağ cenah siperleri. Yer adı yok."}], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Çanakkale gazilerinin koğuşlara yerleştirilmesi", "birlikler": [], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Çanakkale kahramanlarından Kadir oğlu Mehmed Çavuş", "birlikler": [], "komutanlar": [{"ad": "Mehmed Çavuş", "gorev": "Kadir oğlu; çavuş. Komuta ettiği birlik yazmıyor.", "hayat": ""}], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Çanakkale istihkamında 215 kıyye ağırlığındaki mermiyi sırtında taşıyan Seyyid", "birlikler": [{"ad": "istihkam", "konum": "", "ozet": "215 kıyye mermi ağırlığı. Zayiat sayısı değil."}], "komutanlar": [{"ad": "Seyyid", "gorev": "Mehmed oğlu, nefer", "hayat": ""}], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Çanakkale’de obüs topu", "birlikler": [], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Çanakkale’de Kireçtepe Jandarma Anıtı önünde albay Mustafa Kemal", "birlikler": [], "komutanlar": [{"ad": "Mustafa Kemal", "gorev": "albay", "hayat": ""}], "muharebeler": [{"ad": "", "tarih": "", "yer": "Kireçtepe Jandarma Anıtı", "ayrinti": "Anıt önü. Muharebe adı yok."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Çanakkale’de tayyareye ateş eden iki top", "birlikler": [], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Çanakkale’de otuz sekiz santimetrelik mermilerden biri", "birlikler": [], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"etiket": "Çanakkale’de yaralı askerlerin taşınması", "birlikler": [], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]}
+    ]
+  },
+  "yayin_listesi": {
+    "not": "Kitaplar listesi 3 sayfa. Sonraki, 3. sayfada yine 3’e gidiyor. PDF bağlantısı görüldü, dosya açılmadı ve repoya konmadı. Aşağıdaki birlik, komutan ve muharebe yalnız başlıktan.",
+    "durum": "metadata_kontrol_edildi",
+    "kayitlar": [
+      {"id": "", "baslik": "27. Alay 1.Cilt İç", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/LfEaK4I3V3ZWJlHGylULLWFFCbWKvVzzZJU61KZj.pdf", "birlikler": [{"ad": "27. Alay", "konum": "", "ozet": "Başlık. Cilt içi açılmadı."}], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "", "baslik": "27. Alay 2. Cilt İç", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/RUcHf86cHQHi8kjTiqk0eEzCgWBpYp0FCIqavOFl.pdf", "birlikler": [{"ad": "27. Alay", "konum": "", "ozet": "Başlık. Cilt içi açılmadı."}], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "", "baslik": "27. Alay 3 Cilt İç", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/OVVvw4bGGfIgbrfSAD86V3dYnJ2SgGjEnXPGhtJY.pdf", "birlikler": [{"ad": "27. Alay", "konum": "", "ozet": "Başlık. Cilt içi açılmadı."}], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "", "baslik": "100 Soruda Çanakkale Muharabeleri", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/gR7snRGZaw3Gh3L9MNIQXtf8DHT7Gmq3UBQrilZM.pdf", "birlikler": [], "komutanlar": [], "muharebeler": [{"ad": "Çanakkale Muharebeleri", "tarih": "", "yer": "", "ayrinti": "Soru kitabı başlığı. Metin açılmadı."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "GTA-006", "baslik": "Harp Ceridelerine Göre Çanakkale Savaşları'nda 57. Alay", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/ZnNQ7kxqoKG71kv3c4FtvDOl5SnFW552EkGgERgq.pdf", "birlikler": [{"ad": "57. Alay", "konum": "", "ozet": "Başlık harp ceridelerine dayandığını söylüyor. Ceride sayfası açılmadı."}], "komutanlar": [], "muharebeler": [{"ad": "Çanakkale Savaşları", "tarih": "", "yer": "", "ayrinti": "Kitap başlığı. Metin açılmadı."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "", "baslik": "Çanakkale Fedakârı Bigalı Mehmet Çavuş", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/w1qBDg05OPIBseJxdUAMtf4XqPYniMF592wYKrxL.pdf", "birlikler": [], "komutanlar": [{"ad": "Bigalı Mehmet Çavuş", "gorev": "", "hayat": ""}], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "", "baslik": "105. Yılında Çanakkale Muharebelerine Bakış", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/4IZ4Q8fhWKLrwSDlPj5OXLnN9TpKgmBqmwMXQb66.pdf", "birlikler": [], "komutanlar": [], "muharebeler": [{"ad": "Çanakkale Muharebeleri", "tarih": "", "yer": "", "ayrinti": "Yıl dönümü başlığı. Hangi yılın 105’i sayfada ayrıca yok."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "GTA-004", "baslik": "Askeri Kayıtlara Göre Çanakkale Cephesi'nde 19 Mayıs 1915 Türk Taarruzu Cilt-1", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/wklzdbrn09zX0S2lt01dgt7C8tBjrbvmpUvk51GU.pdf", "birlikler": [], "komutanlar": [], "muharebeler": [{"ad": "19 Mayıs 1915 Türk Taarruzu", "tarih": "19 Mayıs 1915", "yer": "Çanakkale Cephesi", "ayrinti": "Başlık. Cilt içi ve zayiat açılmadı."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "GTA-005", "baslik": "Askeri Kayıtlara Göre Çanakkale Cephesi'nde 19 Mayıs 1915 Türk Taarruzu Cilt-2", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/zahNNEJiKbDMnmvn5A34sv3vnwhAbLSAPhGixy3F.pdf", "birlikler": [], "komutanlar": [], "muharebeler": [{"ad": "19 Mayıs 1915 Türk Taarruzu", "tarih": "19 Mayıs 1915", "yer": "Çanakkale Cephesi", "ayrinti": "Başlık. Cilt içi açılmadı."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "", "baslik": "Conkbayırı Süngü Hücumu", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/9h37DMQJi1SfzKxMC1TxXbNoRmjzQcWqxSxK37qP.pdf", "birlikler": [], "komutanlar": [], "muharebeler": [{"ad": "Conkbayırı Süngü Hücumu", "tarih": "", "yer": "Conkbayırı", "ayrinti": "Başlık. Tarih ve birlik metinde okunmadı."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "", "baslik": "Tarihin Akışını Değiştiren Savaş : ÇANAKKALE 1915", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/am8epVxvC8FNhfVLeQFoaHvX56nRfukeN97lWsvV.pdf", "birlikler": [], "komutanlar": [], "muharebeler": [{"ad": "Çanakkale 1915", "tarih": "1915", "yer": "", "ayrinti": "Başlık. Metin açılmadı."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "", "baslik": "Tarihi Gelibolu Yarımadası'nda Geçmişten Günümüze Kalan Mezar Taşı ve Kitabeler", "pdf": "https://canakkaletarihialan.gov.tr/uploads/corporate/files/MPpviF6B5gWt1vC6sgVKmzX50tJZYhfI0KuYlJOk.pdf", "birlikler": [], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}], "yer_baslikta": "Gelibolu Yarımadası"},
+      {"id": "", "baslik": "Gelibolu Tarihi Alan Rehberi", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/MByjOmkBSSxfMT41pQymNpGhQppjIjp8qpSxLQHS.pdf", "birlikler": [], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}], "yer_baslikta": "Gelibolu"},
+      {"id": "GTA-003", "baslik": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı Arşiv Belgeleri Çanakkale 1915 Belgeleri Işığında Mustafa Kemal Atatürk ve 19. Tümen", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/3N5r1aQrLMIcZllxdCHQ60puNz09x7o5jXHyifSB.pdf", "birlikler": [{"ad": "19. Tümen", "konum": "", "ozet": "Başlık. Belge derlemesinin içi açılmadı."}], "komutanlar": [{"ad": "Mustafa Kemal Atatürk", "gorev": "", "hayat": ""}], "muharebeler": [{"ad": "Çanakkale 1915", "tarih": "1915", "yer": "", "ayrinti": "Başlık. Sayfa açılmadı."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "", "baslik": "110. Yılında Çanakkale Muharebelerine Bakış", "pdf": "https://canakkaletarihialan.gov.tr/data/haberler/duyurular/110.pdf", "birlikler": [], "komutanlar": [], "muharebeler": [{"ad": "Çanakkale Muharebeleri", "tarih": "", "yer": "", "ayrinti": "Yıl dönümü başlığı. Metin açılmadı."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "", "baslik": "ECEABAT’IN NÜFUS DEFTERLERİ 1", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/eceabatin-nufus-defterleri1spdf_7cfc31a2-05fa-48a2-9307-3e967f1134a7.pdf", "birlikler": [], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}], "yer_baslikta": "Eceabat"},
+      {"id": "", "baslik": "ECEABAT’IN NÜFUS DEFTERLERİ 2", "pdf": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/eceabatin-nufus-defterleri2spdf_caf8390a-dc19-462c-bc99-949ec10ccd6b.pdf", "birlikler": [], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}], "yer_baslikta": "Eceabat"},
+      {"id": "", "baslik": "HARP CERİDELERİNE GÖRE ÇANAKKALE MUHAREBELERİNDE 13. ALAY", "pdf": "https://canakkaletarihialan.gov.tr/data/fm/Kitap/13alay-kitappdf_33d9e521-eba8-42af-bb3f-ab0b87abeda3.pdf", "birlikler": [{"ad": "13. Alay", "konum": "", "ozet": "Başlık. Ceride içi açılmadı."}], "komutanlar": [], "muharebeler": [{"ad": "Çanakkale Muharebeleri", "tarih": "", "yer": "", "ayrinti": "Başlık."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "", "baslik": "HARP CERİDELERİNE GÖRE ÇANAKKALE MUHAREBELERİNDE 47. ALAY", "pdf": "https://canakkaletarihialan.gov.tr/data/fm/Kitap/47alay-dijital-kitabi-4-1-1pdf_5eba878a-458a-4fb0-8a46-aa9beb14a146.pdf", "birlikler": [{"ad": "47. Alay", "konum": "", "ozet": "Başlık. Ceride içi açılmadı."}], "komutanlar": [], "muharebeler": [{"ad": "Çanakkale Muharebeleri", "tarih": "", "yer": "", "ayrinti": "Başlık."}], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "", "baslik": "48. ALAY", "pdf": "https://canakkaletarihialan.gov.tr/data/fm/Kitap/48alay-kitabipdf_3903a503-f449-4563-ab0f-1877f918de9d.pdf", "birlikler": [{"ad": "48. Alay", "konum": "", "ozet": "Sayfadaki görünen başlık yalnız 48. ALAY. Dosya adı genişletilmedi."}], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]},
+      {"id": "", "baslik": "HARP HATIRATI ALBÜMÜ", "pdf": "https://canakkaletarihialan.gov.tr/data/fm/Kitap/harp-hatirati-albumu-casamer-sonpdf_9f309015-4c37-45a2-b5bb-3a2219cc7168.pdf", "birlikler": [], "komutanlar": [], "muharebeler": [], "kayiplar": [{"sayi": null, "ifade": "bu turda okunmadı"}]}
+    ]
+  },
+  "alan_sayimi": {
+    "kural": "Dolu sayılan değer, boş olmayan metin. bos string, bos dizi ve sayi null bos sayılır. Her kayıtta ilgili alan yoksa o alan bos bir kez sayılır. Fotoğraf ve yayın listesi dahildir. CASA arama listesindeki açılmayan binlerce kayıt bu sayıma girmez; onlar kalan boşluktadır.",
+    "kayit_sayisi": 58,
+    "birlik_ad_sayfadan": 55,
+    "birlik_ad_bos": 27,
+    "birlik_konum_sayfadan": 12,
+    "birlik_konum_bos": 70,
+    "komutan_ad_sayfadan": 28,
+    "komutan_ad_bos": 37,
+    "komutan_gorev_sayfadan": 26,
+    "komutan_gorev_bos": 39,
+    "komutan_hayat_sayfadan": 11,
+    "komutan_hayat_bos": 54,
+    "muharebe_ad_sayfadan": 12,
+    "muharebe_ad_bos": 46,
+    "muharebe_tarih_sayfadan": 17,
+    "muharebe_tarih_bos": 41,
+    "muharebe_yer_sayfadan": 15,
+    "muharebe_yer_bos": 43,
+    "muharebe_ayrinti_sayfadan": 29,
+    "muharebe_ayrinti_bos": 29,
+    "kayip_sayi_sayfadan": 0,
+    "kayip_sayi_bos": 58
+  },
+  "kalan_bosluk": [
+    "CASA sonuçlarının ilk sayfadan sonrası açılmadı. Çanakkale 5.059, Gelibolu 5.054, 57. Alay 140, 19. Tümen 60 ve diğer büyük kümeler madde madde bitmedi.",
+    "CASA dijital görüntü oturum istiyor. 13 künyenin belge görüntüsü açılmadı.",
+    "Alan Başkanlığı kitap PDF’lerinin hiçbiri açılmadı. Sayfa, yazar ve zayiat oradan okunmadı.",
+    "Fotoğraf arşivi yalnız görünen iki sayfa, 24 etiket. Video listesi boş.",
+    "ATASE için açık katalog yok. Belge adı, tasnif ve sayfa kurumdan istenmeli.",
+    "Nusret hattı, 26 mayın, gemi batış sırası ve toplam zayiat bu turda doğrulanmadı.",
+    "Künye içi çelişen rütbe ve imza sıfatları (6712, 6733, 6737) insan incelemesi bekliyor.",
+    "Fotoğraf etiketinde albay, bazı Mayıs-Ağustos 1915 künyelerinde kaymakam veya miralay yazılı. Bu tur birini seçmedi."
+  ]
+}

@@ -1,0 +1,1755 @@
+{
+  "kol": "Australian War Memorial",
+  "tarih": "2026-10-15",
+  "deneme": "15 Ekim 2026 katalog denemesinin aynı gün yapılan yeniden bakışı",
+  "kapsam_uyarisi": "AWM koleksiyonu taranmış değildir. AWM25 367 ve 3DRL/3376 seri 11 tek belge değildir. Dijital görüntüler ve PDF sayfaları tek tek okunmadı. Arama sonuçlarının toplamı açılmış sayılmaz.",
+  "gorsel_veya_pdf_repoya_konmadi": true,
+  "iddia_dogrulandi_verilmedi": true,
+  "belge_acildi_verilmedi": true,
+  "koordinat_uydurulmadi": true,
+  "katalog_json_degistirilmedi": true,
+  "ozet": {
+    "katalog_adres": 13,
+    "katalog_acilan": 13,
+    "katalog_acilamayan": 0,
+    "ek_acilan": 14,
+    "ek_acilamayan_404": 1,
+    "http_200_fis": 27,
+    "gecmis_sayilmayan": [
+      "AWM-EK-404"
+    ],
+    "belge_acildi": 0,
+    "iddia_dogrulandi": 0,
+    "alan_doluluk": {
+      "birlik_satir_sayfadan": 55,
+      "birlik_fisi_dolu": 19,
+      "birlik_fisi_bos": 8,
+      "komutan_satir_sayfadan": 91,
+      "komutan_fisi_dolu": 21,
+      "komutan_fisi_bos": 6,
+      "komutan_hayat_dolu_satir": 19,
+      "komutan_hayat_bos_satir": 72,
+      "muharebe_satir_sayfadan": 31,
+      "muharebe_fisi_dolu": 23,
+      "muharebe_fisi_bos": 4,
+      "kayip_sayi_sayfadan": 1,
+      "kayip_sayi_id": [
+        "AWM-012"
+      ],
+      "kayip_sayi_null": 26
+    },
+    "alan_doluluk_notu": "Satır sayıları açılmış HTTP 200 fişlerindeki dizi uzunluğudur. Boş, o fişte dizinin boş olmasıdır. 404 fişi sayılmaz. Kayıp sayısı dolu olan tek satır AWM-012 içindeki 14 Türk esirdir; zayiat toplamı değildir. Diğer kayıp sayıları null ve bu turda okunmadı."
+  },
+  "katalog_adresleri": [
+    {
+      "id": "AWM-001",
+      "url": "https://www.awm.gov.au/collection/C2128157",
+      "http": 200,
+      "baslik_veya_numara_gorundu": true
+    },
+    {
+      "id": "AWM-002",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000581",
+      "http": 200,
+      "baslik_veya_numara_gorundu": true
+    },
+    {
+      "id": "AWM-003",
+      "url": "https://www.awm.gov.au/collection/C2628030",
+      "http": 200,
+      "baslik_veya_numara_gorundu": true
+    },
+    {
+      "id": "AWM-004",
+      "url": "https://www.awm.gov.au/collection/accessing-records-at-the-memorial/findingaids/private/birdwood",
+      "http": 200,
+      "baslik_veya_numara_gorundu": true
+    },
+    {
+      "id": "AWM-005",
+      "url": "https://www.awm.gov.au/collection/C1378006",
+      "http": 200,
+      "baslik_veya_numara_gorundu": true
+    },
+    {
+      "id": "AWM-006",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000100",
+      "http": 200,
+      "baslik_veya_numara_gorundu": true
+    },
+    {
+      "id": "AWM-007",
+      "url": "https://www.awm.gov.au/collection/C2084670",
+      "http": 200,
+      "baslik_veya_numara_gorundu": true
+    },
+    {
+      "id": "AWM-008",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000077",
+      "http": 200,
+      "baslik_veya_numara_gorundu": true
+    },
+    {
+      "id": "AWM-009",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000081",
+      "http": 200,
+      "baslik_veya_numara_gorundu": true
+    },
+    {
+      "id": "AWM-010",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000093",
+      "http": 200,
+      "baslik_veya_numara_gorundu": true
+    },
+    {
+      "id": "AWM-011",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000593",
+      "http": 200,
+      "baslik_veya_numara_gorundu": true
+    },
+    {
+      "id": "AWM-012",
+      "url": "https://www.awm.gov.au/collection/C1422818",
+      "http": 200,
+      "baslik_veya_numara_gorundu": true
+    },
+    {
+      "id": "AWM-013",
+      "url": "https://www.awm.gov.au/collection/C1416977",
+      "http": 200,
+      "baslik_veya_numara_gorundu": true
+    }
+  ],
+  "aramalar": [
+    {
+      "anahtar": "Gallipoli",
+      "url": "https://www.awm.gov.au/advanced-search?query=Gallipoli",
+      "http": 200,
+      "sayim_sayfada_gorulen": {
+        "Military Events": 20,
+        "Units": 59,
+        "Places": 171,
+        "Library": 1330,
+        "People": 7483,
+        "Articles": 131,
+        "The Memorial's Collection": 16179,
+        "Photograph": 8743,
+        "Manuscript": 106,
+        "Published Collection": 459,
+        "Art": 1039,
+        "Private Record": 1276,
+        "Digitised Collection": 743,
+        "Heraldry": 2352,
+        "Film": 1130,
+        "Technology": 238,
+        "Sound": 74,
+        "Official Record": 19
+      },
+      "acilan": [
+        "C1302269",
+        "C1357826",
+        "C384326",
+        "E84441",
+        "U51441"
+      ],
+      "not": "Sayaçlar arama sayfasının başlıklarıdır. 16179 koleksiyon kaydı, 743 dijital koleksiyon ve 19 resmî kayıt taranmadı. Digitised Collection facetinin ilk sayfasından birkaç fiş açıldı."
+    },
+    {
+      "anahtar": "Dardanelles",
+      "url": "https://www.awm.gov.au/advanced-search?query=Dardanelles&collection=true&facet_type=Digitised%20Collection",
+      "http": 200,
+      "sayim": "Toplam sonuç sayısı bu turda sayaç satırı olarak okunmadı. Digitised Collection facetinin ilk sayfasında 20 başlık göründü.",
+      "acilan": [
+        "RCDIG0000082",
+        "RCDIG0000103"
+      ],
+      "not": "İlk sayfadaki ilk iki başlık zaten AWM-006 ve AWM-009 idi; yeniden fiş açılmadı. 20 başlığın geri kalanı açılmadı. Sonraki sayfalar yok."
+    },
+    {
+      "anahtar": "Anzac",
+      "url": "https://www.awm.gov.au/advanced-search?query=Anzac&collection=true&facet_type=Digitised%20Collection",
+      "http": 200,
+      "sayim": "Toplam sonuç sayısı okunmadı. Digitised Collection facetinin ilk sayfasında 20 başlık göründü. Bir kısmı Batı Cephesi ANZAC Corps dosyasıdır.",
+      "acilan": [
+        "RCDIG0000915"
+      ],
+      "acilamayan": [
+        "AWM2019.8.1193"
+      ],
+      "not": "AWM5 26, 25 Nisan 1915 precis başlığı listede duruyordu. Accession AWM2019.8.1193 adres sülüğü 404 verdi; fiş açılmadı ve geçmiş sayılmadı. 2. ANZAC Corps 1917 dosyaları açılmadı."
+    },
+    {
+      "anahtar": "Helles",
+      "url": "https://www.awm.gov.au/advanced-search?query=Helles&collection=true&facet_type=Digitised%20Collection",
+      "http": 200,
+      "sayim": "Toplam sonuç sayısı okunmadı. Digitised Collection facetinin ilk sayfasında 20 başlık göründü.",
+      "acilan": [
+        "RCDIG0000111",
+        "E84488"
+      ],
+      "not": "E84488, Gallipoli aramasının muharebe nişanı diliminde de duran Helles nişan fişidir. 20 başlığın geri kalanı açılmadı."
+    },
+    {
+      "anahtar": "Suvla",
+      "url": "https://www.awm.gov.au/advanced-search?query=Suvla&collection=true&facet_type=Digitised%20Collection",
+      "http": 200,
+      "sayim": "Toplam sonuç sayısı okunmadı. Digitised Collection facetinin ilk sayfasında 20 başlık göründü.",
+      "acilan": [
+        "RCDIG0000439",
+        "RCDIG0000104"
+      ],
+      "not": "Tahliye özetleri aynı sayfada da vardı; onlar evacuation anahtarında açıldı. Birdwood günlüğü RCDIG0000002 listede duruyordu, açılmadı."
+    },
+    {
+      "anahtar": "evacuation",
+      "url": "https://www.awm.gov.au/advanced-search?query=evacuation&collection=true&facet_type=Digitised%20Collection",
+      "http": 200,
+      "sayim": "Toplam sonuç sayısı okunmadı. Digitised Collection facetinin ilk sayfasında 20 başlık göründü. İlk sayfada 1943 Timor, 1939 Cairns ve sıhhiye tahliye bölümleri de var.",
+      "acilan": [
+        "RCDIG0000107",
+        "RCDIG0000255"
+      ],
+      "not": "Gelibolu dışı tahliye başlıkları açılmadı. 20 başlığın geri kalanı ve sonraki sayfalar yok."
+    },
+    {
+      "anahtar": "naval operations",
+      "url": "https://www.awm.gov.au/advanced-search?query=naval%20operations&collection=true&facet_type=Digitised%20Collection",
+      "http": 200,
+      "sayim": "Toplam sonuç sayısı okunmadı. Digitised Collection facetinin ilk sayfasında 20 başlık göründü.",
+      "acilan": [],
+      "not": "Görünen 20 başlık Mercan Denizi, Matapan, Milne Bay, HMAS Sydney 1914, Somali ve Boxer kayıtlarıydı. 1915 Çanakkale deniz harekâtı fişi bu dilimde yoktu. Sayfa çevrilmedi. AWM25 367/2 ve seri 11/13-11/14 ayrı yerde listelendi, açılmadı."
+    }
+  ],
+  "kayitlar": [
+    {
+      "id": "AWM-001",
+      "url": "https://www.awm.gov.au/collection/C2128157",
+      "http": 200,
+      "baslik": "AWM25 367 - Gallipoli",
+      "kayit_no": "RCDIG1075166 / AWM25 367",
+      "tur": "Sub-series",
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "seri": true,
+      "not": "Seri sayfası açıldı. Tablo item count 1 yazar; aynı sayfa birçok alt başlık listeler. Alt kayıtların dijital sayfaları açılmadı. Seri taranmış değildir.",
+      "alt_kayit_sayfada_gorulen_acilmadi": [
+        "AWM25 367/2 Naval Orders for Evacuation at Anzac, December 1915",
+        "AWM25 367/11 Notes on the withdrawal from Anzac; daily evacuation table başlıkta anılır, sayı yok",
+        "AWM25 367/126 Extract from a diary found on a dead Turkish Officer (Major Commanding 1st Battalion, 33rd Regiment), Gallipoli, 30 November 1915",
+        "AWM25 367/152 Colonel J Paton VD, 5th Infantry Brigade, Anzac evacuation night of 19-20 December 1915",
+        "AWM25 367/179 Report of operations 11-31 August 1915, Maj Gen Godley, New Zealand and Australian Division; Kabak Kuyu and Kaiajik Aghala"
+      ],
+      "birlikler": [
+        {
+          "ad": "New Zealand and Australian Division",
+          "konum": "Kabak Kuyu; Kaiajik Aghala; başlık 11-31 Ağustos 1915 harekât raporu"
+        },
+        {
+          "ad": "5th Infantry Brigade",
+          "konum": "Anzac, tahliye gecesi 19-20 Aralık 1915"
+        },
+        {
+          "ad": "1st Battalion, 33rd Regiment",
+          "konum": "Gallipoli, 30 Kasım 1915; ölü bir Türk yüzbaşısının günlüğünden çıkarım başlığı. Adı sayfada yok."
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "J Paton",
+          "gorev": "Colonel, VD, Officer Commanding 5th Infantry Brigade",
+          "hayat": null
+        },
+        {
+          "ad": "A J Godley",
+          "gorev": "Major General, commanding New Zealand and Australian Division",
+          "hayat": null
+        },
+        {
+          "ad": "adı yok",
+          "gorev": "Major Commanding 1st Battalion, 33rd Regiment",
+          "hayat": "sayfa ölü bir Türk subayı der; ad ve doğum-ölüm tarihi yok"
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "Anzac tahliyesi",
+          "tarih": "Aralık 1915; Paton raporu 19-20 Aralık 1915 gecesi",
+          "yer": "Anzac",
+          "ayrinti": "Alt kayıt başlıklarında deniz tahliye emirleri ve çekilme notları. Metin okunmadı."
+        },
+        {
+          "ad": "11-31 Ağustos 1915 harekâtı",
+          "tarih": "11-31 Ağustos 1915",
+          "yer": "Kabak Kuyu; Kaiajik Aghala",
+          "ayrinti": "Godley komutasındaki kuvvetin rapor başlığı. Rapor okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-002",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000581",
+      "http": 200,
+      "baslik": "Personal Files Book 3, 11 April - 26 April 1915",
+      "kayit_no": "RCDIG0000581 / 3DRL/2316",
+      "tur": "File",
+      "gorsel_sayisi": 131,
+      "oge": 71,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "Katalog açıklaması 11-26 Nisan 1915 çıkarma hazırlığını ve içerik listesini verir. 131 görüntü okunmadı.",
+      "birlikler": [
+        {
+          "ad": "4th Australian Infantry Brigade",
+          "konum": "Gallipoli; Lemnos, Mudros; denizde"
+        },
+        {
+          "ad": "New Zealand and Australian Division",
+          "konum": "Lutzow, 17 Nisan 1915 mesajı; çıkarma dönemi"
+        },
+        {
+          "ad": "Royal Naval Division",
+          "konum": "17 Nisan 1915 Fiennes raporu; ayrı yer adı yok"
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "John Monash",
+          "gorev": "Colonel, 4th Infantry Brigade",
+          "hayat": "b.1865 - d.1931"
+        },
+        {
+          "ad": "Birdwood",
+          "gorev": "Major General; 17 Nisan 1915 subay ve erata mesaj",
+          "hayat": null
+        },
+        {
+          "ad": "Godley",
+          "gorev": "Operation Order No. 1, 19 Nisan 1915",
+          "hayat": null
+        },
+        {
+          "ad": "Hamilton",
+          "gorev": "Force Order, 21 Nisan 1915",
+          "hayat": null
+        },
+        {
+          "ad": "Morshead",
+          "gorev": "Lieutenant Colonel; A ve B tabur hedefleri, 15 Nisan 1915",
+          "hayat": null
+        },
+        {
+          "ad": "C R Samson",
+          "gorev": "Commander, RN; uçak raporu, 14 Nisan 1915",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "Gallipoli çıkarması hazırlığı",
+          "tarih": "11-26 Nisan 1915",
+          "yer": "Gallipoli; Gaba Tepe ile Cape Helles arası çıkarma yerleri raporu, 16 Nisan 1915",
+          "ayrinti": "Keşif raporları, harekât emri ve Monash'ın 24 Nisan mektupları katalog listesinde. Sayfalar okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-003",
+      "url": "https://www.awm.gov.au/collection/C2628030",
+      "http": 200,
+      "baslik": "Papers relating to Joseph John Talbot Hobbs, 1915",
+      "kayit_no": "AWM2018.19.86 / 3DRL/2600",
+      "tur": "File",
+      "gorsel_sayisi": 50,
+      "oge": 24,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "1. Avustralya Tümeni topçu dosyası, 16 Nisan - 13 Aralık 1915. 50 görüntü okunmadı.",
+      "birlikler": [
+        {
+          "ad": "1st Australian Division",
+          "konum": "Gallipoli Peninsula; Anzac Cove"
+        },
+        {
+          "ad": "1st Australian Divisional Artillery",
+          "konum": "Anzac Cove"
+        },
+        {
+          "ad": "3rd Field Artillery Brigade",
+          "konum": "Gallipoli, Mayıs-Haziran 1915 kroki başlığı"
+        },
+        {
+          "ad": "2nd Field Artillery Brigade",
+          "konum": "15 Ekim 1915 yazısı; ayrı mevzi yok"
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "Joseph John Talbot Hobbs",
+          "gorev": "Brigadier-General, commanding officer, 1st Australian Divisional Artillery",
+          "hayat": "b.1864 - d.1938"
+        },
+        {
+          "ad": "Harold Bridgwood Walker",
+          "gorev": "Brigadier-General, sonra Major-General; 1st Australian Division emirleri",
+          "hayat": null
+        },
+        {
+          "ad": "Ian Hamilton",
+          "gorev": "General, Mediterranean Expeditionary Force, 7 Eylül 1915 özel emir",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "Anzac topçu dönemi",
+          "tarih": "16 Nisan - 13 Aralık 1915; durum haritası 2 Ağustos 1915; bindirme tablosu 13 Aralık 1915",
+          "yer": "Anzac Cove; Lone Pine yer adı olarak",
+          "ayrinti": "Emir, rapor ve harita listesi. Lone Pine bir muharebe anlatısı olarak açılmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-004",
+      "url": "https://www.awm.gov.au/collection/accessing-records-at-the-memorial/findingaids/private/birdwood",
+      "http": 200,
+      "baslik": "Guide to the papers of Field Marshal Lord William Birdwood",
+      "kayit_no": "3DRL/3376",
+      "tur": "Finding aid",
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "cumle_inceleme": "insan_incelemesi_gerekli",
+      "not": "Rehber açıldı. 17 seri başlığı görüldü. Günlük defterleri ve klasörler okunmadı. Biyografi cümlesi tahliyeyi Anzac, Helles ve Suvla için without loss diye yazar. Bu sayı değildir. insan_incelemesi_gerekli. Çıkarma yeri sayfada Gaba Tebe yazılır.",
+      "alt_kayit_sayfada_gorulen_acilmadi": [
+        "Seri 1 günlük 1 Ocak 1915 - 2 Ocak 1916",
+        "11/13 gelen kablolar: Birdwood, Maxwell, Admiral Carden, Kitchener; keşif ve deniz bombardımanı",
+        "11/14 giden kablolar: aynı konu",
+        "11/11b List of Naval Call Signals, Dardanelles, and Composition of Australian and New Zealand Army Corps"
+      ],
+      "birlikler": [
+        {
+          "ad": "Australian and New Zealand Army Corps",
+          "konum": "sayfa: Gaba Tebe'nin kuzeyi, 25 Nisan 1915; tahliye Anzac, Helles ve Suvla"
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "William Riddell Birdwood",
+          "gorev": "Avustralya ve Yeni Zelanda kuvvetlerinin komutanı; ANZAC çıkarması",
+          "hayat": "1865-1951; Hampton Court, 17 Mayıs 1951"
+        },
+        {
+          "ad": "Ian Hamilton",
+          "gorev": "Mediterranean Expeditionary Force; çıkarma emri",
+          "hayat": null
+        },
+        {
+          "ad": "Kitchener",
+          "gorev": "Şubat 1915'te Birdwood'u deniz taarruzunu rapor etmek üzere gönderen",
+          "hayat": null
+        },
+        {
+          "ad": "W T Bridges",
+          "gorev": "Major General",
+          "hayat": "sayfa Mayıs 1915'te öldüğünü yazar; doğum tarihi yok"
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "ANZAC çıkarması",
+          "tarih": "25 Nisan 1915",
+          "yer": "Gaba Tebe kuzeyi, sayfa yazımı",
+          "ayrinti": "Rehber biyografisi. Çıkarma emri belgesi bu turda açılmadı."
+        },
+        {
+          "ad": "Tahliye",
+          "tarih": "Aralık ve Ocak",
+          "yer": "Anzac, Helles, Suvla",
+          "ayrinti": "Rehber without loss der. Sayı yok. Tahliye dosyası sayfa sayfa okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı. Rehberdeki without loss ifadesi sayı değil ve doğrulanmadı."
+      }
+    },
+    {
+      "id": "AWM-005",
+      "url": "https://www.awm.gov.au/collection/C1378006",
+      "http": 200,
+      "baslik": "AWM38 3DRL 606/207/1 - 1915 - 1918",
+      "kayit_no": "RCDIG1066583 / AWM38 3DRL 606/207/1",
+      "tur": "File",
+      "oge": 83,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "Bean resmi tarih çalışma dosyası. Açıklama altı tabur ile Gallipoli, Domart, Etinehem ve Stormy Trench adlarını aynı cümlede verir. Hangi taburun hangi yerde olduğu ayrılmaz. 83 parça okunmadı.",
+      "birlikler": [
+        {
+          "ad": "11th Battalion",
+          "konum": "cümlede Gallipoli, Domart, Etinehem, Stormy Trench; tabura bağlanmadı"
+        },
+        {
+          "ad": "13th Battalion",
+          "konum": "aynı cümle"
+        },
+        {
+          "ad": "49th Battalion",
+          "konum": "aynı cümle"
+        },
+        {
+          "ad": "50th Battalion",
+          "konum": "aynı cümle"
+        },
+        {
+          "ad": "51st Battalion",
+          "konum": "aynı cümle"
+        },
+        {
+          "ad": "52nd Battalion",
+          "konum": "aynı cümle"
+        }
+      ],
+      "komutanlar": [],
+      "muharebeler": [],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-006",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000100",
+      "http": 200,
+      "baslik": "[Material prepared for evidence before Dardanelles Commission] February reconnaissance of Peninsula",
+      "kayit_no": "RCDIG0000100 / 3DRL/3376 11/15 File 1",
+      "tur": "File",
+      "gorsel_sayisi": 9,
+      "oge": 5,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "Şubat 1915 keşif raporları ve dosya listeleri. 9 görüntü okunmadı.",
+      "birlikler": [],
+      "komutanlar": [
+        {
+          "ad": "William Riddell Birdwood",
+          "gorev": "Şubat 1915 Gallipoli ziyareti raporları",
+          "hayat": "b.1865 - d.1951"
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "Yarımada keşfi",
+          "tarih": "Şubat 1915",
+          "yer": "Dardanelles; Gallipoli; Cape Helles; Achi Baba; Mudros",
+          "ayrinti": "Çıkarma seçenekleri ve Mudros ikmali katalog konusunda. Rapor metni okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-007",
+      "url": "https://www.awm.gov.au/collection/C2084670",
+      "http": 200,
+      "baslik": "[Material prepared for evidence before Dardanelles Commission] ANZAC landing",
+      "kayit_no": "RCDIG0000101 / 3DRL/3376 11/15 File 1A",
+      "tur": "File",
+      "gorsel_sayisi": 19,
+      "oge": 4,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "25 Nisan 1915 çıkarma hazırlığı mektupları. 19 görüntü okunmadı.",
+      "birlikler": [
+        {
+          "ad": "ANZAC",
+          "konum": "Anzac Area (Gallipoli)"
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "William Riddell Birdwood",
+          "gorev": "çıkarma hazırlığı ve 25 Nisan sonrası mektuplar",
+          "hayat": "b.1865 - d.1951"
+        },
+        {
+          "ad": "Walter Pipon Braithwaite",
+          "gorev": "Major General, Chief of General Staff, Mediterranean Expeditionary Forces; 8 Mayıs 1915 yazı",
+          "hayat": null
+        },
+        {
+          "ad": "Charles Edward Callwell",
+          "gorev": "General; 10 Nisan 1915 mektup",
+          "hayat": null
+        },
+        {
+          "ad": "Oswald Arthur Gerald Fitzgerald",
+          "gorev": "Colonel; 19 Nisan 1915 mektup",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "ANZAC çıkarması",
+          "tarih": "25 Nisan 1915; mektuplar 10 Nisan, 19 Nisan, 3 Mayıs ve 8 Mayıs 1915",
+          "yer": "Gallipoli, Anzac Area",
+          "ayrinti": "Gecikme, su kıtlığı, çıkarma ve hemen sonrası katalog konusunda. Mektuplar okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-008",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000077",
+      "http": 200,
+      "baslik": "Series 11: Correspondence and other papers 1915 - 1930 related to the Dardanelles Campaign",
+      "kayit_no": "RCDIG0000077 / 3DRL/3376 11/-",
+      "tur": "Series",
+      "oge": 284,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "seri": true,
+      "not": "284 öğelik seri sayfası açıldı. Seri taranmış değildir. Aşağıdaki başlıklar sayfada duruyordu ve bu fiş olarak açılmadı. Bazı çocuklar ayrı ek fişlerde açıldı.",
+      "alt_kayit_sayfada_gorulen_acilmadi": [
+        "11/11b List of Naval Call Signals - Dardanelles and Composition of Australian and New Zealand Army Corps",
+        "11/13 Incoming cablegrams: Birdwood, Maxwell, Admiral Carden, Kitchener; reconnaissance and naval bombardment",
+        "11/14 Outgoing cablegrams: aynı konu",
+        "11/15 File 2 Turkish attack on ANZAC position on 18/19 May - Liman von Sanders"
+      ],
+      "birlikler": [
+        {
+          "ad": "Australian and New Zealand Army Corps",
+          "konum": "Dardanelles; kompozisyon dosyası başlığı. Dosya açılmadı."
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "William Riddell Birdwood",
+          "gorev": "seri sahibi",
+          "hayat": "b.1865 - d.1951"
+        },
+        {
+          "ad": "Wigram",
+          "gorev": "Colonel; muhatap",
+          "hayat": null
+        },
+        {
+          "ad": "Kitchener",
+          "gorev": "muhatap",
+          "hayat": null
+        },
+        {
+          "ad": "Brulard",
+          "gorev": "General; muhatap",
+          "hayat": null
+        },
+        {
+          "ad": "Hamilton",
+          "gorev": "General; muhatap",
+          "hayat": null
+        },
+        {
+          "ad": "Maurice Hankey",
+          "gorev": "muhatap",
+          "hayat": null
+        },
+        {
+          "ad": "Maxwell",
+          "gorev": "General; muhatap",
+          "hayat": null
+        },
+        {
+          "ad": "Godley",
+          "gorev": "General; muhatap",
+          "hayat": null
+        },
+        {
+          "ad": "Liman von Sanders",
+          "gorev": "18/19 Mayıs ANZAC taarruzu başlığında",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "ANZAC mevziine Türk taarruzu",
+          "tarih": "18/19 Mayıs",
+          "yer": "ANZAC",
+          "ayrinti": "Yalnız seri sayfasındaki alt başlık. Dosya açılmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-009",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000081",
+      "http": 200,
+      "baslik": "Dardanelles and Mesopotamia Commissions Reports and press comments, [Part 1, 1915-1930]",
+      "kayit_no": "RCDIG0000081 / 3DRL/3376 11/3",
+      "tur": "File",
+      "gorsel_sayisi": 89,
+      "oge": 9,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "Komisyon ve harekât yazışmaları. 89 görüntü okunmadı. Monro için sayfa Chief of the General Staff Mediterranean Force der.",
+      "birlikler": [
+        {
+          "ad": "Australian and New Zealand Army Corps",
+          "konum": "Dardanelles; özet başlığı gece 18/19'dan 20'si sabah 06.00'ya"
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "William Riddell Birdwood",
+          "gorev": "rapor ve tutanak notları",
+          "hayat": "b.1865 - d.1951"
+        },
+        {
+          "ad": "Charles Monro",
+          "gorev": "sayfa: Chief of the General Staff, Mediterranean Force; 28 Aralık 1915 ve 20 Ocak 1916 notları",
+          "hayat": null
+        },
+        {
+          "ad": "Edward Frederick Lindley Wood",
+          "gorev": "Viceroy of India; 11 Kasım 1930 mektubu",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "ANZAC olay özeti",
+          "tarih": "yaklaşık 1915; gece yarısı 18/19'dan 20'si 06.00'ya. Ay adı sayfada yok.",
+          "yer": "Dardanelles",
+          "ayrinti": "Başlık böyle. Metin okunmadı. Ay ve gün uydurulmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-010",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000093",
+      "http": 200,
+      "baslik": "Dardanelles and Mesopotamia Commission Reports and press clippings [Part 2, 1916 - 1917]",
+      "kayit_no": "RCDIG0000093 / 3DRL/3376 11/9b",
+      "tur": "File",
+      "gorsel_sayisi": 313,
+      "oge": 10,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "1917 komisyon raporları ve kupürler. 313 görüntü okunmadı. de Robeck mektubu bit ve siper ayağı önlemleridir; komuta alış tarihi değildir.",
+      "birlikler": [],
+      "komutanlar": [
+        {
+          "ad": "William Riddell Birdwood",
+          "gorev": "dosya sahibi",
+          "hayat": "b.1865 - d.1951"
+        },
+        {
+          "ad": "John Michael de Robeck",
+          "gorev": "Vice Admiral; 12 Ocak 1917 mektubu, bit ve siper ayağı",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "Dardanelles Commission",
+          "tarih": "First Report Şubat 1917; Final Report Aralık 1917",
+          "yer": "Gallipoli kampanyası kupürlerde anılır",
+          "ayrinti": "Yayın başlıkları. Rapor sayfaları okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-011",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000593",
+      "http": 200,
+      "baslik": "Personal Files Book 7, 8 August - 15 August 1915",
+      "kayit_no": "RCDIG0000593 / 3DRL/2316",
+      "tur": "File",
+      "gorsel_sayisi": 114,
+      "oge": 102,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "cumle_inceleme": "insan_incelemesi_gerekli",
+      "not": "Hill 971 taarruzu dosyası. Katalog, 15. Tabur zayiatını anan bir anlatı der. Sayı vermez. 114 görüntü okunmadı.",
+      "birlikler": [
+        {
+          "ad": "4th Infantry Brigade",
+          "konum": "Sari Bair; Hill 971"
+        },
+        {
+          "ad": "13th Battalion",
+          "konum": "aynı dosyanın yer alanı"
+        },
+        {
+          "ad": "14th Battalion",
+          "konum": "aynı dosyanın yer alanı"
+        },
+        {
+          "ad": "15th Battalion",
+          "konum": "Hill 971 taarruzu; zayiat anlatısı sayı vermez"
+        },
+        {
+          "ad": "16th Battalion",
+          "konum": "aynı dosyanın yer alanı"
+        },
+        {
+          "ad": "Indian Brigade",
+          "konum": "Sari Bair harekât mesajları"
+        },
+        {
+          "ad": "29th Indian Brigade",
+          "konum": "10 Ağustos 1915 mesajı"
+        },
+        {
+          "ad": "New Zealand and Australian Division",
+          "konum": "Sari Bair"
+        },
+        {
+          "ad": "10th Division",
+          "konum": "14 Ağustos 1915 ordre de bataille başlığı; taraf sayfada ayrılmaz"
+        },
+        {
+          "ad": "13th Division",
+          "konum": "aynı başlık"
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "John Monash",
+          "gorev": "Brigadier General, 4th Infantry Brigade",
+          "hayat": "b.1865 - d.1931"
+        },
+        {
+          "ad": "Cox",
+          "gorev": "Brigadier General",
+          "hayat": null
+        },
+        {
+          "ad": "Godley",
+          "gorev": "9 Ağustos 1915 cephane notu",
+          "hayat": null
+        },
+        {
+          "ad": "Birdwood",
+          "gorev": "Major General; 9 Ağustos 1915 konuşma kopyası",
+          "hayat": null
+        },
+        {
+          "ad": "Pope",
+          "gorev": "Lieutenant Colonel",
+          "hayat": null
+        },
+        {
+          "ad": "McGlinn",
+          "gorev": "Lieutenant Colonel",
+          "hayat": null
+        },
+        {
+          "ad": "Cannan",
+          "gorev": "Lieutenant Colonel; sayfa Canon [Cannan] yazar",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "Hill 971 taarruzu",
+          "tarih": "7 Ağustos 1915'ten; dosya 8-15 Ağustos 1915",
+          "yer": "Hill 971; Sari Bair; Cape Helles yer alanında",
+          "ayrinti": "Keşif raporları ve tabur mesajları listelenir. Sayfalar okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı. Katalog 15. Tabur zayiatını anar, sayı vermez."
+      }
+    },
+    {
+      "id": "AWM-012",
+      "url": "https://www.awm.gov.au/collection/C1422818",
+      "http": 200,
+      "baslik": "Personal Files Book 7, 15 August - 22 August 1915",
+      "kayit_no": "RCDIG0000594 / 3DRL/2316",
+      "tur": "File",
+      "gorsel_sayisi": 103,
+      "oge": 91,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "Ağustos taarruzu ve Hill 60. 103 görüntü okunmadı. 14 Türk esir, zayiat toplamı değildir.",
+      "birlikler": [
+        {
+          "ad": "4th Infantry Brigade",
+          "konum": "Sari Bair; Chunuk Bair; Hill 60 katalog girişinde"
+        },
+        {
+          "ad": "13th Battalion",
+          "konum": "aynı dosya"
+        },
+        {
+          "ad": "14th Battalion",
+          "konum": "aynı dosya"
+        },
+        {
+          "ad": "15th Battalion",
+          "konum": "aynı dosya"
+        },
+        {
+          "ad": "16th Battalion",
+          "konum": "aynı dosya"
+        },
+        {
+          "ad": "17th Battalion, 5th Australian Infantry Brigade",
+          "konum": "21 Ağustos 1915 mesajı"
+        },
+        {
+          "ad": "Canterbury Mounted Rifles",
+          "konum": "19 Ağustos 1915 mesajındaki birlik listesi"
+        },
+        {
+          "ad": "4th South Wales Borders",
+          "konum": "sayfa yazımı böyle"
+        },
+        {
+          "ad": "14th Sikhs",
+          "konum": "aynı mesaj listesi"
+        },
+        {
+          "ad": "Gurkha Rifles",
+          "konum": "aynı mesaj listesi"
+        },
+        {
+          "ad": "No. 2 Company NZ Engineers",
+          "konum": "aynı mesaj listesi"
+        },
+        {
+          "ad": "39th Infantry Brigade",
+          "konum": "19 Ağustos 1915 mesajı"
+        },
+        {
+          "ad": "Indian Brigade",
+          "konum": "Sari Bair"
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "John Monash",
+          "gorev": "Brigadier General, 4th Infantry Brigade",
+          "hayat": "b.1865 - d.1931"
+        },
+        {
+          "ad": "Chauvel",
+          "gorev": "Brigadier General; 16 Ağustos 1915 mesajı",
+          "hayat": null
+        },
+        {
+          "ad": "Cox",
+          "gorev": "Major General",
+          "hayat": null
+        },
+        {
+          "ad": "Russell",
+          "gorev": "General",
+          "hayat": null
+        },
+        {
+          "ad": "Cayley",
+          "gorev": "General; 20 Ağustos 1915 mesajı",
+          "hayat": null
+        },
+        {
+          "ad": "Pope",
+          "gorev": "Lieutenant Colonel",
+          "hayat": null
+        },
+        {
+          "ad": "Margolin",
+          "gorev": "Lieutenant Colonel; 20 Ağustos 1915 siper krokisi",
+          "hayat": null
+        },
+        {
+          "ad": "Cannan",
+          "gorev": "Lieutenant Colonel",
+          "hayat": null
+        },
+        {
+          "ad": "Rankine",
+          "gorev": "Major",
+          "hayat": null
+        },
+        {
+          "ad": "Kettle",
+          "gorev": "Lieutenant; 22 Ağustos 1915 esir notu",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "August Offensive ve Hill 60",
+          "tarih": "15-22 Ağustos 1915",
+          "yer": "Sari Bair; Chunuk Bair; Hill 60",
+          "ayrinti": "Harekât raporları ve Türk hareketi istihbaratı katalog girişinde. Sayfalar okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": 14,
+        "ne": "Türk esir",
+        "tarih": "22 Ağustos 1915",
+        "not": "Sayfa, Lieutenant Kettle'ın 14 Türk esir teslim aldığını yazar. Zayiat toplamı değildir. Dijital sayfa okunmadı."
+      }
+    },
+    {
+      "id": "AWM-013",
+      "url": "https://www.awm.gov.au/collection/C1416977",
+      "http": 200,
+      "baslik": "Chapter IX – The Expedition to the Dardanelles",
+      "kayit_no": "RCDIG1069882",
+      "tur": "Chapter",
+      "oge": 38,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "Resmî tarih bölümü. Üst cilt: Volume I, The Story of ANZAC, 11. baskı 1941, 4 Mayıs 1915'e kadar. PDF okunmadı. Birincil belge değildir.",
+      "birlikler": [],
+      "komutanlar": [],
+      "muharebeler": [
+        {
+          "ad": "The Expedition to the Dardanelles",
+          "tarih": "cildin sayfadaki sınırı: savaşın başlangıcından 4 Mayıs 1915'e",
+          "yer": "Dardanelles",
+          "ayrinti": "Yalnız bölüm adı. Metin okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-EK-001",
+      "anahtar": "Gallipoli",
+      "url": "https://www.awm.gov.au/collection/C1302269",
+      "http": 200,
+      "baslik": "Postcards relating to service of Albert Henshall",
+      "kayit_no": "RCDIG0000168 / PR00648",
+      "tur": "File",
+      "gorsel_sayisi": 32,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "Kartpostal dosyası. Görseller indirilmedi ve okunmadı.",
+      "birlikler": [
+        {
+          "ad": "3rd Light Horse Brigade",
+          "konum": "Quinn's Post; Shrapnel Gully; Walker's Ridge; Gaba Tepe; Headquarters Gully"
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "Walker",
+          "gorev": "Gen.; kartpostal başlığı: Reinforcements at ANZAC inspected by Gen. Walker 1915",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı. Burial service kartpostal başlığı sayı değildir."
+      }
+    },
+    {
+      "id": "AWM-EK-002",
+      "anahtar": "Gallipoli",
+      "url": "https://www.awm.gov.au/collection/C1357826",
+      "http": 200,
+      "baslik": "Message book of Thomas Anderson Kidd, 1915",
+      "kayit_no": "RCDIG0000432 / PR82/137",
+      "tur": "File",
+      "gorsel_sayisi": 40,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "cumle_inceleme": "insan_incelemesi_gerekli",
+      "not": "10. Süvari Alayı mesaj defteri, 20 Mayıs - 27 Haziran 1915. Katalog casualty list der, sayı vermez. 40 görüntü okunmadı. Yer adında Kaba Tebe geçiyor.",
+      "birlikler": [
+        {
+          "ad": "10th Light Horse Regiment",
+          "konum": "Quinn's Post; Walker's Ridge; Nek; Hill 60; Kaba Tebe, sayfa yazımı"
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "Thomas Anderson Kidd",
+          "gorev": "Lieutenant, 10th Light Horse Regiment",
+          "hayat": "b.1879 - d.1957"
+        }
+      ],
+      "muharebeler": [],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı. Katalog casualty list der, sayı vermez."
+      }
+    },
+    {
+      "id": "AWM-EK-003",
+      "anahtar": "Gallipoli",
+      "url": "https://www.awm.gov.au/collection/C384326",
+      "http": 200,
+      "baslik": "AWM38 3DRL 6673/1015 - C E W Bean photograph collection: photograph album of Gallipoli",
+      "kayit_no": "AWM2022.61.654",
+      "tur": "Album",
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "1919 Şubat-Mart Australian Historical Mission albümü. 28 sayfa, 104 fotoğraf, altyazısız. 1915 harp raporu değildir. Fotoğraflar indirilmedi.",
+      "birlikler": [],
+      "komutanlar": [],
+      "muharebeler": [],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-EK-004",
+      "anahtar": "Gallipoli",
+      "url": "https://www.awm.gov.au/collection/E84441",
+      "http": 200,
+      "baslik": "Defence of Anzac",
+      "kayit_no": "E84441",
+      "tur": "Battle honours",
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "Muharebe nişanı fişi. Birlik listesi yok.",
+      "birlikler": [],
+      "komutanlar": [],
+      "muharebeler": [
+        {
+          "ad": "Defence of Anzac",
+          "tarih": "8 Mayıs 1915 - 30 Haziran 1915",
+          "yer": "Anzac Area (Gallipoli)",
+          "ayrinti": "Sayfa: Anzac'ta savunma harekâtına katılım nişanı. Alternative name: Defence at ANZAC."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-EK-005",
+      "anahtar": "Gallipoli",
+      "url": "https://www.awm.gov.au/collection/U51441",
+      "http": 200,
+      "baslik": "1st Australian Infantry Battalion",
+      "kayit_no": "U51441",
+      "tur": "Unit",
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "Birlik özet sayfası. Nişan sayıları (3 VC ve diğerleri) zayiat değildir. Suvla bir nişan adıdır; anlatı taburun Suvla'da olduğunu yazmaz. Batı Cephesi nişanları Gelibolu sayılmadı. Savaş günlüğü AWM4/23/18/1-23/18/42 anılır, açılmadı.",
+      "birlikler": [
+        {
+          "ad": "1st Australian Infantry Battalion",
+          "konum": "ANZAC çıkarması 25 Nisan 1915; Lone Pine; Aralık 1915 tahliyesi. Sayfa ayrıca Albany, Flanders, Somme Valley ve Ypres yazar."
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "Leonard Dobbin",
+          "gorev": "Commanding Officers listesi; Gelibolu dönemi ayrılmamış",
+          "hayat": null
+        },
+        {
+          "ad": "Alfred Joshua Bennett",
+          "gorev": "aynı liste",
+          "hayat": null
+        },
+        {
+          "ad": "William Joseph Rowland",
+          "gorev": "aynı liste",
+          "hayat": null
+        },
+        {
+          "ad": "James Heane",
+          "gorev": "aynı liste; sayfa Cast Iron Jimmy der",
+          "hayat": null
+        },
+        {
+          "ad": "Bertie Vandeleur Stacy",
+          "gorev": "aynı liste",
+          "hayat": null
+        },
+        {
+          "ad": "A. J. Shout",
+          "gorev": "Captain; Lone Pine, Victoria Cross, posthumously",
+          "hayat": null
+        },
+        {
+          "ad": "L. M. Keysor",
+          "gorev": "Lieutenant; Lone Pine, Victoria Cross",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "ANZAC çıkarması",
+          "tarih": "25 Nisan 1915",
+          "yer": "ANZAC Cove",
+          "ayrinti": "İkinci ve üçüncü dalga. Özet sayfa; harp ceridesi açılmadı."
+        },
+        {
+          "ad": "Lone Pine",
+          "tarih": "Ağustos",
+          "yer": "Gallipoli",
+          "ayrinti": "Sayfa taburun en belirgin Gelibolu muharebesi der. Yıl ayrıca 1915."
+        },
+        {
+          "ad": "Tahliye",
+          "tarih": "Aralık 1915",
+          "yer": "Gallipoli",
+          "ayrinti": "Çekilme sonrası Mısır. Ayrıntı okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı. Sayfadaki nişan adetleri zayiat sayısı değildir."
+      }
+    },
+    {
+      "id": "AWM-EK-006",
+      "anahtar": "Dardanelles",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000082",
+      "http": 200,
+      "baslik": "Outline of prospective operations at Dardanelles on receipt of original orders in February 1915",
+      "kayit_no": "RCDIG0000082 / 3DRL/3376 11/4a",
+      "tur": "File",
+      "gorsel_sayisi": 16,
+      "oge": 2,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "Şubat 1915 muhtemel harekât muhtırası. 16 görüntü okunmadı.",
+      "birlikler": [
+        {
+          "ad": "Royal Navy",
+          "konum": "Dardanelles; Cape Helles; muhtırada işbirliği konusu. Gemi listesi yok."
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "William Riddell Birdwood",
+          "gorev": "Şubat 1915 muhtemel harekât muhtırası",
+          "hayat": "b.1865 - d.1951"
+        },
+        {
+          "ad": "H Pirie Gordon",
+          "gorev": "Lieutenant; Intelligence Report A, 13 Kasım 1915",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "Muhtemel Çanakkale harekâtı",
+          "tarih": "Şubat 1915; Gordon raporu 13 Kasım 1915",
+          "yer": "Gulf of Xeros; Asya yakası; Cape Helles; Gallipoli kumsalları",
+          "ayrinti": "Xeros körfezine çıkarma itirazı, donanma işbirliği ve Asya yakası seçeneği katalog cümlesinde. Metin okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-EK-007",
+      "anahtar": "Dardanelles",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000103",
+      "http": 200,
+      "baslik": "[Material prepared for evidence before Dardanelles Commission] Turkish attack on 31 May - at instigation of Enver Pasha",
+      "kayit_no": "RCDIG0000103 / 3DRL/3376 11/15 File 3",
+      "tur": "File",
+      "gorsel_sayisi": 4,
+      "oge": 1,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "Tek parça: Birdwood'un Hamilton'a 1 Temmuz 1915 raporu. 4 görüntü okunmadı.",
+      "birlikler": [],
+      "komutanlar": [
+        {
+          "ad": "William Riddell Birdwood",
+          "gorev": "1 Temmuz 1915 raporu",
+          "hayat": "b.1865 - d.1951"
+        },
+        {
+          "ad": "Ian Standish Monteith Hamilton",
+          "gorev": "raporun muhatabı",
+          "hayat": null
+        },
+        {
+          "ad": "Enver Pasha",
+          "gorev": "başlık: 31 Mayıs taarruzunun teşviki",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "Türk taarruzu",
+          "tarih": "31 Mayıs 1915",
+          "yer": "Anzac Area (Gallipoli)",
+          "ayrinti": "İngilizce konuşan bir Ermeni esirin raporları katalog konusunda. Metin okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-EK-008",
+      "anahtar": "Anzac",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000915",
+      "http": 200,
+      "baslik": "Diary of Cecil Anthony McAnulty, [1915]",
+      "kayit_no": "RCDIG0000915 / 1DRL/0422",
+      "tur": "File",
+      "gorsel_sayisi": 54,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "3. Tabur erinin günlüğü, 1 Haziran - 8 Ağustos 1915. Son kayıtlar Lone Pine. Katalog yazarın öldüğünü söyler. 54 görüntü okunmadı.",
+      "birlikler": [
+        {
+          "ad": "3rd Infantry Battalion",
+          "konum": "Anzac Area; Anzac Beach; Shrapnel Gully; Imbros"
+        }
+      ],
+      "komutanlar": [],
+      "muharebeler": [
+        {
+          "ad": "Battle of Lone Pine",
+          "tarih": "günlüğün sonu, 8 Ağustos 1915'e kadar",
+          "yer": "Anzac",
+          "ayrinti": "Katalog son kayıtların Lone Pine olduğunu ve yazarın orada öldüğünü yazar. Günlük okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı. Katalog günlüğü tutanın öldüğünü yazar; birim zayiat sayısı yok."
+      }
+    },
+    {
+      "id": "AWM-EK-009",
+      "anahtar": "Helles",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000111",
+      "http": 200,
+      "baslik": "[Material prepared for evidence before Dardanelles Commission] Extracts from Helles Evacuation File",
+      "kayit_no": "RCDIG0000111 / 3DRL/3376 11/15 File 8",
+      "tur": "File",
+      "gorsel_sayisi": 31,
+      "oge": 17,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "cumle_inceleme": "insan_incelemesi_gerekli",
+      "not": "22 Aralık 1915 - 11 Ocak 1916 Helles tahliye yazışmaları. 31 görüntü okunmadı. Sayfa bir yerde Sir William Robinson, telgraf satırında Sir William Robert Robertson yazar. Ad düzeltilmedi.",
+      "birlikler": [
+        {
+          "ad": "Dardanelles Army",
+          "konum": "Cape Helles"
+        },
+        {
+          "ad": "8th Army Corps",
+          "konum": "Helles tahliye yazışması"
+        },
+        {
+          "ad": "ANZAC Headquarters",
+          "konum": "Kahire'deki Genel Karargâh ile telgraflar"
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "William Riddell Birdwood",
+          "gorev": "General Officer Commanding, Dardanelles Army",
+          "hayat": "b.1865 - d.1951"
+        },
+        {
+          "ad": "Arthur Lynden Lynden-Bell",
+          "gorev": "Major General, Chief of the General Staff, Mediterranean Expeditionary Force",
+          "hayat": null
+        },
+        {
+          "ad": "Jean Marie Joseph Armand Brulard",
+          "gorev": "sayfa: Commandant en Chef le Corps Expeditionnaire Des Dardanelles",
+          "hayat": null
+        },
+        {
+          "ad": "William Robinson / William Robert Robertson",
+          "gorev": "sayfa her iki adı da kullanır; biri Chief of Imperial General Staff diye anılır",
+          "hayat": null
+        },
+        {
+          "ad": "Francis Davies",
+          "gorev": "General, General Officer commanding 8th Army Corps",
+          "hayat": null
+        },
+        {
+          "ad": "Walter Pipon Braithwaite",
+          "gorev": "sayfa: Chief Mediterranean Force",
+          "hayat": null
+        },
+        {
+          "ad": "Cecil Faber Aspinall",
+          "gorev": "Lieutenant Colonel, sonra Acting Brigadier General; 1 ve 6 Ocak 1916 ordu emirleri",
+          "hayat": null
+        },
+        {
+          "ad": "John de Robeck",
+          "gorev": "11 Ocak 1916 gün emrinde adı geçenler arasında",
+          "hayat": null
+        },
+        {
+          "ad": "Kitchener",
+          "gorev": "aynı gün emrinde",
+          "hayat": null
+        },
+        {
+          "ad": "Monro",
+          "gorev": "aynı gün emrinde",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "Helles tahliyesi",
+          "tarih": "22 Aralık 1915 - 11 Ocak 1916",
+          "yer": "Cape Helles",
+          "ayrinti": "Telgraf ve Dardanelles Army Order 2 ve 3 başlıkları. Metin okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-EK-010",
+      "anahtar": "Helles",
+      "url": "https://www.awm.gov.au/collection/E84488",
+      "http": 200,
+      "baslik": "Helles",
+      "kayit_no": "E84488",
+      "tur": "Battle honours",
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "Muharebe nişanı. Birlik ve komutan listesi yok.",
+      "birlikler": [],
+      "komutanlar": [],
+      "muharebeler": [
+        {
+          "ad": "Helles",
+          "tarih": "25 Nisan 1915 - 6 Haziran 1915",
+          "yer": "Cape Helles",
+          "ayrinti": "İlk çıkarma ve Mayıs ile Haziran başı çarpışmaları nişanı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-EK-011",
+      "anahtar": "Suvla",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000439",
+      "http": 200,
+      "baslik": "Diary of Laurie John Smee, 1915-1917",
+      "kayit_no": "RCDIG0000439",
+      "tur": "File",
+      "gorsel_sayisi": 48,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "RAN Bridging Train günlüğü, 19 Haziran 1915 - 1 Temmuz 1917. 48 görüntü okunmadı. Smee komutan olarak yazılmaz.",
+      "birlikler": [
+        {
+          "ad": "Royal Australian Naval Bridging Train",
+          "konum": "Suvla Bay, Ağustos 1915; Aralık 1915 Mudros; sonra Suez Canal"
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "Leighton Seymour Bracegirdle",
+          "gorev": "Lieutenant Commander, RANBT komutanı",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "Suvla çıkarması ve tahliyesi",
+          "tarih": "çıkarma Ağustos 1915; tahliye Aralık 1915",
+          "yer": "Suvla Bay; Mudros",
+          "ayrinti": "İskele işi, topçu ateşi ve örtü eksikliği katalog cümlesinde. Günlük okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-EK-012",
+      "anahtar": "Suvla",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000104",
+      "http": 200,
+      "baslik": "[Material prepared for evidence before Dardanelles Commission] Operations during August",
+      "kayit_no": "RCDIG0000104 / 3DRL/3376 11/15 File 4",
+      "tur": "File",
+      "gorsel_sayisi": 54,
+      "oge": 12,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "Ağustos 1915 harekât mektupları. 54 görüntü okunmadı. Bir kopya taranmamış diye sayfa belirtir.",
+      "birlikler": [],
+      "komutanlar": [
+        {
+          "ad": "William Riddell Birdwood",
+          "gorev": "Ağustos harekât mektupları",
+          "hayat": "b.1865 - d.1951"
+        },
+        {
+          "ad": "Ian Standish Monteith Hamilton",
+          "gorev": "muhatap; Chunuk Bair çekilmesi, 10 ve 15 Ağustos 1915",
+          "hayat": null
+        },
+        {
+          "ad": "John Grenfell Maxwell",
+          "gorev": "9 Ağustos 1915 mektubu; Suvla çıkarması ve ihtiyat tümeni",
+          "hayat": null
+        },
+        {
+          "ad": "Horatio Herbert Kitchener",
+          "gorev": "19 ve 22 Ağustos 1915 mektupları",
+          "hayat": null
+        },
+        {
+          "ad": "Stopford",
+          "gorev": "Suvla çıkarması öncesi görüşme, 22 Ağustos 1915 mektubunda",
+          "hayat": null
+        },
+        {
+          "ad": "Oswald Arthur Gerald Fitzgerald",
+          "gorev": "Colonel; 27 Haziran 1915 mektubu",
+          "hayat": null
+        },
+        {
+          "ad": "Boyle",
+          "gorev": "Captain, RN; 1 Eylül 1915, Chunuk Bair'de kısa düşen ateş",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "Lone Pine",
+          "tarih": "Ağustos 1915 dosyası",
+          "yer": "Lone Pine",
+          "ayrinti": "Rapor başlığı. Metin okunmadı."
+        },
+        {
+          "ad": "Türk karşı taarruzu",
+          "tarih": "10 Ağustos 1915",
+          "yer": "sayfa yeri ayrıca vermez; dosya yerleri arasında Chunuk Bair var",
+          "ayrinti": "Katalog cümlesi."
+        },
+        {
+          "ad": "Chunuk Bair çekilmesi",
+          "tarih": "10 Ağustos 1915 mektubu",
+          "yer": "Chunuk Bair",
+          "ayrinti": "Hamilton'a mektup başlığı."
+        },
+        {
+          "ad": "Suvla çıkarması",
+          "tarih": "Ağustos 1915; Stopford görüşmesi 22 Ağustos mektubunda",
+          "yer": "Suvla Bay",
+          "ayrinti": "Maxwell'e 9 Ağustos 1915 mektup başlığı."
+        },
+        {
+          "ad": "Hill 971 planı",
+          "tarih": "Ağustos 1915",
+          "yer": "Hill 971",
+          "ayrinti": "Konu başlığı. Plan metni okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-EK-013",
+      "anahtar": "evacuation",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000107",
+      "http": 200,
+      "baslik": "[Material prepared for evidence before Dardanelles Commission] Evacuation Operations",
+      "kayit_no": "RCDIG0000107 / 3DRL/3376 11/15 File 7A",
+      "tur": "File",
+      "gorsel_sayisi": 33,
+      "oge": 8,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "4 Kasım 1915 - 13 Şubat 1917 ANZAC ve Suvla tahliye yazışmaları. 33 görüntü okunmadı. Anzac ve Suvla arama sayfalarında da listelenmişti; bir kez açıldı.",
+      "birlikler": [
+        {
+          "ad": "Anzac ve Suvla'daki kuvvet",
+          "konum": "Anzac Cove; Anzac Beach; Suvla Bay"
+        },
+        {
+          "ad": "Mediterranean Expeditionary Force",
+          "konum": "3-5 Kasım 1915 komuta kabloları; Salonika Force ile birlikte anılır"
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "William Riddell Birdwood",
+          "gorev": "tahliye yazışmaları",
+          "hayat": "b.1865 - d.1951"
+        },
+        {
+          "ad": "Horatio Herbert Kitchener",
+          "gorev": "3-5 Kasım 1915 komuta kabloları",
+          "hayat": null
+        },
+        {
+          "ad": "Cecil Faber Aspinall",
+          "gorev": "Colonel; 13 Şubat 1917 tahliye emirleri mektubu",
+          "hayat": null
+        },
+        {
+          "ad": "Clive Wigram",
+          "gorev": "Colonel; 13 ve 22 Aralık 1915 mektupları",
+          "hayat": null
+        },
+        {
+          "ad": "John de Robeck",
+          "gorev": "Admiral; tarihsiz alıntıda Türklerin Çanakkale harekâtı hakkındaki görüşü",
+          "hayat": null
+        },
+        {
+          "ad": "A P Davidson",
+          "gorev": "Captain; de Robeck'e iletilen alıntı",
+          "hayat": null
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "Suvla ve Anzac tahliyesi",
+          "tarih": "Harp Dairesi tahliye emri kablosu 8 Aralık 1915; anlatı mektupları 13, 20 ve 22 Aralık 1915; Helles notu 7 Ocak 1916",
+          "yer": "Anzac Cove; Suvla; Helles notu ayrı",
+          "ayrinti": "Plan ve tahliye sonrası rapor başlıkları. Metin okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-EK-014",
+      "anahtar": "evacuation",
+      "url": "https://www.awm.gov.au/collection/RCDIG0000255",
+      "http": 200,
+      "baslik": "Typed extract from letter of Vincent Harry Thornton, 1916",
+      "kayit_no": "RCDIG0000255 / 2DRL/0842",
+      "tur": "File",
+      "gorsel_sayisi": 1,
+      "sayfa_sayfa_okundu": false,
+      "durum": "metadata_kontrol_edildi",
+      "gecmis_sayilir": true,
+      "not": "18 Nisan 1916 mektup özeti. Tek görüntü okunmadı. belge_acildi verilmedi.",
+      "birlikler": [
+        {
+          "ad": "13th Light Horse Regiment",
+          "konum": "Gallipoli tahliyesi mektubun konusu; mevzi ayrılmaz"
+        }
+      ],
+      "komutanlar": [
+        {
+          "ad": "Vincent Harry Thornton",
+          "gorev": "569 Private, sonra Lieutenant",
+          "hayat": "b.1893 - d.1927"
+        }
+      ],
+      "muharebeler": [
+        {
+          "ad": "Gallipoli tahliyesi",
+          "tarih": "mektup 18 Nisan 1916; tahliye günü sayfada yok",
+          "yer": "Gallipoli",
+          "ayrinti": "Mektubun tahliyeyi anlattığı katalog cümlesi. Metin okunmadı."
+        }
+      ],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    },
+    {
+      "id": "AWM-EK-404",
+      "anahtar": "Anzac",
+      "url": "https://www.awm.gov.au/collection/AWM2019.8.1193",
+      "http": 404,
+      "baslik_aramada": "AWM5 26 - AIF unit war diary precis, 1914-18 War. 25 April 1915",
+      "sayfa_sayfa_okundu": false,
+      "durum": "insan_incelemesi_gerekli",
+      "gecmis_sayilir": false,
+      "not": "Anzac dijital facetinde bu başlık ve accession göründü. Accession'ı adres sülüğü yapmak 404 verdi. Kalıcı fiş açılmadı. Geçmiş sayılmadı.",
+      "birlikler": [],
+      "komutanlar": [],
+      "muharebeler": [],
+      "kayiplar": {
+        "sayi": null,
+        "not": "bu turda okunmadı"
+      }
+    }
+  ]
+}
