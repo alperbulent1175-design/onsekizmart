@@ -236,11 +236,25 @@ class NormalizeTitleTest(unittest.TestCase):
         page = title_page(". | Çanakkale Cephesi", headings=[h1("Seddülbahir")])
         self.assertEqual(mapper.candidate_from_page(page)["baslik"], "Seddülbahir")
 
-    def test_h1_repeat_is_collapsed(self):
+    def test_h1_repeat_rules(self):
         page = title_page("| Çanakkale Cephesi", headings=[h1("Arıburnu Arıburnu")])
-        self.assertEqual(mapper.normalize_title(page), "Arıburnu")
+        self.assertEqual(mapper.normalize_title(page), "Arıburnu Arıburnu")
         page = title_page("", headings=[h1("Arıburnu | Arıburnu")])
-        self.assertEqual(mapper.normalize_title(page), "Arıburnu")
+        self.assertEqual(mapper.normalize_title(page), "Arıburnu | Arıburnu")
+        page = title_page(
+            "| Çanakkale Cephesi", headings=[h1("Arıburnu | Arıburnu | Çanakkale Cephesi")]
+        )
+        self.assertEqual(mapper.normalize_title(page), "Arıburnu | Arıburnu")
+        self.assertIn("baslik_kaynagi=h1", mapper.candidate_from_page(page)["notlar"])
+        page = title_page(
+            "", headings=[h1("Anafartalar Muharebesi | Anafartalar Muharebesi")]
+        )
+        self.assertEqual(mapper.normalize_title(page), "Anafartalar Muharebesi")
+        page = title_page(
+            "| Çanakkale Cephesi",
+            headings=[h1("Arıburnu Çıkarması Arıburnu Çıkarması")],
+        )
+        self.assertEqual(mapper.normalize_title(page), "Arıburnu Çıkarması")
 
     def test_html_title_wins_over_h1(self):
         page = title_page(
@@ -252,16 +266,136 @@ class NormalizeTitleTest(unittest.TestCase):
 
     def test_repeated_title_is_collapsed(self):
         cases = {
-            "Anafartalar | Anafartalar | Çanakkale Cephesi": "Anafartalar",
             "Anafartalar Muharebesi Anafartalar Muharebesi": "Anafartalar Muharebesi",
             "Anafartalar Muharebesi Anafartalar Muharebesi | Çanakkale Cephesi": (
                 "Anafartalar Muharebesi"
             ),
-            "Anafartalar | ANAFARTALAR": "Anafartalar",
+            "Anafartalar Muharebesi | Anafartalar Muharebesi | Çanakkale Cephesi": (
+                "Anafartalar Muharebesi"
+            ),
+            "Anafartalar Muharebesi – Anafartalar Muharebesi": "Anafartalar Muharebesi",
+            "Anafartalar Muharebesi - ANAFARTALAR MUHAREBESİ": "Anafartalar Muharebesi",
             "Bölüm | Alt başlık | Bölüm | Alt başlık": "Bölüm | Alt başlık",
+            "Anafartalar Muharebesi | Anafartalar Muharebesi | Gelibolu": (
+                "Anafartalar Muharebesi | Gelibolu"
+            ),
         }
         for title, expected in cases.items():
             self.assertEqual(mapper.normalize_title(title_page(title)), expected, title)
+
+    def test_two_word_block_of_single_word_segments_is_halved(self):
+        # "A | B" bloğu toplamda iki kelimedir; tekrar eden blok silinir.
+        cases = {
+            "Gelibolu | Arıburnu | Gelibolu | Arıburnu": "Gelibolu | Arıburnu",
+            "Gelibolu – Arıburnu – Gelibolu – Arıburnu | Çanakkale Cephesi": (
+                "Gelibolu – Arıburnu"
+            ),
+            "Gelibolu|Arıburnu|Gelibolu|Arıburnu": "Gelibolu|Arıburnu",
+            "Arıburnu | Arıburnu | Arıburnu | Arıburnu": "Arıburnu | Arıburnu",
+        }
+        for title, expected in cases.items():
+            self.assertEqual(mapper.normalize_title(title_page(title)), expected, title)
+
+    def test_single_word_segment_repeat_is_kept(self):
+        cases = {
+            "Gelibolu – Gelibolu": "Gelibolu – Gelibolu",
+            "Gelibolu - Gelibolu": "Gelibolu - Gelibolu",
+            "Gelibolu — Gelibolu": "Gelibolu — Gelibolu",
+            "GELİBOLU – Gelibolu": "GELİBOLU – Gelibolu",
+            "Arıburnu | Arıburnu": "Arıburnu | Arıburnu",
+            "Arıburnu|Arıburnu": "Arıburnu|Arıburnu",
+            "Arıburnu | Arıburnu | Çanakkale Cephesi": "Arıburnu | Arıburnu",
+            "Arıburnu | Arıburnu – Çanakkale Cephesi": "Arıburnu | Arıburnu",
+            "Anafartalar | Anafartalar | Çanakkale Cephesi": "Anafartalar | Anafartalar",
+            "Anafartalar | ANAFARTALAR": "Anafartalar | ANAFARTALAR",
+            "Gelibolu | Gelibolu | Arıburnu": "Gelibolu | Gelibolu | Arıburnu",
+        }
+        for title, expected in cases.items():
+            self.assertEqual(mapper.normalize_title(title_page(title)), expected, title)
+
+    def test_separator_is_kept_as_written(self):
+        cases = {
+            "Gelibolu|Arıburnu": "Gelibolu|Arıburnu",
+            "Gelibolu |Arıburnu | Çanakkale Cephesi": "Gelibolu |Arıburnu",
+            "Gelibolu – Arıburnu — Kabatepe - Çanakkale Cephesi": (
+                "Gelibolu – Arıburnu — Kabatepe"
+            ),
+        }
+        for title, expected in cases.items():
+            self.assertEqual(mapper.normalize_title(title_page(title)), expected, title)
+
+    def test_site_suffix_is_not_a_repeat(self):
+        self.assertEqual(
+            mapper.normalize_title(title_page("Gelibolu | Çanakkale Cephesi")), "Gelibolu"
+        )
+        for title in (
+            "Çanakkale Cephesi | Çanakkale Cephesi",
+            "Çanakkale Cephesi – Çanakkale Cephesi",
+        ):
+            page = title_page(title)
+            self.assertEqual(mapper.normalize_title(page), "", title)
+            self.assertIsNone(mapper.candidate_from_page(page), title)
+
+    def test_single_word_repeat_is_kept(self):
+        cases = {
+            "EVRAKA EVRAKA": "EVRAKA EVRAKA",
+            "EVRAKA EVRAKA | Çanakkale Cephesi": "EVRAKA EVRAKA",
+            "Bora Bora": "Bora Bora",
+            "Bora Bora – Çanakkale Cephesi": "Bora Bora",
+            "Bora Bora Adası": "Bora Bora Adası",
+            "Bora Bora Adası | Çanakkale Cephesi": "Bora Bora Adası",
+        }
+        for title, expected in cases.items():
+            self.assertEqual(mapper.normalize_title(title_page(title)), expected, title)
+
+    def test_full_title_repeat_with_author_is_halved(self):
+        single = "Türk Mayıncılığının Hızlı Dönüşümü – Hüseyin ARABACI"
+        for title in (
+            f"{single} {single}",
+            f"{single} {single} | Çanakkale Cephesi",
+            f"{single} {single} – Çanakkale Cephesi",
+            f"{single} | {single}",
+            f"{single} | {single} | Çanakkale Cephesi",
+            f"{single} | {single} – Çanakkale Cephesi",
+            f"{single} – Çanakkale Cephesi",
+            single,
+        ):
+            result = mapper.normalize_title(title_page(title))
+            self.assertEqual(result, single, title)
+            self.assertIn(" – ", result, title)
+            self.assertIn("Hüseyin ARABACI", result, title)
+
+    def test_partial_or_non_repeats_are_kept(self):
+        for title in (
+            "Conkbayırı ve Conkbayırı Taarruzu",
+            "Anafartalar Muharebesi ve Anafartalar Muharebesi Sonrası",
+            "Kilitbahir Kalesi Kilitbahir",
+            "Seddülbahir Çıkarması Seddülbahir Çıkarması Sonrası",
+            "Bir İki Bir İki Üç",
+            "Arıburnu-Kabatepe Arıburnu",
+        ):
+            self.assertEqual(mapper.normalize_title(title_page(title)), title, title)
+        self.assertEqual(
+            mapper.normalize_title(title_page("Anafartalar Muharebesi Anafartalar Muharebesi")),
+            "Anafartalar Muharebesi",
+        )
+
+    def test_title_repeat_keeps_id_url_and_date(self):
+        single = "Türk Mayıncılığının Hızlı Dönüşümü – Hüseyin ARABACI"
+        page = title_page(
+            f"{single} {single} | Çanakkale Cephesi", published_date="2015-03-18"
+        )
+        candidate = mapper.candidate_from_page(page)
+        self.assertEqual(candidate["baslik"], single)
+        self.assertEqual(candidate["url"], SLUG_URL)
+        self.assertEqual(
+            candidate["id"],
+            "CC-" + hashlib.sha256(SLUG_URL.encode("utf-8")).hexdigest()[:12],
+        )
+        self.assertEqual(candidate["tarih"], "")
+        self.assertIn("yayin_metasi=2015-03-18", candidate["notlar"])
+        record = import_catalog.convert([candidate])["kayitlar"][0]
+        self.assertEqual(record["durum"], "insan_incelemesi_gerekli")
 
     def test_site_suffix_is_removed(self):
         cases = {

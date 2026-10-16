@@ -82,44 +82,85 @@ def _is_level_one(level) -> bool:
 def _clean_title(raw) -> str:
     if not isinstance(raw, str):
         return ""
-    parts = _AYIRICI.split(" ".join(raw.split()))
-    segments = []
-    for index in range(0, len(parts), 2):
-        sep = parts[index - 1].strip() if index else ""
-        segments.append((sep, parts[index].lstrip(_BAS_KIRP).rstrip(_SON_KIRP)))
-    segments = [(sep, text) for sep, text in segments if text]
+    segments = _segments(" ".join(raw.split()))
     site = _fold(SITE_ADI)
     while segments and _fold(segments[-1][1]) == site:
         segments.pop()
-    segments = [(sep, _collapse_words(text)) for sep, text in segments]
+    # Tam başlık kontrolü parça kontrolünden önce yapılır: " – " ayırıcısı
+    # "S S" kopyasını yazar adını bölen parçalara ayırabilir.
+    # Tek ilke: tekrar eden blok (tam başlık, parça ya da parça dizisi) toplamda
+    # en az iki kelime değilse silinmez. "Gelibolu – Gelibolu" korunur.
+    whole = _halve_repeat(_join(segments))
+    if whole is not None:
+        segments = _segments(whole)
+    segments = [(sep, _halve_repeat(text) or text) for sep, text in segments]
     deduped = []
     for sep, text in segments:
-        if deduped and _fold(deduped[-1][1]) == _fold(text):
+        if (
+            deduped
+            and _fold(deduped[-1][1]) == _fold(text)
+            and _word_count([text]) >= 2
+        ):
             continue
         deduped.append((sep, text))
     half = len(deduped) // 2
     if half and len(deduped) % 2 == 0:
         first = [_fold(text) for _, text in deduped[:half]]
-        if first == [_fold(text) for _, text in deduped[half:]]:
+        if (
+            first == [_fold(text) for _, text in deduped[half:]]
+            and _word_count(text for _, text in deduped[:half]) >= 2
+        ):
             deduped = deduped[:half]
     if not deduped:
         return ""
-    result = deduped[0][1]
-    for sep, text in deduped[1:]:
-        result += f" {sep} {text}"
+    result = _join(deduped)
     if not any(char.isalnum() for char in result) or _fold(result) == site:
         return ""
     return result
 
 
-def _collapse_words(text: str) -> str:
-    # "X X" biçimindeki tam tekrar tek kopyaya iner.
-    words = text.split()
-    half = len(words) // 2
-    if half and len(words) % 2 == 0:
-        if [_fold(w) for w in words[:half]] == [_fold(w) for w in words[half:]]:
-            return " ".join(words[:half])
-    return text
+def _segments(text: str) -> list:
+    # Ayırıcı yazıldığı gibi saklanır ("|" ile " | " aynı kalmaz).
+    parts = _AYIRICI.split(text)
+    segments = []
+    for index in range(0, len(parts), 2):
+        sep = parts[index - 1] if index else ""
+        segments.append((sep, parts[index].lstrip(_BAS_KIRP).rstrip(_SON_KIRP)))
+    return [(sep, text) for sep, text in segments if text]
+
+
+def _join(segments) -> str:
+    if not segments:
+        return ""
+    return segments[0][1] + "".join(sep + text for sep, text in segments[1:])
+
+
+def _word_count(texts) -> int:
+    return sum(
+        1
+        for text in texts
+        for token in text.split()
+        if any(char.isalnum() for char in token)
+    )
+
+
+def _halve_repeat(text: str) -> str | None:
+    # Yalnızca metnin tamamı "S S" ya da "S | S" (veya - – —) ise S döner.
+    # S en az iki kelime olmalı: "Bora Bora" ve "EVRAKA EVRAKA" korunur.
+    # Başlığın ortasındaki kısmi tekrarlar silinmez.
+    tokens = text.split()
+    half = len(tokens) // 2
+    if len(tokens) % 2:
+        if tokens[half] not in ("|", "-", "–", "—"):
+            return None
+        first, second = tokens[:half], tokens[half + 1:]
+    else:
+        first, second = tokens[:half], tokens[half:]
+    if _word_count(first) < 2:
+        return None
+    if [_fold(token) for token in first] != [_fold(token) for token in second]:
+        return None
+    return " ".join(first)
 
 
 def _fold(text: str) -> str:
