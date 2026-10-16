@@ -35,6 +35,8 @@ ALT_BOLUM_ORANI = 0.4
 ALT_SABLON_COGUNLUK = 0.5
 KISA_SATIR_ESIGI = 40
 UZUN_SATIR_ESIGI = 120
+# SONRAKİ/ÖNCEKİ KONU ile güçlü arayüz arasında en fazla bu kadar komşu başlık.
+NAV_KOMŞU_AZAMI = 3
 GOSTERIM_SAYISI = text_quality.SABLON_GOSTERIM_SAYISI
 
 ALT_BASLIKLAR = (
@@ -52,6 +54,17 @@ _SON_NOKTALAMA = " .:!"
 _KATLI_ALT_BASLIKLAR = frozenset(
     mapper._fold(baslik).rstrip(_SON_NOKTALAMA) for baslik in ALT_BASLIKLAR
 )
+BREADCRUMB_ANASAYFA = "Anasayfa"
+BREADCRUMB_OK = "»"
+NAV_BASLIKLAR = ("SONRAKİ KONU", "ÖNCEKİ KONU")
+_KATLI_ANASAYFA = mapper._fold(BREADCRUMB_ANASAYFA)
+_KATLI_NAV_TURU = {
+    mapper._fold(NAV_BASLIKLAR[0]).rstrip(_SON_NOKTALAMA): "sonraki_konu",
+    mapper._fold(NAV_BASLIKLAR[1]).rstrip(_SON_NOKTALAMA): "onceki_konu",
+}
+# Tam satır yayın tarihi; KORUNAN_KALIPLAR["sayisal"] daraltılmaz, üçlü için ayrı kalıp.
+SAYISAL_TAM_KALIP = re.compile(r"^(?:\d{1,2}\.\d{1,2}\.\d{4}|\d{4}-\d{2}-\d{2})$")
+SAYAC_TAM_KALIP = re.compile(r"^\d{1,5}$")
 
 _AYLAR = (
     "ocak|subat|mart|nisan|mayis|haziran|temmuz|agustos|eylul|ekim|kasim|aralik"
@@ -205,40 +218,77 @@ def _kayit_siniri(text, satir_df, sablon, yuksek_esik, ust_satirlari, alt_baslik
     sab = [o in sablon for o in ozetler]
     korunan = [_korunan_mi(f) for _, f in satirlar]
     riskler = set()
+    kat = ["korunacak_govde"] * n
+    ust_neden = None
+    alt_on_bolge = []
 
-    run = 0
-    while run < n and sab[run]:
-        run += 1
-    ust_son = run
-    if run:
-        bosluk = 0
-        for i in range(run, min(n, math.ceil(n * UST_BOLUM_ORANI))):
-            if sab[i] and len(satirlar[i][0]) <= KISA_SATIR_ESIGI:
-                ust_son = i + 1
-                bosluk = 0
-            else:
-                bosluk += 1
-                if bosluk > ARA_PENCERE:
-                    break
-    ust_yuksek = run
-    if run:
-        if ust_son > run:
-            riskler.add("ust_blok_kesintili")
-        if any(satir_df.get(ozetler[i], 0) < yuksek_esik for i in range(run)):
+    kirinti = _breadcrumb_ust(satirlar, sab)
+    if kirinti:
+        ust_neden = "breadcrumb"
+        ust_indeks = kirinti
+        if any(
+            satir_df.get(ozetler[i], 0) < yuksek_esik
+            for i in ust_indeks
+            if sab[i] and not _kirinti_etiketi_mi(*satirlar[i])
+        ):
             riskler.add("ust_blok_dusuk_oran")
-        if any(korunan[:ust_son]):
+        if any(korunan[i] for i in ust_indeks):
             riskler.add("ust_blokta_korunan_satir")
-        if any(len(raw) > UZUN_SATIR_ESIGI for raw, _ in satirlar[:ust_son]):
+        if any(len(satirlar[i][0]) > UZUN_SATIR_ESIGI for i in ust_indeks):
             riskler.add("ust_blokta_uzun_satir")
-        if riskler - {"ust_blok_kesintili"}:
-            ust_yuksek = 0
-        for i in range(ust_son):
+        ust_yuksek_mi = not riskler & {
+            "ust_blok_dusuk_oran", "ust_blokta_korunan_satir", "ust_blokta_uzun_satir"
+        }
+        ust_kat = "yuksek_guvenli_arayuz" if ust_yuksek_mi else "belirsiz_insan_incelemesi"
+        for i in ust_indeks:
+            kat[i] = ust_kat
             if sab[i] and not korunan[i]:
                 _say(ust_satirlari, gosterim, ozetler[i], satirlar[i][0])
+        ust_sinir_satiri = max(ust_indeks) + 1
+        alt_arama_bas = ust_sinir_satiri
+        ust_kume = set(ust_indeks)
+    else:
+        run = 0
+        while run < n and sab[run]:
+            run += 1
+        ust_son = run
+        if run:
+            bosluk = 0
+            for i in range(run, min(n, math.ceil(n * UST_BOLUM_ORANI))):
+                if sab[i] and len(satirlar[i][0]) <= KISA_SATIR_ESIGI:
+                    ust_son = i + 1
+                    bosluk = 0
+                else:
+                    bosluk += 1
+                    if bosluk > ARA_PENCERE:
+                        break
+        ust_yuksek = run
+        if run:
+            ust_neden = "sablon"
+            if ust_son > run:
+                riskler.add("ust_blok_kesintili")
+            if any(satir_df.get(ozetler[i], 0) < yuksek_esik for i in range(run)):
+                riskler.add("ust_blok_dusuk_oran")
+            if any(korunan[:ust_son]):
+                riskler.add("ust_blokta_korunan_satir")
+            if any(len(raw) > UZUN_SATIR_ESIGI for raw, _ in satirlar[:ust_son]):
+                riskler.add("ust_blokta_uzun_satir")
+            if riskler - {"ust_blok_kesintili"}:
+                ust_yuksek = 0
+            for i in range(ust_son):
+                if sab[i] and not korunan[i]:
+                    _say(ust_satirlari, gosterim, ozetler[i], satirlar[i][0])
+        for i in range(ust_yuksek):
+            kat[i] = "yuksek_guvenli_arayuz"
+        for i in range(ust_yuksek, ust_son):
+            kat[i] = "belirsiz_insan_incelemesi"
+        ust_sinir_satiri = ust_son or None
+        alt_arama_bas = ust_son
+        ust_kume = set(range(ust_son))
 
     alt_bas = None
     alt_alani = n * (1 - ALT_BOLUM_ORANI)
-    for i in range(ust_son, n):
+    for i in range(alt_arama_bas, n):
         if i >= alt_alani and sab[i] and _alt_basligi_mi(satirlar[i][1]):
             alt_bas = i
             break
@@ -259,14 +309,31 @@ def _kayit_siniri(text, satir_df, sablon, yuksek_esik, ust_satirlari, alt_baslik
         alt_yuksek = not riskler & {
             "alt_blokta_uzun_satir", "alt_blokta_korunan_satir", "alt_blok_sablon_azinlikta"
         }
+        alt_kat = "yuksek_guvenli_arayuz" if alt_yuksek else "belirsiz_insan_incelemesi"
+        for i in blok:
+            kat[i] = alt_kat
 
-    govde_son = n if alt_bas is None else alt_bas
-    alt = range(govde_son, n)
-    bolumler = {
-        "yuksek_guvenli_arayuz": [*range(ust_yuksek), *(alt if alt_yuksek else ())],
-        "belirsiz_insan_incelemesi": [*range(ust_yuksek, ust_son), *(() if alt_yuksek else alt)],
-        "korunacak_govde": list(range(ust_son, govde_son)),
-    }
+        sayac_bas = _yayin_sayac_bas(satirlar, alt_bas)
+        if sayac_bas is not None and not (ust_kume & set(range(sayac_bas, alt_bas))):
+            alt_on_bolge.append("yayin_sayac")
+            sayac_kat = "yuksek_guvenli_arayuz" if alt_yuksek else "belirsiz_insan_incelemesi"
+            for i in range(sayac_bas, alt_bas):
+                kat[i] = sayac_kat
+            nav_son = sayac_bas
+        else:
+            nav_son = alt_bas
+
+        nav = _nav_on_bolge(satirlar, nav_son, alt_alani)
+        if nav is not None:
+            nav_bas, nav_bit = nav
+            if not (ust_kume & set(range(nav_bas, nav_bit))):
+                for tur in _nav_turleri(satirlar, nav_bas, nav_bit):
+                    if tur not in alt_on_bolge:
+                        alt_on_bolge.append(tur)
+                for i in range(nav_bas, nav_bit):
+                    kat[i] = "belirsiz_insan_incelemesi"
+
+    bolumler = {ad: [i for i, k in enumerate(kat) if k == ad] for ad in KATEGORILER}
     kategoriler = {
         ad: {"satir": len(idx), "karakter": sum(len(satirlar[i][0]) for i in idx)}
         for ad, idx in bolumler.items()
@@ -299,7 +366,11 @@ def _kayit_siniri(text, satir_df, sablon, yuksek_esik, ust_satirlari, alt_baslik
         "toplam_satir": n,
         "toplam_karakter": sum(len(raw) for raw, _ in satirlar),
         "kategoriler": kategoriler,
-        "ust_sinir_satiri": ust_son or None,
+        "satir_kategorileri": kat,
+        "bolgeler": _bolgeler(kat),
+        "ust_neden": ust_neden,
+        "alt_on_bolge": alt_on_bolge,
+        "ust_sinir_satiri": ust_sinir_satiri,
         "alt_sinir_satiri": None if alt_bas is None else alt_bas + 1,
         "sinir_guveni": guven,
         "alt_blok_uzun_satir": alt_uzun,
@@ -315,6 +386,122 @@ def _korunan_mi(folded) -> bool:
 
 def _alt_basligi_mi(folded) -> bool:
     return folded.rstrip(_SON_NOKTALAMA) in _KATLI_ALT_BASLIKLAR
+
+
+def _breadcrumb_ok_mi(raw, folded) -> bool:
+    return raw == BREADCRUMB_OK or folded == BREADCRUMB_OK
+
+
+def _kaynak_notu_mu(folded) -> bool:
+    return bool(KORUNAN_KALIPLAR["kaynak_notu"].search(folded))
+
+
+def _kirinti_etiketi_mi(raw, folded) -> bool:
+    if len(raw) > KISA_SATIR_ESIGI:
+        return False
+    if folded == _KATLI_ANASAYFA or _breadcrumb_ok_mi(raw, folded):
+        return False
+    if _korunan_mi(folded) or _alt_basligi_mi(folded) or _nav_turu(folded):
+        return False
+    return True
+
+
+def _breadcrumb_ust(satirlar, sab):
+    n = len(satirlar)
+    kirinti = None
+    if n >= 2 and satirlar[0][1] == _KATLI_ANASAYFA and _breadcrumb_ok_mi(*satirlar[1]) and sab[0]:
+        kirinti = [0, 1]
+    elif n >= 3 and satirlar[1][1] == _KATLI_ANASAYFA and _breadcrumb_ok_mi(*satirlar[2]) and sab[1]:
+        kirinti = [1, 2]
+    if kirinti is None:
+        return None
+    etiket_i = kirinti[-1] + 1
+    ok_i = kirinti[-1] + 2
+    if ok_i < n and _kirinti_etiketi_mi(*satirlar[etiket_i]) and _breadcrumb_ok_mi(*satirlar[ok_i]):
+        kirinti = kirinti + [etiket_i, ok_i]
+    return kirinti
+
+
+def _nav_turu(folded):
+    return _KATLI_NAV_TURU.get(folded.rstrip(_SON_NOKTALAMA))
+
+
+def _nav_turleri(satirlar, bas, bit) -> list:
+    turler = []
+    for i in range(bas, bit):
+        tur = _nav_turu(satirlar[i][1])
+        if tur and tur not in turler:
+            turler.append(tur)
+    return turler
+
+
+def _yayin_sayac_bas(satirlar, alt_bas):
+    if alt_bas is None or alt_bas < 3:
+        return None
+    i = alt_bas - 3
+    ham = [satirlar[i + j][0] for j in range(3)]
+    katli = [satirlar[i + j][1] for j in range(3)]
+    if not SAYISAL_TAM_KALIP.match(ham[0]):
+        return None
+    if not SAYAC_TAM_KALIP.match(ham[1]) or not SAYAC_TAM_KALIP.match(ham[2]):
+        return None
+    for folded in katli:
+        if (KORUNAN_KALIPLAR["gun_ay"].search(folded)
+                or KORUNAN_KALIPLAR["ay_yil"].search(folded)
+                or KORUNAN_KALIPLAR["kaynak_notu"].search(folded)):
+            return None
+    return i
+
+
+def _nav_on_bolge(satirlar, son, alt_alani):
+    if son is None or son < 1:
+        return None
+    aday = []
+    i = son - 1
+    ara = 0
+    nav_goruldu = False
+    while i >= 0 and i >= alt_alani:
+        folded = satirlar[i][1]
+        if _kaynak_notu_mu(folded):
+            if not nav_goruldu:
+                return None
+            break
+        if _alt_basligi_mi(folded):
+            break
+        if _nav_turu(folded):
+            aday.append(i)
+            nav_goruldu = True
+            ara = 0
+        elif nav_goruldu:
+            break
+        else:
+            ara += 1
+            if ara > NAV_KOMŞU_AZAMI:
+                break
+            aday.append(i)
+        i -= 1
+    if not aday:
+        return None
+    aday.reverse()
+    bas = 0
+    while bas < len(aday) and not _nav_turu(satirlar[aday[bas]][1]):
+        bas += 1
+    if bas >= len(aday):
+        return None
+    return aday[bas], aday[-1] + 1
+
+
+def _bolgeler(kategoriler_satir) -> list:
+    n = len(kategoriler_satir)
+    bolge = []
+    i = 0
+    while i < n:
+        j = i + 1
+        while j < n and kategoriler_satir[j] == kategoriler_satir[i]:
+            j += 1
+        bolge.append((i + 1, j, kategoriler_satir[i]))
+        i = j
+    return bolge
 
 
 def _say(sayac, gosterim, ozet, raw):
@@ -397,6 +584,23 @@ def format_report(report) -> str:
         f"  Korunacak kalıplar (bloğa düşerse blok belirsiz olur): {KORUNAN_ACIKLAMA}",
         "  'admin', 'Anasayfa', sayı, kişi adı gibi genel satırlar tek başına sınır belirlemez; "
         "iki blok arasındaki her satır korunacak gövdedir.",
+        "  Breadcrumb: yalnızca iki ardışık tam satır Anasayfa + '»'; (a) satır 1–2 veya "
+        "(b) satır 1 başlık/korunacak, satır 2–3 Anasayfa + '»'. Satır 4+ tetiklemez. "
+        "Tek başına Anasayfa veya '»' sınır değildir; başlık gövde kalır. Tanınan "
+        "kırıntıdan hemen sonra kısa etiket "
+        f"(en fazla {KISA_SATIR_ESIGI} karakter, korunacak kalıp değil, Anasayfa değil) "
+        "+ '»' varsa ikinci kırıntı da aynı üst bloğa katılır; üçüncü kırıntı yutulmaz. "
+        "Tanınmış kırıntıda ust_blok_dusuk_oran yalnızca Anasayfa çekirdeğine bakılır; "
+        "kategori etiketi bu orana girmez. Tanınmamış yapıda şablon-koşu kuralı aynıdır.",
+        "  Yayın sayacı: arayüz başlığının hemen önündeki üç tam satır (gg.aa.yyyy veya "
+        "yyyy-aa-gg + iki 1–5 haneli sayı). Yalnızca mevcut alt sınır yüksekse yüksek "
+        "bloğa katılır; alt belirsizse üçlü de belirsiz kalır, yükseltme yoktur. "
+        "Gün adı yazılı tarih satırı bu üçlü değildir.",
+        "  SONRAKİ KONU / ÖNCEKİ KONU öneki arayüz başlığından önceyse belirsiz kalır; "
+        "yüksek yapılmaz. Komşu yazı başlığının uzunluğu veya yazılı tarih tetiklemeyi "
+        "kesmez; kaynakça/dipnot/ATASE/arşiv bu aralığa düşerse tetiklenmez. Tek başına "
+        "ve arayüz yoksa gövdedir. Tweetle uygunsa ayrı yüksek bölge olabilir; kayıtta "
+        "belirsiz satır varsa kayıt güveni belirsizdir.",
         f"  {UZUN_SATIR_ESIGI} karakteri aşan ve birden çok makalede geçen gövde satırları "
         "korunur ve tekrarlanan_uzun_satir_korundu olarak sayılır.",
     ]
@@ -452,6 +656,10 @@ def format_report(report) -> str:
             f"alt_sinir_satiri: {ornek['alt_sinir_satiri'] or '-'}; "
             f"sinir_guveni: {ornek['sinir_guveni']}"
         )
+        if ornek.get("ust_neden"):
+            lines.append(f"       ust_neden: {ornek['ust_neden']}")
+        if ornek.get("alt_on_bolge"):
+            lines.append(f"       alt_on_bolge: {', '.join(ornek['alt_on_bolge'])}")
         lines.append(
             f"       alt_blok_uzun_satir: {ornek['alt_blok_uzun_satir']}; "
             f"tekrarlanan_uzun_satir_korundu: {ornek['tekrarlanan_uzun_satir_korundu']}"
