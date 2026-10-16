@@ -182,5 +182,154 @@ class MapCanakkaleAdayTest(unittest.TestCase):
         self.assertNotEqual(record["durum"], "iddia_dogrulandi")
 
 
+SLUG_URL = "https://www.canakkalecephesi.com/seddulbahir-cikarmasi"
+
+
+def h1(text, level=1):
+    return {"level": level, "text": text}
+
+
+def title_page(title, headings=None, **extra):
+    page = {"url": SLUG_URL, "title": title}
+    if headings is not None:
+        page["headings"] = headings
+    page.update(extra)
+    return page
+
+
+class NormalizeTitleTest(unittest.TestCase):
+    def test_site_name_only_without_h1_is_skipped(self):
+        for title in (
+            "| Çanakkale Cephesi",
+            "Çanakkale Cephesi",
+            " |  çanakkale   cephesi ",
+            "– ÇANAKKALE CEPHESİ",
+            "- Canakkale Cephesi",
+        ):
+            page = title_page(title)
+            self.assertEqual(mapper.normalize_title(page), "", title)
+            self.assertIsNone(mapper.candidate_from_page(page), title)
+
+    def test_dot_and_site_name_is_skipped(self):
+        for title in (". | Çanakkale Cephesi", " . |Çanakkale Cephesi", "…", "|"):
+            page = title_page(title, headings=[])
+            self.assertEqual(mapper.normalize_title(page), "", title)
+            self.assertIsNone(mapper.candidate_from_page(page), title)
+
+    def test_falls_back_to_valid_h1(self):
+        page = title_page(
+            "| Çanakkale Cephesi",
+            headings=[
+                h1("Önsöz", level=2),
+                h1("Çanakkale Cephesi"),
+                h1(" . "),
+                h1("Seddülbahir | Çanakkale Cephesi"),
+                h1("İkinci H1"),
+            ],
+        )
+        self.assertEqual(mapper.normalize_title(page), "Seddülbahir")
+        candidate = mapper.candidate_from_page(page)
+        self.assertEqual(candidate["baslik"], "Seddülbahir")
+        self.assertIn("baslik_kaynagi=h1", candidate["notlar"])
+
+    def test_dot_title_falls_back_to_h1(self):
+        page = title_page(". | Çanakkale Cephesi", headings=[h1("Seddülbahir")])
+        self.assertEqual(mapper.candidate_from_page(page)["baslik"], "Seddülbahir")
+
+    def test_h1_repeat_is_collapsed(self):
+        page = title_page("| Çanakkale Cephesi", headings=[h1("Arıburnu Arıburnu")])
+        self.assertEqual(mapper.normalize_title(page), "Arıburnu")
+        page = title_page("", headings=[h1("Arıburnu | Arıburnu")])
+        self.assertEqual(mapper.normalize_title(page), "Arıburnu")
+
+    def test_html_title_wins_over_h1(self):
+        page = title_page(
+            "Kilitbahir | Çanakkale Cephesi", headings=[h1("Başka başlık")]
+        )
+        candidate = mapper.candidate_from_page(page)
+        self.assertEqual(candidate["baslik"], "Kilitbahir")
+        self.assertNotIn("baslik_kaynagi", candidate["notlar"])
+
+    def test_repeated_title_is_collapsed(self):
+        cases = {
+            "Anafartalar | Anafartalar | Çanakkale Cephesi": "Anafartalar",
+            "Anafartalar Muharebesi Anafartalar Muharebesi": "Anafartalar Muharebesi",
+            "Anafartalar Muharebesi Anafartalar Muharebesi | Çanakkale Cephesi": (
+                "Anafartalar Muharebesi"
+            ),
+            "Anafartalar | ANAFARTALAR": "Anafartalar",
+            "Bölüm | Alt başlık | Bölüm | Alt başlık": "Bölüm | Alt başlık",
+        }
+        for title, expected in cases.items():
+            self.assertEqual(mapper.normalize_title(title_page(title)), expected, title)
+
+    def test_site_suffix_is_removed(self):
+        cases = {
+            "Kilitbahir | Çanakkale Cephesi": "Kilitbahir",
+            "Kilitbahir|Çanakkale Cephesi": "Kilitbahir",
+            "Kilitbahir – Çanakkale Cephesi": "Kilitbahir",
+            "Kilitbahir — Çanakkale Cephesi": "Kilitbahir",
+            "Kilitbahir - çanakkale cephesi": "Kilitbahir",
+            "Kilitbahir | ÇANAKKALE CEPHESİ ": "Kilitbahir",
+            "  | Kilitbahir. |  Çanakkale Cephesi  ": "Kilitbahir",
+            "Arıburnu-Kabatepe | Çanakkale Cephesi": "Arıburnu-Kabatepe",
+            "Çanakkale Cephesi Komutanları | Çanakkale Cephesi": (
+                "Çanakkale Cephesi Komutanları"
+            ),
+            "Kim kazandı? | Çanakkale Cephesi": "Kim kazandı?",
+        }
+        for title, expected in cases.items():
+            self.assertEqual(mapper.normalize_title(title_page(title)), expected, title)
+
+    def test_title_and_h1_both_invalid_is_skipped(self):
+        page = title_page(
+            ". | Çanakkale Cephesi",
+            headings=[h1("Çanakkale Cephesi"), h1("|"), h1(None), "Düz metin"],
+        )
+        self.assertEqual(mapper.normalize_title(page), "")
+        self.assertIsNone(mapper.candidate_from_page(page))
+        self.assertEqual(mapper.candidates_from_pages([page]), [])
+
+    def test_title_is_not_built_from_slug_or_body(self):
+        page = title_page(
+            "| Çanakkale Cephesi",
+            headings=[h1("Seddülbahir Çıkarması", level=2), {"text": "Seviyesiz"}],
+            canonical_url="https://www.canakkalecephesi.com/seddulbahir-cikarmasi/",
+            text="Seddülbahir Çıkarması gövde metni",
+            internal_links=["https://www.canakkalecephesi.com/seddulbahir"],
+            images=["seddulbahir-cikarmasi.jpg"],
+        )
+        self.assertEqual(mapper.normalize_title(page), "")
+        self.assertIsNone(mapper.candidate_from_page(page))
+
+    def test_status_and_date_rules_kept_with_h1(self):
+        page = title_page(
+            "| Çanakkale Cephesi",
+            headings=[h1("Seddülbahir")],
+            published_date="1915-04-25",
+        )
+        candidate = mapper.candidate_from_page(page)
+        self.assertEqual(list(candidate.keys()), list(import_catalog.COLUMNS))
+        self.assertEqual(candidate["tarih"], "")
+        self.assertEqual(candidate["url"], SLUG_URL)
+        self.assertEqual(
+            candidate["id"],
+            "CC-" + hashlib.sha256(SLUG_URL.encode("utf-8")).hexdigest()[:12],
+        )
+        self.assertEqual(
+            candidate["erisim_durumu"], "Ham arşiv kopyası; içerik doğrulanamadı"
+        )
+        self.assertIn("yayin_metasi=1915-04-25", candidate["notlar"])
+        self.assertNotIn("iddia_destegi", candidate)
+        self.assertNotIn("iddia_dogrulandi", candidate)
+        record = import_catalog.convert([candidate])["kayitlar"][0]
+        self.assertEqual(record["durum"], "insan_incelemesi_gerekli")
+        self.assertFalse(record["iddia_destegi"])
+
+    def test_non_dict_page_is_empty(self):
+        self.assertEqual(mapper.normalize_title(None), "")
+        self.assertEqual(mapper.normalize_title("Başlık"), "")
+
+
 if __name__ == "__main__":
     unittest.main()
