@@ -1,0 +1,21 @@
+{
+  "reviewDate": "2026-10-17",
+  "sourceUrl": "https://www.canakkalecephesi.com/index.php/2022/12/26/57-alaya-ait-14-mayis-4-haziran-1915-tarihleri-arasindaki-muharebe-tutanaklari/",
+  "localSnapshotSha256": "ccc496c16d00b77e21d57439cb0f3980d4104a2ea9f9732ac7b4a2d111740216",
+  "liveFetchStatus": "web_aracinda_erisim_saglanamadi_yerel_scraper_kaydi_incelendi",
+  "evidenceText": "11 Mayıs 331 tarihindeki mütâreke gününde defn-i emvât hakkındaki kolordu ta’limâtı",
+  "status": "aktarim_incelendi_ozgun_belge_dogrulamasi_bekliyor",
+  "observations": [
+    "Kolordu talimatı ile anlaşma metni ve birlik raporları aynı aktarımda",
+    "11 Mayıs 331 ve 11/3/331 yazımları ayrı saklanmalı",
+    "Anlaşma koşulu ile rapor edilen uygulama birbirinin yerine kullanılmamalı"
+  ],
+  "notPromoted": [
+    "Kesin saat",
+    "Kişi listesi",
+    "Buluşma koordinatı",
+    "Zayiat"
+  ],
+  "siteChange": "Kaynak izi ve okuma sınırı eklendi",
+  "published": false
+}

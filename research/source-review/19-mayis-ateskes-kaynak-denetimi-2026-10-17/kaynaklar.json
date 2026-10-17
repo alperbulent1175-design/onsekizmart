@@ -1,0 +1,108 @@
+{
+  "reviewDate": "2026-10-17",
+  "scope": "Kullanıcı listesinin bağımsız kaynak eşleştirmesi; ana katalog ithalatı değildir.",
+  "records": [
+    {
+      "id": "kervan-2022",
+      "sourceUrl": "https://dergipark.org.tr/tr/download/article-file/2314844",
+      "evidenceText": "Çanakkale Cephesi’nde 19 Mayıs Türk Taarruzu ve 24 Mayıs Ateşkesi",
+      "status": "kunye_ve_metin_incelendi_ozgun_arsiv_kontrolu_acik",
+      "printedPages": "32-50",
+      "pdfPageCount": 19,
+      "openQuestions": [
+        "K:3474 atfı",
+        "Saat sistemi açıklaması",
+        "Mevcut ve zayiat kategorileri",
+        "Tek resmî ateşkes genellemesi"
+      ]
+    },
+    {
+      "id": "baburoglu-2021",
+      "sourceUrl": "https://dergipark.org.tr/tr/download/article-file/1568887",
+      "evidenceText": "GELİBOLU’DA ARIBURNU MUHAREBELERİ",
+      "status": "kunye_ve_metin_incelendi_sayisal_iddia_kontrolu_acik",
+      "printedPages": "181-200",
+      "pdfPageCount": 20,
+      "relevantPageMapping": "Basılı 191-196 = fiziksel PDF 11-16",
+      "openQuestions": [
+        "43.000 ve 18.000 için mevcut türü",
+        "ATASE belgesinin görüntüsü"
+      ]
+    },
+    {
+      "id": "bean-awm-chapter-v",
+      "sourceUrl": "https://www.awm.gov.au/collection/C1417086",
+      "evidenceText": "Chapter V – The Turkish Attack of May 19th",
+      "status": "kurumsal_kunye_ve_bolum_eslestirmesi_incelendi",
+      "edition": "11th edition, 1941",
+      "accessionNumber": "RCDIG1069991",
+      "printedPages": "132-168",
+      "pdfPageCount": 43,
+      "pdfUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1069991/document/5520739.PDF",
+      "openQuestions": [
+        "Kullanıcının İngilizce alıntısının sözcüğü sözcüğüne yeri",
+        "Sağlanan 1926 nüshasının bağlantı eşleşmesi"
+      ]
+    },
+    {
+      "id": "kullanici-kaynak-4-yanlis-eslesme",
+      "sourceUrl": "https://dergipark.org.tr/tr/download/article-file/3328382",
+      "evidenceText": "5 Temmuz 1915 Zığındere Türk Taarruzu",
+      "status": "bildirilen_kunye_pdf_ile_eslesmiyor",
+      "actualAuthor": "İslam Özdemir",
+      "actualPublication": "Çanakkale Araştırmaları Türk Yıllığı, cilt 23, sayı 37, Güz 2024, 108-119",
+      "pdfPageCount": 12,
+      "useForMay19Claims": false
+    },
+    {
+      "id": "devlet-arsivleri-ipucu",
+      "sourceUrl": null,
+      "evidenceText": null,
+      "status": "kullanici_arastirma_ipucu_dogrulanmadi",
+      "submittedReferences": [
+        "BOA BEO. d. 4356",
+        "HR.SYS. 2893"
+      ],
+      "openQuestions": [
+        "Belgeye özgü URL, fon, başlık, tarih ve görüntü"
+      ]
+    },
+    {
+      "id": "oglander-ii-ipucu",
+      "sourceUrl": "https://archive.org/download/gallipoli-v-2-pt-01-p-003-008/GallipoliV2Pt02p008-027_text.pdf#page=14",
+      "evidenceText": "a second conference on the 22nd",
+      "status": "pasaj_goruntuden_okundu_ozgun_yazisma_karsilastirmasi_acik",
+      "localReview": "../oglander-iki-cilt/OKUMA-RAPORU.md",
+      "openQuestions": [
+        "WO 158/921 ve Osmanlı yazışmalarının özgün görüntüleriyle karşılaştırma"
+      ],
+      "printedPages": "20-22",
+      "physicalPdfPages": [
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "herbert-gutenberg",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/54312",
+      "evidenceText": "Mons, Anzac and Kut by Aubrey Herbert",
+      "status": "kitap_erisim_kaydi_incelendi_24_mayis_pasaji_kontrolu_acik",
+      "fullTextUrl": "https://www.gutenberg.org/cache/epub/54312/pg54312-images.html"
+    },
+    {
+      "id": "monash-nzg609-23-mayis",
+      "sourceUrl": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-07/17676-rcdig0000588-page86.jpg",
+      "catalogUrl": "https://transcribe.awm.gov.au/transcription/item/rcdig0000588-7",
+      "evidenceText": "to commence at 7.30 A.M. tomorrow",
+      "reviewDate": "2026-10-17",
+      "status": "ozgun_emir_taramasi_goruntuden_okundu_uygulama_raporu_kontrolu_acik",
+      "documentDate": "1915-05-23",
+      "documentReference": "N.Z.G. 609; RCDIG0000588; image page86",
+      "openQuestions": [
+        "Imzali anlasma ile karsilastirma",
+        "Fiili uygulama raporlari"
+      ]
+    }
+  ]
+}
