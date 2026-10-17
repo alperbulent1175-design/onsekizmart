@@ -1,0 +1,32 @@
+{
+  "id": "G00965C",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/G00965C",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/G00965C/screen/4117620.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "9 May 1915",
+  "maker": "Bean, Charles Edwin Woodrow (C E W)",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-g00965c.jpg",
+  "sha256": "d922041aa52537a5f69fe02097ea8b4eb36c5bd4aa84442b5fcf9191ec09250b",
+  "bytes": 160576,
+  "width": 640,
+  "height": 384,
+  "credit": "Australian War Memorial, G00965C",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "dateLabelTr": "9 Mayıs 1915",
+  "captionTr": "Kirte Deresi’nde geri dönen yaralılar; kurum kaydının çekim tarihi 9 Mayıs 1915. Fotoğraf, 8 Mayıs taarruzunun ertesi gününe aittir; taarruz anını göstermez.",
+  "evidenceText": "Kirte Deresi’nde geri dönen yaralılar; kurum kaydının çekim tarihi 9 Mayıs 1915. Fotoğraf, 8 Mayıs taarruzunun ertesi gününe aittir; taarruz anını göstermez.",
+  "altTr": "Kirte Deresi’nin eğimli arazisinde uzak planda yürüyen askerler.",
+  "visualReviewDate": "2026-10-17",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "sitePreparedPath": "images/events/awm-g00965c.jpg",
+  "localUses": [
+    "olaylar/ikinci-kirte-muharebesi/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

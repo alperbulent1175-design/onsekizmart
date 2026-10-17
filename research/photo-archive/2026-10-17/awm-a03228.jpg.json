@@ -1,0 +1,33 @@
+{
+  "id": "A03228",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/A03228",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/A03228/screen/6134976.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "c August 1915",
+  "maker": "Unknown",
+  "sourcePlace": "Ottoman Empire: Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Lone Pine Area, Lone Pine",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-a03228.jpg",
+  "sha256": "1166010285ebb0b08d43a1bf9f30551d9792976950680918da1f412ee7233790",
+  "bytes": 169868,
+  "width": 464,
+  "height": 654,
+  "credit": "Australian War Memorial, A03228",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "captionTr": "Lone Pine/Kanlısırt arazisi; AWM künyesinde yaklaşık Ağustos 1915. Hücum öncesi tanımı kurum açıklamasına aittir; kesin gün belirtilmez.",
+  "evidenceText": "Lone Pine/Kanlısırt arazisi; AWM künyesinde yaklaşık Ağustos 1915. Hücum öncesi tanımı kurum açıklamasına aittir; kesin gün belirtilmez.",
+  "altTr": "Çalılıklarla kaplı bir tepenin üzerinde tek başına yükselen çam ağacı.",
+  "dateLabelTr": "Yaklaşık Ağustos 1915",
+  "visualReviewDate": "2026-10-17",
+  "sitePreparedPath": "images/events/awm-a03228.jpg",
+  "localUses": [
+    "olaylar/kanlisirt-muharebesi/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

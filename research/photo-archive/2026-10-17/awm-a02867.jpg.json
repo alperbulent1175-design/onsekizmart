@@ -1,0 +1,33 @@
+{
+  "id": "A02867",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/A02867",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/A02867/screen/4160240.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": null,
+  "maker": "Alice Mills",
+  "sourcePlace": "Australia: Victoria, Melbourne",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-a02867.jpg",
+  "sha256": "e2420d1ccd89286c940d86e4edac445fd21cc2faf8daa2d4089a807e71f852d3",
+  "bytes": 155321,
+  "width": 446,
+  "height": 654,
+  "credit": "Australian War Memorial, A02867",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "komutanlar",
+  "captionTr": "William Bridges’in Alice Mills tarafından çekilen stüdyo portresi. Kurum kaydında çekim tarihi belirtilmemiştir.",
+  "evidenceText": "William Bridges’in Alice Mills tarafından çekilen stüdyo portresi. Kurum kaydında çekim tarihi belirtilmemiştir.",
+  "altTr": "Şapkalı ve bıyıklı bir subayın üniformalı stüdyo portresi.",
+  "dateLabelTr": "Belirtilmemiş",
+  "visualReviewDate": "2026-10-17",
+  "sitePreparedPath": "images/commanders/awm-a02867.jpg",
+  "localUses": [
+    "komutanlar/william-bridges/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

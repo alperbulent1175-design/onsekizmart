@@ -1,0 +1,248 @@
+{
+  "runFolder": "C:\\Users\\crawi\\Desktop\\canakkalecephesi_scraper\\runs\\20261017-194212",
+  "reviewDate": "2026-10-17",
+  "attemptedUrls": 40,
+  "httpStatuses": {
+    "200": 32,
+    "404": 5,
+    "302": 3
+  },
+  "newArchivedUrls": 32,
+  "archiveTotalUrls": 538,
+  "newCanonicalArticleCandidates": 7,
+  "priorArchiveUnchanged": true,
+  "previousRecordsPreserved": true,
+  "malformedJsonRecords": 0,
+  "scraperCodeChanged": false,
+  "sitePublished": false,
+  "tests": {
+    "nodePassed": 27,
+    "pythonPassed": 73
+  },
+  "newRecords": [
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2022/12/26/kurmay-yarbay-mustafa-kemal-ataturk/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/2022/12/26/kurmay-yarbay-mustafa-kemal-ataturk/",
+      "title": "Kurmay Yarbay Mustafa Kemal (ATATÜRK) | Çanakkale Cephesi",
+      "textLength": 5179,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2022/12/26/nar-cicegim-can-cicegim/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/2022/12/26/nar-cicegim-can-cicegim/",
+      "title": "Nar Çiçeğim Can Çiçeğim | Çanakkale Cephesi",
+      "textLength": 2173,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2022/12/26/ordunun-duasi/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/2022/12/26/ordunun-duasi/",
+      "title": "Ordunun Duası | Çanakkale Cephesi",
+      "textLength": 1768,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2022/12/26/orduya-selam/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/2022/12/26/orduya-selam/",
+      "title": "Orduya Selam | Çanakkale Cephesi",
+      "textLength": 1487,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2022/12/26/siperlerde/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/2022/12/26/siperlerde/",
+      "title": "Siperlerde | Çanakkale Cephesi",
+      "textLength": 1730,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2022/12/26/turk-zaferini-kanlariyla-yaza-yaza-ilerleyen-bu-kahramanlar/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/2022/12/26/turk-zaferini-kanlariyla-yaza-yaza-ilerleyen-bu-kahramanlar/",
+      "title": "Türk Zaferini Kanlarıyla Yaza Yaza İlerleyen Bu Kahramanlar | Çanakkale Cephesi",
+      "textLength": 3827,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2022/12/26/yaralandiniz-binbasim/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/2022/12/26/yaralandiniz-binbasim/",
+      "title": "Yaralandınız Binbaşım | Çanakkale Cephesi",
+      "textLength": 3449,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2026/01/06/turk-mayinciliginin-hizli-donusumu-huseyin-arbaci/?replytocom=1511",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/2026/01/06/turk-mayinciliginin-hizli-donusumu-huseyin-arbaci/",
+      "title": "Türk Mayıncılığının Hızlı Dönüşümü – Hüseyin ARABACI Türk Mayıncılığının Hızlı Dönüşümü – Hüseyin ARABACI | Çanakkale Cephesi",
+      "textLength": 10160,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2026/01/25/2197/?replytocom=1518",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/2026/01/25/2197/",
+      "title": "| Çanakkale Cephesi",
+      "textLength": 11866,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2026/01/25/2197/?replytocom=1519",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/2026/01/25/2197/",
+      "title": "| Çanakkale Cephesi",
+      "textLength": 11786,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2026/01/25/2197/?replytocom=1520",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/2026/01/25/2197/",
+      "title": "| Çanakkale Cephesi",
+      "textLength": 11738,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2026/03/18/2227/?replytocom=1537",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/2026/03/18/2227/",
+      "title": "| Çanakkale Cephesi",
+      "textLength": 10938,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2026/03/18/2232/?replytocom=1533",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/2026/03/18/2232/",
+      "title": "| Çanakkale Cephesi",
+      "textLength": 6641,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/tum-yazarlar/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/tum-yazarlar/",
+      "title": "Tüm Yazarlar | Çanakkale Cephesi",
+      "textLength": 1678,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/uyelik/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/index.php/uyelik/",
+      "title": "Üyelik | Çanakkale Cephesi",
+      "textLength": 1348,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2026/07/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/2026/07/",
+      "title": "Temmuz, 2026 | Çanakkale Cephesi",
+      "textLength": 202,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/author/admin/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/author/admin/",
+      "title": "admin | Çanakkale Cephesi",
+      "textLength": 1299,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/arsiv/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/category/arsiv/",
+      "title": "Arşiv | Çanakkale Cephesi",
+      "textLength": 2960,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/birlikler/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/category/birlikler/",
+      "title": "Birlikler | Çanakkale Cephesi",
+      "textLength": 2007,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/biyografiler/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/category/biyografiler/",
+      "title": "Biyografiler | Çanakkale Cephesi",
+      "textLength": 1617,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/foto-galeri/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/category/foto-galeri/",
+      "title": "Foto Galeri | Çanakkale Cephesi",
+      "textLength": 1476,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/gazilerin-gozunden/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/category/gazilerin-gozunden/",
+      "title": "Gazilerin Gözünden | Çanakkale Cephesi",
+      "textLength": 1183,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/haber/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/category/haber/",
+      "title": "Haber | Çanakkale Cephesi",
+      "textLength": 2782,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/kose-yazilari/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/category/kose-yazilari/",
+      "title": "Köşe Yazıları | Çanakkale Cephesi",
+      "textLength": 728,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/kutuphane/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/category/kutuphane/",
+      "title": "Kütüphane | Çanakkale Cephesi",
+      "textLength": 2842,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/makaleler/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/category/makaleler/",
+      "title": "Makaleler | Çanakkale Cephesi",
+      "textLength": 2178,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/manset/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/category/manset/",
+      "title": "Manşet | Çanakkale Cephesi",
+      "textLength": 2386,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/muharebeler/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/category/muharebeler/",
+      "title": "Muharebeler | Çanakkale Cephesi",
+      "textLength": 2165,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/video-galeri/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/category/video-galeri/",
+      "title": "Video Galeri | Çanakkale Cephesi",
+      "textLength": 798,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/tag/1-alay/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/tag/1-alay/",
+      "title": "1. alay | Çanakkale Cephesi",
+      "textLength": 2048,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/tag/18-mart/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/tag/18-mart/",
+      "title": "18 Mart | Çanakkale Cephesi",
+      "textLength": 1014,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/tag/25-alay/",
+      "canonicalUrl": "https://www.canakkalecephesi.com/tag/25-alay/",
+      "title": "25. alay | Çanakkale Cephesi",
+      "textLength": 2038,
+      "status": "ham_tarama_tarihsel_dogrulama_yok"
+    }
+  ]
+}

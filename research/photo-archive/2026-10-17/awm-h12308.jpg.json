@@ -1,0 +1,33 @@
+{
+  "id": "H12308",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C327249",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/H12308/screen/6084685.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": null,
+  "maker": null,
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-h12308.jpg",
+  "sha256": "4d9ae07268e1c21ec63a7ea36fd63f749615528bc3b26d070992d70cc47c07dc",
+  "bytes": 114303,
+  "width": 640,
+  "height": 273,
+  "credit": "Australian War Memorial, H12308",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "dateLabelTr": "Ayrı tarih alanı yok; açıklamada Ağustos 1915",
+  "captionTr": "Suvla kıyısında nakliye gemilerinden indikten sonra toplanan Scottish Horse mensupları; kurum açıklamasında Ağustos 1915. Kesin çıkarma günü bu kayıttan çıkarılmadı.",
+  "evidenceText": "Suvla kıyısında nakliye gemilerinden indikten sonra toplanan Scottish Horse mensupları; kurum açıklamasında Ağustos 1915. Kesin çıkarma günü bu kayıttan çıkarılmadı.",
+  "altTr": "Deniz kıyısındaki yamaçta kalabalık asker topluluğu.",
+  "visualReviewDate": "2026-10-17",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "sitePreparedPath": "images/events/awm-h12308.jpg",
+  "localUses": [
+    "olaylar/anafartalar-suvla-cikarmasi/index.html",
+    "fotograf-arsivi/index.html"
+  ],
+  "descriptionDate": "August 1915"
+}

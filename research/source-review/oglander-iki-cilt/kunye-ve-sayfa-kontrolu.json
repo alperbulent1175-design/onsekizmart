@@ -1,0 +1,155 @@
+{
+  "reviewed": "2026-10-17",
+  "checks": [
+    {
+      "volume": "I",
+      "file": "ham/I/2015.210687.Military-Operations_text.pdf",
+      "pdfPage": 8,
+      "printedPage": null,
+      "type": "baslik",
+      "sourceUrl": "https://archive.org/download/in.ernet.dli.2015.210687/2015.210687.Military-Operations_text.pdf#page=8",
+      "evidenceText": "Başlık sayfası cilt I, Aspinall-Oglander, Becke, William Heinemann, Londra ve 1935 bilgisini veriyor.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_incelendi"
+    },
+    {
+      "volume": "I",
+      "file": "ham/I/2015.210687.Military-Operations_text.pdf",
+      "pdfPage": 9,
+      "printedPage": null,
+      "type": "baski",
+      "sourceUrl": "https://archive.org/download/in.ernet.dli.2015.210687/2015.210687.Military-Operations_text.pdf#page=9",
+      "evidenceText": "İlk yayım Nisan 1929; yeniden basım Nisan 1935 olarak görülüyor.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_incelendi"
+    },
+    {
+      "volume": "II-on-sayfalar",
+      "file": "ham/II-on-sayfalar/GallipoliV2Pt34.pdf",
+      "pdfPage": 6,
+      "printedPage": null,
+      "type": "baslik",
+      "sourceUrl": "https://archive.org/download/gallipoli-v-2-pt-01-p-003-008/GallipoliV2Pt34.pdf#page=6",
+      "evidenceText": "Başlık sayfasında cilt II, Mayıs 1915–tahliye kapsamı, Londra, William Heinemann ve 1932 görülüyor.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_incelendi"
+    },
+    {
+      "volume": "II-on-sayfalar",
+      "file": "ham/II-on-sayfalar/GallipoliV2Pt34.pdf",
+      "pdfPage": 9,
+      "printedPage": "vii",
+      "type": "onsoz",
+      "sourceUrl": "https://archive.org/download/gallipoli-v-2-pt-01-p-003-008/GallipoliV2Pt34.pdf#page=9",
+      "evidenceText": "Önsöz ikinci cildin anlatıyı son tahliyeye kadar sürdürdüğünü açıklıyor.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_incelendi"
+    },
+    {
+      "volume": "II-on-sayfalar",
+      "file": "ham/II-on-sayfalar/GallipoliV2Pt34.pdf",
+      "pdfPage": 11,
+      "printedPage": "ix",
+      "type": "icindekiler",
+      "sourceUrl": "https://archive.org/download/gallipoli-v-2-pt-01-p-003-008/GallipoliV2Pt34.pdf#page=11",
+      "evidenceText": "İçindekiler sayfasında 19 Mayıs, ateşkes, üçüncü Kirte ve Zığındere için bölüm girişleri var; bunlar olay anlatılarının doğrulanması değildir.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_incelendi"
+    },
+    {
+      "volume": "II",
+      "file": "ham/II/GallipoliV2Pt09p113-123_text.pdf",
+      "pdfPage": 11,
+      "printedPage": "123",
+      "type": "bolum_sonu",
+      "sourceUrl": "https://archive.org/download/gallipoli-v-2-pt-01-p-003-008/GallipoliV2Pt09p113-123_text.pdf#page=11",
+      "evidenceText": "Basılı 123, Haziran–Temmuz Anzak bölümünün sonunu gösteriyor.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_incelendi"
+    },
+    {
+      "volume": "II",
+      "file": "ham/II/GallipoliV2Pt10p127-147_text.pdf",
+      "pdfPage": 1,
+      "printedPage": "127",
+      "type": "bolum_basi",
+      "sourceUrl": "https://archive.org/download/gallipoli-v-2-pt-01-p-003-008/GallipoliV2Pt10p127-147_text.pdf#page=1",
+      "evidenceText": "Basılı 127, X. bölümün başlangıcıdır. Önceki dosyanın bitişi 123; 124–126 bu iki dosyada görünmüyor.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_incelendi"
+    },
+    {
+      "volume": "II",
+      "file": "ham/II/GallipoliV2Pt23p312-329_text.pdf",
+      "pdfPage": 19,
+      "printedPage": "329",
+      "type": "bolum_sonu",
+      "sourceUrl": "https://archive.org/download/gallipoli-v-2-pt-01-p-003-008/GallipoliV2Pt23p312-329_text.pdf#page=19",
+      "evidenceText": "Basılı 329 önceki bölümün bitişidir.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_incelendi"
+    },
+    {
+      "volume": "II",
+      "file": "ham/II/GallipoliV2Pt24p333-344_text.pdf",
+      "pdfPage": 1,
+      "printedPage": "333",
+      "type": "bolum_basi",
+      "sourceUrl": "https://archive.org/download/gallipoli-v-2-pt-01-p-003-008/GallipoliV2Pt24p333-344_text.pdf#page=1",
+      "evidenceText": "Basılı 333, XXIV. bölümün başlangıcıdır. 330–332 bu iki dosyada görünmüyor.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_incelendi"
+    },
+    {
+      "volume": "II",
+      "file": "ham/II/GallipoliV2Pt33p499-517_text.pdf",
+      "pdfPage": 18,
+      "printedPage": "517",
+      "type": "dizin_sonu",
+      "sourceUrl": "https://archive.org/download/gallipoli-v-2-pt-01-p-003-008/GallipoliV2Pt33p499-517_text.pdf#page=18",
+      "evidenceText": "Son PDF sayfasında basılı 517 ve kitabın bitiş işareti görülüyor. PDF sayfa sayısı ile basılı sayfa numarası aynı değildir.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_incelendi"
+    },
+    {
+      "volume": "I",
+      "file": "ham/I/2015.210687.Military-Operations_text.pdf",
+      "pdfPage": 16,
+      "printedPage": "xi",
+      "type": "icindekiler",
+      "sourceUrl": "https://archive.org/download/in.ernet.dli.2015.210687/2015.210687.Military-Operations_text.pdf#page=16",
+      "evidenceText": "İçindekilerin ilk sayfasında hazırlık ve Anzak çıkarma bölümlerinin başlangıç sayfaları görülüyor.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_incelendi"
+    },
+    {
+      "volume": "I",
+      "file": "ham/I/2015.210687.Military-Operations_text.pdf",
+      "pdfPage": 17,
+      "printedPage": "xii",
+      "type": "icindekiler",
+      "sourceUrl": "https://archive.org/download/in.ernet.dli.2015.210687/2015.210687.Military-Operations_text.pdf#page=17",
+      "evidenceText": "İçindekilerin ikinci sayfasında Helles, Kumkale ve Kirte bölümlerinin başlangıç sayfaları görülüyor.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_incelendi"
+    }
+  ],
+  "completeness": {
+    "volumeI": "Tarama ve metin katmanı alındı; bütün fiziksel sayfalar asıl nüshayla karşılaştırılmadı.",
+    "volumeII": "Ana anlatı parçaları, dizin ve 11 sayfalık ön bölüm alındı. Tam fiziksel nüsha doğrulanmadı.",
+    "unresolvedPrintedRanges": [
+      [
+        124,
+        126
+      ],
+      [
+        330,
+        332
+      ]
+    ],
+    "gapInterpretation": "Aralıklar bölüm geçişlerine rastlıyor. Boş/ayırıcı sayfa veya eksik içerik oldukları asıl nüshayla belirlenmedi.",
+    "frontMatter": "Ek dosyada başlık, önsöz ve içindekilerin bir sayfası var; ön bölümün tamamı değil.",
+    "mapsAppendicesII": "Tam ikinci cilt ek/harita takımı bu çalışma kapsamında edinilmedi."
+  },
+  "provenanceNote": "II. cilt yükleyeninin STOU kaynağına atfı var; üniversite arşivinin sayfası bu incelemede içerik göstermedi. Nüsha eşleştirmesi açık."
+}

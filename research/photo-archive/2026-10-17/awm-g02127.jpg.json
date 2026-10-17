@@ -1,0 +1,31 @@
+{
+  "id": "G02127",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C373647",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/G02127/screen/6037878.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "1919",
+  "maker": "Bean, Charles Edwin Woodrow (C E W)",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "localFile": "awm-g02127.jpg",
+  "sha256": "3c365b0546cccfef2d21761b0712c76fdcef2d0630db0547a2f90d57adb30c0d",
+  "bytes": 135645,
+  "width": 640,
+  "height": 386,
+  "credit": "Australian War Memorial, G02127",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "dateLabelTr": "1919; açıklamada Şubat–Mart 1919 araştırma gezisi",
+  "captionTr": "Zığındere’nin dik yamaçları; AWM kaydında Gully Ravine olarak tanımlanır. Fotoğraf 1919 tarihli Australian Historical Mission çalışmasındandır; 1915 muharebe anını göstermez.",
+  "altTr": "Derin bir derenin iki yanındaki dik, çıplak yamaçlar.",
+  "localUses": [
+    "olaylar/zigindere-muharebesi/index.html",
+    "fotograf-arsivi/index.html"
+  ],
+  "evidenceText": "Zığındere’nin dik yamaçları; AWM kaydında Gully Ravine olarak tanımlanır. Fotoğraf 1919 tarihli Australian Historical Mission çalışmasındandır; 1915 muharebe anını göstermez.",
+  "visualReviewDate": "2026-10-17",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "sitePreparedPath": "images/events/awm-g02127.jpg"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G01393",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C332888",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/G01393/screen/3955721.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "October 1915",
+  "maker": "Bean, Charles Edwin Woodrow (C E W)",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-g01393.jpg",
+  "sha256": "6af32d11ab1c7a46b1253523067c4a15c9e80e2a8c299e98f27bd5ae6b7e6be1",
+  "bytes": 147904,
+  "width": 639,
+  "height": 399,
+  "credit": "Australian War Memorial, G01393",
+  "published": false,
+  "coordinateEvidence": false,
+  "ship": "swiftsure",
+  "category": "gemiler",
+  "dateLabelTr": "Ekim 1915",
+  "captionTr": "HMS Swiftsure’un baş tarafındaki toplar ve bordası; kurum tarihi Ekim 1915, açıklamadaki yer Suvla Körfezi.",
+  "evidenceText": "HMS Swiftsure’un baş tarafındaki toplar ve bordası; kurum tarihi Ekim 1915, açıklamadaki yer Suvla Körfezi.",
+  "altTr": "Savaş gemisinin topları, bordası ve ön direğinin yandan görünüşü.",
+  "visualReviewDate": "2026-10-17",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "sitePreparedPath": "images/ships/awm-g01393.jpg",
+  "localUses": [
+    "donanma/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

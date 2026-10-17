@@ -16,6 +16,15 @@ test('fotoğraf arşivi dosyaları künye ve bütünlük kaydını korur', () =>
     const media = fs.existsSync(archived) ? archived : path.join(root, r.sitePreparedPath);
     assert.equal(hash(media), r.sha256, r.id);
     assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, r.localFile + '.json'), 'utf8')), r);
+    if (r.originalCopy) {
+      assert.match(r.originalCopy.downloadUrl, /^https:\/\//);
+      assert.match(r.originalCopy.sha256, /^[a-f0-9]{64}$/);
+      const original = path.join(dir, r.originalCopy.localFile);
+      if (fs.existsSync(original)) {
+        assert.equal(hash(original), r.originalCopy.sha256, `${r.id}: yüksek çözünürlüklü asıl kopya`);
+        assert.equal(fs.statSync(original).size, r.originalCopy.bytes, r.id);
+      }
+    }
   }
 });
 

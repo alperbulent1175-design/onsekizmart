@@ -1,0 +1,31 @@
+{
+  "id": "H16496",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/H16496",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/H16496/screen/6092279.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "1915",
+  "maker": null,
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "localFile": "awm-h16496.jpg",
+  "sha256": "dd8307e607c238a52c69cff4a6ee5e4fa3eed0865fe0b309625b6321a657bf8d",
+  "bytes": 167842,
+  "width": 639,
+  "height": 411,
+  "credit": "Australian War Memorial, H16496",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "dateLabelTr": "1915; kesin çekim günü belirtilmiyor",
+  "captionTr": "Helles Burnu’ndaki 1 numaralı tabyada hasarlı Osmanlı topu. AWM açıklaması bunun 26 Şubat 1915’te tahrip edilen toplardan biri olabileceğini belirtir; çekim tarihi yalnız 1915 olarak kayıtlıdır.",
+  "altTr": "Toprak mevzide büyük bir top namlusu, kundak ve geride duran birkaç kişi.",
+  "localUses": [
+    "olaylar/giris-tabyalari-ve-kisa-cikarmalar/index.html",
+    "fotograf-arsivi/index.html"
+  ],
+  "evidenceText": "Helles Burnu’ndaki 1 numaralı tabyada hasarlı Osmanlı topu. AWM açıklaması bunun 26 Şubat 1915’te tahrip edilen toplardan biri olabileceğini belirtir; çekim tarihi yalnız 1915 olarak kayıtlıdır.",
+  "visualReviewDate": "2026-10-17",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "sitePreparedPath": "images/events/awm-h16496.jpg"
+}

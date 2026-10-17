@@ -1,0 +1,33 @@
+{
+  "id": "H00209",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C44560",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/H00209/screen/4039860.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "May 1915",
+  "maker": null,
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-h00209.jpg",
+  "sha256": "80a0815a61231fea2479a0cdd2567ec4ea71e77245b5cc5f48e8acb5d1576eed",
+  "bytes": 181771,
+  "width": 640,
+  "height": 493,
+  "credit": "Australian War Memorial, H00209",
+  "published": false,
+  "coordinateEvidence": false,
+  "ship": "agamemnon",
+  "category": "gemiler",
+  "dateLabelTr": "Mayıs 1915",
+  "captionTr": "HMS Agamemnon, Helles Burnu açıklarında; kurum tarihi Mayıs 1915. 18 Mart muharebesinin çekimi olarak kullanılmaz.",
+  "evidenceText": "HMS Agamemnon, Helles Burnu açıklarında; kurum tarihi Mayıs 1915. 18 Mart muharebesinin çekimi olarak kullanılmaz.",
+  "altTr": "Denizde önden görülen savaş gemisi ve ön planda başka bir teknenin güvertesi.",
+  "visualReviewDate": "2026-10-17",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "sitePreparedPath": "images/ships/awm-h00209.jpg",
+  "localUses": [
+    "donanma/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

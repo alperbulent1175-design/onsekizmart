@@ -1,0 +1,29 @@
+{
+  "reviewed": "2026-10-17",
+  "photoCount": 44,
+  "localHttpAndHashPassed": 44,
+  "nodeTests": {
+    "passed": 86,
+    "failed": 0
+  },
+  "pythonTests": {
+    "passed": 273,
+    "failed": 0
+  },
+  "browserChecks": [
+    "1280 px: kategori sayımı ve gizlenen gruplar",
+    "390 px: olay filtresi, boş arama, kategori bağlantısıyla aramayı temizleme",
+    "320 px: sayfa ve iletişim kutusunda yatay taşma yok",
+    "Görsel yüklendi; filtreli 14 gemi fotoğrafı arasında ok tuşuyla gezinme",
+    "Escape sonrası odak açan fotoğraf bağlantısına döndü; kaydırma kilidi temizlendi",
+    "GODLEY araması: 1/37, doğru G01015 kaydı",
+    "Tarayıcı hata günlüğü boş",
+    "390 px: Merten tek görsel büyütücüsünde lisans ve tarih farkı görünür; görsel yüklü, yatay taşma yok",
+    "390 px: Zığındere görseli yüklü, 1919 bağlamı görünür",
+    "Merten araması 1/40 sonuç ve iki ilgili komutan bağlantısı; hata günlüğü boş",
+    "390 px: Vehip Paşa tek fotoğraf büyütücüsü 1280 piksel görseli yükledi; lisans bağlantıları ve tarih aralığı görünür, yatay taşma yok"
+  ],
+  "screenshotStatus": "Önceki kontrolde ekran görüntüsü servisi hata verdi. Bu devam grubunda DOM ve erişilebilirlik ağacıyla etkileşim denetlendi; yeni ekran görüntüsü alınmadı.",
+  "liveDeployed": false,
+  "photoBuildCheck": "0 güncel olmayan çıktı"
+}

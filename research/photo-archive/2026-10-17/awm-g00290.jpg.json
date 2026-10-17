@@ -1,0 +1,33 @@
+{
+  "id": "G00290",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/G00290",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/G00290/screen/4169238.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "1915",
+  "maker": "Brooks, Ernest",
+  "sourcePlace": "Ottoman Empire: Turkey, Dardanelles, Gallipoli, Cape Helles Area, Sedd-el-Bahr",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-g00290.jpg",
+  "sha256": "0a11d20965e880b203c0005fba2d4b60771fd7a3b38220a8dc2a2df95832146c",
+  "bytes": 180288,
+  "width": 640,
+  "height": 516,
+  "credit": "Australian War Memorial, G00290",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "komutanlar",
+  "captionTr": "Gouraud, Seddülbahir Kalesi dışında; AWM kaydı 1915 tarihini verir.",
+  "evidenceText": "Gouraud, Seddülbahir Kalesi dışında; AWM kaydı 1915 tarihini verir.",
+  "altTr": "Yıkıntılar arasında büyük bir topun yanında ayakta duran üniformalı bir subay.",
+  "dateLabelTr": "1915",
+  "visualReviewDate": "2026-10-17",
+  "sitePreparedPath": "images/commanders/awm-g00290.jpg",
+  "localUses": [
+    "komutanlar/henri-gouraud/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "G00952",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C57197",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/G00952/screen/3869824.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "July 1915",
+  "maker": "Bean, Charles Edwin Woodrow (C E W)",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "localFile": "awm-g00952.jpg",
+  "sha256": "6ec30c3dd50efdac505ed7c28a450efd59e9862d4f062fe956849fd094682a06",
+  "bytes": 155762,
+  "width": 640,
+  "height": 499,
+  "credit": "Australian War Memorial, G00952",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "dateLabelTr": "Temmuz 1915",
+  "captionTr": "Seddülbahir açıklarından Kumkale ve Troya ovasına bakış; AWM künyesinde Temmuz 1915. Bu mevki görüntüsü Nisan çıkarmasının anını göstermez.",
+  "altTr": "Denizde küçük tekneler ve römorkör; uzakta alçak kıyı çizgisi.",
+  "localUses": [
+    "olaylar/kumkale-oyalama-cikarmasi/index.html",
+    "fotograf-arsivi/index.html"
+  ],
+  "evidenceText": "Seddülbahir açıklarından Kumkale ve Troya ovasına bakış; AWM künyesinde Temmuz 1915. Bu mevki görüntüsü Nisan çıkarmasının anını göstermez.",
+  "visualReviewDate": "2026-10-17",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "sitePreparedPath": "images/events/awm-g00952.jpg"
+}

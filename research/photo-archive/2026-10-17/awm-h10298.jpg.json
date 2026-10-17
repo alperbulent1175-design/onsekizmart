@@ -1,0 +1,33 @@
+{
+  "id": "H10298",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/H10298",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/H10298/screen/4082747.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "1915",
+  "maker": null,
+  "sourcePlace": "Ottoman Empire: Turkey, Dardanelles, Gallipoli",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-h10298.jpg",
+  "sha256": "a21b1e67a9704863224ce6b3ce0ea81e4ef2bf478eeb1e6ba371f8534ebad0e4",
+  "bytes": 274416,
+  "width": 640,
+  "height": 497,
+  "credit": "Australian War Memorial, H10298",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "komutanlar",
+  "captionTr": "Hunter-Weston ve iki kurmay görevlisi, sığınağa uzanan siperde; AWM kaydı Gelibolu, 1915 olarak tanımlar.",
+  "evidenceText": "Hunter-Weston ve iki kurmay görevlisi, sığınağa uzanan siperde; AWM kaydı Gelibolu, 1915 olarak tanımlar.",
+  "altTr": "Siperin içinde, kum torbalı sığınak girişinin önünde duran üç üniformalı görevli.",
+  "dateLabelTr": "1915",
+  "visualReviewDate": "2026-10-17",
+  "sitePreparedPath": "images/commanders/awm-h10298.jpg",
+  "localUses": [
+    "komutanlar/aylmer-hunter-weston/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

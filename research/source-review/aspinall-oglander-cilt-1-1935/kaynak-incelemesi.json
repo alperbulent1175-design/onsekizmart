@@ -1,0 +1,56 @@
+{
+  "id": "IA-OG-I-1935",
+  "sharedUrl": "https://share.google/RrtZX1abKRx4uo6hk",
+  "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.210687",
+  "author": "C. F. Aspinall-Oglander",
+  "publisher": "William Heinemann Ltd",
+  "publicationPlace": "London",
+  "editionYear": 1935,
+  "originalPublicationYear": 1929,
+  "volume": "I",
+  "title": "Military Operations: Gallipoli. Vol. I: Inception of the Campaign to May 1915",
+  "titleTr": "Gelibolu Askerî Harekâtı — I. Cilt: Harekâtın Başlangıcından Mayıs 1915’e",
+  "type": "Resmî harp tarihi / sonradan derlenmiş anlatı",
+  "reviewed": "2026-10-17",
+  "status": "kunye_ve_kapsam_incelendi_olay_iddialari_acik",
+  "claims": [
+    {
+      "field": "kunye",
+      "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.210687/page/n7/mode/1up",
+      "evidenceText": "Başlık sayfasında derleyen C. F. Aspinall-Oglander, harita/kroki derleyeni A. F. Becke, cilt I, Londra, William Heinemann ve 1935 yazıyor.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_kontrol_edildi"
+    },
+    {
+      "field": "baski",
+      "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.210687/page/n8/mode/1up",
+      "evidenceText": "Baskı sayfası ilk yayımı Nisan 1929, yeni basımı Mayıs 1929, bu yeniden basımı Nisan 1935 olarak gösteriyor.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_kontrol_edildi"
+    },
+    {
+      "field": "kapsam",
+      "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.210687/page/n10/mode/1up",
+      "printedPage": "vi",
+      "evidenceText": "Önsöz bu cildin Osmanlı Devleti’nin savaşa girişinden Mayıs 1915 ortasına uzandığını, sonraki harekât ve tahliyenin ikinci ciltte ele alınacağını açıklıyor.",
+      "reviewed": "2026-10-17",
+      "status": "sayfa_goruntusu_kontrol_edildi"
+    },
+    {
+      "field": "hak_beyani",
+      "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.210687",
+      "evidenceText": "Internet Archive/Digital Library of India üstverisinde Out_of_copyright alanı var. Bu, platformun beyanı olarak kaydedildi; bağımsız tam metin çeviri/yayım hakkı sonucu çıkarılmadı.",
+      "reviewed": "2026-10-17",
+      "status": "platform_beyani_bagimsiz_hak_incelemesi_acik"
+    }
+  ],
+  "translationSample": {
+    "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.210687/page/n10/mode/1up",
+    "printedPage": "vi",
+    "textTr": "Bu cilt, Osmanlı Devleti’nin savaşa girişinden 1915 Mayısının ortasına kadar yaşanan gelişmeleri ele alır.",
+    "scope": "Kapsam cümlesinden kısa çeviri; tam eser çevirisi değildir.",
+    "reviewed": "2026-10-17"
+  },
+  "catalogImported": false,
+  "sitePublished": false
+}

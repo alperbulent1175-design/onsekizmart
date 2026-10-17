@@ -1,0 +1,830 @@
+{
+  "reviewed": "2026-10-17",
+  "photos": 44,
+  "counts": {
+    "komutanlar": {
+      "total": 25,
+      "withPhotos": 14
+    },
+    "olaylar": {
+      "total": 28,
+      "withPhotos": 20
+    }
+  },
+  "pages": [
+    {
+      "page": "komutanlar/albert-damade/index.html",
+      "title": "Albert d’Amade",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": [
+        {
+          "page": "komutanlar/albert-damade/index.html",
+          "sourceUrl": "https://museedesetoiles.fr/piece/general-de-division-damade-3/",
+          "status": "nesne_okundu_kullanim_izni_acik",
+          "evidenceText": "Müze nesne sayfası okundu ve Albert Gérard Léo d’Amade kimliğiyle fotoğraf tanımı bulundu. Açık yeniden kullanım lisansı belirlenemedi; fotoğraf indirilmedi.",
+          "reviewed": "2026-10-17",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/alexander-godley/index.html",
+      "title": "Alexander Godley",
+      "photoIds": [
+        "G01015"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "komutanlar/aylmer-hunter-weston/index.html",
+      "title": "Aylmer Hunter-Weston",
+      "photoIds": [
+        "H10298"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "komutanlar/cevat-bey-cobanli/index.html",
+      "title": "Cevat Bey (Çobanlı)",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": [
+        {
+          "page": "komutanlar/cevat-bey-cobanli/index.html",
+          "sourceUrl": "https://www.bild.bundesarchiv.de/dba/en/search/?query=136789080",
+          "status": "nesne_kunyesi_ve_lisans_incelemesi_acik",
+          "evidenceText": "Bundesarchiv sonuçları okundu: Bild 134-B2922 başlığı Merten, v. Usedom, Dschewad Pascha; yaklaşık 1916/1917. Nesneye özgü indirme/lisans incelemesi tamamlanmadı; 1915 portresi olarak eklenmedi.",
+          "reviewed": "2026-10-17",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/charles-monro/index.html",
+      "title": "Charles Monro",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": [
+        {
+          "page": "komutanlar/charles-monro/index.html",
+          "sourceUrl": "https://www.npg.org.uk/collections/search/portrait/mw64166/Sir-Charles-Carmichael-Monro-1st-Bt",
+          "status": "alternatif_gorsel_incelendi_kullanim_metinleri_acik",
+          "evidenceText": "IWM Collections hesabı Monro kimliğini ve No known copyright restrictions ifadesini veriyor. Flickr Commons kurum hak bağlantısı, IWM’nin ticari olmayan kullanım lisansına yönleniyor. İki metnin bu dosyaya uygulanışı tamamlanmadan siteye alınmadı.",
+          "reviewed": "2026-10-17",
+          "downloaded": true,
+          "alternativeSourceUrl": "https://www.flickr.com/photos/imperialwarmuseum/8613621888/",
+          "alternativeRightsStatementUrl": "https://www.iwm.org.uk/corporate/policies/non-commercial-licence",
+          "downloadedCandidate": {
+            "id": "IWM-Flickr-8613621888",
+            "institution": "Imperial War Museums / IWM Collections",
+            "sourceUrl": "https://www.flickr.com/photos/imperialwarmuseum/8613621888/",
+            "downloadUrl": "https://live.staticflickr.com/8251/8613621888_08417dbe3f_b.jpg",
+            "accessed": "2026-10-17",
+            "sourceDate": null,
+            "maker": null,
+            "rightsEvidence": "No known copyright restrictions",
+            "rightsStatus": "kurum_metinleri_arasinda_kullanim_incelemesi_acik",
+            "rightsUrl": "https://www.flickr.com/commons/usage/",
+            "rightsEvidenceUrl": "https://www.flickr.com/photos/imperialwarmuseum/8613621888/",
+            "imageChangesTr": "Dosya değiştirilmeden kullanıldı.",
+            "localFile": "iwm-monro-8613621888.jpg",
+            "sha256": "59e2b1a95a51a39748bffb2d6ca137bd4e46879ae62d15f09d1c344f3b304938",
+            "bytes": 135181,
+            "width": 763,
+            "height": 1024,
+            "credit": "IWM Collections, Flickr 8613621888",
+            "published": false,
+            "coordinateEvidence": false,
+            "verificationStatus": "gorsel_incelendi_kullanim_metinleri_karsilastirmasi_acik",
+            "visualReviewDate": "2026-10-17",
+            "dateLabelTr": "Flickr tarih alanı 14 Aralık 2005; tarihî portrenin özgün çekim günü belirlenmedi",
+            "evidenceText": "IWM Collections hesabı Monro kimliğini ve No known copyright restrictions ifadesini veriyor. Flickr Commons kurum hak bağlantısı, IWM’nin ticari olmayan kullanım lisansına yönleniyor. İki metnin bu dosyaya uygulanışı tamamlanmadan siteye alınmadı.",
+            "rightsStatementUrl": "https://www.iwm.org.uk/corporate/policies/non-commercial-licence"
+          }
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/emile-guepratte/index.html",
+      "title": "Émile Guépratte",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": [
+        {
+          "page": "komutanlar/emile-guepratte/index.html",
+          "sourceUrl": "https://gallica.bnf.fr/ark:/12148/btv1b6952375m",
+          "status": "aday_kunye_ve_kullanim_incelemesi_acik",
+          "evidenceText": "Commons üzerinden BnF/Agence Rol kayıt izi bulundu. Özgün künye, tarih ve yeniden kullanım koşulu birlikte tamamlanmadı.",
+          "reviewed": "2026-10-17",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/esat-pasa-bulkat/index.html",
+      "title": "Esat Paşa (Bülkat)",
+      "photoIds": [
+        "A05295",
+        "Bild 183-H29994"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "komutanlar/frederick-stopford/index.html",
+      "title": "Frederick Stopford",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": [
+        {
+          "page": "komutanlar/frederick-stopford/index.html",
+          "sourceUrl": "https://old-digitalcollections.nypl.org/items/510d47da-d69e-a3d9-e040-e00a18064a99",
+          "status": "hak_belirsiz",
+          "evidenceText": "Özgün NYPL hak metni kesin telif durumu belirleyemediğini söylüyor. Kamu malı olarak aktarılmadı.",
+          "reviewed": "2026-10-17",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/guido-von-usedom/index.html",
+      "title": "Guido von Usedom",
+      "photoIds": [
+        "Bild 183-R36163"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": [
+        {
+          "page": "komutanlar/guido-von-usedom/index.html",
+          "sourceUrl": "https://www.awm.gov.au/collection/C2082397",
+          "status": "alternatif_lisansli_gorsel_yerel_sayfaya_eklendi",
+          "evidenceText": "AWM P11504.008 kaydı okundu: 16 Ekim 1917, telif durumu orphaned work. Kamu malı değil; indirilmedi.",
+          "reviewed": "2026-10-17",
+          "downloaded": false,
+          "resolvedByPhotoId": "Bild 183-R36163",
+          "resolutionNote": "Bu AWM adayının hak belirsizliği sürüyor. Farklı Bundesarchiv görseli CC BY-SA 3.0 Almanya lisans kaydıyla ve tarih çelişkisi açıklanarak kullanıldı."
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/halil-sami-bey/index.html",
+      "title": "Halil Sami Bey",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": [
+        {
+          "page": "komutanlar/halil-sami-bey/index.html",
+          "sourceUrl": null,
+          "status": "kimligi_dogrulanmis_gorsel_bulunamadi",
+          "evidenceText": "Bu taramada kişi kimliği ve fotoğraf kullanım hakkı birlikte tamamlanmış nesne kaydı bulunamadı. İsim benzerliği taşıyan portre kullanılmadı.",
+          "reviewed": "2026-10-17",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/henri-gouraud/index.html",
+      "title": "Henri Gouraud",
+      "photoIds": [
+        "G00290"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "komutanlar/ian-hamilton/index.html",
+      "title": "Ian Hamilton",
+      "photoIds": [
+        "A03549"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "komutanlar/johannes-merten/index.html",
+      "title": "Johannes Merten",
+      "photoIds": [
+        "Bild 183-R36163"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": [
+        {
+          "page": "komutanlar/johannes-merten/index.html",
+          "sourceUrl": "https://www.awm.gov.au/collection/C2082397",
+          "status": "alternatif_lisansli_gorsel_yerel_sayfaya_eklendi",
+          "evidenceText": "AWM P11504.008 kaydı okundu: 16 Ekim 1917 grup fotoğrafı; hak durumu bilinmiyor. İndirilmedi.",
+          "reviewed": "2026-10-17",
+          "downloaded": false,
+          "resolvedByPhotoId": "Bild 183-R36163",
+          "resolutionNote": "Bu AWM adayının hak belirsizliği sürüyor. Farklı Bundesarchiv görseli CC BY-SA 3.0 Almanya lisans kaydıyla ve tarih çelişkisi açıklanarak kullanıldı."
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/john-de-robeck/index.html",
+      "title": "John de Robeck",
+      "photoIds": [
+        "G00528"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "komutanlar/liman-von-sanders/index.html",
+      "title": "Liman von Sanders",
+      "photoIds": [
+        "P01148.004",
+        "Bild 183-H29994"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "komutanlar/mustafa-kemal/index.html",
+      "title": "Mustafa Kemal",
+      "photoIds": [
+        "A05319"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "komutanlar/rafet-bey-bele/index.html",
+      "title": "Rafet Bey",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": [
+        {
+          "page": "komutanlar/rafet-bey-bele/index.html",
+          "sourceUrl": null,
+          "status": "kimligi_dogrulanmis_gorsel_bulunamadi",
+          "evidenceText": "Bu taramada kişi kimliği ve fotoğraf kullanım hakkı birlikte tamamlanmış nesne kaydı bulunamadı. İsim benzerliği taşıyan portre kullanılmadı.",
+          "reviewed": "2026-10-17",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/remzi-bey/index.html",
+      "title": "Remzi Bey",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": [
+        {
+          "page": "komutanlar/remzi-bey/index.html",
+          "sourceUrl": null,
+          "status": "kimligi_dogrulanmis_gorsel_bulunamadi",
+          "evidenceText": "Bu taramada kişi kimliği ve fotoğraf kullanım hakkı birlikte tamamlanmış nesne kaydı bulunamadı. İsim benzerliği taşıyan portre kullanılmadı.",
+          "reviewed": "2026-10-17",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/roger-keyes/index.html",
+      "title": "Roger Keyes",
+      "photoIds": [
+        "H10350"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "komutanlar/sackville-carden/index.html",
+      "title": "Sackville Carden",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": [
+        {
+          "page": "komutanlar/sackville-carden/index.html",
+          "sourceUrl": "https://www.loc.gov/item/2014698720/",
+          "status": "erisim_engeli",
+          "evidenceText": "LoC özgün kayıt isteği 403 verdi; Commons izi kurum kaydı incelemesinin yerine kullanılmadı.",
+          "reviewed": "2026-10-17",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/selahattin-adil-bey/index.html",
+      "title": "Selahattin Adil Bey",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": [
+        {
+          "page": "komutanlar/selahattin-adil-bey/index.html",
+          "sourceUrl": "https://arsiv.ttk.gov.tr/details?id=9121&materialType=F&query=Mill",
+          "status": "kullanim_izni_acik",
+          "evidenceText": "TTK kaydı okundu: FT/Uİ 123 23, İstanbul’un tahliyesi bağlamında beş fotoğraf. Açık yeniden kullanım lisansı bulunmadı; 1915 çekimi sayılmaz.",
+          "reviewed": "2026-10-17",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/vehip-pasa-kaci/index.html",
+      "title": "Vehip Paşa (Kaçı)",
+      "photoIds": [
+        "Bild 183-H29994"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": [
+        {
+          "page": "komutanlar/vehip-pasa-kaci/index.html",
+          "sourceUrl": "https://archives.saltresearch.org/handle/123456789/28753",
+          "status": "alternatif_lisansli_gorsel_yerel_sayfaya_eklendi",
+          "evidenceText": "SALT arama izi Vehip Paşa İstanbul’da kaydını veriyor; özgün kayıt isteği 403 verdi. Siteye dosya eklenmedi.",
+          "reviewed": "2026-10-17",
+          "downloaded": false,
+          "resolvedByPhotoId": "Bild 183-H29994",
+          "resolutionNote": "SALT adayının erişim/kullanım incelemesi açık kalırken, Bundesarchiv’in numaralı açıklamasıyla Vehip kimliği tanımlanan farklı görsel CC BY-SA 3.0 Almanya lisansıyla eklendi."
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/weber-pasa/index.html",
+      "title": "Weber Paşa",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": [
+        {
+          "page": "komutanlar/weber-pasa/index.html",
+          "sourceUrl": "https://acikerisim.comu.edu.tr/bitstreams/38116fd1-f1b3-48e1-ac88-533ec1781e05/download",
+          "status": "portre_kokeni_ve_kullanim_incelemesi_acik",
+          "evidenceText": "ÇOMÜ makalesinin arama sonucunda portre izi var; asıl fotoğrafın kaynağı ve kullanım hakkı tamamlanmadı. PDF görseli sitede kullanılmadı.",
+          "reviewed": "2026-10-17",
+          "downloaded": false
+        }
+      ]
+    },
+    {
+      "page": "komutanlar/william-birdwood/index.html",
+      "title": "William Birdwood",
+      "photoIds": [
+        "G00761"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "komutanlar/william-bridges/index.html",
+      "title": "William Bridges",
+      "photoIds": [
+        "A02867"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "title": "18 Mart Deniz Muharebesi",
+      "photoIds": [
+        "P00369.014",
+        "A02360"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/anafartalar-suvla-cikarmasi/index.html",
+      "title": "Anafartalar / Suvla çıkarması",
+      "photoIds": [
+        "H12308"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/anafartalar-tahliyesi/index.html",
+      "title": "Anafartalar tahliyesi",
+      "photoIds": [
+        "P11165.024.001",
+        "H10388"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/ariburnu-cikarmasi/index.html",
+      "title": "Arıburnu çıkarması",
+      "photoIds": [
+        "A02781",
+        "C01619"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "title": "Arıburnu genel taarruzu",
+      "photoIds": [
+        "P06127.001"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/ariburnu-gomme-ateskesi/index.html",
+      "title": "Arıburnu gömme ateşkesi",
+      "photoIds": [
+        "A05615"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/ariburnu-tahliyesi/index.html",
+      "title": "Arıburnu tahliyesi",
+      "photoIds": [
+        "H00333"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/barbaros-hayreddin-batar/index.html",
+      "title": "Barbaros Hayreddin batar",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/birinci-anafartalar-muharebesi/index.html",
+      "title": "Birinci Anafartalar Muharebesi",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/birinci-kirte-muharebesi/index.html",
+      "title": "Birinci Kirte Muharebesi",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/conkbayiri-muharebesi/index.html",
+      "title": "Conkbayırı Muharebesi",
+      "photoIds": [
+        "G01143"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/dis-tabyalarin-bombardimani/index.html",
+      "title": "Dış tabyaların bombardımanı",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/e15-bogazda-karaya-oturur/index.html",
+      "title": "E15 Boğaz’da karaya oturur",
+      "photoIds": [
+        "P04411.002"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/giris-tabyalari-ve-kisa-cikarmalar/index.html",
+      "title": "Giriş tabyaları ve kısa çıkarmalar",
+      "photoIds": [
+        "H16496"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/goliath-batar/index.html",
+      "title": "Goliath batar",
+      "photoIds": [
+        "G00198"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/ikinci-anafartalar-muharebesi/index.html",
+      "title": "İkinci Anafartalar Muharebesi",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/ikinci-kirte-muharebesi/index.html",
+      "title": "İkinci Kirte Muharebesi",
+      "photoIds": [
+        "G00965C"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/kanlisirt-muharebesi/index.html",
+      "title": "Kanlısırt Muharebesi",
+      "photoIds": [
+        "A02599",
+        "A03228"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/kerevizdere-muharebesi/index.html",
+      "title": "Kerevizdere Muharebesi",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/kumkale-oyalama-cikarmasi/index.html",
+      "title": "Kumkale oyalama çıkarması",
+      "photoIds": [
+        "G00952"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/majestic-batar/index.html",
+      "title": "Majestic batar",
+      "photoIds": [
+        "G00198"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+      "title": "Nusret, Erenköy hattını döker",
+      "photoIds": [
+        "P04411.003"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/saros-gosterisi/index.html",
+      "title": "Saros gösterişi",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/seddulbahir-cikarmasi/index.html",
+      "title": "Seddülbahir çıkarması",
+      "photoIds": [
+        "G00229"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/seddulbahir-tahliyesi/index.html",
+      "title": "Seddülbahir tahliyesi",
+      "photoIds": [
+        "H10391"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/triumph-batar/index.html",
+      "title": "Triumph batar",
+      "photoIds": [
+        "G00755"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/ucuncu-kirte-muharebesi/index.html",
+      "title": "Üçüncü Kirte Muharebesi",
+      "photoIds": [],
+      "status": "uygun_gorsel_bekliyor",
+      "candidates": []
+    },
+    {
+      "page": "olaylar/zigindere-muharebesi/index.html",
+      "title": "Zığındere Muharebesi",
+      "photoIds": [
+        "G02127"
+      ],
+      "status": "yerel_gorsel_var",
+      "candidates": []
+    }
+  ],
+  "navyCards": [
+    {
+      "id": "nusret",
+      "title": "Nusret",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "barbaros",
+      "title": "Barbaros Hayreddin",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "turgut-reis",
+      "title": "Turgut Reis",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "mesudiye",
+      "title": "Mesudiye",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "muavenet",
+      "title": "Muavenet-i Milliye",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "queen-elizabeth",
+      "title": "HMS Queen Elizabeth",
+      "photoIds": [
+        "C01619"
+      ],
+      "status": "gorsel_kaydi_var"
+    },
+    {
+      "id": "inflexible",
+      "title": "HMS Inflexible",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "lord-nelson",
+      "title": "HMS Lord Nelson",
+      "photoIds": [
+        "G00243"
+      ],
+      "status": "gorsel_kaydi_var"
+    },
+    {
+      "id": "agamemnon",
+      "title": "HMS Agamemnon",
+      "photoIds": [
+        "H00209"
+      ],
+      "status": "gorsel_kaydi_var"
+    },
+    {
+      "id": "irresistible",
+      "title": "HMS Irresistible",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "ocean",
+      "title": "HMS Ocean",
+      "photoIds": [
+        "A02360"
+      ],
+      "status": "gorsel_kaydi_var"
+    },
+    {
+      "id": "albion",
+      "title": "HMS Albion",
+      "photoIds": [
+        "G00992"
+      ],
+      "status": "gorsel_kaydi_var"
+    },
+    {
+      "id": "vengeance",
+      "title": "HMS Vengeance",
+      "photoIds": [
+        "P01236.019"
+      ],
+      "status": "gorsel_kaydi_var"
+    },
+    {
+      "id": "canopus",
+      "title": "HMS Canopus",
+      "photoIds": [
+        "G00229"
+      ],
+      "status": "gorsel_kaydi_var"
+    },
+    {
+      "id": "swiftsure",
+      "title": "HMS Swiftsure",
+      "photoIds": [
+        "G01393"
+      ],
+      "status": "gorsel_kaydi_var"
+    },
+    {
+      "id": "triumph-18",
+      "title": "HMS Triumph",
+      "photoIds": [
+        "G00755"
+      ],
+      "status": "gorsel_kaydi_var"
+    },
+    {
+      "id": "majestic-18",
+      "title": "HMS Majestic",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "prince-george",
+      "title": "HMS Prince George",
+      "photoIds": [
+        "H00219"
+      ],
+      "status": "gorsel_kaydi_var"
+    },
+    {
+      "id": "cornwallis",
+      "title": "HMS Cornwallis",
+      "photoIds": [
+        "H10388"
+      ],
+      "status": "gorsel_kaydi_var"
+    },
+    {
+      "id": "suffren",
+      "title": "Suffren",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "bouvet",
+      "title": "Bouvet",
+      "photoIds": [
+        "P00369.014"
+      ],
+      "status": "gorsel_kaydi_var"
+    },
+    {
+      "id": "gaulois",
+      "title": "Gaulois",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "charlemagne",
+      "title": "Charlemagne",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "kruvazorler",
+      "title": "Korumalı kruvazörler",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "muhripler",
+      "title": "Muhripler",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "tarama",
+      "title": "Mayın tarama",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "ark-royal",
+      "title": "HMS Ark Royal",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "goliath",
+      "title": "HMS Goliath",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    },
+    {
+      "id": "triumph-sonra",
+      "title": "HMS Triumph",
+      "photoIds": [
+        "G00755"
+      ],
+      "status": "gorsel_kaydi_var"
+    },
+    {
+      "id": "majestic-sonra",
+      "title": "HMS Majestic",
+      "photoIds": [],
+      "status": "gemiyi_teshis_eden_gorsel_bekliyor"
+    }
+  ]
+}

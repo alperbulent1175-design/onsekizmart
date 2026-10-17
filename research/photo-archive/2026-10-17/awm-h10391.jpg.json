@@ -1,0 +1,32 @@
+{
+  "id": "H10391",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C319422",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/H10391/screen/7924746.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "January 1916",
+  "maker": null,
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-h10391.jpg",
+  "sha256": "08ef9dfeb64bec152d6a0ff1113d6bb843ecfb005be5cdf415ee5467e7e9ac8a",
+  "bytes": 362403,
+  "width": 640,
+  "height": 498,
+  "credit": "Australian War Memorial, H10391",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "dateLabelTr": "Ocak 1916",
+  "captionTr": "W Plajı’nda tahliye hazırlıkları yapan Britanya birlikleri; kurum tarihi Ocak 1916. Künye kesin çekim günü belirtmez.",
+  "evidenceText": "W Plajı’nda tahliye hazırlıkları yapan Britanya birlikleri; kurum tarihi Ocak 1916. Künye kesin çekim günü belirtmez.",
+  "altTr": "Kıyıda malzeme yığınları, iskeleler, çadırlar ve küçük insan figürleri.",
+  "visualReviewDate": "2026-10-17",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "sitePreparedPath": "images/events/awm-h10391.jpg",
+  "localUses": [
+    "olaylar/seddulbahir-tahliyesi/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

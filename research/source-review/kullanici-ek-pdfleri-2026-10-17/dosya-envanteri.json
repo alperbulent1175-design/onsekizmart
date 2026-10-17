@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "sourceFile": "C:\\Users\\crawi\\Desktop\\onsekizmart-atlas\\.codex-remote-attachments\\01a145a6-78ab-7811-8335-98fbe597d278\\b8d1ec2b-1128-4444-a312-5b324137bf15\\1-Ersin-Burak-C-anakkale-Gec-ilmez-1.pdf",
+    "sha256": "e892ec681c479317e291f600a24e3ad7e4af3426e6abada3399236e06e25692d",
+    "pdfPages": 16,
+    "textMethod": "windows_tr_ocr",
+    "sourceUrl": null,
+    "sourceLocalUri": "file:///C:/Users/crawi/Desktop/onsekizmart-atlas/.codex-remote-attachments/01a145a6-78ab-7811-8335-98fbe597d278/b8d1ec2b-1128-4444-a312-5b324137bf15/1-Ersin-Burak-C-anakkale-Gec-ilmez-1.pdf",
+    "reviewDate": "2026-10-17",
+    "status": "yerel_nusha_incelendi_dis_kaynak_dogrulamasi_yok",
+    "allPageImagesReviewed": true,
+    "historicalClaimsPromoted": 0
+  },
+  {
+    "id": 2,
+    "sourceFile": "C:\\Users\\crawi\\Desktop\\onsekizmart-atlas\\.codex-remote-attachments\\01a145a6-78ab-7811-8335-98fbe597d278\\b8d1ec2b-1128-4444-a312-5b324137bf15\\2-Mayıs_4.sayı.pdf",
+    "sha256": "f91968033023626d0d50d3aee33ad3ccfa63296f1cbcd4ea8f41e00b9ed35a4d",
+    "pdfPages": 13,
+    "textMethod": "pdf_text_adjacent_duplicate_lines_removed",
+    "sourceUrl": null,
+    "sourceLocalUri": "file:///C:/Users/crawi/Desktop/onsekizmart-atlas/.codex-remote-attachments/01a145a6-78ab-7811-8335-98fbe597d278/b8d1ec2b-1128-4444-a312-5b324137bf15/2-May%C4%B1s_4.say%C4%B1.pdf",
+    "reviewDate": "2026-10-17",
+    "status": "yerel_nusha_incelendi_dis_kaynak_dogrulamasi_yok",
+    "allPageImagesReviewed": true,
+    "historicalClaimsPromoted": 0
+  }
+]

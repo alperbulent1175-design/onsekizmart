@@ -1,0 +1,22 @@
+{
+  "reviewDate": "2026-10-17",
+  "page": "olaylar/ariburnu-gomme-ateskesi/index.html",
+  "claims": [
+    {
+      "sourceUrl": "https://www.awm.gov.au/collection/A05615",
+      "evidenceText": "Date made: 22 May 1915; Captain Sam Butler, holding the white truce flag, leads the blindfolded Turkish envoy Major Kemal Ohri",
+      "status": "kurum_nesne_kaydi_tarih_ve_aciklamasi_karsilastirildi"
+    },
+    {
+      "sourceUrl": "https://www.awm.gov.au/collection/H03955",
+      "evidenceText": "Date made: 24 May 1915; Australian burial parties burying Australian and Turkish dead during the armistice",
+      "status": "kurum_nesne_kaydi_tarih_ve_aciklamasi_karsilastirildi"
+    }
+  ],
+  "limits": [
+    "Kesin saat ve protokol şartları eklenmedi",
+    "Koordinat değiştirilmedi",
+    "H03955 görüntüsü galeriye eklenmedi"
+  ],
+  "published": false
+}

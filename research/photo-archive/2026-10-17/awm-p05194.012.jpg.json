@@ -1,0 +1,33 @@
+{
+  "id": "P05194.012",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C1142865",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/P05194.012/screen/3788857.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "1915",
+  "maker": "Button, Percy Raymond",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-p05194.012.jpg",
+  "sha256": "f0116326c81b6c8da0ada67941a6b4e98b0ac5e75a7c3b56f94ffce3d09ce672",
+  "bytes": 167180,
+  "width": 640,
+  "height": 482,
+  "credit": "Australian War Memorial, P05194.012",
+  "published": false,
+  "coordinateEvidence": false,
+  "ship": "dartmouth",
+  "category": "gemiler",
+  "dateLabelTr": "1915",
+  "captionTr": "HMS Dartmouth’un kamuflajlı görünümü; kurum açıklaması Çanakkale Boğazı bağlamını, tarih alanı 1915 yılını verir.",
+  "evidenceText": "HMS Dartmouth’un kamuflajlı görünümü; kurum açıklaması Çanakkale Boğazı bağlamını, tarih alanı 1915 yılını verir.",
+  "altTr": "Denizde yandan görülen, bordasında kamuflaj deseni bulunan savaş gemisi.",
+  "visualReviewDate": "2026-10-17",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "sitePreparedPath": "images/ships/awm-p05194.012.jpg",
+  "localUses": [
+    "donanma/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

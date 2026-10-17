@@ -1,0 +1,43 @@
+[
+  {
+    "id": "H03954",
+    "sourceUrl": "https://www.awm.gov.au/collection/H03954",
+    "reviewDate": "2026-10-17",
+    "evidenceText": "TURKISH AND AUSTRALIAN SOLDIERS RECOVER AND BURY THE BODIES OF THEIR DEAD COMRADES",
+    "status": "kitap_gorseli_kurum_nesnesiyle_eslesti",
+    "sourceDateFromTitle": "1915-05-24",
+    "maker": null,
+    "makerStatus": "kitap_atfi_var_kurum_kunyesinde_teyit_yok",
+    "rightsEvidence": "Copyright expired - public domain",
+    "siteIntegrated": false,
+    "files": [
+      {
+        "path": "ham\\h03954-4096269.jpg",
+        "sha256": "a392ccb6b51de441a3d013c1b7dedd82b195741e0ed2dc1e0b896ea8bbac75f5"
+      },
+      {
+        "path": "ham\\h03954-5999733.jpg",
+        "sha256": "b8ed88821c2ff0b197677051e5e736e554cf09a15710f955766fbb9b68c29cf7"
+      },
+      {
+        "path": "ham\\h03954.html",
+        "sha256": "fa1ee27556de926fd2c355bf05da3958981156053cef17be585bd7092ac63d5a"
+      }
+    ]
+  },
+  {
+    "id": "A05615",
+    "sourceUrl": "https://www.awm.gov.au/collection/A05615",
+    "reviewDate": "2026-10-17",
+    "evidenceText": "Maker: Ryan, Charles Snodgrass; Date made: 22 May 1915",
+    "status": "mevcut_kunye_kurumla_yeniden_karsilastirildi"
+  },
+  {
+    "id": "H03955",
+    "sourceUrl": "https://www.awm.gov.au/collection/H03955",
+    "reviewDate": "2026-10-17",
+    "evidenceText": "Date made: 24 May 1915; Copyright expired - public domain",
+    "status": "kurum_kaydi_incelendi_gorsel_incelemesi_bekliyor",
+    "siteIntegrated": false
+  }
+]

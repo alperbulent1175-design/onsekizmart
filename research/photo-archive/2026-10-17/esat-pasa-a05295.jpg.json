@@ -1,0 +1,32 @@
+{
+  "id": "A05295",
+  "person": "esat-pasa-bulkat",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/A05295",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/A05295/screen/4101799.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": null,
+  "maker": null,
+  "captionTr": "Esat Paşa ve kurmayları — AWM açıklamasında Gelibolu, 1915 olarak tanımlanan toplantı. Kesin çekim günü belirtilmiyor.",
+  "evidenceText": "Kurum açıklaması Esat Paşa’nın kurmaylarıyla bir toplantısını Gelibolu, 1915 bağlamında tanımlar. Ayrı çekim tarihi alanı yoktur; açıklamadaki yıl bağımsız bir gün/ay kaydı sayılmaz.",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "esat-pasa-a05295.jpg",
+  "sha256": "a85ade4a4b9073c466ba64095fb4985bdbfdf1730cd9788f671d2aaaea3ae729",
+  "bytes": 195260,
+  "width": 640,
+  "height": 498,
+  "credit": "Australian War Memorial, A05295",
+  "altTr": "Açık havada, masada oturan bir subayın çevresinde ayakta duran üniformalı görevliler.",
+  "published": false,
+  "coordinateEvidence": false,
+  "descriptionDate": "1915",
+  "visualReviewDate": "2026-10-17",
+  "sitePreparedPath": "images/commanders/esat-pasa-a05295.jpg",
+  "localUses": [
+    "komutanlar/esat-pasa-bulkat/index.html",
+    "fotograf-arsivi/index.html"
+  ],
+  "dateLabelTr": "Ayrı tarih alanı yok; açıklamada 1915"
+}

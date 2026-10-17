@@ -1,0 +1,33 @@
+{
+  "id": "G00992",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C371462",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/G00992/screen/4129852.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "May 1915",
+  "maker": "Bean, Charles Edwin Woodrow (C E W)",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-g00992.jpg",
+  "sha256": "e21ad3515970c8a10c009fb2f7a0e6b0c825f4abd55a1cbb518a53b8aa676dad",
+  "bytes": 181193,
+  "width": 640,
+  "height": 487,
+  "credit": "Australian War Memorial, G00992",
+  "published": false,
+  "coordinateEvidence": false,
+  "ship": "albion",
+  "category": "gemiler",
+  "dateLabelTr": "Mayıs 1915",
+  "captionTr": "Kurum kaydının HMS Albion olarak tanımladığı gemi, Kabatepe açıklarında; Mayıs 1915. Künyedeki karaya oturma anlatısı kesin çekim günü sağlamaz.",
+  "evidenceText": "Kurum kaydının HMS Albion olarak tanımladığı gemi, Kabatepe açıklarında; Mayıs 1915. Künyedeki karaya oturma anlatısı kesin çekim günü sağlamaz.",
+  "altTr": "Kıyıdan bakışta uzakta, dumanlar arasında görülen bir gemi.",
+  "visualReviewDate": "2026-10-17",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "sitePreparedPath": "images/ships/awm-g00992.jpg",
+  "localUses": [
+    "donanma/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

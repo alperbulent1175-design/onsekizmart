@@ -1,0 +1,31 @@
+{
+  "id": "H00333",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C39240",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/H00333/screen/4120335.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "c December 1915",
+  "maker": "Unknown",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "localFile": "awm-h00333.jpg",
+  "sha256": "b3252fd53ef0d5b71e0df54a379f8d137ae12f7756f28f4f4b9d6b0aafbb2e7d",
+  "bytes": 176230,
+  "width": 640,
+  "height": 434,
+  "credit": "Australian War Memorial, H00333",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "dateLabelTr": "Yaklaşık Aralık 1915",
+  "captionTr": "North Beach’ten Sfenks olarak adlandırılan araziye bakış; kurum künyesinde yaklaşık Aralık 1915. AWM açıklaması görüntüyü Anzak bölgesinin tahliyesiyle ilişkilendirir; kesin çekim gecesi belirtilmez.",
+  "altTr": "Kıyıdaki patikanın yanında çadırlar ve arkada dik yamaçlar.",
+  "localUses": [
+    "olaylar/ariburnu-tahliyesi/index.html",
+    "fotograf-arsivi/index.html"
+  ],
+  "evidenceText": "North Beach’ten Sfenks olarak adlandırılan araziye bakış; kurum künyesinde yaklaşık Aralık 1915. AWM açıklaması görüntüyü Anzak bölgesinin tahliyesiyle ilişkilendirir; kesin çekim gecesi belirtilmez.",
+  "visualReviewDate": "2026-10-17",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "sitePreparedPath": "images/events/awm-h00333.jpg"
+}

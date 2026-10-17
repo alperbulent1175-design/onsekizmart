@@ -1,0 +1,33 @@
+{
+  "id": "P11165.024.001",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C207108",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/P11165.024.001/screen/6015485.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "December 1915",
+  "maker": null,
+  "sourcePlace": "Ottoman Empire: Turkey, Dardanelles, Gallipoli",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-p11165.024.001.jpg",
+  "sha256": "d15893fc78a8a54394c2e07b1b4e4667336394438d2407db83ce39c476fdb23b",
+  "bytes": 218251,
+  "width": 639,
+  "height": 481,
+  "credit": "Australian War Memorial, P11165.024.001",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "captionTr": "Suvla’da tahliyenin ilk aşamasında iskeleden ayrılan askerler; albüm açıklaması Aralık 1915 der. Kesin gün ve son tahliye gecesi olduğu iddia edilmez.",
+  "evidenceText": "Suvla’da tahliyenin ilk aşamasında iskeleden ayrılan askerler; albüm açıklaması Aralık 1915 der. Kesin gün ve son tahliye gecesi olduğu iddia edilmez.",
+  "altTr": "Taş bir iskelenin ucunda kıyıdan ayrılmaya hazırlanan, insanlarla dolu bir tekne.",
+  "dateLabelTr": "Aralık 1915",
+  "visualReviewDate": "2026-10-17",
+  "sitePreparedPath": "images/events/awm-p11165.024.001.jpg",
+  "localUses": [
+    "olaylar/anafartalar-tahliyesi/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

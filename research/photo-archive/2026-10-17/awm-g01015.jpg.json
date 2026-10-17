@@ -1,0 +1,32 @@
+{
+  "id": "G01015",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C57450",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/G01015/screen/4133898.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "May 1915",
+  "maker": "Bean, Charles Edwin Woodrow (C E W)",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-g01015.jpg",
+  "sha256": "cdcf3900ae5f0af7ebfd4baa64d592cbc19f10d990fa97d546b45f4b3b6b118e",
+  "bytes": 162995,
+  "width": 639,
+  "height": 388,
+  "credit": "Australian War Memorial, G01015",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "komutanlar",
+  "dateLabelTr": "Mayıs 1915",
+  "captionTr": "Quinn’s Post önündeki subaylar; kurum kaydı sağdaki kişiyi Alexander Godley olarak tanımlar. Mayıs 1915; fotoğraf Charles E. W. Bean.",
+  "evidenceText": "Quinn’s Post önündeki subaylar; kurum kaydı sağdaki kişiyi Alexander Godley olarak tanımlar. Mayıs 1915; fotoğraf Charles E. W. Bean.",
+  "altTr": "Kayalık yamaçtaki mevzinin önünde bir araya gelmiş üniformalı subaylar.",
+  "visualReviewDate": "2026-10-17",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "sitePreparedPath": "images/commanders/awm-g01015.jpg",
+  "localUses": [
+    "komutanlar/alexander-godley/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

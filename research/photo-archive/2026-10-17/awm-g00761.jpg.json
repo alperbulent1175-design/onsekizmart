@@ -1,0 +1,33 @@
+{
+  "id": "G00761",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/G00761",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/G00761/screen/6184034.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "1915",
+  "maker": "Brooks, Ernest",
+  "sourcePlace": null,
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-g00761.jpg",
+  "sha256": "f5369f85d8d808d5d1f19adc092887a8f14a5fe952d3f7542d06904babbd297b",
+  "bytes": 244960,
+  "width": 640,
+  "height": 542,
+  "credit": "Australian War Memorial, G00761",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "komutanlar",
+  "captionTr": "Birdwood, Anzak’taki sığınağının önünde; AWM kaydı 1915 tarihini verir.",
+  "evidenceText": "Birdwood, Anzak’taki sığınağının önünde; AWM kaydı 1915 tarihini verir.",
+  "altTr": "Kum torbalarıyla çevrili bir sığınağın önünde ayakta duran üniformalı bir subay.",
+  "dateLabelTr": "1915",
+  "visualReviewDate": "2026-10-17",
+  "sitePreparedPath": "images/commanders/awm-g00761.jpg",
+  "localUses": [
+    "komutanlar/william-birdwood/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

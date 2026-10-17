@@ -1,0 +1,33 @@
+{
+  "id": "A02599",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/A02599",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/A02599/screen/4168019.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "c 1915",
+  "maker": "Unknown",
+  "sourcePlace": "Ottoman Empire: Turkey, Marmara, Chanak, Gallipoli Peninsula",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-a02599.jpg",
+  "sha256": "bcb9616675f6b620368a2df4f7fe39f216d2c1233022fe48fa311fecd1f190f2",
+  "bytes": 178993,
+  "width": 431,
+  "height": 654,
+  "credit": "Australian War Memorial, A02599",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "captionTr": "Kanlısırt’ta korunaklı bir siperde Osmanlı askerleri; AWM künyesi yaklaşık 1915 der. Belirli bir taarruz anı olarak sunulmaz.",
+  "evidenceText": "Kanlısırt’ta korunaklı bir siperde Osmanlı askerleri; AWM künyesi yaklaşık 1915 der. Belirli bir taarruz anı olarak sunulmaz.",
+  "altTr": "Üstü kapalı siper girişinde bir araya gelmiş silahlı ve üniformalı askerler.",
+  "dateLabelTr": "Yaklaşık 1915",
+  "visualReviewDate": "2026-10-17",
+  "sitePreparedPath": "images/events/awm-a02599.jpg",
+  "localUses": [
+    "olaylar/kanlisirt-muharebesi/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

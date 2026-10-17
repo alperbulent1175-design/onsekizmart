@@ -1,0 +1,33 @@
+{
+  "id": "H00219",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C39054",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/H00219/screen/4278888.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "1915",
+  "maker": null,
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-h00219.jpg",
+  "sha256": "b542609ac48aec3c74cdfd56e76517e3c79dde55825acefec128b697a1aa0552",
+  "bytes": 135752,
+  "width": 640,
+  "height": 410,
+  "credit": "Australian War Memorial, H00219",
+  "published": false,
+  "coordinateEvidence": false,
+  "ship": "prince-george",
+  "category": "gemiler",
+  "dateLabelTr": "1915",
+  "captionTr": "HMS Prince George, Anzak Koyu açıklarında; kurum tarihi 1915. Kesin çekim günü belirtilmez.",
+  "evidenceText": "HMS Prince George, Anzak Koyu açıklarında; kurum tarihi 1915. Kesin çekim günü belirtilmez.",
+  "altTr": "Denizde demirli iki direkli savaş gemisinin yandan görünüşü.",
+  "visualReviewDate": "2026-10-17",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "sitePreparedPath": "images/ships/awm-h00219.jpg",
+  "localUses": [
+    "donanma/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

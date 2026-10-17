@@ -1,0 +1,131 @@
+{
+  "reviewDate": "2026-10-17",
+  "attempted": 20,
+  "saved": 20,
+  "uniqueNormalizedUrls": 551,
+  "rawRecords": 558,
+  "classification": "dizin_ve_kategori_kayitlari",
+  "historicalClaimsVerified": 0,
+  "records": [
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2026/",
+      "title": "2026 | Çanakkale Cephesi",
+      "fetchedAtUtc": "2026-10-17T17:31:36.154082+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/2026/09/27/",
+      "title": "27 Eylül 2026 | Çanakkale Cephesi",
+      "fetchedAtUtc": "2026-10-17T17:31:40.051781+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/author/admin/page/10/",
+      "title": "admin | Çanakkale Cephesi - Part 10",
+      "fetchedAtUtc": "2026-10-17T17:31:43.854559+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/author/admin/page/2/",
+      "title": "admin | Çanakkale Cephesi - Part 2",
+      "fetchedAtUtc": "2026-10-17T17:31:47.620564+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/author/admin/page/3/",
+      "title": "admin | Çanakkale Cephesi - Part 3",
+      "fetchedAtUtc": "2026-10-17T17:31:51.414991+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/author/admin/page/4/",
+      "title": "admin | Çanakkale Cephesi - Part 4",
+      "fetchedAtUtc": "2026-10-17T17:31:55.258093+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/author/admin/page/5/",
+      "title": "admin | Çanakkale Cephesi - Part 5",
+      "fetchedAtUtc": "2026-10-17T17:31:59.024861+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/arsiv/page/2/",
+      "title": "Arşiv | Çanakkale Cephesi - Part 2",
+      "fetchedAtUtc": "2026-10-17T17:32:02.753089+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/birlikler/page/2/",
+      "title": "Birlikler | Çanakkale Cephesi - Part 2",
+      "fetchedAtUtc": "2026-10-17T17:32:06.522872+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/birlikler/page/3/",
+      "title": "Birlikler | Çanakkale Cephesi - Part 3",
+      "fetchedAtUtc": "2026-10-17T17:32:10.243515+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/haber/page/2/",
+      "title": "Haber | Çanakkale Cephesi - Part 2",
+      "fetchedAtUtc": "2026-10-17T17:32:13.967039+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/kutuphane/ani-hatira/",
+      "title": "Anı Hatıra | Çanakkale Cephesi",
+      "fetchedAtUtc": "2026-10-17T17:32:17.769708+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/kutuphane/arastirma-eserler/",
+      "title": "Araştırma Eserler | Çanakkale Cephesi",
+      "fetchedAtUtc": "2026-10-17T17:32:21.685457+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/kutuphane/arsiv-ve-kutuphaneler/",
+      "title": "Arşiv ve Kütüphaneler | Çanakkale Cephesi",
+      "fetchedAtUtc": "2026-10-17T17:32:25.490827+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/kutuphane/basinda-canakkale/",
+      "title": "Basında Çanakkale | Çanakkale Cephesi",
+      "fetchedAtUtc": "2026-10-17T17:32:29.315259+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/kutuphane/harp-hatiralari/",
+      "title": "Harp Hatıraları | Çanakkale Cephesi",
+      "fetchedAtUtc": "2026-10-17T17:32:33.774895+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/kutuphane/kitabeler-ve-mezarlar/",
+      "title": "Kitabeler ve Mezarlar | Çanakkale Cephesi",
+      "fetchedAtUtc": "2026-10-17T17:32:37.853709+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/kutuphane/mektuplar/",
+      "title": "Mektuplar | Çanakkale Cephesi",
+      "fetchedAtUtc": "2026-10-17T17:32:41.823328+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/kutuphane/menkibeler/",
+      "title": "Menkibeler | Çanakkale Cephesi",
+      "fetchedAtUtc": "2026-10-17T17:32:45.798422+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    },
+    {
+      "url": "https://www.canakkalecephesi.com/index.php/category/kutuphane/page/2/",
+      "title": "Kütüphane | Çanakkale Cephesi - Part 2",
+      "fetchedAtUtc": "2026-10-17T17:32:49.794692+00:00",
+      "status": "kesif_dizini_tarihsel_kanit_degil"
+    }
+  ]
+}

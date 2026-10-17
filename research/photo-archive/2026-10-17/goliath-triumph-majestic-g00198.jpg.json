@@ -24,6 +24,9 @@
   "visualReviewDate": "2026-10-17",
   "sitePreparedPath": "images/ships/goliath-triumph-majestic-g00198.jpg",
   "localUses": [
-    "fotograf-arsivi/index.html"
-  ]
+    "fotograf-arsivi/index.html",
+    "olaylar/goliath-batar/index.html",
+    "olaylar/majestic-batar/index.html"
+  ],
+  "contextNoteTr": "Mayıs 1915 tarihli grup fotoğrafı batış anını göstermez; kesin çekim günü belirtilmez. Fotoğraftan enkaz konumu çıkarılmaz."
 }

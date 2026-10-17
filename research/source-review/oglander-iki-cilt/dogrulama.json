@@ -1,0 +1,20 @@
+{
+  "reviewed": "2026-10-17",
+  "downloadedFiles": 36,
+  "sha256VerifiedFiles": 36,
+  "indexedPdfPages": 1145,
+  "renderCheckedPdfPages": 1145,
+  "renderErrors": 0,
+  "visuallyReviewedPages": 12,
+  "topics": 42,
+  "pageTopicMatches": 1763,
+  "catalogProposals": 4,
+  "catalogSchemaUnchanged": true,
+  "rawFilesIgnoredByGit": true,
+  "tests": {
+    "nodePassed": 27,
+    "pythonPassed": 15
+  },
+  "historicalClaimsPromoted": 0,
+  "sitePublished": false
+}

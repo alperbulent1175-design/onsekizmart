@@ -1,0 +1,33 @@
+{
+  "id": "A02781",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/A02781",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/A02781/screen/4219271.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "25 April 1915",
+  "maker": "Unknown",
+  "sourcePlace": "Ottoman Empire: Turkey, Marmara, Chanak, Gallipoli Peninsula",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-a02781.jpg",
+  "sha256": "227e84788712832bbc3bb870750374ec52daf0725a5143af4172fc04fde29a68",
+  "bytes": 182788,
+  "width": 640,
+  "height": 429,
+  "credit": "Australian War Memorial, A02781",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "captionTr": "AWM kaydına göre Anzak Koyu’na çekilen teknedeki 1. Tümen Muhabere Bölüğü mensupları, 25 Nisan 1915.",
+  "evidenceText": "AWM kaydına göre Anzak Koyu’na çekilen teknedeki 1. Tümen Muhabere Bölüğü mensupları, 25 Nisan 1915.",
+  "altTr": "Denizde ilerleyen bir teknede oturan kalabalık asker grubu.",
+  "dateLabelTr": "25 Nisan 1915",
+  "visualReviewDate": "2026-10-17",
+  "sitePreparedPath": "images/events/awm-a02781.jpg",
+  "localUses": [
+    "olaylar/ariburnu-cikarmasi/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

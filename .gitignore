@@ -4,8 +4,12 @@ __pycache__/
 *.pyc
 
 archive/
+.codex-remote-attachments/
 *.jsonl
 research/**/ham/
+research/deployment/
+research/performance/
+research/photo-archive/**/*.jpg
 
 .env
 .env.*

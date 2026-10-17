@@ -1,0 +1,33 @@
+{
+  "id": "G00243",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C1003217",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/G00243/screen/4169523.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "c April 1915",
+  "maker": "Brooks, Ernest",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-g00243.jpg",
+  "sha256": "c22a178e52c706fb85b0393b4cf8f85ecf725f525ce8ab6a85cf94e59fd24ab9",
+  "bytes": 180253,
+  "width": 640,
+  "height": 474,
+  "credit": "Australian War Memorial, G00243",
+  "published": false,
+  "coordinateEvidence": false,
+  "ship": "lord-nelson",
+  "category": "gemiler",
+  "dateLabelTr": "Yaklaşık Nisan 1915",
+  "captionTr": "HMS Lord Nelson’un hasar görmüş tareti; kurum tarihi yaklaşık Nisan 1915. Fotoğraf 18 Mart’taki belirli bir isabetin kanıtı olarak kullanılmaz.",
+  "evidenceText": "HMS Lord Nelson’un hasar görmüş tareti; kurum tarihi yaklaşık Nisan 1915. Fotoğraf 18 Mart’taki belirli bir isabetin kanıtı olarak kullanılmaz.",
+  "altTr": "Metal taret yüzeyindeki büyük hasar deliğinin yakın görünüşü.",
+  "visualReviewDate": "2026-10-17",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "sitePreparedPath": "images/ships/awm-g00243.jpg",
+  "localUses": [
+    "donanma/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "reviewDate": "2026-10-17",
+  "version": "1.2",
+  "script": "C:\\Users\\crawi\\Desktop\\canakkalecephesi_scraper\\scrape_canakkalecephesi.py",
+  "sha256": "f56d2cd3cef39dfb4c89ddec76f7e80c1894b9712980799e55a67bba0b54114f",
+  "backup": "C:\\Users\\crawi\\Desktop\\canakkalecephesi_scraper\\scrape_canakkalecephesi_v1_backup.py",
+  "attempts": 2,
+  "result": "robots_connection_closed_before_crawl",
+  "newPages": 0,
+  "nodePassed": 35,
+  "pythonPassed": 23,
+  "sitePublished": false
+}

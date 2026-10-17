@@ -1,0 +1,32 @@
+{
+  "id": "A05615",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/A05615",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/A05615/screen/4094644.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "22 May 1915",
+  "maker": "Ryan, Charles Snodgrass",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-a05615.jpg",
+  "sha256": "8f544f8c64f4106ccb09a925b11fd272df49d9371aa930fa9fa486fe44efc712",
+  "bytes": 280798,
+  "width": 640,
+  "height": 650,
+  "credit": "Australian War Memorial, A05615",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "dateLabelTr": "22 Mayıs 1915",
+  "captionTr": "Beyaz bayrak taşıyan Sam Butler ile gözleri bağlı Osmanlı temsilcisi Kemal Ohri; kurum tarihi 22 Mayıs 1915. Görüşmelerle ilgili bu fotoğraf 24 Mayıs ateşkesinin çekimi değildir.",
+  "evidenceText": "Beyaz bayrak taşıyan Sam Butler ile gözleri bağlı Osmanlı temsilcisi Kemal Ohri; kurum tarihi 22 Mayıs 1915. Görüşmelerle ilgili bu fotoğraf 24 Mayıs ateşkesinin çekimi değildir.",
+  "altTr": "Mevzi geçidinde beyaz bayrak taşıyan subay ve yanındaki iki üniformalı kişi.",
+  "visualReviewDate": "2026-10-17",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "sitePreparedPath": "images/events/awm-a05615.jpg",
+  "localUses": [
+    "olaylar/ariburnu-gomme-ateskesi/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

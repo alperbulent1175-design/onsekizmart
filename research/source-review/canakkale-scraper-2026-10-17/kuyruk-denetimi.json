@@ -1,0 +1,12 @@
+{
+  "reviewDate": "2026-10-17",
+  "rawRecords": 638,
+  "normalizedSaved": 631,
+  "knownAddresses": 909,
+  "pendingBeforePolicy": 278,
+  "pendingAfterContentPolicy": 1,
+  "samplePendingAfterPolicy": [
+    "https://www.canakkalecephesi.com/tum-yazarlar"
+  ],
+  "note": "Offline audit; robots and latest HTTP statuses not rechecked. Empty queue is not proof of complete site coverage."
+}

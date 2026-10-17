@@ -1,0 +1,31 @@
+{
+  "id": "P06127.001",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C1212055",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/P06127.001/screen/4160324.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "19 May 1915",
+  "maker": "Evans, Alexander Arthur",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "localFile": "awm-p06127.001.jpg",
+  "sha256": "bd15b6de29200365eef9243ec1ad7d8bc28292d04fd02fbfbc92f76470cbdfac",
+  "bytes": 250993,
+  "width": 639,
+  "height": 437,
+  "credit": "Australian War Memorial, P06127.001",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "dateLabelTr": "19 Mayıs 1915",
+  "captionTr": "19 Mayıs 1915 tarihli AWM kaydına göre, Osmanlı taarruzu sırasında ateş eden 9. Batarya topu. Fotoğrafçı Alexander Arthur Evans olarak kayıtlıdır.",
+  "altTr": "Siper içindeki sahra topunun çevresinde, bir kısmı üst giysisiz çalışan topçular.",
+  "localUses": [
+    "olaylar/ariburnu-genel-taarruzu/index.html",
+    "fotograf-arsivi/index.html"
+  ],
+  "evidenceText": "19 Mayıs 1915 tarihli AWM kaydına göre, Osmanlı taarruzu sırasında ateş eden 9. Batarya topu. Fotoğrafçı Alexander Arthur Evans olarak kayıtlıdır.",
+  "visualReviewDate": "2026-10-17",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "sitePreparedPath": "images/events/awm-p06127.001.jpg"
+}

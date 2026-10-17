@@ -1,0 +1,33 @@
+{
+  "id": "G01143",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C57874",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/G01143/screen/4102894.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "November 1915",
+  "maker": "Bean, Charles Edwin Woodrow (C E W)",
+  "sourcePlace": null,
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-g01143.jpg",
+  "sha256": "33c657cebd58a0ad1c595055e0ee71aebb5c820f0651b85b74fd6e43061170bd",
+  "bytes": 120208,
+  "width": 639,
+  "height": 382,
+  "credit": "Australian War Memorial, G01143",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "olaylar",
+  "captionTr": "Sarıbayır sırtlarının Kasım 1915 görünümü. AWM açıklamasına göre Conkbayırı görüntü dışında kalır; fotoğraf Ağustos muharebesinin anını göstermez.",
+  "evidenceText": "Sarıbayır sırtlarının Kasım 1915 görünümü. AWM açıklamasına göre Conkbayırı görüntü dışında kalır; fotoğraf Ağustos muharebesinin anını göstermez.",
+  "altTr": "Çalılıklarla kaplı, art arda uzanan sırtlar ve vadiler.",
+  "dateLabelTr": "Kasım 1915",
+  "visualReviewDate": "2026-10-17",
+  "sitePreparedPath": "images/events/awm-g01143.jpg",
+  "localUses": [
+    "olaylar/conkbayiri-muharebesi/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

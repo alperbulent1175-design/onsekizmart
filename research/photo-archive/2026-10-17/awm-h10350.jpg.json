@@ -1,0 +1,33 @@
+{
+  "id": "H10350",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C318372",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/H10350/screen/4168165.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": null,
+  "maker": null,
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "awm-h10350.jpg",
+  "sha256": "bbe428fd81084f3af30fbfe768ebc75e77948763e4515bf38aa8b46d376e780c",
+  "bytes": 201040,
+  "width": 640,
+  "height": 496,
+  "credit": "Australian War Memorial, H10350",
+  "published": false,
+  "coordinateEvidence": false,
+  "category": "komutanlar",
+  "dateLabelTr": "Ayrı tarih alanı yok; açıklamada 17 Ekim 1915",
+  "captionTr": "HMS Triad’da grup fotoğrafı. Kurum kaydı soldan sağa Roger Keyes, John de Robeck, Ian Hamilton ve Walter Braithwaite’ı tanımlar; açıklamadaki tarih 17 Ekim 1915.",
+  "evidenceText": "HMS Triad’da grup fotoğrafı. Kurum kaydı soldan sağa Roger Keyes, John de Robeck, Ian Hamilton ve Walter Braithwaite’ı tanımlar; açıklamadaki tarih 17 Ekim 1915.",
+  "altTr": "Gemi güvertesinde yan yana duran ikisi denizci üniformalı dört subay.",
+  "visualReviewDate": "2026-10-17",
+  "rightsUrl": "https://www.awm.gov.au/about/organisation/corporate/copyright",
+  "sitePreparedPath": "images/commanders/awm-h10350.jpg",
+  "localUses": [
+    "komutanlar/roger-keyes/index.html",
+    "fotograf-arsivi/index.html"
+  ],
+  "descriptionDate": "17 October 1915"
+}

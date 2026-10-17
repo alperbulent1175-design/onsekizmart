@@ -1,0 +1,35 @@
+{
+  "reviewed": "2026-10-17",
+  "records": [
+    {
+      "volume": "I",
+      "language": "Türkçe",
+      "institution": "Türk Tarih Kurumu Kütüphanesi",
+      "sourceUrl": "https://kutuphane.ttk.gov.tr/details?id=516038&materialType=KT",
+      "recordId": "516038",
+      "translator": "Tahir Tunay",
+      "year": 1939,
+      "callNumber": "B/2519-1",
+      "reviewed": "2026-10-17",
+      "evidenceText": "Katalog nesne kaydı bu cilt için Tahir Tunay çevirmen bilgisini ve 1939 yayın yılını veriyor.",
+      "verificationStatus": "katalog_kunyesi_kontrol_edildi_tam_metin_incelenmedi",
+      "openFullTextVerified": false,
+      "accessNote": "İncelenen açık katalog ekranında doğrulanmış tam PDF bağlantısı bulunamadı."
+    },
+    {
+      "volume": "II",
+      "language": "Türkçe",
+      "institution": "Türk Tarih Kurumu Kütüphanesi",
+      "sourceUrl": "https://kutuphane.ttk.gov.tr/details?id=501217&materialType=KT",
+      "recordId": "501217",
+      "translator": "M. Hulûsi",
+      "year": 1940,
+      "callNumber": "B/4014-2",
+      "reviewed": "2026-10-17",
+      "evidenceText": "Katalog nesne kaydı bu cilt için M. Hulûsi çevirmen bilgisini ve 1940 yayın yılını veriyor.",
+      "verificationStatus": "katalog_kunyesi_kontrol_edildi_tam_metin_incelenmedi",
+      "openFullTextVerified": false,
+      "accessNote": "İncelenen açık katalog ekranında doğrulanmış tam PDF bağlantısı bulunamadı."
+    }
+  ]
+}
