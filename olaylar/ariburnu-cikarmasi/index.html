@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261015j">
+  <link rel="stylesheet" href="/css/style.css?v=20261017k">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKGGXNVR7V"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -25,14 +25,14 @@
     gtag('config', 'G-MKGGXNVR7V');
   </script>
 </head>
-<body>
+<body class="event-page">
 <a class="skip" href="#icerik">İçeriğe geç</a>
 <header class="nav">
   <a class="brand" href="/">
     <span class="brand-mark">18 MART 1915</span>
     <span class="brand-sub">Çanakkale 1915</span>
   </a>
-  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">Menü</button>
+  <button class="nav-toggle" id="nav-toggle" type="button" hidden aria-expanded="false" aria-controls="nav-panel">Menü</button>
   <nav class="nav-panel" id="nav-panel" aria-label="Site">
     <ul class="nav-links">
       <li><a href="/#harita">Harita</a></li>
@@ -67,12 +67,23 @@
 <main class="page-main" id="icerik">
 <p class="kicker">Çıkarma</p>
 <h1>Arıburnu çıkarması</h1>
+<nav class="event-actions" aria-label="Olay içinde gezinme">
+  <a class="event-map-action" href="/?olay=ariburnu-cikarmasi#harita">Haritada göster</a>
+  <a href="/olaylar/#cikarma">Olay listesi</a>
+  <a href="#kaynak-notu">Kaynak notu</a>
+</nav>
+<aside class="verification-notice" aria-label="Kaynak durumu">
+  <strong>Belge doğrulaması tamamlanmadı</strong>
+  <p>Bu sayfadaki ayrıntılar kurum çerçevesiyle sunulur; tek tek iddiaları belgeleyen kanıtlar tamamlanmış değildir. Kaynak notu sayfanın sonundadır. <a href="/kaynak-politikasi/">Kaynak politikası</a></p>
+</aside>
 <dl class="facts">
 <div><dt>Tarih</dt><dd>25 Nisan 1915</dd></div>
 <div><dt>Taraflar</dt><dd>İki taraf</dd></div>
 <div><dt>Mevki</dt><dd>Arıburnu (Anzak Koyu)</dd></div>
 </dl>
-<div class="prose"><p>Arıburnu, yarımadanın Ege yakasında, Seddülbahir’in kuzeyindedir. Çıkarma, Kabatepe’nin kuzeyindeki koya yapılır. Kıyıyı 9. Tümen’den 27. Alay tutar. Tümen komutanı Halil Sami Bey’dir; tümenin asıl ağırlığı aynı gün güneyde, Seddülbahir uçundadır. Arıburnu’ndaki ilk karşı koyma, bu alayın kıyı ve sırt üzerindeki erleridir.</p><p>Geride, Maydos kesiminde 19. Tümen ihtiyattdır. Komutan Mustafa Kemal’dir. Çıkarma duyulunca 19. Tümen’den 57. Alay aynı gün sırtlara sürülür. Öğleden önce koyun üstündeki sırtlara yetişen bu alay, içeriden gelen yürüyüşü keser. 5. Ordu’nun komutanı Liman von Sanders’tır. Yarımada tarafındaki kolordu Esat Paşa’nındır. Gün, bu kolordunun sahasında açılır.</p><p>İtilaf tarafında kara komutanı Ian Hamilton’dır. Arıburnu’na çıkan kuvvet Avustralya ve Yeni Zelanda Kolordusu’dur. Komutan William Birdwood’dur. 1. Avustralya Tümeni’nin komutanı William Bridges’tır. Diğer tümenin komutanı Alexander Godley’dir. Filikalar koyda karaya gelir. İlk dalga dik yamaçların dibinde kalır, sonra koyun çevresindeki sırt kenarına tutunur.</p><p>Gün boyu iki hareket karşı karşıyadır. Çıkanlar koyun hemen gerisindeki sırtlara çıkar. 27. Alay kıyıyı bırakmaz; 57. Alay sırtlardan aşağı baskı yapar. Çıkarma denize dökülmez. İç kesime, Conkbayırı doğrultusuna da yayılamaz. Akşam olduğunda hat, koy ile sırt kenarı arasında kapanır. Seddülbahir’deki beş kumsaldan ayrı, kendi cephesi doğar.</p><p>Bu hat yaz boyu duracak yerin çekirdeğidir. 19 Mayıs’ta Osmanlı genel taarruzu bu hatta gelir ve kırılmaz. 6 Ağustos’ta Kanlısırt ve Conkbayırı muharebeleri yine bu koyun gerisindeki sırtlardan başlar. 25 Nisan’da alınan sonuç, ne denize atılmak ne de sırta sahip olmaktır.</p><p>Koy, Kabatepe’nin kuzeyindedir. Çıkanlar önce kıyının dar şeridindedir, sonra yamaçlara tırmanır. 27. Alay bu tırmanışı kıyıdan karşılar. 57. Alay, Maydos gerisindeki 19. Tümen’den gelip sırtın üstüne yetişir. İki alayın aynı gün içinde birleşen direnişi, koyu bir cepheye çevirir. Conkbayırı o günün alınan tepesi değildir. Kocaçimentepe de değildir. Hat, koyun çevresindeki sırt kenarında kapanır. Güneyde aynı sabah Seddülbahir’de ayrı bir çıkarma vardır. İki cephe o gün birleşmez.</p></div>
+<div class="prose"><h2>Çıkarma ile hedefe ulaşmak aynı şey değildir</h2>
+<p>AWM’nin kurum anlatısında kıyıya çıkış, ilk sırtlara ilerleyiş ve uzak hedefler ayrı aşamalar olarak ele alınır. Günün ilerleyen bölümünde sahile bakan bir savunma hattı oluşturulduğu belirtilir. Bu nedenle kıyıda tutunmak ile planlanan harekât hedeflerine ulaşmak birbirine karıştırılmamalıdır. Bu özetin dayanakları aşağıdaki kaynak notunda gösterilir.</p>
+<p>Deniz harekâtının önceki aşaması için <a href="/olaylar/18-mart-deniz-muharebesi/">18 Mart Deniz Muharebesi</a>; yarımadanın güneyindeki ayrı çıkarma için <a href="/olaylar/seddulbahir-cikarmasi/">Seddülbahir çıkarması</a> sayfasına geçebilirsiniz.</p></div>
 <p><a class="btn" href="/?olay=ariburnu-cikarmasi#harita">Haritada göster</a></p>
 <h2>Aynı harita işaretindeki komutanlar</h2>
 <ul class="roster">
@@ -88,38 +99,36 @@
   <li><a href="/olaylar/ariburnu-tahliyesi/"><strong>Arıburnu tahliyesi</strong><span>19–20 Aralık 1915</span></a></li>
 </ul>
 <p class="back-link"><a href="/olaylar/#cikarma">Olaylar listesine dön</a></p>
-<h2>Kaynakça</h2>
+<h2 id="kaynak-notu" tabindex="-1">Kaynakça</h2>
 <div class="prose">
+<h3 id="cikarma-kaynak">Çıkarma ve arazi: kurum anlatıları</h3>
+<p><strong>İnceleme tarihi: 17 Ekim 2026. Durum: kurumun sergi metinleri okundu; birlik harp cerideleriyle ayrıntılı karşılaştırma tamamlanmadı.</strong> Kaynak türü, AWM’nin tarihsel sergi anlatısıdır; bunlar dönemin emir veya harekât raporlarının asılları değildir.</p>
+<ul>
+<li><a href="https://www.awm.gov.au/visit/exhibitions/dawn/plan/landing">Australian War Memorial — Dawn of the Legend: 25 April 1915, The landing</a>. Kanıt ifadesi: <q>the Australians took the first ridges, but their objectives were still far off.</q> Bu bölüm, ilk sırtlara ilerleme ile uzak hedeflere ulaşmayı ayırır. Kaynak, sayfadaki bütün Osmanlı birlik hareketlerini veya kesin konumları doğrulamak için kullanılmadı.</li>
+<li><a href="https://www.awm.gov.au/visit/exhibitions/dawn/plan/bloodyday">Australian War Memorial — A hard and bloody day</a>. Kanıt ifadesi: <q>a defensive line overlooking the beaches was established and held.</q> Bu ifade kıyıya bakan bir hatta tutunma anlatısını destekler; muharip mevcut, zayiat, kesin saat veya her bir sırtın kimde kaldığı bu kısa ifadeden çıkarılmaz.</li>
+</ul>
+<p><strong>Açık kalanlar:</strong> 27. ve 57. alayların gün içindeki hareketleri, komuta zincirinin ayrıntıları, saatler ve mevki eşleştirmeleri için doğrudan belge incelemesi gerekir. Bu metinler harita koordinatlarını doğrulamaz; yeni sayı veya koordinat eklenmedi.</p>
 <p>Kurum çerçevesi: Genelkurmay ATASE’nin yayımlanmış Çanakkale özetleri; <a href="https://www.awm.gov.au/">Australian War Memorial</a>; <a href="https://www.iwm.org.uk/">Imperial War Museum</a>. Bu sayfada eser cildi, belge numarası ve sayfa işli değildir. Ayrıntı bu yüzden doğrulanmış kayıt olarak işaretlenmez. <a href="/kaynakca/">Kaynakça</a></p>
 </div>
+<!-- atlas-event-navigation:start -->
+<nav class="event-navigation" aria-label="Olay kayıtları arasında gezinme">
+<p>Atlasın kayıt sırasına göre ilerleyin. Aynı gündeki kayıtlar kesin saat sırasını göstermez.</p>
+<div><a href="/olaylar/seddulbahir-cikarmasi/"><span>Önceki kayıt</span><strong>Seddülbahir çıkarması</strong></a><a href="/olaylar/"><span>Liste</span><strong>Tüm olaylar</strong></a><a href="/olaylar/kumkale-oyalama-cikarmasi/"><span>Sonraki kayıt</span><strong>Kumkale oyalama çıkarması</strong></a></div>
+</nav>
+<!-- atlas-event-navigation:end -->
 </main>
 <footer class="site-footer">
   <div class="inner">
     <p>onsekizmart.com · Çanakkale 1915. Harita 18 Mart deniz muharebesiyle açılır. Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir.</p>
     <p>Genelkurmay ATASE özetleri, Australian War Memorial, Imperial War Museum. Zayiat toplamı, uydurma emir ve alıntı yoktur.</p>
     <nav class="foot-links" aria-label="Alt">
+      <a href="/inceleme-notlari/">İçerik incelemesi</a>
       <a href="/kaynakca/">Kaynakça</a>
       <a href="/nasil-okunur/">Nasıl okunur</a>
       <a href="/sozluk/">Sözlük</a>
     </nav>
   </div>
 </footer>
-<script>
-(function () {
-  var b = document.getElementById("nav-toggle");
-  var p = document.getElementById("nav-panel");
-  if (!b || !p) return;
-  b.addEventListener("click", function () {
-    var open = p.classList.toggle("is-open");
-    b.setAttribute("aria-expanded", open ? "true" : "false");
-  });
-  p.addEventListener("click", function (e) {
-    if (e.target.closest("a")) {
-      p.classList.remove("is-open");
-      b.setAttribute("aria-expanded", "false");
-    }
-  });
-})();
-</script>
+<script src="/js/navigation.js"></script>
 </body>
 </html>

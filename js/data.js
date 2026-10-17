@@ -319,7 +319,7 @@ window.OM = {
       name: "11. Tümen",
       lat: 40.028,
       lng: 26.232,
-      meta: "Kumkale–Erenköy–Yeniköy · Miralay Rafet Bey (Bele)",
+      meta: "Kumkale–Erenköy–Yeniköy · Miralay Rafet Bey",
       short: "33., 126., 127. Piyade Alayları. Anadolu yakası kıyı şeridi ve Beşige Koyu yamaçları.",
       strength: "~11.000–12.000",
       note: [
@@ -476,7 +476,7 @@ window.OM = {
     { name: "19. Tümen (ihtiyat)", cmd: "Yarbay Mustafa Kemal", n: "~12.000–14.000", area: "Maydos, Seddülbahir gerisi, Kilitbahir geçişi", place: "tumen-19" },
     { name: "9. Tümen", cmd: "Miralay Halil Sami Bey", n: "~12.000–13.000", area: "Seddülbahir, Alçıtepe, Krithia ve güney kıyı", place: "tumen-9" },
     { name: "7. Tümen", cmd: "Miralay Remzi Bey", n: "~11.000–12.000", area: "Saros kıyıları ve Bolayır Kıstağı", place: "tumen-7" },
-    { name: "11. Tümen", cmd: "Miralay Rafet Bey (Bele)", n: "~11.000–12.000", area: "Kumkale, Erenköy, Yeniköy, Beşige", place: "tumen-11" },
+    { name: "11. Tümen", cmd: "Miralay Rafet Bey", n: "~11.000–12.000", area: "Kumkale, Erenköy, Yeniköy, Beşige", place: "tumen-11" },
     { name: "Mayın ve Deniz Savunma", cmd: "Binbaşı Nazmi Bey; Nusret: Yzb. Tophaneli Hakkı", n: "~400–500", area: "11 enlemesine hat + Erenköy gizli hattı", place: "nusret" }
   ],
 

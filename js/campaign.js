@@ -133,8 +133,8 @@
         domain: "deniz",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Mayın tarama ve ara bombardıman sürer. Akıntı ve seyyar bataryalar yüzünden Boğaz açılmaz.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: "kilitbahir"
       },
       {
@@ -154,8 +154,8 @@
         domain: "deniz",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Tarama sürer. Carden’ın komutayı bıraktığı gün sitede 16 Mart 1915, de Robeck’in görev satırı 17 Mart 1915’tir. İki tarih bu turda tek belgeyle birleştirilmedi.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Carden’ın komutayı bıraktığı gün sitede 16 Mart 1915, de Robeck’in görev satırı 17 Mart 1915’tir. İki tarih tek belgeyle birleştirilmedi. Bu aralık notu çatışma olmadığı anlamına gelmez.",
         cardenBirakma: "16 Mart 1915",
         robeckGorev: "17 Mart 1915",
         komutaDurumu: "insan_incelemesi_gerekli",
@@ -179,8 +179,8 @@
         domain: "kara",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "24 Mart’ta 5. Ordu kurulur; komutan Liman von Sanders’tır. Müttefik tarafında kara çıkarması hazırlanır.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: null
       },
       {
@@ -190,7 +190,7 @@
         domain: "deniz",
         battle: false,
         title: "E15 Boğaz’da karaya oturur",
-        text: "İngiliz denizaltısı E15 Kepez önlerinde karaya oturur ve ateşle tahrip edilir. İşaret Dardanos Tabyası’dır.",
+        text: "E15, 17 Nisan 1915’te Boğaz geçişi sırasında karaya oturdu. Karaya oturma ile daha sonraki tahrip işlemi ayrı aşamalardır.",
         place: "dardanos"
       },
       {
@@ -200,8 +200,8 @@
         domain: "kara",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Çıkarma hazırlığı sürer. Adı konmuş bir muharebe yoktur.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: null
       },
       {
@@ -221,7 +221,7 @@
         domain: "kara",
         battle: true,
         title: "Arıburnu çıkarması",
-        text: "ANZAK Arıburnu’na çıkar. 9. Tümen’den 27. Alay kıyıyı tutar; 19. Tümen’den 57. Alay aynı gün sırtlara sürülür. Çıkarma denize dökülmez, iç kesime de yayılamaz.",
+        text: "ANZAK birlikleri ilk sırtlara çıktı; daha uzak harekât hedeflerine ulaşılamadı. Çıkarma ile bütün hedeflere ulaşmak ayrı aşamalardır; kaynak notu olay sayfasındadır.",
         place: "ariburnu"
       },
       {
@@ -231,7 +231,7 @@
         domain: "kara",
         battle: true,
         title: "Kumkale oyalama çıkarması",
-        text: "Fransız sefer kolu Kumkale’ye çıkar. Anadolu yakasındaki 11. Tümen sahasındadır. Birlik ertesi gün Seddülbahir’e alınır.",
+        text: "Fransız sefer kolu Kumkale’ye çıkar. Anadolu yakasındaki 11. Tümen sahasındadır. Kumkale’den geri çekilme ve Seddülbahir’e yeniden sevk ayrı aşamalardır; kaynak notu olay sayfasındadır.",
         place: "kumkale"
       },
       {
@@ -250,8 +250,8 @@
         side: "both",
         domain: "kara",
         battle: false,
-        title: "Ayrı adı olan muharebe yok",
-        text: "Çıkarma kumsallarında çatışma sürer. Bu iki gün ayrıca adlandırılmış bir muharebe değildir.",
+        title: "Çıkarma sonrasındaki günler",
+        text: "Bu tarih aralığında çatışmaların sürmesi, atlasın ayrı bir muharebe kartı bulundurmamasıyla çelişmez.",
         place: "seddulbahir"
       },
       {
@@ -271,8 +271,8 @@
         domain: "kara",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Cephe yerinden oynamaz. Adı konmuş bir muharebe yoktur.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: null
       },
       {
@@ -292,8 +292,8 @@
         domain: "kara",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Seddülbahir ve Arıburnu’nda siper muharebesi sürer; adı konmuş büyük muharebe yoktur.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: null
       },
       {
@@ -313,8 +313,8 @@
         domain: "kara",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Adı konmuş bir kara muharebesi yoktur.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: null
       },
       {
@@ -334,8 +334,8 @@
         domain: "kara",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Arıburnu’nda gömme ateşkesine kadar adı konmuş muharebe yoktur.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: null
       },
       {
@@ -375,8 +375,8 @@
         domain: "kara",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Karada adı konmuş muharebe yoktur.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: null
       },
       {
@@ -396,8 +396,8 @@
         domain: "kara",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Siper muharebesi sürer. Adı konmuş büyük muharebe yoktur.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: null
       },
       {
@@ -417,8 +417,8 @@
         domain: "kara",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Adı konmuş muharebe yoktur.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: null
       },
       {
@@ -428,7 +428,7 @@
         domain: "kara",
         battle: true,
         title: "Kerevizdere Muharebesi",
-        text: "Kirte doğusunda, Kerevizdere’de muharebe edilir. Cephe Kirte’yi geçemez.",
+        text: "Bu kart 12–13 Temmuz Kerevizdere aşamasını kapsar; 21–22 Haziran muharebesi ayrı bir aşamadır. Kaynaklardaki adlandırma farkı olay sayfasında açıklanır.",
         place: "kerevizdere"
       },
       {
@@ -438,8 +438,8 @@
         domain: "kara",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Ağustos taarruzuna kadar adı konmuş büyük muharebe yoktur.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: null
       },
       {
@@ -459,7 +459,7 @@
         domain: "kara",
         battle: true,
         title: "Anafartalar / Suvla çıkarması",
-        text: "IX. Kolordu (Stopford) Suvla Koyu’na çıkar. 7 Ağustos’ta iç kesimdeki sırtlara ulaşılamaz.",
+        text: "Suvla çıkarması 6 Ağustosta başladı. Yakın tepe kazanımları ile iç kesimdeki hedefler ayrılır; ayrıntılar ve kaynak kapsamı olay sayfasındadır.",
         place: "anafartalar"
       },
       {
@@ -499,8 +499,8 @@
         domain: "kara",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta yeni bir büyük muharebe kaydı yok",
-        text: "Conkbayırı ve Birinci Anafartalar bitmiştir. Sonraki adı konmuş muharebe 21 Ağustos’tadır.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: null
       },
       {
@@ -520,8 +520,8 @@
         domain: "kara",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Siper muharebesi sürer. Ekim 1915’te Hamilton geri çağrılır; yerine Charles Monro gelir ve tahliyeyi önerir.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: null
       },
       {
@@ -531,7 +531,7 @@
         domain: "kara",
         battle: false,
         title: "Arıburnu tahliyesi",
-        text: "Arıburnu boşaltılır. Aynı gece Anafartalar da boşaltılır.",
+        text: "Arıburnu tahliyesi aşamalıydı; tarih kartı son geceyi gösterir. Son birlikler 20 Aralık sabahının erken saatlerinde ayrıldı.",
         place: "ariburnu"
       },
       {
@@ -541,7 +541,7 @@
         domain: "kara",
         battle: false,
         title: "Anafartalar tahliyesi",
-        text: "Suvla / Anafartalar boşaltılır. Seddülbahir henüz tutulmaktadır.",
+        text: "Suvla tahliyesinin son aşaması. Mustafa Kemal’in cepheden ayrılış kaydı 10 Aralıktır; tahliye gecesinin komutanı olarak sunulmaz.",
         place: "anafartalar"
       },
       {
@@ -551,8 +551,8 @@
         domain: "kara",
         battle: false,
         quiet: true,
-        title: "Bu aralıkta büyük muharebe kaydı yok",
-        text: "Seddülbahir hâlâ tutulur. Adı konmuş büyük muharebe yoktur.",
+        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
+        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
         place: "seddulbahir"
       },
       {
@@ -613,7 +613,8 @@
           place: "tumen-9"
         },
         {
-          name: "Rafet Bey (Bele)",
+          name: "Rafet Bey",
+          page: "/komutanlar/rafet-bey-bele/",
           role: "11. Tümen Komutanı",
           body: "Kumkale–Erenköy Anadolu kıyısı 11. Tümen sahasıdır. 25 Nisan Kumkale çıkarması bu kesime gelir.",
           place: "tumen-11"
@@ -742,14 +743,14 @@
         {
           name: "Barbaros Hayreddin",
           type: "Ön-dretnot",
-          march: "18 Mart Boğaz taarruz hattında değildir. Marmara ihtiyatındadır.",
+          march: "18 Mart konumu için gemi jurnali karşılaştırması gerekir; İtilaf taarruz filosuyla karıştırılmamalıdır.",
           later: "8 Ağustos 1915’te Marmara’da E11 tarafından batırılır.",
           place: null
         },
         {
           name: "Turgut Reis",
           type: "Ön-dretnot",
-          march: "18 Mart Boğaz taarruz hattında değildir. Marmara ihtiyatındadır.",
+          march: "18 Mart konumu için gemi jurnali karşılaştırması gerekir; İtilaf taarruz filosuyla karıştırılmamalıdır.",
           later: "Çanakkale harekâtı sırasında batmaz.",
           place: null
         },

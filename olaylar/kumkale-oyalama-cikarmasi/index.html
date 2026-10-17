@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261015j">
+  <link rel="stylesheet" href="/css/style.css?v=20261017k">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKGGXNVR7V"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -25,14 +25,14 @@
     gtag('config', 'G-MKGGXNVR7V');
   </script>
 </head>
-<body>
+<body class="event-page">
 <a class="skip" href="#icerik">İçeriğe geç</a>
 <header class="nav">
   <a class="brand" href="/">
     <span class="brand-mark">18 MART 1915</span>
     <span class="brand-sub">Çanakkale 1915</span>
   </a>
-  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">Menü</button>
+  <button class="nav-toggle" id="nav-toggle" type="button" hidden aria-expanded="false" aria-controls="nav-panel">Menü</button>
   <nav class="nav-panel" id="nav-panel" aria-label="Site">
     <ul class="nav-links">
       <li><a href="/#harita">Harita</a></li>
@@ -67,12 +67,23 @@
 <main class="page-main" id="icerik">
 <p class="kicker">Çıkarma</p>
 <h1>Kumkale oyalama çıkarması</h1>
+<nav class="event-actions" aria-label="Olay içinde gezinme">
+  <a class="event-map-action" href="/?olay=kumkale-oyalama-cikarmasi#harita">Haritada göster</a>
+  <a href="/olaylar/#cikarma">Olay listesi</a>
+  <a href="#kaynak-notu">Kaynak notu</a>
+</nav>
+<aside class="verification-notice" aria-label="Kaynak durumu">
+  <strong>Belge doğrulaması tamamlanmadı</strong>
+  <p>Bu sayfadaki ayrıntılar kurum çerçevesiyle sunulur; tek tek iddiaları belgeleyen kanıtlar tamamlanmış değildir. Kaynak notu sayfanın sonundadır. <a href="/kaynak-politikasi/">Kaynak politikası</a></p>
+</aside>
 <dl class="facts">
 <div><dt>Tarih</dt><dd>25 Nisan 1915</dd></div>
 <div><dt>Taraflar</dt><dd>İki taraf</dd></div>
 <div><dt>Mevki</dt><dd>Kumkale</dd></div>
 </dl>
-<div class="prose"><p>25 Nisan’ın asıl çıkarmaları yarımadadadır: güneyde Seddülbahir, Ege yakasında Arıburnu. Kumkale onların Anadolu yakasındaki karşılığıdır. Boğaz’ın ağzında, Şubat’ta tahrip timlerinin kısa süre çıktığı kıyıdır. Bu defa çıkan, Fransız sefer koludur. Komutan Albert d’Amade’dır.</p><p>Osmanlı tarafında Anadolu kıyısı XV. Kolordu’nundur. Kolordu komutanı Weber Paşa’dır. Kumkale–Erenköy şeridini 11. Tümen tutar; komutan Rafet Bey’dir. 5. Ordu’nun komutanı Liman von Sanders’tır. Yarımada tarafı ayrıdır; Esat Paşa’nın 3. Kolordu’su Boğaz’ın Rumeli yakasındadır. Kumkale çıkarması, yarımadadaki 9. Tümen’in değil, 11. Tümen’in sahasına gelir.</p><p>Sabah Fransız birliği Kumkale kıyısına çıkar. Amaç, Anadolu yakasında bir kuvvet göstermek ve Boğaz’ın bu kapısını yoklamaktır. Kalıcı bir cephe açmak değildir. 11. Tümen kesiminde çatışma olur. Çıkanlar kıyıda bir gün tutulur; içeride Erenköy’e veya Boğaz tabyalarına doğru bir tutunma kurulamaz.</p><p>Ertesi gün birlik teknelere alınır ve Seddülbahir’e geçirilir. Fransız kolu bundan sonra Seddülbahir cephesinin Boğaz yakasında, Kerevizdere yönünde duracaktır. Henri Gouraud bu kolun başına Mayıs’ta geçer. 25 Nisan’da Kumkale’de komutan d’Amade’dır. Ian Hamilton kara harekâtının komutanıdır; Kumkale, onun çıkarma gününün oyalama koludur.</p><p>Günün sonunda Anadolu yakasında İtilaf köprübaşı yoktur. Kumkale yine 11. Tümen sahasındadır. Asıl cepheler Seddülbahir kumsallarında ve Arıburnu’nda kalır. Harita işareti Kumkale’dedir.</p><p>Kumkale çıkarması bir gün sürer. Sabah kıyıya çıkan Fransız birliği, 11. Tümen’in sahasında kalır. Erenköy’e ve merkez tabyalara doğru bir hat kurulamaz. Weber Paşa’nın kolordusu Anadolu yakasını tutar. Ertesi gün birlik denizden Seddülbahir’e alınır. Böylece 26 Nisan’da Fransızlar güney ucun Boğaz yakasına geçer. Kumkale yine Osmanlı kıyısıdır. 25 Nisan’ın kalıcı köprübaşları Seddülbahir kumsallarında ve Arıburnu’nda kalır. Anadolu yakası, Şubat’taki kısa timlerden sonra da elde tutulmuş bir İtilaf cephesi olmaz.</p></div>
+<div class="prose"><p>25 Nisan’ın asıl çıkarmaları yarımadadadır: güneyde Seddülbahir, Ege yakasında Arıburnu. Kumkale onların Anadolu yakasındaki karşılığıdır. Boğaz’ın ağzında, Şubat’ta tahrip timlerinin kısa süre çıktığı kıyıdır. Bu defa çıkan, Fransız sefer koludur. Komutan Albert d’Amade’dır.</p><p>Osmanlı tarafında Anadolu kıyısı XV. Kolordu’nundur. Kolordu komutanı Weber Paşa’dır. Kumkale–Erenköy şeridini 11. Tümen tutar; komutan Rafet Bey’dir. 5. Ordu’nun komutanı Liman von Sanders’tır. Yarımada tarafı ayrıdır; Esat Paşa’nın 3. Kolordu’su Boğaz’ın Rumeli yakasındadır. Kumkale çıkarması, yarımadadaki 9. Tümen’in değil, 11. Tümen’in sahasına gelir.</p><p>Sabah Fransız birliği Kumkale kıyısına çıkar. Amaç, Anadolu yakasında bir kuvvet göstermek ve Boğaz’ın bu kapısını yoklamaktır. Kalıcı bir cephe açmak değildir. 11. Tümen kesiminde çatışma olur. Harekâtın sınırlı amacı, kalıcı bir Anadolu köprübaşı kurma hedefinden ayrı değerlendirilmelidir (<a href="#kumkale-kaynak">amaç ve geri çekilme kaynak notu</a>).</p><p>Corbett’in deniz harp tarihinin çevrimyazısı, Kumkale’den geri çekilmeyi 26–27 Nisan gecesi bağlamında anlatır. Birliklerin gemilere alınması ile Seddülbahir’de yeniden karaya çıkması ayrı aşamalardır. Fransız kolu bundan sonra Seddülbahir cephesinin Boğaz yakasında, Kerevizdere yönünde duracaktır. Henri Gouraud bu kolun başına Mayıs’ta geçer. 25 Nisan’da Kumkale’de komutan d’Amade’dır. Ian Hamilton kara harekâtının komutanıdır; Kumkale, onun çıkarma gününün oyalama koludur.</p><p>Kumkale’deki sınırlı harekât ve sonrasındaki geri çekilme, yarımadadaki devamlı cephelerden ayrı ele alınır. Kumkale yine 11. Tümen sahasındadır. Asıl cepheler Seddülbahir kumsallarında ve Arıburnu’nda kalır. Harita işareti Kumkale’dedir.</p><h2>Çıkarma, geri çekilme ve yeniden sevk</h2>
+<p>25 Nisan’daki çıkarma başlangıcı, geri çekilme kararı ve birliklerin başka bir kıyıya sevki aynı tarih alanına sıkıştırılmamalıdır. Sayfanın tarih kartı çıkarma başlangıcını gösterir; bütün harekâtın yalnız o gün sürmüş olduğunu ifade etmez.</p>
+<p>Yarımadadaki eş zamanlı harekâtları <a href="/olaylar/seddulbahir-cikarmasi/">Seddülbahir</a> ve <a href="/olaylar/ariburnu-cikarmasi/">Arıburnu</a> sayfalarından inceleyebilirsiniz.</p></div>
 <p><a class="btn" href="/?olay=kumkale-oyalama-cikarmasi#harita">Haritada göster</a></p>
 <h2>Aynı harita işaretindeki komutanlar</h2>
 <ul class="roster">
@@ -84,38 +95,36 @@
   <li><a href="/olaylar/giris-tabyalari-ve-kisa-cikarmalar/"><strong>Giriş tabyaları ve kısa çıkarmalar</strong><span>25 Şubat – 4 Mart 1915</span></a></li>
 </ul>
 <p class="back-link"><a href="/olaylar/#cikarma">Olaylar listesine dön</a></p>
-<h2>Kaynakça</h2>
+<h2 id="kaynak-notu" tabindex="-1">Kaynakça</h2>
 <div class="prose">
+<h3 id="kumkale-kaynak">Amaç ve geri çekilme</h3>
+<p><strong>İnceleme tarihi: 17 Ekim 2026. Durum: kurum anlatısı ve resmî harp tarihinin çevrimyazısı okundu; özgün rapor ve basılı sayfa görüntüsüyle karşılaştırma tamamlanmadı.</strong></p>
+<ul>
+<li><a href="https://www.nam.ac.uk/explore/gallipoli">National Army Museum — Gallipoli campaign</a>, “Landings” bölümü. Kanıt ifadesi: <q>the French made a diversionary attack at Kum Kale on the Asian shore</q>. Metin, 25 Nisan bağlamında harekâtın oyalama niteliğini belirtir; tahliye takvimini veya bütün Osmanlı birlik dağılımını belgelemek için kullanılmadı.</li>
+<li><a href="https://www.naval-history.net/WW1Book-RN2b.htm">Julian S. Corbett — Naval Operations, Volume II, çevrimyazı</a>. 27 Nisan anlatısı içinde Kumkale kuvvetinin geri çekilmesi için <q>by 5.0 the whole force was on board again</q> ifadesi geçer; önceki gece başlayan çekilmeyi anlatır. Bu saat burada kaynak alıntısıdır; atlasın zaman çubuğuna yeni saat eklenmedi. Metnin önceki plan bölümünde Kumkale harekâtı “purely diversionary” olarak tanımlanır. Çevrimyazı incelendi; basılı nüsha görüntüsüyle karşılaştırma açık.</li>
+</ul>
+<p><strong>Açık kalanlar:</strong> her bir Fransız birliğinin Seddülbahir’e varış ve karaya çıkış zamanı; Osmanlı tümenlerinin dağılımı; emirlerin asılları. Bu farklı aşamalar için tek bir “ertesi gün” ifadesi yeterli kanıt sayılmadı. Yeni mevcut, zayiat veya koordinat üretilmedi.</p>
 <p>Kurum çerçevesi: Genelkurmay ATASE’nin yayımlanmış Çanakkale özetleri; <a href="https://www.awm.gov.au/">Australian War Memorial</a>; <a href="https://www.iwm.org.uk/">Imperial War Museum</a>. Bu sayfada eser cildi, belge numarası ve sayfa işli değildir. Ayrıntı bu yüzden doğrulanmış kayıt olarak işaretlenmez. <a href="/kaynakca/">Kaynakça</a></p>
 </div>
+<!-- atlas-event-navigation:start -->
+<nav class="event-navigation" aria-label="Olay kayıtları arasında gezinme">
+<p>Atlasın kayıt sırasına göre ilerleyin. Aynı gündeki kayıtlar kesin saat sırasını göstermez.</p>
+<div><a href="/olaylar/ariburnu-cikarmasi/"><span>Önceki kayıt</span><strong>Arıburnu çıkarması</strong></a><a href="/olaylar/"><span>Liste</span><strong>Tüm olaylar</strong></a><a href="/olaylar/saros-gosterisi/"><span>Sonraki kayıt</span><strong>Saros gösterişi</strong></a></div>
+</nav>
+<!-- atlas-event-navigation:end -->
 </main>
 <footer class="site-footer">
   <div class="inner">
     <p>onsekizmart.com · Çanakkale 1915. Harita 18 Mart deniz muharebesiyle açılır. Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir.</p>
     <p>Genelkurmay ATASE özetleri, Australian War Memorial, Imperial War Museum. Zayiat toplamı, uydurma emir ve alıntı yoktur.</p>
     <nav class="foot-links" aria-label="Alt">
+      <a href="/inceleme-notlari/">İçerik incelemesi</a>
       <a href="/kaynakca/">Kaynakça</a>
       <a href="/nasil-okunur/">Nasıl okunur</a>
       <a href="/sozluk/">Sözlük</a>
     </nav>
   </div>
 </footer>
-<script>
-(function () {
-  var b = document.getElementById("nav-toggle");
-  var p = document.getElementById("nav-panel");
-  if (!b || !p) return;
-  b.addEventListener("click", function () {
-    var open = p.classList.toggle("is-open");
-    b.setAttribute("aria-expanded", open ? "true" : "false");
-  });
-  p.addEventListener("click", function (e) {
-    if (e.target.closest("a")) {
-      p.classList.remove("is-open");
-      b.setAttribute("aria-expanded", "false");
-    }
-  });
-})();
-</script>
+<script src="/js/navigation.js"></script>
 </body>
 </html>

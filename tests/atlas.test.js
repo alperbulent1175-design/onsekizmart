@@ -155,7 +155,7 @@ test("çalışma alanı üç bölümlü, daraltılabilir ve türkçe arama katla
   assert.match(app, /function stepTime/);
   assert.match(app, /function clearFilters/);
   assert.match(app, /Duraklat/);
-  assert.match(app, /btn\.textContent = p\.name/);
+  assert.match(app, /name\.textContent = p \? p\.name : label/);
   const start = app.indexOf("function foldTr");
   const end = app.indexOf("\n  function ", start + 10);
   const foldTr = new Function(app.slice(start, end) + "\nreturn foldTr;")();

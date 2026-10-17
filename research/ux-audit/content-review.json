@@ -1,0 +1,841 @@
+{
+  "reviewed": "2026-10-17",
+  "scope": "Tarihsel anlatı sayfaları; kayıt düzeyi tam doğrulama değildir",
+  "sources": [
+    {
+      "id": "dva-timeline",
+      "title": "DVA — Timeline of Australians and the Gallipoli Campaign",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "evidence": "The British submarine E15 was driven ashore by a strong current",
+      "scope": "19/25 Şubat, 26 Şubat–3 Mart, 4 Mart ve 17 Nisan başlıkları okundu. Nusret tarihi ve mayın sayısı bu kronolojiden alınmadı; ilgili sayfadaki ayrı kanıtlar esas alındı.",
+      "reviewed": "2026-10-17",
+      "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
+    },
+    {
+      "id": "naval-reports",
+      "title": "London Gazette raporlarının Naval-History.net çevrimyazısı",
+      "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+      "evidence": "a demonstration in force / my Chief of Staff",
+      "scope": "1 Temmuz 1915 deniz raporunun çıkarma planı Saros gösterisini; 20 Mayıs kara raporu ve deniz raporları komuta görevlerini anlatır. Çevrimyazı okundu; özgün gazete taraması karşılaştırılmadı. Aynı dosyada farklı tarihli raporlar bulunur.",
+      "reviewed": "2026-10-17",
+      "status": "Birincil rapor çevrimyazısı okundu; özgün tarama karşılaştırması açık"
+    },
+    {
+      "id": "awm-may-ships",
+      "title": "AWM — G00197 / C1003295, kurtulanların fotoğraf kaydı",
+      "url": "https://www.awm.gov.au/collection/C1003295",
+      "evidence": "Triumph sunk by U21 on 25 May 1915, and Majestic sunk by U21 on 27 May 1915",
+      "scope": "Açıklamada Goliath için 13 Mayıs/Muavenet; Triumph için 25 Mayıs/U21; Majestic için 27 Mayıs/U21 verilir. Fotoğraf Mayıs 1915 tarihlidir; üç ayrı batış anının fotoğrafı değildir.",
+      "reviewed": "2026-10-17",
+      "status": "Koleksiyon açıklaması okundu; gemi jurnalleriyle karşılaştırma açık"
+    },
+    {
+      "id": "awm-truce",
+      "title": "AWM — H03947, ateşkeste gömme ekipleri",
+      "url": "https://www.awm.gov.au/collection/H03947",
+      "evidence": "Australian burial parties burying Australian and Turkish dead during the armistice.",
+      "scope": "Tarih alanı 24 Mayıs 1915. Görsel açıklaması gömme faaliyetini destekler; ateşkesin bütün şartları veya saatleri için emir belgesi değildir.",
+      "reviewed": "2026-10-17",
+      "status": "Fotoğraf künyesi ve açıklaması okundu; ateşkes protokolü karşılaştırması açık"
+    },
+    {
+      "id": "awm-may19",
+      "title": "AWM — The landing, eğitim anlatısı",
+      "url": "https://www.awm.gov.au/learn/schools/resources/understanding-gallipoli/landing",
+      "evidence": "The Turks made a particularly heavy attack on 19 May",
+      "scope": "19 Mayıs saldırısı ve püskürtülmesi için kullanıldı. Metnin başka biyografik ve sayısal ifadeleri bu incelemeye aktarılmadı.",
+      "reviewed": "2026-10-17",
+      "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
+    },
+    {
+      "id": "csa-barbaros",
+      "title": "Gökhan Atmaca — Barbaros Hayreddin Zırhlısı, Çanakkale Savaşları Ansiklopedisi",
+      "url": "https://canakkalesavaslariansiklopedisi.com/barbaros-hayreddin-zirhlisi/",
+      "evidence": "gemi 8 Ağustos 1915’te İngiliz denizaltısı E-11 tarafından batırılmıştır.",
+      "scope": "Batış tarihi ve denizaltı kimliği; Mart hareketleri ayrıca okunur. Kaynaktaki koordinat, personel ve mühimmat sayıları haritaya aktarılmadı.",
+      "reviewed": "2026-10-17",
+      "status": "Araştırma maddesi okundu; atıf verdiği arşiv belgeleri tek tek açılmadı"
+    },
+    {
+      "id": "csa-kereviz1",
+      "title": "Ahmet Diriker — Birinci Kerevizdere Muharebesi",
+      "url": "https://canakkalesavaslariansiklopedisi.com/birinci-kerevizdere-muharebesi/",
+      "evidence": "21-22 Haziran 1915 tarihinde gerçekleşen Birinci Kerevizdere",
+      "scope": "Haziran aşaması için kullanıldı. Madde, aynı olayın Fransız kaynaklarında farklı sıra numarasıyla adlandırıldığını belirtir.",
+      "reviewed": "2026-10-17",
+      "status": "Araştırma maddesi okundu; atıf verilen harp kayıtları karşılaştırılmadı"
+    },
+    {
+      "id": "csa-kereviz2",
+      "title": "Ahmet Diriker — İkinci Kerevizdere Muharebesi",
+      "url": "https://canakkalesavaslariansiklopedisi.com/ikinci-kerevizdere-muharebesi/",
+      "evidence": "12 -13 Temmuz 1915 tarihinde gerçekleşen bu muharebe",
+      "scope": "Temmuz aşaması, adlandırma farklılığı ve sınırlı ilerleme/Osmanlı savunmasının tutunması ayrımı için kullanıldı. Ayrıntılı siper geometrisi çıkarılmadı.",
+      "reviewed": "2026-10-17",
+      "status": "Araştırma maddesi okundu; atıf verilen harp kayıtları karşılaştırılmadı"
+    },
+    {
+      "id": "ktb-1915",
+      "title": "Kültür ve Turizm Bakanlığı — 1915 kronolojisi",
+      "url": "https://www.ktb.gov.tr/TR-96322/1915.html",
+      "evidence": "I. Anafartalar Zaferi kazanıldı. / II. Anafartalar Zaferi / Mustafa Kemal, Çanakkale Cephesi'nden ayrıldı.",
+      "scope": "8–9 Ağustos ataması, 9/10/21 Ağustos ve 10 Aralık ayrılış satırları okundu. Atama, muharebe ve cepheden ayrılış farklı kayıtlardır. Diğer tarih satırları için toplu doğrulama yapılmadı.",
+      "reviewed": "2026-10-17",
+      "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
+    },
+    {
+      "id": "dva-suvla",
+      "title": "DVA — Landing at Suvla Bay 6 to 15 August 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/august-offensive/suvla-bay",
+      "evidence": "British troops quickly secured the closest hills after the landing.",
+      "scope": "6 Ağustos başlangıcı, Stopford ve 15 Ağustos görevden alınması; yakın tepeler ile iç kesimdeki hedefler ayrılır. Kaynak başlığının kapsamı ilk çıkarma gecesinden geniştir.",
+      "reviewed": "2026-10-17",
+      "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
+    },
+    {
+      "id": "dva-sari",
+      "title": "DVA — Battle of Sari Bair 6 to 21 August 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/august-offensive/sari-bair",
+      "evidence": "The New Zealanders reached the summit",
+      "scope": "Sarıbayır harekâtının geniş kapsamı ile Conkbayırı kesiti aynı tarih aralığı değildir. Zirveye çıkış, el değiştirme ve sonraki karşı saldırılar ayrı değerlendirilir.",
+      "reviewed": "2026-10-17",
+      "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
+    },
+    {
+      "id": "dva-august",
+      "title": "DVA — August Offensive on Gallipoli 6 to 29 August 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/august-offensive",
+      "evidence": "At Lone Pine, the Australians achieved a measure of success",
+      "scope": "Kanlısırt yerel sonucu, Ağustos harekâtının genel sonucundan ayrılır. Bağlantılı Lone Pine başlığı 6–10 Ağustos kapsamını kullanır; sitedeki 6–9 Ağustos aralığı kesin tek bitiş olarak sunulmaz.",
+      "reviewed": "2026-10-17",
+      "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
+    },
+    {
+      "id": "nam-general",
+      "title": "National Army Museum — Gallipoli campaign",
+      "url": "https://www.nam.ac.uk/explore/gallipoli",
+      "evidence": "",
+      "scope": "Trapped bölümü Scimitar Hill ve Hill 60 girişimlerinin başarısızlığını anlatır. İki mevkiyi aynı nokta saymak için kullanılmadı. Önceki sayfalarda bulunan kısa alıntı burada tekrarlanmadı.",
+      "reviewed": "2026-10-17",
+      "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
+    },
+    {
+      "id": "dva-evacuation",
+      "title": "DVA — Evacuation from Gallipoli 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/evacuations-from-anzac",
+      "evidence": "The last party left in the early hours of 20 December from North Beach at Anzac.",
+      "scope": "Arıburnu/Suvla tahliyesinin aşamaları, son gece, North Beach ve Ocak Helles çekilişi. Ekim komuta değişimi ve Monro önerisi de metinde bulunur.",
+      "reviewed": "2026-10-17",
+      "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
+    },
+    {
+      "id": "belleten-alkan",
+      "title": "Necmettin Alkan — Alman Kaynaklarına Göre Çanakkale Savaşı ve Zaferi, Belleten 80/289 (2016)",
+      "url": "https://belleten.gov.tr/tam-metin/279/tur",
+      "evidence": "Albay Ali Remzi komutasındaki 7. Tümen",
+      "scope": "Savunma dağılımı bölümünde Remzi/7. Tümen, Halil Sami/9. Tümen, Mustafa Kemal/19. Tümen ve Rafet/11. Tümen yer alır. Rafet kaydı tek başına Bele soyadını kanıtlamaz.",
+      "reviewed": "2026-10-17",
+      "status": "Araştırma makalesi okundu; atıf verilen özgün belgeler tek tek karşılaştırılmadı"
+    },
+    {
+      "id": "csa-33",
+      "title": "Çanakkale Savaşları Ansiklopedisi — 33’üncü Piyade Alayı",
+      "url": "https://canakkalesavaslariansiklopedisi.com/33uncu-piyade-alayi/",
+      "evidence": "Tuğgeneral Erich Weber’in komutanı olduğu 15’inci Kolorduda",
+      "scope": "Anadolu yakasında 11. Tümen ve Weber/15. Kolordu bağı için kullanıldı. Birlik sayıları ile personel kimlikleri bu maddeden genişletilmedi.",
+      "reviewed": "2026-10-17",
+      "status": "Araştırma maddesi okundu; atıf verilen özgün belgeler karşılaştırılmadı"
+    },
+    {
+      "id": "atam-vehip",
+      "title": "Abdullah İlgazi, Mustafa Bıyıklı — Mehmet Vehip (Kaçi) Paşa’nın Çanakkale Muharebelerindeki Yeri ve Önemi, ATAM 28/82 (2012)",
+      "url": "https://atamdergi.gov.tr/tam-metin/225/tur",
+      "evidence": "8 Temmuz’da, yarımadaya gelerek yeni görevine başlayan Vehip Paşa",
+      "scope": "Güney Grubunda Weber’den Vehip’e geçiş ve göreve başlama incelendi. Bu kayıt Ocak 1916 komutasını kendiliğinden kanıtlamaz.",
+      "reviewed": "2026-10-17",
+      "status": "Araştırma makalesi okundu; aktarılan emirlerin özgün taraması karşılaştırılmadı"
+    },
+    {
+      "id": "csa-cevat",
+      "title": "Selçuk Osmanoğlu — Cevat (Çobanlı) Paşa",
+      "url": "https://canakkalesavaslariansiklopedisi.com/cevat-cobanli-pasa/",
+      "evidence": "Miralay Cevat Bey ve Kurmay Başkanı Selahattin Adil Bey",
+      "scope": "Müstahkem Mevkii ve kurmay başkanı ilişkisi, savunma planı; 29 Kasım 1914 mirliva terfisi maddede bulunur. Gün içindeki bütün saatler bu maddeyle doğrulanmış sayılmadı.",
+      "reviewed": "2026-10-17",
+      "status": "Araştırma maddesi okundu; özgün özlük ve emir belgeleri karşılaştırılmadı"
+    },
+    {
+      "id": "csa-esat",
+      "title": "Levent Ünal — Esad (Bülkat) Paşa",
+      "url": "https://canakkalesavaslariansiklopedisi.com/esad-bulkat-pasa/",
+      "evidence": "Çanakkale Cephesi’nde Esat Paşa başlangıçta 3’üncü Kolordu Komutanı",
+      "scope": "Kolordu komutanlığı ve cephenin zaman içinde değişen sorumlulukları incelendi. Nisan görev dağılımı Aralık ayına otomatik taşınmadı.",
+      "reviewed": "2026-10-17",
+      "status": "Araştırma maddesi okundu; özgün emirlerle karşılaştırma açık"
+    },
+    {
+      "id": "csa-halil",
+      "title": "Zekeriya Türkmen — Halil Sami Bey",
+      "url": "https://canakkalesavaslariansiklopedisi.com/halil-sami-bey/",
+      "evidence": "9’uncu Tümen Komutanlığına Eylül 1914’de atanmıştır.",
+      "scope": "Tümen görevi ve 1915 Haziranındaki görevden ayrılma süreci. Ölüm tarihi maddede kesin değildir; kesin ölüm bilgisi üretilmedi.",
+      "reviewed": "2026-10-17",
+      "status": "Araştırma maddesi okundu; özlük belgesi taraması karşılaştırılmadı"
+    },
+    {
+      "id": "csa-navy",
+      "title": "Çanakkale Savaşları Ansiklopedisi — Türk Donanması",
+      "url": "https://canakkalesavaslariansiklopedisi.com/turk-donanmasi/",
+      "evidence": "Amiral Usedom, Sahil Topçu ve Torpil Birlikleri Müfettişi",
+      "scope": "Merten ve Usedom görevleri için araştırma metnindeki ifade incelendi; 18 Martta kesin gözetleme yeri veya tek tek top idaresi kanıtı değildir.",
+      "reviewed": "2026-10-17",
+      "status": "Araştırma maddesi okundu; özgün arşiv belgesi karşılaştırması açık"
+    },
+    {
+      "id": "awm-birdwood",
+      "title": "AWM — William Birdwood, Dawn of the Legend",
+      "url": "https://www.awm.gov.au/visit/exhibitions/dawn/legend/birdwood",
+      "evidence": "led the ANZAC corps on Gallipoli",
+      "scope": "Kolordu komutanlığı desteklenir; her günün komuta devri ayrı belge gerektirir.",
+      "reviewed": "2026-10-17",
+      "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
+    },
+    {
+      "id": "awm-bridges",
+      "title": "AWM — Burning Bridges",
+      "url": "https://www.awm.gov.au/wartime/50/pederson_bridge",
+      "evidence": "At Anzac on 15 May 1915",
+      "scope": "Yazının girişinde 1. Avustralya Tümeni komutanı Bridges’in ağır yaralanması anlatılır. Yaralanma ile ölüm tarihi aynı olay değildir.",
+      "reviewed": "2026-10-17",
+      "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
+    },
+    {
+      "id": "nz-godley",
+      "title": "Manatū Taonga / NZHistory — Alexander Godley",
+      "url": "https://nzhistory.govt.nz/media/photo/alexander-godley",
+      "evidence": "he was in charge of the New Zealand and Australian Division",
+      "scope": "25 Nisan tümen görevi için kullanıldı; sonraki tüm aylarda aynı komuta görevinin sürdüğünü kanıtlamaz.",
+      "reviewed": "2026-10-17",
+      "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
+    },
+    {
+      "id": "dva-overview",
+      "title": "DVA — Gallipoli Campaign 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli",
+      "evidence": "Led by General Aylmer Hunter-Weston, the British 29th Division",
+      "scope": "Hunter-Weston/29. Tümen bağlantısı metinde bulunur. Sonraki kolordu görevi için ayrıca dönem raporları gerekir.",
+      "reviewed": "2026-10-17",
+      "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
+    },
+    {
+      "id": "french-army",
+      "title": "Fransız Kara Kuvvetleri TerreMag — Les Dardanelles, 1915 : une leçon utile",
+      "url": "https://www.terremag.defense.gouv.fr/histoire/les-dardanelles-1915-une-lecon-utile",
+      "evidence": "commandées par le général d’Amade",
+      "scope": "Fransız sefer kuvveti ve d’Amade bağlantısı; kuvvet sayıları veya ayrıntılı takvim aktarılmadı.",
+      "reviewed": "2026-10-17",
+      "status": "Arama dizinindeki kurum özeti okundu; tam sayfa isteği zaman aşımına uğradı, özgün harekât belgesi açılmadı"
+    },
+    {
+      "id": "nam-gouraud",
+      "title": "National Army Museum — Gallipoli campaign, Fransız kolordusu komutanı görsel açıklaması",
+      "url": "https://www.nam.ac.uk/explore/gallipoli",
+      "evidence": "commander of the French Corps in the Dardanelles",
+      "scope": "Gouraud’nun genel görevi; başlangıç günü ve yaralanma ayrıntısı bu görsel açıklamasından çıkarılmaz.",
+      "reviewed": "2026-10-17",
+      "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
+    }
+  ],
+  "pages": [
+    {
+      "path": "olaylar/dis-tabyalarin-bombardimani/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "19 Şubat 1915’te dış tabyalara deniz bombardımanı başladı.",
+      "open": "Atış saatleri, hasar miktarı ve birlik dağılımı.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/giris-tabyalari-ve-kisa-cikarmalar/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "25 Şubat bombardımanını, 26 Şubat–3 Mart tahrip çıkarmaları ve 4 Marttaki geri çekilme izledi.",
+      "open": "Günlere göre birlikler ve bütün tabyaların durumu.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/e15-bogazda-karaya-oturur/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "E15, 17 Nisan 1915’te Boğaz geçişi sırasında karaya oturdu.",
+      "open": "Karaya oturma, personelin durumu ve denizaltının sonradan tahribi ayrı aşamalardır.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/ariburnu-genel-taarruzu/",
+      "sources": [
+        "awm-may19"
+      ],
+      "summary": "AWM anlatısında 19 Mayıs Osmanlı taarruzunun püskürtüldüğü belirtilir.",
+      "open": "Bütün siperlerin 25 Nisan akşamıyla aynı kaldığı iddiası ve birliklerin günlük dağılımı doğrulanmadı.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/ariburnu-gomme-ateskesi/",
+      "sources": [
+        "awm-truce"
+      ],
+      "summary": "24 Mayıs 1915 kaydı, ateşkeste iki tarafın ölülerinin gömülmesini belgelendirir.",
+      "open": "Kesin saatler, ateşkes şartları ve bütün cephe boyunca uygulama için protokol gerekir.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/goliath-batar/",
+      "sources": [
+        "awm-may-ships"
+      ],
+      "summary": "Goliath’ın batışı, 13 Mayıs 1915 ve Muavenet kaydıyla ilişkilidir.",
+      "open": "Batış saati, torpido sayısı ve kayıp dökümü.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/triumph-batar/",
+      "sources": [
+        "awm-may-ships"
+      ],
+      "summary": "Triumph’un batışı 25 Mayıs 1915’te U21 saldırısı olarak kaydedilir.",
+      "open": "Kesin enkaz koordinatı ve kayıplar.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/majestic-batar/",
+      "sources": [
+        "awm-may-ships"
+      ],
+      "summary": "Majestic’in batışı 27 Mayıs 1915’te U21 saldırısı olarak kaydedilir.",
+      "open": "Kesin enkaz koordinatı ve kayıplar.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/barbaros-hayreddin-batar/",
+      "sources": [
+        "csa-barbaros"
+      ],
+      "summary": "Barbaros Hayreddin, 8 Ağustos 1915’te E-11 tarafından batırıldı.",
+      "open": "Mart konumu, seyir ayrıntıları ve kayıplar için özgün jurnal gerekir. Yeni enkaz noktası eklenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/saros-gosterisi/",
+      "sources": [
+        "naval-reports"
+      ],
+      "summary": "Çıkarma planında Bolayır yakınındaki Saros Körfezi için bir gösteri harekâtı bulunur.",
+      "open": "Gösteri, kıyıya hiç kimsenin çıkmadığı anlamına gelmez; ana çıkarma ile keşif hareketleri ayrılmalıdır.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/kerevizdere-muharebesi/",
+      "sources": [
+        "csa-kereviz1",
+        "csa-kereviz2"
+      ],
+      "summary": "Bu sayfanın tarih kartı 12–13 Temmuz 1915 aşamasını kapsar. Kerevizdere’de 21–22 Haziran muharebesi de vardır.",
+      "open": "Temmuz harekâtı ilk Kerevizdere çatışması değildir. Türk, Fransız ve İngiliz kaynaklarında adlandırmalar değişebilir.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/anafartalar-suvla-cikarmasi/",
+      "sources": [
+        "dva-suvla"
+      ],
+      "summary": "Suvla çıkarması 6 Ağustosta başladı. Kaynak, ilk yakın tepe kazanımlarını iç kesimdeki hedeflerden ayırır.",
+      "open": "6–7 Ağustos çıkarma gecesi ile 6–15 Ağustos harekât kapsamı farklıdır.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/birinci-anafartalar-muharebesi/",
+      "sources": [
+        "ktb-1915"
+      ],
+      "summary": "Kültür ve Turizm Bakanlığı kronolojisi Birinci Anafartalar’ı 9 Ağustos 1915’te verir.",
+      "open": "Grup ataması 8–9 Ağustos kaydıdır; birlik hareketleri ve emir saatleri ayrıca incelenmelidir.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/ikinci-anafartalar-muharebesi/",
+      "sources": [
+        "ktb-1915",
+        "nam-general"
+      ],
+      "summary": "İkinci Anafartalar için 21 Ağustos 1915 kaydı bulunur.",
+      "open": "Yusufçuk Tepe ile Bomba Tepe aynı mevki veya aynı süreli muharebe gibi birleştirilmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/conkbayiri-muharebesi/",
+      "sources": [
+        "ktb-1915",
+        "dva-sari"
+      ],
+      "summary": "Conkbayırı zirvesine çıkış ve Osmanlı karşı taarruzu ayrı aşamalardır; kronolojide 10 Ağustos ayrı kayıttır.",
+      "open": "6–10 Ağustos kesiti ile daha geniş Sarıbayır harekâtının tarih kapsamı ayrılır.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/kanlisirt-muharebesi/",
+      "sources": [
+        "dva-august"
+      ],
+      "summary": "Kanlısırt’taki yerel İtilaf kazanımı, Ağustos harekâtının genel başarısızlığıyla aynı sonuç değildir.",
+      "open": "Tarih kartı 6–9 Ağustos kullanır; bağlantılı DVA Lone Pine başlığı 6–10 Ağustos kapsamındadır. Kesin tek bitiş günü olarak sunulmaz.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/ariburnu-tahliyesi/",
+      "sources": [
+        "dva-evacuation",
+        "ktb-1915"
+      ],
+      "summary": "Arıburnu çekilişi aşamalıydı; son birlikler 20 Aralık sabahının erken saatlerinde ayrıldı.",
+      "open": "Yalnız son gece bütün tahliye süresi değildir. Aralık komuta dağılımı Nisan görevlerinden türetilmez.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/anafartalar-tahliyesi/",
+      "sources": [
+        "dva-evacuation",
+        "ktb-1915"
+      ],
+      "summary": "Suvla tahliyesi Aralık ayında tamamlandı; Seddülbahir çekilişi Ocak ayındaki ayrı aşamadır.",
+      "open": "Mustafa Kemal 10 Aralıkta cepheden ayrılmıştır; tahliye gecesinin komutanı olarak sunulmaz.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/seddulbahir-tahliyesi/",
+      "sources": [
+        "dva-evacuation"
+      ],
+      "summary": "Seddülbahir’deki son çekiliş 8–9 Ocak 1916 aşamasıdır.",
+      "open": "Nisanda kullanılan bütün kumsalların Ocakta da tahliye noktası olduğu iddia edilmez; Ocak komuta dağılımı ayrıca belgelenmelidir.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/albert-damade/",
+      "sources": [
+        "naval-reports"
+      ],
+      "summary": "d’Amade, Çanakkale’ye gönderilen Fransız sefer kuvvetiyle ilişkilidir.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/alexander-godley/",
+      "sources": [
+        "nz-godley"
+      ],
+      "summary": "Godley, çıkarma sırasında Yeni Zelanda ve Avustralya Tümeni komutanıdır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/aylmer-hunter-weston/",
+      "sources": [
+        "dva-overview",
+        "naval-reports"
+      ],
+      "summary": "Hunter-Weston, çıkarma aşamasında 29. Tümen komutanıdır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/cevat-bey-cobanli/",
+      "sources": [
+        "csa-cevat"
+      ],
+      "summary": "Cevat Paşa’nın görevi Çanakkale Müstahkem Mevkii komutanlığıdır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/charles-monro/",
+      "sources": [
+        "dva-evacuation"
+      ],
+      "summary": "Monro, Hamilton’dan sonra komutayı aldı ve tahliyeyi önerdi.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/emile-guepratte/",
+      "sources": [
+        "naval-reports"
+      ],
+      "summary": "Guépratte, Fransız deniz filosunun komutanı olarak raporda geçer.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/esat-pasa-bulkat/",
+      "sources": [
+        "csa-esat"
+      ],
+      "summary": "Esat Paşa’nın Çanakkale görevi başlangıçta 3. Kolordu komutanlığıdır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/frederick-stopford/",
+      "sources": [
+        "dva-suvla"
+      ],
+      "summary": "Stopford, Suvla harekâtını komuta etti; kaynak 15 Ağustosta görevden alındığını belirtir.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/guido-von-usedom/",
+      "sources": [
+        "csa-navy"
+      ],
+      "summary": "Usedom’un görevi sahil topçu ve torpil birlikleri müfettişliği olarak aktarılır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/halil-sami-bey/",
+      "sources": [
+        "csa-halil"
+      ],
+      "summary": "Halil Sami Bey, 9. Tümen komutanı olarak görev yaptı.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/henri-gouraud/",
+      "sources": [
+        "nam-gouraud"
+      ],
+      "summary": "Gouraud, Çanakkale’deki Fransız kolordusunun komutanıdır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/ian-hamilton/",
+      "sources": [
+        "nam-general",
+        "dva-evacuation"
+      ],
+      "summary": "Hamilton, kara harekâtının komutanıdır. 18 Mart deniz muharebesinin komutanı değildir.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/johannes-merten/",
+      "sources": [
+        "csa-navy"
+      ],
+      "summary": "Merten, Başkomutanlığın Çanakkale temsilcisi olarak aktarılır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/john-de-robeck/",
+      "sources": [
+        "naval-reports"
+      ],
+      "summary": "De Robeck’in deniz komutanlığı dönem raporlarında görülür.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/liman-von-sanders/",
+      "sources": [
+        "belleten-alkan"
+      ],
+      "summary": "Liman von Sanders, Beşinci Ordu savunma düzeninin başındadır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/mustafa-kemal/",
+      "sources": [
+        "ktb-1915",
+        "belleten-alkan"
+      ],
+      "summary": "Mustafa Kemal’in 19. Tümen ve Anafartalar Grubu görevleri farklı aşamalardır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/rafet-bey-bele/",
+      "sources": [
+        "belleten-alkan",
+        "csa-33"
+      ],
+      "summary": "Kaynaklarda 11. Tümen komutanı Rafet Bey adı geçer; Bele soyadıyla kimlik eşleştirmesi bu kayıtlardan kurulamaz.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/remzi-bey/",
+      "sources": [
+        "belleten-alkan"
+      ],
+      "summary": "Makalede Ali Remzi Bey, 7. Tümen komutanı olarak anılır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/roger-keyes/",
+      "sources": [
+        "naval-reports"
+      ],
+      "summary": "Keyes, deniz komutanının kurmay başkanı olarak raporlarda geçer.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/sackville-carden/",
+      "sources": [
+        "naval-reports"
+      ],
+      "summary": "Carden’ın raporu Şubat–Mart deniz harekâtını anlatır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/selahattin-adil-bey/",
+      "sources": [
+        "csa-cevat"
+      ],
+      "summary": "Selahattin Adil Bey, Müstahkem Mevkii kurmay başkanı olarak anılır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/vehip-pasa-kaci/",
+      "sources": [
+        "atam-vehip"
+      ],
+      "summary": "Vehip Paşa’nın Güney Grubu görevi Temmuzda başlar; makale 8 Temmuzda göreve başlamayı aktarır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/weber-pasa/",
+      "sources": [
+        "csa-33",
+        "atam-vehip"
+      ],
+      "summary": "Weber’in Anadolu yakasındaki kolordu görevi ile sonraki Güney Grubu görevi ayrı aşamalardır.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/william-birdwood/",
+      "sources": [
+        "awm-birdwood"
+      ],
+      "summary": "Birdwood, Gelibolu’da ANZAK Kolordusunu komuta etti.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "komutanlar/william-bridges/",
+      "sources": [
+        "awm-bridges"
+      ],
+      "summary": "Bridges, 1. Avustralya Tümeni komutanıydı; 15 Mayısta ağır yaralandı.",
+      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "donanma/",
+      "sources": [
+        "naval-reports",
+        "awm-may-ships",
+        "csa-barbaros"
+      ],
+      "summary": "18 Mart kayıpları ile sonraki aylardaki gemi batışları ayrı olaylar olarak incelenir.",
+      "open": "Zırh, top donanımı, isabet, cephane ve zayiat değerlerinin her biri ayrı teknik kayıt gerektirir.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "sozluk/",
+      "sources": [
+        "dva-august"
+      ],
+      "summary": "Terimler, sitedeki kullanım bağlamını açıklamak içindir.",
+      "open": "Birlik büyüklükleri sabit personel sayısı değildir. Gerçek mevcut, muharip mevcut ve kuruluş kadrosu ayrı kavramlardır.",
+      "rewrite": false,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/18-mart-deniz-muharebesi/",
+      "sources": [],
+      "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
+      "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
+      "reviewed": "2026-10-17",
+      "status": "Sayfaya özgü kaynak notu mevcut"
+    },
+    {
+      "path": "olaylar/ariburnu-cikarmasi/",
+      "sources": [],
+      "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
+      "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
+      "reviewed": "2026-10-17",
+      "status": "Sayfaya özgü kaynak notu mevcut"
+    },
+    {
+      "path": "olaylar/birinci-kirte-muharebesi/",
+      "sources": [],
+      "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
+      "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
+      "reviewed": "2026-10-17",
+      "status": "Sayfaya özgü kaynak notu mevcut"
+    },
+    {
+      "path": "olaylar/ikinci-kirte-muharebesi/",
+      "sources": [],
+      "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
+      "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
+      "reviewed": "2026-10-17",
+      "status": "Sayfaya özgü kaynak notu mevcut"
+    },
+    {
+      "path": "olaylar/kumkale-oyalama-cikarmasi/",
+      "sources": [],
+      "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
+      "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
+      "reviewed": "2026-10-17",
+      "status": "Sayfaya özgü kaynak notu mevcut"
+    },
+    {
+      "path": "olaylar/nusret-erenkoy-hattini-doker/",
+      "sources": [],
+      "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
+      "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
+      "reviewed": "2026-10-17",
+      "status": "Sayfaya özgü kaynak notu mevcut"
+    },
+    {
+      "path": "olaylar/seddulbahir-cikarmasi/",
+      "sources": [],
+      "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
+      "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
+      "reviewed": "2026-10-17",
+      "status": "Sayfaya özgü kaynak notu mevcut"
+    },
+    {
+      "path": "olaylar/ucuncu-kirte-muharebesi/",
+      "sources": [],
+      "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
+      "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
+      "reviewed": "2026-10-17",
+      "status": "Sayfaya özgü kaynak notu mevcut"
+    },
+    {
+      "path": "olaylar/zigindere-muharebesi/",
+      "sources": [],
+      "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
+      "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
+      "reviewed": "2026-10-17",
+      "status": "Sayfaya özgü kaynak notu mevcut"
+    }
+  ]
+}

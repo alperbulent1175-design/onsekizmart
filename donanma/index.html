@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261015j">
+  <link rel="stylesheet" href="/css/style.css?v=20261017b">
   <style>
     .ship-card .ship-copy { margin: 8px 0 10px; max-width: 65ch; }
     .ship-card .ship-copy p { margin: 0 0 8px; }
@@ -40,14 +40,14 @@
     gtag('config', 'G-MKGGXNVR7V');
   </script>
 </head>
-<body>
+<body class="site-nav">
 <a class="skip" href="#icerik">İçeriğe geç</a>
 <header class="nav">
   <a class="brand" href="/">
     <span class="brand-mark">18 MART 1915</span>
     <span class="brand-sub">Çanakkale 1915</span>
   </a>
-  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">Menü</button>
+  <button class="nav-toggle" id="nav-toggle" type="button" hidden aria-expanded="false" aria-controls="nav-panel">Menü</button>
   <nav class="nav-panel" id="nav-panel" aria-label="Site">
     <ul class="nav-links">
       <li><a href="/#harita">Harita</a></li>
@@ -82,6 +82,10 @@
 <main class="page-main" id="icerik">
 <p class="kicker">Deniz kuvvetleri</p>
 <h1>Donanma kadrosu</h1>
+<aside class="verification-notice" aria-label="Kaynak durumu">
+  <strong>Belge doğrulaması tamamlanmadı</strong>
+  <p>Bu sayfadaki ayrıntılar kurum çerçevesiyle sunulur; tek tek iddiaları belgeleyen kanıtlar tamamlanmış değildir. Kaynak notu sayfanın sonundadır. <a href="/kaynak-politikasi/">Kaynak politikası</a></p>
+</aside>
 <div class="prose"><p>Önce Osmanlı, sonra İtilaf. 18 Mart savunması tabya ve mayındır; Yavuz Sultan Selim ile Midilli bu muharebenin gemi listesinde yoktur. Batış ve ağır hasar, 18 Mart sütununda yalnız o gün için yazılır. Zırh ve ana silah, sitedeki kadro cetvelinde yazılı olan gemilerde durur.</p></div>
 
 <h2 id="osmanli">Osmanlı</h2>
@@ -105,11 +109,11 @@
   <p>Ön-dretnot</p>
   <dl>
     <div><dt>Bayrak</dt><dd>Osmanlı</dd></div>
-    <div><dt>Görev</dt><dd>18 Mart Boğaz taarruz hattında değildir. Marmara ihtiyatındadır.</dd></div>
+    <div><dt>Görev</dt><dd>18 Mart Boğaz taarruz hattında değildir. Gün içindeki kesin konumu için gemi jurnali karşılaştırması gerekir.</dd></div>
     <div><dt>Akıbet</dt><dd>8 Ağustos 1915’te Marmara’da E11 tarafından batırılır.</dd></div>
   </dl>
   <div class="ship-copy">
-    <p>Barbaros Hayreddin, Osmanlı bayrağı taşıyan bir ön-dretnottur. 18 Mart 1915 Boğaz taarruz hattında yer almaz; o gün Marmara ihtiyatındadır. 8 Ağustos 1915’te Marmara’da İngiliz denizaltısı E11 tarafından batırılır.</p>
+    <p>Barbaros Hayreddin, Osmanlı bayrağı taşıyan bir ön-dretnottur. 18 Mart 1915 Boğaz taarruz hattında yer almaz; o gün Gün içindeki kesin konumu için gemi jurnali karşılaştırması gerekir. 8 Ağustos 1915’te Marmara’da İngiliz denizaltısı E11 tarafından batırılır.</p>
   </div>
 </article>
 
@@ -118,7 +122,7 @@
   <p>Ön-dretnot</p>
   <dl>
     <div><dt>Bayrak</dt><dd>Osmanlı</dd></div>
-    <div><dt>Görev</dt><dd>18 Mart Boğaz taarruz hattında değildir. Marmara ihtiyatındadır.</dd></div>
+    <div><dt>Görev</dt><dd>18 Mart Boğaz taarruz hattında değildir. Gün içindeki kesin konumu için gemi jurnali karşılaştırması gerekir.</dd></div>
     <div><dt>Akıbet</dt><dd>Çanakkale harekâtı sırasında batmaz.</dd></div>
   </dl>
   <div class="ship-copy">
@@ -408,7 +412,7 @@
     <div><dt>Zırh</dt><dd>370 mm</dd></div>
     <div><dt>Ana silah</dt><dd>4×305 + 10×138 mm</dd></div>
     <div><dt>Görev</dt><dd>B Hattı ön-dretnotu.</dd></div>
-    <div><dt>Akıbet</dt><dd>Tavşan Adası’na oturtulur. 18 Mart’ta batmaz.</dd></div>
+    <div><dt>Akıbet</dt><dd>rapor çevrimyazısındaki Drepano Adası’na oturtulur. 18 Mart’ta batmaz.</dd></div>
   </dl>
   <div class="ship-copy">
     <p>Gaulois, Fransız ön-dretnotudur ve B Hattı’ndadır. 12.15’te Suffren ile Rumeli tabyalarını hedef alır. 12.28’de Kilitbahir’den atılan ağır mermi sancak baş bodoslamasını deler; su altı kompartımanları dolar. 14.35’te batmamak için Tavşan (Drepano) Adası kıyısına baştan kara ettirilir. 18 Mart’ta batmaz.</p>
@@ -462,7 +466,7 @@
     <div><dt>Görev</dt><dd>Mayın tarama.</dd></div>
   </dl>
   <div class="ship-copy">
-    <p>Mayın tarama grubu, Kuzey Denizi trol teknelerinden dönüştürülmüş yaklaşık 20–25 silahlı trawlerden oluşur. Tek tek gemi adı yazılmaz. 16–17 Mart rutin taramalarında teller hattın üzerinden geçer, mayınlara takılmaz.</p>
+    <p>Mayın tarama grubu, Kuzey Denizi trol teknelerinden dönüştürülmüş mayın taramada kullanılan teknelerden oluşur; tekne sayısı bu incelemede doğrulanmadı. Tek tek gemi adı yazılmaz. Günlere göre tarama sonuçları için görev raporları gerekir.</p>
   </div>
 </article>
 
@@ -475,7 +479,7 @@
     <div><dt>Akıbet</dt><dd>Gizli hattı göremez. 18 Mart’ta battığına dair kayıt yoktur.</dd></div>
   </dl>
   <div class="ship-copy">
-    <p>HMS Ark Royal, Britanya deniz uçağı gemisidir. Görevi keşif ve atış tanzimidir. Sabah uçuşları parlama, bulanıklık ve sığlık nedeniyle askıdaki mayınları göremez. Erenköy’deki gizli hat görülmeden kalır. 18 Mart’ta battığına dair kayıt yoktur.</p>
+    <p>HMS Ark Royal, Britanya deniz uçağı gemisidir. Görevi keşif ve atış tanzimidir. Keşif uçuşlarının saatleri ve mayınların neden görülemediği, bu sayfada belge kanıtıyla kesinleştirilmedi. 18 Mart’ta battığına dair kayıt yoktur.</p>
   </div>
 </article>
 
@@ -525,36 +529,32 @@
 </article>
 <h2>Kaynakça</h2>
 <div class="prose">
-<p>Kurum çerçevesi: Genelkurmay ATASE’nin yayımlanmış Çanakkale özetleri; <a href="https://www.awm.gov.au/">Australian War Memorial</a>; <a href="https://www.iwm.org.uk/">Imperial War Museum</a>. Bu sayfada eser cildi, belge numarası ve sayfa işli değildir. Ayrıntı bu yüzden doğrulanmış kayıt olarak işaretlenmez. <a href="/kaynakca/">Kaynakça</a></p>
+<p>Kurum çerçevesi: Genelkurmay ATASE’nin yayımlanmış Çanakkale özetleri; <a href="https://www.awm.gov.au/">Australian War Memorial</a>; <a href="https://www.iwm.org.uk/">Imperial War Museum</a>. Yukarıdaki özel kaynak notları dışındaki ayrıntılar için eser/belge/sayfa eşleştirmesi tamamlanmadı; bu ayrıntılar doğrulanmış kayıt olarak işaretlenmez. <a href="/kaynakca/">Kaynakça</a></p>
 </div>
+<section class="content-review prose" aria-labelledby="inceleme-baslik">
+<h2 id="inceleme-baslik">Kaynak incelemesi</h2>
+<p><strong>17 Ekim 2026 · Kısmi kaynak desteği</strong></p>
+<p>18 Mart kayıpları ile sonraki aylardaki gemi batışları ayrı olaylar olarak incelenir.</p>
+<ul>
+<li><a href="https://www.naval-history.net/WW1Battle1503Dardanelles2.htm">London Gazette raporlarının Naval-History.net çevrimyazısı</a> · <a href="/inceleme-notlari/#naval-reports">Kanıt metni ve inceleme sınırı</a></li>
+<li><a href="https://www.awm.gov.au/collection/C1003295">AWM — G00197 / C1003295, kurtulanların fotoğraf kaydı</a> · <a href="/inceleme-notlari/#awm-may-ships">Kanıt metni ve inceleme sınırı</a></li>
+<li><a href="https://canakkalesavaslariansiklopedisi.com/barbaros-hayreddin-zirhlisi/">Gökhan Atmaca — Barbaros Hayreddin Zırhlısı, Çanakkale Savaşları Ansiklopedisi</a> · <a href="/inceleme-notlari/#csa-barbaros">Kanıt metni ve inceleme sınırı</a></li>
+</ul>
+<p><strong>Açık kalanlar:</strong> Zırh, top donanımı, isabet, cephane ve zayiat değerlerinin her biri ayrı teknik kayıt gerektirir.</p>
+</section>
 </main>
 <footer class="site-footer">
   <div class="inner">
     <p>onsekizmart.com · Çanakkale 1915. Harita 18 Mart deniz muharebesiyle açılır. Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir.</p>
     <p>Genelkurmay ATASE özetleri, Australian War Memorial, Imperial War Museum. Zayiat toplamı, uydurma emir ve alıntı yoktur.</p>
     <nav class="foot-links" aria-label="Alt">
+      <a href="/inceleme-notlari/">İçerik incelemesi</a>
       <a href="/kaynakca/">Kaynakça</a>
       <a href="/nasil-okunur/">Nasıl okunur</a>
       <a href="/sozluk/">Sözlük</a>
     </nav>
   </div>
 </footer>
-<script>
-(function () {
-  var b = document.getElementById("nav-toggle");
-  var p = document.getElementById("nav-panel");
-  if (!b || !p) return;
-  b.addEventListener("click", function () {
-    var open = p.classList.toggle("is-open");
-    b.setAttribute("aria-expanded", open ? "true" : "false");
-  });
-  p.addEventListener("click", function (e) {
-    if (e.target.closest("a")) {
-      p.classList.remove("is-open");
-      b.setAttribute("aria-expanded", "false");
-    }
-  });
-})();
-</script>
+<script src="/js/navigation.js" defer></script>
 </body>
 </html>

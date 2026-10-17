@@ -12,7 +12,7 @@ function load(file) {
 
 function walk(dir, out) {
   for (const name of fs.readdirSync(dir)) {
-    if (name === ".git" || name === "tests" || name === "node_modules") continue;
+    if (name === ".git" || name === "tests" || name === "node_modules" || name === "prototip" || name === "research" || name === "archive") continue;
     const full = path.join(dir, name);
     const stat = fs.statSync(full);
     if (stat.isDirectory()) walk(full, out);
@@ -121,7 +121,7 @@ test("harita kütüphanesi yokken kronoloji çizilir ve arama metni html olmaz",
   assert.match(app, /function showMapError/);
   assert.match(app, /tileerror/);
   assert.doesNotMatch(app, /innerHTML\s*=\s*[^;\n]*\+/);
-  assert.match(app, /btn\.textContent = p\.name/);
+  assert.match(app, /name\.textContent = p \? p\.name : label/);
 
   function makeEl(id) {
     const el = {
@@ -176,6 +176,7 @@ test("harita kütüphanesi yokken kronoloji çizilir ve arama metni html olmaz",
   assert.equal(map.children[0].className, "map-fallback");
   assert.match(map.children[0].children[0].textContent, /Harita kütüphanesi yüklenemedi/);
   assert.match(map.children[0].children[0].textContent, /Kronoloji ve olay listesi kullanılabilir/);
+  assert.equal(document.getElementById("map-reset").disabled, true);
   assert.ok(document.getElementById("camp-list").children.length > 10);
   assert.ok(document.getElementById("event-list").children.length > 5);
   const injected = document.getElementById("event-list").children.some((li) => /<script/i.test(li.textContent || ""));
@@ -243,4 +244,138 @@ test("yayın sayfalarında analytics kimliği bir kez kurulur", () => {
   assert.equal((app.match(/map_event_select/g) || []).length, 1);
   assert.equal((app.match(/timeline_play/g) || []).length, 1);
   assert.equal((app.match(/filter_used/g) || []).length, 1);
+});
+
+ test("karo kesintisi uyarısı başarıya kadar kalır ve yalnız açık katman yeniden denenir", () => {
+  const app = fs.readFileSync(path.join(root, "js/app.js"), "utf8");
+  const nodes = [];
+  function element() {
+    return { children: [], parentNode: null, setAttribute() {},
+      appendChild(child) { child.parentNode = this; this.children.push(child); return child; },
+      removeChild(child) { this.children = this.children.filter(x => x !== child); child.parentNode = null; },
+      addEventListener(name, fn) { this[name] = fn; }
+    };
+  }
+  const frame = element();
+  function layer() {
+    return { events: {}, redraws: 0, on(name, fn) { this.events[name] = fn; }, redraw() { this.redraws++; this.events.loading(); } };
+  }
+  const active = layer(), inactive = layer();
+  const ctx = { tileWarned: false, tileNote: null, map: { hasLayer: l => l === active }, tiles: { uydu: inactive, yol: active },
+    document: { querySelector: () => frame, getElementById: () => frame, createElement() { const el = element(); nodes.push(el); return el; }, createTextNode: text => ({ textContent: text }) }
+  };
+  vm.createContext(ctx);
+  vm.runInContext(app.slice(app.indexOf("  function clearTileWarning()"), app.indexOf("  function bootMap()")), ctx);
+  ctx.watchTiles(active); ctx.watchTiles(inactive);
+  inactive.events.tileerror();
+  assert.equal(frame.children.length, 0);
+  active.events.loading(); active.events.tileerror(); active.events.tileerror(); active.events.load();
+  assert.equal(frame.children.length, 1);
+  const retry = nodes.find(n => n.textContent === "Karoları yeniden dene");
+  retry.click();
+  assert.equal(active.redraws, 1);
+  assert.equal(inactive.redraws, 0);
+  assert.equal(frame.children.length, 1);
+  active.events.tileerror(); active.events.load();
+  assert.equal(frame.children.length, 1);
+  retry.click(); active.events.load();
+  assert.equal(frame.children.length, 0);
+  assert.equal(ctx.tileWarned, false);
+});
+
+test("atlas araması boş sonucu bildirir, ok tuşları ve Escape ile odağı korur", () => {
+  const source = fs.readFileSync(path.join(root, "js/app.js"), "utf8");
+  let focused;
+  function el() {
+    return { children: [], handlers: {}, hidden: false, value: "", textContent: "",
+      setAttribute(key, value) { this[key] = value; }, addEventListener(key, fn) { this.handlers[key] = fn; },
+      appendChild(child) { this.children.push(child); }, focus() { focused = this; },
+      querySelectorAll() { return this.children.map(li => li.children[0]); },
+      set innerHTML(value) { this.children = []; }
+    };
+  }
+  const q = el(), results = el(), status = el(), title = el(), more = el();
+  const ctx = { document: { getElementById: id => ({ q, 'q-results': results, 'q-status': status, 'panel-title': title, 'q-more': more }[id]), createElement: el },
+    foldTr: value => value.toLowerCase(), allPlaces: () => [{ id: 'a', name: 'Arıburnu' }],
+    D: { events: [] }, selectPlace() {}, revealDock() {}, mode: 'naval' };
+  vm.createContext(ctx);
+  vm.runInContext(source.slice(source.indexOf('  var q = document.getElementById("q");'), source.indexOf('  var clock = document.getElementById("clock");')), ctx);
+  function key(target, name, item) {
+    let prevented = false;
+    target.handlers.keydown({ key: name, target: item, preventDefault() { prevented = true; }, stopPropagation() {} });
+    return prevented;
+  }
+  q.value = 'z'; q.handlers.input(); assert.match(status.textContent, /en az 2/);
+  q.value = 'zz'; q.handlers.input(); assert.match(status.textContent, /Sonuç bulunamadı/); assert.equal(results.hidden, true);
+  q.value = 'ar'; q.handlers.input(); assert.match(status.textContent, /1 sonuç/);
+  const hit = results.children[0].children[0];
+  assert.equal(hit.children[0].textContent, 'Arıburnu');
+  assert.equal(hit.children[1].textContent, 'Mevki · Harita');
+  assert.equal(key(q, 'ArrowDown'), true); assert.equal(focused, hit);
+  key(results, 'ArrowUp', hit); assert.equal(focused, q);
+  key(results, 'Escape', hit); assert.equal(results.hidden, true); assert.equal(q['aria-expanded'], 'false'); assert.equal(focused, q);
+  q.handlers.input(); hit.handlers.click(); assert.equal(focused, title); assert.equal(results.hidden, true); assert.match(status.textContent, /Seçildi/);
+  ctx.allPlaces = () => Array.from({ length: 10 }, (_, i) => ({ id: 'test-' + i, name: 'Arama ' + i }));
+  ctx.D.campaign = { events: [
+    { id: 'test-gap', title: 'Arama boşluğu', text: '', date: '', quiet: true },
+    { id: 'test-event', title: 'Arama olayı', text: '', date: '' }
+  ] };
+  q.value = 'ar'; q.handlers.input();
+  assert.equal(results.children.length, 8);
+  assert.match(status.textContent, /11 eşleşme bulundu; ilk 8/);
+  assert.equal(more.hidden, false); assert.equal(more.textContent, '3 sonuç daha göster');
+  more.handlers.click();
+  assert.equal(results.children.length, 11); assert.equal(more.hidden, true);
+  assert.equal(focused, results.children[8].children[0]);
+  assert.match(status.textContent, /11 sonuç gösteriliyor/);
+  assert.equal(results.children[10].children[0].children[1].textContent, 'Cephe kronolojisi · Olay');
+  q.handlers.input(); assert.equal(results.children.length, 8); assert.equal(more.hidden, false);
+  key(q, 'Escape'); assert.equal(more.hidden, true);
+  q.value = 'z'; q.handlers.input(); assert.equal(more.hidden, true);
+
+});
+
+test("bilgi paneli kapanınca odak görünür arama kontrolüne döner", () => {
+  const source = fs.readFileSync(path.join(root, "js/app.js"), "utf8");
+  for (const compact of [false, true]) {
+    let focused, owned = true;
+    const q = { focus() { focused = 'q'; } }, tool = { focus() { focused = 'tool-search'; } };
+    const panel = { classList: { remove() {} }, contains: () => owned };
+    const ctx = { activeId: 'a', paintIcons() {}, window: { matchMedia: () => ({ matches: compact }) },
+      document: { activeElement: {}, getElementById: id => ({ panel, q, 'tool-search': tool, 'dock-empty': {} }[id]) } };
+    vm.createContext(ctx);
+    vm.runInContext(source.slice(source.indexOf('  function closePanel()'), source.indexOf('  function selectPlace(')), ctx);
+    ctx.closePanel();
+    assert.equal(focused, compact ? 'tool-search' : 'q');
+    assert.equal(panel.inert, true);
+    owned = false; focused = undefined; ctx.closePanel(); assert.equal(focused, undefined);
+  }
+});
+
+test("yeni kayıt seçimi daraltılmış kontrol panelini açar", () => {
+  const source = fs.readFileSync(path.join(root, "js/app.js"), "utf8");
+  let collapsed = true, resizes = 0;
+  const button = { setAttribute(key, value) { this[key] = value; } };
+  const ctx = { document: { body: { classList: { contains: () => collapsed, remove: () => { collapsed = false; } } }, getElementById: () => button },
+    map: { invalidateSize() { resizes++; } }, motionOn: () => false, setTimeout: fn => fn() };
+  vm.createContext(ctx);
+  vm.runInContext(source.slice(source.indexOf('  function revealDock()'), source.indexOf('  function fillPanel(')), ctx);
+  ctx.revealDock();
+  assert.equal(collapsed, false); assert.equal(button['aria-expanded'], 'true'); assert.equal(button.textContent, 'Gizle'); assert.equal(resizes, 1);
+  ctx.revealDock(); assert.equal(resizes, 1);
+});
+
+test("araç yerleşimi değişince odak gizli panel veya düğmede kalmaz", () => {
+  const source = fs.readFileSync(path.join(root, "js/app.js"), "utf8");
+  let focused, closes = 0, reveals = 0;
+  const input = { focus() { focused = input; } }, trigger = { focus() { focused = trigger; } };
+  const content = { contains: item => item === input, querySelector: () => input };
+  const ctx = { document: { activeElement: input, getElementById: id => ({ 'search-pop': content, 'tool-search': trigger }[id]) },
+    closeTools() { closes++; }, revealDock() { reveals++; } };
+  vm.createContext(ctx);
+  vm.runInContext(source.slice(source.indexOf('  function syncToolLayout('), source.indexOf('  function revealDock()')), ctx);
+  ctx.syncToolLayout(true); assert.equal(focused, trigger);
+  ctx.document.activeElement = trigger; ctx.syncToolLayout(false);
+  assert.equal(focused, input); assert.equal(reveals, 1); assert.equal(closes, 2);
+  focused = null; ctx.document.activeElement = {}; ctx.syncToolLayout(true); assert.equal(focused, null);
 });

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Çanakkale Cephesi Dijital Atlası · Ana sayfa prototipi</title>
+  <meta name="description" content="İzole ana sayfa ve hero prototipi. Canlı siteye bağlı değildir. Eğitim modeli.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="css/prototip.css">
+</head>
+<body>
+<a class="skip" href="#icerik">İçeriğe geç</a>
+
+<header class="mast">
+  <a class="brand" href="#icerik">
+    <span class="brand-mark">18 Mart 1915</span>
+    <span class="brand-sub">Çanakkale · prototip</span>
+  </a>
+  <button class="menu-btn" id="nav-toggle" type="button" hidden aria-expanded="false" aria-controls="nav-panel">Menü</button>
+  <nav class="menu" id="nav-panel" aria-label="Prototip">
+    <ul>
+      <li><a href="#harita">Harita</a></li>
+      <li><a href="#kronoloji">Kronoloji</a></li>
+      <li><a href="#kesif">Keşif</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="icerik">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="kicker">Çanakkale Cephesi</p>
+      <h1 id="hero-title">Çanakkale Cephesi<br><em>Dijital Atlası</em></h1>
+      <p class="lede">Olayları coğrafya ve zaman üzerinden keşfedin. Kaynaklarıyla birlikte inceleyin.</p>
+      <div class="cta-row">
+        <a class="btn-primary" href="#harita">Haritayı aç</a>
+        <a class="btn-secondary" href="#kronoloji">Kronoloji</a>
+      </div>
+      <p class="hero-geography">Gelibolu Yarımadası<br>Çanakkale Boğazı</p>
+    </div>
+    <div class="hero-map" id="harita">
+      <div class="map-heading"><span>Coğrafya üzerinden keşfet</span><button id="map-reset" type="button" disabled>Başlangıç görünümü</button></div>
+      <div id="prototip-harita" tabindex="0" aria-label="Gelibolu Yarımadası ve Çanakkale Boğazı. Günümüz OSM yol ve Esri uydu katmanları; tarihsel harita değildir."></div>
+      <noscript><p class="map-note">Etkileşimli harita ve kronoloji için JavaScript gerekir. Keşif kartlarından mevcut sayfalara ulaşabilirsiniz.</p></noscript>
+      <p class="map-note">Günümüz uydu ve yol haritası; tarihsel harita değildir. Seçili olayın konumu mevcut atlas verisinden alınır ve yaklaşıktır.</p>
+      <p class="map-status" id="map-status" role="status">Harita hazırlanıyor…</p>
+    </div>
+  </section>
+
+  <section class="discover" id="kesif" aria-labelledby="kesif-title">
+    <p class="kicker">Keşif</p>
+    <h2 id="kesif-title">Dört giriş</h2>
+    <p class="section-lead">Keşfe mevcut atlas sayfalarından devam edin.</p>
+    <ul class="card-grid">
+      <li class="card">
+        <h3><a href="../../index.html#harita">Harekât haritası</a></h3>
+        <p>Mevki, gemi ve olay işaretlerini atlasın süzgeçleriyle inceleyin.</p>
+      </li>
+      <li class="card">
+        <h3><a href="../../index.html#kronoloji">Kronoloji</a></h3>
+        <p>Mevcut kronoloji üzerinden olaylara ve haritadaki yerlerine geçin.</p>
+      </li>
+      <li class="card">
+        <h3><a href="../../olaylar/index.html">Olaylar</a></h3>
+        <p>Olay sayfalarını ve bu sayfalardaki ilgili kayıtları okuyun.</p>
+      </li>
+      <li class="card">
+        <h3><a href="../../kaynakca/index.html">Kaynaklar</a></h3>
+        <p>Kataloğu kurum, kayıt türü ve doğrulama durumuna göre süzün.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="chrono" id="kronoloji" aria-labelledby="kron-title">
+    <p class="kicker">Zaman</p>
+    <h2 id="kron-title">Sefer kronolojisi</h2>
+    <p class="section-lead">Bir olay seçin; konumunu haritada inceleyin ve ayrıntı sayfasına geçin.</p>
+    <p class="verification-note">Bu liste mevcut atlas kayıtlarını gösterir. Belge URL’si, kanıt metni ve doğrulama tarihi eksik kayıtlar doğrulanmış iddia sayılmaz. <a href="../../kaynak-politikasi/index.html">Kaynak politikası</a></p>
+    <div id="chrono-tools" hidden>
+      <label class="search-label" for="event-search">Kronolojide ara</label>
+      <input id="event-search" type="search" placeholder="Olay adı veya tarih…" autocomplete="off" aria-controls="prototype-events">
+      <div class="event-filters" role="group" aria-label="Olay türü">
+        <button type="button" data-domain="all" aria-pressed="true">Tümü</button>
+        <button type="button" data-domain="deniz" aria-pressed="false">Deniz</button>
+        <button type="button" data-domain="kara" aria-pressed="false">Kara</button>
+      </div>
+      <p id="event-count" role="status" aria-atomic="true"></p>
+    </div>
+    <div class="chrono-layout">
+      <ol id="prototype-events" tabindex="-1" class="prototype-events"></ol>
+      <aside id="event-detail" class="event-detail" aria-labelledby="detail-title">
+        <p class="kicker">Seçili olay</p>
+        <h3 id="detail-title" tabindex="-1">Keşfe kronolojiden başlayın</h3>
+        <p id="detail-date"></p>
+        <p id="detail-status">Listeden bir olay seçerek mevcut kaydın konumuna ve ayrıntılarına ulaşın.</p>
+        <a id="detail-page" class="btn-secondary" hidden>Olay sayfasını aç</a>
+        <a id="detail-return" class="detail-map-link" href="#prototype-events" hidden>Olay listesine dön</a>
+        <a id="detail-map" class="detail-map-link" href="#harita" hidden>Haritada gör</a>
+      </aside>
+    </div>
+    <p id="chrono-fallback">Kronoloji yüklenemezse <a href="../../index.html#kronoloji">mevcut atlas kronolojisini açın</a>.</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>Yerel ana sayfa prototipi. Bağlantılar mevcut atlas sayfalarını açar. Eğitim modeli; resmî birlik cetveli değildir.</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="../../js/data.js"></script>
+<script src="../../js/campaign.js"></script>
+<script src="js/prototip.js"></script>
+</body>
+</html>

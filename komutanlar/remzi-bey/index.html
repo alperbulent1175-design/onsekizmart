@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261015j">
+  <link rel="stylesheet" href="/css/style.css?v=20261017b">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKGGXNVR7V"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -25,14 +25,14 @@
     gtag('config', 'G-MKGGXNVR7V');
   </script>
 </head>
-<body>
+<body class="site-nav">
 <a class="skip" href="#icerik">İçeriğe geç</a>
 <header class="nav">
   <a class="brand" href="/">
     <span class="brand-mark">18 MART 1915</span>
     <span class="brand-sub">Çanakkale 1915</span>
   </a>
-  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">Menü</button>
+  <button class="nav-toggle" id="nav-toggle" type="button" hidden aria-expanded="false" aria-controls="nav-panel">Menü</button>
   <nav class="nav-panel" id="nav-panel" aria-label="Site">
     <ul class="nav-links">
       <li><a href="/#harita">Harita</a></li>
@@ -67,13 +67,18 @@
 <main class="page-main" id="icerik">
 <p class="kicker">Osmanlı</p>
 <h1>Remzi Bey</h1>
+<aside class="verification-notice" aria-label="Kaynak durumu">
+  <strong>Belge doğrulaması tamamlanmadı</strong>
+  <p>Bu sayfadaki ayrıntılar kurum çerçevesiyle sunulur; tek tek iddiaları belgeleyen kanıtlar tamamlanmış değildir. Kaynak notu sayfanın sonundadır. <a href="/kaynak-politikasi/">Kaynak politikası</a></p>
+</aside>
+<p class="accuracy" id="kimlik-notu">Kimlik ve görev alanları çalışma kaydıdır; aşağıdaki kaynak notu hangi bilgilerin desteklendiğini belirtir. Eksik alanlar tahminle doldurulmadı.</p>
 <dl class="facts">
 <div><dt>Görev (1915 Çanakkale)</dt><dd>7. Tümen Komutanı</dd></div>
 <div><dt>Taraf</dt><dd>Osmanlı</dd></div>
 <div><dt>Görev</dt><dd>7. Tümen Komutanı</dd></div>
 <div><dt>Harita işareti</dt><dd>7. Tümen</dd></div>
 </dl>
-<div class="prose"><p>Saros kıyıları ve Bolayır Kıstağı 7. Tümen sahasıdır. 25 Nisan’daki Saros gösterişi bu kesime yöneliktir.</p></div>
+<div class="prose"><p>Makalede Ali Remzi Bey, 7. Tümen komutanı olarak anılır. <a href="#inceleme-baslik">Kaynak ve kanıt kapsamı</a>.</p></div>
 <p><a class="btn" href="/?mevki=tumen-7#harita">Haritada göster</a></p>
 <h2>Aynı harita işaretindeki olaylar</h2>
 <ul class="roster">
@@ -82,36 +87,30 @@
 <p class="back-link"><a href="/komutanlar/#osmanli">Komutanlar listesine dön</a></p>
 <h2>Kaynakça</h2>
 <div class="prose">
-<p>Kurum çerçevesi: Genelkurmay ATASE’nin yayımlanmış Çanakkale özetleri; <a href="https://www.awm.gov.au/">Australian War Memorial</a>; <a href="https://www.iwm.org.uk/">Imperial War Museum</a>. Bu sayfada eser cildi, belge numarası ve sayfa işli değildir. Ayrıntı bu yüzden doğrulanmış kayıt olarak işaretlenmez. <a href="/kaynakca/">Kaynakça</a></p>
+<p>Kurum çerçevesi: Genelkurmay ATASE’nin yayımlanmış Çanakkale özetleri; <a href="https://www.awm.gov.au/">Australian War Memorial</a>; <a href="https://www.iwm.org.uk/">Imperial War Museum</a>. Yukarıdaki özel kaynak notları dışındaki ayrıntılar için eser/belge/sayfa eşleştirmesi tamamlanmadı; bu ayrıntılar doğrulanmış kayıt olarak işaretlenmez. <a href="/kaynakca/">Kaynakça</a></p>
 </div>
+<section class="content-review prose" aria-labelledby="inceleme-baslik">
+<h2 id="inceleme-baslik">Kaynak incelemesi</h2>
+<p><strong>17 Ekim 2026 · Kısmi kaynak desteği</strong></p>
+<p>Makalede Ali Remzi Bey, 7. Tümen komutanı olarak anılır.</p>
+<ul>
+<li><a href="https://belleten.gov.tr/tam-metin/279/tur">Necmettin Alkan — Alman Kaynaklarına Göre Çanakkale Savaşı ve Zaferi, Belleten 80/289 (2016)</a> · <a href="/inceleme-notlari/#belleten-alkan">Kanıt metni ve inceleme sınırı</a></li>
+</ul>
+<p><strong>Açık kalanlar:</strong> Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.</p>
+</section>
 </main>
 <footer class="site-footer">
   <div class="inner">
     <p>onsekizmart.com · Çanakkale 1915. Harita 18 Mart deniz muharebesiyle açılır. Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir.</p>
     <p>Genelkurmay ATASE özetleri, Australian War Memorial, Imperial War Museum. Zayiat toplamı, uydurma emir ve alıntı yoktur.</p>
     <nav class="foot-links" aria-label="Alt">
+      <a href="/inceleme-notlari/">İçerik incelemesi</a>
       <a href="/kaynakca/">Kaynakça</a>
       <a href="/nasil-okunur/">Nasıl okunur</a>
       <a href="/sozluk/">Sözlük</a>
     </nav>
   </div>
 </footer>
-<script>
-(function () {
-  var b = document.getElementById("nav-toggle");
-  var p = document.getElementById("nav-panel");
-  if (!b || !p) return;
-  b.addEventListener("click", function () {
-    var open = p.classList.toggle("is-open");
-    b.setAttribute("aria-expanded", open ? "true" : "false");
-  });
-  p.addEventListener("click", function (e) {
-    if (e.target.closest("a")) {
-      p.classList.remove("is-open");
-      b.setAttribute("aria-expanded", "false");
-    }
-  });
-})();
-</script>
+<script src="/js/navigation.js" defer></script>
 </body>
 </html>

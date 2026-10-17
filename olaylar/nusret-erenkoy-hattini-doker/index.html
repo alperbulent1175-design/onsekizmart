@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261015j">
+  <link rel="stylesheet" href="/css/style.css?v=20261017k">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKGGXNVR7V"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -25,14 +25,14 @@
     gtag('config', 'G-MKGGXNVR7V');
   </script>
 </head>
-<body>
+<body class="event-page">
 <a class="skip" href="#icerik">İçeriğe geç</a>
 <header class="nav">
   <a class="brand" href="/">
     <span class="brand-mark">18 MART 1915</span>
     <span class="brand-sub">Çanakkale 1915</span>
   </a>
-  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">Menü</button>
+  <button class="nav-toggle" id="nav-toggle" type="button" hidden aria-expanded="false" aria-controls="nav-panel">Menü</button>
   <nav class="nav-panel" id="nav-panel" aria-label="Site">
     <ul class="nav-links">
       <li><a href="/#harita">Harita</a></li>
@@ -67,46 +67,57 @@
 <main class="page-main" id="icerik">
 <p class="kicker">Deniz</p>
 <h1>Nusret, Erenköy hattını döker</h1>
+<nav class="event-actions" aria-label="Olay içinde gezinme">
+  <a class="event-map-action" href="/?olay=nusret-erenkoy-hattini-doker#harita">Haritada göster</a>
+  <a href="/olaylar/#deniz">Olay listesi</a>
+  <a href="#kaynak-notu">Kaynak notu</a>
+</nav>
+<aside class="verification-notice" aria-label="Kaynak durumu">
+  <strong>Belge doğrulaması tamamlanmadı</strong>
+  <p>Bu sayfadaki ayrıntılar kurum çerçevesiyle sunulur; tek tek iddiaları belgeleyen kanıtlar tamamlanmış değildir. Kaynak notu sayfanın sonundadır. <a href="/kaynak-politikasi/">Kaynak politikası</a></p>
+</aside>
 <dl class="facts">
 <div><dt>Tarih</dt><dd>8 Mart 1915</dd></div>
 <div><dt>Taraflar</dt><dd>Osmanlı</dd></div>
 <div><dt>Mevki</dt><dd>Mayın ve Deniz Savunma Grubu</dd></div>
 </dl>
-<div class="prose"><p>Bu iş Osmanlı mayın gemisi Nusret’indir. Tarih sayfada 8 Mart’tır; döküm 7–8 Mart gecesine yayılır. Boğaz’ın savunması henüz Müstahkem Mevkii’dedir. Komutan Cevat Bey’dir. Beşinci Ordu kurulmamıştır. Erenköy Koyu’nun Anadolu yakası 11. Tümen’in sahasıdır; tümen komutanı Rafet Bey’dir. Kıyı, gece işinin yapıldığı yerin karadaki karşılığıdır.</p><p>O geceye kadar Boğaz’da mayınlar daha çok iki yakayı birleştiren enlemesine hatlar halinde durur. İtilaf tarama gemileri bu deseni arar. Nusret, Erenköy Koyu’na kıyıya paralel 26 mayın döker. Hat, koyun içinde, kuzey–güney doğrultusundadır. Koy, filonun ileride manevra yapacağı düşünülen bir alan olmuştur. Paralel döküm, taranan enlemesine hatların dışında kalır.</p><p>İş bir çıkarma değildir ve bir kara muharebesi değildir. Gemi koyda hattını bırakır ve çekilir. Ertesi günlerden 18 Mart’a kadar bu mayınlara çarpan gemi olmaz. Tarama sürer; Boğaz açılmaz. Sackville Carden henüz deniz komutanıdır. 16 Mart’ta komutayı bırakacak, 17 Mart’tan itibaren John de Robeck geçecektir.</p><p>Hattın anlamı on gün sonra ortaya çıkar. 18 Mart’ta filo Boğaz’a girer, Fransız hattı ve ardından ihtiyat hattı Erenköy Koyu’nda dönüş yapar. Bouvet, Irresistible ve Ocean bu dönüşlerde batar. Inflexible mayınla ağır yara alır ve çekilir. Gaulois da ağır yaralıdır. Batanların listesi o üç gemidir. Nusret o gün batmaz; 18 Mart muharebe hattının gemisi de değildir. Döktüğü hat, günün belirleyici engeli olur.</p><p>Mevki işareti, Mayın ve Deniz Savunma Grubu’nun koydaki yeridir. Ayrı bir batış noktası değildir. 18 Mart’ın saat saat dökümü haritanın o günkü şeridindedir.</p><p>Nusret’in gecesi, 18 Mart sabahına bırakılmış bir hazırlıktır. Gemi o günkü muharebe hattına girmez ve batmaz. Hat, Erenköy Koyu’nda durur. Filo Boğaz’a girince dönüşlerini bu koyda yapar. Bouvet, Irresistible ve Ocean o dönüşlerde batar. Inflexible mayınla ağır yara alıp Boğaz dışına çekilir. Gaulois, Boğaz ağzında karaya oturtulur. Mayın gemisi bu üç batışın dışında kalır. Kıyıda Rafet Bey’in 11. Tümen’i koyun Anadolu kenarını tutar. Dökümün farkı, koyun içindeki paralel hattın, boydan boya aranan enlemesine hatlardan ayrı durmasıdır.</p></div>
+<div class="prose">
+<p>Nusret’in Erenköy Koyu’ndaki mayın dökümü bu sayfada 8 Mart 1915 tarihiyle ele alınır. Tarihi Alan Başkanlığının anma haberi, 8 Mart sabahı Erenköy Koyu’na 26 mayın döküldüğünü belirtir. AWM koleksiyon açıklaması da 8 Mart’ın erken saatlerini ve 26 mayını kaydeder (<a href="#kaynak-notu">kaynaklar ve inceleme durumu</a>).</p>
+<p>AWM kaydı, Erenköy Koyu’nda kıyıya paralel bir hat planlandığını anlatır ve Reeder’e atfedilen bir rapor aktarımı içerir. Bu aktarım, asıl rapor görüntüsüyle karşılaştırılmış değildir. Kıyıya paralel tanımı, tek başına hattın kesin koordinatlarını veya günümüzdeki harita üzerindeki uçlarını doğrulamaz.</p>
+<p>Bu sayfadaki mayın dökümü ile <a href="/olaylar/18-mart-deniz-muharebesi/">18 Mart Deniz Muharebesi</a> ayrı olaylardır. Batış, hasar ve kaynakların farklı kesinlikte anlattığı ayrıntılar 18 Mart sayfasının kaynak notlarında ele alınır. Buradaki açıklamalar, atlasın bütün saat ve gemi kayıtlarının doğrulandığı anlamına gelmez.</p>
+<p>Harita işareti, mevcut atlasın Mayın ve Deniz Savunma Grubu kaydına götürür; mayın hattının kesin başlangıç veya bitiş noktası olarak okunmamalıdır. Hat geometrisi bu içerik incelemesiyle doğrulanmış değildir.</p>
+</div>
 <p><a class="btn" href="/?olay=nusret-erenkoy-hattini-doker#harita">Haritada göster</a></p>
 <p class="back-link"><a href="/olaylar/#deniz">Olaylar listesine dön</a></p>
-<h2>Kaynakça</h2>
+<h2 id="kaynak-notu" tabindex="-1">Kaynakça</h2>
 <div class="prose">
-<p>Kurum çerçevesi: Genelkurmay ATASE’nin yayımlanmış Çanakkale özetleri; <a href="https://www.awm.gov.au/">Australian War Memorial</a>; <a href="https://www.iwm.org.uk/">Imperial War Museum</a>. Bu sayfada eser cildi, belge numarası ve sayfa işli değildir. Ayrıntı bu yüzden doğrulanmış kayıt olarak işaretlenmez. <a href="/kaynakca/">Kaynakça</a></p>
+<p><strong>İnceleme tarihi: 16 Ekim 2026. Durum: kurum metinleri okundu; özgün mayın döküm raporuyla karşılaştırma tamamlanmadı.</strong> Aşağıdaki kayıtlar kurum ana sayfası değil, ilgili metinlerin doğrudan adresleridir.</p>
+<ul>
+<li><strong>Tarih ve sayı — Tarihi Alan Başkanlığı.</strong> <a href="https://canakkaletarihialan.gov.tr/tr/kurumsal/haber/93-nusrat-mayin-gemisinde-toren-duzenlendi">Nusrat Mayın Gemisinde Tören Düzenlendi</a>, 8 Mart 2025 tarihli haber. Kanıt ifadesi: <q>8 Mart 1915 sabahı, Erenköy Koyu’na, 26 mayını</q>. Bu bir anma haberidir; dönemin harp ceridesi değildir.</li>
+<li><strong>Hat ve rapor aktarımı — AWM P04411.003.</strong> <a href="https://www.awm.gov.au/collection/C1068416">Turkish collection of copied photographs</a> koleksiyon açıklamasında Reeder’e atfedilen raporun şu cümlesi aktarılır: <q>Overall, 26 mines were laid in the general direction of SW-NE.</q> Açıklama kıyıya paralel hattı da anlatır. Durum: koleksiyon açıklaması ve içindeki aktarım incelendi; özgün rapor ayrıca açılmadı. Fotoğrafın kendisi döküm anının görüntüsü olarak kullanılmamalıdır; kurum açıklaması bunu ayırır.</li>
+</ul>
+<p><strong>Açık kalanlar:</strong> özgün raporun künyesi ve görüntüsü, saatlerin karşılaştırılması ve hat geometrisinin bağımsız doğrulanması. Bu incelemede yeni koordinat eklenmedi; harita işaretleri değiştirilmedi.</p>
+<p>Kurum çerçevesi: Genelkurmay ATASE’nin yayımlanmış Çanakkale özetleri; <a href="https://www.awm.gov.au/">Australian War Memorial</a>; <a href="https://www.iwm.org.uk/">Imperial War Museum</a>. Yukarıdaki kurum kayıtları, bütün ayrıntılara ait özgün belge ve sayfa eşleştirmesinin yerini tutmaz. Ayrıntı bu yüzden doğrulanmış kayıt olarak işaretlenmez. <a href="/kaynakca/">Kaynakça</a></p>
 </div>
+<!-- atlas-event-navigation:start -->
+<nav class="event-navigation" aria-label="Olay kayıtları arasında gezinme">
+<p>Atlasın kayıt sırasına göre ilerleyin. Aynı gündeki kayıtlar kesin saat sırasını göstermez.</p>
+<div><a href="/olaylar/giris-tabyalari-ve-kisa-cikarmalar/"><span>Önceki kayıt</span><strong>Giriş tabyaları ve kısa çıkarmalar</strong></a><a href="/olaylar/"><span>Liste</span><strong>Tüm olaylar</strong></a><a href="/olaylar/18-mart-deniz-muharebesi/"><span>Sonraki kayıt</span><strong>18 Mart Deniz Muharebesi</strong></a></div>
+</nav>
+<!-- atlas-event-navigation:end -->
 </main>
 <footer class="site-footer">
   <div class="inner">
     <p>onsekizmart.com · Çanakkale 1915. Harita 18 Mart deniz muharebesiyle açılır. Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir.</p>
     <p>Genelkurmay ATASE özetleri, Australian War Memorial, Imperial War Museum. Zayiat toplamı, uydurma emir ve alıntı yoktur.</p>
     <nav class="foot-links" aria-label="Alt">
+      <a href="/inceleme-notlari/">İçerik incelemesi</a>
       <a href="/kaynakca/">Kaynakça</a>
       <a href="/nasil-okunur/">Nasıl okunur</a>
       <a href="/sozluk/">Sözlük</a>
     </nav>
   </div>
 </footer>
-<script>
-(function () {
-  var b = document.getElementById("nav-toggle");
-  var p = document.getElementById("nav-panel");
-  if (!b || !p) return;
-  b.addEventListener("click", function () {
-    var open = p.classList.toggle("is-open");
-    b.setAttribute("aria-expanded", open ? "true" : "false");
-  });
-  p.addEventListener("click", function (e) {
-    if (e.target.closest("a")) {
-      p.classList.remove("is-open");
-      b.setAttribute("aria-expanded", "false");
-    }
-  });
-})();
-</script>
+<script src="/js/navigation.js"></script>
 </body>
 </html>

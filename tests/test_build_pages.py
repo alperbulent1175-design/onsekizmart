@@ -117,6 +117,19 @@ class BuildPagesTests(unittest.TestCase):
                 "uyuşmuyor" in str(caught.exception) or "Mükerrer" in str(caught.exception)
             )
 
+    def test_ozel_klasorler_noindex_olmasa_da_yayin_listesine_girmez(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "index.html").write_text(
+                '<link rel="canonical" href="https://onsekizmart.com/">', encoding="utf-8")
+            for folder in ("archive", "research", "prototip", "node_modules"):
+                private = root / folder / "sample"
+                private.mkdir(parents=True)
+                (private / "index.html").write_text("<h1>Private fixture</h1>", encoding="utf-8")
+            self.assertEqual(build_pages.published_pages(root), [root / "index.html"])
+            entries = build_pages.sitemap_entries(root)
+            self.assertEqual([entry[0] for entry in entries], ["https://onsekizmart.com/"])
+
 
 if __name__ == "__main__":
     unittest.main()

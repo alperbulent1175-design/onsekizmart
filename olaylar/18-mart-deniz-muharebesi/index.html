@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261015j">
+  <link rel="stylesheet" href="/css/style.css?v=20261017k">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKGGXNVR7V"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -25,14 +25,14 @@
     gtag('config', 'G-MKGGXNVR7V');
   </script>
 </head>
-<body>
+<body class="event-page">
 <a class="skip" href="#icerik">İçeriğe geç</a>
 <header class="nav">
   <a class="brand" href="/">
     <span class="brand-mark">18 MART 1915</span>
     <span class="brand-sub">Çanakkale 1915</span>
   </a>
-  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">Menü</button>
+  <button class="nav-toggle" id="nav-toggle" type="button" hidden aria-expanded="false" aria-controls="nav-panel">Menü</button>
   <nav class="nav-panel" id="nav-panel" aria-label="Site">
     <ul class="nav-links">
       <li><a href="/#harita">Harita</a></li>
@@ -67,12 +67,23 @@
 <main class="page-main" id="icerik">
 <p class="kicker">Deniz</p>
 <h1>18 Mart Deniz Muharebesi</h1>
+<nav class="event-actions" aria-label="Olay içinde gezinme">
+  <a class="event-map-action" href="/?olay=18-mart-deniz-muharebesi#harita">Haritada göster</a>
+  <a href="/olaylar/#deniz">Olay listesi</a>
+  <a href="#kaynak-notu">Kaynak notu</a>
+</nav>
+<aside class="verification-notice" aria-label="Kaynak durumu">
+  <strong>Belge doğrulaması tamamlanmadı</strong>
+  <p>Bu sayfadaki ayrıntılar kurum çerçevesiyle sunulur; tek tek iddiaları belgeleyen kanıtlar tamamlanmış değildir. Kaynak notu sayfanın sonundadır. <a href="/kaynak-politikasi/">Kaynak politikası</a></p>
+</aside>
 <dl class="facts">
 <div><dt>Tarih</dt><dd>18 Mart 1915</dd></div>
 <div><dt>Taraflar</dt><dd>İki taraf</dd></div>
 <div><dt>Mevki</dt><dd>Bouvet’nin battığı mevki</dd></div>
 </dl>
-<div class="prose"><p>Bu gün Boğaz’ı Çanakkale Müstahkem Mevkii tutar. Komutan Miralay Cevat Bey’dir; kurmay başkanı Selahattin Adil Bey’dir. Beşinci Ordu henüz yoktur; o kuruluş 24 Mart’tadır. Kara tümenleri çıkarma beklemektedir. Halil Sami Bey’in 9. Tümen’i yarımadanın güney kıyısında, Seddülbahir kesimindedir. Gün bir kara muharebesi değildir.</p><p>Savunma iki yakadaki ağır tabyalar ile mayın hatlarına dayanır. Merkezde Kilitbahir, Rumeli Mecidiye, Namazgâh ve Rumeli Hamidiye vardır. Karşı yakada Çimenlik ile Anadolu Hamidiye durur. Kepez önündeki Dardanos daha ileri hattededir. Guido von Usedom, Alman danışma heyetinin başında gözetleme yerindedir. Johannes Merten, Anadolu Hamidiye’de ağır topun başındadır. Yedi-sekiz Mart gecesi Nusret’in Erenköy Koyu’na, kıyıya paralel döktüğü hat yerindedir. Tarama, Boğaz’ı boydan boya kesen hatlarda sürmüştür; koyun içindeki bu paralel döküm o desenin dışındadır.</p><p>İtilaf komutası 16 Mart’ta, sağlık nedeniyle ayrılan Sackville Carden’dan John de Robeck’e geçmiştir. Kurmay başkanı Roger Keyes’tir. Fransız zırhlılarının başında Émile Guépratte vardır. Sabah filo Seddülbahir–Kumkale çizgisini aşarak Boğaz’a girer. Ön hat merkez tabyalara uzaktan ateş eder. Ağır tabyalar, gemiler etkili menzile girmeden suskun kalır. İlk karşılık Dardanos’tan ve seyyar bataryalardan gelir. Gemiler yaklaşınca merkez tabyalar da ateşe katılır.</p><p>Öğleye doğru Guépratte’ın hattı daha yakına sokulur ve karşılıklı ateş sıklaşır. Fransız hattı dönüşe geçerken Bouvet, Erenköy Koyu’nda mayına çarpar ve batar. Ardından Inflexible aynı hat üzerinde mayınla ağır yara alır, muharebe hattını bırakır ve Boğaz dışına çekilir; batmaz. Gaulois top ateşiyle ağır yara almıştır; batmamak için Boğaz ağzında, Tavşan Adası kıyısında karaya oturtulur.</p><p>Öğleden sonra ihtiyat hattı ileri sürülür. Irresistible, Erenköy Koyu’nda mayına çarpar, terk edilir ve akşam batar. Onu çekmeye çalışan Ocean da mayına çarpar, terk edilir ve gece batar. Günün batan gemileri bunlardır: Bouvet, Irresistible ve Ocean. Inflexible ile Gaulois yara almış halde Boğaz dışında kalır.</p><p>De Robeck taarruzu keser. Filo Seddülbahir–Kumkale gerisine çıkar. Tabyalar hasar görmüştür; susmamışlardır. Mayın hatları yerindedir. Boğaz geçilmez. Saat saat döküm haritanın 18 Mart şeridindedir.</p></div>
+<div class="prose"><p>18 Mart 1915 deniz taarruzunda Bouvet, Irresistible ve Ocean battı; Inflexible ve Gaulois hasar gördü. Ocean’ın mayın isabeti hakkındaki kaynaklar farklı kesinlikte anlatır. Gaulois için raporda geçen Drepano konumu, başka bir ada adıyla kanıtsız eşleştirilmez. <a href="#kaynak-notu">Gemi kayıtları ve kanıt metinleri</a>.</p>
+<p>Nusret’in Erenköy hattı ayrı bir olaydır; tarih ve mayın sayısı için <a href="/olaylar/nusret-erenkoy-hattini-doker/">Nusret kaynak notuna</a> bakınız. Haritadaki saatler ve gemi konumları tam belge karşılaştırması tamamlanmış kayıtlar değildir.</p>
+<p>Carden’ın 16 Mart 1915 ayrılış kaydı ile de Robeck’in 17 Mart 1915 görev kaydı ayrı tutulur. İki tarih tek bir devir günü olarak birleştirilmedi; bu ayrım için <a href="/komutanlar/john-de-robeck/">komuta kaynak notu</a> bulunur.</p></div>
 <p><a class="btn" href="/?olay=18-mart-deniz-muharebesi#harita">Haritada göster</a></p>
 <h2>Metninde adı geçen komutanlar</h2>
 <ul class="roster">
@@ -89,38 +100,52 @@
   <li><a href="/komutanlar/emile-guepratte/"><strong>Émile Guépratte</strong><span>Fransız deniz tümeni</span></a></li>
 </ul>
 <p class="back-link"><a href="/olaylar/#deniz">Olaylar listesine dön</a></p>
-<h2>Kaynakça</h2>
+<h2 id="kaynak-notu" tabindex="-1">Kaynakça</h2>
 <div class="prose">
-<p>Kurum çerçevesi: Genelkurmay ATASE’nin yayımlanmış Çanakkale özetleri; <a href="https://www.awm.gov.au/">Australian War Memorial</a>; <a href="https://www.iwm.org.uk/">Imperial War Museum</a>. Bu sayfada eser cildi, belge numarası ve sayfa işli değildir. Ayrıntı bu yüzden doğrulanmış kayıt olarak işaretlenmez. <a href="/kaynakca/">Kaynakça</a></p>
+<h3>Belirli kayıtlar ve kanıt sınırları</h3>
+<p>Aşağıdaki fotoğraf künyeleri önceki araştırmada kaydedilmiştir. Bunlar harp ceridesi veya bütün anlatıyı doğrulayan belge olarak sunulmaz. Önceki inceleme tarihi 15 Ekim 2026’dır; 16 Ekim 2026’daki yeniden erişim denemesi her iki adreste de HTTP 403 yanıtı verdi. Durum: önceki metadata kaydı mevcut, bu tur yeniden doğrulanamadı.</p>
+<ul>
+<li><strong>Bouvet — IWM HU 103301.</strong> <a href="https://www.iwm.org.uk/collections/item/object/205227618">HMS AGAMEMNON DURING THE FIRST WORLD WAR</a>. Önceki kayıttaki künye alıntısı: <q>The Bouvet struck a Turkish mine and sank</q>. Önceki kayıt, açıklamada 18 Mart 1915 tarihinin geçtiğini belirtir. Künye batış anlatısıyla ilişkilidir; kesin batış saati, mayın koordinatı, belirli bir mayın hattı veya kesin zayiat toplamı bu notla doğrulanmaz.</li>
+<li><strong>Irresistible — IWM Q 21399.</strong> <a href="https://www.iwm.org.uk/collections/item/object/205024811">BRITISH SHIPS OF THE FIRST WORLD WAR</a>. Önceki kayıttaki künye alıntısı: <q>Mined and then sunk by Turkish guns in the Dardanelles, 18 March 1915.</q> Fotoğrafın üretim tarihi önceki kayıtta 1914’tür; bu tarih, açıklamadaki batış tarihiyle aynı alan değildir. Çekme girişiminin ayrıntıları, kesin saat ve batış mekanizmasının tamamı bu fotoğraf künyesiyle kesinleştirilmez.</li>
+</ul>
+<h3 id="ocean-kaynak">Ocean ve Inflexible: bu tur erişilen kaynaklar</h3>
+<p><strong>İnceleme tarihi: 16 Ekim 2026.</strong> Aşağıdaki sayfalar bu tur açılarak metinleri okundu. Durum: kaynak metni incelendi; harp ceridesiyle ayrıntılı doğrulama tamamlanmadı. Bu durum sayfanın veya saatli kronolojinin tamamının doğrulandığı anlamına gelmez.</p>
+<ul>
+<li><strong>Ocean — Australian War Memorial A02360.</strong> <a href="https://www.awm.gov.au/collection/C1004447">HMS Ocean mürettebatı fotoğrafının koleksiyon kaydı</a>. Açıklamadaki kanıt: <q>The Ocean was sunk by mines in the Dardanelles on 18 March 1915.</q> Bu, fotoğrafın çekim anına değil, koleksiyon açıklamasına ait bilgidir. Fotoğraf tarihi Ocak 1915, çekim yeri Süveyş Kanalı olarak kayıtlıdır. Künye, kesin batış saatini, yedekleme girişimini ve tahliyenin ayrıntılarını belgelemiyor.</li>
+<li><strong>Kaynakların kesinlik farkı — DVA Anzac Portal.</strong> <a href="https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/dardanelles-strategy">Dardanelles strategy and naval operations 1914 to 1915</a> anlatısının “Nusret the minelayer” bölümünde Ocean için <q>Ocean might have hit a mine too</q> ifadesi kullanılıyor. AWM künyesinin kesin anlatımı ile bu ihtimalli anlatım aynı kesinlikte kabul edilmiyor. İki kaynak, mayın isabetinin mekanizmasını tek başına kesinleştirmek için yeterli sayılmadı.</li>
+<li><strong>Inflexible — aynı DVA anlatısı.</strong> İlgili bölümde <q>Inflexible was badly damaged and struggled out of the straits.</q> deniyor. Bu metin ağır hasar ve Boğaz’dan çıkış anlatısını destekler; kesin isabet saati, kayıp sayısı veya hasar bölmesi için ayrıca doğrudan belge gerekir.</li>
+</ul>
+<h3 id="gaulois-kaynak">Gaulois: harekât raporunun çevrimyazısı</h3>
+<p><a href="https://www.naval-history.net/WW1Battle1503Dardanelles2.htm">Naval-History.Net — Dardanelles and Gallipoli, Navy and Army Despatches</a> sayfasında, 17–18 Mart harekâtını anlatan ve sonunda J. M. de Robeck imzasıyla 24 Mart 1915 tarihi verilen rapor aktarılıyor. Hasarlı gemiler bölümündeki kanıt: <q>&#34;Gaulois&#34; grounded on north of Drepano Island - damage due to gunfire.</q></p>
+<p><strong>İnceleme tarihi: 16 Ekim 2026. Durum: çevrimyazı metni incelendi; asıl belge görüntüsüyle karşılaştırılmadı.</strong> Bu aktarım hasar ve karaya oturma anlatısını destekler. Drepano adı kaynakta geçtiği biçimde korunmuştur; bu not yeni bir koordinat üretmez ve harita noktasını doğrulamaz. Hasarın ayrıntıları ile karaya oturmanın kesin saati bu kısa alıntıdan çıkarılmaz.</p>
+<h3>Açık kalan belge ihtiyaçları</h3>
+<ul>
+<li><strong>Komuta tarihleri:</strong> Carden’ın ayrılışı ile de Robeck’in görev kaydını ayrı ayrı belgeleyen kayıtlar gerekir.</li>
+<li><strong>Nusret hattı:</strong> tarih, sayı ve hat anlatısına ilişkin kurum kayıtları <a href="/olaylar/nusret-erenkoy-hattini-doker/#kaynak-notu">Nusret kaynak notunda</a> gösterilir. Özgün döküm raporu ve kesin hat geometrisinin doğrulanması açık kalır.</li>
+<li><strong>Gemi ayrıntıları:</strong> Ocean ve Inflexible için yukarıdaki sınırlı kaynak desteği mevcut; kesin saatler, tahliye ve hasar ayrıntıları açık. Gaulois için yukarıdaki rapor çevrimyazısı bulundu; asıl belge görüntüsü ve ayrıntılı hasar kaydıyla karşılaştırma açık.</li>
+<li><strong>Saatli kronoloji:</strong> atlasın kesin saatleri, zayiat sayıları ve emir anlatıları ayrıca belgeyle eşleştirilmelidir. Bu kaynak notu, saat şeridinin doğrulandığı anlamına gelmez.</li>
+</ul>
+<p>Kurum çerçevesi: Genelkurmay ATASE’nin yayımlanmış Çanakkale özetleri; <a href="https://www.awm.gov.au/">Australian War Memorial</a>; <a href="https://www.iwm.org.uk/">Imperial War Museum</a>. Yukarıdaki fotoğraf künyeleri, anlatının bütün ayrıntılarını belgeleyen eser cildi ve sayfa eşleştirmesinin yerini tutmaz. Ayrıntı bu yüzden doğrulanmış kayıt olarak işaretlenmez. <a href="/kaynakca/">Kaynakça</a></p>
 </div>
+<!-- atlas-event-navigation:start -->
+<nav class="event-navigation" aria-label="Olay kayıtları arasında gezinme">
+<p>Atlasın kayıt sırasına göre ilerleyin. Aynı gündeki kayıtlar kesin saat sırasını göstermez.</p>
+<div><a href="/olaylar/nusret-erenkoy-hattini-doker/"><span>Önceki kayıt</span><strong>Nusret, Erenköy hattını döker</strong></a><a href="/olaylar/"><span>Liste</span><strong>Tüm olaylar</strong></a><a href="/olaylar/e15-bogazda-karaya-oturur/"><span>Sonraki kayıt</span><strong>E15 Boğaz’da karaya oturur</strong></a></div>
+</nav>
+<!-- atlas-event-navigation:end -->
 </main>
 <footer class="site-footer">
   <div class="inner">
     <p>onsekizmart.com · Çanakkale 1915. Harita 18 Mart deniz muharebesiyle açılır. Mevkiler yaklaşık işaretlenmiştir; birlik noktaları sorumluluk sahası merkezidir.</p>
     <p>Genelkurmay ATASE özetleri, Australian War Memorial, Imperial War Museum. Zayiat toplamı, uydurma emir ve alıntı yoktur.</p>
     <nav class="foot-links" aria-label="Alt">
+      <a href="/inceleme-notlari/">İçerik incelemesi</a>
       <a href="/kaynakca/">Kaynakça</a>
       <a href="/nasil-okunur/">Nasıl okunur</a>
       <a href="/sozluk/">Sözlük</a>
     </nav>
   </div>
 </footer>
-<script>
-(function () {
-  var b = document.getElementById("nav-toggle");
-  var p = document.getElementById("nav-panel");
-  if (!b || !p) return;
-  b.addEventListener("click", function () {
-    var open = p.classList.toggle("is-open");
-    b.setAttribute("aria-expanded", open ? "true" : "false");
-  });
-  p.addEventListener("click", function (e) {
-    if (e.target.closest("a")) {
-      p.classList.remove("is-open");
-      b.setAttribute("aria-expanded", "false");
-    }
-  });
-})();
-</script>
+<script src="/js/navigation.js"></script>
 </body>
 </html>

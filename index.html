@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>18 Mart 1915 · Çanakkale</title>
+  <title>Çanakkale Cephesi Dijital Atlası · 18 Mart 1915</title>
   <meta name="description" content="Çanakkale Cephesi’nin haritası ve kronolojisi. 18 Mart 1915’ten olayın yerine, komutanına ve gemisine.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://onsekizmart.com/">
-  <meta property="og:title" content="18 Mart 1915 · Çanakkale">
+  <meta property="og:title" content="Çanakkale Cephesi Dijital Atlası · 18 Mart 1915">
   <meta property="og:description" content="Çanakkale Cephesi’nin haritası ve kronolojisi. Olaydan yere, komutana ve gemiye.">
   <meta property="og:url" content="https://onsekizmart.com/">
   <meta property="og:type" content="website">
@@ -15,9 +15,19 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link rel="preconnect" href="https://server.arcgisonline.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-  <link rel="stylesheet" href="css/style.css?v=20261015j">
+  <link rel="stylesheet" href="css/style.css?v=20261017j">
+  <noscript><style>
+    body.home .map-help-row, body.home .tool-row, body.home .atlas-grid,
+    body.home #secilmis, body.home #camp-filters, body.home #kron-filters,
+    body.home #camp-list, body.home #event-list, body.home #saat,
+    body.home #kronoloji > .prose { display: none; }
+    body.home .map-stage { height: auto; min-height: 0; }
+  </style></noscript>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKGGXNVR7V"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -27,13 +37,13 @@
   </script>
 </head>
 <body class="home">
-<a class="skip" href="#map">Haritaya geç</a>
+<a class="skip" href="#harita">Haritaya geç</a>
 <header class="nav">
   <a class="brand" href="/">
     <span class="brand-mark">18 MART 1915</span>
     <span class="brand-sub">Çanakkale</span>
   </a>
-  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">Menü</button>
+  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" hidden>Menü</button>
   <nav class="nav-panel" id="nav-panel" aria-label="Site">
     <ul class="nav-links">
       <li><a href="/#harita">Harita</a></li>
@@ -47,18 +57,51 @@
 </header>
 
 <main>
-<section class="gate" id="giris">
-  <div>
-    <p class="kicker">Çanakkale Cephesi</p>
-    <h1>18 Mart 1915</h1>
-    <p class="gate-verse">Dur Yolcu, bilmeden gelip bastığın<br>bu toprak bir devrin battığı yerdir.</p>
+<section class="gate atlas-intro" id="giris" aria-labelledby="atlas-title">
+  <div class="atlas-intro-title">
+    <p class="kicker">Coğrafya · Kronoloji · Kaynaklar</p>
+    <h1 id="atlas-title">Çanakkale Cephesi<br><em>Dijital Atlası</em></h1>
   </div>
-  <div>
-    <p class="gate-copy">Boğaz’ın geçilemediği günün haritası ve Şubat 1915–Ocak 1916 seferinin kronolojisi. Bir olaydan yerine, komutanına ve gemisine geçilir.</p>
+  <div class="atlas-intro-guide">
+    <p class="atlas-intro-copy">Olayları coğrafya ve zaman üzerinden keşfedin. Haritadan olaylara, komutanlara ve kaynaklara geçin.</p>
+    <div class="atlas-intro-actions">
+      <a class="atlas-intro-primary" href="#harita">Haritayı keşfet</a>
+      <a class="atlas-intro-secondary" href="#kronoloji">Kronolojiye geç</a>
+    </div>
+    <p class="atlas-intro-geography">Gelibolu Yarımadası · Çanakkale Boğazı</p>
   </div>
 </section>
 
 <section class="map-stage" id="harita" aria-label="Harekât haritası">
+  <aside class="verification-notice" id="deep-link-notice" role="status" hidden>
+    <strong>Kayıt bulunamadı</strong>
+    <p id="deep-link-message"></p>
+    <p><a href="/olaylar/">Olay listesine git</a> · <a href="/#harita">Başlangıç haritasını aç</a></p>
+  </aside>
+  <noscript>
+    <div class="script-fallback">
+      <h2>Etkileşimli harita kullanılamıyor</h2>
+      <p>Harita, arama ve zaman çubuğu için JavaScript gerekir. Olay sayfalarını ve rehberi okumaya devam edebilirsiniz.</p>
+      <p><a href="/olaylar/">Olay listesine git</a> <a href="/nasil-okunur/">Kullanım rehberi</a></p>
+    </div>
+  </noscript>
+  <div class="map-help-row">
+    <details class="map-guide">
+      <summary>Harita nasıl kullanılır?</summary>
+      <div class="map-guide-content">
+        <ol>
+          <li><strong>Bir kayıt bulun.</strong> Ara alanına bir mevki, gemi veya olay adı yazın. Sonucu seçince ilgili bilgi paneli açılır.</li>
+          <li><strong>Zamanı seçin.</strong> 18 Mart görünümü saatleri, Cephe kronolojisi görünümü kronolojideki kayıtları gösterir. Geri ve İleri kayıtlar arasında geçer.</li>
+          <li><strong>Görünümü değiştirin.</strong> Katmanlar işaret türlerini açıp kapatır. Haritanın sağ altındaki katman simgesi uydu ve yol haritasını değiştirir. Yakınlaşmak için + / − düğmelerini kullanın.</li>
+          <li><strong>Kaydı okuyun.</strong> Seçili kaydın ayrıntı bağlantısını açın. Noktalar yaklaşık konumdur; günümüz taban görüntüsü tarihsel harita değildir.</li>
+        </ol>
+        <p>Başlangıç görünümü yalnız haritanın merkezini ve yakınlığını geri getirir; seçili olay, zaman ve süzgeçler korunur.</p>
+        <p><a href="/nasil-okunur/">Ayrıntılı kullanım rehberi</a> · <a href="#kronoloji">Kronolojiye geç</a></p>
+      </div>
+    </details>
+    <button type="button" id="map-reset" disabled>Başlangıç görünümü</button>
+  </div>
+  <p class="visually-hidden" id="map-view-status" role="status" aria-atomic="true"></p>
   <div class="tool-row" role="toolbar" aria-label="Harita araçları">
     <button type="button" id="tool-search" aria-expanded="false" aria-controls="search-pop">Ara</button>
     <button type="button" id="tool-filter" aria-expanded="false" aria-controls="filter-pop">Süzgeç</button>
@@ -72,8 +115,10 @@
       </div>
       <div class="dock-search search" id="search-pop">
         <label class="visually-hidden" for="q">Mevki, gemi veya olay ara</label>
-        <input id="q" type="search" placeholder="Tabya, gemi, muharebe ara…" autocomplete="off" aria-controls="q-results" aria-expanded="false" aria-autocomplete="list">
+        <input id="q" type="search" placeholder="Tabya, gemi, muharebe ara…" autocomplete="off" aria-controls="q-results" aria-expanded="false" aria-describedby="q-status">
+        <p id="q-status" class="search-status" role="status" aria-atomic="true"></p>
         <ul class="search-results" id="q-results" hidden></ul>
+        <button class="btn" id="q-more" type="button" aria-controls="q-results" hidden>Daha fazla sonuç göster</button>
       </div>
       <div class="dock-filters" id="filter-pop">
         <p class="dock-label" id="side-label">Taraf</p>
@@ -101,6 +146,10 @@
       </aside>
     </aside>
     <div class="map-frame">
+      <div class="map-playback" id="map-playback" role="group" aria-label="Haritada oynatma" hidden>
+        <div><span id="map-playback-time"></span><strong id="map-playback-title"></strong></div>
+        <button type="button" id="map-playback-pause">Duraklat</button>
+      </div>
       <div id="map" role="application" aria-label="Çanakkale 1915 haritası. Açılış: 18 Mart deniz muharebesi. Taban harita günümüz uydu görüntüsüdür."></div>
     </div>
     <div class="stage-side">
@@ -113,7 +162,7 @@
           <div class="tl-controls">
             <div class="mode-switch" role="group" aria-label="Zaman görünümü">
               <button type="button" id="mode-18" aria-pressed="true">18 Mart</button>
-              <button type="button" id="mode-camp" aria-pressed="false">Kampanya</button>
+              <button type="button" id="mode-camp" aria-pressed="false">Cephe kronolojisi</button>
             </div>
             <div class="transport" role="group" aria-label="Oynatma">
               <button type="button" id="tl-prev" aria-label="Geri, önceki olay">Geri</button>
@@ -122,8 +171,15 @@
             </div>
           </div>
         </div>
+        <label class="playback-speed" for="tl-speed">Olaylar arası bekleme
+          <select id="tl-speed">
+            <option value="2400">2,4 saniye</option>
+            <option value="5000">5 saniye</option>
+            <option value="8000">8 saniye</option>
+          </select>
+        </label>
         <input id="tl-range" type="range" min="450" max="1350" value="450" step="1" aria-label="Saat">
-        <p class="tl-hint" id="tl-hint">Saat çubuğu 18 Mart 1915 günüdür.</p>
+        <p class="tl-hint" id="tl-hint">Saat çubuğu 18 Mart 1915 günüdür; saatlerin belge karşılaştırması tamamlanmadı.</p>
         <p class="tl-event" id="tl-event" aria-live="polite"><em>07:30</em> Zaman çubuğunu kaydırın; harita o saatteki mevkiye uçar.</p>
         <ul class="legend" aria-label="İşaretler">
           <li><b class="t">T</b>Tabya</li>
@@ -150,6 +206,14 @@
 <section class="sheet" id="kronoloji">
   <p class="section-kicker">Şubat 1915 – Ocak 1916</p>
   <h2 class="sec">Kronoloji</h2>
+  <noscript><div class="script-fallback">
+    <p>Etkileşimli kronoloji JavaScript olmadan gösterilemiyor. Olay sayfalarına olay listesinden ulaşabilirsiniz.</p>
+    <p><a href="/olaylar/">Olay listesini aç</a></p>
+  </div></noscript>
+  <aside class="verification-notice" aria-label="Kronoloji kaynak durumu">
+    <strong>Belge doğrulaması tamamlanmadı</strong>
+    <p>Kronolojideki saatler, sayılar ve anlatı ayrıntıları tek tek belge kanıtıyla doğrulanmış sayılmaz. Kurum bağlantısı tek başına iddia kanıtı değildir. <a href="/kaynak-politikasi/">Kaynak politikası</a></p>
+  </aside>
   <div class="prose">
     <p>Satıra basınca harita o mevkiye gider. 18 Mart satırı saat şeridini açar. Listede olmayan bir gün için olay üretilmez. Aralık notu, ayrı bir muharebe sayfası değildir. Taraf ile deniz veya kara birlikte seçilir. Tümü ve Temizle süzgeci sıfırlar. Adı olan olaylar <a href="/olaylar/">Olaylar</a> sayfasındadır.</p>
   </div>
@@ -206,6 +270,7 @@
   <div class="inner">
     <p>onsekizmart.com · Çanakkale Cephesi. Eğitim modeli; resmî birlik cetveli değildir. Mevkiler yaklaşıktır.</p>
     <nav class="foot-links" aria-label="Alt">
+      <a href="/inceleme-notlari/">İçerik incelemesi</a>
       <a href="/hakkinda/">Hakkında</a>
       <a href="/kaynak-politikasi/">Kaynak politikası</a>
       <a href="/telif/">Telif</a>
@@ -216,10 +281,10 @@
   </div>
 </footer>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="js/data.js"></script>
-<script src="js/campaign.js?v=20261015e"></script>
-<script src="js/model.js?v=20261015d"></script>
-<script src="js/app.js?v=20261015g"></script>
+<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script defer src="js/data.js?v=20261017b"></script>
+<script defer src="js/campaign.js?v=20261017b"></script>
+<script defer src="js/model.js?v=20261017b"></script>
+<script defer src="js/app.js?v=20261017u"></script>
 </body>
 </html>

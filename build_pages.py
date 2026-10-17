@@ -6,7 +6,7 @@ import sys
 import xml.etree.ElementTree as ET
 
 SITE = "https://onsekizmart.com"
-SKIP_PARTS = {".git", "tests", "css", "js"}
+SKIP_PARTS = {".git", "tests", "css", "js", "archive", "research", "prototip", "node_modules"}
 INFO_PATHS = {
     "/hakkinda/",
     "/kaynak-politikasi/",

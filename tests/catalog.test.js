@@ -114,7 +114,7 @@ test("kaynakça süzgeci mevcut kartları süzer ve veri basmaz", () => {
 test("yayımlanan sayfalarda GA4 etiketi tektir", () => {
   function walk(dir, out) {
     for (const name of fs.readdirSync(dir)) {
-      if (name === ".git" || name === "tests" || name === "node_modules" || name === "research") continue;
+      if (name === ".git" || name === "tests" || name === "node_modules" || name === "research" || name === "prototip" || name === "archive") continue;
       const full = path.join(dir, name);
       if (fs.statSync(full).isDirectory()) walk(full, out);
       else if (name === "index.html") out.push(full);
