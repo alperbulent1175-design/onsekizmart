@@ -1,0 +1,45 @@
+{
+  "reviewDate": "2026-10-18",
+  "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1069991/document/5520739.PDF",
+  "catalogUrl": "https://www.awm.gov.au/collection/C1417086",
+  "edition": "Volume II, Chapter V, 11th edition, 1941",
+  "localFile": "ham/bean-chapter-v.pdf",
+  "status": "ilgili_sayfalar_goruntuden_okundu_ozgun_belge_karsilastirmasi_acik",
+  "records": [
+    {
+      "printedPage": 133,
+      "physicalPdfPage": 2,
+      "evidenceText": "at 3.30, while it was still dark",
+      "scope": "Taarruz planı; fiilî hareket saatlerinin birlik bazında doğrulanması değildir."
+    },
+    {
+      "printedPage": 138,
+      "physicalPdfPage": 7,
+      "evidenceText": "instructed to stand to arms at 3 a.m. instead of at 3.30",
+      "scope": "Keşif raporları sonrası hazırlık emri; özgün raporlar henüz incelenmedi. Sayfanın dipnotundaki başka bir haberin sonradan aldatmaca olduğunun anlaşıldığı açıklaması da okundu; o haber bağımsız istihbarat kanıtı sayılmadı."
+    },
+    {
+      "printedPage": 134,
+      "physicalPdfPage": 3,
+      "evidenceText": "The main assault was thus to be made as follows",
+      "scope": "Ana taarruz kesimleri kaynak atfiyla siteye eklendi. Gorevlendirme, fiili katilim veya hedefe ulasma olarak yorumlanmadi. Sayfanin tamamı ve dipnotlari goruntuden okundu; etnik deger yargilari aktarilmadi. Liste eksiksiz birlik dokumu degildir."
+    },
+    {
+      "printedPages": [
+        155,
+        156
+      ],
+      "physicalPdfPages": [
+        30,
+        31
+      ],
+      "evidenceText": "the enemy continued at various points to throw forward bodies of troops",
+      "scope": "Iki sayfa ve dipnotlar goruntuden okundu. Ilk hucumun durmasi ile atesin kesilmesi ayrildi. Yazarın kucumseyici benzetmeleri, bireysel atis basarisi iddialari ve kayip sayilari aktarilmadi. Osmanli durdurma emri bu metinden cikarilmadi."
+    }
+  ],
+  "openQuestions": [
+    "Osmanlı birliklerinin gerçek hücum saatleri ve durdurma emirleri",
+    "Hava keşif raporlarının özgün nüshaları",
+    "Birlik bazında mevcut ve zayiat cetvelleri"
+  ]
+}
