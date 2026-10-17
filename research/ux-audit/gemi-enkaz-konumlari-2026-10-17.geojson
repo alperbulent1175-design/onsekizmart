@@ -1,0 +1,115 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.340683333333335,
+          40.073966666666664
+        ]
+      },
+      "properties": {
+        "ship": "Irresistible",
+        "represents": "published_wreck_position",
+        "sourceUrl": "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download",
+        "page": 76,
+        "reviewed": "2026-10-17",
+        "evidenceText": "Basılı s.76 üzerinde yayımlanmış derece/ondalıklı dakika değeri; metin ve görüntü incelendi. Sayısal dönüşüm önceki araştırma kayıtlarında izlenebilir.",
+        "status": "yayin_koordinati_karsilastirildi",
+        "datum": "belirtilmemis",
+        "precisionNote": "Hesap basamakları metre düzeyinde saha doğruluğu değildir.",
+        "siteIntegration": "Bu dosya araştırma derlemesidir; otomatik harita aktarımı yoktur."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.16515,
+          40.04411666666667
+        ]
+      },
+      "properties": {
+        "ship": "Majestic",
+        "represents": "published_wreck_position",
+        "sourceUrl": "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download",
+        "page": 81,
+        "reviewed": "2026-10-17",
+        "evidenceText": "Basılı s.81 üzerinde yayımlanmış derece/ondalıklı dakika değeri; metin ve görüntü incelendi. Sayısal dönüşüm önceki araştırma kayıtlarında izlenebilir.",
+        "status": "yayin_koordinati_karsilastirildi",
+        "datum": "belirtilmemis",
+        "precisionNote": "Hesap basamakları metre düzeyinde saha doğruluğu değildir.",
+        "siteIntegration": "Bu dosya araştırma derlemesidir; otomatik harita aktarımı yoktur."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.26955,
+          40.54493333333333
+        ]
+      },
+      "properties": {
+        "ship": "AE2",
+        "represents": "published_wreck_position",
+        "sourceUrl": "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download",
+        "page": 78,
+        "reviewed": "2026-10-17",
+        "evidenceText": "Basılı s.78 üzerinde yayımlanmış derece/ondalıklı dakika değeri; metin ve görüntü incelendi. Sayısal dönüşüm önceki araştırma kayıtlarında izlenebilir.",
+        "status": "yayin_koordinati_karsilastirildi",
+        "datum": "belirtilmemis",
+        "precisionNote": "Hesap basamakları metre düzeyinde saha doğruluğu değildir.",
+        "siteIntegration": "Bu dosya araştırma derlemesidir; otomatik harita aktarımı yoktur."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.215216666666667,
+          40.297866666666664
+        ]
+      },
+      "properties": {
+        "ship": "Lundy",
+        "represents": "published_wreck_position",
+        "sourceUrl": "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download",
+        "page": 83,
+        "reviewed": "2026-10-17",
+        "evidenceText": "Basılı s.83 üzerinde yayımlanmış derece/ondalıklı dakika değeri; metin ve görüntü incelendi. Sayısal dönüşüm önceki araştırma kayıtlarında izlenebilir.",
+        "status": "yayin_koordinati_karsilastirildi",
+        "datum": "belirtilmemis",
+        "precisionNote": "Hesap basamakları metre düzeyinde saha doğruluğu değildir.",
+        "siteIntegration": "Bu dosya araştırma derlemesidir; otomatik harita aktarımı yoktur."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.225983333333332,
+          40.313583333333334
+        ]
+      },
+      "properties": {
+        "ship": "Louis",
+        "represents": "published_wreck_position",
+        "sourceUrl": "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download",
+        "page": 88,
+        "reviewed": "2026-10-17",
+        "evidenceText": "Basılı s.88 üzerinde yayımlanmış derece/ondalıklı dakika değeri; metin ve görüntü incelendi. Sayısal dönüşüm önceki araştırma kayıtlarında izlenebilir.",
+        "status": "yayin_koordinati_karsilastirildi",
+        "datum": "belirtilmemis",
+        "precisionNote": "Hesap basamakları metre düzeyinde saha doğruluğu değildir.",
+        "siteIntegration": "Bu dosya araştırma derlemesidir; otomatik harita aktarımı yoktur."
+      }
+    }
+  ]
+}

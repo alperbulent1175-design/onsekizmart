@@ -1,0 +1,36 @@
+{
+  "id": "H12541",
+  "ship": "ae2",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/H12541",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/H12541/screen/4128005.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "1915",
+  "maker": null,
+  "captionTr": "AE2 seyir hâlinde, 1915. Kurum açıklamasındaki Büyük Avustralya Körfezi çekim yeri ihtimallidir; Çanakkale çekimi diye kullanılmaz.",
+  "evidenceText": "AE2 seyir hâlinde, 1915. Kurum açıklamasındaki Büyük Avustralya Körfezi çekim yeri ihtimallidir; Çanakkale çekimi diye kullanılmaz.",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "ae2-h12541.jpg",
+  "sha256": "53c8c97df28783f60c46ba8f655b4a3b473f9463f885dc47614be623f85673e9",
+  "bytes": 120757,
+  "width": 639,
+  "height": 392,
+  "credit": "Australian War Memorial, H12541",
+  "altTr": "Dalgalı denizde, uzakta seyreden bir denizaltı.",
+  "published": false,
+  "coordinateEvidence": false,
+  "visualReviewDate": "2026-10-17",
+  "limits": [
+    "Kurum açıklaması gemi ve bağlam tanımlamasının dayanağıdır; bağımsız gemi teşhisi yapılmadı.",
+    "Fotoğraf konumu enkaz koordinatı olarak kullanılamaz.",
+    "Kurumun sunduğu ekran kopyasıdır; kırpılmadı, renklendirilmedi ve filigranı kaldırılmadı."
+  ],
+  "sitePreparedPath": "images/ships/ae2-h12541.jpg",
+  "sitePreparedPage": "donanma/",
+  "localUses": [
+    "donanma/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

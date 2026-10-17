@@ -8,7 +8,7 @@ test('28 olay sayfası mevcut atlas sırasındaki komşularına bağlanır', () 
   const list = entries();
   assert.equal(list.length, 28);
   list.forEach((entry, index) => {
-    const html = fs.readFileSync(path.join(root, entry.href, 'index.html'), 'utf8');
+    const html = fs.readFileSync(path.join(root, entry.href, 'index.html'), 'utf8').replace(/\r\n/g, '\n');
     assert.equal(html.split('<!-- atlas-event-navigation:start -->').length, 2);
     assert.ok(html.includes(render(list, index)));
     assert.ok(html.indexOf('id="kaynak-notu"') < html.indexOf('<!-- atlas-event-navigation:start -->'));

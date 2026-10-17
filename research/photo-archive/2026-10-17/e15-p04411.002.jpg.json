@@ -1,0 +1,30 @@
+{
+  "id": "P04411.002",
+  "ship": "e15",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C1068415",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/P04411.002/screen/4102393.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "c 18 April 1915",
+  "maker": "Unknown",
+  "captionTr": "AWM kaydına göre Kepez açıklarında karaya oturmuş E15. Künye tarihi yaklaşık 18 Nisan 1915; olayın farklı aşamalarının tarihleri ayrı tutulur.",
+  "evidenceText": "AWM kaydına göre Kepez açıklarında karaya oturmuş E15. Künye tarihi yaklaşık 18 Nisan 1915; olayın farklı aşamalarının tarihleri ayrı tutulur.",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "e15-p04411.002.jpg",
+  "sha256": "b1344232480163b55a32c85ccd631d9a4f2b8a1a076c5c9612864f376311fa53",
+  "bytes": 134067,
+  "width": 640,
+  "height": 473,
+  "credit": "Australian War Memorial, P04411.002",
+  "altTr": "Kıyıya yakın sığ suda duran denizaltı ve üzerinde görülen insanlar.",
+  "published": false,
+  "coordinateEvidence": false,
+  "visualReviewDate": "2026-10-17",
+  "localUses": [
+    "olaylar/e15-bogazda-karaya-oturur/index.html",
+    "fotograf-arsivi/index.html"
+  ],
+  "sitePreparedPath": "images/ships/e15-p04411.002.jpg"
+}

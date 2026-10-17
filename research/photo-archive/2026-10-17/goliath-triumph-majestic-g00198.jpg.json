@@ -1,0 +1,29 @@
+{
+  "id": "G00198",
+  "ship": "goliath-triumph-majestic",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/G00198",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/G00198/screen/4168508.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "May 1915",
+  "maker": "Brooks, Ernest",
+  "captionTr": "AWM kaydına göre Goliath, Triumph ve Majestic’ten kurtulanlardan bir grup HMS Lord Nelson’da, Mayıs 1915.",
+  "evidenceText": "AWM kaydına göre Goliath, Triumph ve Majestic’ten kurtulanlardan bir grup HMS Lord Nelson’da, Mayıs 1915.",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "goliath-triumph-majestic-g00198.jpg",
+  "sha256": "9293b62df9f90118a28e9864a83dfb43580b0c28aee5aadd7781b457355b1e95",
+  "bytes": 224767,
+  "width": 639,
+  "height": 471,
+  "credit": "Australian War Memorial, G00198",
+  "altTr": "Güvertede bir araya gelmiş kalabalık denizci grubu.",
+  "published": false,
+  "coordinateEvidence": false,
+  "visualReviewDate": "2026-10-17",
+  "sitePreparedPath": "images/ships/goliath-triumph-majestic-g00198.jpg",
+  "localUses": [
+    "fotograf-arsivi/index.html"
+  ]
+}

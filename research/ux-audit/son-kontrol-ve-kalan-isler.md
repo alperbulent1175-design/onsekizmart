@@ -364,3 +364,39 @@ Katman uyarısı genel activeId yerine panelin kendi selectedPlaceId değerini k
 28 olay sayfasının kaynak bölümünden sonra Önceki kayıt, Tüm olaylar ve Sonraki kayıt bağlantıları eklendi. Mevcut campaign.events sırası ve uygulamanın mevcut adres üretimi kullanılır; sessiz aralık notları ayrı sayfa olarak eklenmez. Aynı günün kayıtlarının kesin saat sırası olmadığı açıklanır. İlk/son sayfada olmayan komşu üretilmez. Bağlantılar statik HTML'dir, JavaScript gerektirmez. build_event_navigation.js yalnız işaretli gezinme bölümünü ve bu sayfaların CSS sürümünü günceller; tüm hedefleri yazmadan önce doğrular. İkinci çalıştırma 0 değişiklik verdi. Kaynak ve ana olay metinleri korunur. Olay sayfaları CSS sürümü 20261017k.
 
 73 JavaScript ve 21 Python testi geçti. Üç yeni test bütün 28 sayfada bağlantı/komşu varlığı ve kaynak bölümünün önce gelmesini, sınır kayıtları ve metin kaçırmayı denetler. Yerel gerçek tarayıcıda 390x844 görünümde Arıburnu gezinmesi kontrol edildi; Sonraki kayıt ile Kumkale sayfası açıldı, kaynak başlığı korundu, yatay taşma ve konsol hatası yoktu. Fiziksel cihaz/ekran okuyucu testi yapılmadı. Yeni tarihsel iddia, koordinat, scraper veya katalog değişikliği yok. Commit, push ve yayın yapılmadı.
+
+
+## 17 Ekim 2026 — T01 başlangıcı: 18 Mart iddia incelemesi
+
+31 deniz kronolojisi kaydının eski saat, dakika ve metni ayrı JSON inceleme listesine alındı. Bu liste kaynak kataloğu değildir ve şemasını değiştirmez. Bütün kayıtlar belge karşılaştırması açık durumunda; birinin kısmi incelenmesi diğerlerini doğrulamaz. İlk özel inceleme Inflexible kaydıdır.
+
+AWM Transcribe RCDIG1066703-4 sayfası açıldı, metindeki 42 işaretli bölüm okundu. Tekrar erişimde web aracı zaman aşımı verdi; doğrudan HTTP 200 sayfasında ilgili metin ve Awaiting approval durumu yeniden okundu. Kaynak URL, kısa kanıt, tarih ve sınırlar inceleme JSON'una ve 18 Mart kaynak notuna kaydedildi. Özgün belge görüntüsü karşılaştırılmadı. Mayın isabetinin 16:00 sonrasında bildirilmesi, atlasın 14:14 kaydını doğrudan doğrulamaz/yanlışlamaz; bildirim/isabet ve saat sistemi ayrımı açık. Yeni kesin saat atanmadı.
+
+Kısa anlatımdaki belgesiz 39 ölü ve 14:25 ayrılış ifadeleri çıkarıldı. Mevcut ağır hasar/Boğaz'dan çıkış özeti önceki DVA kaynak notu kapsamıyla korundu. Saatin doğrulanmadığı açıklaması eklendi; eski metin inceleme izinde tutulur. Ana sayfa veri sürümü 20261017c oldu. Koordinat, mevcut kaynak kataloğu veya doğrulama statüsü yükseltmesi yok.
+
+75 JavaScript testi geçti. Tam Python keşif paketinde 267 test, ayrıca zorunlu 15 Python testi başarılı. Gezinme testinin CRLF/LF farkını normalleştirmesi düzeltildi; bağlantı ve içerik denetimi korunuyor. Bu tur gerçek tarayıcı kontrolü yapılmadı. Scraper/ham arşiv değişmedi. Commit, push ve yeni yayın yapılmadı; düzeltmeler yerel. T01 tamamlanmadı.
+
+
+## 17 Ekim 2026 — T01: Bouvet ve tekrar eden gemi ayrıntıları
+
+AWM C1068416/P04411.003 koleksiyon açıklaması yeniden açıldı; Bouvet paragrafı okundu. 13:54 anlatısı kurum metninde mevcut; özgün gemi raporuyla karşılaştırma tamamlanmadı. Bu sayfa Nusret fotoğrafının açıklamasıdır; fotoğraf Bouvet batışının saatli görsel kanıtı olarak kullanılmaz. IWM HU103301 adresi tekrar HTTP403 verdi; önceki alıntı yeniden doğrulanmış yapılmadı.
+
+Bouvet saatli metnindeki 1 dakika 55 saniye, 639 kayıp, 47 kurtulan ve Cevat Bey teyidi bu kaynakla belgelenmediği için kısa anlatımdan çıkarıldı. Aynı iddiaların mevki ve gemi özetlerindeki kesin sunumu da kaldırıldı. Önceki Inflexible düzeltmesinin mevki/donanma kopyaları tamamlandı. Donanmadaki ayrıntılı iki paragraf sınırlı kaynak açıklamalarına bağlandı. Yeni sayı, saat veya koordinat atanmadı. Eski alanlar/iki donanma parçası inceleme JSON'unda korunur; kaynak URL, tarih, kanıt özeti ve durum eklenir. Katalog şeması/statüleri değişmez.
+
+76 JavaScript ve 267 Python testi geçti. Yeni test tekrar eden kesin sayıların kaldırılmasını, konumların korunmasını ve kaynak durumunun yükseltilmemesini kapsar. Gerçek tarayıcı kontrolü bu tur yapılmadı. Ana sayfa veri sürümü 20261017d. Scraper/ham arşiv değişmedi; commit, push veya yayın yapılmadı. İki kayıt için kısmi inceleme yapıldı; 31 kaydın bütünü veya bu iki kaydın bütün iddiaları doğrulanmış değildir.
+
+
+## 17 Ekim 2026 — T01: Ocean isabet, tahliye ve batış kayıtları
+
+AWM A02360/C1004447 ve DVA Dardanelles strategy metinleri yeniden açılıp okundu. Mayınla batışı kesin anlatan fotoğraf künyesiyle ihtimalli anlatan kurum metni arasındaki fark korundu. Fotoğrafın Ocak 1915/Süveyş bağlamı olay günüyle karıştırılmaz. Önceki özgün alıntılar tekrar çoğaltılmadı; inceleme JSON'una URL, kanıt özeti, tarih, durum ve sınırlar eklendi.
+
+Ocean isabet ve batış kartlarında kesin saat/hasar/tahliye/gece tespit ayrıntıları yerine açık inceleme durumu gösterilir. Mevki ve gemi özetleri, donanma ayrıntısı ve destek muhrip anlatımındaki Ocean tahliye sayısı aynı sınıra getirildi. Nusret hattında Ocean isabetini koşulsuz kesinleştiren kısa tekrar da kaynak farkına bağlandı. Eski mevki/gemi alanları ve donanma metin parçaları inceleme izinde korunur. Başlık/zaman anahtarları eski bağlantıları korumak için aynı kaldı; doğrulanmış saat etiketi değildir. Koordinat değişmedi.
+
+77 JavaScript ve 267 Python testi geçti. Yeni Ocean testi isabet/batış ayrımını, eski zaman anahtarlarının korunmasını, belgesiz tahliye ayrıntılarının kesin özetlerden kalkmasını, koordinatların ve kaynak durumunun korunmasını denetler. Bu tur gerçek tarayıcı kontrolü yapılmadı. Ana sayfa veri sürümü 20261017e. Katalog, scraper ve ham arşiv değişmedi; commit, push ve yayın yapılmadı. 31 saatli kaydın dördünde kısmi inceleme bulunuyor; T01 açık.
+
+
+## 17 Ekim 2026 — Batık koordinatlarının kaynak ve harita kontrolü
+
+Kullanıcı batış koordinatlarının kontrolünü istedi. Irresistible için araştırma yayınıyla yaklaşık 6km fark bulundu; yerel işaret yayımlanmış enkaz koordinatına taşındı. Datum belirsizliği, enkaz/isabet ayrımı ve konum kaynağı kartta açıklanır. Bouvet/Ocean sayısal dayanak tamamlanmadığı için taşınmadı, doğrulanmamış yaklaşık gösterim olarak etiketlendi. Majestic koordinatı bulundu fakat ayrı tarih/katman entegrasyonu açık; mevcut Seddülbahir mevkii yanlış biçimde taşınmadı. Diğer olayların mevcut mevki bağlantıları ve eksikleri raporlandı. Ayrıntı: batik-koordinat-incelemesi.md/json.
+
+80 JavaScript ve 267 Python testi geçti. Yerel gerçek Leaflet haritasında Irresistible işareti, kaynak bağlantısı ve belirsizlik metni kontrol edildi. İşaretin DOM/karo üzerinden geri hesaplanan coğrafi konumu hedefle çizim hassasiyeti içinde eşleşti; konsol hatası yok. Bu saha ölçümü değildir. Ana veri sürümü 20261017f, uygulama 20261017v. Katalog, scraper ve ham arşiv değişmedi; commit, push ve yayın yapılmadı.

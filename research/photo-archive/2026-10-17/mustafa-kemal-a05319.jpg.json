@@ -1,0 +1,30 @@
+{
+  "id": "A05319",
+  "person": "mustafa-kemal",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/A05319",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/A05319/screen/4088725.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "1915",
+  "maker": null,
+  "captionTr": "Mustafa Kemal’in portresi. AWM künyesinde Gelibolu ve 1915 olarak kayıtlıdır; kesin çekim günü belirtilmez.",
+  "evidenceText": "Mustafa Kemal’in portresi. AWM künyesinde Gelibolu ve 1915 olarak kayıtlıdır; kesin çekim günü belirtilmez.",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "mustafa-kemal-a05319.jpg",
+  "sha256": "394236b6d233612955d2369b3a7c4b7ae52b1963fd5b54df80976f379c538939",
+  "bytes": 214143,
+  "width": 519,
+  "height": 654,
+  "credit": "Australian War Memorial, A05319",
+  "altTr": "Kayalıkların yanında üniformalı, başlıklı ve dürbün taşıyan bir subay.",
+  "published": false,
+  "coordinateEvidence": false,
+  "visualReviewDate": "2026-10-17",
+  "localUses": [
+    "komutanlar/mustafa-kemal/index.html",
+    "fotograf-arsivi/index.html"
+  ],
+  "sitePreparedPath": "images/commanders/mustafa-kemal-a05319.jpg"
+}

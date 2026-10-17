@@ -1,0 +1,178 @@
+{
+  "reviewed": "2026-10-17",
+  "before": [
+    {
+      "id": "bouvet",
+      "type": "enkaz",
+      "name": "Bouvet’nin battığı mevki",
+      "lat": 40.01917,
+      "lng": 26.27167,
+      "meta": "18 Mart 1915 · saat ve kayıp ayrıntıları incelemede",
+      "short": "Bouvet’nin mayına çarpıp batışı AWM koleksiyon açıklamasında anlatılır. Kesin batış süresi ve zayiat sayısı doğrulanmadı.",
+      "note": [
+        "AWM P04411.003 koleksiyon açıklamasında mayın isabeti için 13:54 verilir; özgün gemi raporuyla karşılaştırma açık.",
+        "Önceki 1 dakika 55 saniye, 639 kayıp ve 47 kurtulan ifadeleri bu kaynakla doğrulanmaz. İnceleme sınırları 18 Mart kaynak notundadır."
+      ]
+    },
+    {
+      "id": "irresistible",
+      "type": "enkaz",
+      "name": "HMS Irresistible — mayın ve terk",
+      "lat": 40.0382,
+      "lng": 26.2875,
+      "meta": "Erenköy Koyu · 16.11 · ~19.30’da battı",
+      "short": "Makine dairesi doldu; Wear ~600 kişiyi tahliye etti. Akıntıda sürüklenerek akşam battı.",
+      "note": [
+        "16.11: Hamidiye menzilinden çıkmak için Erenköy’e manevra yaparken sancak makine dairesinin altından mayına çarptı.",
+        "16.14: Gemi 7° sancağa yattı, makineler durdu, kumandasız sürüklendi. Türk sahra topçusu Dardanos ve Hamidiye’den sabit hedefe yüklendi.",
+        "Wear muhribi ~600 mürettebatı tahliye etti; kaptan ve 10 gönüllü kaldı. Ocean yedekleme halatlarını bağlayamadı.",
+        "17.25’te kalan çekirdek mürettebat da indi. Terk edilen zırhlı saat 19.30 sularında battı."
+      ]
+    },
+    {
+      "id": "ocean",
+      "type": "enkaz",
+      "name": "HMS Ocean — mayın ve terk",
+      "lat": 40.0315,
+      "lng": 26.2788,
+      "meta": "18 Mart 1915 · isabet ve batış saatleri incelemede",
+      "short": "Ocean 18 Mart’ta battı. Mayın isabeti anlatıları farklı kesinliktedir; ayrıntılı saat ve tahliye bilgisi doğrulanmadı.",
+      "note": [
+        "AWM A02360 açıklaması mayınla batışı kesin anlatır; DVA Anzac Portal aynı ayrıntıyı ihtimalli ifade eder.",
+        "16:45, tahliye sayısı ve gemi görevleri için belge karşılaştırması tamamlanmadı. 22:30 kaydı özgün gemi raporuyla kesinleştirilmedi.",
+        "Kaynaklar ve inceleme sınırları 18 Mart Deniz Muharebesi sayfasındaki Ocean bölümündedir."
+      ]
+    }
+  ],
+  "method": "Derece + ondalıklı dakika/60; haversine R=6371.0088 km; tarihsel doğruluk mesafe hesabıyla kanıtlanmaz.",
+  "sources": [
+    {
+      "id": "kedioglu-oz-2023",
+      "url": "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download",
+      "publicationUrl": "https://www.tudav.org/images/Kitaplar/shipwrecks-of-the-gallipoli-campaign-and-protection-of-marine-biodiversity_53833.pdf",
+      "title": "Kedioğlu ve Öz (2023), Current condition of the Dardanelles Campaign shipwrecks from a diver’s point of view and technical diving requirements",
+      "pages": "76, 81",
+      "evidenceText": "Irresistible s.76: 40°04.438 N, 26°20.441 E; Majestic s.81: 40°02.647 N, 26°09.909 E.",
+      "date": "2026-10-17",
+      "status": "sayfa_metni_ve_goruntusu_incelendi",
+      "datum": "belirtilmemis",
+      "scope": "Enkaz konumu; tarihsel mayın/torpido isabet yeri değildir."
+    },
+    {
+      "id": "aktar-2017-map",
+      "url": "https://honesthistory.net.au/wp/wp-content/uploads/Aktar-A.-Who-Sank-the-Battleship-Bouvet-on-18-March-1915-The-Problems-of-Imported-Historiography-in-Turkey.pdf",
+      "page": "6 Map 1; 13 dipnot 42",
+      "evidenceText": "Harita Bouvet enkazını işaretler; dipnot araştırmacı koordinatlarını kullandığını belirtir. Açık sayısal koordinat tablosu bu incelemede bulunmadı.",
+      "date": "2026-10-17",
+      "status": "harita_goruldu_sayisal_koordinat_yok",
+      "scope": "Harita görselinden yeni koordinat türetilmedi."
+    },
+    {
+      "id": "nautilus-na004",
+      "url": "https://nautiluslive.org/cruise/na004",
+      "evidenceText": "Sefer metni Triumph batığında araştırma yapıldığını anlatır; sayfada açık sayısal batık koordinatı bulunmadı.",
+      "date": "2026-10-17",
+      "status": "sefer_metni_okundu_koordinat_yok"
+    },
+    {
+      "id": "kolay-karakas-unesco-2015",
+      "url": "https://www.vliz.be/imisdocs/publications/273572.pdf",
+      "title": "Kolay ve Karakaş, Echoes from the Deep: Wrecks of the Dardanelles Campaign, UNESCO 2015",
+      "pages": "19–23; sonar şekilleri 21–22",
+      "evidenceText": "Araştırmacıların çok ışınlı sonar çalışması anlatılıyor; Şekil 4 ve 5 Bouvet olarak tanımlanıyor. İncelenen şekil ve metinde kullanılabilir sayısal enlem-boylam bulunmadı. Şekil 4 ölçü çizgileri su derinliği diye alınmadı.",
+      "date": "2026-10-17",
+      "status": "sonar_goruntusu_incelendi_sayisal_koordinat_yok",
+      "scope": "Saha araştırması ve görselin yayını; Gemini koordinatını veya tüm tarihsel anlatıyı doğrulamaz."
+    },
+    {
+      "id": "nykiel-echoes-review",
+      "url": "https://www.navyingallipoli.com/pdfs/Echoes01.pdf",
+      "page": "8",
+      "evidenceText": "Ocean için özgün kitabın s.102–105 bölümü ve 75–79 numaralı sonar görselleri belirtiliyor. Kitabın bu sayfaları doğrudan incelenmedi; değerlendirmede sayısal koordinat bulunmadı.",
+      "date": "2026-10-17",
+      "status": "ozgun_kitap_sayfasi_tespit_edildi_dogrudan_inceleme_acik",
+      "scope": "Kaynak bulma izi; sayısal enkaz noktası veya hasar yorumunun doğrulaması değildir."
+    }
+  ],
+  "findings": [
+    {
+      "ship": "Irresistible",
+      "mapPlaceId": "irresistible",
+      "publishedDM": {
+        "latDegrees": 40,
+        "latMinutes": 4.438,
+        "lngDegrees": 26,
+        "lngMinutes": 20.441
+      },
+      "publishedDecimal": {
+        "lat": 40.073966666666664,
+        "lng": 26.340683333333335
+      },
+      "offsetKm": 6.025439418166341,
+      "source": "kedioglu-oz-2023",
+      "page": 76,
+      "decision": "Yayındaki enkaz noktasına taşındı; datum belirsizliği ve isabet/enkaz ayrımı açıklanır.",
+      "status": "yayinla_karsilastirildi"
+    },
+    {
+      "ship": "Bouvet",
+      "mapPlaceId": "bouvet",
+      "source": "aktar-2017-map",
+      "decision": "Sayısal dayanak tamamlanmadı; mevcut koordinat korunur, kesinlik etiketi verilmez.",
+      "status": "sayisal_dogrulama_acik"
+    },
+    {
+      "ship": "Ocean",
+      "mapPlaceId": "ocean",
+      "decision": "İncelenen kurum/saha kaynaklarında kullanılabilir açık sayısal dayanak bulunmadı. Mevcut nokta korunur.",
+      "status": "sayisal_dogrulama_acik"
+    },
+    {
+      "ship": "Majestic",
+      "mapPlaceId": "seddulbahir",
+      "publishedDM": {
+        "latDegrees": 40,
+        "latMinutes": 2.647,
+        "lngDegrees": 26,
+        "lngMinutes": 9.909
+      },
+      "publishedDecimal": {
+        "lat": 40.04411666666667,
+        "lng": 26.16515
+      },
+      "source": "kedioglu-oz-2023",
+      "page": 81,
+      "decision": "Mevcut olay bağlantısı Seddülbahir mevkisini açıyor; kale/mevki noktası enkaz diye taşınmadı. Ayrı enkaz işareti sonraki entegrasyon işi.",
+      "status": "yayin_koordinati_bulundu_ayri_isaret_yok"
+    },
+    {
+      "ship": "Goliath",
+      "mapPlaceId": "morto",
+      "decision": "Olay haritada Morto mevkiini açıyor; bu, enkaz noktasının doğrulanması değildir.",
+      "status": "sayisal_dogrulama_acik"
+    },
+    {
+      "ship": "Triumph",
+      "mapPlaceId": "ariburnu",
+      "source": "nautilus-na004",
+      "decision": "Olay bağlantısı Arıburnu mevkiidir; ayrı enkaz koordinatı doğrulanmadı.",
+      "status": "sayisal_dogrulama_acik"
+    },
+    {
+      "ship": "Barbaros Hayreddin",
+      "mapPlaceId": null,
+      "decision": "Mevcut olayda ayrı konum yok; bu incelemede doğrulanmış nokta eklenmedi.",
+      "status": "ayri_isaret_yok"
+    }
+  ],
+  "mapCheck": {
+    "environment": "Yerel gerçek tarayıcı; Leaflet/Esri",
+    "method": "İşaretin DOM çapası ve ekrandaki Esri karo z/y/x indislerinden Web Mercator geri hesabı",
+    "renderedLatitude": 40.07399946284555,
+    "renderedLongitude": 26.34075164794922,
+    "referenceLatitude": 40.073966667,
+    "referenceLongitude": 26.340683333,
+    "result": "Ekran çizim yuvarlaması içinde uyumlu; kaynak bağlantısı kartta mevcut; konsol hata listesi boş.",
+    "limits": "Saha/GPS ölçümü veya datum doğrulaması değildir."
+  }
+}

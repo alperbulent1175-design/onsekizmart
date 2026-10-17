@@ -1,0 +1,32 @@
+    .naval-photos { margin-block: 36px; }
+    .naval-photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+    .naval-photo { margin: 0; min-width: 0; border: 1px solid var(--line, #d3c9b7); padding: 12px; }
+    .naval-photo img { display: block; width: 100%; height: auto; }
+    .naval-photo figcaption { font-size: 15px; overflow-wrap: anywhere; }
+    .naval-photo figcaption p { margin: 10px 0; }
+    .naval-photo summary { cursor: pointer; padding-block: 8px; }
+    @media (max-width: 640px) { .naval-photo-grid { grid-template-columns: minmax(0, 1fr); } }
+
+.naval-photo-grid--single { grid-template-columns: minmax(0, 1fr); max-width: 680px; }
+.photo-jump { margin-block: 12px 24px; }
+.naval-photos[hidden], .naval-photo[hidden] { display: none; }
+.photo-search { display: flex; gap: 16px; align-items: end; flex-wrap: wrap; padding: 16px; border: 1px solid #d3c9b7; }
+.photo-search[hidden] { display: none; }
+.photo-search label { display: grid; gap: 6px; flex: 1 1 200px; min-width: 0; }
+.photo-search input, .photo-search select, .photo-search button { box-sizing: border-box; width: 100%; min-height: 44px; padding: 8px; font: inherit; }
+.photo-search button { width: auto; cursor: pointer; }
+.photo-jump a { display: inline-block; min-height: 44px; padding-block: 10px; box-sizing: border-box; }
+#fotograf-arsivi { scroll-margin-top: 100px; }
+#fotograf-arsivi:focus-visible { outline: 2px solid #285b6a; outline-offset: 4px; }
+.photo-viewer-open { overflow: hidden; }
+.photo-viewer { box-sizing: border-box; width: min(960px, calc(100% - 24px)); max-height: calc(100dvh - 24px); padding: 20px; overflow: auto; color: #272b27; background: #f7f3e9; border: 1px solid #807460; }
+.photo-viewer::backdrop { background: rgb(12 20 23 / 85%); }
+.photo-viewer-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.photo-viewer-bar[hidden] { display: none; }
+.photo-viewer h2 { margin: 0; }
+.photo-viewer figure { margin: 20px 0; }
+.photo-viewer figure > img { display: block; width: auto; max-width: 100%; max-height: 65dvh; height: auto; margin-inline: auto; object-fit: contain; }
+.photo-viewer figcaption { overflow-wrap: anywhere; }
+.photo-viewer button { min-height: 44px; padding: 8px 14px; cursor: pointer; font: inherit; }
+.photo-viewer :focus-visible { outline: 3px solid #285b6a; outline-offset: 3px; }
+@media (max-width: 480px) { .photo-viewer { padding: 12px; } }

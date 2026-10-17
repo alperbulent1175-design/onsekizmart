@@ -1,0 +1,37 @@
+{
+  "id": "A02360",
+  "ship": "ocean",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C1004447",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/A02360/screen/4151141.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "January 1915",
+  "maker": "Unknown",
+  "captionTr": "HMS Ocean mürettebatı, Süveyş Kanalı, Ocak 1915. Batış anını göstermez.",
+  "evidenceText": "HMS Ocean mürettebatı, Süveyş Kanalı, Ocak 1915. Batış anını göstermez.",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "ocean-a02360.jpg",
+  "sha256": "56159648e196fc20d26c39e42b6d8994b06ec96aca6f35ca90c06ad288b7ef56",
+  "bytes": 132043,
+  "width": 640,
+  "height": 448,
+  "credit": "Australian War Memorial, A02360",
+  "altTr": "Bir savaş gemisinin güvertesinde yan yana dizilmiş denizciler.",
+  "published": false,
+  "coordinateEvidence": false,
+  "visualReviewDate": "2026-10-17",
+  "limits": [
+    "Kurum açıklaması gemi ve bağlam tanımlamasının dayanağıdır; bağımsız gemi teşhisi yapılmadı.",
+    "Fotoğraf konumu enkaz koordinatı olarak kullanılamaz.",
+    "Kurumun sunduğu ekran kopyasıdır; kırpılmadı, renklendirilmedi ve filigranı kaldırılmadı."
+  ],
+  "sitePreparedPath": "images/ships/ocean-a02360.jpg",
+  "sitePreparedPage": "donanma/",
+  "localUses": [
+    "donanma/index.html",
+    "olaylar/18-mart-deniz-muharebesi/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

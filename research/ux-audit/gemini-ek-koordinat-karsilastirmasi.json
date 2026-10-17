@@ -1,0 +1,70 @@
+{
+  "reviewed": "2026-10-17",
+  "leadUrl": "https://gemini.google.com/share/e59e88607aec",
+  "method": "Gemini DMS: derece+dakika/60+saniye/3600; yayın: derece+ondalıklı dakika/60; haversine R=6371.0088 km. Basamak sayısı saha hassasiyeti değildir.",
+  "findings": [
+    {
+      "ship": "AE2",
+      "sourceUrl": "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download",
+      "page": 78,
+      "date": "2026-10-17",
+      "evidenceText": "Basılı s.78 metni ve görüntüsü incelendi. Enkaz koordinatı derece ve ondalıklı dakika olarak verilmiş; aşağıdaki publicationDecimal bu değerin dönüşümüdür.",
+      "status": "yayin_koordinati_ile_celisiyor",
+      "geminiDecimal": [
+        40.56111111111111,
+        27.691666666666666
+      ],
+      "publicationDecimal": [
+        40.54493333333333,
+        27.26955
+      ],
+      "distanceKm": 35.70848113914534,
+      "publicationDepthM": 72,
+      "datum": "belirtilmemis",
+      "mapChange": false,
+      "scope": "Yayımlanmış enkaz noktası karşılaştırması; yeni saha ölçümü, isabet yeri veya genel tarihsel anlatı doğrulaması değildir."
+    },
+    {
+      "ship": "Lundy",
+      "sourceUrl": "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download",
+      "page": 83,
+      "date": "2026-10-17",
+      "evidenceText": "Basılı s.83 metni ve görüntüsü incelendi. Enkaz koordinatı derece ve ondalıklı dakika olarak verilmiş; aşağıdaki publicationDecimal bu değerin dönüşümüdür.",
+      "status": "yayin_koordinati_ile_celisiyor",
+      "geminiDecimal": [
+        40.28333333333333,
+        26.216666666666665
+      ],
+      "publicationDecimal": [
+        40.297866666666664,
+        26.215216666666667
+      ],
+      "distanceKm": 1.620708116142064,
+      "publicationDepthM": 28,
+      "datum": "belirtilmemis",
+      "mapChange": false,
+      "scope": "Yayımlanmış enkaz noktası karşılaştırması; yeni saha ölçümü, isabet yeri veya genel tarihsel anlatı doğrulaması değildir."
+    },
+    {
+      "ship": "Louis",
+      "sourceUrl": "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download",
+      "page": 88,
+      "date": "2026-10-17",
+      "evidenceText": "Basılı s.88 metni ve görüntüsü incelendi. Enkaz koordinatı derece ve ondalıklı dakika olarak verilmiş; aşağıdaki publicationDecimal bu değerin dönüşümüdür.",
+      "status": "yayin_koordinati_ile_celisiyor",
+      "geminiDecimal": [
+        40.31944444444445,
+        26.244444444444447
+      ],
+      "publicationDecimal": [
+        40.313583333333334,
+        26.225983333333332
+      ],
+      "distanceKm": 1.6954744691613481,
+      "publicationDepthM": 18,
+      "datum": "belirtilmemis",
+      "mapChange": false,
+      "scope": "Yayımlanmış enkaz noktası karşılaştırması; yeni saha ölçümü, isabet yeri veya genel tarihsel anlatı doğrulaması değildir."
+    }
+  ]
+}

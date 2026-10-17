@@ -1,0 +1,30 @@
+{
+  "id": "A03549",
+  "person": "ian-hamilton",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C1007445",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/A03549/screen/6123019.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": null,
+  "maker": null,
+  "captionTr": "Ian Hamilton’ın portresi. Kurum kaydı kesin çekim tarihi vermiyor.",
+  "evidenceText": "Ian Hamilton’ın portresi. Kurum kaydı kesin çekim tarihi vermiyor.",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "ian-hamilton-a03549.jpg",
+  "sha256": "224e4855b13af41512eb96499325c54a038d3f3043c7b0828ee1a81932e48a92",
+  "bytes": 202067,
+  "width": 441,
+  "height": 653,
+  "credit": "Australian War Memorial, A03549",
+  "altTr": "Üniformalı, bıyıklı ve göğsünde madalyalar bulunan bir subayın portresi.",
+  "published": false,
+  "coordinateEvidence": false,
+  "visualReviewDate": "2026-10-17",
+  "localUses": [
+    "komutanlar/ian-hamilton/index.html",
+    "fotograf-arsivi/index.html"
+  ],
+  "sitePreparedPath": "images/commanders/ian-hamilton-a03549.jpg"
+}

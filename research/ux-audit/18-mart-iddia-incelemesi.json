@@ -1,0 +1,516 @@
+{
+  "reviewed": "2026-10-17",
+  "status": "inceleme_basladi",
+  "scope": "18 Mart saatli kayıtlar; bu liste tarihsel doğrulama değildir.",
+  "sources": [
+    {
+      "id": "awm-bean-42",
+      "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-4",
+      "record": "AWM38 3DRL 606/267/1; RCDIG1066703; metindeki sayfa işareti 42",
+      "evidence": "reported shortly after 4.p.m. that she had struck a mine",
+      "date": "2026-10-17",
+      "status": "cevrimyazi_okundu_onay_bekliyor",
+      "limits": "Sayfada Awaiting approval yazıyor. Özgün görüntüyle karşılaştırılmadı. Bildirim saati, isabetin kesin saati değildir; saat sistemi farkı çözülmedi."
+    },
+    {
+      "id": "awm-bouvet-description",
+      "url": "https://www.awm.gov.au/collection/C1068416",
+      "record": "P04411.003",
+      "date": "2026-10-17",
+      "evidence": "Koleksiyon açıklamasının Bouvet paragrafı mayın isabetini 13:54 olarak anlatır; kısa özgün alıntı 18 Mart sayfasındaki bouvet-saat-incelemesi bölümündedir.",
+      "evidenceKind": "kanıt özeti; özgün alıntıya sayfa içi referans",
+      "status": "koleksiyon_aciklamasi_okundu",
+      "limits": "Fotoğraf Nusret’i gösterir. Saat anlatısı fotoğrafın üretim zamanı değildir. Süre ve kesin zayiat sayıları doğrulanmaz; özgün rapor/personel listeleri karşılaştırılmadı."
+    },
+    {
+      "id": "awm-ocean-a02360",
+      "url": "https://www.awm.gov.au/collection/C1004447",
+      "record": "A02360",
+      "date": "2026-10-17",
+      "evidence": "Koleksiyon açıklaması Ocean’ın 18 Mart 1915’te mayınlarla battığını anlatır. Önceki özgün alıntı 18 Mart sayfasındaki ocean-kaynak bölümünde korunur.",
+      "evidenceKind": "kanıt özeti ve mevcut alıntıya referans",
+      "status": "koleksiyon_aciklamasi_yeniden_okundu",
+      "limits": "Fotoğraf Ocak 1915 Süveyş; olay anı fotoğrafı değil. Kesin saat ve tahliye ayrıntılarını vermez."
+    },
+    {
+      "id": "dva-ocean-uncertainty",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/dardanelles-strategy",
+      "record": "Nusret the minelayer bölümü",
+      "date": "2026-10-17",
+      "evidence": "Ocean için mayın isabeti ihtimal olarak ifade edilir. Önceki özgün alıntı 18 Mart sayfasındaki ocean-kaynak bölümündedir.",
+      "evidenceKind": "kanıt özeti ve mevcut alıntıya referans",
+      "status": "kurum_metni_yeniden_okundu",
+      "limits": "AWM açıklamasıyla aynı kesinlikte değildir. Kesin isabet saati, tahliye sayısı ve gece tespit ayrıntılarını belgelemez."
+    }
+  ],
+  "records": [
+    {
+      "key": "naval-review-01",
+      "title": "Karargâh güne başlar",
+      "existingTime": "07:30",
+      "existingMinute": 450,
+      "existingText": "Cevat Bey gece devriyeleri ve mayın hatlarının durum raporlarını alır. Selahattin Adil Bey cerideleri açtırır.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-02",
+      "title": "Donanma intikali",
+      "existingTime": "08:30",
+      "existingMinute": 510,
+      "existingText": "Amiral de Robeck komutasındaki armada Limni, İmroz ve Bozcaada’dan Boğaz ağzına toplanır. Hava açık, deniz sakin.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-03",
+      "title": "İlk yaklaşma raporu",
+      "existingTime": "08:45",
+      "existingMinute": 525,
+      "existingText": "Kumkale ve Seddülbahir dış gözetleme postaları büyük filonun Boğaz ağzına ilerlediğini bildirir.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-04",
+      "title": "Genel muharebe alarmı",
+      "existingTime": "09:00",
+      "existingMinute": 540,
+      "existingText": "Tüm kıyı bataryaları, seyyar obüsler ve mayın gruplarına alarm. Cephanelikler açılır, telefon hatları sürekli açık tutulur.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-05",
+      "title": "Savaş düzeni ve telsiz sessizliği",
+      "existingTime": "09:00",
+      "existingMinute": 540,
+      "existingText": "A Hattı İngiliz, B Hattı Fransız, C Hattı ihtiyat. Mürettebat muharebe istasyonlarına geçer.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-06",
+      "title": "Gözetleme tepesine intikal",
+      "existingTime": "09:30",
+      "existingMinute": 570,
+      "existingText": "Cevat Bey telemetre ve dürbünle Boğaz girişini bizzat takip eder. Ateş disiplini teyit edilir: 10.000 m’den önce ateş yok.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-07",
+      "title": "Boğaz girişinin geçilmesi",
+      "existingTime": "10:00",
+      "existingMinute": 600,
+      "existingText": "Öncü muhripler ve mayın tarayıcılar eşliğinde A Hattı Seddülbahir–Kumkale çizgisini aşar. Queen Elizabeth en önde.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-08",
+      "title": "İlk atış emri",
+      "existingTime": "10:30",
+      "existingMinute": 630,
+      "existingText": "Filo merkez tabyalara 13–14 km’de konuşlanır. De Robeck bayrak çekerek genel taarruzu başlatır.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-09",
+      "title": "Queen Elizabeth’in ilk 381 mm’lik salvosu",
+      "existingTime": "11:00",
+      "existingMinute": 660,
+      "existingText": "14.000 m’den Kilitbahir ve Çimenlik istikametine ilk dev mermiler. 11.05’te Lord Nelson, Agamemnon ve Inflexible katılır.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-10",
+      "title": "Seyyar bataryalara serbest atış",
+      "existingTime": "11:00",
+      "existingMinute": 660,
+      "existingText": "Cevat Bey seyyar obüsler ve Dardanos’a izin verir; ağır merkez tabyaları menzil için bekletilir.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-11",
+      "title": "İlk Türk karşılığı",
+      "existingTime": "11:30",
+      "existingMinute": 690,
+      "existingText": "Ağır tabyalar henüz menzil dışındadır. Dardanos, Mesudiye, Şevket ve seyyar obüsler sürpriz atışlara başlar.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-12",
+      "title": "Agamemnon ve Inflexible isabet alır",
+      "existingTime": "11:35",
+      "existingMinute": 695,
+      "existingText": "Şarapnel ve HE mermileri güvertelere isabet eder; telsiz antenleri ve gözetleme kuleleri hasar görür.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-13",
+      "title": "Fransız B Hattı hücum emri",
+      "existingTime": "12:00",
+      "existingMinute": 720,
+      "existingText": "De Robeck, tabyaların yeterince yıpratıldığını düşünerek Guépratte’a ileri sürme emri verir. 12.06’da Fransızlar ön safa çıkar.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-14",
+      "title": "Ağır tabyalara ateş",
+      "existingTime": "12:00",
+      "existingMinute": 720,
+      "existingText": "Fransızlar 9.000 m’ye sokulunca Cevat Bey Hamidiye, Mecidiye ve Namazgâh’a tam güçle ateş emri verir.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-15",
+      "title": "Göğüs göğüse düello",
+      "existingTime": "12:20",
+      "existingMinute": 740,
+      "existingText": "Hamidiye, Mecidiye, Dardanos ve Namazgâh tüm namlularla ateşler. Suffren 14 isabet alır; Gaulois su almaya başlar.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-16",
+      "title": "Saf değişimi",
+      "existingTime": "13:45",
+      "existingMinute": 825,
+      "existingText": "Hasarlı Fransız hattı geri çekilir; Ocean, Irresistible, Albion, Vengeance, Swiftsure, Majestic ön safa geçecektir.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-17",
+      "title": "Bouvet mayına çarpar",
+      "existingTime": "13:54",
+      "existingMinute": 834,
+      "existingText": "U dönüşünde Erenköy gizli hattına girer. 1 dk 55 sn’de alabora. 639 ölü, 47 kurtulan. Cevat Bey Nusret hattını teyit eder.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [
+        "awm-bouvet-description"
+      ],
+      "note": "13:54 kurum açıklamasında desteklenir; özgün raporla karşılaştırma açık. Kesin süre, zayiat ve Cevat Bey teyidi bu kaynakla doğrulanmadığından kısa metinden çıkarıldı."
+    },
+    {
+      "key": "naval-review-18",
+      "title": "Inflexible mayınlanır",
+      "existingTime": "14:14",
+      "existingMinute": 854,
+      "existingText": "İleri torpido dairesi dolar, 39 ölü. 14.25’te hat terk edilir, Boğaz dışına çekilir.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [
+        "awm-bean-42"
+      ],
+      "note": "14:14 / 14:25 ve 39 ölü ifadeleri bu kaynakla doğrulanmaz; eski metin inceleme izi olarak burada tutulur."
+    },
+    {
+      "key": "naval-review-19",
+      "title": "Gaulois karaya oturtulur",
+      "existingTime": "14:35",
+      "existingMinute": 875,
+      "existingText": "Baş bodoslamadaki yırtık nedeniyle Tavşan Adası’na baştan kara ettirilir.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-20",
+      "title": "Cevat Bey sahaya iner",
+      "existingTime": "14:45",
+      "existingMinute": 885,
+      "existingText": "Mecidiye irtibatı kesilince at sırtında Mecidiye ve Namazgâh’a gider. Selahattin Adil karargâhı ayakta tutar.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-21",
+      "title": "Seyit Onbaşı ve elle yükleme",
+      "existingTime": "15:15",
+      "existingMinute": 915,
+      "existingText": "Vinçler enkaz altında. Seyit Onbaşı ve Niğdeli Ali mermileri elle yükler. Dönüm noktası: tabyalar susturulamaz.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-22",
+      "title": "Irresistible mayına çarpar",
+      "existingTime": "16:11",
+      "existingMinute": 971,
+      "existingText": "Makineler durur, 7° yatar, akıntıda sürüklenir. Dardanos ve Hamidiye sabit hedefe yüklenir.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-23",
+      "title": "Wear tahliyesi",
+      "existingTime": "16:32",
+      "existingMinute": 992,
+      "existingText": "Yoğun ateş altında ~600 kişi tahliye edilir. Ocean yedekleme halatı bağlayamaz.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-24",
+      "title": "Ocean mayına çarpar",
+      "existingTime": "16:45",
+      "existingMinute": 1005,
+      "existingText": "Dönüş manevrasında iskele kıç mayın. Dümen kilitlenir. Colne, Jed, Chelmer tahliyeye başlar.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [
+        "awm-ocean-a02360",
+        "dva-ocean-uncertainty"
+      ],
+      "note": "Mevcut saat ve teknik ayrıntılar özgün raporla kesinleştirilmedi. Mayın isabeti için kurum metinleri farklı kesinlikte; kesin saat, tahliye sayısı/gemileri ve gece tespiti kısa metinden çıkarıldı veya açık inceleme durumuna getirildi. Başlık ve zaman anahtarları eski bağlantılar için korundu; kesin saat doğrulaması değildir."
+    },
+    {
+      "key": "naval-review-25",
+      "title": "Signal No. 12 — genel çekilme",
+      "existingTime": "17:00",
+      "existingMinute": 1020,
+      "existingText": "De Robeck Queen Elizabeth’ten çekilme flaması çeker. Cevat Bey kaçışı tespit eder; Dardanos’tan Hasan Hulusi son durumu rapor eder.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-26",
+      "title": "Dardanos rasat yeri şehit düşer",
+      "existingTime": "17:15",
+      "existingMinute": 1035,
+      "existingText": "Çekilen bir zırhlıdan 30,5 cm’lik mermi gözetleme/telefon mevkiine isabet eder. Hasan Hulusi, Mehmet Mevsuf, İsmet ve Feyzi şehit. Yüzbaşı Muhittin ateşi sürdürür.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-27",
+      "title": "Filo Ege’ye çıkar",
+      "existingTime": "17:45",
+      "existingMinute": 1065,
+      "existingText": "Queen Elizabeth liderliğindeki filo Seddülbahir–Kumkale gerisine ulaşır. Türk bataryaları taciz atışını menzil bitene kadar sürdürür.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-28",
+      "title": "Ateş kes",
+      "existingTime": "18:00",
+      "existingMinute": 1080,
+      "existingText": "Son taciz atışları biter. 7 saatlik bombardıman yerini duman ve sessizliğe bırakır.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-29",
+      "title": "Zafer raporu",
+      "existingTime": "18:15",
+      "existingMinute": 1095,
+      "existingText": "Cevat Bey Enver Paşa’ya telgraf çeker: 3 büyük zırhlı batırıldı, çok sayıda gemi ağır hasarlı, Boğaz geçilemedi.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-30",
+      "title": "Irresistible batar",
+      "existingTime": "19:30",
+      "existingMinute": 1170,
+      "existingText": "Terk edilen zırhlı karanlıkta batar. Gece torpidolama planına gerek kalmaz.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [],
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+    },
+    {
+      "key": "naval-review-31",
+      "title": "Ocean batar",
+      "existingTime": "22:30",
+      "existingMinute": 1350,
+      "existingText": "Jed ve Colne gece döndüğünde her iki geminin de çoktan battığını tespit eder.",
+      "timeVerification": "belge_karsilastirmasi_acik",
+      "textVerification": "belge_karsilastirmasi_acik",
+      "reviewed": "2026-10-17",
+      "sourceRefs": [
+        "awm-ocean-a02360",
+        "dva-ocean-uncertainty"
+      ],
+      "note": "Mevcut saat ve teknik ayrıntılar özgün raporla kesinleştirilmedi. Mayın isabeti için kurum metinleri farklı kesinlikte; kesin saat, tahliye sayısı/gemileri ve gece tespiti kısa metinden çıkarıldı veya açık inceleme durumuna getirildi. Başlık ve zaman anahtarları eski bağlantılar için korundu; kesin saat doğrulaması değildir."
+    }
+  ],
+  "relatedBefore": {
+    "places": [
+      {
+        "id": "bouvet",
+        "type": "enkaz",
+        "name": "Bouvet’nin battığı mevki",
+        "lat": 40.01917,
+        "lng": 26.27167,
+        "meta": "Erenköy Koyu · 13.54 · 639 şehit",
+        "short": "Nusret’in gizli paralel mayın hattına çarptı. 1 dakika 55 saniyede alabora oldu.",
+        "note": [
+          "13.48’de Fransız B Hattı U dönüşüyle geri çekilirken, 13.54’te Kaptan Rageot komutasındaki Bouvet Erenköy açıklarında mayına çarptı.",
+          "Patlama cephaneliği ve kazan dairelerini tetikledi. 13.56–13.57’de sancağına yatarak 1 dk 55 sn içinde battı.",
+          "639 Fransız denizci hayatını kaybetti; muhripler yalnızca 47 kişiyi kurtarabildi.",
+          "Müttefik komuta olayı önce gizli torpido veya şans eseri cephanelik isabeti sandı; C Hattı yine ileri sürüldü."
+        ]
+      },
+      {
+        "id": "inflexible",
+        "type": "enkaz",
+        "name": "HMS Inflexible — mayın isabeti",
+        "lat": 40.0435,
+        "lng": 26.292,
+        "meta": "Erenköy Koyu · 14.14 · 39 ölü",
+        "short": "Aynı gizli hatta çarptı; pruvası suya gömüldü, Boğaz dışına çekildi.",
+        "note": [
+          "14.14’te muharebe hattının sancak kanadındaki Inflexible, Nusret hattının bir parçasına çarptı.",
+          "İskele baş tarafındaki patlamayla ileri torpido dairesi sular altında kaldı, 39 denizci öldü.",
+          "14.25’te dengesini kaybedip yan yatmaya başladı ve muharebe hattını terk ederek Boğaz dışına çekildi."
+        ]
+      },
+      {
+        "id": "ocean",
+        "type": "enkaz",
+        "name": "HMS Ocean — mayın ve terk",
+        "lat": 40.0315,
+        "lng": 26.2788,
+        "meta": "Erenköy Koyu · 16.45 · ~22.30’da battı",
+        "short": "Irresistible’ı kurtaramadan dönüşte mayına çarptı. Dümeni kilitlendi; gece battı.",
+        "note": [
+          "16.45: Kaptan Hayes-Sadler geri çekilirken Erenköy açıklarında geniş dönüş yaptı ve iskele kıçtan mayına çarptı.",
+          "Dümen donanımı parçalandı, iskele makine dairesi doldu. Colne, Jed ve Chelmer ~650 kişiyi tahliye etti.",
+          "İki ön-dretnotun aynı bölgede mayınlanıp hareketsiz kalması taarruzun sürdürülebilirliğini bitirdi. Ocean ~22.30’da battı."
+        ]
+      }
+    ],
+    "ships": [
+      {
+        "n": 2,
+        "name": "HMS Inflexible",
+        "flag": "Britanya",
+        "cls": "Muharebe kruvazörü",
+        "armor": "178 mm",
+        "guns": "8×305 mm",
+        "fate": "14.14 mayın; 39 ölü, çekildi"
+      },
+      {
+        "n": 16,
+        "name": "Bouvet",
+        "flag": "Fransa",
+        "cls": "Ön-dretnot",
+        "armor": "400 mm",
+        "guns": "2×305 + 2×274 mm",
+        "fate": "13.54 mayın; 639 ölü"
+      },
+      {
+        "n": 6,
+        "name": "HMS Ocean",
+        "flag": "Britanya",
+        "cls": "Ön-dretnot",
+        "armor": "152 mm",
+        "guns": "4×305 + 12×152 mm",
+        "fate": "16.45 mayın; ~22.30 battı"
+      }
+    ],
+    "navyFragments": [
+      "14.14 mayın; 39 ölü. Boğaz dışına çekilir, o gün batmaz.",
+      "HMS Inflexible, Britanya muharebe kruvazörüdür ve A Hattı’nın sancak kanadındadır. 11.05’te ateşe katılır; 11.35’te şarapnel ve HE isabetleriyle güverte ve telsiz hasarı alır. 14.14’te Erenköy’de Nusret hattına çarpar, ileri torpido dairesi dolar ve 39 denizci ölür. 14.25’te muharebe hattını terk ederek Boğaz dışına çekilir. 18 Mart’ta batmaz.",
+      "13.54 mayın; 639 ölü. 18 Mart’ta batar.",
+      "Bouvet, Fransız ön-dretnotudur ve B Hattı’ndadır; kaptanı Rageot’dur. 12.15’te Anadolu Hamidiyelerini hedef alır. 13.48’de Fransız hattı U dönüşüyle çekilirken 13.54’te Erenköy açıklarında Nusret’in gizli hattına çarpar. Patlama cephaneliği ve kazan dairelerini tetikler; 1 dakika 55 saniyede alabora olarak 13.56–13.57’de batar. 639 denizci ölür, muhripler 47 kişiyi kurtarır.",
+      "16.45 mayın; yaklaşık 22.30’da batar.",
+      "HMS Ocean, Britanya ön-dretnotudur ve C Hattı’ndadır. Irresistible’ı çekmeye gelir, yedekleme halatını bağlayamaz. 16.45’te Kaptan Hayes-Sadler geri çekilirken Erenköy açıklarında geniş dönüşte iskele kıçtan mayına çarpar; dümen donanımı parçalanır, iskele makine dairesi dolar. Colne, Jed ve Chelmer yaklaşık 650 kişiyi tahliye eder. Gemi yaklaşık 22.30’da batar. Aynı bölgede iki ön-dretnotun mayınlanıp hareketsiz kalması taarruzun sürdürülebilirliğini bitirir.",
+      "Colne, Jed ve Chelmer, Ocean’dan yaklaşık 650 kişiyi birlikte tahliye eder.",
+      "Bouvet, Inflexible, Irresistible ve Ocean bu hat üzerinde veya hemen yanında mayınlanır."
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "G00528",
+  "people": [
+    "john-de-robeck",
+    "ian-hamilton"
+  ],
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C57113",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/G00528/screen/4076834.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "17 October 1915",
+  "maker": "Brooks, Ernest",
+  "captionTr": "AWM kaydına göre John de Robeck ve Ian Hamilton, HMS Triad’da, 17 Ekim 1915. Bu görsel 18 Mart muharebesinden değildir.",
+  "evidenceText": "Kurum künyesinde Ernest Brooks, 17 Ekim 1915 ve HMS Triad üzerinde de Robeck ile Hamilton tanımlaması bulunuyor.",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "de-robeck-hamilton-g00528.jpg",
+  "sha256": "ffd98af5f696e49ba4cf398232d4fe591448f92334ca483f726224b3f24273f9",
+  "bytes": 161833,
+  "width": 640,
+  "height": 478,
+  "credit": "Australian War Memorial, G00528",
+  "altTr": "Bir geminin güvertesinde yan yana ayakta duran iki üniformalı subay.",
+  "published": false,
+  "coordinateEvidence": false,
+  "visualReviewDate": "2026-10-17",
+  "sitePreparedPath": "images/commanders/de-robeck-hamilton-g00528.jpg",
+  "localUses": [
+    "komutanlar/john-de-robeck/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

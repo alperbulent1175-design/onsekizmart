@@ -1,0 +1,37 @@
+{
+  "id": "G00755",
+  "ship": "triumph",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C1010753",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/G00755/screen/4106023.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": "May 1915",
+  "maker": "Brooks, Ernest",
+  "captionTr": "Kurum açıklamasına göre Triumph’tan kurtulanları taşıyan tekne HMS Lord Nelson’a yanaşırken, Mayıs 1915. Batış anı değildir.",
+  "evidenceText": "Kurum açıklamasına göre Triumph’tan kurtulanları taşıyan tekne HMS Lord Nelson’a yanaşırken, Mayıs 1915. Batış anı değildir.",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "triumph-g00755.jpg",
+  "sha256": "7bcde22d8f5dc5e7d8db55eb3f817e8bb949cee95f9fd367baa46d6d7fcf8db6",
+  "bytes": 198905,
+  "width": 640,
+  "height": 463,
+  "credit": "Australian War Memorial, G00755",
+  "altTr": "Denizcilerle dolu küçük motorlu teknenin yukarıdan görünüşü.",
+  "published": false,
+  "coordinateEvidence": false,
+  "visualReviewDate": "2026-10-17",
+  "limits": [
+    "Kurum açıklaması gemi ve bağlam tanımlamasının dayanağıdır; bağımsız gemi teşhisi yapılmadı.",
+    "Fotoğraf konumu enkaz koordinatı olarak kullanılamaz.",
+    "Kurumun sunduğu ekran kopyasıdır; kırpılmadı, renklendirilmedi ve filigranı kaldırılmadı."
+  ],
+  "sitePreparedPath": "images/ships/triumph-g00755.jpg",
+  "sitePreparedPage": "donanma/",
+  "localUses": [
+    "donanma/index.html",
+    "olaylar/triumph-batar/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}

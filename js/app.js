@@ -440,6 +440,14 @@
     else body.innerHTML = "";
     if (spec.text) body.appendChild(textEl("p", spec.text));
     if (spec.accuracy) body.appendChild(textEl("p", spec.accuracy));
+    var coordinatePlace = spec.placeId ? findPlace(spec.placeId) : null;
+    var coordinateSource = coordinatePlace && coordinatePlace.coordinateSource;
+    var coordinateUrl = coordinateSource && Model && Model.safeUrl ? Model.safeUrl(coordinateSource.url) : "";
+    if (coordinateUrl) {
+      var coordinateLink = textEl("a", "Konum kaynağı: " + coordinateSource.label);
+      coordinateLink.href = coordinateUrl;
+      body.appendChild(coordinateLink);
+    }
     if (spec.source) body.appendChild(textEl("p", spec.source));
     var reviewLink = document.createElement("a");
     reviewLink.href = "/inceleme-notlari/";

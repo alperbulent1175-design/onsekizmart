@@ -203,16 +203,15 @@ window.OM = {
     {
       id: "bouvet",
       type: "enkaz",
-      name: "Bouvet’nin battığı mevki",
+      name: "Bouvet — yaklaşık gösterim",
       lat: 40.01917,
       lng: 26.27167,
-      meta: "Erenköy Koyu · 13.54 · 639 şehit",
-      short: "Nusret’in gizli paralel mayın hattına çarptı. 1 dakika 55 saniyede alabora oldu.",
+      uncertainty: "Bu işaret için incelenmiş sayısal enkaz koordinatı dayanağı tamamlanmadı. Yaklaşık gösterimdir; kesin batış veya enkaz noktası sayılmaz.",
+      meta: "18 Mart 1915 · saat ve kayıp ayrıntıları incelemede",
+      short: "Bouvet’nin mayına çarpıp batışı AWM koleksiyon açıklamasında anlatılır. Kesin batış süresi ve zayiat sayısı doğrulanmadı.",
       note: [
-        "13.48’de Fransız B Hattı U dönüşüyle geri çekilirken, 13.54’te Kaptan Rageot komutasındaki Bouvet Erenköy açıklarında mayına çarptı.",
-        "Patlama cephaneliği ve kazan dairelerini tetikledi. 13.56–13.57’de sancağına yatarak 1 dk 55 sn içinde battı.",
-        "639 Fransız denizci hayatını kaybetti; muhripler yalnızca 47 kişiyi kurtarabildi.",
-        "Müttefik komuta olayı önce gizli torpido veya şans eseri cephanelik isabeti sandı; C Hattı yine ileri sürüldü."
+        "AWM P04411.003 koleksiyon açıklamasında mayın isabeti için 13:54 verilir; özgün gemi raporuyla karşılaştırma açık.",
+        "Önceki 1 dakika 55 saniye, 639 kayıp ve 47 kurtulan ifadeleri bu kaynakla doğrulanmaz. İnceleme sınırları 18 Mart kaynak notundadır."
       ]
     },
     {
@@ -221,20 +220,29 @@ window.OM = {
       name: "HMS Inflexible — mayın isabeti",
       lat: 40.0435,
       lng: 26.292,
-      meta: "Erenköy Koyu · 14.14 · 39 ölü",
-      short: "Aynı gizli hatta çarptı; pruvası suya gömüldü, Boğaz dışına çekildi.",
+      meta: "18 Mart 1915 · saat ve zayiat incelemede",
+      short: "Inflexible ağır hasar alarak Boğaz’dan çıkar. Kesin saat ve zayiat için belge karşılaştırması tamamlanmadı.",
       note: [
-        "14.14’te muharebe hattının sancak kanadındaki Inflexible, Nusret hattının bir parçasına çarptı.",
-        "İskele baş tarafındaki patlamayla ileri torpido dairesi sular altında kaldı, 39 denizci öldü.",
-        "14.25’te dengesini kaybedip yan yatmaya başladı ve muharebe hattını terk ederek Boğaz dışına çekildi."
+        "Önceki 14:14, 14:25 ve 39 ölü ifadelerinin belge karşılaştırması açık. Bildirim saati, isabetin kesin saati yerine kullanılamaz.",
+        "Kaynaklar ve inceleme sınırları 18 Mart Deniz Muharebesi sayfasındadır."
       ]
     },
     {
       id: "irresistible",
       type: "enkaz",
-      name: "HMS Irresistible — mayın ve terk",
-      lat: 40.0382,
-      lng: 26.2875,
+      name: "HMS Irresistible — enkaz konumu",
+      lat: 40.073966667,
+      lng: 26.340683333,
+      accuracy: "yaklasik",
+      uncertainty: "2023 yayınının enkaz noktasıdır; mayın isabeti veya tahliye yerini ayrıca doğrulamaz. Kaynak datum belirtmiyor; metre düzeyinde kesinlik iddiası yok.",
+      coordinateSource: {
+        url: "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download",
+        label: "Kedioğlu ve Öz (2023), s. 76 · enkaz koordinatı",
+        evidenceText: "40°04.438 N, 26°20.441 E",
+        date: "2026-10-17",
+        status: "yayin_koordinati_karsilastirildi",
+        datum: "belirtilmemis"
+      },
       meta: "Erenköy Koyu · 16.11 · ~19.30’da battı",
       short: "Makine dairesi doldu; Wear ~600 kişiyi tahliye etti. Akıntıda sürüklenerek akşam battı.",
       note: [
@@ -247,15 +255,16 @@ window.OM = {
     {
       id: "ocean",
       type: "enkaz",
-      name: "HMS Ocean — mayın ve terk",
+      name: "HMS Ocean — yaklaşık gösterim",
       lat: 40.0315,
       lng: 26.2788,
-      meta: "Erenköy Koyu · 16.45 · ~22.30’da battı",
-      short: "Irresistible’ı kurtaramadan dönüşte mayına çarptı. Dümeni kilitlendi; gece battı.",
+      uncertainty: "Bu işaret için incelenmiş sayısal enkaz koordinatı dayanağı tamamlanmadı. Yaklaşık gösterimdir; kesin batış veya enkaz noktası sayılmaz.",
+      meta: "18 Mart 1915 · isabet ve batış saatleri incelemede",
+      short: "Ocean 18 Mart’ta battı. Mayın isabeti anlatıları farklı kesinliktedir; ayrıntılı saat ve tahliye bilgisi doğrulanmadı.",
       note: [
-        "16.45: Kaptan Hayes-Sadler geri çekilirken Erenköy açıklarında geniş dönüş yaptı ve iskele kıçtan mayına çarptı.",
-        "Dümen donanımı parçalandı, iskele makine dairesi doldu. Colne, Jed ve Chelmer ~650 kişiyi tahliye etti.",
-        "İki ön-dretnotun aynı bölgede mayınlanıp hareketsiz kalması taarruzun sürdürülebilirliğini bitirdi. Ocean ~22.30’da battı."
+        "AWM A02360 açıklaması mayınla batışı kesin anlatır; DVA Anzac Portal aynı ayrıntıyı ihtimalli ifade eder.",
+        "16:45, tahliye sayısı ve gemi görevleri için belge karşılaştırması tamamlanmadı. 22:30 kaydı özgün gemi raporuyla kesinleştirilmedi.",
+        "Kaynaklar ve inceleme sınırları 18 Mart Deniz Muharebesi sayfasındaki Ocean bölümündedir."
       ]
     },
     {
@@ -374,7 +383,7 @@ window.OM = {
         [40.0445, 26.2935],
         [40.051, 26.299]
       ],
-      note: "7–8 Mart gecesi kıyıya paralel döküldü. Bouvet, Inflexible, Irresistible ve Ocean bu hat üzerinde veya hemen yanında mayınlandı. Aralık ~100–150 m."
+      note: "7–8 Mart gecesi kıyıya paralel döküldü. Hattın gemi kayıplarıyla ilişkisi kaynak notlarında ele alınır; Ocean için mayın isabeti anlatıları farklı kesinliktedir. Aralık ~100–150 m."
     },
     {
       id: "hat-a",
@@ -453,21 +462,21 @@ window.OM = {
     { t: "12:00", m: 720, side: "turk", place: "anadolu-hamidiye", title: "Ağır tabyalara ateş", text: "Fransızlar 9.000 m’ye sokulunca Cevat Bey Hamidiye, Mecidiye ve Namazgâh’a tam güçle ateş emri verir." },
     { t: "12:20", m: 740, side: "both", place: "anadolu-hamidiye", title: "Göğüs göğüse düello", text: "Hamidiye, Mecidiye, Dardanos ve Namazgâh tüm namlularla ateşler. Suffren 14 isabet alır; Gaulois su almaya başlar." },
     { t: "13:45", m: 825, side: "itilaf", place: null, title: "Saf değişimi", text: "Hasarlı Fransız hattı geri çekilir; Ocean, Irresistible, Albion, Vengeance, Swiftsure, Majestic ön safa geçecektir." },
-    { t: "13:54", m: 834, side: "both", place: "bouvet", title: "Bouvet mayına çarpar", text: "U dönüşünde Erenköy gizli hattına girer. 1 dk 55 sn’de alabora. 639 ölü, 47 kurtulan. Cevat Bey Nusret hattını teyit eder." },
-    { t: "14:14", m: 854, side: "itilaf", place: "inflexible", title: "Inflexible mayınlanır", text: "İleri torpido dairesi dolar, 39 ölü. 14.25’te hat terk edilir, Boğaz dışına çekilir." },
+    { t: "13:54", m: 834, side: "both", place: "bouvet", title: "Bouvet mayına çarpar", text: "Bouvet mayına çarparak batar. AWM koleksiyon açıklaması 13:54 saatini verir; özgün raporla karşılaştırma açık. Kesin batış süresi ve zayiat sayıları doğrulanmadı." },
+    { t: "14:14", m: 854, side: "itilaf", place: "inflexible", title: "Inflexible mayınlanır", text: "Inflexible ağır hasar alarak Boğaz’dan çıkar. Bu kayıttaki 14:14 saati belgeyle doğrulanmadı; bildirim saatiyle karşılaştırma ve zayiat incelemesi açık. Ayrıntı 18 Mart kaynak notundadır." },
     { t: "14:35", m: 875, side: "itilaf", place: "tavsan", title: "Gaulois karaya oturtulur", text: "Baş bodoslamadaki yırtık nedeniyle Tavşan Adası’na baştan kara ettirilir." },
     { t: "14:45", m: 885, side: "turk", place: "mecidiye", title: "Cevat Bey sahaya iner", text: "Mecidiye irtibatı kesilince at sırtında Mecidiye ve Namazgâh’a gider. Selahattin Adil karargâhı ayakta tutar." },
     { t: "15:15", m: 915, side: "turk", place: "mecidiye", title: "Seyit Onbaşı ve elle yükleme", text: "Vinçler enkaz altında. Seyit Onbaşı ve Niğdeli Ali mermileri elle yükler. Dönüm noktası: tabyalar susturulamaz." },
     { t: "16:11", m: 971, side: "itilaf", place: "irresistible", title: "Irresistible mayına çarpar", text: "Makineler durur, 7° yatar, akıntıda sürüklenir. Dardanos ve Hamidiye sabit hedefe yüklenir." },
     { t: "16:32", m: 992, side: "itilaf", place: "irresistible", title: "Wear tahliyesi", text: "Yoğun ateş altında ~600 kişi tahliye edilir. Ocean yedekleme halatı bağlayamaz." },
-    { t: "16:45", m: 1005, side: "itilaf", place: "ocean", title: "Ocean mayına çarpar", text: "Dönüş manevrasında iskele kıç mayın. Dümen kilitlenir. Colne, Jed, Chelmer tahliyeye başlar." },
+    { t: "16:45", m: 1005, side: "itilaf", place: "ocean", title: "Ocean mayına çarpar", text: "Ocean için mayın isabeti anlatıları farklı kesinliktedir. Bu kaydın 16:45 saati, hasar mekanizması ve tahliye ayrıntıları belgeyle doğrulanmadı. Kaynak karşılaştırması 18 Mart sayfasındadır." },
     { t: "17:00", m: 1020, side: "both", place: "mustahkem-hq", title: "Signal No. 12 — genel çekilme", text: "De Robeck Queen Elizabeth’ten çekilme flaması çeker. Cevat Bey kaçışı tespit eder; Dardanos’tan Hasan Hulusi son durumu rapor eder." },
     { t: "17:15", m: 1035, side: "turk", place: "dardanos", title: "Dardanos rasat yeri şehit düşer", text: "Çekilen bir zırhlıdan 30,5 cm’lik mermi gözetleme/telefon mevkiine isabet eder. Hasan Hulusi, Mehmet Mevsuf, İsmet ve Feyzi şehit. Yüzbaşı Muhittin ateşi sürdürür." },
     { t: "17:45", m: 1065, side: "both", place: "seddulbahir", title: "Filo Ege’ye çıkar", text: "Queen Elizabeth liderliğindeki filo Seddülbahir–Kumkale gerisine ulaşır. Türk bataryaları taciz atışını menzil bitene kadar sürdürür." },
     { t: "18:00", m: 1080, side: "turk", place: "mustahkem-hq", title: "Ateş kes", text: "Son taciz atışları biter. 7 saatlik bombardıman yerini duman ve sessizliğe bırakır." },
     { t: "18:15", m: 1095, side: "turk", place: "mustahkem-hq", title: "Zafer raporu", text: "Cevat Bey Enver Paşa’ya telgraf çeker: 3 büyük zırhlı batırıldı, çok sayıda gemi ağır hasarlı, Boğaz geçilemedi." },
     { t: "19:30", m: 1170, side: "itilaf", place: "irresistible", title: "Irresistible batar", text: "Terk edilen zırhlı karanlıkta batar. Gece torpidolama planına gerek kalmaz." },
-    { t: "22:30", m: 1350, side: "itilaf", place: "ocean", title: "Ocean batar", text: "Jed ve Colne gece döndüğünde her iki geminin de çoktan battığını tespit eder." }
+    { t: "22:30", m: 1350, side: "itilaf", place: "ocean", title: "Ocean batar", text: "Ocean’ın 18 Mart’ta batışı kaynak notunda ele alınır. Bu kaydın 22:30 saati özgün gemi raporuyla kesinleştirilmedi; gece arama ve tespit anlatısı için belge incelemesi açık." }
   ],
 
   units: [
@@ -482,11 +491,11 @@ window.OM = {
 
   ships: [
     { n: 1, name: "HMS Queen Elizabeth", flag: "Britanya", cls: "Süper-dretnot", armor: "330 mm", guns: "8×381 mm", fate: "Sancak gemisi; çekilmeyi yönetti" },
-    { n: 2, name: "HMS Inflexible", flag: "Britanya", cls: "Muharebe kruvazörü", armor: "178 mm", guns: "8×305 mm", fate: "14.14 mayın; 39 ölü, çekildi" },
+    { n: 2, name: "HMS Inflexible", flag: "Britanya", cls: "Muharebe kruvazörü", armor: "178 mm", guns: "8×305 mm", fate: "Ağır hasarla çekildi; saat ve zayiat incelemede" },
     { n: 3, name: "HMS Lord Nelson", flag: "Britanya", cls: "Yarı-dretnot", armor: "305 mm", guns: "4×305 + 10×234 mm", fate: "Hat’ta kaldı" },
     { n: 4, name: "HMS Agamemnon", flag: "Britanya", cls: "Yarı-dretnot", armor: "305 mm", guns: "4×305 + 10×234 mm", fate: "Güverte ve telsiz hasarı" },
     { n: 5, name: "HMS Irresistible", flag: "Britanya", cls: "Ön-dretnot", armor: "229 mm", guns: "4×305 + 12×152 mm", fate: "16.11 mayın; ~19.30 battı" },
-    { n: 6, name: "HMS Ocean", flag: "Britanya", cls: "Ön-dretnot", armor: "152 mm", guns: "4×305 + 12×152 mm", fate: "16.45 mayın; ~22.30 battı" },
+    { n: 6, name: "HMS Ocean", flag: "Britanya", cls: "Ön-dretnot", armor: "152 mm", guns: "4×305 + 12×152 mm", fate: "18 Mart’ta battı; isabet ve batış saatleri incelemede" },
     { n: 7, name: "HMS Albion", flag: "Britanya", cls: "Ön-dretnot", armor: "152 mm", guns: "4×305 + 12×152 mm", fate: "Ön hatta dövüştü" },
     { n: 8, name: "HMS Vengeance", flag: "Britanya", cls: "Ön-dretnot", armor: "152 mm", guns: "4×305 + 12×152 mm", fate: "C / ön hat" },
     { n: 9, name: "HMS Canopus", flag: "Britanya", cls: "Ön-dretnot", armor: "152 mm", guns: "4×305 + 12×152 mm", fate: "Destek" },
@@ -496,7 +505,7 @@ window.OM = {
     { n: 13, name: "HMS Prince George", flag: "Britanya", cls: "Ön-dretnot", armor: "229 mm", guns: "4×305 + 12×152 mm", fate: "Kanat koruma" },
     { n: 14, name: "HMS Cornwallis", flag: "Britanya", cls: "Ön-dretnot", armor: "178 mm", guns: "4×305 + 12×152 mm", fate: "Destek" },
     { n: 15, name: "Suffren", flag: "Fransa", cls: "Ön-dretnot", armor: "300 mm", guns: "4×305 + 10×164 mm", fate: "14 direkt isabet; yangın" },
-    { n: 16, name: "Bouvet", flag: "Fransa", cls: "Ön-dretnot", armor: "400 mm", guns: "2×305 + 2×274 mm", fate: "13.54 mayın; 639 ölü" },
+    { n: 16, name: "Bouvet", flag: "Fransa", cls: "Ön-dretnot", armor: "400 mm", guns: "2×305 + 2×274 mm", fate: "18 Mart’ta battı; saat ve zayiat incelemede" },
     { n: 17, name: "Gaulois", flag: "Fransa", cls: "Ön-dretnot", armor: "370 mm", guns: "4×305 + 10×138 mm", fate: "Tavşan Adası’na oturtuldu" },
     { n: 18, name: "Charlemagne", flag: "Fransa", cls: "Ön-dretnot", armor: "370 mm", guns: "4×305 + 10×138 mm", fate: "B Hattı, çekildi" }
   ],

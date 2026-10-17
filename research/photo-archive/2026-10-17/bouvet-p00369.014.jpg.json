@@ -1,0 +1,37 @@
+{
+  "id": "P00369.014",
+  "ship": "bouvet",
+  "institution": "Australian War Memorial",
+  "sourceUrl": "https://www.awm.gov.au/collection/C50930",
+  "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/P00369.014/screen/3784965.JPG",
+  "accessed": "2026-10-17",
+  "sourceDate": null,
+  "maker": null,
+  "captionTr": "Bouvet — kurum kaydında Çanakkale olarak tanımlanan fotoğraf. Kesin çekim günü belirtilmemiştir.",
+  "evidenceText": "Bouvet — kurum kaydında Çanakkale olarak tanımlanan fotoğraf. Kesin çekim günü belirtilmemiştir.",
+  "rightsEvidence": "Copyright expired - public domain",
+  "rightsStatus": "kurum_kaydinda_kamu_mali",
+  "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+  "localFile": "bouvet-p00369.014.jpg",
+  "sha256": "2c48c8d2e4d473942ccc30635d6faffd74c04e2eb423bc4ae4fd8a257904412e",
+  "bytes": 125460,
+  "width": 640,
+  "height": 393,
+  "credit": "Australian War Memorial, P00369.014",
+  "altTr": "Kıyıdaki yapıların önünde demirli savaş gemisi ve çevresinde küçük tekneler.",
+  "published": false,
+  "coordinateEvidence": false,
+  "visualReviewDate": "2026-10-17",
+  "limits": [
+    "Kurum açıklaması gemi ve bağlam tanımlamasının dayanağıdır; bağımsız gemi teşhisi yapılmadı.",
+    "Fotoğraf konumu enkaz koordinatı olarak kullanılamaz.",
+    "Kurumun sunduğu ekran kopyasıdır; kırpılmadı, renklendirilmedi ve filigranı kaldırılmadı."
+  ],
+  "sitePreparedPath": "images/ships/bouvet-p00369.014.jpg",
+  "sitePreparedPage": "donanma/",
+  "localUses": [
+    "donanma/index.html",
+    "olaylar/18-mart-deniz-muharebesi/index.html",
+    "fotograf-arsivi/index.html"
+  ]
+}
