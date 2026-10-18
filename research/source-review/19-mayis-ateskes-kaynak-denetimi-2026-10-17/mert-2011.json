@@ -1,0 +1,24 @@
+{
+  "id": "mert-2011-canakkalede-olum",
+  "reviewDate": "2026-10-18",
+  "sourceUrl": "https://isamveri.org/pdfdrg/D00371/2011_1/2011_1_MERTH.pdf",
+  "author": "Hasan Mert",
+  "title": "Çanakkale’de Ölüm",
+  "publication": "Tarih İncelemeleri Dergisi",
+  "volume": "XXVI",
+  "issue": "1",
+  "publicationDate": "2011-07",
+  "printedPages": "151-172",
+  "pdfPageCount": 22,
+  "relevantPrintedPages": "168-169",
+  "relevantPhysicalPdfPages": [18, 19],
+  "evidenceText": "ÇANAKKALE’DE ÖLÜM",
+  "status": "pdf_metin_katmani_incelendi_goruntu_ve_hatirat_karsilastirmasi_acik",
+  "citedMemoir": "Altay 1970, 101-103; dipnot 37",
+  "openQuestions": [
+    "İlgili PDF sayfalarının görüntü kontrolü",
+    "Aktarılan Altay baskısının karşılaştırılması",
+    "22 Mayıs bağlamı ve 24 Mayıs uygulaması ayrımı",
+    "169. sayfadaki ateşkes kendiliğinden kesildi ifadesinin kaynak kontrolü"
+  ]
+}

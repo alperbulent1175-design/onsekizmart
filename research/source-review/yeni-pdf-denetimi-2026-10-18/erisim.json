@@ -1,0 +1,33 @@
+[
+  {
+    "id": "lagim",
+    "sourceUrl": "https://dergipark.org.tr/tr/download/article-file/294436",
+    "reviewDate": "2026-10-18",
+    "httpStatus": 404,
+    "isPdf": false,
+    "status": "erisim_denemesi_yapildi_icerik_dogrulanmadi"
+  },
+  {
+    "id": "tahliye",
+    "sourceUrl": "https://dergipark.org.tr/tr/download/article-file/294480",
+    "reviewDate": "2026-10-18",
+    "httpStatus": 404,
+    "isPdf": false,
+    "status": "erisim_denemesi_yapildi_icerik_dogrulanmadi"
+  },
+  {
+    "id": "saglik",
+    "sourceUrl": "https://isamveri.org/pdfdrg/D00371/2011_1/2011_1_CULCUM.pdf",
+    "reviewDate": "2026-10-18",
+    "httpStatus": 404,
+    "isPdf": false,
+    "status": "erisim_denemesi_yapildi_icerik_dogrulanmadi"
+  },
+  {
+    "id": "deniz",
+    "sourceUrl": "https://www.dzkk.tsk.tr/data/uploads/files/yayinlar/deniz_tarihi_dergisi.pdf",
+    "reviewDate": "2026-10-18",
+    "status": "erisim_hatasi_icerik_dogrulanmadi",
+    "errorType": "SSLError"
+  }
+]

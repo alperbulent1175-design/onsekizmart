@@ -1,0 +1,18 @@
+{
+  "reviewDate": "2026-10-18",
+  "sourceUrl": "https://canakkaletarihialan.gov.tr/data/fm/Kitap/48alay-kitabipdf_3903a503-f449-4563-ab0f-1877f918de9d.pdf#page=182",
+  "printedPage": 165,
+  "physicalPdfPage": 182,
+  "status": "yayin_ceviriyazi_cetveli_goruntuden_okundu_ozgun_cetvel_ve_tarih_kontrolu_acik",
+  "evidenceText": "Zâbitân / Silâhendaz / Şehid / Mecrûh / Ga’ib",
+  "columnsAsPrinted": ["Zâbitân Şehid", "Zâbitân Mecrûh", "Silâhendaz Şehid", "Silâhendaz Mecrûh", "Ga’ib"],
+  "rows": [
+    {"unitAsPrinted": "1’inci Tabur", "values": [1, 4, 187, 138, 0]},
+    {"unitAsPrinted": "2’nci Tabur", "values": [2, 2, 95, 207, 117]},
+    {"unitAsPrinted": "3’üncü Tabur", "values": [2, 3, 29, 132, 202]},
+    {"unitAsPrinted": "Mitralyöz Bölüğü", "values": [0, 0, 0, 0, 0]}
+  ],
+  "totalsAsPrinted": [5, 9, 311, 477, 319],
+  "scope": "Önceki sayfanın bu hücumda taburların zayiatı ifadesini izleyen cetveldir. Bütün Kuzey Grubu veya bütün cephe toplamı değildir. Ga’ib sütununun üst başlık yerleşimi özgün cetvelle ayrıca karşılaştırılacak; subay kayıp kategorisi uydurulmadı. Silâhendaz terimi doğrudan bütün er mevcudu veya kuruluş kadrosuna çevrilmedi.",
+  "openQuestions": ["Tarih yazımının özgün belgeden karşılaştırılması", "Ga’ib sütununun kapsamı", "Geçici veya kesin sonuç cetveli olup olmadığı", "Sonraki düzeltme cetvelleri ve mükerrer sayım"]
+}

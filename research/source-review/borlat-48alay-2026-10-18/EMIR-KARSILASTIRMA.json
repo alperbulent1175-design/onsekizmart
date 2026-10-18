@@ -1,0 +1,53 @@
+{
+  "reviewDate": "2026-10-18",
+  "sourceUrl": "https://canakkaletarihialan.gov.tr/data/fm/Kitap/48alay-kitabipdf_3903a503-f449-4563-ab0f-1877f918de9d.pdf",
+  "status": "yayin_ceviriyazisi_goruntuden_okundu_ozgun_ceride_karsilastirmasi_acik",
+  "records": [
+    {
+      "printedPage": 160,
+      "physicalPdfPage": 177,
+      "senderAsPublished": "Fırka 16 Kumandanı Rüşdü",
+      "recipientAsPublished": "48’inci Alay Kumandanlığı",
+      "evidenceText": "mevâzi’î tahkim ile ta’arruzlarını tevkif edeceklerdir",
+      "scope": "Tahkim/durdurma emri koşullu devam ve irtibat hükümleri de içerir. Üst düzey bütün emir zincirinin kanıtı değildir."
+    },
+    {
+      "printedPages": [
+        160,
+        163
+      ],
+      "physicalPdfPages": [
+        177,
+        180
+      ],
+      "senderAsPublished": "16’ncı Fırka Kumandanı Miralay Rüşdü",
+      "evidenceText": "evvela 48’inci Alayın geriye çekilmesi",
+      "scope": "Ardışık geri hareket ve diğer birlikleri himaye talimatı. Fiilî tamamlanma saati değildir."
+    },
+    {
+      "printedPage": 163,
+      "physicalPdfPage": 180,
+      "senderAsPublished": "48’inci Alay Kumandanı Binbaşı Ahmed",
+      "evidenceText": "en ilerideki hatlar en sonraya kalacaktır",
+      "scope": "Taburlara ek talimat; koordinasyon görevi Galib Bey'e verilir."
+    }
+  ],
+  "openQuestions": [
+    "Basılı 160'taki Fî 6/7-3-31 tarih yazımının özgün belgeden kontrolü; sessiz düzeltme yapılmadı",
+    "9.35 sonra ifadesinin saat sistemi ve gönderim/alınma ayrımı",
+    "Tarihçe xii'deki Albayrak Sırtı ile emirdeki Karayürek Deresi eski ordugâhı arasındaki aşamalar",
+    "Üst komutanlık emri ve bütün birliklerin fiilî dönüşü"
+  ],
+  "followUpReview": {
+    "reviewDate": "2026-10-18",
+    "printedPages": [
+      164,
+      165
+    ],
+    "physicalPdfPages": [
+      181,
+      182
+    ],
+    "result": "Devam eden hareket bildirimi ve sonraki emrin alaylarin gelisini bildiren maddesi okundu. Ayrintilar UYGULAMA-DEVAMI.md ve ZAYIAT-CETVELI.json icinde."
+  }
+}
