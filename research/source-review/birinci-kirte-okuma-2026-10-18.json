@@ -1,0 +1,10 @@
+{
+  "reviewDate": "2026-10-18",
+  "status": "kurumsal_kayitlar_karsilastirildi_ozgun_birlik_raporlari_acik",
+  "sources": [
+    {"sourceUrl": "https://ww1.nam.ac.uk/timeline/first-battle-krithia/", "evidenceText": "28 April 1915", "access": "Sayfa açıldı; tarih ve sonuç metni okundu."},
+    {"sourceUrl": "https://nzhistory.govt.nz/war/the-gallipoli-campaign/early-battles", "evidenceText": "An attack by British and French forces on 28 April", "access": "Doğrudan açma zaman aşımı verdi; arama aracının kurum sayfası içeriği okundu. Önceki kaynak kaydı korundu."}
+  ],
+  "page": "olaylar/birinci-kirte-muharebesi/index.html",
+  "scope": "Çıkarma sonrası hedef, taarruz ve sonuç ayrı bölümlere düzenlendi. Köy ve tepe ayrımı korundu; ilerleme mesafesi, sayı ve kesin mevzi çizgisi türetilmedi."
+}

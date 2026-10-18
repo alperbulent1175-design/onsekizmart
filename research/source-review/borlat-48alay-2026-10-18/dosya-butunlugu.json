@@ -1,0 +1,18 @@
+[
+  {
+    "file": "ham/borlat.pdf",
+    "bytes": 20081326,
+    "sha256": "a25cbb684346fe2129f8cd69e776e7dd75993e9e1cb557f3a9fc1b36ddc6bacd",
+    "physicalPdfPages": 365,
+    "reviewDate": "2026-10-18",
+    "status": "yerel_dosya_ozeti_ve_pdf_acilabilirligi_kontrol_edildi"
+  },
+  {
+    "file": "ham/48alay.pdf",
+    "bytes": 15158362,
+    "sha256": "6d361fa32d03f0fa9c3e074bf009123b37e7eb7f3a069e1cc54b182006a8f498",
+    "physicalPdfPages": 464,
+    "reviewDate": "2026-10-18",
+    "status": "yerel_dosya_ozeti_ve_pdf_acilabilirligi_kontrol_edildi"
+  }
+]

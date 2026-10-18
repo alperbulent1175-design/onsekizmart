@@ -3,6 +3,7 @@ import os
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
@@ -79,7 +80,7 @@ class BuildPagesTests(unittest.TestCase):
             self.assertEqual(again.count("<loc>"), again.count("</loc>"))
             self.assertEqual(len(ET.fromstring(again).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")), 2)
 
-    def test_lastmod_dosya_zamani(self):
+    def test_kopyalama_tarihi_son_guncelleme_olarak_yazilmaz(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "page-shell.html").write_text(SHELL, encoding="utf-8")
@@ -95,8 +96,33 @@ class BuildPagesTests(unittest.TestCase):
             page = root / "index.html"
             stamp = datetime(2020, 1, 2, 12, 0, tzinfo=timezone.utc).timestamp()
             os.utime(page, (stamp, stamp))
-            entries = dict(build_pages.sitemap_entries(root))
-            self.assertEqual(entries["https://onsekizmart.com/"][0], "2020-01-02")
+            xml = build_pages.render_sitemap(build_pages.sitemap_entries(root))
+            self.assertIn("<loc>https://onsekizmart.com/</loc>", xml)
+            self.assertNotIn("<lastmod>", xml)
+            self.assertNotIn("<priority>", xml)
+            self.assertNotIn("<changefreq>", xml)
+
+    def test_yalniz_sitemap_ozel_duzenlenmis_sayfayi_korur(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            page = root / "index.html"
+            content = '<link rel="canonical" href="https://onsekizmart.com/"><h1>Özel içerik</h1>'
+            page.write_text(content, encoding="utf-8")
+            before = page.read_bytes()
+            with patch.object(build_pages, "project_root", return_value=root), \
+                 patch.object(sys, "argv", ["build_pages.py", "--sitemap-only"]), \
+                 patch.object(build_pages, "build_pages") as builder, \
+                 patch("builtins.print"):
+                self.assertEqual(build_pages.main(), 0)
+                builder.assert_not_called()
+            self.assertEqual(page.read_bytes(), before)
+            self.assertIn("https://onsekizmart.com/", (root / "sitemap.xml").read_text(encoding="utf-8"))
+
+    def test_xml_adresindeki_ozel_karakter_korunur(self):
+        url = "https://onsekizmart.com/?a=1&b=2"
+        xml = build_pages.render_sitemap([url])
+        loc = ET.fromstring(xml).find("{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
+        self.assertEqual(loc.text, url)
 
     def test_ayni_canonical_hata(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -128,7 +154,7 @@ class BuildPagesTests(unittest.TestCase):
                 (private / "index.html").write_text("<h1>Private fixture</h1>", encoding="utf-8")
             self.assertEqual(build_pages.published_pages(root), [root / "index.html"])
             entries = build_pages.sitemap_entries(root)
-            self.assertEqual([entry[0] for entry in entries], ["https://onsekizmart.com/"])
+            self.assertEqual(entries, ["https://onsekizmart.com/"])
 
 
 if __name__ == "__main__":

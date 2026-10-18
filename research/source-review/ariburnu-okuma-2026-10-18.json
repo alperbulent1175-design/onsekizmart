@@ -1,0 +1,11 @@
+{
+  "reviewDate": "2026-10-18",
+  "status": "kurum_anlatilari_yeniden_okundu_ozgun_birlik_raporlari_kontrolu_acik",
+  "page": "olaylar/ariburnu-cikarmasi/index.html",
+  "sources": [
+    {"sourceUrl": "https://www.awm.gov.au/visit/exhibitions/dawn/plan/landing", "evidenceText": "the Australians took the first ridges, but their objectives were still far off"},
+    {"sourceUrl": "https://www.awm.gov.au/visit/exhibitions/dawn/plan/bloodyday", "evidenceText": "a defensive line overlooking the beaches was established and held"}
+  ],
+  "scope": "Kıyıya çıkış, arazi ve savunma, tutunma ayrı bölümlere alındı. Kurum yorumları kaynak atfıyla sunuldu. Komutan bağlantıları eksiksiz günlük görev listesi sayılmadı.",
+  "openQuestions": ["27. ve 57. alayların tarihli hareket ve emirleri", "ANZAC birlik raporlarıyla karşılaştırma", "Mevki adları ve günlük hatların kesin eşleştirmesi"]
+}

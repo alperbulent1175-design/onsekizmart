@@ -1,0 +1,38 @@
+{
+  "title": "Çanakkale Cephesi’nde Askerî Kayıtlara Göre 19 Mayıs 1915 Türk Taarruzu",
+  "volume": "I",
+  "editor": "Barış Borlat",
+  "publisher": "T.C. Kültür ve Turizm Bakanlığı / Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı",
+  "publication_year": 2020,
+  "edition": "Birinci baskı",
+  "isbn": "978-975-17-4516-3",
+  "pdf_pages": 321,
+  "bytes": 12447194,
+  "sha256": "19b7c87da27d52299fdf7024e995ea3b9e67d38f2426a3c0917e2bf12c80fa10",
+  "attachment_path": "C:\\Users\\crawi\\Desktop\\onsekizmart-atlas\\.codex-remote-attachments\\01a145a6-78ab-7811-8335-98fbe597d278\\833078c5-69f7-4ee1-9e5c-d5c765bc63a1\\1-Askeri_Kayitlara_Gore_Canakkale_Cephesin.pdf",
+  "source_url": "https://drive.google.com/file/d/16Dk4kS_4jjxrQ9bp1c9HZEk457GsIEHh/view",
+  "review_date": "2026-10-18",
+  "bibliography_checked_pdf_page": 4,
+  "pdf_processing_date_is_not_publication_year": true,
+  "comparison": {
+    "other_local_path": "research/drive-archive/2026-10-18/ham/files/16Dk4kS_4jjxrQ9bp1c9HZEk457GsIEHh.pdf",
+    "byte_identical": false,
+    "all_321_normalized_page_texts_match": true,
+    "image_identity_all_pages_checked": false,
+    "independent_source": false
+  },
+  "limits": [
+    "321 fiziksel PDF sayfası; künyedeki 432 s. bilgisiyle baskı bütünlüğü karşılaştırılmadı.",
+    "Yayının önsözü tarih ve saatlerin günümüz kullanımına göre düzenlendiğini belirtiyor.",
+    "Dosyanın metin katmanı baştan sona okundu; 42 sayfa tablo/görsel düzeni bakımından ayrıca incelendi. Özgün Osmanlıca arşiv belgelerinin bağımsız doğrulaması yapılmadı."
+  ],
+  "full_text_reading": {
+    "date": "2026-10-18",
+    "pdf_pages_covered": 321,
+    "text_bearing_pages_read": 318,
+    "visually_reviewed_pages": 42,
+    "findings_file": "tam-okuma-bulgulari.json",
+    "coverage_file": "okuma-kapsami.json",
+    "historical_claims_all_verified": false
+  }
+}

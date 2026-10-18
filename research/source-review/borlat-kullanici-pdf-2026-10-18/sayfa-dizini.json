@@ -1,0 +1,3964 @@
+[
+  {
+    "pdf_page": 1,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 120,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 2,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 0,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 3,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 81,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 4,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 1251,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 5,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 74,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 6,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 2206,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 7,
+    "topics_machine_detected": [
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 1069,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 8,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 1830,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 9,
+    "topics_machine_detected": [
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 2360,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 10,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 383,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 11,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 417,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 12,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 11,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 13,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 232,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 14,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1845,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 15,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 2207,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 16,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1568,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 17,
+    "topics_machine_detected": [
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1476,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 18,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "ikmal",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1762,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 19,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1309,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 20,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1375,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 21,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "10-11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1484,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 22,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1436,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 23,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 2218,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 24,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1533,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 25,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1466,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 26,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1761,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 27,
+    "topics_machine_detected": [
+      "saglik"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 691,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 28,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1978,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 29,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1866,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 30,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "saglik",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1434,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 31,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1624,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 32,
+    "topics_machine_detected": [
+      "tahkimat",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 2352,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 33,
+    "topics_machine_detected": [
+      "tahkimat",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 2617,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 34,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 2628,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 35,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "birlik_duzeni",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "10/11 Mayıs 1915"
+    ],
+    "text_characters": 2452,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 36,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "10/11 Mayıs 1915",
+      "10/11 Mayıs 1915",
+      "10-11 Mayıs 1915"
+    ],
+    "text_characters": 1205,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 37,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "10-11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1644,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 38,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1356,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 39,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "ikmal",
+      "birlik_duzeni",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1802,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 40,
+    "topics_machine_detected": [
+      "haberlesme",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1275,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 41,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "10-11 Mayıs 1915"
+    ],
+    "text_characters": 1837,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 42,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "10-11 Mayıs 1915"
+    ],
+    "text_characters": 2125,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 43,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "10/11 Mayıs 1915",
+      "10-11 Mayıs 1915",
+      "10/11 Mayıs 1915"
+    ],
+    "text_characters": 1581,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 44,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1469,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 45,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1771,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 46,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1427,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 47,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1827,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 48,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 2065,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 49,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915",
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 1656,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 50,
+    "topics_machine_detected": [
+      "saglik"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 435,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 51,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "11 Mayıs 1915"
+    ],
+    "text_characters": 615,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 52,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 11,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 53,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 240,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 54,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 804,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 55,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 2019,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 56,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "11/12 Mayıs 1915"
+    ],
+    "text_characters": 1362,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 57,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1863,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 58,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1916,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 59,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1486,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 60,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1591,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 61,
+    "topics_machine_detected": [
+      "saglik"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1331,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 62,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 223,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 63,
+    "topics_machine_detected": [
+      "haberlesme"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 387,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 64,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1596,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 65,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1583,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 66,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1292,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 67,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1515,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 68,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1619,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 69,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 2063,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 70,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1469,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 71,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 2307,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 72,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1491,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 73,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1676,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 74,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1596,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 75,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1508,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 76,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 2107,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 77,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1961,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 78,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1878,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 79,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 450,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 80,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 2598,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 81,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1675,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 82,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1401,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 83,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1720,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 84,
+    "topics_machine_detected": [
+      "saglik",
+      "ikmal",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1538,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 85,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "12 Mayıs 1915",
+      "12 Mayıs 1915",
+      "12 Mayıs 1915"
+    ],
+    "text_characters": 1344,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 86,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 11,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 87,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 347,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 88,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1378,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 89,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1649,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 90,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 2283,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 91,
+    "topics_machine_detected": [
+      "haberlesme"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1445,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 92,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1329,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 93,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 2212,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 94,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1620,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 95,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1486,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 96,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1572,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 97,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1485,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 98,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "12/13 Mayıs 1915",
+      "12/13 Mayıs 1915"
+    ],
+    "text_characters": 1156,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 99,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "12/13 Mayıs 1915",
+      "12/13 Mayıs 1915"
+    ],
+    "text_characters": 1753,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 100,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "12/13 Mayıs 1915",
+      "12/13 Mayıs 1915",
+      "04.10 ",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1659,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 101,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "saglik"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1248,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 102,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1362,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 103,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1607,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 104,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1740,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 105,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1995,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 106,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 2098,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 107,
+    "topics_machine_detected": [
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 612,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 108,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1498,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 109,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1531,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 110,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1338,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 111,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1753,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 112,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "birlik_duzeni",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1503,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 113,
+    "topics_machine_detected": [
+      "tahkimat",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1882,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 114,
+    "topics_machine_detected": [
+      "haberlesme",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1965,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 115,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1823,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 116,
+    "topics_machine_detected": [
+      "saglik",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1406,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 117,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "12/13 Mayıs 1915 "
+    ],
+    "text_characters": 1992,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 118,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "12/13 Mayıs 1915 ",
+      "12/13 Mayıs 1915 "
+    ],
+    "text_characters": 2129,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 119,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1517,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 120,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1466,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 121,
+    "topics_machine_detected": [
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 2123,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 122,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "saglik",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 1969,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 123,
+    "topics_machine_detected": [
+      "saglik",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 818,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 124,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "13 Mayıs 1915",
+      "13 Mayıs 1915",
+      "13 Mayıs 1915"
+    ],
+    "text_characters": 1433,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 125,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 76,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 126,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 11,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 127,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 346,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 128,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915 ",
+      "14 Mayıs 1915 ",
+      "14 Mayıs 1915 "
+    ],
+    "text_characters": 1229,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 129,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915 ",
+      "14 Mayıs 1915 ",
+      "14 Mayıs 1915 "
+    ],
+    "text_characters": 1471,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 130,
+    "topics_machine_detected": [
+      "saglik",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915 ",
+      "14 Mayıs 1915 ",
+      "14 Mayıs 1915 "
+    ],
+    "text_characters": 1431,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 131,
+    "topics_machine_detected": [
+      "saglik",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915 ",
+      "14 Mayıs 1915 ",
+      "14 Mayıs 1915 "
+    ],
+    "text_characters": 1595,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 132,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915 ",
+      "14 Mayıs 1915 ",
+      "14 Mayıs 1915 ",
+      "14 Mayıs 1915 "
+    ],
+    "text_characters": 1464,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 133,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915",
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1837,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 134,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915",
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1757,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 135,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915 ",
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1920,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 136,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915",
+      "14 Mayıs 1915",
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1759,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 137,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1791,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 138,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915",
+      "14 Mayıs 1915",
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1492,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 139,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915",
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1906,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 140,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915",
+      "14 Mayıs 1915",
+      "14 Mayıs 1915 "
+    ],
+    "text_characters": 1441,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 141,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915 "
+    ],
+    "text_characters": 2020,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 142,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915 ",
+      "14 Mayıs 1915 ",
+      "13/14 Mayıs 1915"
+    ],
+    "text_characters": 1376,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 143,
+    "topics_machine_detected": [
+      "tahkimat",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915",
+      "14 Mayıs 1915",
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1102,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 144,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1389,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 145,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915",
+      "14 Mayıs 1915",
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1956,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 146,
+    "topics_machine_detected": [
+      "haberlesme",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915",
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1637,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 147,
+    "topics_machine_detected": [
+      "saglik",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915",
+      "14 Mayıs 1915",
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1620,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 148,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915",
+      "14 Mayıs 1915",
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1490,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 149,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 2161,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 150,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "14 Mayıs 1915",
+      "14 Mayıs 1915",
+      "14 Mayıs 1915"
+    ],
+    "text_characters": 1597,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 151,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "14/15 Mayıs 191",
+      "14/15 Mayıs 1915"
+    ],
+    "text_characters": 738,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 152,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 11,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 153,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 369,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 154,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1326,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 155,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "ikmal",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 2407,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 156,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "ikmal",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 2063,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 157,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1975,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 158,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1355,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 159,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 2025,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 160,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1390,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 161,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "14/15 Mayıs 1915",
+      "14/15 Mayıs 1915"
+    ],
+    "text_characters": 1725,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 162,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "birlik_duzeni",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "14/15 Mayıs 1915",
+      "14/15 Mayıs 1915",
+      "14/15 Mayıs 1915"
+    ],
+    "text_characters": 1733,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 163,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "14/15 Mayıs 1915",
+      "14/15 Mayıs 1915 ",
+      "14/15 Mayıs 1915 "
+    ],
+    "text_characters": 1600,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 164,
+    "topics_machine_detected": [
+      "tahkimat",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "14/15 Mayıs 1915 ",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1646,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 165,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "ikmal",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1635,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 166,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1348,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 167,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1423,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 168,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1628,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 169,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "14/15 Mayıs 1915",
+      "14/15 Mayıs 1915",
+      "14/15 Mayıs 1915",
+      "14/15 Mayıs 1915"
+    ],
+    "text_characters": 1342,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 170,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "14/15 Mayıs 1915"
+    ],
+    "text_characters": 1709,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 171,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1692,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 172,
+    "topics_machine_detected": [
+      "tahkimat",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1503,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 173,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1697,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 174,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1808,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 175,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 2028,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 176,
+    "topics_machine_detected": [
+      "saglik"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 100,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 177,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 76,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 178,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik"
+    ],
+    "document_dates_as_extracted": [
+      "14/15 Mayıs 1915",
+      "14-15 Mayıs 1915"
+    ],
+    "text_characters": 1819,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 179,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1892,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 180,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 2159,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 181,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915 "
+    ],
+    "text_characters": 1928,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 182,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915 ",
+      "14/15 Mayıs 1915 ",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915 "
+    ],
+    "text_characters": 1345,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 183,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915 ",
+      "15 Mayıs 1915 ",
+      "15 Mayıs 1915 "
+    ],
+    "text_characters": 1701,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 184,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915 ",
+      "15 Mayıs 1915 "
+    ],
+    "text_characters": 1572,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 185,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915 "
+    ],
+    "text_characters": 1773,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 186,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915 ",
+      "15 Mayıs 1915 "
+    ],
+    "text_characters": 1661,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 187,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915 ",
+      "15 Mayıs 1915 "
+    ],
+    "text_characters": 1747,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 188,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915 ",
+      "15 Mayıs 1915 ",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1661,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 189,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915    "
+    ],
+    "text_characters": 1677,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 190,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "birlik_duzeni",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915    ",
+      "15 Mayıs 1915    "
+    ],
+    "text_characters": 1308,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 191,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915    "
+    ],
+    "text_characters": 2166,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 192,
+    "topics_machine_detected": [
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915  ",
+      "15 Mayıs 1915   "
+    ],
+    "text_characters": 1006,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 193,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1437,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 194,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1428,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 195,
+    "topics_machine_detected": [
+      "saglik",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1565,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 196,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "14/15 Mayıs 1915"
+    ],
+    "text_characters": 1623,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 197,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 2403,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 198,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 2048,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 199,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1762,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 200,
+    "topics_machine_detected": [
+      "haberlesme",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 497,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 201,
+    "topics_machine_detected": [
+      "haberlesme",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1366,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 202,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 1730,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 203,
+    "topics_machine_detected": [
+      "haberlesme"
+    ],
+    "document_dates_as_extracted": [
+      "15 Mayıs 1915",
+      "15 Mayıs 1915"
+    ],
+    "text_characters": 940,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 204,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 11,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 205,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 191,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 206,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "15/16 Mayıs 1915"
+    ],
+    "text_characters": 1984,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 207,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "15/16 Mayıs 1915",
+      "15/16 Mayıs 1915"
+    ],
+    "text_characters": 1603,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 208,
+    "topics_machine_detected": [
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "15-16 Mayıs 1915",
+      "15-16 Mayıs 1915",
+      "15-16 Mayıs 1915"
+    ],
+    "text_characters": 1293,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 209,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "birlik_duzeni",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "15-16 Mayıs 1915",
+      "15-16 Mayıs 1915"
+    ],
+    "text_characters": 2345,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 210,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1917,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 211,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1790,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 212,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1387,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 213,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1854,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 214,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 2174,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 215,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 2461,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 216,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 2357,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 217,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1760,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 218,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1713,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 219,
+    "topics_machine_detected": [
+      "tahkimat",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 2122,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 220,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1472,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 221,
+    "topics_machine_detected": [
+      "tahkimat",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1630,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 222,
+    "topics_machine_detected": [
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1589,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 223,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 2037,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 224,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1736,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 225,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1708,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 226,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1990,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 227,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1958,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 228,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1885,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 229,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "15/16 Mayıs 1915"
+    ],
+    "text_characters": 1524,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 230,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "15-16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1459,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 231,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "16/17 Mayıs 1915",
+      "16/17 Mayıs 1915"
+    ],
+    "text_characters": 1803,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 232,
+    "topics_machine_detected": [
+      "haberlesme",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1498,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 233,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1501,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 234,
+    "topics_machine_detected": [
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1606,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 235,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "15/16 Mayıs 1915",
+      "15/16 Mayıs 1915"
+    ],
+    "text_characters": 1423,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 236,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 477,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 237,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "15/16 Mayıs 1915"
+    ],
+    "text_characters": 1792,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 238,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "15/16 Mayıs 1915",
+      "15/16 Mayıs 1915",
+      "15/16 Mayıs 1915",
+      "15/16 Mayıs 1915"
+    ],
+    "text_characters": 1548,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 239,
+    "topics_machine_detected": [
+      "saglik"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 2097,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 240,
+    "topics_machine_detected": [
+      "haberlesme"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1689,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 241,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915 "
+    ],
+    "text_characters": 1390,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 242,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "15/16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1390,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 243,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1856,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 244,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1571,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 245,
+    "topics_machine_detected": [
+      "haberlesme"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915 "
+    ],
+    "text_characters": 1599,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 246,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 2173,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 247,
+    "topics_machine_detected": [
+      "haberlesme",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 2223,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 248,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 2569,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 249,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1674,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 250,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "16 Mayıs 1915",
+      "16 Mayıs 1915",
+      "16 Mayıs 1915"
+    ],
+    "text_characters": 1188,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 251,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 76,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 252,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 11,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 253,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 199,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 254,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "16/17 Mayıs 1915"
+    ],
+    "text_characters": 1791,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 255,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "16/17 Mayıs 1915",
+      "16-17 Mayıs 1915",
+      "16/17 Mayıs 1915"
+    ],
+    "text_characters": 1597,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 256,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1341,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 257,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1339,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 258,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1652,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 259,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1593,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 260,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1570,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 261,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1434,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 262,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1520,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 263,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "16/17 Mayıs 1915",
+      "16/17 Mayıs 1915"
+    ],
+    "text_characters": 1545,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 264,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1779,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 265,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 2269,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 266,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 2284,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 267,
+    "topics_machine_detected": [
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 2096,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 268,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 1555,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 269,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1635,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 270,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1590,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 271,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1473,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 272,
+    "topics_machine_detected": [
+      "saglik",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1652,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 273,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 2293,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 274,
+    "topics_machine_detected": [
+      "haberlesme",
+      "saglik",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1786,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 275,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1567,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 276,
+    "topics_machine_detected": [
+      "haberlesme",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1863,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 277,
+    "topics_machine_detected": [
+      "haberlesme",
+      "saglik",
+      "birlik_duzeni",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 2010,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 278,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1571,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 279,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17/18 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 2433,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 280,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "16/17 Mayıs 1915 ",
+      "17 Mayıs 1915 "
+    ],
+    "text_characters": 1479,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 281,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "saglik",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 2119,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 282,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1612,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 283,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915   ",
+      "17 Mayıs 1915 ",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1553,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 284,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915  ",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1709,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 285,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915 ",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1460,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 286,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915"
+    ],
+    "text_characters": 1675,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 287,
+    "topics_machine_detected": [
+      "haberlesme",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915",
+      "16/17 Mayıs 1915  "
+    ],
+    "text_characters": 1903,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 288,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915",
+      "17 Mayıs 1915 "
+    ],
+    "text_characters": 1332,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 289,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "17 Mayıs 1915 ",
+      "17 Mayıs 1915",
+      "17 Mayıs 1915 ",
+      "17 Mayıs 1915 "
+    ],
+    "text_characters": 845,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 290,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 11,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 291,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 303,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 292,
+    "topics_machine_detected": [
+      "saglik",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 2340,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 293,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "saglik",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 1991,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 294,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1538,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 295,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1628,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 296,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1445,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 297,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 2030,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 298,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1620,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 299,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1652,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 300,
+    "topics_machine_detected": [
+      "haberlesme",
+      "saglik",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 2123,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 301,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 995,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 302,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1932,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 303,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 1879,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 304,
+    "topics_machine_detected": [
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 2041,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 305,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1730,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 306,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 2417,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 307,
+    "topics_machine_detected": [
+      "saglik",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 2169,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 308,
+    "topics_machine_detected": [
+      "tahkimat",
+      "saglik",
+      "ikmal",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 2128,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 309,
+    "topics_machine_detected": [
+      "tahkimat",
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1935,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 310,
+    "topics_machine_detected": [
+      "tahkimat",
+      "ikmal"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1870,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 311,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "18-19 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1506,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 312,
+    "topics_machine_detected": [
+      "birlik_duzeni"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1734,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 313,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1922,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 314,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 2069,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 315,
+    "topics_machine_detected": [
+      "tahkimat"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 2203,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 316,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915",
+      "18 Mayıs 1915",
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1115,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 317,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915",
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1075,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 318,
+    "topics_machine_detected": [
+      "haberlesme",
+      "tahkimat",
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [
+      "18 Mayıs 1915",
+      "18 Mayıs 1915",
+      "18 Mayıs 1915"
+    ],
+    "text_characters": 1881,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 319,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 0,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 320,
+    "topics_machine_detected": [],
+    "document_dates_as_extracted": [],
+    "text_characters": 0,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  },
+  {
+    "pdf_page": 321,
+    "topics_machine_detected": [
+      "zayiat_izleri"
+    ],
+    "document_dates_as_extracted": [],
+    "text_characters": 920,
+    "status": "otomatik_dizin_ayrintili_okuma_degildir"
+  }
+]

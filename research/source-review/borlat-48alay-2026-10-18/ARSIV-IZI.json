@@ -1,0 +1,21 @@
+{
+  "reviewDate": "2026-10-18",
+  "sourceUrl": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/zahNNEJiKbDMnmvn5A34sv3vnwhAbLSAPhGixy3F.pdf#page=342",
+  "printedPage": 342,
+  "physicalPdfPage": 342,
+  "status": "yayin_kaynakcasi_goruntuden_okundu_tekil_belge_eslestirmesi_acik",
+  "evidenceText": "1.Arşiv Belgeleri / 1.1 ATASE Arşivi",
+  "referenceGroupsAsPrinted": [
+    {"group": "BDH-5314-H2", "includesFolio": "7a"},
+    {"group": "BDH-5292-H8", "includesFolio": "1"},
+    {"group": "BDH-5367-H1", "includesFolio": "22a, 23, 23a, 24, 24a, 25"},
+    {"group": "BDH-5367-H2", "includesFolio": "1"}
+  ],
+  "limits": [
+    "Bu kayıt özgün arşiv kataloğu değildir; yayındaki toplu kaynakçadır.",
+    "Belge gruplarının kaynakçada geçmesi, basılı 83 ve 86'daki emri tekil fihriste bağlamaz.",
+    "5367 grupları doğrudan 48. Alay ceridesinin kesin arşiv numarası ilan edilmedi.",
+    "İki yayının aynı özgün belgeyi kullanıp kullanmadığı henüz çözülmedi.",
+    "Güncel arşiv erişim yöntemi ve kod dönüşümleri bu kaynakçadan çıkarılamaz."
+  ]
+}

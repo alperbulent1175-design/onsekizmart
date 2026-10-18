@@ -1,21 +1,13 @@
 # -*- coding: utf-8 -*-
 """Yasal sayfaları şablondan üretir ve site haritasını yayımlanan sayfalardan kurar."""
-from datetime import datetime, timezone
 from pathlib import Path
+import argparse
 import sys
+from xml.sax.saxutils import escape
 import xml.etree.ElementTree as ET
 
 SITE = "https://onsekizmart.com"
 SKIP_PARTS = {".git", "tests", "css", "js", "archive", "research", "prototip", "node_modules"}
-INFO_PATHS = {
-    "/hakkinda/",
-    "/kaynak-politikasi/",
-    "/telif/",
-    "/iletisim/",
-    "/gizlilik/",
-}
-GUIDE_PATHS = {"/kaynakca/", "/nasil-okunur/", "/sozluk/"}
-
 CONTACT_BODY = """<p class="kicker">Yazışma</p>
 <h1>İletişim</h1>
 <div class="prose">
@@ -232,22 +224,6 @@ def canonical_of(html):
     return html[start:end]
 
 
-def lastmod_of(path):
-    stamp = path.stat().st_mtime
-    return datetime.fromtimestamp(stamp, timezone.utc).date().isoformat()
-
-
-def priority_for(loc):
-    path = loc[len(SITE):] or "/"
-    if path == "/":
-        return "1.0"
-    if path in INFO_PATHS:
-        return "0.3"
-    if path in GUIDE_PATHS:
-        return "0.5"
-    return "0.6"
-
-
 def sitemap_entries(root):
     root = Path(root)
     found = {}
@@ -263,8 +239,8 @@ def sitemap_entries(root):
             raise ValueError(f"Canonical adres dosyayla uyuşmuyor: {path} -> {canon}")
         if canon in found:
             raise ValueError(f"Mükerrer canonical: {canon}")
-        found[canon] = (lastmod_of(path), priority_for(canon))
-    return sorted(found.items(), key=lambda item: (item[0] != SITE + "/", item[0]))
+        found[canon] = True
+    return sorted(found, key=lambda loc: (loc != SITE + "/", loc))
 
 
 def render_sitemap(entries):
@@ -272,13 +248,10 @@ def render_sitemap(entries):
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ]
-    for loc, (modified, priority) in entries:
+    for loc in entries:
         lines.extend([
             "  <url>",
-            f"    <loc>{loc}</loc>",
-            f"    <lastmod>{modified}</lastmod>",
-            "    <changefreq>yearly</changefreq>",
-            f"    <priority>{priority}</priority>",
+            f"    <loc>{escape(loc)}</loc>",
             "  </url>",
         ])
     lines.append("</urlset>")
@@ -296,9 +269,13 @@ def write_sitemap(root):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--sitemap-only", action="store_true",
+                        help="Sayfa içeriklerini değiştirmeden yalnız sitemap.xml üretir.")
+    args = parser.parse_args()
     root = project_root()
     try:
-        written = build_pages(root)
+        written = [] if args.sitemap_only else build_pages(root)
         sitemap = write_sitemap(root)
     except (OSError, ValueError) as exc:
         print(f"Hata: {exc}", file=sys.stderr)

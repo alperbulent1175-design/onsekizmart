@@ -1,0 +1,622 @@
+[
+  {
+    "url": "https://onsekizmart.com/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/donanma/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/donanma/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/fotograf-arsivi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/fotograf-arsivi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/gizlilik/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/gizlilik/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/hakkinda/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/hakkinda/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/iletisim/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/iletisim/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/inceleme-notlari/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/inceleme-notlari/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/kaynak-politikasi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/kaynak-politikasi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/kaynakca/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/kaynakca/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/albert-damade/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/albert-damade/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/alexander-godley/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/alexander-godley/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/aylmer-hunter-weston/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/aylmer-hunter-weston/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/cevat-bey-cobanli/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/cevat-bey-cobanli/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/charles-monro/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/charles-monro/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/emile-guepratte/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/emile-guepratte/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/esat-pasa-bulkat/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/esat-pasa-bulkat/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/frederick-stopford/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/frederick-stopford/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/guido-von-usedom/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/guido-von-usedom/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/halil-sami-bey/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/halil-sami-bey/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/henri-gouraud/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/henri-gouraud/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/ian-hamilton/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/ian-hamilton/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/johannes-merten/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/johannes-merten/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/john-de-robeck/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/john-de-robeck/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/liman-von-sanders/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/liman-von-sanders/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/mustafa-kemal/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/mustafa-kemal/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/rafet-bey-bele/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/rafet-bey-bele/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/remzi-bey/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/remzi-bey/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/roger-keyes/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/roger-keyes/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/sackville-carden/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/sackville-carden/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/selahattin-adil-bey/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/selahattin-adil-bey/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/vehip-pasa-kaci/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/vehip-pasa-kaci/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/weber-pasa/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/weber-pasa/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/william-birdwood/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/william-birdwood/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/komutanlar/william-bridges/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/komutanlar/william-bridges/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/nasil-okunur/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/nasil-okunur/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/18-mart-deniz-muharebesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/18-mart-deniz-muharebesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/anafartalar-suvla-cikarmasi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/anafartalar-suvla-cikarmasi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/anafartalar-tahliyesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/anafartalar-tahliyesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/ariburnu-cikarmasi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/ariburnu-cikarmasi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/ariburnu-genel-taarruzu/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/ariburnu-genel-taarruzu/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/ariburnu-gomme-ateskesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/ariburnu-gomme-ateskesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/ariburnu-tahliyesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/ariburnu-tahliyesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/barbaros-hayreddin-batar/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/barbaros-hayreddin-batar/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/birinci-anafartalar-muharebesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/birinci-anafartalar-muharebesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/birinci-kirte-muharebesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/birinci-kirte-muharebesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/conkbayiri-muharebesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/conkbayiri-muharebesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/dis-tabyalarin-bombardimani/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/dis-tabyalarin-bombardimani/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/e15-bogazda-karaya-oturur/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/e15-bogazda-karaya-oturur/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/giris-tabyalari-ve-kisa-cikarmalar/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/giris-tabyalari-ve-kisa-cikarmalar/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/goliath-batar/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/goliath-batar/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/ikinci-anafartalar-muharebesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/ikinci-anafartalar-muharebesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/ikinci-kirte-muharebesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/ikinci-kirte-muharebesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/kanlisirt-muharebesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/kanlisirt-muharebesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/kerevizdere-muharebesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/kerevizdere-muharebesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/kumkale-oyalama-cikarmasi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/kumkale-oyalama-cikarmasi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/majestic-batar/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/majestic-batar/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/nusret-erenkoy-hattini-doker/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/nusret-erenkoy-hattini-doker/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/saros-gosterisi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/saros-gosterisi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/seddulbahir-cikarmasi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/seddulbahir-cikarmasi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/seddulbahir-tahliyesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/seddulbahir-tahliyesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/triumph-batar/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/triumph-batar/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/ucuncu-kirte-muharebesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/ucuncu-kirte-muharebesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/zigindere-muharebesi/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/olaylar/zigindere-muharebesi/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/sozluk/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/sozluk/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/telif/",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/telif/",
+    "content_type": "text/html; charset=UTF-8",
+    "blocked": false,
+    "canonical_matches": true,
+    "meta_noindex": false
+  },
+  {
+    "url": "https://onsekizmart.com/robots.txt",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/robots.txt",
+    "content_type": "text/plain; charset=UTF-8",
+    "blocked": false,
+    "sitemap_declared": true
+  },
+  {
+    "url": "https://onsekizmart.com/sitemap.xml",
+    "status": 200,
+    "final_url": "https://onsekizmart.com/sitemap.xml",
+    "content_type": "application/xml",
+    "blocked": false,
+    "url_count": 67,
+    "matches_local": true
+  }
+]
