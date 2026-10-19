@@ -14,6 +14,32 @@
       return url.pathname + url.search + url.hash;
     } catch (error) { return ""; }
   }
+  function eventListReturnUrl(value) {
+    if (!value || value.length > 1000 || value.indexOf('/olaylar/') !== 0) return '';
+    try {
+      var url = new URL(value, window.location.href);
+      if (url.origin !== window.location.origin || url.pathname !== '/olaylar/' || url.hash !== '#events-tools') return '';
+      var keys = Array.from(url.searchParams.keys());
+      if (keys.some(function (key) { return ['q', 'bolum'].indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return '';
+      if (url.searchParams.has('bolum') && ['deniz', 'kara', 'tahliye'].indexOf(url.searchParams.get('bolum')) === -1) return '';
+      return url.pathname + url.search + url.hash;
+    } catch (error) { return ''; }
+  }
+  var listReturn = window.location && window.location.search ? eventListReturnUrl(new URLSearchParams(window.location.search).get('listeyeDon')) : '';
+  if (listReturn) {
+    document.querySelectorAll('.event-actions a[href^="/olaylar/"], .back-link a[href^="/olaylar/"], .event-all-records a').forEach(function (link) {
+      link.href = listReturn;
+      link.textContent = 'Arama sonuçlarına dön';
+    });
+    document.querySelectorAll('.event-navigation a[rel="prev"], .event-navigation a[rel="next"]').forEach(function (link) {
+      try {
+        var url = new URL(link.href, window.location.href);
+        if (url.origin !== window.location.origin || !/^\/olaylar\/[^/]+\/$/.test(url.pathname)) return;
+        url.searchParams.set('listeyeDon', listReturn);
+        link.href = url.pathname + url.search + url.hash;
+      } catch (error) { /* Invalid editorial links must not interrupt navigation. */ }
+    });
+  }
   var returnUrl = "";
   if (window.location && window.location.search && typeof URLSearchParams !== "undefined") {
     returnUrl = atlasReturnUrl(new URLSearchParams(window.location.search).get("atlasaDon"));

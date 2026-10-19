@@ -10,7 +10,15 @@
       "evidence": "reported shortly after 4.p.m. that she had struck a mine",
       "date": "2026-10-17",
       "status": "cevrimyazi_okundu_onay_bekliyor",
-      "limits": "Sayfada Awaiting approval yazıyor. Özgün görüntüyle karşılaştırılmadı. Bildirim saati, isabetin kesin saati değildir; saat sistemi farkı çözülmedi."
+      "limits": "Sayfada Awaiting approval yazıyor. Özgün görüntüyle karşılaştırılmadı. Bildirim saati, isabetin kesin saati değildir; saat sistemi farkı çözülmedi.",
+      "visualReview": {
+        "date": "2026-10-19",
+        "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43819-rcdig1066703-page60.jpg",
+        "pageLabel": "42",
+        "imageFileLabel": "page60",
+        "status": "kurum_arsivindeki_daktilo_kopyasi_goruntuden_okundu",
+        "limits": "Bildirim, kesin isabet saati değildir. İmzalı özgün gemi raporuyla karşılaştırma ve konum doğrulaması açık."
+      }
     },
     {
       "id": "awm-bouvet-description",

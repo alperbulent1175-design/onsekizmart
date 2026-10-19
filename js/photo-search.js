@@ -10,6 +10,7 @@
   var navigation = document.getElementById('photo-sections');
   var sectionLinks = navigation ? Array.from(navigation.querySelectorAll('a')) : [];
   var sectionLabels = sectionLinks.map(function (link) { return link.textContent; });
+  var sectionIds = sectionLinks.map(function (link) { return link.getAttribute('href').slice(1); });
   function fold(text) {
     return text.toLocaleLowerCase('tr').replace(/ı/g, 'i').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   }
@@ -32,7 +33,13 @@
     status.textContent = count + ' / ' + cards.length + ' fotoğraf gösteriliyor.';
     empty.hidden = count > 0;
     sectionLinks.forEach(function (link, index) {
-      var category = link.getAttribute('href').slice(1);
+      var category = sectionIds[index];
+      var destination = new URL(window.location.href);
+      if (input.value.trim()) destination.searchParams.set('q', input.value.trim());
+      else destination.searchParams.delete('q');
+      destination.searchParams.set('tur', category);
+      destination.hash = category;
+      link.href = destination.pathname + destination.search + destination.hash;
       var available = cards.filter(function (card) {
         return card.category === category && terms.every(function (term) { return card.text.includes(term); });
       }).length;
@@ -67,14 +74,15 @@
     update();
   });
   select.addEventListener('change', update);
-  sectionLinks.forEach(function (link) {
-    link.addEventListener('click', function () {
-      input.value = '';
-      select.value = link.getAttribute('href').slice(1);
-      update();
+  sectionLinks.forEach(function (link, index) {
+    link.addEventListener('click', function (event) {
+      if (event && (event.defaultPrevented || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || (event.button != null && event.button !== 0))) return;
+      select.value = sectionIds[index];
+      // Let the native link create its history entry before changing the URL.
+      update(false);
     });
   });
-  form.addEventListener('reset', function () { input.value = ''; select.value = ''; update(); });
+  form.addEventListener('reset', function () { input.value = ''; select.value = ''; update(); input.focus(); });
   form.hidden = false;
   var help = document.getElementById('photo-search-help');
   if (help) help.hidden = false;

@@ -31,7 +31,7 @@ test('Bouvet ve Ocean sayısal kaynak yokken taşınmaz', () => {
 
 test('Leaflet işareti güncel veri koordinatlarıyla ve enlem-boylam sırasıyla oluşturulur', () => {
   const app = read('js/app.js'); const calls = [];
-  const c = { map: {}, groups: { enkaz: {} }, markers: {}, iconFor() {}, selectPlace() {},
+  const c = { document: { addEventListener() {} }, map: {}, groups: { enkaz: {} }, markers: {}, iconFor() {}, selectPlace() {},
     L: { marker(coords, opts) { calls.push({ coords: Array.from(coords), title: opts.title }); return { addTo() { return this; }, on() { return this; }, bindTooltip() {} }; } } };
   vm.createContext(c);
   const start = app.indexOf('  function addMarker(');

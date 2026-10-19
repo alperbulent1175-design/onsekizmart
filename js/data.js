@@ -194,11 +194,21 @@ window.OM = {
       lat: 40.0038,
       lng: 26.152,
       uncertainty: "Drepano adının Tavşan Adası ile eşleştirilmesi ve bu harita noktası doğrulanmadı. Yaklaşık gösterimdir; kesin karaya oturma yeri değildir.",
+      narrativeSource: {
+        url: "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+        imageUrl: "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+        label: "AWM RCDIG1066703 · daktilo sayfası 47",
+        evidenceText: "Gaulois grounded on North of Drepano Island.",
+        translation: "Gaulois, Drepano Adası’nın kuzeyinde karaya oturdu.",
+        date: "2026-10-19",
+        status: "daktilo_kopyasi_goruntuden_okundu",
+        limit: "Özgün imzalı raporla karşılaştırma açık; kesin saat veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor."
+      },
       meta: "Karaya oturma kaydı · yer ve saat incelemede",
-      short: "Rapor çevrimyazısındaki karaya oturma anlatısı için kaynak notuna bakın. Kesin saat, hasar ayrıntıları ve ada eşleştirmesi incelemede.",
+      short: "AWM’deki daktilo kopyasında Drepano’nun kuzeyinde karaya oturma kaydı okunur. Kesin saat, ada eşleştirmesi ve harita noktası doğrulanmadı.",
       note: [
         "Önceki 12.28 isabet ve 14.35 karaya oturma saatlerinin belge karşılaştırması tamamlanmadı.",
-        "Kaynak URL’si, kanıt metni, inceleme tarihi ve doğrulama sınırları Gaulois kaynak notunda yer alır."
+        "19 Ekim 2026: AWM RCDIG1066703, daktilo sayfası 47 görüntüden okundu. İmzalı özgün raporla karşılaştırma açık; ayrıntılar Gaulois kaynak notundadır."
       ]
     },
     {
@@ -218,9 +228,21 @@ window.OM = {
     {
       id: "inflexible",
       type: "enkaz",
-      name: "HMS Inflexible — mayın isabeti",
+      name: "HMS Inflexible — yaklaşık hasar gösterimi",
       lat: 40.0435,
       lng: 26.292,
+      uncertainty: "Bu harita noktası için incelenmiş sayısal konum dayanağı tamamlanmadı. Hasar anlatısının kaynak desteği, kesin mayın isabeti yerini doğrulamaz; enkaz noktası olarak okunmamalıdır.",
+      narrativeSource: {
+        url: "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-4",
+        imageUrl: "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43819-rcdig1066703-page60.jpg",
+        label: "AWM RCDIG1066703 · daktilo sayfası 42",
+        evidenceText: "reported shortly after 4.p.m.",
+        translation: "Saat 16.00’dan kısa süre sonra bildirdi.",
+        context: "Pasaj Inflexible’ın mayına çarptığını bildirmesine ilişkindir. Bildirimin zamanı, mayına çarpma anını ayrıca doğrulamaz.",
+        date: "2026-10-19",
+        status: "daktilo_kopyasi_goruntuden_okundu",
+        limit: "Özgün imzalı raporla karşılaştırma açık; kesin isabet saati veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor."
+      },
       meta: "18 Mart 1915 · saat ve zayiat incelemede",
       short: "Inflexible ağır hasar alarak Boğaz’dan çıkar. Kesin saat ve zayiat için belge karşılaştırması tamamlanmadı.",
       note: [
@@ -244,12 +266,22 @@ window.OM = {
         status: "yayin_koordinati_karsilastirildi",
         datum: "belirtilmemis"
       },
+      narrativeSource: {
+        url: "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+        imageUrl: "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+        label: "AWM RCDIG1066703 · daktilo sayfası 47",
+        evidenceText: "No trace of either ship could be found",
+        translation: "İki gemiden de hiçbir iz bulunamadı.",
+        date: "2026-10-19",
+        status: "daktilo_kopyasi_goruntuden_okundu",
+        limit: "Özgün imzalı raporla karşılaştırma açık; kesin saat veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor."
+      },
       meta: "18 Mart 1915 · isabet, tahliye ve batış saatleri incelemede",
       short: "Irresistible için isabet, tahliye ve batış ayrı kayıtlardır. Kesin saat ve tahliye sayılarının belge karşılaştırması tamamlanmadı.",
       note: [
         "Enkaz koordinatı, geminin isabet aldığı veya tahliye edildiği konumu ayrıca doğrulamaz.",
         "Önceki 16.11, 16.32 ve 19.30 saat anahtarları bağlantılar için korunur; doğrulanmış olay saatleri değildir.",
-        "Kanıt metinleri ve inceleme sınırları 18 Mart sayfasındaki tahliye ve batış ayrımı bölümündedir."
+        "19 Ekim 2026: AWM daktilo sayfası 47’de gece aramasında iki geminin bulunamadığı anlatılır. Bu kayıt kesin batış anını göstermez; kaynak bağlantısı tahliye ve batış ayrımı bölümündedir."
       ]
     },
     {
@@ -259,12 +291,22 @@ window.OM = {
       lat: 40.0315,
       lng: 26.2788,
       uncertainty: "Bu işaret için incelenmiş sayısal enkaz koordinatı dayanağı tamamlanmadı. Yaklaşık gösterimdir; kesin batış veya enkaz noktası sayılmaz.",
+      narrativeSource: {
+        url: "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+        imageUrl: "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+        label: "AWM RCDIG1066703 · daktilo sayfası 47",
+        evidenceText: "No trace of either ship could be found",
+        translation: "İki gemiden de hiçbir iz bulunamadı.",
+        date: "2026-10-19",
+        status: "daktilo_kopyasi_goruntuden_okundu",
+        limit: "Özgün imzalı raporla karşılaştırma açık; kesin saat veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor."
+      },
       meta: "18 Mart 1915 · isabet ve batış saatleri incelemede",
       short: "Ocean 18 Mart’ta battı. Mayın isabeti anlatıları farklı kesinliktedir; ayrıntılı saat ve tahliye bilgisi doğrulanmadı.",
       note: [
         "AWM A02360 açıklaması mayınla batışı kesin anlatır; DVA Anzac Portal aynı ayrıntıyı ihtimalli ifade eder.",
         "16:45, tahliye sayısı ve gemi görevleri için belge karşılaştırması tamamlanmadı. 22:30 kaydı özgün gemi raporuyla kesinleştirilmedi.",
-        "Kaynaklar ve inceleme sınırları 18 Mart Deniz Muharebesi sayfasındaki Ocean bölümündedir."
+        "19 Ekim 2026: AWM daktilo sayfası 47’de Ocean ve Irresistible’ın gece aramasında bulunamadığı anlatılır. Kesin batış anı gözlenmiş sayılmaz; belge bağlantısı 18 Mart kaynak notundadır."
       ]
     },
     {

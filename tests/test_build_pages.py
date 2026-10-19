@@ -157,5 +157,19 @@ class BuildPagesTests(unittest.TestCase):
             self.assertEqual(entries, ["https://onsekizmart.com/"])
 
 
+class PhotoOutputComparisonTests(unittest.TestCase):
+    def test_only_html_line_endings_are_ignored(self):
+        import build_photo_archive
+        with tempfile.TemporaryDirectory() as folder:
+            page = Path(folder) / "index.html"
+            page.write_bytes(b"<p>same</p>\r\n")
+            self.assertTrue(build_photo_archive.output_matches(page, b"<p>same</p>\n"))
+            self.assertFalse(build_photo_archive.output_matches(page, b"<p>changed</p>\n"))
+            image = Path(folder) / "image.jpg"
+            image.write_bytes(b"image\r\n")
+            self.assertFalse(build_photo_archive.output_matches(image, b"image\n"))
+            self.assertFalse(build_photo_archive.output_matches(Path(folder) / "missing.html", b""))
+
+
 if __name__ == "__main__":
     unittest.main()

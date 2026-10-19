@@ -8,20 +8,24 @@ const source = fs.readFileSync(path.join(__dirname, '../js/app.js'), 'utf8');
 test('kampanya süzgeci kayıt görünür kaldıkça kimliğini korur, dışarıda kalınca ilk kaydı seçer', () => {
   const a = { date: 'test-a', title: 'A' }, b = { date: 'test-b', title: 'B' };
   let list = [a, b], shown, closed = 0;
+  const filterStatus = {};
   const ctx = { mode: 'camp', campIndex: 1, campSelection: b,
     campEvents: () => list, range: { setAttribute() {} }, clock: {},
     tlEvent: { replaceChildren() {} }, textEl: () => ({}),
-    document: { createTextNode: () => ({}) }, fillFromCamp: ev => { shown = ev; },
+    document: { createTextNode: () => ({}), getElementById: () => filterStatus }, fillFromCamp: ev => { shown = ev; },
     paintCurrent() {}, closePanel: () => { closed++; }
   };
   vm.createContext(ctx);
   vm.runInContext(source.slice(source.indexOf('  function showCamp('), source.indexOf('  function stopPlay(')) + '\n' + source.slice(source.indexOf('  function refreshCampRange('), source.indexOf('  function setSide(')), ctx);
   list = [b]; ctx.refreshCampRange();
   assert.equal(shown, b); assert.equal(ctx.range.value, '0');
+  assert.match(filterStatus.textContent, /korunuyor: B/);
   list = [a]; ctx.refreshCampRange();
   assert.equal(shown, a); assert.equal(ctx.campSelection, a);
+  assert.match(filterStatus.textContent, /İlk uygun kayıt gösteriliyor: A/);
   list = []; ctx.refreshCampRange();
   assert.equal(ctx.campSelection, null); assert.equal(closed, 1);
+  assert.match(filterStatus.textContent, /Seçili kart kapatıldı/);
   assert.match(ctx.tlEvent.textContent, /olay yok/);
 });
 
@@ -202,6 +206,7 @@ test('kart kapanınca geçerli liste düğmesine döner, kaldırılan veya gizli
     vm.createContext(ctx);
     const start = source.indexOf('  function closePanel()');
     vm.runInContext(source.slice(start, source.indexOf('  function selectPlace(', start)), ctx);
+    ctx.panelRevision = 0;
     ctx.closePanel();
     assert.equal(focused, state === 'visible' ? 'trigger' : 'search');
     assert.equal(panel.returnFocusTarget, null);
@@ -273,4 +278,53 @@ test('bekleme süresi değişimi tek zamanlayıcıyı yeniler, dururken başlatm
   speed.value = '8000'; change(); assert.deepEqual(delays, [5000, 8000]); assert.equal(clears, 1);
   speed.value = '0'; change(); assert.equal(delays[2], 2400);
   click.call(button); const count = delays.length; change(); assert.equal(delays.length, count);
+});
+
+test('harita işareti seçimi kart başlığına ve geri dönüş için güncel işarete bağlanır', () => {
+  let click, focused, selected;
+  const markerElement = { id: 'marker-ocean' };
+  const marker = { addTo() { return this; }, on(name, callback) { assert.equal(name, 'click'); click = callback; return this; },
+    bindTooltip() {}, getElement: () => markerElement };
+  const ctx = { L: { marker: () => marker }, groups: { enkaz: {} }, markers: {}, iconFor() {},
+    selectPlace(id, fly) { selected = [id, fly]; }, focusSelectedPanel(trigger) { focused = trigger; } };
+  vm.createContext(ctx);
+  const start = source.indexOf('  function addMarker(');
+  const end = source.indexOf('\n  }', start) + 4;
+  vm.runInContext(source.slice(start, end), ctx);
+  ctx.addMarker({ id: 'ocean', name: 'Ocean', lat: 40, lng: 26, type: 'enkaz' });
+  click();
+  assert.deepEqual(selected, ['ocean', false]);
+  assert.equal(focused, markerElement);
+  assert.equal(ctx.markers.ocean, marker);
+});
+
+test('harita işaretinde Enter ve boşluk bir kez seçer; diğer kontroller etkilenmez', () => {
+  let selected = 0, focused = 0, prevented = 0, stopped = 0;
+  const target = { closest: () => ({}) };
+  const ctx = { markers: { ocean: { getElement: () => target } },
+    selectPlace(id) { assert.equal(id, 'ocean'); selected++; }, focusSelectedPanel(el) { assert.equal(el, target); focused++; } };
+  vm.createContext(ctx);
+  const start = source.indexOf('  function activateMarkerKey(');
+  vm.runInContext(source.slice(start, source.indexOf('  document.addEventListener("keydown", activateMarkerKey', start)), ctx);
+  const event = { target, preventDefault() { prevented++; }, stopImmediatePropagation() { stopped++; } };
+  for (const key of ['Enter', ' ']) ctx.activateMarkerKey({ ...event, key });
+  assert.equal(selected, 2); assert.equal(focused, 2); assert.equal(prevented, 2); assert.equal(stopped, 2);
+  ctx.activateMarkerKey({ ...event, key: 'Enter', repeat: true });
+  ctx.activateMarkerKey({ ...event, key: 'Enter', ctrlKey: true });
+  ctx.activateMarkerKey({ ...event, key: 'Tab' });
+  ctx.activateMarkerKey({ ...event, key: ' ', target: { closest: () => ({}) } });
+  assert.equal(selected, 2); assert.equal(prevented, 3);
+});
+
+test('zaman çubuğuna elle müdahale oynatmayı durdurup seçilen kaydı gösterir', () => {
+  for (const mode of ['camp', 'naval']) {
+    let input; const calls = [];
+    const ctx = { mode, range: { value: '3', addEventListener(type, handler) { input = handler; } },
+      stopPlay() { calls.push('stop'); }, showCamp(i, fly) { calls.push(['camp', i, fly]); }, showTime(m, fly) { calls.push(['naval', m, fly]); } };
+    vm.createContext(ctx);
+    const start = source.indexOf('  range.addEventListener("input"');
+    vm.runInContext(source.slice(start, source.indexOf('  function refreshCampRange(', start)), ctx);
+    input();
+    assert.deepEqual(calls, ['stop', [mode, 3, true]]);
+  }
 });

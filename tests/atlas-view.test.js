@@ -51,3 +51,21 @@ test('uydu ve yol tercihi geri gelir, diğer taban katmanı kapanır', () => {
     assert.equal(ctx.map.hasLayer(ctx.groups.tabya), true);
   }
 });
+
+test('mevki bağlantısının seçimi dönüş görünümünden sonra ikinci işlem bırakmaz', () => {
+  const { ctx } = setup(); const pending = [];
+  ctx.URLSearchParams = URLSearchParams;
+  ctx.window.location.search = '?mevki=test-place';
+  ctx.window.setTimeout = callback => pending.push(callback);
+  ctx.findCampByKey = () => null; ctx.findPlace = () => ({});
+  ctx.panelRevision = 0; ctx.scrollToMap = () => {};
+  ctx.selectPlace = () => { ctx.view = [[40.9, 26.9], 13]; };
+  ctx.map.invalidateSize = () => {};
+  const start = source.indexOf('  function consumeDeepLink()');
+  vm.runInContext(source.slice(start, source.indexOf('  function bindDock()', start)), ctx);
+  ctx.saveAtlasView('/?mevki=test-place#harita');
+  ctx.consumeDeepLink(); assert.equal(pending.length, 1);
+  pending.shift()();
+  assert.deepEqual(ctx.view, [[40.1, 26.2], 12]);
+  assert.equal(pending.length, 0);
+});

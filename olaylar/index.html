@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261017d">
+  <link rel="stylesheet" href="/css/style.css?v=20261019d">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKGGXNVR7V"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -73,14 +73,14 @@
   <p>Bu sayfadaki ayrıntılar kurum çerçevesiyle sunulur; tek tek iddiaları belgeleyen kanıtlar tamamlanmış değildir. Kaynak notu sayfanın sonundadır. <a href="/kaynak-politikasi/">Kaynak politikası</a></p>
 </aside>
 <div class="prose"><p>Atlasın seçilmiş muharebe ve olay sayfaları. Kronolojideki boşluklar, o tarihlerde çatışma olmadığı anlamına gelmez. Kaynaklar ve inceleme sınırları ilgili olay sayfasındadır.</p></div>
-<div class="events-search" id="events-tools" hidden>
+<div class="events-search" id="events-tools" tabindex="-1" hidden>
   <div>
     <label for="events-query">Olay veya tarih ara</label>
-    <input id="events-query" type="search" placeholder="Örn. Arıburnu veya Nisan" autocomplete="off" aria-controls="events-results">
+    <input id="events-query" type="search" placeholder="Örn. Arıburnu veya Nisan" autocomplete="off" aria-controls="events-results" aria-describedby="events-count">
   </div>
   <div>
     <label for="events-category">Bölüm</label>
-    <select id="events-category" aria-controls="events-results">
+    <select id="events-category" aria-controls="events-results" aria-describedby="events-count">
       <option value="all">Tüm bölümler</option>
       <option value="deniz">Deniz</option>
       <option value="kara">Kara</option>
@@ -91,8 +91,9 @@
   <p id="events-count" role="status" aria-atomic="true"></p>
   <p class="events-share-hint">Arama ve bölüm seçiminiz sayfa bağlantısında korunur. Aynı listeyi paylaşmak için adresi kopyalayabilirsiniz.</p>
 </div>
+<nav class="events-section-links" aria-label="Olay bölümlerine git"><a href="#deniz">Deniz olayları</a><a href="#kara">Kara olayları</a><a href="#tahliye">Tahliyeler</a></nav>
 <div id="events-results">
-<section id="deniz">
+<section id="deniz" tabindex="-1">
 <h2>Deniz</h2>
 <ul class="roster">
   <li><a href="/olaylar/dis-tabyalarin-bombardimani/"><strong>Dış tabyaların bombardımanı</strong><span>19 Şubat 1915 · İki taraf</span></a></li>
@@ -106,9 +107,9 @@
   <li><a href="/olaylar/barbaros-hayreddin-batar/"><strong>Barbaros Hayreddin batar</strong><span>8 Ağustos 1915 · İki taraf</span></a></li>
 </ul>
 </section>
-<section id="kara">
+<section id="kara" tabindex="-1">
 <h2>Kara</h2>
-<section id="cikarma">
+<section id="cikarma" tabindex="-1">
 <h3>Çıkarma</h3>
 <ul class="roster">
   <li><a href="/olaylar/seddulbahir-cikarmasi/"><strong>Seddülbahir çıkarması</strong><span>25 Nisan 1915 · İki taraf</span></a></li>
@@ -117,7 +118,7 @@
   <li><a href="/olaylar/saros-gosterisi/"><strong>Saros gösterişi</strong><span>25 Nisan 1915 · İtilaf</span></a></li>
 </ul>
 </section>
-<section id="kirte">
+<section id="kirte" tabindex="-1">
 <h3>Kirte</h3>
 <ul class="roster">
   <li><a href="/olaylar/birinci-kirte-muharebesi/"><strong>Birinci Kirte Muharebesi</strong><span>28 Nisan 1915 · İki taraf</span></a></li>
@@ -127,7 +128,7 @@
   <li><a href="/olaylar/kerevizdere-muharebesi/"><strong>Kerevizdere Muharebesi</strong><span>12–13 Temmuz 1915 · İki taraf</span></a></li>
 </ul>
 </section>
-<section id="anafartalar">
+<section id="anafartalar" tabindex="-1">
 <h3>Anafartalar ve Suvla</h3>
 <ul class="roster">
   <li><a href="/olaylar/anafartalar-suvla-cikarmasi/"><strong>Anafartalar / Suvla çıkarması</strong><span>6–7 Ağustos 1915 · İki taraf</span></a></li>
@@ -135,7 +136,7 @@
   <li><a href="/olaylar/ikinci-anafartalar-muharebesi/"><strong>İkinci Anafartalar Muharebesi</strong><span>21 Ağustos 1915 · İki taraf</span></a></li>
 </ul>
 </section>
-<section id="diger">
+<section id="diger" tabindex="-1">
 <h3>Diğer kara</h3>
 <ul class="roster">
   <li><a href="/olaylar/ariburnu-genel-taarruzu/"><strong>Arıburnu genel taarruzu</strong><span>19 Mayıs 1915 · İki taraf</span></a></li>
@@ -145,7 +146,7 @@
 </ul>
 </section>
 </section>
-<section id="tahliye">
+<section id="tahliye" tabindex="-1">
 <h2>Tahliye</h2>
 <ul class="roster">
   <li><a href="/olaylar/ariburnu-tahliyesi/"><strong>Arıburnu tahliyesi</strong><span>19–20 Aralık 1915 · İtilaf</span></a></li>
@@ -172,6 +173,6 @@
   </div>
 </footer>
 <script src="/js/navigation.js"></script>
-<script src="/js/events-index.js?v=20261017d"></script>
+<script src="/js/events-index.js?v=20261019d"></script>
 </body>
 </html>

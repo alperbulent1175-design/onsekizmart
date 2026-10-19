@@ -20,7 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-  <link rel="stylesheet" href="css/style.css?v=20261018j">
+  <link rel="stylesheet" href="css/style.css?v=20261019f">
   <noscript><style>
     body.home .map-help-row, body.home .tool-row, body.home .atlas-grid,
     body.home #secilmis, body.home #camp-filters, body.home #kron-filters,
@@ -125,7 +125,10 @@
       </div>
       <div class="dock-search search" id="search-pop">
         <label class="visually-hidden" for="q">Mevki, gemi veya olay ara</label>
+        <div class="map-search-entry">
         <input id="q" type="search" placeholder="Tabya, gemi, muharebe ara…" autocomplete="off" aria-controls="q-results" aria-expanded="false" aria-describedby="q-status">
+        <button id="q-clear" type="button" disabled aria-label="Aramayı temizle" aria-controls="q-results">Temizle</button>
+        </div>
         <p id="q-status" class="search-status" role="status" aria-atomic="true"></p>
         <ul class="search-results" id="q-results" hidden></ul>
         <button class="btn" id="q-more" type="button" aria-controls="q-results" hidden>Daha fazla sonuç göster</button>
@@ -191,12 +194,13 @@
         </label>
         <input id="tl-range" type="range" min="450" max="1350" value="450" step="1" aria-label="18 Mart kayıtları arasında ilerle">
         <p class="tl-hint" id="tl-hint">18 Mart kayıtları arasında ilerleyin. Gösterim sırası, doğrulanmış saat veya süre anlamına gelmez.</p>
+        <p class="tl-hint" id="timeline-filter-status" role="status" hidden></p>
         <p class="tl-event" id="tl-event" aria-live="polite"><em>Saat doğrulanmadı</em> Bir kayıt seçin; harita ilgili mevkiye gider.</p>
         <ul class="legend" aria-label="İşaretler">
           <li><b class="t">T</b>Tabya</li>
           <li><b class="b">B</b>Birlik</li>
           <li><b class="g">G</b>Gemi</li>
-          <li><b class="x">X</b>Batış</li>
+          <li><b class="x">X</b>Batış / hasar</li>
           <li><b class="k">K</b>Komuta</li>
           <li><b class="h">H</b>Kara</li>
         </ul>
@@ -236,7 +240,8 @@
     <button class="chip" type="button" data-camp="kara" aria-pressed="false">Kara</button>
     <button class="chip" type="button" id="camp-clear">Temizle</button>
   </div>
-  <ol class="event-list" id="camp-list"></ol>
+  <p id="camp-results" role="status" aria-live="polite"></p>
+  <ol class="event-list" id="camp-list" aria-describedby="camp-results"></ol>
 
   <h2 class="sec" id="saat">18 Mart kayıtları</h2>
   <div class="prose">
@@ -294,9 +299,9 @@
 </footer>
 
 <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script defer src="js/data.js?v=20261019d"></script>
+<script defer src="js/data.js?v=20261019h"></script>
 <script defer src="js/campaign.js?v=20261018f"></script>
 <script defer src="js/model.js?v=20261017b"></script>
-<script defer src="js/app.js?v=20261019g"></script>
+<script defer src="js/app.js?v=20261019ae"></script>
 </body>
 </html>

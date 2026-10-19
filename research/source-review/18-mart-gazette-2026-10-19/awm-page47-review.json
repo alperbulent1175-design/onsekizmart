@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-19",
+  "record_url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+  "image_url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+  "page_label": "47",
+  "image_file_label": "page65",
+  "sha256": "e9b7baf978badc52a97f926f1eb8ee288da8b54ab8c2a8ad396041a337b69d6c",
+  "status": "kurum_arsivindeki_daktilo_kopyasi_goruntuden_okundu",
+  "evidence": "No trace of either ship could be found",
+  "findings": [
+    "Gece aramasında iki geminin bulunamaması anlatılır; kesin batış gözlemi değildir.",
+    "Gaulois için Drepano kuzeyinde karaya oturma kaydı görüntüde okunur."
+  ],
+  "limits": [
+    "İmzalı özgün gemi raporuyla karşılaştırma açık.",
+    "Daktilo kopyası ve çevrimyazı bağımsız tanıklık sayılmadı.",
+    "Drepano–Tavşan eşleştirmesi, kesin saatler ve koordinatlar doğrulanmadı.",
+    "Platform transkripsiyonu Awaiting approval durumunda."
+  ]
+}

@@ -294,8 +294,8 @@ test("atlas araması boş sonucu bildirir, ok tuşları ve Escape ile odağı ko
       set innerHTML(value) { this.children = []; }
     };
   }
-  const q = el(), results = el(), status = el(), title = el(), more = el();
-  const ctx = { document: { getElementById: id => ({ q, 'q-results': results, 'q-status': status, 'panel-title': title, 'q-more': more }[id]), createElement: el },
+  const q = el(), results = el(), status = el(), title = el(), more = el(), clear = el();
+  const ctx = { document: { getElementById: id => ({ q, 'q-results': results, 'q-status': status, 'panel-title': title, 'q-more': more, 'q-clear': clear }[id]), createElement: el },
     foldTr: value => value.toLowerCase(), allPlaces: () => [{ id: 'a', name: 'Arıburnu' }],
     D: { events: [] }, selectPlace() {}, revealDock() {}, mode: 'naval' };
   vm.createContext(ctx);
@@ -315,6 +315,18 @@ test("atlas araması boş sonucu bildirir, ok tuşları ve Escape ile odağı ko
   key(results, 'ArrowUp', hit); assert.equal(focused, q);
   key(results, 'Escape', hit); assert.equal(results.hidden, true); assert.equal(q['aria-expanded'], 'false'); assert.equal(focused, q);
   q.handlers.input(); hit.handlers.click(); assert.equal(focused, title); assert.equal(results.hidden, true); assert.match(status.textContent, /Seçildi/);
+  ctx.allPlaces = () => [{ id: 'inflexible', name: 'Inflexible', type: 'enkaz' }];
+  q.value = 'inflexible'; q.handlers.input();
+  assert.equal(results.children[0].children[0].children[1].textContent, 'Batış / hasar · Harita');
+  ctx.allPlaces = () => [{ id: 'ocean', name: 'Ocean gemisi', meta: 'Britanya' }];
+  ctx.D.events = [{ t: '16:11', title: 'Irresistible', text: 'Tahliye raporu' }];
+  ctx.D.campaign = { events: [{ id: 'test-may', date: '19 Mayıs 1915', title: 'Arıburnu taarruzu', text: '' }] };
+  for (const query of ['  britanya   ocean ', 'raporu irresistible', '1915 arıburnu']) {
+    q.value = query; q.handlers.input();
+    assert.equal(results.children.length, 1, query);
+    assert.match(status.textContent, /1 sonuç/);
+  }
+  q.value = 'ocean eksik'; q.handlers.input(); assert.equal(results.hidden, true);
   ctx.allPlaces = () => Array.from({ length: 10 }, (_, i) => ({ id: 'test-' + i, name: 'Arama ' + i }));
   ctx.D.campaign = { events: [
     { id: 'test-gap', title: 'Arama boşluğu', text: '', date: '', quiet: true },
@@ -332,6 +344,12 @@ test("atlas araması boş sonucu bildirir, ok tuşları ve Escape ile odağı ko
   q.handlers.input(); assert.equal(results.children.length, 8); assert.equal(more.hidden, false);
   key(q, 'Escape'); assert.equal(more.hidden, true);
   q.value = 'z'; q.handlers.input(); assert.equal(more.hidden, true);
+  q.value = 'arama'; q.handlers.input(); assert.equal(clear.disabled, false);
+  clear.handlers.click();
+  assert.equal(q.value, ''); assert.equal(clear.disabled, true);
+  assert.equal(results.hidden, true); assert.equal(more.hidden, true);
+  assert.equal(focused, q); assert.match(status.textContent, /Arama temizlendi/);
+
 
 });
 
@@ -345,6 +363,7 @@ test("bilgi paneli kapanınca odak görünür arama kontrolüne döner", () => {
       document: { activeElement: {}, getElementById: id => ({ panel, q, 'tool-search': tool, 'dock-empty': {} }[id]) } };
     vm.createContext(ctx);
     vm.runInContext(source.slice(source.indexOf('  function closePanel()'), source.indexOf('  function selectPlace(')), ctx);
+    ctx.panelRevision = 0;
     ctx.closePanel();
     assert.equal(focused, compact ? 'tool-search' : 'q');
     assert.equal(panel.inert, true);
@@ -378,4 +397,93 @@ test("araç yerleşimi değişince odak gizli panel veya düğmede kalmaz", () =
   ctx.document.activeElement = trigger; ctx.syncToolLayout(false);
   assert.equal(focused, input); assert.equal(reveals, 1); assert.equal(closes, 2);
   focused = null; ctx.document.activeElement = {}; ctx.syncToolLayout(true); assert.equal(focused, null);
+});
+
+
+test('site içi bölüm bağlantıları yayımlanan sayfalarda gerçek hedefe gider', () => {
+  const files = walk(root, []).filter(file => path.basename(file) === 'index.html');
+  const pages = new Map(files.map(file => {
+    const route = '/' + path.relative(root, file).split(path.sep).join('/').replace(/index\.html$/, '');
+    const text = fs.readFileSync(file, 'utf8');
+    return [route, { text, ids: new Set([...text.matchAll(/\bid="([^"]+)"/g)].map(match => match[1])) }];
+  }));
+  let checked = 0;
+  for (const [route, page] of pages) {
+    for (const match of page.text.matchAll(/<a\b[^>]*\bhref="([^"]+)"/g)) {
+      const url = new URL(match[1].replace(/&amp;/g, '&'), 'https://onsekizmart.com' + route);
+      if (url.origin !== 'https://onsekizmart.com' || !url.hash) continue;
+      const target = pages.get(url.pathname);
+      if (!target) continue; // File existence is covered by the existing internal-link check.
+      const id = decodeURIComponent(url.hash.slice(1));
+      const photo = id.startsWith('foto-') && target.text.includes('data-photo-id="' + id.slice(5) + '"');
+      assert.ok(target.ids.has(id) || photo, route + ': ' + match[1]);
+      checked++;
+    }
+  }
+  assert.ok(checked > 100, 'Bölüm bağlantıları gerçekten taranmalı');
+});
+
+test('harita aramasında kapalı sonuçlar ok tuşuyla yeniden açılır; Escape kapatır', () => {
+  const app = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8');
+  let handler, focused = '', rendered = 0, closed = 0;
+  const hits = [{ focus() { focused = 'first'; } }, { focus() { focused = 'last'; } }];
+  const ctx = { q: { addEventListener(type, fn) { handler = fn; } }, qRes: { hidden: true, querySelectorAll: () => hits },
+    renderSearch() { rendered++; ctx.qRes.hidden = false; }, closeSearchResults() { closed++; ctx.qRes.hidden = true; } };
+  vm.createContext(ctx);
+  const start = app.indexOf('  q.addEventListener("keydown"');
+  vm.runInContext(app.slice(start, app.indexOf('  qRes.addEventListener("keydown"', start)), ctx);
+  const event = { preventDefault() {}, stopPropagation() {} };
+  for (const key of ['altKey', 'ctrlKey', 'metaKey', 'shiftKey', 'isComposing', 'defaultPrevented']) handler({ ...event, key: 'ArrowDown', [key]: true });
+  assert.equal(rendered, 0);
+  handler({ ...event, key: 'ArrowDown' }); assert.equal(rendered, 1); assert.equal(focused, 'first');
+  handler({ ...event, key: 'Escape' }); assert.equal(closed, 1);
+  handler({ ...event, key: 'ArrowUp' }); assert.equal(rendered, 2); assert.equal(focused, 'last');
+});
+
+test('harita aramasından sonuç seçmek ilk sorguyu değiştirmez', () => {
+  const app = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8');
+  let click, picked = 0, focused = 0;
+  const ctx = { q: { value: 'mayın gemi' }, qRes: { appendChild() {} }, qStatus: {},
+    document: { createElement() { return { appendChild() {}, addEventListener(type, fn) { click = fn; } }; },
+      getElementById: () => ({ setAttribute() {}, focus() { focused++; } }) }, closeSearchResults() {}, revealDock() {} };
+  vm.createContext(ctx);
+  const start = app.indexOf('  function addSearchHit(');
+  vm.runInContext(app.slice(start, app.indexOf('  function renderSearch(', start)), ctx);
+  ctx.addSearchHit('Seçilen kayıt', () => { picked++; }, null, 'Olay'); click();
+  assert.equal(ctx.q.value, 'mayın gemi'); assert.equal(picked, 1); assert.equal(focused, 1);
+  assert.match(ctx.qStatus.textContent, /Seçildi: Seçilen kayıt/);
+});
+
+test('karo uyarısı kaldırıldığında yalnız uyarının içindeki odak geri taşınır', () => {
+  const app = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8');
+  for (const ownsFocus of [true, false]) {
+    let focused = 0, removed = 0;
+    const ctx = { tileWarned: true, tileNote: { contains: () => ownsFocus, parentNode: { removeChild() { removed++; } } },
+      document: { activeElement: {}, getElementById: () => ({ disabled: false, focus() { focused++; } }) } };
+    vm.createContext(ctx);
+    const start = app.indexOf('  function clearTileWarning()');
+    vm.runInContext(app.slice(start, app.indexOf('  function watchTiles(', start)), ctx);
+    ctx.clearTileWarning();
+    assert.equal(removed, 1); assert.equal(ctx.tileNote, null); assert.equal(ctx.tileWarned, false);
+    assert.equal(focused, ownsFocus ? 1 : 0);
+  }
+});
+
+test('karo hatasında alternatif taban harita olay katmanlarını ve görünümü değiştirmez', () => {
+  const app = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8'); const nodes = [];
+  const overlay = {}, enabled = new Set([overlay]);
+  function layer() { return { addTo() { enabled.add(this); }, redraw() {} }; }
+  const tiles = { uydu: layer(), yol: layer() }; enabled.add(tiles.uydu);
+  const frame = { appendChild() {} };
+  const ctx = { tileWarned: false, tiles,
+    map: { hasLayer: l => enabled.has(l), removeLayer: l => enabled.delete(l) },
+    document: { querySelector: () => frame, getElementById: () => null, createTextNode: text => ({ textContent: text }),
+      createElement() { const n = { appendChild() {}, setAttribute() {}, addEventListener(k, fn) { this[k] = fn; } }; nodes.push(n); return n; } } };
+  vm.createContext(ctx);
+  const start = app.indexOf('  function noteTileFailure()');
+  vm.runInContext(app.slice(start, app.indexOf('  function bootMap()', start)), ctx);
+  ctx.noteTileFailure();
+  const button = nodes.find(n => n.textContent === 'Yol haritasını dene'); button.click();
+  assert.equal(enabled.has(tiles.yol), true); assert.equal(enabled.has(tiles.uydu), false); assert.equal(enabled.has(overlay), true);
+  button.click(); assert.equal(enabled.has(tiles.uydu), true); assert.equal(enabled.has(overlay), true);
 });

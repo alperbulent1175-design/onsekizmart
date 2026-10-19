@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-19",
+  "record_url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-4",
+  "image_url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43819-rcdig1066703-page60.jpg",
+  "page_label": "42",
+  "image_file_label": "page60",
+  "evidence": "reported shortly after 4.p.m.",
+  "status": "kurum_arsivindeki_daktilo_kopyasi_goruntuden_okundu",
+  "sha256": "059ff8d9c8c852f4f6358b42eb0853518ce20ff9c432031c7e3d5408ad5684c0",
+  "limits": [
+    "Transkripsiyon platformda Awaiting approval durumunda.",
+    "Daktilo sayfası, imzalı özgün gemi raporu olarak tanımlanmadı.",
+    "Bildirim zamanı kesin isabet zamanı sayılmaz.",
+    "Koordinat, kronoloji anahtarı ve zayiat sayısı değiştirilmedi."
+  ],
+  "gazette_access": {
+    "url": "https://www.thegazette.co.uk/London/issue/31322/data.pdf",
+    "http_status": 403,
+    "status": "erisim_saglanamadi_sayi_atfi_dogrulanmadi"
+  }
+}

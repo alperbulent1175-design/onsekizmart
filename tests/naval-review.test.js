@@ -82,6 +82,11 @@ test('Bouvet sayıları olay, mevki ve gemi özetlerinde kesin değer olarak tek
     assert.doesNotMatch(place.meta + place.short, /639|39 ölü|1 dakika 55/);
     const before = report.relatedBefore.places.find(p => p.id === id);
     assert.equal(place.lat, before.lat); assert.equal(place.lng, before.lng);
+    if (id === 'inflexible') {
+      assert.match(place.name, /yaklaşık hasar/);
+      assert.match(place.uncertainty, /sayısal konum dayanağı tamamlanmadı/);
+      assert.match(place.uncertainty, /enkaz noktası olarak okunmamalıdır/);
+    }
   }
   const navy = read('donanma/index.html');
   assert.doesNotMatch(navy, /639 denizci ölür|39 denizci ölür|47 kişiyi kurtarır/);

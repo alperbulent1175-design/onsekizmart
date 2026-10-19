@@ -45,3 +45,21 @@
   .photo-viewer { padding: 12px; }
   .photo-viewer > .photo-viewer-bar:first-child { top: -12px; }
 }
+
+#photo-sections { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+#photo-sections a { padding-inline: 8px; }
+#photo-search, #photo-empty, main > .naval-photos > h2 { scroll-margin-top: calc(var(--nav-h, 64px) + 20px); }
+#photo-search input, #photo-search select { font-size: max(16px, 1rem); }
+#photo-search :focus-visible, #photo-empty button:focus-visible, #photo-sections a:focus-visible { outline: 2px solid var(--gold, #c5a06c); outline-offset: 3px; }
+
+.photo-viewer figure > img[hidden] { display: none; }
+
+.photo-link-notice { padding: 16px; border: 1px solid currentColor; overflow-wrap: anywhere; }
+.photo-link-notice[hidden] { display: none; }
+.photo-link-notice a { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 0; }
+
+/* Görüntüleyicide künye okuma ve dokunma hedefleri. */
+.photo-viewer figcaption { font-size: 1rem; line-height: 1.65; }
+.photo-viewer figcaption a { display: inline-flex; align-items: center; min-height: 44px; padding: 6px 0; box-sizing: border-box; overflow-wrap: anywhere; }
+.photo-viewer figcaption summary { min-height: 44px; padding: 10px 0; box-sizing: border-box; cursor: pointer; }
+.photo-viewer figcaption p { margin-block: 12px; }

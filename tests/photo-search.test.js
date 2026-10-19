@@ -5,7 +5,7 @@ const vm = require('node:vm');
 const path = require('node:path');
 function setup(href = 'https://onsekizmart.com/fotograf-arsivi/') {
   const handlers = {};
-  const input = { value: '', addEventListener(type, fn) { handlers[type] = fn; } };
+  const input = { value: '', focus() { this.focused = true; }, addEventListener(type, fn) { handlers[type] = fn; } };
   const select = { value: '', addEventListener(type, fn) { handlers[type] = fn; } };
   const form = { hidden: true, querySelector(s) { return s === 'input' ? input : select; }, addEventListener(type, fn) { handlers[type] = fn; } };
   const status = {}, empty = {};
@@ -51,19 +51,23 @@ test('temizleme aramayı ve türü sıfırlayıp tüm fotoğrafları geri getiri
   assert.equal(s.status.textContent, '3 / 3 fotoğraf gösteriliyor.');
   assert.equal(s.empty.hidden, true);
   assert.ok(s.sections.every(x => !x.hidden && !x.card.hidden));
+  assert.equal(s.input.focused, true);
 });
 
-test('olay filtresi bağlantıdan açılır; bölüm bağlantısı boş aramayı temizler', () => {
+test('bölüm değişimi aramayı korur, sayaç ile gösterilen sonuç tutarlıdır', () => {
   const s = setup('https://onsekizmart.com/fotograf-arsivi/?tur=olaylar');
-  assert.equal(s.select.value, 'olaylar');
-  assert.equal(s.sections[2].hidden, false);
-  s.input.value = 'bulunmayan'; s.handlers.input();
-  assert.equal(s.empty.hidden, false);
-  s.sectionLinks[2].click();
-  assert.equal(s.input.value, '');
-  assert.equal(s.sections[2].hidden, false);
-  assert.equal(s.empty.hidden, true);
+  s.input.value = 'Ocean'; s.handlers.input();
+  assert.equal(s.sectionLinks[0].textContent, 'gemiler (1)');
+  s.sectionLinks[0].click();
+  assert.equal(s.input.value, 'Ocean'); assert.equal(s.select.value, 'gemiler');
+  assert.equal(s.sections[0].hidden, false);
   assert.equal(s.status.textContent, '1 / 3 fotoğraf gösteriliyor.');
+  s.sectionLinks[2].click();
+  assert.equal(s.input.value, 'Ocean'); assert.equal(s.empty.hidden, false);
+  assert.equal(s.status.textContent, '0 / 3 fotoğraf gösteriliyor.');
+  s.sectionLinks[0].click({ ctrlKey: true });
+  assert.equal(s.select.value, 'olaylar');
+  s.handlers.reset(); assert.equal(s.empty.hidden, true);
 });
 
 test('bölüm sayıları aramaya göre değişir ve etkin tür geri gezinmede güncellenir', () => {
@@ -87,4 +91,33 @@ test('Escape arama metnini temizlerken seçili kategoriyi ve diğer URL alanlar�
   assert.equal(s.empty.hidden, true);
   assert.equal(new URL(s.window.location.href).searchParams.get('q'), null);
   assert.equal(new URL(s.window.location.href).searchParams.get('ref'), 'atlas');
+});
+
+
+test('bölüm bağlantısı yeni sekmede de aramayı ve hedef türü doğru yükler', () => {
+  const s = setup('https://onsekizmart.com/fotograf-arsivi/?q=Ocean&tur=olaylar&ref=atlas');
+  const target = new URL(s.sectionLinks[0].href, 'https://onsekizmart.com');
+  assert.equal(target.searchParams.get('q'), 'Ocean');
+  assert.equal(target.searchParams.get('tur'), 'gemiler');
+  assert.equal(target.searchParams.get('ref'), 'atlas'); assert.equal(target.hash, '#gemiler');
+  s.sectionLinks[0].click({ ctrlKey: true }); assert.equal(s.select.value, 'olaylar');
+  const next = setup(target.href);
+  assert.equal(next.input.value, 'Ocean'); assert.equal(next.select.value, 'gemiler');
+  assert.equal(next.status.textContent, '1 / 3 fotoğraf gösteriliyor.');
+  next.input.value = ''; next.handlers.input();
+  assert.equal(new URL(next.sectionLinks[0].href, 'https://onsekizmart.com').searchParams.get('q'), null);
+});
+
+
+test('bölüm bağlantısı önceki geçmiş kaydını değiştirmeden tarayıcı gezinmesine bırakılır', () => {
+  const original = 'https://onsekizmart.com/fotograf-arsivi/?q=Ocean&tur=olaylar#olaylar';
+  const s = setup(original);
+  s.sectionLinks[0].click({ button: 0 });
+  assert.equal(s.window.location.href, original);
+  assert.equal(s.select.value, 'gemiler');
+  s.window.location.href = new URL(s.sectionLinks[0].href, original).href;
+  s.handlers.pageshow(); assert.equal(s.select.value, 'gemiler');
+  s.window.location.href = original; s.handlers.popstate();
+  assert.equal(s.select.value, 'olaylar'); assert.equal(s.input.value, 'Ocean');
+  assert.equal(s.empty.hidden, false);
 });

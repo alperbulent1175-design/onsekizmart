@@ -17,8 +17,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css?v=20261017b">
-  <link rel="stylesheet" href="/css/photo-archive.css?v=20261019c">
+  <link rel="stylesheet" href="/css/photo-archive.css?v=20261019g">
   <style>
+    [data-navy-group][hidden], .ship-card[hidden], .navy-search[hidden] { display: none; }
+    .navy-search { margin: 24px 0; max-width: 65ch; }
+    .navy-search-return { display: inline-flex; align-items: center; min-height: 44px; margin: 8px 0; }
+    #navy-search, .ship-card, [data-navy-group] > h2 { scroll-margin-top: 100px; }
+    .navy-search label { display: block; margin-bottom: 8px; }
+    .navy-search > div { display: flex; gap: 8px; }
+    .navy-search input { min-width: 0; flex: 1; width: 100%; font: inherit; font-size: 16px; padding: 10px; }
+    .navy-search .navy-name-only { display: flex; align-items: center; gap: 10px; min-height: 44px; margin: 8px 0; }
+    .navy-search .navy-name-only input { flex: none; width: 20px; height: 20px; margin: 0; padding: 0; }
+    .navy-search button { min-height: 44px; padding: 8px 12px; font: inherit; }
+    .navy-search input:focus-visible, .navy-search button:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
     .ship-card .ship-copy { margin: 8px 0 10px; max-width: 65ch; }
     .ship-card .ship-copy p { margin: 0 0 8px; }
     @media (max-width: 360px) {
@@ -92,6 +104,14 @@
 </aside>
 <div class="prose"><p>Önce Osmanlı, sonra İtilaf. 18 Mart savunması tabya ve mayındır; Yavuz Sultan Selim ile Midilli bu muharebenin gemi listesinde yoktur. Batış ve ağır hasar, 18 Mart sütununda yalnız o gün için yazılır. Zırh ve ana silah, sitedeki kadro cetvelinde yazılı olan gemilerde durur.</p></div>
 
+<form id="navy-search" class="navy-search" role="search" hidden>
+<label for="navy-query">Gemi veya grup ara</label>
+<div><input id="navy-query" type="search" placeholder="Örneğin: Ocean, Muavenet, muhrip" aria-describedby="navy-search-help navy-results" autocomplete="off"><button id="navy-clear" type="button">Temizle</button></div>
+<label class="navy-name-only"><input id="navy-name-only" type="checkbox"> Yalnız gemi veya grup adında ara</label>
+<p id="navy-search-help">Arama, gemi adlarıyla birlikte kart açıklamalarını da kapsar. Fotoğraf arşivi aşağıda ayrıca gösterilir.</p>
+<p id="navy-results" role="status" aria-live="polite" aria-atomic="true"></p>
+<p><a id="navy-search-link" href="/donanma/#navy-search">Bu aramanın bağlantısı</a></p>
+</form>
 <nav class="event-toc" aria-label="Kaynak incelemesi bulunan gemiler">
 <strong>Gemi kaydına git</strong>
 <ul>
@@ -103,6 +123,7 @@
 </ul>
 <p>Bu kayıtlardaki bağlantılar, incelenen kanıtları ve açık kalan soruları gösterir; bütün gemi bilgilerinin doğrulandığı anlamına gelmez.</p>
 </nav>
+<section data-navy-group>
 <h2 id="osmanli">Osmanlı</h2>
 
 <article class="ship-card" id="nusret">
@@ -182,6 +203,8 @@
   <p><a class="btn" href="/?mevki=morto#harita">Haritada göster</a></p>
 </article>
 
+</section>
+<section data-navy-group>
 <h2 id="itilaf">İtilaf — 18 ana muharebe gemisi</h2>
 <div class="prose"><p>Amiral John de Robeck komutasında yaklaşık 60 deniz unsuru. Aşağıdaki 18 gemi ana muharebe hattıdır. A Hattı İngiliz zırhlıları, B Hattı Fransız zırhlıları, C Hattı ihtiyat ve destektir.</p></div>
 
@@ -486,6 +509,8 @@
   </div>
 </article>
 
+</section>
+<section data-navy-group>
 <h2 id="destek">Destek</h2>
 
 <article class="ship-card" id="kruvazorler">
@@ -542,6 +567,8 @@
   </div>
 </article>
 
+</section>
+<section data-navy-group>
 <h2 id="sonra">18 Mart’tan sonra batanlar</h2>
 <div class="prose"><p>Tarihi kesin olanlar. Bu gemiler 18 Mart günü batmış değildir.</p></div>
 
@@ -592,6 +619,7 @@
   </div>
   <p><a class="btn" href="/?mevki=seddulbahir#harita">Haritada göster</a></p>
 </article>
+</section>
 <!-- photo-archive:start -->
 <section class="naval-photos" aria-labelledby="fotograf-arsivi"><h2 id="fotograf-arsivi" tabindex="-1">Fotoğraf arşivinden</h2><p>Çekim tarihi ve bağlamı görsel açıklamasındadır; bir mevki görüntüsü olay anı olarak sunulmaz.</p><div class="naval-photo-grid"><figure class="naval-photo" data-photo-id="P00369.014">
 <a href="/images/ships/bouvet-p00369.014.jpg" aria-label="P00369.014 fotoğrafını tam boy aç"><img src="/images/ships/bouvet-p00369.014.jpg" width="640" height="393" loading="lazy" decoding="async" alt="Kıyıdaki yapıların önünde demirli savaş gemisi ve çevresinde küçük tekneler."></a>
@@ -683,6 +711,7 @@
   </div>
 </footer>
 <script src="/js/navigation.js" defer></script>
-<script src="/js/photo-archive.js?v=20261019c" defer></script>
+<script src="/js/navy-search.js?v=20261019h" defer></script>
+<script src="/js/photo-archive.js?v=20261019i" defer></script>
 </body>
 </html>

@@ -19,9 +19,15 @@
   close.type = 'button';
   var figure = el('figure', '', dialog);
   var image = el('img', '', figure);
+  var loading = el('p', 'Fotoğraf yükleniyor…', figure);
+  loading.hidden = true;
+  loading.setAttribute('role', 'status');
   var error = el('p', 'Fotoğraf yüklenemedi. Kaynak kaydını açabilirsiniz.', figure);
   error.hidden = true;
   error.setAttribute('role', 'status');
+  var retry = el('button', 'Fotoğrafı yeniden yükle', figure);
+  retry.type = 'button';
+  retry.hidden = true;
   var caption = el('figcaption', '', figure);
   var controls = el('div', '', bar);
   controls.className = 'photo-viewer-controls';
@@ -52,6 +58,10 @@
     var thumbnail = link.querySelector('img');
     image.alt = thumbnail.alt;
     error.hidden = true;
+    retry.hidden = true;
+    loading.hidden = false;
+    image.hidden = true;
+    image.setAttribute('aria-busy', 'true');
     image.src = url.href;
     caption.replaceChildren();
     var original = link.parentElement.querySelector('figcaption');
@@ -61,12 +71,34 @@
     status.textContent = 'Fotoğraf ' + (index + 1) + ' / ' + activeLinks.length;
     return true;
   }
-  function step(delta) { show((index + delta + activeLinks.length) % activeLinks.length); }
-  image.addEventListener('error', function () { error.hidden = false; });
+  function step(delta) {
+    var restoreFocus = caption.contains(document.activeElement) || document.activeElement === retry;
+    if (!show((index + delta + activeLinks.length) % activeLinks.length)) return;
+    if (restoreFocus) (delta < 0 ? previous : next).focus();
+  }
+  image.addEventListener('load', function () {
+    loading.hidden = true;
+    image.hidden = false;
+    image.setAttribute('aria-busy', 'false');
+  });
+  image.addEventListener('error', function () {
+    loading.hidden = true;
+    image.hidden = true;
+    image.setAttribute('aria-busy', 'false');
+    error.hidden = false;
+    retry.hidden = false;
+  });
+  retry.addEventListener('click', function () {
+    image.removeAttribute('src');
+    show(index);
+    close.focus();
+  });
   close.addEventListener('click', function () { dialog.close(); });
   previous.addEventListener('click', function () { step(-1); });
   next.addEventListener('click', function () { step(1); });
   dialog.addEventListener('keydown', function (event) {
+    if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+    if (event.target && event.target.closest && event.target.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"])')) return;
     if (activeLinks.length < 2 || (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight')) return;
     event.preventDefault();
     step(event.key === 'ArrowLeft' ? -1 : 1);
@@ -74,6 +106,10 @@
   dialog.addEventListener('close', function () {
     document.documentElement.classList.remove('photo-viewer-open');
     image.removeAttribute('src');
+    loading.hidden = true;
+    retry.hidden = true;
+    image.hidden = true;
+    image.setAttribute('aria-busy', 'false');
     if (trigger && trigger.isConnected) trigger.focus({ preventScroll: true });
   });
   function openPhoto(link) {
@@ -102,10 +138,50 @@
     });
   });
   document.body.appendChild(dialog);
-  function openLinkedPhoto() {
+  var linkNotice = document.createElement('p');
+  linkNotice.className = 'photo-link-notice';
+  linkNotice.setAttribute('role', 'status');
+  linkNotice.hidden = true;
+  var main = document.querySelector('main') || document.body;
+  main.insertBefore(linkNotice, main.firstChild);
+  function photoLinkMessage(hash) {
+    if (hash.indexOf('#foto-') !== 0) return null;
+    var id = '';
+    try { id = decodeURIComponent(hash.slice(6)); } catch (_) {}
+    var known = id && links.some(function (link) { return link.parentElement.getAttribute('data-photo-id') === id; });
+    return known ? {
+      text: 'Bağlantıdaki fotoğraf mevcut arama veya görsel türü seçimiyle gizlenmiş olabilir. ',
+      label: 'Bu fotoğrafı arşivde bul',
+      href: '/fotograf-arsivi/?q=' + encodeURIComponent(id) + '#foto-' + encodeURIComponent(id)
+    } : {
+      text: 'Bağlantıdaki fotoğraf bu sayfanın kayıtlarında bulunamadı. ',
+      label: 'Fotoğraf arşivinde ara', href: '/fotograf-arsivi/#photo-search'
+    };
+  }
+  function updatePhotoLinkNotice(scroll) {
     var link = photoFromHash(location.hash);
+    linkNotice.hidden = true;
+    if (!link) {
+      var message = photoLinkMessage(location.hash);
+      if (!message) return null;
+      linkNotice.replaceChildren(document.createTextNode(message.text));
+      var action = el('a', message.label, linkNotice);
+      action.href = message.href;
+      linkNotice.hidden = false;
+      if (scroll) linkNotice.scrollIntoView({ block: 'center', behavior: 'auto' });
+    }
+    return link;
+  }
+  function openLinkedPhoto() {
+    var link = updatePhotoLinkNotice(true);
     if (link) openPhoto(link);
   }
+  var searchForm = document.getElementById('photo-search');
+  if (searchForm) ['input', 'change', 'reset'].forEach(function (type) {
+    searchForm.addEventListener(type, function () { updatePhotoLinkNotice(false); });
+  });
+  window.addEventListener('popstate', function () { updatePhotoLinkNotice(false); });
+  window.addEventListener('pageshow', function () { updatePhotoLinkNotice(false); });
   window.addEventListener('hashchange', openLinkedPhoto);
   openLinkedPhoto();
 })();

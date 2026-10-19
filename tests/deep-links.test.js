@@ -11,7 +11,7 @@ function visit(search, hash = '') {
   const selected = [];
   const nodes = { 'deep-link-notice': notice, 'deep-link-message': message };
   const context = {
-    URLSearchParams, map: null,
+    URLSearchParams, panelRevision: 0, map: null, restoreAtlasView() {},
     D: { events: [{ m: 450, title: 'first' }, { m: 450, title: 'second' }] }, mode: 'naval', range: { value: '' },
     slugify: value => value,
     showTime: (minute, fly, event) => selected.push(event ? event.title : minute), revealDock() {},
@@ -20,7 +20,7 @@ function visit(search, hash = '') {
     findCampByKey: key => key.replace(/^event-/, '') === 'test-event' ? { id: 'test-event' } : null,
     findPlace: key => key === 'test-place' ? { id: 'test-place' } : null,
     focusCampEvent: event => selected.push(event.id),
-    goPlace: id => selected.push(id)
+    scrollToMap() {}, selectPlace: id => selected.push(id)
   };
   vm.runInNewContext(source.slice(source.indexOf('  function consumeDeepLink()'), source.indexOf('  function bindDock()')) + '\nconsumeDeepLink();', context);
   return { notice, message, selected };

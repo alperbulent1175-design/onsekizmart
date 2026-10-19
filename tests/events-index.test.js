@@ -15,7 +15,9 @@ function setup(url = 'https://example.invalid/olaylar/') {
   ['events-tools', 'events-results', 'events-query', 'events-category', 'events-count', 'events-clear'].forEach(id => { elements[id] = el(); });
   elements['events-category'].value = 'all';
   const rows = [el('Arıburnu çıkarması 25 Nisan 1915'), el('Nusret 8 Mart 1915'), el('Arıburnu tahliyesi 19 Aralık 1915')];
+  rows.forEach((row, i) => { row.link = { href: '/olaylar/kayit-' + i + '/' }; row.querySelector = () => row.link; });
   const subgroup = el();
+  subgroup.id = "kirte";
   subgroup.querySelectorAll = () => [rows[0]];
   ['kara', 'deniz', 'tahliye'].forEach((id, index) => {
     const group = el();
@@ -101,4 +103,61 @@ test('olay dizini temizleme ile tüm kayıtları ve odağı geri getirir', () =>
   assert.equal(e['events-query'].focused, true);
   assert.equal(e['events-category'].value, 'all');
   assert.match(e['events-count'].textContent, /3 olay/);
+});
+
+
+test('olay araması tarih ve ad kelimelerini sıra bağımsız birleştirir', () => {
+  const { elements: e, rows } = setup();
+  e['events-query'].value = '  1915   NİSAN ariburnu  ';
+  e['events-query'].listeners.input();
+  assert.deepEqual(rows.map(row => row.hidden), [false, true, true]);
+  e['events-query'].value = 'Arıburnu 1915'; e['events-query'].listeners.input();
+  assert.deepEqual(rows.map(row => row.hidden), [false, true, false]);
+  e['events-category'].value = 'tahliye'; e['events-category'].listeners.change();
+  assert.deepEqual(rows.map(row => row.hidden), [true, true, false]);
+  e['events-query'].value = 'Arıburnu olmayan'; e['events-query'].listeners.input();
+  assert.ok(rows.every(row => row.hidden));
+});
+
+
+test('gizlenen bölüme bağlantı aramayı temizler ve ilgili ana bölümü gösterir', () => {
+  const { elements: e, rows, subgroup, window: w } = setup('https://example.invalid/olaylar/?ref=koru');
+  e['events-query'].value = 'Nusret'; e['events-query'].listeners.input();
+  assert.ok(e.kara.hidden);
+  w.location.hash = '#kirte'; w.listeners.hashchange();
+  assert.equal(e['events-query'].value, ''); assert.equal(e['events-category'].value, 'kara');
+  assert.equal(subgroup.hidden, false); assert.deepEqual(rows.map(row => row.hidden), [false, true, true]);
+  assert.equal(w.location.searchParams.get('q'), null);
+  assert.equal(w.location.searchParams.get('bolum'), 'kara');
+  assert.equal(w.location.searchParams.get('ref'), 'koru');
+  w.location.hash = '#deniz'; w.listeners.hashchange();
+  assert.deepEqual(rows.map(row => row.hidden), [true, false, true]);
+  w.location.hash = '#%E0%A4%A'; assert.doesNotThrow(() => w.listeners.hashchange());
+});
+
+
+test('aynı bölüm bağlantısı gizli hedefi açar; geçmiş dönüşündeki arama korunur', () => {
+  const { elements: e, rows, window: w } = setup('https://example.invalid/olaylar/#deniz');
+  e['events-query'].value = 'Arıburnu'; e['events-query'].listeners.input();
+  w.listeners.click({ target: { closest: () => ({ getAttribute: () => '#deniz' }) } });
+  assert.equal(e['events-query'].value, ''); assert.equal(rows[1].hidden, false);
+  w.location = new URL('https://example.invalid/olaylar/?q=Arıburnu#deniz');
+  w.listeners.popstate(); w.listeners.hashchange();
+  assert.equal(e['events-query'].value, 'Arıburnu');
+  assert.deepEqual(rows.map(row => row.hidden), [false, true, false]);
+  w.listeners.click({ ctrlKey: true, target: { closest: () => ({ getAttribute: () => '#deniz' }) } });
+  assert.equal(e['events-query'].value, 'Arıburnu');
+});
+
+
+test('olay ayrıntı bağlantısı arama ve bölümü liste dönüşüne taşır', () => {
+  const { elements: e, rows } = setup();
+  e['events-query'].value = 'Arıburnu'; e['events-query'].listeners.input();
+  e['events-category'].value = 'kara'; e['events-category'].listeners.change();
+  const link = new URL(rows[0].link.href, 'https://example.invalid');
+  const back = new URL(link.searchParams.get('listeyeDon'), 'https://example.invalid');
+  assert.equal(back.pathname, '/olaylar/'); assert.equal(back.searchParams.get('q'), 'Arıburnu');
+  assert.equal(back.searchParams.get('bolum'), 'kara'); assert.equal(back.hash, '#events-tools');
+  e['events-clear'].listeners.click();
+  assert.equal(new URL(rows[0].link.href, 'https://example.invalid').searchParams.get('listeyeDon'), '/olaylar/#events-tools');
 });

@@ -169,9 +169,9 @@ def plan(root):
                     raise ValueError('Galeri ekleme yeri bulunamadı: ' + page)
                 text = text[:match.start()] + block + '\n' + text[match.start():]
         if '/css/photo-archive.css?' not in text:
-            text = text.replace('</head>', '<link rel="stylesheet" href="/css/photo-archive.css?v=20261017d">\n</head>')
+            text = text.replace('</head>', '<link rel="stylesheet" href="/css/photo-archive.css?v=20261019g">\n</head>')
         if '/js/photo-archive.js?' not in text:
-            text = text.replace('</body>', '<script src="/js/photo-archive.js?v=20261017b" defer></script>\n</body>')
+            text = text.replace('</body>', '<script src="/js/photo-archive.js?v=20261019i" defer></script>\n</body>')
         if not is_archive and 'class="photo-jump"' not in text:
             text = text.replace('</h1>', '</h1>\n<p class="photo-jump"><a href="#fotograf-arsivi">Fotoğrafları ve künyelerini gör</a> · <a href="/fotograf-arsivi/">Tüm fotoğraf arşivi</a></p>', 1)
         if not is_archive:
@@ -184,12 +184,25 @@ def plan(root):
     return outputs
 
 
+
+def output_matches(path, data):
+    if not path.exists():
+        return False
+    current = path.read_bytes()
+    if current == data:
+        return True
+    # Only HTML text may differ in line endings; image hashes stay byte-exact.
+    if path.suffix == '.html':
+        return current.replace(b'\r\n', b'\n') == data.replace(b'\r\n', b'\n')
+    return False
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true')
     args = parser.parse_args()
     outputs = plan(ROOT)  # Bütün kayıtlar doğrulanmadan hiçbir dosya yazılmaz.
-    changed = [p for p, data in outputs.items() if not p.exists() or p.read_bytes() != data]
+    changed = [p for p, data in outputs.items() if not output_matches(p, data)]
     if args.check:
         print(f'{len(changed)} güncel olmayan fotoğraf çıktısı')
         return int(bool(changed))
