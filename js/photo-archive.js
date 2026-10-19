@@ -23,14 +23,18 @@
   error.hidden = true;
   error.setAttribute('role', 'status');
   var caption = el('figcaption', '', figure);
-  var controls = el('div', '', dialog);
-  controls.className = 'photo-viewer-bar';
-  var previous = el('button', 'Önceki fotoğraf', controls);
+  var controls = el('div', '', bar);
+  controls.className = 'photo-viewer-controls';
+  var previous = el('button', 'Önceki', controls);
   previous.type = 'button';
+  previous.setAttribute('aria-label', 'Önceki fotoğraf');
   var status = el('p', '', controls);
   status.setAttribute('aria-live', 'polite');
-  var next = el('button', 'Sonraki fotoğraf', controls);
+  var next = el('button', 'Sonraki', controls);
   next.type = 'button';
+  next.setAttribute('aria-label', 'Sonraki fotoğraf');
+  var permalink = el('a', 'Bu fotoğrafa bağlantı', dialog);
+  permalink.className = 'photo-permalink';
   controls.hidden = links.length < 2;
   var index = 0;
   var activeLinks = links;
@@ -40,6 +44,11 @@
     var url = new URL(link.href, location.href);
     if (url.origin !== location.origin || !url.pathname.startsWith('/images/')) return false;
     index = position;
+    var photoId = link.parentElement.getAttribute('data-photo-id');
+    heading.textContent = photoId ? 'Fotoğraf · ' + photoId : 'Fotoğraf';
+    permalink.hidden = !photoId;
+    if (photoId) permalink.href = '/fotograf-arsivi/?q=' + encodeURIComponent(photoId) + '#foto-' + encodeURIComponent(photoId);
+    dialog.scrollTop = 0;
     var thumbnail = link.querySelector('img');
     image.alt = thumbnail.alt;
     error.hidden = true;
@@ -67,19 +76,36 @@
     image.removeAttribute('src');
     if (trigger && trigger.isConnected) trigger.focus({ preventScroll: true });
   });
-  links.forEach(function (link, position) {
+  function openPhoto(link) {
+    activeLinks = links.filter(function (item) { return !item.closest('[hidden]'); });
+    var activePosition = activeLinks.indexOf(link);
+    if (activePosition < 0 || !show(activePosition)) return false;
+    trigger = link;
+    if (!dialog.open) dialog.showModal();
+    document.documentElement.classList.add('photo-viewer-open');
+    close.focus();
+    return true;
+  }
+  function photoFromHash(hash) {
+    if (hash.indexOf('#foto-') !== 0) return null;
+    try {
+      var id = decodeURIComponent(hash.slice(6));
+      return links.find(function (link) { return link.parentElement.getAttribute('data-photo-id') === id && !link.closest('[hidden]'); }) || null;
+    } catch (error) { return null; }
+  }
+  links.forEach(function (link) {
     link.setAttribute('aria-haspopup', 'dialog');
     link.addEventListener('click', function (event) {
       if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-      activeLinks = links.filter(function (item) { return !item.closest('[hidden]'); });
-      var activePosition = activeLinks.indexOf(link);
-      if (activePosition < 0 || !show(activePosition)) return;
+      if (!openPhoto(link)) return;
       event.preventDefault();
-      trigger = link;
-      dialog.showModal();
-      document.documentElement.classList.add('photo-viewer-open');
-      close.focus();
     });
   });
   document.body.appendChild(dialog);
+  function openLinkedPhoto() {
+    var link = photoFromHash(location.hash);
+    if (link) openPhoto(link);
+  }
+  window.addEventListener('hashchange', openLinkedPhoto);
+  openLinkedPhoto();
 })();

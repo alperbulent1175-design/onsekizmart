@@ -1,0 +1,23 @@
+{
+  "reviewed_at": "2026-10-19",
+  "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "status": "cevrimyazi_okundu_ozgun_goruntu_karsilastirmasi_acik",
+  "document": "24 Mart 1915 harekât ve muhrip raporları",
+  "evidence": [
+    {
+      "text": "finally abandoned",
+      "meaning": "Ocean için yaklaşık 19.30 terk kaydı; batış saati değil."
+    },
+    {
+      "text": "No trace of either ship could be found",
+      "meaning": "Gece arama sonucu; doğrudan batış gözlemi değil."
+    }
+  ],
+  "comparison": "Ana metin Colne/Jed/Chelmer; muhrip eki Kennet’i de sayar. Aynı yayın içindeki bölümler bağımsız kanıt sayılmadı.",
+  "unchanged": [
+    "Kronoloji anahtarları",
+    "Koordinatlar",
+    "Tahliye sayıları",
+    "Kaynak kataloğu şeması"
+  ]
+}

@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261018a">
+  <link rel="stylesheet" href="/css/style.css?v=20261018k">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKGGXNVR7V"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -24,7 +24,7 @@
     gtag('js', new Date());
     gtag('config', 'G-MKGGXNVR7V');
   </script>
-<link rel="stylesheet" href="/css/photo-archive.css?v=20261017d">
+<link rel="stylesheet" href="/css/photo-archive.css?v=20261019c">
 </head>
 <body class="event-page">
 <a class="skip" href="#icerik">İçeriğe geç</a>
@@ -66,7 +66,7 @@
     </ul>
   </nav>
 </header>
-<main class="page-main" id="icerik">
+<main class="page-main" id="icerik" tabindex="-1">
 <p class="kicker">Diğer kara</p>
 <h1>Arıburnu gömme ateşkesi</h1>
 <p class="photo-jump"><a href="#fotograf-arsivi">Fotoğrafları ve künyelerini gör</a> · <a href="/fotograf-arsivi/">Tüm fotoğraf arşivi</a></p>
@@ -84,7 +84,16 @@
 <div><dt>Taraflar</dt><dd>İki taraf</dd></div>
 <div><dt>Mevki</dt><dd>Arıburnu (Anzak Koyu)</dd></div>
 </dl>
-<div class="prose"><p>24 Mayıs 1915 kaydı, ateşkeste iki tarafın ölülerinin gömülmesini belgelendirir. <a href="#inceleme-baslik">Kaynak incelemesine bakınız.</a></p><p>Kesin saatler, ateşkes şartları ve bütün cephe boyunca uygulama için protokol gerekir.</p><p>Mevcut harita işareti yaklaşık bir mevki veya saha merkezidir; günlük cephe çizgisi ya da kesin enkaz konumu değildir.</p></div>
+<section class="event-overview prose" aria-labelledby="kisa-bakis">
+<h2 id="kisa-bakis">Kısa bakış</h2>
+<p>24 Mayıs 1915 kaydı, ateşkeste iki tarafın ölülerinin gömülmesini belgelendirir. <a href="#inceleme-baslik">Kaynak incelemesine bakınız.</a></p>
+<details><summary>Bu özetin sınırları</summary><p>Kesin saatler, ateşkes şartları ve bütün cephe boyunca uygulama için protokol gerekir.</p><p>Mevcut harita işareti yaklaşık bir mevki veya saha merkezidir; günlük cephe çizgisi ya da kesin enkaz konumu değildir.</p></details>
+<nav class="reading-route" aria-label="24 Mayıs için kısa okuma rotası">
+<a href="/olaylar/ariburnu-genel-taarruzu/"><span>1 · Öncesi</span>19 Mayıs taarruzunu okuyun</a>
+<a href="#yerel-temastan-anlasmaya"><span>2 · Görüşmeler</span>Yerel temastan anlaşmaya geçin</a>
+<a href="#birliklere-iletilen-emir"><span>3 · Uygulama</span>Birliklere iletilen emri inceleyin</a>
+</nav>
+</section>
 <p><a class="btn" href="/?olay=ariburnu-gomme-ateskesi#harita">Haritada göster</a></p>
 <nav class="prose" aria-label="Ateşkes anlatısının bölümleri">
 <h2>Bu sayfada</h2>
@@ -159,8 +168,11 @@
 </section>
 <!-- atlas-event-navigation:start -->
 <nav class="event-navigation" aria-label="Olay kayıtları arasında gezinme">
+<p class="event-reading-return"><a href="#icerik">Sayfanın başına dön</a></p>
+<p class="event-record-position">Atlas kaydı 14 / 28</p>
 <p>Atlasın kayıt sırasına göre ilerleyin. Aynı gündeki kayıtlar kesin saat sırasını göstermez.</p>
-<div><a href="/olaylar/ariburnu-genel-taarruzu/"><span>Önceki kayıt</span><strong>Arıburnu genel taarruzu</strong></a><a href="/olaylar/"><span>Liste</span><strong>Tüm olaylar</strong></a><a href="/olaylar/triumph-batar/"><span>Sonraki kayıt</span><strong>Triumph batar</strong></a></div>
+<div><a rel="prev" href="/olaylar/ariburnu-genel-taarruzu/"><span>Önceki kayıt</span><strong>Arıburnu genel taarruzu</strong><small>19 Mayıs 1915</small></a><a rel="next" href="/olaylar/triumph-batar/"><span>Sonraki kayıt</span><strong>Triumph batar</strong><small>25 Mayıs 1915</small></a></div>
+<p class="event-all-records"><a href="/olaylar/">Tüm olayları listele</a></p>
 </nav>
 <!-- atlas-event-navigation:end -->
 </main>
@@ -176,7 +188,7 @@
     </nav>
   </div>
 </footer>
-<script src="/js/navigation.js"></script>
-<script src="/js/photo-archive.js?v=20261017b" defer></script>
+<script src="/js/navigation.js?v=20261018g"></script>
+<script src="/js/photo-archive.js?v=20261019c" defer></script>
 </body>
 </html>

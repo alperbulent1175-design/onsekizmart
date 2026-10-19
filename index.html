@@ -20,7 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-  <link rel="stylesheet" href="css/style.css?v=20261018c">
+  <link rel="stylesheet" href="css/style.css?v=20261018j">
   <noscript><style>
     body.home .map-help-row, body.home .tool-row, body.home .atlas-grid,
     body.home #secilmis, body.home #camp-filters, body.home #kron-filters,
@@ -71,6 +71,15 @@
     </div>
     <p class="atlas-intro-geography">Gelibolu Yarımadası · Çanakkale Boğazı</p>
   </div>
+  <figure class="atlas-intro-landscape">
+    <img src="/images/events/awm-g02127.jpg" width="640" height="386" fetchpriority="high" decoding="async" alt="Zığındere’nin derin vadisi ve iki yanındaki dik yamaçlar.">
+    <figcaption>Zığındere · 1919 araştırma gezisi. 1915 muharebe anı değildir. <a href="/fotograf-arsivi/#olaylar">Fotoğraf arşivi</a> · <a href="https://www.awm.gov.au/collection/C373647">AWM G02127</a></figcaption>
+  </figure>
+  <nav class="atlas-entry-routes" aria-label="Atlası keşfetmeye başla">
+    <a href="#kronoloji"><span>01 · Kronoloji</span><strong>Kronolojiyi takip edin</strong></a>
+    <a href="/olaylar/18-mart-deniz-muharebesi/"><span>02 · Deniz</span><strong>18 Mart’ı inceleyin</strong></a>
+    <a href="/olaylar/#kara"><span>03 · Kara</span><strong>Çıkarmalardan devam edin</strong></a>
+  </nav>
 </section>
 
 <section class="map-stage" id="harita" aria-label="Harekât haritası">
@@ -92,7 +101,7 @@
       <div class="map-guide-content">
         <ol>
           <li><strong>Bir kayıt bulun.</strong> Ara alanına bir mevki, gemi veya olay adı yazın. Sonucu seçince ilgili bilgi paneli açılır.</li>
-          <li><strong>Zamanı seçin.</strong> 18 Mart görünümü saatleri, Cephe kronolojisi görünümü kronolojideki kayıtları gösterir. Geri ve İleri kayıtlar arasında geçer.</li>
+          <li><strong>Kaydı seçin.</strong> 18 Mart görünümü o günün kayıtlarını, Cephe kronolojisi görünümü tarihli olayları gösterir. Geri ve İleri kayıtlar arasında geçer. 18 Mart gösterim sırası doğrulanmış saat veya süre değildir.</li>
           <li><strong>Görünümü değiştirin.</strong> Katmanlar işaret türlerini açıp kapatır. Haritanın sağ altındaki katman simgesi uydu ve yol haritasını değiştirir. Yakınlaşmak için + / − düğmelerini kullanın.</li>
           <li><strong>Kaydı okuyun.</strong> Seçili kaydın ayrıntı bağlantısını açın. Noktalar yaklaşık konumdur; günümüz taban görüntüsü tarihsel harita değildir.</li>
         </ol>
@@ -159,7 +168,7 @@
         <div class="timeline-top">
           <div class="clock-block">
             <p class="dock-label" id="time-label">Zaman</p>
-            <strong id="clock" aria-labelledby="time-label">18 Mart · 07:30</strong>
+            <strong id="clock" aria-labelledby="time-label">18 Mart · Kayıtlar</strong>
           </div>
           <div class="tl-controls">
             <div class="mode-switch" role="group" aria-label="Zaman görünümü">
@@ -180,9 +189,9 @@
             <option value="8000">8 saniye</option>
           </select>
         </label>
-        <input id="tl-range" type="range" min="450" max="1350" value="450" step="1" aria-label="Saat">
-        <p class="tl-hint" id="tl-hint">Saat çubuğu 18 Mart 1915 günüdür; saatlerin belge karşılaştırması tamamlanmadı.</p>
-        <p class="tl-event" id="tl-event" aria-live="polite"><em>07:30</em> Zaman çubuğunu kaydırın; harita o saatteki mevkiye uçar.</p>
+        <input id="tl-range" type="range" min="450" max="1350" value="450" step="1" aria-label="18 Mart kayıtları arasında ilerle">
+        <p class="tl-hint" id="tl-hint">18 Mart kayıtları arasında ilerleyin. Gösterim sırası, doğrulanmış saat veya süre anlamına gelmez.</p>
+        <p class="tl-event" id="tl-event" aria-live="polite"><em>Saat doğrulanmadı</em> Bir kayıt seçin; harita ilgili mevkiye gider.</p>
         <ul class="legend" aria-label="İşaretler">
           <li><b class="t">T</b>Tabya</li>
           <li><b class="b">B</b>Birlik</li>
@@ -217,7 +226,7 @@
     <p>Kronolojideki saatler, sayılar ve anlatı ayrıntıları tek tek belge kanıtıyla doğrulanmış sayılmaz. Kurum bağlantısı tek başına iddia kanıtı değildir. <a href="/kaynak-politikasi/">Kaynak politikası</a></p>
   </aside>
   <div class="prose">
-    <p>Satıra basınca harita o mevkiye gider. 18 Mart satırı saat şeridini açar. Listede olmayan bir gün için olay üretilmez. Aralık notu, ayrı bir muharebe sayfası değildir. Taraf ile deniz veya kara birlikte seçilir. Tümü ve Temizle süzgeci sıfırlar. Adı olan olaylar <a href="/olaylar/">Olaylar</a> sayfasındadır.</p>
+    <p>Satıra basınca harita o mevkiye gider. 18 Mart satırı o günün kayıtlarını açar. Listede olmayan bir gün için olay üretilmez. Aralık notu, ayrı bir muharebe sayfası değildir. Taraf ile deniz veya kara birlikte seçilir. Tümü ve Temizle süzgeci sıfırlar. Adı olan olaylar <a href="/olaylar/">Olaylar</a> sayfasındadır.</p>
   </div>
   <div class="filters" id="camp-filters">
     <button class="chip" type="button" data-camp="all" aria-pressed="true">Tümü</button>
@@ -229,9 +238,9 @@
   </div>
   <ol class="event-list" id="camp-list"></ol>
 
-  <h2 class="sec" id="saat">18 Mart, saat saat</h2>
+  <h2 class="sec" id="saat">18 Mart kayıtları</h2>
   <div class="prose">
-    <p>Bu şerit yalnız 18 Mart 1915 günüdür. Saati yazılmayan bir olaya saat verilmez.</p>
+    <p>Bu liste yalnız 18 Mart 1915 günüdür. Saatler ve anlatı ayrıntıları belge karşılaştırması süren taslak kayıtlardır; liste sırası kesin kronolojik sıra olarak okunmamalıdır. <a href="/olaylar/18-mart-deniz-muharebesi/#kaynak-notu">Kaynak desteği ve açık kalan iddialar</a> ayrı ayrı açıklanır.</p>
   </div>
   <div class="filters" id="kron-filters">
     <button class="chip" type="button" data-side="both" aria-pressed="true">Tümü</button>
@@ -260,7 +269,7 @@
   <div class="record-grid">
     <a href="/fotograf-arsivi/"><span>Görsel belgeler</span><strong>Fotoğraf arşivi</strong><em>Gemiler, denizciler ve komutanlar</em></a>
     <a href="/kaynakca/"><span>Kaynak</span><strong>Kaynakça</strong><em>ATASE, AWM, IWM</em></a>
-    <a href="/nasil-okunur/"><span>Rehber</span><strong>Nasıl okunur</strong><em>Harita ve saat şeridi</em></a>
+    <a href="/nasil-okunur/"><span>Rehber</span><strong>Nasıl okunur</strong><em>Harita ve kayıtlar</em></a>
     <a href="/sozluk/"><span>Rehber</span><strong>Sözlük</strong><em>Tabya, hat, kolordu</em></a>
   </div>
   <div class="prose">
@@ -285,9 +294,9 @@
 </footer>
 
 <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script defer src="js/data.js?v=20261017f"></script>
-<script defer src="js/campaign.js?v=20261017b"></script>
+<script defer src="js/data.js?v=20261019d"></script>
+<script defer src="js/campaign.js?v=20261018f"></script>
 <script defer src="js/model.js?v=20261017b"></script>
-<script defer src="js/app.js?v=20261017v"></script>
+<script defer src="js/app.js?v=20261019g"></script>
 </body>
 </html>

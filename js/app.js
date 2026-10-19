@@ -421,6 +421,62 @@
     if (map && map.invalidateSize) setTimeout(function () { map.invalidateSize(); }, motionOn() ? 60 : 0);
   }
 
+  function saveAtlasView(target) {
+    if (!map || !localHref(target)) return;
+    try {
+      var center = map.getCenter();
+      window.sessionStorage.setItem("om-atlas-return-view-v1", JSON.stringify({
+        target: target, savedAt: Date.now(), lat: center.lat, lng: center.lng, zoom: map.getZoom(),
+        side: sideFilter, domain: campDomain,
+        base: tiles && tiles.yol && map.hasLayer(tiles.yol) ? "yol" : "uydu",
+        layers: Object.keys(groups).filter(function (key) { return map.hasLayer(groups[key]); })
+      }));
+    } catch (error) { /* Storage restrictions must not interrupt navigation. */ }
+  }
+
+  function readAtlasView(target) {
+    try {
+      var state = JSON.parse(window.sessionStorage.getItem("om-atlas-return-view-v1"));
+      if (!state || state.target !== target || !Number.isFinite(state.savedAt) ||
+          Date.now() - state.savedAt < 0 || Date.now() - state.savedAt > 30 * 60 * 1000) return null;
+      if (!Number.isFinite(state.lat) || Math.abs(state.lat) > 90 ||
+          !Number.isFinite(state.lng) || Math.abs(state.lng) > 180 ||
+          !Number.isFinite(state.zoom) || state.zoom < 0 || state.zoom > 16) return null;
+      if (state.base != null && ["uydu", "yol"].indexOf(state.base) === -1) return null;
+      if (["both", "turk", "itilaf"].indexOf(state.side) === -1 ||
+          ["all", "deniz", "kara"].indexOf(state.domain) === -1 ||
+          !Array.isArray(state.layers) || state.layers.some(function (key) { return !Object.prototype.hasOwnProperty.call(groups, key); })) return null;
+      return state;
+    } catch (error) { return null; }
+  }
+
+  function restoreAtlasView() {
+    if (!map) return;
+    var state = readAtlasView(window.location.pathname + window.location.search + window.location.hash);
+    if (!state) return;
+    try { window.sessionStorage.removeItem("om-atlas-return-view-v1"); } catch (error) {}
+    setSide(state.side);
+    setDomain(state.domain);
+    Object.keys(groups).forEach(function (key) {
+      var enabled = state.layers.indexOf(key) !== -1;
+      if (enabled && !map.hasLayer(groups[key])) groups[key].addTo(map);
+      if (!enabled && map.hasLayer(groups[key])) map.removeLayer(groups[key]);
+      var button = document.querySelector('[data-layer="' + key + '"]');
+      if (button) button.setAttribute("aria-pressed", String(enabled));
+    });
+    if (state.base && tiles && tiles[state.base]) {
+      Object.keys(tiles).forEach(function (key) {
+        if (key !== state.base && map.hasLayer(tiles[key])) map.removeLayer(tiles[key]);
+      });
+      if (!map.hasLayer(tiles[state.base])) tiles[state.base].addTo(map);
+    }
+    map.stop();
+    map.setView([state.lat, state.lng], state.zoom, { animate: false });
+    updateSelectedLayerNotice();
+    var status = document.getElementById("map-view-status");
+    if (status) status.textContent = "Harita görünümü ve süzgeçler geri yüklendi.";
+  }
+
   function fillPanel(spec) {
     var panel = document.getElementById("panel");
     var title = document.getElementById("panel-title");
@@ -450,13 +506,18 @@
     }
     if (spec.source) body.appendChild(textEl("p", spec.source));
     var reviewLink = document.createElement("a");
-    reviewLink.href = "/inceleme-notlari/";
+    reviewLink.href = localHref(spec.reviewHref) || "/inceleme-notlari/";
     reviewLink.textContent = "Kanıt metinleri ve açık kalanlar";
     body.appendChild(reviewLink);
     if (spec.href) {
       var link = document.createElement("a");
       link.className = "event-page-link";
       link.href = spec.href;
+      if (localHref(spec.href) && localHref(spec.shareHref)) {
+        link.href = spec.href + (spec.href.indexOf("?") === -1 ? "?" : "&") +
+          "atlasaDon=" + encodeURIComponent(spec.shareHref);
+        link.addEventListener("click", function () { saveAtlasView(spec.shareHref); });
+      }
       link.textContent = spec.hrefLabel || "Ayrıntı";
       body.appendChild(link);
     }
@@ -489,15 +550,36 @@
     map.flyTo([place.lat, place.lng], Math.max(map.getZoom(), 13), { duration: motionOn() ? 0.85 : 0 });
   }
 
+  function navalReviewHref(placeId, title) {
+    var queenRecords = [
+      "Queen Elizabeth’in ilk 381 mm’lik salvosu",
+      "Signal No. 12 — genel çekilme",
+      "Filo Ege’ye çıkar"
+    ];
+    if (queenRecords.indexOf(title) !== -1) {
+      return "/olaylar/18-mart-deniz-muharebesi/#queen-elizabeth-saat-incelemesi";
+    }
+    var anchors = {
+      bouvet: "bouvet-saat-incelemesi",
+      inflexible: "inflexible-saat-incelemesi",
+      gaulois: "gaulois-kaynak",
+      tavsan: "gaulois-kaynak",
+      ocean: "tahliye-batis-ayrimi",
+      irresistible: "tahliye-batis-ayrimi"
+    };
+    return "/olaylar/18-mart-deniz-muharebesi/#" + (anchors[placeId] || "kaynak-notu");
+  }
+
   function fillFromNaval(ev, fly) {
     var place = ev.place ? findPlace(ev.place) : null;
     fillPanel({
       title: ev.title,
       placeId: place ? place.id : null,
-      date: "18 Mart 1915 · " + ev.t,
+      date: "18 Mart 1915 · Saat doğrulanmadı",
       side: sideLabel(ev.side),
       meta: place ? place.name : "",
-      text: ev.text,
+      text: "İncelenen taslak: " + ev.text,
+      reviewHref: navalReviewHref(ev.place, ev.title),
       accuracy: place ? accuracyText(place) : "Haritada ayrı nokta yok.",
       source: sourceText(ev),
       href: "/olaylar/18-mart-deniz-muharebesi/",
@@ -509,9 +591,8 @@
     paintIcons();
     flyToPlace(place, fly);
     paintCurrent("#event-list li", function (li) {
-      var time = li.querySelector("time");
       var heading = li.querySelector("h3");
-      return !!(time && heading && time.textContent === ev.t && heading.textContent === ev.title);
+      return !!(heading && heading.textContent === ev.title);
     });
   }
 
@@ -590,6 +671,7 @@
       text: p.short || (p.note && p.note[0]) || "",
       accuracy: accuracyText(p),
       source: sourceText(p),
+      reviewHref: navalHere.length ? navalReviewHref(p.id) : "",
       href: href,
       hrefLabel: "Ayrıntı",
       shareHref: "/?mevki=" + encodeURIComponent(p.id) + "#harita",
@@ -855,10 +937,10 @@
       if (hay.indexOf(v) === -1) return;
       count += 1;
       if (count > searchLimit) return;
-      addSearchHit(ev.t + " " + ev.title, function () {
+      addSearchHit(ev.title, function () {
         focusNavalEvent(ev, true);
         trackMapSelect("olay");
-      }, null, "18 Mart · Saatli kayıt");
+      }, null, "18 Mart · Saat incelemede");
     });
     if (D.campaign) {
       D.campaign.events.forEach(function (ev) {
@@ -913,19 +995,21 @@
 
   function showTime(m, fly, selected) {
     navalMinute = m;
-    var label = minsToClock(m);
-    clock.textContent = "18 Mart · " + label;
-    if (range) range.setAttribute("aria-valuetext", "18 Mart 1915 " + label);
+    // Legacy minute values preserve links and playback positions, not verified times.
+    var label = "Saat doğrulanmadı";
+    clock.textContent = "18 Mart · Kayıtlar";
+    if (range) range.setAttribute("aria-valuetext", "18 Mart 1915 · " + label);
     var list = eventsAt(m, sideFilter);
     var last = selected && selected.m === m && list.indexOf(selected) !== -1 ? selected : list[list.length - 1];
     navalSelection = last || null;
     if (!last) {
-      tlEvent.replaceChildren(textEl("em", label), document.createTextNode(" Bu saatten önce kayıtlı olay yok."));
+      tlEvent.replaceChildren(textEl("em", label), document.createTextNode(" Bu seçimde gösterilecek kayıt yok."));
       paintCurrent("#event-list li", function () { return false; });
       closePanel();
       return;
     }
-    tlEvent.replaceChildren(textEl("em", last.t), document.createTextNode(" " + last.title + " — " + last.text));
+    if (range) range.setAttribute("aria-valuetext", "18 Mart 1915 · " + last.title + " · " + label);
+    tlEvent.replaceChildren(textEl("em", label), document.createTextNode(" " + last.title + " — Taslak anlatı: " + last.text));
     fillFromNaval(last, fly);
   }
 
@@ -1016,7 +1100,7 @@
     document.getElementById("mode-camp").setAttribute("aria-pressed", next === "camp" ? "true" : "false");
     if (hint) {
       hint.textContent = next === "naval"
-        ? "Saat çubuğu 18 Mart 1915 günüdür. Geri ve ileri, kayıtlı olaya gider."
+        ? "18 Mart kayıtları arasında ilerleyin. Gösterim sırası, doğrulanmış saat veya süre anlamına gelmez."
         : "Cephe kronolojisi çubuğu, süzgeçteki olayların sırasıdır. Aralık notu muharebe değildir.";
     }
     applyDateLayers(next);
@@ -1025,7 +1109,7 @@
       range.max = "1350";
       range.step = "1";
       range.value = String(navalMinute);
-      range.setAttribute("aria-label", "Saat");
+      range.setAttribute("aria-label", "18 Mart kayıtları arasında ilerle");
       showTime(navalMinute, false, navalSelection);
     } else {
       var list = campEvents();
@@ -1315,9 +1399,9 @@
       li.className = ev.side;
       var btn = document.createElement("button");
       btn.type = "button";
-      btn.appendChild(textEl("time", ev.t));
+      btn.appendChild(textEl("span", "Saat doğrulanmadı", "event-time-status"));
       btn.appendChild(textEl("h3", ev.title));
-      btn.appendChild(textEl("p", ev.text));
+      btn.appendChild(textEl("p", "Taslak anlatı: " + ev.text));
       btn.addEventListener("click", function () {
         stopPlay();
         navalMinute = ev.m;
@@ -1729,6 +1813,7 @@
   renderCampList();
   showTime(Number(range.value) || 450, false);
   consumeDeepLink();
+  setTimeout(restoreAtlasView, 500);
   setTimeout(function () { if (map) map.invalidateSize(); }, 200);
   var pinTouch = window.matchMedia("(max-width: 860px)").matches;
   window.addEventListener("resize", function () {

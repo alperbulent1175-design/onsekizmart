@@ -1,5 +1,29 @@
 (function () {
   "use strict";
+  function atlasReturnUrl(value) {
+    if (!value || value.length > 1000 || value.indexOf("/?") !== 0) return "";
+    try {
+      var url = new URL(value, window.location.href);
+      if (url.origin !== window.location.origin || url.pathname !== "/" || url.hash !== "#harita") return "";
+      var allowed = ["olay", "mevki", "dakika", "deniz"];
+      var keys = Array.from(url.searchParams.keys());
+      if (keys.some(function (key) { return allowed.indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return "";
+      var event = keys.length === 1 && (keys[0] === "olay" || keys[0] === "mevki");
+      var naval = keys.indexOf("dakika") !== -1 && keys.every(function (key) { return key === "dakika" || key === "deniz"; }) && /^\d{1,4}$/.test(url.searchParams.get("dakika"));
+      if ((!event && !naval) || keys.some(function (key) { return !url.searchParams.get(key).trim(); })) return "";
+      return url.pathname + url.search + url.hash;
+    } catch (error) { return ""; }
+  }
+  var returnUrl = "";
+  if (window.location && window.location.search && typeof URLSearchParams !== "undefined") {
+    returnUrl = atlasReturnUrl(new URLSearchParams(window.location.search).get("atlasaDon"));
+  }
+  if (returnUrl) {
+    document.querySelectorAll(".event-map-action").forEach(function (link) {
+      link.href = returnUrl;
+      link.textContent = "Seçili kayda dön";
+    });
+  }
   var button = document.getElementById("nav-toggle");
   var panel = document.getElementById("nav-panel");
   if (!button || !panel) return;

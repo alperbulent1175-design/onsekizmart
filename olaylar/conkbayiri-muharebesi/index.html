@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261018a">
+  <link rel="stylesheet" href="/css/style.css?v=20261018k">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKGGXNVR7V"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -24,7 +24,7 @@
     gtag('js', new Date());
     gtag('config', 'G-MKGGXNVR7V');
   </script>
-<link rel="stylesheet" href="/css/photo-archive.css?v=20261017d">
+<link rel="stylesheet" href="/css/photo-archive.css?v=20261019c">
 </head>
 <body class="event-page">
 <a class="skip" href="#icerik">İçeriğe geç</a>
@@ -66,7 +66,7 @@
     </ul>
   </nav>
 </header>
-<main class="page-main" id="icerik">
+<main class="page-main" id="icerik" tabindex="-1">
 <p class="kicker">Diğer kara</p>
 <h1>Conkbayırı Muharebesi</h1>
 <p class="photo-jump"><a href="#fotograf-arsivi">Fotoğrafları ve künyelerini gör</a> · <a href="/fotograf-arsivi/">Tüm fotoğraf arşivi</a></p>
@@ -84,7 +84,11 @@
 <div><dt>Taraflar</dt><dd>İki taraf</dd></div>
 <div><dt>Mevki</dt><dd>Conkbayırı</dd></div>
 </dl>
-<div class="prose"><p>Conkbayırı zirvesine çıkış ve Osmanlı karşı taarruzu ayrı aşamalardır; kronolojide 10 Ağustos ayrı kayıttır. <a href="#inceleme-baslik">Kaynak incelemesine bakınız.</a></p><p>6–10 Ağustos kesiti ile daha geniş Sarıbayır harekâtının tarih kapsamı ayrılır.</p><p>Mevcut harita işareti yaklaşık bir mevki veya saha merkezidir; günlük cephe çizgisi ya da kesin enkaz konumu değildir.</p></div>
+<section class="event-overview prose" aria-labelledby="kisa-bakis">
+<h2 id="kisa-bakis">Kısa bakış</h2>
+<p>Conkbayırı zirvesine çıkış ve Osmanlı karşı taarruzu ayrı aşamalardır; kronolojide 10 Ağustos ayrı kayıttır. <a href="#inceleme-baslik">Kaynak incelemesine bakınız.</a></p>
+<details><summary>Tarih ve konum sınırları</summary><p>6–10 Ağustos kesiti ile daha geniş Sarıbayır harekâtının tarih kapsamı ayrılır.</p><p>Mevcut harita işareti yaklaşık bir mevki veya saha merkezidir; günlük cephe çizgisi ya da kesin enkaz konumu değildir.</p></details>
+</section>
 <p><a class="btn" href="/?olay=conkbayiri-muharebesi#harita">Haritada göster</a></p>
 <h2>Metninde adı geçen komutanlar</h2>
 <ul class="roster">
@@ -113,8 +117,11 @@
 </section>
 <!-- atlas-event-navigation:start -->
 <nav class="event-navigation" aria-label="Olay kayıtları arasında gezinme">
+<p class="event-reading-return"><a href="#icerik">Sayfanın başına dön</a></p>
+<p class="event-record-position">Atlas kaydı 22 / 28</p>
 <p>Atlasın kayıt sırasına göre ilerleyin. Aynı gündeki kayıtlar kesin saat sırasını göstermez.</p>
-<div><a href="/olaylar/anafartalar-suvla-cikarmasi/"><span>Önceki kayıt</span><strong>Anafartalar / Suvla çıkarması</strong></a><a href="/olaylar/"><span>Liste</span><strong>Tüm olaylar</strong></a><a href="/olaylar/barbaros-hayreddin-batar/"><span>Sonraki kayıt</span><strong>Barbaros Hayreddin batar</strong></a></div>
+<div><a rel="prev" href="/olaylar/anafartalar-suvla-cikarmasi/"><span>Önceki kayıt</span><strong>Anafartalar / Suvla çıkarması</strong><small>6–7 Ağustos 1915</small></a><a rel="next" href="/olaylar/barbaros-hayreddin-batar/"><span>Sonraki kayıt</span><strong>Barbaros Hayreddin batar</strong><small>8 Ağustos 1915</small></a></div>
+<p class="event-all-records"><a href="/olaylar/">Tüm olayları listele</a></p>
 </nav>
 <!-- atlas-event-navigation:end -->
 </main>
@@ -130,7 +137,7 @@
     </nav>
   </div>
 </footer>
-<script src="/js/navigation.js"></script>
-<script src="/js/photo-archive.js?v=20261017b" defer></script>
+<script src="/js/navigation.js?v=20261018g"></script>
+<script src="/js/photo-archive.js?v=20261019c" defer></script>
 </body>
 </html>

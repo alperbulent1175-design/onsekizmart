@@ -8,6 +8,40 @@ const read = name => fs.readFileSync(path.join(root, name), 'utf8');
 const report = JSON.parse(read('research/ux-audit/18-mart-iddia-incelemesi.json'));
 const ctx = { window: {} };
 vm.runInNewContext(read('js/data.js'), ctx);
+test('deniz olay paneli denetimi açık anlatıyı taslak olarak sunar ve özgün kaydı korur', () => {
+  const app = read('js/app.js');
+  const event = { title: 'İnceleme kaydı', t: '07:30', m: 450, place: null, text: 'Belgeyle eşleştirilecek anlatı.' };
+  let panel;
+  const context = { fillPanel: value => { panel = value; }, sideLabel: () => '', sourceText: () => 'Kaynak incelemesi açık',
+    slugify: () => 'inceleme-kaydi', paintIcons() {}, flyToPlace() {}, paintCurrent() {} };
+  vm.createContext(context);
+  vm.runInContext(app.slice(app.indexOf('  function navalReviewHref('), app.indexOf('  function fillFromCamp(')), context);
+  context.fillFromNaval(event, false);
+  assert.equal(panel.text, 'İncelenen taslak: ' + event.text);
+  assert.equal(event.text, 'Belgeyle eşleştirilecek anlatı.');
+  assert.match(panel.date, /Saat doğrulanmadı/);
+  assert.doesNotMatch(panel.date, /07:30/);
+  for (const title of ['Queen Elizabeth’in ilk 381 mm’lik salvosu', 'Signal No. 12 — genel çekilme', 'Filo Ege’ye çıkar']) {
+    const record = ctx.window.OM.events.find(e => e.title === title);
+    context.findPlace = id => ({ id, name: id });
+    context.accuracyText = () => '';
+    context.fillFromNaval(record, false);
+    assert.equal(panel.reviewHref, '/olaylar/18-mart-deniz-muharebesi/#queen-elizabeth-saat-incelemesi');
+    assert.ok(panel.shareHref.includes('dakika=' + record.m));
+  }
+  context.fillFromNaval(event, false);
+
+  assert.equal(panel.reviewHref, '/olaylar/18-mart-deniz-muharebesi/#kaynak-notu');
+  context.findPlace = id => ({ id, name: id });
+  context.accuracyText = () => 'Konum incelemesi açık';
+  const anchors = { ocean: 'tahliye-batis-ayrimi', irresistible: 'tahliye-batis-ayrimi',
+    bouvet: 'bouvet-saat-incelemesi', inflexible: 'inflexible-saat-incelemesi', gaulois: 'gaulois-kaynak' };
+  for (const [place, anchor] of Object.entries(anchors)) {
+    context.fillFromNaval({ ...event, place }, false);
+    assert.equal(panel.reviewHref, '/olaylar/18-mart-deniz-muharebesi/#' + anchor);
+    assert.ok(read('olaylar/18-mart-deniz-muharebesi/index.html').includes('id="' + anchor + '"'));
+  }
+});
 test('31 saatli kaydın inceleme izi korunur, inceleme doğrulanmış etiketi değildir', () => {
   assert.equal(report.records.length, 31);
   assert.equal(report.records.length, ctx.window.OM.events.length);
@@ -77,4 +111,90 @@ test('Ocean isabeti ve batışı ayrı inceleme kayıtlarıdır; tahliye ayrınt
     assert.equal(row.sourceRefs.length, 2);
     row.sourceRefs.forEach(id => { const s = report.sources.find(s => s.id === id); assert.ok(s.url && s.evidence && s.date); assert.notEqual(s.status, 'iddia_dogrulandi'); });
   }
+});
+
+
+test('doğrudan gemi seçimi olay paneliyle aynı kanıt bölümünü açar; diğer mevkiler genel incelemeyi korur', () => {
+  const app = read('js/app.js');
+  let panel;
+  const context = {
+    D: { events: ctx.window.OM.events },
+    findPlace: id => ({ id, name: id }),
+    fillPanel: spec => { panel = spec; },
+    paintIcons() {}, flyToPlace() {}, updateSelectedLayerNotice() {},
+    accuracyText: () => '', sourceText: () => '', sideLabel: () => ''
+  };
+  vm.createContext(context);
+  vm.runInContext(app.slice(app.indexOf('  function navalReviewHref('), app.indexOf('  function fillFromNaval(')), context);
+  vm.runInContext(app.slice(app.indexOf('  function openPlace('), app.indexOf('  function closePanel(')), context);
+  for (const id of ['bouvet', 'inflexible', 'tavsan', 'ocean', 'irresistible']) {
+    context.openPlace(id, false);
+    assert.equal(panel.reviewHref, context.navalReviewHref(id));
+    assert.equal(panel.shareHref, '/?mevki=' + id + '#harita');
+  }
+  context.openPlace('baska-mevki', false);
+  assert.equal(panel.reviewHref, '');
+});
+
+
+test('Gaulois ada eşleştirmesi kesin sunulmaz; mevcut nokta ve bağlantı anahtarları korunur', () => {
+  const place = ctx.window.OM.places.find(p => p.id === 'tavsan');
+  assert.equal(place.lat, 40.0038); assert.equal(place.lng, 26.152);
+  assert.match(place.uncertainty, /eşleştirilmesi.*doğrulanmadı/);
+  assert.doesNotMatch(place.name, /Tavşan \(Drepano\)/);
+  const event = ctx.window.OM.events.find(e => e.title === 'Gaulois karaya oturtulur');
+  assert.equal(event.m, 875); assert.equal(event.place, 'tavsan');
+  assert.match(event.text, /belgeyle doğrulanmadı/);
+  const navy = read('donanma/index.html').split('id="gaulois"')[1].split('</article>')[0];
+  assert.match(navy, /#gaulois-kaynak/);
+  assert.doesNotMatch(navy, /12.28’de|14.35’te|Tavşan \(Drepano\)/);
+});
+
+
+test('Irresistible enkaz koordinatı korunur; tahliye ve batış saatleri kesin sunulmaz', () => {
+  const place = ctx.window.OM.places.find(p => p.id === 'irresistible');
+  assert.equal(place.lat, 40.073966667); assert.equal(place.lng, 26.340683333);
+  assert.ok(place.coordinateSource.url && place.coordinateSource.evidenceText);
+  assert.doesNotMatch(place.meta + place.short, /600|19.30|16.11/);
+  const events = ctx.window.OM.events.filter(e => e.place === 'irresistible');
+  assert.deepEqual(Array.from(events, e => e.m), [971, 992, 1170]);
+  assert.doesNotMatch(events.map(e => e.text).join(' '), /600|7°/);
+  const navy = read('donanma/index.html').split('id="irresistible"')[1].split('</article>')[0];
+  assert.match(navy, /#tahliye-batis-ayrimi/);
+  assert.doesNotMatch(navy, /600|19.30|16.11/);
+});
+
+
+test('donanma kartları belge denetimini görünür tutar ve incelenen gemilere hızlı ulaşılır', () => {
+  const navy = read('donanma/index.html');
+  const reviewed = new Set(['bouvet', 'irresistible', 'ocean', 'inflexible', 'gaulois']);
+  const cards = [...navy.matchAll(/<article class="ship-card" id="([^"]+)">([\s\S]*?)<\/article>/g)];
+  assert.ok(cards.length > reviewed.size);
+  for (const [, id, body] of cards) {
+    if (reviewed.has(id)) {
+      assert.ok(navy.includes('href="#' + id + '"'));
+      assert.match(body, /href="\/olaylar\/18-mart-deniz-muharebesi\/#/);
+    } else assert.match(body, /Ayrıntılı belge denetimi açık/);
+  }
+});
+
+
+test('Queen Elizabeth saat farkı açıklanır; filo başlangıcına ve yeni saate genellenmez', () => {
+  const note = read('olaylar/18-mart-deniz-muharebesi/index.html');
+  assert.match(note, /id="queen-elizabeth-saat-incelemesi"/);
+  assert.match(note, /bütün filonun ilk atış saati olarak genellenmez/);
+  const card = read('donanma/index.html').split('id="queen-elizabeth"')[1].split('</article>')[0];
+  assert.match(card, /#queen-elizabeth-saat-incelemesi/);
+  assert.doesNotMatch(card, /11.00’de|17.00’de|17.45’te/);
+  const event = ctx.window.OM.events.find(e => e.title === 'Queen Elizabeth’in ilk 381 mm’lik salvosu');
+  assert.equal(event.m, 660);
+  assert.match(event.text, /belge karşılaştırması açık/);
+});
+
+
+test('Çimenlik özeti rapordaki hedef numarasını kanıtsız eşleştirmez', () => {
+  const place = ctx.window.OM.places.find(p => p.id === 'cimenlik');
+  assert.doesNotMatch(place.short, /11.00’de|ilk 381/);
+  assert.match(place.note[0], /eşleştirilmedi/);
+  assert.equal(place.lat, 40.1477); assert.equal(place.lng, 26.3995);
 });

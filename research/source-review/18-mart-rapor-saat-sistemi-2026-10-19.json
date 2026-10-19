@@ -1,0 +1,26 @@
+{
+  "reviewed_at": "2026-10-19",
+  "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "source_type": "Birincil raporun üçüncü taraf çevrimyazısı",
+  "status": "cevrimyazi_okundu_ozgun_goruntu_karsilastirmasi_acik",
+  "evidence": [
+    {
+      "text": "March 26, 1915",
+      "context": "Üst yazı tarihi"
+    },
+    {
+      "text": "March 24, 1915",
+      "context": "Ek harekât raporu sonundaki tarih"
+    },
+    {
+      "text": "two hours fast on G.M.T.",
+      "context": "17–18 Mart raporunun saat sistemi açıklaması"
+    }
+  ],
+  "limits": [
+    "Özgün belge görüntüsü bu turda incelenmedi.",
+    "Başka kaynakların saat sistemini kanıtlamaz.",
+    "Mevcut atlas saatleri ve koordinatları değiştirilmedi.",
+    "Emir, plan, olay ve bildirim zamanı ayrı karşılaştırılmalı."
+  ]
+}

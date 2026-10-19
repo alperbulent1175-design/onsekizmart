@@ -371,7 +371,7 @@ tr[data-place]:hover td { background: rgba(212,175,55,0.08); }
   font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.08em;
   text-transform: uppercase; color: var(--gold-2);
 }
-.event-list time { font-family: var(--mono); color: var(--gold-2); font-size: 0.82rem; }
+.event-list time, .event-list .event-time-status { font-family: var(--mono); color: var(--gold-2); font-size: 0.82rem; }
 .event-list button {
   display: block; width: 100%; text-align: left;
   background: none; border: 0; color: inherit; cursor: pointer; padding: 0;
@@ -1255,6 +1255,17 @@ body.home .atlas-intro h1 {
   color: #f6f0e5;
 }
 body.home .atlas-intro h1 em { color: #c5a06c; font-weight: 500; }
+body.home .gate.atlas-intro { grid-template-areas: "title landscape" "guide landscape" "routes routes"; row-gap: 20px; }
+body.home .atlas-intro-title { grid-area: title; align-self: end; }
+body.home .atlas-intro-guide { grid-area: guide; align-self: start; }
+body.home .atlas-intro-landscape { grid-area: landscape; margin: 0; min-width: 0; max-width: 640px; }
+body.home .atlas-intro-landscape img { display: block; width: 100%; height: auto; }
+body.home .atlas-intro-landscape figcaption { margin-top: 10px; font-size: .8rem; line-height: 1.6; color: var(--muted); }
+body.home .atlas-intro-landscape a { text-decoration: underline; text-underline-offset: 3px; }
+body.home .atlas-entry-routes { grid-area: routes; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 8px; }
+body.home .atlas-entry-routes a { min-width: 0; min-height: 48px; padding: 16px 0 4px; border-top: 1px solid var(--line); }
+body.home .atlas-entry-routes span { display: block; color: var(--gold); font-size: .8rem; margin-bottom: 6px; }
+body.home .atlas-entry-routes strong { font-size: 1rem; font-weight: 600; }
 body.home .atlas-intro-copy { margin: 0; max-width: 44ch; color: #e4dccb; font-size: 1.08rem; }
 body.home .atlas-intro-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
 body.home .atlas-intro-actions a {
@@ -1275,7 +1286,12 @@ body.home .atlas-intro a:focus-visible { outline: 2px solid #f6f0e5; outline-off
 body.home #giris, body.home #harita, body.home #kronoloji { scroll-margin-top: calc(var(--nav-h) + 12px); }
 body.home .accuracy a, body.home #kronoloji .prose a { color: #f6f0e5; text-decoration: underline; text-underline-offset: 3px; }
 @media (max-width: 860px) {
-  body.home .gate.atlas-intro { grid-template-columns: 1fr; gap: 16px; padding: 24px 20px; }
+  body.home .gate.atlas-intro { grid-template-columns: 1fr; grid-template-areas: "title" "guide" "landscape" "routes"; gap: 16px; padding: 24px 20px; }
+  body.home .atlas-intro-landscape { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; align-items: center; }
+  body.home .atlas-intro-landscape figcaption { margin: 0; font-size: .75rem; }
+  body.home .atlas-entry-routes { grid-template-columns: 1fr; gap: 0; margin-top: 0; }
+  body.home .atlas-entry-routes a { padding: 10px 0; }
+  body.home .atlas-entry-routes span { display: inline; margin-right: 10px; }
   body.home .atlas-intro .kicker { margin-bottom: 10px; font-size: .67rem; letter-spacing: .14em; }
   body.home .atlas-intro h1 { font-size: clamp(1.9rem, 6vw, 2.7rem); }
   body.home .atlas-intro-copy { font-size: 1rem; }
@@ -1286,6 +1302,12 @@ body.home .accuracy a, body.home #kronoloji .prose a { color: #f6f0e5; text-deco
 }
 
 /* Event reading layout: presentation only, historical text remains unchanged. */
+@media (max-width: 600px) {
+  body.home .atlas-entry-routes { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  body.home .atlas-entry-routes a { min-height: 64px; line-height: 1.4; }
+  body.home .atlas-entry-routes span { display: block; margin: 0 0 6px; font-size: .75rem; }
+  body.home .atlas-entry-routes strong { font-size: .875rem; overflow-wrap: anywhere; }
+}
 body.event-page .page-main { padding-top: 32px; }
 body.event-page .page-main h1 { max-width: 24ch; line-height: 1.15; }
 body.event-page .event-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 24px; }
@@ -1296,6 +1318,15 @@ body.event-page .event-actions a {
   text-decoration: underline; text-underline-offset: 3px;
 }
 body.event-page .event-actions .event-map-action { color: #101e27; background: #c5a06c; border-color: #c5a06c; font-weight: 600; }
+body.event-page .event-overview { margin: 28px 0; }
+body.event-page .page-main .event-overview > h2 { margin-top: 0; }
+body.event-page .reading-route { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 24px 0; }
+body.event-page .reading-route a { display: block; min-width: 0; min-height: 48px; padding: 12px 0; border-top: 1px solid var(--line); font-size: 1rem; line-height: 1.5; }
+body.event-page .reading-route span { display: block; margin-bottom: 8px; font-size: .85rem; color: var(--gold); }
+@media (max-width: 600px) {
+  body.event-page .reading-route { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  body.event-page .reading-route span { margin-bottom: 4px; }
+}
 body.event-page .page-main .prose { max-width: 64ch; font-size: 1.125rem; line-height: 1.8; color: #e4dccb; }
 body.event-page .page-main .prose p { margin-bottom: 1.3em; }
 body.event-page .page-main .prose a { color: var(--cream); text-decoration: underline; text-underline-offset: 3px; }
@@ -1444,8 +1475,13 @@ body.home .map-frame { position: relative; }
 
 .event-navigation { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--line); }
 .event-navigation > p { color: var(--muted); font-size: 0.85rem; }
+.event-navigation .event-reading-return a { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 0; border: 0; text-decoration: underline; text-underline-offset: 3px; }
 .event-navigation > div { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 12px; }
 .event-navigation a { display: block; min-height: 44px; padding: 14px; border: 1px solid var(--line); overflow-wrap: anywhere; }
 .event-navigation a:hover { border-color: var(--gold); }
 .event-navigation span, .event-navigation strong { display: block; }
 .event-navigation span { color: var(--muted); font-size: 0.8rem; margin-bottom: 4px; }
+.event-navigation .event-record-position { font-family: var(--mono); color: var(--gold); }
+.event-navigation small { display: block; margin-top: 8px; color: var(--muted); }
+.event-navigation a[rel="next"] { border-color: var(--gold); }
+.event-navigation .event-all-records a { display: inline-flex; align-items: center; min-height: 44px; border: 0; padding: 8px 0; text-decoration: underline; text-underline-offset: 3px; }

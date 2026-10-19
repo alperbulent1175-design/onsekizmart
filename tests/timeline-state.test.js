@@ -66,6 +66,25 @@ test('deniz süzgecinde önceki kayıt yoksa eski panel kapatılır', () => {
   assert.equal(closed, true); assert.equal(ctx.navalSelection, null);
 });
 
+test('belge denetimi açık deniz kaydı saat gibi sunulmaz; seçim ve oynatma konumu korunur', () => {
+  const event = { m: 854, t: '14:14', title: 'İncelenen kayıt', text: 'Araştırma notu' };
+  let shown, rendered;
+  const attributes = {};
+  const ctx = { sideFilter: 'both', clock: {}, range: { setAttribute(k, v) { attributes[k] = v; } },
+    tlEvent: { replaceChildren(...nodes) { rendered = nodes.join(' '); } }, eventsAt: () => [event],
+    textEl: (tag, text) => text, document: { createTextNode: text => text },
+    fillFromNaval(ev) { shown = ev; }, paintCurrent() {}, closePanel() {} };
+  vm.createContext(ctx);
+  vm.runInContext(source.slice(source.indexOf('  function showTime('), source.indexOf('  function sideLabel(')), ctx);
+  ctx.showTime(854, false, event);
+  assert.equal(shown, event);
+  assert.equal(ctx.navalMinute, 854);
+  assert.equal(ctx.navalSelection, event);
+  assert.match(rendered, /Saat doğrulanmadı/);
+  assert.doesNotMatch(rendered + ctx.clock.textContent + attributes['aria-valuetext'], /14:14/);
+  assert.match(attributes['aria-valuetext'], /İncelenen kayıt/);
+});
+
 
 test('arka plana geçiş oynatmayı durdurur, görünür olma kendiliğinden başlatmaz', () => {
   let visibility, pagehide, stops = 0;

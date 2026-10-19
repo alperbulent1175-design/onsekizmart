@@ -141,6 +141,10 @@ PAGES = {
 <h1>Gizlilik</h1>
 <div class="prose">
 <p>Sitede üyelik ve hesap yoktur. Ziyaretçi adı, parola veya ödeme bilgisi istenmez.</p>
+<h2>Haritaya dönüş için geçici kayıt</h2>
+<p>Haritanın bilgi panelinden bir ayrıntı sayfasına geçtiğinizde seçili kayıt bağlantısı, harita merkezi ve yakınlaştırma, taraf ve deniz/kara süzgeçleri, işaret katmanları ve uydu/yol haritası tercihi tarayıcınızın sekme oturumunda (sessionStorage) saklanır. Bu görünüm kaydı site sunucusuna gönderilmez. Harita merkezi, ekranda baktığınız alanı belirtir; cihazınızın konumu alınmaz.</p>
+<p>Kayıt yalnız aynı harita bağlantısına dönüşte kullanılır ve kullanıldıktan sonra kaldırılır. 30 dakikadan eski kayıt uygulanmaz; kullanılmamış kayıt sekme oturumu sona erdiğinde silinir. Tarayıcı saklamayı engellerse harita bağlantıları çalışmaya devam eder.</p>
+<h2>Dış hizmetler</h2>
 <p>Yazı tipleri Google Fonts üzerinden, harita karoları OpenStreetMap ve Esri üzerinden yüklenir. Bu istekler o hizmetlerin kendi kayıtlarına düşebilir. Sayfa görüntülemeleri Google Analytics 4 ile ölçülür. Başka bir analiz aracı ilan edilmemiştir.</p>
 </div>""",
     ),

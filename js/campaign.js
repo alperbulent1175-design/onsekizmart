@@ -168,7 +168,7 @@
         domain: "deniz",
         battle: true,
         title: "18 Mart Deniz Muharebesi",
-        text: "De Robeck’in filosu Boğaz’a girer. Bouvet, Irresistible ve Ocean batar; Inflexible ve Gaulois ağır yara alır. Boğaz geçilmez. Saat saat döküm haritanın 18 Mart şeridindedir.",
+        text: "De Robeck’in filosu Boğaz’a girer. Bouvet, Irresistible ve Ocean batar; Inflexible ve Gaulois ağır yara alır. Boğaz geçilmez. İlgili kayıtlar haritanın 18 Mart görünümündedir; saat denetimi sürüyor.",
         place: "bouvet",
         navalMinute: 834
       },

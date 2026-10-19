@@ -15,16 +15,19 @@ function entries() {
   const app = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8');
   vm.runInContext(app.slice(app.indexOf('  function slugify('), app.indexOf('  function findCampByKey(')), ctx);
   const list = Array.from(ctx.window.OM.campaign.events).filter(e => ctx.eventPageHref(e));
-  return list.map(e => ({ title: e.title, href: ctx.eventPageHref(e) }));
+  return list.map(e => ({ title: e.title, date: e.date, href: ctx.eventPageHref(e) }));
 }
 function render(list, index) {
-  function link(item, label) {
-    return item ? '<a href="' + escape(item.href) + '"><span>' + label + '</span><strong>' + escape(item.title) + '</strong></a>' : '';
+  function link(item, label, relation) {
+    return item ? '<a rel="' + relation + '" href="' + escape(item.href) + '"><span>' + label + '</span><strong>' + escape(item.title) + '</strong>' +
+      (item.date ? '<small>' + escape(item.date) + '</small>' : '') + '</a>' : '';
   }
   return START + '\n<nav class="event-navigation" aria-label="Olay kayıtları arasında gezinme">\n' +
+    '<p class="event-reading-return"><a href="#icerik">Sayfanın başına dön</a></p>\n' +
+    '<p class="event-record-position">Atlas kaydı ' + (index + 1) + ' / ' + list.length + '</p>\n' +
     '<p>Atlasın kayıt sırasına göre ilerleyin. Aynı gündeki kayıtlar kesin saat sırasını göstermez.</p>\n<div>' +
-    link(list[index - 1], 'Önceki kayıt') + '<a href="/olaylar/"><span>Liste</span><strong>Tüm olaylar</strong></a>' +
-    link(list[index + 1], 'Sonraki kayıt') + '</div>\n</nav>\n' + END;
+    link(list[index - 1], 'Önceki kayıt', 'prev') + link(list[index + 1], 'Sonraki kayıt', 'next') +
+    '</div>\n<p class="event-all-records"><a href="/olaylar/">Tüm olayları listele</a></p>\n</nav>\n' + END;
 }
 function build() {
   const list = entries();
@@ -39,7 +42,8 @@ function build() {
     if ((start < 0) !== (end < 0) || (start >= 0 && end < start)) throw new Error('Eksik gezinme işareti');
     let updated = start < 0 ? original.replace('</main>', block + '\n</main>')
       : original.slice(0, start) + block + original.slice(end + END.length);
-    updated = updated.replace(/css\/style\.css\?v=[^"']+/g, 'css/style.css?v=20261017k');
+    // Preserve each page's current stylesheet version when rebuilding navigation.
+    updated = updated.replace('<main class="page-main" id="icerik">', '<main class="page-main" id="icerik" tabindex="-1">');
     return { file, original, updated };
   });
   let changed = 0;
