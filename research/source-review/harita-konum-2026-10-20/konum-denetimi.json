@@ -1,12 +1,12 @@
 {
   "date": "2026-10-20",
   "scope": "31 nokta, 4 hat ve 10 enlemesine mayın şeması; mevcut veri denetimi, saha ölçümü değil",
-  "method": "Koordinat aralığı ve benzersiz kimlik denetimi. Mesafe haversine R=6371008.8 m; tarihsel doğruluğun kanıtı değildir. Conkbayırı, Kilitbahir, Rumeli Mecidiye ve Seddülbahir için güncel kurumsal ziyaret bağlantıları sayısal karşılaştırmaya uygundu. Tarihsel mevzi veya komuta yeri doğrulanmış sayılmaz. Irresistible yayımlanmış enkaz noktasıdır. Tarihî haritalardan yeni koordinat türetilmedi.",
+  "method": "Koordinat aralığı ve benzersiz kimlik denetimi. Mesafe haversine R=6371008.8 m; tarihsel doğruluğun kanıtı değildir. Conkbayırı, Kilitbahir, Rumeli Mecidiye ve Seddülbahir için güncel kurumsal ziyaret bağlantıları sayısal karşılaştırmaya uygundu. Tarihsel mevzi veya komuta yeri doğrulanmış sayılmaz. Irresistible yayımlanmış enkaz noktasıdır. Tarihî haritalardan yeni koordinat türetilmedi. Namazgâh ve Rumeli Hamidiye kurumsal harita hedefleri de ayrı karşılaştırıldı.",
   "summary": {
     "points": 31,
-    "pointsWithNumericSource": 5,
-    "pointsWithoutNumericSource": 26,
-    "changedPoints": 4,
+    "pointsWithNumericSource": 7,
+    "pointsWithoutNumericSource": 24,
+    "changedPoints": 6,
     "lines": 14,
     "verifiedLineGeometries": 0
   },
@@ -84,36 +84,50 @@
       "name": "Namazgâh Tabyası",
       "type": "tabya",
       "coordinates": [
-        40.14605,
-        26.37815
+        40.145371,
+        26.379579
       ],
       "before": [
         40.14605,
         26.37815
       ],
-      "changed": false,
-      "offsetFromBeforeMetres": 0,
-      "status": "sayisal_konum_kaynagi_tamamlanmadi",
-      "source": null,
-      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+      "changed": true,
+      "offsetFromBeforeMetres": 143.01621005334005,
+      "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/namazgah-tabyasi",
+        "label": "Alan Başkanlığı · Namazgâh Tabyası",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.145371, 26.379579",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      },
+      "limit": "Alan Başkanlığının güncel Namazgâh Tabyası ziyaret noktasıyla eşleştirildi. Tabya alanını temsil eder; 1915 harekât merkezi veya top yerlerinin kesin koordinatı değildir."
     },
     {
       "id": "rumeli-hamidiye",
       "name": "Rumeli Hamidiye Tabyası",
       "type": "tabya",
       "coordinates": [
-        40.1449,
-        26.3811
+        40.142829,
+        26.377707
       ],
       "before": [
         40.1449,
         26.3811
       ],
-      "changed": false,
-      "offsetFromBeforeMetres": 0,
-      "status": "sayisal_konum_kaynagi_tamamlanmadi",
-      "source": null,
-      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+      "changed": true,
+      "offsetFromBeforeMetres": 369.0662263030099,
+      "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-hamidiye-tabyasi",
+        "label": "Alan Başkanlığı · Rumeli Hamidiye Tabyası",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.142829, 26.377707",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      },
+      "limit": "Alan Başkanlığının güncel Rumeli Hamidiye Tabyası harita hedefiyle eşleştirildi. Tabya alanını temsil eder; 1915 top platformlarının kesin koordinatı değildir. Ziyaret bağlantısı, alanın şu anda ziyarete açık olduğunu göstermez."
     },
     {
       "id": "cimenlik",
@@ -942,7 +956,7 @@
     }
   ],
   "openQuestions": [
-    "26 noktanın sayısal kaynak eşleştirmesi eksik; kimlik bazında çalışma gerekiyor.",
+    "24 noktanın sayısal kaynak eşleştirmesi eksik; kimlik bazında çalışma gerekiyor.",
     "Morto Koyu, HGM haritasıyla nitel karşılaştırmada öncelikli yeniden inceleme gerektiriyor; sayısal merkez veya batık noktası atanmadı.",
     "Nusret çizgisi için ölçülü döküm krokisi, tarih, koordinat sistemi ve dönüşüm yöntemi gerekli.",
     "Enlemesine şemaların çizim numaraları, gerçek hat numarası veya döküm tarihi olarak sunulmamalı."

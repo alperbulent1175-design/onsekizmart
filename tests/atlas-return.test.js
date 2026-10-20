@@ -82,7 +82,7 @@ function readingPanel(spec) {
   vm.runInContext(fs.readFileSync(path.join(__dirname, '../js/model.js'), 'utf8'), ctx);
   ctx.Model = ctx.window.OMModel;
   vm.runInContext(app.slice(app.indexOf('  function localHref('), app.indexOf('  function fillCells(')), ctx);
-  vm.runInContext(app.slice(app.indexOf('  function fillPanel('), app.indexOf('  function paintCurrent(')), ctx);
+  vm.runInContext(app.slice(app.indexOf('  function claimConflictEvidence('), app.indexOf('  function paintCurrent(')), ctx);
   ctx.fillPanel(spec);
   return { links: body.children.filter(n => n.tag === 'a'), saved };
 }

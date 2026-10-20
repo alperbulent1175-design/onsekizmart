@@ -618,6 +618,28 @@
     return details;
   }
 
+  function claimConflictEvidence(place) {
+    var source = place && place.claimReview;
+    var url = source && Model && Model.safeUrl ? Model.safeUrl(source.url) : "";
+    if (!source || source.status !== "kaynak_celiskisi_tespit_edildi" || !/^https?:\/\//.test(url)) return null;
+    if (![source.evidenceText, source.date, source.limit, source.label].every(function (value) {
+      return typeof value === "string" && !!value.trim();
+    })) return null;
+    var details = document.createElement("details");
+    details.className = "panel-evidence";
+    details.appendChild(textEl("summary", "Anlatıdaki kaynak çelişkisi"));
+    details.appendChild(textEl("p", "İnceleme: " + source.date + ". Kaynak çelişkisi tespit edildi; özgün belge karşılaştırması açık."));
+    var quote = textEl("blockquote", source.evidenceText);
+    quote.lang = "tr";
+    details.appendChild(quote);
+    details.appendChild(textEl("p", source.limit));
+    var link = textEl("a", source.label);
+    link.href = url;
+    details.appendChild(link);
+    details.addEventListener("toggle", function () { if (details.open) stopPlay(); });
+    return details;
+  }
+
   function fillPanel(spec) {
     var panel = document.getElementById("panel");
     var title = document.getElementById("panel-title");
@@ -663,6 +685,8 @@
       }
     }
     var evidence = narrativeEvidence(coordinatePlace);
+    var conflict = claimConflictEvidence(coordinatePlace);
+    if (conflict) body.appendChild(conflict);
     if (evidence) {
       body.appendChild(textEl("p", "Anlatı kaynağı: Aşağıdaki belge kanıtı yalnız belirtilen pasajı destekler. Kartın tamamını, kesin saatleri veya harita koordinatını doğrulamaz."));
     } else if (spec.source) {

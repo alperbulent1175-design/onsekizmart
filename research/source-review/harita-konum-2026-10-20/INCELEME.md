@@ -6,7 +6,7 @@
 
 - Irresistible: önceki incelemede kaynaklanan derece/ondalıklı dakika dönüşümü korundu. Yayımlanmış enkaz noktasıdır; mayın isabeti, tahliye ve WGS84 datum doğrulaması değildir.
 - Conkbayırı: Alan Başkanlığının Atatürk Zafer Anıtı sayfasındaki `Ziyaret Noktasına Git` bağlantısı `destination=40.250658, 26.308544` içeriyor. Önceki `[40.2417,26.304]` yerine bu nokta kullanıldı. Değişim yaklaşık 1068 m. Kart günümüzdeki anıt çevresini temsil ettiğini açıkça belirtir; 1915 siperinin koordinatı olarak sunulmaz.
-- Kıyı incelemesi devamında Kilitbahir, Rumeli Mecidiye ve Seddülbahir için üç kurumsal ziyaret noktası daha eşleştirildi. Sayısal kaynak dayanağı bulunan nokta sayısı 5 oldu; 26 noktanın kaynak paketi hâlâ tamamlanmadı. Bu sonuç diğer noktaların tümünün yanlış olduğunu göstermez.
+- Kıyı incelemesi devamında Kilitbahir, Rumeli Mecidiye, Seddülbahir, Namazgâh ve Rumeli Hamidiye için kurumsal ziyaret noktaları eşleştirildi. Sayısal kaynak dayanağı bulunan nokta sayısı 7 oldu; 24 noktanın kaynak paketi hâlâ tamamlanmadı. Bu sonuç diğer noktaların tümünün yanlış olduğunu göstermez.
 - Nusret ve 10 enlemesine mayın çizgisi: sayısal geometri doğrulanmadı. Çizgiler taşınmadı; köşe noktaları mayın konumu olarak sunulmadı. Çizim numaraları tarihî hat numarası olarak doğrulanmış değildir.
 - Nusret mevcut şemasının hesaplanan uzunluğu yaklaşık 5698 m. Bu yalnız mevcut yazılım geometrisinin uzunluğudur; tarihî mayın döküm uzunluğu değildir. Önceki 100–150 m aralık ifadesinin dayanağı bulunmadığından kaldırıldı. Önceki genel birkaç yüz metrelik sapma sınırı da ölçülmüş bir hata payı olmadığından kaldırıldı.
 - Mayın grubu kartındaki kaynaklandırılmamış `11 hat + Erenköy` ve personel sayısı ifadeleri kaldırıldı. Yerlerine sayısal doğrulamanın tamamlanmadığı açıklandı; yeni bir toplam üretilmedi.
@@ -45,4 +45,12 @@ Fransız Mezarlığı ziyaret bağlantısındaki `[40.058054,26.210546]` Morto K
 
 Üç yeni sayfa tarayıcıda gerçek atlas bağlantılarıyla açıldı ve kaynak kartları okundu. Rumeli Mecidiye 390 piksel genişlikte Enter ile açıldı, kart başlığına odaklandı; yatay taşma yoktu. Görsel: `research/ux-audit/2026-10-20-coastal-coordinate-mobile.jpg`. 183 JavaScript ve zorunlu 18 Python testi geçti; `git diff --check` temiz.
 
-Commit, push veya yayın yapılmadı. 26 noktanın kaynak eşleştirmesi ile tarihli mayın krokisinin sayısal dönüşümü açık iştir; tamamlanmış gösterilmez.
+## Namazgâh ve Rumeli Hamidiye devam incelemesi
+
+[Namazgâh](https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/namazgah-tabyasi) sayfasındaki harita hedefi `[40.145371,26.379579]`; önceki noktaya göre yaklaşık 143 m farklıdır. [Rumeli Hamidiye](https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-hamidiye-tabyasi) hedefi `[40.142829,26.377707]`; önceki noktaya göre yaklaşık 369 m farklıdır. İki bağlantı da 20 Ekim 2026 tarihinde HTTP 200 ile okunan kurum sayfalarından alındı. Kaynak ve önceki/yeni noktalar `namazgah-hamidiye-karsilastirmasi.json` içindedir.
+
+Rumeli Hamidiye'nin eski atlas kartında gün boyu ateş edildiği yazıyordu. Kurum sayfası mekanizma hasarı nedeniyle ateş edilemediğini aktarır. Eski kesin cümle kaldırıldı; kurum aktarımı, kısa kanıt ve özgün rapor incelemesinin açık olduğu ayrı `claimReview` alanında kaydedildi. Konum kaynağı tarihsel ateş iddiasının kanıtı gibi kullanılmaz. Tabya kartının kalan sayı ve teçhizat ayrıntılarının statüsü yükseltilmedi. Harita hedefi, alanın ziyarete açık olduğunu göstermez.
+
+Yerel tarayıcıda Rumeli Hamidiye kartındaki çelişki bölümü açıldı; kaynak bağlantısı ve açık inceleme sınırları görüldü. 390 pikselde yatay taşma yoktu. Görsel: `research/ux-audit/2026-10-20-hamidiye-conflict-mobile.jpg`. 184 JavaScript ve 18 zorunlu Python testi: 202 test geçti.
+
+İlk harita sürümü `d2af876` commit'iyle GitHub'a gönderildi ve daha önce canlıya alındı. Namazgâh/Hamidiye devam değişiklikleri bu notun hazırlanması sırasında henüz yayımlanmadı. 24 noktanın kaynak eşleştirmesi ile tarihli mayın krokisinin sayısal dönüşümü açık iştir; tamamlanmış gösterilmez.

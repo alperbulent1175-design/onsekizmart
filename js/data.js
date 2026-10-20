@@ -89,8 +89,18 @@ window.OM = {
       id: "namazgah",
       type: "tabya",
       name: "Namazgâh Tabyası",
-      lat: 40.14605,
-      lng: 26.37815,
+      lat: 40.145371,
+      lng: 26.379579,
+      accuracy: "yaklasik",
+      uncertainty: "Alan Başkanlığının güncel Namazgâh Tabyası ziyaret noktasıyla eşleştirildi. Tabya alanını temsil eder; 1915 harekât merkezi veya top yerlerinin kesin koordinatı değildir.",
+      coordinateSource: {
+        url: "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/namazgah-tabyasi",
+        label: "Alan Başkanlığı · Namazgâh Tabyası",
+        evidenceText: "Ziyaret Noktasına Git: destination=40.145371, 26.379579",
+        date: "2026-10-20",
+        status: "kurumsal_ziyaret_noktasi_karsilastirildi",
+        datum: "belirtilmemis"
+      },
       meta: "Kilitbahir · 4. Ağır Topçu Alayı karargâhı",
       short: "Boğaz’ın en dar noktasına kurulan ilk ve en büyük tabya. 40–50 isabet aldı; bonetler dayandı.",
       hits: "40–50 isabet",
@@ -105,15 +115,33 @@ window.OM = {
       id: "rumeli-hamidiye",
       type: "tabya",
       name: "Rumeli Hamidiye Tabyası",
-      lat: 40.1449,
-      lng: 26.3811,
+      lat: 40.142829,
+      lng: 26.377707,
+      accuracy: "yaklasik",
+      uncertainty: "Alan Başkanlığının güncel Rumeli Hamidiye Tabyası harita hedefiyle eşleştirildi. Tabya alanını temsil eder; 1915 top platformlarının kesin koordinatı değildir. Ziyaret bağlantısı, alanın şu anda ziyarete açık olduğunu göstermez.",
+      coordinateSource: {
+        url: "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-hamidiye-tabyasi",
+        label: "Alan Başkanlığı · Rumeli Hamidiye Tabyası",
+        evidenceText: "Ziyaret Noktasına Git: destination=40.142829, 26.377707",
+        date: "2026-10-20",
+        status: "kurumsal_ziyaret_noktasi_karsilastirildi",
+        datum: "belirtilmemis"
+      },
+      claimReview: {
+        url: "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-hamidiye-tabyasi",
+        label: "Alan Başkanlığı · Rumeli Hamidiye Tabyası",
+        evidenceText: "döşeme raylarının kırılması ve nişan tertibatının hasar görmüş olması nedeniyle müttefik gemilerine hiç ateş edememiştir",
+        date: "2026-10-20",
+        status: "kaynak_celiskisi_tespit_edildi",
+        limit: "Bu kurum anlatısı, eski atlas kartındaki gün boyu ateş edildiği cümlesiyle çelişir. Özgün batarya ceridesi ve hasar raporu karşılaştırılmadı; kartın diğer sayı, isabet ve teçhizat ayrıntıları doğrulanmış sayılmaz."
+      },
       meta: "Namazgâh ile Mecidiye arası · 2×355 mm Krupp",
-      short: "Boğaz’ın en ağır namlularından ikisi. Toprak siperler hasar gördü; toplar ateşe devam etti.",
+      short: "Tabyanın ateş faaliyetine ilişkin eski atlas anlatısı, Alan Başkanlığının açıklamasıyla çelişiyor. Kaynak karşılaştırması sürüyor.",
       hits: "25–30 isabet",
       note: [
         "1896, II. Abdülhamit. Namazgâh ile Mecidiye arasında, 2 adet 355/35 mm uzun namlulu Krupp.",
         "Boğaz’daki beş 355 mm’lik topun ikisi buradaydı (ikisi Anadolu Hamidiye, biri Çimenlik).",
-        "Toprak siperler ve taret çevreleri hasar gördü ancak toplar gün boyunca atışa devam edebildi."
+        "Gün boyu ateşe devam edildiği şeklindeki eski ifade kesin bilgi olarak kaldırıldı. Alan Başkanlığı, mekanizma hasarı nedeniyle ateş edilemediğini aktarır; özgün batarya raporu karşılaştırması açıktır."
       ]
     },
     {

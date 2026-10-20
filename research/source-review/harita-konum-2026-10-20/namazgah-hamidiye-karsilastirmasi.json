@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-20",
+  "updates": [
+    {
+      "id": "namazgah",
+      "before": [
+        40.14605,
+        26.37815
+      ],
+      "after": [
+        40.145371,
+        26.379579
+      ],
+      "offsetMetres": 143.01621005334005,
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/namazgah-tabyasi",
+        "label": "Alan Başkanlığı · Namazgâh Tabyası",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.145371, 26.379579",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    },
+    {
+      "id": "rumeli-hamidiye",
+      "before": [
+        40.1449,
+        26.3811
+      ],
+      "after": [
+        40.142829,
+        26.377707
+      ],
+      "offsetMetres": 369.0662263030099,
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-hamidiye-tabyasi",
+        "label": "Alan Başkanlığı · Rumeli Hamidiye Tabyası",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.142829, 26.377707",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    }
+  ],
+  "claimConflict": {
+    "recordId": "rumeli-hamidiye",
+    "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-hamidiye-tabyasi",
+    "evidenceField": "js/data.js: places[rumeli-hamidiye].claimReview.evidenceText",
+    "status": "kaynak_celiskisi_tespit_edildi",
+    "decision": "Ateşe devam edildiği kesin cümlesi kaldırıldı; kurum aktarımı ile eski anlatı çelişkisi gösterilir. Özgün ceride görülmedi."
+  }
+}

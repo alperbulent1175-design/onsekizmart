@@ -104,7 +104,7 @@ test('panel kaynak açıklaması incelenmiş pasajı genel kurum kaydından ayı
       textEl: node, findPlace: () => ({}), narrativeEvidence: () => hasEvidence ? node('details') : null,
       Model: {}, localHref: value => value || '', closeTools() {} };
     vm.createContext(ctx);
-    const start = app.indexOf('  function fillPanel(');
+    const start = app.indexOf('  function claimConflictEvidence(');
     vm.runInContext(app.slice(start, app.indexOf('  function paintCurrent(', start)), ctx);
     ctx.fillPanel({ placeId: 'ocean', source: 'Kurum çerçevesi. Sayfa ve belge numarası yok.' });
     const text = body.children.map(child => child.textContent).join(' ');
@@ -124,7 +124,7 @@ test('enkaz konum kaynağı yayın kanıtını gösterir, saha ölçümü sayıl
     textEl: node, findPlace: () => place, narrativeEvidence: () => null,
     Model: context.Model, localHref: value => value || '', closeTools() {} };
   vm.createContext(ctx);
-  const start = app.indexOf('  function fillPanel(');
+  const start = app.indexOf('  function claimConflictEvidence(');
   vm.runInContext(app.slice(start, app.indexOf('  function paintCurrent(', start)), ctx);
   ctx.fillPanel({ placeId: 'irresistible', accuracy: place.uncertainty });
   const text = body.children.map(child => child.textContent).join(' ');
@@ -151,10 +151,26 @@ test('eksik koordinat kaydı karşılaştırıldı açıklaması üretmez', () =
     findPlace: () => ({ coordinateSource: { url: 'https://example.org/record', evidenceText: ' ', status: 'yayin_koordinati_karsilastirildi' } }),
     narrativeEvidence: () => null, Model: context.Model, localHref: value => value || '', closeTools() {} };
   vm.createContext(ctx);
-  const start = app.indexOf('  function fillPanel(');
+  const start = app.indexOf('  function claimConflictEvidence(');
   vm.runInContext(app.slice(start, app.indexOf('  function paintCurrent(', start)), ctx);
   ctx.fillPanel({ placeId: 'test' });
   const text = body.children.map(child => child.textContent).join(' ');
   assert.match(text, /konum doğrulaması tamamlanmadı/);
   assert.doesNotMatch(text, /karşılaştırıldı|undefined/);
+});
+
+test('kaynak çelişkisi özgün belge doğrulaması sayılmaz; açmak oynatmayı durdurur', () => {
+  const place = data.window.OM.places.find(p => p.id === 'rumeli-hamidiye');
+  const details = context.claimConflictEvidence(place);
+  assert.equal(details.children[0].textContent, 'Anlatıdaki kaynak çelişkisi');
+  assert.ok(details.children.some(n => /özgün belge karşılaştırması açık/.test(n.textContent)));
+  assert.equal(details.children.find(n => n.tag === 'blockquote').textContent, place.claimReview.evidenceText);
+  assert.equal(details.children.find(n => n.tag === 'a').href, place.claimReview.url);
+  stopped = 0; details.open = true; details.listeners.toggle(); assert.equal(stopped, 1);
+  details.open = false; details.listeners.toggle(); assert.equal(stopped, 1);
+  for (const field of ['url', 'evidenceText', 'date', 'label', 'limit']) {
+    assert.equal(context.claimConflictEvidence({ claimReview: { ...place.claimReview, [field]: '' } }), null);
+  }
+  assert.equal(context.claimConflictEvidence({ claimReview: { ...place.claimReview, url: 'javascript:alert(1)' } }), null);
+  assert.equal(context.claimConflictEvidence({ claimReview: { ...place.claimReview, status: 'iddia_dogrulandi' } }), null);
 });
