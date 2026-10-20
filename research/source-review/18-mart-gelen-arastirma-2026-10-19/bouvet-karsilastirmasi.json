@@ -1,0 +1,165 @@
+{
+  "topic": "Bouvet: saat, süre ve kurtulan kategorilerinin karşılaştırılması",
+  "review_date": "2026-10-19",
+  "policy": "Sayfa görüntüsü okunması, kaynağın her iddiasının tarihsel olarak kesinleşmesi anlamına gelmez. Sayılar ortalanmadı veya kesin aralığa çevrilmedi.",
+  "catalog_schema_changed": false,
+  "atlas_clocks_changed": false,
+  "atlas_coordinates_changed": false,
+  "definitive_casualty_total_assigned": false,
+  "sources": [
+    {
+      "id": "awm-daktilo-45",
+      "title": "Report of Adml. de Robeck on operations of 18/3/15 — AWM kurum daktilo kopyası",
+      "source_kind": "Kurum arşivinde rapor kopyası",
+      "record": "AWM38 3DRL 606/267/1; RCDIG1066703; Charles E W Bean Diaries",
+      "source_url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+      "image_url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43822-rcdig1066703-page63.jpg",
+      "page_mapping": {
+        "document_page": 45,
+        "image_file_page": 63
+      },
+      "document_event_date": "1915-03-18",
+      "copy_production_date": null,
+      "review_date": "2026-10-19",
+      "status": "ilgili_sayfa_goruntuden_okundu",
+      "evidence_text": [
+        "1.54 p.m.",
+        "sank within two minutes of first explosion",
+        "only 66 survivors were picked up."
+      ],
+      "category": "Raporun kurtarma bildirimi; patlama kaydı ve göreli batış süresi.",
+      "limits": [
+        "Daktilo kopyası imzalı özgün belge değildir.",
+        "Awaiting approval çevrimyazının iş akışı durumudur; tarihsel belgenin taslak olduğunu kanıtlamaz.",
+        "Corbett kitabının daktilo edisyonu olduğu doğrulanmadı.",
+        "Naval-History.net rapor aktarımıyla aynı temel rapor olabilir; bağımsız tanıklık sayılmaz.",
+        "66 sayısı nihai ad listesiyle uzlaştırılmadı."
+      ],
+      "raw_file": "ham/awm-page63-bouvet.jpg",
+      "local_checksums": {
+        "ham/awm-page63-bouvet.jpg": "3c5871db06e706fd45538f6a82086d7839a7695c25ace9b474311be192d78839"
+      }
+    },
+    {
+      "id": "corbett-218-219",
+      "title": "Naval Operations, Volume II, Chapter XIII",
+      "author": "Sir Julian S. Corbett",
+      "source_kind": "Yayımlanmış resmî harp tarihi, kitap taraması",
+      "source_url": "https://archive.org/details/navaloperations00newbgoog",
+      "page_mapping": {
+        "printed_pages": [
+          218,
+          219
+        ],
+        "scan_leaves": [
+          252,
+          253
+        ]
+      },
+      "image_urls": [
+        "https://archive.org/download/navaloperations00newbgoog/page/n252.jpg",
+        "https://archive.org/download/navaloperations00newbgoog/page/n253.jpg"
+      ],
+      "review_date": "2026-10-19",
+      "status": "ilgili_sayfalar_goruntuden_okundu",
+      "evidence_text": [
+        "little more than a score could be saved. As many more had been",
+        "left at Tenedos in charge of her boats"
+      ],
+      "category": "Denizden kurtarılanlar ile olay sırasında Tenedos’ta bulunanlar ayrı gruplar.",
+      "limits": [
+        "Yaklaşık ifade yeni bir kesin toplam veya aralık üretmez.",
+        "Basılı s. 218 anlatısındaki yaklaşık saat, 13:58 dakika kaydını doğrulamaz.",
+        "100–110 saniye metinde yazmaz.",
+        "Resmî harp tarihi, özgün personel cetveli değildir."
+      ],
+      "raw_files": [
+        "ham/corbett-leaf-252.jpg",
+        "ham/corbett-leaf-253.jpg"
+      ],
+      "local_checksums": {
+        "ham/corbett-leaf-252.jpg": "023091c63645a0b89a48030d7841aacb5b4080244384b1a767e1670a47724bd5",
+        "ham/corbett-leaf-253.jpg": "a1ab2d39af157bd9583fa084c2d340212000e6fa77cd66f3a37c85f025d4cc63"
+      }
+    },
+    {
+      "id": "excelsior-19150321",
+      "title": "La bataille navale des Dardanelles",
+      "publication": "Excelsior, 21 mars 1915, no. 1587",
+      "source_kind": "Dönem gazetesi; Marine Bakanlığı açıklamasının yayımlanmış aktarımı",
+      "source_url": "https://argonnaute.parisnanterre.fr/media/7bc538a8-f2e6-4a0b-a0d7-0495860204a9.pdf#page=5",
+      "publication_date": "1915-03-21",
+      "page_mapping": {
+        "printed_page": 5,
+        "physical_pdf_page": 5
+      },
+      "review_date": "2026-10-19",
+      "status": "ilgili_pdf_sayfasi_goruntuden_okundu",
+      "evidence_text": "Le nombre actuellement connu des survivants de ce cuirassé est de 64.",
+      "translation_tr": "Bu zırhlının şu anda bilinen kurtulan sayısı 64’tür.",
+      "category": "Yayım sırasında bilinen, geçici kurtulan bildirimi.",
+      "limits": [
+        "Bakanlığın asıl yazısı veya kesinleşmiş personel cetveli incelenmedi.",
+        "Gazetedeki geçici sayı nihai toplam veya denizden kurtarılanların eksiksiz sayısı sayılmaz.",
+        "Aynı sayfadaki diğer saat ve batış anlatıları bu kayıtla doğrulanmış olmadı."
+      ],
+      "raw_pdf": "../18-mart-gazette-2026-10-19/ham/excelsior-1915-03-21.pdf",
+      "raw_image": "../18-mart-gazette-2026-10-19/ham/excelsior-1915-03-21-page.png",
+      "local_checksums": {
+        "../18-mart-gazette-2026-10-19/ham/excelsior-1915-03-21.pdf": "73edc85cea77c17c3894fe4a2aafa5fe3d1e3212c8f40507644a7f5ad17b2d94",
+        "../18-mart-gazette-2026-10-19/ham/excelsior-1915-03-21-page.png": "8e802ec694b7b856eb0cd502f3ab27f0c33abac861eb230d04fb3843fbb75ce5"
+      }
+    },
+    {
+      "id": "cesm-2013",
+      "title": "L’histoire d’une révolution : La Marine depuis 1870",
+      "publication": "Études marines, no. 4, mars 2013",
+      "institution": "Centre d’études supérieures de la Marine",
+      "editor": "Sous la direction de Philippe Vial",
+      "source_kind": "2013 tarihli kurum yayını; fotoğraf açıklaması",
+      "source_url": "https://www.irsem.fr/storage/file_manager_files/2025/03/em4-histoire-revolution.pdf#page=51",
+      "publication_date": "2013-03",
+      "page_mapping": {
+        "printed_page": 49,
+        "physical_pdf_page": 51
+      },
+      "review_date": "2026-10-19",
+      "status": "ilgili_pdf_sayfasi_goruntuden_okundu",
+      "evidence_text": "56 survivants sur 721 hommes à bord.",
+      "translation_tr": "Gemide bulunan 721 kişiden 56 kurtulan.",
+      "category": "Sonraki kurum yayınındaki fotoğraf açıklaması; personel ve kurtulan sayısı atfı.",
+      "limits": [
+        "1915 tarihli zayiat raporu veya personel cetveli değildir.",
+        "Bu sayfada sayının dayandığı özgün personel cetveli gösterilmiyor.",
+        "56/721 atlasın kesin personel alanlarına aktarılmadı."
+      ],
+      "raw_pdf": "../18-mart-gazette-2026-10-19/ham/cesm-bouvet-2013.pdf",
+      "raw_image": "../18-mart-gazette-2026-10-19/ham/cesm-bouvet-2013-page.png",
+      "local_checksums": {
+        "../18-mart-gazette-2026-10-19/ham/cesm-bouvet-2013.pdf": "7ab70b4980135a67b8f58f78bc0315f8fe88c95e555a69adeb00e079da055305",
+        "../18-mart-gazette-2026-10-19/ham/cesm-bouvet-2013-page.png": "a6952a4a075a340eff98bb50c816fcc71a09a7ea0e22495350cf5b023d531bed"
+      }
+    },
+    {
+      "id": "marine-2023-lead",
+      "title": "Commémoration de la bataille des Dardanelles",
+      "source_kind": "Modern kurum anma yazısı; yalnız arama dizini ipucu",
+      "source_url": "https://www.defense.gouv.fr/marine/actualites/commemoration-bataille-dardanelles",
+      "publication_date": "2023-01-19",
+      "review_date": "2026-10-19",
+      "status": "dogrudan_erisim_zaman_asimi",
+      "evidence_text": null,
+      "search_index_lead": "Arama dizininde 643 ölü / 47 kurtulan ifadesi görünüyor.",
+      "category": "Araştırma ipucu; okunmuş belge sayılmadı.",
+      "limits": [
+        "Doğrudan web ve ağ erişimi zaman aşımına uğradı.",
+        "643/47 sayıları doğrulanmış değer olarak eklenmedi."
+      ]
+    }
+  ],
+  "remaining_questions": [
+    "Nihai isim listeleri ile gemide bulunan, önceden karada olan ve denizden kurtarılan personelin uzlaştırılması.",
+    "Fransız resmî personel ve zayiat cetvellerinin özgün görüntüleri.",
+    "Farklı belgelerde kullanılan saat sistemlerinin karşılaştırılması."
+  ]
+}

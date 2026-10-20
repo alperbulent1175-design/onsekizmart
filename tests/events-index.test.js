@@ -9,7 +9,8 @@ function setup(url = 'https://example.invalid/olaylar/') {
   function el(text = '') {
     return { textContent: text, hidden: false, value: '', listeners: {},
       addEventListener(key, fn) { this.listeners[key] = fn; },
-      focus() { this.focused = true; }
+      focus(options) { this.focused = true; this.focusOptions = options; },
+      scrollIntoView(options) { this.scrolled = options; }
     };
   }
   ['events-tools', 'events-results', 'events-query', 'events-category', 'events-count', 'events-clear'].forEach(id => { elements[id] = el(); });
@@ -160,4 +161,60 @@ test('olay ayrıntı bağlantısı arama ve bölümü liste dönüşüne taşır
   assert.equal(back.searchParams.get('bolum'), 'kara'); assert.equal(back.hash, '#events-tools');
   e['events-clear'].listeners.click();
   assert.equal(new URL(rows[0].link.href, 'https://example.invalid').searchParams.get('listeyeDon'), '/olaylar/#events-tools');
+});
+
+test('canlı olay araması ve bölüm değişimi odağı ya da okuma konumunu taşımaz', () => {
+  const { elements: e, rows } = setup();
+  e['events-query'].focus();
+  e['events-query'].value = 'Arıburnu'; e['events-query'].listeners.input();
+  e['events-category'].value = 'kara'; e['events-category'].listeners.change();
+  assert.deepEqual(rows.map(row => row.hidden), [false, true, true]);
+  for (const target of [e['events-results'], e['events-count']]) {
+    assert.equal(target.focused, undefined);
+    assert.equal(target.scrolled, undefined);
+  }
+  assert.equal(e['events-query'].focused, true);
+});
+
+test('form gönderimi güncel arama sonucuna gider ve sorgu, dönüş ile geçmiş bağlamını korur', () => {
+  const { elements: e, rows, window: w, writes } = setup('https://example.invalid/olaylar/?ref=koru#events-tools');
+  e['events-query'].value = 'Arıburnu';
+  e['events-category'].value = 'kara';
+  let prevented = 0;
+  e['events-tools'].listeners.submit({ preventDefault() { prevented++; } });
+  assert.equal(prevented, 1);
+  assert.deepEqual(rows.map(row => row.hidden), [false, true, true]);
+  assert.equal(e['events-results'].focused, true);
+  assert.equal(e['events-results'].focusOptions.preventScroll, true);
+  assert.equal(e['events-results'].scrolled.block, 'start');
+  assert.equal(e['events-count'].focused, undefined);
+  assert.equal(w.location.searchParams.get('q'), 'Arıburnu');
+  assert.equal(w.location.searchParams.get('bolum'), 'kara');
+  assert.equal(w.location.searchParams.get('ref'), 'koru');
+  assert.equal(w.location.hash, '#events-tools');
+  assert.equal(w.history.state.retained, true);
+  const beforeRepeat = writes();
+  e['events-tools'].listeners.submit({ preventDefault() { prevented++; } });
+  assert.equal(writes(), beforeRepeat);
+  const destination = new URL(rows[0].link.href, w.location.href);
+  const back = new URL(destination.searchParams.get('listeyeDon'), w.location.href);
+  assert.equal(back.searchParams.get('q'), 'Arıburnu');
+  assert.equal(back.searchParams.get('bolum'), 'kara');
+  assert.equal(back.hash, '#events-tools');
+});
+
+test('boş sonuç gönderimi açıklamaya odaklanır; temizleme yeniden arama alanını açar', () => {
+  const { elements: e, rows } = setup();
+  e['events-query'].value = 'yazılım testi eşleşmeyen sorgu';
+  e['events-tools'].listeners.submit({ preventDefault() {} });
+  assert.ok(rows.every(row => row.hidden));
+  assert.equal(e['events-results'].focused, undefined);
+  assert.equal(e['events-count'].focused, true);
+  assert.equal(e['events-count'].focusOptions.preventScroll, true);
+  assert.equal(e['events-count'].scrolled.block, 'start');
+  assert.match(e['events-count'].textContent, /Eşleşen olay bulunamadı/);
+  e['events-clear'].listeners.click();
+  assert.ok(rows.every(row => !row.hidden));
+  assert.equal(e['events-query'].focused, true);
+  assert.equal(e['events-query'].value, '');
 });

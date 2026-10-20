@@ -20,7 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-  <link rel="stylesheet" href="css/style.css?v=20261019f">
+  <link rel="stylesheet" href="css/style.css?v=20261020e">
   <noscript><style>
     body.home .map-help-row, body.home .tool-row, body.home .atlas-grid,
     body.home #secilmis, body.home #camp-filters, body.home #kron-filters,
@@ -134,13 +134,19 @@
         <button class="btn" id="q-more" type="button" aria-controls="q-results" hidden>Daha fazla sonuç göster</button>
       </div>
       <div class="dock-filters" id="filter-pop">
-        <p class="dock-label" id="side-label">Taraf</p>
-        <div class="tl-controls" id="naval-side" role="group" aria-labelledby="side-label">
+        <p class="dock-label" id="side-label">Olayın tarafı</p>
+        <div class="tl-controls" id="naval-side" role="group" aria-labelledby="side-label" aria-describedby="side-filter-help">
           <button type="button" id="tl-both" aria-pressed="true">İki taraf</button>
           <button type="button" id="tl-turk" aria-pressed="false">Osmanlı</button>
           <button type="button" id="tl-itilaf" aria-pressed="false">İtilaf</button>
         </div>
-        <button type="button" id="filter-clear">Süzgeci temizle</button>
+        <p class="filter-help" id="side-filter-help">Ortak olaylar iki seçimde de görünür. İşaretler olay yeridir; karşı tarafın tabyası da olabilir.</p>
+        <button type="button" id="filter-clear" aria-describedby="filter-clear-help">Süzgeci temizle</button>
+        <details class="filter-help">
+          <summary>Süzgecin kapsamı</summary>
+          <p id="filter-clear-help">Temizle, taraf ve deniz/kara seçimini sıfırlar. Arama ve katmanlar ayrı yönetilir. Hatlar coğrafi bağlam için korunur.</p>
+        </details>
+        <p class="filter-status" id="side-filter-status" role="status" aria-atomic="true"></p>
       </div>
       <div class="dock-layers">
         <p class="dock-label" id="layer-label">Katmanlar</p>
@@ -226,8 +232,8 @@
     <p><a href="/olaylar/">Olay listesini aç</a></p>
   </div></noscript>
   <aside class="verification-notice" aria-label="Kronoloji kaynak durumu">
-    <strong>Belge doğrulaması tamamlanmadı</strong>
-    <p>Kronolojideki saatler, sayılar ve anlatı ayrıntıları tek tek belge kanıtıyla doğrulanmış sayılmaz. Kurum bağlantısı tek başına iddia kanıtı değildir. <a href="/kaynak-politikasi/">Kaynak politikası</a></p>
+    <strong>Kaynak incelemesi sürüyor</strong>
+    <p>Olay sayfalarında incelenen kaynaklar, kanıt alıntıları ve açık kalan sorular gösterilir. Kronolojideki tüm saat, sayı ve konumların belgeyle eşleştirilmesi henüz tamamlanmadı. Kurum bağlantısı tek başına iddia kanıtı değildir. <a href="/kaynak-politikasi/">Kaynak politikası</a></p>
   </aside>
   <div class="prose">
     <p>Satıra basınca harita o mevkiye gider. 18 Mart satırı o günün kayıtlarını açar. Listede olmayan bir gün için olay üretilmez. Aralık notu, ayrı bir muharebe sayfası değildir. Taraf ile deniz veya kara birlikte seçilir. Tümü ve Temizle süzgeci sıfırlar. Adı olan olaylar <a href="/olaylar/">Olaylar</a> sayfasındadır.</p>
@@ -299,9 +305,9 @@
 </footer>
 
 <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script defer src="js/data.js?v=20261019h"></script>
+<script defer src="js/data.js?v=20261019i"></script>
 <script defer src="js/campaign.js?v=20261018f"></script>
 <script defer src="js/model.js?v=20261017b"></script>
-<script defer src="js/app.js?v=20261019ae"></script>
+<script defer src="js/app.js?v=20261020h"></script>
 </body>
 </html>

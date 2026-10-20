@@ -218,11 +218,22 @@ window.OM = {
       lat: 40.01917,
       lng: 26.27167,
       uncertainty: "Bu işaret için incelenmiş sayısal enkaz koordinatı dayanağı tamamlanmadı. Yaklaşık gösterimdir; kesin batış veya enkaz noktası sayılmaz.",
+      narrativeSource: {
+        url: "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+        imageUrl: "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43822-rcdig1066703-page63.jpg",
+        label: "AWM RCDIG1066703 · daktilo sayfası 45",
+        evidenceText: "only 66 survivors were picked up.",
+        translation: "Yalnızca 66 kişi kurtarıldı.",
+        context: "Bu, rapordaki kurtarma bildirimidir; kesinleşmiş kurtulan toplamı veya eksiksiz personel cetveli değildir. Farklı kaynaklardaki sayılar 18 Mart kaynak notunda ayrı değerlendirilir.",
+        date: "2026-10-19",
+        status: "daktilo_kopyasi_goruntuden_okundu",
+        limit: "İmzalı özgün rapor ve nihai personel listeleriyle karşılaştırma açık; kesin zayiat toplamı veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor."
+      },
       meta: "18 Mart 1915 · saat ve kayıp ayrıntıları incelemede",
-      short: "Bouvet’nin mayına çarpıp batışı AWM koleksiyon açıklamasında anlatılır. Kesin batış süresi ve zayiat sayısı doğrulanmadı.",
+      short: "Bouvet’nin batışı AWM’deki harekât raporunun daktilo kopyasında anlatılır. Kurtarma bildirimi, kesinleşmiş personel toplamı sayılmaz.",
       note: [
-        "AWM P04411.003 koleksiyon açıklamasında mayın isabeti için 13:54 verilir; özgün gemi raporuyla karşılaştırma açık.",
-        "Önceki 1 dakika 55 saniye, 639 kayıp ve 47 kurtulan ifadeleri bu kaynakla doğrulanmaz. İnceleme sınırları 18 Mart kaynak notundadır."
+        "19 Ekim 2026: AWM RCDIG1066703, daktilo sayfası 45 görüntüden okundu. Raporda 13:54 kaydı bulunur; özgün raporla karşılaştırma açık.",
+        "Denizden kurtarılanlar, önceden karada bulunan personel ve sonraki yayınların toplamları ayrı değerlendirilir. Kesin zayiat toplamı için personel listelerinin karşılaştırılması açık."
       ]
     },
     {
@@ -504,7 +515,7 @@ window.OM = {
     { t: "12:00", m: 720, side: "turk", place: "anadolu-hamidiye", title: "Ağır tabyalara ateş", text: "Fransızlar 9.000 m’ye sokulunca Cevat Bey Hamidiye, Mecidiye ve Namazgâh’a tam güçle ateş emri verir." },
     { t: "12:20", m: 740, side: "both", place: "anadolu-hamidiye", title: "Göğüs göğüse düello", text: "Hamidiye, Mecidiye, Dardanos ve Namazgâh tüm namlularla ateşler. Suffren 14 isabet alır; Gaulois su almaya başlar." },
     { t: "13:45", m: 825, side: "itilaf", place: null, title: "Saf değişimi", text: "Hasarlı Fransız hattı geri çekilir; Ocean, Irresistible, Albion, Vengeance, Swiftsure, Majestic ön safa geçecektir." },
-    { t: "13:54", m: 834, side: "both", place: "bouvet", title: "Bouvet mayına çarpar", text: "Bouvet mayına çarparak batar. AWM koleksiyon açıklaması 13:54 saatini verir; özgün raporla karşılaştırma açık. Kesin batış süresi ve zayiat sayıları doğrulanmadı." },
+    { t: "13:54", m: 834, side: "both", place: "bouvet", title: "Bouvet mayına çarpar", text: "Bouvet mayına çarparak batar. AWM’deki daktilo kopyasında 13:54 kaydı bulunur; özgün raporla karşılaştırma açık. Kurtarma bildirimi nihai zayiat toplamı sayılmaz; kaynaklar arasındaki sayı farkları 18 Mart kaynak notunda açıklanır." },
     { t: "14:14", m: 854, side: "itilaf", place: "inflexible", title: "Inflexible mayınlanır", text: "Inflexible ağır hasar alarak Boğaz’dan çıkar. Bu kayıttaki 14:14 saati belgeyle doğrulanmadı; bildirim saatiyle karşılaştırma ve zayiat incelemesi açık. Ayrıntı 18 Mart kaynak notundadır." },
     { t: "14:35", m: 875, side: "itilaf", place: "tavsan", title: "Gaulois karaya oturtulur", text: "Karaya oturma anlatısı rapor çevrimyazısında bulunur. Kesin saat, hasar ayrıntıları ve Drepano–Tavşan eşleştirmesi belgeyle doğrulanmadı." },
     { t: "14:45", m: 885, side: "turk", place: "mecidiye", title: "Cevat Bey sahaya iner", text: "Mecidiye irtibatı kesilince at sırtında Mecidiye ve Namazgâh’a gider. Selahattin Adil karargâhı ayakta tutar." },

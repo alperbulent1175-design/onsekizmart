@@ -416,11 +416,27 @@
   function closeTools() {
     var root = document.body;
     if (!root || !root.classList) return;
+    var returnTo = null;
+    if (document.activeElement && window.matchMedia && window.matchMedia("(max-width: 1099px)").matches) {
+      [
+        ["is-search-open", "search-pop", "tool-search"],
+        ["is-filter-open", "filter-pop", "tool-filter"],
+        ["is-layer-open", "layers", "tool-layers"]
+      ].forEach(function (tool) {
+        var content = document.getElementById(tool[1]);
+        if (root.classList.contains(tool[0]) && content && content.contains(document.activeElement)) {
+          returnTo = document.getElementById(tool[2]);
+        }
+      });
+    }
     root.classList.remove("is-search-open", "is-filter-open", "is-layer-open");
     ["tool-search", "tool-filter", "tool-layers"].forEach(function (id) {
       var btn = document.getElementById(id);
       if (btn) btn.setAttribute("aria-expanded", "false");
     });
+    if (returnTo && !returnTo.disabled && !returnTo.closest("[hidden], [inert]") && returnTo.getClientRects().length) {
+      returnTo.focus({ preventScroll: true });
+    }
   }
 
   function syncToolLayout(compact) {
@@ -596,20 +612,32 @@
       body.appendChild(textEl("p", spec.source));
     }
     if (evidence) body.appendChild(evidence);
-    var reviewLink = document.createElement("a");
-    reviewLink.href = localHref(spec.reviewHref) || "/inceleme-notlari/";
-    reviewLink.textContent = "Kanıt metinleri ve açık kalanlar";
+    function readingLink(href, label) {
+      var link = document.createElement("a");
+      link.href = href;
+      link.textContent = label;
+      var local = localHref(href);
+      var target = localHref(spec.shareHref);
+      if (local && target) {
+        try {
+          var destination = new URL(local, window.location.href);
+          var back = new URL(target, window.location.href);
+          if (destination.origin === window.location.origin && back.origin === window.location.origin) {
+            destination.searchParams.set("atlasaDon", target);
+            link.href = destination.pathname + destination.search + destination.hash;
+            link.addEventListener("click", function (event) {
+              if (!event.defaultPrevented) saveAtlasView(target);
+            });
+          }
+        } catch (error) { /* Keep the original link when return context cannot be added. */ }
+      }
+      return link;
+    }
+    var reviewLink = readingLink(localHref(spec.reviewHref) || "/inceleme-notlari/", "Kanıt metinleri ve açık kalanlar");
     body.appendChild(reviewLink);
     if (spec.href) {
-      var link = document.createElement("a");
+      var link = readingLink(spec.href, spec.hrefLabel || "Ayrıntı");
       link.className = "event-page-link";
-      link.href = spec.href;
-      if (localHref(spec.href) && localHref(spec.shareHref)) {
-        link.href = spec.href + (spec.href.indexOf("?") === -1 ? "?" : "&") +
-          "atlasaDon=" + encodeURIComponent(spec.shareHref);
-        link.addEventListener("click", function () { saveAtlasView(spec.shareHref); });
-      }
-      link.textContent = spec.hrefLabel || "Ayrıntı";
       body.appendChild(link);
     }
     if (localHref(spec.shareHref)) {
@@ -801,6 +829,16 @@
     if (!p) return;
     revealDock();
     trackMapSelect("yer");
+    var filtered = sideFilter !== "both" || (mode === "camp" && campDomain !== "all");
+    var relatedEvents = mode === "camp" ? campEvents() : D.events.filter(function (ev) {
+      return sideFilter === "both" || ev.side === sideFilter || ev.side === "both";
+    });
+    if (filtered && !relatedEvents.some(function (ev) { return ev.place === id; })) {
+      clearFilters();
+      openPlace(id, fly);
+      updateFilterStatus("Seçilen mevki süzgecin dışındaydı; tüm kayıtlar açıldı.");
+      return;
+    }
     if (mode === "naval") {
       var hit = null;
       D.events.forEach(function (ev) {
@@ -964,6 +1002,11 @@
   var qMore = document.getElementById("q-more");
   var qClear = document.getElementById("q-clear");
   var searchLimit = 8;
+  function beginSearchInteraction() {
+    panelRevision += 1;
+    stopPlay();
+  }
+  q.addEventListener("focus", beginSearchInteraction);
   function closeSearchResults() {
     qRes.hidden = true;
     if (qMore) qMore.hidden = true;
@@ -976,6 +1019,7 @@
       e.stopPropagation();
       closeSearchResults();
     } else if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      beginSearchInteraction();
       if (qRes.hidden) renderSearch();
       var hits = qRes.querySelectorAll("button");
       if (!hits.length) return;
@@ -996,6 +1040,7 @@
     var hits = Array.prototype.slice.call(qRes.querySelectorAll("button"));
     var index = hits.indexOf(e.target);
     if (index < 0) return;
+    beginSearchInteraction();
     e.preventDefault();
     var next = index + (e.key === "ArrowDown" ? 1 : -1);
     if (next < 0 || next >= hits.length) q.focus();
@@ -1081,6 +1126,7 @@
       : count ? count + " sonuç gösteriliyor." : "Sonuç bulunamadı. Başka bir mevki, gemi veya olay adı deneyin.";
   }
   if (qClear) qClear.addEventListener("click", function () {
+    beginSearchInteraction();
     q.value = "";
     searchLimit = 8;
     renderSearch();
@@ -1088,10 +1134,12 @@
     q.focus();
   });
   q.addEventListener("input", function () {
+    beginSearchInteraction();
     searchLimit = 8;
     renderSearch();
   });
   if (qMore) qMore.addEventListener("click", function () {
+    beginSearchInteraction();
     var firstNew = searchLimit;
     searchLimit += 8;
     renderSearch();
@@ -1110,12 +1158,57 @@
     return (h < 10 ? "0" : "") + h + ":" + (mm < 10 ? "0" : "") + mm;
   }
 
-  function eventsAt(m, side) {
+  function navalEvents(side) {
     return D.events.filter(function (ev) {
-      if (ev.m > m) return false;
       if (side === "both") return true;
       return ev.side === side || ev.side === "both";
     });
+  }
+
+  function eventsAt(m, side) {
+    return navalEvents(side).filter(function (ev) { return ev.m <= m; });
+  }
+
+  function updateEventMarkers() {
+    if (!map) return;
+    var filtered = sideFilter !== "both" || (mode === "camp" && campDomain !== "all");
+    var visible = {};
+    var list = mode === "camp" ? campEvents() : navalEvents(sideFilter);
+    list.forEach(function (ev) { if (ev.place) visible[ev.place] = true; });
+    allPlaces().forEach(function (place) {
+      var marker = markers[place.id];
+      var group = groups[place.type] || groups.tabya;
+      if (!marker || !group) return;
+      // These are event locations, not inferred allegiances of places.
+      if (!filtered || visible[place.id]) {
+        if (!group.hasLayer(marker)) group.addLayer(marker);
+      } else if (group.hasLayer(marker)) group.removeLayer(marker);
+    });
+  }
+
+  function updateFilterStatus(message) {
+    var status = document.getElementById("side-filter-status");
+    if (!status) return;
+    var list = mode === "camp" ? campEvents() : navalEvents(sideFilter);
+    var shared = list.filter(function (ev) { return ev.side === "both"; }).length;
+    var scope = mode === "camp" ? "Cephe kronolojisi" : "18 Mart";
+    var side = sideFilter === "both" ? "İki taraf" : sideLabel(sideFilter);
+    status.textContent = (message ? message + " " : "") + scope + " · " + side + ": " + list.length + " kayıt." +
+      (sideFilter !== "both" && shared ? " " + shared + " ortak kayıt bu seçime dahildir." : "");
+  }
+
+  function refreshNavalFilter() {
+    var m = Number(range.value);
+    var list = navalEvents(sideFilter);
+    var first = list[0];
+    if (!eventsAt(m, sideFilter).length && first) {
+      range.value = String(first.m);
+      showTime(first.m, false, first);
+      updateFilterStatus("Bu seçimdeki ilk kayıt açıldı.");
+    } else {
+      showTime(m, false, navalSelection);
+      updateFilterStatus();
+    }
   }
 
   function showTime(m, fly, selected) {
@@ -1195,15 +1288,24 @@
     fillFromCamp(ev, fly);
   }
 
+  function focusPlaybackMap() {
+    var target = document.getElementById("map");
+    if (target && !target.hasAttribute("tabindex")) target.setAttribute("tabindex", "-1");
+    if (!target) target = document.getElementById("tl-play");
+    if (target && target !== document.activeElement) target.focus({ preventScroll: true });
+  }
+
   function updateMapPlayback() {
     var strip = document.getElementById("map-playback");
     if (!strip) return;
+    var returnFocus = !playing && strip.contains(document.activeElement);
     strip.hidden = !playing;
     var time = document.getElementById("map-playback-time");
     var title = document.getElementById("map-playback-title");
     var selectedTitle = document.getElementById("panel-title");
     if (time) time.textContent = clock.textContent;
     if (title) title.textContent = selectedTitle ? selectedTitle.textContent : "";
+    if (returnFocus) focusPlaybackMap();
   }
 
   function stopPlay() {
@@ -1239,7 +1341,7 @@
       range.step = "1";
       range.value = String(navalMinute);
       range.setAttribute("aria-label", "18 Mart kayıtları arasında ilerle");
-      showTime(navalMinute, false, navalSelection);
+      refreshNavalFilter();
     } else {
       var list = campEvents();
       range.min = "0";
@@ -1251,6 +1353,8 @@
       range.setAttribute("aria-label", "Sefer olayı");
       showCamp(campIndex, false);
     }
+    updateEventMarkers();
+    updateFilterStatus();
   }
 
   range.addEventListener("input", function () {
@@ -1278,6 +1382,9 @@
   }
 
   function setSide(s) {
+    var filterOpen = document.body && document.body.classList.contains("is-filter-open");
+    var filterControl = document.activeElement;
+    panelRevision += 1;
     stopPlay();
     var changed = sideFilter !== s;
     sideFilter = s;
@@ -1292,11 +1399,26 @@
     paintCampChips();
     renderEvents();
     renderCampList();
-    if (mode === "naval") showTime(Number(range.value), false, navalSelection);
+    updateEventMarkers();
+    if (mode === "naval") refreshNavalFilter();
     else refreshCampRange();
+    if (mode === "camp") updateFilterStatus();
+    restoreFilterTool(filterOpen, filterControl);
+  }
+
+  function restoreFilterTool(open, control) {
+    if (!open || !document.body) return;
+    document.body.classList.add("is-filter-open");
+    var toggle = document.getElementById("tool-filter");
+    if (toggle) toggle.setAttribute("aria-expanded", "true");
+    var content = document.getElementById("filter-pop");
+    if (content && control && content.contains(control) && control.isConnected && !control.disabled && control.getClientRects().length) {
+      control.focus({ preventScroll: true });
+    }
   }
 
   function setDomain(d) {
+    panelRevision += 1;
     stopPlay();
     var changed = campDomain !== d;
     campDomain = d;
@@ -1304,6 +1426,8 @@
     paintCampChips();
     renderCampList();
     refreshCampRange();
+    updateEventMarkers();
+    updateFilterStatus();
   }
 
   function clearFilters() {
@@ -1311,6 +1435,7 @@
     campDomain = "all";
     if (domainChanged) trackFilter("all");
     setSide("both");
+    updateFilterStatus("Süzgeçler temizlendi; iki taraf ve tüm olay türleri gösteriliyor.");
   }
 
   function stepTime(dir, fromPlayback) {
@@ -1375,6 +1500,8 @@
     updateMapPlayback();
     if (!playing) return;
     scrollToMap();
+    var pause = document.getElementById("map-playback-pause");
+    if (pause) pause.focus({ preventScroll: true });
     trackPlay();
     startPlayTimer();
   });
@@ -1382,8 +1509,7 @@
   var mapPause = document.getElementById("map-playback-pause");
   if (mapPause) mapPause.addEventListener("click", function () {
     stopPlay();
-    var play = document.getElementById("tl-play");
-    if (play) play.focus();
+    focusPlaybackMap();
   });
 
   document.addEventListener("visibilitychange", function () {
@@ -1394,8 +1520,8 @@
   showTime(450, false);
 
   function scrollToMap() {
-    var stage = document.getElementById("harita");
-    if (stage) stage.scrollIntoView({ behavior: motionOn() ? "smooth" : "auto", block: "start" });
+    var target = document.getElementById("map") || document.getElementById("harita");
+    if (target) target.scrollIntoView({ behavior: motionOn() ? "smooth" : "auto", block: "start" });
   }
 
   function focusSelectedPanel(trigger) {
@@ -1465,6 +1591,8 @@
       paintCampChips();
       renderEvents();
       renderCampList();
+      updateEventMarkers();
+      updateFilterStatus();
     }
     var list = campEvents();
     var idx = list.indexOf(ev);
@@ -1941,6 +2069,8 @@
         var willOpen = !root.classList.contains(cls);
         closeTools();
         if (!willOpen) return;
+        panelRevision += 1;
+        stopPlay();
         root.classList.add(cls);
         btn.setAttribute("aria-expanded", "true");
         if (id === "tool-search") {
@@ -1969,6 +2099,7 @@
   renderEvents();
   renderCampList();
   showTime(Number(range.value) || 450, false);
+  updateFilterStatus();
   consumeDeepLink();
   setTimeout(function () { if (map) map.invalidateSize(); }, 200);
   var pinTouch = window.matchMedia("(max-width: 860px)").matches;

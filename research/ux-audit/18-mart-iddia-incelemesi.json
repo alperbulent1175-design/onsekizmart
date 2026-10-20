@@ -49,6 +49,24 @@
       "evidenceKind": "kanıt özeti ve mevcut alıntıya referans",
       "status": "kurum_metni_yeniden_okundu",
       "limits": "AWM açıklamasıyla aynı kesinlikte değildir. Kesin isabet saati, tahliye sayısı ve gece tespit ayrıntılarını belgelemez."
+    },
+    {
+      "id": "awm-bouvet-45",
+      "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+      "record": "AWM38 3DRL 606/267/1; RCDIG1066703; Charles E W Bean Diaries; daktilo s. 45, görüntü dosyası page63",
+      "date": "2026-10-19",
+      "evidence": "only 66 survivors were picked up.",
+      "evidenceKind": "Kurum daktilo kopyasından görüntüyle karşılaştırılmış özgün alıntı",
+      "status": "daktilo_kopyasi_goruntuden_okundu",
+      "limits": "Raporun kurtarma bildirimidir; kesinleşmiş kurtulan veya zayiat toplamı değildir. İmzalı özgün rapor ve nihai personel listeleriyle karşılaştırma açık; koordinat doğrulanmaz.",
+      "visualReview": {
+        "date": "2026-10-19",
+        "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43822-rcdig1066703-page63.jpg",
+        "pageLabel": "45",
+        "imageFileLabel": "page63",
+        "status": "ilgili_sayfa_goruntuden_okundu",
+        "limits": "Platform çevrimyazısının onay durumu tarihsel belgenin taslak olduğunu göstermez."
+      }
     }
   ],
   "records": [
@@ -252,11 +270,12 @@
       "existingText": "U dönüşünde Erenköy gizli hattına girer. 1 dk 55 sn’de alabora. 639 ölü, 47 kurtulan. Cevat Bey Nusret hattını teyit eder.",
       "timeVerification": "belge_karsilastirmasi_acik",
       "textVerification": "belge_karsilastirmasi_acik",
-      "reviewed": "2026-10-17",
+      "reviewed": "2026-10-19",
       "sourceRefs": [
-        "awm-bouvet-description"
+        "awm-bouvet-description",
+        "awm-bouvet-45"
       ],
-      "note": "13:54 kurum açıklamasında desteklenir; özgün raporla karşılaştırma açık. Kesin süre, zayiat ve Cevat Bey teyidi bu kaynakla doğrulanmadığından kısa metinden çıkarıldı."
+      "note": "AWM daktilo s.45 görüntüsündeki rapor kaydı incelendi; kurtarma bildirimi nihai personel toplamı sayılmadı. Kaynak türleri ve sayı farkları bouvet-karsilastirmasi.json ile olay sayfasında ayrı tutulur. Bağlantı ve saat anahtarı değiştirilmedi."
     },
     {
       "key": "naval-review-18",
@@ -520,5 +539,6 @@
       "Colne, Jed ve Chelmer, Ocean’dan yaklaşık 650 kişiyi birlikte tahliye eder.",
       "Bouvet, Inflexible, Irresistible ve Ocean bu hat üzerinde veya hemen yanında mayınlanır."
     ]
-  }
+  },
+  "latestEvidenceReview": "2026-10-19"
 }

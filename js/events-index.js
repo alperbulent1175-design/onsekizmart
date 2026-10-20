@@ -71,10 +71,12 @@
       });
     });
     count.textContent = visible ? visible + " olay gösteriliyor." : "Eşleşen olay bulunamadı. Aramayı veya bölümü değiştirin.";
+    return visible;
   }
   function applySelection() {
-    filter();
+    var visible = filter();
     updateLocation();
+    return visible;
   }
   var restoredHref = "";
   function revealSection(hash) {
@@ -107,6 +109,12 @@
     var url;
     try { url = new URL(link.getAttribute('href'), window.location.href); } catch (err) { return; }
     if (url.origin === window.location.origin && url.pathname === window.location.pathname && url.search === window.location.search) revealSection(url.hash);
+  });
+  tools.addEventListener("submit", function (event) {
+    event.preventDefault();
+    var target = applySelection() ? results : count;
+    target.focus({ preventScroll: true });
+    target.scrollIntoView({ block: "start" });
   });
   search.addEventListener("input", applySelection);
   category.addEventListener("change", applySelection);

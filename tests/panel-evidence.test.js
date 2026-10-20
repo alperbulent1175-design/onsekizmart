@@ -17,7 +17,7 @@ vm.runInContext(app.slice(app.indexOf('  function narrativeEvidence('), app.inde
 const data = { window: {} };
 vm.runInNewContext(fs.readFileSync(path.join(__dirname, '../js/data.js'), 'utf8'), data);
 test('belge kanıtı gerçek kayıtlarda görünür; sayısal konum kanıtına dönüştürülmez', () => {
-  for (const id of ['tavsan', 'irresistible', 'ocean', 'inflexible']) {
+  for (const id of ['tavsan', 'irresistible', 'ocean', 'inflexible', 'bouvet']) {
     const place = data.window.OM.places.find(p => p.id === id);
     const evidence = context.narrativeEvidence(place);
     assert.equal(evidence.tag, 'details');

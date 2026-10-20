@@ -43,20 +43,23 @@ test('oynatma adımı oynatmayı durdurmaz; kullanıcı adımı durdurur', () =>
 });
 
 test('Oynat düğmesinin gerçek zamanlayıcısı sonraki adımları oynatma olarak çağırır', () => {
-  let click, tick, scrolls = 0;
+  let click, tick, scrolls = 0, focused = 0;
   const calls = [];
   const button = { setAttribute() {} };
+  const pause = { focus(options) { assert.equal(options.preventScroll, true); focused++; } };
   const ctx = { playing: false, playTimer: null, updateMapPlayback() {}, trackPlay() {}, scrollToMap() { scrolls++; }, clearInterval() {},
     setInterval(fn) { tick = fn; return 1; }, stepTime: (...args) => calls.push(args),
-    document: { getElementById: id => id === "tl-play" ? { addEventListener(name, fn) { click = fn; } } : null } };
+    document: { getElementById: id => id === "tl-play" ? { addEventListener(name, fn) { click = fn; } } : id === 'map-playback-pause' ? pause : null } };
   vm.createContext(ctx);
   const start = source.indexOf('  var playbackSpeed = ');
   vm.runInContext(source.slice(start, source.indexOf('  var mapPause = ', start)), ctx);
   click.call(button); tick(); tick();
   assert.deepEqual(calls, [[1, true], [1, true]]);
   assert.equal(scrolls, 1);
+  assert.equal(focused, 1);
   click.call(button); assert.equal(scrolls, 1);
   assert.equal(ctx.playing, false);
+  assert.equal(focused, 1);
 });
 
 test('deniz süzgecinde önceki kayıt yoksa eski panel kapatılır', () => {
@@ -134,16 +137,18 @@ test('arama kaydı karşı taraf süzgecini açar ve tam seçilen kaydı göster
   ctx.focusNavalEvent({ m: 450, side: 'itilaf' }, true); assert.equal(stops, 2);
 });
 
-test('mevki seçimi süzgeç dışı olay yerine mevki kartını açar', () => {
-  let place, shown = false;
+test('süzgeç dışı mevki seçimi süzgeci açıklayarak temizler ve doğrudan mevki kartını açar', () => {
+  let place, shown = false, notice;
   const ctx = { mode: 'naval', sideFilter: 'turk', D: { events: [{ place: 'test', m: 450, side: 'itilaf' }] },
     stopPlay() {}, findPlace: () => ({}), revealDock() {}, trackMapSelect() {},
-    openPlace(id) { place = id; }, showTime() { shown = true; } };
+    openPlace(id) { place = id; }, showTime() { shown = true; },
+    clearFilters() { ctx.sideFilter = 'both'; }, updateFilterStatus(text) { notice = text; } };
   vm.createContext(ctx);
   const start = source.indexOf('  function selectPlace(');
   vm.runInContext(source.slice(start, source.indexOf('  function addMarker(', start)), ctx);
   ctx.selectPlace('test', true);
-  assert.equal(place, 'test'); assert.equal(shown, false); assert.equal(ctx.sideFilter, 'turk');
+  assert.equal(place, 'test'); assert.equal(shown, false); assert.equal(ctx.sideFilter, 'both');
+  assert.match(notice, /Seçilen mevki süzgecin dışındaydı/);
 });
 
 
@@ -215,7 +220,7 @@ test('kart kapanınca geçerli liste düğmesine döner, kaldırılan veya gizli
 
 
 test('harita oynatma şeridi mevcut olay ve zamanı gösterir, duraklatınca gizlenir', () => {
-  const nodes = { 'map-playback': {}, 'map-playback-time': {}, 'map-playback-title': {}, 'panel-title': { textContent: 'Seçilen olay' } };
+  const nodes = { 'map-playback': { contains: () => false }, 'map-playback-time': {}, 'map-playback-title': {}, 'panel-title': { textContent: 'Seçilen olay' } };
   const ctx = { playing: true, clock: { textContent: 'Seçilen zaman' }, document: { getElementById: id => nodes[id] } };
   vm.createContext(ctx);
   const start = source.indexOf('  function updateMapPlayback()');
@@ -228,13 +233,84 @@ test('harita oynatma şeridi mevcut olay ve zamanı gösterir, duraklatınca giz
 });
 
 
-test('haritadaki Duraklat düğmesi oynatmayı durdurup ana düğmeye odak verir', () => {
-  let click, stops = 0, focused = 0;
-  const ctx = { stopPlay() { stops++; }, document: { getElementById: id => id === 'map-playback-pause' ? { addEventListener(name, fn) { click = fn; } } : { focus() { focused++; } } } };
-  vm.createContext(ctx);
-  const start = source.indexOf('  var mapPause = ');
-  vm.runInContext(source.slice(start, source.indexOf('  document.addEventListener("visibilitychange"', start)), ctx);
-  click(); assert.equal(stops, 1); assert.equal(focused, 1);
+test('haritadaki Duraklat odağı kaydırmadan haritada tutar ve Leaflet tabindex değerini korur', () => {
+  for (const initialTabindex of [null, '0', '-1']) {
+    let click, stops = 0, focused = 0, writes = 0;
+    const attributes = initialTabindex === null ? {} : { tabindex: initialTabindex };
+    const host = { hasAttribute: name => Object.hasOwn(attributes, name),
+      setAttribute(name, value) { attributes[name] = value; writes++; },
+      focus(options) { focused++; assert.equal(options.preventScroll, true); } };
+    const nodes = { map: host, 'map-playback-pause': { addEventListener(name, fn) { click = fn; } },
+      'tl-play': { focus() { assert.fail('Harita varken odak zaman çubuğuna gitmemeli'); } } };
+    const ctx = { stopPlay() { stops++; }, document: { getElementById: id => nodes[id] } };
+    vm.createContext(ctx);
+    vm.runInContext(source.slice(source.indexOf('  function focusPlaybackMap()'), source.indexOf('  function updateMapPlayback()')), ctx);
+    const start = source.indexOf('  var mapPause = ');
+    vm.runInContext(source.slice(start, source.indexOf('  document.addEventListener("visibilitychange"', start)), ctx);
+    click(); assert.equal(stops, 1); assert.equal(focused, 1);
+    assert.equal(attributes.tabindex, initialTabindex === null ? '-1' : initialTabindex);
+    assert.equal(writes, initialTabindex === null ? 1 : 0);
+  }
+});
+
+test('harita öğesi yoksa Duraklat ana düğmeye kaydırmadan döner; odak hedefi yoksa hata vermez', () => {
+  for (const hasPlay of [true, false]) {
+    let click, stops = 0, focused = 0;
+    const nodes = { 'map-playback-pause': { addEventListener(name, fn) { click = fn; } } };
+    if (hasPlay) nodes['tl-play'] = { focus(options) { focused++; assert.equal(options.preventScroll, true); } };
+    const ctx = { stopPlay() { stops++; }, document: { getElementById: id => nodes[id] || null } };
+    vm.createContext(ctx);
+    vm.runInContext(source.slice(source.indexOf('  function focusPlaybackMap()'), source.indexOf('  function updateMapPlayback()')), ctx);
+    const start = source.indexOf('  var mapPause = ');
+    vm.runInContext(source.slice(start, source.indexOf('  document.addEventListener("visibilitychange"', start)), ctx);
+    assert.doesNotThrow(() => click());
+    assert.equal(stops, 1); assert.equal(focused, hasPlay ? 1 : 0);
+  }
+});
+
+test('haritaya kaydırma rehber yerine haritayı hedefler, bölüm yedeğini ve hareket tercihini korur', () => {
+  for (const motion of [true, false]) for (const available of ['map', 'stage', 'none']) {
+    const calls = [];
+    const nodes = { harita: { scrollIntoView(options) { calls.push(['stage', options]); } } };
+    if (available === 'map') nodes.map = { scrollIntoView(options) { calls.push(['map', options]); } };
+    if (available === 'none') delete nodes.harita;
+    const ctx = { document: { getElementById: id => nodes[id] || null }, motionOn: () => motion };
+    vm.createContext(ctx);
+    const start = source.indexOf('  function scrollToMap()');
+    vm.runInContext(source.slice(start, source.indexOf('  function focusSelectedPanel(', start)), ctx);
+    assert.doesNotThrow(() => ctx.scrollToMap());
+    assert.equal(calls.length, available === 'none' ? 0 : 1);
+    if (calls.length) {
+      assert.equal(calls[0][0], available);
+      assert.equal(calls[0][1].behavior, motion ? 'smooth' : 'auto');
+      assert.equal(calls[0][1].block, 'start');
+    }
+  }
+});
+
+test('Escape ile gizlenen oynatma düğmesindeki odak haritaya döner; dış odak taşınmaz', () => {
+  for (const ownsFocus of [true, false]) {
+    let keydown, focused = 0, closed = 0, cleared = 0;
+    const pause = {}, outside = {}, strip = { hidden: false, contains: target => target === pause };
+    const host = { hasAttribute: () => true, focus(options) {
+      assert.equal(options.preventScroll, true); focused++; document.activeElement = host;
+    } };
+    const nodes = { map: host, 'map-playback': strip, 'tl-play': { setAttribute() {} } };
+    const document = { activeElement: ownsFocus ? pause : outside,
+      body: { classList: { contains: () => false } }, getElementById: id => nodes[id] || null,
+      addEventListener(type, handler) { keydown = handler; } };
+    const ctx = { document, playing: true, playTimer: 17, clock: {}, clearInterval() { cleared++; },
+      closePanel() { closed++; }, closeTools() {} };
+    vm.createContext(ctx);
+    vm.runInContext(source.slice(source.indexOf('  function focusPlaybackMap()'), source.indexOf('  function setMode(')), ctx);
+    const start = source.indexOf('  document.addEventListener("keydown", function (e) {');
+    vm.runInContext(source.slice(start, source.indexOf('  var q = ', start)), ctx);
+    keydown({ key: 'Escape' });
+    assert.equal(ctx.playing, false); assert.equal(ctx.playTimer, null);
+    assert.equal(strip.hidden, true); assert.equal(cleared, 1); assert.equal(closed, 1);
+    assert.equal(focused, ownsFocus ? 1 : 0);
+    assert.equal(document.activeElement, ownsFocus ? host : outside);
+  }
 });
 
 
@@ -269,7 +345,7 @@ test('bekleme süresi değişimi tek zamanlayıcıyı yeniler, dururken başlatm
   const button = { setAttribute() {}, addEventListener(name, fn) { click = fn; } };
   const ctx = { playing: false, playTimer: null, updateMapPlayback() {}, scrollToMap() {}, trackPlay() {},
     clearInterval() { clears++; }, setInterval(fn, delay) { delays.push(delay); return delays.length; },
-    document: { getElementById: id => id === 'tl-speed' ? speed : button } };
+    document: { getElementById: id => id === 'tl-speed' ? speed : id === 'map-playback-pause' ? null : button } };
   vm.createContext(ctx);
   const start = source.indexOf('  var playbackSpeed = ');
   vm.runInContext(source.slice(start, source.indexOf('  var mapPause = ', start)), ctx);

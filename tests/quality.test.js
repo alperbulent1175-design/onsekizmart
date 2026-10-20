@@ -297,7 +297,7 @@ test("atlas araması boş sonucu bildirir, ok tuşları ve Escape ile odağı ko
   const q = el(), results = el(), status = el(), title = el(), more = el(), clear = el();
   const ctx = { document: { getElementById: id => ({ q, 'q-results': results, 'q-status': status, 'panel-title': title, 'q-more': more, 'q-clear': clear }[id]), createElement: el },
     foldTr: value => value.toLowerCase(), allPlaces: () => [{ id: 'a', name: 'Arıburnu' }],
-    D: { events: [] }, selectPlace() {}, revealDock() {}, mode: 'naval' };
+    D: { events: [] }, selectPlace() {}, revealDock() {}, mode: 'naval', panelRevision: 0, stopPlay() {} };
   vm.createContext(ctx);
   vm.runInContext(source.slice(source.indexOf('  var q = document.getElementById("q");'), source.indexOf('  var clock = document.getElementById("clock");')), ctx);
   function key(target, name, item) {
@@ -428,7 +428,7 @@ test('harita aramasında kapalı sonuçlar ok tuşuyla yeniden açılır; Escape
   let handler, focused = '', rendered = 0, closed = 0;
   const hits = [{ focus() { focused = 'first'; } }, { focus() { focused = 'last'; } }];
   const ctx = { q: { addEventListener(type, fn) { handler = fn; } }, qRes: { hidden: true, querySelectorAll: () => hits },
-    renderSearch() { rendered++; ctx.qRes.hidden = false; }, closeSearchResults() { closed++; ctx.qRes.hidden = true; } };
+    beginSearchInteraction() {}, renderSearch() { rendered++; ctx.qRes.hidden = false; }, closeSearchResults() { closed++; ctx.qRes.hidden = true; } };
   vm.createContext(ctx);
   const start = app.indexOf('  q.addEventListener("keydown"');
   vm.runInContext(app.slice(start, app.indexOf('  qRes.addEventListener("keydown"', start)), ctx);

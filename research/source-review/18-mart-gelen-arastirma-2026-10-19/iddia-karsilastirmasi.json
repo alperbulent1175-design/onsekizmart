@@ -1,0 +1,162 @@
+{
+  "topic": "18 Mart kullanıcı araştırması karşılaştırması",
+  "date": "2026-10-19",
+  "verification_policy": "Kullanıcının doğrulandı etiketi bağımsız doğrulama sayılmaz; iddia_dogrulandi statüsü atanmadı.",
+  "catalog_schema_changed": false,
+  "claims": [
+    {
+      "id": "inflexible-jurnal",
+      "user_claim": "Inflexible jurnali 16:00, 16:10, 16:25, 17:30 saatlerini doğrular.",
+      "status": "desteklenmedi",
+      "source_url": "https://www.naval-history.net/OWShips-WW1-02-HMS_Inflexible.htm",
+      "evidence_summary": "18 Mart aktarımı sayfayı boş diye tanımlar; 091_0 görüntüsündeki saatlik alanlar da boş.",
+      "review_date": "2026-10-19",
+      "limits": "Bu sayfa yalnız başlık ve yer içerir; bütün arşiv hakkında hüküm değildir."
+    },
+    {
+      "id": "inflexible-bildirim",
+      "user_claim": "16:10 bildirim ve 16:25 ayrılış.",
+      "status": "karsilastirma_farki",
+      "source_url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+      "evidence_summary": "Daktilo s. 45 görüntüsünde 16:11 bildirim ve çıkış kaydı okundu.",
+      "review_date": "2026-10-19",
+      "limits": "Görüntü okundu; kurum arşivindeki daktilo kopyası imzalı özgün rapor diye tanımlanmadı. Bildirim, isabet anı değildir.",
+      "source_image_url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43822-rcdig1066703-page63.jpg"
+    },
+    {
+      "id": "inflexible-demirleme",
+      "user_claim": "Corbett 17:30 demirlemeyi kesin verir.",
+      "status": "cikarim_kesinlestirilmedi",
+      "source_url": "https://archive.org/details/navaloperations00newbgoog",
+      "evidence_summary": "Basılı s.222 görüntüsü isabetten bir buçuk saatlik süreyi aktarır.",
+      "review_date": "2026-10-19",
+      "limits": "Bu göreli süre doğrudan 17:30 saat damgası değildir."
+    },
+    {
+      "id": "wear-tahliye",
+      "user_claim": "Wear tahliyesi 16:50–17:20 arasında gerçekleşti.",
+      "status": "kaynakla_uyusmuyor",
+      "source_url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+      "evidence_summary": "16:50 dönüş kaydı; 17:10 yeniden görev emri.",
+      "review_date": "2026-10-19",
+      "limits": "Dönüş ve tahliye başlangıcı ayrı aşamalardır. Corbett s.221 de ayrıca karşılaştırıldı."
+    },
+    {
+      "id": "ocean-yardim",
+      "user_claim": "17:50 Ocean yedekleme için yaklaştı.",
+      "status": "asama_yanlis_eslenmis",
+      "source_url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+      "evidence_summary": "17:50 kalanların Ocean’a alınması ve yedeklemenin uygulanamaz bulunması kaydı.",
+      "review_date": "2026-10-19",
+      "limits": "Yaklaşma başlangıcı bu kayıttan çıkarılmaz."
+    },
+    {
+      "id": "ocean-terk",
+      "user_claim": "Ocean 18:05 hasar, yaklaşık19:30 terk.",
+      "status": "rapor_aktariminda_destek_var",
+      "source_url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+      "evidence_summary": "18:05 mayın; yaklaşık19:30 son terk.",
+      "review_date": "2026-10-19",
+      "limits": "Batış saati değildir. Muhrip ekindeki19:15 gözlemi ve20:30–23:30 araması ayrı tutulur."
+    },
+    {
+      "id": "bouvet-saat",
+      "user_claim": "Bouvet13:58,100–110saniye,48–66 kurtulan.",
+      "status": "karma_iddia_desteklenmedi",
+      "source_url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+      "evidence_summary": "Daktilo s. 45 görüntüsü: 13:54 kenar kaydı, ilk patlamadan itibaren iki dakika içinde batış, 66 kişinin kurtarıldığı bildirimi.",
+      "review_date": "2026-10-19",
+      "limits": "48–55 sayıları için gönderilen özette belge bağlantısı yok. Fransız dönem gazetesindeki geçici 64 kaydı ve 2013 kurum yayınındaki 56/721 açıklaması ayrıca kaydedildi; farklı kategoriler bir aralığa dönüştürülmedi.",
+      "source_image_url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43822-rcdig1066703-page63.jpg",
+      "comparison_file": "bouvet-karsilastirmasi.json"
+    },
+    {
+      "id": "gaulois-ada",
+      "user_claim": "Drepano doğrudan Tavşan ile eşleşir; datum yoksa tarihi nirengi denebilir.",
+      "status": "kismi_toponim_destegi_konum_acik",
+      "source_url": "https://archive.org/details/navaloperations00newbgoog",
+      "evidence_summary": "s.223 Drapano’yu Rabbit grubunun güneyinde tanımlar.",
+      "review_date": "2026-10-19",
+      "limits": "Türkçe ada kimliği, sayısal koordinat ve datum ayrıca doğrulanmalı; tarihi nirengi etiketi kanıt yerine kullanılamaz."
+    },
+    {
+      "id": "awm-koken",
+      "user_claim": "AWM daktilo belgesi Corbett edisyonudur; onay beklemesi belgenin taslak olduğunu gösterir.",
+      "status": "koken_atfi_desteklenmedi",
+      "source_url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+      "evidence_summary": "Katalog Bean Diaries koleksiyonu; sayfalar de Robeck raporu aktarımı içerir.",
+      "review_date": "2026-10-19",
+      "limits": "Platform onay durumu çevrimyazıyla ilgilidir; belgenin taslaklığını göstermez."
+    },
+    {
+      "id": "osmanli-zayiat",
+      "user_claim": "26Türk+18Alman=44 kayıp/şehit ve yaralılar.",
+      "status": "dogrudan_belge_yok",
+      "source_url": null,
+      "evidence_summary": null,
+      "review_date": "2026-10-19",
+      "limits": "Belge, sayfa, kategori ve gerçek mevcut ayrımı yok; doğrulanmış sayı olarak işlenmedi."
+    },
+    {
+      "id": "nusret-26",
+      "user_claim": "26 mayınlık hat; dayanak olarak ATASE yayını anılıyor.",
+      "status": "corbett_ile_fark_var_atase_belgesi_eksik",
+      "source_url": "https://archive.org/details/navaloperations00newbgoog",
+      "evidence_summary": "s.223 Corbett20mayın ifadesini kullanır.",
+      "review_date": "2026-10-19",
+      "limits": "Bu farklılık26sayısını otomatik çürütmez; kaynakların tarih, hat ve kapsamı ayrıca eşleştirilmeli."
+    },
+    {
+      "id": "adm-katalog",
+      "user_claim": "ADM137 Ocean/Irresistible özgün jurnallerinin klasör numaralarını doğrular.",
+      "status": "katalog_kodu_tamamlanmadi",
+      "source_url": null,
+      "evidence_summary": null,
+      "review_date": "2026-10-19",
+      "limits": "Yalnız seri adı tekil dosya veya belgenin varlığına kanıt değildir. TNA gemi jurnali rehberi ADM53 yönlendirmesini araştırma izi olarak veriyor; tam sayfa403 erişim engeli nedeniyle bu tur okunamadı."
+    }
+  ],
+  "corbett_visual_pages": [
+    {
+      "printed_page": 218,
+      "scan_leaf": 252,
+      "image_url": "https://archive.org/download/navaloperations00newbgoog/page/n252.jpg",
+      "status": "goruntu_ek_incelemede_okundu"
+    },
+    {
+      "printed_page": 219,
+      "scan_leaf": 253,
+      "image_url": "https://archive.org/download/navaloperations00newbgoog/page/n253.jpg",
+      "status": "goruntu_ek_incelemede_okundu"
+    },
+    {
+      "printed_page": 220,
+      "scan_leaf": 254,
+      "image_url": "https://archive.org/download/navaloperations00newbgoog/page/n254.jpg",
+      "status": "goruntu_ek_incelemede_okundu"
+    },
+    {
+      "printed_page": 221,
+      "scan_leaf": 255,
+      "image_url": "https://archive.org/download/navaloperations00newbgoog/page/n255.jpg",
+      "status": "goruntu_ek_incelemede_okundu"
+    },
+    {
+      "printed_page": 222,
+      "scan_leaf": 256,
+      "image_url": "https://archive.org/download/navaloperations00newbgoog/page/n256.jpg",
+      "status": "goruntu_ek_incelemede_okundu"
+    },
+    {
+      "printed_page": 223,
+      "scan_leaf": 257,
+      "image_url": "https://archive.org/download/navaloperations00newbgoog/page/n257.jpg",
+      "status": "goruntu_ek_incelemede_okundu"
+    }
+  ],
+  "access_limits": [
+    "TNA resmî rehber ve katalog sayfası403; arama sonucu tam belge yerine kullanılmadı.",
+    "Corbett basılı kitap taraması ve resmî rapor aktarımları özgün imzalı gemi raporlarıyla aynı tür sayılmadı.",
+    "Saat, koordinat ve zayiat değerleri atlas verisinde değiştirilmedi."
+  ]
+}

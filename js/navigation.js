@@ -31,14 +31,6 @@
       link.href = listReturn;
       link.textContent = 'Arama sonuçlarına dön';
     });
-    document.querySelectorAll('.event-navigation a[rel="prev"], .event-navigation a[rel="next"]').forEach(function (link) {
-      try {
-        var url = new URL(link.href, window.location.href);
-        if (url.origin !== window.location.origin || !/^\/olaylar\/[^/]+\/$/.test(url.pathname)) return;
-        url.searchParams.set('listeyeDon', listReturn);
-        link.href = url.pathname + url.search + url.hash;
-      } catch (error) { /* Invalid editorial links must not interrupt navigation. */ }
-    });
   }
   var returnUrl = "";
   if (window.location && window.location.search && typeof URLSearchParams !== "undefined") {
@@ -48,6 +40,19 @@
     document.querySelectorAll(".event-map-action").forEach(function (link) {
       link.href = returnUrl;
       link.textContent = "Seçili kayda dön";
+    });
+  }
+  if (listReturn || returnUrl) {
+    document.querySelectorAll('.page-main a[href]').forEach(function (link) {
+      try {
+        var current = new URL(window.location.href);
+        var url = new URL(link.href, current.href);
+        if (url.origin !== current.origin || !/^\/olaylar\/[^/]+\/$/.test(url.pathname) ||
+            (url.pathname === current.pathname && url.search === current.search)) return;
+        if (listReturn) url.searchParams.set('listeyeDon', listReturn);
+        if (returnUrl) url.searchParams.set('atlasaDon', returnUrl);
+        link.href = url.pathname + url.search + url.hash;
+      } catch (error) { /* Invalid editorial links must not interrupt navigation. */ }
     });
   }
   var button = document.getElementById("nav-toggle");

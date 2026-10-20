@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261019d">
+  <link rel="stylesheet" href="/css/style.css?v=20261020d">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKGGXNVR7V"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -69,30 +69,33 @@
 <p class="kicker">Şubat 1915 – Ocak 1916</p>
 <h1>Olaylar</h1>
 <aside class="verification-notice" aria-label="Kaynak durumu">
-  <strong>Belge doğrulaması tamamlanmadı</strong>
-  <p>Bu sayfadaki ayrıntılar kurum çerçevesiyle sunulur; tek tek iddiaları belgeleyen kanıtlar tamamlanmış değildir. Kaynak notu sayfanın sonundadır. <a href="/kaynak-politikasi/">Kaynak politikası</a></p>
+  <strong>Kaynak incelemesi sürüyor</strong>
+  <p>Olay sayfalarında incelenen kaynaklar, kanıt alıntıları ve açık kalan sorular gösterilir. Bütün tarih, sayı, saat ve konumlar için belge eşleştirmesi henüz tamamlanmadı. <a href="/kaynak-politikasi/">Kaynakları nasıl değerlendiriyoruz?</a></p>
 </aside>
 <div class="prose"><p>Atlasın seçilmiş muharebe ve olay sayfaları. Kronolojideki boşluklar, o tarihlerde çatışma olmadığı anlamına gelmez. Kaynaklar ve inceleme sınırları ilgili olay sayfasındadır.</p></div>
-<div class="events-search" id="events-tools" tabindex="-1" hidden>
+<form class="events-search" id="events-tools" role="search" aria-label="Olaylarda ara" action="/olaylar/" method="get" tabindex="-1" hidden>
   <div>
     <label for="events-query">Olay veya tarih ara</label>
-    <input id="events-query" type="search" placeholder="Örn. Arıburnu veya Nisan" autocomplete="off" aria-controls="events-results" aria-describedby="events-count">
+    <input id="events-query" name="q" type="search" enterkeyhint="search" placeholder="Örn. Arıburnu veya Nisan" autocomplete="off" aria-controls="events-results" aria-describedby="events-count">
   </div>
   <div>
     <label for="events-category">Bölüm</label>
-    <select id="events-category" aria-controls="events-results" aria-describedby="events-count">
+    <select id="events-category" name="bolum" aria-controls="events-results" aria-describedby="events-count">
       <option value="all">Tüm bölümler</option>
       <option value="deniz">Deniz</option>
       <option value="kara">Kara</option>
       <option value="tahliye">Tahliye</option>
     </select>
   </div>
-  <button id="events-clear" type="button">Temizle</button>
-  <p id="events-count" role="status" aria-atomic="true"></p>
+  <div class="events-search-actions">
+    <button type="submit" aria-controls="events-results">Sonuçlara git</button>
+    <button id="events-clear" type="button">Temizle</button>
+  </div>
+  <p id="events-count" role="status" aria-atomic="true" tabindex="-1"></p>
   <p class="events-share-hint">Arama ve bölüm seçiminiz sayfa bağlantısında korunur. Aynı listeyi paylaşmak için adresi kopyalayabilirsiniz.</p>
-</div>
+</form>
 <nav class="events-section-links" aria-label="Olay bölümlerine git"><a href="#deniz">Deniz olayları</a><a href="#kara">Kara olayları</a><a href="#tahliye">Tahliyeler</a></nav>
-<div id="events-results">
+<div id="events-results" role="region" aria-label="Olay sonuçları" aria-describedby="events-count" tabindex="-1">
 <section id="deniz" tabindex="-1">
 <h2>Deniz</h2>
 <ul class="roster">
@@ -157,7 +160,7 @@
 </div>
 <h2>Kaynakça</h2>
 <div class="prose">
-<p>Kurum çerçevesi: Genelkurmay ATASE’nin yayımlanmış Çanakkale özetleri; <a href="https://www.awm.gov.au/">Australian War Memorial</a>; <a href="https://www.iwm.org.uk/">Imperial War Museum</a>. Bu sayfada eser cildi, belge numarası ve sayfa işli değildir. Ayrıntı bu yüzden doğrulanmış kayıt olarak işaretlenmez. <a href="/kaynakca/">Kaynakça</a></p>
+<p>Bu sayfa olay dizinidir. Belirli belge bağlantıları, sayfalar, kanıt alıntıları ve inceleme sınırları ilgili olay sayfalarının kaynak notlarında bulunur. Kurum ana sayfaları tek başına tarihsel iddia kanıtı sayılmaz. <a href="/inceleme-notlari/">İçerik incelemesi</a> · <a href="/kaynakca/">Kaynakça</a></p>
 </div>
 </main>
 <footer class="site-footer">
@@ -172,7 +175,7 @@
     </nav>
   </div>
 </footer>
-<script src="/js/navigation.js"></script>
-<script src="/js/events-index.js?v=20261019d"></script>
+<script src="/js/navigation.js?v=20261020a"></script>
+<script src="/js/events-index.js?v=20261020a"></script>
 </body>
 </html>

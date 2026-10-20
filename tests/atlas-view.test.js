@@ -38,6 +38,13 @@ test('başka kayıt, süresi dolmuş veya bozuk görünüm uygulanmaz', () => {
   ctx.window.sessionStorage.getItem = () => { throw Error('disabled'); };
   assert.equal(ctx.readAtlasView('/?olay=test#harita'), null);
 });
+
+test('depolama kapalıysa görünüm kaydı kaynak sayfasına geçişi engellemez', () => {
+  const { ctx } = setup();
+  ctx.window.sessionStorage.setItem = () => { throw Error('storage disabled'); };
+  assert.doesNotThrow(() => ctx.saveAtlasView('/?olay=test#harita'));
+  assert.equal(ctx.readAtlasView('/?olay=test#harita'), null);
+});
 test('uydu ve yol tercihi geri gelir, diğer taban katmanı kapanır', () => {
   for (const base of ['uydu', 'yol']) {
     const { ctx } = setup();
