@@ -28,6 +28,48 @@
     return kind + ". " + (item.uncertainty || "Kesin koordinat değildir.");
   }
 
+  function showMapLine(line, transverse, returnTarget) {
+    stopPlay();
+    revealDock();
+    activeId = null;
+    var mine = transverse || line.type === "mayin";
+    var review = mine && D.mineReview;
+    fillPanel({
+      title: line.name,
+      meta: mine ? "Mayın savunması · şematik çizgi" : "Filo / manevra · şematik çizgi",
+      text: transverse
+        ? "Bu numara atlas çiziminin sırasıdır; tarihî hat numarası olarak doğrulanmadı. Uç noktalar ve hat aralıkları için sayısal kaynak eşleştirmesi tamamlanmadı."
+        : line.note || "",
+      accuracy: "Şematik gösterim. Çizgi köşeleri mayın veya gemi koordinatı değildir; ölçülmüş bir hata sınırı yoktur.",
+      source: review ? "İnceleme: " + review.date + ". Anlatı incelendi; çizgi geometrisi doğrulanmadı. " + review.limit : "Çizgi geometrisinin sayısal kaynakla eşleştirilmesi tamamlanmadı.",
+      sourceUrl: review ? review.url : "",
+      sourceLabel: review ? review.label : "",
+      reviewHref: "/nasil-okunur/#konum-denetimi"
+    });
+    paintIcons();
+    focusSelectedPanel(returnTarget || null);
+  }
+
+  function bindMapLine(layer, line, transverse) {
+    function labelLine() {
+      var element = layer.getElement();
+      if (!element) return;
+      element.setAttribute("role", "button");
+      element.setAttribute("tabindex", "0");
+      element.setAttribute("aria-label", line.name + " · şematik gösterim");
+      element.onkeydown = function (event) {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+        event.preventDefault();
+        event.stopPropagation();
+        if (!event.repeat) showMapLine(line, transverse, element);
+      };
+    }
+    layer.on("add", labelLine);
+    labelLine();
+    layer.on("click", function () { showMapLine(line, transverse, layer.getElement()); });
+  }
+
   function sourceText(item) {
     var ids = (item && item.sourceIds) || [];
     var names = ids.map(function (id) {
@@ -257,12 +299,16 @@
     }
     try {
       map = L.map("map", {
-        zoomControl: true,
+        zoomControl: false,
         attributionControl: true,
         minZoom: 8,
         maxZoom: 16,
         scrollWheelZoom: false
       }).setView(D.center, D.defaultZoom);
+      L.control.zoom({
+        zoomInTitle: "Yakınlaştır",
+        zoomOutTitle: "Uzaklaştır"
+      }).addTo(map);
       tiles = {
         uydu: L.tileLayer(
           "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
@@ -280,7 +326,12 @@
       watchTiles(tiles.uydu);
       watchTiles(tiles.yol);
       tiles.uydu.addTo(map);
-      L.control.layers({ Uydu: tiles.uydu, "Yol haritası": tiles.yol }, null, { position: "bottomright" }).addTo(map);
+      var baseControl = L.control.layers({ Uydu: tiles.uydu, "Yol haritası": tiles.yol }, null, { position: "bottomright" }).addTo(map);
+      var baseToggle = baseControl.getContainer().querySelector(".leaflet-control-layers-toggle");
+      if (baseToggle) {
+        baseToggle.title = "Taban haritayı seç";
+        baseToggle.setAttribute("aria-label", "Taban haritayı seç");
+      }
       return true;
     } catch (err) {
       map = null;
@@ -408,7 +459,11 @@
   function paintIcons() {
     Object.keys(markers).forEach(function (k) {
       var pl = findPlace(k);
-      if (pl) markers[k].setIcon(iconFor(pl.type, k === activeId));
+      if (pl) {
+        markers[k].setIcon(iconFor(pl.type, k === activeId));
+        var element = markers[k].getElement();
+        if (element) element.setAttribute("aria-label", pl.name);
+      }
     });
     updateSelectedLayerNotice();
   }
@@ -593,13 +648,15 @@
       if ([coordinateSource.evidenceText, coordinateSource.date, coordinateSource.label].every(function (value) {
         return typeof value === "string" && !!value.trim();
       }) && coordinateSource.status) {
-        body.appendChild(textEl("p", "Yayındaki koordinat: " + coordinateSource.evidenceText));
+        body.appendChild(textEl("p", "Konum dayanağı: " + coordinateSource.evidenceText));
         body.appendChild(textEl("p", "Konum inceleme tarihi: " + coordinateSource.date + ". " +
           (coordinateSource.status === "yayin_koordinati_karsilastirildi"
             ? "Yayındaki koordinatla karşılaştırıldı; sahada yeniden ölçüm yapılmış sayılmaz."
-            : "Konum kaynağının doğrulaması tamamlanmadı.")));
+            : coordinateSource.status === "kurumsal_ziyaret_noktasi_karsilastirildi"
+              ? "Kurumun güncel ziyaret noktasıyla karşılaştırıldı; tarihsel siper veya birlik mevzii doğrulanmış sayılmaz."
+              : "Konum kaynağının doğrulaması tamamlanmadı.")));
         if (coordinateSource.datum === "belirtilmemis") {
-          body.appendChild(textEl("p", "Yayın koordinatın jeodezik referans sistemini (datum) belirtmiyor. Metre düzeyinde kesinlik iddiası yok."));
+          body.appendChild(textEl("p", "Kaynak koordinatın jeodezik referans sistemini (datum) belirtmiyor. Metre düzeyinde kesinlik iddiası yok."));
         }
       } else {
         body.appendChild(textEl("p", "Konum kaynağının kanıt metni, inceleme tarihi veya doğrulama bilgisi eksik; konum doğrulaması tamamlanmadı."));
@@ -610,6 +667,12 @@
       body.appendChild(textEl("p", "Anlatı kaynağı: Aşağıdaki belge kanıtı yalnız belirtilen pasajı destekler. Kartın tamamını, kesin saatleri veya harita koordinatını doğrulamaz."));
     } else if (spec.source) {
       body.appendChild(textEl("p", spec.source));
+    }
+    var sourceUrl = spec.sourceUrl && Model && Model.safeUrl ? Model.safeUrl(spec.sourceUrl) : "";
+    if (sourceUrl) {
+      var sourceLink = textEl("a", spec.sourceLabel || "İncelenen kaynak");
+      sourceLink.href = sourceUrl;
+      body.appendChild(sourceLink);
     }
     if (evidence) body.appendChild(evidence);
     function readingLink(href, label) {
@@ -867,6 +930,10 @@
 
   function addMarker(p) {
     var m = L.marker([p.lat, p.lng], { icon: iconFor(p.type), title: p.name })
+      .on("add", function () {
+        var element = this.getElement();
+        if (element) element.setAttribute("aria-label", p.name);
+      })
       .addTo(groups[p.type] || groups.tabya)
       .on("click", function () {
         selectPlace(p.id, false);
@@ -911,25 +978,18 @@
       dashArray: ln.dash,
       opacity: 0.9
     }).addTo(groups[ln.type]);
-    pl.bindTooltip(ln.name);
-    pl.on("click", function () {
-      revealDock();
-      fillPanel({
-        title: ln.name,
-        meta: "Hat / manevra",
-        text: ln.note || "",
-        accuracy: "Şematik gösterim. Kesin koordinat değildir."
-      });
-    });
+    pl.bindTooltip(ln.name + " · şematik gösterim");
+    bindMapLine(pl, ln, false);
   });
 
   D.mineLines.forEach(function (ln) {
-    L.polyline([ln.a, ln.b], {
+    var pl = L.polyline([ln.a, ln.b], {
       color: "#c9a227",
       weight: 1.5,
       dashArray: "4 8",
       opacity: 0.55
     }).addTo(groups.mayin).bindTooltip(ln.name + " · şematik gösterim");
+    bindMapLine(pl, ln, true);
   });
 
   var layerBox = document.getElementById("layers");

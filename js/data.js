@@ -5,7 +5,7 @@ window.OM = {
   center: [40.09, 26.32],
   defaultZoom: 11,
   disclaimer:
-    "Mevkiler tarihî kaynaklara göre yaklaşık işaretlenmiştir. Batık ve mayın hattı noktaları birkaç yüz metre sapabilir; birlikler sorumluluk sahasının merkezidir.",
+    "Noktaların sayısal konum dayanakları ayrı ayrı incelenir. Mayın ve filo çizgileri şematiktir; sapmaları için ölçülmüş bir sınır yoktur. Birlik noktaları sorumluluk sahasını temsil eder.",
 
   layers: [
     { id: "tabya", label: "Tabyalar", color: "#c45c4a" },
@@ -13,7 +13,7 @@ window.OM = {
     { id: "gemi", label: "İtilaf gemileri", color: "#6a8caf" },
     { id: "enkaz", label: "Batış / hasar", color: "#d4af37" },
     { id: "komuta", label: "Komuta", color: "#e8d5a3" },
-    { id: "mayin", label: "Mayın hatları", color: "#e0b84a" },
+    { id: "mayin", label: "Mayın hatları · şema", color: "#e0b84a" },
     { id: "filo", label: "Filo hatları", color: "#8fa4c4" }
   ],
 
@@ -38,8 +38,18 @@ window.OM = {
       id: "kilitbahir",
       type: "tabya",
       name: "Kilitbahir Kalesi",
-      lat: 40.147656,
-      lng: 26.379565,
+      lat: 40.146554,
+      lng: 26.380381,
+      accuracy: "yaklasik",
+      uncertainty: "Alan Başkanlığının güncel kale ziyaret noktasıyla eşleştirildi. Kalenin bulunduğu alanı temsil eder; 1915 komuta veya gözetleme yerinin kesin koordinatı değildir.",
+      coordinateSource: {
+        url: "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/kilitbahir-kalesi",
+        label: "Alan Başkanlığı · Kilitbahir Kalesi",
+        evidenceText: "Ziyaret Noktasına Git: destination=40.146554, 26.380381",
+        date: "2026-10-20",
+        status: "kurumsal_ziyaret_noktasi_karsilastirildi",
+        datum: "belirtilmemis"
+      },
       meta: "Rumeli · Boğaz’ın kilidi",
       short: "Fatih’in 1462–63’te inşa ettirdiği kale. 18 Mart günü gözetleme ve komuta tepesi.",
       note: [
@@ -52,8 +62,18 @@ window.OM = {
       id: "mecidiye",
       type: "tabya",
       name: "Rumeli Mecidiye Tabyası",
-      lat: 40.14355,
-      lng: 26.3842,
+      lat: 40.141532,
+      lng: 26.37561,
+      accuracy: "yaklasik",
+      uncertainty: "Alan Başkanlığının güncel tabya ve şehitlik ziyaret noktasıyla eşleştirildi. Tabya alanını temsil eder; 1915 top, vinç veya mühimmat yerinin kesin koordinatı değildir.",
+      coordinateSource: {
+        url: "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-mecidiye-tabyasi-ve-sehitligi",
+        label: "Alan Başkanlığı · Rumeli Mecidiye Tabyası ve Şehitliği",
+        evidenceText: "Ziyaret Noktasına Git: destination=40.141532, 26.37561",
+        date: "2026-10-20",
+        status: "kurumsal_ziyaret_noktasi_karsilastirildi",
+        datum: "belirtilmemis"
+      },
       meta: "Kilitbahir güneyi · Seyit Onbaşı",
       short: "Günün en ağır hasarını alan merkez tabya. Vinçler çöktü; mermiler elle yüklendi.",
       hits: "80–100 isabet",
@@ -148,8 +168,18 @@ window.OM = {
       id: "seddulbahir",
       type: "tabya",
       name: "Seddülbahir",
-      lat: 40.0447,
-      lng: 26.178,
+      lat: 40.042881,
+      lng: 26.188885,
+      accuracy: "yaklasik",
+      uncertainty: "Alan Başkanlığının güncel Seddülbahir Kalesi ziyaret noktasıyla eşleştirildi. Kale çevresini temsil eder; bütün çıkarma kumsallarının, birlik mevzilerinin veya 1915 gözetleme postasının kesin koordinatı değildir.",
+      coordinateSource: {
+        url: "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/seddulbahir-kalesi",
+        label: "Alan Başkanlığı · Seddülbahir Kalesi",
+        evidenceText: "Ziyaret Noktasına Git: destination=40.042881, 26.188885",
+        date: "2026-10-20",
+        status: "kurumsal_ziyaret_noktasi_karsilastirildi",
+        datum: "belirtilmemis"
+      },
       meta: "Gelibolu güney ucu · giriş tabyası",
       short: "Boğaz ağzının Rumeli kapısı. 08.45’te filonun yaklaştığını bildiren dış gözetleme postası.",
       note: [
@@ -396,9 +426,9 @@ window.OM = {
       lat: 40.035,
       lng: 26.282,
       meta: "Binbaşı Nazmi Bey · Nusret: Yzb. Tophaneli Hakkı",
-      short: "Boğaz’daki 11 hat + Erenköy gizli hattı. ~400–500 denizci ve mayın personeli.",
+      short: "Boğaz’daki mayın savunması ve Nusret hattı. Personel mevcudunun belge karşılaştırması tamamlanmadı.",
       note: [
-        "Nusret, 7–8 Mart gecesi 26 mayını Erenköy Koyu’na kıyıya paralel (kuzey–güney) döktü.",
+        "Nusret’in Erenköy Koyu’ndaki kıyıya paralel 26 mayınlık hattı Alan Başkanlığı anlatısında yer alır. Bu haritadaki çizginin yön açısı ve uç noktaları sayısal belgeyle doğrulanmadı.",
         "Müttefikler mayınların kıyıları birleştiren enlemesine hatlar olacağını varsayıyordu; bu koyu ‘manevra havuzu’ sayıp taramaya öncelik vermedi.",
         "8–18 Mart arasında hiçbir gemi bu mayınlara çarpmadı. Zırhlılar 18 Mart’taki tam ölçekli U dönüşünde ölümcül temasa girdi."
       ]
@@ -436,7 +466,7 @@ window.OM = {
         [40.0445, 26.2935],
         [40.051, 26.299]
       ],
-      note: "7–8 Mart gecesi kıyıya paralel döküldü. Hattın gemi kayıplarıyla ilişkisi kaynak notlarında ele alınır; Ocean için mayın isabeti anlatıları farklı kesinliktedir. Aralık ~100–150 m."
+      note: "Alan Başkanlığının deniz muharebeleri anlatısı Erenköy Koyu’nda kıyıya paralel 26 mayınlık hattı aktarır. Bu çizginin uç noktaları, uzunluğu ve mayın aralıkları sayısal belgeyle doğrulanmadı. Çizgi üzerindeki köşeler tek tek mayın değildir."
     },
     {
       id: "hat-a",
@@ -484,6 +514,15 @@ window.OM = {
       note: "Vengeance, Irresistible, Albion, Ocean, Majestic, Swiftsure. 13.45’te hasarlı Fransız hattının yerine ön safa sürüleceklerdi."
     }
   ],
+
+  mineReview: {
+    url: "https://canakkaletarihialan.gov.tr/en/canakkale-battles/naval-battles",
+    label: "Alan Başkanlığı · Deniz muharebeleri",
+    evidenceText: "26 mines, parallel to the shore in Erenköy Bay",
+    date: "2026-10-20",
+    status: "anlati_incelendi_geometri_dogrulanmadi",
+    limit: "Kaynak hattın varlığını ve genel yönünü anlatır; bu haritadaki sayısal çizgi geometrisini doğrulamaz. Enlemesine çizgilerin sırası, uç noktaları ve aralıkları da belgeyle eşleştirilmedi."
+  },
 
   mineLines: [
     { name: "Enlemesine hat 1", a: [40.078, 26.332], b: [40.072, 26.378] },

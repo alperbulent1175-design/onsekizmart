@@ -1,0 +1,950 @@
+{
+  "date": "2026-10-20",
+  "scope": "31 nokta, 4 hat ve 10 enlemesine mayın şeması; mevcut veri denetimi, saha ölçümü değil",
+  "method": "Koordinat aralığı ve benzersiz kimlik denetimi. Mesafe haversine R=6371008.8 m; tarihsel doğruluğun kanıtı değildir. Conkbayırı, Kilitbahir, Rumeli Mecidiye ve Seddülbahir için güncel kurumsal ziyaret bağlantıları sayısal karşılaştırmaya uygundu. Tarihsel mevzi veya komuta yeri doğrulanmış sayılmaz. Irresistible yayımlanmış enkaz noktasıdır. Tarihî haritalardan yeni koordinat türetilmedi.",
+  "summary": {
+    "points": 31,
+    "pointsWithNumericSource": 5,
+    "pointsWithoutNumericSource": 26,
+    "changedPoints": 4,
+    "lines": 14,
+    "verifiedLineGeometries": 0
+  },
+  "points": [
+    {
+      "id": "mustahkem-hq",
+      "name": "Çanakkale Müstahkem Mevkii Karargâhı",
+      "type": "komuta",
+      "coordinates": [
+        40.1492,
+        26.3778
+      ],
+      "before": [
+        40.1492,
+        26.3778
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "kilitbahir",
+      "name": "Kilitbahir Kalesi",
+      "type": "tabya",
+      "coordinates": [
+        40.146554,
+        26.380381
+      ],
+      "before": [
+        40.147656,
+        26.379565
+      ],
+      "changed": true,
+      "offsetFromBeforeMetres": 140.80388474944988,
+      "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/kilitbahir-kalesi",
+        "label": "Alan Başkanlığı · Kilitbahir Kalesi",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.146554, 26.380381",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      },
+      "limit": "Alan Başkanlığının güncel kale ziyaret noktasıyla eşleştirildi. Kalenin bulunduğu alanı temsil eder; 1915 komuta veya gözetleme yerinin kesin koordinatı değildir."
+    },
+    {
+      "id": "mecidiye",
+      "name": "Rumeli Mecidiye Tabyası",
+      "type": "tabya",
+      "coordinates": [
+        40.141532,
+        26.37561
+      ],
+      "before": [
+        40.14355,
+        26.3842
+      ],
+      "changed": true,
+      "offsetFromBeforeMetres": 763.8713389175342,
+      "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-mecidiye-tabyasi-ve-sehitligi",
+        "label": "Alan Başkanlığı · Rumeli Mecidiye Tabyası ve Şehitliği",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.141532, 26.37561",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      },
+      "limit": "Alan Başkanlığının güncel tabya ve şehitlik ziyaret noktasıyla eşleştirildi. Tabya alanını temsil eder; 1915 top, vinç veya mühimmat yerinin kesin koordinatı değildir."
+    },
+    {
+      "id": "namazgah",
+      "name": "Namazgâh Tabyası",
+      "type": "tabya",
+      "coordinates": [
+        40.14605,
+        26.37815
+      ],
+      "before": [
+        40.14605,
+        26.37815
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "rumeli-hamidiye",
+      "name": "Rumeli Hamidiye Tabyası",
+      "type": "tabya",
+      "coordinates": [
+        40.1449,
+        26.3811
+      ],
+      "before": [
+        40.1449,
+        26.3811
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "cimenlik",
+      "name": "Çimenlik Tabyası (Kale-i Sultaniye)",
+      "type": "tabya",
+      "coordinates": [
+        40.1477,
+        26.3995
+      ],
+      "before": [
+        40.1477,
+        26.3995
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "anadolu-hamidiye",
+      "name": "Anadolu Hamidiye Tabyası",
+      "type": "tabya",
+      "coordinates": [
+        40.1398,
+        26.4072
+      ],
+      "before": [
+        40.1398,
+        26.4072
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "dardanos",
+      "name": "Dardanos Tabyası (Hasan-Mevsuf)",
+      "type": "tabya",
+      "coordinates": [
+        40.085728,
+        26.371181
+      ],
+      "before": [
+        40.085728,
+        26.371181
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "seddulbahir",
+      "name": "Seddülbahir",
+      "type": "tabya",
+      "coordinates": [
+        40.042881,
+        26.188885
+      ],
+      "before": [
+        40.0447,
+        26.178
+      ],
+      "changed": true,
+      "offsetFromBeforeMetres": 948.4124260021056,
+      "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/seddulbahir-kalesi",
+        "label": "Alan Başkanlığı · Seddülbahir Kalesi",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.042881, 26.188885",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      },
+      "limit": "Alan Başkanlığının güncel Seddülbahir Kalesi ziyaret noktasıyla eşleştirildi. Kale çevresini temsil eder; bütün çıkarma kumsallarının, birlik mevzilerinin veya 1915 gözetleme postasının kesin koordinatı değildir."
+    },
+    {
+      "id": "kumkale",
+      "name": "Kumkale",
+      "type": "tabya",
+      "coordinates": [
+        40.0103,
+        26.1975
+      ],
+      "before": [
+        40.0103,
+        26.1975
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "mesudiye",
+      "name": "Mesudiye / Yıldız / Baykuş bataryaları",
+      "type": "tabya",
+      "coordinates": [
+        40.0965,
+        26.362
+      ],
+      "before": [
+        40.0965,
+        26.362
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "tavsan",
+      "name": "Gaulois — konum doğrulaması açık",
+      "type": "enkaz",
+      "coordinates": [
+        40.0038,
+        26.152
+      ],
+      "before": [
+        40.0038,
+        26.152
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Drepano adının Tavşan Adası ile eşleştirilmesi ve bu harita noktası doğrulanmadı. Yaklaşık gösterimdir; kesin karaya oturma yeri değildir."
+    },
+    {
+      "id": "bouvet",
+      "name": "Bouvet — yaklaşık gösterim",
+      "type": "enkaz",
+      "coordinates": [
+        40.01917,
+        26.27167
+      ],
+      "before": [
+        40.01917,
+        26.27167
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Bu işaret için incelenmiş sayısal enkaz koordinatı dayanağı tamamlanmadı. Yaklaşık gösterimdir; kesin batış veya enkaz noktası sayılmaz."
+    },
+    {
+      "id": "inflexible",
+      "name": "HMS Inflexible — yaklaşık hasar gösterimi",
+      "type": "enkaz",
+      "coordinates": [
+        40.0435,
+        26.292
+      ],
+      "before": [
+        40.0435,
+        26.292
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Bu harita noktası için incelenmiş sayısal konum dayanağı tamamlanmadı. Hasar anlatısının kaynak desteği, kesin mayın isabeti yerini doğrulamaz; enkaz noktası olarak okunmamalıdır."
+    },
+    {
+      "id": "irresistible",
+      "name": "HMS Irresistible — enkaz konumu",
+      "type": "enkaz",
+      "coordinates": [
+        40.073966667,
+        26.340683333
+      ],
+      "before": [
+        40.073966667,
+        26.340683333
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "yayin_koordinati_karsilastirildi",
+      "source": {
+        "url": "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download",
+        "label": "Kedioğlu ve Öz (2023), s. 76 · enkaz koordinatı",
+        "evidenceText": "40°04.438 N, 26°20.441 E",
+        "date": "2026-10-17",
+        "status": "yayin_koordinati_karsilastirildi",
+        "datum": "belirtilmemis"
+      },
+      "limit": "2023 yayınının enkaz noktasıdır; mayın isabeti veya tahliye yerini ayrıca doğrulamaz. Kaynak datum belirtmiyor; metre düzeyinde kesinlik iddiası yok."
+    },
+    {
+      "id": "ocean",
+      "name": "HMS Ocean — yaklaşık gösterim",
+      "type": "enkaz",
+      "coordinates": [
+        40.0315,
+        26.2788
+      ],
+      "before": [
+        40.0315,
+        26.2788
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Bu işaret için incelenmiş sayısal enkaz koordinatı dayanağı tamamlanmadı. Yaklaşık gösterimdir; kesin batış veya enkaz noktası sayılmaz."
+    },
+    {
+      "id": "kolordu-3",
+      "name": "3. Kolordu Komutanlığı",
+      "type": "birlik",
+      "coordinates": [
+        40.4102,
+        26.6708
+      ],
+      "before": [
+        40.4102,
+        26.6708
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "tumen-19",
+      "name": "19. Tümen — genel ihtiyat",
+      "type": "birlik",
+      "coordinates": [
+        40.1842,
+        26.3575
+      ],
+      "before": [
+        40.1842,
+        26.3575
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "tumen-9",
+      "name": "9. Tümen",
+      "type": "birlik",
+      "coordinates": [
+        40.068,
+        26.208
+      ],
+      "before": [
+        40.068,
+        26.208
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "tumen-7",
+      "name": "7. Tümen",
+      "type": "birlik",
+      "coordinates": [
+        40.516,
+        26.762
+      ],
+      "before": [
+        40.516,
+        26.762
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "tumen-11",
+      "name": "11. Tümen",
+      "type": "birlik",
+      "coordinates": [
+        40.028,
+        26.232
+      ],
+      "before": [
+        40.028,
+        26.232
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "nusret",
+      "name": "Mayın ve Deniz Savunma Grubu",
+      "type": "komuta",
+      "coordinates": [
+        40.035,
+        26.282
+      ],
+      "before": [
+        40.035,
+        26.282
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "ark-royal",
+      "name": "HMS Ark Royal (deniz uçağı gemisi)",
+      "type": "gemi",
+      "coordinates": [
+        39.96,
+        26.08
+      ],
+      "before": [
+        39.96,
+        26.08
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "ariburnu",
+      "name": "Arıburnu (Anzak Koyu)",
+      "type": "kampanya",
+      "coordinates": [
+        40.2406,
+        26.2772
+      ],
+      "before": [
+        40.2406,
+        26.2772
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "conkbayiri",
+      "name": "Conkbayırı",
+      "type": "kampanya",
+      "coordinates": [
+        40.250658,
+        26.308544
+      ],
+      "before": [
+        40.2417,
+        26.304
+      ],
+      "changed": true,
+      "offsetFromBeforeMetres": 1068.1387843949417,
+      "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/sehitlikveanitlar/conkbayiri-ataturk-zafer-aniti",
+        "label": "Alan Başkanlığı · Conkbayırı Atatürk Zafer Anıtı",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.250658, 26.308544",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      },
+      "limit": "Alan Başkanlığının Conkbayırı Atatürk Zafer Anıtı ziyaret noktasıdır. Muharebe sahasını temsil eder; 1915 siperlerinin veya taarruz başlangıcının kesin koordinatı değildir."
+    },
+    {
+      "id": "kanlisirt",
+      "name": "Kanlısırt",
+      "type": "kampanya",
+      "coordinates": [
+        40.2304,
+        26.2873
+      ],
+      "before": [
+        40.2304,
+        26.2873
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "anafartalar",
+      "name": "Anafartalar / Suvla",
+      "type": "kampanya",
+      "coordinates": [
+        40.302,
+        26.252
+      ],
+      "before": [
+        40.302,
+        26.252
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "kirte",
+      "name": "Kirte (Alçıtepe köyü)",
+      "type": "kampanya",
+      "coordinates": [
+        40.0714,
+        26.2036
+      ],
+      "before": [
+        40.0714,
+        26.2036
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "zigindere",
+      "name": "Zığındere",
+      "type": "kampanya",
+      "coordinates": [
+        40.066,
+        26.175
+      ],
+      "before": [
+        40.066,
+        26.175
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "kerevizdere",
+      "name": "Kerevizdere",
+      "type": "kampanya",
+      "coordinates": [
+        40.065,
+        26.228
+      ],
+      "before": [
+        40.065,
+        26.228
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "morto",
+      "name": "Morto Koyu",
+      "type": "kampanya",
+      "coordinates": [
+        40.064,
+        26.19
+      ],
+      "before": [
+        40.064,
+        26.19
+      ],
+      "changed": false,
+      "offsetFromBeforeMetres": 0,
+      "status": "sayisal_konum_kaynagi_tamamlanmadi",
+      "source": null,
+      "limit": "Bu temsilî noktanın koyun merkeziyle sayısal eşleştirmesi tamamlanmadı. Fransız Mezarlığı için yayımlanan güncel ziyaret koordinatı koyun merkezi veya Goliath enkazının konumu değildir; bu kayda aktarılmadı."
+    }
+  ],
+  "lines": [
+    {
+      "id": "nusret-hat",
+      "name": "Nusret gizli hattı (26 mayın)",
+      "type": "mayin",
+      "coordinates": [
+        [
+          40.0085,
+          26.262
+        ],
+        [
+          40.014,
+          26.2665
+        ],
+        [
+          40.01917,
+          26.27167
+        ],
+        [
+          40.0255,
+          26.276
+        ],
+        [
+          40.032,
+          26.2805
+        ],
+        [
+          40.0382,
+          26.2875
+        ],
+        [
+          40.0445,
+          26.2935
+        ],
+        [
+          40.051,
+          26.299
+        ]
+      ],
+      "lengthMetres": 5697.875335250572,
+      "geometryStatus": "sayisal_geometri_dogrulanmadi",
+      "geometryChanged": false
+    },
+    {
+      "id": "hat-a",
+      "name": "A Hattı — İngiliz zırhlıları (~10.30)",
+      "type": "filo",
+      "coordinates": [
+        [
+          40.068,
+          26.238
+        ],
+        [
+          40.06,
+          26.252
+        ],
+        [
+          40.053,
+          26.266
+        ],
+        [
+          40.046,
+          26.28
+        ]
+      ],
+      "lengthMetres": 4333.450068842969,
+      "geometryStatus": "sayisal_geometri_dogrulanmadi",
+      "geometryChanged": false
+    },
+    {
+      "id": "hat-b",
+      "name": "B Hattı — Fransız zırhlıları (~12.15)",
+      "type": "filo",
+      "coordinates": [
+        [
+          40.082,
+          26.268
+        ],
+        [
+          40.075,
+          26.28
+        ],
+        [
+          40.068,
+          26.292
+        ],
+        [
+          40.061,
+          26.304
+        ]
+      ],
+      "lengthMetres": 3851.7997284504536,
+      "geometryStatus": "sayisal_geometri_dogrulanmadi",
+      "geometryChanged": false
+    },
+    {
+      "id": "hat-c",
+      "name": "C Hattı — ihtiyat / destek",
+      "type": "filo",
+      "coordinates": [
+        [
+          40.052,
+          26.22
+        ],
+        [
+          40.044,
+          26.236
+        ],
+        [
+          40.036,
+          26.252
+        ],
+        [
+          40.028,
+          26.266
+        ]
+      ],
+      "lengthMetres": 4740.854438924256,
+      "geometryStatus": "sayisal_geometri_dogrulanmadi",
+      "geometryChanged": false
+    }
+  ],
+  "transverse": [
+    {
+      "id": "sema-1",
+      "name": "Enlemesine hat 1",
+      "coordinates": [
+        [
+          40.078,
+          26.332
+        ],
+        [
+          40.072,
+          26.378
+        ]
+      ],
+      "lengthMetres": 3970.445077776763,
+      "geometryStatus": "tarihi_hat_numarasi_ve_geometri_dogrulanmadi",
+      "geometryChanged": false
+    },
+    {
+      "id": "sema-2",
+      "name": "Enlemesine hat 2",
+      "coordinates": [
+        [
+          40.086,
+          26.338
+        ],
+        [
+          40.08,
+          26.384
+        ]
+      ],
+      "lengthMetres": 3969.991793454326,
+      "geometryStatus": "tarihi_hat_numarasi_ve_geometri_dogrulanmadi",
+      "geometryChanged": false
+    },
+    {
+      "id": "sema-3",
+      "name": "Enlemesine hat 3",
+      "coordinates": [
+        [
+          40.094,
+          26.344
+        ],
+        [
+          40.088,
+          26.39
+        ]
+      ],
+      "lengthMetres": 3969.538435425083,
+      "geometryStatus": "tarihi_hat_numarasi_ve_geometri_dogrulanmadi",
+      "geometryChanged": false
+    },
+    {
+      "id": "sema-4",
+      "name": "Enlemesine hat 4",
+      "coordinates": [
+        [
+          40.102,
+          26.35
+        ],
+        [
+          40.096,
+          26.396
+        ]
+      ],
+      "lengthMetres": 3969.0850036991365,
+      "geometryStatus": "tarihi_hat_numarasi_ve_geometri_dogrulanmadi",
+      "geometryChanged": false
+    },
+    {
+      "id": "sema-5",
+      "name": "Enlemesine hat 5",
+      "coordinates": [
+        [
+          40.11,
+          26.354
+        ],
+        [
+          40.104,
+          26.4
+        ]
+      ],
+      "lengthMetres": 3968.631498286592,
+      "geometryStatus": "tarihi_hat_numarasi_ve_geometri_dogrulanmadi",
+      "geometryChanged": false
+    },
+    {
+      "id": "sema-6",
+      "name": "Enlemesine hat 6",
+      "coordinates": [
+        [
+          40.118,
+          26.358
+        ],
+        [
+          40.112,
+          26.404
+        ]
+      ],
+      "lengthMetres": 3968.1779191975584,
+      "geometryStatus": "tarihi_hat_numarasi_ve_geometri_dogrulanmadi",
+      "geometryChanged": false
+    },
+    {
+      "id": "sema-7",
+      "name": "Enlemesine hat 7",
+      "coordinates": [
+        [
+          40.126,
+          26.362
+        ],
+        [
+          40.12,
+          26.408
+        ]
+      ],
+      "lengthMetres": 3967.7242664424393,
+      "geometryStatus": "tarihi_hat_numarasi_ve_geometri_dogrulanmadi",
+      "geometryChanged": false
+    },
+    {
+      "id": "sema-8",
+      "name": "Enlemesine hat 8",
+      "coordinates": [
+        [
+          40.132,
+          26.366
+        ],
+        [
+          40.126,
+          26.41
+        ]
+      ],
+      "lengthMetres": 3799.8746125983657,
+      "geometryStatus": "tarihi_hat_numarasi_ve_geometri_dogrulanmadi",
+      "geometryChanged": false
+    },
+    {
+      "id": "sema-9",
+      "name": "Enlemesine hat 9",
+      "coordinates": [
+        [
+          40.138,
+          26.37
+        ],
+        [
+          40.132,
+          26.412
+        ]
+      ],
+      "lengthMetres": 3632.2903996411837,
+      "geometryStatus": "tarihi_hat_numarasi_ve_geometri_dogrulanmadi",
+      "geometryChanged": false
+    },
+    {
+      "id": "sema-10",
+      "name": "Enlemesine hat 10",
+      "coordinates": [
+        [
+          40.144,
+          26.374
+        ],
+        [
+          40.138,
+          26.414
+        ]
+      ],
+      "lengthMetres": 3465.005725688343,
+      "geometryStatus": "tarihi_hat_numarasi_ve_geometri_dogrulanmadi",
+      "geometryChanged": false
+    }
+  ],
+  "mineNarrative": {
+    "url": "https://canakkaletarihialan.gov.tr/en/canakkale-battles/naval-battles",
+    "label": "Alan Başkanlığı · Deniz muharebeleri",
+    "evidenceText": "26 mines, parallel to the shore in Erenköy Bay",
+    "date": "2026-10-20",
+    "status": "anlati_incelendi_geometri_dogrulanmadi",
+    "limit": "Kaynak hattın varlığını ve genel yönünü anlatır; bu haritadaki sayısal çizgi geometrisini doğrulamaz. Enlemesine çizgilerin sırası, uç noktaları ve aralıkları da belgeyle eşleştirilmedi."
+  },
+  "sources": [
+    {
+      "url": "https://www.naval-history.net/WW1Book-RN2-230.JPG",
+      "title": "Corbett, Naval Operations II, s.230 karşısındaki 18 Mart 1915 planı",
+      "date": "2026-10-20",
+      "evidenceText": "Approximate positions of mined vessels",
+      "status": "harita_goruntusu_incelendi",
+      "limit": "Sayısal WGS84 koordinat tablosu değildir. Çizim üzerindeki mayın sayıları yeni mayın toplamı olarak alınmadı."
+    },
+    {
+      "url": "https://www.awm.gov.au/collection/C1235200",
+      "title": "Eren Keui, G7432G1S65VIII48",
+      "date": "2026-10-20",
+      "evidenceText": "Eren Keui; Map call number G7432.G1 S65 VIII.48",
+      "status": "kurumsal_kayit_ve_harita_goruntusu_incelendi",
+      "limit": "Osmanlıca pafta, sayısal dönüşüm ve datum denetimi yapılmadı; mayın döküm koordinat çizelgesi değildir."
+    },
+    {
+      "url": "https://www.harita.gov.tr/uploads/files/products/canakkale-tarihi-alan-haritasi-2022.pdf",
+      "title": "Harita Genel Müdürlüğü, Çanakkale Tarihi Alan Haritası, 2022",
+      "date": "2026-10-20",
+      "evidenceText": "ÇANAKKALE TARİHİ ALAN HARİTASI",
+      "status": "pdf_harita_goruntusu_incelendi",
+      "limit": "Günümüz ziyaret coğrafyasıyla nitel karşılaştırma. Görselden yeni sayısal noktalar veya 1915 mayın geometrisi türetilmedi."
+    },
+    {
+      "url": "https://www.awm.gov.au/collection/LIB52015",
+      "title": "Minefield defences ... January 1916",
+      "date": "2026-10-20",
+      "evidenceText": "at the date of evacuation, January 1916",
+      "status": "yalniz_katalog_kaydi_incelendi",
+      "limit": "18 Mart 1915 için geometrik doğrulama kaynağı olarak kullanılmadı."
+    }
+  ],
+  "openQuestions": [
+    "26 noktanın sayısal kaynak eşleştirmesi eksik; kimlik bazında çalışma gerekiyor.",
+    "Morto Koyu, HGM haritasıyla nitel karşılaştırmada öncelikli yeniden inceleme gerektiriyor; sayısal merkez veya batık noktası atanmadı.",
+    "Nusret çizgisi için ölçülü döküm krokisi, tarih, koordinat sistemi ve dönüşüm yöntemi gerekli.",
+    "Enlemesine şemaların çizim numaraları, gerçek hat numarası veya döküm tarihi olarak sunulmamalı."
+  ]
+}

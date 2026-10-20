@@ -358,8 +358,9 @@ test('bekleme süresi değişimi tek zamanlayıcıyı yeniler, dururken başlatm
 
 test('harita işareti seçimi kart başlığına ve geri dönüş için güncel işarete bağlanır', () => {
   let click, focused, selected;
-  const markerElement = { id: 'marker-ocean' };
-  const marker = { addTo() { return this; }, on(name, callback) { assert.equal(name, 'click'); click = callback; return this; },
+  const markerElement = { id: 'marker-ocean', setAttribute(k, v) { this[k] = v; } };
+  let added;
+  const marker = { addTo() { added.call(this); return this; }, on(name, callback) { if (name === 'add') added = callback; else { assert.equal(name, 'click'); click = callback; } return this; },
     bindTooltip() {}, getElement: () => markerElement };
   const ctx = { L: { marker: () => marker }, groups: { enkaz: {} }, markers: {}, iconFor() {},
     selectPlace(id, fly) { selected = [id, fly]; }, focusSelectedPanel(trigger) { focused = trigger; } };
@@ -372,6 +373,28 @@ test('harita işareti seçimi kart başlığına ve geri dönüş için güncel 
   assert.deepEqual(selected, ['ocean', false]);
   assert.equal(focused, markerElement);
   assert.equal(ctx.markers.ocean, marker);
+  assert.equal(markerElement['aria-label'], 'Ocean');
+  delete markerElement['aria-label'];
+  added.call(marker);
+  assert.equal(markerElement['aria-label'], 'Ocean');
+});
+
+test('seçim simgesi yenilendiğinde yer adı korunur; gizli katman hata vermez', () => {
+  const element = { setAttribute(k, v) { this[k] = v; } };
+  let refreshed = 0;
+  const ctx = { activeId: 'ocean',
+    markers: {
+      ocean: { setIcon() { delete element['aria-label']; refreshed++; }, getElement: () => element },
+      hidden: { setIcon() { refreshed++; }, getElement: () => null }
+    },
+    findPlace: id => ({ type: 'enkaz', name: id === 'ocean' ? 'HMS Ocean — yaklaşık gösterim' : 'Gizli işaret' }),
+    iconFor() {}, updateSelectedLayerNotice() {}
+  };
+  vm.createContext(ctx);
+  vm.runInContext(source.slice(source.indexOf('  function paintIcons('), source.indexOf('  function closeTools(')), ctx);
+  ctx.paintIcons();
+  assert.equal(refreshed, 2);
+  assert.equal(element['aria-label'], 'HMS Ocean — yaklaşık gösterim');
 });
 
 test('harita işaretinde Enter ve boşluk bir kez seçer; diğer kontroller etkilenmez', () => {

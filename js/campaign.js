@@ -24,11 +24,21 @@
         id: "conkbayiri",
         type: "kampanya",
         name: "Conkbayırı",
-        lat: 40.2417,
-        lng: 26.304,
-        meta: "6–10 Ağustos 1915 · tepe",
+        lat: 40.250658,
+        lng: 26.308544,
+        meta: "6–10 Ağustos 1915 · günümüzdeki anıt çevresi",
+        accuracy: "yaklasik",
+        uncertainty: "Alan Başkanlığının Conkbayırı Atatürk Zafer Anıtı ziyaret noktasıdır. Muharebe sahasını temsil eder; 1915 siperlerinin veya taarruz başlangıcının kesin koordinatı değildir.",
+        coordinateSource: {
+          url: "https://canakkaletarihialan.gov.tr/tr/ziyaret/sehitlikveanitlar/conkbayiri-ataturk-zafer-aniti",
+          label: "Alan Başkanlığı · Conkbayırı Atatürk Zafer Anıtı",
+          evidenceText: "Ziyaret Noktasına Git: destination=40.250658, 26.308544",
+          date: "2026-10-20",
+          status: "kurumsal_ziyaret_noktasi_karsilastirildi",
+          datum: "belirtilmemis"
+        },
         note: [
-          "İşaret, Conkbayırı tepesidir.",
+          "İşaret, kurumun güncel anıt ziyaret noktasıyla eşleştirilmiştir; tarihsel siper noktası değildir.",
           "6–10 Ağustos muharebelerinin merkezidir. 10 Ağustos’ta Osmanlı karşı taarruzu tepeyi geri alır.",
           "Sırtın kuzeyindeki Kocaçimentepe’ye ulaşılamaz. Ayrı bir işaret konmadı."
         ]
@@ -97,6 +107,7 @@
         name: "Morto Koyu",
         lat: 40.064,
         lng: 26.19,
+        uncertainty: "Bu temsilî noktanın koyun merkeziyle sayısal eşleştirmesi tamamlanmadı. Fransız Mezarlığı için yayımlanan güncel ziyaret koordinatı koyun merkezi veya Goliath enkazının konumu değildir; bu kayda aktarılmadı.",
         meta: "13 Mayıs 1915 · Goliath",
         note: [
           "Seddülbahir’in Boğaz tarafındaki koy.",
@@ -795,7 +806,7 @@
       "Tarih çerçevesi: 19 Şubat 1915 dış tabya bombardımanı – 9 Ocak 1916 Seddülbahir tahliyesi.",
       "Osmanlı tarafı için Genelkurmay ATASE’nin yayımlanmış Çanakkale özetlerindeki sefer düzeni ve muharebe adları.",
       "İtilaf tarafı için Australian War Memorial ve Imperial War Museum kronolojilerindeki çıkarma, muharebe ve tahliye tarihleri.",
-      "18 Mart gemi, tabya, birlik ve mayın noktaları bu sitedeki mevcut haritadan değiştirilmeden korunmuştur.",
+      "Konumlar kayıt bazında incelenir. Bir ziyaret noktası, enkaz konumu, tarihsel isabet yeri ve şematik hat aynı tür kanıt değildir.",
       "Zayiat toplamı yazılmamıştır; yayımlanmış sayılar kaynağa göre değişir. Alıntı ve gizli emir uydurulmamıştır."
     ]
   };

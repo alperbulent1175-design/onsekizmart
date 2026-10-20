@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-20",
+  "status": "kurumsal_ziyaret_noktalari_karsilastirildi",
+  "limit": "Güncel ziyaret noktaları, tarihsel olayın kesin koordinatı değildir.",
+  "updates": [
+    {
+      "id": "kilitbahir",
+      "name": "Kilitbahir Kalesi",
+      "before": [
+        40.147656,
+        26.379565
+      ],
+      "after": [
+        40.146554,
+        26.380381
+      ],
+      "distanceMetres": 140.80388474944988,
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/kilitbahir-kalesi",
+        "label": "Alan Başkanlığı · Kilitbahir Kalesi",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.146554, 26.380381",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    },
+    {
+      "id": "mecidiye",
+      "name": "Rumeli Mecidiye Tabyası",
+      "before": [
+        40.14355,
+        26.3842
+      ],
+      "after": [
+        40.141532,
+        26.37561
+      ],
+      "distanceMetres": 763.8713389175342,
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-mecidiye-tabyasi-ve-sehitligi",
+        "label": "Alan Başkanlığı · Rumeli Mecidiye Tabyası ve Şehitliği",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.141532, 26.37561",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    },
+    {
+      "id": "seddulbahir",
+      "name": "Seddülbahir",
+      "before": [
+        40.0447,
+        26.178
+      ],
+      "after": [
+        40.042881,
+        26.188885
+      ],
+      "distanceMetres": 948.4124260021056,
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/seddulbahir-kalesi",
+        "label": "Alan Başkanlığı · Seddülbahir Kalesi",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.042881, 26.188885",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    }
+  ],
+  "morto": {
+    "decision": "Degistirilmedi",
+    "reason": "Fransız Mezarlığı koordinatı koy merkezi veya Goliath enkazı değildir.",
+    "source": {
+      "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/mezarliklar-ve-anitlar/fransiz-savas-mezarligi-ve-aniti",
+      "date": "2026-10-20",
+      "http": 200,
+      "mapLinks": [
+        {
+          "text": "Ziyaret Noktasına Git",
+          "url": "https://www.google.com/maps/dir/?api=1&destination=40.058054, 26.210546"
+        }
+      ]
+    }
+  }
+}

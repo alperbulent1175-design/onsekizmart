@@ -218,6 +218,11 @@ button, input, select { font: inherit; }
   color: var(--gold-2);
 }
 .chip:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+body.home .leaflet-interactive[role="button"]:focus-visible {
+  outline: 2px solid var(--gold-2);
+  outline-offset: 4px;
+  stroke-width: 6;
+}
 
 .search {
   top: 72px; right: 16px;
