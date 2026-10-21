@@ -1,0 +1,68 @@
+[
+  {
+    "width": 320,
+    "id": "tool-search",
+    "playingBefore": "true",
+    "stoppedOnOpen": true,
+    "playingAfter": "false",
+    "toolOpen": true,
+    "titleUnchanged": true,
+    "pageOverflow": false,
+    "playbackHidden": true
+  },
+  {
+    "width": 320,
+    "id": "tool-filter",
+    "playingBefore": "true",
+    "stoppedOnOpen": true,
+    "playingAfter": "false",
+    "toolOpen": true,
+    "titleUnchanged": true,
+    "pageOverflow": false,
+    "playbackHidden": true
+  },
+  {
+    "width": 390,
+    "id": "tool-filter",
+    "playingBefore": "true",
+    "stoppedOnOpen": true,
+    "playingAfter": "false",
+    "toolOpen": true,
+    "titleUnchanged": true,
+    "pageOverflow": false,
+    "playbackHidden": true
+  },
+  {
+    "width": 390,
+    "id": "tool-search",
+    "playingBefore": "true",
+    "stoppedOnOpen": true,
+    "playingAfter": "false",
+    "toolOpen": true,
+    "titleUnchanged": true,
+    "pageOverflow": false,
+    "playbackHidden": true
+  },
+  {
+    "width": 320,
+    "id": "tool-layers",
+    "playingBefore": "true",
+    "stoppedOnOpen": true,
+    "playingAfter": "false",
+    "toolOpen": true,
+    "titleUnchanged": true,
+    "pageOverflow": false,
+    "playbackHidden": true
+  },
+  {
+    "width": 390,
+    "id": "tool-layers",
+    "playingBefore": "true",
+    "stoppedOnOpen": true,
+    "playingAfter": "false",
+    "toolOpen": true,
+    "titleUnchanged": true,
+    "pageOverflow": false,
+    "playbackHidden": true
+  }
+]

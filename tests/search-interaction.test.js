@@ -32,7 +32,7 @@ function setup() {
     mode: 'naval', range: { value: '' }, revealDock() {},
     findPlace: key => key === 'test-place' ? { id: key } : null,
     findCampByKey: key => key === 'test-event' ? { id: key } : null,
-    selectPlace: id => selected.push(id), focusCampEvent: event => selected.push(event.id),
+    openPlace: id => selected.push(id), focusCampEvent: event => selected.push(event.id),
     showTime: minute => selected.push(minute), restoreAtlasView() { restored++; },
     scrollToMap() { scrolled++; }
   };
@@ -118,4 +118,43 @@ test('arama etkileşimi yokken geçerli açılış bağlantıları çalışmaya 
     assert.deepEqual(state.selected, [expected]);
     assert.equal(state.restored(), 1);
   }
+});
+
+test('arama alanında Enter sonuçlara geçirir; Home ve End listede gezinir, kayıt kendiliğinden seçilmez', () => {
+  const state = setup();
+  state.key(state.q, 'Enter');
+  assert.equal(state.focused(), state.results.children[0].children[0]);
+  state.key(state.results, 'End');
+  assert.equal(state.focused(), state.results.children[7].children[0]);
+  state.key(state.results, 'Home');
+  assert.equal(state.focused(), state.results.children[0].children[0]);
+  assert.deepEqual(state.selected, []);
+  state.q.value = 'yok'; state.ctx.renderSearch();
+  assert.doesNotThrow(() => state.key(state.q, 'Enter'));
+  assert.deepEqual(state.selected, []);
+});
+
+test('seçimden sonra aramaya dönmek metni ve sonuçları korur; Escape kapattığını yeniden açmaz', () => {
+  const state = setup();
+  state.ctx.selectPlace = () => {};
+  state.results.children[0].children[0].handlers.click();
+  assert.equal(state.results.hidden, true);
+  state.q.focus();
+  assert.equal(state.q.value, 'test record');
+  assert.equal(state.results.hidden, false);
+  assert.equal(state.results.children.length, 8);
+  state.key(state.results, 'Escape');
+  assert.equal(state.results.hidden, true);
+  assert.equal(state.focused(), state.q);
+  state.key(state.q, 'ArrowDown');
+  assert.equal(state.results.hidden, false);
+});
+
+test('harita yoksa arama mevki kartını vaat eder; çalışan haritada harita etiketi korunur', () => {
+  const state = setup();
+  assert.match(state.results.children[0].children[0].children[1].textContent, /Mevki kartı/);
+  state.ctx.map = {};
+  state.ctx.renderSearch();
+  assert.match(state.results.children[0].children[0].children[1].textContent, /Harita/);
+  assert.doesNotMatch(state.results.children[0].children[0].children[1].textContent, /Mevki kartı/);
 });

@@ -42,6 +42,29 @@ test('oynatma adımı oynatmayı durdurmaz; kullanıcı adımı durdurur', () =>
   ctx.stepTime(-1); assert.equal(stops, 1);
 });
 
+test('otomatik oynatma son kayıtta durur; elle gezinme başa dönmeye devam eder', () => {
+  for (const mode of ['camp', 'naval']) for (const size of [0, 1, 3]) {
+    const events = Array.from({ length: size }, (_, i) => ({ m: 450 + i, side: 'both' }));
+    let stops = 0, shown = 0;
+    const completion = { hidden: true };
+    const ctx = { mode, sideFilter: 'both', D: { events }, campEvents: () => events,
+      document: { getElementById: () => completion },
+      navalSelection: events[size - 1] || null, range: { value: String(mode === 'camp' ? Math.max(0, size - 1) : 450 + Math.max(0, size - 1)) },
+      stopPlay() { stops++; }, showCamp() { shown++; }, showTime() { shown++; } };
+    vm.createContext(ctx);
+    const start = source.indexOf('  function stepTime(');
+    vm.runInContext(source.slice(start, source.indexOf('  document.getElementById("tl-both")', start)), ctx);
+    const previous = ctx.range.value;
+    ctx.stepTime(1, true);
+    assert.equal(stops, 1); assert.equal(shown, 0); assert.equal(ctx.range.value, previous);
+    assert.equal(completion.hidden, size ? false : true);
+    if (size) assert.match(completion.textContent, /Oynatma tamamlandı.*İleri, ardından Oynat/);
+    ctx.stepTime(1);
+    assert.equal(shown, size ? 1 : 0);
+    if (size) assert.equal(ctx.range.value, mode === 'camp' ? '0' : '450');
+  }
+});
+
 test('Oynat düğmesinin gerçek zamanlayıcısı sonraki adımları oynatma olarak çağırır', () => {
   let click, tick, scrolls = 0, focused = 0;
   const calls = [];
@@ -100,7 +123,7 @@ test('arka plana geçiş oynatmayı durdurur, görünür olma kendiliğinden ba�
     stopPlay() { stops++; } };
   vm.createContext(ctx);
   const start = source.indexOf('  document.addEventListener("visibilitychange"');
-  vm.runInContext(source.slice(start, source.indexOf('  showTime(450, false);', start)), ctx);
+  vm.runInContext(source.slice(start, source.indexOf('  var panelMapReturn = ', start)), ctx);
   visibility(); assert.equal(stops, 0);
   ctx.document.hidden = true; visibility(); assert.equal(stops, 1);
   ctx.document.hidden = false; visibility(); assert.equal(stops, 1);
@@ -117,6 +140,21 @@ test('haritadan elle mevki seçimi oynatmayı durdurur ve kaydı açar', () => {
   vm.runInContext(source.slice(start, source.indexOf('  function addMarker(', start)), ctx);
   ctx.selectPlace('test', true);
   assert.equal(stops, 1); assert.equal(shown, event);
+});
+
+test('arama ve bilgi tablosundan mevki isteği son olaya dönüştürülmez', () => {
+  for (const mode of ['naval', 'camp']) {
+    let opened;
+    const ctx = { mode, sideFilter: 'both', campDomain: 'all', D: { events: [{ place: 'test', m: 450 }] },
+      stopPlay() {}, revealDock() {}, trackMapSelect() {}, findPlace: () => ({ id: 'test' }), campEvents: () => [{ place: 'test' }],
+      openPlace: (id, fly) => { opened = [id, fly]; }, showTime() { assert.fail('Mevki isteği deniz olayına dönüştü'); },
+      showCamp() { assert.fail('Mevki isteği cephe olayına dönüştü'); } };
+    vm.createContext(ctx);
+    const start = source.indexOf('  function selectPlace(');
+    vm.runInContext(source.slice(start, source.indexOf('  function selectMarkerPlace(', start)), ctx);
+    ctx.selectPlace('test', true, true);
+    assert.deepEqual(opened, ['test', true]);
+  }
 });
 
 
@@ -288,6 +326,58 @@ test('haritaya kaydırma rehber yerine haritayı hedefler, bölüm yedeğini ve 
   }
 });
 
+test('yeni mevki seçimi aşırı yakın görünümü taşımaz ve önceki harita hareketini durdurur', () => {
+  for (const zoom of [10, 13, 14, 18]) for (const motion of [true, false]) {
+    const calls = [];
+    const ctx = { map: { getZoom: () => zoom, stop() { calls.push('stop'); }, flyTo(coords, level, options) { calls.push({ coords: Array.from(coords), level, duration: options.duration }); } }, motionOn: () => motion };
+    vm.createContext(ctx);
+    const start = source.indexOf('  function flyToPlace(');
+    vm.runInContext(source.slice(start, source.indexOf('  function navalReviewHref(', start)), ctx);
+    ctx.flyToPlace({ lat: 40.2, lng: 26.3 }, true);
+    assert.equal(calls[0], 'stop');
+    assert.deepEqual(calls[1], { coords: [40.2, 26.3], level: Math.max(13, Math.min(zoom, 14)), duration: motion ? 0.85 : 0 });
+    calls.length = 0;
+    ctx.flyToPlace({ lat: 40.2, lng: 26.3 }, false); ctx.flyToPlace(null, true);
+    assert.deepEqual(calls, []);
+  }
+});
+
+test('başlangıç görünümü oynatmayı ve harita hareketini durdurur; seçimi değiştirmez', () => {
+  let click;
+  const calls = [];
+  const status = {};
+  const ctx = { mapReady: true, D: { center: [40.1, 26.2], defaultZoom: 11 }, motionOn: () => false,
+    map: { stop() { calls.push('map-stop'); }, setView(center, zoom, options) { calls.push([center, zoom, options.animate]); } },
+    stopPlay() { calls.push('stop-play'); }, document: { getElementById: id => id === 'map-reset' ? { addEventListener(type, handler) { click = handler; } } : status } };
+  vm.createContext(ctx);
+  const start = source.indexOf('  var resetView = ');
+  vm.runInContext(source.slice(start, source.indexOf('  var activeId = ', start)), ctx);
+  click();
+  assert.equal(calls[0], 'stop-play'); assert.equal(calls[1], 'map-stop');
+  assert.deepEqual(calls[2], [[40.1, 26.2], 11, false]);
+  assert.match(status.textContent, /Seçili olay, zaman ve süzgeçler korundu/);
+});
+
+test('karttan haritaya dönüş oynatmayı durdurur ve odağı taşır; yeni sekme isteğini korur', () => {
+  let click;
+  const calls = [];
+  const ctx = { document: { getElementById: () => ({ addEventListener(type, fn) { assert.equal(type, 'click'); click = fn; } }) },
+    stopPlay: () => calls.push('stop'), scrollToMap: () => calls.push('scroll'), focusPlaybackMap: () => calls.push('focus') };
+  vm.createContext(ctx);
+  const start = source.indexOf('  var panelMapReturn = ');
+  vm.runInContext(source.slice(start, source.indexOf('  showTime(450, false);', start)), ctx);
+  click({ preventDefault() { calls.push('prevent'); }, button: 0 });
+  assert.deepEqual(calls, ['prevent', 'stop', 'scroll', 'focus']);
+  calls.length = 0;
+  for (const modifier of ['ctrlKey', 'metaKey', 'shiftKey', 'altKey']) {
+    click({ [modifier]: true, preventDefault() { assert.fail('yeni sekme/bağlantı davranışı korunmalı'); } });
+  }
+  click({ button: 1, preventDefault() { assert.fail('orta tıklama korunmalı'); } });
+  assert.deepEqual(calls, []);
+  ctx.document.getElementById = () => null;
+  assert.doesNotThrow(() => vm.runInContext(source.slice(start, source.indexOf('  showTime(450, false);', start)), ctx));
+});
+
 test('Escape ile gizlenen oynatma düğmesindeki odak haritaya döner; dış odak taşınmaz', () => {
   for (const ownsFocus of [true, false]) {
     let keydown, focused = 0, closed = 0, cleared = 0;
@@ -314,12 +404,13 @@ test('Escape ile gizlenen oynatma düğmesindeki odak haritaya döner; dış oda
 });
 
 
-test('kapalı seçili katman açıklanır ve yalnız ilgili katman düğmeyle açılır', () => {
-  let on = false, added = 0, note, status = {}, pressed;
+test('kapalı seçili katman açılırken harita seçili yere döner; kart korunur', () => {
+  let on = false, added = 0, note, status = {}, pressed, stopped = 0, moved = 0;
   const panel = { selectedPlaceId: 'test', inert: false };
   const body = { appendChild(node) { note = node; } };
   const group = { addTo() { on = true; added++; } };
   const ctx = { activeId: 'test', findPlace: () => ({ type: 'gemi', name: 'Test gemisi' }), groups: { gemi: group },
+    stopPlay() { stopped++; }, flyToPlace(place, fly) { moved++; assert.equal(on, true); assert.equal(place.name, 'Test gemisi'); assert.equal(fly, true); },
     map: { hasLayer: () => on }, textEl(tag, text) { return { tag, textContent: text, children: [], appendChild(n) { this.children.push(n); }, addEventListener(name, fn) { this.click = fn; }, contains: () => false, remove() { note = null; } }; },
     document: { activeElement: {}, getElementById(id) { return ({ panel, 'selected-layer-note': note, 'panel-body': body, 'map-view-status': status, layers: { querySelector: () => ({ setAttribute(k, v) { pressed = v; } }) } })[id]; } } };
   vm.createContext(ctx);
@@ -327,6 +418,7 @@ test('kapalı seçili katman açıklanır ve yalnız ilgili katman düğmeyle a�
   vm.runInContext(source.slice(start, source.indexOf('  function paintIcons()', start)), ctx);
   ctx.updateSelectedLayerNotice(); assert.ok(note); assert.equal(added, 0);
   note.children[1].click(); assert.equal(added, 1); assert.equal(pressed, 'true');
+  assert.equal(stopped, 1); assert.equal(moved, 1); assert.equal(panel.selectedPlaceId, 'test');
   assert.equal(note, null); assert.match(status.textContent, /Test gemisi/);
   ctx.updateSelectedLayerNotice(); assert.equal(note, null);
   on = false; ctx.activeId = 'old-marker'; panel.selectedPlaceId = null;
@@ -363,20 +455,36 @@ test('harita işareti seçimi kart başlığına ve geri dönüş için güncel 
   const marker = { addTo() { added.call(this); return this; }, on(name, callback) { if (name === 'add') added = callback; else { assert.equal(name, 'click'); click = callback; } return this; },
     bindTooltip() {}, getElement: () => markerElement };
   const ctx = { L: { marker: () => marker }, groups: { enkaz: {} }, markers: {}, iconFor() {},
-    selectPlace(id, fly) { selected = [id, fly]; }, focusSelectedPanel(trigger) { focused = trigger; } };
+    selectMarkerPlace(id) { selected = id; }, focusSelectedPanel(trigger) { focused = trigger; } };
   vm.createContext(ctx);
   const start = source.indexOf('  function addMarker(');
   const end = source.indexOf('\n  }', start) + 4;
   vm.runInContext(source.slice(start, end), ctx);
   ctx.addMarker({ id: 'ocean', name: 'Ocean', lat: 40, lng: 26, type: 'enkaz' });
   click();
-  assert.deepEqual(selected, ['ocean', false]);
+  assert.equal(selected, 'ocean');
   assert.equal(focused, markerElement);
   assert.equal(ctx.markers.ocean, marker);
   assert.equal(markerElement['aria-label'], 'Ocean');
   delete markerElement['aria-label'];
   added.call(marker);
   assert.equal(markerElement['aria-label'], 'Ocean');
+});
+
+test('işaret seçimi mevki kartını açar; olay, zaman ve süzgeç seçimini değiştirmez', () => {
+  const calls = [];
+  const ctx = { findPlace: id => id === 'mecidiye' ? { id } : null,
+    stopPlay: () => calls.push('stop'), revealDock: () => calls.push('dock'), trackMapSelect: kind => calls.push(kind),
+    openPlace: (id, fly) => calls.push([id, fly]),
+    selectPlace() { assert.fail('İşaret son olay seçimine dönüştürülmemeli'); },
+    sideFilter: 'itilaf', navalMinute: 450, campIndex: 2 };
+  vm.createContext(ctx);
+  const start = source.indexOf('  function selectMarkerPlace(');
+  vm.runInContext(source.slice(start, source.indexOf('  function addMarker(', start)), ctx);
+  ctx.selectMarkerPlace('mecidiye');
+  assert.deepEqual(calls, ['stop', 'dock', 'yer', ['mecidiye', false]]);
+  assert.equal(ctx.sideFilter, 'itilaf'); assert.equal(ctx.navalMinute, 450); assert.equal(ctx.campIndex, 2);
+  calls.length = 0; ctx.selectMarkerPlace('unknown'); assert.deepEqual(calls, []);
 });
 
 test('seçim simgesi yenilendiğinde yer adı korunur; gizli katman hata vermez', () => {
@@ -401,7 +509,7 @@ test('harita işaretinde Enter ve boşluk bir kez seçer; diğer kontroller etki
   let selected = 0, focused = 0, prevented = 0, stopped = 0;
   const target = { closest: () => ({}) };
   const ctx = { markers: { ocean: { getElement: () => target } },
-    selectPlace(id) { assert.equal(id, 'ocean'); selected++; }, focusSelectedPanel(el) { assert.equal(el, target); focused++; } };
+    selectMarkerPlace(id) { assert.equal(id, 'ocean'); selected++; }, focusSelectedPanel(el) { assert.equal(el, target); focused++; } };
   vm.createContext(ctx);
   const start = source.indexOf('  function activateMarkerKey(');
   vm.runInContext(source.slice(start, source.indexOf('  document.addEventListener("keydown", activateMarkerKey', start)), ctx);

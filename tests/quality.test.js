@@ -174,9 +174,13 @@ test("harita kütüphanesi yokken kronoloji çizilir ve arama metni html olmaz",
   load("js/app.js");
   const map = document.getElementById("map");
   assert.equal(map.children[0].className, "map-fallback");
+  assert.equal(map.role, 'region');
+  assert.match(map['aria-label'], /Harita kullanılamıyor/);
   assert.match(map.children[0].children[0].textContent, /Harita kütüphanesi yüklenemedi/);
   assert.match(map.children[0].children[0].textContent, /Kronoloji ve olay listesi kullanılabilir/);
   assert.equal(document.getElementById("map-reset").disabled, true);
+  assert.equal(document.getElementById("tool-layers").disabled, true);
+  assert.match(document.getElementById("layers").children[0].textContent, /Arama ve kronoloji kullanılabilir/);
   assert.ok(document.getElementById("camp-list").children.length > 10);
   assert.ok(document.getElementById("event-list").children.length > 5);
   const injected = document.getElementById("event-list").children.some((li) => /<script/i.test(li.textContent || ""));
@@ -297,7 +301,7 @@ test("atlas araması boş sonucu bildirir, ok tuşları ve Escape ile odağı ko
   const q = el(), results = el(), status = el(), title = el(), more = el(), clear = el();
   const ctx = { document: { getElementById: id => ({ q, 'q-results': results, 'q-status': status, 'panel-title': title, 'q-more': more, 'q-clear': clear }[id]), createElement: el },
     foldTr: value => value.toLowerCase(), allPlaces: () => [{ id: 'a', name: 'Arıburnu' }],
-    D: { events: [] }, selectPlace() {}, revealDock() {}, mode: 'naval', panelRevision: 0, stopPlay() {} };
+    D: { events: [] }, map: {}, selectPlace() {}, revealDock() {}, mode: 'naval', panelRevision: 0, stopPlay() {} };
   vm.createContext(ctx);
   vm.runInContext(source.slice(source.indexOf('  var q = document.getElementById("q");'), source.indexOf('  var clock = document.getElementById("clock");')), ctx);
   function key(target, name, item) {

@@ -25,6 +25,52 @@
       return url.pathname + url.search + url.hash;
     } catch (error) { return ''; }
   }
+  function commandersReturnUrl(value) {
+    if (!value || value.length > 4000 || value.indexOf('/komutanlar/') !== 0) return '';
+    try {
+      var url = new URL(value, window.location.href);
+      if (url.origin !== window.location.origin || url.pathname !== '/komutanlar/' || url.hash !== '#commanders-search') return '';
+      var keys = Array.from(url.searchParams.keys());
+      if (keys.some(function (key) { return ['q', 'taraf'].indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return '';
+      if (url.searchParams.has('q') && url.searchParams.get('q').length > 200) return '';
+      if (url.searchParams.has('taraf') && ['osmanli', 'itilaf'].indexOf(url.searchParams.get('taraf')) === -1) return '';
+      return url.pathname + url.search + url.hash;
+    } catch (error) { return ''; }
+  }
+  function eventReturnUrl(value) {
+    if (!value || value.length > 8000 || value.indexOf('/olaylar/') !== 0) return '';
+    try {
+      var url = new URL(value, window.location.href);
+      if (url.origin !== window.location.origin || !/^\/olaylar\/[a-z0-9-]+\/$/.test(url.pathname)) return '';
+      if (url.hash && !/^#[a-z0-9-]+$/.test(url.hash)) return '';
+      var keys = Array.from(url.searchParams.keys());
+      if (keys.some(function (key) { return ['listeyeDon', 'atlasaDon'].indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return '';
+      if (url.searchParams.has('listeyeDon') && !eventListReturnUrl(url.searchParams.get('listeyeDon'))) return '';
+      if (url.searchParams.has('atlasaDon') && !atlasReturnUrl(url.searchParams.get('atlasaDon'))) return '';
+      return url.pathname + url.search + url.hash;
+    } catch (error) { return ''; }
+  }
+  var eventReturn = window.location && window.location.search ? eventReturnUrl(new URLSearchParams(window.location.search).get('olayaDon')) : '';
+  if (eventReturn) {
+    var backToList = document.querySelector('.back-link');
+    if (backToList && !document.getElementById('event-context-return')) {
+      var backToEvent = document.createElement('p');
+      backToEvent.id = 'event-context-return';
+      var eventLink = document.createElement('a');
+      eventLink.className = 'btn';
+      eventLink.href = eventReturn;
+      eventLink.textContent = 'Okuduğunuz olaya dön';
+      backToEvent.appendChild(eventLink);
+      backToList.parentNode.insertBefore(backToEvent, backToList);
+    }
+  }
+  var commandersReturn = window.location && window.location.search ? commandersReturnUrl(new URLSearchParams(window.location.search).get('komutanlaraDon')) : '';
+  if (commandersReturn) {
+    document.querySelectorAll('.back-link a[href^="/komutanlar/"]').forEach(function (link) {
+      link.href = commandersReturn;
+      link.textContent = 'Komutan aramasına dön';
+    });
+  }
   var listReturn = window.location && window.location.search ? eventListReturnUrl(new URLSearchParams(window.location.search).get('listeyeDon')) : '';
   if (listReturn) {
     document.querySelectorAll('.event-actions a[href^="/olaylar/"], .back-link a[href^="/olaylar/"], .event-all-records a').forEach(function (link) {
@@ -54,6 +100,24 @@
         link.href = url.pathname + url.search + url.hash;
       } catch (error) { /* Invalid editorial links must not interrupt navigation. */ }
     });
+  }
+  if (window.location && window.location.href) {
+    try {
+      var currentEvent = new URL(window.location.href);
+      if (/^\/olaylar\/[a-z0-9-]+\/$/.test(currentEvent.pathname)) {
+        var eventContext = new URL(currentEvent.pathname, currentEvent.origin);
+        if (listReturn) eventContext.searchParams.set('listeyeDon', listReturn);
+        if (returnUrl) eventContext.searchParams.set('atlasaDon', returnUrl);
+        eventContext.hash = currentEvent.hash;
+        var eventBackHref = eventReturnUrl(eventContext.pathname + eventContext.search + eventContext.hash);
+        if (eventBackHref) document.querySelectorAll('.page-main a[href^="/komutanlar/"]').forEach(function (link) {
+          var destination = new URL(link.href, currentEvent.href);
+          if (destination.origin !== currentEvent.origin || !/^\/komutanlar\/[a-z0-9-]+\/$/.test(destination.pathname)) return;
+          destination.searchParams.set('olayaDon', eventBackHref);
+          link.href = destination.pathname + destination.search + destination.hash;
+        });
+      }
+    } catch (error) { /* Keep normal links if a reading context cannot be formed. */ }
   }
   var button = document.getElementById("nav-toggle");
   var panel = document.getElementById("nav-panel");

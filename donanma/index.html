@@ -16,20 +16,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261017b">
+  <link rel="stylesheet" href="/css/style.css?v=20261020k">
   <link rel="stylesheet" href="/css/photo-archive.css?v=20261019g">
   <style>
     [data-navy-group][hidden], .ship-card[hidden], .navy-search[hidden] { display: none; }
     .navy-search { margin: 24px 0; max-width: 65ch; }
     .navy-search-return { display: inline-flex; align-items: center; min-height: 44px; margin: 8px 0; }
-    #navy-search, .ship-card, [data-navy-group] > h2 { scroll-margin-top: 100px; }
+    #navy-search, #navy-results, .ship-card, [data-navy-group] > h2 { scroll-margin-top: 100px; }
     .navy-search label { display: block; margin-bottom: 8px; }
     .navy-search > div { display: flex; gap: 8px; }
     .navy-search input { min-width: 0; flex: 1; width: 100%; font: inherit; font-size: 16px; padding: 10px; }
     .navy-search .navy-name-only { display: flex; align-items: center; gap: 10px; min-height: 44px; margin: 8px 0; }
     .navy-search .navy-name-only input { flex: none; width: 20px; height: 20px; margin: 0; padding: 0; }
     .navy-search button { min-height: 44px; padding: 8px 12px; font: inherit; }
-    .navy-search input:focus-visible, .navy-search button:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+    .navy-search input:focus-visible, .navy-search button:focus-visible, .ship-card:focus-visible, #navy-results:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 
     .ship-card .ship-copy { margin: 8px 0 10px; max-width: 65ch; }
     .ship-card .ship-copy p { margin: 0 0 8px; }
@@ -106,9 +106,10 @@
 
 <form id="navy-search" class="navy-search" role="search" hidden>
 <label for="navy-query">Gemi veya grup ara</label>
-<div><input id="navy-query" type="search" placeholder="Örneğin: Ocean, Muavenet, muhrip" aria-describedby="navy-search-help navy-results" autocomplete="off"><button id="navy-clear" type="button">Temizle</button></div>
+<div><input id="navy-query" type="search" maxlength="200" placeholder="Örneğin: Ocean, Muavenet, muhrip" aria-describedby="navy-search-help navy-results" autocomplete="off"><button id="navy-clear" type="button">Temizle</button></div>
 <label class="navy-name-only"><input id="navy-name-only" type="checkbox"> Yalnız gemi veya grup adında ara</label>
 <p id="navy-search-help">Arama, gemi adlarıyla birlikte kart açıklamalarını da kapsar. Fotoğraf arşivi aşağıda ayrıca gösterilir.</p>
+<button class="btn" type="submit">Sonuçlara git</button>
 <p id="navy-results" role="status" aria-live="polite" aria-atomic="true"></p>
 <p><a id="navy-search-link" href="/donanma/#navy-search">Bu aramanın bağlantısı</a></p>
 </form>
@@ -585,7 +586,8 @@
   <div class="ship-copy">
     <p>HMS Goliath, Britanya ön-dretnotudur. 18 Mart’ın 18 ana gemilik listesinde yoktur ve o gün batmış değildir. 13 Mayıs 1915’te Morto Koyu’nda Osmanlı muhribi Muavenet-i Milliye tarafından batırılır.</p>
   </div>
-  <p><a class="btn" href="/?mevki=morto#harita">Haritada göster</a></p>
+  <p class="accuracy">Bu bağlantı Morto Koyu saha işaretine gider; Goliath enkazının koordinatını göstermez.</p>
+  <p><a class="btn" href="/?mevki=morto#harita">Morto Koyu saha işaretini aç</a></p>
 </article>
 
 <article class="ship-card" id="triumph-sonra">
@@ -601,7 +603,8 @@
   <div class="ship-copy">
     <p>HMS Triumph, 18 Mart ana listesindeki Britanya ön-dretnotudur ve o gün batmaz. Sonraki batış 25 Mayıs 1915’te Arıburnu açığında, Alman denizaltısı U-21 tarafından olur. Bu batış 18 Mart sütununa yazılmaz.</p>
   </div>
-  <p><a class="btn" href="/?mevki=ariburnu#harita">Haritada göster</a></p>
+  <p class="accuracy">Bu bağlantı Arıburnu mevkiine gider; Triumph enkazının koordinatını göstermez.</p>
+  <p><a class="btn" href="/?mevki=ariburnu#harita">Arıburnu mevki kartını aç</a></p>
 </article>
 
 <article class="ship-card" id="majestic-sonra">
@@ -617,7 +620,8 @@
   <div class="ship-copy">
     <p>HMS Majestic, 18 Mart’ta C Hattı’ndaki Britanya ön-dretnotudur ve o gün batmaz. Sonraki batış 27 Mayıs 1915’te Seddülbahir açığında U-21 tarafından olur. Bu batış 18 Mart gününe ait değildir.</p>
   </div>
-  <p><a class="btn" href="/?mevki=seddulbahir#harita">Haritada göster</a></p>
+  <p class="accuracy">Bu bağlantı Seddülbahir mevkiine gider; Majestic enkazının koordinatını göstermez.</p>
+  <p><a class="btn" href="/?mevki=seddulbahir#harita">Seddülbahir mevki kartını aç</a></p>
 </article>
 </section>
 <!-- photo-archive:start -->
@@ -711,7 +715,7 @@
   </div>
 </footer>
 <script src="/js/navigation.js?v=20261020a" defer></script>
-<script src="/js/navy-search.js?v=20261019h" defer></script>
+<script src="/js/navy-search.js?v=20261021a" defer></script>
 <script src="/js/photo-archive.js?v=20261019i" defer></script>
 </body>
 </html>

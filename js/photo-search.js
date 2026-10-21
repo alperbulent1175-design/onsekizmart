@@ -65,7 +65,16 @@
     select.value = ['gemiler', 'denizciler', 'komutanlar', 'olaylar'].includes(type) ? type : '';
     update(false);
   }
-  form.addEventListener('submit', function (event) { event.preventDefault(); update(); });
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    update();
+    var first = cards.find(function (card) { return !card.node.hidden; });
+    var target = first ? first.node.querySelector('a') : empty;
+    if (!target) return;
+    if (!first) target.setAttribute('tabindex', '-1');
+    target.focus({ preventScroll: true });
+    (first ? first.node : empty).scrollIntoView({ block: 'start' });
+  });
   input.addEventListener('input', update);
   input.addEventListener('keydown', function (event) {
     if (event.key !== 'Escape' || !input.value) return;

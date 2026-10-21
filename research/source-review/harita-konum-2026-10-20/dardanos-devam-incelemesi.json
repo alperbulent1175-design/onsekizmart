@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-20",
+  "id": "dardanos",
+  "coordinates": [
+    40.085728,
+    26.371181
+  ],
+  "changed": false,
+  "review": {
+    "url": "https://www.kulturportali.gov.tr/turkiye/canakkale/ilprojeleri/troia-antik-kenti-cevre-duzenleme-uygulamalari",
+    "label": "Kültür Portalı · Hasan Mevsuf Şehitliği Tabya ve Bataryalarının Restorasyonu",
+    "evidenceText": "İlimiz, Merkez Çınarlı Köyünde bulunan Hasan Mevsuf Şehitliği",
+    "date": "2026-10-20",
+    "status": "anlatim_incelendi_nokta_dogrulanmadi"
+  },
+  "limit": "Tabya alanı için temsili noktadır; şehitlik, top mevzii ve rasat yerinin kesin noktaları olarak doğrulanmadı. Restorasyon kaydındaki yer adı sayısal koordinat kanıtı değildir.",
+  "summaryChange": "Özetteki 17.15 kesin isabet saati kaldırıldı; bu kaynak saat veya rasat koordinatı doğrulaması değildir. Eski taslak notların doğrulama statüsü yükseltilmedi."
+}

@@ -8,9 +8,10 @@ function setup(href = 'https://onsekizmart.com/fotograf-arsivi/') {
   const input = { value: '', focus() { this.focused = true; }, addEventListener(type, fn) { handlers[type] = fn; } };
   const select = { value: '', addEventListener(type, fn) { handlers[type] = fn; } };
   const form = { hidden: true, querySelector(s) { return s === 'input' ? input : select; }, addEventListener(type, fn) { handlers[type] = fn; } };
-  const status = {}, empty = {};
+  const status = {}, empty = { setAttribute(key, value) { this[key] = value; }, focus() { this.focused = true; }, scrollIntoView() { this.scrolled = true; } };
   const sections = [['gemiler', 'Ocean Süveyş A02360'], ['komutanlar', 'Mustafa Kemal A05319'], ['olaylar', 'Kanlısırt A02599']].map(([category, text]) => {
-    const card = { textContent: text, hidden: false };
+    const link = { focus() { this.focused = true; } };
+    const card = { textContent: text, hidden: false, link, querySelector() { return link; }, scrollIntoView() { this.scrolled = true; } };
     return { card, getAttribute() { return category; }, querySelectorAll() { return [card]; } };
   });
   const sectionLinks = sections.map(section => ({ textContent: section.getAttribute(), attributes: {}, getAttribute(name) { return name === 'href' ? '#' + section.getAttribute() : this.attributes[name]; }, setAttribute(name, value) { this.attributes[name] = value; }, removeAttribute(name) { delete this.attributes[name]; }, addEventListener(type, fn) { this[type] = fn; } }));
@@ -28,6 +29,19 @@ test('Türkçe arama ve kategori birlikte uygulanır; boş sonuç açıkça bild
   s.select.value = 'komutanlar'; s.handlers.change();
   assert.equal(s.empty.hidden, false);
   assert.equal(s.status.textContent, '0 / 3 fotoğraf gösteriliyor.');
+});
+
+test('fotoğraf aramasında Enter görünür görsele, boş sonuçta açıklamaya odak verir', () => {
+  const s = setup();
+  s.input.value = 'Mustafa Kemal'; s.handlers.input();
+  let prevented = false;
+  s.handlers.submit({ preventDefault() { prevented = true; } });
+  assert.equal(prevented, true);
+  assert.ok(s.sections[1].card.link.focused); assert.ok(s.sections[1].card.scrolled);
+  assert.equal(s.sections[0].card.link.focused, undefined);
+  s.input.value = 'bulunmayan'; s.handlers.input();
+  s.handlers.submit({ preventDefault() {} });
+  assert.ok(s.empty.focused); assert.ok(s.empty.scrolled); assert.equal(s.empty.tabindex, '-1');
 });
 test('paylaşılan bağlantı aramayı açar; değişiklik diğer parametre ve bölüm bağını korur', () => {
   const s = setup('https://onsekizmart.com/fotograf-arsivi/?q=S%C3%BCvey%C5%9F&tur=gemiler&ref=atlas#gemiler');

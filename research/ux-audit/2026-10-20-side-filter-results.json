@@ -1,0 +1,506 @@
+[
+  {
+    "width": 320,
+    "pass": true,
+    "checks": [
+      {
+        "name": "İtilaf ilk uygun kaydı açar",
+        "pass": true,
+        "detail": {
+          "title": "Donanma intikali",
+          "meta": "18 Mart 1915 · Saat doğrulanmadı · İtilaf · HMS Ark Royal (deniz uçağı gemisi)",
+          "open": true,
+          "status": "Bu seçimdeki ilk kayıt açıldı. 18 Mart · İtilaf: 19 kayıt. 4 ortak kayıt bu seçime dahildir.",
+          "value": "510",
+          "pins": [
+            "Anadolu Hamidiye Tabyası",
+            "Bouvet — yaklaşık gösterim",
+            "Gaulois — konum doğrulaması açık",
+            "HMS Ark Royal (deniz uçağı gemisi)",
+            "HMS Inflexible — yaklaşık hasar gösterimi",
+            "HMS Irresistible — enkaz konumu",
+            "HMS Ocean — yaklaşık gösterim",
+            "Seddülbahir",
+            "Çanakkale Müstahkem Mevkii Karargâhı",
+            "Çimenlik Tabyası (Kale-i Sultaniye)"
+          ],
+          "count": 19
+        }
+      },
+      {
+        "name": "İtilaf listesi gerçek veriyle eşleşir",
+        "pass": true,
+        "detail": 19
+      },
+      {
+        "name": "İtilaf işaretleri olay konumlarından gelir",
+        "pass": true,
+        "detail": [
+          "Anadolu Hamidiye Tabyası",
+          "Bouvet — yaklaşık gösterim",
+          "Gaulois — konum doğrulaması açık",
+          "HMS Ark Royal (deniz uçağı gemisi)",
+          "HMS Inflexible — yaklaşık hasar gösterimi",
+          "HMS Irresistible — enkaz konumu",
+          "HMS Ocean — yaklaşık gösterim",
+          "Seddülbahir",
+          "Çanakkale Müstahkem Mevkii Karargâhı",
+          "Çimenlik Tabyası (Kale-i Sultaniye)"
+        ]
+      },
+      {
+        "name": "Temizle tüm deniz kayıtlarını ve işaretleri geri getirir",
+        "pass": true,
+        "detail": {
+          "title": "Donanma intikali",
+          "meta": "18 Mart 1915 · Saat doğrulanmadı · İtilaf · HMS Ark Royal (deniz uçağı gemisi)",
+          "open": true,
+          "status": "Süzgeçler temizlendi; iki taraf ve tüm olay türleri gösteriliyor. 18 Mart · İki taraf: 31 kayıt.",
+          "value": "510",
+          "pins": [
+            "11. Tümen",
+            "19. Tümen — genel ihtiyat",
+            "3. Kolordu Komutanlığı",
+            "7. Tümen",
+            "9. Tümen",
+            "Anadolu Hamidiye Tabyası",
+            "Bouvet — yaklaşık gösterim",
+            "Dardanos Tabyası (Hasan-Mevsuf)",
+            "Gaulois — konum doğrulaması açık",
+            "HMS Ark Royal (deniz uçağı gemisi)",
+            "HMS Inflexible — yaklaşık hasar gösterimi",
+            "HMS Irresistible — enkaz konumu",
+            "HMS Ocean — yaklaşık gösterim",
+            "Kilitbahir Kalesi",
+            "Kumkale",
+            "Mayın ve Deniz Savunma Grubu",
+            "Mesudiye / Yıldız / Baykuş bataryaları",
+            "Namazgâh Tabyası",
+            "Rumeli Hamidiye Tabyası",
+            "Rumeli Mecidiye Tabyası",
+            "Seddülbahir",
+            "Çanakkale Müstahkem Mevkii Karargâhı",
+            "Çimenlik Tabyası (Kale-i Sultaniye)"
+          ],
+          "count": 31
+        }
+      },
+      {
+        "name": "Temizle uyumlu kaydı korur ve sonucu açıklar",
+        "pass": true,
+        "detail": "Süzgeçler temizlendi; iki taraf ve tüm olay türleri gösteriliyor. 18 Mart · İki taraf: 31 kayıt."
+      },
+      {
+        "name": "Osmanlı İtilaf kaydında kalmaz",
+        "pass": true,
+        "detail": "18 Mart 1915 · Saat doğrulanmadı · Osmanlı · Çanakkale Müstahkem Mevkii Karargâhı"
+      },
+      {
+        "name": "Ortak olay iki tarafta korunur ve açıklanır",
+        "pass": true,
+        "detail": {
+          "title": "Göğüs göğüse düello",
+          "meta": "18 Mart 1915 · Saat doğrulanmadı · İki taraf · Anadolu Hamidiye Tabyası",
+          "open": true,
+          "status": "18 Mart · İtilaf: 19 kayıt. 4 ortak kayıt bu seçime dahildir.",
+          "value": "740",
+          "pins": [
+            "Anadolu Hamidiye Tabyası",
+            "Bouvet — yaklaşık gösterim",
+            "Gaulois — konum doğrulaması açık",
+            "HMS Ark Royal (deniz uçağı gemisi)",
+            "HMS Inflexible — yaklaşık hasar gösterimi",
+            "HMS Irresistible — enkaz konumu",
+            "HMS Ocean — yaklaşık gösterim",
+            "Seddülbahir",
+            "Çanakkale Müstahkem Mevkii Karargâhı",
+            "Çimenlik Tabyası (Kale-i Sultaniye)"
+          ],
+          "count": 19
+        }
+      },
+      {
+        "name": "Cepheden 18 Mart’a dönüşte İtilaf kaydı açılır",
+        "pass": true,
+        "detail": {
+          "title": "Donanma intikali",
+          "meta": "18 Mart 1915 · Saat doğrulanmadı · İtilaf · HMS Ark Royal (deniz uçağı gemisi)",
+          "open": true,
+          "status": "18 Mart · İtilaf: 19 kayıt. 4 ortak kayıt bu seçime dahildir.",
+          "value": "510",
+          "pins": [
+            "Anadolu Hamidiye Tabyası",
+            "Bouvet — yaklaşık gösterim",
+            "Gaulois — konum doğrulaması açık",
+            "HMS Ark Royal (deniz uçağı gemisi)",
+            "HMS Inflexible — yaklaşık hasar gösterimi",
+            "HMS Irresistible — enkaz konumu",
+            "HMS Ocean — yaklaşık gösterim",
+            "Seddülbahir",
+            "Çanakkale Müstahkem Mevkii Karargâhı",
+            "Çimenlik Tabyası (Kale-i Sultaniye)"
+          ],
+          "count": 19
+        }
+      },
+      {
+        "name": "Taraf ve kara seçimi birleşir",
+        "pass": true,
+        "detail": "34 / 44 kayıt gösteriliyor. Bunların 13 tanesi aralık notudur; ayrı bir muharebe değildir."
+      },
+      {
+        "name": "Temizle iki seçimi birlikte sıfırlar",
+        "pass": true,
+        "detail": "44 / 44 kayıt gösteriliyor. Bunların 15 tanesi aralık notudur; ayrı bir muharebe değildir."
+      },
+      {
+        "name": "Temizle bağımsız katman seçimini değiştirmez",
+        "pass": true
+      },
+      {
+        "name": "Yatay taşma yok",
+        "pass": true,
+        "detail": {
+          "scroll": 305,
+          "client": 305
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "pass": true,
+    "checks": [
+      {
+        "name": "İtilaf ilk uygun kaydı açar",
+        "pass": true,
+        "detail": {
+          "title": "Donanma intikali",
+          "meta": "18 Mart 1915 · Saat doğrulanmadı · İtilaf · HMS Ark Royal (deniz uçağı gemisi)",
+          "open": true,
+          "status": "Bu seçimdeki ilk kayıt açıldı. 18 Mart · İtilaf: 19 kayıt. 4 ortak kayıt bu seçime dahildir.",
+          "value": "510",
+          "pins": [
+            "Anadolu Hamidiye Tabyası",
+            "Bouvet — yaklaşık gösterim",
+            "Gaulois — konum doğrulaması açık",
+            "HMS Ark Royal (deniz uçağı gemisi)",
+            "HMS Inflexible — yaklaşık hasar gösterimi",
+            "HMS Irresistible — enkaz konumu",
+            "HMS Ocean — yaklaşık gösterim",
+            "Seddülbahir",
+            "Çanakkale Müstahkem Mevkii Karargâhı",
+            "Çimenlik Tabyası (Kale-i Sultaniye)"
+          ],
+          "count": 19
+        }
+      },
+      {
+        "name": "İtilaf listesi gerçek veriyle eşleşir",
+        "pass": true,
+        "detail": 19
+      },
+      {
+        "name": "İtilaf işaretleri olay konumlarından gelir",
+        "pass": true,
+        "detail": [
+          "Anadolu Hamidiye Tabyası",
+          "Bouvet — yaklaşık gösterim",
+          "Gaulois — konum doğrulaması açık",
+          "HMS Ark Royal (deniz uçağı gemisi)",
+          "HMS Inflexible — yaklaşık hasar gösterimi",
+          "HMS Irresistible — enkaz konumu",
+          "HMS Ocean — yaklaşık gösterim",
+          "Seddülbahir",
+          "Çanakkale Müstahkem Mevkii Karargâhı",
+          "Çimenlik Tabyası (Kale-i Sultaniye)"
+        ]
+      },
+      {
+        "name": "Temizle tüm deniz kayıtlarını ve işaretleri geri getirir",
+        "pass": true,
+        "detail": {
+          "title": "Donanma intikali",
+          "meta": "18 Mart 1915 · Saat doğrulanmadı · İtilaf · HMS Ark Royal (deniz uçağı gemisi)",
+          "open": true,
+          "status": "Süzgeçler temizlendi; iki taraf ve tüm olay türleri gösteriliyor. 18 Mart · İki taraf: 31 kayıt.",
+          "value": "510",
+          "pins": [
+            "11. Tümen",
+            "19. Tümen — genel ihtiyat",
+            "3. Kolordu Komutanlığı",
+            "7. Tümen",
+            "9. Tümen",
+            "Anadolu Hamidiye Tabyası",
+            "Bouvet — yaklaşık gösterim",
+            "Dardanos Tabyası (Hasan-Mevsuf)",
+            "Gaulois — konum doğrulaması açık",
+            "HMS Ark Royal (deniz uçağı gemisi)",
+            "HMS Inflexible — yaklaşık hasar gösterimi",
+            "HMS Irresistible — enkaz konumu",
+            "HMS Ocean — yaklaşık gösterim",
+            "Kilitbahir Kalesi",
+            "Kumkale",
+            "Mayın ve Deniz Savunma Grubu",
+            "Mesudiye / Yıldız / Baykuş bataryaları",
+            "Namazgâh Tabyası",
+            "Rumeli Hamidiye Tabyası",
+            "Rumeli Mecidiye Tabyası",
+            "Seddülbahir",
+            "Çanakkale Müstahkem Mevkii Karargâhı",
+            "Çimenlik Tabyası (Kale-i Sultaniye)"
+          ],
+          "count": 31
+        }
+      },
+      {
+        "name": "Temizle uyumlu kaydı korur ve sonucu açıklar",
+        "pass": true,
+        "detail": "Süzgeçler temizlendi; iki taraf ve tüm olay türleri gösteriliyor. 18 Mart · İki taraf: 31 kayıt."
+      },
+      {
+        "name": "Osmanlı İtilaf kaydında kalmaz",
+        "pass": true,
+        "detail": "18 Mart 1915 · Saat doğrulanmadı · Osmanlı · Çanakkale Müstahkem Mevkii Karargâhı"
+      },
+      {
+        "name": "Ortak olay iki tarafta korunur ve açıklanır",
+        "pass": true,
+        "detail": {
+          "title": "Göğüs göğüse düello",
+          "meta": "18 Mart 1915 · Saat doğrulanmadı · İki taraf · Anadolu Hamidiye Tabyası",
+          "open": true,
+          "status": "18 Mart · İtilaf: 19 kayıt. 4 ortak kayıt bu seçime dahildir.",
+          "value": "740",
+          "pins": [
+            "Anadolu Hamidiye Tabyası",
+            "Bouvet — yaklaşık gösterim",
+            "Gaulois — konum doğrulaması açık",
+            "HMS Ark Royal (deniz uçağı gemisi)",
+            "HMS Inflexible — yaklaşık hasar gösterimi",
+            "HMS Irresistible — enkaz konumu",
+            "HMS Ocean — yaklaşık gösterim",
+            "Seddülbahir",
+            "Çanakkale Müstahkem Mevkii Karargâhı",
+            "Çimenlik Tabyası (Kale-i Sultaniye)"
+          ],
+          "count": 19
+        }
+      },
+      {
+        "name": "Cepheden 18 Mart’a dönüşte İtilaf kaydı açılır",
+        "pass": true,
+        "detail": {
+          "title": "Donanma intikali",
+          "meta": "18 Mart 1915 · Saat doğrulanmadı · İtilaf · HMS Ark Royal (deniz uçağı gemisi)",
+          "open": true,
+          "status": "18 Mart · İtilaf: 19 kayıt. 4 ortak kayıt bu seçime dahildir.",
+          "value": "510",
+          "pins": [
+            "Anadolu Hamidiye Tabyası",
+            "Bouvet — yaklaşık gösterim",
+            "Gaulois — konum doğrulaması açık",
+            "HMS Ark Royal (deniz uçağı gemisi)",
+            "HMS Inflexible — yaklaşık hasar gösterimi",
+            "HMS Irresistible — enkaz konumu",
+            "HMS Ocean — yaklaşık gösterim",
+            "Seddülbahir",
+            "Çanakkale Müstahkem Mevkii Karargâhı",
+            "Çimenlik Tabyası (Kale-i Sultaniye)"
+          ],
+          "count": 19
+        }
+      },
+      {
+        "name": "Taraf ve kara seçimi birleşir",
+        "pass": true,
+        "detail": "34 / 44 kayıt gösteriliyor. Bunların 13 tanesi aralık notudur; ayrı bir muharebe değildir."
+      },
+      {
+        "name": "Temizle iki seçimi birlikte sıfırlar",
+        "pass": true,
+        "detail": "44 / 44 kayıt gösteriliyor. Bunların 15 tanesi aralık notudur; ayrı bir muharebe değildir."
+      },
+      {
+        "name": "Temizle bağımsız katman seçimini değiştirmez",
+        "pass": true
+      },
+      {
+        "name": "Yatay taşma yok",
+        "pass": true,
+        "detail": {
+          "scroll": 375,
+          "client": 375
+        }
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "pass": true,
+    "checks": [
+      {
+        "name": "İtilaf ilk uygun kaydı açar",
+        "pass": true,
+        "detail": {
+          "title": "Donanma intikali",
+          "meta": "18 Mart 1915 · Saat doğrulanmadı · İtilaf · HMS Ark Royal (deniz uçağı gemisi)",
+          "open": true,
+          "status": "Bu seçimdeki ilk kayıt açıldı. 18 Mart · İtilaf: 19 kayıt. 4 ortak kayıt bu seçime dahildir.",
+          "value": "510",
+          "pins": [
+            "Anadolu Hamidiye Tabyası",
+            "Bouvet — yaklaşık gösterim",
+            "Gaulois — konum doğrulaması açık",
+            "HMS Ark Royal (deniz uçağı gemisi)",
+            "HMS Inflexible — yaklaşık hasar gösterimi",
+            "HMS Irresistible — enkaz konumu",
+            "HMS Ocean — yaklaşık gösterim",
+            "Seddülbahir",
+            "Çanakkale Müstahkem Mevkii Karargâhı",
+            "Çimenlik Tabyası (Kale-i Sultaniye)"
+          ],
+          "count": 19
+        }
+      },
+      {
+        "name": "İtilaf listesi gerçek veriyle eşleşir",
+        "pass": true,
+        "detail": 19
+      },
+      {
+        "name": "İtilaf işaretleri olay konumlarından gelir",
+        "pass": true,
+        "detail": [
+          "Anadolu Hamidiye Tabyası",
+          "Bouvet — yaklaşık gösterim",
+          "Gaulois — konum doğrulaması açık",
+          "HMS Ark Royal (deniz uçağı gemisi)",
+          "HMS Inflexible — yaklaşık hasar gösterimi",
+          "HMS Irresistible — enkaz konumu",
+          "HMS Ocean — yaklaşık gösterim",
+          "Seddülbahir",
+          "Çanakkale Müstahkem Mevkii Karargâhı",
+          "Çimenlik Tabyası (Kale-i Sultaniye)"
+        ]
+      },
+      {
+        "name": "Temizle tüm deniz kayıtlarını ve işaretleri geri getirir",
+        "pass": true,
+        "detail": {
+          "title": "Donanma intikali",
+          "meta": "18 Mart 1915 · Saat doğrulanmadı · İtilaf · HMS Ark Royal (deniz uçağı gemisi)",
+          "open": true,
+          "status": "Süzgeçler temizlendi; iki taraf ve tüm olay türleri gösteriliyor. 18 Mart · İki taraf: 31 kayıt.",
+          "value": "510",
+          "pins": [
+            "11. Tümen",
+            "19. Tümen — genel ihtiyat",
+            "3. Kolordu Komutanlığı",
+            "7. Tümen",
+            "9. Tümen",
+            "Anadolu Hamidiye Tabyası",
+            "Bouvet — yaklaşık gösterim",
+            "Dardanos Tabyası (Hasan-Mevsuf)",
+            "Gaulois — konum doğrulaması açık",
+            "HMS Ark Royal (deniz uçağı gemisi)",
+            "HMS Inflexible — yaklaşık hasar gösterimi",
+            "HMS Irresistible — enkaz konumu",
+            "HMS Ocean — yaklaşık gösterim",
+            "Kilitbahir Kalesi",
+            "Kumkale",
+            "Mayın ve Deniz Savunma Grubu",
+            "Mesudiye / Yıldız / Baykuş bataryaları",
+            "Namazgâh Tabyası",
+            "Rumeli Hamidiye Tabyası",
+            "Rumeli Mecidiye Tabyası",
+            "Seddülbahir",
+            "Çanakkale Müstahkem Mevkii Karargâhı",
+            "Çimenlik Tabyası (Kale-i Sultaniye)"
+          ],
+          "count": 31
+        }
+      },
+      {
+        "name": "Temizle uyumlu kaydı korur ve sonucu açıklar",
+        "pass": true,
+        "detail": "Süzgeçler temizlendi; iki taraf ve tüm olay türleri gösteriliyor. 18 Mart · İki taraf: 31 kayıt."
+      },
+      {
+        "name": "Osmanlı İtilaf kaydında kalmaz",
+        "pass": true,
+        "detail": "18 Mart 1915 · Saat doğrulanmadı · Osmanlı · Çanakkale Müstahkem Mevkii Karargâhı"
+      },
+      {
+        "name": "Ortak olay iki tarafta korunur ve açıklanır",
+        "pass": true,
+        "detail": {
+          "title": "Göğüs göğüse düello",
+          "meta": "18 Mart 1915 · Saat doğrulanmadı · İki taraf · Anadolu Hamidiye Tabyası",
+          "open": true,
+          "status": "18 Mart · İtilaf: 19 kayıt. 4 ortak kayıt bu seçime dahildir.",
+          "value": "740",
+          "pins": [
+            "Anadolu Hamidiye Tabyası",
+            "Bouvet — yaklaşık gösterim",
+            "Gaulois — konum doğrulaması açık",
+            "HMS Ark Royal (deniz uçağı gemisi)",
+            "HMS Inflexible — yaklaşık hasar gösterimi",
+            "HMS Irresistible — enkaz konumu",
+            "HMS Ocean — yaklaşık gösterim",
+            "Seddülbahir",
+            "Çanakkale Müstahkem Mevkii Karargâhı",
+            "Çimenlik Tabyası (Kale-i Sultaniye)"
+          ],
+          "count": 19
+        }
+      },
+      {
+        "name": "Cepheden 18 Mart’a dönüşte İtilaf kaydı açılır",
+        "pass": true,
+        "detail": {
+          "title": "Donanma intikali",
+          "meta": "18 Mart 1915 · Saat doğrulanmadı · İtilaf · HMS Ark Royal (deniz uçağı gemisi)",
+          "open": true,
+          "status": "18 Mart · İtilaf: 19 kayıt. 4 ortak kayıt bu seçime dahildir.",
+          "value": "510",
+          "pins": [
+            "Anadolu Hamidiye Tabyası",
+            "Bouvet — yaklaşık gösterim",
+            "Gaulois — konum doğrulaması açık",
+            "HMS Ark Royal (deniz uçağı gemisi)",
+            "HMS Inflexible — yaklaşık hasar gösterimi",
+            "HMS Irresistible — enkaz konumu",
+            "HMS Ocean — yaklaşık gösterim",
+            "Seddülbahir",
+            "Çanakkale Müstahkem Mevkii Karargâhı",
+            "Çimenlik Tabyası (Kale-i Sultaniye)"
+          ],
+          "count": 19
+        }
+      },
+      {
+        "name": "Taraf ve kara seçimi birleşir",
+        "pass": true,
+        "detail": "34 / 44 kayıt gösteriliyor. Bunların 13 tanesi aralık notudur; ayrı bir muharebe değildir."
+      },
+      {
+        "name": "Temizle iki seçimi birlikte sıfırlar",
+        "pass": true,
+        "detail": "44 / 44 kayıt gösteriliyor. Bunların 15 tanesi aralık notudur; ayrı bir muharebe değildir."
+      },
+      {
+        "name": "Temizle bağımsız katman seçimini değiştirmez",
+        "pass": true
+      },
+      {
+        "name": "Yatay taşma yok",
+        "pass": true,
+        "detail": {
+          "scroll": 1265,
+          "client": 1265
+        }
+      }
+    ]
+  }
+]

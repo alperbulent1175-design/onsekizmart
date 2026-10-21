@@ -15,12 +15,11 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://unpkg.com" crossorigin>
   <link rel="preconnect" href="https://server.arcgisonline.com">
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet"></noscript>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-  <link rel="stylesheet" href="css/style.css?v=20261020f">
+  <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="css/style.css?v=20261021a">
   <noscript><style>
     body.home .map-help-row, body.home .tool-row, body.home .atlas-grid,
     body.home #secilmis, body.home #camp-filters, body.home #kron-filters,
@@ -102,7 +101,7 @@
         <ol>
           <li><strong>Bir kayıt bulun.</strong> Ara alanına bir mevki, gemi veya olay adı yazın. Sonucu seçince ilgili bilgi paneli açılır.</li>
           <li><strong>Kaydı seçin.</strong> 18 Mart görünümü o günün kayıtlarını, Cephe kronolojisi görünümü tarihli olayları gösterir. Geri ve İleri kayıtlar arasında geçer. 18 Mart gösterim sırası doğrulanmış saat veya süre değildir.</li>
-          <li><strong>Görünümü değiştirin.</strong> Katmanlar işaret türlerini açıp kapatır. Haritanın sağ altındaki katman simgesi uydu ve yol haritasını değiştirir. Yakınlaşmak için + / − düğmelerini kullanın.</li>
+          <li><strong>Görünümü değiştirin.</strong> Katmanlar işaret türlerini açıp kapatır. Haritanın sağ altındaki Uydu ve Yol haritası seçenekleri taban haritayı değiştirir. Yakınlaşmak için + / − düğmelerini kullanın.</li>
           <li><strong>Kaydı okuyun.</strong> Seçili kaydın ayrıntı bağlantısını açın. Noktalar yaklaşık konumdur; günümüz taban görüntüsü tarihsel harita değildir.</li>
         </ol>
         <p>Başlangıç görünümü yalnız haritanın merkezini ve yakınlığını geri getirir; seçili olay, zaman ve süzgeçler korunur.</p>
@@ -156,12 +155,13 @@
       <aside class="panel" id="panel" inert aria-labelledby="panel-title">
         <div class="panel-head">
           <div>
+            <p class="panel-kind" id="panel-kind"></p>
             <h2 id="panel-title"></h2>
             <p id="panel-meta"></p>
           </div>
           <button class="panel-close" type="button" id="panel-close" aria-label="Seçili olayı kapat">×</button>
         </div>
-        <a class="panel-map-return" href="#map">↑ Haritaya dön</a>
+        <a id="panel-map-return" class="panel-map-return" href="#map">↑ Haritaya dön</a>
         <div class="panel-body" id="panel-body"></div>
       </aside>
     </aside>
@@ -201,6 +201,7 @@
         <input id="tl-range" type="range" min="450" max="1350" value="450" step="1" aria-label="18 Mart kayıtları arasında ilerle">
         <p class="tl-hint" id="tl-hint">18 Mart kayıtları arasında ilerleyin. Gösterim sırası, doğrulanmış saat veya süre anlamına gelmez.</p>
         <p class="tl-hint" id="timeline-filter-status" role="status" hidden></p>
+        <p class="tl-hint" id="playback-status" role="status" aria-atomic="true" hidden></p>
         <p class="tl-event" id="tl-event" aria-live="polite"><em>Saat doğrulanmadı</em> Bir kayıt seçin; harita ilgili mevkiye gider.</p>
         <ul class="legend" aria-label="İşaretler">
           <li><b class="t">T</b>Tabya</li>
@@ -304,10 +305,10 @@
   </div>
 </footer>
 
-<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script defer src="js/data.js?v=20261020c"></script>
-<script defer src="js/campaign.js?v=20261020b"></script>
+<script defer src="/vendor/leaflet-1.9.4/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script defer src="js/data.js?v=20261020h"></script>
+<script defer src="js/campaign.js?v=20261020f"></script>
 <script defer src="js/model.js?v=20261017b"></script>
-<script defer src="js/app.js?v=20261020k"></script>
+<script defer src="js/app.js?v=20261021b"></script>
 </body>
 </html>

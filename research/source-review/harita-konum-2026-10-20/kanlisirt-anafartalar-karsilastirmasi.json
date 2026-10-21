@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-20",
+  "reviews": {
+    "kanlisirt": {
+      "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/sehitlikveanitlar/kanlisirt-kitabesi",
+      "evidenceText": "Kitabe, Kanlısırt’ın doğu ucunda yer alır.",
+      "candidateCoordinates": [
+        40.228903,
+        26.290935
+      ],
+      "limit": "Kitabe noktası plato merkezi yerine kullanılmadı; mevcut koordinat değişmedi."
+    },
+    "anafartalar": {
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/map-australian-locations",
+      "evidenceText": "Suvla Bay to the north of Anzac Cove",
+      "limit": "Bölgesel coğrafya anlatımı sayısal saha merkezini doğrulamaz; mevcut koordinat değişmedi."
+    }
+  },
+  "result": "Noktalar taşınmadı; iki inceleme de sayısal kaynak eşleştirmesi sayılmadı."
+}

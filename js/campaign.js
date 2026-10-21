@@ -11,11 +11,21 @@
         id: "ariburnu",
         type: "kampanya",
         name: "Arıburnu (Anzak Koyu)",
-        lat: 40.2406,
-        lng: 26.2772,
-        meta: "25 Nisan 1915 çıkarması · koyun merkezi",
+        lat: 40.240522,
+        lng: 26.281153,
+        meta: "25 Nisan 1915 çıkarması · günümüzdeki kıyı ziyaret noktası",
+        accuracy: "yaklasik",
+        uncertainty: "Alan Başkanlığının Anzak Koyu kıyı ziyaret noktasıyla eşleştirildi. Koyun geometrik merkezi, ilk sandalların karaya çıktığı yer veya 1915 siper hattının kesin koordinatı değildir.",
+        coordinateSource: {
+          url: "https://canakkaletarihialan.gov.tr/tr/ziyaret/diger-ziyaret-noktalari/anzak-koyu",
+          label: "Alan Başkanlığı · Anzak Koyu",
+          evidenceText: "Ziyaret Noktasına Git: destination=40.240522, 26.281153",
+          date: "2026-10-20",
+          status: "kurumsal_ziyaret_noktasi_karsilastirildi",
+          datum: "belirtilmemis"
+        },
         note: [
-          "İşaret, Arıburnu koyunun bilinen merkezidir; siper çizgisi değildir.",
+          "İşaret, kurumun yayımladığı Anzak Koyu kıyı ziyaret noktasıdır; ilk çıkarma veya siper çizgisi değildir.",
           "Çıkarma, Kabatepe’nin kuzeyinde bu koya yapılmıştır.",
           "Kıyıdaki Osmanlı birliği 9. Tümen’den 27. Alay’dır. 19. Tümen aynı gün sırtlara yetişir."
         ]
@@ -50,6 +60,15 @@
         lat: 40.2304,
         lng: 26.2873,
         meta: "6–9 Ağustos 1915 · plato",
+        accuracy: "yaklasik",
+        uncertainty: "Plato için temsili noktadır; sayısal kaynak eşleştirmesi tamamlanmadı. Kurumun Kanlısırt Kitabesi ziyaret noktası bütün muharebe alanının merkezi yerine kullanılmadı.",
+        coordinateReview: {
+          url: "https://canakkaletarihialan.gov.tr/tr/ziyaret/sehitlikveanitlar/kanlisirt-kitabesi",
+          label: "Alan Başkanlığı · Kanlısırt Kitabesi",
+          evidenceText: "Kitabe, Kanlısırt’ın doğu ucunda yer alır.",
+          date: "2026-10-20",
+          status: "anlatim_incelendi_nokta_dogrulanmadi"
+        },
         note: [
           "Arıburnu cephesinin güney platosu. İşaret, Kanlısırt mevkiidir.",
           "Muharebe 6 Ağustos 1915’te başlar ve birkaç gün sürer."
@@ -61,9 +80,20 @@
         name: "Anafartalar / Suvla",
         lat: 40.302,
         lng: 26.252,
-        meta: "6–7 Ağustos çıkarması · saha merkezi",
+        meta: "6–7 Ağustos çıkarması · temsili saha noktası",
+        accuracy: "yaklasik",
+        uncertainty: "Geniş bir harekât sahasını temsil eder. Geometrik merkez, çıkarma noktası veya komuta mevzii olarak sayısal doğrulaması tamamlanmadı.",
+        coordinateReview: {
+          url: "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/map-australian-locations",
+          label: "DVA Anzac Portal · Gallipoli haritaları",
+          evidenceText: "Suvla Bay to the north of Anzac Cove",
+          evidenceLanguage: "en",
+          translation: "Anzak Koyu’nun kuzeyindeki Suvla Koyu",
+          date: "2026-10-20",
+          status: "anlatim_incelendi_nokta_dogrulanmadi"
+        },
         note: [
-          "İşaret, Suvla Koyu ile Anafarta köyleri arasındaki sahanın merkezidir; tek bir siper değildir.",
+          "İşaret, Suvla Koyu ile Anafarta köyleri arasındaki saha için temsili bir noktadır; tek bir siper veya doğrulanmış saha merkezi değildir.",
           "Çıkarma 6–7 Ağustos gecesi koyadır. Birinci Anafartalar 9 Ağustos, İkinci Anafartalar 21 Ağustos’tadır."
         ]
       },
@@ -74,8 +104,19 @@
         lat: 40.0714,
         lng: 26.2036,
         meta: "Birinci, İkinci, Üçüncü Kirte",
+        accuracy: "yaklasik",
+        uncertainty: "Köy çevresi için temsili noktadır; tarihsel köy sınırı, tepe zirvesi veya hücum hattı olarak sayısal kaynak eşleştirmesi tamamlanmadı.",
+        coordinateReview: {
+          url: "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/map-australian-locations",
+          label: "DVA Anzac Portal · Seddülbahir harita açıklaması",
+          evidenceText: "Achi Baba, the hill above Krithia",
+          evidenceLanguage: "en",
+          translation: "Kirte’nin yukarısındaki tepe: Achi Baba",
+          date: "2026-10-20",
+          status: "anlatim_incelendi_nokta_dogrulanmadi"
+        },
         note: [
-          "İşaret, eski Kirte köyünün yeridir (bugünkü Alçıtepe). Bütün Seddülbahir cephesi değildir.",
+          "İşaret, Kirte köyü çevresini temsil eder; köyün tarihsel sınırı veya gerisindeki tepenin zirvesi değildir.",
           "Üç Kirte muharebesi bu köye ve gerisindeki sırta yöneliktir."
         ]
       },
@@ -97,8 +138,17 @@
         lat: 40.065,
         lng: 26.228,
         meta: "12–13 Temmuz 1915",
+        accuracy: "yaklasik",
+        uncertainty: "Dere ve muharebe sahası için temsili noktadır. Saha merkezi, dere yatağı veya siper hattı olarak sayısal doğrulaması tamamlanmadı. Fransız toplarının ziyaret kaydı bu noktanın koordinat kanıtı değildir.",
+        coordinateReview: {
+          url: "https://canakkaletarihialan.gov.tr/tr/ziyaret/diger-ziyaret-noktalari/fransiz-toplari",
+          label: "Alan Başkanlığı · Fransız Topları",
+          evidenceText: "özellikle Kerevizdere ve Zığındere Muharebeleri’nde kullanılan",
+          date: "2026-10-20",
+          status: "anlatim_incelendi_nokta_dogrulanmadi"
+        },
         note: [
-          "Kirte’nin doğusunda, Boğaz tarafındaki dere. İşaret saha merkezidir."
+          "İşaret, Kerevizdere muharebe sahasını temsil eder; doğrulanmış geometrik merkez veya kesin dere yatağı değildir."
         ]
       },
       {

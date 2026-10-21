@@ -41,6 +41,65 @@ test('olay listesinden dönüş aramayı korur ve dış hedefleri reddeder', () 
   }
 });
 
+test('komutan sayfasından güvenli arama dönüşü korunur; dış hedef ve bozuk süzgeç reddedilir', () => {
+  function visitCommanders(value) {
+    const link = { href: '/komutanlar/#osmanli', textContent: 'Komutanlar listesine dön' };
+    vm.runInNewContext(source, { URL, URLSearchParams,
+      window: { location: { href: 'https://onsekizmart.com/komutanlar/test/', origin: 'https://onsekizmart.com', search: '?komutanlaraDon=' + encodeURIComponent(value) } },
+      document: { querySelectorAll: () => [link], getElementById: () => null } });
+    return link;
+  }
+  const valid = '/komutanlar/?q=Cevat&taraf=osmanli#commanders-search';
+  assert.equal(visitCommanders(valid).href, valid);
+  assert.equal(visitCommanders(valid).textContent, 'Komutan aramasına dön');
+  const unicode = '/komutanlar/?q=' + encodeURIComponent('ş'.repeat(200)) + '#commanders-search';
+  assert.equal(visitCommanders(unicode).href, unicode);
+  for (const invalid of ['https://evil.example/', '//evil.example/', '/komutanlar/test/#commanders-search',
+    '/komutanlar/?q=a&q=b#commanders-search', '/komutanlar/?taraf=bilinmeyen#commanders-search',
+    '/komutanlar/?redirect=x#commanders-search', '/komutanlar/#other', '/komutanlar/?q=' + 'a'.repeat(201) + '#commanders-search']) {
+    assert.equal(visitCommanders(invalid).href, '/komutanlar/#osmanli');
+  }
+});
+
+test('olaydan komutana geçiş liste ve harita dönüşünü taşır; dış hedefleri değiştirmez', () => {
+  const list = '/olaylar/?q=Ariburnu&bolum=kara#events-tools';
+  const map = '/?olay=e-may19#harita';
+  const params = new URLSearchParams({ listeyeDon: list, atlasaDon: map });
+  const commander = { href: '/komutanlar/esat-pasa-bulkat/#inceleme-baslik' };
+  const outside = { href: 'https://evil.example/komutanlar/test/' };
+  vm.runInNewContext(source, { URL, URLSearchParams,
+    window: { location: { href: 'https://onsekizmart.com/olaylar/ariburnu-genel-taarruzu/?' + params + '#kaynak-notu', origin: 'https://onsekizmart.com', search: '?' + params } },
+    document: { querySelectorAll: selector => selector === '.page-main a[href^="/komutanlar/"]' ? [commander, outside] : [], getElementById: () => null } });
+  const target = new URL(commander.href, 'https://onsekizmart.com');
+  assert.equal(target.hash, '#inceleme-baslik');
+  const back = new URL(target.searchParams.get('olayaDon'), 'https://onsekizmart.com');
+  assert.equal(back.pathname, '/olaylar/ariburnu-genel-taarruzu/');
+  assert.equal(back.hash, '#kaynak-notu');
+  assert.equal(back.searchParams.get('listeyeDon'), list); assert.equal(back.searchParams.get('atlasaDon'), map);
+  assert.equal(outside.href, 'https://evil.example/komutanlar/test/');
+});
+
+test('komutanın olay dönüşü yalnız yerel olay ve doğrulanmış iç dönüş adreslerini kabul eder', () => {
+  function visitEventBack(value) {
+    const inserted = [];
+    const back = { parentNode: { insertBefore(node) { inserted.push(node); } } };
+    vm.runInNewContext(source, { URL, URLSearchParams,
+      window: { location: { href: 'https://onsekizmart.com/komutanlar/test/', origin: 'https://onsekizmart.com', search: '?olayaDon=' + encodeURIComponent(value) } },
+      document: { querySelector: () => back, querySelectorAll: () => [], getElementById: () => null,
+        createElement: tag => ({ tag, children: [], appendChild(child) { this.children.push(child); } }) } });
+    return inserted;
+  }
+  const good = '/olaylar/18-mart-deniz-muharebesi/#kaynak-notu';
+  const result = visitEventBack(good);
+  assert.equal(result.length, 1); assert.equal(result[0].children[0].href, good);
+  assert.equal(result[0].children[0].textContent, 'Okuduğunuz olaya dön');
+  for (const bad of ['https://evil.example/', '//evil.example/', '/olaylar/', '/komutanlar/test/',
+    '/olaylar/test/?redirect=x', '/olaylar/test/?olayaDon=x', '/olaylar/test/?atlasaDon=https%3A%2F%2Fevil.example',
+    '/olaylar/test/?listeyeDon=%2Folaylar%2F%3Fbolum%3Dbilinmeyen%23events-tools']) {
+    assert.equal(visitEventBack(bad).length, 0, bad);
+  }
+});
+
 
 test('önceki ve sonraki kayıtlar aramaya dönüşü taşır, dış hedef ve harita bağlantısı korunur', () => {
   const back = '/olaylar/?q=Ar%C4%B1burnu&bolum=kara#events-tools';
@@ -61,9 +120,10 @@ test('önceki ve sonraki kayıtlar aramaya dönüşü taşır, dış hedef ve ha
 });
 
 const app = fs.readFileSync(path.join(__dirname, '../js/app.js'), 'utf8');
-function readingPanel(spec) {
+function readingPanel(spec, search = '') {
   function element(tag) {
     return { tag, children: [], listeners: {},
+      setAttribute(key, value) { this[key] = value; },
       appendChild(child) { this.children.push(child); },
       replaceChildren() { this.children = []; },
       addEventListener(type, handler) { this.listeners[type] = handler; } };
@@ -71,8 +131,8 @@ function readingPanel(spec) {
   const body = element('div');
   const saved = [];
   const nodes = { panel: { classList: { add() {} } }, 'panel-title': {}, 'panel-meta': {}, 'panel-body': body };
-  const ctx = { URL, panelRevision: 0,
-    window: { location: { href: 'https://onsekizmart.com/?mevki=bouvet#harita', origin: 'https://onsekizmart.com' } },
+  const ctx = { URL, URLSearchParams, panelRevision: 0,
+    window: { location: { href: 'https://onsekizmart.com/?mevki=bouvet#harita', origin: 'https://onsekizmart.com', search } },
     document: { getElementById: id => nodes[id], createElement: element },
     textEl(tag, text) { return { ...element(tag), textContent: text }; },
     findPlace: () => null, narrativeEvidence: () => null, closeTools() {},
@@ -86,6 +146,19 @@ function readingPanel(spec) {
   ctx.fillPanel(spec);
   return { links: body.children.filter(n => n.tag === 'a'), saved };
 }
+
+test('haritadan gemi kartına dönüş aynı mevki ve güvenli arama bağlamıyla sınırlıdır', () => {
+  const back = '/donanma/?q=Goliath&ad=1#goliath';
+  const params = new URLSearchParams({ mevki: 'morto', donanmayaDon: back });
+  const links = readingPanel({ placeId: 'morto' }, '?' + params).links;
+  assert.equal(links.find(link => link.textContent === 'Gemi kartına dön').href, back);
+  assert.ok(!readingPanel({ placeId: 'bouvet' }, '?' + params).links.some(link => link.textContent === 'Gemi kartına dön'));
+  for (const invalid of ['https://evil.example/', '//evil.example/', '/donanma/test/#goliath',
+    '/donanma/?q=a&q=b#goliath', '/donanma/?ad=2#goliath', '/donanma/?redirect=x#goliath', '/donanma/']) {
+    params.set('donanmayaDon', invalid);
+    assert.ok(!readingPanel({ placeId: 'morto' }, '?' + params).links.some(link => link.textContent === 'Gemi kartına dön'), invalid);
+  }
+});
 
 test('kanıt ve ayrıntı bağlantıları sorguyu ve bölüm çapasını koruyarak aynı kayda dönüş taşır', () => {
   const target = '/?dakika=834&deniz=bouvet-mayina-carpar#harita';

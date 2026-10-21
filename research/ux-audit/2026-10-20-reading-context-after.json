@@ -1,0 +1,16 @@
+{
+  "mapFlow": {
+    "returnHref": "/?olay=e-may19#harita",
+    "returnLabel": "Seçili kayda dön",
+    "selectedTitle": "Arıburnu genel taarruzu",
+    "viewStatus": "Harita görünümü ve süzgeçler geri yüklendi."
+  },
+  "listFlow": {
+    "returnHref": "/olaylar/?q=Ar%C4%B1burnu&bolum=kara#events-tools",
+    "restored": {
+      "category": "kara",
+      "count": "3 olay gösteriliyor.",
+      "query": "Arıburnu"
+    }
+  }
+}

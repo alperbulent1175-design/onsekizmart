@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-20",
+  "status": "ariburnu_guncel_kiyi_noktasi_karsilastirildi",
+  "update": {
+    "id": "ariburnu",
+    "before": [
+      40.2406,
+      26.2772
+    ],
+    "after": [
+      40.240522,
+      26.281153
+    ],
+    "offsetMetres": 335.64086424687804,
+    "source": {
+      "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/diger-ziyaret-noktalari/anzak-koyu",
+      "label": "Alan Başkanlığı · Anzak Koyu",
+      "evidenceText": "Ziyaret Noktasına Git: destination=40.240522, 26.281153",
+      "date": "2026-10-20",
+      "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+      "datum": "belirtilmemis"
+    },
+    "limit": "Alan Başkanlığının Anzak Koyu kıyı ziyaret noktasıyla eşleştirildi. Koyun geometrik merkezi, ilk sandalların karaya çıktığı yer veya 1915 siper hattının kesin koordinatı değildir."
+  },
+  "excluded": [
+    {
+      "id": "zigindere",
+      "reason": "Nuri Yamut Anıtı veya Sargıyeri Şehitliği, bütün vadinin merkezi değildir; koordinat taşınmadı.",
+      "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/sehitlikveanitlar/zigindere-nuri-yamut-aniti",
+      "status": "anita_ait_kayit_okundu_vadi_merkezi_sayilmadi"
+    },
+    {
+      "id": "kumkale",
+      "reason": "Kale anlatısı arama kaydında görüldü; tam sayfa erişimi zaman aşımına uğradı. Sayısal kale noktası doğrulanmadı ve yeni koordinat atanmadı.",
+      "url": "https://canakkale.ktb.gov.tr/TR-70518/kaleler.html",
+      "status": "arama_kaydi_goruldu_tam_sayfa_zaman_asimi"
+    }
+  ]
+}

@@ -40,8 +40,19 @@
       if (input.value.trim()) params.set('q', input.value.trim());
       if (nameOnly && nameOnly.checked) params.set('ad', '1');
       share.href = '/donanma/' + (params.toString() ? '?' + params.toString() : '') + '#navy-search';
+      cards.forEach(function (card) {
+        if (!card.querySelectorAll) return;
+        card.querySelectorAll('a[href*="mevki="]').forEach(function (link) {
+          try {
+            var url = new URL(link.href, window.location.href);
+            if (url.origin !== window.location.origin || url.pathname !== '/' || !url.searchParams.get('mevki') || url.hash !== '#harita') return;
+            url.searchParams.set('donanmayaDon', '/donanma/' + (params.toString() ? '?' + params.toString() : '') + '#' + card.id);
+            link.href = url.pathname + url.search + url.hash;
+          } catch (error) { /* Leave links unchanged when no local map target can be read. */ }
+        });
+      });
     }
-    clear.disabled = !input.value;
+    clear.disabled = !input.value && !(nameOnly && nameOnly.checked);
     status.textContent = count ? count + ' / ' + cards.length + ' gemi veya grup kaydı gösteriliyor.' + (nameOnly && nameOnly.checked ? ' Yalnız adlarda aranıyor.' : '') : 'Eşleşen kayıt yok. Başka bir ad deneyin veya aramayı temizleyin.';
   }
   var returnSearch = null;
@@ -68,21 +79,51 @@
       target.scrollIntoView({ block: 'start' });
     }
   }
-  function editSearch() { returnSearch = null; filter(); }
+  function updateLocation() {
+    try {
+      var url = new URL(window.location.href);
+      if (input.value.trim()) url.searchParams.set('q', input.value.trim());
+      else url.searchParams.delete('q');
+      if (nameOnly && nameOnly.checked) url.searchParams.set('ad', '1');
+      else url.searchParams.delete('ad');
+      window.history.replaceState(window.history.state, '', url.href);
+    } catch (error) { /* Search works even when browser history is unavailable. */ }
+  }
+  function editSearch() { returnSearch = null; filter(); updateLocation(); }
   input.addEventListener('input', editSearch);
   if (nameOnly) nameOnly.addEventListener('change', editSearch);
-  form.addEventListener('submit', function (event) { event.preventDefault(); });
-  clear.addEventListener('click', function () { returnSearch = null; input.value = ''; filter(); input.focus(); });
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    filter();
+    var target = cards.find(function (card) { return !card.hidden; }) || status;
+    target.setAttribute('tabindex', '-1');
+    target.focus({ preventScroll: true });
+    target.scrollIntoView({ block: 'start' });
+  });
+  clear.addEventListener('click', function () {
+    input.value = '';
+    if (nameOnly) nameOnly.checked = false;
+    editSearch();
+    input.focus();
+  });
   window.addEventListener('hashchange', revealHash);
   window.addEventListener('click', function (event) {
     if (event.defaultPrevented || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || (event.button != null && event.button !== 0)) return;
     var link = event.target && event.target.closest ? event.target.closest('a[href^="#"]') : null;
     if (link) revealHash(link.getAttribute('href'));
   });
-  var initial = new URLSearchParams(location.search || '');
-  input.value = initial.get('q') || '';
-  if (nameOnly) nameOnly.checked = initial.get('ad') === '1';
+  function readLocation() {
+    var params = new URLSearchParams(location.search || '');
+    input.value = (params.get('q') || '').slice(0, 200);
+    if (nameOnly) nameOnly.checked = params.get('ad') === '1';
+    returnSearch = null;
+    filter();
+  }
+  window.addEventListener('popstate', function () {
+    readLocation();
+    if (location.hash) revealHash();
+  });
   form.hidden = false;
-  filter();
+  readLocation();
   if (location.hash && location.hash !== '#navy-search') revealHash();
 })();

@@ -20,7 +20,7 @@ function visit(search, hash = '') {
     findCampByKey: key => key.replace(/^event-/, '') === 'test-event' ? { id: 'test-event' } : null,
     findPlace: key => key === 'test-place' ? { id: 'test-place' } : null,
     focusCampEvent: event => selected.push(event.id),
-    scrollToMap() {}, selectPlace: id => selected.push(id)
+    scrollToMap() {}, openPlace: id => selected.push(id)
   };
   vm.runInNewContext(source.slice(source.indexOf('  function consumeDeepLink()'), source.indexOf('  function bindDock()')) + '\nconsumeDeepLink();', context);
   return { notice, message, selected };

@@ -15,7 +15,13 @@ test('tüm olay ve komutan sayfaları inceleme kapsamında ve kanıt bağlantıl
       const url = `${folder}/${dir.name}/`;
       assert.ok(covered.has(url), url);
       const page = read(url + 'index.html');
-      assert.match(page, /Belge doğrulaması tamamlanmadı/);
+      if (url === 'olaylar/18-mart-deniz-muharebesi/') {
+        assert.match(page, /Kaynak incelemesi: desteklenen pasajlar ve açık kalanlar/);
+        assert.match(page, /her ayrıntının doğrulandığı anlamına gelmez/);
+        assert.match(page, /Kesin batış saatleri, zayiat toplamları ve bazı harita noktaları için inceleme sürüyor/);
+      } else {
+        assert.match(page, /Belge doğrulaması tamamlanmadı/);
+      }
       assert.ok(page.includes('Kanıt metni ve inceleme sınırı') || page.includes('<q>'), url);
     }
   }

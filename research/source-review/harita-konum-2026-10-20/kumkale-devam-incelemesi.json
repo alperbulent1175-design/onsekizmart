@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-20",
+  "id": "kumkale",
+  "coordinates": [
+    40.0103,
+    26.1975
+  ],
+  "changed": false,
+  "review": {
+    "url": "https://canakkale.ktb.gov.tr/TR-70518/kaleler.html",
+    "label": "Çanakkale İl Kültür ve Turizm Müdürlüğü · Kaleler",
+    "evidenceText": "Kumkale Köyü kale yapısına 3 km. uzaklıktadır.",
+    "date": "2026-10-20",
+    "status": "anlatim_incelendi_nokta_dogrulanmadi"
+  },
+  "limit": "Kumkale çevresi için temsili noktadır; kalenin, gözetleme postasının veya çıkarma kumsalının kesin koordinatı doğrulanmadı. Günümüzdeki köy ve şehitlik, kale noktası yerine kullanılmadı.",
+  "access": {
+    "status": 200,
+    "localCopy": "ham/kumkale-kaleler.html"
+  },
+  "previousAttempt": "cikarma-sahalari-karsilastirmasi.json içindeki zaman aşımı önceki denemenin kaydıdır; bu turda sayfa doğrudan okundu."
+}

@@ -121,11 +121,13 @@ test('Ocean isabeti ve batışı ayrı inceleme kayıtlarıdır; tahliye ayrınt
 
 test('doğrudan gemi seçimi olay paneliyle aynı kanıt bölümünü açar; diğer mevkiler genel incelemeyi korur', () => {
   const app = read('js/app.js');
-  let panel;
+  let panel, selected, focused = 0;
   const context = {
     D: { events: ctx.window.OM.events },
     findPlace: id => ({ id, name: id }),
     fillPanel: spec => { panel = spec; },
+    textEl: (tag, textContent) => ({ tag, textContent, addEventListener(type, handler) { this.activate = handler; } }),
+    focusNavalEvent: event => { selected = event; }, focusSelectedPanel() { focused++; },
     paintIcons() {}, flyToPlace() {}, updateSelectedLayerNotice() {},
     accuracyText: () => '', sourceText: () => '', sideLabel: () => ''
   };
@@ -136,9 +138,24 @@ test('doğrudan gemi seçimi olay paneliyle aynı kanıt bölümünü açar; di�
     context.openPlace(id, false);
     assert.equal(panel.reviewHref, context.navalReviewHref(id));
     assert.equal(panel.shareHref, '/?mevki=' + id + '#harita');
+    const events = ctx.window.OM.events.filter(event => event.place === id);
+    const buttons = panel.extra.filter(node => node.tag === 'button');
+    assert.equal(buttons.length, events.length);
+    buttons.forEach((button, index) => {
+      assert.match(button.textContent, /Saat doğrulanmadı/);
+      button.activate(); assert.equal(selected, events[index]);
+    });
   }
+  assert.ok(focused > 0);
   context.openPlace('baska-mevki', false);
   assert.equal(panel.reviewHref, '');
+  context.findPlace = id => ({ id, name: id, short: 'Belge karşılaştırması süren anlatı.',
+    coordinateSource: { status: 'kurumsal_ziyaret_noktasi_karsilastirildi' }, verification: 'cerceve' });
+  context.openPlace('mecidiye', false);
+  assert.equal(panel.text, 'Taslak mevki notu: Belge karşılaştırması süren anlatı.');
+  context.findPlace = id => ({ id, name: id, note: ['İncelenecek mevki anlatımı.'] });
+  context.openPlace('baska-mevki', false);
+  assert.equal(panel.text, 'Taslak mevki notu: İncelenecek mevki anlatımı.');
 });
 
 
@@ -201,5 +218,7 @@ test('Çimenlik özeti rapordaki hedef numarasını kanıtsız eşleştirmez', (
   const place = ctx.window.OM.places.find(p => p.id === 'cimenlik');
   assert.doesNotMatch(place.short, /11.00’de|ilk 381/);
   assert.match(place.note[0], /eşleştirilmedi/);
-  assert.equal(place.lat, 40.1477); assert.equal(place.lng, 26.3995);
+  assert.equal(place.lat, 40.146395); assert.equal(place.lng, 26.399161);
+  assert.match(place.coordinateSource.url, /kulturportali.gov.tr\/turkiye\/canakkale\/gezilecekyer\/cimenlik-kalesi/);
+  assert.match(place.uncertainty, /mermi isabetinin kesin koordinatı değildir/);
 });

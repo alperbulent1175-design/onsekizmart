@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-20",
+  "id": "mesudiye",
+  "coordinates": [
+    40.0965,
+    26.362
+  ],
+  "changed": false,
+  "review": {
+    "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/diger-ziyaret-noktalari/mesudiye-topu",
+    "label": "Alan Başkanlığı · Mesudiye Topu",
+    "evidenceText": "Mesudiye Zırhlısı’ndan sökülen toplar; Baykuş (Mesudiye) bataryası olarak",
+    "date": "2026-10-20",
+    "status": "anlatim_incelendi_nokta_dogrulanmadi"
+  },
+  "limit": "Kurum kaydında Baykuş (Mesudiye) adlandırması geçer; Yıldız ile ilişkisi ve ayrı mevzilerin sayısal konumları bu kaynakla doğrulanmaz. Mesudiye Topu ziyaret noktası, tarihsel batarya veya gemi batığı konumu yerine kullanılmadı.",
+  "decision": "Başlık toplu kayıt olarak belirtildi. Baykuş (Mesudiye) adlandırması tek başına Yıldız ile özdeşlik, üç ayrı batarya veya ortak koordinat kanıtı sayılmadı. Ziyaret haritasından yeni koordinat alınmadı."
+}

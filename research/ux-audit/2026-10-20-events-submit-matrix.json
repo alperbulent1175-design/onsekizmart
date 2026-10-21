@@ -1,0 +1,225 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "width": 320,
+      "empty": false,
+      "focus": "events-results",
+      "targetTop": 84,
+      "targetVisible": true,
+      "visibleRows": 3,
+      "query": "Arıburnu",
+      "category": "kara",
+      "urlUnchangedOnSubmit": true,
+      "hash": "#events-tools",
+      "ref": "keep",
+      "buttonHeights": [
+        48,
+        48
+      ],
+      "pageOverflow": false,
+      "clearedFocus": "events-query",
+      "clearedCount": 28,
+      "clearedQuery": "",
+      "clearedCategory": "all"
+    },
+    {
+      "width": 320,
+      "empty": true,
+      "focus": "events-count",
+      "targetTop": 84,
+      "targetVisible": true,
+      "visibleRows": 0,
+      "query": "yazılım testi eşleşmeyen sorgu",
+      "category": "kara",
+      "urlUnchangedOnSubmit": true,
+      "hash": "#events-tools",
+      "ref": "keep",
+      "buttonHeights": [
+        48,
+        48
+      ],
+      "pageOverflow": false,
+      "clearedFocus": "events-query",
+      "clearedCount": 28,
+      "clearedQuery": "",
+      "clearedCategory": "all"
+    },
+    {
+      "width": 390,
+      "empty": false,
+      "focus": "events-results",
+      "targetTop": 84,
+      "targetVisible": true,
+      "visibleRows": 3,
+      "query": "Arıburnu",
+      "category": "kara",
+      "urlUnchangedOnSubmit": true,
+      "hash": "#events-tools",
+      "ref": "keep",
+      "buttonHeights": [
+        48,
+        48
+      ],
+      "pageOverflow": false,
+      "clearedFocus": "events-query",
+      "clearedCount": 28,
+      "clearedQuery": "",
+      "clearedCategory": "all"
+    },
+    {
+      "width": 390,
+      "empty": true,
+      "focus": "events-count",
+      "targetTop": 84,
+      "targetVisible": true,
+      "visibleRows": 0,
+      "query": "yazılım testi eşleşmeyen sorgu",
+      "category": "kara",
+      "urlUnchangedOnSubmit": true,
+      "hash": "#events-tools",
+      "ref": "keep",
+      "buttonHeights": [
+        48,
+        48
+      ],
+      "pageOverflow": false,
+      "clearedFocus": "events-query",
+      "clearedCount": 28,
+      "clearedQuery": "",
+      "clearedCategory": "all"
+    },
+    {
+      "width": 601,
+      "empty": false,
+      "focus": "events-results",
+      "targetTop": 84,
+      "targetVisible": true,
+      "visibleRows": 3,
+      "query": "Arıburnu",
+      "category": "kara",
+      "urlUnchangedOnSubmit": true,
+      "hash": "#events-tools",
+      "ref": "keep",
+      "buttonHeights": [
+        51,
+        51
+      ],
+      "pageOverflow": false,
+      "clearedFocus": "events-query",
+      "clearedCount": 28,
+      "clearedQuery": "",
+      "clearedCategory": "all"
+    },
+    {
+      "width": 601,
+      "empty": true,
+      "focus": "events-count",
+      "targetTop": 84,
+      "targetVisible": true,
+      "visibleRows": 0,
+      "query": "yazılım testi eşleşmeyen sorgu",
+      "category": "kara",
+      "urlUnchangedOnSubmit": true,
+      "hash": "#events-tools",
+      "ref": "keep",
+      "buttonHeights": [
+        51,
+        51
+      ],
+      "pageOverflow": false,
+      "clearedFocus": "events-query",
+      "clearedCount": 28,
+      "clearedQuery": "",
+      "clearedCategory": "all"
+    },
+    {
+      "width": 768,
+      "empty": false,
+      "focus": "events-results",
+      "targetTop": 84,
+      "targetVisible": true,
+      "visibleRows": 3,
+      "query": "Arıburnu",
+      "category": "kara",
+      "urlUnchangedOnSubmit": true,
+      "hash": "#events-tools",
+      "ref": "keep",
+      "buttonHeights": [
+        51,
+        51
+      ],
+      "pageOverflow": false,
+      "clearedFocus": "events-query",
+      "clearedCount": 28,
+      "clearedQuery": "",
+      "clearedCategory": "all"
+    },
+    {
+      "width": 768,
+      "empty": true,
+      "focus": "events-count",
+      "targetTop": 99,
+      "targetVisible": true,
+      "visibleRows": 0,
+      "query": "yazılım testi eşleşmeyen sorgu",
+      "category": "kara",
+      "urlUnchangedOnSubmit": true,
+      "hash": "#events-tools",
+      "ref": "keep",
+      "buttonHeights": [
+        51,
+        51
+      ],
+      "pageOverflow": false,
+      "clearedFocus": "events-query",
+      "clearedCount": 28,
+      "clearedQuery": "",
+      "clearedCategory": "all"
+    },
+    {
+      "width": 1280,
+      "empty": false,
+      "focus": "events-results",
+      "targetTop": 84,
+      "targetVisible": true,
+      "visibleRows": 3,
+      "query": "Arıburnu",
+      "category": "kara",
+      "urlUnchangedOnSubmit": true,
+      "hash": "#events-tools",
+      "ref": "keep",
+      "buttonHeights": [
+        51,
+        51
+      ],
+      "pageOverflow": false,
+      "clearedFocus": "events-query",
+      "clearedCount": 28,
+      "clearedQuery": "",
+      "clearedCategory": "all"
+    },
+    {
+      "width": 1280,
+      "empty": true,
+      "focus": "events-count",
+      "targetTop": 121,
+      "targetVisible": true,
+      "visibleRows": 0,
+      "query": "yazılım testi eşleşmeyen sorgu",
+      "category": "kara",
+      "urlUnchangedOnSubmit": true,
+      "hash": "#events-tools",
+      "ref": "keep",
+      "buttonHeights": [
+        51,
+        51
+      ],
+      "pageOverflow": false,
+      "clearedFocus": "events-query",
+      "clearedCount": 28,
+      "clearedQuery": "",
+      "clearedCategory": "all"
+    }
+  ]
+}

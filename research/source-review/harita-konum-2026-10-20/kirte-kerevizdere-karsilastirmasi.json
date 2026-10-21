@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-20",
+  "points": [
+    {
+      "id": "kirte",
+      "coordinates": [
+        40.0714,
+        26.2036
+      ],
+      "changed": false,
+      "review": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/map-australian-locations",
+        "label": "DVA Anzac Portal · Seddülbahir harita açıklaması",
+        "evidenceText": "Achi Baba, the hill above Krithia",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi"
+      },
+      "limit": "Köy çevresi için temsili noktadır; tarihsel köy sınırı, tepe zirvesi veya hücum hattı olarak sayısal kaynak eşleştirmesi tamamlanmadı."
+    },
+    {
+      "id": "kerevizdere",
+      "coordinates": [
+        40.065,
+        26.228
+      ],
+      "changed": false,
+      "review": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/diger-ziyaret-noktalari/fransiz-toplari",
+        "label": "Alan Başkanlığı · Fransız Topları",
+        "evidenceText": "özellikle Kerevizdere ve Zığındere Muharebeleri’nde kullanılan",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi"
+      },
+      "limit": "Dere ve muharebe sahası için temsili noktadır. Saha merkezi, dere yatağı veya siper hattı olarak sayısal doğrulaması tamamlanmadı. Fransız toplarının ziyaret kaydı bu noktanın koordinat kanıtı değildir."
+    }
+  ]
+}

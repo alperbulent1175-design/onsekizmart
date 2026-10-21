@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-19",
+  "scope": "Canlı HTTP yanıtları ve yerel kaynak incelemesi; soğuk tarayıcı izi veya saha Core Web Vitals ölçümü değildir.",
+  "responses": [
+    {
+      "path": "/",
+      "status": 200,
+      "decoded_bytes": 18772,
+      "content_encoding": "gzip",
+      "cache_control": null,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "path": "/js/app.js?v=20261019g",
+      "status": 200,
+      "decoded_bytes": 68363,
+      "content_encoding": "gzip",
+      "cache_control": "public, max-age=86400 ",
+      "content_type": "application/x-javascript; charset=UTF-8"
+    },
+    {
+      "path": "/css/style.css?v=20261018j",
+      "status": 200,
+      "decoded_bytes": 56798,
+      "content_encoding": "gzip",
+      "cache_control": "public, max-age=86400 ",
+      "content_type": "text/css; charset=UTF-8"
+    },
+    {
+      "path": "/images/events/awm-g02127.jpg",
+      "status": 200,
+      "decoded_bytes": 135645,
+      "content_encoding": null,
+      "cache_control": "public, max-age=604800",
+      "content_type": "image/jpeg"
+    }
+  ],
+  "local_hero_bytes": 135645,
+  "findings": [
+    "Giriş görselinde boyutlar, yüksek istek önceliği ve asenkron çözümleme mevcut.",
+    "Ana uygulama betikleri defer ile yükleniyor.",
+    "Galeri görselleri loading=lazy ve boyut bilgileri taşıyor."
+  ],
+  "unmeasured": [
+    "LCP",
+    "INP",
+    "CLS",
+    "Lighthouse skoru",
+    "Soğuk önbellek yüklemesi"
+  ]
+}

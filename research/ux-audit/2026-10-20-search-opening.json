@@ -1,0 +1,71 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "query": "?mevki=bouvet",
+      "search": true,
+      "startedBeforeLink": true,
+      "selectionPreserved": true,
+      "queryAfter": "Bouvet",
+      "focus": "q",
+      "resultCount": 3,
+      "playing": "false",
+      "pageOverflow": false
+    },
+    {
+      "query": "?olay=e-may19",
+      "search": true,
+      "startedBeforeLink": true,
+      "selectionPreserved": true,
+      "queryAfter": "Bouvet",
+      "focus": "q",
+      "resultCount": 3,
+      "playing": "false",
+      "pageOverflow": false
+    },
+    {
+      "query": "?dakika=600",
+      "search": true,
+      "startedBeforeLink": true,
+      "selectionPreserved": true,
+      "queryAfter": "Bouvet",
+      "focus": "q",
+      "resultCount": 3,
+      "playing": "false",
+      "pageOverflow": false
+    },
+    {
+      "query": "?mevki=bouvet",
+      "search": false,
+      "startedBeforeLink": true,
+      "selectionPreserved": true,
+      "queryAfter": "",
+      "focus": "",
+      "resultCount": 0,
+      "playing": "false",
+      "pageOverflow": false
+    },
+    {
+      "query": "?olay=e-may19",
+      "search": false,
+      "startedBeforeLink": true,
+      "selectionPreserved": true,
+      "queryAfter": "",
+      "focus": "",
+      "resultCount": 0,
+      "playing": "false",
+      "pageOverflow": false
+    },
+    {
+      "query": "?dakika=600",
+      "search": false,
+      "startedBeforeLink": true,
+      "selectionPreserved": true,
+      "queryAfter": "",
+      "focus": "",
+      "resultCount": 0,
+      "playing": "false",
+      "pageOverflow": false
+    }
+  ]
+}

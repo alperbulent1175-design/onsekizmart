@@ -1,0 +1,28 @@
+{
+  "enter": {
+    "category": "kara",
+    "count": "3 olay gösteriliyor.",
+    "focus": "events-results",
+    "overflow": false,
+    "resultsTop": 230,
+    "searchTag": "FORM",
+    "submitHeight": 48
+  },
+  "nextTab": {
+    "href": "/olaylar/ariburnu-cikarmasi/?listeyeDon=%2Folaylar%2F%3Fq%3DAr%25C4%25B1burnu%26bolum%3Dkara%23events-tools",
+    "resultsTop": 228,
+    "tag": "A",
+    "text": "Arıburnu çıkarması25 Nisan 1915 · İki taraf"
+  },
+  "empty": {
+    "focus": "events-count",
+    "message": "Eşleşen olay bulunamadı. Aramayı veya bölümü değiştirin.",
+    "visibleRows": 0
+  },
+  "clear": {
+    "category": "all",
+    "count": "28 olay gösteriliyor.",
+    "focus": "events-query",
+    "query": ""
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-20",
+  "status": "kurumsal_guncel_konumlar_karsilastirildi",
+  "updates": [
+    {
+      "id": "cimenlik",
+      "before": [
+        40.1477,
+        26.3995
+      ],
+      "after": [
+        40.146395,
+        26.399161
+      ],
+      "offsetMetres": 147.94265445890255,
+      "source": {
+        "url": "https://www.kulturportali.gov.tr/turkiye/canakkale/gezilecekyer/cimenlik-kalesi",
+        "label": "Kültür Bakanlığı · Çimenlik Kalesi",
+        "evidenceText": "center: [40.146395,26.399161]; ÇİMENLİK KALESİ işareti myMap.getCenter() üzerinde oluşturulur.",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    },
+    {
+      "id": "anadolu-hamidiye",
+      "before": [
+        40.1398,
+        26.4072
+      ],
+      "after": [
+        40.138566,
+        26.404352
+      ],
+      "offsetMetres": 278.27965256493815,
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/anadolu-hamidiye-tabyasi",
+        "label": "Alan Başkanlığı · Anadolu Hamidiye Tabyası",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.138566, 26.404352",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    }
+  ],
+  "limit": "Tarihsel top, komuta ve isabet yeri doğrulaması değildir.",
+  "dardanos": {
+    "status": "sayisal_konum_kaynagi_tamamlanmadi",
+    "decision": "Mevcut nokta taşınmadı. Valilik haberi yalnız şehitliğin Dardanos çevresini destekler; tabya/rasat noktasıyla sayısal eşleştirme sağlamaz.",
+    "url": "https://www.canakkale.gov.tr/vali-orhan-tavli-hasan-mevsuf-sehitliginde-incelemelerde-bulundu"
+  }
+}

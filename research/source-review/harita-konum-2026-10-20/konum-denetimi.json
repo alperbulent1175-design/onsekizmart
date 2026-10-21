@@ -1,12 +1,12 @@
 {
   "date": "2026-10-20",
   "scope": "31 nokta, 4 hat ve 10 enlemesine mayın şeması; mevcut veri denetimi, saha ölçümü değil",
-  "method": "Koordinat aralığı ve benzersiz kimlik denetimi. Mesafe haversine R=6371008.8 m; tarihsel doğruluğun kanıtı değildir. Conkbayırı, Kilitbahir, Rumeli Mecidiye ve Seddülbahir için güncel kurumsal ziyaret bağlantıları sayısal karşılaştırmaya uygundu. Tarihsel mevzi veya komuta yeri doğrulanmış sayılmaz. Irresistible yayımlanmış enkaz noktasıdır. Tarihî haritalardan yeni koordinat türetilmedi. Namazgâh ve Rumeli Hamidiye kurumsal harita hedefleri de ayrı karşılaştırıldı.",
+  "method": "Koordinat aralığı ve benzersiz kimlik denetimi. Mesafe haversine R=6371008.8 m; tarihsel doğruluğun kanıtı değildir. Conkbayırı, Kilitbahir, Rumeli Mecidiye ve Seddülbahir için güncel kurumsal ziyaret bağlantıları sayısal karşılaştırmaya uygundu. Tarihsel mevzi veya komuta yeri doğrulanmış sayılmaz. Irresistible yayımlanmış enkaz noktasıdır. Tarihî haritalardan yeni koordinat türetilmedi. Namazgâh ve Rumeli Hamidiye kurumsal harita hedefleri de ayrı karşılaştırıldı. Anadolu Hamidiye ziyaret hedefi ile Kültür Portalı Çimenlik harita işareti de sayısal olarak karşılaştırıldı.",
   "summary": {
     "points": 31,
-    "pointsWithNumericSource": 7,
-    "pointsWithoutNumericSource": 24,
-    "changedPoints": 6,
+    "pointsWithNumericSource": 10,
+    "pointsWithoutNumericSource": 21,
+    "changedPoints": 9,
     "lines": 14,
     "verifiedLineGeometries": 0
   },
@@ -134,36 +134,50 @@
       "name": "Çimenlik Tabyası (Kale-i Sultaniye)",
       "type": "tabya",
       "coordinates": [
-        40.1477,
-        26.3995
+        40.146395,
+        26.399161
       ],
       "before": [
         40.1477,
         26.3995
       ],
-      "changed": false,
-      "offsetFromBeforeMetres": 0,
-      "status": "sayisal_konum_kaynagi_tamamlanmadi",
-      "source": null,
-      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+      "changed": true,
+      "offsetFromBeforeMetres": 147.94265445890255,
+      "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+      "source": {
+        "url": "https://www.kulturportali.gov.tr/turkiye/canakkale/gezilecekyer/cimenlik-kalesi",
+        "label": "Kültür Bakanlığı · Çimenlik Kalesi",
+        "evidenceText": "center: [40.146395,26.399161]; ÇİMENLİK KALESİ işareti myMap.getCenter() üzerinde oluşturulur.",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      },
+      "limit": "Kültür Bakanlığı Kültür Portalı sayfasındaki Çimenlik Kalesi harita işaretiyle eşleştirildi. Kale alanını temsil eder; 1915 tabya toplarının, karargâhın veya mermi isabetinin kesin koordinatı değildir."
     },
     {
       "id": "anadolu-hamidiye",
       "name": "Anadolu Hamidiye Tabyası",
       "type": "tabya",
       "coordinates": [
-        40.1398,
-        26.4072
+        40.138566,
+        26.404352
       ],
       "before": [
         40.1398,
         26.4072
       ],
-      "changed": false,
-      "offsetFromBeforeMetres": 0,
-      "status": "sayisal_konum_kaynagi_tamamlanmadi",
-      "source": null,
-      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+      "changed": true,
+      "offsetFromBeforeMetres": 278.27965256493815,
+      "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/anadolu-hamidiye-tabyasi",
+        "label": "Alan Başkanlığı · Anadolu Hamidiye Tabyası",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.138566, 26.404352",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      },
+      "limit": "Alan Başkanlığının güncel Anadolu Hamidiye Tabyası ziyaret noktasıyla eşleştirildi. Tabya ve müze alanını temsil eder; 1915 top platformu, cephanelik veya ateş idare yerinin kesin koordinatı değildir."
     },
     {
       "id": "dardanos",
@@ -181,7 +195,14 @@
       "offsetFromBeforeMetres": 0,
       "status": "sayisal_konum_kaynagi_tamamlanmadi",
       "source": null,
-      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+      "limit": "Tabya alanı için temsili noktadır; şehitlik, top mevzii ve rasat yerinin kesin noktaları olarak doğrulanmadı. Restorasyon kaydındaki yer adı sayısal koordinat kanıtı değildir.",
+      "review": {
+        "url": "https://www.kulturportali.gov.tr/turkiye/canakkale/ilprojeleri/troia-antik-kenti-cevre-duzenleme-uygulamalari",
+        "label": "Kültür Portalı · Hasan Mevsuf Şehitliği Tabya ve Bataryalarının Restorasyonu",
+        "evidenceText": "İlimiz, Merkez Çınarlı Köyünde bulunan Hasan Mevsuf Şehitliği",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi"
+      }
     },
     {
       "id": "seddulbahir",
@@ -224,11 +245,18 @@
       "offsetFromBeforeMetres": 0,
       "status": "sayisal_konum_kaynagi_tamamlanmadi",
       "source": null,
-      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+      "limit": "Kumkale çevresi için temsili noktadır; kalenin, gözetleme postasının veya çıkarma kumsalının kesin koordinatı doğrulanmadı. Günümüzdeki köy ve şehitlik, kale noktası yerine kullanılmadı.",
+      "review": {
+        "url": "https://canakkale.ktb.gov.tr/TR-70518/kaleler.html",
+        "label": "Çanakkale İl Kültür ve Turizm Müdürlüğü · Kaleler",
+        "evidenceText": "Kumkale Köyü kale yapısına 3 km. uzaklıktadır.",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi"
+      }
     },
     {
       "id": "mesudiye",
-      "name": "Mesudiye / Yıldız / Baykuş bataryaları",
+      "name": "Mesudiye / Yıldız / Baykuş — toplu kayıt",
       "type": "tabya",
       "coordinates": [
         40.0965,
@@ -242,7 +270,14 @@
       "offsetFromBeforeMetres": 0,
       "status": "sayisal_konum_kaynagi_tamamlanmadi",
       "source": null,
-      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+      "limit": "Kurum kaydında Baykuş (Mesudiye) adlandırması geçer; Yıldız ile ilişkisi ve ayrı mevzilerin sayısal konumları bu kaynakla doğrulanmaz. Mesudiye Topu ziyaret noktası, tarihsel batarya veya gemi batığı konumu yerine kullanılmadı.",
+      "review": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/diger-ziyaret-noktalari/mesudiye-topu",
+        "label": "Alan Başkanlığı · Mesudiye Topu",
+        "evidenceText": "Mesudiye Zırhlısı’ndan sökülen toplar; Baykuş (Mesudiye) bataryası olarak",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi"
+      }
     },
     {
       "id": "tavsan",
@@ -472,18 +507,25 @@
       "name": "Arıburnu (Anzak Koyu)",
       "type": "kampanya",
       "coordinates": [
-        40.2406,
-        26.2772
+        40.240522,
+        26.281153
       ],
       "before": [
         40.2406,
         26.2772
       ],
-      "changed": false,
-      "offsetFromBeforeMetres": 0,
-      "status": "sayisal_konum_kaynagi_tamamlanmadi",
-      "source": null,
-      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+      "changed": true,
+      "offsetFromBeforeMetres": 335.64086424687804,
+      "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/diger-ziyaret-noktalari/anzak-koyu",
+        "label": "Alan Başkanlığı · Anzak Koyu",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.240522, 26.281153",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      },
+      "limit": "Alan Başkanlığının Anzak Koyu kıyı ziyaret noktasıyla eşleştirildi. Koyun geometrik merkezi, ilk sandalların karaya çıktığı yer veya 1915 siper hattının kesin koordinatı değildir."
     },
     {
       "id": "conkbayiri",
@@ -526,7 +568,19 @@
       "offsetFromBeforeMetres": 0,
       "status": "sayisal_konum_kaynagi_tamamlanmadi",
       "source": null,
-      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+      "limit": "Kitabe noktası plato merkezi yerine kullanılmadı; mevcut koordinat değişmedi.",
+      "review": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/sehitlikveanitlar/kanlisirt-kitabesi",
+        "evidenceText": "Kitabe, Kanlısırt’ın doğu ucunda yer alır.",
+        "candidateCoordinates": [
+          40.228903,
+          26.290935
+        ],
+        "limit": "Kitabe noktası plato merkezi yerine kullanılmadı; mevcut koordinat değişmedi.",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi",
+        "label": "Alan Başkanlığı · Kanlısırt Kitabesi"
+      }
     },
     {
       "id": "anafartalar",
@@ -544,7 +598,17 @@
       "offsetFromBeforeMetres": 0,
       "status": "sayisal_konum_kaynagi_tamamlanmadi",
       "source": null,
-      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+      "limit": "Bölgesel coğrafya anlatımı sayısal saha merkezini doğrulamaz; mevcut koordinat değişmedi.",
+      "review": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/map-australian-locations",
+        "evidenceText": "Suvla Bay to the north of Anzac Cove",
+        "limit": "Bölgesel coğrafya anlatımı sayısal saha merkezini doğrulamaz; mevcut koordinat değişmedi.",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi",
+        "label": "DVA Anzac Portal · Gallipoli haritaları",
+        "evidenceLanguage": "en",
+        "translation": "Anzak Koyu’nun kuzeyindeki Suvla Koyu"
+      }
     },
     {
       "id": "kirte",
@@ -562,7 +626,16 @@
       "offsetFromBeforeMetres": 0,
       "status": "sayisal_konum_kaynagi_tamamlanmadi",
       "source": null,
-      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+      "limit": "Köy çevresi için temsili noktadır; tarihsel köy sınırı, tepe zirvesi veya hücum hattı olarak sayısal kaynak eşleştirmesi tamamlanmadı.",
+      "review": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/map-australian-locations",
+        "label": "DVA Anzac Portal · Seddülbahir harita açıklaması",
+        "evidenceText": "Achi Baba, the hill above Krithia",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi",
+        "evidenceLanguage": "en",
+        "translation": "Kirte’nin yukarısındaki tepe: Achi Baba"
+      }
     },
     {
       "id": "zigindere",
@@ -598,7 +671,14 @@
       "offsetFromBeforeMetres": 0,
       "status": "sayisal_konum_kaynagi_tamamlanmadi",
       "source": null,
-      "limit": "Mevcut nokta yer, saha veya birlik merkezini temsil eder; sayısal kaynak eşleştirmesi tamamlanmadı."
+      "limit": "Dere ve muharebe sahası için temsili noktadır. Saha merkezi, dere yatağı veya siper hattı olarak sayısal doğrulaması tamamlanmadı. Fransız toplarının ziyaret kaydı bu noktanın koordinat kanıtı değildir.",
+      "review": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/diger-ziyaret-noktalari/fransiz-toplari",
+        "label": "Alan Başkanlığı · Fransız Topları",
+        "evidenceText": "özellikle Kerevizdere ve Zığındere Muharebeleri’nde kullanılan",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi"
+      }
     },
     {
       "id": "morto",
@@ -956,7 +1036,7 @@
     }
   ],
   "openQuestions": [
-    "24 noktanın sayısal kaynak eşleştirmesi eksik; kimlik bazında çalışma gerekiyor.",
+    "21 noktanın sayısal kaynak eşleştirmesi eksik; kimlik bazında çalışma gerekiyor.",
     "Morto Koyu, HGM haritasıyla nitel karşılaştırmada öncelikli yeniden inceleme gerektiriyor; sayısal merkez veya batık noktası atanmadı.",
     "Nusret çizgisi için ölçülü döküm krokisi, tarih, koordinat sistemi ve dönüşüm yöntemi gerekli.",
     "Enlemesine şemaların çizim numaraları, gerçek hat numarası veya döküm tarihi olarak sunulmamalı."

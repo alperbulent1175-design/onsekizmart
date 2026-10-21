@@ -1,0 +1,11 @@
+{
+  "first": {
+    "inline": "/olaylar/ariburnu-gomme-ateskesi/",
+    "map": "/?olay=e-may19#harita",
+    "next": "/olaylar/ariburnu-gomme-ateskesi/?listeyeDon=%2Folaylar%2F%3Fq%3DAr%25C4%25B1burnu%26bolum%3Dkara%23events-tools"
+  },
+  "second": {
+    "map": "/?olay=ariburnu-gomme-ateskesi#harita",
+    "mapLabel": "Haritada göster"
+  }
+}

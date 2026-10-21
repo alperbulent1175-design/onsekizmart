@@ -14,7 +14,8 @@
 .photo-search[hidden] { display: none; }
 .photo-search label { display: grid; gap: 6px; flex: 1 1 200px; min-width: 0; }
 .photo-search input, .photo-search select, .photo-search button { box-sizing: border-box; width: 100%; min-height: 44px; padding: 8px; font: inherit; }
-.photo-search button { width: auto; cursor: pointer; }
+.photo-search button { width: auto; cursor: pointer; color: var(--cream, #f4f1e9); background: var(--ink, #0d1823); border: 1px solid var(--line, #d3c9b7); }
+.photo-search button[type="submit"] { color: var(--ink, #0d1823); background: var(--gold, #e7c4ba); border-color: var(--gold, #e7c4ba); font-weight: 600; }
 #photo-empty button { display: block; margin-block: 12px; min-height: 44px; padding: 8px 14px; font: inherit; cursor: pointer; }
 .photo-jump a { display: inline-block; min-height: 44px; padding-block: 10px; box-sizing: border-box; }
 .photo-jump a[aria-current="true"] { font-weight: 700; text-decoration-thickness: 3px; text-underline-offset: 5px; }
@@ -48,9 +49,10 @@
 
 #photo-sections { display: flex; flex-wrap: wrap; gap: 8px 16px; }
 #photo-sections a { padding-inline: 8px; }
-#photo-search, #photo-empty, main > .naval-photos > h2 { scroll-margin-top: calc(var(--nav-h, 64px) + 20px); }
+#photo-search, #photo-empty, main > .naval-photos > h2, main > .naval-photos .naval-photo { scroll-margin-top: calc(var(--nav-h, 64px) + 20px); }
 #photo-search input, #photo-search select { font-size: max(16px, 1rem); }
 #photo-search :focus-visible, #photo-empty button:focus-visible, #photo-sections a:focus-visible { outline: 2px solid var(--gold, #c5a06c); outline-offset: 3px; }
+#photo-empty:focus-visible, main > .naval-photos .naval-photo > a:focus-visible { outline: 2px solid var(--gold, #c5a06c); outline-offset: 3px; }
 
 .photo-viewer figure > img[hidden] { display: none; }
 

@@ -90,7 +90,7 @@ button, input, select { font: inherit; }
   display: inline-flex; align-items: center; min-height: 44px;
 }
 .nav-links a:hover, .nav-links a[aria-current="page"] { opacity: 1; color: #e8cfc4; }
-.sub {
+.nav .sub {
   display: none;
   position: absolute; top: 100%; left: 0; z-index: 50;
   min-width: 180px; margin: 0; padding: 6px 0;
@@ -100,7 +100,7 @@ button, input, select { font: inherit; }
 }
 .has-sub:hover > .sub, .has-sub:focus-within > .sub { display: block; }
 .nav-site > .sub { left: auto; right: 0; }
-.sub a { display: flex; padding: 8px 14px; min-height: 44px; white-space: nowrap; }
+.nav .sub a { display: flex; padding: 8px 14px; min-height: 44px; white-space: nowrap; }
 
 .kicker {
   font-family: var(--mono); font-size: 0.78rem;
@@ -519,8 +519,8 @@ a.btn {
     flex-wrap: nowrap; overflow: visible; width: 100%; gap: 0;
     padding: 4px 0 10px;
   }
-  .nav-links > li > a, .sub a { white-space: normal; }
-  .sub, .has-sub:hover > .sub, .has-sub:focus-within > .sub {
+  .nav-links > li > a, .nav .sub a { white-space: normal; }
+  .nav .sub, .has-sub:hover > .sub, .has-sub:focus-within > .sub {
     display: block; position: static; min-width: 0;
     border: 0; background: transparent; padding: 0 0 8px 12px;
   }
@@ -1448,6 +1448,7 @@ body.home .map-guide-content p { margin-bottom: 0; }
 body.home .map-guide-content a { color: #f6f0e5; text-decoration: underline; text-underline-offset: 3px; }
 body.home #map-reset { flex: 0 0 auto; min-height: 44px; padding: 10px 14px; background: transparent; color: #e4dccb; border: 1px solid var(--line); font: inherit; cursor: pointer; }
 body.home #map-reset:disabled { opacity: .5; cursor: default; }
+body.home #tool-layers:disabled { opacity: .5; cursor: default; }
 body.home .map-guide summary:focus-visible, body.home #map-reset:focus-visible { outline: 2px solid #c5a06c; outline-offset: 3px; }
 @media (max-width: 600px) {
   body.home .map-help-row { flex-wrap: wrap; gap: 4px 8px; padding: 8px 10px; }
@@ -1464,9 +1465,10 @@ body.home #map { scroll-margin-top: calc(var(--nav-h) + 12px); }
 body.home .panel-map-return { display: none; }
 body.home .panel-head > div { min-width: 0; }
 body.home .panel-head h2, body.home .panel-head p { overflow-wrap: anywhere; }
+body.home .panel-head .panel-kind { margin: 0 0 6px; color: var(--gold); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; }
 @media (max-width: 1099px) {
   body.home .panel-map-return { display: flex; align-items: center; width: fit-content; min-height: 44px; margin: 4px 16px 0; padding: 8px 12px; border: 1px solid var(--line); color: var(--cream); text-decoration: underline; text-underline-offset: 3px; }
-  body.home .panel-head { gap: 12px; align-items: flex-start; }
+  body.home .panel-head { gap: 12px; align-items: flex-start; top: var(--nav-h); z-index: 4; }
   body.home .panel-close { flex: 0 0 44px; }
   body.home .panel-body { font-size: 1rem; line-height: 1.65; overflow-wrap: anywhere; }
   body.home .panel-body > a { display: flex; align-items: center; min-height: 44px; padding: 8px 0; margin-top: 8px; text-underline-offset: 3px; }
@@ -1532,3 +1534,25 @@ body.home #q-clear:focus-visible { outline: 2px solid var(--gold); outline-offse
 .panel-evidence blockquote { margin: 8px 0 12px; padding-left: 12px; border-left: 2px solid var(--line); overflow-wrap: anywhere; }
 .panel-evidence a { display: flex; align-items: center; min-height: 44px; padding: 8px 0; overflow-wrap: anywhere; }
 .panel-evidence :is(summary, a):focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.leaflet-control-scale-line { background: rgba(19, 25, 24, .9); border-color: #e7dfcf; color: #fff; text-shadow: none; font-size: 12px; }
+.leaflet-control-layers { background: var(--panel-solid); color: var(--cream); border: 1px solid var(--line); }
+.leaflet-control-layers-expanded { padding: 2px 10px; }
+.leaflet-control-layers label { display: flex; align-items: center; min-height: 44px; cursor: pointer; font-size: 13px; }
+.leaflet-control-layers input { margin: 0 8px 0 0; accent-color: var(--gold); }
+.leaflet-control-layers label:focus-within { outline: 2px solid var(--cream); outline-offset: 1px; }
+
+/* Komutan araması: liste JavaScript olmadan da erişilebilir. */
+.commanders-search[hidden] { display: none; }
+.commanders-search { max-width: 65ch; margin: 24px 0 32px; padding: 20px; border: 1px solid var(--line); background: var(--ink-2); }
+.commanders-search label { display: block; margin: 12px 0 6px; }
+.commanders-search input, .commanders-search select { width: 100%; min-height: 44px; padding: 10px; font: inherit; font-size: 16px; color: var(--cream); background: var(--ink); border: 1px solid var(--line); }
+.commanders-search-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.commanders-search button, .navy-search button { min-height: 44px; padding: 10px 14px; font: inherit; cursor: pointer; color: var(--cream); background: var(--ink); border: 1px solid var(--line); }
+.commanders-search button[type="submit"], .navy-search button[type="submit"] { color: var(--ink); background: var(--gold); border-color: var(--gold); font-weight: 600; }
+.commanders-search button:disabled, .navy-search button:disabled { opacity: .55; cursor: default; }
+.commanders-search p { line-height: 1.6; }
+.commanders-search a { display: inline-flex; align-items: center; min-height: 44px; }
+.commanders-search :is(input, select, button, a):focus-visible, #commanders-results:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+#commanders-search, #commanders-results, #osmanli, #itilaf, #osmanli .roster li, #itilaf .roster li { scroll-margin-top: calc(var(--nav-h) + 20px); }
+
+body.commanders-index .page-main [hidden] { display: none !important; }

@@ -36,6 +36,7 @@
     var review = mine && D.mineReview;
     fillPanel({
       title: line.name,
+      kind: "line",
       meta: mine ? "Mayın savunması · şematik çizgi" : "Filo / manevra · şematik çizgi",
       text: transverse
         ? "Bu numara atlas çiziminin sırasıdır; tarihî hat numarası olarak doğrulanmadı. Uç noktalar ve hat aralıkları için sayısal kaynak eşleştirmesi tamamlanmadı."
@@ -210,6 +211,8 @@
   function showMapError(message) {
     var host = document.getElementById("map");
     if (!host) return;
+    host.setAttribute("role", "region");
+    host.setAttribute("aria-label", "Harita kullanılamıyor; kronoloji ve olay listesi kullanılabilir.");
     var box = document.createElement("div");
     box.className = "map-fallback";
     box.setAttribute("role", "alert");
@@ -309,6 +312,8 @@
         zoomInTitle: "Yakınlaştır",
         zoomOutTitle: "Uzaklaştır"
       }).addTo(map);
+      var scaleControl = L.control.scale({ position: "bottomleft", metric: true, imperial: false, maxWidth: 100 }).addTo(map);
+      scaleControl.getContainer().setAttribute("aria-label", "Harita mesafe ölçeği; tarihsel mevzi kesinliği göstermez");
       tiles = {
         uydu: L.tileLayer(
           "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
@@ -325,13 +330,17 @@
       };
       watchTiles(tiles.uydu);
       watchTiles(tiles.yol);
+      tiles.uydu.on("add", function () {
+        host.setAttribute("aria-label", "Çanakkale 1915 haritası. Taban harita günümüz uydu görüntüsüdür. Tarihsel işaretler yaklaşık, mayın çizgileri şematiktir.");
+      });
+      tiles.yol.on("add", function () {
+        host.setAttribute("aria-label", "Çanakkale 1915 haritası. Taban harita günümüz yol haritasıdır. Tarihsel işaretler yaklaşık, mayın çizgileri şematiktir.");
+      });
       tiles.uydu.addTo(map);
-      var baseControl = L.control.layers({ Uydu: tiles.uydu, "Yol haritası": tiles.yol }, null, { position: "bottomright" }).addTo(map);
-      var baseToggle = baseControl.getContainer().querySelector(".leaflet-control-layers-toggle");
-      if (baseToggle) {
-        baseToggle.title = "Taban haritayı seç";
-        baseToggle.setAttribute("aria-label", "Taban haritayı seç");
-      }
+      var baseControl = L.control.layers({ Uydu: tiles.uydu, "Yol haritası": tiles.yol }, null, { position: "bottomright", collapsed: false }).addTo(map);
+      var baseContainer = baseControl.getContainer();
+      baseContainer.setAttribute("role", "group");
+      baseContainer.setAttribute("aria-label", "Taban harita");
       return true;
     } catch (err) {
       map = null;
@@ -341,11 +350,22 @@
   }
 
   var mapReady = bootMap();
+  var layerTool = document.getElementById("tool-layers");
+  if (layerTool) {
+    layerTool.disabled = !mapReady;
+    if (!mapReady) layerTool.setAttribute("title", "Harita yüklenmediği için katmanlar kullanılamıyor.");
+  }
+  if (!mapReady) {
+    var unavailableLayers = document.getElementById("layers");
+    if (unavailableLayers) unavailableLayers.appendChild(textEl("p", "Harita yüklenmediği için katmanlar kullanılamıyor. Arama ve kronoloji kullanılabilir."));
+  }
   var resetView = document.getElementById("map-reset");
   if (resetView) {
     resetView.disabled = !mapReady;
     resetView.addEventListener("click", function () {
       if (!map) return;
+      stopPlay();
+      if (map.stop) map.stop();
       map.setView(D.center, D.defaultZoom, { animate: motionOn() });
       var status = document.getElementById("map-view-status");
       if (status) status.textContent = "Başlangıç görünümüne dönüldü. Seçili olay, zaman ve süzgeçler korundu.";
@@ -440,7 +460,9 @@
     var button = textEl("button", "Katmanı göster");
     button.type = "button";
     button.addEventListener("click", function () {
+      stopPlay();
       group.addTo(map);
+      flyToPlace(place, true);
       var layerId = groups[place.type] ? place.type : "tabya";
       var box = document.getElementById("layers");
       var chip = box && box.querySelector('[data-layer="' + layerId + '"]');
@@ -528,9 +550,11 @@
     if (!map || !localHref(target)) return;
     try {
       var center = map.getCenter();
+      var searchInput = document.getElementById("q");
       window.sessionStorage.setItem("om-atlas-return-view-v1", JSON.stringify({
         target: target, savedAt: Date.now(), lat: center.lat, lng: center.lng, zoom: map.getZoom(),
         side: sideFilter, domain: campDomain,
+        query: searchInput && searchInput.value.length <= 500 ? searchInput.value : "",
         base: tiles && tiles.yol && map.hasLayer(tiles.yol) ? "yol" : "uydu",
         layers: Object.keys(groups).filter(function (key) { return map.hasLayer(groups[key]); })
       }));
@@ -546,6 +570,7 @@
           !Number.isFinite(state.lng) || Math.abs(state.lng) > 180 ||
           !Number.isFinite(state.zoom) || state.zoom < 0 || state.zoom > 16) return null;
       if (state.base != null && ["uydu", "yol"].indexOf(state.base) === -1) return null;
+      if (state.query != null && (typeof state.query !== "string" || state.query.length > 500)) return null;
       if (["both", "turk", "itilaf"].indexOf(state.side) === -1 ||
           ["all", "deniz", "kara"].indexOf(state.domain) === -1 ||
           !Array.isArray(state.layers) || state.layers.some(function (key) { return !Object.prototype.hasOwnProperty.call(groups, key); })) return null;
@@ -553,7 +578,7 @@
     } catch (error) { return null; }
   }
 
-  function restoreAtlasView() {
+  function restoreAtlasView(reselect) {
     if (!map) return;
     var state = readAtlasView(window.location.pathname + window.location.search + window.location.hash);
     if (!state) return;
@@ -573,6 +598,16 @@
       });
       if (!map.hasLayer(tiles[state.base])) tiles[state.base].addTo(map);
     }
+    if (typeof reselect === "function") reselect();
+    var searchInput = document.getElementById("q");
+    if (typeof state.query === "string" && state.query && searchInput && !searchInput.value) {
+      searchInput.value = state.query;
+      searchLimit = 8;
+      renderSearch();
+      closeSearchResults();
+      searchPicked = true;
+      if (qStatus) qStatus.textContent = "Arama korundu. Sonuçları görmek için arama alanına dönün.";
+    }
     map.stop();
     map.setView([state.lat, state.lng], state.zoom, { animate: false });
     updateSelectedLayerNotice();
@@ -583,7 +618,13 @@
   function narrativeEvidence(item) {
     var source = item && item.narrativeSource;
     var url = source && Model && Model.safeUrl ? Model.safeUrl(source.url) : "";
+    function validReviewDate(value) {
+      if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+      var parsed = new Date(value + "T00:00:00Z");
+      return !isNaN(parsed.getTime()) && parsed.toISOString().slice(0, 10) === value;
+    }
     if (!url || source.status !== "daktilo_kopyasi_goruntuden_okundu" ||
+        !validReviewDate(source.date) ||
         [source.evidenceText, source.date, source.limit, source.label].some(function (value) {
           return typeof value !== "string" || !value.trim();
         })) return null;
@@ -615,6 +656,24 @@
       imageLink.href = imageUrl;
       details.appendChild(imageLink);
     }
+    var comparison = source.publishedComparison;
+    var comparisonUrl = comparison && Model.safeUrl(comparison.url);
+    if (comparison && /^https:\/\//.test(comparisonUrl) &&
+        comparison.status === "resmi_yayin_goruntusu_incelendi" && validReviewDate(comparison.date) &&
+        [comparison.label, comparison.evidenceText, comparison.translation, comparison.context, comparison.limit].every(function (value) {
+          return typeof value === "string" && !!value.trim();
+        })) {
+      details.appendChild(textEl("p", "Ek kontrol: resmî yayım · " + comparison.date));
+      details.appendChild(textEl("p", "Türkçe çeviri (atlas): " + comparison.translation));
+      var comparisonQuote = textEl("blockquote", comparison.evidenceText);
+      comparisonQuote.lang = "en";
+      details.appendChild(comparisonQuote);
+      details.appendChild(textEl("p", comparison.context));
+      details.appendChild(textEl("p", comparison.limit));
+      var comparisonLink = textEl("a", comparison.label);
+      comparisonLink.href = comparisonUrl;
+      details.appendChild(comparisonLink);
+    }
     return details;
   }
 
@@ -640,6 +699,75 @@
     return details;
   }
 
+  function coordinateEvidence(place) {
+    var coordinateSource = place && (place.coordinateSource || place.coordinateReview);
+    var coordinateUrl = coordinateSource && Model && Model.safeUrl ? Model.safeUrl(coordinateSource.url) : "";
+    if (!coordinateUrl) return null;
+    var numericSource = !!place.coordinateSource;
+    var allowedStatus = numericSource
+      ? ["yayin_koordinati_karsilastirildi", "kurumsal_ziyaret_noktasi_karsilastirildi"]
+      : ["anlatim_incelendi_nokta_dogrulanmadi"];
+    var reviewDate = coordinateSource.date;
+    var parsedDate = typeof reviewDate === "string" && /^\d{4}-\d{2}-\d{2}$/.test(reviewDate)
+      ? new Date(reviewDate + "T00:00:00Z") : null;
+    var validDate = parsedDate && !isNaN(parsedDate.getTime()) && parsedDate.toISOString().slice(0, 10) === reviewDate;
+    var details = document.createElement("details");
+    details.className = "panel-evidence";
+    details.appendChild(textEl("summary", place.coordinateSource ? "Konum dayanağını göster" : "Konum incelemesini göster"));
+    if (coordinateUrl) {
+      var coordinateLink = textEl("a", (place.coordinateSource ? "Konum kaynağı: " : "İncelenen kaynak: ") + (coordinateSource.label || "Yayın kaydı"));
+      coordinateLink.href = coordinateUrl;
+      details.appendChild(coordinateLink);
+      if ([coordinateSource.evidenceText, coordinateSource.date, coordinateSource.label].every(function (value) {
+        return typeof value === "string" && !!value.trim();
+      }) && validDate && allowedStatus.indexOf(coordinateSource.status) !== -1) {
+        if (coordinateSource.evidenceLanguage === "en") {
+          details.appendChild(textEl("p", "Kaynakta okunan özgün ifade:"));
+          var originalEvidence = textEl("blockquote", coordinateSource.evidenceText);
+          originalEvidence.lang = "en";
+          details.appendChild(originalEvidence);
+          if (typeof coordinateSource.translation === "string" && coordinateSource.translation.trim()) {
+            details.appendChild(textEl("p", "Türkçe çeviri (atlas): " + coordinateSource.translation));
+          }
+        } else {
+          details.appendChild(textEl("p", (place.coordinateSource ? "Konum dayanağı: " : "Kaynakta okunan ifade: ") + coordinateSource.evidenceText));
+        }
+        details.appendChild(textEl("p", "Konum inceleme tarihi: " + coordinateSource.date + ". " +
+          (coordinateSource.status === "yayin_koordinati_karsilastirildi"
+            ? "Yayındaki koordinatla karşılaştırıldı; sahada yeniden ölçüm yapılmış sayılmaz."
+            : coordinateSource.status === "kurumsal_ziyaret_noktasi_karsilastirildi"
+              ? "Kurumun güncel ziyaret noktasıyla karşılaştırıldı; tarihsel siper veya birlik mevzii doğrulanmış sayılmaz."
+              : coordinateSource.status === "anlatim_incelendi_nokta_dogrulanmadi"
+                ? "Kaynağın coğrafi anlatımı incelendi; haritadaki sayısal noktayı doğrulamaz."
+                : "Konum kaynağının doğrulaması tamamlanmadı.")));
+        if (coordinateSource.datum === "belirtilmemis") {
+          details.appendChild(textEl("p", "Kaynak koordinatın jeodezik referans sistemini (datum) belirtmiyor. Metre düzeyinde kesinlik iddiası yok."));
+        }
+      } else {
+        details.appendChild(textEl("p", "Konum kaynağının kanıt metni, inceleme tarihi veya doğrulama bilgisi eksik ya da geçersiz; konum doğrulaması tamamlanmadı."));
+      }
+    }
+    details.addEventListener("toggle", function () { if (details.open) stopPlay(); });
+    return details;
+  }
+
+  function navyReturnHref(place) {
+    if (!place || typeof window === "undefined" || !window.location || !window.location.search) return "";
+    try {
+      var request = new URLSearchParams(window.location.search);
+      if (request.get("mevki") !== place || request.getAll("donanmayaDon").length !== 1) return "";
+      var value = request.get("donanmayaDon");
+      if (!value || value.length > 4000 || value.indexOf("/donanma/") !== 0) return "";
+      var url = new URL(value, window.location.href);
+      if (url.origin !== window.location.origin || url.pathname !== "/donanma/" || !/^#[a-z0-9-]{1,80}$/.test(url.hash)) return "";
+      var keys = Array.from(url.searchParams.keys());
+      if (keys.some(function (key) { return ["q", "ad"].indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return "";
+      if (url.searchParams.has("q") && url.searchParams.get("q").length > 200) return "";
+      if (url.searchParams.has("ad") && url.searchParams.get("ad") !== "1") return "";
+      return url.pathname + url.search + url.hash;
+    } catch (error) { return ""; }
+  }
+
   function fillPanel(spec) {
     var panel = document.getElementById("panel");
     var title = document.getElementById("panel-title");
@@ -651,39 +779,34 @@
     panel.returnFocusTarget = null;
     panel.selectedPlaceId = spec.placeId || null;
     title.textContent = spec.title || "";
+    var kind = document.getElementById("panel-kind");
+    if (kind) kind.textContent = ({ place: "Mevki", event: "Olay", interval: "Aralık notu", line: "Şematik hat" })[spec.kind] || "Bilgi";
     var bits = [];
-    if (spec.date) bits.push(spec.date);
-    if (spec.side) bits.push(spec.side);
-    if (spec.meta) bits.push(spec.meta);
+    [spec.date, spec.side, spec.meta].forEach(function (value) {
+      if (typeof value !== "string") return;
+      value.split(" · ").forEach(function (part) {
+        part = part.trim();
+        if (part && bits.indexOf(part) === -1) bits.push(part);
+      });
+    });
     meta.textContent = bits.join(" · ");
     if (body.replaceChildren) body.replaceChildren();
     else body.innerHTML = "";
     if (spec.text) body.appendChild(textEl("p", spec.text));
     if (spec.accuracy) body.appendChild(textEl("p", spec.accuracy));
     var coordinatePlace = spec.placeId ? findPlace(spec.placeId) : null;
-    var coordinateSource = coordinatePlace && coordinatePlace.coordinateSource;
-    var coordinateUrl = coordinateSource && Model && Model.safeUrl ? Model.safeUrl(coordinateSource.url) : "";
-    if (coordinateUrl) {
-      var coordinateLink = textEl("a", "Konum kaynağı: " + (coordinateSource.label || "Yayın kaydı"));
-      coordinateLink.href = coordinateUrl;
-      body.appendChild(coordinateLink);
-      if ([coordinateSource.evidenceText, coordinateSource.date, coordinateSource.label].every(function (value) {
-        return typeof value === "string" && !!value.trim();
-      }) && coordinateSource.status) {
-        body.appendChild(textEl("p", "Konum dayanağı: " + coordinateSource.evidenceText));
-        body.appendChild(textEl("p", "Konum inceleme tarihi: " + coordinateSource.date + ". " +
-          (coordinateSource.status === "yayin_koordinati_karsilastirildi"
-            ? "Yayındaki koordinatla karşılaştırıldı; sahada yeniden ölçüm yapılmış sayılmaz."
-            : coordinateSource.status === "kurumsal_ziyaret_noktasi_karsilastirildi"
-              ? "Kurumun güncel ziyaret noktasıyla karşılaştırıldı; tarihsel siper veya birlik mevzii doğrulanmış sayılmaz."
-              : "Konum kaynağının doğrulaması tamamlanmadı.")));
-        if (coordinateSource.datum === "belirtilmemis") {
-          body.appendChild(textEl("p", "Kaynak koordinatın jeodezik referans sistemini (datum) belirtmiyor. Metre düzeyinde kesinlik iddiası yok."));
-        }
-      } else {
-        body.appendChild(textEl("p", "Konum kaynağının kanıt metni, inceleme tarihi veya doğrulama bilgisi eksik; konum doğrulaması tamamlanmadı."));
-      }
+    if (spec.showPlaceReturn && coordinatePlace) {
+      var placeReturn = textEl("button", "Mevki kartını aç: " + coordinatePlace.name);
+      placeReturn.type = "button";
+      placeReturn.className = "ev-btn";
+      placeReturn.addEventListener("click", function () {
+        selectMarkerPlace(coordinatePlace.id);
+        focusSelectedPanel(null);
+      });
+      body.appendChild(placeReturn);
     }
+    var coordinateDetails = coordinateEvidence(coordinatePlace);
+    if (coordinateDetails) body.appendChild(coordinateDetails);
     var evidence = narrativeEvidence(coordinatePlace);
     var conflict = claimConflictEvidence(coordinatePlace);
     if (conflict) body.appendChild(conflict);
@@ -722,6 +845,13 @@
     }
     var reviewLink = readingLink(localHref(spec.reviewHref) || "/inceleme-notlari/", "Kanıt metinleri ve açık kalanlar");
     body.appendChild(reviewLink);
+    var navyBack = navyReturnHref(spec.placeId);
+    if (navyBack) {
+      var navyLink = textEl("a", "Gemi kartına dön");
+      navyLink.className = "event-page-link";
+      navyLink.href = navyBack;
+      body.appendChild(navyLink);
+    }
     if (spec.href) {
       var link = readingLink(spec.href, spec.hrefLabel || "Ayrıntı");
       link.className = "event-page-link";
@@ -733,6 +863,31 @@
       share.href = localHref(spec.shareHref);
       share.textContent = spec.shareLabel || "Bu kayda bağlantı";
       body.appendChild(share);
+      var copyStatus = textEl("p", "");
+      copyStatus.setAttribute("role", "status");
+      copyStatus.setAttribute("aria-atomic", "true");
+      copyStatus.hidden = true;
+      var copyLink = textEl("button", "Bağlantıyı kopyala");
+      copyLink.type = "button";
+      copyLink.className = "ev-btn";
+      copyLink.addEventListener("click", async function () {
+        stopPlay();
+        copyLink.disabled = true;
+        copyStatus.hidden = false;
+        copyStatus.textContent = "Bağlantı kopyalanıyor…";
+        try {
+          var address = new URL(share.href, window.location.href).href;
+          if (!navigator.clipboard || !navigator.clipboard.writeText) throw new Error("clipboard unavailable");
+          await navigator.clipboard.writeText(address);
+          copyStatus.textContent = "Kayıt bağlantısı kopyalandı.";
+        } catch (error) {
+          copyStatus.textContent = "Bağlantı kopyalanamadı. «Bu kayda bağlantı» üzerinde bağlantıyı kopyalama seçeneğini kullanabilirsiniz.";
+        } finally {
+          copyLink.disabled = false;
+        }
+      });
+      body.appendChild(copyLink);
+      body.appendChild(copyStatus);
     }
     (spec.extra || []).forEach(function (node) { body.appendChild(node); });
     panel.classList.add("open");
@@ -753,7 +908,8 @@
 
   function flyToPlace(place, fly) {
     if (!fly || !place || !map) return;
-    map.flyTo([place.lat, place.lng], Math.max(map.getZoom(), 13), { duration: motionOn() ? 0.85 : 0 });
+    if (map.stop) map.stop();
+    map.flyTo([place.lat, place.lng], Math.max(13, Math.min(map.getZoom(), 14)), { duration: motionOn() ? 0.85 : 0 });
   }
 
   function navalReviewHref(placeId, title) {
@@ -780,7 +936,9 @@
     var place = ev.place ? findPlace(ev.place) : null;
     fillPanel({
       title: ev.title,
+      kind: "event",
       placeId: place ? place.id : null,
+      showPlaceReturn: true,
       date: "18 Mart 1915 · Saat doğrulanmadı",
       side: sideLabel(ev.side),
       meta: place ? place.name : "",
@@ -810,7 +968,9 @@
       : (place ? accuracyText(place) : "Haritada ayrı nokta yok.");
     fillPanel({
       title: ev.title,
+      kind: ev.quiet ? "interval" : "event",
       placeId: place ? place.id : null,
+      showPlaceReturn: true,
       date: ev.date,
       side: sideLabel(ev.side),
       meta: place ? place.name : "",
@@ -830,6 +990,8 @@
   function openPlace(id, fly) {
     var p = findPlace(id);
     if (!p) return;
+    var placeText = p.short || (p.note && p.note[0]) || "";
+    if (placeText && p.verification !== "sayfa") placeText = "Taslak mevki notu: " + placeText;
     activeId = id;
     paintIcons();
     flyToPlace(p, fly);
@@ -856,6 +1018,17 @@
       extra.push(btn);
     });
     var navalHere = (D.events || []).filter(function (ev) { return ev.place === id; });
+    if (navalHere.length) extra.push(textEl("h3", "Bu mevkideki 18 Mart kayıtları"));
+    navalHere.forEach(function (ev) {
+      var eventButton = textEl("button", "18 Mart · Saat doğrulanmadı · " + ev.title);
+      eventButton.type = "button";
+      eventButton.className = "ev-btn";
+      eventButton.addEventListener("click", function () {
+        focusNavalEvent(ev, false);
+        focusSelectedPanel(null);
+      });
+      extra.push(eventButton);
+    });
     var date = "";
     var side = "";
     if (related.length === 1) {
@@ -870,11 +1043,12 @@
     }
     fillPanel({
       title: p.name,
+      kind: "place",
       placeId: p.id,
       date: date,
       side: side,
       meta: p.meta || "",
-      text: p.short || (p.note && p.note[0]) || "",
+      text: placeText,
       accuracy: accuracyText(p),
       source: sourceText(p),
       reviewHref: navalHere.length ? navalReviewHref(p.id) : "",
@@ -910,7 +1084,7 @@
     }
   }
 
-  function selectPlace(id, fly) {
+  function selectPlace(id, fly, placeOnly) {
     stopPlay();
     var p = findPlace(id);
     if (!p) return;
@@ -924,6 +1098,10 @@
       clearFilters();
       openPlace(id, fly);
       updateFilterStatus("Seçilen mevki süzgecin dışındaydı; tüm kayıtlar açıldı.");
+      return;
+    }
+    if (placeOnly) {
+      openPlace(id, fly);
       return;
     }
     if (mode === "naval") {
@@ -952,6 +1130,14 @@
     openPlace(id, fly);
   }
 
+  function selectMarkerPlace(id) {
+    if (!findPlace(id)) return;
+    stopPlay();
+    revealDock();
+    trackMapSelect("yer");
+    openPlace(id, false);
+  }
+
   function addMarker(p) {
     var m = L.marker([p.lat, p.lng], { icon: iconFor(p.type), title: p.name })
       .on("add", function () {
@@ -960,7 +1146,7 @@
       })
       .addTo(groups[p.type] || groups.tabya)
       .on("click", function () {
-        selectPlace(p.id, false);
+        selectMarkerPlace(p.id);
         focusSelectedPanel(m.getElement ? m.getElement() : null);
       });
     m.bindTooltip(p.name, { direction: "top", offset: [0, -12] });
@@ -979,7 +1165,7 @@
     event.preventDefault();
     event.stopImmediatePropagation();
     if (event.repeat) return;
-    selectPlace(id, false);
+    selectMarkerPlace(id);
     focusSelectedPanel(markers[id].getElement());
   }
   document.addEventListener("keydown", activateMarkerKey, true);
@@ -1086,11 +1272,15 @@
   var qMore = document.getElementById("q-more");
   var qClear = document.getElementById("q-clear");
   var searchLimit = 8;
+  var searchPicked = false;
   function beginSearchInteraction() {
     panelRevision += 1;
     stopPlay();
   }
-  q.addEventListener("focus", beginSearchInteraction);
+  q.addEventListener("focus", function () {
+    beginSearchInteraction();
+    if (searchPicked) renderSearch();
+  });
   function closeSearchResults() {
     qRes.hidden = true;
     if (qMore) qMore.hidden = true;
@@ -1102,13 +1292,13 @@
       e.preventDefault();
       e.stopPropagation();
       closeSearchResults();
-    } else if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+    } else if (e.key === "ArrowDown" || e.key === "ArrowUp" || e.key === "Enter") {
       beginSearchInteraction();
       if (qRes.hidden) renderSearch();
       var hits = qRes.querySelectorAll("button");
       if (!hits.length) return;
       e.preventDefault();
-      hits[e.key === "ArrowDown" ? 0 : hits.length - 1].focus();
+      hits[e.key === "ArrowUp" ? hits.length - 1 : 0].focus();
     }
   });
   qRes.addEventListener("keydown", function (e) {
@@ -1120,13 +1310,13 @@
       q.focus();
       return;
     }
-    if (e.key !== "ArrowDown" && e.key !== "ArrowUp") return;
+    if (["ArrowDown", "ArrowUp", "Home", "End"].indexOf(e.key) === -1) return;
     var hits = Array.prototype.slice.call(qRes.querySelectorAll("button"));
     var index = hits.indexOf(e.target);
     if (index < 0) return;
     beginSearchInteraction();
     e.preventDefault();
-    var next = index + (e.key === "ArrowDown" ? 1 : -1);
+    var next = e.key === "Home" ? 0 : e.key === "End" ? hits.length - 1 : index + (e.key === "ArrowDown" ? 1 : -1);
     if (next < 0 || next >= hits.length) q.focus();
     else hits[next].focus();
   });
@@ -1142,12 +1332,15 @@
     type.textContent = p
       ? ({ tabya: "Tabya · Harita", birlik: "Birlik · Harita", gemi: "Gemi · Harita", enkaz: "Batış / hasar · Harita", komuta: "Komuta · Harita", kampanya: "Mevki · Harita" })[p.type] || "Mevki · Harita"
       : kind || "Olay";
+    if (p && !map) type.textContent = type.textContent === "Mevki · Harita"
+      ? "Mevki kartı" : type.textContent.replace(" · Harita", " · Mevki kartı");
     btn.appendChild(name);
     btn.appendChild(type);
     btn.addEventListener("click", function () {
       closeSearchResults();
       revealDock();
       onPick();
+      searchPicked = true;
       if (qStatus) qStatus.textContent = "Seçildi: " + label;
       var title = document.getElementById("panel-title");
       if (title) {
@@ -1159,6 +1352,7 @@
     qRes.appendChild(li);
   }
   function renderSearch() {
+    searchPicked = false;
     if (qClear) qClear.disabled = !q.value;
     var v = foldTr(q.value.trim());
     if (qMore) qMore.hidden = true;
@@ -1177,7 +1371,7 @@
       if (!matches(hay)) return;
       count += 1;
       if (count > searchLimit) return;
-      addSearchHit(p.name, function () { selectPlace(p.id, true); }, p);
+      addSearchHit(p.name, function () { selectPlace(p.id, true, true); }, p);
     });
     (D.events || []).forEach(function (ev) {
       var hay = foldTr(ev.t + " " + ev.title + " " + ev.text);
@@ -1393,6 +1587,8 @@
   }
 
   function stopPlay() {
+    var completion = document.getElementById("playback-status");
+    if (completion) { completion.hidden = true; completion.textContent = ""; }
     playing = false;
     updateMapPlayback();
     var b = document.getElementById("tl-play");
@@ -1528,6 +1724,7 @@
       var list = campEvents();
       if (!list.length) { stopPlay(); return; }
       var i = Number(range.value) + dir;
+      if (fromPlayback && (i < 0 || i >= list.length)) { stopPlaybackAtEnd(); return; }
       if (i < 0) i = list.length - 1;
       if (i >= list.length) i = 0;
       range.value = String(i);
@@ -1543,21 +1740,32 @@
     var target = null;
     var selectedIndex = pool.indexOf(navalSelection);
     if (selectedIndex >= 0 && navalSelection.m === cur) {
+      if (fromPlayback && (selectedIndex + dir < 0 || selectedIndex + dir >= pool.length)) { stopPlaybackAtEnd(); return; }
       target = pool[(selectedIndex + dir + pool.length) % pool.length];
     } else if (dir > 0) {
       pool.some(function (ev) {
         if (ev.m > cur) { target = ev; return true; }
         return false;
       });
+      if (!target && fromPlayback) { stopPlaybackAtEnd(); return; }
       if (!target) target = pool[0];
     } else {
       for (var n = pool.length - 1; n >= 0; n--) {
         if (pool[n].m < cur) { target = pool[n]; break; }
       }
+      if (!target && fromPlayback) { stopPlaybackAtEnd(); return; }
       if (!target) target = pool[pool.length - 1];
     }
     range.value = String(target.m);
     showTime(target.m, true, target);
+  }
+  function stopPlaybackAtEnd() {
+    stopPlay();
+    var status = document.getElementById("playback-status");
+    if (status) {
+      status.hidden = false;
+      status.textContent = "Oynatma tamamlandı. Son kayıt açık kaldı. Baştan başlamak için İleri, ardından Oynat düğmesine basın.";
+    }
   }
   document.getElementById("tl-both").addEventListener("click", function () { setSide("both"); });
   document.getElementById("tl-turk").addEventListener("click", function () { setSide("turk"); });
@@ -1601,6 +1809,15 @@
   });
   window.addEventListener("pagehide", stopPlay);
 
+  var panelMapReturn = document.getElementById("panel-map-return");
+  if (panelMapReturn) panelMapReturn.addEventListener("click", function (event) {
+    if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button > 0) return;
+    event.preventDefault();
+    stopPlay();
+    scrollToMap();
+    focusPlaybackMap();
+  });
+
   showTime(450, false);
 
   function scrollToMap() {
@@ -1623,7 +1840,7 @@
     scrollToMap();
     setTimeout(function () {
       if (panelRevision !== requestedRevision) return;
-      selectPlace(id, true);
+      selectPlace(id, true, true);
     }, motionOn() ? 250 : 0);
   }
 
@@ -2080,7 +2297,7 @@
         var row = document.getElementById("event-" + ev.id);
         if (row) row.classList.add("is-target");
         if (map) map.invalidateSize();
-        restoreAtlasView();
+        restoreAtlasView(function () { focusCampEvent(ev, true); });
       }, 350);
       return;
     }
@@ -2101,9 +2318,9 @@
       window.setTimeout(function () {
         if (panelRevision !== requestedRevision) return;
         scrollToMap();
-        selectPlace(mevki, true);
+        openPlace(mevki, true);
         if (map) map.invalidateSize();
-        restoreAtlasView();
+        restoreAtlasView(function () { openPlace(mevki, false); });
       }, 350);
     } else if (params && params.has("mevki")) {
       notFound("mevki");
@@ -2128,7 +2345,7 @@
         var stage = document.getElementById("harita");
         if (stage) stage.scrollIntoView({ behavior: "auto", block: "start" });
         if (map) map.invalidateSize();
-        restoreAtlasView();
+        restoreAtlasView(function () { showTime(minute, false, eventKey === null ? null : navalEvent); });
       }, 350);
     }
   }

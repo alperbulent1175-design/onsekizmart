@@ -1,0 +1,197 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "width": 320,
+      "height": 844,
+      "guideOpen": false,
+      "afterPlay": {
+        "mapTop": 236,
+        "mapBottom": 675,
+        "visibleHeight": 439,
+        "viewport": 844,
+        "focus": "tl-play",
+        "playing": "true"
+      },
+      "beforePause": {
+        "mapTop": 76,
+        "mapBottom": 515,
+        "visibleHeight": 439,
+        "viewport": 844,
+        "focus": "map-playback-pause",
+        "playing": "true"
+      },
+      "afterPause": {
+        "mapTop": -783,
+        "mapBottom": -344,
+        "visibleHeight": 0,
+        "viewport": 844,
+        "focus": "tl-play",
+        "playing": "false"
+      },
+      "titlePreserved": true,
+      "guidePreserved": true,
+      "pageOverflow": false
+    },
+    {
+      "width": 320,
+      "height": 844,
+      "guideOpen": true,
+      "afterPlay": {
+        "mapTop": 946,
+        "mapBottom": 1385,
+        "visibleHeight": 0,
+        "viewport": 844,
+        "focus": "tl-play",
+        "playing": "true"
+      },
+      "beforePause": {
+        "mapTop": 76,
+        "mapBottom": 515,
+        "visibleHeight": 439,
+        "viewport": 844,
+        "focus": "map-playback-pause",
+        "playing": "true"
+      },
+      "afterPause": {
+        "mapTop": -782,
+        "mapBottom": -343,
+        "visibleHeight": 0,
+        "viewport": 844,
+        "focus": "tl-play",
+        "playing": "false"
+      },
+      "titlePreserved": true,
+      "guidePreserved": true,
+      "pageOverflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "guideOpen": false,
+      "afterPlay": {
+        "mapTop": 236,
+        "mapBottom": 675,
+        "visibleHeight": 439,
+        "viewport": 844,
+        "focus": "tl-play",
+        "playing": "true"
+      },
+      "beforePause": {
+        "mapTop": 76,
+        "mapBottom": 515,
+        "visibleHeight": 439,
+        "viewport": 844,
+        "focus": "map-playback-pause",
+        "playing": "true"
+      },
+      "afterPause": {
+        "mapTop": -708,
+        "mapBottom": -269,
+        "visibleHeight": 0,
+        "viewport": 844,
+        "focus": "tl-play",
+        "playing": "false"
+      },
+      "titlePreserved": true,
+      "guidePreserved": true,
+      "pageOverflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "guideOpen": true,
+      "afterPlay": {
+        "mapTop": 797,
+        "mapBottom": 1236,
+        "visibleHeight": 47,
+        "viewport": 844,
+        "focus": "tl-play",
+        "playing": "true"
+      },
+      "beforePause": {
+        "mapTop": 76,
+        "mapBottom": 515,
+        "visibleHeight": 439,
+        "viewport": 844,
+        "focus": "map-playback-pause",
+        "playing": "true"
+      },
+      "afterPause": {
+        "mapTop": -708,
+        "mapBottom": -269,
+        "visibleHeight": 0,
+        "viewport": 844,
+        "focus": "tl-play",
+        "playing": "false"
+      },
+      "titlePreserved": true,
+      "guidePreserved": true,
+      "pageOverflow": false
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "guideOpen": false,
+      "afterPlay": {
+        "mapTop": 698,
+        "mapBottom": 1430,
+        "visibleHeight": 203,
+        "viewport": 900,
+        "focus": "tl-play",
+        "playing": "true"
+      },
+      "beforePause": {
+        "mapTop": 0,
+        "mapBottom": 732,
+        "visibleHeight": 668,
+        "viewport": 900,
+        "focus": "map-playback-pause",
+        "playing": "true"
+      },
+      "afterPause": {
+        "mapTop": 0,
+        "mapBottom": 732,
+        "visibleHeight": 668,
+        "viewport": 900,
+        "focus": "tl-play",
+        "playing": "false"
+      },
+      "titlePreserved": true,
+      "guidePreserved": true,
+      "pageOverflow": false
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "guideOpen": true,
+      "afterPlay": {
+        "mapTop": 558,
+        "mapBottom": 1290,
+        "visibleHeight": 342,
+        "viewport": 900,
+        "focus": "tl-play",
+        "playing": "true"
+      },
+      "beforePause": {
+        "mapTop": 0,
+        "mapBottom": 732,
+        "visibleHeight": 668,
+        "viewport": 900,
+        "focus": "map-playback-pause",
+        "playing": "true"
+      },
+      "afterPause": {
+        "mapTop": 0,
+        "mapBottom": 732,
+        "visibleHeight": 668,
+        "viewport": 900,
+        "focus": "tl-play",
+        "playing": "false"
+      },
+      "titlePreserved": true,
+      "guidePreserved": true,
+      "pageOverflow": false
+    }
+  ]
+}

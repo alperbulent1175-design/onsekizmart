@@ -1,0 +1,19 @@
+{
+  "before": {
+    "focus": "map-playback-pause",
+    "guideOpen": true,
+    "mapBottom": 515,
+    "mapTop": 76,
+    "playing": "true",
+    "tabindex": "0"
+  },
+  "after": {
+    "focus": "map",
+    "guideOpen": true,
+    "mapBottom": 816,
+    "mapTop": 377,
+    "playbackHidden": true,
+    "playing": "false",
+    "tabindex": "0"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "reviewDate": "2026-10-20",
+  "sourceUrl": "https://www.thegazette.co.uk/London/issue/31322",
+  "title": "The London Gazette, issue 31322, Seventh Supplement",
+  "publicationDate": "1919-05-02",
+  "coverLetterDate": "1915-03-26",
+  "enclosedReportDate": "1915-03-24",
+  "status": "resmi_yayin_goruntusu_incelendi",
+  "sourceKind": "Resmî yayımdaki rapor; ıslak imzalı asıl nüsha değildir",
+  "timeBasis": {
+    "printedPage": "5502",
+    "pdfPage": 8,
+    "meaning": "Raporda yerel saat GMT’den iki saat ileridir. Modern Türkiye saatine kendiliğinden dönüştürülmedi."
+  },
+  "claims": [
+    {
+      "id": "inflexible-bildirim",
+      "printedPage": "5503",
+      "pdfPage": 9,
+      "time": "16:11",
+      "phase": "bildirim",
+      "evidence": "4.11.—“Inflexible” reported",
+      "interpretation": "Raporda Inflexible’ın mayın isabetini bildirmesi bu saatte kaydedilir. İsabet anı ayrıca belirlenmez.",
+      "sourceUrl": "https://www.thegazette.co.uk/London/issue/31322",
+      "reviewDate": "2026-10-20",
+      "status": "resmi_yayin_goruntusu_incelendi"
+    },
+    {
+      "id": "wear-donus",
+      "printedPage": "5503–5504",
+      "pdfPage": "9–10",
+      "time": "16:50",
+      "phase": "dönüş ve personel aktarımı",
+      "evidence": "at 4.50 p.m.",
+      "interpretation": "Wear’in Irresistible’dan aldığı personelle Queen Elizabeth’e dönüşü kaydedilir; tahliyenin başlangıç saati değildir.",
+      "sourceUrl": "https://www.thegazette.co.uk/London/issue/31322",
+      "reviewDate": "2026-10-20",
+      "status": "resmi_yayin_goruntusu_incelendi"
+    },
+    {
+      "id": "ocean-isabet",
+      "printedPage": "5503–5504",
+      "pdfPage": "9–10",
+      "time": "18:05",
+      "phase": "isabet kaydı",
+      "evidence": "6.5.—“Ocean,”",
+      "interpretation": "Harekât anlatısı mayın isabeti ve aynı sırada dümen hasarı bildirir; üst yazının torpido veya mayın ifadesi daha ihtiyatlıdır.",
+      "sourceUrl": "https://www.thegazette.co.uk/London/issue/31322",
+      "reviewDate": "2026-10-20",
+      "status": "resmi_yayin_goruntusu_incelendi"
+    },
+    {
+      "id": "ocean-terk",
+      "printedPage": "5503",
+      "pdfPage": 9,
+      "time": "yaklaşık 19:30",
+      "phase": "terk",
+      "evidence": "about 7.30 p.m.",
+      "interpretation": "Ocean’ın nihai terk edilmesi anlatılır; batış saati değildir.",
+      "sourceUrl": "https://www.thegazette.co.uk/London/issue/31322",
+      "reviewDate": "2026-10-20",
+      "status": "resmi_yayin_goruntusu_incelendi"
+    },
+    {
+      "id": "gece-arama",
+      "printedPage": "5504",
+      "pdfPage": 10,
+      "time": "23:00",
+      "phase": "bulunamadı teyidi",
+      "evidence": "No trace of either ship could be found",
+      "interpretation": "Ana metinde Jed’in sonuçsuz arama teyidi yer alır. Muhrip ekinde arama 20:30–23:30 aralığında anlatılır; batış gözlemi değildir.",
+      "sourceUrl": "https://www.thegazette.co.uk/London/issue/31322",
+      "reviewDate": "2026-10-20",
+      "status": "resmi_yayin_goruntusu_incelendi"
+    }
+  ],
+  "limits": [
+    "Mevcut kronoloji bağlantı anahtarları ve koordinatlar değiştirilmedi.",
+    "AWM daktilo kopyası ve bu yayım bağımsız iki tanıklık sayılmadı.",
+    "Inflexible günlük taramasının 18 Mart sayfası tarih ve yer dışında boştur; kesin 17:30 demirleme kaydı çıkarılamaz.",
+    "TÜDAV, Aktar ve Nautilus incelemeleri Ocean veya Bouvet için yeni sayısal koordinat sağlamadı."
+  ]
+}

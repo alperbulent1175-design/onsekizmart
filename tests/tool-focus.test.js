@@ -56,7 +56,7 @@ function pendingLink(ctx, search) {
     findCampByKey: key => key === 'test-event' ? { id: key } : null,
     findPlace: key => key === 'test-place' ? { id: key } : null,
     focusCampEvent: event => { selected.push(event.id); ctx.closeTools(); },
-    selectPlace: id => { selected.push(id); ctx.closeTools(); },
+    openPlace: id => { selected.push(id); ctx.closeTools(); },
     showTime: minute => { selected.push(minute); ctx.closeTools(); },
     scrollToMap() {}, revealDock() {}, restoreAtlasView() { restored++; }
   });

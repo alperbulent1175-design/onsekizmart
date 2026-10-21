@@ -1,0 +1,232 @@
+[
+  {
+    "width": 320,
+    "pageOverflow": false,
+    "menuOpen": "true",
+    "menuZ": "40",
+    "barZ": "600",
+    "barTop": 64,
+    "checks": [
+      {
+        "text": "Harita",
+        "top": 64,
+        "bottom": 108,
+        "covered": true,
+        "coveredBy": "event-actions"
+      },
+      {
+        "text": "Kronoloji",
+        "top": 108,
+        "bottom": 152,
+        "covered": true,
+        "coveredBy": "event-actions"
+      },
+      {
+        "text": "Olaylar",
+        "top": 152,
+        "bottom": 196,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Deniz",
+        "top": 196,
+        "bottom": 240,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Kara",
+        "top": 240,
+        "bottom": 284,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Tahliye",
+        "top": 284,
+        "bottom": 328,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Komutanlar",
+        "top": 336,
+        "bottom": 380,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Osmanlı",
+        "top": 380,
+        "bottom": 424,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "İtilaf",
+        "top": 424,
+        "bottom": 468,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Donanma",
+        "top": 476,
+        "bottom": 520,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Site",
+        "top": 520,
+        "bottom": 564,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Kaynakça",
+        "top": 564,
+        "bottom": 608,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Fotoğraf arşivi",
+        "top": 608,
+        "bottom": 652,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Nasıl okunur",
+        "top": 652,
+        "bottom": 696,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Sözlük",
+        "top": 696,
+        "bottom": 740,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "pageOverflow": false,
+    "menuOpen": "true",
+    "menuZ": "40",
+    "barZ": "600",
+    "barTop": 64,
+    "checks": [
+      {
+        "text": "Harita",
+        "top": 64,
+        "bottom": 108,
+        "covered": true,
+        "coveredBy": "event-actions"
+      },
+      {
+        "text": "Kronoloji",
+        "top": 108,
+        "bottom": 152,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Olaylar",
+        "top": 152,
+        "bottom": 196,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Deniz",
+        "top": 196,
+        "bottom": 240,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Kara",
+        "top": 240,
+        "bottom": 284,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Tahliye",
+        "top": 284,
+        "bottom": 328,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Komutanlar",
+        "top": 336,
+        "bottom": 380,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Osmanlı",
+        "top": 380,
+        "bottom": 424,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "İtilaf",
+        "top": 424,
+        "bottom": 468,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Donanma",
+        "top": 476,
+        "bottom": 520,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Site",
+        "top": 520,
+        "bottom": 564,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Kaynakça",
+        "top": 564,
+        "bottom": 608,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Fotoğraf arşivi",
+        "top": 608,
+        "bottom": 652,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Nasıl okunur",
+        "top": 652,
+        "bottom": 696,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      },
+      {
+        "text": "Sözlük",
+        "top": 696,
+        "bottom": 740,
+        "covered": false,
+        "coveredBy": "nav-panel is-open"
+      }
+    ]
+  }
+]

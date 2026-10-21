@@ -1,0 +1,49 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "width": 320,
+      "via": "next",
+      "mapContextCarried": true,
+      "listContextCarried": true,
+      "returnHref": "/?olay=e-may19#harita",
+      "returnLabel": "Seçili kayda dön",
+      "listHref": "/olaylar/?q=Ar%C4%B1burnu&bolum=kara#events-tools",
+      "pageOverflow": false,
+      "returnedTitle": "Arıburnu genel taarruzu"
+    },
+    {
+      "width": 320,
+      "via": "inline",
+      "mapContextCarried": true,
+      "listContextCarried": true,
+      "returnHref": "/?olay=e-may19#harita",
+      "returnLabel": "Seçili kayda dön",
+      "listHref": "/olaylar/?q=Ar%C4%B1burnu&bolum=kara#events-tools",
+      "pageOverflow": false,
+      "returnedTitle": "Arıburnu genel taarruzu"
+    },
+    {
+      "width": 390,
+      "via": "next",
+      "mapContextCarried": true,
+      "listContextCarried": true,
+      "returnHref": "/?olay=e-may19#harita",
+      "returnLabel": "Seçili kayda dön",
+      "listHref": "/olaylar/?q=Ar%C4%B1burnu&bolum=kara#events-tools",
+      "pageOverflow": false,
+      "returnedTitle": "Arıburnu genel taarruzu"
+    },
+    {
+      "width": 390,
+      "via": "inline",
+      "mapContextCarried": true,
+      "listContextCarried": true,
+      "returnHref": "/?olay=e-may19#harita",
+      "returnLabel": "Seçili kayda dön",
+      "listHref": "/olaylar/?q=Ar%C4%B1burnu&bolum=kara#events-tools",
+      "pageOverflow": false,
+      "returnedTitle": "Arıburnu genel taarruzu"
+    }
+  ]
+}

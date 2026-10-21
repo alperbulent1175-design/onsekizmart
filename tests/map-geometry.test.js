@@ -9,6 +9,48 @@ const ctx = { window: {} };
 vm.createContext(ctx);
 vm.runInContext(read('js/data.js') + '\n' + read('js/campaign.js'), ctx);
 const data = ctx.window.OM;
+const inventory = JSON.parse(read('research/source-review/harita-konum-2026-10-20/konum-denetimi.json'));
+const plain = value => JSON.parse(JSON.stringify(value));
+
+test('konum denetimi tüm güncel noktaları ve kaynak incelemelerini eksiksiz izler', () => {
+  const points = [...data.places, ...data.campaign.places];
+  assert.equal(new Set(inventory.points.map(p => p.id)).size, points.length);
+  assert.equal(inventory.points.length, points.length);
+  for (const p of points) {
+    const record = inventory.points.find(record => record.id === p.id);
+    assert.ok(record, p.id);
+    assert.equal(record.name, p.name, p.id);
+    assert.deepEqual(record.coordinates, [p.lat, p.lng], p.id);
+    assert.deepEqual(record.source, p.coordinateSource ? plain(p.coordinateSource) : null, p.id);
+    if (p.coordinateReview) {
+      for (const key of ['url', 'evidenceText', 'date', 'status']) {
+        assert.equal(record.review?.[key], p.coordinateReview[key], p.id + ': ' + key);
+      }
+      assert.equal(record.source, null, p.id + ': anlatım sayısal kaynak değildir');
+    }
+  }
+  const sourced = points.filter(p => p.coordinateSource).length;
+  assert.equal(inventory.summary.points, points.length);
+  assert.equal(inventory.summary.pointsWithNumericSource, sourced);
+  assert.equal(inventory.summary.pointsWithoutNumericSource, points.length - sourced);
+  assert.equal(inventory.summary.changedPoints, inventory.points.filter(p => p.changed).length);
+});
+
+test('konum denetimi bütün çizgi köşelerini izler; şemaları doğrulanmış saymaz', () => {
+  const lines = [...data.lines.map(line => ({ id: line.id, coordinates: line.latlngs })),
+    ...data.mineLines.map((line, index) => ({ id: 'sema-' + (index + 1), coordinates: [line.a, line.b] }))];
+  const records = [...inventory.lines, ...inventory.transverse];
+  assert.equal(records.length, lines.length);
+  assert.equal(new Set(records.map(line => line.id)).size, lines.length);
+  for (const line of lines) {
+    const record = records.find(record => record.id === line.id);
+    assert.ok(record, line.id);
+    assert.deepEqual(record.coordinates, plain(line.coordinates), line.id);
+    assert.match(record.geometryStatus, /dogrulanmadi$/, line.id);
+  }
+  assert.equal(inventory.summary.lines, lines.length);
+  assert.equal(inventory.summary.verifiedLineGeometries, 0);
+});
 
 test('harita sayıları geçerlidir; nokta koordinatı ile çizgi köşesi ayrı tutulur', () => {
   const points = [...data.places, ...data.campaign.places];
@@ -44,6 +86,19 @@ test('mayın anlatısının kanıtı sayısal çizgi doğrulamasına dönüştü
   assert.match(line.note, /uç noktaları, uzunluğu ve mayın aralıkları/);
   assert.doesNotMatch(line.note, /100.?150/);
   assert.doesNotMatch(data.disclaimer, /birkaç yüz metre/);
+});
+
+test('bütün kurumsal noktalarda kaynak içindeki sayısal hedef harita koordinatıyla eşleşir', () => {
+  const places = [...data.places, ...data.campaign.places];
+  for (const p of places.filter(p => p.coordinateSource?.status === 'kurumsal_ziyaret_noktasi_karsilastirildi')) {
+    const source = p.coordinateSource;
+    const match = source.evidenceText.match(/destination=([\d.]+),\s*([\d.]+)/) || source.evidenceText.match(/center:\s*\[([\d.]+),\s*([\d.]+)\]/);
+    assert.ok(match, p.id);
+    assert.equal(p.lat, Number(match[1]), p.id);
+    assert.equal(p.lng, Number(match[2]), p.id);
+    assert.ok(source.url && source.label && source.date && p.uncertainty, p.id);
+    assert.equal(p.accuracy, 'yaklasik');
+  }
 });
 
 test('mayın çizgisi kartı oynatmayı durdurur ve eski işaret seçimini temizler', () => {

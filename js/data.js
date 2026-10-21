@@ -148,8 +148,18 @@ window.OM = {
       id: "cimenlik",
       type: "tabya",
       name: "Çimenlik Tabyası (Kale-i Sultaniye)",
-      lat: 40.1477,
-      lng: 26.3995,
+      lat: 40.146395,
+      lng: 26.399161,
+      accuracy: "yaklasik",
+      uncertainty: "Kültür Bakanlığı Kültür Portalı sayfasındaki Çimenlik Kalesi harita işaretiyle eşleştirildi. Kale alanını temsil eder; 1915 tabya toplarının, karargâhın veya mermi isabetinin kesin koordinatı değildir.",
+      coordinateSource: {
+        url: "https://www.kulturportali.gov.tr/turkiye/canakkale/gezilecekyer/cimenlik-kalesi",
+        label: "Kültür Bakanlığı · Çimenlik Kalesi",
+        evidenceText: "center: [40.146395,26.399161]; ÇİMENLİK KALESİ işareti myMap.getCenter() üzerinde oluşturulur.",
+        date: "2026-10-20",
+        status: "kurumsal_ziyaret_noktasi_karsilastirildi",
+        datum: "belirtilmemis"
+      },
       meta: "Anadolu · Çanakkale merkez",
       short: "Queen Elizabeth’in ilk atış saati ve hedef eşleştirmesinin belge karşılaştırması açık. Ayrıntılar 18 Mart kaynak notunda açıklanır.",
       hits: "30–40 isabet",
@@ -163,8 +173,18 @@ window.OM = {
       id: "anadolu-hamidiye",
       type: "tabya",
       name: "Anadolu Hamidiye Tabyası",
-      lat: 40.1398,
-      lng: 26.4072,
+      lat: 40.138566,
+      lng: 26.404352,
+      accuracy: "yaklasik",
+      uncertainty: "Alan Başkanlığının güncel Anadolu Hamidiye Tabyası ziyaret noktasıyla eşleştirildi. Tabya ve müze alanını temsil eder; 1915 top platformu, cephanelik veya ateş idare yerinin kesin koordinatı değildir.",
+      coordinateSource: {
+        url: "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/anadolu-hamidiye-tabyasi",
+        label: "Alan Başkanlığı · Anadolu Hamidiye Tabyası",
+        evidenceText: "Ziyaret Noktasına Git: destination=40.138566, 26.404352",
+        date: "2026-10-20",
+        status: "kurumsal_ziyaret_noktasi_karsilastirildi",
+        datum: "belirtilmemis"
+      },
       meta: "Anadolu · 355 mm ve 240 mm Krupp",
       short: "Fransız filosunun göğüs göğüse girdiği ağır batarya. Suffren ve Gaulois’ya isabetlerin kaynağı.",
       hits: "40–50 isabet",
@@ -181,8 +201,17 @@ window.OM = {
       name: "Dardanos Tabyası (Hasan-Mevsuf)",
       lat: 40.085728,
       lng: 26.371181,
-      meta: "Kepez–İntepe · 15 cm Krupp seri ateş",
-      short: "Orta savunma kuşağının ileri karakolu. 17.15’te rasat yeri vuruldu; komuta kademesi şehit düştü.",
+      meta: "Anadolu yakası · konum incelemesi açık",
+      short: "İşaret tabya çevresini temsil eder. Rasat yerinin konumu, isabet saati ve olay ayrıntıları için belge karşılaştırması sürüyor.",
+      accuracy: "yaklasik",
+      uncertainty: "Tabya alanı için temsili noktadır; şehitlik, top mevzii ve rasat yerinin kesin noktaları olarak doğrulanmadı. Restorasyon kaydındaki yer adı sayısal koordinat kanıtı değildir.",
+      coordinateReview: {
+        url: "https://www.kulturportali.gov.tr/turkiye/canakkale/ilprojeleri/troia-antik-kenti-cevre-duzenleme-uygulamalari",
+        label: "Kültür Portalı · Hasan Mevsuf Şehitliği Tabya ve Bataryalarının Restorasyonu",
+        evidenceText: "İlimiz, Merkez Çınarlı Köyünde bulunan Hasan Mevsuf Şehitliği",
+        date: "2026-10-20",
+        status: "anlatim_incelendi_nokta_dogrulanmadi"
+      },
       hits: "60–80 isabet",
       note: [
         "Teknik donanım: 15 cm’lik hızlı ateşli Krupp toplar. Mayın hatlarını koruma ve filonun daralmaya ilerlemesini engellemede kilit rol.",
@@ -223,6 +252,15 @@ window.OM = {
       lat: 40.0103,
       lng: 26.1975,
       meta: "Anadolu giriş · 11. Tümen sahası",
+      accuracy: "yaklasik",
+      uncertainty: "Kumkale çevresi için temsili noktadır; kalenin, gözetleme postasının veya çıkarma kumsalının kesin koordinatı doğrulanmadı. Günümüzdeki köy ve şehitlik, kale noktası yerine kullanılmadı.",
+      coordinateReview: {
+        url: "https://canakkale.ktb.gov.tr/TR-70518/kaleler.html",
+        label: "Çanakkale İl Kültür ve Turizm Müdürlüğü · Kaleler",
+        evidenceText: "Kumkale Köyü kale yapısına 3 km. uzaklıktadır.",
+        date: "2026-10-20",
+        status: "anlatim_incelendi_nokta_dogrulanmadi"
+      },
       short: "Boğaz ağzının Anadolu kapısı. Sabah alarmının diğer ucu.",
       note: [
         "Kumkale gözetleme postası 08.45’te büyük filonun Boğaz ağzına ilerlediğini rapor etti.",
@@ -233,11 +271,20 @@ window.OM = {
     {
       id: "mesudiye",
       type: "tabya",
-      name: "Mesudiye / Yıldız / Baykuş bataryaları",
+      name: "Mesudiye / Yıldız / Baykuş — toplu kayıt",
       lat: 40.0965,
       lng: 26.362,
-      meta: "Kepez–Dardanos hattı · seyyar ve sahil",
-      short: "Yerleri tam tespit edilemediği için isabetler çevreye düştü; mevziler çabuk toparlandı.",
+      meta: "Batarya adları · eşleştirme incelemesi açık",
+      short: "Bu toplu kayıttaki batarya adları ve mevziler ayrı belgelerle eşleştiriliyor. Tek işaret, ortak veya kesin bir batarya konumu olarak doğrulanmadı.",
+      accuracy: "yaklasik",
+      uncertainty: "Kurum kaydında Baykuş (Mesudiye) adlandırması geçer; Yıldız ile ilişkisi ve ayrı mevzilerin sayısal konumları bu kaynakla doğrulanmaz. Mesudiye Topu ziyaret noktası, tarihsel batarya veya gemi batığı konumu yerine kullanılmadı.",
+      coordinateReview: {
+        url: "https://canakkaletarihialan.gov.tr/tr/ziyaret/diger-ziyaret-noktalari/mesudiye-topu",
+        label: "Alan Başkanlığı · Mesudiye Topu",
+        evidenceText: "Mesudiye Zırhlısı’ndan sökülen toplar; Baykuş (Mesudiye) bataryası olarak",
+        date: "2026-10-20",
+        status: "anlatim_incelendi_nokta_dogrulanmadi"
+      },
       hits: "20–30’ar isabet",
       note: [
         "11.30’da Mesudiye ve Şevket bataryaları ile seyyar obüsler, ağır tabyalar henüz suskunken İngiliz zırhlılarına karşılık vermeye başladı.",
@@ -310,7 +357,17 @@ window.OM = {
         context: "Pasaj Inflexible’ın mayına çarptığını bildirmesine ilişkindir. Bildirimin zamanı, mayına çarpma anını ayrıca doğrulamaz.",
         date: "2026-10-19",
         status: "daktilo_kopyasi_goruntuden_okundu",
-        limit: "Özgün imzalı raporla karşılaştırma açık; kesin isabet saati veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor."
+        limit: "Özgün imzalı raporla karşılaştırma açık; kesin isabet saati veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor.",
+        publishedComparison: {
+          "url": "https://www.thegazette.co.uk/London/issue/31322",
+          "label": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+          "date": "2026-10-20",
+          "status": "resmi_yayin_goruntusu_incelendi",
+          "evidenceText": "4.11.—“Inflexible” reported",
+          "translation": "16.11 — Inflexible bildirdi.",
+          "context": "Basılı 5503, mayın isabetinin bildirimini bu saatte kaydeder. İsabet anı ayrıca belirlenmez. Raporun yerel saatleri GMT’den iki saat ileridir.",
+          "limit": "Resmî yayımdaki rapor incelendi; imzalı asıl nüsha değildir. AWM daktilo kopyasıyla bağımsız iki tanıklık sayılmaz. Kartın tamamını veya harita koordinatını doğrulamaz."
+        }
       },
       meta: "18 Mart 1915 · saat ve zayiat incelemede",
       short: "Inflexible ağır hasar alarak Boğaz’dan çıkar. Kesin saat ve zayiat için belge karşılaştırması tamamlanmadı.",
@@ -343,7 +400,17 @@ window.OM = {
         translation: "İki gemiden de hiçbir iz bulunamadı.",
         date: "2026-10-19",
         status: "daktilo_kopyasi_goruntuden_okundu",
-        limit: "Özgün imzalı raporla karşılaştırma açık; kesin saat veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor."
+        limit: "Özgün imzalı raporla karşılaştırma açık; kesin saat veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor.",
+        publishedComparison: {
+          "url": "https://www.thegazette.co.uk/London/issue/31322",
+          "label": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+          "date": "2026-10-20",
+          "status": "resmi_yayin_goruntusu_incelendi",
+          "evidenceText": "at 4.50 p.m.",
+          "translation": "Saat 16.50’de.",
+          "context": "Basılı 5503–5504, Wear’in Irresistible’dan alınan personelle Queen Elizabeth’e dönüşünü anlatır. Tahliyenin başlangıcı veya batış anı değildir. Raporun yerel saatleri GMT’den iki saat ileridir.",
+          "limit": "Resmî yayımdaki rapor incelendi; imzalı asıl nüsha değildir. AWM daktilo kopyasıyla bağımsız iki tanıklık sayılmaz. Kartın tamamını veya harita koordinatını doğrulamaz."
+        }
       },
       meta: "18 Mart 1915 · isabet, tahliye ve batış saatleri incelemede",
       short: "Irresistible için isabet, tahliye ve batış ayrı kayıtlardır. Kesin saat ve tahliye sayılarının belge karşılaştırması tamamlanmadı.",
@@ -368,7 +435,17 @@ window.OM = {
         translation: "İki gemiden de hiçbir iz bulunamadı.",
         date: "2026-10-19",
         status: "daktilo_kopyasi_goruntuden_okundu",
-        limit: "Özgün imzalı raporla karşılaştırma açık; kesin saat veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor."
+        limit: "Özgün imzalı raporla karşılaştırma açık; kesin saat veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor.",
+        publishedComparison: {
+          "url": "https://www.thegazette.co.uk/London/issue/31322",
+          "label": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+          "date": "2026-10-20",
+          "status": "resmi_yayin_goruntusu_incelendi",
+          "evidenceText": "about 7.30 p.m.",
+          "translation": "Yaklaşık saat 19.30’da.",
+          "context": "Basılı 5503’te bu saat Ocean’ın nihai terk edilmesine ilişkindir; batış saati değildir. Basılı 5504’te gece araması sonuçsuzdur. Raporun yerel saatleri GMT’den iki saat ileridir.",
+          "limit": "Resmî yayımdaki rapor incelendi; imzalı asıl nüsha değildir. AWM daktilo kopyasıyla bağımsız iki tanıklık sayılmaz. Kartın tamamını veya harita koordinatını doğrulamaz."
+        }
       },
       meta: "18 Mart 1915 · isabet ve batış saatleri incelemede",
       short: "Ocean 18 Mart’ta battı. Mayın isabeti anlatıları farklı kesinliktedir; ayrıntılı saat ve tahliye bilgisi doğrulanmadı.",
