@@ -36,6 +36,9 @@ test('olay listesinden dönüş aramayı korur ve dış hedefleri reddeder', () 
   const valid = '/olaylar/?q=Ar%C4%B1burnu&bolum=kara#events-tools';
   assert.equal(visitList(valid).href, valid);
   assert.equal(visitList(valid).textContent, 'Arama sonuçlarına dön');
+  const unicode = '/olaylar/?q=' + encodeURIComponent('ş'.repeat(200)) + '&bolum=kara#events-tools';
+  assert.equal(visitList(unicode).href, unicode);
+  assert.equal(visitList('/olaylar/?q=' + 'a'.repeat(201) + '#events-tools').href, '/olaylar/#kara');
   for (const invalid of ['https://evil.example/', '//evil.example/', '/olaylar/test/#events-tools', '/olaylar/?q=a&q=b#events-tools', '/olaylar/?bolum=bilinmeyen#events-tools', '/olaylar/?redirect=x#events-tools', '/olaylar/#other']) {
     assert.equal(visitList(invalid).href, '/olaylar/#kara');
   }
@@ -67,8 +70,10 @@ test('olaydan komutana geçiş liste ve harita dönüşünü taşır; dış hede
   const params = new URLSearchParams({ listeyeDon: list, atlasaDon: map });
   const commander = { href: '/komutanlar/esat-pasa-bulkat/#inceleme-baslik' };
   const outside = { href: 'https://evil.example/komutanlar/test/' };
+  const handlers = {};
+  const window = { addEventListener(type, fn) { handlers[type] = fn; }, location: { href: 'https://onsekizmart.com/olaylar/ariburnu-genel-taarruzu/?' + params + '#kaynak-notu', origin: 'https://onsekizmart.com', search: '?' + params } };
   vm.runInNewContext(source, { URL, URLSearchParams,
-    window: { location: { href: 'https://onsekizmart.com/olaylar/ariburnu-genel-taarruzu/?' + params + '#kaynak-notu', origin: 'https://onsekizmart.com', search: '?' + params } },
+    window,
     document: { querySelectorAll: selector => selector === '.page-main a[href^="/komutanlar/"]' ? [commander, outside] : [], getElementById: () => null } });
   const target = new URL(commander.href, 'https://onsekizmart.com');
   assert.equal(target.hash, '#inceleme-baslik');
@@ -77,6 +82,17 @@ test('olaydan komutana geçiş liste ve harita dönüşünü taşır; dış hede
   assert.equal(back.hash, '#kaynak-notu');
   assert.equal(back.searchParams.get('listeyeDon'), list); assert.equal(back.searchParams.get('atlasaDon'), map);
   assert.equal(outside.href, 'https://evil.example/komutanlar/test/');
+  for (const event of ['hashchange', 'pageshow']) {
+    window.location.href = 'https://onsekizmart.com/olaylar/ariburnu-genel-taarruzu/?' + params + '#48-alay-emirleri';
+    handlers[event]();
+    const updated = new URL(commander.href, window.location.href);
+    const returned = new URL(updated.searchParams.get('olayaDon'), window.location.href);
+    assert.equal(returned.hash, '#48-alay-emirleri');
+    assert.equal(returned.searchParams.get('listeyeDon'), list);
+    assert.equal(returned.searchParams.get('atlasaDon'), map);
+    assert.equal(updated.hash, '#inceleme-baslik');
+    assert.equal(outside.href, 'https://evil.example/komutanlar/test/');
+  }
 });
 
 test('komutanın olay dönüşü yalnız yerel olay ve doğrulanmış iç dönüş adreslerini kabul eder', () => {

@@ -100,6 +100,24 @@ test('gemi araması Türkçe harfleri, boş sonucu, temizlemeyi ve gizli karta b
   win.handlers.popstate();
   assert.equal(input.value, 'Ocean'); assert.equal(nameOnly.checked, true);
   assert.equal(cards[0].hidden, true); assert.equal(cards[1].hidden, false);
+  location.hash = '#muavenet';
+  win.handlers.popstate(); win.handlers.hashchange();
+  assert.equal(input.value, 'Ocean'); assert.equal(nameOnly.checked, true);
+  assert.equal(cards[0].hidden, true); assert.equal(cards[1].hidden, false);
+  input.value = 'eski form'; nameOnly.checked = false;
+  win.handlers.pageshow();
+  assert.equal(input.value, 'Ocean'); assert.equal(nameOnly.checked, true);
+  input.value = 'bulunmayan'; input.handlers.input();
+  let escapePrevented = 0;
+  const escape = { key: 'Escape', preventDefault() { escapePrevented++; } };
+  input.handlers.keydown({ ...escape, isComposing: true });
+  assert.equal(input.value, 'bulunmayan');
+  input.handlers.keydown(escape);
+  assert.equal(input.value, ''); assert.equal(nameOnly.checked, true);
+  assert.ok(cards.every(card => !card.hidden));
+  assert.equal(new URL(location.href).searchParams.get('ad'), '1');
+  assert.equal(new URL(location.href).searchParams.get('q'), null);
+  input.handlers.keydown(escape); assert.equal(escapePrevented, 1);
 });
 
 

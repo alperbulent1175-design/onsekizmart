@@ -32,6 +32,8 @@ class PhotoBuildTests(unittest.TestCase):
         self.assertEqual(outputs, photos.plan(self.root))
         archive = outputs[self.root / 'fotograf-arsivi/index.html'].decode()
         self.assertEqual(archive.count('data-photo-id='), 2)
+        for record in self.records:
+            self.assertIn('id="foto-' + record['id'].replace(' ', '-') + '" tabindex="-1"', archive)
         self.assertIn('İlgili sayfalar:', archive)
         self.assertIn('2 fotoğraf.', archive)
         report = json.loads(outputs[self.root / photos.LEDGER.parent / 'coverage.json'])
@@ -52,6 +54,13 @@ class PhotoBuildTests(unittest.TestCase):
     def test_corrupt_image_is_rejected(self):
         (self.root / self.records[0]['sitePreparedPath']).write_bytes(b'corrupt')
         with self.assertRaisesRegex(ValueError, 'Dosya özeti'):
+            photos.plan(self.root)
+
+    def test_photo_anchor_collision_is_rejected_before_writing(self):
+        self.records[0]['id'] = 'Bild 183-test'
+        self.records[1]['id'] = 'Bild-183-test'
+        self.save()
+        with self.assertRaisesRegex(ValueError, 'bölüm kimliği'):
             photos.plan(self.root)
 
     def test_unsafe_paths_and_rights_links_are_rejected(self):

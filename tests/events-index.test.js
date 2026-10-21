@@ -4,6 +4,16 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 
+test('olay aramasının URL metni 200 karakterle sınırlanır ve güvenli dönüş üretir', () => {
+  const { elements: e, rows } = setup('https://example.invalid/olaylar/?q=' + encodeURIComponent('ş'.repeat(201)) + '&bolum=kara');
+  assert.equal(e['events-query'].value, 'ş'.repeat(200));
+  const back = new URL(new URL(rows[0].link.href, 'https://example.invalid').searchParams.get('listeyeDon'), 'https://example.invalid');
+  assert.equal(back.searchParams.get('q'), 'ş'.repeat(200));
+  assert.equal(back.searchParams.get('bolum'), 'kara');
+  const html = fs.readFileSync(path.join(__dirname, '../olaylar/index.html'), 'utf8');
+  assert.match(html, /<input[^>]*id="events-query"[^>]*maxlength="200"/);
+});
+
 function setup(url = 'https://example.invalid/olaylar/') {
   const elements = {};
   function el(text = '') {
@@ -33,6 +43,21 @@ function setup(url = 'https://example.invalid/olaylar/') {
   vm.runInNewContext(fs.readFileSync(path.join(__dirname, '../js/events-index.js'), 'utf8'), { document, window, URL, URLSearchParams });
   return { elements, rows, subgroup, window, writes: () => writes };
 }
+
+test('Esc olay aramasını temizlerken bölümü ve dönüş bağlantısını korur', () => {
+  const { elements: e, rows, window: w } = setup('https://example.invalid/olaylar/?q=bulunmayan&bolum=kara&ref=koru');
+  const input = e['events-query']; input.focus();
+  let prevented = 0;
+  const escape = { key: 'Escape', preventDefault() { prevented++; } };
+  input.listeners.keydown({ ...escape, defaultPrevented: true });
+  input.listeners.keydown({ ...escape, ctrlKey: true });
+  assert.equal(input.value, 'bulunmayan');
+  input.listeners.keydown(escape);
+  assert.equal(prevented, 1); assert.equal(input.value, ''); assert.equal(e['events-category'].value, 'kara');
+  assert.deepEqual(rows.map(r => r.hidden), [false, true, true]);
+  assert.equal(w.location.searchParams.get('q'), null); assert.equal(w.location.searchParams.get('ref'), 'koru');
+  assert.equal(new URL(rows[0].link.href, w.location.href).searchParams.get('listeyeDon'), '/olaylar/?bolum=kara#events-tools');
+});
 
 test('olay dizini Türkçe arama ile bölüm seçimini birleştirir', () => {
   const { elements: e, rows, subgroup } = setup();

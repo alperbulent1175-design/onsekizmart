@@ -105,6 +105,8 @@ test("kaynakça süzgeci mevcut kartları süzer ve veri basmaz", () => {
     status: "bulundu"
   };
   assert.equal(api.catalogMatch(item, "gallipoli", "", "", ""), true);
+  assert.equal(api.catalogMatch(item, "  gallipoli   australian ", "", "", ""), true);
+  assert.equal(api.catalogMatch(item, "gallipoli bulunmayan", "", "", ""), false);
   assert.equal(api.catalogMatch(item, "", "Imperial War Museums", "", ""), false);
   assert.equal(api.catalogMatch(item, "", "Australian War Memorial", "Dijital dosya", "bulundu"), true);
   assert.equal(api.catalogMatch(item, "", "", "", "insan_incelemesi_gerekli"), false);

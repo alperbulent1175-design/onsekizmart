@@ -5,6 +5,22 @@ const path = require('node:path');
 const vm = require('node:vm');
 const source = fs.readFileSync(path.join(__dirname, '../js/commanders-search.js'), 'utf8');
 
+test('Esc komutan aramasını temizlerken tarafı, paylaşımı ve odağı korur', () => {
+  const ctx = setup('?q=bulunmayan&taraf=itilaf&ref=koru');
+  ctx.query.focus();
+  let prevented = 0;
+  const escape = { key: 'Escape', preventDefault() { prevented++; } };
+  ctx.query.handlers.keydown({ ...escape, isComposing: true });
+  assert.equal(ctx.query.value, 'bulunmayan');
+  ctx.query.handlers.keydown(escape);
+  assert.equal(ctx.query.value, ''); assert.equal(ctx.side.value, 'itilaf');
+  assert.equal(ctx.document.activeElement, ctx.query); assert.equal(prevented, 1);
+  assert.deepEqual(ctx.entries.map(e => e.row.hidden), [true, true, false]);
+  assert.equal(new URL(ctx.window.location.href).searchParams.get('ref'), 'koru');
+  assert.equal(ctx.elements['commanders-search-link'].href, '/komutanlar/?taraf=itilaf#commanders-search');
+  ctx.query.handlers.keydown(escape); assert.equal(prevented, 1);
+});
+
 function setup(search = '', hash = '') {
   function node(props = {}) {
     return Object.assign({ hidden: false, value: '', handlers: {},
@@ -95,4 +111,19 @@ test('tarayıcı geçmişi değişince arama ve taraf URL ile yeniden eşleşir'
   assert.equal(ctx.query.value, 'emile'); assert.equal(ctx.side.value, 'itilaf');
   assert.deepEqual(ctx.entries.map(entry => entry.row.hidden), [true, true, false]);
   assert.equal(ctx.document.activeElement, ctx.query);
+});
+
+test('geçmişte gizli bölüm hash değeri aramayı temizlemez; önbellekten dönüş URL ile eşleşir', () => {
+  const ctx = setup('?q=Cevat');
+  ctx.window.location.search = '?q=Cevat&taraf=osmanli';
+  ctx.window.location.hash = '#itilaf';
+  ctx.window.location.href = 'https://onsekizmart.com/komutanlar/?q=Cevat&taraf=osmanli#itilaf';
+  ctx.window.handlers.popstate(); ctx.window.handlers.hashchange();
+  assert.equal(ctx.query.value, 'Cevat'); assert.equal(ctx.side.value, 'osmanli');
+  assert.equal(ctx.groups.itilaf.hidden, true);
+  assert.equal(ctx.document.activeElement, null);
+  ctx.query.value = 'eski form değeri'; ctx.side.value = 'itilaf';
+  ctx.window.handlers.pageshow();
+  assert.equal(ctx.query.value, 'Cevat'); assert.equal(ctx.side.value, 'osmanli');
+  assert.deepEqual(ctx.entries.map(e => e.row.hidden), [false, true, true]);
 });

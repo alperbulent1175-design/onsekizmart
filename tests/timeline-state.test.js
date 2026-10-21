@@ -208,6 +208,24 @@ test('Escape önce açık aracı kapatır; ikinci Escape paneli ve oynatmayı ka
   }
 });
 
+test('mevki kartındaki olay seçimi yeni kart başlığına odak verir; bilinmeyen kayıt odağı taşımaz', () => {
+  let handler;
+  const selected = { id: 'related-event' }, calls = [];
+  const ctx = { D: { campaign: { events: [selected] } },
+    document: { getElementById: () => ({ addEventListener(type, fn) { handler = fn; } }) },
+    focusCampEvent(event, keepViewport) { calls.push(['select', event, keepViewport]); },
+    focusSelectedPanel(trigger) { calls.push(['focus', trigger]); } };
+  vm.createContext(ctx);
+  const start = source.indexOf('  document.getElementById("panel-body").addEventListener("click"');
+  vm.runInContext(source.slice(start, source.indexOf('  document.addEventListener("keydown"', start)), ctx);
+  handler({ target: { closest: () => ({ getAttribute: () => 'related-event' }) } });
+  assert.deepEqual(calls, [['select', selected, true], ['focus', null]]);
+  calls.length = 0;
+  handler({ target: { closest: () => ({ getAttribute: () => 'missing' }) } });
+  handler({ target: { closest: () => null } });
+  assert.deepEqual(calls, []);
+});
+
 test('kartı kapatma düğmesi oynatmayı da durdurur', () => {
   let click, closed = 0, stopped = 0;
   const ctx = { document: { getElementById: () => ({ addEventListener(name, fn) { click = fn; } }) },
@@ -365,7 +383,7 @@ test('karttan haritaya dönüş oynatmayı durdurur ve odağı taşır; yeni sek
     stopPlay: () => calls.push('stop'), scrollToMap: () => calls.push('scroll'), focusPlaybackMap: () => calls.push('focus') };
   vm.createContext(ctx);
   const start = source.indexOf('  var panelMapReturn = ');
-  vm.runInContext(source.slice(start, source.indexOf('  showTime(450, false);', start)), ctx);
+  vm.runInContext(source.slice(start, source.indexOf('  var mapReadSelection =', start)), ctx);
   click({ preventDefault() { calls.push('prevent'); }, button: 0 });
   assert.deepEqual(calls, ['prevent', 'stop', 'scroll', 'focus']);
   calls.length = 0;
@@ -526,7 +544,7 @@ test('harita işaretinde Enter ve boşluk bir kez seçer; diğer kontroller etki
 test('zaman çubuğuna elle müdahale oynatmayı durdurup seçilen kaydı gösterir', () => {
   for (const mode of ['camp', 'naval']) {
     let input; const calls = [];
-    const ctx = { mode, range: { value: '3', addEventListener(type, handler) { input = handler; } },
+    const ctx = { mode, range: { value: '3', addEventListener(type, handler) { if (type === 'input') input = handler; } },
       stopPlay() { calls.push('stop'); }, showCamp(i, fly) { calls.push(['camp', i, fly]); }, showTime(m, fly) { calls.push(['naval', m, fly]); } };
     vm.createContext(ctx);
     const start = source.indexOf('  range.addEventListener("input"');

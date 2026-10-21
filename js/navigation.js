@@ -15,12 +15,13 @@
     } catch (error) { return ""; }
   }
   function eventListReturnUrl(value) {
-    if (!value || value.length > 1000 || value.indexOf('/olaylar/') !== 0) return '';
+    if (!value || value.length > 4000 || value.indexOf('/olaylar/') !== 0) return '';
     try {
       var url = new URL(value, window.location.href);
       if (url.origin !== window.location.origin || url.pathname !== '/olaylar/' || url.hash !== '#events-tools') return '';
       var keys = Array.from(url.searchParams.keys());
       if (keys.some(function (key) { return ['q', 'bolum'].indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return '';
+      if ((url.searchParams.get('q') || '').length > 200) return '';
       if (url.searchParams.has('bolum') && ['deniz', 'kara', 'tahliye'].indexOf(url.searchParams.get('bolum')) === -1) return '';
       return url.pathname + url.search + url.hash;
     } catch (error) { return ''; }
@@ -44,11 +45,36 @@
       if (url.origin !== window.location.origin || !/^\/olaylar\/[a-z0-9-]+\/$/.test(url.pathname)) return '';
       if (url.hash && !/^#[a-z0-9-]+$/.test(url.hash)) return '';
       var keys = Array.from(url.searchParams.keys());
-      if (keys.some(function (key) { return ['listeyeDon', 'atlasaDon'].indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return '';
+      if (keys.some(function (key) { return ['listeyeDon', 'atlasaDon', 'fotografaDon'].indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return '';
       if (url.searchParams.has('listeyeDon') && !eventListReturnUrl(url.searchParams.get('listeyeDon'))) return '';
       if (url.searchParams.has('atlasaDon') && !atlasReturnUrl(url.searchParams.get('atlasaDon'))) return '';
+      if (url.searchParams.has('fotografaDon') && !photoReturnUrl(url.searchParams.get('fotografaDon'))) return '';
       return url.pathname + url.search + url.hash;
     } catch (error) { return ''; }
+  }
+  function photoReturnUrl(value) {
+    if (!value || value.length > 4000 || value.indexOf('/fotograf-arsivi/') !== 0) return '';
+    try {
+      var url = new URL(value, window.location.href);
+      if (url.origin !== window.location.origin || url.pathname !== '/fotograf-arsivi/' || url.hash.indexOf('#foto-') !== 0 || !/^[A-Za-z0-9][A-Za-z0-9 ._-]{0,99}$/.test(decodeURIComponent(url.hash.slice(6)))) return '';
+      var keys = Array.from(url.searchParams.keys());
+      if (keys.some(function (key) { return ['q', 'tur'].indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return '';
+      if ((url.searchParams.get('q') || '').length > 200) return '';
+      if (url.searchParams.has('tur') && ['gemiler', 'denizciler', 'komutanlar', 'olaylar'].indexOf(url.searchParams.get('tur')) === -1) return '';
+      return url.pathname + url.search + url.hash;
+    } catch (error) { return ''; }
+  }
+  var photoReturnParams = window.location && window.location.search ? new URLSearchParams(window.location.search) : null;
+  var photoReturn = photoReturnParams && photoReturnParams.getAll('fotografaDon').length === 1 ? photoReturnUrl(photoReturnParams.get('fotografaDon')) : '';
+  if (photoReturn) {
+    var photoMain = document.querySelector('.page-main');
+    if (photoMain && !document.getElementById('photo-context-return')) {
+      var photoBack = document.createElement('p');
+      photoBack.id = 'photo-context-return';
+      var photoLink = document.createElement('a');
+      photoLink.className = 'btn'; photoLink.href = photoReturn; photoLink.textContent = 'Fotoğrafa dön';
+      photoBack.appendChild(photoLink); photoMain.insertBefore(photoBack, photoMain.firstChild);
+    }
   }
   var eventReturn = window.location && window.location.search ? eventReturnUrl(new URLSearchParams(window.location.search).get('olayaDon')) : '';
   if (eventReturn) {
@@ -88,7 +114,7 @@
       link.textContent = "Seçili kayda dön";
     });
   }
-  if (listReturn || returnUrl) {
+  if (listReturn || returnUrl || photoReturn) {
     document.querySelectorAll('.page-main a[href]').forEach(function (link) {
       try {
         var current = new URL(window.location.href);
@@ -97,28 +123,52 @@
             (url.pathname === current.pathname && url.search === current.search)) return;
         if (listReturn) url.searchParams.set('listeyeDon', listReturn);
         if (returnUrl) url.searchParams.set('atlasaDon', returnUrl);
+        if (photoReturn) url.searchParams.set('fotografaDon', photoReturn);
         link.href = url.pathname + url.search + url.hash;
       } catch (error) { /* Invalid editorial links must not interrupt navigation. */ }
     });
   }
-  if (window.location && window.location.href) {
+  function syncEventCommanderLinks() {
+    if (!window.location || !window.location.href) return;
     try {
       var currentEvent = new URL(window.location.href);
       if (/^\/olaylar\/[a-z0-9-]+\/$/.test(currentEvent.pathname)) {
         var eventContext = new URL(currentEvent.pathname, currentEvent.origin);
         if (listReturn) eventContext.searchParams.set('listeyeDon', listReturn);
         if (returnUrl) eventContext.searchParams.set('atlasaDon', returnUrl);
+        if (photoReturn) eventContext.searchParams.set('fotografaDon', photoReturn);
         eventContext.hash = currentEvent.hash;
         var eventBackHref = eventReturnUrl(eventContext.pathname + eventContext.search + eventContext.hash);
         if (eventBackHref) document.querySelectorAll('.page-main a[href^="/komutanlar/"]').forEach(function (link) {
           var destination = new URL(link.href, currentEvent.href);
           if (destination.origin !== currentEvent.origin || !/^\/komutanlar\/[a-z0-9-]+\/$/.test(destination.pathname)) return;
           destination.searchParams.set('olayaDon', eventBackHref);
+          if (photoReturn) destination.searchParams.set('fotografaDon', photoReturn);
           link.href = destination.pathname + destination.search + destination.hash;
         });
       }
     } catch (error) { /* Keep normal links if a reading context cannot be formed. */ }
   }
+  syncEventCommanderLinks();
+  if (typeof window.addEventListener === 'function') {
+    window.addEventListener('hashchange', syncEventCommanderLinks);
+    window.addEventListener('pageshow', syncEventCommanderLinks);
+  }
+  function markCurrentNavigation(panel) {
+    if (!panel || !panel.querySelectorAll || !window.location || !window.location.href) return;
+    var current = new URL(window.location.href), best = null;
+    panel.querySelectorAll('a[href]').forEach(function (link) {
+      if (link.removeAttribute) link.removeAttribute('aria-current');
+      try {
+        var target = new URL(link.href, current.href);
+        if (target.origin !== current.origin || target.hash || target.pathname === '/' || !target.pathname.endsWith('/')) return;
+        if (current.pathname.indexOf(target.pathname) !== 0) return;
+        if (!best || target.pathname.length >= best.path.length) best = { link: link, path: target.pathname };
+      } catch (error) { /* Keep malformed or external editorial links unchanged. */ }
+    });
+    if (best) best.link.setAttribute('aria-current', current.pathname === best.path ? 'page' : 'location');
+  }
+  markCurrentNavigation(document.getElementById("nav-panel"));
   var button = document.getElementById("nav-toggle");
   var panel = document.getElementById("nav-panel");
   if (!button || !panel) return;
@@ -135,7 +185,7 @@
     if (event.target.closest("a")) close(false);
   });
   document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape" && panel.classList.contains("is-open")) {
+    if (event.key === "Escape" && !event.defaultPrevented && !event.isComposing && !event.altKey && !event.ctrlKey && !event.metaKey && !event.shiftKey && panel.classList.contains("is-open")) {
       close(true);
     }
   });
@@ -145,6 +195,9 @@
     }
   });
   var mobile = window.matchMedia("(max-width: 860px)");
+  document.addEventListener("focusin", function (event) {
+    if (mobile.matches && panel.classList.contains("is-open") && !panel.contains(event.target) && !button.contains(event.target)) close(false);
+  });
   mobile.addEventListener("change", function () { close(mobile.matches && panel.contains(document.activeElement)); });
   panel.setAttribute("data-enhanced", "true");
   button.hidden = false;

@@ -36,6 +36,7 @@ body {
 img { max-width: 100%; }
 a { color: var(--gold-2); text-decoration: none; }
 a:hover { text-decoration: underline; }
+.nav-links a[aria-current] { color: var(--gold); text-decoration: underline; text-underline-offset: 5px; text-decoration-thickness: 2px; }
 button, input, select { font: inherit; }
 
 .skip {
@@ -514,6 +515,12 @@ a.btn {
   .nav-toggle { display: inline-flex; align-items: center; justify-content: center; }
   .nav-panel { display: none; flex: 1 1 100%; width: 100%; min-width: 0; }
   .nav-panel.is-open { display: block; }
+  .nav-panel[data-enhanced].is-open {
+    max-height: calc(100vh - var(--nav-h));
+    max-height: calc(100dvh - var(--nav-h));
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+  }
   .nav-links {
     display: flex; flex-direction: column; align-items: stretch;
     flex-wrap: nowrap; overflow: visible; width: 100%; gap: 0;
@@ -1184,6 +1191,7 @@ body.home .map-tile-note a { display: inline-flex; align-items: center; min-heig
   min-width: 0;
 }
 .catalog-filter label { margin-top: 8px; }
+.catalog-filter[hidden] { display: none; }
 .catalog-filter input,
 .catalog-filter select {
   width: 100%;
@@ -1206,6 +1214,16 @@ body.home .map-tile-note a { display: inline-flex; align-items: center; min-heig
   cursor: pointer;
 }
 #katalog-sayim { margin: 0 0 4px; color: var(--muted); }
+#katalog-yardim { margin: 12px 0 0; font-size: .9rem; line-height: 1.6; }
+#katalog-sayim, #katalog > li, #katalog-devam > li { scroll-margin-top: calc(var(--nav-h, 64px) + 24px); }
+#katalog-filtre, #katalog-baglanti-uyarisi { scroll-margin-top: calc(var(--nav-h, 64px) + 24px); }
+#katalog-kaydi-goster { min-height: 44px; max-width: 100%; padding: 10px 14px; font: inherit; line-height: 1.4; color: var(--ink); background: var(--gold); border: 1px solid var(--gold); cursor: pointer; }
+#katalog-kaydi-goster:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.catalog-search-return { display: inline-flex; align-items: center; min-height: 44px; margin-top: 8px; padding-block: 6px; box-sizing: border-box; }
+#katalog > li p > a, #katalog-devam > li p > a { display: inline-flex; align-items: center; min-height: 44px; padding-block: 6px; box-sizing: border-box; }
+.catalog-filter :focus-visible, #katalog-sayim:focus-visible, #katalog a:focus-visible, #katalog-devam a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+#katalog > li:target, #katalog-devam > li:target { border-color: var(--gold); box-shadow: inset 3px 0 var(--gold); }
+#katalog > li:focus-visible, #katalog-devam > li:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 #katalog,
 #katalog-devam {
   list-style: none;
@@ -1416,6 +1434,7 @@ body.events-index .roster a:hover { background: var(--panel); }
 }
 
 @media (max-width: 860px) {
+  .nav:has(> .nav-panel:not([data-enhanced])) { position: static; }
   body.site-nav .nav-panel:not([data-enhanced]) { display: block; }
   body.site-nav .nav-toggle[hidden] { display: none; }
   body.home .nav-panel:not([data-enhanced]) { display: block; }
@@ -1446,14 +1465,16 @@ body.home .map-guide-content ol { margin: 0; padding-left: 22px; }
 body.home .map-guide-content li { margin: 0 0 14px; }
 body.home .map-guide-content p { margin-bottom: 0; }
 body.home .map-guide-content a { color: #f6f0e5; text-decoration: underline; text-underline-offset: 3px; }
-body.home #map-reset { flex: 0 0 auto; min-height: 44px; padding: 10px 14px; background: transparent; color: #e4dccb; border: 1px solid var(--line); font: inherit; cursor: pointer; }
+body.home #map-reset, body.home #map-read-selection { flex: 0 0 auto; min-height: 44px; padding: 10px 14px; background: transparent; color: #e4dccb; border: 1px solid var(--line); font: inherit; cursor: pointer; }
+body.home #map-read-selection[hidden] { display: none; }
+body.home #map-reset, body.home #map-read-selection { scroll-margin-top: calc(var(--nav-h) + 12px); }
 body.home #map-reset:disabled { opacity: .5; cursor: default; }
 body.home #tool-layers:disabled { opacity: .5; cursor: default; }
-body.home .map-guide summary:focus-visible, body.home #map-reset:focus-visible { outline: 2px solid #c5a06c; outline-offset: 3px; }
+body.home .map-guide summary:focus-visible, body.home #map-reset:focus-visible, body.home #map-read-selection:focus-visible { outline: 2px solid #c5a06c; outline-offset: 3px; }
 @media (max-width: 600px) {
   body.home .map-help-row { flex-wrap: wrap; gap: 4px 8px; padding: 8px 10px; }
   body.home .map-guide { flex-basis: 100%; }
-  body.home #map-reset { font-size: .9rem; }
+  body.home #map-reset, body.home #map-read-selection { flex: 1 1 140px; min-width: 0; font-size: .9rem; }
 }
 
 /* Atlas aramasında ek sonuçlar */

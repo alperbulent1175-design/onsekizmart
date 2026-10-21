@@ -29,7 +29,7 @@ function setup() {
     D: { events: [{ m: 450, title: 'test-naval-record', text: '', t: '' }] },
     allPlaces: () => Array.from({ length: 10 }, (_, i) => ({ id: 'test-' + i, name: 'Test record ' + i })),
     foldTr: value => value.toLowerCase(), slugify: value => value,
-    mode: 'naval', range: { value: '' }, revealDock() {},
+    mode: 'naval', range: { value: '' }, revealDock() {}, focusSelectedPanel() {},
     findPlace: key => key === 'test-place' ? { id: key } : null,
     findCampByKey: key => key === 'test-event' ? { id: key } : null,
     openPlace: id => selected.push(id), focusCampEvent: event => selected.push(event.id),
@@ -148,6 +148,24 @@ test('seçimden sonra aramaya dönmek metni ve sonuçları korur; Escape kapatt�
   assert.equal(state.focused(), state.q);
   state.key(state.q, 'ArrowDown');
   assert.equal(state.results.hidden, false);
+});
+
+test('arama sonucu kartı ekranın başına getirir; sorguyu ve sonucu seçme sırasını korur', () => {
+  const state = setup();
+  let focused = 0, scrolled;
+  const title = { setAttribute() {}, focus(options) {
+    assert.equal(options.preventScroll, true); assert.equal(state.selected.length, 1); focused++;
+  } };
+  const panel = { inert: false, returnFocusTarget: {}, classList: { contains: () => true }, scrollIntoView(options) { scrolled = options; } };
+  const getElement = state.ctx.document.getElementById;
+  state.ctx.document.getElementById = id => id === 'panel' ? panel : id === 'panel-title' ? title : getElement(id);
+  const start = source.indexOf('  function focusSelectedPanel(');
+  vm.runInContext(source.slice(start, source.indexOf('  function goPlace(', start)), state.ctx);
+  state.ctx.selectPlace = id => state.selected.push(id);
+  state.results.children[0].children[0].handlers.click();
+  assert.equal(focused, 1); assert.equal(scrolled.block, 'start'); assert.equal(scrolled.behavior, 'instant');
+  assert.equal(state.q.value, 'test record'); assert.equal(state.results.hidden, true);
+  assert.equal(panel.returnFocusTarget, null);
 });
 
 test('harita yoksa arama mevki kartını vaat eder; çalışan haritada harita etiketi korunur', () => {

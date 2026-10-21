@@ -267,6 +267,34 @@ test('kart üst bilgisi tekrar eden tarih ve tarafı kaldırır; farklı tarih a
   assert.equal(nodes['panel-meta'].textContent, 'plato');
 });
 
+test('haritadaki kart okuma düğmesi güncel başlığı açar; kart kapanınca gizlenir', () => {
+  const body = node('div'); body.replaceChildren = () => { body.children = []; };
+  let open = false, focused = 0, stopped = 0, click;
+  const panel = { contains: () => false, classList: { add() { open = true; }, remove() { open = false; }, contains: () => open }, scrollIntoView() {} };
+  const reader = { hidden: true, setAttribute(key, value) { this[key] = value; }, addEventListener(type, fn) { click = fn; } };
+  const title = { setAttribute() {}, focus() { focused++; } };
+  const nodes = { panel, 'panel-title': title, 'panel-meta': {}, 'panel-body': body, 'map-read-selection': reader };
+  const ctx = { panelRevision: 0, document: { activeElement: {}, getElementById: id => nodes[id], createElement: node },
+    textEl: node, findPlace: () => null, narrativeEvidence: () => null, paintIcons() {},
+    Model: context.Model, localHref: value => value || '', closeTools() {}, stopPlay() { stopped++; } };
+  vm.createContext(ctx);
+  let start = app.indexOf('  function claimConflictEvidence(');
+  vm.runInContext(app.slice(start, app.indexOf('  function paintCurrent(', start)), ctx);
+  start = app.indexOf('  function focusSelectedPanel(');
+  vm.runInContext(app.slice(start, app.indexOf('  function goPlace(', start)), ctx);
+  start = app.indexOf('  function closePanel()');
+  vm.runInContext(app.slice(start, app.indexOf('  function selectPlace(', start)), ctx);
+  start = app.indexOf('  var mapReadSelection =');
+  vm.runInContext(app.slice(start, app.indexOf('  showTime(450, false);', start)), ctx);
+  ctx.fillPanel({ title: 'Birinci kayıt' });
+  assert.equal(reader.hidden, false); assert.equal(reader['aria-label'], 'Seçili kartı oku: Birinci kayıt');
+  ctx.fillPanel({ title: 'İkinci kayıt' }); const revision = ctx.panelRevision; click();
+  assert.equal(reader['aria-label'], 'Seçili kartı oku: İkinci kayıt');
+  assert.equal(focused, 1); assert.equal(stopped, 1); assert.equal(panel.returnFocusTarget, reader);
+  assert.equal(ctx.panelRevision, revision + 1);
+  ctx.closePanel(); assert.equal(reader.hidden, true); assert.equal(panel.inert, true);
+});
+
 test('olay kartından mevki kartına dönüş açık isteğe bağlıdır; konumsuz kayıtta gösterilmez', () => {
   const body = node('div'); body.replaceChildren = () => { body.children = []; };
   const nodes = { panel: { classList: { add() {} } }, 'panel-title': {}, 'panel-meta': {}, 'panel-body': body };

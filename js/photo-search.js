@@ -60,7 +60,7 @@
   }
   function restore() {
     var url = new URL(window.location.href);
-    input.value = url.searchParams.get('q') || '';
+    input.value = (url.searchParams.get('q') || '').slice(0, 200);
     var type = url.searchParams.get('tur') || '';
     select.value = ['gemiler', 'denizciler', 'komutanlar', 'olaylar'].includes(type) ? type : '';
     update(false);
@@ -77,7 +77,7 @@
   });
   input.addEventListener('input', update);
   input.addEventListener('keydown', function (event) {
-    if (event.key !== 'Escape' || !input.value) return;
+    if (event.key !== 'Escape' || event.defaultPrevented || event.isComposing || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || !input.value) return;
     event.preventDefault();
     input.value = '';
     update();

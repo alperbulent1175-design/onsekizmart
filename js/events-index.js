@@ -10,7 +10,7 @@
   function readLocation() {
     try {
       var params = new URLSearchParams(window.location.search);
-      search.value = params.get("q") || "";
+      search.value = (params.get("q") || "").slice(0, 200);
       var requested = params.get("bolum");
       category.value = ["deniz", "kara", "tahliye"].indexOf(requested) >= 0 ? requested : "all";
     } catch (err) { /* Bağlantı okunamasa da yerel süzgeç çalışır. */ }
@@ -117,6 +117,12 @@
     target.scrollIntoView({ block: "start" });
   });
   search.addEventListener("input", applySelection);
+  search.addEventListener("keydown", function (event) {
+    if (event.key !== "Escape" || event.defaultPrevented || event.isComposing || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || !search.value) return;
+    event.preventDefault();
+    search.value = "";
+    applySelection();
+  });
   category.addEventListener("change", applySelection);
   clear.addEventListener("click", function () {
     search.value = "";

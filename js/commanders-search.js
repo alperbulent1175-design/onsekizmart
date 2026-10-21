@@ -82,6 +82,12 @@
     (first ? first.row : status).scrollIntoView({ block: "start" });
   });
   query.addEventListener("input", edit);
+  query.addEventListener("keydown", function (event) {
+    if (event.key !== "Escape" || event.defaultPrevented || event.isComposing || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || !query.value) return;
+    event.preventDefault();
+    query.value = "";
+    edit();
+  });
   side.addEventListener("change", edit);
   clear.addEventListener("click", function () { query.value = ""; side.value = "all"; edit(); query.focus(); });
   function reveal(hash) {
@@ -96,7 +102,12 @@
       group.section.scrollIntoView({ block: "start" });
     }
   }
-  window.addEventListener("hashchange", reveal);
+  var restoredHref = "";
+  window.addEventListener("hashchange", function () {
+    if (restoredHref === window.location.href) { restoredHref = ""; return; }
+    restoredHref = "";
+    reveal();
+  });
   window.addEventListener("click", function (event) {
     if (event.defaultPrevented || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || (event.button != null && event.button !== 0)) return;
     var link = event.target && event.target.closest ? event.target.closest('a[href^="#"]') : null;
@@ -109,9 +120,11 @@
     filter();
   }
   window.addEventListener("popstate", function () {
+    restoredHref = window.location.href;
     readLocation();
-    if (window.location.hash) reveal();
+    if (window.location.hash === "#commanders-search") query.focus();
   });
+  window.addEventListener("pageshow", readLocation);
   form.hidden = false;
   readLocation();
   if (window.location.hash && window.location.hash !== "#commanders-search") reveal();

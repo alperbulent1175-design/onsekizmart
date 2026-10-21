@@ -892,6 +892,11 @@
     (spec.extra || []).forEach(function (node) { body.appendChild(node); });
     panel.classList.add("open");
     panel.inert = false;
+    var readSelection = document.getElementById("map-read-selection");
+    if (readSelection) {
+      readSelection.hidden = false;
+      readSelection.setAttribute("aria-label", "Seçili kartı oku: " + title.textContent);
+    }
     if (empty) empty.hidden = true;
     closeTools();
   }
@@ -1072,6 +1077,8 @@
       panel.classList.remove("open");
       panel.inert = true;
     }
+    var readSelection = document.getElementById("map-read-selection");
+    if (readSelection) readSelection.hidden = true;
     var empty = document.getElementById("dock-empty");
     if (empty) empty.hidden = false;
     paintIcons();
@@ -1234,10 +1241,13 @@
     D.campaign.events.forEach(function (item) {
       if (item.id === b.getAttribute("data-camp")) ev = item;
     });
-    if (ev) focusCampEvent(ev);
+    if (ev) {
+      focusCampEvent(ev, true);
+      focusSelectedPanel(null);
+    }
   });
   document.addEventListener("keydown", function (e) {
-    if (e.key !== "Escape") return;
+    if (e.key !== "Escape" || e.defaultPrevented || e.isComposing || e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
     var nav = document.getElementById("nav-panel");
     if (nav && nav.classList.contains("is-open")) {
       nav.classList.remove("is-open");
@@ -1342,11 +1352,7 @@
       onPick();
       searchPicked = true;
       if (qStatus) qStatus.textContent = "Seçildi: " + label;
-      var title = document.getElementById("panel-title");
-      if (title) {
-        title.setAttribute("tabindex", "-1");
-        title.focus();
-      }
+      focusSelectedPanel(null);
     });
     li.appendChild(btn);
     qRes.appendChild(li);
@@ -1642,6 +1648,25 @@
     if (mode === "camp") showCamp(Number(range.value), true);
     else showTime(Number(range.value), true);
   });
+  range.addEventListener("keydown", function (event) {
+    if (mode !== "naval" || event.defaultPrevented || event.isComposing || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+    var keys = ["ArrowRight", "ArrowUp", "ArrowLeft", "ArrowDown", "Home", "End"];
+    if (keys.indexOf(event.key) === -1) return;
+    event.preventDefault();
+    panelRevision += 1;
+    stopPlay();
+    var pool = navalEvents(sideFilter);
+    if (!pool.length) return;
+    var index = pool.indexOf(navalSelection);
+    if (index < 0) pool.forEach(function (item, i) { if (item.m <= Number(range.value)) index = i; });
+    if (event.key === "Home") index = 0;
+    else if (event.key === "End") index = pool.length - 1;
+    else index += event.key === "ArrowRight" || event.key === "ArrowUp" ? 1 : -1;
+    index = Math.max(0, Math.min(index, pool.length - 1));
+    var target = pool[index];
+    range.value = String(target.m);
+    showTime(target.m, true, target);
+  });
 
   function refreshCampRange() {
     if (mode !== "camp") return;
@@ -1816,6 +1841,13 @@
     stopPlay();
     scrollToMap();
     focusPlaybackMap();
+  });
+
+  var mapReadSelection = document.getElementById("map-read-selection");
+  if (mapReadSelection) mapReadSelection.addEventListener("click", function () {
+    panelRevision += 1;
+    stopPlay();
+    focusSelectedPanel(mapReadSelection);
   });
 
   showTime(450, false);
@@ -2269,11 +2301,21 @@
       if (restoreFocus) navToggle.focus();
     }
     document.addEventListener("click", function (e) {
+      var anchor = e.target && e.target.closest ? e.target.closest("a[href]") : null;
+      var href = anchor && anchor.getAttribute ? anchor.getAttribute("href") : "";
+      if (!e.defaultPrevented && !e.ctrlKey && !e.metaKey && !e.shiftKey && !e.altKey && !(e.button > 0) &&
+          ["#kronoloji", "#giris", "#secilmis"].indexOf(href) !== -1) {
+        panelRevision += 1;
+        stopPlay();
+      }
       if (navPanel.classList.contains("is-open") && !navPanel.contains(e.target) && !navToggle.contains(e.target)) {
         closeNav(navPanel.contains(document.activeElement));
       }
     });
     var mobileNav = window.matchMedia("(max-width: 860px)");
+    document.addEventListener("focusin", function (event) {
+      if (mobileNav.matches && navPanel.classList.contains("is-open") && !navPanel.contains(event.target) && !navToggle.contains(event.target)) closeNav(false);
+    });
     mobileNav.addEventListener("change", function () {
       closeNav(mobileNav.matches && navPanel.contains(document.activeElement));
     });
@@ -2285,9 +2327,23 @@
     try { params = new URLSearchParams(window.location.search); } catch (err) { params = null; }
     var olay = params ? params.get("olay") : "";
     var hash = window.location.hash || "";
+    var hasHashEvent = hash.indexOf("#event-") === 0;
+    var selections = ["olay", "mevki", "dakika", "deniz"];
+    var duplicate = params && selections.some(function (key) { return params.getAll(key).length > 1; });
+    var conflicting = params && (
+      (params.has("olay") && (params.has("mevki") || params.has("dakika") || params.has("deniz"))) ||
+      (params.has("mevki") && (params.has("dakika") || params.has("deniz"))) ||
+      (hasHashEvent && (params.has("mevki") || params.has("dakika") || params.has("deniz")))
+    );
+    if (duplicate || conflicting) { notFound("kayıt seçimi", true); return; }
+    if (params && params.has("deniz") && !params.has("dakika")) { notFound("zaman kaydı"); return; }
     var hasEventRequest = !!(params && params.has("olay")) || hash.indexOf("#event-") === 0;
     var ev = olay ? findCampByKey(olay) : null;
-    if (!ev && hash.indexOf("#event-") === 0) ev = findCampByKey(hash.slice(1));
+    if (hasHashEvent && params && params.has("olay")) {
+      var hashEvent = findCampByKey(hash.slice(1));
+      if (!ev || !hashEvent || ev.id !== hashEvent.id) { notFound("kayıt seçimi", true); return; }
+    }
+    if (!(params && params.has("olay")) && hasHashEvent) ev = findCampByKey(hash.slice(1));
     if (ev) {
       window.setTimeout(function () {
         if (panelRevision !== requestedRevision) return;
@@ -2301,11 +2357,13 @@
       }, 350);
       return;
     }
-    function notFound(kind) {
+    function notFound(kind, conflict) {
       var notice = document.getElementById("deep-link-notice");
       var message = document.getElementById("deep-link-message");
       if (!notice || !message) return;
-      message.textContent = "Bağlantıdaki " + kind + " bu atlasta bulunamadı. Harita başlangıç görünümünü gösteriyor; bağlantıdaki kayıt seçilmedi.";
+      var heading = document.getElementById("deep-link-heading");
+      if (heading) heading.textContent = conflict ? "Bağlantıdaki seçim belirsiz" : "Kayıt bulunamadı";
+      message.textContent = (conflict ? "Bağlantıda birden fazla veya çelişkili kayıt seçimi var." : "Bağlantıdaki " + kind + " bu atlasta bulunamadı.") + " Harita başlangıç görünümünü gösteriyor; bağlantıdaki kayıt seçilmedi.";
       notice.hidden = false;
       notice.scrollIntoView({ behavior: "auto", block: "center" });
     }

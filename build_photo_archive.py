@@ -57,7 +57,8 @@ def figure(record, related=None):
     rights_evidence = ''
     if record.get('rightsEvidenceUrl'):
         rights_evidence = f' · <a href="{e(record["rightsEvidenceUrl"])}">Görsele ait lisans kaydı</a>'
-    return f'''<figure class="naval-photo" data-photo-id="{e(record['id'])}">
+    anchor = 'foto-' + record['id'].replace(' ', '-')
+    return f'''<figure class="naval-photo" id="{e(anchor)}" tabindex="-1" data-photo-id="{e(record['id'])}">
 <a href="{e(src)}" aria-label="{e(record['id'])} fotoğrafını tam boy aç"><img src="{e(src)}" width="{record['width']}" height="{record['height']}" loading="lazy" decoding="async" alt="{e(record['altTr'])}"></a>
 <figcaption><p>{e(record['captionTr'])}</p><p><a href="{e(record['sourceUrl'])}">{e(record['credit'])} · Kaynak kaydı</a></p>
 <details><summary>Fotoğraf künyesi</summary><p>Kurumun tarih alanı: {e(date)}. Fotoğrafçı/üretici: {e(maker)}.</p><p>Kullanım: {e(rights_label(record))}. <a href="{e(record.get('rightsUrl') or record['sourceUrl'])}">Kullanım bilgisi</a>{rights_evidence}.</p><p>İnceleme: {e(record['visualReviewDate'])} · Kurum künyesi ve görüntü incelendi. {e(context)}</p></details>{links}</figcaption></figure>'''
@@ -108,9 +109,16 @@ def plan(root):
     ledger = json.loads((root / LEDGER).read_text(encoding='utf-8'))
     records = ledger['records']
     ids = set()
+    anchors = set()
     pages = {}
     copies = {}
     for r in records:
+        if not isinstance(r['id'], str) or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9 ._-]{0,99}', r['id']):
+            raise ValueError('Geçersiz görsel kimliği')
+        anchor = r['id'].replace(' ', '-')
+        if anchor in anchors:
+            raise ValueError('Tekrarlanan fotoğraf bölüm kimliği: ' + anchor)
+        anchors.add(anchor)
         if r['id'] in ids:
             raise ValueError('Tekrarlanan kayıt: ' + r['id'])
         ids.add(r['id'])
@@ -169,9 +177,9 @@ def plan(root):
                     raise ValueError('Galeri ekleme yeri bulunamadı: ' + page)
                 text = text[:match.start()] + block + '\n' + text[match.start():]
         if '/css/photo-archive.css?' not in text:
-            text = text.replace('</head>', '<link rel="stylesheet" href="/css/photo-archive.css?v=20261019g">\n</head>')
+            text = text.replace('</head>', '<link rel="stylesheet" href="/css/photo-archive.css?v=20261021e">\n</head>')
         if '/js/photo-archive.js?' not in text:
-            text = text.replace('</body>', '<script src="/js/photo-archive.js?v=20261019i" defer></script>\n</body>')
+            text = text.replace('</body>', '<script src="/js/photo-archive.js?v=20261021f" defer></script>\n</body>')
         if not is_archive and 'class="photo-jump"' not in text:
             text = text.replace('</h1>', '</h1>\n<p class="photo-jump"><a href="#fotograf-arsivi">Fotoğrafları ve künyelerini gör</a> · <a href="/fotograf-arsivi/">Tüm fotoğraf arşivi</a></p>', 1)
         if not is_archive:

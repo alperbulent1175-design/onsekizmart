@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=20261017b">
+  <link rel="stylesheet" href="/css/style.css?v=20261021m">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKGGXNVR7V"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -32,7 +32,7 @@
     <span class="brand-mark">18 MART 1915</span>
     <span class="brand-sub">Çanakkale 1915</span>
   </a>
-  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">Menü</button>
+  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" hidden>Menü</button>
   <nav class="nav-panel" id="nav-panel" aria-label="Site">
     <ul class="nav-links">
       <li><a href="/#harita">Harita</a></li>
@@ -56,7 +56,7 @@
       <li class="has-sub nav-site">
         <a href="/kaynakca/">Site</a>
         <ul class="sub">
-          <li><a href="/kaynakca/" aria-current="page">Kaynakça</a></li>
+          <li><a href="/kaynakca/">Kaynakça</a></li>
           <li><a href="/fotograf-arsivi/">Fotoğraf arşivi</a></li>
           <li><a href="/nasil-okunur/">Nasıl okunur</a></li>
           <li><a href="/sozluk/">Sözlük</a></li>
@@ -65,7 +65,7 @@
     </ul>
   </nav>
 </header>
-<main class="page-main" id="icerik">
+<main class="page-main" id="icerik" tabindex="-1">
 <p class="kicker">Dayanak</p>
 <h1>Kaynakça</h1>
 <div class="prose">
@@ -79,18 +79,25 @@
 <div class="prose">
 <p>Bağlantılar kurumların ana sayfasıdır. Tek bir katalog fişi değildir. Zayiat toplamı, uydurma emir ve alıntı yoktur.</p>
 </div>
-<form class="catalog-filter" id="katalog-filtre" action="#">
-<p id="katalog-sayim" role="status"></p>
-<label for="katalog-q">Metin ara</label>
-<input id="katalog-q" name="q" type="search" autocomplete="off">
+<form class="catalog-filter" id="katalog-filtre" action="#" hidden role="search" aria-label="Kaynak kataloğunda ara">
+<p id="katalog-sayim" role="status" tabindex="-1"></p>
+<label for="katalog-q">Metin veya kayıt kimliği ara</label>
+<input id="katalog-q" name="q" type="search" maxlength="200" enterkeyhint="search" autocomplete="off" aria-describedby="katalog-yardim katalog-sayim">
 <label for="katalog-kurum">Kurum</label>
 <select id="katalog-kurum" name="kurum"><option value="">Tümü</option></select>
 <label for="katalog-tur">Tür</label>
 <select id="katalog-tur" name="tur"><option value="">Tümü</option></select>
 <label for="katalog-durum">Durum</label>
 <select id="katalog-durum" name="durum"><option value="">Tümü</option></select>
+<button type="submit">Sonuçlara git</button>
 <button type="button" id="katalog-temizle">Süzgeci temizle</button>
+<p id="katalog-yardim">Birden fazla sözcükle arayabilirsiniz; sözcük sırası önemli değildir. Enter ilk sonuca gider. Arama alanında Esc metni temizler; kurum, tür ve durum seçimleri korunur. Arama ve seçimler sayfa adresinde saklanır; aynı listeyi paylaşmak için adresi kopyalayabilirsiniz.</p>
 </form>
+<aside class="verification-notice" id="katalog-baglanti-uyarisi" role="status" hidden>
+<p>Bağlantıdaki katalog kaydı mevcut arama veya süzgeçlerle gizlenmiş.</p>
+<button type="button" id="katalog-kaydi-goster" class="btn">Süzgeci temizle ve kayda git</button>
+</aside>
+<noscript><p>Katalog araması JavaScript gerektirir. Bütün kayıtları aşağıdaki listeden okuyabilirsiniz; tarayıcınızın sayfada bul özelliğini de kullanabilirsiniz.</p></noscript>
 <!-- KATALOG:BAS -->
 <h2>Katalog kayıtları</h2>
 <div class="prose">
@@ -177,7 +184,8 @@
   }
 
   function catalogMatch(item, query, institution, kind, status) {
-    if (query && item.text.indexOf(query) === -1) return false;
+    var terms = query.trim().split(/\s+/).filter(Boolean);
+    if (!terms.every(function (term) { return item.text.indexOf(term) !== -1; })) return false;
     if (institution && item.institution !== institution) return false;
     if (kind && item.kind !== kind) return false;
     if (status && item.status !== status) return false;
@@ -203,13 +211,28 @@
           statusLabel: statusLabel,
           institution: institution,
           kind: kind,
-          text: foldCatalog(li.textContent || "")
+          text: foldCatalog((li.id || '') + ' ' + (li.textContent || ""))
         });
       });
     });
     return items;
   }
 
+  function addCatalogSearchReturns(items, form, input) {
+    items.forEach(function (item) {
+      var back = document.createElement('a');
+      back.href = '#katalog-filtre';
+      back.className = 'catalog-search-return';
+      back.textContent = 'Katalog aramasına dön';
+      back.addEventListener('click', function (event) {
+        if (event.defaultPrevented || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || (event.button != null && event.button !== 0)) return;
+        event.preventDefault();
+        input.focus({ preventScroll: true });
+        form.scrollIntoView({ block: 'start' });
+      });
+      item.el.appendChild(back);
+    });
+  }
   var form = document.getElementById("katalog-filtre");
   if (!form) return;
   var items = readCards([document.getElementById("katalog"), document.getElementById("katalog-devam")]);
@@ -218,6 +241,7 @@
   var kind = document.getElementById("katalog-tur");
   var status = document.getElementById("katalog-durum");
   var count = document.getElementById("katalog-sayim");
+  addCatalogSearchReturns(items, form, q);
 
   function addOptions(select, pairs) {
     var seen = {};
@@ -248,52 +272,123 @@
   }));
 
   function apply() {
-    var query = foldCatalog(q.value);
+    var query = foldCatalog(q.value.trim());
     var shown = 0;
+    var first = null;
     items.forEach(function (item) {
       var ok = catalogMatch(item, query, inst.value, kind.value, status.value);
       item.el.hidden = !ok;
-      if (ok) shown += 1;
+      if (ok) { shown += 1; if (!first) first = item.el; }
     });
     if (count) {
       count.textContent = shown === 0 ? "Bu süzgeçte kayıt yok." : shown + " kayıt görünüyor.";
     }
+    updateCatalogSections();
+    updateLinkedRecordNotice(false);
+    return first;
   }
 
+  function updateCatalogSections() {
+    ['katalog', 'katalog-devam'].forEach(function (id) {
+      var list = document.getElementById(id);
+      if (!list) return;
+      var visible = Array.prototype.some.call(list.children, function (row) { return row.tagName === 'LI' && !row.hidden; });
+      list.hidden = !visible;
+      var intro = list.previousElementSibling;
+      var heading = intro && intro.previousElementSibling;
+      if (intro && intro.tagName === 'DIV' && intro.classList.contains('prose') && heading && heading.tagName === 'H2') {
+        intro.hidden = !visible;
+        heading.hidden = !visible;
+      }
+    });
+  }
+
+  function linkedRecord() {
+    try {
+      var id = decodeURIComponent(new URL(window.location.href).hash.slice(1));
+      return items.find(function (item) { return item.el.id === id; }) || null;
+    } catch (error) { return null; }
+  }
+  function updateLinkedRecordNotice(scroll) {
+    var notice = document.getElementById('katalog-baglanti-uyarisi');
+    if (!notice) return;
+    var item = linkedRecord();
+    notice.hidden = !(item && item.el.hidden);
+    if (!notice.hidden && scroll) notice.scrollIntoView({ block: 'start', behavior: 'auto' });
+  }
+
+  function updateLocation() {
+    try {
+      var url = new URL(window.location.href);
+      [['q', q.value.trim()], ['kurum', inst.value], ['tur', kind.value], ['durum', status.value]].forEach(function (pair) {
+        if (pair[1]) url.searchParams.set(pair[0], pair[1]);
+        else url.searchParams.delete(pair[0]);
+      });
+      if (url.href !== window.location.href) window.history.replaceState(window.history.state, '', url.href);
+    } catch (error) { /* Local filtering remains available when history is restricted. */ }
+  }
+  function edit() {
+    var first = apply();
+    updateLocation();
+    return first;
+  }
+  function restore() {
+    try {
+      var params = new URL(window.location.href).searchParams;
+      q.value = params.getAll('q').length === 1 ? (params.get('q') || '').slice(0, 200) : '';
+      [['kurum', inst, 'institution'], ['tur', kind, 'kind'], ['durum', status, 'status']].forEach(function (field) {
+        var requested = params.getAll(field[0]).length === 1 ? params.get(field[0]) : '';
+        field[1].value = items.some(function (item) { return item[field[2]] === requested; }) ? requested : '';
+      });
+    } catch (error) { /* Keep the current selection if location is unavailable. */ }
+    apply();
+  }
   form.addEventListener("submit", function (event) {
     event.preventDefault();
-    apply();
+    var first = edit();
+    var target = first ? first.querySelector('a[href]') || first : count;
+    if (!target) return;
+    if (!first || target === first) target.setAttribute('tabindex', '-1');
+    target.focus({ preventScroll: true });
+    (first || target).scrollIntoView({ block: 'start' });
   });
-  q.addEventListener("input", apply);
-  inst.addEventListener("change", apply);
-  kind.addEventListener("change", apply);
-  status.addEventListener("change", apply);
+  q.addEventListener("input", edit);
+  q.addEventListener('keydown', function (event) {
+    if (event.key !== 'Escape' || event.defaultPrevented || event.isComposing || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || !q.value) return;
+    event.preventDefault();
+    q.value = '';
+    edit();
+  });
+  inst.addEventListener("change", edit);
+  kind.addEventListener("change", edit);
+  status.addEventListener("change", edit);
   document.getElementById("katalog-temizle").addEventListener("click", function () {
     q.value = "";
     inst.value = "";
     kind.value = "";
     status.value = "";
-    apply();
+    edit();
+    q.focus();
   });
-  apply();
+  document.getElementById('katalog-kaydi-goster').addEventListener('click', function () {
+    var item = linkedRecord();
+    if (!item) return;
+    q.value = ''; inst.value = ''; kind.value = ''; status.value = '';
+    edit();
+    item.el.setAttribute('tabindex', '-1');
+    item.el.focus({ preventScroll: true });
+    item.el.scrollIntoView({ block: 'start' });
+  });
+  restore();
+  form.hidden = false;
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function () { updateLinkedRecordNotice(true); }, { once: true });
+  } else updateLinkedRecordNotice(true);
+  window.addEventListener('popstate', restore);
+  window.addEventListener('pageshow', restore);
+  window.addEventListener('hashchange', function () { updateLinkedRecordNotice(true); });
 })();
 </script>
-<script>
-(function () {
-  var b = document.getElementById("nav-toggle");
-  var p = document.getElementById("nav-panel");
-  if (!b || !p) return;
-  b.addEventListener("click", function () {
-    var open = p.classList.toggle("is-open");
-    b.setAttribute("aria-expanded", open ? "true" : "false");
-  });
-  p.addEventListener("click", function (e) {
-    if (e.target.closest("a")) {
-      p.classList.remove("is-open");
-      b.setAttribute("aria-expanded", "false");
-    }
-  });
-})();
-</script>
+<script src="/js/navigation.js?v=20261021h" defer></script>
 </body>
 </html>

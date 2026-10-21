@@ -301,7 +301,7 @@ test("atlas araması boş sonucu bildirir, ok tuşları ve Escape ile odağı ko
   const q = el(), results = el(), status = el(), title = el(), more = el(), clear = el();
   const ctx = { document: { getElementById: id => ({ q, 'q-results': results, 'q-status': status, 'panel-title': title, 'q-more': more, 'q-clear': clear }[id]), createElement: el },
     foldTr: value => value.toLowerCase(), allPlaces: () => [{ id: 'a', name: 'Arıburnu' }],
-    D: { events: [] }, map: {}, selectPlace() {}, revealDock() {}, mode: 'naval', panelRevision: 0, stopPlay() {} };
+    D: { events: [] }, map: {}, selectPlace() {}, revealDock() {}, focusSelectedPanel() { title.focus(); }, mode: 'naval', panelRevision: 0, stopPlay() {} };
   vm.createContext(ctx);
   vm.runInContext(source.slice(source.indexOf('  var q = document.getElementById("q");'), source.indexOf('  var clock = document.getElementById("clock");')), ctx);
   function key(target, name, item) {
@@ -449,7 +449,8 @@ test('harita aramasından sonuç seçmek ilk sorguyu değiştirmez', () => {
   let click, picked = 0, focused = 0;
   const ctx = { q: { value: 'mayın gemi' }, qRes: { appendChild() {} }, qStatus: {},
     document: { createElement() { return { appendChild() {}, addEventListener(type, fn) { click = fn; } }; },
-      getElementById: () => ({ setAttribute() {}, focus() { focused++; } }) }, closeSearchResults() {}, revealDock() {} };
+      getElementById: () => ({ setAttribute() {}, focus() { focused++; } }) }, closeSearchResults() {}, revealDock() {},
+    focusSelectedPanel(trigger) { assert.equal(trigger, null); focused++; } };
   vm.createContext(ctx);
   const start = app.indexOf('  function addSearchHit(');
   vm.runInContext(app.slice(start, app.indexOf('  function renderSearch(', start)), ctx);
