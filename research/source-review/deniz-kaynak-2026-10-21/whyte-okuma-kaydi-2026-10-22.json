@@ -1,0 +1,146 @@
+{
+  "review_date": "2026-10-22",
+  "artifacts": [
+    {
+      "url": "https://transcribe.awm.gov.au/transcription/item/awm20226247-8",
+      "access_date": "2026-10-22",
+      "bytes": 206724,
+      "sha256": "28d28705e13e83bef4e77ea1c54873facbc64eaa6232d359a1a47edb13295505",
+      "local_path": "ham/whyte-wallet4-part10.html",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": false
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-02/6211-awm20226247-0095.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 3363088,
+      "sha256": "b5d3d2e1b3f252ed2cebe1bc5490cf6ab7c69a66d1351a013d6cc1773e6a7ca3",
+      "local_path": "ham/whyte-wallet4-part10-01.jpg",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-02/6212-awm20226247-0096.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 3390993,
+      "sha256": "85b5535ebc6df4c05e5c47e1fa4db5b71feb2b9cc9ba2164dd967732b1f76241",
+      "local_path": "ham/whyte-wallet4-part10-02.jpg",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-02/6213-awm20226247-0097.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 3240336,
+      "sha256": "b1be3f37e22c2870aa63e6208a74834d1c09ff83d1c0ac98c3145456dffa551b",
+      "local_path": "ham/whyte-wallet4-part10-03.jpg",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-02/6214-awm20226247-0098.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 4095004,
+      "sha256": "47cc6b260b1ad37cc6043871188bc3c97d7cae656a79fa801f22c0d114358e07",
+      "local_path": "ham/whyte-wallet4-part10-04.jpg",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-02/6215-awm20226247-0099.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 4397742,
+      "sha256": "68231b6cb59c88df3eaf66e87b49b34b16f84e284d2a704cd91493224d115bc3",
+      "local_path": "ham/whyte-wallet4-part10-05.jpg",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-02/6216-awm20226247-0100.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 3987343,
+      "sha256": "be0b5612f7df9f1c495b295e2585446e0343fb10bd47706ff82a7eae4cd9cc58",
+      "local_path": "ham/whyte-wallet4-part10-06.jpg",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-02/6217-awm20226247-0101.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 3385884,
+      "sha256": "851d2805308f3bdcd00d316f682c9d8b60745fa936deea2a82f8b63b4520642f",
+      "local_path": "ham/whyte-wallet4-part10-07.jpg",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-02/6218-awm20226247-0102.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 3325204,
+      "sha256": "202138c9d8b6db35d9e6ec71fd7d73529651d3e87e56e531c6a0469778b04666",
+      "local_path": "ham/whyte-wallet4-part10-08.jpg",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-02/6219-awm20226247-0103.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 3295861,
+      "sha256": "77e9b78840eac4c9c63813983101ceccc4198918abdd43f539f3382aa2cf5d2b",
+      "local_path": "ham/whyte-wallet4-part10-09.jpg",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-02/6220-awm20226247-0104.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 3264980,
+      "sha256": "73216db5bd46389824a44734eeedf29614057ad77a683de435b76cbf2a818717",
+      "local_path": "ham/whyte-wallet4-part10-10.jpg",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-02/6221-awm20226247-0105.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 3320907,
+      "sha256": "31f2c6a024007e4a2773282d45b774e404e8a9ac2c0f9198310cd957af1af4fb",
+      "local_path": "ham/whyte-wallet4-part10-11.jpg",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-02/6222-awm20226247-0106.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 3886918,
+      "sha256": "0700f710c6850a1d3af5b58bc835130b7b0e43d346f447d4f95ac9432da54aaf",
+      "local_path": "ham/whyte-wallet4-part10-12.jpg",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-02/6223-awm20226247-0107.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 2978620,
+      "sha256": "28ea1c3d5b29abb1325dcbd37e28beb82993f955979308cc0b3e53b41e97dd18",
+      "local_path": "ham/whyte-wallet4-part10-13.jpg",
+      "review": "whyte-mektuplari-haber-personel-2026-10-22.md",
+      "visually_reviewed": true
+    }
+  ],
+  "inspection_crops": [
+    {
+      "local_path": "ham/whyte-detail-08-right.png",
+      "sha256": "249ad89d089531a64f7c599825152209d129bedee83566c550c0ee611ff16456",
+      "operation": "Local crop and contrast adjustment for handwriting inspection only; source preserved.",
+      "visually_reviewed": true
+    },
+    {
+      "local_path": "ham/whyte-detail-10-left.png",
+      "sha256": "9120df33429f1565f0559a1774ab4a7dfd323678bf5df17f16427e9730b469bd",
+      "operation": "Local crop and contrast adjustment for handwriting inspection only; source preserved.",
+      "visually_reviewed": true
+    }
+  ],
+  "scope": "Wallet 4 Part 10 only; 13 images including covers. Focused claims on numbered pages 95, 97, 98 and 102; not full collection."
+}

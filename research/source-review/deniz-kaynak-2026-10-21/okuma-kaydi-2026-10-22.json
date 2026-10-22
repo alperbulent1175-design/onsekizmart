@@ -1,0 +1,145 @@
+{
+  "kind": "research_reading_manifest_not_source_catalog",
+  "version": 1,
+  "checked_at": "2026-10-22",
+  "note": "Mevcut katalog semasinin yerine gecmez. Okuma kapsamini ve dosya butunlugunu kaydeder; iddia_dogrulandi atamaz.",
+  "sources": [
+    {
+      "id": "awm-helles-extracts",
+      "source_url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG0000111/bundled/RCDIG0000111.pdf",
+      "catalog_url": "https://www.awm.gov.au/collection/C2084680",
+      "checked_at": "2026-10-22",
+      "local_path": "ham/RCDIG0000111.pdf",
+      "bytes": 41678090,
+      "sha256": "6cea27b45f57c653c7950c709e5c6a30a097ece86f93477a8ae379c40ff2f010",
+      "read_locations": [
+        "1-31"
+      ],
+      "verification_status": "goruntu_okundu_kapsam_sinirli",
+      "verification_note": "Derlenmis emir/telgraf aktarimi; 31 sayfa ekipce goruntuden okundu. Ozgun gonderim kutugu degil.",
+      "review_file": "helles-emir-telgraf-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "id": "awm-dardanelles-january-diary",
+      "source_url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1017501/bundled/RCDIG1017501.pdf",
+      "catalog_url": "https://www.awm.gov.au/collection/C1356079",
+      "checked_at": "2026-10-22",
+      "local_path": "ham/RCDIG1017501.pdf",
+      "bytes": 9365639,
+      "sha256": "33ff6e15c15f30ad1331790a867d0f62aea502d08487228ccf645ca051acf8be",
+      "read_locations": [
+        "9-10"
+      ],
+      "verification_status": "goruntu_okundu_kapsam_sinirli",
+      "verification_note": "Olay gunlugu goruntusu. OBC45/DO819 ayni AHQ-GHQ haber ailesindedir; bagimsiz iki tanik degildir.",
+      "review_file": "helles-gunluk-karsilastirmasi-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "id": "boa-canakkale-II",
+      "source_url": "https://www.devletarsivleri.gov.tr/cdn?fileId=99",
+      "catalog_url": "https://www.devletarsivleri.gov.tr/cdn?fileId=99",
+      "checked_at": "2026-10-22",
+      "local_path": "ham/osmanli-belgeleri-canakkale-II.pdf",
+      "bytes": 2004884,
+      "sha256": "39498fcb8d1e236993da67a2de717f20e9e22be91eaa349390f5cd020352147a",
+      "read_locations": [
+        "1-3",
+        "5-6",
+        "26",
+        "30",
+        "181-183",
+        "185-187",
+        "193-194",
+        "264-284"
+      ],
+      "verification_status": "goruntu_okundu_kapsam_sinirli",
+      "verification_note": "Resmi yayinda Latin harfli aktarim. Ozgun Osmanlica faksimile okunmadi. Tam kitabin sayfa eslestirmesi farkli; bu 353 sayfalik PDF konumlari kullanilir. Tum dosyadan metin cikarimi tam okuma sayilmaz.",
+      "review_file": "osmanli-seddulbahir-tebligleri-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "id": "petite-gironde-19151104",
+      "source_url": "https://argonnaute.parisnanterre.fr/media/ca2f3e73-4147-4860-8168-1bd4e93bd139.pdf",
+      "catalog_url": "https://argonnaute.parisnanterre.fr/media/ca2f3e73-4147-4860-8168-1bd4e93bd139.pdf",
+      "checked_at": "2026-10-22",
+      "local_path": "ham/petite-gironde-19151104.pdf",
+      "bytes": 18075521,
+      "sha256": "9b5d57d3fe2dcbb83f4f0584bb780ab4c9238dd0364419c450fdb3aadea7e069",
+      "read_locations": [
+        "1 (kunye)",
+        "3 (ilgili sutun)"
+      ],
+      "verification_status": "goruntu_okundu_kapsam_sinirli",
+      "verification_note": "Donem gazetesi; Alman kaynakli bilgi aktarimi. Bagimsiz Fransiz batis gozlemi degil. Basili sayfa numarasi okunmadi.",
+      "review_file": "turquoise-haber-zinciri-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "id": "excelsior-19151216",
+      "source_url": "https://argonnaute.parisnanterre.fr/media/baadbfd6-8d1c-4a0f-b0a4-0b07a2ab908f.pdf",
+      "catalog_url": "https://argonnaute.parisnanterre.fr/media/baadbfd6-8d1c-4a0f-b0a4-0b07a2ab908f.pdf",
+      "checked_at": "2026-10-22",
+      "local_path": "ham/excelsior-19151216.pdf",
+      "bytes": 19800107,
+      "sha256": "d13b911629b1c6dfdbcc5e2e5a176095b189ef62746f91c20afdf7eb86c07b3a",
+      "read_locations": [
+        "1 (kunye)",
+        "7 (basili 8; ilgili sutun)"
+      ],
+      "verification_status": "goruntu_okundu_kapsam_sinirli",
+      "verification_note": "Donem gazetesi; Daily Chronicle muhabirinin 11 Aralik telgrafindan soylenti aktarimi. Sabotaj dogrulanmadi.",
+      "review_file": "turquoise-haber-zinciri-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "id": "chatham-19160109",
+      "source_url": "https://s3.amazonaws.com/oldweather/ADM53-37571/007_1.jpg",
+      "catalog_url": "https://s3.amazonaws.com/oldweather/ADM53-37571/007_1.jpg",
+      "checked_at": "2026-10-22",
+      "local_path": "ham/chatham-19160109-007_1.jpg",
+      "bytes": 311926,
+      "sha256": "ce239377aae6668b6ce2317b51a30240315f3e63fd0b43a0b0eabb9d428fb1a7",
+      "read_locations": [
+        "007_1.jpg"
+      ],
+      "verification_status": "goruntu_okundu_kapsam_sinirli",
+      "verification_note": "Copy of Log nushasinin gunluk yapragi. 03.45 yangin kaydidir. Enlem/boylam alanlari bos.",
+      "review_file": "helles-gunluk-karsilastirmasi-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "id": "blenheim-19160109",
+      "source_url": "https://s3.amazonaws.com/oldweather/ADM53-35574/0191_1.jpg",
+      "catalog_url": "https://s3.amazonaws.com/oldweather/ADM53-35574/0191_1.jpg",
+      "checked_at": "2026-10-22",
+      "local_path": "ham/blenheim-19160109-0191_1.jpg",
+      "bytes": 98654,
+      "sha256": "c0ef25e5b5e9ad1ba4560c168cb15f99f292e6156df693b73ab8d670551b7793",
+      "read_locations": [
+        "0191_1.jpg"
+      ],
+      "verification_status": "goruntu_okundu_kapsam_sinirli",
+      "verification_note": "Gunluk yapragi; carpismada tekne/malzeme kaybi. Personel kayip kimligi/sayisi yok.",
+      "review_file": "helles-gunluk-karsilastirmasi-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "id": "pocock-transcription-p49",
+      "source_url": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2026-06/81487-rcdig0001390-page77.jpg",
+      "catalog_url": "https://transcribe.awm.gov.au/transcription/item/rcdig0001390-6",
+      "checked_at": "2026-10-22",
+      "local_path": "ham/pocock-page77.jpg",
+      "bytes": 1240641,
+      "sha256": "b15ca588b778ee6a43cd9667e8569b153a246048bd522aed613a38fa171360a3",
+      "read_locations": [
+        "aktarim s49 / page77"
+      ],
+      "verification_status": "goruntu_okundu_kapsam_sinirli",
+      "verification_note": "Modern dizgi aktarimi goruntusu; platform Awaiting approval. 14/15 olum celiskisi cozulmedi. Ozgun el yazmasi ile kontrol edilmedi.",
+      "review_file": "helles-gunluk-karsilastirmasi-2026-10-22.md",
+      "auto_publish": false
+    }
+  ]
+}

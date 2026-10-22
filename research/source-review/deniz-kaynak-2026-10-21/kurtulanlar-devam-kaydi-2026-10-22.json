@@ -1,0 +1,23 @@
+{
+  "review_date": "2026-10-22",
+  "downloaded_source": {
+    "url": "https://api.parliament.uk/historic-hansard/written_answers/1916/jul/26/hms-irresistible-survivors",
+    "access_date": "2026-10-22",
+    "bytes": 7889,
+    "sha256": "4c27a818f128f63991b35fe0de95eed6e62bb8e56ed79d1a26f8a6d3fdda490f",
+    "local_path": "ham/hansard-irresistible-19160726.html",
+    "review": "kurtulanlar-hansard-fauvette-2026-10-22.md",
+    "review_status": "kurumsal_transkripsiyon_okundu"
+  },
+  "catalog_only": {
+    "url": "https://www.rmg.co.uk/collections/archive/rmgc-object-501183",
+    "reference": "GSN/32/7",
+    "document_images_read": false
+  },
+  "web_excerpt_read": {
+    "url": "https://www.gutenberg.org/files/19317/19317-h/19317-h.htm",
+    "scope": "Chapter II, 18-19 March entries",
+    "manuscript_read": false,
+    "review": "hamilton-18mart-bilgi-siniri-2026-10-22.md"
+  }
+}

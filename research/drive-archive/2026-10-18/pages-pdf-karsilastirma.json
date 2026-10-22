@@ -1,0 +1,46 @@
+[
+  {
+    "pages_id": "1U_tYcUKVROkbVHAC_Pmabi5Uz0FPeXCk",
+    "pdf_id": "1RNUiAxBptA0KxUPOQEujMzTCXDhfOBTV",
+    "pages_normalized_chars": 11007,
+    "pdf_normalized_chars": 11011,
+    "normalized_text_identical": false,
+    "sequence_ratio": 0.99982,
+    "normalization": "NFKC, remove whitespace and soft hyphen; content punctuation retained",
+    "independent_source": false,
+    "limitation": "Text comparison only; images and provenance not validated"
+  },
+  {
+    "pages_id": "1aLy69SXuE640S3teR9do-RnERLy9pZU7",
+    "pdf_id": "1UbXnF6MwVo1pnCz_4Xt-bFjDMgl2ADlj",
+    "pages_normalized_chars": 15692,
+    "pdf_normalized_chars": 15696,
+    "normalized_text_identical": false,
+    "sequence_ratio": 0.99987,
+    "normalization": "NFKC, remove whitespace and soft hyphen; content punctuation retained",
+    "independent_source": false,
+    "limitation": "Text comparison only; images and provenance not validated"
+  },
+  {
+    "pages_id": "1c83org5_1w_3-zHMoqthguaqaqtc1tfw",
+    "pdf_id": "1arf5vnCZQULrAIcWVHk8gNTvXV0mw1CP",
+    "pages_normalized_chars": 13447,
+    "pdf_normalized_chars": 13853,
+    "normalized_text_identical": false,
+    "sequence_ratio": 0.98505,
+    "normalization": "NFKC, remove whitespace and soft hyphen; content punctuation retained",
+    "independent_source": false,
+    "limitation": "Text comparison only; images and provenance not validated"
+  },
+  {
+    "pages_id": "1ZlUwwuz-_n8R94ddqsQBtv6khSpxWZNZ",
+    "pdf_id": "1SweCjrQiidr4FT-YueS0CSsdJiq1PZ8_",
+    "pages_normalized_chars": 1713,
+    "pdf_normalized_chars": 1713,
+    "normalized_text_identical": true,
+    "sequence_ratio": 1.0,
+    "normalization": "NFKC, remove whitespace and soft hyphen; content punctuation retained",
+    "independent_source": false,
+    "limitation": "Text comparison only; images and provenance not validated"
+  }
+]

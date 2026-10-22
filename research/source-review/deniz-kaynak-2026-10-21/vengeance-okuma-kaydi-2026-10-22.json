@@ -1,0 +1,114 @@
+{
+  "review_date": "2026-10-22",
+  "artifacts": [
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-028_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 91242,
+      "sha256": "1fa34b6167dbe1590c1e6580a59aacb8b1f376eea7a198eefc2cae9cbed3aac0",
+      "local_path": "ham/vengeance-67111-028_0.jpg",
+      "review": "vengeance-gozetleme-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-028_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 78691,
+      "sha256": "d13f4302fa476016ef78e3fc53084503e961846fb025b6239b527b356919dbf7",
+      "local_path": "ham/vengeance-67111-028_1.jpg",
+      "review": "vengeance-gozetleme-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-029_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 86143,
+      "sha256": "d70f73a7f7b3256089b7fcb53d69e4d5146fc109ec0c530a6bf850991f720909",
+      "local_path": "ham/vengeance-67111-029_0.jpg",
+      "review": "vengeance-gozetleme-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-029_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 67905,
+      "sha256": "645fa8b16f8bb6e6b1e78300f6d416a155238dd4996f07f7ca30bd2e95e1ed5e",
+      "local_path": "ham/vengeance-67111-029_1.jpg",
+      "review": "vengeance-gozetleme-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-030_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 90696,
+      "sha256": "b318520def75a160cbc44c1b6dbfeb98de873b780db1abbd8adec532a8541a62",
+      "local_path": "ham/vengeance-67111-030_0.jpg",
+      "review": "vengeance-gozetleme-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-030_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 72419,
+      "sha256": "3e618eba7b5a46581200497e4fa8da98ec1e867fbe256b66645f78ebadd4a25c",
+      "local_path": "ham/vengeance-67111-030_1.jpg",
+      "review": "vengeance-gozetleme-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-031_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 91142,
+      "sha256": "767545be2fd9c2994eccc0e4b3dcdfcce6f7b042a79aa8897ce7402e2359d4c2",
+      "local_path": "ham/vengeance-67111-031_0.jpg",
+      "review": "vengeance-gozetleme-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-031_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 77721,
+      "sha256": "96cd4753606dbed4560fec4bd9c60cef06f591dabd4df2718cbbdb6a3e6c5252",
+      "local_path": "ham/vengeance-67111-031_1.jpg",
+      "review": "vengeance-gozetleme-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-032_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 63357,
+      "sha256": "6365c490b1550a37b766991728631f4ae718369907a3a2d7e6ca645ceeb7286b",
+      "local_path": "ham/vengeance-67111-032_0.jpg",
+      "review": "vengeance-gozetleme-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-032_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 66515,
+      "sha256": "efcac4be6918d0e6f7aac90d116ca08e1eefeb79b31af4ea56640b7868cb2a9c",
+      "local_path": "ham/vengeance-67111-032_1.jpg",
+      "review": "vengeance-gozetleme-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-034_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 216168,
+      "sha256": "05f34a9b5dd08e53db5a13153936868c094fdb4a1771c59bf96f7879f0f6bf27",
+      "local_path": "ham/vengeance-67111-034_0.jpg",
+      "review": "vengeance-gozetleme-personel-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-035_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 213956,
+      "sha256": "b0dc6207f1b1d90606cce0f4a9926efc05e8e530736a2337df928ffd7fc18c21",
+      "local_path": "ham/vengeance-67111-035_1.jpg",
+      "review": "vengeance-gozetleme-personel-2026-10-22.md",
+      "visually_reviewed": true
+    }
+  ],
+  "scope": "Ten half-page scans forming five typed report pages; two daily leaves. Clock convention unresolved."
+}

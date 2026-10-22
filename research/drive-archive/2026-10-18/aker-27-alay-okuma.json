@@ -1,0 +1,82 @@
+{
+  "narrative_records": [
+    {
+      "id": "AKER-31-34",
+      "type": "komutanin_sonradan_yayimlanmis_anlatimi",
+      "source_url": "https://drive.google.com/file/d/1P2U8RvVWChGPubJGTz0YxQS1Bjy3jYaG/view",
+      "publication": "Şefik Aker, Çanakkale–Arıburnu Savaşları ve 27. Alay, Askerî Mecmua Tarih Kısmı, sayı 40, 1935",
+      "printed_pages": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "physical_pdf_pages": [
+        21,
+        22,
+        23
+      ],
+      "page_mapping": "PDF 21 sağ=31, PDF 22 sol=32/sağ=33, PDF 23 sol=34",
+      "evidence_text": "Ben bir taraftan telefonla tümen komutanlığından emir bekliyordum.",
+      "finding": "Yazar, çıkarma haberinin telefonla alınması, birliklerin hazırlanması, tümen hareket emrinin beklenmesi ve taburların yürüyüşünü ayrı aşamalarla anlatıyor.",
+      "time_as_written": "Basılı s. 33: saat 5 dakika 45; yalnız yazarın hareket emrini alışına dair yayındaki kayıt.",
+      "limits": "Bu anlatı 1935 yayınıdır; 25 Nisan günü düzenlenmiş emir ya da ceride aslı değildir. Kesin kronolojiye yeni saat işlenmedi. Basılı s. 33–34 yürüyüş tarifi, koordinata dönüştürülmedi.",
+      "review_date": "2026-10-18",
+      "verification_status": "belirtilen_yayin_sayfalari_goruntuden_okundu_ayri_belge_karsilastirmasi_acik"
+    }
+  ],
+  "visual_candidates": [
+    {
+      "id": "AKER-94",
+      "printed_page": 94,
+      "pdf_page": 54,
+      "position": "left",
+      "caption_read": "19. Tümen Komutanı Mustafa Kemal Arıburnu Siperlerinde",
+      "candidate_use": "Mustafa Kemal ve Arıburnu savunması",
+      "limits": "Çekim tarihi ve fotoğrafçı bu başlıkta belirtilmiyor. 25 Nisan anı olarak etiketlenemez.",
+      "source_url": "https://drive.google.com/file/d/1P2U8RvVWChGPubJGTz0YxQS1Bjy3jYaG/view",
+      "review_date": "2026-10-18",
+      "verification_status": "yayin_goruntusu_ve_alt_yazisi_okundu",
+      "publication_permission": "belirsiz_yayina_alinmadi"
+    },
+    {
+      "id": "AKER-95-A",
+      "printed_page": 95,
+      "pdf_page": 54,
+      "position": "right_upper",
+      "caption_read": "Arıburnu muharebelerinde 27. alay Komutanı Yarbay Şefik Aker",
+      "candidate_use": "Şefik Aker portresi",
+      "limits": "Çekim tarihi, fotoğrafçı ve bağımsız kurum kaydı doğrulanmadı.",
+      "source_url": "https://drive.google.com/file/d/1P2U8RvVWChGPubJGTz0YxQS1Bjy3jYaG/view",
+      "review_date": "2026-10-18",
+      "verification_status": "yayin_goruntusu_ve_alt_yazisi_okundu",
+      "publication_permission": "belirsiz_yayina_alinmadi"
+    },
+    {
+      "id": "AKER-95-B",
+      "printed_page": 95,
+      "pdf_page": 54,
+      "position": "right_lower",
+      "caption_read": "Mütekaid Albay Şefik Akerin şimdiki fotoğrafı",
+      "candidate_use": "Şefik Akerin sonraki dönem portresi",
+      "limits": "Kaynak bunu sonraki dönem görüntüsü olarak ayırıyor. 1915 portresiyle birleştirilmemeli; kesin çekim tarihi belirtilmiyor.",
+      "source_url": "https://drive.google.com/file/d/1P2U8RvVWChGPubJGTz0YxQS1Bjy3jYaG/view",
+      "review_date": "2026-10-18",
+      "verification_status": "yayin_goruntusu_ve_alt_yazisi_okundu",
+      "publication_permission": "belirsiz_yayina_alinmadi"
+    }
+  ],
+  "map_candidates": {
+    "source_url": "https://drive.google.com/file/d/1P2U8RvVWChGPubJGTz0YxQS1Bjy3jYaG/view",
+    "pdf_pages": [
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "review_date": "2026-10-18",
+    "verification_status": "kucuk_onizlemede_tespit_edildi_ayrintili_inceleme_yok",
+    "limits": "Kroki numaraları, ölçek ve tekrar nüshalar karşılaştırılmadı; her PDF sayfası ayrı özgün kroki sayılmadı. Haritaya hat ya da koordinat aktarılmadı."
+  }
+}

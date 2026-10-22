@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="/vendor/leaflet-1.9.4/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-  <link rel="stylesheet" href="css/style.css?v=20261021m">
+  <link rel="stylesheet" href="css/style.css?v=20261021n">
   <noscript><style>
     body.home .map-help-row, body.home .tool-row, body.home .atlas-grid,
     body.home #secilmis, body.home #camp-filters, body.home #kron-filters,
@@ -105,8 +105,9 @@
           <li><strong>Görünümü değiştirin.</strong> Katmanlar işaret türlerini açıp kapatır. Haritanın sağ altındaki Uydu ve Yol haritası seçenekleri taban haritayı değiştirir. Yakınlaşmak için + / − düğmelerini kullanın.</li>
           <li><strong>Kaydı okuyun.</strong> Seçili kaydın ayrıntı bağlantısını açın. Noktalar yaklaşık konumdur; günümüz taban görüntüsü tarihsel harita değildir.</li>
         </ol>
-        <p>Başlangıç görünümü yalnız haritanın merkezini ve yakınlığını geri getirir; seçili olay, zaman ve süzgeçler korunur. Seçili kartı oku düğmesi açık kartı görünür kılar.</p>
+        <p>Başlangıç görünümü yalnız haritanın merkezini ve yakınlığını geri getirir; seçili olay, zaman ve süzgeçler korunur. Seçili kartı oku düğmesi açık kartı görünür kılar. Bu rehberi açmak oynatmayı duraklatır; devam etmek için Oynat düğmesini kullanın.</p>
         <p>18 Mart görünümünde zaman çubuğuna odaklanıp ok tuşlarıyla kayıtlar arasında ilerleyebilirsiniz. Home ilk, End son kaydı açar.</p>
+        <p>Haritanın kendisine odaklandığınızda ok tuşları haritayı kaydırır; + ve − yakınlığı değiştirir. Haritaya elle müdahale etmek oynatmayı duraklatır. Tab ile işaretlere ve denetimlere geçebilirsiniz.</p>
         <p><a href="/nasil-okunur/">Ayrıntılı kullanım rehberi</a> · <a href="#kronoloji">Kronolojiye geç</a></p>
       </div>
     </details>
@@ -173,7 +174,8 @@
         <div><span id="map-playback-time"></span><strong id="map-playback-title"></strong></div>
         <button type="button" id="map-playback-pause">Duraklat</button>
       </div>
-      <div id="map" role="application" aria-label="Çanakkale 1915 haritası. Açılış: 18 Mart deniz muharebesi. Taban harita günümüz uydu görüntüsüdür."></div>
+      <p class="visually-hidden" id="map-keyboard-help">Harita odaktayken ok tuşları kaydırır; artı ve eksi tuşları yakınlığı değiştirir. Tab ile işaretlere ve denetimlere geçin. İşarette Enter veya boşluk bilgi kartını açar. Haritaya elle müdahale oynatmayı duraklatır.</p>
+      <div id="map" role="application" aria-describedby="map-keyboard-help" aria-label="Çanakkale 1915 haritası. Açılış: 18 Mart deniz muharebesi. Taban harita günümüz uydu görüntüsüdür."></div>
     </div>
     <div class="stage-side">
       <div class="timeline">
@@ -313,6 +315,6 @@
 <script defer src="js/data.js?v=20261020h"></script>
 <script defer src="js/campaign.js?v=20261020f"></script>
 <script defer src="js/model.js?v=20261017b"></script>
-<script defer src="js/app.js?v=20261021j"></script>
+<script defer src="js/app.js?v=20261022a"></script>
 </body>
 </html>

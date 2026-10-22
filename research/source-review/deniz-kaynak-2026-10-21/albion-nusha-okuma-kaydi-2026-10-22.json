@@ -1,0 +1,117 @@
+{
+  "review_date": "2026-10-22",
+  "artifacts": [
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33214/ADM53-33214-001_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 172941,
+      "sha256": "6937de20782bc2d6e5081dca87e00f351e988078611276d348742cdf738ebec7",
+      "discovery": "Adjacent scan path derived from already retrieved dated leaves; identity to be checked visually.",
+      "local_path": "ham/albion-33214-001_0.jpg",
+      "review": "albion-nusha-tasdiki-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33214/ADM53-33214-001_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 167385,
+      "sha256": "e47df69e248247144e3cf826c1d488148fd1b90fec4efe0ba58a2f9254163ede",
+      "discovery": "Adjacent scan path derived from already retrieved dated leaves; identity to be checked visually.",
+      "local_path": "ham/albion-33214-001_1.jpg",
+      "review": "albion-nusha-tasdiki-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33214/ADM53-33214-002_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 215441,
+      "sha256": "9ec20cfe5155aa679545f1939058331f83f1084c828a4e0b7e1599dc7b3cf7f1",
+      "discovery": "Adjacent scan path derived from already retrieved dated leaves; identity to be checked visually.",
+      "local_path": "ham/albion-33214-002_0.jpg",
+      "review": "albion-nusha-tasdiki-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33214/ADM53-33214-002_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 219019,
+      "sha256": "9afabe7f71f7fd70e2573a451e1dc79c9522686e233b1163de384f280715e226",
+      "discovery": "Adjacent scan path derived from already retrieved dated leaves; identity to be checked visually.",
+      "local_path": "ham/albion-33214-002_1.jpg",
+      "review": "albion-nusha-tasdiki-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33214/ADM53-33214-003_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 96487,
+      "sha256": "ab0f66d3290e2d95ebd7a26ce75e653b4e5350aa9ec13b8850853e1281d24413",
+      "discovery": "Adjacent scan path derived from retrieved cover; identity checked visually.",
+      "local_path": "ham/albion-33214-003_0.jpg",
+      "review": "albion-nusha-tasdiki-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33214/ADM53-33214-003_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 86704,
+      "sha256": "108b13ca026232299fed268b4a0840e0a289691075a0950337dd8821c2940f47",
+      "discovery": "Adjacent scan path derived from retrieved cover; identity checked visually.",
+      "local_path": "ham/albion-33214-003_1.jpg",
+      "review": "albion-nusha-tasdiki-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33214/ADM53-33214-004_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 72809,
+      "sha256": "56deb6a0f8545cdac1aa635526abcb86d76d99c956405d59d705d82734451b33",
+      "discovery": "Adjacent scan path derived from retrieved cover; identity checked visually.",
+      "local_path": "ham/albion-33214-004_0.jpg",
+      "review": "albion-nusha-tasdiki-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33214/ADM53-33214-004_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 161941,
+      "sha256": "f43234c8b79384eb920525f81d662403816f838b6bc50fac696d59fe03bb358a",
+      "discovery": "Adjacent scan path derived from retrieved cover; identity checked visually.",
+      "local_path": "ham/albion-33214-004_1.jpg",
+      "review": "albion-nusha-tasdiki-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33215/ADM53-33215-002_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 177494,
+      "sha256": "55a2c8f88c55fc57cfc1703515269af61a95c7d9e56bbe8acce770a18f0d06be",
+      "discovery": "Adjacent scan path derived from already retrieved dated leaves; identity to be checked visually.",
+      "local_path": "ham/albion-33215-002_0.jpg",
+      "review": "albion-nusha-tasdiki-2026-10-22.md",
+      "visually_reviewed": true
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33215/ADM53-33215-002_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 210347,
+      "sha256": "0c4cde8fa2ab29a8479ad7431a800a052876acda72e94468a1aa254a7e2f1471",
+      "discovery": "Adjacent scan path derived from already retrieved dated leaves; identity to be checked visually.",
+      "local_path": "ham/albion-33215-002_1.jpg",
+      "review": "albion-nusha-tasdiki-2026-10-22.md",
+      "visually_reviewed": true
+    }
+  ],
+  "not_retrieved": [
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33215/ADM53-33215-001_0.jpg",
+      "status": "HTTP 403",
+      "document_absent_in_archive": null
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33215/ADM53-33215-001_1.jpg",
+      "status": "HTTP 403",
+      "document_absent_in_archive": null
+    }
+  ]
+}

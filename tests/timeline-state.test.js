@@ -123,7 +123,7 @@ test('arka plana geçiş oynatmayı durdurur, görünür olma kendiliğinden ba�
     stopPlay() { stops++; } };
   vm.createContext(ctx);
   const start = source.indexOf('  document.addEventListener("visibilitychange"');
-  vm.runInContext(source.slice(start, source.indexOf('  var panelMapReturn = ', start)), ctx);
+  vm.runInContext(source.slice(start, source.indexOf('  function bindManualMapNavigation(', start)), ctx);
   visibility(); assert.equal(stops, 0);
   ctx.document.hidden = true; visibility(); assert.equal(stops, 1);
   ctx.document.hidden = false; visibility(); assert.equal(stops, 1);
@@ -364,13 +364,14 @@ test('başlangıç görünümü oynatmayı ve harita hareketini durdurur; seçim
   let click;
   const calls = [];
   const status = {};
-  const ctx = { mapReady: true, D: { center: [40.1, 26.2], defaultZoom: 11 }, motionOn: () => false,
+  const ctx = { panelRevision: 5, mapReady: true, D: { center: [40.1, 26.2], defaultZoom: 11 }, motionOn: () => false,
     map: { stop() { calls.push('map-stop'); }, setView(center, zoom, options) { calls.push([center, zoom, options.animate]); } },
     stopPlay() { calls.push('stop-play'); }, document: { getElementById: id => id === 'map-reset' ? { addEventListener(type, handler) { click = handler; } } : status } };
   vm.createContext(ctx);
   const start = source.indexOf('  var resetView = ');
   vm.runInContext(source.slice(start, source.indexOf('  var activeId = ', start)), ctx);
   click();
+  assert.equal(ctx.panelRevision, 6);
   assert.equal(calls[0], 'stop-play'); assert.equal(calls[1], 'map-stop');
   assert.deepEqual(calls[2], [[40.1, 26.2], 11, false]);
   assert.match(status.textContent, /Seçili olay, zaman ve süzgeçler korundu/);

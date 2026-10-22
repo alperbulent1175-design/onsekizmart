@@ -1,0 +1,105 @@
+{
+  "review_date": "2026-10-22",
+  "artifacts": [
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33214/ADM53-33214-127_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 207741,
+      "sha256": "d5f4f4546516b04da8e24b99333bb85761248e104e5ec00e7c44bf5100b0642a",
+      "local_path": "ham/albion-33214-127_0.jpg",
+      "review": "albion-personel-zinciri-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33214/ADM53-33214-127_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 186700,
+      "sha256": "32f645f868d10d12b216cdae3eef1beb81ab1fa34bf54e2da4c4744b6ae94f65",
+      "local_path": "ham/albion-33214-127_1.jpg",
+      "review": "albion-personel-zinciri-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33214/ADM53-33214-128_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 182738,
+      "sha256": "3e8b510c9f32af1d44fc0dd126d2c23420382ff11fb4f37340ebd79a3e58bbc0",
+      "local_path": "ham/albion-33214-128_0.jpg",
+      "review": "albion-personel-zinciri-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33215/ADM53-33215-011_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 223499,
+      "sha256": "6ed835f756bb84a874e563fd1d272bb16c17e6c1f9b0b1f55345ec37e16ca1ff",
+      "local_path": "ham/albion-33215-011_0.jpg",
+      "review": "albion-personel-zinciri-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33215/ADM53-33215-011_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 188431,
+      "sha256": "4c3bf8d6905667f14d04621acc5353574a466eac1873f4f6342a14be16fcc9c5",
+      "local_path": "ham/albion-33215-011_1.jpg",
+      "review": "albion-personel-zinciri-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-33215/ADM53-33215-012_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 192184,
+      "sha256": "64ccc392d00c5040ec4669f0a1fe1a7f78cebf708557af260699b9a21fc90fd3",
+      "local_path": "ham/albion-33215-012_0.jpg",
+      "review": "albion-personel-zinciri-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-55219/ADM%2053-55219-012_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 330087,
+      "sha256": "0a924f382ffb551dbc79c976b8229d51ab24dbd8ef6e1366b3e51718dd99be2a",
+      "local_path": "ham/phaeton-55219-012_0.jpg",
+      "review": "phaeton-kurtarma-devami-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-55219/ADM%2053-55219-013_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 306559,
+      "sha256": "a55fae2457c3856f7de0b2df683ead82fbdcc06a601df3777f1d49ed50929d7e",
+      "local_path": "ham/phaeton-55219-013_0.jpg",
+      "review": "phaeton-kurtarma-devami-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-55219/ADM%2053-55219-013_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 328326,
+      "sha256": "0afedb8c8060290783e434dc30d378250954e0ecae1d8e3a64489135d78ef013",
+      "local_path": "ham/phaeton-55219-013_1.jpg",
+      "review": "phaeton-kurtarma-devami-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-55219/ADM%2053-55219-014_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 296003,
+      "sha256": "7da5bf4694369c17e9460fefd756b608f39b366723c9d2d3d3ada072950e5d69",
+      "local_path": "ham/phaeton-55219-014_1.jpg",
+      "review": "phaeton-kurtarma-devami-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu"
+    }
+  ],
+  "catalog_only": [
+    {
+      "url": "https://www.rmg.co.uk/collections/library/rmgl-152881",
+      "content_read": false
+    },
+    {
+      "url": "https://archival.sl.nsw.gov.au/Details/archive/110316060",
+      "content_read": false
+    }
+  ]
+}

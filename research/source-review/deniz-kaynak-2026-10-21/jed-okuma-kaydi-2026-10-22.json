@@ -1,0 +1,32 @@
+{
+  "review_date": "2026-10-22",
+  "artifacts": [
+    {
+      "url": "https://s3.amazonaws.com/oldweather/ADM53-45338/ADM%2053-45338-002_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 138311,
+      "sha256": "252c7b808c229842ad8daffbc3d7dd2e6b09b9f91147db023c58bfe80d9e5c5c",
+      "local_path": "ham/jed-log-002_0.jpg",
+      "review": "jed-ocean-tahliye-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu_karsilastirma_acik"
+    },
+    {
+      "url": "https://s3.amazonaws.com/oldweather/ADM53-45338/ADM%2053-45338-012_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 218341,
+      "sha256": "04da01018ccecfee0d3b43d72717c880f444b26d0428778a9e647c4745ff44be",
+      "local_path": "ham/jed-log-012_0.jpg",
+      "review": "jed-ocean-tahliye-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu_karsilastirma_acik"
+    },
+    {
+      "url": "https://s3.amazonaws.com/oldweather/ADM53-45338/ADM%2053-45338-012_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 210365,
+      "sha256": "0efdd5d6fb6f4d2b315253d05874d9af1d27bf8b53e44d5d3258ba2ee0523eb6",
+      "local_path": "ham/jed-log-012_1.jpg",
+      "review": "jed-ocean-tahliye-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu_karsilastirma_acik"
+    }
+  ]
+}

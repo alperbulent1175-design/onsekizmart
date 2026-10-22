@@ -1,0 +1,29 @@
+{
+  "review_date": "2026-10-22",
+  "artifacts": [
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-38206/ADM%2053-38206-013_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 269933,
+      "sha256": "557a58f9ee58287aa0d66e91f4fe22ddaf0d9cdf536c9e5f9293233f10c6304e",
+      "local_path": "ham/colne-log-013_0.jpg",
+      "review": "colne-ocean-karsilastirma-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu_saat_uyusmazligi_acik"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM53-38206/ADM%2053-38206-013_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 262910,
+      "sha256": "fdb8a52381e1dae9fef8230d0c077553f318a5ef09a166ecbfb486ba1fa5d306",
+      "local_path": "ham/colne-log-013_1.jpg",
+      "review": "colne-ocean-karsilastirma-2026-10-22.md",
+      "review_status": "belge_goruntusu_okundu_saat_uyusmazligi_acik"
+    }
+  ],
+  "reread": {
+    "file": "../deniz-kaynak-2026-10-20/ham/gazette-31322.pdf",
+    "physical_page": 10,
+    "printed_page": 5504,
+    "independent_new_source": false
+  }
+}

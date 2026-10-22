@@ -104,7 +104,7 @@ test('kanıt bölümünü açmak oynatmayı durdurur; kapatmak yeniden başlatma
 
 test('kaydırma sonrası bekleyen mevki seçimi daha yeni kartı ezmez', () => {
   let pending, selected = '';
-  const ctx = { panelRevision: 2, scrollToMap() {}, motionOn: () => true,
+  const ctx = { panelRevision: 2, stopPlay() {}, scrollToMap() {}, motionOn: () => true,
     setTimeout: cb => { pending = cb; }, selectPlace: id => { selected = id; } };
   vm.createContext(ctx);
   vm.runInContext(app.slice(app.indexOf('  function goPlace('), app.indexOf('  function openLoose(')), ctx);

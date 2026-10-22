@@ -364,6 +364,7 @@
     resetView.disabled = !mapReady;
     resetView.addEventListener("click", function () {
       if (!map) return;
+      panelRevision += 1;
       stopPlay();
       if (map.stop) map.stop();
       map.setView(D.center, D.defaultZoom, { animate: motionOn() });
@@ -1834,6 +1835,40 @@
   });
   window.addEventListener("pagehide", stopPlay);
 
+  function bindManualMapNavigation(host) {
+    if (!host) return;
+    function interrupt() {
+      panelRevision += 1;
+      var wasPlaying = playing;
+      stopPlay();
+      if (map && map.stop) map.stop();
+      if (wasPlaying) {
+        var status = document.getElementById('map-view-status');
+        if (status) status.textContent = 'Haritayı elle incelemek için oynatma duraklatıldı.';
+      }
+    }
+    host.addEventListener('pointerdown', function (event) {
+      if (event.button != null && event.button !== 0) return;
+      interrupt();
+    }, true);
+    host.addEventListener('keydown', function (event) {
+      if (event.defaultPrevented || event.isComposing || event.altKey || event.ctrlKey || event.metaKey) return;
+      if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', '+', '-', '=', 'Enter', ' '].indexOf(event.key) === -1) return;
+      interrupt();
+    }, true);
+  }
+  if (mapReady) bindManualMapNavigation(document.getElementById('map'));
+
+  function bindMapGuide(details) {
+    if (!details) return;
+    details.addEventListener('toggle', function () {
+      if (!details.open) return;
+      panelRevision += 1;
+      stopPlay();
+    });
+  }
+  bindMapGuide(document.querySelector('.map-guide'));
+
   var panelMapReturn = document.getElementById("panel-map-return");
   if (panelMapReturn) panelMapReturn.addEventListener("click", function (event) {
     if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button > 0) return;
@@ -1868,7 +1903,9 @@
   }
 
   function goPlace(id) {
+    panelRevision += 1;
     var requestedRevision = panelRevision;
+    stopPlay();
     scrollToMap();
     setTimeout(function () {
       if (panelRevision !== requestedRevision) return;

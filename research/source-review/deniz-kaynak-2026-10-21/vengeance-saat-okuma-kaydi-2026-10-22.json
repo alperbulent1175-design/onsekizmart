@@ -1,0 +1,68 @@
+{
+  "review_date": "2026-10-22",
+  "artifacts": [
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-034_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 213330,
+      "sha256": "1649e62adff0ca7eb987b983f62e2dda02f7a99b60bd5913f343b356ec12c93e",
+      "local_path": "ham/vengeance-67111-034_1.jpg",
+      "visually_reviewed": true,
+      "review": "vengeance-saat-degisimi-2026-10-22.md"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-040_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 231918,
+      "sha256": "2ad70727fde9db4d4d821a299c06983cc2cd039b5eedbf4ff820e28731d1f7d0",
+      "local_path": "ham/vengeance-67111-040_1.jpg",
+      "visually_reviewed": true,
+      "review": "vengeance-saat-degisimi-2026-10-22.md"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-041_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 210427,
+      "sha256": "1c2f4a945e07b2d54f78a22799e985b38c0632a0f80608493974d948caeeaffb",
+      "local_path": "ham/vengeance-67111-041_0.jpg",
+      "visually_reviewed": true,
+      "review": "vengeance-saat-degisimi-2026-10-22.md"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-047_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 216999,
+      "sha256": "c44acc21d7a9d5b93fd9d510a1c9d11557a947e056386f6a303b6846eeef8c22",
+      "local_path": "ham/vengeance-67111-047_0.jpg",
+      "visually_reviewed": true,
+      "review": "vengeance-saat-degisimi-2026-10-22.md"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-047_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 229355,
+      "sha256": "9d4efe90d38ac6a4dbe66a0b96d9a446103173905b22a453d126afdf01278fc8",
+      "local_path": "ham/vengeance-67111-047_1.jpg",
+      "visually_reviewed": true,
+      "review": "vengeance-saat-degisimi-2026-10-22.md"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-040_0.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 231572,
+      "sha256": "2f25d3b9df745565998be3ea7c82f0ddde25083471b5c8a56c457412c9670efa",
+      "local_path": "ham/vengeance-67111-040_0.jpg",
+      "visually_reviewed": true,
+      "review": "vengeance-saat-degisimi-2026-10-22.md"
+    },
+    {
+      "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-041_1.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 215069,
+      "sha256": "5afc614f228dfd17535e5b0167fdf999769a220e61fac7727ce2b271fd0bd38c",
+      "local_path": "ham/vengeance-67111-041_1.jpg",
+      "visually_reviewed": true,
+      "review": "vengeance-saat-degisimi-2026-10-22.md"
+    }
+  ]
+}

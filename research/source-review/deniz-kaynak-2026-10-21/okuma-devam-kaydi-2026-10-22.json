@@ -1,0 +1,228 @@
+{
+  "kind": "research_reading_manifest_not_source_catalog",
+  "version": 1,
+  "checked_at": "2026-10-22",
+  "artifacts": [
+    {
+      "file": "ham/inflexible-log-001_0.jpg",
+      "source_url": "https://oldweather.s3.amazonaws.com/ADM53-44839/ADM53-44839-001_0.jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 159831,
+      "sha256": "89e3c7379ec2736870c4d28de4034eb071031f02315093d5eff91b9b820475c7",
+      "read_location": "dis kapak sol",
+      "status": "goruntu_incelendi",
+      "source_family": "ADM53-44839",
+      "review": "inflexible-jurnal-devam-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/inflexible-log-001_1.jpg",
+      "source_url": "https://oldweather.s3.amazonaws.com/ADM53-44839/ADM53-44839-001_1.jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 140398,
+      "sha256": "c49a39b22be905a03ffb9968be6b93c3b5ad1f81037e7ad7ac587f514d290e61",
+      "read_location": "dis kapak sag",
+      "status": "goruntu_incelendi",
+      "source_family": "ADM53-44839",
+      "review": "inflexible-jurnal-devam-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/inflexible-log-002_0.jpg",
+      "source_url": "https://oldweather.s3.amazonaws.com/ADM53-44839/ADM53-44839-002_0.jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 194661,
+      "sha256": "c55045203d11d766ef8a60e8d15b7ae37e1dcda98cc6291c31f4a4b54bb6de47",
+      "read_location": "bos ic kapak",
+      "status": "goruntu_incelendi",
+      "source_family": "ADM53-44839",
+      "review": "inflexible-jurnal-devam-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/inflexible-log-002_1.jpg",
+      "source_url": "https://oldweather.s3.amazonaws.com/ADM53-44839/ADM53-44839-002_1.jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 188758,
+      "sha256": "dc26dd8735f725e7e8bde49b223e7ad4fa6272adba5c2287c7930c842a01b246",
+      "read_location": "arsiv kimligi yazili ic kapak",
+      "status": "goruntu_incelendi",
+      "source_family": "ADM53-44839",
+      "review": "inflexible-jurnal-devam-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/inflexible-log-003_0.jpg",
+      "source_url": "https://oldweather.s3.amazonaws.com/ADM53-44839/ADM53-44839-003_0.jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 96909,
+      "sha256": "76de29d4cc601ba17309a988fe2792f6b72780a8eaa11053782942b421d87d9e",
+      "read_location": "bos yaprak",
+      "status": "goruntu_incelendi",
+      "source_family": "ADM53-44839",
+      "review": "inflexible-jurnal-devam-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/inflexible-log-003_1.jpg",
+      "source_url": "https://oldweather.s3.amazonaws.com/ADM53-44839/ADM53-44839-003_1.jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 106143,
+      "sha256": "bf8b1a0e851dc66e1ac7fc8082e1b015c93d0c2df7fb171ddff72f1899f8b9f9",
+      "read_location": "bos yaprak",
+      "status": "goruntu_incelendi",
+      "source_family": "ADM53-44839",
+      "review": "inflexible-jurnal-devam-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/inflexible-log-004_0.jpg",
+      "source_url": "https://oldweather.s3.amazonaws.com/ADM53-44839/ADM53-44839-004_0.jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 78781,
+      "sha256": "3f05288b2731b38587dcd4d5d97058ea801b9f81b18d84b243b3e8fcf651fb69",
+      "read_location": "bos yaprak",
+      "status": "goruntu_incelendi",
+      "source_family": "ADM53-44839",
+      "review": "inflexible-jurnal-devam-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/inflexible-log-004_1.jpg",
+      "source_url": "https://oldweather.s3.amazonaws.com/ADM53-44839/ADM53-44839-004_1.jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 162091,
+      "sha256": "dbb7320dcacfb0fc406f036de6b83f0f5df7c809fc330e0db4ae62a3508b0ed7",
+      "read_location": "ic baslik / tarih ve kaptan",
+      "status": "goruntu_incelendi",
+      "source_family": "ADM53-44839",
+      "review": "inflexible-jurnal-devam-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/inflexible-log-091_1.jpg",
+      "source_url": "https://oldweather.s3.amazonaws.com/ADM53-44839/ADM53-44839-091_1.jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 181923,
+      "sha256": "255d65a755caafb98a2e4bc2256c90aaddceb144a8b6efb1500d6014d84f4919",
+      "read_location": "19 Mart 1915 gunluk",
+      "status": "goruntu_incelendi",
+      "source_family": "ADM53-44839",
+      "review": "inflexible-jurnal-devam-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/inflexible-log-092_0.jpg",
+      "source_url": "https://oldweather.s3.amazonaws.com/ADM53-44839/ADM53-44839-092_0.jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 173522,
+      "sha256": "ee71e0f1d4b3679f0cf6bca879b3e52510386c3545a32c67feebedf9b5c8cb33",
+      "read_location": "20 Mart 1915 gunluk",
+      "status": "goruntu_incelendi",
+      "source_family": "ADM53-44839",
+      "review": "inflexible-jurnal-devam-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/inflexible-log-092_1.jpg",
+      "source_url": "https://oldweather.s3.amazonaws.com/ADM53-44839/ADM53-44839-092_1.jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 166933,
+      "sha256": "ee885291afe9d17f3966e314d79a15df223f31836358ed10222fc22dd1a1431f",
+      "read_location": "21 Mart 1915 gunluk / END",
+      "status": "goruntu_incelendi",
+      "source_family": "ADM53-44839",
+      "review": "inflexible-jurnal-devam-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/inflexible-log-093_0.jpg",
+      "source_url": "https://oldweather.s3.amazonaws.com/ADM53-44839/ADM53-44839-093_0.jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 173961,
+      "sha256": "7668f591516424d9d30f382262e4bcec94ffb28102ab7cf8e56bdcfd3da10e9a",
+      "read_location": "bos arka kapak",
+      "status": "goruntu_incelendi",
+      "source_family": "ADM53-44839",
+      "review": "inflexible-jurnal-devam-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/inflexible-log-093_1.jpg",
+      "source_url": "https://oldweather.s3.amazonaws.com/ADM53-44839/ADM53-44839-093_1.jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 183165,
+      "sha256": "21004d143b31fb88d10a200181fb0fcf83ab1a335dad5c6996bdab920a8d9bfc",
+      "read_location": "bos arka kapak",
+      "status": "goruntu_incelendi",
+      "source_family": "ADM53-44839",
+      "review": "inflexible-jurnal-devam-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/gazette-29264-complete.pdf",
+      "source_url": "https://www.thegazette.co.uk/London/issue/29264/data.pdf",
+      "checked_at": "2026-10-22",
+      "bytes": 1288644,
+      "sha256": "dcbb1c58ffac84c265f4644c32ad8967862ce334e041845b094441c0b241e7b9",
+      "read_location": "PDF 1-12 / basili 8125-8136",
+      "status": "resmi_yayin_goruntusu_okundu",
+      "source_family": "Gazette-29264",
+      "relation": "tam resmiyayin",
+      "review": "gazette-29264-inceleme-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/gazette-29264-8133.pdf",
+      "source_url": "https://www.thegazette.co.uk/London/issue/29264/supplement/8133/data.pdf",
+      "checked_at": "2026-10-22",
+      "bytes": 131573,
+      "sha256": "b5bef75a933d1824ce56822a1dfe88c2fd948a812b8f0538380239f9c5d0220d",
+      "read_location": "tek sayfa / basili 8133",
+      "status": "resmi_yayin_goruntusu_okundu",
+      "source_family": "Gazette-29264",
+      "relation": "tam dosyanin PDF9 sayfasiyla ayni yayin; bagimsiz tanik degil",
+      "review": "gazette-29264-inceleme-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/turquoise-jo-19191111-forum-excerpt.jpg",
+      "source_url": "https://forum.pages14-18.com/mesimages/3512/TURQUOISE%20-%20J.O.%2011-XI-1919..jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 22777,
+      "sha256": "ce475df471417b43fceaf0fd7de24b2b221466d43248427e7c17a59fcfd8599c",
+      "read_location": "forumda 11 Kasim 1919 JO s12649 olarak atfedilen kesit",
+      "status": "ikincil_barindirilan_kesit_goruldu_asli_bekliyor",
+      "source_family": "Journal-officiel-1919-atfedilen-kesitler",
+      "review": "turquoise-haber-zinciri-2026-10-22.md",
+      "auto_publish": false
+    },
+    {
+      "file": "ham/turquoise-jo-19190708-forum-excerpt.jpg",
+      "source_url": "https://forum.pages14-18.com/mesimages/3512/TURQUOISE%20-%20J.O.%208-VII-1919..jpg",
+      "checked_at": "2026-10-22",
+      "bytes": 40889,
+      "sha256": "eafe3ec73bc6fa0d23674c9da06a9404d9ca789d8a5c507660f42d7a53dcf43a",
+      "read_location": "forumda 8 Temmuz 1919 JO s7018 olarak atfedilen kesit",
+      "status": "ikincil_barindirilan_kesit_goruldu_asli_bekliyor",
+      "source_family": "Journal-officiel-1919-atfedilen-kesitler",
+      "review": "turquoise-haber-zinciri-2026-10-22.md",
+      "auto_publish": false
+    }
+  ],
+  "catalog_only": [
+    {
+      "reference": "JOD/312",
+      "url": "https://www.rmg.co.uk/collections/archive/rmgc-object-464105",
+      "status": "yalniz_katalog_okundu",
+      "images_read": false
+    },
+    {
+      "reference": "OLI/9",
+      "url": "https://www.rmg.co.uk/collections/archive/rmgc-object-478832",
+      "status": "yalniz_katalog_okundu",
+      "images_read": false
+    }
+  ],
+  "note": "Dosya sayisi bagimsiz tanik sayisi degildir. Mevcut kaynak katalog semasi degistirilmez; iddia_dogrulandi atanmaz."
+}

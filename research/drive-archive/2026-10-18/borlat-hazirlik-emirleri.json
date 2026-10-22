@@ -1,0 +1,80 @@
+[
+  {
+    "id": "BORLAT-I-292-293",
+    "source_url": "https://drive.google.com/file/d/16Dk4kS_4jjxrQ9bp1c9HZEk457GsIEHh/view",
+    "book_pages": [
+      292,
+      293
+    ],
+    "pdf_pages": [
+      292,
+      293
+    ],
+    "document_date_as_published": "18 Mayıs 1915",
+    "document_time_as_published": "06.00",
+    "sender_as_published": "19. Tümen Kumandanı Yarbay M. Kemal",
+    "recipient_as_published": "Tümen Emri",
+    "evidence_text": "öğleden önce 03.30’da baskın şeklinde taarruz edecektir",
+    "finding": "Yayın çevriyazısında planlanan hücum saati 03.30 olarak geçiyor. 19. Tümen emrinin ekleri, birlik ve geriyle irtibatı korumayı, telefonları ileri uzatmayı ve sargı mahallerini ilerlemeye göre yaklaştırmayı istiyor.",
+    "limits": "Emir metni uygulamanın tamamlandığını göstermez. Yayın sadeleştirmesi; özgün emir görüntüsü ve saat dönüşümü karşılaştırılmadı.",
+    "review_date": "2026-10-18",
+    "verification_status": "yayin_ceviriyazisi_goruntuden_okundu_ozgun_belge_acik"
+  },
+  {
+    "id": "BORLAT-I-309-310-125",
+    "source_url": "https://drive.google.com/file/d/16Dk4kS_4jjxrQ9bp1c9HZEk457GsIEHh/view",
+    "book_pages": [
+      309,
+      310
+    ],
+    "pdf_pages": [
+      309,
+      310
+    ],
+    "document_date_as_published": "18 Mayıs 1915",
+    "document_time_as_published": "19.25",
+    "arrival_time_as_published": "19.50",
+    "sender_as_published": "125. Alay Kumandanı Yarbay Abdürrezzak (imza devamı s. 310)",
+    "recipient_as_published": "Üç Tabur Kumandanlıklarına",
+    "evidence_text": "Saat: 19.25 / Ulaşma Saati: 19.50",
+    "finding": "Yayımlanmış kayıtta emir saati ve ulaşma saati ayrı başlıklarla verilmiş. Bu kayıt hazırlık sürecine ait; 19 Mayıs durdurma emrinin iletim saati değil.",
+    "limits": "Ulaşma bilgisinden bütün taburların uygulama anı çıkarılamaz. 309. sayfadaki metnin imzası 310. sayfada; bir sonraki emrin saatiyle karıştırılmadı.",
+    "review_date": "2026-10-18",
+    "verification_status": "yayin_ceviriyazisi_goruntuden_okundu_ozgun_belge_acik"
+  },
+  {
+    "id": "BORLAT-I-310-16DIV",
+    "source_url": "https://drive.google.com/file/d/16Dk4kS_4jjxrQ9bp1c9HZEk457GsIEHh/view",
+    "book_pages": [
+      310
+    ],
+    "pdf_pages": [
+      310
+    ],
+    "document_date_as_published": "18 Mayıs 1915",
+    "document_time_as_published": "19.25",
+    "sender_as_published": "16. Tümen Kumandanı Albay Rüştü",
+    "recipient_as_published": "125. Alay Kumandanlığına",
+    "evidence_text": "öğleden önce saat 03.50",
+    "finding": "Bu hazırlık emrinin yayın çevriyazısında planlanan hücum saati 03.50 yazıyor; s. 292’deki 03.30 yazımıyla aynılaştırılmadı.",
+    "limits": "Özgün belge görülmeden dizgi hatası, plan değişikliği veya birliklere göre farklı uygulama olduğu sonucuna varılmadı. Aynı metindeki asker sayısı gerçek/muharip mevcut cetveli sayılmadı.",
+    "review_date": "2026-10-18",
+    "verification_status": "yayin_ceviriyazisi_goruntuden_okundu_ozgun_belge_acik"
+  },
+  {
+    "id": "BORLAT-II-14",
+    "source_url": "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/zahNNEJiKbDMnmvn5A34sv3vnwhAbLSAPhGixy3F.pdf#page=14",
+    "book_pages": [
+      14
+    ],
+    "pdf_pages": [
+      14
+    ],
+    "document_date_as_published": "19 Mayıs 1915",
+    "evidence_text": "Saat:04.41 / Gelişi: 05.00",
+    "finding": "II. ciltte 19 Mayıs tarihli 57. Alay ve 5. Tümen saha haberleri bulunuyor. 5. Tümen bildiriminin saati ve gelişi ayrı; I. cildin hazırlık emirleriyle aynı aşama değil.",
+    "limits": "İlk ilerleme haberi nihai başarı olarak alınmadı. 57. Alay ateşine ilişkin haber raporun iddiasıdır; olayın bağımsız doğrulaması değildir.",
+    "review_date": "2026-10-18",
+    "verification_status": "yayin_ceviriyazisi_goruntuden_okundu_ozgun_belge_acik"
+  }
+]
