@@ -1,0 +1,38 @@
+{
+  "url": "https://cdn.nationalarchives.gov.uk/documents/education/letters-from-the-first-world-war-1915-1-dardanelles.pdf",
+  "access_date": "2026-10-22",
+  "bytes": 1536027,
+  "sha256": "233bdb4f3f0d5fe92725900a16d9072dc436a9fdc69c8aac26b2c1053538ace8",
+  "text_pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "visually_reviewed_pages": [
+    1,
+    5,
+    6,
+    10,
+    11,
+    19,
+    20
+  ],
+  "scope": "Published education selection; not full RAIL 253/516. Embedded letter images not fully transcribed independently."
+}

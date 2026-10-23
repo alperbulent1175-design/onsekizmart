@@ -1,0 +1,93 @@
+{
+  "review_date": "2026-10-22",
+  "artifacts": [
+    {
+      "url": "https://canakkalesavaslari.comu.edu.tr/canakkale-savasi-arsiv-belgeleri/canakkale-muharebeleri-arsiv-belgeleri-1-77-alay-2.html",
+      "access_date": "2026-10-22",
+      "bytes": 39715,
+      "sha256": "9595b1da44ac746c0582bd35de361834d0d18ae05f83b5c3fe3eecc2d940987e",
+      "local_path": "ham/belge-1.html",
+      "review_status": "yayimlanmis_ceviriyazi_okundu"
+    },
+    {
+      "url": "http://cdn.comu.edu.tr/cms/ckalesavaslari/foto/125-14749598301.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 603289,
+      "sha256": "1746a49bb74bffa0576d7106a5ed12cdf81f2dcadb6cb8ad7827e4ed732077e2",
+      "local_path": "ham/belge-1-gorsel-5.jpg",
+      "review_status": "goruntu_incelendi_tam_osmanlica_ceviriyazi_denetimi_yapilmadi"
+    },
+    {
+      "url": "https://canakkalesavaslari.comu.edu.tr/canakkale-savasi-arsiv-belgeleri/canakkale-muharebeleri-arsiv-belgeleri-2-77-alay-2.html",
+      "access_date": "2026-10-22",
+      "bytes": 39243,
+      "sha256": "843219066d05863c9aaf9429ab3ce380c0f1e8d07742775ad22908a8ff041db3",
+      "local_path": "ham/belge-2.html",
+      "review_status": "yayimlanmis_ceviriyazi_okundu"
+    },
+    {
+      "url": "http://cdn.comu.edu.tr/cms/ckalesavaslari/foto/127-14749600971.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 629230,
+      "sha256": "5e72af17270ff34e6ad5234d7a9e6af355a909e2d80eed9636e8b3b3e63fc09f",
+      "local_path": "ham/belge-2-gorsel-5.jpg",
+      "review_status": "goruntu_incelendi_tam_osmanlica_ceviriyazi_denetimi_yapilmadi"
+    },
+    {
+      "url": "https://canakkalesavaslari.comu.edu.tr/canakkale-savasi-arsiv-belgeleri/15-alay-1-mayis-1915-tarihli-harp-raporu-1.html",
+      "access_date": "2026-10-22",
+      "bytes": 37365,
+      "sha256": "9d6a5e492d6615ad7f0bc40e7694232982620b1fa1e76d86569c2a18a29397cf",
+      "local_path": "ham/belge-3.html",
+      "review_status": "yayimlanmis_ceviriyazi_okundu"
+    },
+    {
+      "url": "http://cdn.comu.edu.tr/cms/ckalesavaslari/foto/128-14749660431.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 427547,
+      "sha256": "2d87518df59cc12437a72c242889b43b12e140a270074f487f7c9124567ac710",
+      "local_path": "ham/belge-3-gorsel-5.jpg",
+      "review_status": "goruntu_incelendi_tam_osmanlica_ceviriyazi_denetimi_yapilmadi"
+    },
+    {
+      "url": "https://canakkalesavaslari.comu.edu.tr/canakkale-savasi-arsiv-belgeleri/15-alay-1-mayis-1915-tarihli-harp-raporu-2.html",
+      "access_date": "2026-10-22",
+      "bytes": 38672,
+      "sha256": "17b60d5d68d5b0c23fa6b1493d89a2ad0b8e306716c87dded9fb0386bb6ddefc",
+      "local_path": "ham/belge-4.html",
+      "review_status": "yayimlanmis_ceviriyazi_okundu"
+    },
+    {
+      "url": "http://cdn.comu.edu.tr/cms/ckalesavaslari/foto/129-14749664521.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 460800,
+      "sha256": "26d6467c9e7bf283a4c0cc0c3d8084d147c20495cd2feaa2d3e7a806165f3a6d",
+      "local_path": "ham/belge-4-gorsel-5.jpg",
+      "review_status": "goruntu_incelendi_tam_osmanlica_ceviriyazi_denetimi_yapilmadi"
+    },
+    {
+      "url": "https://canakkalesavaslari.comu.edu.tr/canakkale-savasi-arsiv-belgeleri/19-tumen-suvari-birliginin-25-nisan-7-mayis-1915-t.html",
+      "access_date": "2026-10-22",
+      "bytes": 37208,
+      "sha256": "56bc28e7c88a2c80b5413ee266eabee99e71bd1b0401c5653d371ec216ca69b4",
+      "local_path": "ham/belge-5.html",
+      "review_status": "yayimlanmis_ceviriyazi_okundu"
+    },
+    {
+      "url": "http://cdn.comu.edu.tr/cms/ckalesavaslari/foto/130-14749898681.jpg",
+      "access_date": "2026-10-22",
+      "bytes": 624090,
+      "sha256": "0ab3bde6a9de06a9fcc0adaf889013f6491dc5be3de9904a95891b1ea318703d",
+      "local_path": "ham/belge-5-gorsel-5.jpg",
+      "review_status": "goruntu_incelendi_tam_osmanlica_ceviriyazi_denetimi_yapilmadi"
+    },
+    {
+      "url": "https://canakkalesavaslari.comu.edu.tr/canakkale-savasi-arsiv-belgeleri/5tumen-istihkm-bolugunun-30-nisan-17-mayis-1915-ta.html",
+      "access_date": "2026-10-22",
+      "bytes": 59847,
+      "sha256": "8a05e6598a8a677ba3dab0435477550f0428b2a568593990294271670ed7b412",
+      "local_path": "ham/belge-6.html",
+      "review_status": "yayimlanmis_ceviriyazi_okundu"
+    }
+  ]
+}
