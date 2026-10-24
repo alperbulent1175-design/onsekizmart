@@ -1637,7 +1637,7 @@
       var selectedIndex = list.indexOf(campSelection);
       campIndex = selectedIndex >= 0 ? selectedIndex : 0;
       range.value = String(campIndex);
-      range.setAttribute("aria-label", "Sefer olayı");
+      range.setAttribute("aria-label", "Cephe kronolojisi kayıtları arasında ilerle");
       showCamp(campIndex, false);
     }
     updateEventMarkers();

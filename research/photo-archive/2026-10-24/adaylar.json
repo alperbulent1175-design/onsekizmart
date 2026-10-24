@@ -1,0 +1,62 @@
+{
+  "reviewed": "2026-10-24",
+  "scope": "Yerel araştırma adayları; yayımlanan manifest ve kaynak kataloğu değişmedi.",
+  "records": [
+    {
+      "id": "P10637.089.001",
+      "institution": "Australian War Memorial",
+      "sourceUrl": "https://www.awm.gov.au/collection/C1295499",
+      "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/P10637.089.001/screen/5989912.JPG",
+      "accessed": "2026-10-24",
+      "sourceDate": "c August 1915",
+      "maker": null,
+      "captionTr": "Gelibolu’da bir RAMC sargı mahallinde kimliği belirtilmeyen askerler; yaklaşık Ağustos 1915.",
+      "evidenceText": "Royal Army Medical Corps dressing station; c August 1915; Maker Unknown",
+      "rightsEvidence": "Copyright expired - public domain",
+      "rightsStatus": "kurum_kaydinda_kamu_mali",
+      "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+      "localFile": "ham/p10637-089-001.jpg",
+      "metadataFile": "ham/p10637-089-001.html",
+      "sha256": "54c069e4a04398e426fd2baacbfa4fb3808f675c069d2c82c9089fc557e95107",
+      "bytes": 363665,
+      "width": 640,
+      "height": 639,
+      "limits": [
+        "Kesin gün ve koordinat bilinmiyor.",
+        "Lone Pine bağlantısı kurumun olasılık yorumudur; kesin olay teşhisi değildir.",
+        "Kathleen Blanche Gawler albüm bağlantısı fotoğrafçı kimliği değildir.",
+        "Yaralıların kişisel kimliği ve teşhisi görüntüden çıkarılmadı."
+      ],
+      "sensitiveContent": "Yerde uzanan kişiler görülüyor; yaralanma ayrıntısı veya kimlik kesinleştirilmedi.",
+      "publicationStatus": "yerel_arsiv_adayi_yayimlanmadi"
+    },
+    {
+      "id": "C00776",
+      "institution": "Australian War Memorial",
+      "sourceUrl": "https://www.awm.gov.au/collection/C00776",
+      "downloadUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/C00776/screen/4102403.JPG",
+      "accessed": "2026-10-24",
+      "sourceDate": "1915",
+      "maker": null,
+      "captionTr": "Gelibolu’da omuz sırığına asılı iki tenekeyle su taşıyan bir asker, 1915.",
+      "evidenceText": "carrying water in two kerosene tins; Date made 1915; Maker Unknown",
+      "rightsEvidence": "Copyright expired - public domain",
+      "rightsStatus": "kurum_kaydinda_kamu_mali",
+      "verificationStatus": "kurum_kunyesi_ve_gorsel_incelendi",
+      "localFile": "../../source-review/ikmal-saglik-2026-10-23/ham/c00776.jpg",
+      "metadataFile": "../../source-review/ikmal-saglik-2026-10-23/ham/c00776.jpg.json",
+      "sha256": "4d242278f871211c56765068a7c4d8ae394c5a9ad0aef9aa14ed19ffe88e8571",
+      "bytes": 138737,
+      "width": 430,
+      "height": 654,
+      "limits": [
+        "İlk indirme ve görüntü incelemesi 2026-10-23; kurum kaydı 2026-10-24 yeniden denetlendi.",
+        "Kesin gün, kişi kimliği ve koordinat bilinmiyor.",
+        "Su içeriği katalog tanımıdır; yalnız görüntüden belirlenemez.",
+        "Genel kuyu sayısı ve ikmal yeterliliği bu fotoğraftan doğrulanamaz."
+      ],
+      "sensitiveContent": false,
+      "publicationStatus": "yerel_arsiv_adayi_yayimlanmadi"
+    }
+  ]
+}
