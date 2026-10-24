@@ -17,13 +17,16 @@ function entries() {
   const list = Array.from(ctx.window.OM.campaign.events).filter(e => ctx.eventPageHref(e));
   return list.map(e => ({ title: e.title, date: e.date, href: ctx.eventPageHref(e) }));
 }
-function render(list, index) {
+function render(list, index, hasSourceSection = false) {
   function link(item, label, relation) {
     return item ? '<a rel="' + relation + '" href="' + escape(item.href) + '"><span>' + label + '</span><strong>' + escape(item.title) + '</strong>' +
       (item.date ? '<small>' + escape(item.date) + '</small>' : '') + '</a>' : '';
   }
   return START + '\n<nav class="event-navigation" aria-label="Olay kayıtları arasında gezinme">\n' +
     '<p class="event-reading-return"><a href="#icerik">Sayfanın başına dön</a></p>\n' +
+    '<p class="event-source-reading">' +
+    (hasSourceSection ? '<a href="#kaynak-notu">Bu sayfanın kaynaklarını incele</a> · ' : '') +
+    '<a href="/kaynak-politikasi/#kaynak-durumlari">Kaynak uyarılarını anlama rehberi</a></p>\n' +
     '<p class="event-record-position">Atlas kaydı ' + (index + 1) + ' / ' + list.length + '</p>\n' +
     '<p>Atlasın kayıt sırasına göre ilerleyin. Aynı gündeki kayıtlar kesin saat sırasını göstermez.</p>\n<div>' +
     link(list[index - 1], 'Önceki kayıt', 'prev') + link(list[index + 1], 'Sonraki kayıt', 'next') +
@@ -37,7 +40,7 @@ function build() {
     const file = path.join(root, e.href, 'index.html');
     const original = fs.readFileSync(file, 'utf8');
     if (!original.includes('</main>')) throw new Error('Ana içerik yok: ' + file);
-    const block = render(list, i);
+    const block = render(list, i, /id=["']kaynak-notu["']/.test(original));
     const start = original.indexOf(START), end = original.indexOf(END);
     if ((start < 0) !== (end < 0) || (start >= 0 && end < start)) throw new Error('Eksik gezinme işareti');
     let updated = start < 0 ? original.replace('</main>', block + '\n</main>')

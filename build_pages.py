@@ -112,7 +112,44 @@ PAGES = {
 <p>Kurum adları <a href="/kaynakca/">Kaynakça</a> sayfasındadır: Genelkurmay ATASE özetleri, Australian War Memorial ve Imperial War Museum. Bunlar ikincil çerçevenin kamuya açık yüzüdür. Tek bir sayfa numarası uydurulmaz.</p>
 <p>Birincil belge (harp ceridesi, emir, harita) sitede yoksa, metin o belgeyi görmüş gibi yazılmaz. Kaynaklar çelişirse tek anlatı seçilip kesinleştirilmez.</p>
 <p>Saati bilinmeyen olaya saat verilmez. Konumu yaklaşık olan işaret, yayımlanmış bir enkaz noktası gibi sunulmaz. Modern uydu görüntüsü 1915 mevzisi değildir.</p>
-<p>Taslak metin, kaynakta doğrulanmadan yayımlanmış sayılmaz.</p>
+<h2 id="kaynak-durumlari">Kaynak uyarıları ne anlama gelir?</h2>
+<p>Bir metnin sitede görünmesi, bütün ayrıntılarının doğrulandığı anlamına gelmez. Kaynak incelemesi süren kayıtlarda, hangi bilginin desteklendiğine ve hangi soruların açık kaldığına bakın.</p>
+<ul>
+<li><strong>Katalog kaydı:</strong> Eserin veya belgenin künyesi bulunmuştur. İçeriği okunmuş sayılmaz.</li>
+<li><strong>Akademik aktarım:</strong> Bir araştırmacının belgeye dayanan anlatısı incelenmiştir. Özgün belge ayrıca görülmediyse bu sınır belirtilir.</li>
+<li><strong>Belge görüntüsü veya kanıt pasajı:</strong> İncelenen sayfa ve kısa kanıt gösterilir. Kanıt yalnız ilişkilendirildiği bilgiyi destekler; olay kartının tamamını doğrulamaz.</li>
+<li><strong>Açık kalan bilgi:</strong> Kaynaklar uyuşmuyor veya yeterli kanıt yoktur. Eksik saat, sayı ya da koordinat tahminle tamamlanmaz.</li>
+</ul>
+<h2 id="kaniti-okuma">Bir olayın dayanağını nasıl okuyabilirsiniz?</h2>
+<p>Olay kartındaki “Kanıt metinleri ve açık kalanlar” bağlantısını izleyin. İlgili kaynakta belge veya yayın tarihini, incelenen sayfayı, kanıt pasajını ve incelemenin sınırını birlikte değerlendirin. Kaynakçaya bir kitap eklemek, o kitaptaki her iddianın kontrol edildiği anlamına gelmez.</p>
+<p>Bir malzemenin istenmesi teslim edildiğini; geminin hareket etmesi varışını; hastane kapasitesi tedavi edilen kişi sayısını göstermez. Aynı belgeyi aktaran iki yayın da bağımsız iki tanık sayılmaz.</p>
+<p>Olayın anlatısı, haritadaki konum dayanağı ve fotoğrafın kullanım hakkı ayrı ayrı incelenir. Metni destekleyen bir belge, haritadaki sayısal noktayı veya görselin serbest kullanımını kendiliğinden doğrulamaz.</p>
+</div>""",
+    ),
+    "saglik-ve-tahliye/index.html": (
+        "Sağlık ve yaralı sevki",
+        "Akbaş ve Gülnihal örneğinde görevlendirme, yaralı sevki ve sağlık kayıtlarını kaynaklarıyla okuyun.",
+        "https://onsekizmart.com/saglik-ve-tahliye/",
+        """<p class="kicker">Cephe gerisi</p>
+<h1>Sağlık ve yaralı sevki</h1>
+<div class="prose">
+<p>Muharebenin sağlık boyutunu anlamak için bir geminin görevlendirilmesiyle yaralıların hareketini ve hastaneye kabulünü ayrı ayrı izlemek gerekir. Akbaş ve Gülnihal hakkındaki kayıtlar bu ayrımı görünür kılar.</p>
+<nav aria-label="Sağlık anlatısının bölümleri"><ul><li><a href="#gorevlendirme">Gemilere görev verilmesi</a></li><li><a href="#hareket-bildirimi">Akbaş'tan hareket bildirimi</a></li><li><a href="#sayilarin-siniri">Sayıların sınırı</a></li><li><a href="#kaynak-notu">Kaynaklar ve açık sorular</a></li></ul></nav>
+<h2 id="gorevlendirme" tabindex="-1">Gemilere görev verilmesi</h2>
+<p>Esenkaya'nın araştırması, 5 Mayıs 1915 tarihli bir yazıda Gülnihal ve başka vapurlar için yaralı taşıma görevlerinin bildirildiğini aktarır. Bu, hizmetin nasıl düzenlenmesinin istendiğini gösterir; aynı gün tamamlanmış bir seferin kaydı değildir.</p>
+<p><a href="#esenkaya-kaynagi">Dayanak: Esenkaya, s.41, dipnot90</a>. Yazarın verdiği arşiv kodu: ATASE BDH4, Kl.4542, Dos.6, Fih.1.</p>
+<h2 id="hareket-bildirimi" tabindex="-1">Akbaş'tan hareket bildirimi</h2>
+<p>Aynı araştırmada, 21–22 Kasım 1915 gecesi Menzil Başhekimliğinden Sirkeci Sevk-i Mecruhin Komisyonuna gönderilen bir telgraf aktarılır. Telgraf, yaralıların Akbaş'tan Gülnihal ile İstanbul'a hareket ettiğini bildirir. Böyle bir hareket bildirimi, görevlendirmeden farklıdır; İstanbul'a varış ve hastaneye kabul için ayrıca kayıt gerekir.</p>
+<p><a href="#esenkaya-kaynagi">Dayanak: Esenkaya, s.42–43, dipnot101</a>. Yazarın verdiği arşiv kodu: ATASE BDH1, Kl.1343, Dos.45, Fih.23. Bu telgrafın özgün görüntüsü burada bağımsız olarak doğrulanmadı.</p>
+<h2 id="sayilarin-siniri" tabindex="-1">Sayılar neyi gösterir?</h2>
+<p>İstenen sedye sayısı mevcut yatak kapasitesi değildir. Bir sevkte bildirilen hasta ve yaralılar, bütün muharebe boyunca hizmet verilen benzersiz kişi sayısına dönüştürülemez. Ağır yaralılar bir sevk toplamının içinde veriliyorsa ayrıca eklenmez.</p>
+<p>Bu sayfada toplam sevk sayısı verilmedi. İncelenen yayının aylık kalemleri ile genel toplamı uyuşmadığından, temel cetveller karşılaştırılmadan tek bir sayı kesinleştirilmiyor. <a href="/kaynak-politikasi/#kaniti-okuma">Kanıtları değerlendirme rehberi</a>.</p>
+<h2 id="kaynak-notu" tabindex="-1">Kaynaklar ve açık sorular</h2>
+<h3 id="esenkaya-kaynagi" tabindex="-1">İncelenen akademik aktarım</h3>
+<p>Ahmet Esenkaya, “Çanakkale Muharebelerinde Cephede ve Cephe Dışında Sağlık Hizmetleri”, Çanakkale Araştırmaları Türk Yıllığı, 10–11 (2011), s.25–70. <a href="https://dergipark.org.tr/tr/pub/canakkalearastirmalari/article/52812">Yayıncı kaydı</a> · <a href="https://dergipark.org.tr/tr/download/article-file/45097">Tam metin PDF</a>.</p>
+<p><strong>İnceleme ve erişim: 24 Ekim 2026.</strong> Basılı s.41–43 (PDF s.17–19) görüntüden incelendi. Kısa kanıtlar: görevlendirme için “kullanılacağını”; sevk için “İstanbul'a hareket ettiği bildirilmiştir”. Bunlar yayımlanmış aktarımlardır; özgün telgraflar görülmüş sayılmaz. Makalenin tamamı okunmadı.</p>
+<p><strong>Açık sorular:</strong> Gülnihal'ın ilk hastane seferi, bu sevkin varış ve kabul kayıtları, toplamların özgün cetvellerle karşılaştırılması. Bu sayfa kesin güzergâh çizgisi veya koordinat sunmaz.</p>
+<p><a href="/#kronoloji">Kronolojiye dön</a> · <a href="/kaynak-politikasi/#kaynak-durumlari">Kaynak durumlarını okuyun</a></p>
 </div>""",
     ),
     "telif/index.html": (
