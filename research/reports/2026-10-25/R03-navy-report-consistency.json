@@ -1,0 +1,38 @@
+[
+  {
+    "ship": "lord-nelson",
+    "previousText": "HMS Lord Nelson, Britanya yarı-dretnotudur ve A Hattı’ndadır. 11.05’te Agamemnon ve Inflexible ile birlikte ateşe katılır. Merkez tabyalara yaklaşık 13–14 km’de konuşlanan hattın gemilerindendir. 18 Mart’ta hatta kalır ve batmaz.",
+    "revisedText": "Rapora göre Lord Nelson, Queen Elizabeth’in 11.25’te ateşe başlamasının ardından Agamemnon’dan sonra, Inflexible’dan önce ateşe katıldı. Raporda A Hattı’nın tamamının 11.36’ya kadar ateş açtığı belirtilir; Lord Nelson için ayrı bir kesin dakika verilmez.",
+    "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+    "eventDate": "1915-03-18",
+    "documentDate": "1915-03-24",
+    "accessDate": "2026-10-25",
+    "status": "rapor_cevrimyazisi_ilgili_pasaj_okundu",
+    "evidenceText": "Gemiler Queen Elizabeth sonrasinda Agamemnon, Lord Nelson, Inflexible sirasiyla atese katilir; A hatti 11.36 itibariyla atestedir.",
+    "limit": "Kisa Turkce kanit ozeti dogrudan alinti degildir. Bu belge gemi zirhini, toplam silah sayisini veya Osmanli tarafinin emir saatini dogrulamaz."
+  },
+  {
+    "ship": "agamemnon",
+    "previousText": "HMS Agamemnon, Britanya yarı-dretnotudur ve A Hattı’ndadır. Rumeli Mecidiye, 11.05’te ilk hedeflerinden biridir. 11.35’te şarapnel ve HE mermileri güvertelere isabet eder; telsiz antenleri ve gözetleme kuleleri hasar görür. 18 Mart’ta batmaz.",
+    "revisedText": "Rapora göre Agamemnon, Queen Elizabeth’in 11.25’teki ateşe başlama kaydını izleyen gemiler arasındadır. Eski karttaki 11.05 ilk atış ve 11.35 hasar ayrıntıları bu pasajla doğrulanmadı; hedef numaraları tabya adlarına ayrıca eşleştirilmelidir.",
+    "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+    "eventDate": "1915-03-18",
+    "documentDate": "1915-03-24",
+    "accessDate": "2026-10-25",
+    "status": "rapor_cevrimyazisi_ilgili_pasaj_okundu",
+    "evidenceText": "11.25 girisi Queen Elizabeth ve izleyen gemilerin sirasini ayirir.",
+    "limit": "Kisa Turkce kanit ozeti dogrudan alinti degildir. Bu belge gemi zirhini, toplam silah sayisini veya Osmanli tarafinin emir saatini dogrulamaz."
+  },
+  {
+    "ship": "suffren",
+    "previousText": "Suffren, Fransız ön-dretnotudur ve Amiral Guépratte’ın B Hattı’ndadır. A Hattı’nın boşluklarından geçerek yaklaşık 9.000 m’ye sokulur. 12.15’te Gaulois ile Rumeli Mecidiye ve Namazgâh’ı hedef alır. Gün notu 14 direkt isabet ve yangındır. 18 Mart’ta batmaz.",
+    "revisedText": "Raporda Fransız hattına 12.06’da ilerleme emri verildiği, Suffren’in 12.32’ye kadar tabyalarla ateş alışverişine girdiği anlatılır. Emir ile fiilî çatışma aynı an değildir. Eski karttaki 12.15 hedef kaydı, mesafe ve kesin isabet sayısı bu pasajdan çıkarılmaz.",
+    "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+    "eventDate": "1915-03-18",
+    "documentDate": "1915-03-24",
+    "accessDate": "2026-10-25",
+    "status": "rapor_cevrimyazisi_ilgili_pasaj_okundu",
+    "evidenceText": "0.6 emir ile 0.32 catismaya giris kayitlari ayridir.",
+    "limit": "Kisa Turkce kanit ozeti dogrudan alinti degildir. Bu belge gemi zirhini, toplam silah sayisini veya Osmanli tarafinin emir saatini dogrulamaz."
+  }
+]

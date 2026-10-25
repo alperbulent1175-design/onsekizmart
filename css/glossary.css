@@ -1,0 +1,34 @@
+.glossary-tools { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; max-width: 65ch; margin: 28px 0 20px; padding: 20px; background: var(--ink); border: 1px solid var(--line); }
+.glossary-tools[hidden], .glossary-group[hidden], .glossary-entry[hidden] { display: none; }
+.glossary-tools label { font-weight: 600; }
+.glossary-tools input, .glossary-tools select, .glossary-tools button { min-width: 0; width: 100%; min-height: 44px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 0; background: var(--bg, #0e1821); color: var(--cream); font: inherit; }
+.glossary-tools button { cursor: pointer; width: fit-content; max-width: 100%; }
+.glossary-tools button:disabled { opacity: .55; cursor: default; }
+.glossary-tools p { margin: 4px 0; }
+.glossary-tools #glossary-help { font-size: .95rem; color: #d8d0c2; }
+.glossary-topics { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0; max-width: 75ch; }
+.glossary-topics a { padding: 10px 12px; border: 1px solid var(--line); text-decoration: none; }
+.glossary-topics a:hover { text-decoration: underline; }
+.glossary-directory { max-width: 65ch; margin: 24px 0; border: 1px solid var(--line); padding: 14px; }
+.glossary-directory summary { cursor: pointer; min-height: 30px; font-weight: 600; }
+.glossary-directory nav { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 8px; margin-top: 14px; }
+.glossary-directory a { display: block; padding: 10px 4px; }
+.glossary-distinctions { max-width: 65ch; border-left: 3px solid var(--gold); padding: 4px 0 4px 20px; margin: 32px 0; }
+.glossary-distinctions ul { padding-left: 20px; }
+.glossary-distinctions li { margin: 12px 0; }
+.glossary-group { margin: 40px 0; max-width: 65ch; }
+.glossary-entry { padding: 0 0 18px; border-bottom: 1px solid var(--line); }
+.glossary-entry:target { background: rgba(197, 161, 107, .08); }
+.glossary-entry, .glossary-group h2 { scroll-margin-top: 100px; }
+.glossary-entry dd p { margin: 6px 0; }
+.glossary-entry .term-context { font-size: .95rem; margin-top: 10px; }
+.term-permalink { display: inline-block; padding: 6px 12px; font-family: var(--mono); font-size: 1rem; }
+.glossary-entry:focus { outline: 2px solid var(--gold); outline-offset: 5px; }
+@media (min-width: 650px) {
+  .glossary-tools { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .glossary-tools label, .glossary-tools input, .glossary-tools select, .glossary-tools p { grid-column: 1 / -1; }
+}
+@media (max-width: 400px) {
+  .glossary-tools { padding: 14px; }
+  .glossary-topics a { width: 100%; }
+}

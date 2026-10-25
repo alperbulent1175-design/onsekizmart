@@ -1,0 +1,29 @@
+{
+  "url": "https://inventaire-patrimoine.normandie.fr/dossier/IM50000725",
+  "record": "IM50000725",
+  "institution": "Region Normandie - Inventaire general",
+  "title": "bateau de combat dit le Henri IV",
+  "recordWritingYear": 2010,
+  "accessDate": "2026-10-25",
+  "eventDate": null,
+  "status": "kurumsal_envanter_ilgili_pasaj_okundu",
+  "evidenceText": "Le Henri IV est un cuirassé",
+  "additionalPassage": "Statut bolumu gemiyi gardes-cotes cuirasses grubunda tanimlar. Turkce ozet.",
+  "scope": "Yalniz gemi sinifinin korumali kruvazor grubuna konulmamasi.",
+  "limits": [
+    "18 Mart 1915 gorevi veya konumu dogrulanmadi.",
+    "Tarihce 1916 hizmeti ve 1912 sokume satisini birlikte yaziyor; bu tarihler aktarilmadi ve hangisinin dogru oldugu bu kayittan cozulmedi.",
+    "Makine gucu, agirlik ve silah sayilari bu tur teknik dogrulama yapilmadan alinmadi.",
+    "Envanterdeki resmin yeniden kullanim hakki dogrulanmadi; gorsel eklenmedi."
+  ],
+  "accessAttempts": [
+    {
+      "url": "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/notices_files/MV_SS_Yc_BATIMENTS-DE-GUERRE-COMPLEMENTS.pdf",
+      "status": "web_fetch_timeout_sadece_arama_ipucu"
+    },
+    {
+      "url": "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/2026-04/Etat_des_fonds_SHD_Toulon_2007.pdf",
+      "status": "web_fetch_timeout_sadece_arama_ipucu"
+    }
+  ]
+}

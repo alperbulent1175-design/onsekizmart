@@ -1,0 +1,25 @@
+{
+  "reviewDate": "2026-10-25",
+  "ship": "HMS Inflexible (1907)",
+  "existingValue": "178 mm",
+  "status": "teknik_bolum_ve_tarih_dogrulanmadi",
+  "claimVerified": false,
+  "evidenceText": null,
+  "sourceUrl": null,
+  "candidateRecords": [
+    {
+      "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-58495",
+      "searchRecord": "NPB4538",
+      "status": "arama_ipucu_acilis_cache_miss",
+      "limits": "Arama aciklamasi ambar plani diyor; arama parcasi plan goruntusu sayilmaz. Baslik Inflexible, Vessels alani Invincible; bu uyusmazlik cozulmedi."
+    },
+    {
+      "url": "https://prints.rmg.co.uk/collections/ship-plans/products/main-deck-as-fitted-for-hms-inflexible-1907-m1284",
+      "searchRecord": "NPB4607 / M1284",
+      "status": "arama_ipucu_acilis_cache_miss",
+      "limits": "Plan satis kaydi; satin alma yapilmadi, ozgun plan okunmadi."
+    }
+  ],
+  "excluded": "1876 Inflexible 1907 gemisinin teknik kaniti olarak kullanilmadi.",
+  "nextSource": "1907 gemisine ait zirh yerlesim plani veya tarihli teknik cetvel; kemer/taret/guverte ayri."
+}

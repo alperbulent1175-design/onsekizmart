@@ -1,0 +1,18 @@
+{
+  "task": "R03",
+  "access_date": "2026-10-25",
+  "event_date": "1915-03-07/1915-03-08",
+  "publication_date": null,
+  "url": "https://canakkaletarihialan.gov.tr/tr/canakkale-savaslari/deniz-savaslari",
+  "evidence": "İlgili paragraf 7/8 Mart gecesi Nusret, Erenköy, kıyıya paralel 26 mayınlık 11. hat anlatır.",
+  "verification": "İlgili kurumsal özet pasajı doğrudan okundu; özgün mayın cetveli görülmedi.",
+  "limits": [
+    "AWM anlatısıyla kaynak zinciri bağımsızlığı gösterilmedi.",
+    "Aynı sayfadaki diğer saat ve kayıp iddiaları bu okumayla doğrulanmış sayılmadı.",
+    "Koordinat/geometri doğrulanmadı."
+  ],
+  "failed_access": {
+    "url": "https://www.msb.gov.tr/SlaytHaber/932021-42524",
+    "result": "Web açılışında yönlendirme döngüsü; arama parçası tam metin doğrulaması sayılmadı."
+  }
+}

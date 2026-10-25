@@ -1,0 +1,26 @@
+{
+  "reviewDate": "2026-10-25",
+  "url": "https://collection.nam.ac.uk/detail.php?acc=1965-10-209-9",
+  "institution": "National Army Museum",
+  "record": "NAM. 1965-10-209-9",
+  "title": "Church service on HMS 'Queen Elizabeth', 1915",
+  "eventDate": "1915",
+  "publicationDate": null,
+  "accessDate": "2026-10-25",
+  "evidenceText": "beneath the forward 15-inch guns",
+  "status": "kurumsal_fotograf_katalog_aciklamasi_okundu",
+  "supportedClaim": "Fotograf aciklamasi Queen Elizabeth icin 15 inc top kalibresini belirtir.",
+  "conversion": {
+    "formula": "15 * 25.4",
+    "resultMm": 381,
+    "type": "birim_donusumu_tarihsel_yeni_olcum_degil"
+  },
+  "limits": [
+    "Toplam top adedi ve zirh kalinligi bu pasajdan cikarilamaz.",
+    "Kesin cekim gunu, fotografci ve koordinat belirtilmiyor.",
+    "Fotografin kendisi bu tur goruntuden incelenmedi; katalog aciklamasi okundu.",
+    "18 Mart salvo veya atis saatine kanit degildir."
+  ],
+  "rightsStatement": "National Army Museum, Out of Copyright",
+  "photoPublication": "Gorsel dosyasi siteye eklenmedi; hak ve fotografci incelemesi aday kaydi olarak tutulur."
+}

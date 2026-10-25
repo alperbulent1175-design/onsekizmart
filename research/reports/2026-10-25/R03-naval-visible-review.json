@@ -1,0 +1,83 @@
+{
+  "scope": "6 gorunur 18 Mart olay metninin sayisal/komuta ayrintilarini daraltma; butun R03 tamamlanmadi. Kaynak URL ve kanit bos oldugunda iddia dogrulanmis sayilmaz.",
+  "reviewedTranscription": {
+    "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+    "accessDate": "2026-10-25",
+    "scope": "18 Mart 1915 ekinin 11.25-16.50 bolumu okundu; ilgili yedi kaynakli saat korunur; Osmanli emirlerinin ozgun goruntusu degildir.",
+    "status": "rapor_cevrimyazisi_ilgili_bolum_okundu"
+  },
+  "records": [
+    {
+      "title": "Gözetleme tepesine intikal",
+      "previousText": "Cevat Bey telemetre ve dürbünle Boğaz girişini bizzat takip eder. Ateş disiplini teyit edilir: 10.000 m’den önce ateş yok.",
+      "revisedText": "Cevat Bey’in gözetleme faaliyeti bu kayıtta ele alınır. Gözetleme yerine geçişin saati ve ateş açma mesafesine ilişkin emir belgeyle eşleştirilmedi.",
+      "reviewDate": "2026-10-25",
+      "eventDate": "1915-03-18",
+      "status": "kanitsiz_ayrinti_kesin_anlatimdan_cikarildi",
+      "claimVerified": false,
+      "evidenceText": null,
+      "sourceUrl": null,
+      "limit": "Bu inceleme eski ayrintiyi yanlis diye kanitlamaz; iddia bazinda belge eslestirmesi yoktur. Yeni sayi veya saat uretilmedi."
+    },
+    {
+      "title": "İlk atış emri",
+      "previousText": "Filo merkez tabyalara 13–14 km’de konuşlanır. De Robeck bayrak çekerek genel taarruzu başlatır.",
+      "revisedText": "Filonun merkez tabyalara yönelik taarruz başlangıcı ele alınır. Bu kartın kesin emir saati, atış mesafesi ve bayrak işareti ayrıntısı belgeyle eşleştirilmedi; Queen Elizabeth’in rapordaki ateşe başlama kaydı ayrı gösterilir.",
+      "reviewDate": "2026-10-25",
+      "eventDate": "1915-03-18",
+      "status": "kanitsiz_ayrinti_kesin_anlatimdan_cikarildi",
+      "claimVerified": false,
+      "evidenceText": null,
+      "sourceUrl": null,
+      "limit": "Bu inceleme eski ayrintiyi yanlis diye kanitlamaz; iddia bazinda belge eslestirmesi yoktur. Yeni sayi veya saat uretilmedi."
+    },
+    {
+      "title": "Ağır tabyalara ateş",
+      "previousText": "Fransızlar 9.000 m’ye sokulunca Cevat Bey Hamidiye, Mecidiye ve Namazgâh’a tam güçle ateş emri verir.",
+      "revisedText": "Merkez tabyaların ateşe katılması ele alınır. Cevat Bey’e atfedilen emrin metni, iletim saati ve Fransız gemilerinin o andaki mesafesi için belge karşılaştırması tamamlanmadı.",
+      "reviewDate": "2026-10-25",
+      "eventDate": "1915-03-18",
+      "status": "kanitsiz_ayrinti_kesin_anlatimdan_cikarildi",
+      "claimVerified": false,
+      "evidenceText": null,
+      "sourceUrl": null,
+      "limit": "Bu inceleme eski ayrintiyi yanlis diye kanitlamaz; iddia bazinda belge eslestirmesi yoktur. Yeni sayi veya saat uretilmedi."
+    },
+    {
+      "title": "Göğüs göğüse düello",
+      "previousText": "Hamidiye, Mecidiye, Dardanos ve Namazgâh tüm namlularla ateşler. Suffren 14 isabet alır; Gaulois su almaya başlar.",
+      "revisedText": "Gemi ve kıyı bataryaları arasındaki karşılıklı ateş ele alınır. Suffren’in kesin isabet sayısı ve tabyaların tek tek ateş durumu bu kayıt için belgeyle eşleştirilmedi; Gaulois’nın hasar ve karaya oturma aşamaları ayrıca incelenir.",
+      "reviewDate": "2026-10-25",
+      "eventDate": "1915-03-18",
+      "status": "kanitsiz_ayrinti_kesin_anlatimdan_cikarildi",
+      "claimVerified": false,
+      "evidenceText": null,
+      "sourceUrl": null,
+      "limit": "Bu inceleme eski ayrintiyi yanlis diye kanitlamaz; iddia bazinda belge eslestirmesi yoktur. Yeni sayi veya saat uretilmedi."
+    },
+    {
+      "title": "Dardanos rasat yeri şehit düşer",
+      "previousText": "Çekilen bir zırhlıdan 30,5 cm’lik mermi gözetleme/telefon mevkiine isabet eder. Hasan Hulusi, Mehmet Mevsuf, İsmet ve Feyzi şehit. Yüzbaşı Muhittin ateşi sürdürür.",
+      "revisedText": "Dardanos’taki gözetleme ve irtibat mevkiine ilişkin kayıp anlatısı ele alınır. İsabet eden merminin kalibresi, hangi gemiden atıldığı, personel listesi ve komutanın görevi devralma sırası için belge karşılaştırması tamamlanmadı.",
+      "reviewDate": "2026-10-25",
+      "eventDate": "1915-03-18",
+      "status": "kanitsiz_ayrinti_kesin_anlatimdan_cikarildi",
+      "claimVerified": false,
+      "evidenceText": null,
+      "sourceUrl": null,
+      "limit": "Bu inceleme eski ayrintiyi yanlis diye kanitlamaz; iddia bazinda belge eslestirmesi yoktur. Yeni sayi veya saat uretilmedi."
+    },
+    {
+      "title": "Ateş kes",
+      "previousText": "Son taciz atışları biter. 7 saatlik bombardıman yerini duman ve sessizliğe bırakır.",
+      "revisedText": "Günün sonunda ateşin kesilmesi ele alınır. Bütün filonun ve Osmanlı bataryalarının son atış saatleri ile bombardımanın toplam süresi bu kart için belgeyle kesinleştirilmedi. Tek geminin günlüğü bütün filonun aynı anda ateşi kestiğini göstermez.",
+      "reviewDate": "2026-10-25",
+      "eventDate": "1915-03-18",
+      "status": "kanitsiz_ayrinti_kesin_anlatimdan_cikarildi",
+      "claimVerified": false,
+      "evidenceText": null,
+      "sourceUrl": null,
+      "limit": "Bu inceleme eski ayrintiyi yanlis diye kanitlamaz; iddia bazinda belge eslestirmesi yoktur. Yeni sayi veya saat uretilmedi."
+    }
+  ]
+}

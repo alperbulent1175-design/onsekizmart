@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-25",
+  "term_count": 40,
+  "scope": "Atlas kullanım tanımları ve beş açık kaynak pasajı; tüm eserler veya özgün günlük görüntüleri okunmadı.",
+  "sources": [
+    {
+      "url": "https://www.awm.gov.au/articles/encyclopedia/anzac/acronym",
+      "evidence": "ANZAC açılımı Australian and New Zealand Army Corps; kolordu bağlamı.",
+      "updated": "2026-02-16",
+      "event_period": "1915",
+      "status": "İlgili kurum açıklaması okundu; özgün günlük görüntüsü değil.",
+      "access_date": "2026-10-25"
+    },
+    {
+      "url": "https://www.awm.gov.au/learn/understanding-military-history/unit-diaries",
+      "evidence": "Background ve Content: günlük faaliyet, tarih/konum, mevcut ve zayiat cetvelleri, emir ve rapor ekleri.",
+      "updated": "2024-10-14",
+      "event_period": null,
+      "status": "Tür açıklaması okundu; bütün Osmanlı ceridelerine genellenmedi.",
+      "access_date": "2026-10-25"
+    },
+    {
+      "url": "https://www.awm.gov.au/collection/official-histories-rolls-unit-diaries",
+      "evidence": "Resmî tarihler devletçe hazırlatılan, günlükler ve başka kaynaklardan derlenen yayınlardır.",
+      "updated": "2023-02-13",
+      "event_period": null,
+      "status": "İlgili yayın türü açıklaması okundu.",
+      "access_date": "2026-10-25"
+    },
+    {
+      "url": "https://www.theworldwar.org/learn/about-wwi/trench-warfare",
+      "evidence": "Korunma için kazılmış siper açıklaması.",
+      "updated": null,
+      "event_period": "Birinci Dünya Savaşı Batı Cephesi",
+      "status": "Genel açıklama okundu; Çanakkale ölçülerine genellenmedi.",
+      "access_date": "2026-10-25"
+    },
+    {
+      "url": "https://canakkaletarihialan.gov.tr/tr/canakkale-savaslari/deniz-savaslari",
+      "evidence": "7/8 Mart gecesi Nusret Erenköy kıyıya paralel mayın hattı pasajı.",
+      "updated": null,
+      "event_period": "1915-03-07/1915-03-08",
+      "status": "Önceki araştırmada ilgili kurumsal özet doğrudan okundu; özgün cetvel değil.",
+      "access_date": "2026-10-25"
+    }
+  ],
+  "historical_status": "Kurumsal açıklamalar; genel iddia_dogrulandi yükseltmesi yok."
+}

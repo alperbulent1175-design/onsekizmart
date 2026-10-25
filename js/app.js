@@ -1037,7 +1037,7 @@
     var navalHere = (D.events || []).filter(function (ev) { return ev.place === id; });
     if (navalHere.length) extra.push(textEl("h3", "Bu mevkideki 18 Mart kayıtları"));
     navalHere.forEach(function (ev) {
-      var eventButton = textEl("button", "18 Mart · Saat doğrulanmadı · " + ev.title);
+      var eventButton = textEl("button", "18 Mart · " + navalTimeLabel(ev) + " · " + ev.title);
       eventButton.type = "button";
       eventButton.className = "ev-btn";
       eventButton.addEventListener("click", function () {

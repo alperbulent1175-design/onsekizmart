@@ -1,0 +1,31 @@
+{
+  "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "eventDate": "1915-03-18",
+  "documentDate": "1915-03-24",
+  "accessDate": "2026-10-25",
+  "status": "rapor_cevrimyazisi_ilgili_girisler_okundu",
+  "evidenceText": "13.43 Fransiz hattina cekilme emri; 14.32 yeni ileri hat gecisi. Swiftsure ve Majestic destek olarak ayrilir. Turkce ozet dogrudan alinti degil.",
+  "limits": "Her geminin ayri ates acma dakikasi veya gun boyu tum hareketleri verilmez; ozgun jurnallerle karsilastirma acik.",
+  "changes": [
+    {
+      "card": "albion",
+      "previousText": "HMS Albion, Britanya ön-dretnotudur ve C Hattı’ndadır. 13.45’teki saf değişiminde Ocean, Irresistible, Vengeance, Swiftsure ve Majestic ile ön safa geçecek gemiler arasındadır. 18 Mart notu, ön hatta dövüştüğünü yazar. O gün battığına dair kayıt yoktur.",
+      "revisedText": "Raporda 14.32’de A Hattı içinden geçen yeni ileri hat Vengeance, Irresistible, Albion ve Ocean olarak sıralanır. Albion bu ileri hat kaydındadır. 13.43’teki Fransız çekilme emri, bu geçişin gerçekleştiği an değildir."
+    },
+    {
+      "card": "vengeance",
+      "previousText": "HMS Vengeance, Britanya ön-dretnotudur. C Hattı’nda, ihtiyat ve destek safındadır. 13.45’te hasarlı Fransız hattının yerine ön safa sürülecek gemiler arasındadır. 18 Mart akıbeti sitede “C / ön hat” olarak geçer ve o gün batmaz.",
+      "revisedText": "Vengeance, raporun 14.32 kaydında A Hattı içinden geçen yeni ileri hattın gemileri arasındadır. Fransız hattının çekilme emri ile yeni hattın geçişi ayrı aşamalardır; bu kayıttan her geminin ayrı ateşe başlama dakikası çıkarılmaz."
+    },
+    {
+      "card": "swiftsure",
+      "previousText": "HMS Swiftsure, Britanya ön-dretnotudur. Kadro notu görevini 3. filo diye yazar; C Hattı listesinde de adı geçer. 13.45’te ön safa sürülecek gemiler arasındadır. 18 Mart’ta batmaz.",
+      "revisedText": "Swiftsure, 14.32 kaydında yeni ileri hattın destek gemisi olarak anılır. Destek görevi, ileri hattaki gemilerle aynı rol sayılmamalıdır; Fransız çekilme emri ayrı bir aşamadır."
+    },
+    {
+      "card": "majestic-18",
+      "previousText": "HMS Majestic, Britanya ön-dretnotudur. 18 Mart’ta C Hattı’ndadır ve 13.45’te ön safa sürülecek gemiler arasındadır. O gün batmaz. Sonraki batışı 27 Mayıs 1915’tir; 18 Mart sütununa yazılmaz.",
+      "revisedText": "Majestic, 14.32 kaydında yeni ileri hattın destek gemisi olarak anılır. Bu günlük görev kaydı ile Mayıs ayındaki batışı ayrı olaylardır; tek kayıttan günün bütün hareketleri çıkarılmaz."
+    }
+  ]
+}

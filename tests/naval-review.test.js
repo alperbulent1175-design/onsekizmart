@@ -146,7 +146,7 @@ test('doğrudan gemi seçimi olay paneliyle aynı kanıt bölümünü açar; di�
     const buttons = panel.extra.filter(node => node.tag === 'button');
     assert.equal(buttons.length, events.length);
     buttons.forEach((button, index) => {
-      assert.match(button.textContent, /Saat doğrulanmadı/);
+      assert.ok(button.textContent.includes(context.navalTimeLabel(events[index])));
       button.activate(); assert.equal(selected, events[index]);
     });
   }
@@ -227,4 +227,116 @@ test('Çimenlik özeti rapordaki hedef numarasını kanıtsız eşleştirmez', (
   assert.equal(place.lat, 40.146395); assert.equal(place.lng, 26.399161);
   assert.match(place.coordinateSource.url, /kulturportali.gov.tr\/turkiye\/canakkale\/gezilecekyer\/cimenlik-kalesi/);
   assert.match(place.uncertainty, /mermi isabetinin kesin koordinatı değildir/);
+});
+
+
+test('kaynakla eslestirilmeyen 18 Mart sayilari kesin anlatimda kalmaz', () => {
+  const changes = JSON.parse(read('research/reports/2026-10-25/R03-naval-visible-review.json')).records;
+  assert.equal(changes.length, 6);
+  for (const row of changes) {
+    const event = ctx.window.OM.events.find(e => e.title === row.title);
+    assert.equal(event.text, row.revisedText);
+    assert.equal(row.claimVerified, false);
+    assert.equal(row.sourceUrl, null);
+    assert.match(event.text, /belge/);
+  }
+  const texts = changes.map(r => r.revisedText).join(' ');
+  assert.doesNotMatch(texts, /10.000|13–14 km|9.000|14 isabet|30,5 cm|7 saatlik/);
+});
+
+
+test('Queen Elizabeth kalibresi katalog pasajina baglanir, top adedi ve zirh ayni kaynaktan turetilmez', () => {
+ const body = read('donanma/index.html').split('id="queen-elizabeth"')[1].split('</article>')[0];
+ assert.match(body, /1965-10-209-9/);
+ assert.match(body, /381 mm \(15 inç\)/);
+ assert.doesNotMatch(body, /<dd>330 mm<\/dd>|<dd>8×381 mm<\/dd>/);
+ assert.match(body, /toplam top sayısını, zırh kalınlığını/);
+ const record=JSON.parse(read('research/reports/2026-10-25/R03-queen-elizabeth-calibre.json'));
+ assert.equal(record.conversion.resultMm,15*25.4);
+ assert.equal(record.publicationDate,null);
+ assert.notEqual(record.status,'iddia_dogrulandi');
+});
+
+
+test('donanma kartlari eski kesin dakikalari tekrar etmez; emir ve atese katilma ayrilir', () => {
+ const rows=JSON.parse(read('research/reports/2026-10-25/R03-navy-report-consistency.json'));
+ for(const row of rows){
+  const body=read('donanma/index.html').split('id="'+row.ship+'"')[1].split('</article>')[0];
+  assert.ok(body.includes(row.revisedText));
+  assert.ok(body.includes(row.url));
+  assert.ok(row.evidenceText && row.accessDate && row.documentDate);
+  assert.notEqual(row.status,'iddia_dogrulandi');
+ }
+ const lord=rows.find(x=>x.ship==='lord-nelson').revisedText;
+ assert.match(lord,/ayrı bir kesin dakika verilmez/);
+ assert.match(rows.find(x=>x.ship==='suffren').revisedText,/Emir ile fiilî çatışma aynı an değildir/);
+});
+
+
+test('Suffren ozet alani kanitsiz kesin isabet sayisini anlatinin yaninda tekrar etmez', () => {
+ const body=read('donanma/index.html').split('id="suffren"')[1].split('</article>')[0];
+ assert.doesNotMatch(body,/14 direkt isabet|14 isabet/);
+ assert.match(body,/Kesin isabet ve hasar dökümünün belge karşılaştırması sürüyor/);
+});
+
+
+test('gemi kart sayisi eszamanli taarruz mevcudu sayilmaz, devriye ayri anlatilir', () => {
+ const navy=read('donanma/index.html');
+ assert.doesNotMatch(navy,/yaklaşık 60 deniz unsuru|Aşağıdaki 18 gemi ana muharebe hattıdır|18 ana muharebe gemisi/);
+ for(const id of ['canopus','cornwallis'])assert.match(navy.split('id="'+id+'"')[1].split('</article>')[0],/devriyede/);
+ const record=JSON.parse(read('research/reports/2026-10-25/R03-fleet-scope.json'));
+ assert.equal(record.documentDate,'1915-03-24');assert.equal(record.coverLetterDate,'1915-03-26');
+ assert.ok(record.url && record.evidenceText && record.accessDate);
+});
+
+
+test('muhrip ve tarama gorev kayitlari toplam kadro ve gecit emniyeti sayilmaz', () => {
+ const navy=read('donanma/index.html');
+ const destroyers=navy.split('id="muhripler"')[1].split('</article>')[0];
+ assert.doesNotMatch(destroyers,/16 İngiliz ve Fransız/);
+ assert.match(destroyers,/eksiksiz toplamını vermez/);
+ const sweep=navy.split('id="tarama"')[1].split('</article>')[0];
+ assert.match(sweep,/toplam tekne mevcudu değildir/);
+ assert.match(sweep,/bütün geçidin güvenli olduğunun kanıtı sayılmaz/);
+ const records=JSON.parse(read('research/reports/2026-10-25/R03-support-scope.json'));
+ records.forEach(r=>assert.ok(r.url&&r.evidenceText&&r.documentDate&&r.accessDate));
+});
+
+
+test('ileri hat emri ve gecisi donanma ozetleriyle anlatilarda tutarlidir', () => {
+ const navy=read('donanma/index.html'); assert.doesNotMatch(navy,/13\.45/);
+ for(const id of ['albion','vengeance','swiftsure','majestic-18','irresistible','ocean']){
+ const body=navy.split('id="'+id+'"')[1].split('</article>')[0];assert.match(body,/14\.32/);
+ }
+ for(const id of ['swiftsure','majestic-18'])assert.match(navy.split('id="'+id+'"')[1].split('</article>')[0],/destek/);
+});
+
+
+test('Henri IV korumali kruvazor grubuna konulmaz, sinif kaydi gorev tarihi yapilmaz', () => {
+ const body=read('donanma/index.html').split('id="kruvazorler"')[1].split('</article>')[0];
+ assert.doesNotMatch(body,/Sapphire ile Fransız Henri IV sayılır/);
+ assert.match(body,/Henri IV bu sınıf listesine dahil edilmez/);
+ assert.match(body,/IM50000725/);
+ assert.match(body,/18 Mart’taki konumunu veya görevini kanıtlamaz/);
+ const r=JSON.parse(read('research/reports/2026-10-25/R03-henri-iv-classification.json'));
+ assert.equal(r.eventDate,null);assert.ok(r.url&&r.evidenceText&&r.accessDate);
+});
+
+
+test('Inflexible tek zirh degeri tum gemi korumasi diye okunmaz', () => {
+ const body=read('donanma/index.html').split('id="inflexible"')[1].split('</article>')[0];
+ assert.match(body,/178 mm — bu değerin ait olduğu zırh bölümü ve tarih/);
+ assert.doesNotMatch(body,/<dd>178 mm<\/dd>/);
+ const r=JSON.parse(read('research/reports/2026-10-25/R03-inflexible-armour-scope.json'));
+ assert.equal(r.claimVerified,false);assert.equal(r.evidenceText,null);
+});
+
+
+test('Nusret mayin sayisi dogru kapsamda katalog pasajina baglanir', () => {
+ const body=read('donanma/index.html').split('id="nusret"')[1].split('</article>')[0];
+ assert.match(body,/26 mayın/);assert.match(body,/C1068416/);
+ assert.match(body,/Fotoğrafın kendisi bu geceki döşeme anını göstermez/);
+ assert.doesNotMatch(body,/hiçbir gemi çarpmaz/);
+ const r=JSON.parse(read('research/reports/2026-10-25/R03-nusret-mine-count.json'));
+ assert.ok(r.url&&r.evidenceText&&r.accessDate);assert.equal(r.publicationDate,null);
 });
