@@ -188,15 +188,25 @@
         place: "kumkale"
       },
       {
-        id: "e-mart-sessiz-1",
-        date: "1–7 Mart 1915",
-        side: "both",
-        domain: "deniz",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: "kilitbahir"
+        "id": "e-mart-sessiz-1",
+        "date": "1–17 Mart 1915",
+        "side": "itilaf",
+        "domain": "deniz",
+        "battle": false,
+        "title": "Mayın tarama girişimleri",
+        "text": "İngiliz trol tekneleri geçidi temizleyemedi.",
+        "place": null,
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "1 March 1915",
+          "eventDate": "1–17 Mart 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "İngiliz trol tekneleri geçidi temizleyemedi.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
       },
       {
         id: "e-nusret",
@@ -209,18 +219,28 @@
         place: "nusret"
       },
       {
-        id: "e-mart-sessiz-2",
-        date: "9–17 Mart 1915",
-        side: "both",
-        domain: "deniz",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Carden’ın komutayı bıraktığı gün sitede 16 Mart 1915, de Robeck’in görev satırı 17 Mart 1915’tir. İki tarih tek belgeyle birleştirilmedi. Bu aralık notu çatışma olmadığı anlamına gelmez.",
+        "id": "e-mart-sessiz-2",
+        "date": "13 Mart 1915",
+        "side": "itilaf",
+        "domain": "kara",
+        "battle": false,
+        "title": "Hamilton’a talimat",
+        "text": "Kara harekâtı donanmanın başarısızlığına bağlandı.",
+        "place": null,
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "13 March 1915",
+          "eventDate": "13 Mart 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Kara harekâtı donanmanın başarısızlığına bağlandı.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        },
         cardenBirakma: "16 Mart 1915",
         robeckGorev: "17 Mart 1915",
-        komutaDurumu: "insan_incelemesi_gerekli",
-        place: "kilitbahir"
+        komutaDurumu: "insan_incelemesi_gerekli"
       },
       {
         id: "e-mart18",
@@ -234,15 +254,25 @@
         navalMinute: 834
       },
       {
-        id: "e-mart-nisan",
-        date: "19 Mart – 16 Nisan 1915",
-        side: "both",
-        domain: "kara",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: null
+        "id": "e-mart-nisan",
+        "date": "1 Nisan 1915",
+        "side": "itilaf",
+        "domain": "kara",
+        "battle": false,
+        "title": "ANZAK sevk emri",
+        "text": "Mısır’daki birliklere hareket emri verildi.",
+        "place": null,
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "1 April 1915",
+          "eventDate": "1 Nisan 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Mısır’daki birliklere hareket emri verildi.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
       },
       {
         id: "e-e15",
@@ -255,15 +285,25 @@
         place: "dardanos"
       },
       {
-        id: "e-nisan-sessiz",
-        date: "18–24 Nisan 1915",
-        side: "both",
-        domain: "kara",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: null
+        "id": "e-nisan-sessiz",
+        "date": "20 Nisan 1915",
+        "side": "itilaf",
+        "domain": "ikisi",
+        "battle": false,
+        "title": "Mondros’ta çıkarma hazırlığı",
+        "text": "Çıkarma gemileri Mondros’ta toplandı.",
+        "place": null,
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "20 April 1915",
+          "eventDate": "20 Nisan 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Çıkarma gemileri Mondros’ta toplandı.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
       },
       {
         id: "e-seddul",
@@ -326,15 +366,25 @@
         place: "kirte"
       },
       {
-        id: "e-nisan-mayis",
-        date: "29 Nisan – 5 Mayıs 1915",
-        side: "both",
-        domain: "kara",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: null
+        "id": "e-nisan-mayis",
+        "date": "29 Nisan 1915",
+        "side": "itilaf",
+        "domain": "deniz",
+        "battle": false,
+        "title": "Yaralılar Mısır’a ulaşıyor",
+        "text": "Gascon İskenderiye’ye ulaştı.",
+        "place": null,
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "29 April 1915",
+          "eventDate": "29 Nisan 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Gascon İskenderiye’ye ulaştı.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
       },
       {
         id: "e-kirte2",
@@ -347,15 +397,25 @@
         place: "kirte"
       },
       {
-        id: "e-mayis-sessiz-1",
-        date: "9–12 Mayıs 1915",
-        side: "both",
-        domain: "kara",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: null
+        "id": "e-mayis-sessiz-1",
+        "date": "9–10 Mayıs 1915",
+        "side": "both",
+        "domain": "kara",
+        "battle": true,
+        "title": "Quinn’s Post siper baskını",
+        "text": "Alınan Osmanlı siperi ertesi sabah bırakıldı.",
+        "place": "ariburnu",
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "9 May 1915",
+          "eventDate": "9–10 Mayıs 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Alınan Osmanlı siperi ertesi sabah bırakıldı.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
       },
       {
         id: "e-goliath",
@@ -368,15 +428,25 @@
         place: "morto"
       },
       {
-        id: "e-mayis-sessiz-2",
-        date: "14–18 Mayıs 1915",
-        side: "both",
-        domain: "kara",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: null
+        "id": "e-mayis-sessiz-2",
+        "date": "17 Mayıs 1915",
+        "side": "itilaf",
+        "domain": "kara",
+        "battle": false,
+        "title": "Yeraltından kazma sesleri",
+        "text": "Joseph Slack, Quinn’s Post’ta kazı duydu.",
+        "place": "ariburnu",
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "17 May 1915",
+          "eventDate": "17 Mayıs 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Joseph Slack, Quinn’s Post’ta kazı duydu.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
       },
       {
         id: "e-may19",
@@ -389,15 +459,25 @@
         place: "ariburnu"
       },
       {
-        id: "e-mayis-sessiz-3",
-        date: "20–23 Mayıs 1915",
-        side: "both",
-        domain: "kara",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: null
+        "id": "e-mayis-sessiz-3",
+        "date": "22 Mayıs 1915",
+        "side": "both",
+        "domain": "kara",
+        "battle": false,
+        "title": "Ateşkes görüşmeleri",
+        "text": "Kemal Ohri, Birdwood karargâhında görüşmelere katıldı.",
+        "place": "ariburnu",
+        "chronologySource": {
+          "url": "https://www.awm.gov.au/collection/C45317",
+          "label": "AWM · H02318 fotoğraf kaydı",
+          "passage": "22 May 1915",
+          "eventDate": "22 Mayıs 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "fotograf_katalog_aciklamasi_okundu",
+          "evidenceText": "Kemal Ohri, Birdwood karargâhında görüşmelere katıldı.",
+          "scope": "Fotoğrafın tarih ve açıklama alanları okundu; anlaşma metni değildir."
+        }
       },
       {
         id: "e-ateskes",
@@ -430,15 +510,25 @@
         place: "seddulbahir"
       },
       {
-        id: "e-mayis-haziran",
-        date: "28 Mayıs – 3 Haziran 1915",
-        side: "both",
-        domain: "kara",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: null
+        "id": "e-mayis-haziran",
+        "date": "29 Mayıs 1915",
+        "side": "both",
+        "domain": "kara",
+        "battle": true,
+        "title": "Quinn’s Post lağım taarruzu",
+        "text": "Patlamayı Osmanlı hücumu izledi; mevzi tutulamadı.",
+        "place": "ariburnu",
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "29 May 1915",
+          "eventDate": "29 Mayıs 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Patlamayı Osmanlı hücumu izledi; mevzi tutulamadı.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
       },
       {
         id: "e-kirte3",
@@ -451,15 +541,25 @@
         place: "kirte"
       },
       {
-        id: "e-haziran-sessiz",
-        date: "5–27 Haziran 1915",
-        side: "both",
-        domain: "kara",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: null
+        "id": "e-haziran-sessiz",
+        "date": "19 Haziran 1915",
+        "side": "itilaf",
+        "domain": "ikisi",
+        "battle": false,
+        "title": "Watson İskelesi tamamlandı",
+        "text": "Anzak ikmali için iskele tamamlandı.",
+        "place": "ariburnu",
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "19 June 1915",
+          "eventDate": "19 Haziran 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Anzak ikmali için iskele tamamlandı.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
       },
       {
         id: "e-zigin",
@@ -472,15 +572,25 @@
         place: "zigindere"
       },
       {
-        id: "e-temmuz-sessiz",
-        date: "6–11 Temmuz 1915",
-        side: "both",
-        domain: "kara",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: null
+        "id": "e-temmuz-sessiz",
+        "date": "7 Temmuz 1915",
+        "side": "itilaf",
+        "domain": "kara",
+        "battle": false,
+        "title": "Kolera aşılaması",
+        "text": "Anzak’ta kolera aşılamasına başlandı.",
+        "place": "ariburnu",
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "7 July 1915",
+          "eventDate": "7 Temmuz 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Anzak’ta kolera aşılamasına başlandı.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
       },
       {
         id: "e-kereviz",
@@ -493,15 +603,25 @@
         place: "kerevizdere"
       },
       {
-        id: "e-temmuz-agustos",
-        date: "14 Temmuz – 5 Ağustos 1915",
-        side: "both",
-        domain: "kara",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: null
+        "id": "e-temmuz-agustos",
+        "date": "29 Temmuz 1915",
+        "side": "itilaf",
+        "domain": "kara",
+        "battle": false,
+        "title": "Hastane ekibi Limni’de",
+        "text": "Üçüncü Avustralya Genel Hastanesi Limni’ye ulaştı.",
+        "place": null,
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "29 July 1915",
+          "eventDate": "29 Temmuz 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Üçüncü Avustralya Genel Hastanesi Limni’ye ulaştı.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
       },
       {
         id: "e-kanli",
@@ -554,15 +674,25 @@
         place: "anafartalar"
       },
       {
-        id: "e-agustos-sessiz",
-        date: "11–20 Ağustos 1915",
-        side: "both",
-        domain: "kara",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: null
+        "id": "e-agustos-sessiz",
+        "date": "15 Ağustos 1915",
+        "side": "both",
+        "domain": "kara",
+        "battle": true,
+        "title": "Kireçtepe taarruzu",
+        "text": "İngiliz ilerlemesi sınırlı kaldı.",
+        "place": "anafartalar",
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "15 August 1915",
+          "eventDate": "15 Ağustos 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "İngiliz ilerlemesi sınırlı kaldı.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
       },
       {
         id: "e-anaf2",
@@ -575,15 +705,88 @@
         place: "anafartalar"
       },
       {
-        id: "e-sonbahar",
-        date: "30 Ağustos – 18 Aralık 1915",
-        side: "both",
-        domain: "kara",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: null
+        "id": "e-sonbahar",
+        "date": "8 Ekim 1915",
+        "side": "both",
+        "domain": "ikisi",
+        "battle": false,
+        "title": "Sonbahar fırtınası",
+        "text": "Anzak su ikmali zarar gördü.",
+        "place": "ariburnu",
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "8 October 1915",
+          "eventDate": "8 Ekim 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Anzak su ikmali zarar gördü.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
+      },
+      {
+        "id": "e-kitchener-tahliye",
+        "date": "22 Kasım 1915",
+        "side": "itilaf",
+        "domain": "kara",
+        "battle": false,
+        "title": "Tahliye tavsiyesi",
+        "text": "Kitchener çekilmeyi tavsiye etti.",
+        "place": null,
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "22 November 1915",
+          "eventDate": "22 Kasım 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Kitchener çekilmeyi tavsiye etti.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
+      },
+      {
+        "id": "e-kasim-firtina",
+        "date": "27–28 Kasım 1915",
+        "side": "both",
+        "domain": "kara",
+        "battle": false,
+        "title": "Yağmur ve kar fırtınası",
+        "text": "Şiddetli yağışı tipi izledi.",
+        "place": null,
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "27 November 1915",
+          "eventDate": "27–28 Kasım 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Şiddetli yağışı tipi izledi.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
+      },
+      {
+        "id": "e-aralik-onay",
+        "date": "7 Aralık 1915",
+        "side": "itilaf",
+        "domain": "ikisi",
+        "battle": false,
+        "title": "Arıburnu–Suvla tahliye onayı",
+        "text": "Britanya hükümeti çekilmeyi onayladı; Seddülbahir bekletildi.",
+        "place": null,
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "7 December 1915",
+          "eventDate": "7 Aralık 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Britanya hükümeti çekilmeyi onayladı; Seddülbahir bekletildi.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
       },
       {
         id: "e-tahliye-ari",
@@ -606,15 +809,25 @@
         place: "anafartalar"
       },
       {
-        id: "e-aralik-ocak",
-        date: "21 Aralık 1915 – 7 Ocak 1916",
-        side: "both",
-        domain: "kara",
-        battle: false,
-        quiet: true,
-        title: "Bu aralık için ayrıntılı olay kaydı eklenmedi",
-        text: "Bu aralık atlasın seçilmiş olayları arasındaki bir boşluktur; çatışma veya adı konmuş muharebe olmadığı anlamına gelmez. Ayrıntılı kayıt ve kaynak karşılaştırması bekliyor.",
-        place: "seddulbahir"
+        "id": "e-aralik-ocak",
+        "date": "27 Aralık 1915",
+        "side": "itilaf",
+        "domain": "ikisi",
+        "battle": false,
+        "title": "Seddülbahir tahliye emri",
+        "text": "Britanya hükümeti Seddülbahir’in tahliyesini emretti.",
+        "place": "seddulbahir",
+        "chronologySource": {
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "label": "DVA · tarihli kurum özeti",
+          "passage": "27 December 1915",
+          "eventDate": "27 Aralık 1915",
+          "publicationDate": null,
+          "accessDate": "2026-10-25",
+          "status": "kurumsal_ozet_pasaji_okundu",
+          "evidenceText": "Britanya hükümeti Seddülbahir’in tahliyesini emretti.",
+          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+        }
       },
       {
         id: "e-tahliye-sedd",

@@ -139,7 +139,7 @@
       document.getElementById("detail-date").textContent = ev.date;
       document.getElementById("detail-status").textContent = "Mevcut atlas kaydı · Belge düzeyinde doğrulama tamamlanmadı. Ayrıntılar ve kaynak çerçevesi olay sayfasındadır.";
       var link = document.getElementById("detail-page");
-      link.href = "../../olaylar/" + slugify(ev.title) + "/index.html";
+      link.href = ev.chronologySource ? "../../kronoloji-kaynaklari/index.html" : "../../olaylar/" + slugify(ev.title) + "/index.html";
       link.hidden = false;
       document.getElementById("detail-title").focus();
       var place = places.find(function (item) { return item.id === ev.place; });

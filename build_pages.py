@@ -2,6 +2,7 @@
 """Yasal sayfaları şablondan üretir ve site haritasını yayımlanan sayfalardan kurar."""
 from pathlib import Path
 import argparse
+import json
 import sys
 from xml.sax.saxutils import escape
 import xml.etree.ElementTree as ET
@@ -264,6 +265,22 @@ PAGES = {
 }
 
 
+def chronology_source_page(root):
+    rows = json.loads((Path(root) / "data/chronology-sources.json").read_text(encoding="utf-8"))
+    body = '<p class="kicker">Kronoloji</p><h1>Kronoloji kaynak notları</h1><p>Ana sayfadaki yeni kayıtların dayanakları. Bu seçki her günün bütün olaylarını kapsamaz. Kurumsal özet, özgün emir veya harp ceridesiyle aynı kanıt türü değildir.</p><p>Olay tarihi her başlıkta; erişim tarihi 25 Ekim 2026. Kaynakların yayın tarihi belirtilmemişse tahmin edilmedi. İngilizce girişler kısa Türkçe özetlendi; doğrudan alıntı değildir.</p>'
+    for row in rows:
+        source = row['source']
+        body += '<h2 id="' + escape(row['id']) + '">' + escape(row['date']) + '</h2>'
+        body += '<p><a href="' + escape(source['url']) + '">' + escape(source['label']) + '</a> · İlgili kayıt: ' + escape(source['passage']) + '.</p>'
+        body += '<p>' + escape(source['scope']) + ' Doğrulama durumu: ' + escape(source['status']) + '.</p>'
+        if row['id'] == 'e-temmuz-agustos':
+            body += '<p>Varış, hasta kabulüne başlama tarihi değildir; bu kayıttan hastanenin o gün faaliyete geçtiği sonucu çıkarılmadı.</p>'
+        if row['id'] == 'e-mayis-sessiz-3':
+            body += '<p>Görüşme fotoğrafı 24 Mayıs defin fotoğrafı olarak kullanılmadı.</p>'
+        body += '<p><a href="/?olay=' + escape(row['id']) + '#kronoloji">Kronolojideki kayda dön</a></p>'
+    return {"kronoloji-kaynaklari/index.html": ("Kronoloji kaynak notları", "Kronoloji kayıtlarının kaynakları ve inceleme sınırları.", SITE + "/kronoloji-kaynaklari/", body)}
+
+
 def project_root():
     return Path(__file__).resolve().parent
 
@@ -302,7 +319,8 @@ def build_pages(root, pages=None, shell_name="page-shell.html"):
         raise FileNotFoundError(f"Sayfa şablonu yok: {shell_path}")
     shell = shell_path.read_text(encoding="utf-8")
     written = []
-    for rel, (title, desc, canon, body) in (pages or PAGES).items():
+    selected = pages if pages is not None else {**PAGES, **chronology_source_page(root)}
+    for rel, (title, desc, canon, body) in selected.items():
         if not str(canon).startswith(SITE + "/"):
             raise ValueError(f"Canonical adres site kökünde değil: {canon}")
         dest = root / rel

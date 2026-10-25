@@ -44,7 +44,7 @@ test("olayı olmayan bir gün sahte olay üretmez", () => {
 
 test("aralık notu olay sayılmaz, konum yaklaşık veya şematik işaretlenir", () => {
   const model = global.OMModel;
-  const quiet = global.window.OM.campaign.events.find((ev) => ev.quiet);
+  const quiet = { id: "test-gap", quiet: true, title: "Kayıtsız aralık", date: "1915" };
   model.annotate(quiet);
   assert.equal(quiet.recordStatus, "aralik-notu");
   assert.equal(quiet.verification, "cerceve");

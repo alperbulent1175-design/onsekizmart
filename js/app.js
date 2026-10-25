@@ -969,6 +969,8 @@
   function fillFromCamp(ev, fly) {
     var place = ev.place ? findPlace(ev.place) : null;
     var href = localHref(eventPageHref(ev));
+    var chronologySource = ev.chronologySource;
+    if (chronologySource) href = "/kronoloji-kaynaklari/#" + encodeURIComponent(ev.id);
     var accuracy = ev.quiet
       ? "Aralık notu. Ayrı bir muharebe kaydı değildir."
       : (place ? accuracyText(place) : "Haritada ayrı nokta yok.");
@@ -982,10 +984,11 @@
       meta: place ? place.name : "",
       text: ev.text,
       accuracy: accuracy,
-      source: sourceText(ev),
+      source: chronologySource ? chronologySource.label + " · İlgili giriş: " + chronologySource.passage +
+        " · Erişim: " + chronologySource.accessDate + ". " + chronologySource.scope : sourceText(ev),
       href: href,
       shareHref: "/?olay=" + encodeURIComponent(ev.id) + "#harita",
-      hrefLabel: "Ayrıntı"
+      hrefLabel: chronologySource ? "Kaynak ve inceleme sınırı" : "Ayrıntı"
     });
     activeId = place ? place.id : null;
     paintIcons();
@@ -2117,6 +2120,13 @@
         focusSelectedPanel(this);
       });
       li.appendChild(btn);
+      if (ev.chronologySource) {
+        var sourceNote = document.createElement("a");
+        sourceNote.className = "event-page-link";
+        sourceNote.href = "/kronoloji-kaynaklari/#" + encodeURIComponent(ev.id);
+        sourceNote.textContent = "Kaynak ve inceleme sınırı";
+        li.appendChild(sourceNote);
+      }
       var pageHref = eventPageHref(ev);
       var safePage = localHref(pageHref);
       if (safePage) {
@@ -2298,7 +2308,7 @@
   }
 
   function eventPageHref(ev) {
-    if (!ev || ev.quiet || ev.id === "e-nisan2627") return "";
+    if (!ev || ev.quiet || ev.chronologySource || ev.id === "e-nisan2627") return "";
     return "/olaylar/" + slugify(ev.title) + "/";
   }
 
