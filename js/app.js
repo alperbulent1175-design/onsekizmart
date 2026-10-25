@@ -938,6 +938,14 @@
     return "/olaylar/18-mart-deniz-muharebesi/#" + (anchors[placeId] || "kaynak-notu");
   }
 
+  function navalTimeLabel(ev) {
+    var source = ev && ev.sourceTime;
+    if (!source || source.status !== "rapor_cevrimyazisi_okundu" ||
+        !/^(?:[01]\d|2[0-3]):[0-5]\d$/.test(source.time) ||
+        !source.evidenceText || !source.accessDate || !/^https:\/\//.test(source.url)) return "Saat doğrulanmadı";
+    return "Raporda " + source.time + " · " + source.kind;
+  }
+
   function fillFromNaval(ev, fly) {
     var place = ev.place ? findPlace(ev.place) : null;
     fillPanel({
@@ -945,13 +953,13 @@
       kind: "event",
       placeId: place ? place.id : null,
       showPlaceReturn: true,
-      date: "18 Mart 1915 · Saat doğrulanmadı",
+      date: "18 Mart 1915 · " + navalTimeLabel(ev),
       side: sideLabel(ev.side),
       meta: place ? place.name : "",
       text: "İncelenen taslak: " + ev.text,
       reviewHref: navalReviewHref(ev.place, ev.title),
       accuracy: place ? accuracyText(place) : "Haritada ayrı nokta yok.",
-      source: sourceText(ev),
+      source: ev.sourceTime ? ev.sourceTime.timeSystem + " " + ev.sourceTime.limit : sourceText(ev),
       href: "/olaylar/18-mart-deniz-muharebesi/",
       shareHref: "/?dakika=" + encodeURIComponent(ev.m) + "&deniz=" + encodeURIComponent(slugify(ev.title)) + "#harita",
       shareLabel: "Bu kayda bağlantı",
@@ -1514,6 +1522,7 @@
       closePanel();
       return;
     }
+    label = navalTimeLabel(last);
     if (range) range.setAttribute("aria-valuetext", "18 Mart 1915 · " + last.title + " · " + label);
     tlEvent.replaceChildren(textEl("em", label), document.createTextNode(" " + last.title + " — Taslak anlatı: " + last.text));
     fillFromNaval(last, fly);
@@ -2041,7 +2050,7 @@
       li.className = ev.side;
       var btn = document.createElement("button");
       btn.type = "button";
-      btn.appendChild(textEl("span", "Saat doğrulanmadı", "event-time-status"));
+      btn.appendChild(textEl("span", navalTimeLabel(ev), "event-time-status"));
       btn.appendChild(textEl("h3", ev.title));
       btn.appendChild(textEl("p", "Taslak anlatı: " + ev.text));
       btn.addEventListener("click", function () {

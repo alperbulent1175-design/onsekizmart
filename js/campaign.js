@@ -406,15 +406,15 @@
         "text": "Alınan Osmanlı siperi ertesi sabah bırakıldı.",
         "place": "ariburnu",
         "chronologySource": {
-          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
-          "label": "DVA · tarihli kurum özeti",
-          "passage": "9 May 1915",
+          "url": "https://www.awm.gov.au/collection/C1342882",
+          "label": "AWM4 23/32/7 · 15. Tabur günlüğü",
+          "passage": "Görüntü4–5 / yaprak46–47; 9–10 Mayıs1915",
           "eventDate": "9–10 Mayıs 1915",
           "publicationDate": null,
           "accessDate": "2026-10-25",
-          "status": "kurumsal_ozet_pasaji_okundu",
+          "status": "gunluk_goruntusu_ilgili_pasaj_okundu",
           "evidenceText": "Alınan Osmanlı siperi ertesi sabah bırakıldı.",
-          "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
+          "scope": "El yazılı günlük taramasında9–10Mayıs pasajları okundu.63sayfanın tümü okunmadı; karşı tarafın raporudur. Saat sistemi ayrıca kalibre edilmedi."
         }
       },
       {

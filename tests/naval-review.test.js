@@ -58,7 +58,9 @@ test('Inflexible için belgesiz sayı ve ayrılış saati kaldırılır, yerine 
   const event = ctx.window.OM.events.find(e => e.title === 'Inflexible mayınlanır');
   assert.equal(event.t, '14:14'); assert.equal(event.m, 854);
   assert.doesNotMatch(event.text, /39 ölü|14.25/);
-  assert.match(event.text, /belgeyle doğrulanmadı/);
+  assert.equal(event.sourceTime.time, '16:11');
+  assert.equal(event.sourceTime.kind, 'bildirim');
+  assert.match(event.text, /isabetin kesin anı değildir/);
   const before = report.records.find(r => r.title === event.title);
   assert.match(before.existingText, /39 ölü/);
   const note = read('olaylar/18-mart-deniz-muharebesi/index.html');
@@ -210,7 +212,9 @@ test('Queen Elizabeth saat farkı açıklanır; filo başlangıcına ve yeni saa
   assert.doesNotMatch(card, /11.00’de|17.00’de|17.45’te/);
   const event = ctx.window.OM.events.find(e => e.title === 'Queen Elizabeth’in ilk 381 mm’lik salvosu');
   assert.equal(event.m, 660);
-  assert.match(event.text, /belge karşılaştırması açık/);
+  assert.equal(event.sourceTime.time, '11:25');
+  assert.equal(event.sourceTime.kind, 'ateşe başlama');
+  assert.match(event.sourceTime.limit, /karşılaştırma açık/);
 });
 
 

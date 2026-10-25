@@ -67,7 +67,7 @@ test('aynı saatli kayıt seçimi, ileri/geri ve başa dönüşte kaybolmaz', ()
     fillFromNaval: event => { shown = event; }, paintCurrent() {}, stopPlay() {}
   };
   vm.createContext(ctx);
-  vm.runInContext(source.slice(source.indexOf('  function showTime('), source.indexOf('  function sideLabel(')) + '\n' + source.slice(source.indexOf('  function stepTime('), source.indexOf('  document.getElementById("tl-both")', source.indexOf('  function stepTime('))), ctx);
+  vm.runInContext(source.slice(source.indexOf('  function navalTimeLabel('), source.indexOf('  function fillFromNaval(')) + source.slice(source.indexOf('  function showTime('), source.indexOf('  function sideLabel(')) + '\n' + source.slice(source.indexOf('  function stepTime('), source.indexOf('  document.getElementById("tl-both")', source.indexOf('  function stepTime('))), ctx);
   ctx.showTime(450, false, events[0]);
   assert.equal(shown, events[0]);
   ctx.stepTime(1); assert.equal(shown, events[1]);

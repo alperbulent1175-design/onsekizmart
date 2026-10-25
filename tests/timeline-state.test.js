@@ -91,7 +91,7 @@ test('deniz süzgecinde önceki kayıt yoksa eski panel kapatılır', () => {
     minsToClock: () => 'test', eventsAt: () => [], textEl: () => ({}),
     document: { createTextNode: () => ({}) }, paintCurrent() {}, closePanel() { closed = true; } };
   vm.createContext(ctx);
-  vm.runInContext(source.slice(source.indexOf('  function showTime('), source.indexOf('  function sideLabel(')), ctx);
+  vm.runInContext(source.slice(source.indexOf('  function navalTimeLabel('), source.indexOf('  function fillFromNaval(')) + source.slice(source.indexOf('  function showTime('), source.indexOf('  function sideLabel(')), ctx);
   ctx.showTime(450, false);
   assert.equal(closed, true); assert.equal(ctx.navalSelection, null);
 });
@@ -105,7 +105,7 @@ test('belge denetimi açık deniz kaydı saat gibi sunulmaz; seçim ve oynatma k
     textEl: (tag, text) => text, document: { createTextNode: text => text },
     fillFromNaval(ev) { shown = ev; }, paintCurrent() {}, closePanel() {} };
   vm.createContext(ctx);
-  vm.runInContext(source.slice(source.indexOf('  function showTime('), source.indexOf('  function sideLabel(')), ctx);
+  vm.runInContext(source.slice(source.indexOf('  function navalTimeLabel('), source.indexOf('  function fillFromNaval(')) + source.slice(source.indexOf('  function showTime('), source.indexOf('  function sideLabel(')), ctx);
   ctx.showTime(854, false, event);
   assert.equal(shown, event);
   assert.equal(ctx.navalMinute, 854);

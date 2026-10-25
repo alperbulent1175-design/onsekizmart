@@ -273,6 +273,8 @@ def chronology_source_page(root):
         body += '<h2 id="' + escape(row['id']) + '">' + escape(row['date']) + '</h2>'
         body += '<p><a href="' + escape(source['url']) + '">' + escape(source['label']) + '</a> · İlgili kayıt: ' + escape(source['passage']) + '.</p>'
         body += '<p>' + escape(source['scope']) + ' Doğrulama durumu: ' + escape(source['status']) + '.</p>'
+        if row['id'] == 'e-mayis-sessiz-1':
+            body += '<p>Günlükte 9 Mayıs için 21.00 planı, 22.30 hücumu; devamında ertesi sabah 06.00’da eski mevziye dönüş ve 07.00 karşı taarruzu ayrılıyor. Bu kayıt tek taburun anlatımıdır; bütün cepheye genellenmez.</p><p><a href="https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922380.JPG">Günlük yaprak46</a> · <a href="https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922381.JPG">Günlük yaprak47</a>. Kısa kanıt: <q>again occupied at 6 am next day</q>. Yer veya tünel koordinatı bu pasajdan çıkarılmadı.</p>'
         if row['id'] == 'e-temmuz-agustos':
             body += '<p>Varış, hasta kabulüne başlama tarihi değildir; bu kayıttan hastanenin o gün faaliyete geçtiği sonucu çıkarılmadı.</p>'
         if row['id'] == 'e-mayis-sessiz-3':
