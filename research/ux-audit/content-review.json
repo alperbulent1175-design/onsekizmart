@@ -836,6 +836,200 @@
       "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
       "reviewed": "2026-10-17",
       "status": "Sayfaya özgü kaynak notu mevcut"
+    },
+    {
+      "path": "olaylar/mayin-tarama-girisimleri/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "İngiliz trol tekneleri geçidi temizleyemedi.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/hamiltona-talimat/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Kara harekâtı donanmanın başarısızlığına bağlandı.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/anzak-sevk-emri/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Mısır’daki birliklere hareket emri verildi.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/mondrosta-cikarma-hazirligi/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Çıkarma gemileri Mondros’ta toplandı.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/yaralilar-misira-ulasiyor/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Gascon İskenderiye’ye ulaştı.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/quinns-post-siper-baskini/",
+      "sources": [],
+      "summary": "Alınan Osmanlı siperi ertesi sabah bırakıldı.",
+      "open": "El yazılı günlük taramasında9–10Mayıs pasajları okundu.63sayfanın tümü okunmadı; karşı tarafın raporudur. Saat sistemi ayrıca kalibre edilmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/yeraltindan-kazma-sesleri/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Joseph Slack, Quinn’s Post’ta kazı duydu.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/ateskes-gorusmeleri/",
+      "sources": [],
+      "summary": "Kemal Ohri, Birdwood karargâhında görüşmelere katıldı.",
+      "open": "Fotoğrafın tarih ve açıklama alanları okundu; anlaşma metni değildir.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/quinns-post-lagim-taarruzu/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Patlamayı Osmanlı hücumu izledi; mevzi tutulamadı.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/watson-iskelesi-tamamlandi/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Anzak ikmali için iskele tamamlandı.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/kolera-asilamasi/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Anzak’ta kolera aşılamasına başlandı.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/hastane-ekibi-limnide/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Üçüncü Avustralya Genel Hastanesi Limni’ye ulaştı.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/kirectepe-taarruzu/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "İngiliz ilerlemesi sınırlı kaldı.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/sonbahar-firtinasi/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Anzak su ikmali zarar gördü.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/tahliye-tavsiyesi/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Kitchener çekilmeyi tavsiye etti.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/yagmur-ve-kar-firtinasi/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Şiddetli yağışı tipi izledi.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/ariburnu-suvla-tahliye-onayi/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Britanya hükümeti çekilmeyi onayladı; Seddülbahir bekletildi.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+    },
+    {
+      "path": "olaylar/seddulbahir-tahliye-emri/",
+      "sources": [
+        "dva-timeline"
+      ],
+      "summary": "Britanya hükümeti Seddülbahir’in tahliyesini emretti.",
+      "open": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "rewrite": true,
+      "reviewed": "2026-10-25",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
     }
   ]
 }

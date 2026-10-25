@@ -104,7 +104,9 @@ test('Ocean isabeti ve batışı ayrı inceleme kayıtlarıdır; tahliye ayrınt
   const sinking = ctx.window.OM.events.find(e => e.title === 'Ocean batar');
   assert.equal(hit.m, 1005); assert.equal(sinking.m, 1350);
   assert.match(hit.text, /farklı kesinliktedir/);
-  assert.match(hit.text, /belgeyle doğrulanmadı/);
+  assert.equal(hit.sourceTime.time, '18:05');
+  assert.equal(hit.sourceTime.kind, 'isabet kaydı');
+  assert.match(hit.text, /batış zamanı değildir/);
   assert.match(sinking.text, /kesinleştirilmedi/);
   assert.doesNotMatch(hit.text + sinking.text, /Colne|Chelmer|Jed|650/);
   const place = ctx.window.OM.places.find(p => p.id === 'ocean');

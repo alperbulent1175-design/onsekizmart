@@ -1,0 +1,1776 @@
+{
+  "scope": "js/data.js icindeki sayi iceren metinler. Sayisal tarih, kalibre, saat ve kayip ayrimi henuz tek tek hukumlendirilmedi. Koordinatlar ve eski oynatma anahtarlari bu taramaya dahil degildir. Bu envanter tarihsel dogrulama degildir.",
+  "records": [
+    {
+      "path": "ammo[0].tr",
+      "text": "~170–190 (sabit + seyyar)",
+      "block": "ammo",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ammo[0].al",
+      "text": "~270–300 (18 zırhlının ana/ikincil)",
+      "block": "ammo",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ammo[1].tr",
+      "text": "~80 (210–355 mm Krupp)",
+      "block": "ammo",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ammo[1].al",
+      "text": "~70 (305–381 mm deniz topu)",
+      "block": "ammo",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ammo[2].tr",
+      "text": "~100 (120–150 mm obüs ve sahra)",
+      "block": "ammo",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ammo[2].al",
+      "text": "~200 (102–234 mm seri)",
+      "block": "ammo",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ammo[3].tr",
+      "text": "Krupp 11–14 km; seyyar 6–8 km",
+      "block": "ammo",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ammo[3].al",
+      "text": "Queen Elizabeth 20+ km; diğer 13–16 km",
+      "block": "ammo",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ammo[5].tr",
+      "text": "Kritik; gün sonunda 2–3 salvo",
+      "block": "ammo",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ammo[6].tr",
+      "text": "~400 (10 enlemesine + 26 paralel)",
+      "block": "ammo",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "spend.alliedDay",
+      "text": "3.000–3.500 (ağır + orta)",
+      "block": "spend",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "spend.alliedMonth",
+      "text": "19 Şubat–18 Mart toplamı 20.000+",
+      "block": "spend",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "spend.turkDay",
+      "text": "2.000–2.200 (ağır ~800, seyyar ~1.200–1.400)",
+      "block": "spend",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "spend.hitsOnForts",
+      "text": "Doğrudan tabya sahasına ~400–500 isabet (%15’ten az)",
+      "block": "spend",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "fortHits[0].n",
+      "text": "80–100",
+      "block": "fortHits",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "fortHits[1].n",
+      "text": "60–80",
+      "block": "fortHits",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "fortHits[2].n",
+      "text": "40–50",
+      "block": "fortHits",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "fortHits[2].d",
+      "text": "2 top geçici devre dışı; cephanelik infilakı",
+      "block": "fortHits",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "fortHits[3].n",
+      "text": "40–50",
+      "block": "fortHits",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "fortHits[3].d",
+      "text": "Bonetler dayandı; 1 top hasarlı",
+      "block": "fortHits",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "fortHits[4].n",
+      "text": "30–40",
+      "block": "fortHits",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "fortHits[4].d",
+      "text": "Sur ve avlu; patlamamış 355 mm mermi duvarda",
+      "block": "fortHits",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "fortHits[5].n",
+      "text": "25–30",
+      "block": "fortHits",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "fortHits[6].n",
+      "text": "20–30’ar",
+      "block": "fortHits",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "dardanosPeople.cmd[1].n",
+      "text": "Üsteğmen Kilitbahirli Hasan Hulusi Efendi — 18 Mart şehit",
+      "block": "dardanosPeople",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "dardanosPeople.cmd[2].n",
+      "text": "Teğmen Trablusgarplı Mehmet Mevsuf Efendi — 18 Mart şehit",
+      "block": "dardanosPeople",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[0].note[0]",
+      "text": "Henüz 5. Ordu kurulmadığı için (24 Mart 1915) Boğaz savunması doğrudan 3. Kolordu ve Müstahkem Mevkii bünyesindeki birliklerle icra edildi.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[0].note[1]",
+      "text": "Mevcut: yaklaşık 18.000–20.000 (topçu, istihkâm, mayın ve muhabere personeli).",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[0].note[3]",
+      "text": "07.30’da Cevat Bey gece devriye ve mayın hat raporlarını aldı. 09.00’da genel muharebe alarmı verildi. 09.30’da Kilitbahir yamaçlarındaki Muharebe Gözetleme Yeri’ne çıkıldı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[0].note[4]",
+      "text": "Kesin ateş disiplini: İngiliz gemileri merkez tabyaların etkili menziline (~10.000 m) girmeden karşı ateş açılmayacak, cephane israf edilmeyecek, tabyalar erkenden ifşa edilmeyecekti.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[1].uncertainty",
+      "text": "Alan Başkanlığının güncel kale ziyaret noktasıyla eşleştirildi. Kalenin bulunduğu alanı temsil eder; 1915 komuta veya gözetleme yerinin kesin koordinatı değildir.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[1].coordinateSource.evidenceText",
+      "text": "Ziyaret Noktasına Git: destination=40.146554, 26.380381",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[1].coordinateSource.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[1].short",
+      "text": "Fatih’in 1462–63’te inşa ettirdiği kale. 18 Mart günü gözetleme ve komuta tepesi.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[1].note[2]",
+      "text": "13.54’te Bouvet’nin Erenköy Koyu’nda havaya uçuşu buradan bizzat izlendi; Nusret hattının işe yaradığı teyit edildi.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[2].uncertainty",
+      "text": "Alan Başkanlığının güncel tabya ve şehitlik ziyaret noktasıyla eşleştirildi. Tabya alanını temsil eder; 1915 top, vinç veya mühimmat yerinin kesin koordinatı değildir.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[2].coordinateSource.evidenceText",
+      "text": "Ziyaret Noktasına Git: destination=40.141532, 26.37561",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[2].coordinateSource.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[2].hits",
+      "text": "80–100 isabet",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[2].note[0]",
+      "text": "11.05’te Agamemnon’un ilk hedeflerinden biriydi. Öğleden sonra Rumeli Mecidiye, Namazgâh ve Anadolu Hamidiye duman ve alev içinde kaldı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[2].note[2]",
+      "text": "15.15 sularında tabya büyük oranda tahrip olmasına rağmen ayakta kalan personel (Seyit Onbaşı ve Niğdeli Ali dâhil) enkaz altından çıkarılan mermileri elle yükleyerek ateşe devam etti.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[2].note[3]",
+      "text": "Cevat Bey 14.45’te at sırtında Mecidiye ve Namazgâh’a teftişe indi; krizi sahada yönetti.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[3].uncertainty",
+      "text": "Alan Başkanlığının güncel Namazgâh Tabyası ziyaret noktasıyla eşleştirildi. Tabya alanını temsil eder; 1915 harekât merkezi veya top yerlerinin kesin koordinatı değildir.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[3].coordinateSource.evidenceText",
+      "text": "Ziyaret Noktasına Git: destination=40.145371, 26.379579",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[3].coordinateSource.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[3].meta",
+      "text": "Kilitbahir · 4. Ağır Topçu Alayı karargâhı",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[3].short",
+      "text": "Boğaz’ın en dar noktasına kurulan ilk ve en büyük tabya. 40–50 isabet aldı; bonetler dayandı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[3].hits",
+      "text": "40–50 isabet",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[3].note[0]",
+      "text": "Baron de Tott’un önerisiyle inşa edilen merkez tabya. 26 bonet; 16 kıyı topundan ikisi uzun menzilli olarak muharebede aktif kullanıldı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[3].note[1]",
+      "text": "12.15’te Suffren ve Gaulois doğrudan Rumeli Mecidiye ve Namazgâh’ı hedef aldı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[3].note[2]",
+      "text": "Geniş alana yayıldığı için çok sayıda isabet aldı; toprak bonetler büyük oranda dayandı, 1 top hasar gördü.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[4].uncertainty",
+      "text": "Alan Başkanlığının güncel Rumeli Hamidiye Tabyası harita hedefiyle eşleştirildi. Tabya alanını temsil eder; 1915 top platformlarının kesin koordinatı değildir. Ziyaret bağlantısı, alanın şu anda ziyarete açık olduğunu göstermez.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[4].coordinateSource.evidenceText",
+      "text": "Ziyaret Noktasına Git: destination=40.142829, 26.377707",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[4].coordinateSource.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[4].claimReview.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[4].meta",
+      "text": "Namazgâh ile Mecidiye arası · 2×355 mm Krupp",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[4].hits",
+      "text": "25–30 isabet",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[4].note[0]",
+      "text": "1896, II. Abdülhamit. Namazgâh ile Mecidiye arasında, 2 adet 355/35 mm uzun namlulu Krupp.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[4].note[1]",
+      "text": "Boğaz’daki beş 355 mm’lik topun ikisi buradaydı (ikisi Anadolu Hamidiye, biri Çimenlik).",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[5].uncertainty",
+      "text": "Kültür Bakanlığı Kültür Portalı sayfasındaki Çimenlik Kalesi harita işaretiyle eşleştirildi. Kale alanını temsil eder; 1915 tabya toplarının, karargâhın veya mermi isabetinin kesin koordinatı değildir.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[5].coordinateSource.evidenceText",
+      "text": "center: [40.146395,26.399161]; ÇİMENLİK KALESİ işareti myMap.getCenter() üzerinde oluşturulur.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[5].coordinateSource.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[5].short",
+      "text": "Queen Elizabeth’in ilk atış saati ve hedef eşleştirmesinin belge karşılaştırması açık. Ayrıntılar 18 Mart kaynak notunda açıklanır.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[5].hits",
+      "text": "30–40 isabet",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[5].note[0]",
+      "text": "Önceki 11.00 ilk atış, menzil ve hedef anlatısı doğrulanmış bilgi olarak kullanılmaz; rapordaki hedef numarası bu mevkiyle eşleştirilmedi.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[5].note[1]",
+      "text": "Kale surları ve iç avlu ağır isabetler aldı. Bir adet 355 mm’lik patlamamış İngiliz mermisi kale duvarında saplanmış halde kaldı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[6].uncertainty",
+      "text": "Alan Başkanlığının güncel Anadolu Hamidiye Tabyası ziyaret noktasıyla eşleştirildi. Tabya ve müze alanını temsil eder; 1915 top platformu, cephanelik veya ateş idare yerinin kesin koordinatı değildir.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[6].coordinateSource.evidenceText",
+      "text": "Ziyaret Noktasına Git: destination=40.138566, 26.404352",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[6].coordinateSource.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[6].meta",
+      "text": "Anadolu · 355 mm ve 240 mm Krupp",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[6].hits",
+      "text": "40–50 isabet",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[6].note[0]",
+      "text": "12.15’te Bouvet doğrudan Anadolu Hamidiyeleri, Suffren ve Gaulois Rumeli tabyalarını hedef aldı. Türk kıyı bataryaları (Hamidiye, Mecidiye, Dardanos, Namazgâh) tüm namlularla ateşe başladı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[6].note[1]",
+      "text": "Amiral Johannes Merten bizzat burada ateş idaresinde bulundu; 355 mm ve 240 mm Krupp’ların namlu yükselişi ve tapalarını yönetti.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[6].note[2]",
+      "text": "Inflexible ve Suffren tarafından yoğun hedef alındı. 2 büyük top geçici devre dışı kaldı; bir cephanelik isabet alarak infilak etti.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[6].note[3]",
+      "text": "16.18’den sonra mayınlanan Irresistible’a ve 16.45’ten sonra Ocean’a tüm ağır namlular odaklandı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[7].coordinateReview.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[7].hits",
+      "text": "60–80 isabet",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[7].note[0]",
+      "text": "Teknik donanım: 15 cm’lik hızlı ateşli Krupp toplar. Mayın hatlarını koruma ve filonun daralmaya ilerlemesini engellemede kilit rol.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[7].note[1]",
+      "text": "11.30’dan itibaren Dardanos, Mesudiye ve Şevket bataryaları ile seyyar obüsler, henüz ağır tabyalar suskunken sürpriz atışlara başladı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[7].note[2]",
+      "text": "Gün boyu ~60–80 isabet; siperler savruldu, telefon kabloları koptu. Yüzbaşı Hasan Hulusi ve Teğmen Mehmet Mevsuf 17.15’te 30,5 cm’lik mermiyle şehit oldu.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[7].note[4]",
+      "text": "17 Nisan 1915’te karaya oturan HMS E15 denizaltısının kulesine ilk isabeti de bu tabya verdi.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[8].uncertainty",
+      "text": "Alan Başkanlığının güncel Seddülbahir Kalesi ziyaret noktasıyla eşleştirildi. Kale çevresini temsil eder; bütün çıkarma kumsallarının, birlik mevzilerinin veya 1915 gözetleme postasının kesin koordinatı değildir.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[8].coordinateSource.evidenceText",
+      "text": "Ziyaret Noktasına Git: destination=40.042881, 26.188885",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[8].coordinateSource.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[8].short",
+      "text": "Boğaz ağzının Rumeli kapısı. 08.45’te filonun yaklaştığını bildiren dış gözetleme postası.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[8].note[0]",
+      "text": "09.30’da Kumkale, Seddülbahir ve Dardanos gözetleme postaları, müttefik filosunun üç hat halinde yaklaştığını Müstahkem Mevkii’ye bildirdi.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[8].note[1]",
+      "text": "10.00’da öncü muhripler eşliğinde A Hattı, Seddülbahir–Kumkale çizgisini aştı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[8].note[2]",
+      "text": "19 Şubat ve 25 Şubat bombardımanlarında giriş tabyaları ilk yıpratmanın hedefiydi. 9. Tümen’in sahil koruma sahasına girer.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[9].meta",
+      "text": "Anadolu giriş · 11. Tümen sahası",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[9].coordinateReview.evidenceText",
+      "text": "Kumkale Köyü kale yapısına 3 km. uzaklıktadır.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[9].coordinateReview.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[9].note[0]",
+      "text": "Kumkale gözetleme postası 08.45’te büyük filonun Boğaz ağzına ilerlediğini rapor etti.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[9].note[1]",
+      "text": "11. Tümen (Miralay Rafet Bey) Anadolu kıyı şeridini (Kumkale, Erenköy, Yeniköy, Beşige Koyu) tutuyordu.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[9].note[2]",
+      "text": "25 Şubat’ta giriş tabyalarının susturulması ve tahrip timlerinin karaya çıkarılması sırasında yoğun bombardıman gördü.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[10].coordinateReview.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[10].hits",
+      "text": "20–30’ar isabet",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[10].note[0]",
+      "text": "11.30’da Mesudiye ve Şevket bataryaları ile seyyar obüsler, ağır tabyalar henüz suskunken İngiliz zırhlılarına karşılık vermeye başladı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[10].note[1]",
+      "text": "15.10’da Dardanos ve Baykuş bataryaları ile seyyar havanlar, Boğaz ortasında sabit hedef haline gelen zırhlılara mermi yağdırdı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[11].narrativeSource.imageUrl",
+      "text": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[11].narrativeSource.label",
+      "text": "AWM RCDIG1066703 · daktilo sayfası 47",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[11].narrativeSource.date",
+      "text": "2026-10-19",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[11].note[0]",
+      "text": "Önceki 12.28 isabet ve 14.35 karaya oturma saatlerinin belge karşılaştırması tamamlanmadı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[11].note[1]",
+      "text": "19 Ekim 2026: AWM RCDIG1066703, daktilo sayfası 47 görüntüden okundu. İmzalı özgün raporla karşılaştırma açık; ayrıntılar Gaulois kaynak notundadır.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[12].narrativeSource.imageUrl",
+      "text": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43822-rcdig1066703-page63.jpg",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[12].narrativeSource.label",
+      "text": "AWM RCDIG1066703 · daktilo sayfası 45",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[12].narrativeSource.evidenceText",
+      "text": "only 66 survivors were picked up.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[12].narrativeSource.translation",
+      "text": "Yalnızca 66 kişi kurtarıldı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[12].narrativeSource.context",
+      "text": "Bu, rapordaki kurtarma bildirimidir; kesinleşmiş kurtulan toplamı veya eksiksiz personel cetveli değildir. Farklı kaynaklardaki sayılar 18 Mart kaynak notunda ayrı değerlendirilir.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[12].narrativeSource.date",
+      "text": "2026-10-19",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[12].meta",
+      "text": "18 Mart 1915 · saat ve kayıp ayrıntıları incelemede",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[12].note[0]",
+      "text": "19 Ekim 2026: AWM RCDIG1066703, daktilo sayfası 45 görüntüden okundu. Raporda 13:54 kaydı bulunur; özgün raporla karşılaştırma açık.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[13].narrativeSource.imageUrl",
+      "text": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43819-rcdig1066703-page60.jpg",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[13].narrativeSource.label",
+      "text": "AWM RCDIG1066703 · daktilo sayfası 42",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[13].narrativeSource.evidenceText",
+      "text": "reported shortly after 4.p.m.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[13].narrativeSource.translation",
+      "text": "Saat 16.00’dan kısa süre sonra bildirdi.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[13].narrativeSource.date",
+      "text": "2026-10-19",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[13].narrativeSource.publishedComparison.label",
+      "text": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[13].narrativeSource.publishedComparison.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[13].narrativeSource.publishedComparison.evidenceText",
+      "text": "4.11.—“Inflexible” reported",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[13].narrativeSource.publishedComparison.translation",
+      "text": "16.11 — Inflexible bildirdi.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[13].narrativeSource.publishedComparison.context",
+      "text": "Basılı 5503, mayın isabetinin bildirimini bu saatte kaydeder. İsabet anı ayrıca belirlenmez. Raporun yerel saatleri GMT’den iki saat ileridir.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[13].meta",
+      "text": "18 Mart 1915 · saat ve zayiat incelemede",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[13].note[0]",
+      "text": "Önceki 14:14, 14:25 ve 39 ölü ifadelerinin belge karşılaştırması açık. Bildirim saati, isabetin kesin saati yerine kullanılamaz.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[13].note[1]",
+      "text": "Kaynaklar ve inceleme sınırları 18 Mart Deniz Muharebesi sayfasındadır.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].uncertainty",
+      "text": "2023 yayınının enkaz noktasıdır; mayın isabeti veya tahliye yerini ayrıca doğrulamaz. Kaynak datum belirtmiyor; metre düzeyinde kesinlik iddiası yok.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].coordinateSource.label",
+      "text": "Kedioğlu ve Öz (2023), s. 76 · enkaz koordinatı",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].coordinateSource.evidenceText",
+      "text": "40°04.438 N, 26°20.441 E",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].coordinateSource.date",
+      "text": "2026-10-17",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].narrativeSource.imageUrl",
+      "text": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].narrativeSource.label",
+      "text": "AWM RCDIG1066703 · daktilo sayfası 47",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].narrativeSource.date",
+      "text": "2026-10-19",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].narrativeSource.publishedComparison.label",
+      "text": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].narrativeSource.publishedComparison.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].narrativeSource.publishedComparison.evidenceText",
+      "text": "at 4.50 p.m.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].narrativeSource.publishedComparison.translation",
+      "text": "Saat 16.50’de.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].narrativeSource.publishedComparison.context",
+      "text": "Basılı 5503–5504, Wear’in Irresistible’dan alınan personelle Queen Elizabeth’e dönüşünü anlatır. Tahliyenin başlangıcı veya batış anı değildir. Raporun yerel saatleri GMT’den iki saat ileridir.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].meta",
+      "text": "18 Mart 1915 · isabet, tahliye ve batış saatleri incelemede",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].note[1]",
+      "text": "Önceki 16.11, 16.32 ve 19.30 saat anahtarları bağlantılar için korunur; doğrulanmış olay saatleri değildir.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[14].note[2]",
+      "text": "19 Ekim 2026: AWM daktilo sayfası 47’de gece aramasında iki geminin bulunamadığı anlatılır. Bu kayıt kesin batış anını göstermez; kaynak bağlantısı tahliye ve batış ayrımı bölümündedir.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[15].narrativeSource.imageUrl",
+      "text": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[15].narrativeSource.label",
+      "text": "AWM RCDIG1066703 · daktilo sayfası 47",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[15].narrativeSource.date",
+      "text": "2026-10-19",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[15].narrativeSource.publishedComparison.label",
+      "text": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[15].narrativeSource.publishedComparison.date",
+      "text": "2026-10-20",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[15].narrativeSource.publishedComparison.evidenceText",
+      "text": "about 7.30 p.m.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[15].narrativeSource.publishedComparison.translation",
+      "text": "Yaklaşık saat 19.30’da.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[15].narrativeSource.publishedComparison.context",
+      "text": "Basılı 5503’te bu saat Ocean’ın nihai terk edilmesine ilişkindir; batış saati değildir. Basılı 5504’te gece araması sonuçsuzdur. Raporun yerel saatleri GMT’den iki saat ileridir.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[15].meta",
+      "text": "18 Mart 1915 · isabet ve batış saatleri incelemede",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[15].short",
+      "text": "Ocean 18 Mart’ta battı. Mayın isabeti anlatıları farklı kesinliktedir; ayrıntılı saat ve tahliye bilgisi doğrulanmadı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[15].note[0]",
+      "text": "AWM A02360 açıklaması mayınla batışı kesin anlatır; DVA Anzac Portal aynı ayrıntıyı ihtimalli ifade eder.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[15].note[1]",
+      "text": "16:45, tahliye sayısı ve gemi görevleri için belge karşılaştırması tamamlanmadı. 22:30 kaydı özgün gemi raporuyla kesinleştirilmedi.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[15].note[2]",
+      "text": "19 Ekim 2026: AWM daktilo sayfası 47’de Ocean ve Irresistible’ın gece aramasında bulunamadığı anlatılır. Kesin batış anı gözlenmiş sayılmaz; belge bağlantısı 18 Mart kaynak notundadır.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[16].name",
+      "text": "3. Kolordu Komutanlığı",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[16].short",
+      "text": "Genel savunma üst komutanlığı. ~50.000–55.000; Yarımada, Saros ve Anadolu kıyısı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[16].note[1]",
+      "text": "18 Mart bir deniz muharebesidir; kara tümenleri henüz çıkarma beklemektedir. 5. Ordu 24 Mart’ta ihdas edilecektir.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[17].name",
+      "text": "19. Tümen — genel ihtiyat",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[17].short",
+      "text": "57., 72., 77. Piyade ve 39. Topçu Alayı. Olası çıkarmaya karşı acil müdahale yedeği.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[17].strength",
+      "text": "~12.000–14.000",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[17].note[1]",
+      "text": "18 Mart’ta kara çıkarması yoktur; tümen, donanma taarruzu sırasında yarımadanın stratejik ihtiyatıdır. Nisan çıkarmalarında bu konuşlanma belirleyici olacaktır.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[18].name",
+      "text": "9. Tümen",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[18].short",
+      "text": "25., 26., 27. Piyade Alayları. Yarımada güney ucu ve Boğaz kıyı şeridi koruma/gözetleme.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[18].strength",
+      "text": "~12.000–13.000",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[19].name",
+      "text": "7. Tümen",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[19].short",
+      "text": "19., 20., 21. Piyade Alayları. Trakya yönünden amfibi kuşatmaya karşı kuzey kalkanı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[19].strength",
+      "text": "~11.000–12.000",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[20].name",
+      "text": "11. Tümen",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[20].short",
+      "text": "33., 126., 127. Piyade Alayları. Anadolu yakası kıyı şeridi ve Beşige Koyu yamaçları.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[20].strength",
+      "text": "~11.000–12.000",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[21].note[0]",
+      "text": "Nusret’in Erenköy Koyu’ndaki kıyıya paralel 26 mayınlık hattı Alan Başkanlığı anlatısında yer alır. Bu haritadaki çizginin yön açısı ve uç noktaları sayısal belgeyle doğrulanmadı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[21].note[2]",
+      "text": "8–18 Mart arasında hiçbir gemi bu mayınlara çarpmadı. Zırhlılar 18 Mart’taki tam ölçekli U dönüşünde ölümcül temasa girdi.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "places[22].note[1]",
+      "text": "16–17 Mart rutin taramalarında teller hattın üzerinden geçmesine rağmen mayınlara takılmadı.",
+      "block": "places",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[0].armor",
+      "text": "330 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[0].guns",
+      "text": "8×381 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[1].armor",
+      "text": "178 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[1].guns",
+      "text": "8×305 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[2].armor",
+      "text": "305 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[2].guns",
+      "text": "4×305 + 10×234 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[3].armor",
+      "text": "305 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[3].guns",
+      "text": "4×305 + 10×234 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[4].armor",
+      "text": "229 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[4].guns",
+      "text": "4×305 + 12×152 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[4].fate",
+      "text": "18 Mart’ta battı; kesin saat incelemede",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[5].armor",
+      "text": "152 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[5].guns",
+      "text": "4×305 + 12×152 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[5].fate",
+      "text": "18 Mart’ta battı; isabet ve batış saatleri incelemede",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[6].armor",
+      "text": "152 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[6].guns",
+      "text": "4×305 + 12×152 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[7].armor",
+      "text": "152 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[7].guns",
+      "text": "4×305 + 12×152 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[8].armor",
+      "text": "152 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[8].guns",
+      "text": "4×305 + 12×152 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[9].armor",
+      "text": "178 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[9].guns",
+      "text": "4×254 + 14×190 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[9].fate",
+      "text": "3. filo",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[10].armor",
+      "text": "178 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[10].guns",
+      "text": "4×254 + 14×190 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[11].armor",
+      "text": "229 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[11].guns",
+      "text": "4×305 + 12×152 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[12].armor",
+      "text": "229 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[12].guns",
+      "text": "4×305 + 12×152 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[13].armor",
+      "text": "178 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[13].guns",
+      "text": "4×305 + 12×152 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[14].armor",
+      "text": "300 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[14].guns",
+      "text": "4×305 + 10×164 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[14].fate",
+      "text": "14 direkt isabet; yangın",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[15].armor",
+      "text": "400 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[15].guns",
+      "text": "2×305 + 2×274 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[15].fate",
+      "text": "18 Mart’ta battı; saat ve zayiat incelemede",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[16].armor",
+      "text": "370 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[16].guns",
+      "text": "4×305 + 10×138 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[17].armor",
+      "text": "370 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "ships[17].guns",
+      "text": "4×305 + 10×138 mm",
+      "block": "ships",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "support[1].detail",
+      "text": "16 İngiliz ve Fransız muhribi (Wear, Colne, Jed, Chelmer vb.) — tarama koruması, perdeleme, tahliye",
+      "block": "support",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "support[2].detail",
+      "text": "Kuzey Denizi trol teknelerinden dönüştürülmüş ~20–25 silahlı trawler",
+      "block": "support",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[0].n",
+      "text": "~18.000–20.000",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[1].name",
+      "text": "3. Kolordu",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[1].n",
+      "text": "~50.000–55.000",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[1].place",
+      "text": "kolordu-3",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[2].name",
+      "text": "19. Tümen (ihtiyat)",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[2].n",
+      "text": "~12.000–14.000",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[2].place",
+      "text": "tumen-19",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[3].name",
+      "text": "9. Tümen",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[3].n",
+      "text": "~12.000–13.000",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[3].place",
+      "text": "tumen-9",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[4].name",
+      "text": "7. Tümen",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[4].n",
+      "text": "~11.000–12.000",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[4].place",
+      "text": "tumen-7",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[5].name",
+      "text": "11. Tümen",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[5].n",
+      "text": "~11.000–12.000",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[5].place",
+      "text": "tumen-11",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[6].n",
+      "text": "~400–500",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "units[6].area",
+      "text": "11 enlemesine hat + Erenköy gizli hattı",
+      "block": "units",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "commanders[3].body",
+      "text": "Anadolu Hamidiye’de 355 ve 240 mm Krupp atışını idare etti; Suffren ve Gaulois isabetlerinde, ardından Irresistible–Ocean bombardımanında rol aldı.",
+      "block": "commanders",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "commanders[4].body",
+      "text": "Üç hatlı taarruzu yönetti. Bouvet şokuna rağmen C Hattı’nı sürdü; 17.00’de Signal No. 12 ile çekildi.",
+      "block": "commanders",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "commanders[5].body",
+      "text": "B Hattı’nı 9.000 m’ye soktu; Suffren ağır hasar, Bouvet battı, Gaulois karaya oturtuldu.",
+      "block": "commanders",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[5].text",
+      "text": "Cevat Bey telemetre ve dürbünle Boğaz girişini bizzat takip eder. Ateş disiplini teyit edilir: 10.000 m’den önce ateş yok.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[7].text",
+      "text": "Filo merkez tabyalara 13–14 km’de konuşlanır. De Robeck bayrak çekerek genel taarruzu başlatır.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[8].title",
+      "text": "Queen Elizabeth’in ilk 381 mm’lik salvosu",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[8].text",
+      "text": "Queen Elizabeth için raporun ateşe başlama kaydı 11.25’tir; bütün filonun ilk atışı sayılmaz.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[12].text",
+      "text": "Fransız hattına ilerleme emri 12.06’da verildi; mevziye varış ayrı aşamadır.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[13].text",
+      "text": "Fransızlar 9.000 m’ye sokulunca Cevat Bey Hamidiye, Mecidiye ve Namazgâh’a tam güçle ateş emri verir.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[14].text",
+      "text": "Hamidiye, Mecidiye, Dardanos ve Namazgâh tüm namlularla ateşler. Suffren 14 isabet alır; Gaulois su almaya başlar.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[15].text",
+      "text": "Raporda Fransız hattına 13.43’te çekilme emri verilir. Yeni hattın ileri geçişi 14.32’de kaydedilir; emir ile hareket ayrı aşamalardır.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[16].text",
+      "text": "Bouvet için rapordaki patlama kaydı 13.54’tür; batışın iki dakika içinde gerçekleştiği anlatılır. Bu saat raporun gözlemidir; özgün raporla karşılaştırma açık; kesin kayıp toplamı ayrıca araştırılıyor.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[17].text",
+      "text": "Inflexible’ın mayın isabeti bildirim saati 16.11’dir; isabetin kesin anı değildir.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[22].text",
+      "text": "Wear tahliye edilenlerle 16.50’de Queen Elizabeth’e döndü; bu tahliyeye başlama veya Irresistible’ın batış saati değildir.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[23].text",
+      "text": "Raporda Ocean’ın mayın isabeti 18.05 olarak verilir. Kaynakların hasar anlatıları farklı kesinliktedir; özgün gemi raporuyla karşılaştırma tamamlanmadan bütün ayrıntılar kesinleştirilmez. Bu saat batış zamanı değildir.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[24].title",
+      "text": "Signal No. 12 — genel çekilme",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[24].text",
+      "text": "Önceki Signal No. 12, kesin emir saati ve Osmanlı gözlem aktarımı için belge karşılaştırması tamamlanmadı.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[25].text",
+      "text": "Çekilen bir zırhlıdan 30,5 cm’lik mermi gözetleme/telefon mevkiine isabet eder. Hasan Hulusi, Mehmet Mevsuf, İsmet ve Feyzi şehit. Yüzbaşı Muhittin ateşi sürdürür.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[27].text",
+      "text": "Son taciz atışları biter. 7 saatlik bombardıman yerini duman ve sessizliğe bırakır.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[28].text",
+      "text": "Cevat Bey Enver Paşa’ya telgraf çeker: 3 büyük zırhlı batırıldı, çok sayıda gemi ağır hasarlı, Boğaz geçilemedi.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    },
+    {
+      "path": "events[30].text",
+      "text": "Ocean’ın 18 Mart’ta batışı kaynak notunda ele alınır. Bu kaydın 22:30 saati özgün gemi raporuyla kesinleştirilmedi; gece arama ve tespit anlatısı için belge incelemesi açık.",
+      "block": "events",
+      "status": "inceleme_bekliyor",
+      "claimVerified": false
+    }
+  ]
+}

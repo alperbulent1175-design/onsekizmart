@@ -1,0 +1,866 @@
+{
+  "baseline": "dbf9197",
+  "scope": "Onceki yayin snapshotu; yayin oncesinde canli tekrar kontrol edilmeli. Yeni adreslerin geri alinmasi ayrica kararlastirilmali.",
+  "files": [
+    {
+      "path": ".htaccess",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/.htaccess",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "cephede-beslenme/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/cephede-beslenme/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "css/photo-archive.css",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/css/photo-archive.css",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "css/style.css",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/css/style.css",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "donanma/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/donanma/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "favicon.svg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/favicon.svg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "fotograf-arsivi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/fotograf-arsivi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "gizlilik/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/gizlilik/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "hakkinda/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/hakkinda/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "iletisim/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/iletisim/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/commanders/awm-a02867.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/commanders/awm-a02867.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/commanders/awm-g00290.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/commanders/awm-g00290.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/commanders/awm-g00761.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/commanders/awm-g00761.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/commanders/awm-g01015.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/commanders/awm-g01015.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/commanders/awm-h10298.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/commanders/awm-h10298.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/commanders/awm-h10350.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/commanders/awm-h10350.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/commanders/awm-p01148.004.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/commanders/awm-p01148.004.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/commanders/bundesarchiv-bild-183-h29994.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/commanders/bundesarchiv-bild-183-h29994.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/commanders/bundesarchiv-bild-183-r36163.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/commanders/bundesarchiv-bild-183-r36163.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/commanders/de-robeck-hamilton-g00528.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/commanders/de-robeck-hamilton-g00528.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/commanders/esat-pasa-a05295.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/commanders/esat-pasa-a05295.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/commanders/ian-hamilton-a03549.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/commanders/ian-hamilton-a03549.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/commanders/mustafa-kemal-a05319.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/commanders/mustafa-kemal-a05319.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-a02599.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-a02599.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-a02781.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-a02781.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-a03228.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-a03228.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-a05615.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-a05615.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-g00952.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-g00952.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-g00965c.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-g00965c.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-g01143.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-g01143.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-g02127.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-g02127.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-h00333.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-h00333.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-h10391.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-h10391.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-h12308.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-h12308.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-h16496.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-h16496.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-p06127.001.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-p06127.001.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/events/awm-p11165.024.001.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/events/awm-p11165.024.001.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/ae2-h12541.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/ae2-h12541.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/awm-c01619.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/awm-c01619.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/awm-g00229.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/awm-g00229.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/awm-g00243.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/awm-g00243.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/awm-g00992.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/awm-g00992.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/awm-g01393.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/awm-g01393.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/awm-h00209.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/awm-h00209.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/awm-h00219.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/awm-h00219.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/awm-h10388.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/awm-h10388.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/awm-p01236.019.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/awm-p01236.019.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/awm-p04411.003.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/awm-p04411.003.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/awm-p05194.012.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/awm-p05194.012.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/bouvet-p00369.014.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/bouvet-p00369.014.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/e15-p04411.002.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/e15-p04411.002.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/goliath-triumph-majestic-g00198.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/goliath-triumph-majestic-g00198.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/ocean-a02360.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/ocean-a02360.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "images/ships/triumph-g00755.jpg",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/images/ships/triumph-g00755.jpg",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "inceleme-notlari/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/inceleme-notlari/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "js/app.js",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/js/app.js",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "js/campaign.js",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/js/campaign.js",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "js/commanders-search.js",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/js/commanders-search.js",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "js/data.js",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/js/data.js",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "js/events-index.js",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/js/events-index.js",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "js/model.js",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/js/model.js",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "js/navigation.js",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/js/navigation.js",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "js/navy-search.js",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/js/navy-search.js",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "js/photo-archive.js",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/js/photo-archive.js",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "js/photo-search.js",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/js/photo-search.js",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "kaynak-politikasi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/kaynak-politikasi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "kaynakca/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/kaynakca/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/albert-damade/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/albert-damade/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/alexander-godley/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/alexander-godley/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/aylmer-hunter-weston/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/aylmer-hunter-weston/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/cevat-bey-cobanli/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/cevat-bey-cobanli/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/charles-monro/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/charles-monro/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/emile-guepratte/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/emile-guepratte/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/esat-pasa-bulkat/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/esat-pasa-bulkat/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/frederick-stopford/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/frederick-stopford/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/guido-von-usedom/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/guido-von-usedom/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/halil-sami-bey/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/halil-sami-bey/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/henri-gouraud/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/henri-gouraud/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/ian-hamilton/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/ian-hamilton/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/johannes-merten/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/johannes-merten/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/john-de-robeck/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/john-de-robeck/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/liman-von-sanders/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/liman-von-sanders/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/mustafa-kemal/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/mustafa-kemal/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/rafet-bey-bele/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/rafet-bey-bele/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/remzi-bey/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/remzi-bey/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/roger-keyes/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/roger-keyes/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/sackville-carden/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/sackville-carden/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/selahattin-adil-bey/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/selahattin-adil-bey/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/vehip-pasa-kaci/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/vehip-pasa-kaci/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/weber-pasa/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/weber-pasa/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/william-birdwood/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/william-birdwood/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "komutanlar/william-bridges/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/komutanlar/william-bridges/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "kronoloji-kaynaklari/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/kronoloji-kaynaklari/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "nasil-okunur/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/nasil-okunur/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/18-mart-deniz-muharebesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/anafartalar-suvla-cikarmasi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/anafartalar-suvla-cikarmasi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/anafartalar-tahliyesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/anafartalar-tahliyesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/ariburnu-cikarmasi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/ariburnu-cikarmasi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/ariburnu-genel-taarruzu/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/ariburnu-gomme-ateskesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/ariburnu-gomme-ateskesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/ariburnu-tahliyesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/ariburnu-tahliyesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/barbaros-hayreddin-batar/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/barbaros-hayreddin-batar/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/birinci-anafartalar-muharebesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/birinci-anafartalar-muharebesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/birinci-kirte-muharebesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/birinci-kirte-muharebesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/conkbayiri-muharebesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/conkbayiri-muharebesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/dis-tabyalarin-bombardimani/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/dis-tabyalarin-bombardimani/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/e15-bogazda-karaya-oturur/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/e15-bogazda-karaya-oturur/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/giris-tabyalari-ve-kisa-cikarmalar/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/giris-tabyalari-ve-kisa-cikarmalar/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/goliath-batar/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/goliath-batar/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/ikinci-anafartalar-muharebesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/ikinci-anafartalar-muharebesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/ikinci-kirte-muharebesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/ikinci-kirte-muharebesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/kanlisirt-muharebesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/kanlisirt-muharebesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/kerevizdere-muharebesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/kerevizdere-muharebesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/kumkale-oyalama-cikarmasi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/kumkale-oyalama-cikarmasi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/majestic-batar/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/majestic-batar/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/nusret-erenkoy-hattini-doker/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/saros-gosterisi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/saros-gosterisi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/seddulbahir-cikarmasi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/seddulbahir-cikarmasi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/seddulbahir-tahliyesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/seddulbahir-tahliyesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/triumph-batar/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/triumph-batar/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/ucuncu-kirte-muharebesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/ucuncu-kirte-muharebesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "olaylar/zigindere-muharebesi/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/olaylar/zigindere-muharebesi/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "robots.txt",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/robots.txt",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "saglik-ve-tahliye/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/saglik-ve-tahliye/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "sitemap.xml",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/sitemap.xml",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "sozluk/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/sozluk/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "telif/index.html",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/telif/index.html",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/LICENSE",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/vendor/leaflet-1.9.4/LICENSE",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/SOURCE.json",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/vendor/leaflet-1.9.4/SOURCE.json",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/images/layers-2x.png",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/vendor/leaflet-1.9.4/images/layers-2x.png",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/images/layers.png",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/vendor/leaflet-1.9.4/images/layers.png",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/images/marker-icon-2x.png",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/vendor/leaflet-1.9.4/images/marker-icon-2x.png",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/images/marker-icon.png",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/vendor/leaflet-1.9.4/images/marker-icon.png",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/images/marker-shadow.png",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/vendor/leaflet-1.9.4/images/marker-shadow.png",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/leaflet.css",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/vendor/leaflet-1.9.4/leaflet.css",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/leaflet.js",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/vendor/leaflet-1.9.4/leaflet.js",
+      "present": true,
+      "hash_matches": true
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/leaflet.js.map",
+      "snapshot": "research/deployment/2026-10-25-naval-time-release/stage/vendor/leaflet-1.9.4/leaflet.js.map",
+      "present": true,
+      "hash_matches": true
+    }
+  ],
+  "new_paths": [
+    "olaylar/anzak-sevk-emri/index.html",
+    "olaylar/ariburnu-suvla-tahliye-onayi/index.html",
+    "olaylar/ateskes-gorusmeleri/index.html",
+    "olaylar/hamiltona-talimat/index.html",
+    "olaylar/hastane-ekibi-limnide/index.html",
+    "olaylar/kirectepe-taarruzu/index.html",
+    "olaylar/kolera-asilamasi/index.html",
+    "olaylar/mayin-tarama-girisimleri/index.html",
+    "olaylar/mondrosta-cikarma-hazirligi/index.html",
+    "olaylar/quinns-post-lagim-taarruzu/index.html",
+    "olaylar/quinns-post-siper-baskini/index.html",
+    "olaylar/seddulbahir-tahliye-emri/index.html",
+    "olaylar/sonbahar-firtinasi/index.html",
+    "olaylar/tahliye-tavsiyesi/index.html",
+    "olaylar/watson-iskelesi-tamamlandi/index.html",
+    "olaylar/yagmur-ve-kar-firtinasi/index.html",
+    "olaylar/yaralilar-misira-ulasiyor/index.html",
+    "olaylar/yeraltindan-kazma-sesleri/index.html"
+  ]
+}

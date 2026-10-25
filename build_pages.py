@@ -3,6 +3,8 @@
 from pathlib import Path
 import argparse
 import json
+import re
+import unicodedata
 import sys
 from xml.sax.saxutils import escape
 import xml.etree.ElementTree as ET
@@ -283,6 +285,29 @@ def chronology_source_page(root):
     return {"kronoloji-kaynaklari/index.html": ("Kronoloji kaynak notları", "Kronoloji kayıtlarının kaynakları ve inceleme sınırları.", SITE + "/kronoloji-kaynaklari/", body)}
 
 
+def chronology_event_pages(root):
+    records = json.loads((Path(root) / "data/chronology-events.json").read_text(encoding="utf-8"))
+    pages = {}
+    for event in records:
+        title = event['title']
+        title_for_slug = re.sub(r"['’´`]", '', title)
+        folded = title_for_slug.translate(str.maketrans('ıİşŞğĞüÜöÖçÇ', 'iissgguuoocc')).lower()
+        slug = re.sub(r'[^a-z0-9]+', '-', unicodedata.normalize('NFD', folded)).strip('-')
+        source = event['chronologySource']
+        note = '/kronoloji-kaynaklari/#' + event['id']
+        body = '<p class="kicker">Cephe kronolojisi</p><h1>' + escape(title) + '</h1><p>' + escape(event['date']) + '</p>'
+        body += '<aside class="verification-notice"><strong>Belge doğrulaması tamamlanmadı</strong><p>Aşağıdaki kaynak belirtilen kısa anlatıyı destekler; bütün olayın ayrıntıları doğrulanmış sayılmaz.</p></aside>'
+        body += '<h2>Olayın özeti</h2><p>' + escape(event['text']) + '</p>'
+        body += '<h2>Olayı nasıl okumalı?</h2><p>' + escape(event['context']) + '</p>'
+        body += '<h2 id="kaynak-notu">Kanıt metni ve inceleme sınırı</h2><p><a href="' + escape(source['url']) + '">' + escape(source['label']) + '</a>. İlgili bölüm: ' + escape(source['passage']) + '.</p>'
+        body += '<p>Kanıtın kısa Türkçe özeti: ' + escape(source['evidenceText']) + ' Bu ifade doğrudan alıntı değildir.</p>'
+        body += '<p>' + escape(source['scope']) + '</p><p>İnceleme: ' + escape(source['accessDate']) + '. Durum: ' + escape(source['status']) + '. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.</p>'
+        body += '<h2>Ayrıntılar ve açık kalanlar</h2><p>Birliklerin tam dağılımı, kesin saatler ve koordinatlar bu kısa kaynaktan çıkarılmadı. Bir tarafın anlatısı bütün cepheye genellenmedi. <a href="' + note + '">Bu kaydın ayrıntılı kaynak notunu oku</a>.</p>'
+        body += '<p><a href="/?olay=' + escape(event['id']) + '#kronoloji">Kronolojideki kayda dön</a> · <a href="/olaylar/">Olaylar dizini</a></p>'
+        pages['olaylar/' + slug + '/index.html'] = (title, event['text'], SITE + '/olaylar/' + slug + '/', body)
+    return pages
+
+
 def project_root():
     return Path(__file__).resolve().parent
 
@@ -321,7 +346,7 @@ def build_pages(root, pages=None, shell_name="page-shell.html"):
         raise FileNotFoundError(f"Sayfa şablonu yok: {shell_path}")
     shell = shell_path.read_text(encoding="utf-8")
     written = []
-    selected = pages if pages is not None else {**PAGES, **chronology_source_page(root)}
+    selected = pages if pages is not None else {**PAGES, **chronology_source_page(root), **chronology_event_pages(root)}
     for rel, (title, desc, canon, body) in selected.items():
         if not str(canon).startswith(SITE + "/"):
             raise ValueError(f"Canonical adres site kökünde değil: {canon}")

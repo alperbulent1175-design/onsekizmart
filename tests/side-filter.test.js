@@ -69,7 +69,8 @@ function setup() {
     closePanel() { ctx.closed = (ctx.closed || 0) + 1; }
   };
   vm.createContext(ctx);
-  vm.runInContext(fragment('  function navalEvents(', '  function focusPlaybackMap(') + '\n' +
+  vm.runInContext(fragment('  function navalTimeLabel(', '  function fillFromNaval(') + '\n' +
+    fragment('  function navalEvents(', '  function focusPlaybackMap(') + '\n' +
     fragment('  function refreshCampRange(', '  function stepTime('), ctx);
   return { ctx, node, enabledLayers, places };
 }
@@ -167,9 +168,9 @@ test('cephe taraf ve kara süzgeçleri birlikte çalışır, temizleme mevcut or
   for (const place of ctx.allPlaces()) assert.equal(ctx.groups[place.type].hasLayer(ctx.markers[place.id]), eventPlaces.has(place.id), place.id);
   ctx.clearFilters();
   assert.equal(ctx.campSelection, selected);
-  assert.equal(ctx.campEvents().length, 44);
+  assert.deepEqual(Array.from(ctx.campEvents()), Array.from(ctx.D.campaign.events));
   assert.match(node('timeline-filter-status').textContent, /korunuyor/);
-  assert.match(node('side-filter-status').textContent, /İki taraf: 44 kayıt/);
+  assert.ok(node('side-filter-status').textContent.includes(`İki taraf: ${ctx.D.campaign.events.length} kayıt`));
 });
 
 test('uygun deniz kaydı yoksa eski kart yerine boş durum ve sıfır sonuç gösterilir', () => {

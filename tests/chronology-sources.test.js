@@ -14,6 +14,8 @@ test('yeni kronoloji kayıtları tarihli kanıt ve çalışan kaynak hedefi taş
   assert.equal(additions.length, 18);
   const notes = JSON.parse(fs.readFileSync(path.join(root, 'data/chronology-sources.json'), 'utf8'));
   const html = fs.readFileSync(path.join(root, 'kronoloji-kaynaklari/index.html'), 'utf8');
+  const app = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8');
+  vm.runInNewContext(app.slice(app.indexOf('  function slugify('), app.indexOf('  function eventPageHref(')), ctx);
   for (const event of additions) {
     const source = event.chronologySource;
     assert.ok(source.evidenceText && source.passage && source.accessDate);
@@ -22,6 +24,9 @@ test('yeni kronoloji kayıtları tarihli kanıt ve çalışan kaynak hedefi taş
     assert.notEqual(source.status, 'iddia_dogrulandi');
     assert.ok(notes.some(note => note.id === event.id && note.source.url === source.url));
     assert.ok(html.includes('id="' + event.id + '"'));
+    const detail = fs.readFileSync(path.join(root, 'olaylar', ctx.slugify(event.title), 'index.html'), 'utf8');
+    assert.ok(detail.includes(source.url));
+    assert.ok(detail.includes('Olayı nasıl okumalı?'));
     assert.ok(event.place == null || ctx.window.OM.places.concat(ctx.window.OM.campaign.places).some(p => p.id === event.place));
   }
   const decisions = ['e-kitchener-tahliye', 'e-aralik-onay', 'e-tahliye-ari', 'e-aralik-ocak', 'e-tahliye-sedd'];

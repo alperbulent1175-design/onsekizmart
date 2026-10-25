@@ -943,7 +943,7 @@
     if (!source || source.status !== "rapor_cevrimyazisi_okundu" ||
         !/^(?:[01]\d|2[0-3]):[0-5]\d$/.test(source.time) ||
         !source.evidenceText || !source.accessDate || !/^https:\/\//.test(source.url)) return "Saat doğrulanmadı";
-    return "Raporda " + source.time + " · " + source.kind;
+    return source.time + " · " + source.kind + " (rapor)";
   }
 
   function fillFromNaval(ev, fly) {
@@ -978,7 +978,7 @@
     var place = ev.place ? findPlace(ev.place) : null;
     var href = localHref(eventPageHref(ev));
     var chronologySource = ev.chronologySource;
-    if (chronologySource) href = "/kronoloji-kaynaklari/#" + encodeURIComponent(ev.id);
+    if (chronologySource) href = "/olaylar/" + slugify(ev.title) + "/";
     var accuracy = ev.quiet
       ? "Aralık notu. Ayrı bir muharebe kaydı değildir."
       : (place ? accuracyText(place) : "Haritada ayrı nokta yok.");
@@ -2045,6 +2045,12 @@
     D.events.filter(function (ev) {
       if (sideFilter === "both") return true;
       return ev.side === sideFilter || ev.side === "both";
+    }).sort(function (a, b) {
+      var aKnown = navalTimeLabel(a) !== "Saat doğrulanmadı";
+      var bKnown = navalTimeLabel(b) !== "Saat doğrulanmadı";
+      if (aKnown !== bKnown) return aKnown ? -1 : 1;
+      if (aKnown && bKnown) return a.sourceTime.time.localeCompare(b.sourceTime.time);
+      return 0;
     }).forEach(function (ev) {
       var li = document.createElement("li");
       li.className = ev.side;
@@ -2132,8 +2138,8 @@
       if (ev.chronologySource) {
         var sourceNote = document.createElement("a");
         sourceNote.className = "event-page-link";
-        sourceNote.href = "/kronoloji-kaynaklari/#" + encodeURIComponent(ev.id);
-        sourceNote.textContent = "Kaynak ve inceleme sınırı";
+        sourceNote.href = "/olaylar/" + slugify(ev.title) + "/";
+        sourceNote.textContent = "Olay sayfası";
         li.appendChild(sourceNote);
       }
       var pageHref = eventPageHref(ev);
