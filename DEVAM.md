@@ -11,7 +11,7 @@ Her çalışmada bu dosya, AGENTS.md ve ayrıntılı rapor birlikte okunmalıdı
 
 ## İş durumları
 - R01 · P0 · tamamlandı — Tüm test takımını yeniden güvenilir hâle getir
-- R02 · P0 · yerel hazırlık tamamlandı; yayın ve canlı doğrulama engelli — Canlı ve yerel sürüm farkını kapat
+- R02 · P0 · tamamlandı (25 Ekim açık kullanıcı talebiyle yayınlandı) — Canlı ve yerel sürüm farkını kapat
 - R03 · P0 · devam ediyor — Kanıtsız sayısal iddiaları bütün sitede tara
 - R04 · P1 · bekliyor — 24 açık saat kaydını tek tek değerlendir
 - R05 · P1 · bekliyor — Rapor saatlerini gemi günlükleriyle karşılaştır
@@ -51,3 +51,9 @@ Commit/push/deploy/scraper/dışarı mesaj yok. Katalog şeması korunur. Öncek
 
 ## Açık kullanıcı yayın talebi — 25 Ekim 2026
 Kullanıcı commit, push ve yayın istedi. 158 dosyalık paket hazırlandı; önceki 139 kamuya açık dosya canlıdan yeniden indirildi ve önceki manifest hashlerinin 139/139 ile eşleştiği görüldü. .htaccess kamuya açık değildir; önceki doğrulanmış yerel snapshot kullanıldı. Son testler 258 JavaScript + 18 Python başarılı. R02 canlı gönderim/doğrulama devam ediyor. Otomasyonun genel yayın yasağı sonraki izinsiz çalışmalar için korunur.
+
+## Yayın tamamlandı — 25 Ekim 2026
+- İçerik commit: ed54829; GitHub main gönderisi başarılı. Hostinger hosting_deploy onsekizmart.com için static/deployed döndü.
+- 158 dosyalık paketin 157 kamuya açık dosyası canlıdan tekrar indirildi: 157/157 SHA256 eşleşti; .htaccess kamuya açık olmadığından HTTP hash kontrolüne dahil değil. verification.json yerel deployment dizininde.
+- Canlı tarayıcıda ana sayfanın 7 rapor saati ve yeni olay sayfası bağlantısı görüldü; Mayın tarama girişimleri sayfası tıklanarak açıldı, özet/kanıt/erişim/durum alanları mevcut. Önceki canlıdan alınan geri dönüş kopyası korunuyor.
+- R02 tamamlandı. Otomasyonda sıradaki iş R03 sayısal iddia denetimidir; bu kullanıcı izni sonraki otomatik yayınlara genellenmez.
