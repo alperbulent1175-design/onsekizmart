@@ -1579,3 +1579,6 @@ body.home #q-clear:focus-visible { outline: 2px solid var(--gold); outline-offse
 #commanders-search, #commanders-results, #osmanli, #itilaf, #osmanli .roster li, #itilaf .roster li { scroll-margin-top: calc(var(--nav-h) + 20px); }
 
 body.commanders-index .page-main [hidden] { display: none !important; }
+
+/* Kaynak ve bölüm bağlantılarında başlığı sabit menünün altında görünür tut. */
+.page-main .prose :is(h2, h3)[id] { scroll-margin-top: calc(var(--nav-h, 64px) + 24px); }
