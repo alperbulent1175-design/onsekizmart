@@ -1,0 +1,16 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "url": "https://www.usni.org/magazines/proceedings/1902/january/professional-notes",
+  "publication_date": "1902-01",
+  "upstream_publication_date": "1901-11-10 (metnin atfı)",
+  "event_date": null,
+  "access_date": "2026-10-26",
+  "evidence": "four 12-inch Vickers Mark IX guns;hood8inches;redoubts12inches",
+  "verification": "İlgiliGunsMountsveGunsFiringwebpasajları okundu;1901özgünsayfa/tamsayı/1915cetveli görülmedi",
+  "limits": [
+    "Eğim eşdeğerliği levha kalınlığı değildir",
+    "İkinciltop toplamı bu pasajla desteklenmez",
+    "1915donatımı açık"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "source_url": "https://canakkalesavaslariansiklopedisi.com/3uncu-agir-topcu-alayi/",
+  "author": "Didem İlkem Terzi",
+  "event_date": "1915-03-18",
+  "publication_date": "2024 (madde künyesi)",
+  "access_date": "2026-10-26",
+  "evidence": "18 Mart sarf paragrafı Dardanos için 115 mermi sarfını aktarır; kayıp paragrafı Hasan Hulusi, Mevsuf ve Halim adlarını verir, kesin saat ve kalibre vermez.",
+  "verification": "ikincil_aktarim_okundu_ozgun_ceride_gorulmedi",
+  "limits": [
+    "Sarf gelen isabet değildir.",
+    "60–80 tahmini,17.15 ve30,5cm bu pasajla doğrulanmaz; yanlışlıkları da bu yokluktan kanıtlanmaz.",
+    "Bütün kaynak eserler okunmadı."
+  ],
+  "source_chain": [
+    "ATASE BDH 5633/H6 fih.13 (kaynakçada; görüntü görülmedi)",
+    "Harp Ceridelerine Göre Çanakkale Savaşlarında 3. Ağır Topçu Alayı,2022 (kaynakçada; ilgili sayfalar görülmedi)"
+  ],
+  "render_audit": {
+    "ammo-rows": 0,
+    "fort-rows": 0,
+    "dardanos-cmd": 0,
+    "dardanos-fallen": 0,
+    "note": "Önceki hedef envanteri kodla tekrar karşılaştırıldı; güncel HTML hedef eşleşmesi ayrıca testle korunur. openPlace isabet değerini sayısal göstermiyor."
+  }
+}

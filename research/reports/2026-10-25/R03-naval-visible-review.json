@@ -77,7 +77,10 @@
       "claimVerified": false,
       "evidenceText": null,
       "sourceUrl": null,
-      "limit": "Bu inceleme eski ayrintiyi yanlis diye kanitlamaz; iddia bazinda belge eslestirmesi yoktur. Yeni sayi veya saat uretilmedi."
+      "limit": "Bu inceleme eski ayrintiyi yanlis diye kanitlamaz; iddia bazinda belge eslestirmesi yoktur. Yeni sayi veya saat uretilmedi.",
+      "currentTitle": "Vengeance’ın ateşi kesmesi ve çıkışı",
+      "currentText": "Vengeance’ın 18 Mart seyir günlüğü, geminin akşam 6.29’da ateşi kesip Boğaz dışına yöneldiğini kaydeder. Bu tek geminin kaydıdır; bütün filonun veya Osmanlı bataryalarının ateşi aynı anda kestiğini göstermez.",
+      "followupEvidence": "R06-vengeance-evidence.json; önceki kaynak bulunmadı durumu yalnız eski genel iddia içindir."
     }
   ]
 }

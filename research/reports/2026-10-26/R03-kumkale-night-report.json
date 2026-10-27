@@ -1,0 +1,20 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "priority_reason": "Kumkale emrini sonraki durum bildirimiyle karşılaştırmak",
+  "source_url": "https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_88.pdf#page=27",
+  "document": "Belge2136, basılı38–39/PDF27, madde1",
+  "event_date": "1915-04-25/1915-04-26",
+  "draft_date": "1915-04-26",
+  "publication_date": "1989-08",
+  "access_date": "2026-10-26",
+  "evidence": "şu anda köyün nısfı (yarısı) fırkanın yed-i işgalinde",
+  "verification": "Yerel orta bölüm sayfa görüntüsündeki yayımlanmış aktarım okundu; Osmanlıca asıl bağımsız çözülmedi.",
+  "limits": [
+    "Yarı ifadesi rapor gözlemidir, ölçülmüş coğrafi oran değildir.",
+    "Osmanlıca başlık Beşinci Ordu görünürken Latin aktarım Birinci Ordu yazar; fark çözülmedi.",
+    "Düşman mevcut ve kayıp tahminleri kesinleştirilmedi.",
+    "Belge2135 metin taraması genel tebliğdir, birlik icra raporu yerine kullanılmadı."
+  ],
+  "next": "Belge2136 başlık farkını editoryal hata/özgün okuma karşılaştırmasıyla incele; muharebe sonucu Fransız birlik raporuyla karşılaştır."
+}

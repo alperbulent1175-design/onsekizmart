@@ -1,0 +1,70 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "review_date": "2026-10-26",
+  "verification": "Kaynak pasajı bağlı olmayan eski taslak; tarihsel kanıt değildir",
+  "source_url": null,
+  "event_date": "1915-03-18 taslak bağlamı; iddia bazında doğrulanmadı",
+  "publication_date": null,
+  "consumers": {
+    "support": "app.js support-cards hedefi; mevcut HTMLde hedef yok",
+    "commanders": "D.commanders için çalışma tüketicisi bulunmadı; Ayrıntılı komutan sayfaları ayrı ve korunuyor"
+  },
+  "snapshot": {
+    "support": [
+      {
+        "name": "Korumalı kruvazörler",
+        "detail": "HMS Dublin, Dartmouth, Amethyst, Sapphire; Fransız Henri IV"
+      },
+      {
+        "name": "Muhripler",
+        "detail": "16 İngiliz ve Fransız muhribi (Wear, Colne, Jed, Chelmer vb.) — tarama koruması, perdeleme, tahliye"
+      },
+      {
+        "name": "Mayın tarama",
+        "detail": "Kuzey Denizi trol teknelerinden dönüştürülmüş ~20–25 silahlı trawler"
+      },
+      {
+        "name": "Deniz uçağı",
+        "detail": "HMS Ark Royal — keşif ve atış tanzimi; gizli hattı göremedi"
+      }
+    ],
+    "commanders": [
+      {
+        "name": "Cevat Bey (Çobanlı)",
+        "role": "Müstahkem Mevkii Komutanı",
+        "body": "Ateş disiplinini dayattı, Bouvet batışını gözetleme yerinden izledi, Mecidiye krizine atla indi, akşam Enver Paşa’ya zafer telgrafını çekti."
+      },
+      {
+        "name": "Selahattin Adil Bey",
+        "role": "Kurmay Başkanı",
+        "body": "Telefon ağını ayakta tuttu, seyyar batarya tanzimini yönetti, Cevat sahadayken karargâhı kesti, resmi harp raporunu kaleme aldı."
+      },
+      {
+        "name": "Guido von Usedom",
+        "role": "Boğazlar Genel Müfettişi",
+        "body": "Alman heyetini denetledi, telemetre kalibrasyonunu teyit etti, İstanbul’a ve Liman von Sanders’a teknik raporu yazdı."
+      },
+      {
+        "name": "Johannes Merten",
+        "role": "Tahkimat / ağır topçu danışmanı",
+        "body": "Anadolu Hamidiye’de 355 ve 240 mm Krupp atışını idare etti; Suffren ve Gaulois isabetlerinde, ardından Irresistible–Ocean bombardımanında rol aldı."
+      },
+      {
+        "name": "John de Robeck",
+        "role": "Müttefik filolar komutanı",
+        "body": "Üç hatlı taarruzu yönetti. Bouvet şokuna rağmen C Hattı’nı sürdü; 17.00’de Signal No. 12 ile çekildi."
+      },
+      {
+        "name": "Émile Guépratte",
+        "role": "Fransız filosu",
+        "body": "B Hattı’nı 9.000 m’ye soktu; Suffren ağır hasar, Bouvet battı, Gaulois karaya oturtuldu."
+      }
+    ]
+  },
+  "conflicts": [
+    "Cevat atla Mecidiye ve zafer telgrafı önceki kapsam daraltmalarıyla uyumsuz",
+    "17.00 Signal No12 kesin ifadesi kaynaklı16.50 B hattı emriyle aynı aşama sayılamaz"
+  ],
+  "decision": "İki kullanılmayan taslak dizi boşaltılır; özgün kayıt snapshotta korunur"
+}

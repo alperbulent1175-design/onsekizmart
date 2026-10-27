@@ -1,0 +1,68 @@
+{
+  "task": "R03",
+  "date": "2026-10-27",
+  "status": "bu11alanın taslak sayıları çıkarıldı;genelR03açık",
+  "source_url": null,
+  "verification": "Yerel veri/render incelemesi; tarihsel değer doğrulaması yapılmadı.",
+  "rendering": "openPlace değerleri yazdırmıyor; yalnız truthy alan varsa aynı isabet/personel belge karşılaştırması uyarısını ekliyor. Neutral dolu metin bu davranışı korur.",
+  "guns_field": "js/data.js içinde guns adlı alan bulunmadı; metinler ve meta ayrı kapsamdır.",
+  "changes": [
+    {
+      "id": "mecidiye",
+      "field": "hits",
+      "previous": "80–100 isabet"
+    },
+    {
+      "id": "namazgah",
+      "field": "hits",
+      "previous": "40–50 isabet"
+    },
+    {
+      "id": "rumeli-hamidiye",
+      "field": "hits",
+      "previous": "25–30 isabet"
+    },
+    {
+      "id": "cimenlik",
+      "field": "hits",
+      "previous": "30–40 isabet"
+    },
+    {
+      "id": "anadolu-hamidiye",
+      "field": "hits",
+      "previous": "40–50 isabet"
+    },
+    {
+      "id": "dardanos",
+      "field": "hits",
+      "previous": "60–80 isabet"
+    },
+    {
+      "id": "mesudiye",
+      "field": "hits",
+      "previous": "20–30’ar isabet"
+    },
+    {
+      "id": "tumen-19",
+      "field": "strength",
+      "previous": "~12.000–14.000"
+    },
+    {
+      "id": "tumen-9",
+      "field": "strength",
+      "previous": "~12.000–13.000"
+    },
+    {
+      "id": "tumen-7",
+      "field": "strength",
+      "previous": "~11.000–12.000"
+    },
+    {
+      "id": "tumen-11",
+      "field": "strength",
+      "previous": "~11.000–12.000"
+    }
+  ],
+  "replacement": "Belge karşılaştırması açık",
+  "limits": "Görünmeyen değerler canlıda yayımlanmış iddia olarak sunulmadı. short/meta/note metinleri bu işlemle doğrulanmadı."
+}

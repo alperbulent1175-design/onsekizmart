@@ -1,0 +1,14 @@
+{
+  "task": "R03",
+  "subtask": "Vengeance 1899 dönem taraması",
+  "status": "engelli",
+  "url": "https://graces-guide-s3-live.s3.amazonaws.com/gracesguide/8/82/Er18990728.pdf",
+  "publication_date": "1899-07-28 (arama kaydı; sayfa görüntüsünden teyit edilmedi)",
+  "event_date": null,
+  "attempt_date": "2026-10-26",
+  "evidence": null,
+  "verification": "Belge pasajı ve görüntü okunamadı; arama özeti kanıt sayılmadı.",
+  "blocker": "Web aracı 19292846 bayt boyut sınırı; tekil yerel indirme ağ erişim sınırında başarısız.",
+  "resolution": "Erişilebilir tek sayfa görüntüsü veya farklı kurumsal nüsha. Aynı URLyi sonuçsuz tekrar isteme.",
+  "site_change": "Bu kaynaktan tarihsel sayı aktarılmadı."
+}

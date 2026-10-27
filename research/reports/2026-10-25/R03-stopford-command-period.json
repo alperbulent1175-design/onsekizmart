@@ -1,0 +1,21 @@
+{
+  "task": "R03",
+  "priority_reason": "Birlik numarası ve değişen geçici komuta görevlerini bütün yıla yaymamak.",
+  "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "document_date": "1915-12-11",
+  "event_dates": [
+    "1915-07-24",
+    "1915-08-15"
+  ],
+  "access_date": "2026-10-25",
+  "evidence_quote": "temporarily to succeed Lieutenant-General Hunter Weston",
+  "evidence_summary": "24Temmuz Stopford kendi kolordusuna dönerken DouglasVIIIgeçici komutasını alır;15Ağustos akşamı StopfordIXkomutasını devreder.",
+  "status": "Yayımlanmış raporun ilgili çevrimyazı pasajları okundu; imzalı asıl/atama emri görülmedi.",
+  "limits": [
+    "Temmuzdaki geçiciHelles ve AğustosIXgörevi ayrıldı.",
+    "Görevlendirmenin kesin başlangıç saati uydurulmadı.",
+    "Komutanın performans değerlendirmesi bağımsız kesin hüküm yapılmadı.",
+    "Bütün rapor okunmadı."
+  ],
+  "next": "R03donanma dışı adaylardaki diğer görünür tarih/kuvvet kapsamlarını kontrol et; tüm görevleri tek1915alanına yayma."
+}

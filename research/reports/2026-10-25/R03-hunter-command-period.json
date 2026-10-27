@@ -1,0 +1,34 @@
+{
+  "task": "R03",
+  "priority_reason": "Tarih boyunca değişen komuta görevinin birlik numarasına veya tüm yıla genellenmesini önlemek.",
+  "access_date": "2026-10-25",
+  "sources": [
+    {
+      "url": "https://collection.nam.ac.uk/detail.php?acc=2007-03-8-27",
+      "publication_date": null,
+      "event_period": "1915",
+      "evidence_summary": "29th Division ile Geliboluya gelişi, daha sonra VIII Corps komutası.",
+      "status": "Kurum koleksiyon açıklaması doğrudan okundu; yeni fotoğraf alınmadı."
+    },
+    {
+      "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+      "document_date": "1915-12-11",
+      "event_date": "1915-07-17",
+      "publication_date": null,
+      "evidence_quote": "left the peninsula for a few days’ rest",
+      "evidence_summary": "17 Temmuz ayrılışı; daha sonra sağlık nedeniyle ülkeye gönderiliş.",
+      "status": "İlgili rapor çevrimyazısı okundu; imzalı asıl ve atama emri görülmedi.",
+      "limit": "Ayrılış tarihi resmî görevin sona erme tarihi yapılmadı. Web üst başlığındaki yayın günü/War Office günü farklılığı çözülmedi; kesin gazete yayım tarihi atanmadı."
+    },
+    {
+      "url": "https://searcharchives.bl.uk/catalog/040-001957962",
+      "reference": "Add MS 48356",
+      "publication_date": null,
+      "event_period": "1915-01/1915-07",
+      "evidence_summary": "29. Tümen ve VIII Corps resmî günlükleri; emir, rapor ve diğer ekler.",
+      "status": "Katalog doğrudan okundu, günlük görüntüsü görülmedi."
+    }
+  ],
+  "reading_scope": "İlgili koleksiyon/katalog açıklamaları ve rapor paragrafı; tüm derleme veya günlük okunmadı.",
+  "next": "Atama emri veya tarihli komuta günlükleri ile görev başlangıç-bitişini karşılaştır; 1916 Somme VIII Corps kaydını1915 yerine kullanma."
+}

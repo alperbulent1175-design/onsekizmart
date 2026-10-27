@@ -1,0 +1,27 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "url": "https://www.gutenberg.org/cache/epub/54275/pg54275-images.html",
+  "publication_date": "1914",
+  "digital_publication_date": "2017-03-03",
+  "digital_update_date": "2024-10-23",
+  "access_date": "2026-10-26",
+  "event_date": null,
+  "section": "Swiftsure Class s.68 ve sınıf tablosu",
+  "evidence": "four 10-in., fourteen 7·5-in.",
+  "verification": "İlgili bölüm ve tablo çevrimyazıdan okundu; baskı görüntüsü/bütün eser okunmadı.",
+  "limits": [
+    "1915 fiilî donatım cetveli değil",
+    "Anlatı/tablo bazı zırh bölümlerinde farklı; tek kalınlık çıkarılmadı."
+  ],
+  "supply_source": {
+    "url": "https://www.usni.org/magazines/proceedings/1904/january/professional-notes",
+    "publication_date": "1904-01",
+    "event_date": null,
+    "access_date": "2026-10-26",
+    "evidence": "as soon as the necessary cordite ammunition",
+    "verification": "İlgili web pasajı okundu; United Service Gazette ve Times özgün sayfaları görülmedi.",
+    "limit": "Niyet ve mühimmat sağlama koşulu; teslim/hizmete giriş teyidi değil."
+  },
+  "access_block": "Hansard 29 Şubat1904 soru sayfası ve modern karşılığı cachemiss; arama pasajı site kanıtı yapılmadı."
+}

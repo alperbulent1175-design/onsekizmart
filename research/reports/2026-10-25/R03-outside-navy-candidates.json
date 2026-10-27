@@ -1,0 +1,1200 @@
+{
+  "scope": "Yayın manifestindeki donanma dışı statik HTML p/dd/li içinde rakam+anahtar sözcük taraması; JS metinleri, görseller ve bütün iddialar değildir. Aday eşleşmesi doğruluk/yanlışlık hükmü değildir.",
+  "records": [
+    {
+      "page": "cephede-beslenme/index.html",
+      "text": "Aynı günün başka bir yazısında, 14. Alay’ın başka taburla birlikte bulunan iki bölüğünün iaşesinin sağlanamadığı şikâyeti aktarılır. Yazı, iaşenin sağlanmasını ve sonucun bildirilmesini ister. Böylece yemek verildiğini bildiren bir kaydın yanında, ikmalin aksadığına dair bir şikâyet de görülür. Bu emir, sorunun çözüldüğünü tek başına kanıtlamaz. Kaynak: 11 Mayıs 1915, 05.40 yazısı, s.16.",
+      "candidate_features": [
+        "unit_designation",
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "cephede-beslenme/index.html",
+      "text": "Aynı aktarımda De Vine, 12 Mayıs’ta siper gerisinde mutfak kurulmasından ve sıcak yemek verilmesinden söz eder. Bu kayıt bir askerin bulunduğu yerdeki deneyimidir; bütün İtilaf cephesinin beslenme durumunu veya ordular arasında bir üstünlüğü kanıtlamaz.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "cephede-beslenme/index.html",
+      "text": "29. Tümen çevresindeki iaşe hizmetini anlatan John Graham Gillam, 26 Mayıs 1915 kaydında saha fırınının çalıştığını ve günlük ekmek aldıklarını yazar. Ekmek payının tamamlanmadığını, bisküviyle desteklendiğini de belirtir. Bu, belirli bir yerdeki hizmete ilişkin iaşe subayı tanıklığıdır; bütün Britanya birliklerinin aynı miktarda ekmek aldığını göstermez. Kaynak: Gillam, 26 Mayıs kaydı, s.103–104.",
+      "candidate_features": [
+        "unit_designation",
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "cephede-beslenme/index.html",
+      "text": "Ian Hamilton, yayımlanmış günlüğünün 20 Ağustos 1915 kaydında Seddülbahir, Anzak ve Suvla’daki kantin işinin hızlandırılmasını istediğini anlatır. Burada kantin, askerin olağan tayınının yanında yiyecek satın alabilmesiyle ilgilidir. Bu kayıt, beslenmede çeşitlilik arayışını komuta düzeyinden gösterir. Kaynak: Hamilton, Cilt II, s.123–124.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "cephede-beslenme/index.html",
+      "text": "Birdwood’un Hamilton’a yazdığı mektuplar, ek yiyeceğin sahalara ulaştırılmasındaki başka bir aşamayı gösterir. 20 Ağustos 1915 tarihli metin beklenen kantin gemisinin henüz gelmediğini belirtir. 23 Ağustos metni ise sandıkların Anzak sahasına ve Seddülbahir’e gönderilişini, ayrıca ek malzeme yollanacağı haberini aktarır. Bu yazışmalar gönderimle ilgilidir; her askerin ek yiyeceği teslim aldığını göstermez. Kaynak: Birdwood yazışmaları, PDF12–13.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "cephede-beslenme/index.html",
+      "text": "Beslenme desteği yaralı sevkinde de sürüyordu. Şirket-i Hayriye’nin 12 Mayıs 1915 tarihli yazısı, vapurlarıyla gelen yaralı gazilere çay, gevrek, süt ve ayran gibi ikramlarda bulunulduğunu bildirir. Lapseki’den 7 Ağustos’ta gönderilen ayrı yazı ise iskelede ve vapurlarda dağıtılan yoğurdun sarfiyat belgelerini merkeze sunar. Bunlar birliğin günlük tayın cetveli değildir. İncelenen üst yazıda miktar cetvelleri bulunmadığından toplam tüketim veya yararlanan kişi sayısı çıkarılmadı. Kaynak: Kızılay 90/6 ve 270/58.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "cephede-beslenme/index.html",
+      "text": "Barış Borlat (ed.), Çanakkale Cephesi’nde Askerî Kayıtlara Göre 19 Mayıs 1915 Türk Taarruzu, Cilt I, Kültür ve Turizm Bakanlığı / Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, 2020, s.16, 25 ve31. İncelenen dijital nüsha.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "cephede-beslenme/index.html",
+      "text": "Erişim ve inceleme: 25 Ekim 2026. Kısa kanıt: “The field bakery is in working order now”. Tarihli girişin yayımlanmış metin aktarımı okundu; özgün el yazısı ve baskı görüntüsü karşılaştırılmadı, bütün kitap okunmadı. Yazarın hizmete ilişkin değerlendirmesi bağımsız iaşe denetimi değildir. Fırın kapasitesinden fiilen beslenen kişi sayısı hesaplanmadı.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "fotograf-arsivi/index.html",
+      "text": "Nusret mayın gemisi; AWM künyesinde yaklaşık 1915. Kurum açıklaması bu görüntünün 7–8 Mart gece mayın dökme anı olmadığını belirtir.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "fotograf-arsivi/index.html",
+      "text": "Anzak çıkarması sabahında sağda HMS Queen Elizabeth; kurum tarihi 25 Nisan 1915. Ön tarafta asker taşıyan tekneler çekilmektedir.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "fotograf-arsivi/index.html",
+      "text": "Kanlısırt’ta korunaklı bir siperde Osmanlı askerleri; AWM künyesi yaklaşık 1915 der. Belirli bir taarruz anı olarak sunulmaz.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "fotograf-arsivi/index.html",
+      "text": "AWM kaydına göre Anzak Koyu’na çekilen teknedeki 1. Tümen Muhabere Bölüğü mensupları, 25 Nisan 1915.",
+      "candidate_features": [
+        "unit_designation",
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "fotograf-arsivi/index.html",
+      "text": "Suvla’da tahliyenin ilk aşamasında iskeleden ayrılan askerler; albüm açıklaması Aralık 1915 der. Kesin gün ve son tahliye gecesi olduğu iddia edilmez.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "fotograf-arsivi/index.html",
+      "text": "Kirte Deresi’nde geri dönen yaralılar; kurum kaydının çekim tarihi 9 Mayıs 1915. Fotoğraf, 8 Mayıs taarruzunun ertesi gününe aittir; taarruz anını göstermez.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "inceleme-notlari/index.html",
+      "text": "18 Mart Deniz Muharebesi — Sayfaya özgü kaynak notu mevcut.",
+      "candidate_features": [
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "inceleme-notlari/index.html",
+      "text": "19/25 Şubat, 26 Şubat–3 Mart, 4 Mart ve 17 Nisan başlıkları okundu. Nusret tarihi ve mayın sayısı bu kronolojiden alınmadı; ilgili sayfadaki ayrı kanıtlar esas alındı.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "inceleme-notlari/index.html",
+      "text": "Savunma dağılımı bölümünde Remzi/7. Tümen, Halil Sami/9. Tümen, Mustafa Kemal/19. Tümen ve Rafet/11. Tümen yer alır. Rafet kaydı tek başına Bele soyadını kanıtlamaz.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "inceleme-notlari/index.html",
+      "text": "Kanıt metni: Albay Ali Remzi komutasındaki 7. Tümen",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "inceleme-notlari/index.html",
+      "text": "Anadolu yakasında 11. Tümen ve Weber/15. Kolordu bağı için kullanıldı. Birlik sayıları ile personel kimlikleri bu maddeden genişletilmedi.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "inceleme-notlari/index.html",
+      "text": "Tümen görevi ve 1915 Haziranındaki görevden ayrılma süreci. Ölüm tarihi maddede kesin değildir; kesin ölüm bilgisi üretilmedi.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "inceleme-notlari/index.html",
+      "text": "Kanıt metni: 9’uncu Tümen Komutanlığına Eylül 1914’de atanmıştır.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "inceleme-notlari/index.html",
+      "text": "Yazının girişinde 1. Avustralya Tümeni komutanı Bridges’in ağır yaralanması anlatılır. Yaralanma ile ölüm tarihi aynı olay değildir.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "inceleme-notlari/index.html",
+      "text": "25 Nisan tümen görevi için kullanıldı; sonraki tüm aylarda aynı komuta görevinin sürdüğünü kanıtlamaz.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "inceleme-notlari/index.html",
+      "text": "Hunter-Weston/29. Tümen bağlantısı metinde bulunur. Sonraki kolordu görevi için ayrıca dönem raporları gerekir.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "kaynakca/index.html",
+      "text": "Çanakkale 1915 Belgeleri Işığında Mustafa Kemal Atatürk ve 19. TümenÇanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı · Yayın/derleme · BulunduKayıt sayfasıDoğrudan PDF/katalog URLsi ve sayfa bilgisi ayrıca bulunmalı.Başlık paylaşılan liste sayfasında görüldü. Ayrı kayıt açılmadı.",
+      "candidate_features": [
+        "unit_designation",
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "kaynakca/index.html",
+      "text": "Askeri Kayıtlara Göre Çanakkale Cephesi'nde 19 Mayıs 1915 Türk Taarruzu Cilt 1Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı · Yayın · BulunduKayıt sayfasıİçerik ve sayfa incelemesi yapılmadı.Adres yanıt verdi. Başlık ilk yanıtta bulunamadı.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "kaynakca/index.html",
+      "text": "Askeri Kayıtlara Göre Çanakkale Cephesi'nde 19 Mayıs 1915 Türk Taarruzu Cilt 2Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı · Yayın · BulunduKayıt sayfasıİçerik ve sayfa incelemesi yapılmadı.Adres yanıt verdi. Başlık ilk yanıtta bulunamadı.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "kaynakca/index.html",
+      "text": "Papers relating to Joseph John Talbot HobbsAustralian War Memorial · Dijital dosya · Üst veri kontrol edildi · AWM2018.19.86 / 3DRL/2600Kayıt sayfası1. Avustralya Tümeni topçu kayıtları.Katalog sayfasında başlık görüldü. Belge sayfa sayfa okunmadı.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/aylmer-hunter-weston/index.html",
+      "text": "29. Tümen Komutanı, sonra VIII. Kolordu",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/aylmer-hunter-weston/index.html",
+      "text": "29. Tümen, sonra VIII. Kolordu",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/aylmer-hunter-weston/index.html",
+      "text": "Hunter-Weston, çıkarma aşamasında 29. Tümen komutanıdır. Kaynak ve kanıt kapsamı.",
+      "candidate_features": [
+        "unit_designation",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/aylmer-hunter-weston/index.html",
+      "text": "Hunter-Weston, çıkarma aşamasında 29. Tümen komutanıdır.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/emile-guepratte/index.html",
+      "text": "Fransız deniz tümeni; 18 Mart’ta B Hattı komutanı",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/halil-sami-bey/index.html",
+      "text": "9. Tümen Komutanı",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/halil-sami-bey/index.html",
+      "text": "9. Tümen Komutanı",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/halil-sami-bey/index.html",
+      "text": "9. Tümen",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/halil-sami-bey/index.html",
+      "text": "Halil Sami Bey, 9. Tümen komutanı olarak görev yaptı. Kaynak ve kanıt kapsamı.",
+      "candidate_features": [
+        "unit_designation",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/halil-sami-bey/index.html",
+      "text": "Halil Sami Bey, 9. Tümen komutanı olarak görev yaptı.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/index.html",
+      "text": "Mustafa Kemal19. Tümen, sonra Anafartalar Grubu",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/index.html",
+      "text": "Halil Sami Bey9. Tümen Komutanı",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/index.html",
+      "text": "Rafet Bey11. Tümen Komutanı",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/index.html",
+      "text": "Remzi Bey7. Tümen Komutanı",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/index.html",
+      "text": "William Bridges1. Avustralya Tümeni Komutanı",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/index.html",
+      "text": "Aylmer Hunter-Weston29. Tümen, sonra VIII. Kolordu",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/mustafa-kemal/index.html",
+      "text": "19. Tümen Komutanı; 8/9 Ağustos 1915’ten Anafartalar Grup Komutanı",
+      "candidate_features": [
+        "unit_designation",
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/mustafa-kemal/index.html",
+      "text": "19. Tümen, sonra Anafartalar Grubu",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/mustafa-kemal/index.html",
+      "text": "19. Tümen — genel ihtiyat",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/mustafa-kemal/index.html",
+      "text": "Mustafa Kemal’in 19. Tümen ve Anafartalar Grubu görevleri farklı aşamalardır. Kaynak ve kanıt kapsamı.",
+      "candidate_features": [
+        "unit_designation",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/mustafa-kemal/index.html",
+      "text": "Mustafa Kemal’in 19. Tümen ve Anafartalar Grubu görevleri farklı aşamalardır.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/rafet-bey-bele/index.html",
+      "text": "11. Tümen Komutanı",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/rafet-bey-bele/index.html",
+      "text": "11. Tümen Komutanı",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/rafet-bey-bele/index.html",
+      "text": "11. Tümen",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/rafet-bey-bele/index.html",
+      "text": "11. Tümen komutanının Bele soyadıyla eşleştirmesi doğrulanmadı; başka bir kişiye ait olabilecek doğum ve ölüm alanları kaldırıldı.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/rafet-bey-bele/index.html",
+      "text": "Kumkale–Erenköy Anadolu kıyısı 11. Tümen sahasıdır. 25 Nisan Kumkale çıkarması bu kesime gelir.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/rafet-bey-bele/index.html",
+      "text": "Kaynaklarda 11. Tümen komutanı Rafet Bey adı geçer; Bele soyadıyla kimlik eşleştirmesi bu kayıtlardan kurulamaz.",
+      "candidate_features": [
+        "unit_designation",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/remzi-bey/index.html",
+      "text": "7. Tümen Komutanı",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/remzi-bey/index.html",
+      "text": "7. Tümen Komutanı",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/remzi-bey/index.html",
+      "text": "7. Tümen",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/remzi-bey/index.html",
+      "text": "Makalede Ali Remzi Bey, 7. Tümen komutanı olarak anılır. Kaynak ve kanıt kapsamı.",
+      "candidate_features": [
+        "unit_designation",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/remzi-bey/index.html",
+      "text": "Makalede Ali Remzi Bey, 7. Tümen komutanı olarak anılır.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/william-bridges/index.html",
+      "text": "1. Avustralya Tümeni Komutanı",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/william-bridges/index.html",
+      "text": "1. Avustralya Tümeni Komutanı",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/william-bridges/index.html",
+      "text": "Bridges, 1. Avustralya Tümeni komutanıydı; 15 Mayısta ağır yaralandı. Kaynak ve kanıt kapsamı.",
+      "candidate_features": [
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "komutanlar/william-bridges/index.html",
+      "text": "Bridges, 1. Avustralya Tümeni komutanıydı; 15 Mayısta ağır yaralandı.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "kronoloji-kaynaklari/index.html",
+      "text": "AWM4 23/32/7 · 15. Tabur günlüğü · İlgili kayıt: Görüntü4–5 / yaprak46–47; 9–10 Mayıs1915.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "kronoloji-kaynaklari/index.html",
+      "text": "Günlükte 9 Mayıs için 21.00 planı, 22.30 hücumu; devamında ertesi sabah 06.00’da eski mevziye dönüş ve 07.00 karşı taarruzu ayrılıyor. Bu kayıt tek taburun anlatımıdır; bütün cepheye genellenmez.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "nasil-okunur/index.html",
+      "text": "20 Ekim 2026 tarihli incelemede Alan Başkanlığının deniz muharebeleri anlatısı Erenköy Koyu’ndaki kıyıya paralel 26 mayınlık hat için okundu. Bu anlatı, atlas çizgisinin sayısal koordinatlarını vermez. Corbett’in 18 Mart planında da gemi konumları yaklaşık olarak tanımlanır; plan doğrudan günümüz koordinatlarına aktarılmadı. AWM’deki Ocak 1916 mayın savunması kaydı tarih farkı nedeniyle 18 Mart 1915 çizgilerini doğrulamak için kullanılmadı.",
+      "candidate_features": [
+        "quantity",
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "18 Mart 1915 deniz taarruzunda Bouvet, Irresistible ve Ocean battı; Inflexible ve Gaulois hasar gördü. Ocean’ın mayın isabeti hakkındaki kaynaklar farklı kesinlikte anlatır. Gaulois için raporda geçen Drepano konumu, başka bir ada adıyla kanıtsız eşleştirilmez. Gemi kayıtları ve kanıt metinleri.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "Halil Sami Bey9. Tümen Komutanı",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "Aşağıdaki fotoğraf künyeleri önceki araştırmada kaydedilmiştir. Bunlar harp ceridesi veya bütün anlatıyı doğrulayan belge olarak sunulmaz. Önceki inceleme tarihi 15 Ekim 2026’dır; 16 Ekim 2026’daki yeniden erişim denemesi her iki adreste de HTTP 403 yanıtı verdi. Durum: önceki metadata kaydı mevcut, bu tur yeniden doğrulanamadı.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "Bouvet — IWM HU 103301. HMS AGAMEMNON DURING THE FIRST WORLD WAR. Önceki kayıttaki künye alıntısı: The Bouvet struck a Turkish mine and sank. Önceki kayıt, açıklamada 18 Mart 1915 tarihinin geçtiğini belirtir. Künye batış anlatısıyla ilişkilidir; kesin batış saati, mayın koordinatı, belirli bir mayın hattı veya kesin zayiat toplamı bu notla doğrulanmaz.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "Kaynakların kesinlik farkı — DVA Anzac Portal. Dardanelles strategy and naval operations 1914 to 1915 anlatısının “Nusret the minelayer” bölümünde Ocean için Ocean might have hit a mine too ifadesi kullanılıyor. AWM künyesinin kesin anlatımı ile bu ihtimalli anlatım aynı kesinlikte kabul edilmiyor. İki kaynak, mayın isabetinin mekanizmasını tek başına kesinleştirmek için yeterli sayılmadı.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "Yaklaşık 650 kişilik tahliye sayısı ve kesin batış saati için belge karşılaştırması tamamlanmadı. Tahliye ve gece araması hakkında aşağıda rapor çevrimyazısına dayalı yeni karşılaştırma bulunur. Bu ayrıntılar kısa olay, mevki ve donanma özetlerinde kesin bilgi olarak kullanılmaz. Zaman çubuğundaki mevcut anahtarlar bağlantıları korumak için değiştirilmedi; yeni kesin saat veya tahliye sayısı üretilmedi.",
+      "candidate_features": [
+        "quantity"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "Ek karşılaştırma: 19 Ekim 2026. Durum: rapor çevrimyazısı ve resmî harp tarihinin kitap görüntüsü karşılaştırıldı; özgün gemi raporlarının tamamı incelenmedi. De Robeck raporunun aktarımında Wear, tahliye edilenlerle 16.50’de Queen Elizabeth’e dönmüş durumdadır. Corbett, Naval Operations, cilt II, basılı s. 221 de dönüşü 16.50’de, personelin Wear’dan indirilmesini 17.10’da anlatır. Bunlar Irresistible’dan tahliyenin başlangıç ve bitiş saatleri olarak birleştirilmez. Aynı kitap sayfasındaki 17.50 kaydı, Irresistible’ın terk edilmesiyle ilgilidir; Ocean’ın yaklaşmaya başladığı saat olarak kullanılmaz.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "İnceleme tarihi: 17 Ekim 2026. Durum: koleksiyon açıklaması okundu; özgün gemi raporu ve personel kayıtlarıyla karşılaştırma açık. AWM P04411.003 — Turkish collection of copied photographs açıklamasında Bouvet için at 1.54pm she hit a mine, capsized, and sank ifadesi yer alır. Bu, fotoğrafın üretim saati değil, koleksiyon açıklamasındaki olay anlatısıdır; görsel Nusret’i gösterir.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "Harekât raporunun kurum kopyası: AWM RCDIG1066703, daktilo s. 45 (görüntü dosyası page63), patlamayı 13.54 kaydında anlatır; ilk patlamadan itibaren iki dakika içinde batma ve only 66 survivors were picked up ifadesi bulunur. Bu, rapordaki kurtarma bildirimidir; imzalı özgün rapor veya sonradan kesinleşmiş personel cetveli değildir. Gönderilen araştırma özetindeki 13.58 ve 100–110 saniye ayrıntıları bu sayfada yazmaz.",
+      "candidate_features": [
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "Sonraki kurum yayını: Études marines, no. 4, Mart 2013, basılı s. 49 / PDF s. 51 fotoğraf açıklamasında 56 survivants sur 721 hommes à bord yazar: gemideki 721 kişiden 56 kurtulan. Bu sayfada sayının dayandığı özgün personel cetveli gösterilmez; 1915 tarihli bir zayiat raporu olarak sunulmaz.",
+      "candidate_features": [
+        "quantity",
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "Geçici bildirim, kurtarma kaydı, karada bulunan personel ve sonraki yayınların toplamları aynı alan değildir. Bu farklılıklar “48–66 kurtulan” gibi tek bir kesin aralığa çevrilmedi. Nihai toplam için ad listeleri ve özgün personel kayıtlarıyla karşılaştırma gerekir.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "16.11 — Inflexible’ın bildirimi: basılı 5503’te mayın isabetini bildirdiği kaydedilir. Bildirim zamanı, isabetin aynı anda olduğunu kanıtlamaz.",
+      "candidate_features": [
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "16.50 — Wear’in dönüşü: basılı 5503–5504’te, Irresistible’dan alınan personelle Queen Elizabeth’e dönüş anlatılır. Bu saat tahliyenin başlangıcı veya 16.50–17.20 tahliye aralığının kanıtı değildir.",
+      "candidate_features": [
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "18.05 — Ocean’ın isabet kaydı: ek rapor mayın isabetini ve aynı sırada dümen hasarını anlatır. Üst yazıda neden daha ihtiyatlı olarak torpido veya mayın diye geçer.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "Sayfa 42’nin arşiv görüntüsünde aynı bildirim ifadesi okunur. Görüntü dosyasındaki page60 adı ile belge üzerindeki 42 numarası farklı alanlardır. Bu, imzalı özgün gemi raporu olduğu doğrulanmış bir nüsha değildir. Bu ifade mayın isabetinin bildirilme zamanını anlatır; isabetin aynı anda gerçekleştiğini kanıtlamaz. Atlasın 14:14 kaydıyla saat sistemi ve olay/bildirim ayrımı karşılaştırılmadan yeni kesin saat atanmadı. Önceki kısa anlatımdaki 39 ölü ve 14:25 ayrılış ifadeleri belge dayanağı tamamlanmadığı için çıkarıldı; bu işlem farklı bir zayiat sayısını doğrulamıyor.",
+      "candidate_features": [
+        "quantity"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "Kitap karşılaştırması: 19 Ekim 2026. Durum: resmî harp tarihi sayfası görüntüden okundu. Corbett, cilt II, basılı s. 222, Inflexible’ın demirlemesini mayın isabetinden bir buçuk saat sonra diye anlatır. Göreli süre, doğrudan yazılmış kesin bir 17.30 saat kaydı değildir; saat sistemleri ve isabet anı ayrıca karşılaştırılmalıdır.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "16.11: Inflexible’ın mayın isabeti bildirimi; patlamanın tam anı değildir.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "text": "Ek kontrol: 20 Ekim 2026. Durum: saat açıklaması resmî yayımın basılı 5502 numaralı sayfasından da okundu. Resmî raporun tarih ve saat ayrımı yukarıda gösterilir. Bu açıklama başka kaynakların saat sistemini belirlemez. Emir verme, planlanan başlangıç, isabet, bildirim ve batış zamanları ayrı olaylar olarak karşılaştırılmalıdır. Atlasın mevcut saatleri bu notla topluca doğrulanmış veya dönüştürülmüş sayılmaz.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/anafartalar-tahliyesi/index.html",
+      "text": "Suvla’da tahliyenin ilk aşamasında iskeleden ayrılan askerler; albüm açıklaması Aralık 1915 der. Kesin gün ve son tahliye gecesi olduğu iddia edilmez.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-cikarmasi/index.html",
+      "text": "Şefik Aker, 1935’te yayımlanan anlatısında, çıkarma haberinin telefonla alınmasını, birliklerin hazırlanmasını ve tümen hareket emrinin beklenmesini ayrı aşamalarla aktarır. Ardından taburların yürüyüş düzenini ve arazinin yarattığı güçlükleri anlatır. Bu bakış, çıkarma haberinin duyulmasıyla birliğin muharebe alanına ulaşmasının aynı an olmadığını gösterir.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-cikarmasi/index.html",
+      "text": "Şefik Aker, Çanakkale–Arıburnu Savaşları ve 27. Alay, Askerî Mecmua Tarih Kısmı, sayı 40, 1935; basılı s. 31–34, fiziksel PDF s. 21–23. İncelenen tarama. Kısa kanıt: “Ben bir taraftan telefonla tümen komutanlığından emir bekliyordum.”",
+      "candidate_features": [
+        "unit_designation",
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-cikarmasi/index.html",
+      "text": "William Bridges1. Avustralya Tümeni Komutanı",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-cikarmasi/index.html",
+      "text": "AWM kaydına göre Anzak Koyu’na çekilen teknedeki 1. Tümen Muhabere Bölüğü mensupları, 25 Nisan 1915.",
+      "candidate_features": [
+        "unit_designation",
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-cikarmasi/index.html",
+      "text": "Anzak çıkarması sabahında sağda HMS Queen Elizabeth; kurum tarihi 25 Nisan 1915. Ön tarafta asker taşıyan tekneler çekilmektedir.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "11 Mayıs — ateş desteği ve takviye ihtiyacı: Mustafa Kemal adına aktarılan değerlendirme, sağlamlaştırılmış düşman siperlerine karşı eldeki topçunun yetersizliğini vurgular; ağır topçu ve bir tümen taze kuvvet ister. Bu, komutanın ihtiyaç değerlendirmesidir; istenen desteğin bütünüyle sağlandığını göstermez.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "13 Mayıs — birlikleri hücuma hazırlama: Tümen emri, gelen ikmal askerleriyle birliklerin düzenlenmesini, karşı mevzilerin güçlü ve zayıf noktalarının keşfini ve askerlerin hücum arazisini incelemesini ister. Komutanların hazırlıklarını tamamladıklarını bildirmeleri de emredilir. Bu talimat, hazırlığın fiilen tamamlandığına ilişkin sonuç raporuyla aynı değildir.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "17 Mayıs — komuta düzenini yeniden kurma: Esat Paşa adına yayımlanan emir, azalan ve birbirine karışan birlikleri, gelen ikmal askerlerini ve subayları birlikte ele alarak Kuzey Grubu’nun yeniden düzenlenmesini açıklar. Taarruz öncesindeki komuta yapısı bu nedenle önceki günlerle aynı kabul edilmemelidir.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "Barış Borlat (ed.), Askerî Kayıtlara Göre Çanakkale Cephesi’nde 19 Mayıs 1915 Türk Taarruzu, cilt I, Ankara, 2020. İncelenen I. cilt nüshası. Basılı sayfa ile fiziksel PDF sayfası bu pasajlarda aynıdır.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "11 Mayıs: s. 32–35; kısa kanıt: “ağır topçu ile ve bir tümen taze kuvvetle takviye etmek”.",
+      "candidate_features": [
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "Yayımlanmış 18 Mayıs tarihli 19. Tümen emrinde ve Bean’in resmî harp tarihi anlatısında, ertesi sabah saat 03.30 için planlanan bir hücum görülür. Bu, planın saatidir; bütün birliklerin fiilen aynı anda harekete geçtiğini göstermez.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "19. Tümen emrinin ekleri, birliklerin birbirleriyle ve gerideki karargâhla bağlantıyı korumasını, ilerleyen alayların telefon hatlarını uzatmasını ve sargı mahallerinin harekete göre öne alınmasını da ister. Böylece hazırlığın yalnız hücumdan ibaret olmadığı; haberleşme ve yaralı taşıma düzenini de kapsadığı anlaşılır. Emirde istenenler, sahada tamamlandığı kanıtlanmış işler gibi okunmamalıdır.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "Barış Borlat (ed.), Askerî Kayıtlara Göre Çanakkale Cephesi’nde 19 Mayıs 1915 Türk Taarruzu, cilt I, Ankara, 2020; basılı ve fiziksel PDF s. 292–293. İncelenen I. cilt nüshası. Kısa kanıt: “kıtalar birbirleri ile ve geriyle irtibatı muhâfaza edecekler”.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "İnceleme: 18 Ekim 2026 · Durum: yayın çevriyazısı görüntüden okundu; özgün emirle karşılaştırma açık. Aynı cildin 310. sayfasındaki, 16. Tümen’den 125. Alay’a yöneltilmiş başka bir hazırlık emrinde 03.50 yazımı bulunur. Bu farkın nedeni belirlenmedi; bütün cepheye tek bir fiilî başlangıç saati uygulanmadı. Yayının yöntem notu tarih ve saatlerin düzenlendiğini belirtir.",
+      "candidate_features": [
+        "unit_designation",
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "5. Tümen: Quinn’s ve German Officers’ Trench karşısındaki kesim.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "2. Tümen: Johnston’s Jolly kesimi.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "16. Tümen ve 33. Alay: Lone Pine ve güneyindeki uzantılar.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "48. Alay ceridesinin yayımlanmış çevriyazısında, 16. Tümen Komutanı Rüşdü adına aktarılan ilk telefon emri, tutulan kesimlerde uygun mevzilerin tahkimiyle taarruzun durdurulmasını ister. Metin, uygun durumda bulunan birlikler için ayrıca koşullar belirtir; bütün hareketleri tek bir cümleyle açıklamaz.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "Sonraki telefon emri ise 48., 125. ve 47. alayların geri hareketlerini sıraya koyar. Bunun ardından 48. Alay Komutanı Ahmed adına taburlara verilen ek talimatta koordinasyon ve en ilerideki hatların en son ayrılması istenir. Böylece taarruzun durdurulması, yeni düzenin emredilmesi ve emrin sahada uygulanması ayrı aşamalar olarak izlenebilir.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "Barış Borlat editörlüğündeki Askerî Kayıtlara Göre Çanakkale Cephesi’nde 19 Mayıs 1915 Türk Taarruzu II. ciltte, 47. Alay’a yöneltilmiş benzer bir geri hareket emri yer alır. İki yayının saat ve yer adı yazımları ile bazı görev ifadeleri arasında farklar vardır. Bu nedenle benzer metinler bağımsız iki doğrulama olarak sayılmaz; kesin saat veya harita rotası oluşturmak için özgün belgeler karşılaştırılmalıdır.",
+      "candidate_features": [
+        "unit_designation",
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "Yayımlanmış ceridenin basılı 165 / fiziksel PDF 182. sayfasında taburlar ve mitralyöz bölüğü ayrı satırlarda yer alır. Cetvel, subayları ve “silâhendaz” başlığı altındaki askerleri ayırır; şehit, yaralı ve kayıp başlıklarının kapsamı da birlikte okunmalıdır. Bu belge birliğin kuruluş kadrosunu veya bütün cephedeki zayiatı gösteren bir toplam cetveli değildir.",
+      "candidate_features": [
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "William Bridges1. Avustralya Tümeni Komutanı",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "18 Ekim 2026 · Osmanlı belge aktarımı: 48. Alay yayınının tahkim/durdurma, kademeli geri hareket ve uygulama bildirimi içeren çevriyazı sayfaları ile tabur bazındaki zayiat cetveli görüntüden incelendi. Bunlar yukarıda kaynak türleri ayrılarak sunulmuştur; özgün Osmanlıca belgelerin bağımsız doğrulaması tamamlanmış değildir.",
+      "candidate_features": [
+        "unit_designation",
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "text": "Açık kalanlar: Üst komutanlıktan gelen ilk durdurma emrinin tam zinciri, emirlerin iletim ve uygulanma saatleri, bütün birliklerin mevcut ve zayiat cetvelleriyle karşılaştırma tamamlanmadı. Bütün siperlerin 25 Nisan akşamıyla aynı kaldığı iddiası ve birliklerin günlük dağılımı doğrulanmadı.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-gomme-ateskesi/index.html",
+      "text": "İngiliz resmî harp tarihini yazan Aspinall-Oglander, 20 Mayıs akşamında yaralıların toplanması için başlayan yerel teması, daha sonra yürütülen resmî görüşmelerden ayırır. Anlatısına göre sedyecilerin hatlar arasına çıkması sırasında yaralılar taşınmış ve sınırlı defin yapılmıştır. Bu yerel temas, 24 Mayıs’taki düzenlenmiş ateşkesle aynı aşama değildir.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-gomme-ateskesi/index.html",
+      "text": "Monash evrakındaki 23 Mayıs 1915 tarihli Yeni Zelanda ve Avustralya Tümeni emri, ertesi sabah için hazırlığın nasıl yapıldığını gösterir. Emir, anlaşmaya ilişkin talimatların ilgili birliklere duyurulmasını ve çalışma ekiplerini yönetecek subaylara birer kopya verilmesini ister. Böylece görüşmelerde alınan kararlar, sahada görev yapacak birliklerin hazırlığına dönüşür.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-gomme-ateskesi/index.html",
+      "text": "Çanakkale Cephesi sitesindeki 57. Alay tutanakları aktarımı, gömme ve yaralı nakline ilişkin anlaşma metninin yanında birliklere gönderilen uygulama emirlerini de içerir. Bu aktarım, ateşkesi yalnız bir fotoğraf üzerinden değil, talimat ve raporları karşılaştırarak araştırmak için bir başlangıçtır. 57. Alay tutanakları — web aktarımı.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-gomme-ateskesi/index.html",
+      "text": "William Bridges1. Avustralya Tümeni Komutanı",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ariburnu-tahliyesi/index.html",
+      "text": "William Bridges1. Avustralya Tümeni Komutanı",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/birinci-kirte-muharebesi/index.html",
+      "text": "NZHistory / Manatū Taonga — Stalemate, “Battle of Krithia” bölümü. Kanıt ifadesi: An attack by British and French forces on 28 April; aynı cümle ilerlemenin sınırlı kaldığını anlatır. Bölüm Kirte köyü ile Achi Baba tepesini ayrı hedefler olarak belirtir. Kaynakta sayılar bulunsa da bu incelemede muharip mevcut veya zayiat toplamı aktarılmadı.",
+      "candidate_features": [
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/conkbayiri-muharebesi/index.html",
+      "text": "Mustafa Kemal19. Tümen, sonra Anafartalar Grubu",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/dis-tabyalarin-bombardimani/index.html",
+      "text": "Aylmer Hunter-Weston29. Tümen, sonra VIII. Kolordu",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ikinci-kirte-muharebesi/index.html",
+      "text": "28 Nisan’daki ilk girişimin ardından Kirte ve Achi Baba yönünde yeni bir taarruz hazırlandı. AWM, aradaki dönemde İtilaf kuvvetlerinin Arıburnu’ndan gelen Avustralya ve Yeni Zelanda askerleriyle de takviye edildiğini belirtir. Bu, iki çıkarma sahasının sonraki harekâtlarda birlik aktarımıyla birbirine bağlandığını gösterir.",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ikinci-kirte-muharebesi/index.html",
+      "text": "Kaynaklar: AWM E84361 ve DVA Anzac Portal. İnceleme: 18 Ekim 2026 · Kurum kayıtları yeniden okundu; özgün birlik raporlarıyla karşılaştırma açık. Kesin hareket hattı, yeni zayiat veya mevcut sayısı eklenmedi.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/ikinci-kirte-muharebesi/index.html",
+      "text": "Kirte Deresi’nde geri dönen yaralılar; kurum kaydının çekim tarihi 9 Mayıs 1915. Fotoğraf, 8 Mayıs taarruzunun ertesi gününe aittir; taarruz anını göstermez.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/index.html",
+      "text": "Mayın tarama girişimleri1–17 Mart 1915",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/index.html",
+      "text": "Yaralılar Mısır’a ulaşıyor29 Nisan 1915",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/kanlisirt-muharebesi/index.html",
+      "text": "Kanlısırt’ta korunaklı bir siperde Osmanlı askerleri; AWM künyesi yaklaşık 1915 der. Belirli bir taarruz anı olarak sunulmaz.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/kumkale-oyalama-cikarmasi/index.html",
+      "text": "Osmanlı tarafında Anadolu kıyısı XV. Kolordu’nundur. Kolordu komutanı Weber Paşa’dır. Kumkale–Erenköy şeridini 11. Tümen tutar; komutan Rafet Bey’dir. 5. Ordu’nun komutanı Liman von Sanders’tır. Yarımada tarafı ayrıdır; Esat Paşa’nın 3. Kolordu’su Boğaz’ın Rumeli yakasındadır. Kumkale çıkarması, yarımadadaki 9. Tümen’in değil, 11. Tümen’in sahasına gelir.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/kumkale-oyalama-cikarmasi/index.html",
+      "text": "Sabah Fransız birliği Kumkale kıyısına çıkar. Amaç, Anadolu yakasında bir kuvvet göstermek ve Boğaz’ın bu kapısını yoklamaktır. Kalıcı bir cephe açmak değildir. 11. Tümen kesiminde çatışma olur. Harekâtın sınırlı amacı, kalıcı bir Anadolu köprübaşı kurma hedefinden ayrı değerlendirilmelidir (amaç ve geri çekilme kaynak notu).",
+      "candidate_features": [
+        "unit_designation",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/kumkale-oyalama-cikarmasi/index.html",
+      "text": "Kumkale’deki sınırlı harekât ve sonrasındaki geri çekilme, yarımadadaki devamlı cephelerden ayrı ele alınır. Kumkale yine 11. Tümen sahasındadır. Asıl cepheler Seddülbahir kumsallarında ve Arıburnu’nda kalır. Harita işareti Kumkale’dedir.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/majestic-batar/index.html",
+      "text": "Aylmer Hunter-Weston29. Tümen, sonra VIII. Kolordu",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+      "text": "Nusret’in Erenköy Koyu’ndaki mayın dökümü bu sayfada 8 Mart 1915 tarihiyle ele alınır. Tarihi Alan Başkanlığının anma haberi, 8 Mart sabahı Erenköy Koyu’na 26 mayın döküldüğünü belirtir. AWM koleksiyon açıklaması da 8 Mart’ın erken saatlerini ve 26 mayını kaydeder (kaynaklar ve inceleme durumu).",
+      "candidate_features": [
+        "quantity",
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+      "text": "Bu sayfadaki mayın dökümü ile 18 Mart Deniz Muharebesi ayrı olaylardır. Batış, hasar ve kaynakların farklı kesinlikte anlattığı ayrıntılar 18 Mart sayfasının kaynak notlarında ele alınır. Buradaki açıklamalar, atlasın bütün saat ve gemi kayıtlarının doğrulandığı anlamına gelmez.",
+      "candidate_features": [
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+      "text": "Nusret mayın gemisi; AWM künyesinde yaklaşık 1915. Kurum açıklaması bu görüntünün 7–8 Mart gece mayın dökme anı olmadığını belirtir.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+      "text": "İnceleme tarihi: 16 Ekim 2026. Durum: kurum metinleri okundu; özgün mayın döküm raporuyla karşılaştırma tamamlanmadı. Aşağıdaki kayıtlar kurum ana sayfası değil, ilgili metinlerin doğrudan adresleridir.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+      "text": "Tarih ve sayı — Tarihi Alan Başkanlığı. Nusrat Mayın Gemisinde Tören Düzenlendi, 8 Mart 2025 tarihli haber. Kanıt ifadesi: 8 Mart 1915 sabahı, Erenköy Koyu’na, 26 mayını. Bu bir anma haberidir; dönemin harp ceridesi değildir.",
+      "candidate_features": [
+        "quantity",
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/quinns-post-siper-baskini/index.html",
+      "text": "15. Taburun günlüğü 9 Mayıs için 21.00 planını ve hücumun 22.30’a ertelenmesini ayırır. Devam sayfası eski mevziye ertesi sabah 06.00’da dönüşü, ardından 07.00 karşı taarruzunu anlatır. Bunlar günlüğün yerel kayıtlarıdır; saat sistemi karşı tarafla kalibre edilmedi.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/quinns-post-siper-baskini/index.html",
+      "text": "AWM4 23/32/7 · 15. Tabur günlüğü. İlgili bölüm: Görüntü4–5 / yaprak46–47; 9–10 Mayıs1915.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/saros-gosterisi/index.html",
+      "text": "7. Tümen",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/saros-gosterisi/index.html",
+      "text": "Remzi Bey7. Tümen Komutanı",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/seddulbahir-cikarmasi/index.html",
+      "text": "AWM’nin sergi anlatısına göre İngiliz 29. Tümeni, yarımadanın güney ucunu ele geçirmek ve buradan ilerlemekle görevlendirilmişti. Bu görev, yalnız kumsala çıkmayı değil, kıyıdan sonraki ilerlemeyi de kapsıyordu.",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/seddulbahir-cikarmasi/index.html",
+      "text": "Aylmer Hunter-Weston29. Tümen, sonra VIII. Kolordu",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/seddulbahir-cikarmasi/index.html",
+      "text": "Australian War Memorial — Dawn of the Legend: 25 April 1915, The British landings. Kanıt ifadesi: The British troops came ashore at five beaches. Metin 29. Tümen’in görevini, V ve W kumsallarındaki çarpışmaları ve V’de River Clyde kullanımını anlatır. Bu bir kurum sergi anlatısıdır; bütün komuta, birlik konumu ve kesin saat ayrıntılarının belgesi olarak kullanılmadı.",
+      "candidate_features": [
+        "unit_designation",
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/seddulbahir-tahliyesi/index.html",
+      "text": "Aylmer Hunter-Weston29. Tümen, sonra VIII. Kolordu",
+      "candidate_features": [
+        "unit_designation"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "olaylar/triumph-batar/index.html",
+      "text": "William Bridges1. Avustralya Tümeni Komutanı",
+      "candidate_features": [],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "saglik-ve-tahliye/index.html",
+      "text": "Esenkaya'nın araştırması, 5 Mayıs 1915 tarihli bir yazıda Gülnihal ve başka vapurlar için yaralı taşıma görevlerinin bildirildiğini aktarır. Bu, hizmetin nasıl düzenlenmesinin istendiğini gösterir; aynı gün tamamlanmış bir seferin kaydı değildir.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "saglik-ve-tahliye/index.html",
+      "text": "Aynı araştırmada, 21–22 Kasım 1915 gecesi Menzil Başhekimliğinden Sirkeci Sevk-i Mecruhin Komisyonuna gönderilen bir telgraf aktarılır. Telgraf, yaralıların Akbaş'tan Gülnihal ile İstanbul'a hareket ettiğini bildirir. Böyle bir hareket bildirimi, görevlendirmeden farklıdır; İstanbul'a varış ve hastaneye kabul için ayrıca kayıt gerekir.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "saglik-ve-tahliye/index.html",
+      "text": "Lokman Erdemir, “Çanakkale Savaşı Sırasında İstanbul Hastanelerinde İlk Sağlık Hizmetleri ve Şehitlerin Defni”, Fırat Üniversitesi İlahiyat Fakültesi Dergisi 17/1 (2012), s.51–73. Tam metin PDF.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "sozluk/index.html",
+      "text": "Osmanlı mayın gemisi. Tarihi Alan Başkanlığının anlatısı, 7/8 Mart 1915 gecesi Erenköy’de kıyıya paralel mayın hattı kurduğunu belirtir.Nusret kaynak incelemesi · Tarihi Alan anlatısı ve kapsamı",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "sozluk/index.html",
+      "text": "25 Ekim 2026 · Tanımların çoğu atlasın okuma ve karşılaştırma kurallarını açıklar; tarihî bir belgeden birebir alıntı değildir. Birliklerin personel sayıları veya her ordunun değişmez teşkilatı bu sözlükten çıkarılmaz. Aşağıdaki kurum metinlerinin yalnız belirtilen pasajları incelendi.",
+      "candidate_features": [
+        "date_or_year"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "sozluk/index.html",
+      "text": "AWM — Unit and Commander’s War Diaries, Background ve Content: günlük faaliyet, tarih/konum ve eklerde emir, rapor, mevcut ve zayiat cetvelleri. Güncelleme: 14 Ekim 2024; erişim: 25 Ekim 2026. Durum: belge türü rehberi okundu; bütün Osmanlı ceridelerinin aynı biçimde tutulduğunu kanıtlamaz.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    },
+    {
+      "page": "sozluk/index.html",
+      "text": "Tarihi Alan Başkanlığı — Deniz Savaşları: Nusret’in Erenköy’de hat kurmasıyla ilgili paragraf. Olay: 7–8 Mart 1915; yayın tarihi belirtilmiyor; erişim: 25 Ekim 2026. Durum: kurumsal özet okundu; özgün mayın cetveli veya kesin koordinat kanıtı değildir.",
+      "candidate_features": [
+        "date_or_year",
+        "citation_context"
+      ],
+      "review_status": "otomatik_aday_siniflamasi_tarihsel_hukum_degil"
+    }
+  ],
+  "feature_counts": {
+    "quantity": 6,
+    "unit_designation": 67,
+    "date_or_year": 57,
+    "citation_context": 40
+  },
+  "classification_note": "Etiketler aynı pasajda birlikte bulunabilir; tarih/birlik numarası nicelik sayılmaz. Özgün belge incelemesinin yerine geçmez."
+}

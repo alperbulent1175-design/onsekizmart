@@ -1,0 +1,17 @@
+{
+  "task": "R05",
+  "status": "devam ediyor",
+  "source_url": "https://s3.amazonaws.com/oldweather/ADM53-45338/ADM%2053-45338-012_0.jpg",
+  "event_date": "1915-03-18",
+  "document_date": "1915-03-18",
+  "publication_date": null,
+  "access_date": "2026-10-26",
+  "evidence": "5.55PM Closed Ocean; proceeded alongside;6.40leftOcean;6.50returned;7.11leftOcean",
+  "verification": "Başlık,tarih,ilgiliPMsatırları görüntüden yenidenokundu",
+  "limits": [
+    "Tamcilt/tasdik bu partide okunmadı",
+    "Jed17.55,Colne18.00,rapor18.05farkı çözülmedi",
+    "Ayrı tahliyegrupları toplanmadı",
+    "Gece aramasına dışarıdan saat eklenmedi"
+  ]
+}

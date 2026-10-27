@@ -1,0 +1,142 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "review_date": "2026-10-26",
+  "scope": "ammo/spend/fortHits/dardanosPeople; mevcut HTML hedefleri yok, kaynak pasajları alanlara bağlı değil",
+  "verification": "Doğrulanmamış eski taslak; tarihsel kanıt değildir.",
+  "source_url": null,
+  "event_date": "1915-03-18 (taslak bağlamı; iddia bazında doğrulanmadı)",
+  "publication_date": null,
+  "decision": "Eski değerler araştırma kaydında korunur; çalışan veri alanları boş bırakılır. Diğer görünür sayılar için R03 sürer.",
+  "snapshot": {
+    "ammo": [
+      {
+        "k": "Toplam namlu",
+        "tr": "~170–190 (sabit + seyyar)",
+        "al": "~270–300 (18 zırhlının ana/ikincil)"
+      },
+      {
+        "k": "Ağır kalibre",
+        "tr": "~80 (210–355 mm Krupp)",
+        "al": "~70 (305–381 mm deniz topu)"
+      },
+      {
+        "k": "Orta / hafif",
+        "tr": "~100 (120–150 mm obüs ve sahra)",
+        "al": "~200 (102–234 mm seri)"
+      },
+      {
+        "k": "Menzil",
+        "tr": "Krupp 11–14 km; seyyar 6–8 km",
+        "al": "Queen Elizabeth 20+ km; diğer 13–16 km"
+      },
+      {
+        "k": "Ateş hızı",
+        "tr": "Düşük–orta; el doldurma, vinç",
+        "al": "Yüksek; hidrolik taret, asansör"
+      },
+      {
+        "k": "Stok",
+        "tr": "Kritik; gün sonunda 2–3 salvo",
+        "al": "Ambarlar dolu; ikmal sorunu yok"
+      },
+      {
+        "k": "Mayın",
+        "tr": "~400 (10 enlemesine + 26 paralel)",
+        "al": "Zayıf trol taraması, ters akıntı"
+      }
+    ],
+    "spend": {
+      "alliedDay": "3.000–3.500 (ağır + orta)",
+      "alliedMonth": "19 Şubat–18 Mart toplamı 20.000+",
+      "turkDay": "2.000–2.200 (ağır ~800, seyyar ~1.200–1.400)",
+      "hitsOnForts": "Doğrudan tabya sahasına ~400–500 isabet (%15’ten az)",
+      "why": "Toprak bonetler HE etkisini emdi. Duman, toz ve şarapnel atış tanzimini bozdu."
+    },
+    "fortHits": [
+      {
+        "name": "Rumeli Mecidiye",
+        "loc": "Kilitbahir",
+        "n": "80–100",
+        "d": "Kışla yıkıldı, vinçler çöktü, personel zayiatı en yüksek"
+      },
+      {
+        "name": "Dardanos",
+        "loc": "Erenköy açığı",
+        "n": "60–80",
+        "d": "Siper ve komuta yeri yerle bir; Hasan ve Mevsuf şehit"
+      },
+      {
+        "name": "Anadolu Hamidiye",
+        "loc": "Çanakkale",
+        "n": "40–50",
+        "d": "2 top geçici devre dışı; cephanelik infilakı"
+      },
+      {
+        "name": "Namazgâh",
+        "loc": "Kilitbahir",
+        "n": "40–50",
+        "d": "Bonetler dayandı; 1 top hasarlı"
+      },
+      {
+        "name": "Çimenlik",
+        "loc": "Çanakkale",
+        "n": "30–40",
+        "d": "Sur ve avlu; patlamamış 355 mm mermi duvarda"
+      },
+      {
+        "name": "Rumeli Hamidiye",
+        "loc": "Kilitbahir güneyi",
+        "n": "25–30",
+        "d": "Siper hasarı; toplar ateşe devam"
+      },
+      {
+        "name": "Mesudiye / Yıldız / Baykuş",
+        "loc": "Her iki yaka",
+        "n": "20–30’ar",
+        "d": "Çevre isabetleri; mevziler toparlandı"
+      }
+    ],
+    "dardanosPeople": {
+      "cmd": [
+        {
+          "r": "Grup / tabur komutanı",
+          "n": "Yüzbaşı (veya Binbaşı) Rodoslu Mithat Bey"
+        },
+        {
+          "r": "Batarya komutanı",
+          "n": "Üsteğmen Kilitbahirli Hasan Hulusi Efendi — 18 Mart şehit"
+        },
+        {
+          "r": "Rasat zabiti",
+          "n": "Teğmen Trablusgarplı Mehmet Mevsuf Efendi — 18 Mart şehit"
+        },
+        {
+          "r": "Telefon / irtibat",
+          "n": "İhtiyat Zâbiti Abdülkadir Kemali Efendi (Öğütçü)"
+        },
+        {
+          "r": "Batarya zabiti",
+          "n": "Mülâzım Tevfik Efendi (yaralı); İhtiyat Mülâzımı İrfan Efendi"
+        },
+        {
+          "r": "Komutayı devralan",
+          "n": "Yüzbaşı Muhittin Bey"
+        }
+      ],
+      "fallen": [
+        "Telefon Çavuşu İsmet (İsmail) Efendi — İstanbul",
+        "Telefon Çavuşu Feyzi Çavuş — İstanbul",
+        "Top Çavuşu Mustafa Çavuş (Dursun oğlu) — İnebolu / Kastamonu",
+        "Onbaşı Halil İbrahim — Balıkesir / Bigadiç",
+        "Er Halil oğlu Ali — Çanakkale / Ezine",
+        "Er Mehmet oğlu Hasan — Bursa / İnegöl",
+        "Er İsmail oğlu Ahmet — Kastamonu / Cide",
+        "Er Halil oğlu Mustafa — Balıkesir / Havran",
+        "Er Hüseyin oğlu Ahmet — Konya / Bozkır",
+        "Er Mehmet oğlu Abdullah — Manisa / Kırkağaç",
+        "Er Recep oğlu Mustafa — Çanakkale / Biga"
+      ]
+    }
+  }
+}

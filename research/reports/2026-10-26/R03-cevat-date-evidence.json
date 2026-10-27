@@ -1,0 +1,34 @@
+{
+  "task": "R03",
+  "source_url": "https://canakkalesavaslariansiklopedisi.com/cevat-cobanli-pasa/",
+  "author": "Selçuk Osmanoğlu",
+  "publication_date": "2022 (madde künyesi)",
+  "access_date": "2026-10-26",
+  "claims": [
+    {
+      "event_date": "1870-09-14",
+      "claim": "İstanbul doğumu",
+      "evidence": "Giriş paragrafı doğum günü ve yerini birlikte verir.",
+      "verification": "ansiklopedi_aktarimi_ozgun_belge_incelenmedi"
+    },
+    {
+      "event_date": "1938-03-13",
+      "claim": "İstanbul ölümü",
+      "evidence": "Son biyografi paragrafı ölüm günü ve yerini birlikte verir.",
+      "verification": "ansiklopedi_aktarimi_ozgun_belge_incelenmedi"
+    },
+    {
+      "event_date": "1914-08-10",
+      "claim": "Müstahkem Mevkii ataması",
+      "evidence": "9. Tümen görevini anlatan paragraf atamayı ayrı tarihler.",
+      "verification": "ansiklopedi_aktarimi_ozgun_belge_incelenmedi"
+    },
+    {
+      "event_date": "1914-11-29",
+      "claim": "Mirliva terfisi",
+      "evidence": "Savunma planları bölümünün sonu mirliva terfi tarihini verir.",
+      "verification": "ansiklopedi_aktarimi_ozgun_belge_incelenmedi"
+    }
+  ],
+  "scope": "İlgili kimlik, atama, terfi paragrafları ve kaynakça okundu; özgün şahsi dosya ve emir görüntüleri görülmedi. Muharebe saatleri bu kaynak üzerinden onaylanmadı. Bütün eser incelemesi değildir."
+}

@@ -127,8 +127,10 @@
         lat: 40.066,
         lng: 26.175,
         meta: "28 Haziran – 5 Temmuz 1915",
+        accuracy: "yaklasik",
+        uncertainty: "Dere çevresi için temsili noktadır; koordinatın belgeyle eşleştirilmesi tamamlanmadı. Saha merkezi veya tarihsel siper noktası olarak okunmamalıdır.",
         note: [
-          "Seddülbahir cephesinin Ege yakasındaki dere. İşaret derenin saha merkezidir."
+          "İşaret, dere çevresi için temsili bir noktadır; doğrulanmış saha merkezi, dere yatağı veya tarihsel siper noktası değildir."
         ]
       },
       {
@@ -184,7 +186,7 @@
         domain: "ikisi",
         battle: false,
         title: "Giriş tabyaları ve kısa çıkarmalar",
-        text: "25 Şubat’ta dış tabyalar susturulur. Seddülbahir ve Kumkale’ye tahrip timleri çıkar; kalıcı tutunma yoktur.",
+        text: "DVA kronolojisi, 25 Şubat bombardımanını, 26 Şubat–3 Mart tahrip çıkarmalarını ve 4 Mart’ta Seddülbahir’deki timlerin tahliyesini ayrı aşamalar olarak anlatır.",
         place: "kumkale"
       },
       {
@@ -215,7 +217,7 @@
         domain: "deniz",
         battle: false,
         title: "Nusret, Erenköy hattını döker",
-        text: "7–8 Mart gecesi Nusret, Erenköy Koyu’na kıyıya paralel 26 mayın döker. Bu hat 18 Mart’ta belirleyici olur.",
+        text: "Nusret’in Erenköy mayın dökümü 8 Mart kaydıyla ele alınır. Kurum anlatıları 26 mayın verir; ceride ve günlük aktarımlarındaki sayı farkı olay sayfasında açıklanır.",
         place: "nusret"
       },
       {
@@ -312,7 +314,7 @@
         domain: "kara",
         battle: true,
         title: "Seddülbahir çıkarması",
-        text: "29. Tümen, Seddülbahir’de V, W, X, Y ve S kumsallarına çıkar. V kumsalı kale önü, W Tekke Koyu, S Morto tarafındadır. 9. Tümen güney kıyıyı karşılar.",
+        text: "AWM anlatısı, İngiliz 29. Tümeni’nin Seddülbahir görevini ve beş kumsala çıkışı açıklar. Kıyıya çıkış, planlanan ilerlemenin tamamlanması değildir; Osmanlı birliklerinin kumsal bazındaki dağılımı için belge karşılaştırması açıktır.",
         place: "seddulbahir"
       },
       {
@@ -332,7 +334,7 @@
         domain: "kara",
         battle: true,
         title: "Kumkale oyalama çıkarması",
-        text: "Fransız sefer kolu Kumkale’ye çıkar. Anadolu yakasındaki 11. Tümen sahasındadır. Kumkale’den geri çekilme ve Seddülbahir’e yeniden sevk ayrı aşamalardır; kaynak notu olay sayfasındadır.",
+        text: "Fransız sefer kolu Kumkale’ye çıkar. Anadolu yakasında gerçekleşir; savunmaya katılan birliklerin kapsamı kaynak notunda ayrılır. Kumkale’den geri çekilme ve Seddülbahir’e yeniden sevk ayrı aşamalardır; kaynak notu olay sayfasındadır.",
         place: "kumkale"
       },
       {
@@ -342,7 +344,7 @@
         domain: "kara",
         battle: false,
         title: "Saros gösterişi",
-        text: "Saros açıklarında gösteriş yapılır; büyük çıkarma yoktur. İşaret, Bolayır’daki 7. Tümen sahasının merkezidir, gemi mevzii değildir.",
+        text: "Deniz raporunun çıkarma planında Saros–Bolayır kesimi için gösteri harekâtı yer alır. Harita işareti temsili bir birlik noktasıdır; gemi mevzii veya doğrulanmış saha merkezi değildir.",
         place: "tumen-7"
       },
       {
@@ -408,13 +410,13 @@
         "chronologySource": {
           "url": "https://www.awm.gov.au/collection/C1342882",
           "label": "AWM4 23/32/7 · 15. Tabur günlüğü",
-          "passage": "Görüntü4–5 / yaprak46–47; 9–10 Mayıs1915",
+          "passage": "Görüntü 4–5 / yaprak 46–47; 9–10 Mayıs 1915",
           "eventDate": "9–10 Mayıs 1915",
           "publicationDate": null,
           "accessDate": "2026-10-25",
           "status": "gunluk_goruntusu_ilgili_pasaj_okundu",
           "evidenceText": "Alınan Osmanlı siperi ertesi sabah bırakıldı.",
-          "scope": "El yazılı günlük taramasında9–10Mayıs pasajları okundu.63sayfanın tümü okunmadı; karşı tarafın raporudur. Saat sistemi ayrıca kalibre edilmedi."
+          "scope": "El yazılı günlük taramasında 9–10 Mayıs pasajları okundu. 63 sayfanın tümü okunmadı; karşı tarafın raporudur. Saat sistemi ayrıca kalibre edilmedi."
         }
       },
       {
@@ -650,7 +652,7 @@
         domain: "kara",
         battle: true,
         title: "Conkbayırı Muharebesi",
-        text: "Conkbayırı el değiştirir. 10 Ağustos’ta Osmanlı karşı taarruzu tepeyi geri alır; taarruzu Mustafa Kemal yönetir. Kocaçimentepe alınamaz.",
+        text: "DVA anlatısı zirveye çıkış ile Osmanlı karşı taarruzunu ayırır. Bakanlık kronolojisi Mustafa Kemal’in Conkbayırı hücumunu 10 Ağustos’a kaydeder; bu kesit, geniş Sarıbayır harekâtıyla aynı tarih kapsamı değildir.",
         place: "conkbayiri"
       },
       {
@@ -660,7 +662,7 @@
         domain: "deniz",
         battle: false,
         title: "Barbaros Hayreddin batar",
-        text: "Barbaros Hayreddin, Marmara’da İngiliz denizaltısı E11 tarafından batırılır. 18 Mart Boğaz hattında değildir. Batış noktasının koordinatı bu haritaya konmadı.",
+        text: "Barbaros Hayreddin, Marmara’da İngiliz denizaltısı E11 tarafından batırılır. Bu batış 18 Mart muharebesine ait değildir; o günkü kesin konumu için gemi jurnali karşılaştırması gerekir. Batış noktasının koordinatı bu haritaya konmadı.",
         place: null
       },
       {
@@ -701,7 +703,7 @@
         domain: "kara",
         battle: true,
         title: "İkinci Anafartalar Muharebesi",
-        text: "Suvla cephesinde İkinci Anafartalar (Yusufçuk Tepe) yapılır. Bomba Tepe çatışmaları 29 Ağustos’a kadar sürer. Sırtlar alınamaz.",
+        text: "Bakanlık kronolojisi İkinci Anafartalar’ı 21 Ağustos’a kaydeder. Yusufçuk Tepe ile Bomba Tepe’nin farklı mevkileri ve çatışma takvimleri, aynı muharebenin tek süresi gibi birleştirilmez.",
         place: "anafartalar"
       },
       {
@@ -890,7 +892,7 @@
           name: "Rafet Bey",
           page: "/komutanlar/rafet-bey-bele/",
           role: "11. Tümen Komutanı",
-          body: "Kumkale–Erenköy Anadolu kıyısı 11. Tümen sahasıdır. 25 Nisan Kumkale çıkarması bu kesime gelir.",
+          body: "Anadolu kıyısındaki 11. Tümen görevi, Kumkale’de fiilen muharebe eden bütün birliklerin kimliği yerine kullanılamaz; 25 Nisan birlik karşılaştırması Kumkale kaynak notundadır.",
           place: "tumen-11"
         },
         {

@@ -1,0 +1,22 @@
+{
+  "task": "R03",
+  "url": "https://www.usni.org/magazines/proceedings/1898/october/professional-notes",
+  "title": "Professional Notes — The French Battle-Ship Bouvet",
+  "publisher": "U.S. Naval Institute, Proceedings",
+  "publication_date": "1898-10",
+  "volume": "24/4/88",
+  "event_date": null,
+  "access_date": "2026-10-25",
+  "evidence_quote": "The big gun turrets have 14½-in. armor.",
+  "evidence_summary": "Su hattı kemeri 16–8 inç, büyük top taretleri 14½ inç olarak ayrı veriliyor.",
+  "verification": "İlgili yayımlanmış dönem teknik değerlendirmesinin web çevrimyazısı okundu; özgün plan görülmedi.",
+  "upstream_attribution": "Bölüm sonunda The Engineer; bu üst kaynağın özgün sayfası açılmadı.",
+  "limits": [
+    "1898 teknik açıklaması 1915 donatım cetveli değildir.",
+    "Eşdeğer direnç hesabı gerçek levha kalınlığı olarak kullanılmadı.",
+    "Silah kalibreleri ve bütün makale ayrıca doğrulanmış sayılmadı.",
+    "Batış nedeni için tek kanıt sayılmadı."
+  ],
+  "previous_value": "400 mm; bölüm ve tarih belirtilmiyordu",
+  "new_scope": "1898 yayınına atfedilen bölüm ayrımlı değerler; 1915 karşılaştırması açık."
+}

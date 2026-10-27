@@ -1,0 +1,175 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "review_date": "2026-10-26",
+  "source_url": null,
+  "publication_date": null,
+  "verification": "Kaynak pasajına bağlanmamış eski tablo verisi; tarihsel kanıt değildir",
+  "snapshot": [
+    {
+      "n": 1,
+      "name": "HMS Queen Elizabeth",
+      "flag": "Britanya",
+      "cls": "Süper-dretnot",
+      "armor": "330 mm",
+      "guns": "8×381 mm",
+      "fate": "Sancak gemisi; çekilmeyi yönetti"
+    },
+    {
+      "n": 2,
+      "name": "HMS Inflexible",
+      "flag": "Britanya",
+      "cls": "Muharebe kruvazörü",
+      "armor": "178 mm",
+      "guns": "8×305 mm",
+      "fate": "Ağır hasarla çekildi; saat ve zayiat incelemede"
+    },
+    {
+      "n": 3,
+      "name": "HMS Lord Nelson",
+      "flag": "Britanya",
+      "cls": "Yarı-dretnot",
+      "armor": "305 mm",
+      "guns": "4×305 + 10×234 mm",
+      "fate": "Hat’ta kaldı"
+    },
+    {
+      "n": 4,
+      "name": "HMS Agamemnon",
+      "flag": "Britanya",
+      "cls": "Yarı-dretnot",
+      "armor": "305 mm",
+      "guns": "4×305 + 10×234 mm",
+      "fate": "Güverte ve telsiz hasarı"
+    },
+    {
+      "n": 5,
+      "name": "HMS Irresistible",
+      "flag": "Britanya",
+      "cls": "Ön-dretnot",
+      "armor": "229 mm",
+      "guns": "4×305 + 12×152 mm",
+      "fate": "18 Mart’ta battı; kesin saat incelemede"
+    },
+    {
+      "n": 6,
+      "name": "HMS Ocean",
+      "flag": "Britanya",
+      "cls": "Ön-dretnot",
+      "armor": "152 mm",
+      "guns": "4×305 + 12×152 mm",
+      "fate": "18 Mart’ta battı; isabet ve batış saatleri incelemede"
+    },
+    {
+      "n": 7,
+      "name": "HMS Albion",
+      "flag": "Britanya",
+      "cls": "Ön-dretnot",
+      "armor": "152 mm",
+      "guns": "4×305 + 12×152 mm",
+      "fate": "Ön hatta dövüştü"
+    },
+    {
+      "n": 8,
+      "name": "HMS Vengeance",
+      "flag": "Britanya",
+      "cls": "Ön-dretnot",
+      "armor": "152 mm",
+      "guns": "4×305 + 12×152 mm",
+      "fate": "C / ön hat"
+    },
+    {
+      "n": 9,
+      "name": "HMS Canopus",
+      "flag": "Britanya",
+      "cls": "Ön-dretnot",
+      "armor": "152 mm",
+      "guns": "4×305 + 12×152 mm",
+      "fate": "Destek"
+    },
+    {
+      "n": 10,
+      "name": "HMS Swiftsure",
+      "flag": "Britanya",
+      "cls": "Ön-dretnot",
+      "armor": "178 mm",
+      "guns": "4×254 + 14×190 mm",
+      "fate": "3. filo"
+    },
+    {
+      "n": 11,
+      "name": "HMS Triumph",
+      "flag": "Britanya",
+      "cls": "Ön-dretnot",
+      "armor": "178 mm",
+      "guns": "4×254 + 14×190 mm",
+      "fate": "Kanat / seyyar obüs baskısı"
+    },
+    {
+      "n": 12,
+      "name": "HMS Majestic",
+      "flag": "Britanya",
+      "cls": "Ön-dretnot",
+      "armor": "229 mm",
+      "guns": "4×305 + 12×152 mm",
+      "fate": "C Hattı"
+    },
+    {
+      "n": 13,
+      "name": "HMS Prince George",
+      "flag": "Britanya",
+      "cls": "Ön-dretnot",
+      "armor": "229 mm",
+      "guns": "4×305 + 12×152 mm",
+      "fate": "Kanat koruma"
+    },
+    {
+      "n": 14,
+      "name": "HMS Cornwallis",
+      "flag": "Britanya",
+      "cls": "Ön-dretnot",
+      "armor": "178 mm",
+      "guns": "4×305 + 12×152 mm",
+      "fate": "Destek"
+    },
+    {
+      "n": 15,
+      "name": "Suffren",
+      "flag": "Fransa",
+      "cls": "Ön-dretnot",
+      "armor": "300 mm",
+      "guns": "4×305 + 10×164 mm",
+      "fate": "14 direkt isabet; yangın"
+    },
+    {
+      "n": 16,
+      "name": "Bouvet",
+      "flag": "Fransa",
+      "cls": "Ön-dretnot",
+      "armor": "400 mm",
+      "guns": "2×305 + 2×274 mm",
+      "fate": "18 Mart’ta battı; saat ve zayiat incelemede"
+    },
+    {
+      "n": 17,
+      "name": "Gaulois",
+      "flag": "Fransa",
+      "cls": "Ön-dretnot",
+      "armor": "370 mm",
+      "guns": "4×305 + 10×138 mm",
+      "fate": "Karaya oturma kaydı; ada eşleştirmesi incelemede"
+    },
+    {
+      "n": 18,
+      "name": "Charlemagne",
+      "flag": "Fransa",
+      "cls": "Ön-dretnot",
+      "armor": "370 mm",
+      "guns": "4×305 + 10×138 mm",
+      "fate": "B Hattı, çekildi"
+    }
+  ],
+  "decision": "Mevcut HTMLde ship-rows yoksa dizi boşaltılır; bağımsız donanma kartları korunur.",
+  "html_files_checked": 90,
+  "target_matches": []
+}

@@ -1,0 +1,263 @@
+{
+  "scope": "Komutan alt sayfalarındaki Doğum/Ölüm alanları; envanter doğruluk veya yanlışlık hükmü değildir. Eski genel kimlik uyarıları korunur.",
+  "records": [
+    {
+      "page": "komutanlar/albert-damade/index.html",
+      "field": "Doğum",
+      "value": "24 Aralık 1856",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/albert-damade/index.html",
+      "field": "Ölüm",
+      "value": "11 Kasım 1941",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/alexander-godley/index.html",
+      "field": "Doğum",
+      "value": "4 Şubat 1867, Gillingham",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/alexander-godley/index.html",
+      "field": "Ölüm",
+      "value": "6 Mart 1957, Oxford",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/aylmer-hunter-weston/index.html",
+      "field": "Doğum",
+      "value": "23 Eylül 1864, Hunterston",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/aylmer-hunter-weston/index.html",
+      "field": "Ölüm",
+      "value": "18 Mart 1940, Hunterston",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/cevat-bey-cobanli/index.html",
+      "field": "Doğum",
+      "value": "14 Eylül 1870, İstanbul",
+      "status": "ansiklopedi_aktarimi_eslesti_ozgun_kimlik_kaydi_gorulmedi"
+    },
+    {
+      "page": "komutanlar/cevat-bey-cobanli/index.html",
+      "field": "Ölüm",
+      "value": "13 Mart 1938, İstanbul",
+      "status": "ansiklopedi_aktarimi_eslesti_ozgun_kimlik_kaydi_gorulmedi"
+    },
+    {
+      "page": "komutanlar/charles-monro/index.html",
+      "field": "Doğum",
+      "value": "15 Haziran 1860, denizde",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/charles-monro/index.html",
+      "field": "Ölüm",
+      "value": "7 Aralık 1929, Londra",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/emile-guepratte/index.html",
+      "field": "Doğum",
+      "value": "30 Ağustos 1856, Granville",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/emile-guepratte/index.html",
+      "field": "Ölüm",
+      "value": "21 Kasım 1939, Brest",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/esat-pasa-bulkat/index.html",
+      "field": "Doğum",
+      "value": "18 Ekim 1862, Yanya",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/esat-pasa-bulkat/index.html",
+      "field": "Ölüm",
+      "value": "2 Kasım 1952, İstanbul",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/frederick-stopford/index.html",
+      "field": "Doğum",
+      "value": "2 Şubat 1854, Dublin",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/frederick-stopford/index.html",
+      "field": "Ölüm",
+      "value": "4 Mayıs 1929, Londra",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/guido-von-usedom/index.html",
+      "field": "Doğum",
+      "value": "2 Ekim 1854, Quanditten",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/guido-von-usedom/index.html",
+      "field": "Ölüm",
+      "value": "24 Şubat 1925, Schwerin",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/halil-sami-bey/index.html",
+      "field": "Doğum",
+      "value": "1866, İstanbul",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/halil-sami-bey/index.html",
+      "field": "Ölüm",
+      "value": "1925",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/henri-gouraud/index.html",
+      "field": "Doğum",
+      "value": "17 Kasım 1867, Paris",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/henri-gouraud/index.html",
+      "field": "Ölüm",
+      "value": "16 Eylül 1946, Paris",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/ian-hamilton/index.html",
+      "field": "Doğum",
+      "value": "16 Ocak 1853, Korfu",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/ian-hamilton/index.html",
+      "field": "Ölüm",
+      "value": "12 Ekim 1947, Londra",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/john-de-robeck/index.html",
+      "field": "Doğum",
+      "value": "10 Haziran 1862, Naas",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/john-de-robeck/index.html",
+      "field": "Ölüm",
+      "value": "20 Ocak 1928, Londra",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/liman-von-sanders/index.html",
+      "field": "Doğum",
+      "value": "17 Şubat 1855, Stolp",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/liman-von-sanders/index.html",
+      "field": "Ölüm",
+      "value": "22 Ağustos 1929, Münih",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/mustafa-kemal/index.html",
+      "field": "Doğum",
+      "value": "1881, Selanik",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/mustafa-kemal/index.html",
+      "field": "Ölüm",
+      "value": "10 Kasım 1938, İstanbul",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/roger-keyes/index.html",
+      "field": "Doğum",
+      "value": "4 Ekim 1872, Pencap",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/roger-keyes/index.html",
+      "field": "Ölüm",
+      "value": "26 Aralık 1945, Tingewick",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/sackville-carden/index.html",
+      "field": "Doğum",
+      "value": "3 Mayıs 1857, Templemore",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/sackville-carden/index.html",
+      "field": "Ölüm",
+      "value": "6 Mayıs 1930, Lymington",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/selahattin-adil-bey/index.html",
+      "field": "Doğum",
+      "value": "19 Ocak 1882, İstanbul",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/selahattin-adil-bey/index.html",
+      "field": "Ölüm",
+      "value": "27 Şubat 1961",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/vehip-pasa-kaci/index.html",
+      "field": "Ölüm",
+      "value": "13 Haziran 1940, İstanbul",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/weber-pasa/index.html",
+      "field": "Doğum",
+      "value": "12 Eylül 1860, Kamen",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/weber-pasa/index.html",
+      "field": "Ölüm",
+      "value": "29 Ekim 1933, Berlin",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/william-birdwood/index.html",
+      "field": "Doğum",
+      "value": "13 Eylül 1865, Kirkee",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/william-birdwood/index.html",
+      "field": "Ölüm",
+      "value": "17 Mayıs 1951, Hampton Court",
+      "status": "alan_bazli_kaynak_incelemesi_bekliyor"
+    },
+    {
+      "page": "komutanlar/william-bridges/index.html",
+      "field": "Doğum",
+      "value": "18 Şubat 1861, Greenock",
+      "status": "kurum_kisi_kaydi_okundu_ozgun_tescil_belgesi_gorulmedi"
+    },
+    {
+      "page": "komutanlar/william-bridges/index.html",
+      "field": "Ölüm",
+      "value": "18 Mayıs 1915",
+      "status": "kurum_kisi_kaydi_okundu_ozgun_tescil_belgesi_gorulmedi"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "task": "R22",
+  "status": "devam ediyor",
+  "access_date": "2026-10-26",
+  "checks": [
+    {
+      "url": "http://127.0.0.1:8765/robots.txt",
+      "status": 200,
+      "final_url": "http://127.0.0.1:8765/robots.txt",
+      "type": "text/plain",
+      "body_sample": "User-agent: *\nAllow: /\n\nSitemap: https://onsekizmart.com/sitemap.xml\n"
+    },
+    {
+      "url": "http://127.0.0.1:8765/atlas-kontrol-olmayan-sayfa-20261026/",
+      "status": 404,
+      "type": "text/html;charset=utf-8"
+    },
+    {
+      "url": "https://onsekizmart.com/robots.txt",
+      "status": null,
+      "access_limit": "<urlopen error [WinError 10013] Erişim izinlerince izin verilmeyen bir şekilde bir yuvaya erişilmeye çalışıldı>"
+    },
+    {
+      "url": "https://onsekizmart.com/atlas-kontrol-olmayan-sayfa-20261026/",
+      "status": null,
+      "access_limit": "<urlopen error [WinError 10013] Erişim izinlerince izin verilmeyen bir şekilde bir yuvaya erişilmeye çalışıldı>"
+    }
+  ],
+  "limits": "Tekil read-only HTTP kontrolü; SearchConsole/Google indeks kanıtı değildir."
+}

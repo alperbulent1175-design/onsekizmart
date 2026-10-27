@@ -1,0 +1,14 @@
+{
+  "reviewDate": "2026-10-27",
+  "oldTitle": "Queen Elizabeth’in ilk 381 mm’lik salvosu",
+  "currentTitle": "Queen Elizabeth’in ateşe başlaması",
+  "eventDate": "1915-03-18",
+  "documentDate": "1915-03-24",
+  "accessDate": "2026-10-25",
+  "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "evidenceText": "opened fire",
+  "status": "existing_report_transcription_scope_review",
+  "limit": "Existing report transcription supports firing start; the NAM photograph catalogue supports ship calibre separately, not the ammunition of this first salvo. No source newly accessed this run.",
+  "technicalSourceRecord": "research/reports/2026-10-25/R03-queen-elizabeth-calibre.json",
+  "preserved": "m=660, t=11:00 are existing internal keys; sourceTime=11:25 unchanged."
+}

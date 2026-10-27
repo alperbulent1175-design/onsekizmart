@@ -1,0 +1,11 @@
+{
+  "task": "R03",
+  "access_date": "2026-10-25",
+  "target": "2010 Nazmi günlük yayını s.40 görüntüsü",
+  "status": "Bu çalışmada tam sayfa görüntüsüne ulaşılamadı; bağımsız Bouvet teknik incelemesine geçildi.",
+  "urls": [
+    "https://kutuphane.ttk.gov.tr/details?detailType=modal&id=548579&materialType=KT&query=Deniz+sava%C5%9Flar%C4%B1.",
+    "https://search.worldcat.org/title/Mayin-grup-komutani-Binbasi-Nazmi-Bey%27in-gunluguyle-%3A-Canakkale-deniz-savaslari/oclc/703158489"
+  ],
+  "limits": "Arama sonuçlarındaki katalog bilgileri tam metin veya s.40 doğrulaması sayılmadı. TTK doğrudan açılışı cache miss; WorldCat arama kaydı ipucu olarak tutuldu. ISBN ve basım yeri siteye yeni doğrulanmış bilgi olarak eklenmedi."
+}

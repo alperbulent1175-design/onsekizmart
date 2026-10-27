@@ -1,0 +1,23 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "url": "https://www.gutenberg.org/cache/epub/54275/pg54275-images.html",
+  "publication_date": "1914",
+  "digital_publication_date": "2017-03-03",
+  "digital_update_date": "2024-10-23",
+  "access_date": "2026-10-26",
+  "event_date": null,
+  "sections": [
+    "Majestic Class s.71–72",
+    "Duncan Class s.69",
+    "ilgili sınıf tabloları"
+  ],
+  "evidence": "The armour belt is 9-in. amidships",
+  "paraphrase": "Majestic/PrinceGeorge sınıf anlatısı:4×12+12×6inç,ortakemer9inç;Cornwallis/Duncan:4×12+12×6inç,suhattıkemeri7inç.",
+  "verification": "İlgili web çevrimyazısı ve tablolar okundu;özgün baskı ve bütün eser okunmadı.",
+  "limits": [
+    "1915 gemiye özgü fiilî donatım değil",
+    "Borda ateşi toplam donatımla birleştirilmedi",
+    "Personel gerçek mevcut/zayiat olarak aktarılmadı"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "review_date": "2026-10-26",
+  "completed_scope": [
+    "Eski ammo/spend/fortHits/personel ve gemi tablolarının yayıma geri gelmesi engellendi",
+    "Görünür harita kısa metinleri ve 18Mart saat aşamaları için seçilmiş düzeltmeler",
+    "Donanma teknik taslakları açık etiketli"
+  ],
+  "remaining": [
+    "Bütün görünür HTML sayısal iddialarının paragraf bazlı tam denetimi tamam değil",
+    "Tümen kuruluş ve fiili katılım cetvelleri tarih bazında karşılaştırılmalı",
+    "Nusret26/36 özgün ATBD1328-5 ve günlük2010s94 erişimi açık",
+    "Gemi teknik planları ve1915donatım karşılaştırması açık"
+  ],
+  "independent_next": "R23 yalnızR01e bağlı yerel hazırlık yapılabilir;R03 tamamlandı saymadan bağımsız yürütülür"
+}

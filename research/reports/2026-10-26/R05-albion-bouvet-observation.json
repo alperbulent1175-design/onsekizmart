@@ -1,0 +1,14 @@
+{
+  "task": "R05",
+  "status": "devam ediyor",
+  "url": "https://oldweather.s3.amazonaws.com/ADM53-33214/ADM53-33214-127_0.jpg",
+  "document_date": "1915-03-18",
+  "event_date": "1915-03-18",
+  "publication_date": null,
+  "access_date": "2026-10-26",
+  "evidence": "1.54 Bouvet turned over & sank",
+  "verification": "Başlık,tarih,ilgiliPMsatırı görüntüden yeniden okundu",
+  "scope": "Tek günlük yaprağı;yalnızAlbiongözlemi. Tamcilt ve ikinci nüsha bu partide yeniden okunmadı.",
+  "comparison": "Filo raporunda13.54patlama;Albiongünlüğünde1.54PMdevrilme/batışgözlemi. Aynı sayı=aşama/saatayarıeşitliği değil.",
+  "changes": "18Martolaysayfasıalbion-bouvet-gozlemi bölümü;ana sayfa açıklaması rapor/günlük türlerini içeriyor."
+}

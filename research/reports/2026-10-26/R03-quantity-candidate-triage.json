@@ -1,0 +1,113 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "review_date": "2026-10-26",
+  "scope": "Otomatik15adayın metinleri okundu. Birlik/sayfa/tarih eşleşmeleri de içerir;15tarihselhata veya15doğrulama değildir. Diğer bütün bloklar denetlenmiş sayılmaz.",
+  "items": [
+    {
+      "page": "donanma/index.html",
+      "line_at_snapshot": 141,
+      "text": "AWM’nin P04411.003 fotoğraf kaydı, Nusret’in Erenköy Koyu’na 7–8 Mart gecesi kıyıya paralel 26 mayın döşediğini anlatır. Bu sayı mayın hattının mevcududur; gemi personeli veya zayiat sayısı değildir. Fotoğrafın kendisi bu geceki döşeme anını göstermez. Hattın tek tek gemi kayıplarıyla ilişkisi ve kesin saatler ayrıca karşılaştırılır.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "donanma/index.html",
+      "line_at_snapshot": 144,
+      "text": "ATBD 132’nin (Ocak 2014) üçüncü taraf metin aktarımında , basılı s.255 ve s.259’da 8 Mart kaydı için 36 torpil okunuyor. Bu, yukarıdaki 26 mayın aktarımıyla farklıdır. Tarama görüntüsü görülmediğinden bunun basım, okuma veya metin çıkarma farkı olup olmadığı belirlenmedi; yeni kesin sayı olarak kullanılmaz.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "donanma/index.html",
+      "line_at_snapshot": 145,
+      "text": "S. Murad Hatip’in 2015 tarihli makalesi, basılı s.171’de Nazmi Bey’in 8 Mart günlüğünden bir aktarım verir. Aktarımda 26 mayın ve 05.30 ifadesi birlikte geçer. Bu ifade, döküşün tamamlandığı veya geminin geri döndüğü kesin saat olarak kullanılmaz.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "donanma/index.html",
+      "line_at_snapshot": 490,
+      "text": "Aynı SHD envanter sayfası, Bouvet için Haziran 1898 tarihli bir kayıtta 274,4 ve 305 mm Mle 1893 top kundaklarını adlandırır. Bu, mevcut karttaki toplam namlu sayısını veya 1915 donatımını tek başına doğrulamaz. Dönem yayınındaki teknik anlatı ile planların model ve ölçü karşılaştırması açık kalır.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "donanma/index.html",
+      "line_at_snapshot": 507,
+      "text": "Gaulois ve Charlemagne, SHD’nin ETCA topçu belgeleri envanterinde 305 mm Mle 1893 top kundaklarına ilişkin ortak başlıkta anılır. Altında Nisan 1903 ve Ocak 1909 tarihli iki belge kaydı listelenir. Bu tarihler geminin donatımının o gün değiştirildiği anlamına gelmez.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "donanma/index.html",
+      "line_at_snapshot": 523,
+      "text": "Harekât raporu, Charlemagne’ın da yer aldığı ilk B Hattı’na 12.06’da A Hattı içinden geçerek daha yakın mesafeden ateş açma emri verildiğini anlatır. 13.25 kaydında Gaulois ve Charlemagne’ın 13 ve 16 numaralı hedeflere ateşi birlikte anılır. Bu hedef numaraları, Osmanlı tabya adlarıyla ayrıca eşleştirilmelidir; eski karttaki yaklaşık 9.000 metre bu pasajın verdiği bir mesafe değildir.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "donanma/index.html",
+      "line_at_snapshot": 525,
+      "text": "Charlemagne ve Gaulois için aynı envanter başlığı altında 305 mm Mle 1893 top kundaklarına ilişkin iki belge listelenir. Nisan 1903 ve Ocak 1909, listelenen belgelerin tarihleridir; gemide o gün mevcut toplam top sayısı değildir.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "komutanlar/william-bridges/index.html",
+      "line_at_snapshot": 85,
+      "text": "AWM’nin P11013172 kişi kaydı, doğumu 18 Şubat 1861 ve Greenock, ölümü 18 Mayıs 1915 olarak listeler. Aynı kaydın zaman çizelgesi, 15 Mayıs yaralanması ile 18 Mayıs yaralardan ölümü ayrı olaylar olarak verir. Bu iki tarih tek olay tarihine birleştirilmez.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "nasil-okunur/index.html",
+      "line_at_snapshot": 104,
+      "text": "20 Ekim 2026 tarihli incelemede Alan Başkanlığının deniz muharebeleri anlatısı Erenköy Koyu’ndaki kıyıya paralel 26 mayınlık hat için okundu. Bu anlatı, atlas çizgisinin sayısal koordinatlarını vermez. Corbett’in 18 Mart planında da gemi konumları yaklaşık olarak tanımlanır; plan doğrudan günümüz koordinatlarına aktarılmadı. AWM’deki Ocak 1916 mayın savunması kaydı tarih farkı nedeniyle 18 Mart 1915 çizgilerini doğrulamak için kullanılmadı.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "line_at_snapshot": 198,
+      "text": "Sayfa 42’nin arşiv görüntüsünde aynı bildirim ifadesi okunur. Görüntü dosyasındaki page60 adı ile belge üzerindeki 42 numarası farklı alanlardır. Bu, imzalı özgün gemi raporu olduğu doğrulanmış bir nüsha değildir. Bu ifade mayın isabetinin bildirilme zamanını anlatır; isabetin aynı anda gerçekleştiğini kanıtlamaz. Atlasın 14:14 kaydıyla saat sistemi ve olay/bildirim ayrımı karşılaştırılmadan yeni kesin saat atanmadı. Önceki kısa anlatımdaki 39 ölü ve 14:25 ayrılış ifadeleri belge dayanağı tamamlanmadığı için çıkarıldı; bu işlem farklı bir zayiat sayısını doğrulamıyor.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "line_at_snapshot": 243,
+      "text": "Didem İlkem Terzi’nin 3’üncü Ağır Topçu Alayı maddesi, 18 Mart 1915 için Dardanos’un 115 mermi sarf ettiğini aktarır. Bu, bataryanın attığı mermilerdir; bataryaya düşen mermi veya isabet sayısı değildir. Eski taslak verideki 60–80 isabet tahmini bu pasajla doğrulanmaz.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "line_at_snapshot": 265,
+      "text": "Alan Başkanlığının Rumeli Hamidiye anlatısı iki top platformunu tarif eder. Platform sayısı, 18 Mart’ta iki topun çalışır olduğu veya ateş ettiği anlamına gelmez. Aynı kurum metni mekanizma hasarı nedeniyle ateş edilemediğini belirtir; özgün batarya raporu ve tarihli silah cetveliyle karşılaştırma açıktır. Sayfanın yayın tarihi belirtilmiyor; erişim 26 Ekim 2026.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "line_at_snapshot": 304,
+      "text": "HMS Colne, ADM 53/38206, 013_0, basılı yaprak 18 , PM 6.00 satırında Ocean’a yaklaşıldığını ve subaylarla erlerden bir grubun alındığını kaydeder. Kısa kanıt: took off a number of Officers & Ratings . Bu 18.00 tahliye kaydı, filo raporunun Ocean için verdiği 18.05 mayın isabetinden önce görünür. Kayıtların saatlerinin eşlendiği belgelenmediğinden bu fark burada çözülmüş sayılmaz.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+      "line_at_snapshot": 88,
+      "text": "Nusret’in Erenköy Koyu’ndaki mayın dökümü bu sayfada 8 Mart 1915 tarihiyle ele alınır. Tarihi Alan Başkanlığının anma haberi, 8 Mart sabahı Erenköy Koyu’na 26 mayın döküldüğünü belirtir. AWM koleksiyon açıklaması da 8 Mart’ın erken saatlerini ve 26 mayını kaydeder ( kaynaklar ve inceleme durumu ).",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    },
+    {
+      "page": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+      "line_at_snapshot": 123,
+      "text": "Yukarıdaki kurum anlatıları 26 mayın verir. Buna karşılık Selçuk Osmanoğlu’nun 2020 tarihli Orgeneral Cevat Çobanlı’nın Askerî Faaliyetleri tezinde aynı sayfada, ceride aktarımında 36 ve Nazmi Bey’in günlük aktarımında 26 bulunur. Bu farkın kaynağı henüz çözülmedi; 36 burada yeni kesin toplam değildir. Kronoloji kartı da bu nedenle sayıyı kaynak aktarımı olarak belirtir.",
+      "triage": "Mevcut aktarım/kapsam açıklaması okunarak sınırlı olduğu görüldü; yeniden birincil doğrulama yapılmadı.",
+      "action": "Kesinleştirme yok; özgün kaynak eksikleri ilgili kanıt notunda kalır."
+    }
+  ]
+}

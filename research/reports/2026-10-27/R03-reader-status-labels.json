@@ -1,0 +1,27 @@
+{
+  "reviewDate": "2026-10-27",
+  "problem": "Mobile Quinn event page: viewport clientWidth305, scrollWidth315; long raw status token overflowed paragraph width273 to299.",
+  "solution": "Reader-facing status labels; source data status codes unchanged. Generator and existing 19 pages updated without rebuilding unrelated page content. Unknown status fails closed as source review open.",
+  "changedPages": [
+    "olaylar/mayin-tarama-girisimleri/index.html",
+    "olaylar/hamiltona-talimat/index.html",
+    "olaylar/anzak-sevk-emri/index.html",
+    "olaylar/mondrosta-cikarma-hazirligi/index.html",
+    "olaylar/yaralilar-misira-ulasiyor/index.html",
+    "olaylar/quinns-post-siper-baskini/index.html",
+    "olaylar/yeraltindan-kazma-sesleri/index.html",
+    "olaylar/ateskes-gorusmeleri/index.html",
+    "olaylar/quinns-post-lagim-taarruzu/index.html",
+    "olaylar/watson-iskelesi-tamamlandi/index.html",
+    "olaylar/kolera-asilamasi/index.html",
+    "olaylar/hastane-ekibi-limnide/index.html",
+    "olaylar/kirectepe-taarruzu/index.html",
+    "olaylar/sonbahar-firtinasi/index.html",
+    "olaylar/tahliye-tavsiyesi/index.html",
+    "olaylar/yagmur-ve-kar-firtinasi/index.html",
+    "olaylar/ariburnu-suvla-tahliye-onayi/index.html",
+    "olaylar/seddulbahir-tahliye-emri/index.html",
+    "kronoloji-kaynaklari/index.html"
+  ],
+  "historicalClaimChange": false
+}

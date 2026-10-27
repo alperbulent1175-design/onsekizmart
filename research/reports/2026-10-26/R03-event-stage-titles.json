@@ -1,0 +1,25 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "event_date": "1915-03-18",
+  "document_date": "1915-03-24",
+  "publication_date": null,
+  "review_date": "2026-10-26",
+  "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "scope": "Önceki ilgili rapor çevrimyazısı incelemesinin başlıklara uygulanması; bu partide yeni özgün rapor görülmedi",
+  "changes": [
+    {
+      "old_title": "Inflexible mayınlanır",
+      "new_title": "Inflexible’ın mayın isabeti bildirimi"
+    },
+    {
+      "old_title": "Wear tahliyesi",
+      "new_title": "Wear tahliye edilenlerle döner"
+    }
+  ],
+  "evidence": [
+    "Inflexible reported:16.11 bildirim",
+    "Wear returned:16.50 dönüş"
+  ],
+  "limit": "Kaynak saatleri ve eski m/tbağlantı anahtarları korunur. Yeni isabet veya tahliye başlangıç saati üretilmedi."
+}

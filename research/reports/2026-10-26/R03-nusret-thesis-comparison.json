@@ -1,0 +1,20 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "source_url": "https://katalog.marmara.edu.tr/veriler/yordambt/cokluortam/1C/5f36799bf308a.pdf#page=139",
+  "author": "Selçuk Osmanoğlu",
+  "title": "Orgeneral Cevat Çobanlı’nın Askerî Faaliyetleri",
+  "publication_date": "2020(tez kapağı)",
+  "event_date": "1915-03-08(tezde aktarılan kayıt)",
+  "access_date": "2026-10-26",
+  "evidence": "Basılı128/PDF139görüntüsü36ceride aktarımı ve26günlük aktarımını aynı sayfada gösterir;dipnot577ATBD132Belge8-5,dipnot5792010günlük yayınıs94.",
+  "verification": "tez_sayfasi_goruntuden_okundu_ozgun_belgeler_gorulmedi",
+  "claim_verified": false,
+  "limits": [
+    "333PDFsayfasının bütünü okunmadı.",
+    "36/26farkı çözüldü sayılmadı.",
+    "2019makale ve2020tez aynıyazar;bağımsızbirincilkanıt değil.",
+    "Tez dipnotu577resmî harp tarihlerinde26verildiğini belirtir;bu eser sayfaları ayrıca görüntüden okunmadı."
+  ],
+  "next": "ATBD1328-5özgün görüntüsü ve2010günlük yayınıs94karşılaştırması;erişim olmayınca başkaR03niceliğine geç."
+}

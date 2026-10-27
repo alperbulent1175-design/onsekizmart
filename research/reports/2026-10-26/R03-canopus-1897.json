@@ -1,0 +1,17 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "url": "https://www.usni.org/magazines/proceedings/1897/october/professional-notes",
+  "publication_date": "1897-10",
+  "event_date": null,
+  "access_date": "2026-10-26",
+  "section": "[ENGLAND.] CANOPUS",
+  "evidence": "will consist of four 12-in, wire guns",
+  "paraphrase": "Planlanan dört 12 inç ana top ve on iki 6 inç yardımcı top; kemer 6 inç ve barbette 10–12 inç ayrı yapılar.",
+  "verification": "İlgili web pasajı okundu; bütün sayı veya özgün teknik plan okunmadı.",
+  "limits": [
+    "Gelecek zamanla anlatılan plan, 1915 fiilî donatımı değildir.",
+    "Aynı sınıftaki diğer gemilere otomatik genelleme yok.",
+    "Milimetre dönüşümü ve savaş performansı çıkarılmadı."
+  ]
+}

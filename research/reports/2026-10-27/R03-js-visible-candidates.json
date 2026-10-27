@@ -1,0 +1,245 @@
+{
+  "scope": "Current data.js selected visible text fields; sourceTime,coordinates and written numbers separately required",
+  "rows": [
+    {
+      "kind": "places",
+      "id": "kilitbahir",
+      "field": "short",
+      "text": "Alan Başkanlığı kalenin inşasını 1462–63 olarak aktarır. Kale alanı, 18 Mart 1915 komuta ve gözetleme yerinin kesin noktası olarak doğrulanmadı.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "namazgah",
+      "field": "meta",
+      "text": "Kilitbahir · 4. Ağır Topçu Alayı karargâhı",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "namazgah",
+      "field": "short",
+      "text": "Alan Başkanlığı Namazgâh’ı 4. Ağır Topçu Alayı karargâhı olarak tanımlar. Yapı ve silah sayıları kurum aktarımıdır; eski 40–50 isabet tahmini belgeyle eşleştirilmedi.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "cimenlik",
+      "field": "short",
+      "text": "Queen Elizabeth’in ilk atış saati ve hedef eşleştirmesinin belge karşılaştırması açık. Ayrıntılar 18 Mart kaynak notunda açıklanır.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "anadolu-hamidiye",
+      "field": "meta",
+      "text": "Anadolu · 355/240 mm donatım aktarımı, 17–18 Mart 1915",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "anadolu-hamidiye",
+      "field": "short",
+      "text": "Anadolu yakasındaki ağır topçu mevkii. 17–18 Mart donatımına ilişkin ansiklopedi aktarımı kaynak notunda ayrılır; belirli gemilere isabetlerin bu tabyaya aidiyeti ayrıca incelenir.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "kumkale",
+      "field": "meta",
+      "text": "Anadolu giriş · 25 Nisan birlikleri ayrıca incelenir",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "bouvet",
+      "field": "meta",
+      "text": "18 Mart 1915 · saat ve kayıp ayrıntıları incelemede",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "inflexible",
+      "field": "meta",
+      "text": "18 Mart 1915 · saat ve zayiat incelemede",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "irresistible",
+      "field": "meta",
+      "text": "18 Mart 1915 · isabet, tahliye ve batış saatleri incelemede",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "ocean",
+      "field": "meta",
+      "text": "18 Mart 1915 · isabet ve batış saatleri incelemede",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "ocean",
+      "field": "short",
+      "text": "Ocean 18 Mart’ta battı. Mayın isabeti anlatıları farklı kesinliktedir; ayrıntılı saat ve tahliye bilgisi doğrulanmadı.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "kolordu-3",
+      "field": "name",
+      "text": "3. Kolordu Komutanlığı",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "tumen-19",
+      "field": "name",
+      "text": "19. Tümen — genel ihtiyat",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "tumen-9",
+      "field": "name",
+      "text": "9. Tümen",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "tumen-7",
+      "field": "name",
+      "text": "7. Tümen",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "tumen-11",
+      "field": "name",
+      "text": "11. Tümen",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "places",
+      "id": "ark-royal",
+      "field": "short",
+      "text": "18 Mart raporunda deniz uçağından bataryaların durumuna ilişkin bildirimler vardır. Bu kayıtlar, Ark Royal uçaklarının Erenköy mayınlarını arama kapsamını veya tespit edememe nedenini tek başına açıklamaz.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "events",
+      "id": 660,
+      "field": "text",
+      "text": "Queen Elizabeth için raporun ateşe başlama kaydı 11.25’tir; bütün filonun ilk atışı sayılmaz.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "events",
+      "id": 720,
+      "field": "text",
+      "text": "Fransız hattına ilerleme emri 12.06’da verildi; mevziye varış ayrı aşamadır.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "events",
+      "id": 825,
+      "field": "text",
+      "text": "Raporda Fransız hattına 13.43’te çekilme emri verilir. Yeni hattın ileri geçişi 14.32’de kaydedilir; emir ile hareket ayrı aşamalardır.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "events",
+      "id": 834,
+      "field": "text",
+      "text": "Bouvet için rapordaki patlama kaydı 13.54’tür; batışın iki dakika içinde gerçekleştiği anlatılır. Bu saat raporun gözlemidir; özgün raporla karşılaştırma açık; kesin kayıp toplamı ayrıca araştırılıyor.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "events",
+      "id": 854,
+      "field": "text",
+      "text": "Inflexible’ın mayın isabeti bildirim saati 16.11’dir; isabetin kesin anı değildir.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "events",
+      "id": 992,
+      "field": "text",
+      "text": "Wear tahliye edilenlerle 16.50’de Queen Elizabeth’e döndü; bu tahliyeye başlama veya Irresistible’ın batış saati değildir.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "events",
+      "id": 1005,
+      "field": "text",
+      "text": "Filo raporu Ocean’ın mayın isabetini 18.05 olarak verir. Jed’in 17.55 ve Colne’un 18.00 tahliye kayıtlarıyla saat farkı çözülmedi; gemi saatleri kendiliğinden eşitlenmez. Bu saat batış zamanı değildir.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "events",
+      "id": 1020,
+      "field": "text",
+      "text": "24 Mart tarihli rapor, Irresistible’ın mayın isabeti öğrenilince B hattına 16.50’de çekilme emri verildiğini kaydeder. Bu, bütün filonun Boğaz’dan çıkış saati değildir; eski Signal No. 12 numarası bu pasajla doğrulanmaz.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "events",
+      "id": 1080,
+      "field": "text",
+      "text": "Vengeance’ın 18 Mart seyir günlüğü, geminin akşam 6.29’da ateşi kesip Boğaz dışına yöneldiğini kaydeder. Bu tek geminin kaydıdır; bütün filonun veya Osmanlı bataryalarının ateşi aynı anda kestiğini göstermez.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "events",
+      "id": 1350,
+      "field": "text",
+      "text": "Ocean’ın 18 Mart’ta batışı kaynak notunda ele alınır. Bu kaydın 22:30 saati özgün gemi raporuyla kesinleştirilmedi; gece arama ve tespit anlatısı için belge incelemesi açık.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "lines",
+      "id": "nusret-hat",
+      "field": "name",
+      "text": "Nusret gizli hattı (26 mayın)",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    },
+    {
+      "kind": "lines",
+      "id": "nusret-hat",
+      "field": "note",
+      "text": "Alan Başkanlığının deniz muharebeleri anlatısı Erenköy Koyu’nda kıyıya paralel 26 mayınlık hattı aktarır. Bu çizginin uç noktaları, uzunluğu ve mayın aralıkları sayısal belgeyle doğrulanmadı. Çizgi üzerindeki köşeler tek tek mayın değildir.",
+      "review_status": "context_checked",
+      "review_note": "Local scope only: date/unit number, attributed claim or explicit uncertainty; not historical verification."
+    }
+  ]
+}

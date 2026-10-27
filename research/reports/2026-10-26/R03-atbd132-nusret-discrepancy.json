@@ -1,0 +1,27 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "priority_reason": "26/36 farkını özgün görüntü incelenmiş gibi çözmemek; belge kimliği85/8-5ayrımı araştırmayı yanlış belgeye yönlendirebilir.",
+  "event_date": "1915-03-08 (metindeki günümüz tarih başlığı)",
+  "publication_date": "2014-01 (aktarılmış kapak)",
+  "access_date": "2026-10-26",
+  "source_url": "https://www.scribd.com/document/936668060/ATBD-132-Ocak-2014-Say%C4%B1132-ATASE-Ar%C5%9Fivinden-Secilmi%C5%9F-Canakkale-Deniz-Sava%C5%9F%C4%B1-Na-Ait-Belgeler",
+  "evidence": "Metin aktarımının255ve259sayfa işaretlerinde36torpil;8(1:5)belge grubu ve265sayfa işaretinde8-5başlığı.",
+  "verification": "ucuncu_taraf_metin_aktarimi_okundu_goruntu_gorulmedi",
+  "claim_verified": false,
+  "limits": [
+    "36yeni kesin sayı olarak kullanılmadı.",
+    "OCR/metin çıkarma/basım/özgün yazım seçenekleri ayrıştırılmadı.",
+    "05.00,07.30ve100metre aktarımı bu çalışmada kesin saat/geometri yapılmadı.",
+    "Belge85ile8-5eşitliği görüntüden doğrulanmadı.",
+    "464sayfanın bütünü okunmadı."
+  ],
+  "access_blocks": [
+    {
+      "url": "https://www.msb.gov.tr/ArsivAskeriTarih/icerik/askeri-tarih-belgeleri-dergisi",
+      "result": "webredirectloop;tekil doğrudan sayfa isteği hata;PDFgörüntüsü alınamadı"
+    }
+  ],
+  "catalog_source": "https://kutuphane.ttk.gov.tr/details?id=577183&materialType=CR&query=Askeri+tarih__S%C3%BCreli+yay%C4%B1nlar.",
+  "next": "ATBD132basılı255,259ve265görüntüsünü resmî/kütüphane nüshasında kontrol et;görüntü olmadan sayıyı çözülmüş sayma."
+}

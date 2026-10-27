@@ -1,0 +1,16 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "priority_reason": "Kumkale birlik görevlendirmesini kurumsal özetten yayımlanmış belge pasajına izlemek",
+  "url": "https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_88.pdf#page=24",
+  "local_source": ".codex-remote-attachments\\01a145a6-78ab-7811-8335-98fbe597d278\\4d7e59fa-83c1-483d-a8e4-3a6348a7be7a\\1-AskeriTarihBelgeleriDergisi-Ağustos1989-Çanakkale.pdf",
+  "sha256": "e5e1722b8f6910be5da70d55e21f0c67850690c81109dbcfe568943ea41f2f36",
+  "document": "ATBD 88, Ağustos 1989, Belge 2134, basılı 33/PDF24, madde3",
+  "event_date": "1915-04-25/1915-04-26",
+  "publication_date": "1989-08",
+  "access_date": "2026-10-26",
+  "evidence": "Kumkale’deki düşmanın Üçüncü Fırka tarafından tardı emredilmiştir.",
+  "verification": "Yerel sayfa görüntüsündeki yayımlanmış Latin harfli aktarım okundu; Osmanlıca asıl bağımsız çözülmedi. Resmi URL aramada bulundu; dosya eşitliği kontrol edilmedi.",
+  "scope": "Görevlendirme emri; fiili icra, katılan bütün personel veya taarruz saati değil.",
+  "next": "Belge2135 ve izleyen Kumkale icra raporunu incele; emir ile sonucu ayrı tut."
+}

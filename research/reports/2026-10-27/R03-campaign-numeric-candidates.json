@@ -1,0 +1,614 @@
+{
+  "scope": "Campaign string candidates only; includes source metadata, dates and unit numbers; not errors. Model requires separate inspection.",
+  "rows": [
+    {
+      "path": "campaign.places.0.meta",
+      "text": "25 Nisan 1915 çıkarması · günümüzdeki kıyı ziyaret noktası",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.0.uncertainty",
+      "text": "Alan Başkanlığının Anzak Koyu kıyı ziyaret noktasıyla eşleştirildi. Koyun geometrik merkezi, ilk sandalların karaya çıktığı yer veya 1915 siper hattının kesin koordinatı değildir.",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.0.coordinateSource.evidenceText",
+      "text": "Ziyaret Noktasına Git: destination=40.240522, 26.281153",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.0.note.2",
+      "text": "Kıyıdaki Osmanlı birliği 9. Tümen’den 27. Alay’dır. 19. Tümen aynı gün sırtlara yetişir.",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.1.meta",
+      "text": "6–10 Ağustos 1915 · günümüzdeki anıt çevresi",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.1.uncertainty",
+      "text": "Alan Başkanlığının Conkbayırı Atatürk Zafer Anıtı ziyaret noktasıdır. Muharebe sahasını temsil eder; 1915 siperlerinin veya taarruz başlangıcının kesin koordinatı değildir.",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.1.coordinateSource.evidenceText",
+      "text": "Ziyaret Noktasına Git: destination=40.250658, 26.308544",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.1.note.1",
+      "text": "6–10 Ağustos muharebelerinin merkezidir. 10 Ağustos’ta Osmanlı karşı taarruzu tepeyi geri alır.",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.2.meta",
+      "text": "6–9 Ağustos 1915 · plato",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.2.note.1",
+      "text": "Muharebe 6 Ağustos 1915’te başlar ve birkaç gün sürer.",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.3.meta",
+      "text": "6–7 Ağustos çıkarması · temsili saha noktası",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.3.note.1",
+      "text": "Çıkarma 6–7 Ağustos gecesi koyadır. Birinci Anafartalar 9 Ağustos, İkinci Anafartalar 21 Ağustos’tadır.",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.5.meta",
+      "text": "28 Haziran – 5 Temmuz 1915",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.6.meta",
+      "text": "12–13 Temmuz 1915",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.7.meta",
+      "text": "13 Mayıs 1915 · Goliath",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.places.7.note.1",
+      "text": "13 Mayıs 1915’te HMS Goliath burada, Muavenet-i Milliye’nin torpiliyle batmıştır.",
+      "review_status": "context_checked",
+      "review_note": "Local render review, not historical verification. Date/coordinate scope is explicit; openPlace renders note[0], other note entries are not rendered by that path. Historical dates and unit identities remain separate source checks."
+    },
+    {
+      "path": "campaign.events.1.text",
+      "text": "DVA kronolojisi, 25 Şubat bombardımanını, 26 Şubat–3 Mart tahrip çıkarmalarını ve 4 Mart’ta Seddülbahir’deki timlerin tahliyesini ayrı aşamalar olarak anlatır.",
+      "review_status": "context_checked",
+      "review_note": "Revised against DVA dated passages read 2026-10-27; stages distinct. See R03-february-landing-phases.json. Institutional summary, not original war record."
+    },
+    {
+      "path": "campaign.events.2.chronologySource.passage",
+      "text": "1 March 1915",
+      "review_status": "context_checked",
+      "review_note": "Matched with relevant dated DVA chronology entry read 2026-10-27; date/title or scoped grounding statement, not independent original-record verification."
+    },
+    {
+      "path": "campaign.events.3.text",
+      "text": "Nusret’in Erenköy mayın dökümü 8 Mart kaydıyla ele alınır. Kurum anlatıları 26 mayın verir; ceride ve günlük aktarımlarındaki sayı farkı olay sayfasında açıklanır.",
+      "review_status": "context_checked",
+      "review_note": "Compared with existing Nusret institutional count and thesis discrepancy records. Attributed 26 is not declared a reconciled final count; original records remain open."
+    },
+    {
+      "path": "campaign.events.4.chronologySource.passage",
+      "text": "13 March 1915",
+      "review_status": "context_checked",
+      "review_note": "Matched with relevant dated DVA chronology entry read 2026-10-27; date/title or scoped grounding statement, not independent original-record verification."
+    },
+    {
+      "path": "campaign.events.4.cardenBirakma",
+      "text": "16 Mart 1915",
+      "review_status": "context_checked",
+      "review_note": "Internal Carden departure field; separate from de Robeck start, no new historical verification."
+    },
+    {
+      "path": "campaign.events.4.robeckGorev",
+      "text": "17 Mart 1915",
+      "review_status": "context_checked",
+      "review_note": "Internal de Robeck start field; not collapsed into Carden departure."
+    },
+    {
+      "path": "campaign.events.5.title",
+      "text": "18 Mart Deniz Muharebesi",
+      "review_status": "context_checked",
+      "review_note": "Event title/date, not quantity. Existing 18 March narrative compared."
+    },
+    {
+      "path": "campaign.events.5.text",
+      "text": "De Robeck’in filosu Boğaz’a girer. Bouvet, Irresistible ve Ocean batar; Inflexible ve Gaulois ağır yara alır. Boğaz geçilmez. İlgili kayıtlar haritanın 18 Mart görünümündedir; saat denetimi sürüyor.",
+      "review_status": "context_checked",
+      "review_note": "Compared with current 18 March source-note scope; three named sinkings kept, stage times remain separate."
+    },
+    {
+      "path": "campaign.events.6.chronologySource.passage",
+      "text": "1 April 1915",
+      "review_status": "context_checked",
+      "review_note": "Matched with relevant dated DVA chronology entry read 2026-10-27; date/title or scoped grounding statement, not independent original-record verification."
+    },
+    {
+      "path": "campaign.events.7.title",
+      "text": "E15 Boğaz’da karaya oturur",
+      "review_status": "context_checked",
+      "review_note": "Matched with relevant dated DVA chronology entry read 2026-10-27; date/title or scoped grounding statement, not independent original-record verification."
+    },
+    {
+      "path": "campaign.events.7.text",
+      "text": "E15, 17 Nisan 1915’te Boğaz geçişi sırasında karaya oturdu. Karaya oturma ile daha sonraki tahrip işlemi ayrı aşamalardır.",
+      "review_status": "context_checked",
+      "review_note": "Matched with relevant dated DVA chronology entry read 2026-10-27; date/title or scoped grounding statement, not independent original-record verification."
+    },
+    {
+      "path": "campaign.events.8.chronologySource.passage",
+      "text": "20 April 1915",
+      "review_status": "context_checked",
+      "review_note": "Matched with relevant dated DVA chronology entry read 2026-10-27; date/title or scoped grounding statement, not independent original-record verification."
+    },
+    {
+      "path": "campaign.events.9.text",
+      "text": "AWM anlatısı, İngiliz 29. Tümeni’nin Seddülbahir görevini ve beş kumsala çıkışı açıklar. Kıyıya çıkış, planlanan ilerlemenin tamamlanması değildir; Osmanlı birliklerinin kumsal bazındaki dağılımı için belge karşılaştırması açıktır.",
+      "review_status": "context_checked",
+      "review_note": "AWM article read 2026-10-27. Summary narrowed to attributed institutional task and landing scope; Ottoman unit distribution open. See R03-seddulbahir-campaign-summary.json."
+    },
+    {
+      "path": "campaign.events.12.text",
+      "text": "Deniz raporunun çıkarma planında Saros–Bolayır kesimi için gösteri harekâtı yer alır. Harita işareti temsili bir birlik noktasıdır; gemi mevzii veya doğrulanmış saha merkezi değildir.",
+      "review_status": "context_checked",
+      "review_note": "Revised to reported landing plan and representative marker; no exact unit centre claimed. See R03-saros-point-scope.json."
+    },
+    {
+      "path": "campaign.events.12.place",
+      "text": "tumen-7",
+      "review_status": "context_checked",
+      "review_note": "Internal place ID tumen-7 is a record key, not a seven-person quantity or verified coordinate."
+    },
+    {
+      "path": "campaign.events.15.chronologySource.passage",
+      "text": "29 April 1915",
+      "review_status": "context_checked",
+      "review_note": "Date heading for Gascon arrival; existing event page distinguishes arrival from hospital admission and does not derive patient totals."
+    },
+    {
+      "path": "campaign.events.17.chronologySource.label",
+      "text": "AWM4 23/32/7 · 15. Tabur günlüğü",
+      "review_status": "context_checked",
+      "review_note": "AWM4 23/32/7 is a catalogue identifier, 15th Battalion a unit identity; not troop strength."
+    },
+    {
+      "path": "campaign.events.17.chronologySource.passage",
+      "text": "Görüntü 4–5 / yaprak 46–47; 9–10 Mayıs 1915",
+      "review_status": "context_checked",
+      "review_note": "Image 4–5 and leaf 46–47 locate the reading; 9–10 May is the event date. Compared with existing scan-reading notes; no new scan reading this run."
+    },
+    {
+      "path": "campaign.events.17.chronologySource.scope",
+      "text": "El yazılı günlük taramasında 9–10 Mayıs pasajları okundu. 63 sayfanın tümü okunmadı; karşı tarafın raporudur. Saat sistemi ayrıca kalibre edilmedi.",
+      "review_status": "context_checked",
+      "review_note": "63 is the file page count, explicitly not all read. Clock calibration remains open. Wording spaced for legibility."
+    },
+    {
+      "path": "campaign.events.18.text",
+      "text": "Muavenet-i Milliye, Morto Koyu’nda HMS Goliath’ı torpiller. Gemi batar. 18 Mart ana muharebe listesinde yoktur.",
+      "review_status": "context_checked",
+      "review_note": "13 May Goliath event compared with existing local narrative. 18 March exclusion is event scope, not loss count. No new original-log verification."
+    },
+    {
+      "path": "campaign.events.19.chronologySource.passage",
+      "text": "17 May 1915",
+      "review_status": "context_checked",
+      "review_note": "17 May dated source heading; single-person observation remains attributed in event text, not army-wide inference."
+    },
+    {
+      "path": "campaign.events.21.chronologySource.label",
+      "text": "AWM · H02318 fotoğraf kaydı",
+      "review_status": "context_checked",
+      "review_note": "H02318 is an AWM photograph catalogue identifier, not a quantity; photograph description is not armistice text."
+    },
+    {
+      "path": "campaign.events.21.chronologySource.passage",
+      "text": "22 May 1915",
+      "review_status": "context_checked",
+      "review_note": "22 May photograph catalogue date remains distinct from 24 May burial truce."
+    },
+    {
+      "path": "campaign.events.23.text",
+      "text": "Alman denizaltısı U-21, HMS Triumph’u Arıburnu açıklarında batırır. Gemi 18 Mart’ta filodadır; o gün batmamıştır.",
+      "review_status": "context_checked",
+      "review_note": "AWM G00197 catalogue description read 2026-10-27 supports 25 May/U21 attribution. March service and coastal map point remain distinct from May wreck location."
+    },
+    {
+      "path": "campaign.events.24.text",
+      "text": "U-21, HMS Majestic’i Seddülbahir açıklarında batırır. Gemi 18 Mart’ta C Hattı’ndadır; o gün batmamıştır.",
+      "review_status": "context_checked",
+      "review_note": "Same catalogue supports 27 May/U21 attribution. C-line grouping is not exact May ship position; no wreck coordinate or casualty count inferred."
+    },
+    {
+      "path": "campaign.events.25.chronologySource.passage",
+      "text": "29 May 1915",
+      "review_status": "context_checked",
+      "review_note": "Dated source-entry label 29 May; distinct from 9–10 May diary. Existing event source scope only, not new original report verification."
+    },
+    {
+      "path": "campaign.events.27.chronologySource.passage",
+      "text": "19 June 1915",
+      "review_status": "context_checked",
+      "review_note": "Dated source-entry label 19 June; not quantity. Existing chronologySource metadata read; no historical status upgrade."
+    },
+    {
+      "path": "campaign.events.29.chronologySource.passage",
+      "text": "7 July 1915",
+      "review_status": "context_checked",
+      "review_note": "Dated source-entry label 7 July; not quantity. Existing chronologySource metadata read; no historical status upgrade."
+    },
+    {
+      "path": "campaign.events.30.text",
+      "text": "Bu kart 12–13 Temmuz Kerevizdere aşamasını kapsar; 21–22 Haziran muharebesi ayrı bir aşamadır. Kaynaklardaki adlandırma farkı olay sayfasında açıklanır.",
+      "review_status": "context_checked",
+      "review_note": "Compared with existing Kerevizdere page: July12–13 and June21–22 stages distinguished, naming scope explicit."
+    },
+    {
+      "path": "campaign.events.31.chronologySource.passage",
+      "text": "29 July 1915",
+      "review_status": "context_checked",
+      "review_note": "Dated source-entry label29July, not hospital capacity or service-start count. Existing metadata only."
+    },
+    {
+      "path": "campaign.events.33.text",
+      "text": "Suvla çıkarması 6 Ağustosta başladı. Yakın tepe kazanımları ile iç kesimdeki hedefler ayrılır; ayrıntılar ve kaynak kapsamı olay sayfasındadır.",
+      "review_status": "context_checked",
+      "review_note": "Compared with Suvla event page:6August start distinguished from6–7landing night and6–15operation scope."
+    },
+    {
+      "path": "campaign.events.34.text",
+      "text": "DVA anlatısı zirveye çıkış ile Osmanlı karşı taarruzunu ayırır. Bakanlık kronolojisi Mustafa Kemal’in Conkbayırı hücumunu 10 Ağustos’a kaydeder; bu kesit, geniş Sarıbayır harekâtıyla aynı tarih kapsamı değildir.",
+      "review_status": "context_checked",
+      "review_note": "Relevant DVA and KTB passages read 2026-10-27; attributed stage/date scope. False separate10August record statement corrected on event page; original operational record verification open."
+    },
+    {
+      "path": "campaign.events.35.text",
+      "text": "Barbaros Hayreddin, Marmara’da İngiliz denizaltısı E11 tarafından batırılır. Bu batış 18 Mart muharebesine ait değildir; o günkü kesin konumu için gemi jurnali karşılaştırması gerekir. Batış noktasının koordinatı bu haritaya konmadı.",
+      "review_status": "context_checked",
+      "review_note": "Revised categorical March location exclusion to explicit ship-log review requirement; August sinking not March event. No new coordinate."
+    },
+    {
+      "path": "campaign.events.37.chronologySource.passage",
+      "text": "15 August 1915",
+      "review_status": "context_checked",
+      "review_note": "DVA15August entry read: named KiretchTepe action and limited progress; no casualty numbers imported."
+    },
+    {
+      "path": "campaign.events.38.text",
+      "text": "Bakanlık kronolojisi İkinci Anafartalar’ı 21 Ağustos’a kaydeder. Yusufçuk Tepe ile Bomba Tepe’nin farklı mevkileri ve çatışma takvimleri, aynı muharebenin tek süresi gibi birleştirilmez.",
+      "review_status": "context_checked",
+      "review_note": "Summary narrowed to attributed21August chronology and separate geographic/action scopes. See R03-autumn-evacuation-scope.json."
+    },
+    {
+      "path": "campaign.events.39.chronologySource.passage",
+      "text": "8 October 1915",
+      "review_status": "context_checked",
+      "review_note": "DVA8October entry read: water-supply damage, not army-wide quantified deprivation."
+    },
+    {
+      "path": "campaign.events.40.chronologySource.passage",
+      "text": "22 November 1915",
+      "review_status": "context_checked",
+      "review_note": "DVA22November recommendation read; not government approval or completed evacuation."
+    },
+    {
+      "path": "campaign.events.41.chronologySource.passage",
+      "text": "27 November 1915",
+      "review_status": "context_checked",
+      "review_note": "DVA27November heading and27–28 weather passage read; no casualty or exposure totals imported."
+    },
+    {
+      "path": "campaign.events.42.chronologySource.passage",
+      "text": "7 December 1915",
+      "review_status": "context_checked",
+      "review_note": "DVA7December approval read: Anzac/Suvla; Helles retained then. Approval distinct from execution."
+    },
+    {
+      "path": "campaign.events.43.text",
+      "text": "Arıburnu tahliyesi aşamalıydı; tarih kartı son geceyi gösterir. Son birlikler 20 Aralık sabahının erken saatlerinde ayrıldı.",
+      "review_status": "context_checked",
+      "review_note": "Current Ariburnu event page compared; final night is not whole evacuation. DVA18December entry supports phased18–20 withdrawal; exact early-morning final departure remains previous page source scope, not independently proven this run."
+    },
+    {
+      "path": "campaign.events.44.text",
+      "text": "Suvla tahliyesinin son aşaması. Mustafa Kemal’in cepheden ayrılış kaydı 10 Aralıktır; tahliye gecesinin komutanı olarak sunulmaz.",
+      "review_status": "context_checked",
+      "review_note": "KTB10December departure entry read;19–20 evacuation remains distinct from MustafaKemal command identity. No new final-night commander assigned."
+    },
+    {
+      "path": "campaign.events.45.chronologySource.passage",
+      "text": "27 December 1915",
+      "review_status": "context_checked",
+      "review_note": "DVA27December Helles evacuation order read, distinct from January execution."
+    },
+    {
+      "path": "campaign.command.osmanli.0.role",
+      "text": "5. Ordu Komutanı",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.0.body",
+      "text": "24 Mart 1915’te kurulan 5. Ordu’nun komutanıdır. Kara savunmasının üst komutanlığıdır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.1.role",
+      "text": "3. Kolordu Komutanı",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.1.body",
+      "text": "Yarımada tarafındaki 3. Kolordu’nun başındadır. Arıburnu kesimi bu kolordunun sahasındadır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.1.place",
+      "text": "kolordu-3",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.2.body",
+      "text": "Temmuz 1915’te Seddülbahir cephesinin (Güney Grubu) komutanı olur.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.3.role",
+      "text": "19. Tümen, sonra Anafartalar Grubu",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.3.body",
+      "text": "25 Nisan 1915’te 19. Tümen komutanıdır. 8/9 Ağustos 1915 gecesi Anafartalar Grup Komutanlığına getirilir. 10 Ağustos Conkbayırı karşı taarruzu bu görevle anılır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.3.place",
+      "text": "tumen-19",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.4.body",
+      "text": "18 Mart 1915’te Çanakkale Müstahkem Mevkii komutanıdır. Boğaz tabyaları ve mayın savunması bu komutanlıktadır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.5.body",
+      "text": "18 Mart’ta Cevat Bey’in kurmay başkanıdır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.6.role",
+      "text": "9. Tümen Komutanı",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.6.body",
+      "text": "Seddülbahir–Kirte sahası 18 Mart’ta ve 25 Nisan çıkarmasının ilk günlerinde 9. Tümen’indir.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.6.place",
+      "text": "tumen-9",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.7.role",
+      "text": "11. Tümen Komutanı",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.7.body",
+      "text": "Anadolu kıyısındaki 11. Tümen görevi, Kumkale’de fiilen muharebe eden bütün birliklerin kimliği yerine kullanılamaz; 25 Nisan birlik karşılaştırması Kumkale kaynak notundadır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.7.place",
+      "text": "tumen-11",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.8.role",
+      "text": "7. Tümen Komutanı",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.8.body",
+      "text": "Saros kıyıları ve Bolayır Kıstağı 7. Tümen sahasıdır. 25 Nisan’daki Saros gösterişi bu kesime yöneliktir.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.8.place",
+      "text": "tumen-7",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.10.body",
+      "text": "18 Mart’ta Alman danışma heyetinin başında, Müstahkem Mevkii gözetleme yerindedir.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.osmanli.11.body",
+      "text": "18 Mart’ta Anadolu Hamidiye’de ağır top ateşinin idaresinde bulunur.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.0.role",
+      "text": "Deniz komutanı, Şubat – 16 Mart 1915",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.0.commandLeft",
+      "text": "16 Mart 1915",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.0.body",
+      "text": "Şubat bombardımanlarını yönetir. 16 Mart 1915’te sağlık nedeniyle komutayı bırakır. De Robeck’in görev satırı sitede 17 Mart 1915’tir; iki tarih birleştirilmedi.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.1.role",
+      "text": "Deniz komutanı, 17 Mart 1915’ten",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.1.commandFrom",
+      "text": "17 Mart 1915",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.1.cardenLeft",
+      "text": "16 Mart 1915",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.1.body",
+      "text": "18 Mart taarruzunu yönetir. Kara çıkarması boyunca deniz kuvvetlerinin başındadır. Görev satırı 17 Mart 1915’tir; Carden’ın bıraktığı gün 16 Mart 1915 olarak durur.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.2.body",
+      "text": "Deniz kurmay başkanıdır. 18 Mart’tan sonra deniz taarruzunun yenilenmesinden yana olduğu kayıtlarda yer alır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.3.body",
+      "text": "18 Mart’ta B Hattı’ndaki Fransız zırhlılarının komutanıdır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.4.body",
+      "text": "Kara harekâtının komutanıdır (Mart–Ekim 1915). 18 Mart deniz muharebesinin komutanı değildir. Ekim 1915’te geri çağrılır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.6.role",
+      "text": "1. Avustralya Tümeni Komutanı",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.6.body",
+      "text": "25 Nisan’da Arıburnu’na çıkan tümeninin komutanıdır. 15 Mayıs 1915’te ağır yaralanır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.8.role",
+      "text": "29. Tümen, sonra VIII. Kolordu",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.8.body",
+      "text": "25 Nisan’da Seddülbahir’e çıkan 29. Tümen’in komutanıdır. Sonra Seddülbahir cephesindeki VIII. Kolordu’yu komuta eder.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.9.body",
+      "text": "6–7 Ağustos 1915 Suvla çıkarmasını komuta eder. Ağustos 1915 içinde görevden alınır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.10.body",
+      "text": "25 Nisan Kumkale çıkarmasının ve ardından Seddülbahir’deki Fransız kolunun komutanıdır. Mayıs 1915’te yerini Gouraud’ya bırakır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.11.body",
+      "text": "Mayıs 1915’te Fransız kolordusunun komutanı olur. Haziran 1915 sonunda Seddülbahir’de yaralanır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.command.itilaf.12.body",
+      "text": "Ekim 1915 sonunda Hamilton’un yerine gelir. Tahliyeyi önerir.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.navy.osmanli.0.march",
+      "text": "7–8 Mart gecesi Erenköy hattını döker. 18 Mart’ta batmaz.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.navy.osmanli.1.march",
+      "text": "18 Mart konumu için gemi jurnali karşılaştırması gerekir; İtilaf taarruz filosuyla karıştırılmamalıdır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.navy.osmanli.1.later",
+      "text": "8 Ağustos 1915’te Marmara’da E11 tarafından batırılır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.navy.osmanli.2.march",
+      "text": "18 Mart konumu için gemi jurnali karşılaştırması gerekir; İtilaf taarruz filosuyla karıştırılmamalıdır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.navy.osmanli.3.march",
+      "text": "18 Mart kadrosunda yoktur.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.navy.osmanli.3.later",
+      "text": "13 Aralık 1914’te HMS B11 tarafından Sarısığlar’da batırılmıştır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.navy.osmanli.4.march",
+      "text": "18 Mart ana muharebe hattında değildir.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.navy.osmanli.4.later",
+      "text": "13 Mayıs 1915’te Morto Koyu’nda HMS Goliath’ı batırır.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.navy.later.0.note",
+      "text": "18 Mart’ın 18 ana gemilik listesinde yoktur. 13 Mayıs 1915, Morto Koyu, Muavenet-i Milliye.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.navy.later.1.note",
+      "text": "18 Mart’ta filodadır ve o gün batmaz. 25 Mayıs 1915, Arıburnu açığı, Alman U-21.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.navy.later.2.note",
+      "text": "18 Mart’ta C Hattı’ndadır ve o gün batmaz. 27 Mayıs 1915, Seddülbahir açığı, U-21.",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "path": "campaign.sources.0",
+      "text": "Tarih çerçevesi: 19 Şubat 1915 dış tabya bombardımanı – 9 Ocak 1916 Seddülbahir tahliyesi.",
+      "review_status": "unreviewed_candidate"
+    }
+  ],
+  "reviewScope": "Original110 candidates:58 context reviews,52 open. All original selected place/event string candidates reviewed for scope; not all historical claims verified. Hidden command/navy/source strings remain; model/coordinates outside this subset."
+}

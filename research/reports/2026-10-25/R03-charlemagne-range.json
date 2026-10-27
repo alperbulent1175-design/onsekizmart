@@ -1,0 +1,26 @@
+{
+  "task": "R03",
+  "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "event_date": "1915-03-18",
+  "document_date": "1915-03-24",
+  "access_date": "2026-10-25",
+  "evidence_quote": "Gaulois and Charlemagne",
+  "evidence_summary": "0.6 p.m. ilk B hattına ilerleme emri,1.25 p.m. Gaulois/Charlemagne hedef13/16 ateşi; bu pasajlarda9km verilmez.",
+  "verification": "İlgili rapor çevrimyazısı okundu; özgün gemi jurnali değil.",
+  "time_system": "Rapor iki saat ileri GMT yerel diyor.",
+  "limits": [
+    "13/16 numaraları Osmanlı tabya adlarına eşlenmedi.",
+    "12.06 emir saati her geminin ateşe başlama saati sayılmadı.",
+    "9km yanlış diye hükmedilmedi; bu pasajla eşleştirilmediği açıklandı."
+  ],
+  "changed": [
+    "donanma/index.html Charlemagne kartı",
+    "js/data.js filo grup notundaki9km kopyası"
+  ],
+  "candidate_features": {
+    "quantity": 6,
+    "unit_designation": 67,
+    "date_or_year": 57,
+    "citation_context": 40
+  }
+}

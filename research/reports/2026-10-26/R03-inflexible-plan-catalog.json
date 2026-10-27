@@ -1,0 +1,20 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "source_url": "https://www.rmg.co.uk/collections/objects/rmgc-object-58492",
+  "object_id": "NPB4535",
+  "document_date": "1908-11-04 (katalogda belirtilen tersane damgası)",
+  "event_date": "1915-03-18 (araştırma hedefi; bu plan tarihi değil)",
+  "publication_date": null,
+  "access_date": "2026-10-26",
+  "evidence": "builder's stamp dated 4 November 1908",
+  "verification": "Nesne katalog açıklaması okundu; plan görüntüsü görülmedi",
+  "limits": [
+    "Başlık/açıklama Inflexible, Vessels alanı Invincible farklılığı çözülmedi",
+    "1908damga1915donatımı kanıtlamaz",
+    "Top sayısı/kalibre/1915konfigürasyonu doğrulanmadı",
+    "Crowncopyrightgörsel eklenmedi"
+  ],
+  "access_limit": "NPB4538rmgc-object-58495doğrudan açılışı cachemiss;snippet plan okunmuş sayılmadı",
+  "next": "NPB4535görüntüsüne kurumsal erişim veya ilişkili plan katalogları; aynı başarısızURLyi döndürme."
+}

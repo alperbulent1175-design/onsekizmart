@@ -1,0 +1,23 @@
+{
+  "reviewDate": "2026-10-27",
+  "scope": "Original campaign candidate rows 31–38; local source scope and reader-facing locator formatting only. No external access or original image rereading.",
+  "changedFiles": [
+    "js/campaign.js",
+    "data/chronology-sources.json",
+    "data/chronology-events.json",
+    "kronoloji-kaynaklari/index.html",
+    "olaylar/quinns-post-siper-baskini/index.html"
+  ],
+  "replacements": {
+    "Görüntü4–5 / yaprak46–47; 9–10 Mayıs1915": "Görüntü 4–5 / yaprak 46–47; 9–10 Mayıs 1915",
+    "El yazılı günlük taramasında9–10Mayıs pasajları okundu.63sayfanın tümü okunmadı; karşı tarafın raporudur. Saat sistemi ayrıca kalibre edilmedi.": "El yazılı günlük taramasında 9–10 Mayıs pasajları okundu. 63 sayfanın tümü okunmadı; karşı tarafın raporudur. Saat sistemi ayrıca kalibre edilmedi."
+  },
+  "sourceUrl": "https://www.awm.gov.au/collection/C1342882",
+  "eventDate": "1915-05-09/1915-05-10",
+  "publicationDate": null,
+  "accessDate": "2026-10-25",
+  "evidenceText": "again occupied at 6 am next day",
+  "status": "existing_scan_reading_record_compared",
+  "localReadingRecord": "research/source-review/18-mart-saat-2026-10-25/INCELEME.md",
+  "limit": "Previous record reports images 3–5/leaves 45–47 read; visible event locator focuses images 4–5/leaves 46–47. No inference that all 63 pages were read. May 29 report notes are separate."
+}

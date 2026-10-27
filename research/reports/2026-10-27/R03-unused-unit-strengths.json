@@ -1,0 +1,10 @@
+{
+  "task": "R03",
+  "date": "2026-10-27",
+  "status": "bu alt kapsam tamamlandı; genelR03 açık",
+  "snapshot": "  units: [\n    { name: \"Çanakkale Müstahkem Mevkii\", cmd: \"Miralay Cevat Bey (Çobanlı); Kurmay: Yarbay Selahattin Adil Bey\", n: \"~18.000–20.000\", area: \"Her iki yaka tabyaları, seyyar bataryalar, mayın ve projektörler\", place: \"mustahkem-hq\" },\n    { name: \"3. Kolordu\", cmd: \"Mirliva Esat Paşa (Bülkat)\", n: \"~50.000–55.000\", area: \"Boğaz çevresi, Gelibolu, Saros’tan Anadolu kıyısına\", place: \"kolordu-3\" },\n    { name: \"19. Tümen (ihtiyat)\", cmd: \"Yarbay Mustafa Kemal\", n: \"~12.000–14.000\", area: \"Maydos, Seddülbahir gerisi, Kilitbahir geçişi\", place: \"tumen-19\" },\n    { name: \"9. Tümen\", cmd: \"Miralay Halil Sami Bey\", n: \"~12.000–13.000\", area: \"Seddülbahir, Alçıtepe, Krithia ve güney kıyı\", place: \"tumen-9\" },\n    { name: \"7. Tümen\", cmd: \"Miralay Remzi Bey\", n: \"~11.000–12.000\", area: \"Saros kıyıları ve Bolayır Kıstağı\", place: \"tumen-7\" },\n    { name: \"11. Tümen\", cmd: \"Miralay Rafet Bey\", n: \"~11.000–12.000\", area: \"Kumkale, Erenköy, Yeniköy, Beşige\", place: \"tumen-11\" },\n    { name: \"Mayın ve Deniz Savunma\", cmd: \"Binbaşı Nazmi Bey; Nusret: Yzb. Tophaneli Hakkı\", n: \"~400–500\", area: \"11 enlemesine hat + Erenköy gizli hattı\", place: \"nusret\" }\n  ],",
+  "visibility": "88 published_pages içinde unit-cards/unit-rows hedefi bulunmadı; render kodu bu hedefler yoksa ekleme yapmıyor. Canlıda yayımlanmış sayılar olduğu iddia edilmiyor.",
+  "evidence_url": null,
+  "verification": "Sayısal mevcudun belge dayanağı bulunmadı; tarihsel doğrulama değil yerel kod/veri denetimi.",
+  "decision": "7 n tahmini ve 11 hat ifadesi çıkarılır; birimler ve bağlantıları korunur. Gerçek mevcut/kuruluş kadrosu ayrımı açık kalır."
+}

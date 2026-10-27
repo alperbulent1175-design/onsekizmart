@@ -1,0 +1,21 @@
+{
+  "task": "R03",
+  "priority_reason": "Görünür olay kartındaki sayısal anlatı belirli bir telgraf metnine atfediliyordu; belge zinciri yok.",
+  "url": "https://canakkalesavaslari.comu.edu.tr/canakkale-savaslarini-anma-ve-kutlama-etkinlikleri.html",
+  "author": "Cahide Sınmaz Sönmez",
+  "title": "Çanakkale Savaşları’nı Anma ve Kutlama Etkinlikleri (1916–1938)",
+  "publication_date": null,
+  "access_date": "2026-10-25",
+  "event_date": "1915-03-18",
+  "evidence_summary": "Osmanlı kamuoyuna yansıma bölümü başka gönderenlerin kutlama mesajlarını aktarır. Bunlar Cevat-Enver aynı gün harekât sonuç raporunun metnini/saatini kanıtlamaz.",
+  "status": "İlgili akademik web aktarımı okundu; özgün telgraf görüntüsü görülmedi.",
+  "old_text": "Cevat Bey Enver Paşa’ya telgraf çeker: 3 büyük zırhlı batırıldı, çok sayıda gemi ağır hasarlı, Boğaz geçilemedi.",
+  "new_text": "Günün sonucuna ilişkin raporlama bu kayıtta ele alınır. Cevat Bey’den Enver Paşa’ya gönderildiği ileri sürülen telgrafın özgün metni, gönderim saati ve bu telgrafa atfedilen gemi sayısı belgeyle eşleştirilmedi. Kutlama telgrafları aynı günün harekât raporu yerine kullanılamaz.",
+  "limits": [
+    "Arama sonucu bulunmaması belgenin hiç var olmadığını kanıtlamaz.",
+    "18.15 eski oynatma/bağlantı anahtarı korundu; doğrulanmış saat yapılmadı.",
+    "Üç geminin batması genel tarihsel sonucu, bu telgrafın içeriğini otomatik kanıtlamaz.",
+    "Bütün makale ve dipnot asılları okunmadı."
+  ],
+  "next": "Tarihli Müstahkem Mevki/başkomutanlık sonuç yazısı veya ceride ekinde gönderen/alıcı ve tam metin ara."
+}

@@ -1,0 +1,31 @@
+{
+  "reviewDate": "2026-10-27",
+  "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+  "accessDate": "2026-10-27",
+  "publicationDate": null,
+  "lastUpdated": "2024-12-06",
+  "readEntries": [
+    "15August",
+    "21August",
+    "27August",
+    "8October",
+    "22November",
+    "27November",
+    "7December",
+    "18December",
+    "27December"
+  ],
+  "evidenceText": "The British Government ordered the evacuation of Helles.",
+  "eventDate": "1915-12-27 (quoted entry)",
+  "status": "dated_institutional_entries_read",
+  "oldAnafartalarText": "Suvla cephesinde İkinci Anafartalar (Yusufçuk Tepe) yapılır. Bomba Tepe çatışmaları 29 Ağustos’a kadar sürer. Sırtlar alınamaz.",
+  "currentAnafartalarText": "Bakanlık kronolojisi İkinci Anafartalar’ı 21 Ağustos’a kaydeder. Yusufçuk Tepe ile Bomba Tepe’nin farklı mevkileri ve çatışma takvimleri, aynı muharebenin tek süresi gibi birleştirilmez.",
+  "limits": [
+    "Institutional chronology, not original operational orders.",
+    "Recommendation, approval, order and physical withdrawal kept distinct.",
+    "No troop, loss or hospital-service totals imported.",
+    "Exact final departure time not newly established.",
+    "KTB10December departure corroborates only that stage, not final-night command."
+  ],
+  "claimVerified": false
+}

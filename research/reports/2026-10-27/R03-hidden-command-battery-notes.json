@@ -1,0 +1,42 @@
+{
+  "scope": "Two hidden place note arrays; historical claims not verified",
+  "records": [
+    {
+      "place_id": "mustahkem-hq",
+      "original_notes": [
+        "Henüz 5. Ordu kurulmadığı için (24 Mart 1915) Boğaz savunması doğrudan 3. Kolordu ve Müstahkem Mevkii bünyesindeki birliklerle icra edildi.",
+        "Mevcut: yaklaşık 18.000–20.000 (topçu, istihkâm, mayın ve muhabere personeli).",
+        "Sorumluluk: her iki yakadaki ağır/hafif kıyı tabyaları, seyyar bataryalar, mayın hatları ve projektör mevkileri.",
+        "07.30’da Cevat Bey gece devriye ve mayın hat raporlarını aldı. 09.00’da genel muharebe alarmı verildi. 09.30’da Kilitbahir yamaçlarındaki Muharebe Gözetleme Yeri’ne çıkıldı.",
+        "Kesin ateş disiplini: İngiliz gemileri merkez tabyaların etkili menziline (~10.000 m) girmeden karşı ateş açılmayacak, cephane israf edilmeyecek, tabyalar erkenden ifşa edilmeyecekti."
+      ],
+      "current_notes": [
+        "Karargâh personel mevcudu, alarm ve gözetleme saatleri ile ateş emrinin kapsamı için tarihli belge karşılaştırması açık. Eski sayısal taslak araştırma kaydında korunur."
+      ],
+      "status": "unsupported_draft_quarantined",
+      "visibility": "All current places have short; note fallback is not used. This is not a published error finding.",
+      "event_date": "1915-03-18",
+      "source_url": null,
+      "evidence": "Local draft and js/app.js openPlace inspected; no historical document verification.",
+      "review_date": "2026-10-27"
+    },
+    {
+      "place_id": "anadolu-hamidiye",
+      "original_notes": [
+        "12.15’te Bouvet doğrudan Anadolu Hamidiyeleri, Suffren ve Gaulois Rumeli tabyalarını hedef aldı. Türk kıyı bataryaları (Hamidiye, Mecidiye, Dardanos, Namazgâh) tüm namlularla ateşe başladı.",
+        "Amiral Johannes Merten bizzat burada ateş idaresinde bulundu; 355 mm ve 240 mm Krupp’ların namlu yükselişi ve tapalarını yönetti.",
+        "Inflexible ve Suffren tarafından yoğun hedef alındı. 2 büyük top geçici devre dışı kaldı; bir cephanelik isabet alarak infilak etti.",
+        "16.18’den sonra mayınlanan Irresistible’a ve 16.45’ten sonra Ocean’a tüm ağır namlular odaklandı."
+      ],
+      "current_notes": [
+        "Belirli gemilere ateş açma saatleri, hasarlı top sayısı ve cephanelik hasarının ayrıntıları için belge karşılaştırması açık. Donatım aktarımı ile fiilî ateş ve hasar kayıtları aynı kanıt değildir."
+      ],
+      "status": "unsupported_draft_quarantined",
+      "visibility": "All current places have short; note fallback is not used. This is not a published error finding.",
+      "event_date": "1915-03-18",
+      "source_url": null,
+      "evidence": "Local draft and js/app.js openPlace inspected; no historical document verification.",
+      "review_date": "2026-10-27"
+    }
+  ]
+}

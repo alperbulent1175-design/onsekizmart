@@ -1,0 +1,16 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "event_date": "1915-03-18",
+  "publication_date": "Yaz2019(PDF);katalog alanı2Temmuz,alıntı stilleri1Temmuz farklı olduğundan kesin gün seçilmedi",
+  "access_date": "2026-10-26",
+  "url": "https://dergipark.org.tr/tr/download/article-file/751274",
+  "scope": "Metin araması ile ilgili paragraflar;PDF12ve14/basılı400ve402görüntüden okundu;tüm19sayfa değil.",
+  "evidence": "400sayfa Yetkin1966s120ye dayanarak sabah hareketini;402sayfa hatıra ve1937gazete aktarımıyla karargaha dönüşü anlatır.",
+  "verification": "akademik_aktarim_incelendi_asillar_gorulmedi",
+  "limits": [
+    "14.45Mecidiye/Namazgah atla hareketi bu iki pasajla kanıtlanmadı.",
+    "Bouvet saati dönüş saati yerine geçirilmedi."
+  ],
+  "followup": "402dipnot14:hatırlanan17/18Mart mayın döküm tarihlerine karşılık ATASE2014sayı132Belge85veŞimşek/Güner2010s94atıfları;bu iki üst kaynak görülmedi. Sonraki araştırma hedefi."
+}

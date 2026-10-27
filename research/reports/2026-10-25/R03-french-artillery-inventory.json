@@ -1,0 +1,21 @@
+{
+  "task": "R03",
+  "url": "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/2020-02/SHDAA_REP_1F3_NO_578_1699_1975.pdf#page=156",
+  "institution": "Service historique de la Défense",
+  "title": "Collection de tracés et documents concernant l’artillerie de l’ETCA",
+  "inventory_label": "CAA 578/10 — Ed 1 Janvier 2005",
+  "publication_date": "2005-01-01",
+  "event_date": null,
+  "access_date": "2026-10-25",
+  "examined": "PDF/basılı s.156 görüntüsü; 1160 sayfalık dosyada metinle ilgili sayfa arandı. Bütün eser okunmadı.",
+  "evidence_quote": "canons de 305 Mle 1893",
+  "evidence_summary": "Charlemagne ve Gaulois başlığında 04.1903 pièce1 ve 01.1909 pièce2; Bouvet başlığında 06.1898, 274.4 ve305 Mle1893 kundak kaydı.",
+  "status": "Arşiv envanteri görüntüsü okundu; listelenen özgün planlar görülmedi.",
+  "limits": [
+    "Plan tarihi donatımın değiştiği tarih sayılmadı.",
+    "Katalog top adlandırması toplam namlu sayısını doğrulamadı.",
+    "1915 fiilî donatım ve zırh cetveli ayrı açık sorular.",
+    "Bouvet namlu uzunluğu/model karşılaştırması dönem yayını ile ayrıca yapılmalı."
+  ],
+  "next": "Envanterde listelenen planların erişim koşullarını araştır; katalog kaydını plan görüntüsü olarak yükseltme."
+}

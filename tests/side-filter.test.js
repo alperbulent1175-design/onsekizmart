@@ -84,7 +84,7 @@ test('İtilaf seçimi başlangıçtaki Osmanlı kaydını ilk uygun İtilaf kayd
   assert.equal(ctx.shown, ctx.D.events.find(event => event.side === 'itilaf'));
   assert.equal(ctx.navalSelection.side, 'itilaf');
   assert.match(node('side-filter-status').textContent, /ilk kayıt açıldı/);
-  assert.match(node('side-filter-status').textContent, /İtilaf: 19 kayıt/);
+  assert.match(node('side-filter-status').textContent, /İtilaf: 20 kayıt/);
   assert.equal(node('tl-itilaf').attributes['aria-pressed'], 'true');
   assert.equal(node('tl-turk').attributes['aria-pressed'], 'false');
   assert.equal(ctx.panelRevision, 1);
@@ -116,7 +116,7 @@ test('cephede İtilaf seçildikten sonra 18 Marta dönüş ilk uygun deniz kayd�
   assert.equal(ctx.mode, 'naval');
   assert.equal(ctx.range.value, '510');
   assert.equal(ctx.shown.side, 'itilaf');
-  assert.match(node('side-filter-status').textContent, /İtilaf: 19 kayıt/);
+  assert.match(node('side-filter-status').textContent, /İtilaf: 20 kayıt/);
 });
 
 test('harita işaretleri olay konumlarından süzülür; İtilaf olayının tabya konumu korunur', () => {
@@ -223,7 +223,7 @@ test('mobilde taraf seçimi ve temizleme açık süzgeci ve basılan düğmenin 
       assert.match(node('side-filter-status').textContent, /Süzgeçler temizlendi/);
     } else {
       ctx.setSide('itilaf');
-      assert.match(node('side-filter-status').textContent, /İtilaf: 19 kayıt/);
+      assert.match(node('side-filter-status').textContent, /İtilaf: 20 kayıt/);
     }
     assert.equal(panelClosedTools, true, 'The real panel-closing path was exercised');
     assert.equal(classes.has('is-filter-open'), true);

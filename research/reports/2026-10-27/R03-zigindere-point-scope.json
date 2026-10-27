@@ -1,0 +1,15 @@
+{
+  "reviewDate": "2026-10-27",
+  "file": "js/campaign.js",
+  "placeId": "zigindere",
+  "previousNote": "Seddülbahir cephesinin Ege yakasındaki dere. İşaret derenin saha merkezidir.",
+  "currentNote": "İşaret, dere çevresi için temsili bir noktadır; doğrulanmış saha merkezi, dere yatağı veya tarihsel siper noktası değildir.",
+  "status": "unsupported_point_precision_removed",
+  "claimVerified": false,
+  "url": null,
+  "evidenceText": null,
+  "eventDate": null,
+  "publicationDate": null,
+  "accessDate": null,
+  "scope": "Local code/render review only; no external source accessed. Coordinate unchanged, no new historical measurement assigned. Date range still requires event source scope separately."
+}

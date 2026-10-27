@@ -1,0 +1,35 @@
+{
+  "reviewDate": "2026-10-27",
+  "mayShips": {
+    "url": "https://www.awm.gov.au/collection/C1003295",
+    "record": "G00197",
+    "evidenceText": "Triumph sunk by U21 on 25 May 1915, and Majestic sunk by U21 on 27 May 1915",
+    "eventDates": [
+      "1915-05-25",
+      "1915-05-27"
+    ],
+    "imageDate": "May 1915",
+    "publicationDate": null,
+    "accessDate": "2026-10-27",
+    "status": "photograph_catalogue_description_read",
+    "scope": "Catalogue text read; photograph image not newly inspected. No loss totals or exact wreck coordinates derived. Catalogue is not original ship log; image date not precise sinking moment."
+  },
+  "barbaros": {
+    "oldText": "Barbaros Hayreddin, Marmara’da İngiliz denizaltısı E11 tarafından batırılır. 18 Mart Boğaz hattında değildir. Batış noktasının koordinatı bu haritaya konmadı.",
+    "currentText": "Barbaros Hayreddin, Marmara’da İngiliz denizaltısı E11 tarafından batırılır. Bu batış 18 Mart muharebesine ait değildir; o günkü kesin konumu için gemi jurnali karşılaştırması gerekir. Batış noktasının koordinatı bu haritaya konmadı.",
+    "sourceNote": "olaylar/barbaros-hayreddin-batar/index.html",
+    "url": "https://canakkalesavaslariansiklopedisi.com/barbaros-hayreddin-zirhlisi/",
+    "accessDate": null,
+    "status": "existing_local_scope_compared_no_external_access",
+    "evidenceText": null,
+    "eventDate": "1915-08-08",
+    "publicationDate": null,
+    "limit": "No new external reading for Barbaros. Existing event page explicitly leaves March position and voyage details open; May ship photo is not evidence for Barbaros. Current exact March location not asserted."
+  },
+  "majesticIncompleteNote": {
+    "old": "Kesin enkaz koordinatı ve kayıplar.",
+    "new": "Kesin enkaz koordinatı ve kayıp sayıları için belge karşılaştırması tamamlanmadı.",
+    "limit": "Unresolved wreck location and loss count made explicit; no quantity supplied."
+  },
+  "claimVerified": false
+}

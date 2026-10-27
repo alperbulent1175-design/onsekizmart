@@ -176,7 +176,8 @@
       "textVerification": "belge_karsilastirmasi_acik",
       "reviewed": "2026-10-17",
       "sourceRefs": [],
-      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı.",
+      "currentTitle": "Queen Elizabeth’in ateşe başlaması"
     },
     {
       "key": "naval-review-10",
@@ -289,7 +290,9 @@
       "sourceRefs": [
         "awm-bean-42"
       ],
-      "note": "14:14 / 14:25 ve 39 ölü ifadeleri bu kaynakla doğrulanmaz; eski metin inceleme izi olarak burada tutulur."
+      "note": "14:14 / 14:25 ve 39 ölü ifadeleri bu kaynakla doğrulanmaz; eski metin inceleme izi olarak burada tutulur.",
+      "currentTitle": "Inflexible’ın mayın isabeti bildirimi",
+      "titleScopeReview": "Başlık mevcut sourceTime aşamasına uyarlandı; eski başlık araştırma izi olarak korundu."
     },
     {
       "key": "naval-review-19",
@@ -313,7 +316,9 @@
       "textVerification": "belge_karsilastirmasi_acik",
       "reviewed": "2026-10-17",
       "sourceRefs": [],
-      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı.",
+      "currentTitle": "Cevat Bey’in hareketlerine ilişkin kayıtlar",
+      "titleScopeReview": "Kesin sahaya iniş yerine açık hareket incelemesi; eski başlık korunur."
     },
     {
       "key": "naval-review-21",
@@ -349,7 +354,9 @@
       "textVerification": "belge_karsilastirmasi_acik",
       "reviewed": "2026-10-17",
       "sourceRefs": [],
-      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı.",
+      "currentTitle": "Wear tahliye edilenlerle döner",
+      "titleScopeReview": "Başlık mevcut sourceTime aşamasına uyarlandı; eski başlık araştırma izi olarak korundu."
     },
     {
       "key": "naval-review-24",
@@ -376,7 +383,9 @@
       "textVerification": "belge_karsilastirmasi_acik",
       "reviewed": "2026-10-17",
       "sourceRefs": [],
-      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı.",
+      "currentTitle": "B hattına çekilme emri",
+      "followupEvidence": "research/reports/2026-10-26/R03-b-line-withdrawal.json"
     },
     {
       "key": "naval-review-26",
@@ -412,7 +421,20 @@
       "textVerification": "belge_karsilastirmasi_acik",
       "reviewed": "2026-10-17",
       "sourceRefs": [],
-      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı."
+      "note": "Bu tur henüz kayıt özelinde kanıt karşılaştırması yapılmadı.",
+      "currentTitle": "Vengeance’ın ateşi kesmesi ve çıkışı",
+      "followupEvidence": {
+        "time": "18:29",
+        "kind": "Vengeance’ın ateşi kesmesi",
+        "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-034_1.jpg",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-18",
+        "accessDate": "2026-10-26",
+        "status": "gunluk_goruntusu_ilgili_satir_okundu",
+        "evidenceText": "6.29 Ceased fire - procd out of Dardanelles",
+        "timeSystem": "Günlükteki PM 6.29, 18.29 olarak yazıldı. GMT veya günümüz Türkiye saatine dönüşüm yapılmadı.",
+        "limit": "Yalnız Vengeance’ın ateşi kesip çıkışa yönelmesi; bütün filonun veya Osmanlı bataryalarının son atışı değildir. Diğer günlüklerle karşılaştırma açık."
+      }
     },
     {
       "key": "naval-review-29",

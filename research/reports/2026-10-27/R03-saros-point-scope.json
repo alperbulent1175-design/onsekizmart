@@ -1,0 +1,16 @@
+{
+  "reviewDate": "2026-10-27",
+  "eventId": "e-saros",
+  "oldText": "Saros açıklarında gösteriş yapılır; büyük çıkarma yoktur. İşaret, Bolayır’daki 7. Tümen sahasının merkezidir, gemi mevzii değildir.",
+  "currentText": "Deniz raporunun çıkarma planında Saros–Bolayır kesimi için gösteri harekâtı yer alır. Harita işareti temsili bir birlik noktasıdır; gemi mevzii veya doğrulanmış saha merkezi değildir.",
+  "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "evidenceText": "a demonstration in force",
+  "eventDate": "1915-04-25",
+  "documentDate": "1915-07-01",
+  "publicationDate": null,
+  "accessDate": "2026-10-17",
+  "status": "existing_report_transcription_scope_review",
+  "claimVerified": false,
+  "limit": "Existing local source note reviewed, no new external access. Plan is distinct from execution. Exact unit centre, ship position and absence of all landing/reconnaissance activity are not established. Coordinates unchanged.",
+  "localSourceNote": "inceleme-notlari/index.html#naval-reports"
+}

@@ -1,0 +1,48 @@
+{
+  "scope": "Hidden note cleanup; no published historical error or new source reading claimed",
+  "records": [
+    {
+      "place_id": "mecidiye",
+      "original_notes": [
+        "11.05’te Agamemnon’un ilk hedeflerinden biriydi. Öğleden sonra Rumeli Mecidiye, Namazgâh ve Anadolu Hamidiye duman ve alev içinde kaldı.",
+        "Kışla binası yıkıldı, cephane yolları çöktü, vinçler tahrip oldu; personelin büyük kısmı şehit veya gazi oldu. Telefon irtibatı koptu.",
+        "15.15 sularında tabya büyük oranda tahrip olmasına rağmen ayakta kalan personel (Seyit Onbaşı ve Niğdeli Ali dâhil) enkaz altından çıkarılan mermileri elle yükleyerek ateşe devam etti.",
+        "Cevat Paşa’nın 14.45’te atla Mecidiye ve Namazgâh’a gittiği eski taslak anlatı belgeyle eşleştirilmedi; karargâha dönüş aktarımıyla aynı hareket sayılmaz.",
+        "Bu atışlar İngiliz zırhlılarının manevra alanını daralttı ve onları kıyıya daha yakın, mayınlı sulara itti."
+      ],
+      "current_notes": [
+        "Cevat Paşa’nın 14.45’te atla Mecidiye ve Namazgâh’a gittiği eski taslak anlatı belgeyle eşleştirilmedi; karargâha dönüş aktarımıyla aynı hareket sayılmaz.",
+        "Hedef alınma ve elle yükleme saatleri, personel kayıplarının kapsamı ve atışlarla gemilerin mayınlı sulara yönelmesi arasında ileri sürülen ilişki için belge karşılaştırması açık."
+      ],
+      "status": "unsupported_details_removed_from_runtime_draft",
+      "visibility": "short is present; note fallback is not used",
+      "event_date": "1915-03-18",
+      "publication_date": null,
+      "review_date": "2026-10-27",
+      "historical_verification": false,
+      "evidence_scope": "Local text and rendering code only; existing attributed institutional text retained without new verification",
+      "institution_url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-mecidiye-tabyasi-ve-sehitligi"
+    },
+    {
+      "place_id": "namazgah",
+      "original_notes": [
+        "Alan Başkanlığı 26 bonet ile 16 kıyı topunu ayrı ayrı anlatır; bunlardan ikisinin deniz muharebesinde aktif kullanıldığını aktarır. Bonet, top ve ateşe katılan top sayıları aynı ölçü değildir; tarihli özgün silah cetveliyle karşılaştırma açıktır.",
+        "12.15’te Suffren ve Gaulois doğrudan Rumeli Mecidiye ve Namazgâh’ı hedef aldı.",
+        "Geniş alana yayıldığı için çok sayıda isabet aldı; toprak bonetler büyük oranda dayandı, 1 top hasar gördü.",
+        "Cevat Bey öğleden sonra burayı da teftiş etti; ayakta kalan toplarla ateşin sürdürülmesini organize etti."
+      ],
+      "current_notes": [
+        "Alan Başkanlığı 26 bonet ile 16 kıyı topunu ayrı ayrı anlatır; bunlardan ikisinin deniz muharebesinde aktif kullanıldığını aktarır. Bonet, top ve ateşe katılan top sayıları aynı ölçü değildir; tarihli özgün silah cetveliyle karşılaştırma açıktır.",
+        "Hedef alınma saati, hasarlı top sayısı ve komuta teftişinin ayrıntıları için tarihli harekât ve hasar kayıtlarının karşılaştırması açık."
+      ],
+      "status": "unsupported_details_removed_from_runtime_draft",
+      "visibility": "short is present; note fallback is not used",
+      "event_date": "1915-03-18",
+      "publication_date": null,
+      "review_date": "2026-10-27",
+      "historical_verification": false,
+      "evidence_scope": "Local text and rendering code only; existing attributed institutional text retained without new verification",
+      "institution_url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/namazgah-tabyasi"
+    }
+  ]
+}

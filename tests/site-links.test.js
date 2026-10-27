@@ -3,12 +3,16 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
-const publicFolders = ['donanma', 'fotograf-arsivi', 'gizlilik', 'hakkinda', 'iletisim',
-  'inceleme-notlari', 'kaynak-politikasi', 'kaynakca', 'komutanlar', 'nasil-okunur', 'olaylar', 'sozluk', 'telif'];
+const excludedFolders = new Set(['archive', 'research', 'tmp', 'tests', 'tools', 'prototip',
+  'node_modules', 'css', 'js', 'images', 'vendor', 'data', '__pycache__']);
+const publicFolders = fs.readdirSync(root, {withFileTypes:true})
+  .filter(entry => entry.isDirectory() && !entry.name.startsWith('.') && !excludedFolders.has(entry.name))
+  .map(entry => entry.name);
 function htmlFiles(folder) {
   return fs.readdirSync(folder, { withFileTypes: true }).flatMap(entry => {
     const target = path.join(folder, entry.name);
-    return entry.isDirectory() ? htmlFiles(target) : entry.name.endsWith('.html') ? [target] : [];
+    if (entry.name.startsWith('.') || excludedFolders.has(entry.name)) return [];
+    return entry.isDirectory() ? htmlFiles(target) : entry.name === 'index.html' ? [target] : [];
   });
 }
 

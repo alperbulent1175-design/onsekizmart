@@ -1,0 +1,127 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "review_date": "2026-10-26",
+  "scope": "Görünür places.short/meta sayısal adayları; sayılar hata sayısı değildir",
+  "items": [
+    {
+      "id": "kilitbahir",
+      "meta": "Rumeli · Boğaz’ın kilidi",
+      "short": "Fatih’in 1462–63’te inşa ettirdiği kale. 18 Mart günü gözetleme ve komuta tepesi.",
+      "category": "tarih_veya_onceki_inceleme",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "namazgah",
+      "meta": "Kilitbahir · 4. Ağır Topçu Alayı karargâhı",
+      "short": "Alan Başkanlığı Namazgâh’ı 4. Ağır Topçu Alayı karargâhı olarak tanımlar. Yapı ve silah sayıları kurum aktarımıdır; eski 40–50 isabet tahmini belgeyle eşleştirilmedi.",
+      "category": "tarih_veya_onceki_inceleme",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "cimenlik",
+      "meta": "Anadolu · Çanakkale merkez",
+      "short": "Queen Elizabeth’in ilk atış saati ve hedef eşleştirmesinin belge karşılaştırması açık. Ayrıntılar 18 Mart kaynak notunda açıklanır.",
+      "category": "tarih_veya_onceki_inceleme",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "anadolu-hamidiye",
+      "meta": "Anadolu · 355/240 mm donatım aktarımı, 17–18 Mart 1915",
+      "short": "Anadolu yakasındaki ağır topçu mevkii. 17–18 Mart donatımına ilişkin ansiklopedi aktarımı kaynak notunda ayrılır; belirli gemilere isabetlerin bu tabyaya aidiyeti ayrıca incelenir.",
+      "category": "tarih_veya_onceki_inceleme",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "seddulbahir",
+      "meta": "Gelibolu güney ucu · giriş tabyası",
+      "short": "Boğaz ağzının Rumeli kapısı. 08.45’te filonun yaklaştığını bildiren dış gözetleme postası.",
+      "category": "olay_saati",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "kumkale",
+      "meta": "Anadolu giriş · 25 Nisan birlikleri ayrıca incelenir",
+      "short": "Boğaz ağzının Anadolu kapısı. Sabah alarmının diğer ucu.",
+      "category": "tarih_veya_onceki_inceleme",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "bouvet",
+      "meta": "18 Mart 1915 · saat ve kayıp ayrıntıları incelemede",
+      "short": "Bouvet’nin batışı AWM’deki harekât raporunun daktilo kopyasında anlatılır. Kurtarma bildirimi, kesinleşmiş personel toplamı sayılmaz.",
+      "category": "tarih_veya_onceki_inceleme",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "inflexible",
+      "meta": "18 Mart 1915 · saat ve zayiat incelemede",
+      "short": "Inflexible ağır hasar alarak Boğaz’dan çıkar. Kesin saat ve zayiat için belge karşılaştırması tamamlanmadı.",
+      "category": "tarih_veya_onceki_inceleme",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "irresistible",
+      "meta": "18 Mart 1915 · isabet, tahliye ve batış saatleri incelemede",
+      "short": "Irresistible için isabet, tahliye ve batış ayrı kayıtlardır. Kesin saat ve tahliye sayılarının belge karşılaştırması tamamlanmadı.",
+      "category": "tarih_veya_onceki_inceleme",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "ocean",
+      "meta": "18 Mart 1915 · isabet ve batış saatleri incelemede",
+      "short": "Ocean 18 Mart’ta battı. Mayın isabeti anlatıları farklı kesinliktedir; ayrıntılı saat ve tahliye bilgisi doğrulanmadı.",
+      "category": "tarih_veya_onceki_inceleme",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "kolordu-3",
+      "meta": "Gelibolu · Mirliva Esat Paşa (Bülkat)",
+      "short": "Genel savunma üst komutanlığı. ~50.000–55.000; Yarımada, Saros ve Anadolu kıyısı.",
+      "category": "personel_mevcudu",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "tumen-19",
+      "meta": "Maydos (Eceabat) · Yarbay Mustafa Kemal",
+      "short": "57., 72., 77. Piyade ve 39. Topçu Alayı. Olası çıkarmaya karşı acil müdahale yedeği.",
+      "category": "birlik_numarasi",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "tumen-9",
+      "meta": "Seddülbahir–Alçıtepe–Krithia · Miralay Halil Sami Bey",
+      "short": "25., 26., 27. Piyade Alayları. Yarımada güney ucu ve Boğaz kıyı şeridi koruma/gözetleme.",
+      "category": "birlik_numarasi",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "tumen-7",
+      "meta": "Saros–Bolayır · Miralay Remzi Bey",
+      "short": "19., 20., 21. Piyade Alayları. Trakya yönünden amfibi kuşatmaya karşı kuzey kalkanı.",
+      "category": "birlik_numarasi",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    },
+    {
+      "id": "tumen-11",
+      "meta": "Kumkale–Erenköy–Yeniköy · Miralay Rafet Bey",
+      "short": "33., 126., 127. Piyade Alayları. Anadolu yakası kıyı şeridi ve Beşige Koyu yamaçları.",
+      "category": "birlik_numarasi",
+      "verification": "İddia bazında kaynak incelemesi gerekir; bu envanter doğrulama değildir"
+    }
+  ],
+  "changes": [
+    {
+      "id": "kolordu-3",
+      "url": null,
+      "evidence": null,
+      "reason": "50–55bin hangi tarih/birim/mevcut türü belli değil; kesin sayı kaldırılır"
+    },
+    {
+      "id": "seddulbahir",
+      "url": null,
+      "evidence": null,
+      "reason": "08.45ilk yaklaşma bildirimi kaynak pasajına bağlı değil; kesin saat kaldırılır"
+    }
+  ]
+}

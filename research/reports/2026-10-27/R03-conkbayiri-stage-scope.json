@@ -1,0 +1,33 @@
+{
+  "reviewDate": "2026-10-27",
+  "oldEventText": "Conkbayırı el değiştirir. 10 Ağustos’ta Osmanlı karşı taarruzu tepeyi geri alır; taarruzu Mustafa Kemal yönetir. Kocaçimentepe alınamaz.",
+  "currentEventText": "DVA anlatısı zirveye çıkış ile Osmanlı karşı taarruzunu ayırır. Bakanlık kronolojisi Mustafa Kemal’in Conkbayırı hücumunu 10 Ağustos’a kaydeder; bu kesit, geniş Sarıbayır harekâtıyla aynı tarih kapsamı değildir.",
+  "oldPageSummary": "Conkbayırı zirvesine çıkış ve Osmanlı karşı taarruzu ayrı aşamalardır; kronolojide 10 Ağustos ayrı kayıttır.",
+  "currentPageSummary": "Conkbayırı zirvesine çıkış ve Osmanlı karşı taarruzu ayrı aşamalardır; 10 Ağustos, bu sayfanın 6–10 Ağustos kesiti içinde ele alınır.",
+  "sources": [
+    {
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/august-offensive/sari-bair",
+      "evidenceText": "The New Zealanders reached the summit",
+      "eventDate": "1915-08-06/1915-08-21 (page title scope)",
+      "publicationDate": null,
+      "lastUpdated": "2022-06-30",
+      "accessDate": "2026-10-27",
+      "status": "institutional_article_relevant_paragraphs_read"
+    },
+    {
+      "url": "https://www.ktb.gov.tr/TR-96322/1915.html",
+      "evidenceText": "Mustafa Kemal, Conkbayırı süngü hücumuyla önemli bir zafer daha kazandı.",
+      "eventDate": "1915-08-10",
+      "publicationDate": null,
+      "accessDate": "2026-10-27",
+      "status": "institutional_chronology_dated_entry_read"
+    }
+  ],
+  "limits": [
+    "No original operational orders or unit diaries read.",
+    "No claim that a separate 10 August campaign event exists.",
+    "Kocacimentepe objective not established by the selected passages; removed categorical summary retained in snapshot.",
+    "No new troop strengths, losses, clock times or coordinates."
+  ],
+  "claimVerified": false
+}

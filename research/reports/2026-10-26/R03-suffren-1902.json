@@ -1,0 +1,18 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "url": "https://www.usni.org/magazines/proceedings/1902/april/professional-notes",
+  "publication_date": "1902 (web künyesi Nisan; atfedilen kaynak 9 Mayıs)",
+  "web_issue_date": "1902-04",
+  "upstream_attributed_date": "1902-05-09",
+  "event_date": null,
+  "access_date": "2026-10-26",
+  "evidence": "12 in. thick amidship on the water-line",
+  "verification": "İlgili web pasajı okundu; özgün baskılar/plan/bütün sayı okunmadı.",
+  "limits": [
+    "Tarih sırası çözülmedi",
+    "Borda/başkıç atışı toplam donatım değildir",
+    "1915 fiilî donatım ve hasar cetveli değil",
+    "Silah toplamı doğrulanmadı"
+  ]
+}

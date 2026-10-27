@@ -1,0 +1,272 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "review_date": "2026-10-26",
+  "scope": "Olay text alanında rakam bulunan kayıtlar; tarihler/birliknumaraları hata sayılmaz. Başlık ve yazıyla sayılar bu taramanın dışında.",
+  "items": [
+    {
+      "group": "naval",
+      "id": null,
+      "title": "Queen Elizabeth’in ilk 381 mm’lik salvosu",
+      "text": "Queen Elizabeth için raporun ateşe başlama kaydı 11.25’tir; bütün filonun ilk atışı sayılmaz.",
+      "sourceTime": {
+        "time": "11:25",
+        "kind": "ateşe başlama",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "opened fire",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."
+      }
+    },
+    {
+      "group": "naval",
+      "id": null,
+      "title": "Fransız B Hattı hücum emri",
+      "text": "Fransız hattına ilerleme emri 12.06’da verildi; mevziye varış ayrı aşamadır.",
+      "sourceTime": {
+        "time": "12:06",
+        "kind": "emir",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "were ordered",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."
+      }
+    },
+    {
+      "group": "naval",
+      "id": null,
+      "title": "Saf değişimi",
+      "text": "Raporda Fransız hattına 13.43’te çekilme emri verilir. Yeni hattın ileri geçişi 14.32’de kaydedilir; emir ile hareket ayrı aşamalardır.",
+      "sourceTime": {
+        "time": "13:43",
+        "kind": "çekilme emri",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "ordered out",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yalnız belirtilen rapor aşaması okundu; özgün gemi jurnaliyle karşılaştırma açık."
+      }
+    },
+    {
+      "group": "naval",
+      "id": null,
+      "title": "Bouvet mayına çarpar",
+      "text": "Bouvet için rapordaki patlama kaydı 13.54’tür; batışın iki dakika içinde gerçekleştiği anlatılır. Bu saat raporun gözlemidir; özgün raporla karşılaştırma açık; kesin kayıp toplamı ayrıca araştırılıyor.",
+      "sourceTime": {
+        "time": "13:54",
+        "kind": "patlama kaydı",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "1.54",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yalnız belirtilen rapor aşaması okundu; özgün gemi jurnaliyle karşılaştırma açık."
+      }
+    },
+    {
+      "group": "naval",
+      "id": null,
+      "title": "Inflexible mayınlanır",
+      "text": "Inflexible’ın mayın isabeti bildirim saati 16.11’dir; isabetin kesin anı değildir.",
+      "sourceTime": {
+        "time": "16:11",
+        "kind": "bildirim",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "reported",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."
+      }
+    },
+    {
+      "group": "naval",
+      "id": null,
+      "title": "Wear tahliyesi",
+      "text": "Wear tahliye edilenlerle 16.50’de Queen Elizabeth’e döndü; bu tahliyeye başlama veya Irresistible’ın batış saati değildir.",
+      "sourceTime": {
+        "time": "16:50",
+        "kind": "dönüş",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "returned",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."
+      }
+    },
+    {
+      "group": "naval",
+      "id": null,
+      "title": "Ocean mayına çarpar",
+      "text": "Raporda Ocean’ın mayın isabeti 18.05 olarak verilir. Kaynakların hasar anlatıları farklı kesinliktedir; özgün gemi raporuyla karşılaştırma tamamlanmadan bütün ayrıntılar kesinleştirilmez. Bu saat batış zamanı değildir.",
+      "sourceTime": {
+        "time": "18:05",
+        "kind": "isabet kaydı",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "6.5",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yalnız belirtilen rapor aşaması okundu; özgün gemi jurnaliyle karşılaştırma açık."
+      }
+    },
+    {
+      "group": "naval",
+      "id": null,
+      "title": "B hattına çekilme emri",
+      "text": "24 Mart tarihli rapor, Irresistible’ın mayın isabeti öğrenilince B hattına 16.50’de çekilme emri verildiğini kaydeder. Bu, bütün filonun Boğaz’dan çıkış saati değildir; eski Signal No. 12 numarası bu pasajla doğrulanmaz.",
+      "sourceTime": {
+        "time": "16:50",
+        "kind": "B hattına çekilme emri",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-26",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "4.50. - ... orders were given for line \"B\" to withdraw.",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "B hattına emir aşamasıdır; bütün filonun çıkışı veya Signal No. 12 numarası değildir. Özgün rapor ve sinyal defteriyle karşılaştırma açık."
+      }
+    },
+    {
+      "group": "naval",
+      "id": null,
+      "title": "Ocean batar",
+      "text": "Ocean’ın 18 Mart’ta batışı kaynak notunda ele alınır. Bu kaydın 22:30 saati özgün gemi raporuyla kesinleştirilmedi; gece arama ve tespit anlatısı için belge incelemesi açık.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-subat25",
+      "title": "Giriş tabyaları ve kısa çıkarmalar",
+      "text": "25 Şubat’ta dış tabyalar susturulur. Seddülbahir ve Kumkale’ye tahrip timleri çıkar; kalıcı tutunma yoktur.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-nusret",
+      "title": "Nusret, Erenköy hattını döker",
+      "text": "Nusret’in Erenköy mayın dökümü 8 Mart kaydıyla ele alınır. Kurum anlatıları 26 mayın verir; ceride ve günlük aktarımlarındaki sayı farkı olay sayfasında açıklanır.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-mart18",
+      "title": "18 Mart Deniz Muharebesi",
+      "text": "De Robeck’in filosu Boğaz’a girer. Bouvet, Irresistible ve Ocean batar; Inflexible ve Gaulois ağır yara alır. Boğaz geçilmez. İlgili kayıtlar haritanın 18 Mart görünümündedir; saat denetimi sürüyor.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-e15",
+      "title": "E15 Boğaz’da karaya oturur",
+      "text": "E15, 17 Nisan 1915’te Boğaz geçişi sırasında karaya oturdu. Karaya oturma ile daha sonraki tahrip işlemi ayrı aşamalardır.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-seddul",
+      "title": "Seddülbahir çıkarması",
+      "text": "29. Tümen, Seddülbahir’de V, W, X, Y ve S kumsallarına çıkar. V kumsalı kale önü, W Tekke Koyu, S Morto tarafındadır. 9. Tümen güney kıyıyı karşılar.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-saros",
+      "title": "Saros gösterişi",
+      "text": "Saros açıklarında gösteriş yapılır; büyük çıkarma yoktur. İşaret, Bolayır’daki 7. Tümen sahasının merkezidir, gemi mevzii değildir.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-goliath",
+      "title": "Goliath batar",
+      "text": "Muavenet-i Milliye, Morto Koyu’nda HMS Goliath’ı torpiller. Gemi batar. 18 Mart ana muharebe listesinde yoktur.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-triumph",
+      "title": "Triumph batar",
+      "text": "Alman denizaltısı U-21, HMS Triumph’u Arıburnu açıklarında batırır. Gemi 18 Mart’ta filodadır; o gün batmamıştır.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-majestic",
+      "title": "Majestic batar",
+      "text": "U-21, HMS Majestic’i Seddülbahir açıklarında batırır. Gemi 18 Mart’ta C Hattı’ndadır; o gün batmamıştır.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-kereviz",
+      "title": "Kerevizdere Muharebesi",
+      "text": "Bu kart 12–13 Temmuz Kerevizdere aşamasını kapsar; 21–22 Haziran muharebesi ayrı bir aşamadır. Kaynaklardaki adlandırma farkı olay sayfasında açıklanır.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-suvla",
+      "title": "Anafartalar / Suvla çıkarması",
+      "text": "Suvla çıkarması 6 Ağustosta başladı. Yakın tepe kazanımları ile iç kesimdeki hedefler ayrılır; ayrıntılar ve kaynak kapsamı olay sayfasındadır.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-conk",
+      "title": "Conkbayırı Muharebesi",
+      "text": "Conkbayırı el değiştirir. 10 Ağustos’ta Osmanlı karşı taarruzu tepeyi geri alır; taarruzu Mustafa Kemal yönetir. Kocaçimentepe alınamaz.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-barbaros",
+      "title": "Barbaros Hayreddin batar",
+      "text": "Barbaros Hayreddin, Marmara’da İngiliz denizaltısı E11 tarafından batırılır. 18 Mart Boğaz hattında değildir. Batış noktasının koordinatı bu haritaya konmadı.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-anaf2",
+      "title": "İkinci Anafartalar Muharebesi",
+      "text": "Suvla cephesinde İkinci Anafartalar (Yusufçuk Tepe) yapılır. Bomba Tepe çatışmaları 29 Ağustos’a kadar sürer. Sırtlar alınamaz.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-tahliye-ari",
+      "title": "Arıburnu tahliyesi",
+      "text": "Arıburnu tahliyesi aşamalıydı; tarih kartı son geceyi gösterir. Son birlikler 20 Aralık sabahının erken saatlerinde ayrıldı.",
+      "sourceTime": null
+    },
+    {
+      "group": "campaign",
+      "id": "e-tahliye-suvla",
+      "title": "Anafartalar tahliyesi",
+      "text": "Suvla tahliyesinin son aşaması. Mustafa Kemal’in cepheden ayrılış kaydı 10 Aralıktır; tahliye gecesinin komutanı olarak sunulmaz.",
+      "sourceTime": null
+    }
+  ],
+  "nusret_followup": "Önceki R03-nusret-thesis-comparison.json görüntü incelemesinin açık26/36farkı kronoloji ve olay sayfasına taşındı; yeni belge veya sayı doğrulanmadı."
+}

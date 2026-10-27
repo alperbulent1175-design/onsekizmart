@@ -1,0 +1,20 @@
+{
+  "task": "R06",
+  "status": "tamamlandı (tek gemi kapsamı; R04/R05 genel karşılaştırma açık)",
+  "sourceTime": {
+    "time": "18:29",
+    "kind": "Vengeance’ın ateşi kesmesi",
+    "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-034_1.jpg",
+    "eventDate": "1915-03-18",
+    "documentDate": "1915-03-18",
+    "accessDate": "2026-10-26",
+    "status": "gunluk_goruntusu_ilgili_satir_okundu",
+    "evidenceText": "6.29 Ceased fire - procd out of Dardanelles",
+    "timeSystem": "Günlükteki PM 6.29, 18.29 olarak yazıldı. GMT veya günümüz Türkiye saatine dönüşüm yapılmadı.",
+    "limit": "Yalnız Vengeance’ın ateşi kesip çıkışa yönelmesi; bütün filonun veya Osmanlı bataryalarının son atışı değildir. Diğer günlüklerle karşılaştırma açık."
+  },
+  "scope": "Yalnıztek günlük yaprağı yeniden görüntüden okundu;R04/R05genel karşılaştırma tamam değil",
+  "old_key": 1080,
+  "new_title": "Vengeance’ın ateşi kesmesi ve çıkışı",
+  "acceptance": "18.29 yalnız Vengeance günlük kaydı olarak gösterilir; GMT+2 taşınmaz; genel filo ateşkesi sayılmaz; eski1080anahtarı korunur."
+}

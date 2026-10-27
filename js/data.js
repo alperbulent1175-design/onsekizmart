@@ -27,11 +27,7 @@ window.OM = {
       meta: "Kilitbahir · Miralay Cevat Bey (Çobanlı)",
       short: "Boğaz savunmasının sevk ve idare merkezi. Kurmay Başkan: Yarbay Selahattin Adil Bey.",
       note: [
-        "Henüz 5. Ordu kurulmadığı için (24 Mart 1915) Boğaz savunması doğrudan 3. Kolordu ve Müstahkem Mevkii bünyesindeki birliklerle icra edildi.",
-        "Mevcut: yaklaşık 18.000–20.000 (topçu, istihkâm, mayın ve muhabere personeli).",
-        "Sorumluluk: her iki yakadaki ağır/hafif kıyı tabyaları, seyyar bataryalar, mayın hatları ve projektör mevkileri.",
-        "07.30’da Cevat Bey gece devriye ve mayın hat raporlarını aldı. 09.00’da genel muharebe alarmı verildi. 09.30’da Kilitbahir yamaçlarındaki Muharebe Gözetleme Yeri’ne çıkıldı.",
-        "Kesin ateş disiplini: İngiliz gemileri merkez tabyaların etkili menziline (~10.000 m) girmeden karşı ateş açılmayacak, cephane israf edilmeyecek, tabyalar erkenden ifşa edilmeyecekti."
+        "Karargâh personel mevcudu, alarm ve gözetleme saatleri ile ateş emrinin kapsamı için tarihli belge karşılaştırması açık. Eski sayısal taslak araştırma kaydında korunur."
       ]
     },
     {
@@ -51,7 +47,7 @@ window.OM = {
         datum: "belirtilmemis"
       },
       meta: "Rumeli · Boğaz’ın kilidi",
-      short: "Fatih’in 1462–63’te inşa ettirdiği kale. 18 Mart günü gözetleme ve komuta tepesi.",
+      short: "Alan Başkanlığı kalenin inşasını 1462–63 olarak aktarır. Kale alanı, 18 Mart 1915 komuta ve gözetleme yerinin kesin noktası olarak doğrulanmadı.",
       note: [
         "Boğaz’ın en dar yerinde, Çimenlik (Kale-i Sultaniye) ile karşılıklı durur; adı ‘denizin kilidi’ anlamına gelir.",
         "Cevat Bey, Selahattin Adil Bey ve Amiral Usedom muharebeyi buradaki gözetleme yerinden yönetti.",
@@ -75,14 +71,11 @@ window.OM = {
         datum: "belirtilmemis"
       },
       meta: "Kilitbahir güneyi · Seyit Onbaşı",
-      short: "Günün en ağır hasarını alan merkez tabya. Vinçler çöktü; mermiler elle yüklendi.",
-      hits: "80–100 isabet",
+      short: "Alan Başkanlığı, Rumeli Mecidiye’de top platformlarının ve aksamın isabet aldığını aktarır. Hasarın diğer tabyalarla sıralaması ve kesin isabet sayısı doğrulanmadı.",
+      hits: "Belge karşılaştırması açık",
       note: [
-        "11.05’te Agamemnon’un ilk hedeflerinden biriydi. Öğleden sonra Rumeli Mecidiye, Namazgâh ve Anadolu Hamidiye duman ve alev içinde kaldı.",
-        "Kışla binası yıkıldı, cephane yolları çöktü, vinçler tahrip oldu; personelin büyük kısmı şehit veya gazi oldu. Telefon irtibatı koptu.",
-        "15.15 sularında tabya büyük oranda tahrip olmasına rağmen ayakta kalan personel (Seyit Onbaşı ve Niğdeli Ali dâhil) enkaz altından çıkarılan mermileri elle yükleyerek ateşe devam etti.",
-        "Cevat Bey 14.45’te at sırtında Mecidiye ve Namazgâh’a teftişe indi; krizi sahada yönetti.",
-        "Bu atışlar İngiliz zırhlılarının manevra alanını daralttı ve onları kıyıya daha yakın, mayınlı sulara itti."
+        "Cevat Paşa’nın 14.45’te atla Mecidiye ve Namazgâh’a gittiği eski taslak anlatı belgeyle eşleştirilmedi; karargâha dönüş aktarımıyla aynı hareket sayılmaz.",
+        "Hedef alınma ve elle yükleme saatleri, personel kayıplarının kapsamı ve atışlarla gemilerin mayınlı sulara yönelmesi arasında ileri sürülen ilişki için belge karşılaştırması açık."
       ]
     },
     {
@@ -102,13 +95,11 @@ window.OM = {
         datum: "belirtilmemis"
       },
       meta: "Kilitbahir · 4. Ağır Topçu Alayı karargâhı",
-      short: "Boğaz’ın en dar noktasına kurulan ilk ve en büyük tabya. 40–50 isabet aldı; bonetler dayandı.",
-      hits: "40–50 isabet",
+      short: "Alan Başkanlığı Namazgâh’ı 4. Ağır Topçu Alayı karargâhı olarak tanımlar. Yapı ve silah sayıları kurum aktarımıdır; eski 40–50 isabet tahmini belgeyle eşleştirilmedi.",
+      hits: "Belge karşılaştırması açık",
       note: [
-        "Baron de Tott’un önerisiyle inşa edilen merkez tabya. 26 bonet; 16 kıyı topundan ikisi uzun menzilli olarak muharebede aktif kullanıldı.",
-        "12.15’te Suffren ve Gaulois doğrudan Rumeli Mecidiye ve Namazgâh’ı hedef aldı.",
-        "Geniş alana yayıldığı için çok sayıda isabet aldı; toprak bonetler büyük oranda dayandı, 1 top hasar gördü.",
-        "Cevat Bey öğleden sonra burayı da teftiş etti; ayakta kalan toplarla ateşin sürdürülmesini organize etti."
+        "Alan Başkanlığı 26 bonet ile 16 kıyı topunu ayrı ayrı anlatır; bunlardan ikisinin deniz muharebesinde aktif kullanıldığını aktarır. Bonet, top ve ateşe katılan top sayıları aynı ölçü değildir; tarihli özgün silah cetveliyle karşılaştırma açıktır.",
+        "Hedef alınma saati, hasarlı top sayısı ve komuta teftişinin ayrıntıları için tarihli harekât ve hasar kayıtlarının karşılaştırması açık."
       ]
     },
     {
@@ -135,9 +126,9 @@ window.OM = {
         status: "kaynak_celiskisi_tespit_edildi",
         limit: "Bu kurum anlatısı, eski atlas kartındaki gün boyu ateş edildiği cümlesiyle çelişir. Özgün batarya ceridesi ve hasar raporu karşılaştırılmadı; kartın diğer sayı, isabet ve teçhizat ayrıntıları doğrulanmış sayılmaz."
       },
-      meta: "Namazgâh ile Mecidiye arası · 2×355 mm Krupp",
+      meta: "Namazgâh ile Mecidiye arası · kurum anlatımında iki top platformu",
       short: "Tabyanın ateş faaliyetine ilişkin eski atlas anlatısı, Alan Başkanlığının açıklamasıyla çelişiyor. Kaynak karşılaştırması sürüyor.",
-      hits: "25–30 isabet",
+      hits: "Belge karşılaştırması açık",
       note: [
         "1896, II. Abdülhamit. Namazgâh ile Mecidiye arasında, 2 adet 355/35 mm uzun namlulu Krupp.",
         "Boğaz’daki beş 355 mm’lik topun ikisi buradaydı (ikisi Anadolu Hamidiye, biri Çimenlik).",
@@ -162,10 +153,10 @@ window.OM = {
       },
       meta: "Anadolu · Çanakkale merkez",
       short: "Queen Elizabeth’in ilk atış saati ve hedef eşleştirmesinin belge karşılaştırması açık. Ayrıntılar 18 Mart kaynak notunda açıklanır.",
-      hits: "30–40 isabet",
+      hits: "Belge karşılaştırması açık",
       note: [
         "Önceki 11.00 ilk atış, menzil ve hedef anlatısı doğrulanmış bilgi olarak kullanılmaz; rapordaki hedef numarası bu mevkiyle eşleştirilmedi.",
-        "Kale surları ve iç avlu ağır isabetler aldı. Bir adet 355 mm’lik patlamamış İngiliz mermisi kale duvarında saplanmış halde kaldı.",
+        "Kültür Portalı, kuzey surunda patlamadan kalan mermiyi Queen Elizabeth’e bağlar; ilgili pasaj kalibre vermez. Eski 355 mm tanımı bu kaynakla doğrulanmadı; nesne envanteri ve hasar raporu karşılaştırması açıktır.",
         "Amiral Merten sabah Anadolu yakasında Çimenlik ve Hamidiye’nin mekanik durumunu ve cephane vinçlerini denetletti."
       ]
     },
@@ -185,14 +176,11 @@ window.OM = {
         status: "kurumsal_ziyaret_noktasi_karsilastirildi",
         datum: "belirtilmemis"
       },
-      meta: "Anadolu · 355 mm ve 240 mm Krupp",
-      short: "Fransız filosunun göğüs göğüse girdiği ağır batarya. Suffren ve Gaulois’ya isabetlerin kaynağı.",
-      hits: "40–50 isabet",
+      meta: "Anadolu · 355/240 mm donatım aktarımı, 17–18 Mart 1915",
+      short: "Anadolu yakasındaki ağır topçu mevkii. 17–18 Mart donatımına ilişkin ansiklopedi aktarımı kaynak notunda ayrılır; belirli gemilere isabetlerin bu tabyaya aidiyeti ayrıca incelenir.",
+      hits: "Belge karşılaştırması açık",
       note: [
-        "12.15’te Bouvet doğrudan Anadolu Hamidiyeleri, Suffren ve Gaulois Rumeli tabyalarını hedef aldı. Türk kıyı bataryaları (Hamidiye, Mecidiye, Dardanos, Namazgâh) tüm namlularla ateşe başladı.",
-        "Amiral Johannes Merten bizzat burada ateş idaresinde bulundu; 355 mm ve 240 mm Krupp’ların namlu yükselişi ve tapalarını yönetti.",
-        "Inflexible ve Suffren tarafından yoğun hedef alındı. 2 büyük top geçici devre dışı kaldı; bir cephanelik isabet alarak infilak etti.",
-        "16.18’den sonra mayınlanan Irresistible’a ve 16.45’ten sonra Ocean’a tüm ağır namlular odaklandı."
+        "Belirli gemilere ateş açma saatleri, hasarlı top sayısı ve cephanelik hasarının ayrıntıları için belge karşılaştırması açık. Donatım aktarımı ile fiilî ateş ve hasar kayıtları aynı kanıt değildir."
       ]
     },
     {
@@ -212,11 +200,11 @@ window.OM = {
         date: "2026-10-20",
         status: "anlatim_incelendi_nokta_dogrulanmadi"
       },
-      hits: "60–80 isabet",
+      hits: "Belge karşılaştırması açık",
       note: [
         "Teknik donanım: 15 cm’lik hızlı ateşli Krupp toplar. Mayın hatlarını koruma ve filonun daralmaya ilerlemesini engellemede kilit rol.",
         "11.30’dan itibaren Dardanos, Mesudiye ve Şevket bataryaları ile seyyar obüsler, henüz ağır tabyalar suskunken sürpriz atışlara başladı.",
-        "Gün boyu ~60–80 isabet; siperler savruldu, telefon kabloları koptu. Yüzbaşı Hasan Hulusi ve Teğmen Mehmet Mevsuf 17.15’te 30,5 cm’lik mermiyle şehit oldu.",
+        "Dardanos için eski 60–80 isabet tahmini, 17.15 saati ve 30,5 cm mermi anlatısı belgeyle eşleştirilmedi. 3’üncü Ağır Topçu Alayı maddesindeki 115 mermi sarfı, bataryaya gelen isabet sayısı değildir; ayrıntı 18 Mart olay sayfasının Dardanos kaynak notundadır.",
         "Cevat Paşa’nın teklifi ve Harbiye Nezareti onayıyla adı ‘Hasan-Mevsuf Bataryası’ olarak değiştirildi.",
         "17 Nisan 1915’te karaya oturan HMS E15 denizaltısının kulesine ilk isabeti de bu tabya verdi."
       ]
@@ -238,7 +226,7 @@ window.OM = {
         datum: "belirtilmemis"
       },
       meta: "Gelibolu güney ucu · giriş tabyası",
-      short: "Boğaz ağzının Rumeli kapısı. 08.45’te filonun yaklaştığını bildiren dış gözetleme postası.",
+      short: "Boğaz ağzının Rumeli yakasındaki giriş mevkii. Filonun yaklaşma bildiriminin kesin saati belgeyle eşleştirilmedi.",
       note: [
         "09.30’da Kumkale, Seddülbahir ve Dardanos gözetleme postaları, müttefik filosunun üç hat halinde yaklaştığını Müstahkem Mevkii’ye bildirdi.",
         "10.00’da öncü muhripler eşliğinde A Hattı, Seddülbahir–Kumkale çizgisini aştı.",
@@ -251,7 +239,7 @@ window.OM = {
       name: "Kumkale",
       lat: 40.0103,
       lng: 26.1975,
-      meta: "Anadolu giriş · 11. Tümen sahası",
+      meta: "Anadolu giriş · 25 Nisan birlikleri ayrıca incelenir",
       accuracy: "yaklasik",
       uncertainty: "Kumkale çevresi için temsili noktadır; kalenin, gözetleme postasının veya çıkarma kumsalının kesin koordinatı doğrulanmadı. Günümüzdeki köy ve şehitlik, kale noktası yerine kullanılmadı.",
       coordinateReview: {
@@ -264,7 +252,7 @@ window.OM = {
       short: "Boğaz ağzının Anadolu kapısı. Sabah alarmının diğer ucu.",
       note: [
         "Kumkale gözetleme postası 08.45’te büyük filonun Boğaz ağzına ilerlediğini rapor etti.",
-        "11. Tümen (Miralay Rafet Bey) Anadolu kıyı şeridini (Kumkale, Erenköy, Yeniköy, Beşige Koyu) tutuyordu.",
+        "Anadolu kıyısındaki genel görev sahası, 25 Nisan’da Kumkale’de fiilen muharebe eden birliklerle aynı alan değildir. 31’inci Alay ve 3’üncü Tümen aktarımı Kumkale olay sayfasında ayrı incelenir.",
         "25 Şubat’ta giriş tabyalarının susturulması ve tahrip timlerinin karaya çıkarılması sırasında yoğun bombardıman gördü."
       ]
     },
@@ -285,7 +273,7 @@ window.OM = {
         date: "2026-10-20",
         status: "anlatim_incelendi_nokta_dogrulanmadi"
       },
-      hits: "20–30’ar isabet",
+      hits: "Belge karşılaştırması açık",
       note: [
         "11.30’da Mesudiye ve Şevket bataryaları ile seyyar obüsler, ağır tabyalar henüz suskunken İngiliz zırhlılarına karşılık vermeye başladı.",
         "15.10’da Dardanos ve Baykuş bataryaları ile seyyar havanlar, Boğaz ortasında sabit hedef haline gelen zırhlılara mermi yağdırdı.",
@@ -462,7 +450,7 @@ window.OM = {
       lat: 40.4102,
       lng: 26.6708,
       meta: "Gelibolu · Mirliva Esat Paşa (Bülkat)",
-      short: "Genel savunma üst komutanlığı. ~50.000–55.000; Yarımada, Saros ve Anadolu kıyısı.",
+      short: "Savunma üst komutanlığı. Tarihli mevcut cetveliyle karşılaştırma açık; kuruluş kadrosu ile fiilen görevdeki personel sayısı eşitlenmez.",
       note: [
         "Bünyesindeki tüm tümenlerle toplam piyade gücü. Çanakkale Boğazı çevresi, Gelibolu Yarımadası ve Saros Körfezi’nden Anadolu kıyılarına uzanan genel savunma sahası.",
         "18 Mart bir deniz muharebesidir; kara tümenleri henüz çıkarma beklemektedir. 5. Ordu 24 Mart’ta ihdas edilecektir."
@@ -475,8 +463,8 @@ window.OM = {
       lat: 40.1842,
       lng: 26.3575,
       meta: "Maydos (Eceabat) · Yarbay Mustafa Kemal",
-      short: "57., 72., 77. Piyade ve 39. Topçu Alayı. Olası çıkarmaya karşı acil müdahale yedeği.",
-      strength: "~12.000–14.000",
+      short: "Birliğin bağlı alayları ve o günkü görev dağılımı için tarihli kuruluş ve harekât kayıtlarının karşılaştırması sürüyor.",
+      strength: "Belge karşılaştırması açık",
       note: [
         "Görev bölgesi: Maydos (Eceabat), Seddülbahir gerisi ve Kilitbahir geçiş hattı.",
         "18 Mart’ta kara çıkarması yoktur; tümen, donanma taarruzu sırasında yarımadanın stratejik ihtiyatıdır. Nisan çıkarmalarında bu konuşlanma belirleyici olacaktır."
@@ -489,8 +477,8 @@ window.OM = {
       lat: 40.068,
       lng: 26.208,
       meta: "Seddülbahir–Alçıtepe–Krithia · Miralay Halil Sami Bey",
-      short: "25., 26., 27. Piyade Alayları. Yarımada güney ucu ve Boğaz kıyı şeridi koruma/gözetleme.",
-      strength: "~12.000–13.000",
+      short: "Birliğin bağlı alayları ve o günkü görev dağılımı için tarihli kuruluş ve harekât kayıtlarının karşılaştırması sürüyor.",
+      strength: "Belge karşılaştırması açık",
       note: [
         "Gelibolu Yarımadası güney ucu (Seddülbahir, Alçıtepe, Krithia) ve Boğaz kıyı şeridinin doğrudan sahil koruma görevi.",
         "Giriş tabyaları ve gözetleme postaları bu tümenin sahasıyla örtüşür."
@@ -503,8 +491,8 @@ window.OM = {
       lat: 40.516,
       lng: 26.762,
       meta: "Saros–Bolayır · Miralay Remzi Bey",
-      short: "19., 20., 21. Piyade Alayları. Trakya yönünden amfibi kuşatmaya karşı kuzey kalkanı.",
-      strength: "~11.000–12.000",
+      short: "Birliğin bağlı alayları ve o günkü görev dağılımı için tarihli kuruluş ve harekât kayıtlarının karşılaştırması sürüyor.",
+      strength: "Belge karşılaştırması açık",
       note: [
         "Saros Körfezi kıyıları ve Bolayır Kıstağı. Trakya yönünden gelebilecek amfibi kuşatma tehdidine karşı kuzey savunması.",
         "Haritada Boğaz’dan uzak görünmesinin nedeni budur: kıstağı tutmazsa yarımada kesilir."
@@ -517,8 +505,8 @@ window.OM = {
       lat: 40.028,
       lng: 26.232,
       meta: "Kumkale–Erenköy–Yeniköy · Miralay Rafet Bey",
-      short: "33., 126., 127. Piyade Alayları. Anadolu yakası kıyı şeridi ve Beşige Koyu yamaçları.",
-      strength: "~11.000–12.000",
+      short: "Birliğin bağlı alayları ve o günkü görev dağılımı için tarihli kuruluş ve harekât kayıtlarının karşılaştırması sürüyor.",
+      strength: "Belge karşılaştırması açık",
       note: [
         "Anadolu Yakası kıyı şeridi: Kumkale, Erenköy, Yeniköy, Beşige Koyu yamaçları.",
         "Nusret’in mayın döktüğü Erenköy Koyu bu tümenin sahasındadır; kıyı projektörleri ve sahra topçusu gece operasyonunu perdeledi."
@@ -545,10 +533,9 @@ window.OM = {
       lat: 39.96,
       lng: 26.08,
       meta: "Keşif ve atış tanzimi",
-      short: "Boğaz üzerindeki keşif uçuşları Erenköy’deki gizli mayınları tespit edemedi.",
+      short: "18 Mart raporunda deniz uçağından bataryaların durumuna ilişkin bildirimler vardır. Bu kayıtlar, Ark Royal uçaklarının Erenköy mayınlarını arama kapsamını veya tespit edememe nedenini tek başına açıklamaz.",
       note: [
-        "Sabah keşif uçakları Türk bataryalarını ve olası mayın hatlarını kontrol etti; parlama, bulanıklık ve sığlık nedeniyle askıdaki mayınlar görülemedi.",
-        "16–17 Mart rutin taramalarında teller hattın üzerinden geçmesine rağmen mayınlara takılmadı."
+        "Parlama, bulanıklık ve sığlık açıklaması ile 16–17 Mart tarama tellerinin bu hattan geçtiği iddiası için belge karşılaştırması açık. Hava keşfi ile denizden mayın taraması farklı faaliyetlerdir."
       ]
     }
   ],
@@ -576,7 +563,7 @@ window.OM = {
     {
       id: "hat-a",
       type: "filo",
-      name: "A Hattı — İngiliz zırhlıları (~10.30)",
+      name: "A Hattı — İngiliz zırhlıları",
       color: "#8fa4c4",
       dash: "14 8",
       weight: 3,
@@ -586,12 +573,12 @@ window.OM = {
         [40.053, 26.266],
         [40.046, 26.28]
       ],
-      note: "Queen Elizabeth, Inflexible, Agamemnon, Lord Nelson. Merkez tabyalara ~13–14 km. Amiral de Robeck, Queen Elizabeth sancak gemisi."
+      note: "Queen Elizabeth, Inflexible, Agamemnon, Lord Nelson. Şematik grup gösterimidir; çizginin belirli bir andaki filo konumu ve tabyalara mesafesi belgeyle eşleştirilmedi."
     },
     {
       id: "hat-b",
       type: "filo",
-      name: "B Hattı — Fransız zırhlıları (~12.15)",
+      name: "B Hattı — Fransız zırhlıları",
       color: "#c4a574",
       dash: "14 8",
       weight: 3,
@@ -601,7 +588,7 @@ window.OM = {
         [40.068, 26.292],
         [40.061, 26.304]
       ],
-      note: "Suffren, Bouvet, Gaulois, Charlemagne (Amiral Guépratte). A Hattı’nın boşluklarından geçerek ~9.000 m’ye sokuldular."
+      note: "Suffren, Bouvet, Gaulois, Charlemagne. Raporda ilk B Hattı olarak anılırlar; ilerleme emri ile fiilî çatışma ayrı aşamalardır. Bu grup notu kesin atış mesafesi vermez."
     },
     {
       id: "hat-c",
@@ -616,7 +603,7 @@ window.OM = {
         [40.036, 26.252],
         [40.028, 26.266]
       ],
-      note: "Vengeance, Irresistible, Albion, Ocean, Majestic, Swiftsure. 13.45’te hasarlı Fransız hattının yerine ön safa sürüleceklerdi."
+      note: "Vengeance, Irresistible, Albion, Ocean, Majestic, Swiftsure. Destek grubunun şematik gösterimidir; emir, ileri geçiş ve her geminin fiilî konumu ayrı kayıtlardır. Bu çizgi kesin hareket saati vermez."
     }
   ],
 
@@ -651,127 +638,53 @@ window.OM = {
     { t: "09:30", m: 570, side: "turk", place: "kilitbahir", title: "Gözetleme tepesine intikal", text: "Cevat Bey’in gözetleme faaliyeti bu kayıtta ele alınır. Gözetleme yerine geçişin saati ve ateş açma mesafesine ilişkin emir belgeyle eşleştirilmedi." },
     { t: "10:00", m: 600, side: "itilaf", place: "seddulbahir", title: "Boğaz girişinin geçilmesi", text: "Öncü muhripler ve mayın tarayıcılar eşliğinde A Hattı Seddülbahir–Kumkale çizgisini aşar. Queen Elizabeth en önde." },
     { t: "10:30", m: 630, side: "itilaf", place: null, title: "İlk atış emri", text: "Filonun merkez tabyalara yönelik taarruz başlangıcı ele alınır. Bu kartın kesin emir saati, atış mesafesi ve bayrak işareti ayrıntısı belgeyle eşleştirilmedi; Queen Elizabeth’in rapordaki ateşe başlama kaydı ayrı gösterilir." },
-    { t: "11:00", m: 660, side: "itilaf", place: "cimenlik", title: "Queen Elizabeth’in ilk 381 mm’lik salvosu", text: "Queen Elizabeth için raporun ateşe başlama kaydı 11.25’tir; bütün filonun ilk atışı sayılmaz.", sourceTime: {"time": "11:25", "kind": "ateşe başlama", "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm", "eventDate": "1915-03-18", "documentDate": "1915-03-24", "accessDate": "2026-10-25", "status": "rapor_cevrimyazisi_okundu", "evidenceText": "opened fire", "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.", "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."} },
-    { t: "11:00", m: 660, side: "turk", place: "dardanos", title: "Seyyar bataryalara serbest atış", text: "Cevat Bey seyyar obüsler ve Dardanos’a izin verir; ağır merkez tabyaları menzil için bekletilir." },
-    { t: "11:30", m: 690, side: "turk", place: "mesudiye", title: "İlk Türk karşılığı", text: "Ağır tabyalar henüz menzil dışındadır. Dardanos, Mesudiye, Şevket ve seyyar obüsler sürpriz atışlara başlar." },
+    { t: "11:00", m: 660, side: "itilaf", place: "cimenlik", title: "Queen Elizabeth’in ateşe başlaması", text: "Queen Elizabeth için raporun ateşe başlama kaydı 11.25’tir; bütün filonun ilk atışı sayılmaz.", sourceTime: {"time": "11:25", "kind": "ateşe başlama", "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm", "eventDate": "1915-03-18", "documentDate": "1915-03-24", "accessDate": "2026-10-25", "status": "rapor_cevrimyazisi_okundu", "evidenceText": "opened fire", "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.", "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."} },
+    { t: "11:00", m: 660, side: "turk", place: "dardanos", title: "Seyyar bataryalara serbest atış", text: "Seyyar bataryalar ve Dardanos’un ateşe katılması inceleniyor. Cevat Bey’e atfedilen serbest atış emrinin özgün metni, muhatabı ve iletim saati henüz belgeyle eşleştirilmedi." },
+    { t: "11:30", m: 690, side: "turk", place: "mesudiye", title: "İlk Türk karşılığı", text: "Çeliker’in sonraki anlatısı, merkez tabyaları menzil nedeniyle susarken Dardanos ve Mesudiye’nin karşılık verebildiğini belirtir. Bu pasaj bütün Osmanlı bataryalarının ilk ateş anını veya Şevket bataryasının aynı anda ateşe başladığını doğrulamaz." },
     { t: "11:35", m: 695, side: "itilaf", place: null, title: "Agamemnon ve Inflexible isabet alır", text: "Şarapnel ve HE mermileri güvertelere isabet eder; telsiz antenleri ve gözetleme kuleleri hasar görür." },
     { t: "12:00", m: 720, side: "itilaf", place: null, title: "Fransız B Hattı hücum emri", text: "Fransız hattına ilerleme emri 12.06’da verildi; mevziye varış ayrı aşamadır.", sourceTime: {"time": "12:06", "kind": "emir", "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm", "eventDate": "1915-03-18", "documentDate": "1915-03-24", "accessDate": "2026-10-25", "status": "rapor_cevrimyazisi_okundu", "evidenceText": "were ordered", "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.", "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."} },
     { t: "12:00", m: 720, side: "turk", place: "anadolu-hamidiye", title: "Ağır tabyalara ateş", text: "Merkez tabyaların ateşe katılması ele alınır. Cevat Bey’e atfedilen emrin metni, iletim saati ve Fransız gemilerinin o andaki mesafesi için belge karşılaştırması tamamlanmadı." },
     { t: "12:20", m: 740, side: "both", place: "anadolu-hamidiye", title: "Göğüs göğüse düello", text: "Gemi ve kıyı bataryaları arasındaki karşılıklı ateş ele alınır. Suffren’in kesin isabet sayısı ve tabyaların tek tek ateş durumu bu kayıt için belgeyle eşleştirilmedi; Gaulois’nın hasar ve karaya oturma aşamaları ayrıca incelenir." },
     { t: "13:45", m: 825, side: "itilaf", place: null, title: "Saf değişimi", text: "Raporda Fransız hattına 13.43’te çekilme emri verilir. Yeni hattın ileri geçişi 14.32’de kaydedilir; emir ile hareket ayrı aşamalardır.", sourceTime: {"time": "13:43", "kind": "çekilme emri", "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm", "eventDate": "1915-03-18", "documentDate": "1915-03-24", "accessDate": "2026-10-25", "status": "rapor_cevrimyazisi_okundu", "evidenceText": "ordered out", "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.", "limit": "Yalnız belirtilen rapor aşaması okundu; özgün gemi jurnaliyle karşılaştırma açık."} },
     { t: "13:54", m: 834, side: "both", place: "bouvet", title: "Bouvet mayına çarpar", text: "Bouvet için rapordaki patlama kaydı 13.54’tür; batışın iki dakika içinde gerçekleştiği anlatılır. Bu saat raporun gözlemidir; özgün raporla karşılaştırma açık; kesin kayıp toplamı ayrıca araştırılıyor.", sourceTime: {"time": "13:54", "kind": "patlama kaydı", "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm", "eventDate": "1915-03-18", "documentDate": "1915-03-24", "accessDate": "2026-10-25", "status": "rapor_cevrimyazisi_okundu", "evidenceText": "1.54", "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.", "limit": "Yalnız belirtilen rapor aşaması okundu; özgün gemi jurnaliyle karşılaştırma açık."} },
-    { t: "14:14", m: 854, side: "itilaf", place: "inflexible", title: "Inflexible mayınlanır", text: "Inflexible’ın mayın isabeti bildirim saati 16.11’dir; isabetin kesin anı değildir.", sourceTime: {"time": "16:11", "kind": "bildirim", "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm", "eventDate": "1915-03-18", "documentDate": "1915-03-24", "accessDate": "2026-10-25", "status": "rapor_cevrimyazisi_okundu", "evidenceText": "reported", "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.", "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."} },
+    { t: "14:14", m: 854, side: "itilaf", place: "inflexible", title: "Inflexible’ın mayın isabeti bildirimi", text: "Inflexible’ın mayın isabeti bildirim saati 16.11’dir; isabetin kesin anı değildir.", sourceTime: {"time": "16:11", "kind": "bildirim", "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm", "eventDate": "1915-03-18", "documentDate": "1915-03-24", "accessDate": "2026-10-25", "status": "rapor_cevrimyazisi_okundu", "evidenceText": "reported", "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.", "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."} },
     { t: "14:35", m: 875, side: "itilaf", place: "tavsan", title: "Gaulois karaya oturtulur", text: "Karaya oturma anlatısı rapor çevrimyazısında bulunur. Kesin saat, hasar ayrıntıları ve Drepano–Tavşan eşleştirmesi belgeyle doğrulanmadı." },
-    { t: "14:45", m: 885, side: "turk", place: "mecidiye", title: "Cevat Bey sahaya iner", text: "Mecidiye irtibatı kesilince at sırtında Mecidiye ve Namazgâh’a gider. Selahattin Adil karargâhı ayakta tutar." },
+    { t: "14:45", m: 885, side: "turk", place: "mecidiye", title: "Cevat Bey’in hareketlerine ilişkin kayıtlar", text: "Cevat Paşa’nın karargâha dönüşü ve komutayı yürütmesi inceleniyor. Mecidiye ve Namazgâh’a atla gidiş anlatısı ile bu hareketin saati belgeyle eşleştirilmedi." },
     { t: "15:15", m: 915, side: "turk", place: "mecidiye", title: "Seyit Onbaşı ve elle yükleme", text: "Vinçler enkaz altında. Seyit Onbaşı ve Niğdeli Ali mermileri elle yükler. Dönüm noktası: tabyalar susturulamaz." },
     { t: "16:11", m: 971, side: "itilaf", place: "irresistible", title: "Irresistible mayına çarpar", text: "İsabet saati ve hasar ayrıntılarının belge karşılaştırması tamamlanmadı. Enkaz noktası isabet yeri olarak alınamaz." },
-    { t: "16:32", m: 992, side: "itilaf", place: "irresistible", title: "Wear tahliyesi", text: "Wear tahliye edilenlerle 16.50’de Queen Elizabeth’e döndü; bu tahliyeye başlama veya Irresistible’ın batış saati değildir.", sourceTime: {"time": "16:50", "kind": "dönüş", "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm", "eventDate": "1915-03-18", "documentDate": "1915-03-24", "accessDate": "2026-10-25", "status": "rapor_cevrimyazisi_okundu", "evidenceText": "returned", "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.", "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."} },
-    { t: "16:45", m: 1005, side: "itilaf", place: "ocean", title: "Ocean mayına çarpar", text: "Raporda Ocean’ın mayın isabeti 18.05 olarak verilir. Kaynakların hasar anlatıları farklı kesinliktedir; özgün gemi raporuyla karşılaştırma tamamlanmadan bütün ayrıntılar kesinleştirilmez. Bu saat batış zamanı değildir.", sourceTime: {"time": "18:05", "kind": "isabet kaydı", "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm", "eventDate": "1915-03-18", "documentDate": "1915-03-24", "accessDate": "2026-10-25", "status": "rapor_cevrimyazisi_okundu", "evidenceText": "6.5", "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.", "limit": "Yalnız belirtilen rapor aşaması okundu; özgün gemi jurnaliyle karşılaştırma açık."} },
-    { t: "17:00", m: 1020, side: "both", place: "mustahkem-hq", title: "Signal No. 12 — genel çekilme", text: "Önceki Signal No. 12, kesin emir saati ve Osmanlı gözlem aktarımı için belge karşılaştırması tamamlanmadı." },
+    { t: "16:32", m: 992, side: "itilaf", place: "irresistible", title: "Wear tahliye edilenlerle döner", text: "Wear tahliye edilenlerle 16.50’de Queen Elizabeth’e döndü; bu tahliyeye başlama veya Irresistible’ın batış saati değildir.", sourceTime: {"time": "16:50", "kind": "dönüş", "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm", "eventDate": "1915-03-18", "documentDate": "1915-03-24", "accessDate": "2026-10-25", "status": "rapor_cevrimyazisi_okundu", "evidenceText": "returned", "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.", "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."} },
+    { t: "16:45", m: 1005, side: "itilaf", place: "ocean", title: "Ocean mayına çarpar", text: "Filo raporu Ocean’ın mayın isabetini 18.05 olarak verir. Jed’in 17.55 ve Colne’un 18.00 tahliye kayıtlarıyla saat farkı çözülmedi; gemi saatleri kendiliğinden eşitlenmez. Bu saat batış zamanı değildir.", sourceTime: {"time": "18:05", "kind": "isabet kaydı", "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm", "eventDate": "1915-03-18", "documentDate": "1915-03-24", "accessDate": "2026-10-25", "status": "rapor_cevrimyazisi_okundu", "evidenceText": "6.5", "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.", "limit": "Yalnız belirtilen rapor aşaması okundu; özgün gemi jurnaliyle karşılaştırma açık."} },
+    { t: "17:00", m: 1020, side: "both", place: "mustahkem-hq", title: "B hattına çekilme emri", text: "24 Mart tarihli rapor, Irresistible’ın mayın isabeti öğrenilince B hattına 16.50’de çekilme emri verildiğini kaydeder. Bu, bütün filonun Boğaz’dan çıkış saati değildir; eski Signal No. 12 numarası bu pasajla doğrulanmaz.", sourceTime: {"time": "16:50", "kind": "B hattına çekilme emri", "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm", "eventDate": "1915-03-18", "documentDate": "1915-03-24", "accessDate": "2026-10-26", "status": "rapor_cevrimyazisi_okundu", "evidenceText": "4.50. - ... orders were given for line \"B\" to withdraw.", "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.", "limit": "B hattına emir aşamasıdır; bütün filonun çıkışı veya Signal No. 12 numarası değildir. Özgün rapor ve sinyal defteriyle karşılaştırma açık."} },
     { t: "17:15", m: 1035, side: "turk", place: "dardanos", title: "Dardanos rasat yeri şehit düşer", text: "Dardanos’taki gözetleme ve irtibat mevkiine ilişkin kayıp anlatısı ele alınır. İsabet eden merminin kalibresi, hangi gemiden atıldığı, personel listesi ve komutanın görevi devralma sırası için belge karşılaştırması tamamlanmadı." },
     { t: "17:45", m: 1065, side: "both", place: "seddulbahir", title: "Filo Ege’ye çıkar", text: "Filonun kesin çıkış saati, sırası ve son atış anlatısının belge karşılaştırması tamamlanmadı." },
-    { t: "18:00", m: 1080, side: "turk", place: "mustahkem-hq", title: "Ateş kes", text: "Günün sonunda ateşin kesilmesi ele alınır. Bütün filonun ve Osmanlı bataryalarının son atış saatleri ile bombardımanın toplam süresi bu kart için belgeyle kesinleştirilmedi. Tek geminin günlüğü bütün filonun aynı anda ateşi kestiğini göstermez." },
-    { t: "18:15", m: 1095, side: "turk", place: "mustahkem-hq", title: "Zafer raporu", text: "Cevat Bey Enver Paşa’ya telgraf çeker: 3 büyük zırhlı batırıldı, çok sayıda gemi ağır hasarlı, Boğaz geçilemedi." },
+    { t: "18:00", m: 1080, side: "itilaf", place: null, title: "Vengeance’ın ateşi kesmesi ve çıkışı", text: "Vengeance’ın 18 Mart seyir günlüğü, geminin akşam 6.29’da ateşi kesip Boğaz dışına yöneldiğini kaydeder. Bu tek geminin kaydıdır; bütün filonun veya Osmanlı bataryalarının ateşi aynı anda kestiğini göstermez.", sourceTime: {"time": "18:29", "kind": "Vengeance’ın ateşi kesmesi", "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-034_1.jpg", "eventDate": "1915-03-18", "documentDate": "1915-03-18", "accessDate": "2026-10-26", "status": "gunluk_goruntusu_ilgili_satir_okundu", "evidenceText": "6.29 Ceased fire - procd out of Dardanelles", "timeSystem": "Günlükteki PM 6.29, 18.29 olarak yazıldı. GMT veya günümüz Türkiye saatine dönüşüm yapılmadı.", "limit": "Yalnız Vengeance’ın ateşi kesip çıkışa yönelmesi; bütün filonun veya Osmanlı bataryalarının son atışı değildir. Diğer günlüklerle karşılaştırma açık."} },
+    { t: "18:15", m: 1095, side: "turk", place: "mustahkem-hq", title: "Zafer raporu", text: "Günün sonucuna ilişkin raporlama bu kayıtta ele alınır. Cevat Bey’den Enver Paşa’ya gönderildiği ileri sürülen telgrafın özgün metni, gönderim saati ve bu telgrafa atfedilen gemi sayısı belgeyle eşleştirilmedi. Kutlama telgrafları aynı günün harekât raporu yerine kullanılamaz." },
     { t: "19:30", m: 1170, side: "itilaf", place: "irresistible", title: "Irresistible batar", text: "Kesin batış saati doğrulanmadı. Geminin terk edilmesi ve gece aramasında bulunamaması, batış anının gözlemlendiği anlamına gelmez." },
     { t: "22:30", m: 1350, side: "itilaf", place: "ocean", title: "Ocean batar", text: "Ocean’ın 18 Mart’ta batışı kaynak notunda ele alınır. Bu kaydın 22:30 saati özgün gemi raporuyla kesinleştirilmedi; gece arama ve tespit anlatısı için belge incelemesi açık." }
   ],
 
   units: [
-    { name: "Çanakkale Müstahkem Mevkii", cmd: "Miralay Cevat Bey (Çobanlı); Kurmay: Yarbay Selahattin Adil Bey", n: "~18.000–20.000", area: "Her iki yaka tabyaları, seyyar bataryalar, mayın ve projektörler", place: "mustahkem-hq" },
-    { name: "3. Kolordu", cmd: "Mirliva Esat Paşa (Bülkat)", n: "~50.000–55.000", area: "Boğaz çevresi, Gelibolu, Saros’tan Anadolu kıyısına", place: "kolordu-3" },
-    { name: "19. Tümen (ihtiyat)", cmd: "Yarbay Mustafa Kemal", n: "~12.000–14.000", area: "Maydos, Seddülbahir gerisi, Kilitbahir geçişi", place: "tumen-19" },
-    { name: "9. Tümen", cmd: "Miralay Halil Sami Bey", n: "~12.000–13.000", area: "Seddülbahir, Alçıtepe, Krithia ve güney kıyı", place: "tumen-9" },
-    { name: "7. Tümen", cmd: "Miralay Remzi Bey", n: "~11.000–12.000", area: "Saros kıyıları ve Bolayır Kıstağı", place: "tumen-7" },
-    { name: "11. Tümen", cmd: "Miralay Rafet Bey", n: "~11.000–12.000", area: "Kumkale, Erenköy, Yeniköy, Beşige", place: "tumen-11" },
-    { name: "Mayın ve Deniz Savunma", cmd: "Binbaşı Nazmi Bey; Nusret: Yzb. Tophaneli Hakkı", n: "~400–500", area: "11 enlemesine hat + Erenköy gizli hattı", place: "nusret" }
+    { name: "Çanakkale Müstahkem Mevkii", cmd: "Miralay Cevat Bey (Çobanlı); Kurmay: Yarbay Selahattin Adil Bey", n: "Gerçek mevcut ve kuruluş kadrosu için tarihli cetvel incelemesi açık", area: "Her iki yaka tabyaları, seyyar bataryalar, mayın ve projektörler", place: "mustahkem-hq" },
+    { name: "3. Kolordu", cmd: "Mirliva Esat Paşa (Bülkat)", n: "Gerçek mevcut ve kuruluş kadrosu için tarihli cetvel incelemesi açık", area: "Boğaz çevresi, Gelibolu, Saros’tan Anadolu kıyısına", place: "kolordu-3" },
+    { name: "19. Tümen (ihtiyat)", cmd: "Yarbay Mustafa Kemal", n: "Gerçek mevcut ve kuruluş kadrosu için tarihli cetvel incelemesi açık", area: "Maydos, Seddülbahir gerisi, Kilitbahir geçişi", place: "tumen-19" },
+    { name: "9. Tümen", cmd: "Miralay Halil Sami Bey", n: "Gerçek mevcut ve kuruluş kadrosu için tarihli cetvel incelemesi açık", area: "Seddülbahir, Alçıtepe, Krithia ve güney kıyı", place: "tumen-9" },
+    { name: "7. Tümen", cmd: "Miralay Remzi Bey", n: "Gerçek mevcut ve kuruluş kadrosu için tarihli cetvel incelemesi açık", area: "Saros kıyıları ve Bolayır Kıstağı", place: "tumen-7" },
+    { name: "11. Tümen", cmd: "Miralay Rafet Bey", n: "Gerçek mevcut ve kuruluş kadrosu için tarihli cetvel incelemesi açık", area: "Kumkale, Erenköy, Yeniköy, Beşige", place: "tumen-11" },
+    { name: "Mayın ve Deniz Savunma", cmd: "Binbaşı Nazmi Bey; Nusret: Yzb. Tophaneli Hakkı", n: "Gerçek mevcut ve kuruluş kadrosu için tarihli cetvel incelemesi açık", area: "Boğaz mayın savunması; hat mevcudu ve personel kapsamı ayrı incelenir", place: "nusret" }
   ],
 
-  ships: [
-    { n: 1, name: "HMS Queen Elizabeth", flag: "Britanya", cls: "Süper-dretnot", armor: "330 mm", guns: "8×381 mm", fate: "Sancak gemisi; çekilmeyi yönetti" },
-    { n: 2, name: "HMS Inflexible", flag: "Britanya", cls: "Muharebe kruvazörü", armor: "178 mm", guns: "8×305 mm", fate: "Ağır hasarla çekildi; saat ve zayiat incelemede" },
-    { n: 3, name: "HMS Lord Nelson", flag: "Britanya", cls: "Yarı-dretnot", armor: "305 mm", guns: "4×305 + 10×234 mm", fate: "Hat’ta kaldı" },
-    { n: 4, name: "HMS Agamemnon", flag: "Britanya", cls: "Yarı-dretnot", armor: "305 mm", guns: "4×305 + 10×234 mm", fate: "Güverte ve telsiz hasarı" },
-    { n: 5, name: "HMS Irresistible", flag: "Britanya", cls: "Ön-dretnot", armor: "229 mm", guns: "4×305 + 12×152 mm", fate: "18 Mart’ta battı; kesin saat incelemede" },
-    { n: 6, name: "HMS Ocean", flag: "Britanya", cls: "Ön-dretnot", armor: "152 mm", guns: "4×305 + 12×152 mm", fate: "18 Mart’ta battı; isabet ve batış saatleri incelemede" },
-    { n: 7, name: "HMS Albion", flag: "Britanya", cls: "Ön-dretnot", armor: "152 mm", guns: "4×305 + 12×152 mm", fate: "Ön hatta dövüştü" },
-    { n: 8, name: "HMS Vengeance", flag: "Britanya", cls: "Ön-dretnot", armor: "152 mm", guns: "4×305 + 12×152 mm", fate: "C / ön hat" },
-    { n: 9, name: "HMS Canopus", flag: "Britanya", cls: "Ön-dretnot", armor: "152 mm", guns: "4×305 + 12×152 mm", fate: "Destek" },
-    { n: 10, name: "HMS Swiftsure", flag: "Britanya", cls: "Ön-dretnot", armor: "178 mm", guns: "4×254 + 14×190 mm", fate: "3. filo" },
-    { n: 11, name: "HMS Triumph", flag: "Britanya", cls: "Ön-dretnot", armor: "178 mm", guns: "4×254 + 14×190 mm", fate: "Kanat / seyyar obüs baskısı" },
-    { n: 12, name: "HMS Majestic", flag: "Britanya", cls: "Ön-dretnot", armor: "229 mm", guns: "4×305 + 12×152 mm", fate: "C Hattı" },
-    { n: 13, name: "HMS Prince George", flag: "Britanya", cls: "Ön-dretnot", armor: "229 mm", guns: "4×305 + 12×152 mm", fate: "Kanat koruma" },
-    { n: 14, name: "HMS Cornwallis", flag: "Britanya", cls: "Ön-dretnot", armor: "178 mm", guns: "4×305 + 12×152 mm", fate: "Destek" },
-    { n: 15, name: "Suffren", flag: "Fransa", cls: "Ön-dretnot", armor: "300 mm", guns: "4×305 + 10×164 mm", fate: "14 direkt isabet; yangın" },
-    { n: 16, name: "Bouvet", flag: "Fransa", cls: "Ön-dretnot", armor: "400 mm", guns: "2×305 + 2×274 mm", fate: "18 Mart’ta battı; saat ve zayiat incelemede" },
-    { n: 17, name: "Gaulois", flag: "Fransa", cls: "Ön-dretnot", armor: "370 mm", guns: "4×305 + 10×138 mm", fate: "Karaya oturma kaydı; ada eşleştirmesi incelemede" },
-    { n: 18, name: "Charlemagne", flag: "Fransa", cls: "Ön-dretnot", armor: "370 mm", guns: "4×305 + 10×138 mm", fate: "B Hattı, çekildi" }
-  ],
+  // Eski gemi tablosu araştırma kaydında: R03-unused-ships.json
+  ships: [],
 
-  support: [
-    { name: "Korumalı kruvazörler", detail: "HMS Dublin, Dartmouth, Amethyst, Sapphire; Fransız Henri IV" },
-    { name: "Muhripler", detail: "16 İngiliz ve Fransız muhribi (Wear, Colne, Jed, Chelmer vb.) — tarama koruması, perdeleme, tahliye" },
-    { name: "Mayın tarama", detail: "Kuzey Denizi trol teknelerinden dönüştürülmüş ~20–25 silahlı trawler" },
-    { name: "Deniz uçağı", detail: "HMS Ark Royal — keşif ve atış tanzimi; gizli hattı göremedi" }
-  ],
+  support: [],
 
-  ammo: [
-    { k: "Toplam namlu", tr: "~170–190 (sabit + seyyar)", al: "~270–300 (18 zırhlının ana/ikincil)" },
-    { k: "Ağır kalibre", tr: "~80 (210–355 mm Krupp)", al: "~70 (305–381 mm deniz topu)" },
-    { k: "Orta / hafif", tr: "~100 (120–150 mm obüs ve sahra)", al: "~200 (102–234 mm seri)" },
-    { k: "Menzil", tr: "Krupp 11–14 km; seyyar 6–8 km", al: "Queen Elizabeth 20+ km; diğer 13–16 km" },
-    { k: "Ateş hızı", tr: "Düşük–orta; el doldurma, vinç", al: "Yüksek; hidrolik taret, asansör" },
-    { k: "Stok", tr: "Kritik; gün sonunda 2–3 salvo", al: "Ambarlar dolu; ikmal sorunu yok" },
-    { k: "Mayın", tr: "~400 (10 enlemesine + 26 paralel)", al: "Zayıf trol taraması, ters akıntı" }
-  ],
+  // Kaynak pasajı bulunmayan eski nicelikler ve personel listeleri site verisinden çıkarıldı.
+  // Araştırma izi: research/reports/2026-10-26/R03-unused-numeric-inventory.json
+  ammo: [],
+  spend: {},
+  fortHits: [],
+  dardanosPeople: { cmd: [], fallen: [] },
 
-  spend: {
-    alliedDay: "3.000–3.500 (ağır + orta)",
-    alliedMonth: "19 Şubat–18 Mart toplamı 20.000+",
-    turkDay: "2.000–2.200 (ağır ~800, seyyar ~1.200–1.400)",
-    hitsOnForts: "Doğrudan tabya sahasına ~400–500 isabet (%15’ten az)",
-    why: "Toprak bonetler HE etkisini emdi. Duman, toz ve şarapnel atış tanzimini bozdu."
-  },
-
-  fortHits: [
-    { name: "Rumeli Mecidiye", loc: "Kilitbahir", n: "80–100", d: "Kışla yıkıldı, vinçler çöktü, personel zayiatı en yüksek" },
-    { name: "Dardanos", loc: "Erenköy açığı", n: "60–80", d: "Siper ve komuta yeri yerle bir; Hasan ve Mevsuf şehit" },
-    { name: "Anadolu Hamidiye", loc: "Çanakkale", n: "40–50", d: "2 top geçici devre dışı; cephanelik infilakı" },
-    { name: "Namazgâh", loc: "Kilitbahir", n: "40–50", d: "Bonetler dayandı; 1 top hasarlı" },
-    { name: "Çimenlik", loc: "Çanakkale", n: "30–40", d: "Sur ve avlu; patlamamış 355 mm mermi duvarda" },
-    { name: "Rumeli Hamidiye", loc: "Kilitbahir güneyi", n: "25–30", d: "Siper hasarı; toplar ateşe devam" },
-    { name: "Mesudiye / Yıldız / Baykuş", loc: "Her iki yaka", n: "20–30’ar", d: "Çevre isabetleri; mevziler toparlandı" }
-  ],
-
-  dardanosPeople: {
-    cmd: [
-      { r: "Grup / tabur komutanı", n: "Yüzbaşı (veya Binbaşı) Rodoslu Mithat Bey" },
-      { r: "Batarya komutanı", n: "Üsteğmen Kilitbahirli Hasan Hulusi Efendi — 18 Mart şehit" },
-      { r: "Rasat zabiti", n: "Teğmen Trablusgarplı Mehmet Mevsuf Efendi — 18 Mart şehit" },
-      { r: "Telefon / irtibat", n: "İhtiyat Zâbiti Abdülkadir Kemali Efendi (Öğütçü)" },
-      { r: "Batarya zabiti", n: "Mülâzım Tevfik Efendi (yaralı); İhtiyat Mülâzımı İrfan Efendi" },
-      { r: "Komutayı devralan", n: "Yüzbaşı Muhittin Bey" }
-    ],
-    fallen: [
-      "Telefon Çavuşu İsmet (İsmail) Efendi — İstanbul",
-      "Telefon Çavuşu Feyzi Çavuş — İstanbul",
-      "Top Çavuşu Mustafa Çavuş (Dursun oğlu) — İnebolu / Kastamonu",
-      "Onbaşı Halil İbrahim — Balıkesir / Bigadiç",
-      "Er Halil oğlu Ali — Çanakkale / Ezine",
-      "Er Mehmet oğlu Hasan — Bursa / İnegöl",
-      "Er İsmail oğlu Ahmet — Kastamonu / Cide",
-      "Er Halil oğlu Mustafa — Balıkesir / Havran",
-      "Er Hüseyin oğlu Ahmet — Konya / Bozkır",
-      "Er Mehmet oğlu Abdullah — Manisa / Kırkağaç",
-      "Er Recep oğlu Mustafa — Çanakkale / Biga"
-    ]
-  },
-
-  commanders: [
-    { name: "Cevat Bey (Çobanlı)", role: "Müstahkem Mevkii Komutanı", body: "Ateş disiplinini dayattı, Bouvet batışını gözetleme yerinden izledi, Mecidiye krizine atla indi, akşam Enver Paşa’ya zafer telgrafını çekti." },
-    { name: "Selahattin Adil Bey", role: "Kurmay Başkanı", body: "Telefon ağını ayakta tuttu, seyyar batarya tanzimini yönetti, Cevat sahadayken karargâhı kesti, resmi harp raporunu kaleme aldı." },
-    { name: "Guido von Usedom", role: "Boğazlar Genel Müfettişi", body: "Alman heyetini denetledi, telemetre kalibrasyonunu teyit etti, İstanbul’a ve Liman von Sanders’a teknik raporu yazdı." },
-    { name: "Johannes Merten", role: "Tahkimat / ağır topçu danışmanı", body: "Anadolu Hamidiye’de 355 ve 240 mm Krupp atışını idare etti; Suffren ve Gaulois isabetlerinde, ardından Irresistible–Ocean bombardımanında rol aldı." },
-    { name: "John de Robeck", role: "Müttefik filolar komutanı", body: "Üç hatlı taarruzu yönetti. Bouvet şokuna rağmen C Hattı’nı sürdü; 17.00’de Signal No. 12 ile çekildi." },
-    { name: "Émile Guépratte", role: "Fransız filosu", body: "B Hattı’nı 9.000 m’ye soktu; Suffren ağır hasar, Bouvet battı, Gaulois karaya oturtuldu." }
-  ]
+  // Eski destek/komutan taslakları: R03-unused-support-commanders.json
+  commanders: []
 };

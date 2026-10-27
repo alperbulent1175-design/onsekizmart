@@ -1,0 +1,63 @@
+{
+  "scope": "places.meta sayi iceren alanlar; tarih, kalibre ve adet karisik adaylardir, hata sayisi degildir. Snapshot eski meta metnini korur; current_meta takip alanıdır.",
+  "records": [
+    {
+      "id": "namazgah",
+      "meta": "Kilitbahir · 4. Ağır Topçu Alayı karargâhı",
+      "verification": null,
+      "status": "kurum_anlatimi_okundu_ozgun_gorev_ceridesi_acik",
+      "category": "birlik_numarasi"
+    },
+    {
+      "id": "rumeli-hamidiye",
+      "meta": "Namazgâh ile Mecidiye arası · 2×355 mm Krupp",
+      "verification": null,
+      "status": "platform_ve_faal_top_ayrildi",
+      "category": "kalibre_ve_adet",
+      "current_meta": "Namazgâh ile Mecidiye arası · kurum anlatımında iki top platformu"
+    },
+    {
+      "id": "anadolu-hamidiye",
+      "meta": "Anadolu · 355 mm ve 240 mm Krupp",
+      "verification": null,
+      "status": "alan_kaynagi_incelemesi_acik",
+      "category": "kalibre"
+    },
+    {
+      "id": "kumkale",
+      "meta": "Anadolu giriş · 11. Tümen sahası",
+      "verification": null,
+      "status": "alan_kaynagi_incelemesi_acik",
+      "category": "birlik_numarasi"
+    },
+    {
+      "id": "bouvet",
+      "meta": "18 Mart 1915 · saat ve kayıp ayrıntıları incelemede",
+      "verification": null,
+      "status": "bu_meta_yeni_teknik_nicelik_vermiyor",
+      "category": "olay_tarihi_ve_acik_inceleme_etiketi"
+    },
+    {
+      "id": "inflexible",
+      "meta": "18 Mart 1915 · saat ve zayiat incelemede",
+      "verification": null,
+      "status": "bu_meta_yeni_teknik_nicelik_vermiyor",
+      "category": "olay_tarihi_ve_acik_inceleme_etiketi"
+    },
+    {
+      "id": "irresistible",
+      "meta": "18 Mart 1915 · isabet, tahliye ve batış saatleri incelemede",
+      "verification": null,
+      "status": "bu_meta_yeni_teknik_nicelik_vermiyor",
+      "category": "olay_tarihi_ve_acik_inceleme_etiketi"
+    },
+    {
+      "id": "ocean",
+      "meta": "18 Mart 1915 · isabet ve batış saatleri incelemede",
+      "verification": null,
+      "status": "bu_meta_yeni_teknik_nicelik_vermiyor",
+      "category": "olay_tarihi_ve_acik_inceleme_etiketi"
+    }
+  ],
+  "snapshot_date": "2026-10-26"
+}

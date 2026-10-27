@@ -1,0 +1,72 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "date": "2026-10-26",
+  "scope": "32 teknik alan snapshotında dönem pasajına bağlanamayan kalan sayılar",
+  "decision": "Bitiş listesi gereği araştırmayı sonsuz bekletmeden desteklenmeyen kesin sayılar görünür karttan çıkarılır; belirsizlik korunur.",
+  "historical_claims_verified": false,
+  "changes": [
+    {
+      "card": "inflexible",
+      "field": "Ana silah",
+      "previous": "8×305 mm Taslak teknik değer; belge eşleştirmesi açık.",
+      "current": "Toplam namlu sayısı ve donatım tarihi için belge eşleştirmesi sürüyor."
+    },
+    {
+      "card": "vengeance",
+      "field": "Zırh",
+      "previous": "152 mm Taslak teknik değer; belge eşleştirmesi açık.",
+      "current": "Zırhın bölümü, kalınlığı ve tarihi için belge eşleştirmesi sürüyor."
+    },
+    {
+      "card": "vengeance",
+      "field": "Ana silah",
+      "previous": "4×305 + 12×152 mm Taslak teknik değer; belge eşleştirmesi açık.",
+      "current": "Toplam namlu sayısı ve donatım tarihi için belge eşleştirmesi sürüyor."
+    },
+    {
+      "card": "suffren",
+      "field": "Ana silah",
+      "previous": "4×305 + 10×164 mm Taslak teknik değer; belge eşleştirmesi açık.",
+      "current": "Toplam namlu sayısı ve donatım tarihi için belge eşleştirmesi sürüyor."
+    },
+    {
+      "card": "bouvet",
+      "field": "Ana silah",
+      "previous": "2×305 + 2×274 mm Taslak teknik değer; belge eşleştirmesi açık.",
+      "current": "Toplam namlu sayısı ve donatım tarihi için belge eşleştirmesi sürüyor."
+    },
+    {
+      "card": "gaulois",
+      "field": "Zırh",
+      "previous": "370 mm Taslak teknik değer; belge eşleştirmesi açık.",
+      "current": "Zırhın bölümü, kalınlığı ve tarihi için belge eşleştirmesi sürüyor."
+    },
+    {
+      "card": "gaulois",
+      "field": "Ana silah",
+      "previous": "4×305 + 10×138 mm Taslak teknik değer; belge eşleştirmesi açık.",
+      "current": "Toplam namlu sayısı ve donatım tarihi için belge eşleştirmesi sürüyor."
+    },
+    {
+      "card": "charlemagne",
+      "field": "Zırh",
+      "previous": "370 mm Taslak teknik değer; belge eşleştirmesi açık.",
+      "current": "Zırhın bölümü, kalınlığı ve tarihi için belge eşleştirmesi sürüyor."
+    },
+    {
+      "card": "charlemagne",
+      "field": "Ana silah",
+      "previous": "4×305 + 10×138 mm Taslak teknik değer; belge eşleştirmesi açık.",
+      "current": "Toplam namlu sayısı ve donatım tarihi için belge eşleştirmesi sürüyor."
+    }
+  ],
+  "source_attempt": {
+    "url": "https://tile.loc.gov/storage-services/service/ndnp/ct/batch_ct_kinks_ver01/data/sn82014519/0041418330A/1916120801/0443.pdf",
+    "event_date": null,
+    "publication_date": "1916-12-08 (arama metadata; görüntü incelenmedi)",
+    "attempt_date": "2026-10-26",
+    "evidence": null,
+    "status": "403; sayfa görüntüsü okunmadı, arama özeti kanıt yapılmadı."
+  }
+}

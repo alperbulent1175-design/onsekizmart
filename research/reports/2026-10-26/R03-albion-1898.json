@@ -1,0 +1,18 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "url": "https://www.usni.org/magazines/proceedings/1898/july/professional-notes",
+  "publication_date": "1898-07",
+  "event_date": null,
+  "access_date": "2026-10-26",
+  "section": "H. M. S. Albion",
+  "upstream": "Engineering; özgün sayfa ve sayı tarihi incelenmedi",
+  "evidence": "the ship is in a very unfinished state",
+  "paraphrase": "Kemer 6 inç; dört 12 inç ana ve on iki 6 inç yardımcı top inşa dönemi tarifinde.",
+  "verification": "İlgili Albion web bölümü okundu; bütün sayı, özgün plan ve 1915 değişiklik kaydı okunmadı.",
+  "limits": [
+    "Yerine takılmış fiilî donatım sertifikası değil.",
+    "Tahmini ateş enerjisi ve direnç karşılaştırması muharebe sonucu sayılmadı.",
+    "Diğer sınıf gemilerine otomatik genelleme yok."
+  ]
+}

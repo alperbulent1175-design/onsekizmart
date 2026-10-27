@@ -1,0 +1,96 @@
+{
+  "task": "R03",
+  "review_date": "2026-10-26",
+  "scope": "Eski hits/strength alanları ve sayısal note metinleri; bütün tarihsel iddiaların doğrulaması değildir",
+  "rendering": "openPlace hits/strength değerini basmıyor, belge karşılaştırması tamamlanmadı uyarısı veriyor. note dizisi openPlace içinde topluca basılmıyor;short ve meta ayrı incelenmeli.",
+  "items": [
+    {
+      "id": "mecidiye",
+      "hits": "80–100 isabet",
+      "strength": null,
+      "verification": "Eski taslak; bu alan için kaynak URL/pasaj/tarih bağlı değil",
+      "url": null,
+      "publication_date": null
+    },
+    {
+      "id": "namazgah",
+      "hits": "40–50 isabet",
+      "strength": null,
+      "verification": "Eski taslak; bu alan için kaynak URL/pasaj/tarih bağlı değil",
+      "url": null,
+      "publication_date": null
+    },
+    {
+      "id": "rumeli-hamidiye",
+      "hits": "25–30 isabet",
+      "strength": null,
+      "verification": "Eski taslak; bu alan için kaynak URL/pasaj/tarih bağlı değil",
+      "url": null,
+      "publication_date": null
+    },
+    {
+      "id": "cimenlik",
+      "hits": "30–40 isabet",
+      "strength": null,
+      "verification": "Eski taslak; bu alan için kaynak URL/pasaj/tarih bağlı değil",
+      "url": null,
+      "publication_date": null
+    },
+    {
+      "id": "anadolu-hamidiye",
+      "hits": "40–50 isabet",
+      "strength": null,
+      "verification": "Eski taslak; bu alan için kaynak URL/pasaj/tarih bağlı değil",
+      "url": null,
+      "publication_date": null
+    },
+    {
+      "id": "dardanos",
+      "hits": "60–80 isabet",
+      "strength": null,
+      "verification": "Eski taslak; bu alan için kaynak URL/pasaj/tarih bağlı değil",
+      "url": null,
+      "publication_date": null
+    },
+    {
+      "id": "mesudiye",
+      "hits": "20–30’ar isabet",
+      "strength": null,
+      "verification": "Eski taslak; bu alan için kaynak URL/pasaj/tarih bağlı değil",
+      "url": null,
+      "publication_date": null
+    },
+    {
+      "id": "tumen-19",
+      "hits": null,
+      "strength": "~12.000–14.000",
+      "verification": "Eski taslak; bu alan için kaynak URL/pasaj/tarih bağlı değil",
+      "url": null,
+      "publication_date": null
+    },
+    {
+      "id": "tumen-9",
+      "hits": null,
+      "strength": "~12.000–13.000",
+      "verification": "Eski taslak; bu alan için kaynak URL/pasaj/tarih bağlı değil",
+      "url": null,
+      "publication_date": null
+    },
+    {
+      "id": "tumen-7",
+      "hits": null,
+      "strength": "~11.000–12.000",
+      "verification": "Eski taslak; bu alan için kaynak URL/pasaj/tarih bağlı değil",
+      "url": null,
+      "publication_date": null
+    },
+    {
+      "id": "tumen-11",
+      "hits": null,
+      "strength": "~11.000–12.000",
+      "verification": "Eski taslak; bu alan için kaynak URL/pasaj/tarih bağlı değil",
+      "url": null,
+      "publication_date": null
+    }
+  ]
+}

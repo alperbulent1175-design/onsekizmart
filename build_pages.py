@@ -267,6 +267,14 @@ PAGES = {
 }
 
 
+def source_status_label(status):
+    return {
+        "kurumsal_ozet_pasaji_okundu": "Kurum özetinin ilgili bölümü okundu",
+        "fotograf_katalog_aciklamasi_okundu": "Fotoğrafın katalog açıklaması okundu",
+        "gunluk_goruntusu_ilgili_pasaj_okundu": "Günlük görüntüsünün ilgili bölümü okundu",
+    }.get(status, "Kaynak incelemesi açık")
+
+
 def chronology_source_page(root):
     rows = json.loads((Path(root) / "data/chronology-sources.json").read_text(encoding="utf-8"))
     body = '<p class="kicker">Kronoloji</p><h1>Kronoloji kaynak notları</h1><p>Ana sayfadaki yeni kayıtların dayanakları. Bu seçki her günün bütün olaylarını kapsamaz. Kurumsal özet, özgün emir veya harp ceridesiyle aynı kanıt türü değildir.</p><p>Olay tarihi her başlıkta; erişim tarihi 25 Ekim 2026. Kaynakların yayın tarihi belirtilmemişse tahmin edilmedi. İngilizce girişler kısa Türkçe özetlendi; doğrudan alıntı değildir.</p>'
@@ -274,7 +282,7 @@ def chronology_source_page(root):
         source = row['source']
         body += '<h2 id="' + escape(row['id']) + '">' + escape(row['date']) + '</h2>'
         body += '<p><a href="' + escape(source['url']) + '">' + escape(source['label']) + '</a> · İlgili kayıt: ' + escape(source['passage']) + '.</p>'
-        body += '<p>' + escape(source['scope']) + ' Doğrulama durumu: ' + escape(source['status']) + '.</p>'
+        body += '<p>' + escape(source['scope']) + ' Doğrulama durumu: ' + escape(source_status_label(source['status'])) + '.</p>'
         if row['id'] == 'e-mayis-sessiz-1':
             body += '<p>Günlükte 9 Mayıs için 21.00 planı, 22.30 hücumu; devamında ertesi sabah 06.00’da eski mevziye dönüş ve 07.00 karşı taarruzu ayrılıyor. Bu kayıt tek taburun anlatımıdır; bütün cepheye genellenmez.</p><p><a href="https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922380.JPG">Günlük yaprak46</a> · <a href="https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922381.JPG">Günlük yaprak47</a>. Kısa kanıt: <q>again occupied at 6 am next day</q>. Yer veya tünel koordinatı bu pasajdan çıkarılmadı.</p>'
         if row['id'] == 'e-temmuz-agustos':
@@ -301,7 +309,7 @@ def chronology_event_pages(root):
         body += '<h2>Olayı nasıl okumalı?</h2><p>' + escape(event['context']) + '</p>'
         body += '<h2 id="kaynak-notu">Kanıt metni ve inceleme sınırı</h2><p><a href="' + escape(source['url']) + '">' + escape(source['label']) + '</a>. İlgili bölüm: ' + escape(source['passage']) + '.</p>'
         body += '<p>Kanıtın kısa Türkçe özeti: ' + escape(source['evidenceText']) + ' Bu ifade doğrudan alıntı değildir.</p>'
-        body += '<p>' + escape(source['scope']) + '</p><p>İnceleme: ' + escape(source['accessDate']) + '. Durum: ' + escape(source['status']) + '. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.</p>'
+        body += '<p>' + escape(source['scope']) + '</p><p>İnceleme: ' + escape(source['accessDate']) + '. Durum: ' + escape(source_status_label(source['status'])) + '. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.</p>'
         body += '<h2>Ayrıntılar ve açık kalanlar</h2><p>Birliklerin tam dağılımı, kesin saatler ve koordinatlar bu kısa kaynaktan çıkarılmadı. Bir tarafın anlatısı bütün cepheye genellenmedi. <a href="' + note + '">Bu kaydın ayrıntılı kaynak notunu oku</a>.</p>'
         body += '<p><a href="/?olay=' + escape(event['id']) + '#kronoloji">Kronolojideki kayda dön</a> · <a href="/olaylar/">Olaylar dizini</a></p>'
         pages['olaylar/' + slug + '/index.html'] = (title, event['text'], SITE + '/olaylar/' + slug + '/', body)

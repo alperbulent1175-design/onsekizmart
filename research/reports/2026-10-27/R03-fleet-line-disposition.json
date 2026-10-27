@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-27",
+  "status": "unsupported_precision_removed",
+  "scope": "app.js line.name becomes title/aria-label, note becomes panel text. Coordinates unchanged; no new historical time/distance assigned. Existing report order/transition timestamps remain separate event records.",
+  "changes": [
+    {
+      "old": "A Hattı — İngiliz zırhlıları (~10.30)",
+      "new": "A Hattı — İngiliz zırhlıları"
+    },
+    {
+      "old": "B Hattı — Fransız zırhlıları (~12.15)",
+      "new": "B Hattı — Fransız zırhlıları"
+    },
+    {
+      "old": "Queen Elizabeth, Inflexible, Agamemnon, Lord Nelson. Merkez tabyalara ~13–14 km. Amiral de Robeck, Queen Elizabeth sancak gemisi.",
+      "new": "Queen Elizabeth, Inflexible, Agamemnon, Lord Nelson. Şematik grup gösterimidir; çizginin belirli bir andaki filo konumu ve tabyalara mesafesi belgeyle eşleştirilmedi."
+    },
+    {
+      "old": "Vengeance, Irresistible, Albion, Ocean, Majestic, Swiftsure. 13.45’te hasarlı Fransız hattının yerine ön safa sürüleceklerdi.",
+      "new": "Vengeance, Irresistible, Albion, Ocean, Majestic, Swiftsure. Destek grubunun şematik gösterimidir; emir, ileri geçiş ve her geminin fiilî konumu ayrı kayıtlardır. Bu çizgi kesin hareket saati vermez."
+    }
+  ]
+}

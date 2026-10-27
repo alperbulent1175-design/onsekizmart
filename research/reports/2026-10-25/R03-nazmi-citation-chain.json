@@ -1,0 +1,41 @@
+{
+  "task": "R03",
+  "date": "2026-10-25",
+  "priority_reason": "26 mayın iddiasını kurumsal özetten yayımlanmış günlük atfına kadar takip etmek.",
+  "url": "https://dergipark.org.tr/en/download/article-file/45159#page=11",
+  "author": "S. Murad Hatip",
+  "title": "Birinci Dünya Harbi Çanakkale Savaşları’na Genel Bakış ve Az Bilinenler: Çanakkale Savaşı Denizde mi Kazanıldı?",
+  "journal": "Çanakkale Araştırmaları Türk Yıllığı",
+  "volume": 13,
+  "issue": 18,
+  "publication": "Bahar 2015",
+  "article_pages": "161–193",
+  "examined": "PDF s.11 / basılı s.171 görüntüsü; künye için ilk sayfa metni. Bütün eser okunmadı.",
+  "event_date": "1915-03-08",
+  "access_date": "2026-10-25",
+  "evidence_quote": "05.30’da Nusret Vapuru",
+  "evidence_summary": "Nazmi günlük aktarımı 26 mayın der; dipnot39 2010 yayınının s.40ına yönlendirir.",
+  "chain": {
+    "cited_book": "Binbaşı Nazmi Bey’in Günlüğüyle Çanakkale Deniz Savaşları",
+    "editors_as_printed": "E. Şimşek, A. Güner",
+    "publication_year": 2010,
+    "cited_page": 40,
+    "viewed": false
+  },
+  "status": "Akademik aktarımın PDF görüntüsü incelendi; günlük aslı incelenmedi.",
+  "limits": [
+    "05.30 döküş tamamlanma veya dönüş saatine çevrilmedi.",
+    "Aralık/derinlik/rota koordinata dönüştürülmedi.",
+    "Diğer tarih ve mayın sayıları yeni doğrulanmış iddia yapılmadı."
+  ],
+  "access_attempts": [
+    {
+      "url": "https://www.msu.edu.tr/saren2/files/sempozyum_yayinlari/Canakkale_Bildiri_Kitabi_SON.pdf",
+      "result": "Web aracı erişemedi; arama parçası okunmuş belge sayılmadı."
+    },
+    {
+      "url": "https://dergipark.org.tr/en/download/article-file/45159",
+      "result": "Web metni erişildi; web screenshot cache miss. PDF doğrudan indirildi, yerel sayfa render edilip görüntüsü incelendi."
+    }
+  ]
+}

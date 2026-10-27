@@ -1,0 +1,19 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "url": "https://www.gutenberg.org/cache/epub/54275/pg54275-images.html",
+  "bibliography": "Archibald Hurd, The Fleets at War, Hodder and Stoughton, 1914; Canopus Class s.70–71 ve sınıf tablosu",
+  "publication_date": "1914",
+  "digital_publication_date": "2017-03-03",
+  "digital_update_date": "2024-10-23",
+  "event_date": null,
+  "access_date": "2026-10-26",
+  "evidence": "A belt only 6-in. thick protects the waterline",
+  "verification": "İlgili web çevrimyazısı, sınıf tablosu ve künye okundu; baskı görüntüsü/bütün eser okunmadı.",
+  "limits": [
+    "Sınıf anlatısı; Ocean 18 Mart 1915 fiilî donatımı değildir.",
+    "Anlatı 750, tablo 700 personel; gerçek mevcuda veya zayiata taşınmadı.",
+    "Küçük top adedi anlatı ve tabloda farklı; aktarılmadı."
+  ],
+  "site_followup": "Ocean kartındaki eski hiç günlük karşılaştırılmadı ifadesi, gerçekten okunmuş Jed/Colne pasajlarının kapsamıyla düzeltildi."
+}

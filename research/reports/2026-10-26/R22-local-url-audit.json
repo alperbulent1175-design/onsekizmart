@@ -1,0 +1,12 @@
+{
+  "task": "R22",
+  "status": "devam ediyor",
+  "review_date": "2026-10-26",
+  "scope": "Yerel sayfa canonical/robots ve bağlantı denetimi; canlıHTTP404 veyaGoogleindeks kanıtı değildir",
+  "pages": 88,
+  "canonical_issues": [],
+  "noindex_pages": [],
+  "robots": "User-agent: *\nAllow: /\n\nSitemap: https://onsekizmart.com/sitemap.xml\n",
+  "link_test_change": "Elle tutulan klasör listesi sağlık ve beslenmeyi atlıyordu; artık yayımlananindexsayfaları klasörlerden otomatik bulunur,özelaraştırmaalanları dışlanır.",
+  "remote_checks": "Canlıcanonical,404,SearchConsole bu partide kontrol edilmedi;otomatikyayın yok."
+}

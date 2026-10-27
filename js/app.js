@@ -919,8 +919,15 @@
   }
 
   function navalReviewHref(placeId, title) {
+    if (title === "Ocean mayına çarpar") return "/olaylar/18-mart-deniz-muharebesi/#colne-ocean-saat-farki";
+    if (title === "Vengeance’ın ateşi kesmesi ve çıkışı") return "/olaylar/18-mart-deniz-muharebesi/#vengeance-ates-kesme";
+    if (placeId === "anadolu-hamidiye" && !title) return "/olaylar/18-mart-deniz-muharebesi/#anadolu-hamidiye-donatim";
+    if (placeId === "namazgah") return "/olaylar/18-mart-deniz-muharebesi/#namazgah-sayi-kapsami";
+    if (title === "Cevat Bey’in hareketlerine ilişkin kayıtlar") return "/olaylar/18-mart-deniz-muharebesi/#cevat-hareket-kapsami";
+    if (title === "Seyyar bataryalara serbest atış" || title === "İlk Türk karşılığı") return "/olaylar/18-mart-deniz-muharebesi/#ilk-karsilik-kapsami";
+    if (title === "B hattına çekilme emri") return "/olaylar/18-mart-deniz-muharebesi/#b-hatti-cekilme-emri";
     var queenRecords = [
-      "Queen Elizabeth’in ilk 381 mm’lik salvosu",
+      "Queen Elizabeth’in ateşe başlaması",
       "Signal No. 12 — genel çekilme",
       "Filo Ege’ye çıkar"
     ];
@@ -940,10 +947,14 @@
 
   function navalTimeLabel(ev) {
     var source = ev && ev.sourceTime;
-    if (!source || source.status !== "rapor_cevrimyazisi_okundu" ||
+    if (!source || ["rapor_cevrimyazisi_okundu", "gunluk_goruntusu_ilgili_satir_okundu"].indexOf(source.status) === -1 ||
         !/^(?:[01]\d|2[0-3]):[0-5]\d$/.test(source.time) ||
-        !source.evidenceText || !source.accessDate || !/^https:\/\//.test(source.url)) return "Saat doğrulanmadı";
-    return source.time + " · " + source.kind + " (rapor)";
+        !source.kind || !source.evidenceText || !source.timeSystem || !source.limit ||
+        !/^\d{4}-\d{2}-\d{2}$/.test(source.eventDate || "") ||
+        !/^\d{4}-\d{2}-\d{2}$/.test(source.documentDate || "") ||
+        !/^\d{4}-\d{2}-\d{2}$/.test(source.accessDate || "") ||
+        !/^https:\/\//.test(source.url)) return "Saat doğrulanmadı";
+    return source.time + " · " + source.kind + (source.status === "gunluk_goruntusu_ilgili_satir_okundu" ? " (günlük)" : " (rapor)");
   }
 
   function fillFromNaval(ev, fly) {
@@ -1068,7 +1079,7 @@
       text: placeText,
       accuracy: accuracyText(p),
       source: sourceText(p),
-      reviewHref: navalHere.length ? navalReviewHref(p.id) : "",
+      reviewHref: navalHere.length || p.id === "namazgah" || p.id === "anadolu-hamidiye" ? navalReviewHref(p.id) : "",
       href: href,
       hrefLabel: "Ayrıntı",
       shareHref: "/?mevki=" + encodeURIComponent(p.id) + "#harita",

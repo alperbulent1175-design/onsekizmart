@@ -1,0 +1,342 @@
+{
+  "task": "R03",
+  "access_date": "2026-10-25",
+  "scope": "Donanma sayfasındaki bütün Zırh/Ana silah görünür alanları; tarihsel doğrulama değildir.",
+  "records": [
+    {
+      "page": "/donanma/#queen-elizabeth",
+      "field": "Zırh",
+      "value": "Kalınlığın gemi bölümü ve tarihli teknik belgeyle eşleştirilmesi sürüyor.",
+      "status": "kapsam_notu_mevcut",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Önceki kaynak notundaki sınırlar geçerli; bu envanter yeni doğrulama değildir."
+    },
+    {
+      "page": "/donanma/#queen-elizabeth",
+      "field": "Ana silah",
+      "value": "381 mm (15 inç); toplam namlu sayısı için teknik belge denetimi sürüyor.",
+      "status": "kapsam_notu_mevcut",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Önceki kaynak notundaki sınırlar geçerli; bu envanter yeni doğrulama değildir."
+    },
+    {
+      "page": "/donanma/#inflexible",
+      "field": "Zırh",
+      "value": "178 mm — bu değerin ait olduğu zırh bölümü ve tarih bu kart için doğrulanmadı.",
+      "status": "kapsam_notu_mevcut",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Önceki kaynak notundaki sınırlar geçerli; bu envanter yeni doğrulama değildir."
+    },
+    {
+      "page": "/donanma/#inflexible",
+      "field": "Ana silah",
+      "value": "8×305 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#lord-nelson",
+      "field": "Zırh",
+      "value": "305 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#lord-nelson",
+      "field": "Ana silah",
+      "value": "4×305 + 10×234 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#agamemnon",
+      "field": "Zırh",
+      "value": "305 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#agamemnon",
+      "field": "Ana silah",
+      "value": "4×305 + 10×234 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#irresistible",
+      "field": "Zırh",
+      "value": "229 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#irresistible",
+      "field": "Ana silah",
+      "value": "4×305 + 12×152 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#ocean",
+      "field": "Zırh",
+      "value": "152 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#ocean",
+      "field": "Ana silah",
+      "value": "4×305 + 12×152 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#albion",
+      "field": "Zırh",
+      "value": "152 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#albion",
+      "field": "Ana silah",
+      "value": "4×305 + 12×152 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#vengeance",
+      "field": "Zırh",
+      "value": "152 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#vengeance",
+      "field": "Ana silah",
+      "value": "4×305 + 12×152 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#canopus",
+      "field": "Zırh",
+      "value": "152 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#canopus",
+      "field": "Ana silah",
+      "value": "4×305 + 12×152 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#swiftsure",
+      "field": "Zırh",
+      "value": "178 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#swiftsure",
+      "field": "Ana silah",
+      "value": "4×254 + 14×190 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#triumph-18",
+      "field": "Zırh",
+      "value": "178 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#triumph-18",
+      "field": "Ana silah",
+      "value": "4×254 + 14×190 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#majestic-18",
+      "field": "Zırh",
+      "value": "229 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#majestic-18",
+      "field": "Ana silah",
+      "value": "4×305 + 12×152 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#prince-george",
+      "field": "Zırh",
+      "value": "229 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#prince-george",
+      "field": "Ana silah",
+      "value": "4×305 + 12×152 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#cornwallis",
+      "field": "Zırh",
+      "value": "178 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#cornwallis",
+      "field": "Ana silah",
+      "value": "4×305 + 12×152 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#suffren",
+      "field": "Zırh",
+      "value": "300 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#suffren",
+      "field": "Ana silah",
+      "value": "4×305 + 10×164 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#bouvet",
+      "field": "Zırh",
+      "value": "1898 aktarımı: su hattı kemeri 8–16 inç; büyük top taretleri 14½ inç. 1915 durumu ayrıca inceleniyor.",
+      "status": "kapsam_notu_mevcut",
+      "claim_verified": false,
+      "source_url": "https://www.usni.org/magazines/proceedings/1898/october/professional-notes",
+      "evidence_scope": "Önceki kaynak notundaki sınırlar geçerli; bu envanter yeni doğrulama değildir."
+    },
+    {
+      "page": "/donanma/#bouvet",
+      "field": "Ana silah",
+      "value": "2×305 + 2×274 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#gaulois",
+      "field": "Zırh",
+      "value": "370 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#gaulois",
+      "field": "Ana silah",
+      "value": "4×305 + 10×138 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#charlemagne",
+      "field": "Zırh",
+      "value": "370 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    },
+    {
+      "page": "/donanma/#charlemagne",
+      "field": "Ana silah",
+      "value": "4×305 + 10×138 mm",
+      "status": "taslak_teknik_deger_belge_eslestirmesi_acik",
+      "claim_verified": false,
+      "source_url": null,
+      "evidence_scope": "Bu değer için gemi/bölüm/tarih eşleştirmeli pasaj henüz kaydedilmedi."
+    }
+  ],
+  "counts": {
+    "fields": 36,
+    "newly_explicit_drafts": 32
+  },
+  "access_limits": [
+    {
+      "url": "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/2020-02/SHDAA_REP_5I_NO_929_1800_1952.pdf",
+      "result": "Timeout; yalnız arama parçası erişildi. Arama parçası Carnot başlığına aitti; Bouvet donanımı diye aktarılmadı."
+    }
+  ],
+  "next": "Bir sonraki kaynak çalışması Gaulois/Charlemagne teknik cetvelleri; her gemi ve dönem ayrı. Bu envanter bütün sitedeki diğer sayıların denetimini tamamlamaz."
+}

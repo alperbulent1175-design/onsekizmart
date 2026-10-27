@@ -1,0 +1,15 @@
+{
+  "place_id": "kilitbahir",
+  "original_short": "Fatih’in 1462–63’te inşa ettirdiği kale. 18 Mart günü gözetleme ve komuta tepesi.",
+  "current_short": "Alan Başkanlığı kalenin inşasını 1462–63 olarak aktarır. Kale alanı, 18 Mart 1915 komuta ve gözetleme yerinin kesin noktası olarak doğrulanmadı.",
+  "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/kilitbahir-kalesi",
+  "evidence_text": "1462-63 yıllarında yapılan kale",
+  "event_dates": {
+    "construction": "1462–1463",
+    "command_claim": "1915-03-18"
+  },
+  "publication_date": null,
+  "access_date": "2026-10-27",
+  "status": "institutional_narrative_passage_read",
+  "scope": "Kale anlatısının inşa ve yerleşim paragrafları okundu; özgün inşa belgesi veya 1915 komuta ceridesi okunmadı. Ziyaret koordinatı 1915 komuta yerini doğrulamaz."
+}

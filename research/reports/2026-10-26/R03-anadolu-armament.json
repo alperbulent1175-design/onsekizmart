@@ -1,0 +1,17 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "url": "https://canakkalesavaslariansiklopedisi.com/3uncu-agir-topcu-alayi/",
+  "event_date": "1915-03-17/18",
+  "publication_date": "2024(madde künyesi)",
+  "access_date": "2026-10-26",
+  "evidence": "17/18Mart paragrafındaAnadoluHamidiye2.batarya2x355/35,3.batarya3x240/35,4.batarya4x240/45kıyı topları.",
+  "verification": "ansiklopedi_aktarimi_okundu_ozgun_cetvel_gorulmedi",
+  "scope": "Seçilmiş kıyı topu satırları;tüm silahlar/faal toplar toplamı değil.",
+  "limits": [
+    "Başka tarihteki önceki teşkilat paragrafıyla birleştirilmedi.",
+    "Batarya numarası adet değildir.",
+    "Gemilere isabet aidiyeti cetvelden çıkarılmaz.",
+    "Tüm kaynak eserler okunmadı."
+  ]
+}

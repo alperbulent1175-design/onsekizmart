@@ -1,0 +1,20 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "event_date": "1915-03-18",
+  "url": "https://dergipark.org.tr/tr/download/article-file/1172274#page=8",
+  "catalog_url": "https://dergipark.org.tr/tr/pub/aamd/article/758914",
+  "publication_date": "1988-03-01 (DergiPark katalog alanı)",
+  "conference_date": "1988-03-18 (PDF ilk sayfa dipnotu)",
+  "date_limit": "Katalog günü ile konferans günü farklı; yayın günü konferans tarihinden türetilmedi.",
+  "access_date": "2026-10-26",
+  "evidence": "Basılı444/PDF8 merkez tabyaları menzil nedeniyle susarken Dardanos ve Mesudiye karşılık verebiliyordu anlatısı.",
+  "verification": "sonraki_makale_goruntuden_okundu_ozgun_emir_gorulmedi",
+  "scope": "PDF1 ve6–9 görüntülendi; basılı442–445.12sayfanın tümü okunmadı.",
+  "limits": [
+    "Cevat serbest atış emri ve muhatabı bu pasajda yok.",
+    "Bütün bataryalar için ilk saat atanmadı.",
+    "Geliboluyu Anlamak makalesi cache miss; arama parçası belge okunmuş sayılmadı."
+  ],
+  "next_source": "ATASE Arşivi6/1666,Kls4669,DsH13,Fih1–11 katalog kaynakçasında; özgün görüntü açık."
+}

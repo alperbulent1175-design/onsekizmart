@@ -1,0 +1,17 @@
+{
+  "task": "R05",
+  "status": "devam ediyor",
+  "source_url": "https://oldweather.s3.amazonaws.com/ADM53-38206/ADM%2053-38206-013_0.jpg",
+  "event_date": "1915-03-18",
+  "document_date": "1915-03-18",
+  "publication_date": null,
+  "access_date": "2026-10-26",
+  "evidence": "6.00PM Closed Ocean & took off a number of Officers & Ratings",
+  "verification": "Başlık,tarih,ilgiliPMtahliye satırı görüntüden yenidenokundu",
+  "limits": [
+    "Cildin bütünü/tasdik yaprağı okunmadı",
+    "18.00tahliye ile rapor18.05isabet arasındaki fark çözülmedi",
+    "Kişi sayısı ve batış anı türetilmedi",
+    "GMT+2günlüğe taşınmadı"
+  ]
+}

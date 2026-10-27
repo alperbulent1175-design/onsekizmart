@@ -1,0 +1,24 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "event_date": "1915-03-18",
+  "access_date": "2026-10-26",
+  "claims": [
+    {
+      "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-hamidiye-tabyasi",
+      "publication_date": null,
+      "evidence": "İki top platformu;mekanizma hasarı nedeniyle ateş edilememe anlatısı.",
+      "verification": "kurum_anlatimi_okundu_ozgun_cetvel_gorulmedi",
+      "limit": "Platform adedi çalışan top adedi değildir;kalibre ve1915cetveli ayrı."
+    },
+    {
+      "url": "https://www.kulturportali.gov.tr/turkiye/canakkale/gezilecekyer/cimenlik-kalesi",
+      "publication_date": "2014-07-18",
+      "updated_date": "2022-02-28",
+      "evidence": "Kuzey surunda patlamadan kalan mermiyiQueenElizabethe bağlar;kalibre vermez.",
+      "verification": "kurum_anlatimi_okundu_nesne_envanteri_gorulmedi",
+      "limit": "355mmçıkartıldı;yerinebaşka kesin kalibre konmadı."
+    }
+  ],
+  "scope": "İlgili web açıklamaları;bağlı kaynakçanın bütünü ve nesne/özgün belge incelemesi değil."
+}

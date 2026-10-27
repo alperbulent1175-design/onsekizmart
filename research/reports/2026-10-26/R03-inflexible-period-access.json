@@ -1,0 +1,10 @@
+{
+  "task": "R03",
+  "status": "engelli (tekil gazete erişimi)",
+  "date": "2026-10-26",
+  "candidate_url": "https://paperspast.natlib.govt.nz/newspapers/NZH19081121.2.119.22",
+  "candidate_title": "New Battleship Cruiser",
+  "candidate_publication_date": "1908-11-21 (arama künyesi; sayfa açılmadı)",
+  "result": "Doğrudan açılış cachemiss; arama özeti okunmuş gazete sayfası/görüntüsü sayılmadı. 8top ve zırh aktarımı siteye taşınmadı.",
+  "next": "Farklı kurumsal nüsha veya görüntü erişimi sağlanırsa gerçek pasajı gör;aynı başarısızURLyi döndürme."
+}

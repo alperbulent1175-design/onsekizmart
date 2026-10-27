@@ -1,0 +1,23 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "url": "https://canakkalesavaslariansiklopedisi.com/kumkale-muharebesi/",
+  "author": "Salih Şen",
+  "publication_date": "2025(madde künyesi)",
+  "event_date": "1915-04-25/26",
+  "access_date": "2026-10-26",
+  "evidence": "XVkolordu3ve11tümen;ilk karşılayan31Alay6Bölük;gece taarruzu3Tümen31/39Alaylar.",
+  "verification": "ansiklopedi_aktarimi_okundu_ozgun_ceride_gorulmedi",
+  "limits": [
+    "Genel sorumluluk ile fiili muharebe katılımı eşitlenmez.",
+    "18Marttertibi25Nisantertibinden çıkarılmaz.",
+    "Kuvvet/zayiat yeni sayı aktarılmadı."
+  ],
+  "changed": [
+    "js/data.js",
+    "js/campaign.js",
+    "olaylar/kumkale-oyalama-cikarmasi/index.html",
+    "index.html"
+  ],
+  "next_source": "Kaynakçadaki MehmedCelaleddin1920KumkaleMuharebatı veRueffAFGGVIII/1Ek99;henüz incelenmedi."
+}

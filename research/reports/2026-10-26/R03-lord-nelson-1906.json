@@ -1,0 +1,17 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "url": "https://www.usni.org/magazines/proceedings/1906/october/professional-notes",
+  "publication_date": "1906-10",
+  "event_date": null,
+  "research_target_date": "1915-03-18",
+  "access_date": "2026-10-26",
+  "section": "The Lord Nelson, Proceedings32/4/120",
+  "evidence": "four 12-inch guns and ten 9.2-inch guns;water-line belt12inchesamidships",
+  "verification": "İlgili dönem yayın webçevrimyazısı okundu;özgünkaynakNauticalGazette/tam sayı/gemi1915cetveli görülmedi",
+  "limits": [
+    "1906teknikanlatı1915mevcutcetveli değil",
+    "12inçgemiortasıkemer,tümgemi değil",
+    "Kartlar1915taslakuyarısınıkorur"
+  ]
+}

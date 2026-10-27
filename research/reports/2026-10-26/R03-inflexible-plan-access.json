@@ -1,0 +1,12 @@
+{
+  "task": "R03",
+  "status": "engelli (plan görüntüsü alt işi)",
+  "review_date": "2026-10-26",
+  "source": "NPB4535ilişkiliNPB4528/4529",
+  "urls": [
+    "https://www.rmg.co.uk/collections/objects/rmgc-object-58485",
+    "https://www.rmg.co.uk/collections/objects/rmgc-object-58486"
+  ],
+  "result": "NPB4535kayıttakigerçekbağlantılarizlendi;ikihedefcachemiss. Görüntüokunmadı,topadetidoğrulanmadı.",
+  "resolution": "Plan görüntüsüne veya kurumsal alternatif nüshaya erişim;aynıURLtekrarısızbaşkaönemliişe geçildi."
+}

@@ -362,3 +362,7 @@ PDF bulmak yararlı; fakat önce eser/kurum,yazar,yıl,baskı ve sayfa aralığ�
 
 ## Korunacak sınırlar
 Commit,push,yayın veya scraper bu rapor görevinin parçası değildir. Ham archivevearaştırma görüntüleri GitHuba gönderilmez. Kaynak kataloğunun10sütunu değiştirilmez. Tarihsel boşluk tahmini saat,sayı,koordinat veya yapay tarihsel fotoğrafla doldurulmaz. Aktif otomasyon yeni kopyalar oluşturmadan araştırmaya devam edebilir;geliştirme,yayın ve doğrulama durumları notlarda ayrı tutulmalıdır.
+
+
+## 26 Ekim kullanıcı kararı — ilk sürüm bitiş kapsamı
+Mevcut 88 sayfayı tamamlamayı öncele. Ayrıntılı kabul kapıları ve kaldığı yerden devam protokolü: [İlk sürüm bitiş listesi](ILK-SURUM-BITIS-LISTESI.md). Bu ek R01–R24 sırasını değiştirmez; tamamlanmış işlerin baştan başlatılmasını önler.

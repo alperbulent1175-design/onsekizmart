@@ -24,6 +24,16 @@ BODY
 
 
 class BuildPagesTests(unittest.TestCase):
+
+    def test_kaynak_durumu_okuyucu_dilinde_ve_bilinmeyen_durum_acik_kalir(self):
+        self.assertEqual(build_pages.source_status_label("gunluk_goruntusu_ilgili_pasaj_okundu"),
+                         "Günlük görüntüsünün ilgili bölümü okundu")
+        self.assertEqual(build_pages.source_status_label("iddia_dogrulandi"), "Kaynak incelemesi açık")
+        for page in build_pages.chronology_event_pages(ROOT).values():
+            self.assertNotIn("gunluk_goruntusu_ilgili_pasaj_okundu", page[3])
+            self.assertIn("Belge doğrulaması tamamlanmadı", page[3])
+
+
     def test_kok_betigin_klasorudur(self):
         self.assertEqual(build_pages.project_root(), ROOT)
         source = (ROOT / "build_pages.py").read_text(encoding="utf-8")

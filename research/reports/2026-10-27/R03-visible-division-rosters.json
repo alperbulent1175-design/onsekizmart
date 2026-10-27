@@ -1,0 +1,31 @@
+{
+  "task": "R03",
+  "date": "2026-10-27",
+  "status": "dört görünür taslak ele alındı;genelR03açık",
+  "evidence_url": null,
+  "verification": "Yerel veri/render denetimi. Alay numaraları için bu alanlara bağlı tarihli belge pasajı yok; tarihsel doğrulama yapılmadı.",
+  "visibility": "Tümplaceskayıtlarında short var. openPlace short alanını kullanır;note[0]fallbackşuanki veride devreye girmez. meta görünür ayrıdır.",
+  "changes": [
+    {
+      "id": "tumen-19",
+      "previous": "57., 72., 77. Piyade ve 39. Topçu Alayı. Olası çıkarmaya karşı acil müdahale yedeği.",
+      "current": "Birliğin bağlı alayları ve o günkü görev dağılımı için tarihli kuruluş ve harekât kayıtlarının karşılaştırması sürüyor."
+    },
+    {
+      "id": "tumen-9",
+      "previous": "25., 26., 27. Piyade Alayları. Yarımada güney ucu ve Boğaz kıyı şeridi koruma/gözetleme.",
+      "current": "Birliğin bağlı alayları ve o günkü görev dağılımı için tarihli kuruluş ve harekât kayıtlarının karşılaştırması sürüyor."
+    },
+    {
+      "id": "tumen-7",
+      "previous": "19., 20., 21. Piyade Alayları. Trakya yönünden amfibi kuşatmaya karşı kuzey kalkanı.",
+      "current": "Birliğin bağlı alayları ve o günkü görev dağılımı için tarihli kuruluş ve harekât kayıtlarının karşılaştırması sürüyor."
+    },
+    {
+      "id": "tumen-11",
+      "previous": "33., 126., 127. Piyade Alayları. Anadolu yakası kıyı şeridi ve Beşige Koyu yamaçları.",
+      "current": "Birliğin bağlı alayları ve o günkü görev dağılımı için tarihli kuruluş ve harekât kayıtlarının karşılaştırması sürüyor."
+    }
+  ],
+  "decision": "Sayılar yanlış ilan edilmedi; dört alay listesi ve bağlı görev genellemeleri kaynaksız kesin anlatımdan çıkarıldı. Yeni alay numarası üretilmedi."
+}

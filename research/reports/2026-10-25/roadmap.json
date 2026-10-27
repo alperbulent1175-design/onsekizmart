@@ -9,7 +9,8 @@
     "acceptance": "258 JavaScript testinin tamamı ve zorunlu 18 Python testi geçmeli; kaynak veri ve kullanıcı davranışı için anlamlı beklentiler korunmalı.",
     "evidence": "tests/side-filter.test.js; research/reports/2026-10-25/javascript-test-output.txt",
     "effort": "Küçük",
-    "depends": "Yok"
+    "depends": "Yok",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R02",
@@ -21,7 +22,8 @@
     "acceptance": "Ana sayfa,7 saat etiketi,18 yeni adres ve sitemap canlıda içerik/hash kontrolünden geçmeli; ham arşiv dışarıda kalmalı.",
     "evidence": "js/data.js; data/chronology-events.json; research/deployment/2026-10-25-naval-time-release/verification.json",
     "effort": "Küçük",
-    "depends": "R01 ve açık yayın talebi"
+    "depends": "R01 ve açık yayın talebi",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R03",
@@ -33,7 +35,8 @@
     "acceptance": "Yayımlanan her kritik sayı belge pasajına bağlanmalı veya açıkça tahmin/aktarılmış iddia olarak işaretlenmeli.",
     "evidence": "js/data.js ammo/spend/fortHits/dardanosPeople; AGENTS.md",
     "effort": "Büyük",
-    "depends": "Yok"
+    "depends": "Yok",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R04",
@@ -45,7 +48,8 @@
     "acceptance": "Her kart için desteklenen iddia, açık soru, belge tarihi, saat sistemi ve kanıt görünür olmalı. Kesin saat bulunamayan kart belirsizliğini korumalı.",
     "evidence": "research/source-review/18-mart-saat-2026-10-25/INCELEME.md; js/data.js events",
     "effort": "Büyük",
-    "depends": "R03"
+    "depends": "R03",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R05",
@@ -57,7 +61,8 @@
     "acceptance": "Emir, isabet, bildirim, tahliye ve batış ayrı alanlarda; kaynaklar arası farkın nedeni veya çözülememesi açık.",
     "evidence": "js/data.js sourceTime; olaylar/18-mart-deniz-muharebesi/index.html",
     "effort": "Büyük",
-    "depends": "R04"
+    "depends": "R04",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R06",
@@ -69,7 +74,8 @@
     "acceptance": "Kullanıcı 18.29 u genel filo ateşkesi sanmamalı. Gemi günlüğü türü rapor çevrimyazısı türünden ayrı gösterilmeli.",
     "evidence": "research/source-review/18-mart-saat-2026-10-25/VENGEANCE-18-MART-ATES-KESME.md",
     "effort": "Orta",
-    "depends": "R05"
+    "depends": "R05",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R07",
@@ -81,7 +87,8 @@
     "acceptance": "Her işaret neyi gösterdiğini söylemeli; dayanağı olmayan nokta kesin batık yeri gibi görünmemeli.",
     "evidence": "research/ux-audit/batik-koordinat-incelemesi.json; tests/wreck-coordinates.test.js",
     "effort": "Büyük",
-    "depends": "R03"
+    "depends": "R03",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R08",
@@ -93,7 +100,8 @@
     "acceptance": "Kesinlik etiketi, kaynak ve şema açıklaması hem masaüstü hem mobilde okunmalı; çizgi tarihsel kesin rota sanılmamalı.",
     "evidence": "js/data.js mineLines/fleetLines; tests/map-geometry.test.js",
     "effort": "Büyük",
-    "depends": "R07"
+    "depends": "R07",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R09",
@@ -105,7 +113,8 @@
     "acceptance": "Okuyucu ne olduğunu, neden önemli olduğunu ve sonra ne değiştiğini anlayabilmeli; belirsizlikleri ayrıca görebilmeli.",
     "evidence": "data/chronology-events.json; build_pages.py chronology_event_pages",
     "effort": "Büyük",
-    "depends": "R03"
+    "depends": "R03",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R10",
@@ -117,7 +126,8 @@
     "acceptance": "Tarafların amaçları, sahadaki karşılaşma ve sonuçları birlikte anlatılmalı; görüş ile kesin olgu ayrılmalı.",
     "evidence": "research/source-review/chronology-2026-10-25/ARGENT-KAYNAK-ZINCIRI.md; borlat-kullanici-pdf-2026-10-18/TAM-OKUMA.md",
     "effort": "Büyük",
-    "depends": "R09"
+    "depends": "R09",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R11",
@@ -129,7 +139,8 @@
     "acceptance": "19 Mayıstan 24 Mayısa neden-sonuç zinciri, kaynak pasajları ve saat sınırlarıyla takip edilebilmeli.",
     "evidence": "research/source-review/borlat-kullanici-pdf-2026-10-18/TAM-OKUMA.md; ateskes-kimlik-2026-10-23",
     "effort": "Büyük",
-    "depends": "R10"
+    "depends": "R10",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R12",
@@ -141,7 +152,8 @@
     "acceptance": "Olaydan kanıta ve kanıttan ilgili anlatıya dönülebilmeli; iddia_dogrulandi yalnız açık koşullarla kullanılmalı.",
     "evidence": "js/model.js; import_catalog.py; data/chronology-sources.json",
     "effort": "Orta",
-    "depends": "R03"
+    "depends": "R03",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R13",
@@ -153,7 +165,8 @@
     "acceptance": "Okuyucu desteklenen genel sonuç ile açık kalan dakika/konumu ayırt edebilmeli; uyarı yorgunluğu azaltılmalı.",
     "evidence": "js/app.js; olaylar/18-mart-deniz-muharebesi/index.html; kaynak-politikasi/index.html",
     "effort": "Orta",
-    "depends": "R12"
+    "depends": "R12",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R14",
@@ -165,7 +178,8 @@
     "acceptance": "Her olayda doğru tarihte doğru görev gösterilmeli; belgesiz doğum/ölüm veya görev dönemi eklenmemeli.",
     "evidence": "komutanlar/; tests/content-review.test.js; js/campaign.js",
     "effort": "Büyük",
-    "depends": "R10"
+    "depends": "R10",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R15",
@@ -177,7 +191,8 @@
     "acceptance": "Her sayı tanımlı kapsam ve tarihle verilmeli; belge görüntüsü ile akademik aktarım ayrı işaretlenmeli.",
     "evidence": "research/source-review/saglik-2026-10-24/DEVAM.md; saglik-ve-tahliye/index.html",
     "effort": "Büyük",
-    "depends": "R12"
+    "depends": "R12",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R16",
@@ -189,7 +204,8 @@
     "acceptance": "Karşılaştırma aynı tarih/birlik/ikmal aşamasında yapılmalı; yokluk veya bolluk klişesi kaynak yerine geçmemeli.",
     "evidence": "cephede-beslenme/index.html; research/source-review/saglik-2026-10-24/DEVAM.md",
     "effort": "Büyük",
-    "depends": "R15"
+    "depends": "R15",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R17",
@@ -201,7 +217,8 @@
     "acceptance": "Her yayımlanan görselde tam künye, kısa bağlam, hak ve alternatif metin bulunmalı; belirsiz haklı aday yayımlanmamalı.",
     "evidence": "research/photo-archive/2026-10-24/adaylar.json; fotograf-arsivi/index.html",
     "effort": "Büyük",
-    "depends": "R09 ve R14"
+    "depends": "R09 ve R14",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R18",
@@ -213,7 +230,8 @@
     "acceptance": "Kullanıcı konumunu ve seçili kaydı kaybetmeden anlatıdan haritaya, haritadan belgeye dönebilmeli.",
     "evidence": "js/app.js; build_event_navigation.js; tests/deep-links.test.js",
     "effort": "Orta",
-    "depends": "R01 ve R09"
+    "depends": "R01 ve R09",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R19",
@@ -225,7 +243,8 @@
     "acceptance": "Yatay taşma/odak kaybı olmamalı; bütün temel işlemler dokunma ve klavyeyle yapılabilmeli.",
     "evidence": "research/ux-audit/2026-10-25-times-first-mobile.png; tests/navigation.test.js; tests/tool-focus.test.js",
     "effort": "Orta",
-    "depends": "R18"
+    "depends": "R18",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R20",
@@ -237,7 +256,8 @@
     "acceptance": "İlk kez gelen okuyucu nereden başlayacağını ve sonraki adımı anlayabilmeli.",
     "evidence": "index.html; prototip/ana-sayfa/; olaylar/index.html",
     "effort": "Orta",
-    "depends": "R09"
+    "depends": "R09",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R21",
@@ -249,7 +269,8 @@
     "acceptance": "Önce/sonra ölçümleri saklanmalı; işlevi bozmadan ilk içerik ve etkileşim iyileşmeli.",
     "evidence": "index.html; css/; js/; vendor/; tests/vendor.test.js",
     "effort": "Orta",
-    "depends": "R19"
+    "depends": "R19",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R22",
@@ -261,7 +282,8 @@
     "acceptance": "Tekcanonical,geçerli sitemap ve tutarlı içbağlantılar; indekslenme iddiası yalnız SearchConsolekanıtıyla.",
     "evidence": "sitemap.xml; robots.txt; tests/site-links.test.js; tests/quality.test.js",
     "effort": "Orta",
-    "depends": "R02"
+    "depends": "R02",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R23",
@@ -273,7 +295,8 @@
     "acceptance": "Yerel sayfa kümesi ile paket kümesi eşleşmeli; her yayın sonrası değişen tümURLler doğrulanmalı.",
     "evidence": "research/deployment/; build_pages.py published_pages; AGENTS.md",
     "effort": "Orta",
-    "depends": "R01"
+    "depends": "R01",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   },
   {
     "id": "R24",
@@ -285,6 +308,7 @@
     "acceptance": "Her parti ya somut bir iddiayı çözer,ya kullanılabilir anlatı ekler,ya belgelenmiş engelle farklı önceliğe geçer.",
     "evidence": "research/source-review/chronology-2026-10-25/DEVAM.md; research/source-review/",
     "effort": "Orta",
-    "depends": "R12"
+    "depends": "R12",
+    "completion_checklist": "ILK-SURUM-BITIS-LISTESI.md"
   }
 ]

@@ -1,0 +1,19 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "url": "https://agorha.inha.fr/ark:/54721/bafe13cc-fa47-4d0e-a4c8-50de5d5d6e66?database=81",
+  "event_dates": {
+    "birth": "1856-12-24",
+    "death": "1941-11-11"
+  },
+  "publication_date": null,
+  "record_updated": "2025-01-15",
+  "access_date": "2026-10-27",
+  "evidence": [
+    "24 décembre 1856",
+    "11 novembre 1941"
+  ],
+  "verification": "Kurum kişi kaydının kimlik ve ilgili Çanakkale paragrafı okundu; nüfus belgesi görüntüsü/arşiv dosyaları incelenmedi.",
+  "limits": "Doğum/ölüm kurum metadata desteği; görev kesin günleri doğrulanmadı.",
+  "other_access": "Leonore4199 sayfası web aracında metinsiz döndü; arama özeti özgün dosya okuması sayılmadı."
+}
