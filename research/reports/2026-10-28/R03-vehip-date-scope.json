@@ -1,0 +1,32 @@
+{
+  "task": "R03 / R14",
+  "sourceURL": "https://atamdergi.gov.tr/tam-metin/225/tur",
+  "authors": [
+    "Abdullah İlgazi",
+    "Mustafa Bıyıklı"
+  ],
+  "publicationDate": "2012-03",
+  "accessDate": "2026-10-28",
+  "status": "needs_evidence_command_day_and_death_place",
+  "claims": [
+    {
+      "eventDate": [
+        "1915-07-08",
+        "1915-07-09"
+      ],
+      "evidence": [
+        "8 Temmuz’da ... yeni görevine başlayan",
+        "9 Temmuz 1915 tarihinde Çanakkale’de göreve başlayan"
+      ],
+      "scope": "Same article internally differs; month retained, no exact day selected"
+    },
+    {
+      "eventDate": "1940-06-13",
+      "evidence": "13 Haziran 1940’ta hayatını kaybetti",
+      "scope": "Following Karacaahmet burial does not establish death place"
+    }
+  ],
+  "readingScope": "Selected command start/departure and late-life passages. Not full article verification; original orders/death records and all cited works unseen.",
+  "oldDeathField": "13 Haziran 1940, İstanbul",
+  "releaseScope": "Local only; frozen package unchanged"
+}

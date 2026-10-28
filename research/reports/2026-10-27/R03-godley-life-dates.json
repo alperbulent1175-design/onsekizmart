@@ -1,0 +1,31 @@
+{
+  "reviewDate": "2026-10-27",
+  "url": "https://teara.govt.nz/en/biographies/3g12/godley-alexander-john",
+  "author": "Ray Grover",
+  "publicationDate": "1996 (first publication year only)",
+  "accessDate": "2026-10-27",
+  "status": "institutional_biography_relevant_paragraphs_read",
+  "claims": [
+    {
+      "type": "birth",
+      "eventDate": "1867-02-04",
+      "place": "Gillingham",
+      "evidenceText": "born on 4 February 1867 at Gillingham"
+    },
+    {
+      "type": "death",
+      "eventDate": "1957-03-06",
+      "place": "Oxford",
+      "evidenceText": "at Oxford, England, on 6 March 1957"
+    }
+  ],
+  "limits": [
+    "Selected birth/death/Gallipoli paragraphs, not all cited books or original civil records.",
+    "No troop numbers, loss totals or exact command appointment dates derived.",
+    "Te Papa Person44400 opening returned cache miss; search extract not treated as a read corroborating record.",
+    "Historical claim status not upgraded to iddia_dogrulandi."
+  ],
+  "releaseScope": "Working Godley page changed after f90304f. Frozen162-file approval-stage untouched; this new uncommitted edit is not included in that prepared version.",
+  "previousOpenText": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+  "currentOpenText": "Aşağıdaki biyografi kaydı yaşam tarihlerini destekler; görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler ayrıca belge karşılaştırması gerektirir."
+}

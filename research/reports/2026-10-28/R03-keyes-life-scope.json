@@ -1,0 +1,21 @@
+{
+  "task": "R03 / R14",
+  "sourceURL": "https://www.parliament.uk/about/living-heritage/building/cultural-collections/memorials/in-the-collection/world-war-ii/wwii-heraldic-shields/keyes/",
+  "publicationDate": null,
+  "accessDate": "2026-10-28",
+  "status": "context_checked_narrow_birthplace_unresolved",
+  "claims": [
+    {
+      "eventDate": "1872-10-04",
+      "evidence": "4 October 1872-26 December 1945; Keyes was born in India",
+      "scope": "Punjab refers to father force, not explicit birthplace"
+    },
+    {
+      "eventDate": "1945-12-26",
+      "evidence": "at his Buckinghamshire home, Tingewick House, on 26 December 1945"
+    }
+  ],
+  "readingScope": "Selected identity and late-life paragraphs; original civil records and exact1915appointment orders unseen",
+  "oldBirthField": "4 Ekim 1872, Pencap",
+  "releaseScope": "Local only; frozen package unchanged"
+}

@@ -1,0 +1,28 @@
+{
+  "task": "R03",
+  "sourceURL": "https://www2.assemblee-nationale.fr/sycomore/fiche/3624",
+  "publicationDate": null,
+  "accessDate": "2026-10-27",
+  "status": "institutional_biography_internal_conflict_unresolved",
+  "claims": [
+    {
+      "eventDate": "1856-08-30",
+      "evidence": "Né le 30 août 1856 à Granville",
+      "scope": "general information and biography agree"
+    },
+    {
+      "eventDate": "1939-11-11 / 1939-11-21",
+      "evidence": "General information and opening paragraph say11November; final paragraph says21November. Both sayBrest.",
+      "scope": "internal contradiction, neither day chosen"
+    }
+  ],
+  "readingScope": "General information and relevant Jean Jolly biography paragraphs; not original dictionary edition/civil registry/military orders.",
+  "previousText": "21 Kasım 1939, Brest",
+  "currentText": "Kasım 1939, Brest; gün kaynakta çelişkili",
+  "limits": [
+    "No birth/death civil record image read.",
+    "Parliamentary period not military command period.",
+    "18March BLine requires separate naval report scope."
+  ],
+  "releaseScope": "Local working page, frozen approval package unchanged."
+}

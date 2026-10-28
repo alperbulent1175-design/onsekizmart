@@ -1,0 +1,23 @@
+{
+  "task": "R03 / R14",
+  "reviewDate": "2026-10-28",
+  "status": "needs_evidence_life_details",
+  "oldFields": [
+    "3 Mayıs 1857, Templemore",
+    "6 Mayıs 1930, Lymington"
+  ],
+  "decision": "Remove unsupported exact day/place presentation; retain working years explicitly not newly verified. No alternative date adopted.",
+  "evidence": null,
+  "sourceURL": null,
+  "publicationDate": null,
+  "accessDate": null,
+  "searchScope": "Focused DIB previous run; NPG/RMG and FranceArchives/IWM searches this run did not locate usable direct life passage. This is not a claim no source exists.",
+  "rejectedLeads": [
+    "Commons/Wikipedia derivative identity fields",
+    "Genealogy compilation snippets",
+    "Firstworldwar biography snippet internally gives1930heading vs1917death sentence"
+  ],
+  "nextCondition": "Readable institutional/civil/personnel source for each exact life day and place; do not repeat same fruitless searches.",
+  "commandLimit": "16MarchCarden and17MarchdeRobeck unchanged; life review does not establish command days",
+  "releaseScope": "Local only; frozen package unchanged"
+}

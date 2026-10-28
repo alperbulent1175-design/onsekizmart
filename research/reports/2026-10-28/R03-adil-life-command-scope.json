@@ -1,0 +1,33 @@
+{
+  "url": "https://canakkalesavaslariansiklopedisi.com/selahaddin-adil/",
+  "author": "Murat Kütükçü",
+  "publicationDate": "2022",
+  "accessDate": "2026-10-28",
+  "readingScope": "Selected identity,1914/1915appointment,death and citation passages directly read. Not original records/full cited works.",
+  "claims": [
+    {
+      "eventDate": "1882-01-19",
+      "evidence": "19 Ocak 1882 (6 Ocak 1297) tarihinde İstanbul’da doğan",
+      "locator": "opening paragraph"
+    },
+    {
+      "eventDate": "1914-08-15",
+      "evidence": "15 Ağustos 1914 ... Müstahkem Mevki Komutanlığı Kurmay Başkanlığı",
+      "locator": "1914appointment paragraph"
+    },
+    {
+      "eventDate": "1915-04-28",
+      "evidence": "12’nci Tümene 28 Nisan 1915 tarihinden itibaren ... Komutan olarak atanmıştır",
+      "locator": "land campaign paragraph"
+    },
+    {
+      "eventDate": "1961-02-27",
+      "evidence": "27 Şubat 1961 tarihinde vefat etmiş",
+      "locator": "death paragraph"
+    }
+  ],
+  "status": "context_checked_secondary_biography_original_orders_unseen",
+  "limits": "Burial place not death place. Appointment not proven takeover. Article casualty/mine/hour assertions not adopted. Website generated access date not used as actual access.",
+  "task": "R03 / R14",
+  "releaseScope": "Local only; frozen package unchanged"
+}

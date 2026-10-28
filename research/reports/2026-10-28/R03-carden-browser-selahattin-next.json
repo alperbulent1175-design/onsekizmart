@@ -1,0 +1,47 @@
+{
+  "task": "R03 / R14",
+  "status": "carden_browser_complete_selahattin_reading_started",
+  "reviewDate": "2026-10-28",
+  "cardenBrowser": {
+    "desktopClientScroll": [
+      1265,
+      1265
+    ],
+    "mobileClientScroll": [
+      305,
+      305
+    ],
+    "mobileScreenshotInspected": true,
+    "leaflet": true,
+    "itilafCount": 20,
+    "clearedCount": 31,
+    "physicalDevice": false
+  },
+  "nextSource": {
+    "url": "https://canakkalesavaslariansiklopedisi.com/selahaddin-adil/",
+    "author": "Murat Kütükçü",
+    "publicationDate": "2022 (citation surfaced in search; confirm in direct page continuation)",
+    "accessDate": "2026-10-28",
+    "readingScope": "Direct page opening identity and1914–1915command paragraphs read; remaining death/citation passage still to inspect directly",
+    "claims": [
+      {
+        "eventDate": "1882-01-19",
+        "evidence": "19 Ocak 1882 (6 Ocak 1297) tarihinde İstanbul’da doğan",
+        "locator": "opening paragraph"
+      },
+      {
+        "eventDate": "1914-08-15",
+        "evidence": "15 Ağustos 1914 ... Müstahkem Mevki Komutanlığı Kurmay Başkanlığı",
+        "locator": "1914appointment paragraph"
+      },
+      {
+        "eventDate": "1915-04-28",
+        "evidence": "12’nci Tümene 28 Nisan 1915 tarihinden itibaren ... Komutan olarak atanmıştır",
+        "locator": "land campaign paragraph"
+      }
+    ],
+    "status": "selected_secondary_passages_read_original_orders_unseen",
+    "limits": "Do not adopt article mine lines, Cevat return hours or casualty claims; exact appointment text is author attribution, not original order or proven takeover. Search death snippet not direct death passage verification."
+  },
+  "releaseScope": "No publish or frozen package changes"
+}

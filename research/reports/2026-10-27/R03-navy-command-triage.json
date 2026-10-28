@@ -1,0 +1,52 @@
+[
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "line": 503,
+    "text": "Aynı SHD envanter sayfası, Bouvet için Haziran 1898 tarihli bir kayıtta 274,4 ve 305 mm Mle 1893 top kundaklarını adlandırır. Bu, mevcut karttaki toplam namlu sayısını veya 1915 donatımını tek başına doğrulamaz. Dönem yayınındaki teknik anlatı ile planların model ve ölçü karşılaştırması açık kalır.",
+    "links": [],
+    "quantity_candidate": true,
+    "text_sha256": "325c2fe50a428e00546b162256a8afbb8c1e786f0f4cc1e27dd9099bff26c4c6",
+    "review_status": "context_checked",
+    "review_note": "SHD inventory model/calibre labels and document dates, with explicit refusal to derive total gun count or 1915 fitting. Existing page and previous scan-reading record compared; original plans not newly read.",
+    "previous_source_record": "research/reports/2026-10-25/R03-french-artillery-inventory.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "line": 520,
+    "text": "Gaulois ve Charlemagne, SHD’nin ETCA topçu belgeleri envanterinde 305 mm Mle 1893 top kundaklarına ilişkin ortak başlıkta anılır. Altında Nisan 1903 ve Ocak 1909 tarihli iki belge kaydı listelenir. Bu tarihler geminin donatımının o gün değiştirildiği anlamına gelmez.",
+    "links": [],
+    "quantity_candidate": true,
+    "text_sha256": "8b9842106196f78b566e8e1f0d8212e472bc404267e1b38219ebead52aaf3def",
+    "review_status": "context_checked",
+    "review_note": "SHD inventory model/calibre labels and document dates, with explicit refusal to derive total gun count or 1915 fitting. Existing page and previous scan-reading record compared; original plans not newly read.",
+    "previous_source_record": "research/reports/2026-10-25/R03-french-artillery-inventory.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "line": 538,
+    "text": "Charlemagne ve Gaulois için aynı envanter başlığı altında 305 mm Mle 1893 top kundaklarına ilişkin iki belge listelenir. Nisan 1903 ve Ocak 1909, listelenen belgelerin tarihleridir; gemide o gün mevcut toplam top sayısı değildir.",
+    "links": [],
+    "quantity_candidate": true,
+    "text_sha256": "70560cf99aad186675170fcc9175a32e9fad7d9671c7b27d2f034c6e814a506b",
+    "review_status": "context_checked",
+    "review_note": "SHD inventory model/calibre labels and document dates, with explicit refusal to derive total gun count or 1915 fitting. Existing page and previous scan-reading record compared; original plans not newly read.",
+    "previous_source_record": "research/reports/2026-10-25/R03-french-artillery-inventory.json"
+  },
+  {
+    "page": "komutanlar/albert-damade/index.html",
+    "tag": "p",
+    "line": 105,
+    "text": "INHA, AGORHA — Albert Gérard Léo d’Amade kişi kaydı, “Identification / Naissance et mort” , doğumu 24 Aralık 1856, ölümü 11 Kasım 1941 olarak verir. Kısa kanıt: 24 décembre 1856 ve 11 novembre 1941 . Üstteki iki tarih alanı bu kurum kaydıyla eşleşir; görev başlangıç ve bitiş günleri bu eşleşmeyle doğrulanmış sayılmaz.",
+    "links": [
+      "https://agorha.inha.fr/ark:/54721/bafe13cc-fa47-4d0e-a4c8-50de5d5d6e66?database=81"
+    ],
+    "quantity_candidate": true,
+    "text_sha256": "718287f407af18d4810f635de3823c7f21b6ea635f43d717550130d8c63eae2b",
+    "review_status": "context_checked",
+    "review_note": "The phrase two date fields is a field-count reference, not personnel. Existing INHA attribution and birth/death note compared; command dates explicitly excluded. No new external access or date verification.",
+    "previous_source_record": "komutanlar/albert-damade/index.html#kaynak-notu"
+  }
+]

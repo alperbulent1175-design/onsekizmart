@@ -109,13 +109,14 @@ test("boş hayat alanları doldurulmaz", () => {
   assert.equal(facts("komutanlar/remzi-bey/index.html").includes("<dt>Ölüm</dt>"), false);
   assert.equal(facts("komutanlar/johannes-merten/index.html").includes("<dt>Doğum</dt>"), false);
   assert.equal(facts("komutanlar/johannes-merten/index.html").includes("<dt>Ölüm</dt>"), false);
-  assert.match(facts("komutanlar/halil-sami-bey/index.html"), /<dt>Ölüm<\/dt><dd>1925<\/dd>/);
+  assert.match(facts("komutanlar/halil-sami-bey/index.html"), /<dt>Ölüm<\/dt><dd>1925 \(kesin olmayan aktarım\)<\/dd>/);
   assert.match(facts("komutanlar/selahattin-adil-bey/index.html"), /<dt>Ölüm<\/dt><dd>27 Şubat 1961<\/dd>/);
   assert.match(facts("komutanlar/albert-damade/index.html"), /<dt>Doğum<\/dt><dd>24 Aralık 1856<\/dd>/);
   assert.match(facts("komutanlar/albert-damade/index.html"), /<dt>Ölüm<\/dt><dd>11 Kasım 1941<\/dd>/);
   assert.match(facts("komutanlar/william-bridges/index.html"), /<dt>Ölüm<\/dt><dd>18 Mayıs 1915<\/dd>/);
-  assert.match(facts("komutanlar/roger-keyes/index.html"), /<dt>Doğum<\/dt><dd>4 Ekim 1872, Pencap<\/dd>/);
-  assert.match(facts("komutanlar/charles-monro/index.html"), /<dt>Doğum<\/dt><dd>15 Haziran 1860, denizde<\/dd>/);
+  assert.match(facts("komutanlar/roger-keyes/index.html"), /<dt>Doğum<\/dt><dd>4 Ekim 1872, Hindistan; daha dar doğum yeri incelemede<\/dd>/);
+  assert.match(facts("komutanlar/charles-monro/index.html"), /<dt>Doğum<\/dt><dd>15 Haziran 1860<\/dd>/);
+  assert.doesNotMatch(facts("komutanlar/charles-monro/index.html"), /<dd>[^<]*(?:denizde|Londra|Ekim 1915 sonunda)/);
 });
 
 test("mobil düzen ve katman düğmesi kuralları durur", () => {

@@ -1,0 +1,34 @@
+{
+  "task": "R03",
+  "url": "https://www.queensroyalsurreys.org.uk/colonels-and-co/colonels/queens-royal-regiment/gen-sir-charles-monro.html",
+  "publicationDate": null,
+  "accessDate": "2026-10-27",
+  "status": "regimental_association_biography_selected_passages_read",
+  "claims": [
+    {
+      "eventDate": "1860-06-15",
+      "evidence": "was born on 15th June 1860",
+      "scope": "birth date; no birthplace"
+    },
+    {
+      "eventDate": "1929-12-07",
+      "evidence": "He died on 7th December 1929",
+      "scope": "death date; no death place"
+    },
+    {
+      "eventDate": "1915-10",
+      "evidence": "In October he was appointed to the command in the Mediterranean",
+      "scope": "month only, not exact handover day"
+    }
+  ],
+  "limits": [
+    "Selected life-date, Mediterranean appointment and return-to-France paragraphs read; no original civil registry or appointment/transfer order.",
+    "1920–1929 heading not Gallipoli command period.",
+    "Casualty and other numerical statements in biography not adopted."
+  ],
+  "changes": [
+    "Removed unsupported birthplace/death-place from facts; original values preserved here: denizde / Londra.",
+    "Removed end-of-October precision not supplied by selected passage."
+  ],
+  "releaseScope": "Working page only; frozen approval package unchanged."
+}

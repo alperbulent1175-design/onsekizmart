@@ -1,0 +1,33 @@
+{
+  "task": "R03 / R14",
+  "status": "needs_evidence_birth_year_conflict",
+  "accessDate": "2026-10-28",
+  "sources": [
+    {
+      "url": "https://www.dib.ie/biography/de-robeck-sir-john-michael-a2469",
+      "author": "David Murphy",
+      "publicationDate": "2009-10",
+      "evidence": [
+        "born 10 June 1863 at Gowran Grange, Naas",
+        "He died 20 January 1928",
+        "at his London home"
+      ],
+      "eventDates": [
+        "1863-06-10",
+        "1928-01-20"
+      ]
+    },
+    {
+      "url": "https://www.npg.org.uk/collections/search/person/mp01268/sir-john-michael-de-robeck-bt",
+      "publicationDate": null,
+      "evidence": "(1862-1928), Admiral of the Fleet",
+      "eventDates": [
+        "1862",
+        "1928"
+      ]
+    }
+  ],
+  "readingScope": "DIB selected identity, command, death paragraphs and metadata; NPG person heading. Original civil records, orders and full cited books unseen.",
+  "decision": "Birth year conflict visible; death source attributed; March16/17 distinction preserved",
+  "releaseScope": "Local only; frozen package unchanged"
+}

@@ -1,0 +1,405 @@
+{
+  "reviewDate": "2026-10-27",
+  "status": "local_reachability_scope_checked",
+  "publishedPageCount": 88,
+  "targetIdsPresent": {
+    "cmd-osmanli": false,
+    "cmd-itilaf": false,
+    "osmanli-rows": false,
+    "later-rows": false,
+    "source-list": false
+  },
+  "consumerReferences": [
+    {
+      "path": "js/app.js",
+      "line": 2229,
+      "code": "fillCommand(D.campaign.command.osmanli, \"cmd-osmanli\");"
+    },
+    {
+      "path": "js/app.js",
+      "line": 2230,
+      "code": "fillCommand(D.campaign.command.itilaf, \"cmd-itilaf\");"
+    },
+    {
+      "path": "js/app.js",
+      "line": 2234,
+      "code": "D.campaign.navy.osmanli.forEach(function (s) {"
+    },
+    {
+      "path": "js/app.js",
+      "line": 2251,
+      "code": "D.campaign.navy.later.forEach(function (s) {"
+    },
+    {
+      "path": "js/app.js",
+      "line": 2268,
+      "code": "D.campaign.sources.forEach(function (line) {"
+    }
+  ],
+  "applicationSha256": "4a87127b0574b2c10707a69d44cf272c42835729cb181a19b21f25c5bb965fd4",
+  "pageProof": [
+    {
+      "path": "cephede-beslenme/index.html",
+      "sha256": "94adb1ccae619deeecdc4ff79a356aa2e6b1f8f9013587b74659151d21ec2edd"
+    },
+    {
+      "path": "donanma/index.html",
+      "sha256": "746f311e41ea2e904168a5d4fdcb43a1406188f602320f2c061c62b21a6a316a"
+    },
+    {
+      "path": "fotograf-arsivi/index.html",
+      "sha256": "01bed11c610b7dd0079610a86d76952cf91c00d83c636eee531454bf35e2e2a6"
+    },
+    {
+      "path": "gizlilik/index.html",
+      "sha256": "1096098683b2bc15d10bd0737d0f5fb6658e1f2ba5ff7d6ebc1a35e11923214a"
+    },
+    {
+      "path": "hakkinda/index.html",
+      "sha256": "bc0c96b4f93948682be9369e2cb6010153aad50e05690e6dd627a4bf630dbc8b"
+    },
+    {
+      "path": "iletisim/index.html",
+      "sha256": "9990bfba6c1a7a2540688489feffbf11626e916f6eeb343a385526e025d76194"
+    },
+    {
+      "path": "inceleme-notlari/index.html",
+      "sha256": "5357386f538a82f322eb44afa32c4161b6e6866052c4d823fdb995a495cb506b"
+    },
+    {
+      "path": "index.html",
+      "sha256": "0b5a842d467616ff22f09a05cffd0b06005c3c8ce7835e6eb95fe53eed70ca18"
+    },
+    {
+      "path": "kaynak-politikasi/index.html",
+      "sha256": "79ce34f34843e6f2aa667e49e1f16b6002bbbca248d69f7c904d05c99837c06e"
+    },
+    {
+      "path": "kaynakca/index.html",
+      "sha256": "301ef8e3b95a4fc01d1121440db80e7edb5b7a321118862862f2382feaeb67ca"
+    },
+    {
+      "path": "komutanlar/albert-damade/index.html",
+      "sha256": "126bd62e752060227e3766c850456d58187521724ebe8291fbc12d00a3e5ebb7"
+    },
+    {
+      "path": "komutanlar/alexander-godley/index.html",
+      "sha256": "61b3c0a3558a780f84e997cebd192be30b3f48c99b1643c56d4c53b0ef22efb5"
+    },
+    {
+      "path": "komutanlar/aylmer-hunter-weston/index.html",
+      "sha256": "58af12009ab0d2f8a064db980d3c87be54c68b626a44a95df3705bb3570e90ec"
+    },
+    {
+      "path": "komutanlar/cevat-bey-cobanli/index.html",
+      "sha256": "915e29e0616a6fc29d944566549c19e1f6b98adb443dbb96dadf65cbd1c4b095"
+    },
+    {
+      "path": "komutanlar/charles-monro/index.html",
+      "sha256": "ea1eaf6d7864d0c7f5c5b3e9976481196c03db3d79d8f55955f53a38f71ae18a"
+    },
+    {
+      "path": "komutanlar/emile-guepratte/index.html",
+      "sha256": "cf32511d32725781083973ea7b8f011181a89c07ede471d77e6d9d05229e721d"
+    },
+    {
+      "path": "komutanlar/esat-pasa-bulkat/index.html",
+      "sha256": "fe7bcefd714f6245c824ea23c1576899d8947feb633f41daee3d91502371da85"
+    },
+    {
+      "path": "komutanlar/frederick-stopford/index.html",
+      "sha256": "49e968f9aa4a7dfaafa4746b680e3d2f0c827eac5b9c8c27ca1691eb30079013"
+    },
+    {
+      "path": "komutanlar/guido-von-usedom/index.html",
+      "sha256": "8eae8435b3ca56cbca9856c028739278e2084f9ff8daf48782ea0055cb981c39"
+    },
+    {
+      "path": "komutanlar/halil-sami-bey/index.html",
+      "sha256": "c3665edcd24b91776e1e003755573bd0139d088537b66493fd261a1afd0d94c8"
+    },
+    {
+      "path": "komutanlar/henri-gouraud/index.html",
+      "sha256": "ea8517a48605c6e9f72f8198fc5cbf1e2c7db763bb5e643028f25c873a28e3ea"
+    },
+    {
+      "path": "komutanlar/ian-hamilton/index.html",
+      "sha256": "0089fb37b69f50adad98bab61533ef685d4beb4249e8019b91f8678231293365"
+    },
+    {
+      "path": "komutanlar/index.html",
+      "sha256": "1023d57a6a71430e9c398b5ab2108eceb1fefe0582b1a8af75f9033037bb13e2"
+    },
+    {
+      "path": "komutanlar/johannes-merten/index.html",
+      "sha256": "b56fd720a7127bd8f25eb47c6941d34db46dbf11a29fddb6bd989bdd2770925b"
+    },
+    {
+      "path": "komutanlar/john-de-robeck/index.html",
+      "sha256": "2e47154a3508ffbe4347fe4215152c1af28e53f0ca7029516dd816e3ecc7d9ab"
+    },
+    {
+      "path": "komutanlar/liman-von-sanders/index.html",
+      "sha256": "1973f7c8a6b36050ef615c25dc167253643565f5127e051992b36a369e0060e1"
+    },
+    {
+      "path": "komutanlar/mustafa-kemal/index.html",
+      "sha256": "6336ce5d6d24a860e252540e03f8f8f3395b19402dbd29b6334fc1a112f327ca"
+    },
+    {
+      "path": "komutanlar/rafet-bey-bele/index.html",
+      "sha256": "41658a635b4792aedcdca598c97546039dedbc2024be63099f708385793a2a71"
+    },
+    {
+      "path": "komutanlar/remzi-bey/index.html",
+      "sha256": "b17768c0e30b95a3408b1fe5c7b37ad6f134a0c1e60655bea683c8beca4793b1"
+    },
+    {
+      "path": "komutanlar/roger-keyes/index.html",
+      "sha256": "948ce0a5ae9abf0e88b7e6dedcde8b00c6ae15ce1568d81b282c82a9acdb4592"
+    },
+    {
+      "path": "komutanlar/sackville-carden/index.html",
+      "sha256": "1cd74746afe98622d4dff500f805a306be6523cff28cfdaee43fae59efe681fd"
+    },
+    {
+      "path": "komutanlar/selahattin-adil-bey/index.html",
+      "sha256": "7646e2ba4f59a8b607f44cf17c23d0f33531c118a9150221bec1e6a4a4982490"
+    },
+    {
+      "path": "komutanlar/vehip-pasa-kaci/index.html",
+      "sha256": "fac88572361c013b2336aea70e9ddde440f5dda7bda99bd7822939cef12acba7"
+    },
+    {
+      "path": "komutanlar/weber-pasa/index.html",
+      "sha256": "f3db04fe0c6a61765447b4ad015a93ad27214cc55a5558776b64729360e8dee7"
+    },
+    {
+      "path": "komutanlar/william-birdwood/index.html",
+      "sha256": "cb3af6c3c6e6b7b1c23040887f56b4e3181d222f835301a7cf51b71d4872576c"
+    },
+    {
+      "path": "komutanlar/william-bridges/index.html",
+      "sha256": "6480a4f2f46f8d8cb46e89b833bc3532a39c1c899225ec97fecb21ff7c38ddc0"
+    },
+    {
+      "path": "kronoloji-kaynaklari/index.html",
+      "sha256": "a724bc4a940af3d048dc60dab05500152f74d0223a7cb8f76f57d4766715201d"
+    },
+    {
+      "path": "nasil-okunur/index.html",
+      "sha256": "3e60652f6a9f509d46f42189a56cfdddbc2c1a007274edbc072dec7bb6aa1716"
+    },
+    {
+      "path": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "sha256": "782da5b0f173a3999e84a5d3edc516d906170ea16e9e629e08ac6094777e6182"
+    },
+    {
+      "path": "olaylar/anafartalar-suvla-cikarmasi/index.html",
+      "sha256": "f56240a5787626ad86dde00b0d7eca0fda8843c9d5af74c6f39c0d387faec960"
+    },
+    {
+      "path": "olaylar/anafartalar-tahliyesi/index.html",
+      "sha256": "b8b03d96247dda90a29ca1c6a9ed58a536e73fb7824fb68f85da0200206df685"
+    },
+    {
+      "path": "olaylar/anzak-sevk-emri/index.html",
+      "sha256": "d46894f13360b6dafb2ada756057cfcf3df4c9d753134ee6e29d94ee702f7ec7"
+    },
+    {
+      "path": "olaylar/ariburnu-cikarmasi/index.html",
+      "sha256": "e9486e793e69196725b83a6ef5a1c3d8605fb06c170d3799a5669ab699cde491"
+    },
+    {
+      "path": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "sha256": "3981f43f8fc28affbd9ad904b45ad691f29d8ad2c2228e827ca3a5552b7be4e8"
+    },
+    {
+      "path": "olaylar/ariburnu-gomme-ateskesi/index.html",
+      "sha256": "3d0bd9737ad7b481a322233b920db4b943033e96f0daa3378d6fb550539e5413"
+    },
+    {
+      "path": "olaylar/ariburnu-suvla-tahliye-onayi/index.html",
+      "sha256": "9347d5630fc582fd3be710a7f262814e7ac60a66852642fe014aacc22f53da67"
+    },
+    {
+      "path": "olaylar/ariburnu-tahliyesi/index.html",
+      "sha256": "56a4fbc05d4e9d7413a88cd6e2c546383d0174b45baf3df2262a25bc88426fc3"
+    },
+    {
+      "path": "olaylar/ateskes-gorusmeleri/index.html",
+      "sha256": "94763130a40f91fe804a17cd6bb349f3afd1feb185dc8444c9c35b4f4bf2da0e"
+    },
+    {
+      "path": "olaylar/barbaros-hayreddin-batar/index.html",
+      "sha256": "c783f93ac63d79cff510746aa5b0704e25ff305b60ba99bff08a91f08dfdbf43"
+    },
+    {
+      "path": "olaylar/birinci-anafartalar-muharebesi/index.html",
+      "sha256": "cae2f320d0ba00e71bec0d441989952993d887a1c10ad91f0f1528acdf663914"
+    },
+    {
+      "path": "olaylar/birinci-kirte-muharebesi/index.html",
+      "sha256": "7c0eb42277205aec6fcd926bc1fffdf369d454d914db2aefcc68b75d4b88ea68"
+    },
+    {
+      "path": "olaylar/conkbayiri-muharebesi/index.html",
+      "sha256": "7e293a0ac8729c3f037dbb564ad9e74df681e2a8552a550f5612d83052f8cb1c"
+    },
+    {
+      "path": "olaylar/dis-tabyalarin-bombardimani/index.html",
+      "sha256": "1ecabb1632ad76cf01dbda1946347b7791e51655e375bacb0828477dfff302f7"
+    },
+    {
+      "path": "olaylar/e15-bogazda-karaya-oturur/index.html",
+      "sha256": "8753f7cbe9c6e6f88697f5d9b737039103697faf95f44302d3b4bcd20bc225e7"
+    },
+    {
+      "path": "olaylar/giris-tabyalari-ve-kisa-cikarmalar/index.html",
+      "sha256": "3726177f9f2173cd01c0379458f3e4196e1b7e1d23cf01362d3b3ce87a1483c6"
+    },
+    {
+      "path": "olaylar/goliath-batar/index.html",
+      "sha256": "720469de26816d5ec8e7b4c0348ce792aca0efc50bcd279a5e0490d1948173e0"
+    },
+    {
+      "path": "olaylar/hamiltona-talimat/index.html",
+      "sha256": "6dfe344992fc133f94f7496e663dc0689191794623fb82efe698a20b1f050d7d"
+    },
+    {
+      "path": "olaylar/hastane-ekibi-limnide/index.html",
+      "sha256": "d5092bf126eb7793fe7f0462abcbdbe56d80f52ae484f8fe36f0b6b1bb450c3e"
+    },
+    {
+      "path": "olaylar/ikinci-anafartalar-muharebesi/index.html",
+      "sha256": "e07ccd50f8b70fd75c756ddb3966bdd9a822583601bb46355244214196caf11e"
+    },
+    {
+      "path": "olaylar/ikinci-kirte-muharebesi/index.html",
+      "sha256": "5999f2f151c7c5a90814cf886a613a0403c7c1d509f4a34c383e3a71256fe49b"
+    },
+    {
+      "path": "olaylar/index.html",
+      "sha256": "d5d5f4f682f98f8ab3b93a4676840ebc4bfe43dc74b4e7f4032c2b702562d766"
+    },
+    {
+      "path": "olaylar/kanlisirt-muharebesi/index.html",
+      "sha256": "1a0a61fef092469ba6d0c05e157516be7cd50fbc6a4fc2e8b010886a06c71d2a"
+    },
+    {
+      "path": "olaylar/kerevizdere-muharebesi/index.html",
+      "sha256": "36cf2070e2e3713c5f63c49624b368eca5552f6a4fcb990648b33e1a63b214ef"
+    },
+    {
+      "path": "olaylar/kirectepe-taarruzu/index.html",
+      "sha256": "d45eb97d678a144bb2da14970b2411fb0692f080d0bae85a4b75a01a6deafa18"
+    },
+    {
+      "path": "olaylar/kolera-asilamasi/index.html",
+      "sha256": "659782fffbbf3af251a6f0b50cd65f1316cc09459ba46c68a9a1fc3e8042fa75"
+    },
+    {
+      "path": "olaylar/kumkale-oyalama-cikarmasi/index.html",
+      "sha256": "d66f90a76abb3cbbfab8eabf9a796e5f311580a1c6a4f63c0dd7de6785fa78ea"
+    },
+    {
+      "path": "olaylar/majestic-batar/index.html",
+      "sha256": "badcb1dc95c1ac73a4126cabbd3d0550dbe4538848dc58fb2fea8e18d18e2b71"
+    },
+    {
+      "path": "olaylar/mayin-tarama-girisimleri/index.html",
+      "sha256": "50a262dcd2e9099bee3b47c157ae5acd67e9eeaec09109279f3eb611f04134f5"
+    },
+    {
+      "path": "olaylar/mondrosta-cikarma-hazirligi/index.html",
+      "sha256": "4041919d7dccde8dd6cfaabb1a6b7caa15710edac1796b2b45150bab870b14c4"
+    },
+    {
+      "path": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+      "sha256": "ce3b55557174183a3a0ddce4920bf7c9aff94596cd40f003ceaa6e0e43a782e3"
+    },
+    {
+      "path": "olaylar/quinns-post-lagim-taarruzu/index.html",
+      "sha256": "8e96eddecb4bf7a9bc3e01a9bbb9e1132dd5666a0d33d77805af520f8781fef7"
+    },
+    {
+      "path": "olaylar/quinns-post-siper-baskini/index.html",
+      "sha256": "20c5061e9be90e798f901600900be601f2bfda09c4883b0f0271590f7c665411"
+    },
+    {
+      "path": "olaylar/saros-gosterisi/index.html",
+      "sha256": "36c8f0bb1d97ae1f20344a250f900ef67a06d9419918f18e91a885bc6ef5e728"
+    },
+    {
+      "path": "olaylar/seddulbahir-cikarmasi/index.html",
+      "sha256": "b7c0326ef38ff4c48b41d25bef35ef34685d988bb0b69b45e32642a83ee06660"
+    },
+    {
+      "path": "olaylar/seddulbahir-tahliye-emri/index.html",
+      "sha256": "32e800517716a7f333c27f0e6206453eb2f39b1290a576437f18ffa2db8a21ac"
+    },
+    {
+      "path": "olaylar/seddulbahir-tahliyesi/index.html",
+      "sha256": "78f7235260766918ef34c95b027b1326d4711beb11bbf3dc0d3ac832bf06ed66"
+    },
+    {
+      "path": "olaylar/sonbahar-firtinasi/index.html",
+      "sha256": "97c7361fc82fb25ca4f0c6250f17bfa7f409410e8f966439aafa9ddb4fc7cb8d"
+    },
+    {
+      "path": "olaylar/tahliye-tavsiyesi/index.html",
+      "sha256": "3a4fe6167f627a5d0198b1933aebf58c2c91192d6be2034a7fcd2f11a4199b2c"
+    },
+    {
+      "path": "olaylar/triumph-batar/index.html",
+      "sha256": "b90cceae105e79f0f45d8082ba2165eb9b10121213010e7288d0967feb12ecfb"
+    },
+    {
+      "path": "olaylar/ucuncu-kirte-muharebesi/index.html",
+      "sha256": "9fe82c6b5e3444923fc96739fdf72050b6739a2ff35d8a2042156bd7ed516fb8"
+    },
+    {
+      "path": "olaylar/watson-iskelesi-tamamlandi/index.html",
+      "sha256": "b74840012c33983ba9fb425128b7a33f56765c5d6f3c66df0c6085facba25dbb"
+    },
+    {
+      "path": "olaylar/yagmur-ve-kar-firtinasi/index.html",
+      "sha256": "560f61af4f48a3018f484b459c1add0625edfe2a8bff94f7b0a1830e47fbbe28"
+    },
+    {
+      "path": "olaylar/yaralilar-misira-ulasiyor/index.html",
+      "sha256": "e3bf9c615584a74edea503dccde18ebc6403e63f3ef99a2d9b02113a75460c39"
+    },
+    {
+      "path": "olaylar/yeraltindan-kazma-sesleri/index.html",
+      "sha256": "ece5382ad276d8017ec63900335bff05d7b3fa4d6570becebb149efe0af3214e"
+    },
+    {
+      "path": "olaylar/zigindere-muharebesi/index.html",
+      "sha256": "890353c3d5b6c14e07cafa31b7754c7cccd3168ebb744c14caaeed1452776e79"
+    },
+    {
+      "path": "saglik-ve-tahliye/index.html",
+      "sha256": "251777558ac714a1584a40fc5e22795e1c7da5a662b98dc1b7054f23ff33d11f"
+    },
+    {
+      "path": "sozluk/index.html",
+      "sha256": "9f1c92e4ac3cb7744df975046f496c72261a3dcb49bb523cca15b18208ca913e"
+    },
+    {
+      "path": "telif/index.html",
+      "sha256": "67d78861cffbfec5977ad0984eea8eaebfec4b70ec810be18d6ac48ec3db7090"
+    }
+  ],
+  "limits": [
+    "Static HTML and direct consumer-reference inspection, not whole-program dynamic proof.",
+    "No historical status upgraded; hidden data not removed or exposed.",
+    "CSS class source-list is not an element ID; catalogue remains separate.",
+    "No push/deploy attempted; prior automatic-review block and frozen release retained."
+  ],
+  "modelScope": {
+    "path": "js/model.js",
+    "sha256": "77c6478c04e07dbd19f92b1f8cb423e407f83ad9a15c76a0de991b1630c44fb9",
+    "finding": "Institutional catalogue frames with claimSupport false; archive documents empty. Date/URL validation utilities are not historical claims. No troop or loss totals found in this model."
+  }
+}

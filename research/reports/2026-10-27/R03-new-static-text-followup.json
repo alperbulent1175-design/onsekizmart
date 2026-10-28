@@ -1,0 +1,298 @@
+{
+  "scope": "Changed or newly added non-navy/commander text since previous hash triage; not errors. Source-label/readability and newly added narrative require exact-hash carry review separately.",
+  "count": 28,
+  "blocks": [
+    {
+      "page": "kronoloji-kaynaklari/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "AWM4 23/32/7 · 15. Tabur günlüğü · İlgili kayıt: Görüntü 4–5 / yaprak 46–47; 9–10 Mayıs 1915.",
+      "links": [
+        "https://www.awm.gov.au/collection/C1342882"
+      ],
+      "quantity_candidate": false,
+      "text_sha256": "6d88fdd418b30dd282c88344837eea3d848e6cf9309d13d88eef4aab4ff4d319",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "kronoloji-kaynaklari/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "El yazılı günlük taramasında 9–10 Mayıs pasajları okundu. 63 sayfanın tümü okunmadı; karşı tarafın raporudur. Saat sistemi ayrıca kalibre edilmedi. Doğrulama durumu: Günlük görüntüsünün ilgili bölümü okundu.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "4da89b696d6712f28db83561cfa58dc513cb56e25eca5807d74294696153e9c8",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/anzak-sevk-emri/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/ariburnu-suvla-tahliye-onayi/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/ateskes-gorusmeleri/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Fotoğrafın katalog açıklaması okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "4602354ed9c3c985894dc61809fa8062670a47b5004ae926084ff02d33c91416",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/conkbayiri-muharebesi/index.html",
+      "tag": "p",
+      "line": 89,
+      "text": "Conkbayırı zirvesine çıkış ve Osmanlı karşı taarruzu ayrı aşamalardır; 10 Ağustos, bu sayfanın 6–10 Ağustos kesiti içinde ele alınır. Kaynak incelemesine bakınız.",
+      "links": [
+        "#inceleme-baslik"
+      ],
+      "quantity_candidate": false,
+      "text_sha256": "13dcb17c960d145d6aae0a1575a8fb68f73ced682c54d74873747eff90774284",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/conkbayiri-muharebesi/index.html",
+      "tag": "p",
+      "line": 90,
+      "text": "Kültür ve Turizm Bakanlığı kronolojisi , Mustafa Kemal’in Conkbayırı hücumunu 10 Ağustos 1915’e kaydeder. Bu tarihli giriş, daha geniş Sarıbayır harekâtının tamamını tek güne indirmez. Atlasın bu kartı 6–10 Ağustos kesitini gösterir.",
+      "links": [
+        "https://www.ktb.gov.tr/TR-96322/1915.html"
+      ],
+      "quantity_candidate": false,
+      "text_sha256": "e512bb3d27c136c07ac305dc5104d81e03fd3dcc4975a603b4ca21c479a3263c",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/conkbayiri-muharebesi/index.html",
+      "tag": "p",
+      "line": 90,
+      "text": "Bu iki kurum anlatısının ilgili bölümleri 27 Ekim 2026’da okundu; özgün harekât emri veya birlik ceridesiyle karşılaştırma tamamlanmadı. DVA sayfası 6–21 Ağustos başlığını kullanır; son güncellemesi 30 Haziran 2022’dir. Bakanlık sayfasının yayın tarihi ayrıca belirlenmedi.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "58fea6199b4e5b2aae7402e41b111387dbb248337d4e1f59c90365e6a741b6f8",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/conkbayiri-muharebesi/index.html",
+      "tag": "p",
+      "line": 112,
+      "text": "Conkbayırı zirvesine çıkış ve Osmanlı karşı taarruzu ayrı aşamalardır; 10 Ağustos, bu sayfanın 6–10 Ağustos kesiti içinde ele alınır.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "cc8bc4fa73014a595a5a3f312087fbdc009022cfed3e2a93000dc2305f68c628",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/hamiltona-talimat/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/hastane-ekibi-limnide/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/ikinci-anafartalar-muharebesi/index.html",
+      "tag": "p",
+      "line": 85,
+      "text": "Bakanlık kronolojisi İkinci Anafartalar için 21 Ağustos 1915 tarihini verir. DVA kronolojisi aynı gün Suvla’daki Scimitar Hill ve W Hills taarruzlarını, Hill 60 girişiminden ayrı anlatır. Hill 60 için 27–29 Ağustos’ta yenilenen girişimler de kaydeder. Bu farklı mevkiler ve devam aşamaları tek bir gün veya tek bir muharebe süresi olarak okunmamalıdır.",
+      "links": [
+        "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "https://www.ktb.gov.tr/TR-96322/1915.html"
+      ],
+      "quantity_candidate": false,
+      "text_sha256": "bac0cb177ea27478cd10f6fc4b6e3589d87e1b8baa0c8f05b53ef8f4d624663b",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/ikinci-anafartalar-muharebesi/index.html",
+      "tag": "p",
+      "line": 85,
+      "text": "İnceleme: 27 Ekim 2026. İlgili tarihli kurum girişleri okundu; özgün harekât emirleri ve birlik cerideleri incelenmedi. DVA sayfasının son güncellemesi 6 Aralık 2024’tür; bu, olay tarihi değildir. Kesin kuvvet ve zayiat hesabı bu özetten çıkarılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "b5fbfd88d4af6b48a31294063f8ab6051c89ac02b2eed47afcb7762cb2bc2c92",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/kirectepe-taarruzu/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/kolera-asilamasi/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/mayin-tarama-girisimleri/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/mondrosta-cikarma-hazirligi/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/quinns-post-lagim-taarruzu/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/quinns-post-siper-baskini/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "AWM4 23/32/7 · 15. Tabur günlüğü . İlgili bölüm: Görüntü 4–5 / yaprak 46–47; 9–10 Mayıs 1915.",
+      "links": [
+        "https://www.awm.gov.au/collection/C1342882"
+      ],
+      "quantity_candidate": false,
+      "text_sha256": "93694f759cc43973c469154a46276aa923e376345ee6ebebd6e37ac4c34abdbc",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/quinns-post-siper-baskini/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "El yazılı günlük taramasında 9–10 Mayıs pasajları okundu. 63 sayfanın tümü okunmadı; karşı tarafın raporudur. Saat sistemi ayrıca kalibre edilmedi.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "de75426ba310e8329dcb96009964fa804af5d016932e1ff60d22cbdf611e848e",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/quinns-post-siper-baskini/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Günlük görüntüsünün ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "36d05f1adcf3c38ba1ce5ba5a6f97a36c0e0d4fe6dc702ddcb17702e716c2231",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/seddulbahir-tahliye-emri/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/sonbahar-firtinasi/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/tahliye-tavsiyesi/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/watson-iskelesi-tamamlandi/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/yagmur-ve-kar-firtinasi/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/yaralilar-misira-ulasiyor/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    },
+    {
+      "page": "olaylar/yeraltindan-kazma-sesleri/index.html",
+      "tag": "p",
+      "line": 48,
+      "text": "İnceleme: 2026-10-25. Durum: Kurum özetinin ilgili bölümü okundu. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
+      "review_status": "unreviewed_candidate"
+    }
+  ],
+  "staleReviewCount": 24
+}

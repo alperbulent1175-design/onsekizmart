@@ -1,0 +1,21 @@
+{
+  "task": "R03",
+  "status": "exact_life_fields_withheld_access_blocked",
+  "reviewDate": "2026-10-27",
+  "previousBirth": "2 Şubat 1854, Dublin",
+  "previousDeath": "4 Mayıs 1929, Londra",
+  "scope": "No newly read source supports exact life fields; retained years remain working values, not verified. Existing command report evidence kept separately.",
+  "accessAttempts": [
+    {
+      "url": "https://www.npg.org.uk/collections/search/portrait/mw189460/Sir-Frederick-William-Stopford",
+      "result": "webfetch error; browser security-verification page. Searchsnippet not accepted as readpassage."
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/The_Royal_Household_%28IA_royalhousehold01lind%29.pdf",
+      "result": "webreader size limit; directPDFdownload403. Book not read; possible22February searchlead not adopted."
+    }
+  ],
+  "existingCommandEvidence": "research/reports/2026-10-25/R03-stopford-command-period.json",
+  "followup": "Exact life dates need readable original civilrecord or precise institutional biographicalpassage; do not repeat blockedaccess.",
+  "releaseScope": "Workingpageonly, frozenstageunchanged"
+}

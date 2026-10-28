@@ -1,0 +1,39 @@
+{
+  "task": "R03",
+  "url": "https://canakkalesavaslariansiklopedisi.com/halil-sami-bey/",
+  "author": "Zekeriya Türkmen",
+  "publicationDate": null,
+  "publicationNote": "Citationdate not separately read in this review; no assumed year",
+  "accessDate": "2026-10-27",
+  "status": "encyclopedia_selected_passages_read_uncertainty_preserved",
+  "claims": [
+    {
+      "eventDate": "1866",
+      "scope": "birthIstanbul",
+      "evidence": "Openingparagraph gives1866/Istanbul"
+    },
+    {
+      "eventDate": "1925 (uncertain)",
+      "scope": "deathyearexplicitlynotcertain",
+      "evidence": "kesin olmamakla birlikte tespitlere göre 1925 yılında vefat etmiştir"
+    },
+    {
+      "eventDate": "1914-09",
+      "scope": "appointmentmonth only",
+      "evidence": "Paragraph gives9DivisionSeptember1914appointment"
+    },
+    {
+      "eventDate": "1915-06 (transition)",
+      "scope": "12June letter,13June initiative, interimcommand/leave distinct; originalordersnotread",
+      "evidence": "Junechange paragraphs use12/13June and interimcommand/permission/return separately"
+    }
+  ],
+  "limits": [
+    "Selectedparagraphs only, no originalpersonnelfile/orders/transferrecord.",
+    "Other numericalclaims and battlehours notverified.",
+    "Publisheddeathyear is uncertain, no exactday/monthadded."
+  ],
+  "previousDeath": "1925",
+  "currentDeath": "1925 (kesin olmayan aktarım)",
+  "releaseScope": "Workingpage/testonly; frozenapprovalstageunchanged"
+}

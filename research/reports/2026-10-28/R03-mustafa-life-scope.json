@@ -1,0 +1,26 @@
+{
+  "task": "R03 / R14",
+  "sourceURL": "https://www.ktb.gov.tr/TR-96300/ataturk39un-hayati.html",
+  "publicationDate": null,
+  "accessDate": "2026-10-28",
+  "status": "context_checked_institutional_biography_not_original_records",
+  "claims": [
+    {
+      "eventDate": "1881",
+      "evidence": "1881 yılında Selânik’te",
+      "locator": "opening biography paragraph"
+    },
+    {
+      "eventDate": "1938-11-10",
+      "evidence": "10 Kasım 1938 ... İstanbul’da Dolmabahçe Sarayı’nda",
+      "locator": "final biography paragraph"
+    }
+  ],
+  "readingScope": "Selected opening,1915context and final life paragraphs; no original civil/death/appointment records. Not all other claims adopted.",
+  "limits": [
+    "Exact birth day/month not supplied",
+    "Anafartalar exact handover day remains separate open evidence scope",
+    "Map point not daily headquarters"
+  ],
+  "releaseScope": "Local only; frozen package unchanged"
+}

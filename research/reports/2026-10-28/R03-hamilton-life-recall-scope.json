@@ -1,0 +1,34 @@
+{
+  "task": "R03",
+  "reviewDate": "2026-10-28",
+  "sources": [
+    {
+      "url": "https://www.kcl.ac.uk/hamilton-collection",
+      "publicationDate": "2020-05-14",
+      "accessDate": "2026-10-28",
+      "evidence": "(1853-1947) was born in Corfu",
+      "eventDates": [
+        "1853",
+        "1947"
+      ],
+      "scope": "Opening biographyparagraph; no exactlife days or deathplace"
+    },
+    {
+      "url": "https://collection.nam.ac.uk/detail.php?acc=2004-03-22-1",
+      "publicationDate": null,
+      "accessDate": "2026-10-28",
+      "eventDate": "1915-10-16",
+      "evidence": "Hamilton was recalled to London on 16 October 1915.",
+      "scope": "Museum objectdescription recallparagraph, not originalorder/actualdeparture/transfer"
+    }
+  ],
+  "status": "selected_institutional_passages_read_original_records_unseen",
+  "previousBirth": "16 Ocak 1853, Korfu",
+  "previousDeath": "12 Ekim 1947, Londra",
+  "limits": [
+    "Exactdays and deathplace withheld, not declaredfalse.",
+    "BnFpageunavailable; universitybooklist explicitlyWikipedia-derived snippet not independentlifedateproof.",
+    "No fullcollection/book/civilrecord/order inspection."
+  ],
+  "releaseScope": "Workingpageonly; frozenstageunchanged"
+}

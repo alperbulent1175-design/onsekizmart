@@ -1,0 +1,29 @@
+{
+  "task": "R03",
+  "sourceURL": "https://canakkalesavaslariansiklopedisi.com/wp-content/uploads/2023/10/guido-von-usedom-csa-2.pdf",
+  "author": "Yusuf Ziya Altıntaş",
+  "publicationDate": "2023 (PDFcitation)",
+  "accessDate": "2026-10-27",
+  "status": "PDF_selected_text_passages_read_image_unavailable",
+  "claims": [
+    {
+      "eventDate": "1854-10-02",
+      "evidence": "2 Ekim 1854 tarihinde Doğu Prusya’nın Quanditten kasabasında doğmuştur",
+      "locator": "PDF1"
+    },
+    {
+      "eventDate": "1925-02-24",
+      "evidence": "24Şubat1925date followed by Schwerindeath sentence acrossPDF5–6",
+      "locator": "PDF5end–6start"
+    },
+    {
+      "eventDate": "1914–1918 (broad service scope)",
+      "evidence": "PDF2–3 separately describes GermanSpecialCommand and OttomanInspectorate",
+      "locator": "PDF2–3",
+      "limit": "No new exact appointment/takeoverdate published"
+    }
+  ],
+  "readingScope": "Selected extractedPDFtext, not screenshot; screenshotattemptcachemiss. SixpagePDF not readinfull, originalGermanarchivematerial/civilrecords unseen.",
+  "identityLimit": "1805–1884 diplomat of similarname excluded; no claims borrowed.",
+  "releaseScope": "Workingpageonly,frozenstageunchanged"
+}

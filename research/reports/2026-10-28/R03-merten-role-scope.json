@@ -1,0 +1,25 @@
+{
+  "task": "R03 / R14",
+  "status": "context_checked_original_order_unseen",
+  "page": "komutanlar\\johannes-merten\\index.html",
+  "sourceURL": "https://canakkalesavaslariansiklopedisi.com/wp-content/uploads/2023/10/guido-von-usedom-csa-2.pdf#page=2",
+  "author": "Yusuf Ziya Altıntaş",
+  "publicationDate": "2023",
+  "accessDate": "2026-10-27",
+  "reviewDate": "2026-10-28",
+  "eventDate": "Appointment day unresolved; wartime office context",
+  "evidence": "Koramiral Merten korgeneral rütbesi verilerek Genel Karargâhın Çanakkale Boğazı temsilciliğine",
+  "readingScope": "Previously read selected extracted text, PDF page 2; PDF images unavailable. Reuse of 27 October reading, not a new access. Original order and full cited works not read.",
+  "changes": [
+    "Two overnarrow role facts corrected with attribution",
+    "Unsupported precise 18 March battery presence removed from description metadata",
+    "Reader source and limits added"
+  ],
+  "open": [
+    "Appointment/takeover/end days",
+    "Daily whereabouts",
+    "Life dates"
+  ],
+  "numericQueueScope": "Merten role facts contain no numeric claim; no numeric queue completion increment.",
+  "releaseScope": "Local page only; frozen package unchanged"
+}

@@ -1,16 +1,16 @@
 {
-  "scope": "Remaining parser candidates; not errors; JS separately required",
-  "count": 561,
+  "scope": "Current exact-hash unmatched navy/commander parser candidates; not historical errors or all claims. Four quantity-like matches scoped through existing records; not newly verified.",
+  "count": 557,
   "by_tag": {
-    "p": 310,
+    "p": 306,
     "dd": 143,
     "h2": 1,
     "figcaption": 31,
     "li": 76
   },
   "by_page": {
-    "donanma/index.html": 227,
-    "komutanlar/albert-damade/index.html": 9,
+    "donanma/index.html": 224,
+    "komutanlar/albert-damade/index.html": 8,
     "komutanlar/alexander-godley/index.html": 15,
     "komutanlar/aylmer-hunter-weston/index.html": 24,
     "komutanlar/cevat-bey-cobanli/index.html": 9,
@@ -1213,16 +1213,6 @@
       "page": "donanma/index.html",
       "tag": "p",
       "line": 503,
-      "text": "Aynı SHD envanter sayfası, Bouvet için Haziran 1898 tarihli bir kayıtta 274,4 ve 305 mm Mle 1893 top kundaklarını adlandırır. Bu, mevcut karttaki toplam namlu sayısını veya 1915 donatımını tek başına doğrulamaz. Dönem yayınındaki teknik anlatı ile planların model ve ölçü karşılaştırması açık kalır.",
-      "links": [],
-      "quantity_candidate": true,
-      "text_sha256": "325c2fe50a428e00546b162256a8afbb8c1e786f0f4cc1e27dd9099bff26c4c6",
-      "review_status": "unreviewed_candidate"
-    },
-    {
-      "page": "donanma/index.html",
-      "tag": "p",
-      "line": 503,
       "text": "SHD — ETCA topçu belgeleri envanteri, PDF/basılı s.156 ; envanter sürümü: 1 Ocak 2005, CAA 578/10. Erişim: 25 Ekim 2026. İnceleme: ilgili envanter sayfasının görüntüsü okundu; listelenen planların kendisi ve 1915 donatım cetveli görülmedi. Bu kayıt zırh kalınlığını, bütün silahların sayısını veya 18 Mart’taki fiilî mevcudu doğrulamaz.",
       "links": [
         "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/2020-02/SHDAA_REP_1F3_NO_578_1699_1975.pdf#page=156"
@@ -1239,16 +1229,6 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "afd05eda1da9dce5b4b120006e73ea430b0708ef7170f72b30ef5348f830bc74",
-      "review_status": "unreviewed_candidate"
-    },
-    {
-      "page": "donanma/index.html",
-      "tag": "p",
-      "line": 520,
-      "text": "Gaulois ve Charlemagne, SHD’nin ETCA topçu belgeleri envanterinde 305 mm Mle 1893 top kundaklarına ilişkin ortak başlıkta anılır. Altında Nisan 1903 ve Ocak 1909 tarihli iki belge kaydı listelenir. Bu tarihler geminin donatımının o gün değiştirildiği anlamına gelmez.",
-      "links": [],
-      "quantity_candidate": true,
-      "text_sha256": "8b9842106196f78b566e8e1f0d8212e472bc404267e1b38219ebead52aaf3def",
       "review_status": "unreviewed_candidate"
     },
     {
@@ -1293,16 +1273,6 @@
       ],
       "quantity_candidate": false,
       "text_sha256": "6cc9eea360dd3d10afb5483fe524429a384c02f35cc34d6c1ebc1f9225ed68f2",
-      "review_status": "unreviewed_candidate"
-    },
-    {
-      "page": "donanma/index.html",
-      "tag": "p",
-      "line": 538,
-      "text": "Charlemagne ve Gaulois için aynı envanter başlığı altında 305 mm Mle 1893 top kundaklarına ilişkin iki belge listelenir. Nisan 1903 ve Ocak 1909, listelenen belgelerin tarihleridir; gemide o gün mevcut toplam top sayısı değildir.",
-      "links": [],
-      "quantity_candidate": true,
-      "text_sha256": "70560cf99aad186675170fcc9175a32e9fad7d9671c7b27d2f034c6e814a506b",
       "review_status": "unreviewed_candidate"
     },
     {
@@ -2517,18 +2487,6 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "f1159b20bc4edb3c998bfb7486dabb491ddcc5942c977228fe30acee729a4dac",
-      "review_status": "unreviewed_candidate"
-    },
-    {
-      "page": "komutanlar/albert-damade/index.html",
-      "tag": "p",
-      "line": 105,
-      "text": "INHA, AGORHA — Albert Gérard Léo d’Amade kişi kaydı, “Identification / Naissance et mort” , doğumu 24 Aralık 1856, ölümü 11 Kasım 1941 olarak verir. Kısa kanıt: 24 décembre 1856 ve 11 novembre 1941 . Üstteki iki tarih alanı bu kurum kaydıyla eşleşir; görev başlangıç ve bitiş günleri bu eşleşmeyle doğrulanmış sayılmaz.",
-      "links": [
-        "https://agorha.inha.fr/ark:/54721/bafe13cc-fa47-4d0e-a4c8-50de5d5d6e66?database=81"
-      ],
-      "quantity_candidate": true,
-      "text_sha256": "718287f407af18d4810f635de3823c7f21b6ea635f43d717550130d8c63eae2b",
       "review_status": "unreviewed_candidate"
     },
     {

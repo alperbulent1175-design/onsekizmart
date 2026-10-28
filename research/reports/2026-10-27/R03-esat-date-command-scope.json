@@ -1,0 +1,35 @@
+{
+  "task": "R03",
+  "sourceURL": "https://canakkalesavaslariansiklopedisi.com/esad-bulkat-pasa/",
+  "author": "Levent Ünal",
+  "publicationDate": "2022 (madde künyesi)",
+  "accessDate": "2026-10-27",
+  "status": "encyclopedia_passages_read_original_orders_unseen",
+  "claims": [
+    {
+      "eventDate": "1862-10-18",
+      "scope": "birthYanya",
+      "evidence": "18 Ekim 1862 tarihinde ... Yanya Kalesi içinde bir evde doğmuştur"
+    },
+    {
+      "eventDate": "1952-11-01",
+      "scope": "encyclopedia deathIstanbul; olddraft1952-11-02 unsupported by matched record",
+      "evidence": "kendisi 1 Kasım 1952’de İstanbul’da vefat etmiştir"
+    },
+    {
+      "eventDate": "1915-05-04/05",
+      "scope": "NorthGrouporganization, not original order image",
+      "evidence": "4/5Mayıs passage describes grouporganization and Esat taking NorthGroupcommand"
+    },
+    {
+      "eventDate": "1915-10-14",
+      "scope": "departurefront tojoin1Army; not appointment or takeoverday",
+      "evidence": "14Ekim passage states leaving front tojoin new1Armyduty"
+    }
+  ],
+  "readingScope": "Identity, Gallipoli command-change, departure paragraphs and citation; not entire bibliography/originalcivilregistry/orders.",
+  "previousDeathText": "2 Kasım 1952, İstanbul",
+  "currentDeathText": "Kasım 1952, İstanbul; kesin gün incelemesi açık",
+  "limit": "Not two independently sourced death dates; draftday has no matched evidence. Day left open rather than choosing definitive correction.",
+  "releaseScope": "WorkingHTML only; frozenapprovalstage unchanged."
+}

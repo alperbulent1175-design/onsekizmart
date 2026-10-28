@@ -1,0 +1,33 @@
+{
+  "task": "R03 / R14",
+  "status": "blocked_new_identity_source_access",
+  "attemptDate": "2026-10-28",
+  "sources": [
+    {
+      "url": "https://www.msb.gov.tr/DevletBuyuklerimizDetay/ibrahim-refet-bele",
+      "result": "redirect_loop",
+      "publicationDate": null
+    },
+    {
+      "url": "https://ataturkansiklopedisi.gov.tr/detay/183/Refet-Pa%C5%9Fa-%28Bele%29-%281881-1963%29",
+      "result": "timeout",
+      "publicationDate": "2020-12-05 (search metadata only, not directly checked)"
+    },
+    {
+      "url": "https://acikerisim.comu.edu.tr/server/api/core/bitstreams/7771a1b8-ea22-49fc-aad6-f9c98a408587/content",
+      "result": "403",
+      "publicationDate": null
+    }
+  ],
+  "evidenceStatus": "Search leads only; no new passage accepted as evidence",
+  "openCondition": "Readable institutional text or original personnel/appointment record identifying the1915commander and exact service scope",
+  "decision": "Do not repeat blocked URLs next run. Keep existing Rafet/Bele uncertainty and removed life fields.",
+  "independentReview": {
+    "page": "komutanlar/remzi-bey/index.html",
+    "sourceURL": "https://belleten.gov.tr/tam-metin/279/tur",
+    "sourceAccessDate": "2026-10-17",
+    "publicationDate": "2016",
+    "evidence": "Albay Ali Remzi komutasındaki 7. Tümen",
+    "scope": "Reuse existing recorded reading, not new external access. Exact command dates and map-period scope unresolved."
+  }
+}

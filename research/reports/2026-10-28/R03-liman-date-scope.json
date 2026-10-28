@@ -1,0 +1,38 @@
+{
+  "task": "R03 / R14",
+  "status": "needs_evidence_day_and_command_scope",
+  "accessDate": "2026-10-28",
+  "sources": [
+    {
+      "url": "https://www.awm.gov.au/visit/exhibitions/gmaps/turkish/vonsanders",
+      "publicationDate": null,
+      "updatedDate": "2020-09-03",
+      "eventDates": [
+        "1855-02-17",
+        "1915-03-25",
+        "1929-08-22"
+      ],
+      "evidence": [
+        "born on 17 February 1855 in Stolp",
+        "created the Fifth Army ... on 25 March 1915 and von Sanders was given command",
+        "died at Munich on 22 August 1929"
+      ]
+    },
+    {
+      "url": "https://www.deutsche-biographie.de/sfz51440.html",
+      "publicationDate": "1985",
+      "eventDates": [
+        "1855-02-18",
+        "1929-08-22"
+      ],
+      "evidence": "18.2.1855 Stolp (Pommern), ... 22.8.1929 München"
+    }
+  ],
+  "readingScope": "Selected identity, command and death paragraphs and visible publication metadata; not full works or original civil/appointment records.",
+  "oldFields": [
+    "17 Şubat 1855, Stolp",
+    "24 Mart 1915’ten 5. Ordu Komutanı"
+  ],
+  "decision": "Expose17/18birth day disagreement; do not replace24March with25March as exact takeover date. Death attribution supported by both biographies.",
+  "releaseScope": "Local only; frozen package unchanged"
+}

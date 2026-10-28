@@ -1,0 +1,19 @@
+{
+  "task": "R03",
+  "url": "https://www.cths.fr/an/savant.php?id=104468",
+  "publicationDate": "2011-02-28 (recordcreation)",
+  "updatedDate": "2021-07-23",
+  "accessDate": "2026-10-27",
+  "status": "institutional_person_record_identity_line_read",
+  "eventDates": [
+    "1867-11-17 birthParis",
+    "1946-09-16 deathParis"
+  ],
+  "evidence": "Naissance: 17 novembre 1867 à Paris - Décès: 16 septembre 1946 à Paris",
+  "scope": "Identityline, bibliography and noticecredits read; citedbooks/archives and originalcivilregistry unseen.",
+  "limits": [
+    "May1915militaryappointmentnotestablished by selectedpassage.",
+    "Societymembershipperiods notmilitarycommand."
+  ],
+  "releaseScope": "Workingpageonly, frozenstageunchanged"
+}

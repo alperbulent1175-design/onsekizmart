@@ -1,0 +1,32 @@
+{
+  "task": "R03 / R14",
+  "reviewDate": "2026-10-28",
+  "status": "keyes_browser_acceptance_complete_carden_evidence_pending",
+  "browser": {
+    "page": "komutanlar/roger-keyes/index.html",
+    "desktopClientScroll": [
+      1265,
+      1265
+    ],
+    "mobileClientScroll": [
+      305,
+      305
+    ],
+    "mobileScreenshotInspected": true,
+    "leafletPresent": true,
+    "itilafCount": 20,
+    "clearedCount": 31,
+    "physicalDevice": false
+  },
+  "cardenPending": {
+    "page": "komutanlar/sackville-carden/index.html",
+    "fields": [
+      "3 Mayıs 1857, Templemore",
+      "6 Mayıs 1930, Lymington",
+      "Şubat – 16 Mart 1915 command scope"
+    ],
+    "searchResultStatus": "No DIB record located in focused search; genealogy and secondary study snippets are leads only, no new historical evidence accepted.",
+    "nextCondition": "Read a directly accessible institutional biography or civil/personnel record; preserve16MarchCarden/17MarchdeRobeck distinction."
+  },
+  "releaseScope": "No publish or frozen package change"
+}

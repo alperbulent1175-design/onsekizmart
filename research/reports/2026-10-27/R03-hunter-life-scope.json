@@ -1,0 +1,19 @@
+{
+  "reviewDate": "2026-10-27",
+  "url": "https://api.parliament.uk/historic-hansard/people/lieut-general-sir-aylmer-hunter-weston/index.html",
+  "publicationDate": null,
+  "accessDate": "2026-10-27",
+  "eventDate": "1940-03-18 (death)",
+  "evidenceText": "1864 - March 18, 1940",
+  "status": "official_parliament_person_index_read",
+  "limits": [
+    "Person index combines XML and secondary/public sources, warns errors may remain. Not original civil registry.",
+    "Exact birth day/month/place and death place not supported by this record.",
+    "Constituency dates not military-command dates.",
+    "1803–2005 is collection coverage not publication date.",
+    "Family book and Wikidata search results were leads only; no unsupported day/place verification."
+  ],
+  "existingCommandRecord": "research/reports/2026-10-25/R03-hunter-command-period.json",
+  "claimVerified": false,
+  "releaseScope": "New working-page note only; frozen f90304f stage unchanged."
+}
