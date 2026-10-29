@@ -1,0 +1,29 @@
+{
+  "task": "R03 / R14",
+  "sourceURL": "https://www.awm.gov.au/collection/P11013160",
+  "publicationDate": null,
+  "accessDate": "2026-10-28",
+  "status": "context_checked_narrow_death_place_open",
+  "claims": [
+    {
+      "eventDate": "1865-09-13",
+      "evidence": "Birth Date13/09/1865; Birth Place India: Kirkee"
+    },
+    {
+      "eventDate": "1951-05-17",
+      "evidence": "Death Date17/05/1951; Death Place ... Middlesex"
+    },
+    {
+      "eventDate": "1915-05 (broad narrative)",
+      "evidence": "temporary administrative commander, as well as its operational commander, following the death of General William Bridges",
+      "scope": "No exact original appointment/takeover day asserted"
+    }
+  ],
+  "oldDeathField": "17 Mayıs 1951, Hampton Court",
+  "readingScope": "Selected AWM identity and command paragraphs. Original civil/appointment records and linked diaries unseen.",
+  "accessFailure": {
+    "url": "https://adb.anu.edu.au/biography/birdwood-william-riddell-baron-birdwood-5240",
+    "result": "403; search excerpts not direct source verification"
+  },
+  "releaseScope": "Local only; after89633e3,not deployed"
+}

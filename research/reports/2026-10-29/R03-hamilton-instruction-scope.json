@@ -1,0 +1,12 @@
+{
+  "task": "R03/R09/R12",
+  "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+  "eventDate": "1915-03-13",
+  "publicationDate": null,
+  "accessDate": "2026-10-29",
+  "evidence": "DVA13March: Kitchener gave Hamilton final instructions; operations conditional on fleet failing to get through after every effort exhausted.",
+  "status": "institutional_chronology_selected_passage_read",
+  "limits": "Original instruction not inspected. Adjacent claims about ammunition,negotiations,mine counts and casualties not adopted. Not a landing order execution time.",
+  "uiAcceptance": "DEVAM29Oct00.52 desktop/mobile/chronology acceptance; previously unresolved18March onward link now verified29Oct11.52 by Enter and separate DOM observation: heading18 Mart Deniz Muharebesi. No site code change.",
+  "uiReconciliationDate": "2026-10-29"
+}

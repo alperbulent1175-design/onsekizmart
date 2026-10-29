@@ -329,7 +329,8 @@ test('Henri IV korumali kruvazor grubuna konulmaz, sinif kaydi gorev tarihi yapi
 
 test('Inflexible tek zirh degeri tum gemi korumasi diye okunmaz', () => {
  const body=read('donanma/index.html').split('id="inflexible"')[1].split('</article>')[0];
- assert.match(body,/178 mm — bu değerin ait olduğu zırh bölümü ve tarih/);
+ assert.doesNotMatch(body,/178 mm/);
+ assert.match(body,/kemer, taret ve güverte bölümleri için tarihli kalınlık belgesi henüz eşleştirilmedi/);
  assert.doesNotMatch(body,/<dd>178 mm<\/dd>/);
  const r=JSON.parse(read('research/reports/2026-10-25/R03-inflexible-armour-scope.json'));
  assert.equal(r.claimVerified,false);assert.equal(r.evidenceText,null);

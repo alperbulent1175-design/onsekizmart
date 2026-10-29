@@ -1,0 +1,14 @@
+{
+  "task": "R03/R09/R12",
+  "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+  "eventDate": "1915-04-20",
+  "publicationDate": null,
+  "accessDate": "2026-10-29",
+  "evidenceSummary": "20April entry describes ships assembled in Mudros harbour,Lemnos,in preparation for invasion. Generic ships not a classified landing-craft fleet.",
+  "status": "selected_institutional_entry_read",
+  "limits": "Original shipping returns unseen;source numerical total not adopted as independently verified count;no individual ship schedule inferred.",
+  "oldSummary": "Çıkarma gemileri Mondros’ta toplandı.",
+  "newSummary": "Çıkarma hazırlığı için gemiler Limni’deki Mondros Limanı’nda toplandı.",
+  "uiAcceptance": "DEVAM29Oct03.52: desktop/mobile,Ariburnu andSeddulbahir links,selected panel; stale campaign cache corrected by existing version20261029a and reloaded summary checked.",
+  "uiReconciliationDate": "2026-10-29"
+}

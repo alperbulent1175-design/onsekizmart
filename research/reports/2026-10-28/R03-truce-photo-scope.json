@@ -1,0 +1,25 @@
+{
+  "task": "R03/R09/R12",
+  "url": "https://www.awm.gov.au/collection/C45317",
+  "record": "H02318",
+  "eventDate": "1915-05-22",
+  "publicationDate": null,
+  "accessDate": "2026-10-28",
+  "evidence": "Date made22May1915; description identifies Butler escorting Ohri from Birdwood headquarters to Turkish lines after negotiations for a burial armistice.",
+  "status": "catalogue_date_description_read",
+  "limits": "Photograph catalogue, not signed armistice or full negotiation minutes. Casualty figures and duration in catalogue not adopted in this change. No new image published.",
+  "uiAcceptance": {
+    "desktop": [
+      1265,
+      1265
+    ],
+    "mobile": [
+      305,
+      305
+    ],
+    "burialLink": "24May correct page",
+    "returnPanel": "Ateşkes görüşmeleri",
+    "clearStatus": "47records;selection retained",
+    "physicalDevice": false
+  }
+}

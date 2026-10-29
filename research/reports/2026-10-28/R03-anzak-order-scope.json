@@ -1,0 +1,18 @@
+{
+  "task": "R03 / R09 / R12",
+  "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+  "publicationDate": null,
+  "accessDate": "2026-10-28",
+  "eventDates": [
+    "1915-04-01",
+    "1915-04-12"
+  ],
+  "evidence": [
+    "The Anzac Corps in Egypt received orders that it was to move to the front.",
+    "Units of the Anzac Corps began arriving on Lemnos."
+  ],
+  "scope": "Only 1 and 12 April entries examined for this change. Institutional summary; original order and transport logs unseen. Receipt, departure and arrival are distinct. No precise transport time or unit total inferred.",
+  "status": "selected_institutional_context_checked",
+  "uiAcceptance": "pending desktop/mobile/map check",
+  "release": "local only"
+}

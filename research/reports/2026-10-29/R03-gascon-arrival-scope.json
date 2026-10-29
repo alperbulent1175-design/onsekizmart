@@ -1,0 +1,13 @@
+{
+  "task": "R03/R09/R12/R15",
+  "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+  "eventDate": "1915-04-29",
+  "publicationDate": null,
+  "originalAccessDate": "2026-10-25",
+  "localReviewDate": "2026-10-29",
+  "evidenceSummary": "29April entry records hospital ship Gascon reaching Alexandria with wounded fromAnzac.",
+  "status": "existing_selected_institutional_passage_reused",
+  "limits": "Original ship log,passenger list and hospital admission registers unseen. Passenger/death figures in entry not adopted;no unique-patient aggregate or same-day universal admission inferred.",
+  "uiAcceptance": "DEVAM29Oct08.32: desktop1265/mobile305,health narrative link,selected Gascon panel,Leaflet47 records; emulation only.",
+  "uiReconciliationDate": "2026-10-29"
+}

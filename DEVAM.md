@@ -1071,3 +1071,304 @@ Kullanıcı commit, push ve yayın istedi. 158 dosyalık paket hazırlandı; ön
 - Tarayıcı: düzeltilmiş sayfa yeniden yüklendi; masaüstü1265/1265,mobil305/305taşmasız. Mobil görüntü incelendi. Leaflet mevcut;İtilaf20/temizle31. Viewport sıfırlandı/geçici sekme kapatıldı;fizikselcihaz testi değil. Dar arayüz kabulü tamamlandı;görev günü/ölümyeri tarihsel koşulları açık kalır.
 - Test: HTMLözetdeğişikliği sonrası zorunlu32JavaScript/19Python geçti. Önceki tam297JS/27Python sonucu önceki partiye aittir;bu tur bütün takım yeniden çalıştırılmış sayılmaz. Sonnotsonrası zorunlu takım ayrıca koşulur. GenelR03/R14ve8kapı açık;paket/f90304fdeğişmedi;commit/push/deploy/scraper/dışmesaj yok.
 - Sonraki tek somut adım: Weber Paşa12Eylül1860Kamen/29Ekim1933Berlin yaşam alanları veXVKolordu görevi için doğrudan okunabilir kurum/araştırma pasajını incele; Vehip'in aynı gün farkını yeniden araştırma.
+
+
+## R02 / R23 · 28 Ekim 2026 — Açık kullanıcı commit/push/yayın talebi
+- Durum: yayın alt adımı tamamlandı; GitHub push engelli. Kullanıcı açıkça commit push ve yayın istedi.64Atlasdosyası89633e3commitine kaydedildi;archive/diğerproje/geçiciUIçıktıları dışarıda bırakıldı. Önceki f90304f commitinin de gönderilmesi gerekecek.
+- Test: hazırlanan güncel kaynakta bütün297JavaScript/27Python geçti.88sayfa sitemap kapsamı eşleşti. Canlı159dosyanın geri dönüş kopyası alındı;önceden404ikiadres kaydedildi. Hazırpaket162dosya,88HTML;mevcut483bayt.htaccesskorundu. Paket yalnız kamuya açık site dosyalarıdır;araştırmanotları siteye yüklenmedi.
+- Yayın: Hostinger hosting_deploy onsekizmart.com için deployed döndü. Ardından161kamuya açık dosyaHTTP200veözet eşleşmesi,.htaccessayrıHostingerokumasıylakorunma kontrolü:162/162eşleşme,hata0. Kanıtlar research/deployment/2026-10-28-commander-release/{manifest.json,before-manifest.json,verification.json,tests.txt,result.json}. Bu yayın8bitişkapısının tarihsel doğrulamasını tamamlamaz.
+- Push engeli: git push origin main otomatik onay denetimince yürütülmeden reddedildi. Belirli alperbulent1175-design/onsekizmart main hedefi ve araştırma notlarının dışa aktarımı için daha açık güvenilir yetkilendirme istendi. Ret atlatılmadı;GitHubbaşarısı iddia edilmez. Yayın bağımsız olarak başarıyla tamamlandı.
+- Sonraki tek somut adım: kullanıcı bu GitHubmainhedefini ve araştırma notları dahil commit kapsamını açıkça onaylarsa89633e3vef90304fpushunu gerçekleştir. Araştırma kuyruğu WeberPaşa alanında devam eder;tamamlanan yayını yeniden yapma.
+
+
+## R03 / R14 · 28 Ekim 2026 15.48 TSİ — Weber yaşam kaynağı erişim sınırı
+- Durum: devam ediyor; Weber yaşam ayrıntılarının doğrudan kaynak erişimi engelli. Başlangıç belgeleri, mevcut Weber sayfası ve son yayın kaydı okundu. Tamamlanan28Ekimyayını yeniden yapılmadı;pushonayı heartbeat ile verilmiş sayılmadı.
+- İnceleme: GND14058014X Wikidataatıf izi bulundu; https://d-nb.info/gnd/14058014X araçla erişilemedi, https://www.deutsche-biographie.de/14058014X.html cachemissverdi. Asıl kimlik pasajı okunmadı;arama/Wikidataözeti doğrulama yapılmadı.1898doğumlu yazar ve1906doğumlu yerelyönetici aynı kişi sayılmadı. URL/engel/çözüm koşulu R03-weber-access-scope.json içinde. Aynı başarısız adresler tekrar denenmez.
+- Değişiklik: kuyruk Weber yaşam alanları needs_evidence ve erişim kaydına bağlandı. Mevcut15Kolordu bağının17Ekimkaynak incelemesi yeni erişim diye tarihlenmedi;yaşamkanıtı yapılmadı. Yeni kaynak yetersizliğinde aynı açıklama sayfaya tekrar eklenmedi. HTML/görsel/koordinat değişmedi.
+- Test: yalnız araştırma/kuyruk/not değişti;zorunlu32JS/19Python çalıştırılır. GenelR03/R14ve8kapı açık. Canlı89633e3paketi değişmedi;commit/push/deploy/scraper/dışmesaj yok. GitHubmain/araştırmanotlarıaktarımı için önceki kullanıcıya bildirilen otomatik onay engeli devam ediyor,tekrar denenmedi.
+- Sonraki tek somut adım: William Birdwood yaşam/görev alanını Avustralya kurum biyografisiyle incele;WeberGNDerişimini ve aynı sonuçsuz aramayı yeniden başlatma.
+
+
+## R02 / R23 · 28 Ekim 2026 — Açık kapsam onayı sonrası GitHub push tamamlandı
+- Kullanıcı önceki belirli repo/main ve araştırma notları kapsam sorusuna “onay” verdi. git push origin main başarıyla20bc7e8..89633e3main→main döndü;89633e3vef90304f gönderildi. archive/izlenen dosyası yok;diğerproje ve geçici dosyalar gönderilmedi.
+- Canlı yayın önceki162/162doğrulamasıyla tamamlanmıştı;yeniden deploy yapılmadı. Yeni Weber araştırma/kuyruk değişiklikleri ve bu takip notu89633e3sonrasıdır;bu pushun içinde oldukları iddia edilmez.
+- Önceki pushonay engeli kullanıcı kapsam onayıyla kalktı. Genel8bitişkapısı açık. Araştırma sonraki adımıBirdwoodyaşam/görev alanıdır. Bu kayıt sonrası zorunlu32JS/19Python çalıştırılır.
+
+
+## R03 / R14 · 28 Ekim 2026 16.08 TSİ — Birdwood yaşam ve komuta kapsamı
+- Durum: devam ediyor. Başlangıç belgeleri, son kayıt ve mevcut Birdwood sayfası okundu. Tamamlanan push/yayın yeniden çalıştırılmadı.
+- Kaynak: https://www.awm.gov.au/collection/P11013160 kişi kaydı;yayınbelirtilmiyor,erişim28Ekim2026. Kimlik ve görev anlatısı seçili okundu;13Eylül1865Kirkee/17Mayıs1951Middlesex alanları desteklenir. ADB5240doğrudan403verdi;aramaözetindekiHamptonCourt ayrıntısı doğrudanokuma sayılmadı. Özgün nüfus/ölüm/atama ve günlükler görülmedi. R03-birdwood-life-scope.json kanıt/sınırları tutar.
+- Geliştirme: ölüm yeri üstalanda AWM'ninMiddlesexkapsamına daraltılıp daha dar yer incelemesi açıklandı. Kaynaklı bölüm ANZAKharekât komutası/AIFgeçiciidarîkomutayı ayırır;Bridgesölümünden sonraki anlatı kesin atama/teslim günü yapılmadı. Harita noktası günlük karargâh değildir. Görsel/kuvvet/zayiat/koordinat/katalogşeması değişmedi.
+- Test: bütün297JavaScript/27Python geçti;R03-birdwood-tests.txt. Bu tur Birdwood masaüstü/mobil ve harita/süzgeç kontrolü bekliyor;arayüz kabulü açık. Sonnotsonrası zorunlu32JS/19Python ayrıca koşulur. GenelR03/R14ve8kapı açık. YeniHTML89633e3sonrasıdır;yayına/pusha dahil değil. Commit/push/deploy/scraper/dışmesaj yok.
+- Sonraki tek somut adım: Birdwood yerel sayfasını masaüstü/mobil ve harita/süzgeçlerle doğrula;sonra William Bridges yaşam/görev alanına geç. ADB403denemesini tekrarlama.
+
+## R24 / R03–R23 · 28 Ekim 2026 — UX ve SEO önceliklerinin kalıcılaştırılması
+- Durum: uygulama devam ediyor; kuyruk ve otomasyon güncellemesi tamamlandı.
+- Kullanıcı stratejinin önem sırasıyla uygulanmasını ve her otomasyonun kaldığı yerden aynı listeyi izlemesini istedi. Mevcut 20 dakikalık otomasyonun talimatı güncellendi; yeni otomasyon oluşturulmadı, süre ve etkinlik durumu korundu.
+- Kalıcı uygulama belgesi: research/reports/2026-10-28/UX-SEO-UYGULAMA-PLANI.md. Sıra: içerik güvenilirliği/anlatım; bulunabilirlik/geçişler; mobil/erişilebilirlik; tasarım sistemi; ölçümlü performans/SEO/editoryal döngü. R01–R24 öncelik ve bağımlılıkları korunur.
+- Kaynak: kullanıcının bu sohbetteki strateji ve kalıcı uygulama talebi; yeni tarihsel iddia veya kaynak doğrulaması yok. Site dosyaları değiştirilmedi.
+- Kabul: mevcut otomasyon güncelleme aracı ACTIVE sonucu verdi. Genel iş paketleri ve sekiz bitiş kapısı kapanmadı. Zorunlu test sonuçları aşağıdaki kayıtla tutulur.
+- Sonraki tek somut adım: Birdwood yerel sayfasının bekleyen masaüstü/mobil ve harita/süzgeç kabulünü tamamla; ardından Bridges yaşam/görev incelemesiyle birinci önceliğe devam et. Yeni otomasyon çalışması bu kaydı baştan üretmez.
+
+## R03 / R14 · 28 Ekim 2026 16.32 TSİ — Birdwood arayüz kabulü; Bridges tekrarının önlenmesi
+- Durum: devam ediyor. Başlangıç belgeleri, mevcut sayfalar/veri ve son araştırma okundu. UX sırası korunuyor; yeni otomasyon/yayın yapılmadı.
+- Birdwood: kaynak kapsamı DOMda görüldü; masaüstü1265/1265, mobil305/305taşmasız. Mobil görüntü incelendi; viewport sıfırlandı. Haritada göster bağlantısı çalıştı, Leaflet mevcut, İtilaf20/temizle31. Geçici sekme kapandı. Fiziksel cihaz/ekran okuyucu deneyi değildir. Dar arayüz kabulü tamamlandı; dar ölüm yeri/görev günleri açık.
+- Bridges: mevcut HTML ve R03-bridges-date-evidence.json, yaşam tarihlerinin26Ekimde zaten incelendiğini gösterdi. Yeniden aynı kaynak okuması veya aynı açıklama üretilmedi. Bu tur arama sonucu yalnız yön bulmadır, yeni doğrudan pasaj doğrulaması sayılmadı. Doğum/yaralanma/ölüm ayrımı korunur.
+- Kuyruk: Birdwood ve Bridges eski unreviewed_candidate satırları mevcut kaynak kapsamıyla eşleştirildi. Envanter eski metin/hash değerleri korundu; yeni toplu doğrulanmış hükmü yok. Site HTML değişmedi. Kaynaklar: R03-birdwood-life-scope.json (28Ekim), R03-bridges-date-evidence.json (26Ekim), mevcut17Ekim görev notu.
+- Kabul: yalnız bu dar alanlar ve tarayıcı kontrolü; genelR03/R14ve8kapı açık. Test: zorunlu32JS/19Python bu kayıt sonrası çalıştırılır; tam297takımı yeniden çalıştırılmış sayılmaz.
+- Sonraki tek somut adım: research/reports/2026-10-27/R03-new-static-text-followup.json içindeki kronoloji-kaynaklari AWM4 23/32/7 yaprak46–47 / 9–10Mayıs etiketini mevcut doğrudan görüntü okuma notlarıyla eşleştir; tarih/yaprak karışması varsa okuyucu metnini düzelt. Tamamlanmış Bridges yaşam incelemesini yeniden başlatma.
+
+## R03 / R12 · 28 Ekim 2026 19.52 TSİ — 15. Tabur günlük yaprak kapsamı eşleştirmesi
+- Durum: devam ediyor. AGENTS, son DEVAM, ilk sürüm listesi, yol haritası ve ilgili mevcut kaynak sayfası/veri okundu.
+- İnceleme: kronoloji-kaynaklari 9–10Mayıs AWM4 23/32/7 / C1342882 etiketi, chronology-2026-10-25/records.json ve DEVAM son devam kaydıyla eşleştirildi. İlk not görüntü3–4 ve henüz okunmayan sonraki yaprağı anlatıyor; sonraki kayıt görüntü5/yaprak47 okumasını açıkça tamamlıyor. Bu nedenle eski ara not yeni engel veya çelişki sayılmadı.
+- Kanıt kapsamı: https://www.awm.gov.au/collection/C1342882 ; olay9–10Mayıs1915,yayınnull,özgün erişim25Ekim2026. 21.00plan/22.30hücum/ertesi06.00dönüş/07.00karşıtaarruz ayrımı önceki seçili okumaya aittir.63sayfa tüm okuma değildir; tek tabur anlatısı, diğer saat sistemleriyle kalibre değil. Yeni dış kaynak erişimi yapılmış gibi tarihlenmedi.
+- Değişiklik: R03-new-static-text-followup.json içinde ilgili iki etiket mevcut kapsamla context_checked eşleştirildi; eski hash/metin korunur. Sayfada hata bulunmadığından aynı açıklama yeniden yazılmadı. Kalan bekleyen blok sayısı ayrı hesaplandı; genelR03/R12ve8kapı açık.
+- Test: bu kayıt ve kuyruk değişikliği sonrası zorunlu32JS/19Python koşulur; tamJS takımı veya yeni görsel kabul iddiası yok. Commit/push/deploy/scraper/dışmesaj yok.
+- Sonraki tek somut adım: aynı takip dosyasındaki olaylar/anzak-sevk-emri/index.html kaynak tarih/kapsam etiketini önceki25Ekim kurum pasajı kaydıyla eşleştir; ardından bu olayın neden–hazırlık–sonuç anlatısında kanıtlı eksik varsa yerel okuyucu metnini tamamla.
+
+## R03 / R09 / R12 · 28 Ekim 2026 20.12 TSİ — ANZAK sevk emrinin okuyucu anlatısı
+- Durum: devam ediyor. Başlangıç belgeleri, mevcut olay sayfası ve önceki kayıtlar okundu. İlk öncelik içerik netliği kapsamında gerçek yerel HTML iyileştirmesi yapıldı.
+- Kaynak: https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline ; 1 ve12Nisan1915 girişleri doğrudan incelendi, erişim28Ekim2026,yayınnull.1Nisan girişinde ANZAK Kolordusunun Mısır'da emir ALMASI;12Nisanda birliklerin Limni'ye ulaşmaya BAŞLAMASI ayrılır. Özgün sevk emri/ulaşım günlükleri görülmedi. Bütün kronoloji, diğer sayı ve iddiaları bu incelemeyle benimsenmedi. R03-anzak-order-scope.json kısa kanıt/tarih/sınırları tutar.
+- Geliştirme: olay özeti emrin verilmesi yerine alınmasını doğru özneyle anlatır. Hazırlık bölümünde emir/intikal/varış ayrımı, kaynak bağlantısı ve Arıburnu çıkarmasına okuma yolu eklendi. Kesin hareket saati/tam birlik dağılımı/koordinat üretilmedi. Eski25Ekim erişimi korunup yeni seçili okuma ayrıca tarihlendi.
+- Test: ilk tamJS koşusunda ortak Olayı nasıl okumalı başlığı kaldırıldığı için bir beklenti başarısızdı. Ortak başlık korunup özgül altbaşlık eklendi; ardından bütün297JavaScript/19zorunluPython geçti. R03-anzak-order-tests.txt. Bu tur27Python değil19Python koşuldu. Tarayıcı kabulü henüz yapılmadı.
+- Kabul: dar kaynak/anlatım iyileştirmesi yerelde;genelR03/R09/R12ve8kapı açık. Commit/push/deploy/scraper/dışmesaj yok.
+- Sonraki tek somut adım: ANZAK sevk emri sayfasını masaüstü/mobilde, Arıburnu okuma bağlantısı ve kronoloji/harita dönüşüyle kontrol et; sonra takip kuyruğundaki Arıburnu–Suvla tahliye onayı kapsamına geç.
+
+## R03 / R09 / R12 · 28 Ekim 2026 20.32 TSİ — Sevk anlatısı görünüm ve geçiş kontrolü
+- Durum: devam ediyor. Başlangıç belgeleri, son kayıt, mevcut sevk/tahliye sayfaları ve R03-anzak-order-scope.json okundu. Yeni tarihsel kaynak erişimi veya HTML değişikliği yok.
+- Doğrulama: ANZAK sevk emri özeti, kaynak bağlantısı, hazırlık altbaşlığı ve yeni inceleme tarihi DOMda görüldü. Masaüstü1265/1265,mobil305/305taşmasız; mobil görüntü incelendi,viewport sıfırlandı. Arıburnu okuma bağlantısı doğru olay sayfasını açtı; geri dönüş ve kronoloji bağlantısı ANZAK sevk kaydını içeren ana sayfaya ulaştı. Leaflet mevcut;geçici sekme kapandı. Fiziksel cihaz deneyi değildir.
+- Açık kabul: taraf/Temizle düğmelerine basıldı fakat bu tur durum metni sorgusu sonuç vermedi;20/31sonucu teyit edilmiş gibi raporlanmaz. Kronoloji derin bağlantısının seçili kartı ve süzgeç durumu ayrıca ölçülmeli.
+- Bağımsız sonraki inceleme: Arıburnu–Suvla tahliye onayı mevcut metni okundu;7Aralık onayı ve Seddülbahir kapsamı ayrı tutuluyor. Yeni tarih veya ayrıntı eklenmedi. Kaynak dayanağı önceki25Ekim kurum özeti; henüz bu tur yeni pasaj okuması yapılmadı.
+- Test: yalnız devam/kabul kaydı değişti; zorunlu32JS/19Python bu kayıt sonrası çalıştırılır. Önceki297JS/19Python HTML partisinin sonucudur. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Sonraki tek somut adım: /?olay=e-mart-nisan#kronoloji dönüşünde seçili ANZAK kartını ve gerçek süzgeç durum metnini fresh DOM ile doğrula; ardından7Aralık tahliye onayının DVA pasajından karar/uygulama ayrımını incele.
+
+## R03 / R09 / R12 · 28 Ekim 2026 20.52 TSİ — Kronoloji dönüşü ve tahliye karar aşamaları
+- Durum: devam ediyor. Başlangıç belgeleri, mevcut veri ve son araştırma okundu.
+- ANZAK kabulü: fresh DOMda derin bağlantı Cephe kronolojisini seçti; panel başlığı ANZAK sevk emri,1Nisan1915. İtilaf seçimi46kayıt/28ortak,Temizle47kayıt; seçili panel ANZAK kaldı. Önceki20/31beklentisi18Martgörünümüne aittir; bu bağlantıya uygulanmaz. Geçici sekme kapandı. Dar geçiş kabulü tamamlandı.
+- Yeni kaynak okuması: DVA kronolojisi https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline ;7 ve27Aralık1915girişleri,erişim28Ekim2026,yayınbelirtilmiyor.7Aralık pasajı22Kasımdan beri yerel planlamayı,ANZAK/Suvla için hükümet onayını ve Helles'in o aşamada tutulmasını ayırıyor;27Aralık Helles tahliye emri. Özgün karar/emir ve tüm kronoloji okunmadı; diğer zayiat/komuta iddiaları benimsenmedi.
+- Yerel geliştirme: Arıburnu–Suvla onayı sayfasına planlama/onay/uygulama ayrımı ve Seddülbahir sonraki kararına okuma bağlantısı eklendi. Kanıtlı tarihler kurum aktarımı olarak verildi; kesin tahliye saati/kuvvet/koordinat yok. Kaynak erişim tarihleri ayrı korundu.
+- Kabul: yeni tahliye metninin masaüstü/mobil/bağlantı denetimi bekliyor;genelR03/R09/R12ve8kapı açık. Commit/push/deploy/scraper/dışmesaj yok.
+- Test: bu HTML/not sonrası bütünJS ve zorunluPython aşağıdaki test dosyasına çalıştırılır;sonuç ayrı doğrulanır.
+- Sonraki tek somut adım: Arıburnu–Suvla tahliye onayı yeni metninin masaüstü/mobil ve Seddülbahir bağlantı kabulünü tamamla; sonra aynı takip kuyruğundaki bir sonraki olayın kaynak/anlatı kapsamını ele al.
+
+## R03 / R09 / R12 · 28 Ekim 2026 21.12 TSİ — Tahliye onayı kabulü ve kuyruk eşleştirmesi
+- Durum: devam ediyor. Başlangıç belgeleri, mevcut sayfa/veri, son araştırma ve UX uygulama sırası okundu.
+- Tarayıcı: tahliye onayının yeni metni DOMda; masaüstü1265/1265,mobil305/305taşmasız,mobil görüntü incelendi. Viewport sıfırlandı. Seddülbahir bağlantısı doğru başlık/27Aralık sayfasını açtı. Kronoloji dönüşü doğru tahliye onayı panelini seçti,Leaflet mevcut. Temizle47kayıt ve seçili panel korundu. Geçici sekme kapandı;fizikselcihaz/ekranokuyucu testi değil.
+- Kayıt: R03-evacuation-decision-scope.json önceki28Ekim seçili DVA okumasını ve bu dar kabulü tutar; yeni dış kaynak erişimi iddia edilmez. ANZAK ve tahliye eski25Ekim etiketleri takip kuyruğunda mevcut ilk/yenideninceleme tarihleriyle eşleştirildi. Eski metin/hash snapshot olarak korundu. Kaynak kararları özgünemir doğrulaması yapılmadı.
+- Test: önceki HTML partisinde bütün297JS/19Python geçti; bu not/kuyruk değişikliğinden sonra zorunlu32JS/19Python tekrar koşulur. GenelR03/R09/R12ve8kapı açık. Commit/push/deploy/scraper/dışmesaj yok.
+- Sonraki tek somut adım: takip kuyruğundaki olaylar/ateskes-gorusmeleri/index.html22Mayıs fotoğraf-katalog açıklamasını mevcut okuma kaydıyla karşılaştır; görüşme fotoğrafını24Mayıs defin veya anlaşma belgesi saymadan anlatının açık koşulunu belirle.
+
+## R03 / R09 / R12 · 28 Ekim 2026 21.32 TSİ — Görüşme fotoğrafından anlaşma sonucu çıkarılmadı
+- Durum: devam ediyor. Başlangıç belgeleri, son not, mevcut olay/veri ve25Ekim kaynak kaydı okundu.
+- Kaynak: https://www.awm.gov.au/collection/C45317 H02318 tarih/açıklama alanları doğrudan28Ekim2026 incelendi;olay22Mayıs1915,yayınnull. Açıklama Butler'ın Ohri'yi Birdwood karargâhından Osmanlı hatlarına götürmesini ve gömme ateşkesi görüşmelerini tanımlar. Katalogdaki zayiat/süre sayıları bu değişiklikte benimsenmedi. Fotoğraf özgün anlaşma/tutanak değildir; yeni görsel yayımlanmadı.
+- Geliştirme: kısa özet fotoğrafın desteklediği dönüş/görüşme amacıyla netleştirildi; katalog açıklaması ile görüntünün kendisinin kanıt kapsamı ayrıldı.24Mayıs gömme ateşkesine okuma bağlantısı eklendi;22Mayıs tarihi defin gününe taşınmadı. Eski/yeni erişimler ayrı. R03-truce-photo-scope.json sınırları tutar.
+- Kabul: dar yerel anlatı iyileştirmesi; masaüstü/mobil ve yeni bağlantı kontrolü bekliyor. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: HTML/not sonrası bütünJS ve zorunluPython R03-truce-photo-tests.txt dosyasına koşulur; tam takım sonucu çıktıdan teyit edilir.
+- Sonraki tek somut adım: Ateşkes görüşmeleri yeni metninin masaüstü/mobil ve gömme ateşkesi bağlantısını kontrol et; sonra takip kuyruğundaki Conkbayırı6–10/10Ağustos kapsam etiketine geç.
+
+## R03 / R09 / R12 · 28 Ekim 2026 21.52 TSİ — Görüşme kabulü; Conkbayırı kapsam eşleştirmesi
+- Durum: devam ediyor. Başlangıç belgeleri, son not, mevcut sayfa/veri ve27Ekim Conkbayırı incelemesi okundu.
+- Görüşme tarayıcı kabulü: yeni metin DOMda;masaüstü1265/1265,mobil305/305taşmasız,mobil görüntü incelendi. Viewport sıfırlandı. Gömme ateşkesi bağlantısı doğru24Mayıs sayfasını açtı; kronoloji dönüşü Ateşkes görüşmeleri panelini seçti,Leaflet mevcut. Temizle47kayıt, panel korundu. Geçici sekme kapandı. Fiziksel cihaz/ekranokuyucu deneyi değildir.
+- Kuyruk: ateşkes eski erişim etiketi yeni ilk/yenideninceleme ayrımıyla eşleştirildi. Conkbayırı blokları R03-conkbayiri-stage-scope.json ve mevcutHTML ile karşılaştırıldı;6–10kesiti/10Ağustos karşıtaarruzu/DVA6–21başlık kapsamı ayrı. Aynı27Ekim okuma tekrarlanmadı; özgünemir görülmedi. Genel doğrulanmış hükmü yok; eski metin/hash korunur.
+- Kaynaklar: AWM C45317 seçili28Ekim okuması; DVA sari-bair ve KTB TR-96322 seçili27Ekim okuması. Yeni kaynak erişimi yok. YeniHTML/görsel eklenmedi.
+- Test: öncekiHTML partisinde297JS/19Python geçti. Bu not/kuyruk sonrası zorunlu32JS/19Python çalıştırılır. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Sonraki tek somut adım: R03-new-static-text-followup.json içindeki sıradaki bekleyen olayı seç; ilgili mevcut okuma kaydıyla kapsam eşleştir ve kanıtlı anlatım eksikliği varsa okuyucu metnini tamamla. Conkbayırı'nın aynı6–10/6–21ayrımını yeniden araştırma.
+
+## R03 / R09 / R12 · 29 Ekim 2026 00.52 TSİ — Hamilton talimatının koşulu
+- Durum: devam ediyor. Başlangıç belgeleri, son somut adım, takip kuyruğu ve mevcut sayfa/veri okundu; sıradaki Hamilton talimatı seçildi.
+- Kaynak: DVA timeline13Mart1915talimat pasajı doğrudan incelendi;erişim29Ekim2026,yayınnull. Kitchener'in Hamilton'a son talimatı, filonun bütün çabalara rağmen geçememesi koşulunu içeriyor. Özgün talimat görüntüsü görülmedi. Aynı sayfadaki cephane/müzakere/mayın/zayiat anlatıları bu incelemeyle benimsenmedi. R03-hamilton-instruction-scope.json kapsamı tutar.
+- Yerel geliştirme: eski çok kısa özet yerine talimatın öznesi ve koşulu kaynak atfıyla açıklandı; talimat/uygulama/çıkarma ayrımı ve18Mart anlatısına devam yolu eklendi. Kesin kuvvet/saat/koordinat üretilmedi; eski/yeni erişim tarihleri ayrı.
+- Kabul: yeni metin ve bağlantı için masaüstü/mobil denetim bekliyor;genelR03/R09/R12ve8kapı açık. Commit/push/deploy/scraper/dışmesaj yok.
+- Test: HTML/not sonrası bütünJS ve zorunluPython R03-hamilton-instruction-tests.txt içinde çalıştırılır;çıktıdan sonuç teyit edilir.
+- Sonraki tek somut adım: Hamilton talimatı sayfasının masaüstü/mobil,18Mart okuma bağlantısı ve kronoloji dönüşünü doğrula; sonra hastane-ekibi-limnide varış/hizmete başlama ayrımına geç.
+
+## R03 / R09 / R12 · 29 Ekim 2026 01.12 TSİ — Hamilton görünüm ve kronoloji kabulü
+- Durum: devam ediyor. Başlangıç belgeleri, son kayıt, mevcutHamilton/hastane sayfaları ve kaynak kapsamı okundu. Yeni tarihsel kaynak erişimi veyaHTMLdeğişikliği yapılmadı.
+- Görünüm: Hamilton yeni koşul metni DOMda;masaüstü1265/1265,mobil305/305taşmasız. Mobil görüntü incelendi,viewport sıfırlandı. Kronoloji bağlantısı yeni yüklemede Hamilton’a talimat panelini seçti;Leaflet mevcut,47kayıt. Geçici sekme kapandı. Fizikselcihaz/ekranokuyucu testi değildir.
+- Açık kabul:18Mart bağlantısı denemesinde tarayıcı geçmişi about:blank'e döndü; taze yüklemeden anlamsal bağlantı denemesinde hedefsayfa görüntüsü teyit edilemedi. HTMLhref doğru olsa da başarılı uçtanuca gezinme iddia edilmez. Bu, henüz site hatası kanıtı değildir; sonraki tur yeni sekmede yalnız bu bağlantıyı teyit et.
+- Sonraki kaynak: Hastane ekibi Limni’de sayfasında varış/donanım/hizmete başlama ayrımı zaten mevcut. Aynı açıklamayı yeni ilerleme olarak yeniden yazma; kalan ihtiyaç hizmet başlangıcının farklı belgeyle desteklenmesi veya sınırın korunmasıdır.
+- Test: öncekiHTMLpartisi297JS/19Python geçti; bu not sonrası zorunlu32JS/19Python koşulur. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Sonraki tek somut adım: Hamilton18Mart bağlantısını yeni sekmede tek başına doğrula; ardından hastane-ekibi-limnide29Temmuz kaynak pasajını önceki kayıtla eşleştir, hizmet başlangıcı uydurma.
+
+## R03 / R09 / R12 · 29 Ekim 2026 01.32 TSİ — Hamilton bağlantı engeli ve hastane varış kapsamı
+- Durum: devam ediyor. Başlangıç belgeleri, son not, mevcutHamilton/hastane sayfaları ve25Ekimrecords okundu.
+- Hamilton bağlantı deneyi yeni sekmede anlamsal bağlantıyla tekrarlandı; tıklama sonrası aynı sayfa/odak görüldü. DOMhref /olaylar/18-mart-deniz-muharebesi/ ve çözülmüş localhost adresi doğru. Otomatik tarayıcı gezinmesinin neden gerçekleşmediği henüz ayrılmadı; bunu kesin site hatası veya başarılı gezinme sayma. Aynı tıklamayı tekrar etme; çözüm koşulu farklı klavye/gerçek hedef yüklemesiyle ayrıştırma. Geçici sekme kapandı.
+- Bağımsız iş: DVA timeline29July1915pasajı doğrudan okundu,erişim29Ekim2026,yayınnull;3AvustralyaGenelHastanesininLimni'ye varışı ve donanımın başka gemiyle üç hafta sonra gelişi aktarılır. Bu aralıktan kesin takvim günü hesaplanmadı; kapasite/hizmete açılış/benzersiz hasta sayısı çıkarılmadı. Kaynak https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline . Özgün hastane günlüğü görülmedi;komşu cephane/zayiat/sağlık yüzdeleri benimsenmedi.
+- Mevcut hastane sayfası zaten varış/donanım/hizmet ayrımını doğru sınırla açıklıyor; aynı paragraf yeniden yazılmadı.29Temmuz kartını hizmet başlangıcı diye genişletmek için yeterli kanıt yok; genelR03/R09/R12ve8kapı açık.
+- Test: yalnız devam notu değişti;zorunlu32JS/19Python çalıştırılır. Commit/push/deploy/scraper/dışmesaj yok.
+- Sonraki tek somut adım: hastane kartının takip kuyruğu etiketini bu dar kapsamla eşleştir; ardından İkinci Anafartalar mevcut21Ağustos/Scimitar–W Hills/Hill60ayrımını27Ekiminceleme kaydıyla karşılaştır. Hamilton için aynı başarısız tıklama döngüsünü tekrarlama.
+
+## R03 / R09 / R12 · 29 Ekim 2026 01.52 TSİ — Hastane ve İkinci Anafartalar kapsam kapanışı
+- Durum: devam ediyor. Başlangıç belgeleri, son not, mevcut sayfalar/veri ve27Ekim somut geliştirme kaydı okundu. Hamilton'ın aynı gezinme deneyi tekrarlanmadı.
+- Hastane takip etiketi önceki29Ekim DVA29Temmuz pasajıyla eşleştirildi; varış/donanım/hizmet ayrımı zaten sayfada. Hizmet başlangıcına kesin gün eklenmedi.
+- İkinciAnafartalar iki takip bloğu mevcutKTB/DVAparagrafları ve27EkimDEVAMkaydıyla eşleştirildi.21Ağustos kartı,ScimitarHill/W Hills ile Hill60ve27–29Ağustos devamını birleştirmiyor. Yeni dış kaynak okuması veya bütün dönem doğrulaması yok; özgünemir/ceride açık. Aynı açıklama yeniden yazılmadı.
+- Kaynaklar: DVA timeline, https://www.ktb.gov.tr/TR-96322/1915.html ; erişim27Ekimseçili eski okuma, hastane29Ekimseçili yenidenokuma ayrı. Eski hash/metin envanterde korunur;context_checked özgünbelge doğrulaması değildir.
+- Test: yalnız kuyruk/not değişti;zorunlu32JS/19Python çalıştırılır. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Sonraki tek somut adım: Kireçtepe taarruzu15Ağustos DVApasajını doğrudan incele; kısa İngiliz ilerlemesi sonucunu kaynak atfıyla okunabilir olay özeti ve21Ağustos sonraki aşamaya bağla, kayıp sayısını bu özetten doğrulanmış toplam yapma.
+
+## R03 / R09 / R12 · 29 Ekim 2026 02.12 TSİ — Kireçtepe kısa anlatısının netleştirilmesi
+- Durum: devam ediyor. Başlangıç belgeleri, son adım, mevcut sayfa/veri ve R03-autumn-evacuation-scope.json okundu.15Ağustos pasajının27Ekimde zaten doğrudan okunduğu görüldü; aynı erişim tekrar edilmedi. Yakın29Ekim DVAokumasında da aynı pasaj görünmüştü; yeni bağımsız belge gibi sunulmadı.
+- Kaynak: DVA timeline15August1915girişi; önceki erişim27Ekim2026,güncelleme6Aralık2024,yayınnull,yerel eşleştirme29Ekim. Kireçtepe sırtında Osmanlı mevzilerine İngiliz ilerlemesi ve az ilerleme sonucu. Özgünemir/ceride görülmedi; kayıp sayısı/durma çizgisi/yeni koordinat alınmadı. R03-kirectepe-narrative-scope.json kapsamı tutar.
+- Yerel geliştirme: öznesiz kısa sonuç yerine taraf/mevki/eylem/sonuç açık kaynak atfıyla yazıldı. Taarruz/hedefe ulaşma ayrımı ve21Ağustos İkinciAnafartalar okuma yolu eklendi; farklı gün ve mevkiler tek olay yapılmadı. Yeni tarihi iddia kaynak sınırını aşmıyor;25Ekim ilk inceleme alanı yeni erişim gibi değiştirilmedi.
+- Kabul: yeniHTML masaüstü/mobil ve bağlantı denetimi bekliyor; genelR03/R09/R12ve8kapı açık. Commit/push/deploy/scraper/dışmesaj yok.
+- Test: HTML/not sonrası bütünJS ve zorunluPython R03-kirectepe-tests.txt dosyasına çalıştırılır;sonuç çıktıdan teyit edilir.
+- Sonraki tek somut adım: Kireçtepe yeni özetinin masaüstü/mobil,İkinciAnafartalar bağlantısı ve kronoloji dönüşünü doğrula; ardından kolera-asilamasi kaydındaki başlangıç/kapsam ayrımına geç.
+
+## R03 / R09 / R12 · 29 Ekim 2026 02.32 TSİ — Kireçtepe klavye ve görünüm kabulü
+- Durum: devam ediyor. Başlangıç belgeleri, mevcut sayfa/veri ve son kapsam kaydı okundu.
+- Tarayıcı: yeni Kireçtepe metni DOMda;masaüstü1265/1265,mobil305/305taşmasız. İlk yakalama ölçeklenmiş geçiş görüntüsü olduğundan ikinci güncel ekran incelendi ve düzgün320viewport görünümü doğrulandı. Viewport sıfırlandı.21Ağustos bağlantısı Enter ile İkinciAnafartalar başlık/URL'sini açtı. Kronoloji bağlantısı Enter ile Kireçtepe panelini seçti;Leaflet mevcut,47kayıt. Geçici sekme kapandı. Fizikselcihaz/ekranokuyucu veya tüm erişilebilirlik denetimi değildir.
+- Sonraki inceleme: kolera-asilamasi sayfasında başlangıç/bütün personel/salgın ayrımı zaten açık. Aynı açıklama yeniden yazılmadı; mevcut7Temmuz kurum pasajı ile takip etiketi eşleştirilmesi sırada. Yeni tarihsel erişim veyaHTMLdeğişikliği yok.
+- Kaynak: R03-kirectepe-narrative-scope.json önceki27Ekim DVAokuması; bu tur yalnız dar arayüz kabulü. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: öncekiHTMLpartisi297JS/19Python geçti; bu not sonrası zorunlu32JS/19Python çalıştırılır.
+- Sonraki tek somut adım: kolera-asilamasi7Temmuz kaynak etiketini mevcut25Ekim kayıt ve doğrudan okunmuş DVApasajıyla eşleştir; ardından mayin-tarama-girisimleri1–17Mart kapsamını incele. Hamilton bekleyen bağlantısını yeniden denemek gerekirse tıklama yerine Enter ve ayrı hedef durum kontrolü kullan.
+
+## R03 / R09 / R12 · 29 Ekim 2026 02.52 TSİ — Aşılama kapsamı ve mayın tarama dönemi
+- Durum: devam ediyor. Başlangıç belgeleri, son kayıt, mevcut iki sayfa/veri ve25Ekim kaynak kayıtları okundu.
+- Aşılama etiketi mevcut7Temmuz DVAkaydıyla eşleştirildi. Başlangıç,bütün personel ve salgın ayrımı zaten sayfada; aynı açıklama yeniden yazılmadı. Yeni tıbbi öneri veya tarihsel hasta/personel sayısı yok.
+- Kaynak: DVA timeline1March başlığı altında1–17Mart1915 trolteknesi girişimleri;25Ekim seçili okuma ve yakın29Ekim doğrudan timelineokumasında görülen pasaj. URL https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline ;yayınnull. Bu tur yeni dış erişim iddiası yok; özgün seyir/görev günlükleri görülmedi.
+- Gerçek geliştirme: mayın tarama özeti taraf/araç/coğrafya ve dönem kapsamıyla açık atıflı hale getirildi.1Mart başlığı tek günlük olay yapılmadı; tekne/gece/temizlenen mayın sayısı çıkarılmadı.18Mart anlatısına okuma yolu eklendi; tek nedene indirgeme yapılmadı. Katalog şeması ve mimari korundu.
+- Kabul: yeniHTML masaüstü/mobil,18Mart bağlantısı ve kronoloji dönüşü bekliyor. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: HTML/not/kuyruk sonrası bütünJS ve zorunluPython R03-minesweeping-tests.txt içinde çalıştırılır;sonuç çıktıdan teyit edilir.
+- Sonraki tek somut adım: Mayın tarama girişimleri yeni metnini masaüstü/mobil,18Mart bağlantısını Enter ve ayrı hedef kontrolüyle, kronoloji dönüşünü seçili kartla doğrula; ardından Mondros çıkarma hazırlığına geç.
+
+## R03 / R09 / R12 · 29 Ekim 2026 03.12 TSİ — Mayın tarama görünüm ve klavye kabulü
+- Durum: devam ediyor. Başlangıç belgeleri, son adım, mevcut tarama/Mondros sayfaları okundu. Yeni tarihsel erişim/HTMLdeğişikliği yok.
+- Tarayıcı: dönem kapsamı DOMda;masaüstü1265/1265,mobil305/305taşmasız. Mobil görüntü incelendi,viewport sıfırlandı.18Mart bağlantısı Enter ile doğru başlık/URL açtı; bu yöntem hedef durumunu ayrı çağrıda doğruladı. Kronoloji dönüşü Mayın tarama girişimleri panelini seçti,Leaflet mevcut. Temizle47kayıt ve seçim korundu. Geçici sekme kapandı;fizikselcihaz/ekranokuyucu testi değil.
+- Kaynak/kabul: önceki25Ekim ve29Ekim seçili DVApasajının sınırları korunur;bu tur yalnız dar UIkabulü. GenelR03/R09/R12ve8kapı açık. ÖncekiHTML297JS/19Python geçti;bu not sonrası zorunlu32JS/19Python çalıştırılır.
+- Mondros mevcut kısa metni hazırlandı:20Nisan toplanma/hazırlık ile kıyıya çıkış zaten ayrılıyor; gemi sayısı/çeşidi kesinleştirilmeden büyütülmeyecek. Commit/push/deploy/scraper/dışmesaj yok.
+- Sonraki tek somut adım: Mondros20Nisan DVAkaydıyla mevcut öznenin bütün gemileri yalnız çıkarma gemisi diye daraltıp daraltmadığını kontrol et; kaynak izin veriyorsa özeti buna göre düzelt ve25Nisan anlatısına bağla.
+
+## R03 / R09 / R12 · 29 Ekim 2026 03.32 TSİ — Mondros gemi türü kapsamı
+- Durum: devam ediyor. Başlangıç belgeleri, son adım, mevcut olay/veri ve25Ekim kayıt okundu.
+- Kaynak: DVA timeline20April1915girişi doğrudan incelendi;erişim29Ekim2026,yayınnull. Kaynak ships der; bütün gemileri aynı tür çıkarma aracı olarak tanımlamaz. Kaynakta geçen toplam bu tur bağımsız doğrulanmış sayı olarak eklenmedi. Özgün gemi/yükleme cetveli görülmedi;komşu tarihli diğer iddialar benimsenmedi. R03-mudros-scope.json kısa kanıt/eski-yeni özet/sınır tutar.
+- Geliştirme: Çıkarma gemileri ifadesi çıkarma hazırlığı için gemiler kapsamına düzeltildi. OlayHTML/meta,chronology-events,campaign,records ve kronoloji-kaynakları kısaözetleri tutarlı hale getirildi. Okuyucuya tür sınırı ve Arıburnu/Seddülbahir devam yolları eklendi;toplanma ile kıyıya çıkma ayrı. Kaynak kataloğu10sütunşeması değişmedi.
+- Kabul: yeniHTML/veri masaüstü/mobil,kart ve iki okuma bağlantısı bekliyor. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: bütünJS ve zorunluPython R03-mudros-tests.txt içinde çalıştırılır;sonuç çıktıdan teyit edilir.
+- Sonraki tek somut adım: Mondros yeni özetini kart ve olay sayfasında masaüstü/mobil,iki çıkarma bağlantısı ve kronoloji dönüşüyle doğrula; sonra Quinn'sPostlağım taarruzu kapsamına geç.
+
+## R03 / R09 / R12 · 29 Ekim 2026 03.52 TSİ — Mondros kabulü ve eski veri önbelleği
+- Durum: devam ediyor. Başlangıç belgeleri, mevcut sayfa/veri ve son kaynak kaydı okundu.
+- Tarayıcı: olay metni DOMda;masaüstü1265/1265,mobil305/305taşmasız,mobil görüntü incelendi;viewport sıfırlandı. Arıburnu ve Seddülbahir bağlantıları Enter ile doğru başlık/URL açtı. Kronoloji dönüşü Mondros kartını seçti;Leaflet mevcut.
+- Yeni somut bulgu/giderim: ilk kart eski Çıkarma gemileri metnini gösterdi;yerelcampaign dosyası doğruydu fakat index eski20261027lönbellek anahtarını kullanıyordu. Campaign sürüm anahtarı20261029a yapıldı;yeniden yüklemede doğru çıkarma hazırlığı için gemiler özeti kartta teyit edildi. Geçici sekme kapandı. Bu yerel önbellek düzeltmesidir;canlıyayın yapılmadı. Fizikselcihaz/ekranokuyucu testi değil.
+- Kaynak: R03-mudros-scope.json29EkimseçiliDVAokuması;bu tur yeni tarihsel erişim yok. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: indexverisürümü değişikliği sonrası bütünJS ve zorunluPython R03-mudros-browser-tests.txt içinde çalıştırılır;sonuç çıktıdan teyit edilir.
+- Sonraki tek somut adım: Quinn'sPostlağım taarruzu29Mayıs mevcut kurum pasajını ve kaynak sınırını incele; siper baskını9–10Mayısla aynı olay sayma.
+
+## R03 / R09 / R12 · 29 Ekim 2026 04.12 TSİ — Quinn’s Post lağım taarruzunun aşamaları
+- Durum: devam ediyor. Başlangıç belgeleri, son somut adım, mevcut sayfa/veri okundu.
+- Kaynak: DVA timeline29May1915girişi doğrudan okundu;erişim29Ekim2026,yayınnull. Avustralya önhattı yakını patlama,Osmanlı giriş,hücum sonrası çıkarılma ve mevzinin eski haline dönmesi ayrı. Özgünemir/iki taraf günlük karşılaştırması yok;komşu satırlardaki kayıp/kuvvet iddiaları benimsenmedi. R03-quinn-mine-scope.json kanıt/tarih/sınırları tutar.
+- Geliştirme: öznesiz mevzi tutulamadı özeti yerine hangi tarafın hangi aşamada mevziye girdiği/çıkarıldığı kurum atfıyla açıklandı.9–10Mayıs baskınına karşılaştırmalı okuma yolu eklendi;29Mayıs patlama olayıyla birleştirilmedi. Saat/kuvvet/zayiat/patlayıcı miktarı/tünel koordinatı eklenmedi.
+- Kabul: yeniHTML masaüstü/mobil,eski baskın bağlantısı ve kronoloji dönüşü bekliyor. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: bütünJS/zorunluPython R03-quinn-mine-tests.txt dosyasına çalıştırılır;sonuç çıktıdan teyit edilir.
+- Sonraki tek somut adım: Quinn’sPost29Mayıs sayfasının masaüstü/mobil,9–10Mayıs bağlantısı ve kronoloji dönüşünü doğrula; ardından takip kuyruğundaki siper baskını günlük-saat etiketlerini mevcut okuma kayıtlarıyla eşleştir.
+
+## R03 / R09 / R12 · 29 Ekim 2026 05.52 TSİ — Quinn’s Post kabulü ve günlük etiketleri
+- Durum: devam ediyor. Başlangıç belgeleri, mevcut sayfalar/veri,sonkapsam kaydı ve25Ekim günlük okuma notu incelendi.
+-29Mayıs arayüz kabulü: yeni metin DOMda;masaüstü1265/1265,mobil305/305taşmasız,mobil görüntü incelendi;viewport sıfırlandı.9–10Mayıs bağlantısı Enter ile doğru siper baskını sayfasını açtı; kronoloji dönüşü lağım taarruzu panelini seçti,Leaflet mevcut,47kayıt. Geçici sekme kapandı;fizikselcihaz/ekranokuyucu testi değil.
+- Günlük eşleştirmesi: takip kuyruğundaki siper baskını üçbloğu25Ekim görüntü4–5/yaprak46–47tamamlanmış okumayla eşleştirildi.21.00plan,22.30hücum,ertesi06.00dönüş ve07.00karşıtaarruz ayrı;63sayfanın tümü okunmuş değil,saatler diğer tarafla kalibre edilmemiş. Aynı görüntüler yeniden okunmadı; kaynak AWM C1342882,eski erişim25Ekim2026korundu.
+- Dar kabul ve etiket eşleştirmesi tamamlandı;genelR03/R09/R12ve8kapı açık. YeniHTML/tarihselerişim yok;commit/push/deploy/scraper/dışmesaj yok.
+- Test: öncekiHTMLpartisi297JS/19Python geçti;bu kuyruk/not sonrası zorunlu32JS/19Python çalıştırılır.
+- Sonraki tek somut adım: takip kuyruğundaki Seddülbahir tahliye emri27Aralık etiketini mevcut29Ekim DVAokumasıyla eşleştir;sonra sonbahar fırtınası8Ekim ile27–28Kasım olaylarının ayrı kapsamını mevcut notlardan denetle.
+
+## R03 / R09 / R12 · 29 Ekim 2026 06.12 TSİ — Farklı fırtınaların kapsamı
+- Durum: devam ediyor. Başlangıç belgeleri, son kayıt, mevcutüçsayfa ve R03-autumn-evacuation-scope.json okundu.
+- Tahliye emri27Aralık etiketi mevcut29EkimDVAokumasıyla eşleştirildi; emir/sonayrılış farkı zaten görünür,aynı açıklama yeniden yazılmadı.
+- Fırtına kaynakları: DVA timeline8October/27November1915girişlerinin27Ekimseçili doğrudan okuması;erişim27Ekim2026,güncelleme6Aralık2024,yayınnull.8EkimAnzakKoyusuikmali hasarı ile27–28Kasım yağmurdan tipiye dönüş ayrı. Bu tur yeni dış erişim yok; özgün meteoroloji/birlik sağlık kayıtları görülmedi.
+- Geliştirme: iki kısa özete kurum atfı,coğrafya/etki ve sınır eklendi; okuyucu farklı tarihli diğer fırtınaya geçebiliyor. Hasar bütün cepheye genellenmedi;donma/ölüm/hastalık sayıları eklenmedi. Tarih ve etki toplamları birleştirilmedi.
+- Kabul: iki yeniHTML masaüstü/mobil ve çaprazbağlantı kontrolü bekliyor. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: bütünJS/zorunluPython R03-storms-tests.txt dosyasına çalıştırılır;sonuç çıktıdan teyit edilir.
+- Sonraki tek somut adım: iki fırtına sayfasının masaüstü/mobil,çaprazokuma bağlantıları ve doğru kronoloji kartı dönüşlerini doğrula;sonra tahliye tavsiyesi22Kasım kapsamına geç.
+
+## R03 / R09 / R12 · 29 Ekim 2026 06.32 TSİ — İki fırtına sayfası kabulü
+- Durum: devam ediyor. Başlangıç belgeleri, son kayıt, mevcut sayfalar/veri ve27Ekim kaynak notu okundu. Yeni tarihsel erişim veyaHTMLdeğişikliği yok.
+- Tarayıcı: iki sayfa masaüstü1265/1265,mobil305/305taşmasız;ikimobil görüntü incelendi. Viewport sıfırlandı. Çaprazbağlantılar Enter ile doğru Sonbahar fırtınası ve Yağmur ve kar fırtınası başlık/URLlerini açtı. Her sayfanın kronoloji dönüşü kendi ayrı panelini seçti;Leaflet mevcut,47kayıt. Geçici sekme kapandı. Fizikselcihaz/ekranokuyucu veya tüm site erişilebilirlik kabulü değildir.
+- Kaynak: önceki27Ekim DVA8Ekim/27Kasım seçili okuma; hasar/sağlık sayılarına yeni kesinlik eklenmedi. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: öncekiHTMLpartisi297JS/19Python geçti;bu kayıt sonrası zorunlu32JS/19Python çalıştırılır.
+- Sonraki tek somut adım: tahliye-tavsiyesi22Kasım mevcut özetini27EkimDVAokumasıyla eşleştir; tavsiye/onay/emir/fiilîtahliye ayrımını okuyucunun7Aralık onayı sayfasına ilerleyebileceği bir bağlantıyla tamamla, kuvvet sayısını bu kısa özetten doğrulanmış toplam yapma.
+
+## R03 / R09 / R12 · 29 Ekim 2026 06.52 TSİ — Tahliye tavsiyesinden onaya okuma yolu
+- Durum: devam ediyor. Başlangıç belgeleri, sonadım, mevcut sayfa/veri ve27Ekim seçiliDVAokuma kaydı okundu.
+- Kaynak: DVA timeline22November1915girişi,erişim27Ekim2026,güncelleme6Aralık2024,yayınnull. Kitchener'in tahliye tavsiyesi; yeni dış erişim gibi tarihlenmedi. Özgün tavsiye/telgraf/karar belgesi görülmedi; kaynak kuvvet/top/animal toplamları bu kısa anlatıya taşınmadı.
+- Yerel geliştirme: özet tavsiyenin öznesi,tarihi ve kapsamını açık kurum atfıyla verir. Tavsiye/karar/uygulama ayrımı korunup7Aralık onayına anlamlı okuma bağlantısı eklendi. Birliklerin ayrılış gecesi veya Seddülbahir kararını aynı güne taşıma yok. Kaynak URL https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline .
+- Kabul: yeniHTML masaüstü/mobil,7Aralık bağlantısı ve kronoloji dönüşü bekliyor. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: bütünJS/zorunluPython R03-evacuation-advice-tests.txt dosyasına çalıştırılır;sonuç çıktıdan teyit edilir.
+- Sonraki tek somut adım: Tahliye tavsiyesi yeni metnini masaüstü/mobil,7Aralık bağlantısı ve seçili kronoloji paneliyle doğrula;sonra Watson iskelesi19Haziran tamamlanma/hizmet kapsamına geç.
+
+## R03 / R09 / R12 · 29 Ekim 2026 07.12 TSİ — Tahliye tavsiyesi kabulü
+- Durum: devam ediyor. Başlangıç belgeleri, son kayıt, mevcut tavsiye/Watson sayfaları okundu. Yeni tarihsel erişim veyaHTMLdeğişikliği yok.
+- Tarayıcı: tavsiye özeti ve aşama ayrımı DOMda;masaüstü1265/1265,mobil305/305taşmasız,mobil görüntü incelendi. Viewport sıfırlandı.7Aralık bağlantısı Enter ile doğru onay başlık/URLsini açtı. Kronoloji dönüşü Tahliye tavsiyesi panelini seçti;Leaflet mevcut,47kayıt. Geçici sekme kapandı. Fizikselcihaz/ekranokuyucu testi değildir.
+- Kaynak: önceki27Ekim DVA22Kasım seçili okuma; bu tur yalnız darUIkabulü. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: öncekiHTMLpartisi297JS/19Python geçti;bu kayıt sonrası zorunlu32JS/19Python çalıştırılır.
+- Sonraki tek somut adım: Watson iskelesi19Haziran DVApasajını mevcut25Ekimkaydıyla karşılaştır; tamamlanma ile günlük kapasite/fiilîhizmet miktarı ayrımını koruyup mevcut kısaözetin özne/işlev netliğini kaynakla güçlendir.
+
+## R03 / R09 / R12 · 29 Ekim 2026 07.32 TSİ — Watson iskelesi tamamlanma ve hizmet ayrımı
+- Durum: devam ediyor. Başlangıç belgeleri, son adım, mevcut sayfa/veri ve25Ekimkaydı okundu.
+- Kaynak: DVA timeline19June1915girişi doğrudan incelendi;erişim29Ekim2026,yayınnull. AnzakKoyuerzak/teçhizat çıkarmaya yönelik iskelenin tamamlanması veWatsonadı desteklenir. Özgün inşaat/hizmet kayıtları görülmedi;kapasite/günlüktonaj/benzersizkullanıcı/süre çıkarılmadı. R03-watson-scope.json kanıt/tarih/sınır tutar.
+- Geliştirme: kısa özete açık kurum atfı,yer veişlev eklendi. Tamamlanma ile fiilîhizmet/kapasite ayrımı açık;8Ekim suikmali hasarına okuma bağlantısı farklı altyapı bağlamı olarak sunuldu,aynı kapasite hesabı yapılmadı. Yeni birliknumarası/zayiat/koordinat/görsel yok.
+- Kabul: yeniHTML masaüstü/mobil,8Ekim bağlantısı ve kronoloji dönüşü bekliyor. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: bütünJS/zorunluPython R03-watson-tests.txt dosyasına çalıştırılır;sonuç çıktıdan teyit edilir.
+- Sonraki tek somut adım: Watson yeni metnini masaüstü/mobil,8Ekim bağlantısı ve seçili kronoloji paneliyle doğrula; ardından yaralılar Mısır'a ulaşıyor29Nisan kaydında sevk/varış/hasta kabul ayrımına geç.
+
+## R03 / R09 / R12 · 29 Ekim 2026 07.52 TSİ — Watson görünüm ve geçiş kabulü
+- Durum: devam ediyor. Başlangıç belgeleri, son kayıt, mevcut sayfa/veri ve R03-watson-scope.json okundu. Yeni kaynak erişimi/HTMLdeğişikliği yok.
+- Tarayıcı: yeni metin DOMda;masaüstü1265/1265,mobil305/305taşmasız,mobil görüntü incelendi. Viewport sıfırlandı.8Ekim bağlantısı Enter ile Sonbahar fırtınası doğru başlık/URLsini açtı. Kronoloji dönüşü Watson İskelesi tamamlandı panelini seçti;Leaflet mevcut,47kayıt. Geçici sekme kapandı. Fizikselcihaz/ekranokuyucu testi değil.
+- Kaynak/kabul:29EkimseçiliDVA19Haziranokumasının sınırları korunur;bu tur darUIkabulü tamamlandı. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: öncekiHTMLpartisi297JS/19Python geçti;bu kayıt sonrası zorunlu32JS/19Python çalıştırılır.
+- Sonraki tek somut adım: yaralilar-misira-ulasiyor29Nisan sayfasının öznesini ve limana varış/hastaneye kabul ayrımını DVA29April girişinin mevcut25Ekimkaydıyla karşılaştır; Gascon yolcu/kayıp rakamlarını bu kısa özetten toplu doğrulanmış yapma.
+
+## R03 / R09 / R12 / R15 · 29 Ekim 2026 08.12 TSİ — Gascon varış aşamasının anlatımı
+- Durum: devam ediyor. Başlangıç belgeleri, son kayıt, mevcut sayfa/veri ve25Ekimrecords okundu. DVA29Nisan pasajı yakın doğrudan timelineokumalarında da görülmüştü;aynı erişim yeni araştırma gibi tekrarlanmadı.
+- Kaynak: DVA timeline29April1915girişi,ilk erişim25Ekim2026,yayınnull,yerel kapsam incelemesi29Ekim. Gascon'un Anzak'tan yaralı taşıyarak İskenderiye'ye varışı. Özgün seyirgünlüğü/yolcu/admission kayıtları görülmedi; kaynakta geçen yolcu/ölüm/sefer süresi sayıları bu tur alınmadı. R03-gascon-arrival-scope.json kapsamı tutar.
+- Geliştirme: gemi adı tek başına bırakılmayıp hastane gemisi/yaralı taşıma/varış aşaması kurum atfıyla açıklandı. Taşıma,karaya çıkarma,kabul,yenidensevk ayrımı ve sağlık anlatısına okuma yolu eklendi. Aynı kişinin hizmetlerde tekrar sayılabileceği açıklanır;benzersizkişi toplamı üretilmedi. Yeni künye/koordinat/görsel yok.
+- Kabul: yeniHTML masaüstü/mobil,sağlık bağlantısı ve kronoloji dönüşü bekliyor. GenelR03/R09/R12/R15ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: bütünJS/zorunluPython R03-gascon-tests.txt dosyasına çalıştırılır;sonuç çıktıdan teyit edilir.
+- Sonraki tek somut adım: Gascon yeni metnini masaüstü/mobil,sağlık bağlantısı ve seçili kronoloji paneliyle doğrula; ardından yeraltından kazma sesleri17Mayıs kaydının tekkişi gözlemi/kesin başlangıç ayrımına geç.
+
+## R03 / R09 / R12 / R15 · 29 Ekim 2026 08.32 TSİ — Gascon görünüm ve geçiş kabulü
+- Durum: devam ediyor. Başlangıç belgeleri, son kayıt, mevcutHTML/veri ve R03-gascon-arrival-scope.json okundu. Yeni tarihselerişim/HTMLdeğişikliği yok.
+- Tarayıcı: varış/kabul ayrımı DOMda;masaüstü1265/1265,mobil305/305taşmasız,mobil görüntü incelendi. Viewport sıfırlandı. Sağlık bağlantısı Enter ile doğru Sağlık ve yaralı sevki başlık/URLsini açtı. Kronoloji dönüşü Yaralılar Mısır’a ulaşıyor panelini seçti;Leaflet mevcut,47kayıt. Geçici sekme kapandı. Fizikselcihaz/ekranokuyucu testi değil.
+- Kaynak: önceki25EkimDVA29Nisanseçili okuma ve29Ekimyerel kapsam kaydı;bu tur darUIkabulü tamamlandı. Yolcu/kayıp rakamları veya benzersizkişi toplamı eklenmedi. GenelR03/R09/R12/R15ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: öncekiHTMLpartisi297JS/19Python geçti;bu kayıt sonrası zorunlu32JS/19Python çalıştırılır.
+- Sonraki tek somut adım: yeraltindan-kazma-sesleri17Mayıs kaydındaki JosephSlack gözlemini mevcutDVAkaydıyla karşılaştır; tekkişinin duyduğu sesi bütün cephede tünel çalışmalarının kesin başlangıç günü saymadan özeti ve29Mayıs devam bağlantısını netleştir.
+
+## R03 / R09 / R12 · 29 Ekim 2026 08.52 TSİ — Slack gözleminin kişi ve mevki kapsamı
+- Durum: devam ediyor. Başlangıç belgeleri, son kayıt, mevcut sayfa/veri ve25EkimDVAkaydı okundu.17Mayıs pasajı yakın29Ekim doğrudan timelineokumasında da görüldü;aynı kaynak erişimi yeni bağımsız araştırma gibi tekrarlanmadı.
+- Kaynak: DVA timeline17May1915girişi,ilk erişim25Ekim2026,yayınnull,yerel inceleme29Ekim. JosephSlack'in Quinn'sPostilerimevzide yeraltından kazma sesi duyması. Özgünkişisel/birlikkaydı görülmedi. R03-slack-observation-scope.json kapsamı tutar.
+- Geliştirme: özete kurum atfı,kişiselgözlem ve mevki kapsamı eklendi. Fark edilme günü bütün cephede tünel çalışmalarının başlangıcı yapılmadı.29Mayıs lağım taarruzuna okuma yolu eklendi; ses/belirli tünel eşleştirmesi kesinleştirilmedi. Yeni uzunluk/güzergâh/patlayıcımiktarı/saat/koordinat yok.
+- Kabul: yeniHTML masaüstü/mobil,29Mayıs bağlantısı ve kronoloji dönüşü bekliyor. GenelR03/R09/R12ve8kapı açık;commit/push/deploy/scraper/dışmesaj yok.
+- Test: bütünJS/zorunluPython R03-slack-tests.txt dosyasına çalıştırılır;sonuç çıktıdan teyit edilir.
+- Sonraki tek somut adım: Slack yeni metnini masaüstü/mobil,29Mayıs bağlantısı ve seçili kronoloji paneliyle doğrula;sonra takip kuyruğunun güncel kalanlarını listeleyip eski tarih etiketlerini tamamlanmış çalışmalarla eşleştir.
+
+## R03 / R09 / R12 · 29 Ekim 2026 11.12 TSİ — Slack görünüm ve geçiş kabulü
+- Durum: devam ediyor. Başlangıç belgeleri, son kayıt, mevcut sayfa ve R03-slack-observation-scope.json okundu. Yeni tarihsel erişim veya HTML değişikliği yok.
+- Tarayıcı: masaüstü1265/1265 ve mobil305/305 taşmasız; iki görünüm incelendi. Viewport sıfırlandı. 29 Mayıs bağlantısı Enter ile Quinn’s Post lağım taarruzu doğru başlık/URL’sini açtı. Kronoloji dönüşü Yeraltından kazma sesleri panelini seçti; Leaflet mevcut, iki taraf47kayıt. Geçici sekme kapandı. Fiziksel cihaz/ekran okuyucu testi değildir.
+- Kaynak/kabul: önceki25Ekim DVA17Mayıs seçili kurum özeti ve29Ekim kapsam kaydı; bu tur yalnız dar arayüz kabulü tamamlandı. Özgün kişisel/birlik kaydı görülmedi; gözlem bütün cephenin başlangıç tarihi sayılmadı. Genel R03/R09/R12 ve sekiz bitiş kapısı açık. Commit/push/deploy/scraper/dış mesaj yok.
+- Test: önceki HTML partisi297JS/19Python geçti. Bu kayıt sonrası zorunlu32JS/19Python sonucu R03-slack-browser-tests.txt içinde tutulur.
+- Sonraki tek somut adım: research/reports/2026-10-27/R03-new-static-text-followup.json içindeki hâlâ unreviewed_candidate olan blokları mevcut sayfa ve tamamlanan29Ekim kapsam kayıtlarıyla eşleştir; eski hash anlık görüntülerini yeni doğrulanmış tarihsel iddia saymadan açık kalan gerçek dosya/iddiaları ayır.
+
+## R03 / R09 / R12 · 29 Ekim 2026 11.32 TSİ — Eski takip anlık görüntüsünün uzlaştırılması
+- Durum: devam ediyor. Başlangıç belgeleri, mevcut on olay sayfasının kaynak paragrafları,29Ekim kapsam kayıtları ve son kabul kayıtları karşılaştırıldı. Yeni dış kaynak okuması yapılmadı.
+- Değişiklik: R03-new-static-text-followup.json içindeki kalan on tarih etiketi mevcut incelemelerle eşleştirildi; eski metin/hash korundu. pendingBlockCount elle kalmış11 yerine gerçek blok durumlarından0 hesaplandı. Bu yalnız28blokluk eski anlık görüntünün bağlam incelemesidir; tüm site veya tarihsel iddialar tamamlandı demek değildir. staleReviewCount eski anlık görüntü sayısıdır.
+- UX planındaki Birdwood/Bridges başlangıç satırı tamamlanmış alt adımları yeniden başlatmayacak biçimde güncellendi. Kaynak JSONlarındaki eski pending arayüz alanları tek başına güncel kabul durumu sayılmaz; DEVAM kabul kayıtlarıyla karşılaştırılmalı.
+- Kaynak/kabul: DVA tarihli kurum girişlerinin mevcut seçili okuma kayıtları; özgün emir/günlük yerine geçirilmedi. Genel R03/R09/R12 ve sekiz kapı açık; otomatik yayın yetkisi yok. Commit/push/deploy/scraper/dış mesaj yapılmadı.
+- Test: zorunlu32JS/19Python sonuçları R03-followup-reconciliation-tests.txt içinde tutulur.
+- Sonraki tek somut adım: Hamilton talimat sayfasının açık kalmış18Mart bağlantısını Enter ve ayrı sayfa durumu kontrolüyle doğrula; ardından kapsam JSONlarındaki eski pending arayüz alanlarını DEVAM’daki gerçek kabul kayıtlarıyla uzlaştır, yeni tarihsel doğrulama sayma.
+
+## R03 / R09 / R12 · 29 Ekim 2026 11.52 TSİ — Hamilton bağlantısı ve kabul kayıtları
+- Durum: devam ediyor. Başlangıç belgeleri, mevcut Hamilton HTML ve son kapsam/kabul notları okundu.
+- Gerçek tarayıcı kontrolü: Hamilton sayfasındaki 18 Mart Deniz Muharebesi anlatısında okuyun bağlantısı Enter ile açıldı; ayrı sonraki DOM gözleminde hedef başlık ve sayfa başlığı doğrulandı. Önceki tıklama engeli bu okuma yolu için çözüldü; kod değişikliği gerekmedi. Geçici sekme kapandı.
+- Kayıt düzeltmesi: Hamilton, Kireçtepe, Mondros, Watson ve Gascon kapsam JSONlarındaki eskimiş pending alanları DEVAM’daki gerçek kabul kayıtlarıyla uzlaştırıldı. Önceki masaüstü/mobil/harita kontrolleri bu tur yeniden yapılmış sayılmadı. Kaynak erişim tarihleri, kanıt durumu ve özgün belge sınırları değiştirilmedi.
+- Kabul: bu beş dar arayüz alanı güncel kayıtla eşleşir; tüm R03/R09/R12 veya sekiz kapı tamamlanmadı. Commit/push/deploy/scraper/dış mesaj yok.
+- Test: zorunlu32JS/19Python R03-acceptance-reconciliation-tests.txt içinde tutulur.
+- Sonraki tek somut adım: research/reports/2026-10-27/R03-residual-scope.json içindeki donanma sayı adaylarını güncel donanma/index.html ile eşleştir; öncelikle gemi özellikleri/18Mart durumları için mevcut pasaj bağlantısı olmayan ilk gerçek sayısal iddiayı belirle ve kanıt ya da görünür belirsizlikle okuyucu metninde çöz.
+
+## R03 · 29 Ekim 2026 12.12 TSİ — Inflexible kanıtsız zırh taslağının kaldırılması
+- Durum: devam ediyor. Başlangıç belgeleri, donanma sayfası, eski artık aday listesi ve25Ekim Inflexible zırh kapsam kaydı karşılaştırıldı. Eski quantity_candidate alanı dd teknik değerlerini tek başına kapsamıyor; boş aday çıktısı tam denetim sayılmadı.
+- Somut değişiklik: zaten doğrulanmadığı açıklanan178mm taslak değeri okuyucu kartından kaldırıldı. Yerine kemer/taret/güverte için tarihli kalınlık belgesinin eşleşmediği açıklandı. Yeni ölçü uydurulmadı;25Ekim arama engelleri tekrar edilmedi.26Ekim RMG güverte planı katalog açıklaması zırh kalınlığı kanıtı değildir.
+- Kaynak: R03-inflexible-armour-scope.json içinde URL/kanıt null ve claimVerified false; yeni yerel işlem R03-inflexible-armour-removal.json içinde. Tarihsel olay18Mart1915; bu tur dış erişim/yayın tarihi yok. GenelR03 ve sekiz kapı açık.
+- Kabul/test: bütünJS ve zorunluPython R03-inflexible-armour-removal-tests.txt içinde; yeni kart masaüstü/mobil ve donanma arama/temizle kontrolü bekliyor. Commit/push/deploy/scraper/dışmesaj yok.
+- Sonraki tek somut adım: donanma Inflexible kartında sayısız belirsizlik metnini masaüstü/mobil ve gemi arama/temizle akışıyla doğrula; ardından sonraki teknik alanı eski tamamlanmış incelemeleri tekrar etmeden değerlendir.
+
+## R02 / R23 · 29 Ekim 2026 — Açık kullanıcı yayın talebi
+- Durum: devam ediyor. Kullanıcı commit/push/yayın istedi; hedef önceki gibi onsekizmart.com. İzole paket88sayfa, arşiv/araştırma dışarıda. Inflexible yeni metin DOMda; masaüstü1265/mobil305 taşmasız, arama2/30 ve temizle30/30 doğrulandı.
+- Kabul: testler, commit/push, canlı hash doğrulaması tamamlanınca bu yayın partisi kapatılır; genel araştırma paketleri açık.

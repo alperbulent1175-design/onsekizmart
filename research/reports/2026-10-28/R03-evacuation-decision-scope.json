@@ -1,0 +1,29 @@
+{
+  "task": "R03/R09/R12",
+  "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+  "accessDate": "2026-10-28",
+  "publicationDate": null,
+  "events": [
+    "1915-11-22 planning as narrated under7Dec",
+    "1915-12-07 approval",
+    "1915-12-27 Helles order"
+  ],
+  "evidenceSummary": "DVA7December distinguishes prior local planning,government approval forAnzac/Suvla,and temporary retention ofHelles;27December entry separately orders Helles evacuation.",
+  "status": "selected_institutional_context_checked",
+  "limits": "Only named entries; original orders and transport logs unseen; no casualty or unit totals adopted.",
+  "browser": {
+    "desktop": [
+      1265,
+      1265
+    ],
+    "mobile": [
+      305,
+      305
+    ],
+    "seddulbahirLink": "correct heading and27December",
+    "returnSelection": "Arıburnu–Suvla tahliye onayı",
+    "map": true,
+    "clearStatus": "47records;selection retained",
+    "physicalDevice": false
+  }
+}

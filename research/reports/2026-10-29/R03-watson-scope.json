@@ -1,0 +1,12 @@
+{
+  "task": "R03/R09/R12",
+  "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+  "eventDate": "1915-06-19",
+  "publicationDate": null,
+  "accessDate": "2026-10-29",
+  "evidenceSummary": "19June entry records pier completion at Anzac Cove for landing stores and equipment;identifies name Watsons Pier.",
+  "status": "selected_institutional_entry_read",
+  "limits": "Original construction/service records unseen;no tonnage,capacity,unique users or continuous service duration inferred. Later water damage separate infrastructure context.",
+  "uiAcceptance": "DEVAM29Oct07.52: desktop1265/mobile305,storm link,selected Watson panel,Leaflet47 records; emulation only.",
+  "uiReconciliationDate": "2026-10-29"
+}

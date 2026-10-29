@@ -812,7 +812,9 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "008327eb4d2eb1bd1ecb09285deaffc12960107d048189f79d36650a1f708956",
-      "review_status": "unreviewed_candidate"
+      "review_status": "needs_evidence",
+      "review_record": "research/reports/2026-10-28/R03-weber-access-scope.json",
+      "review_note": "GND/DeutscheBiographie direct access failed; snippets not accepted. Exact life details remain open; same-name identities excluded."
     },
     {
       "page": "komutanlar/weber-pasa/index.html",
@@ -822,7 +824,9 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "bbc4d12c04ef9a557790d235e0069476994f226d059a3076b417b2a87d2ef759",
-      "review_status": "unreviewed_candidate"
+      "review_status": "needs_evidence",
+      "review_record": "research/reports/2026-10-28/R03-weber-access-scope.json",
+      "review_note": "GND/DeutscheBiographie direct access failed; snippets not accepted. Exact life details remain open; same-name identities excluded."
     },
     {
       "page": "komutanlar/william-birdwood/index.html",
@@ -832,7 +836,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "bf84a277fc9580c771e30bb5a987bdc4d327250f6c75977fa9e96b9b3702b683",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "28 October AWM selected identity reading: birth supported; old Hampton Court field superseded by Middlesex, narrower place open. Original records unseen. Browser desktop1265/mobile305 no overflow; map20/31 passed."
     },
     {
       "page": "komutanlar/william-birdwood/index.html",
@@ -842,7 +847,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "37eed7956aa946715465753fa5b2cee3a554321a90c0c9eefca93534b9cfd825",
-      "review_status": "unreviewed_candidate"
+      "review_status": "needs_evidence",
+      "review_note": "28 October AWM selected identity reading: birth supported; old Hampton Court field superseded by Middlesex, narrower place open. Original records unseen. Browser desktop1265/mobile305 no overflow; map20/31 passed."
     },
     {
       "page": "komutanlar/william-bridges/index.html",
@@ -852,7 +858,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "6e2e345056715f22491c2728cb0e913cd8d2848523dfe7d7e50f38babb77be22",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "Reconciled with existing 26 October AWM date evidence and 17 October role paragraph; not a new reading. Exact command handover and daily locations remain open. Do not repeat completed life-date review."
     },
     {
       "page": "komutanlar/william-bridges/index.html",
@@ -862,7 +869,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "558e0982259825f668586a9d9fb4bce6afeca86fbcf3c7f8859f1aa30803f05e",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "Reconciled with existing 26 October AWM date evidence and 17 October role paragraph; not a new reading. Exact command handover and daily locations remain open. Do not repeat completed life-date review."
     },
     {
       "page": "komutanlar/william-bridges/index.html",
@@ -872,7 +880,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "5518427f47ddf7af16856fc14ae5ba133f68d13b970039955c394bf2ff1686f1",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "Reconciled with existing 26 October AWM date evidence and 17 October role paragraph; not a new reading. Exact command handover and daily locations remain open. Do not repeat completed life-date review."
     },
     {
       "page": "komutanlar/william-bridges/index.html",
@@ -882,7 +891,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "5518427f47ddf7af16856fc14ae5ba133f68d13b970039955c394bf2ff1686f1",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "Reconciled with existing 26 October AWM date evidence and 17 October role paragraph; not a new reading. Exact command handover and daily locations remain open. Do not repeat completed life-date review."
     }
   ],
   "limits": "First nine fields considered; dAmade May1915 handover and Hunter exact birth details/death place remain needs_evidence. Remaining commander fields pending. No general historical verification."

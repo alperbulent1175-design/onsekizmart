@@ -1,0 +1,15 @@
+{
+  "task": "R03/R09/R12",
+  "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+  "eventDate": "1915-08-15",
+  "publicationDate": null,
+  "lastUpdated": "2024-12-06",
+  "sourceAccessDate": "2026-10-27",
+  "localReconciliationDate": "2026-10-29",
+  "evidence": "British units advanced against Turkish positions on Kiretch Tepe Ridge; little progress.",
+  "status": "existing_selected_institutional_reading_reused",
+  "priorRecord": "research/reports/2026-10-27/R03-autumn-evacuation-scope.json",
+  "limits": "Original orders/diaries unseen. No casualty number,exact stop line or whole ridge capture inferred. No new external reading claimed.",
+  "uiAcceptance": "DEVAM29Oct02.32: desktop1265/mobile305 no overflow; mobile screenshot inspected; Enter21August link and selected Kirectepe chronology panel,Leaflet47 records.",
+  "uiReconciliationDate": "2026-10-29"
+}

@@ -1,0 +1,31 @@
+{
+  "task": "R03 / R14",
+  "reviewDate": "2026-10-28",
+  "status": "needs_evidence_life_source_access",
+  "page": "komutanlar/weber-pasa/index.html",
+  "lifeFields": [
+    "12 Eylül 1860, Kamen",
+    "29 Ekim 1933, Berlin"
+  ],
+  "attempts": [
+    {
+      "url": "https://d-nb.info/gnd/14058014X",
+      "result": "not_accessible_via_web_tool"
+    },
+    {
+      "url": "https://www.deutsche-biographie.de/14058014X.html",
+      "result": "cache_miss"
+    }
+  ],
+  "evidence": null,
+  "publicationDate": null,
+  "accessDate": null,
+  "limits": "Wikidata authority reference only a lead; actual authority passage not read. Same-name1898writer/1906municipal official excluded. Search snippet not proof. No historical claim marked verified.",
+  "roleReview": {
+    "sourceURL": "https://canakkalesavaslariansiklopedisi.com/33uncu-piyade-alayi/",
+    "existingReadingDate": "2026-10-17",
+    "scope": "Existing15Corps/11Division association kept; not a life date source. No new reading claimed."
+  },
+  "nextCondition": "Readable GND/civil/institutional record for exact life dates/places; do not repeat same access failures",
+  "releaseScope": "No new commit/push/deploy. Existing28October live release retained; pending GitHub scope approval unchanged"
+}

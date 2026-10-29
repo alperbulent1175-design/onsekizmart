@@ -1,0 +1,45 @@
+✔ kaynak modeli sayfa numarası uydurmaz ve belgesiz görseli yayımlamaz (4.4856ms)
+✔ 18 Mart kaydı varsa boş durum mesajı üretilmez (10.5873ms)
+✔ olayı olmayan bir gün sahte olay üretmez (0.5424ms)
+✔ aralık notu olay sayılmaz, konum yaklaşık veya şematik işaretlenir (0.8937ms)
+✔ ana sayfa 18 Mart için boş kayıt cümlesi taşımaz ve kontroller durur (2.0489ms)
+✔ kayıt sayfası özetten sonra kaynak çerçevesini gösterir (7.1844ms)
+✔ 18 Mart’ta batan üç gemi durur ve Hamilton deniz komutanı yazılmaz (7.0512ms)
+✔ boş hayat alanları doldurulmaz (27.0491ms)
+✔ mobil düzen ve katman düğmesi kuralları durur (9.1589ms)
+✔ çalışma alanı üç bölümlü, daraltılabilir ve türkçe arama katlar (4.751ms)
+✔ katalog kimliği, adresi ve durumu sınırlıdır (5.2942ms)
+✔ kaynakça türü, bağlantıyı ve durumu gösterir (6.1097ms)
+✔ devam künyeleri bağlantı ve durum taşır, iddia doğrulamaz (5.9279ms)
+✔ 16 ve 17 Mart tek güne indirilmez (3.4663ms)
+✔ kaynakça süzgeci mevcut kartları süzer ve veri basmaz (7.4164ms)
+✔ yayımlanan sayfalarda GA4 etiketi tektir (277.4091ms)
+✔ kaynak çerçevesi iddiayı belgelemiş sayılmaz ve html kaçırılır (12.1784ms)
+✔ saat sırası bozulmaz ve kampanya tarihleri 1915-1916 aralığındadır (9.4359ms)
+✔ site haritası, başlıklar ve iç bağlantılar yayımlanan dosyalarla örtüşür (1291.8359ms)
+✔ harita kütüphanesi yokken kronoloji çizilir ve arama metni html olmaz (70.8136ms)
+✔ iletişim notu göndermez ve erişilebilirlik kuralları durur (3.2819ms)
+✔ yayın sayfalarında analytics kimliği bir kez kurulur (119.8077ms)
+✔ karo kesintisi uyarısı başarıya kadar kalır ve yalnız açık katman yeniden denenir (3.4307ms)
+✔ atlas araması boş sonucu bildirir, ok tuşları ve Escape ile odağı korur (5.6108ms)
+✔ bilgi paneli kapanınca odak görünür arama kontrolüne döner (3.6793ms)
+✔ yeni kayıt seçimi daraltılmış kontrol panelini açar (2.8495ms)
+✔ araç yerleşimi değişince odak gizli panel veya düğmede kalmaz (2.1557ms)
+✔ site içi bölüm bağlantıları yayımlanan sayfalarda gerçek hedefe gider (143.365ms)
+✔ harita aramasında kapalı sonuçlar ok tuşuyla yeniden açılır; Escape kapatır (2.4243ms)
+✔ harita aramasından sonuç seçmek ilk sorguyu değiştirmez (2.391ms)
+✔ karo uyarısı kaldırıldığında yalnız uyarının içindeki odak geri taşınır (4.0696ms)
+✔ karo hatasında alternatif taban harita olay katmanlarını ve görünümü değiştirmez (2.9541ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1990.6922
+...................
+----------------------------------------------------------------------
+Ran 19 tests in 0.152s
+
+OK

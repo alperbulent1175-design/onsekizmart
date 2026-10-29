@@ -1,0 +1,12 @@
+{
+  "task": "R03/R09/R12",
+  "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+  "eventDate": "1915-05-17",
+  "publicationDate": null,
+  "originalAccessDate": "2026-10-25",
+  "localReviewDate": "2026-10-29",
+  "evidenceSummary": "17May entry: Joseph Slack heard picks tunnelling underground at forward sap atQuinnsPost.",
+  "status": "existing_selected_institutional_passage_reused",
+  "limits": "Original personal/unit record unseen. Observation date not universal mining start. No route,length,charge or exact tunnel link inferred.",
+  "uiAcceptance": "2026-10-29: desktop1265/mobile305 no horizontal overflow; both screenshots inspected; Enter opened29May page; chronology return selected Slack panel with Leaflet and47 records. Emulation only."
+}

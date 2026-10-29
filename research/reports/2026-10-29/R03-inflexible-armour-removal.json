@@ -1,0 +1,16 @@
+{
+  "task": "R03",
+  "reviewDate": "2026-10-29",
+  "page": "donanma/index.html#inflexible",
+  "previousRecord": "research/reports/2026-10-25/R03-inflexible-armour-scope.json",
+  "oldValue": "178 mm",
+  "sourceUrl": null,
+  "evidenceText": null,
+  "claimVerified": false,
+  "action": "Removed unsupported numerical draft from reader card; retained explicit section/date evidence gap. No new historical measurement substituted.",
+  "eventDate": "1915-03-18",
+  "publicationDate": null,
+  "accessDate": null,
+  "limits": "Local reconciliation only. Existing26Oct RMG catalogue note describes deck plan, not armour thickness. Original armour plan unseen.",
+  "uiAcceptance": "pending desktop/mobile and navy filter"
+}

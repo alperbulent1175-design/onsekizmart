@@ -293,7 +293,7 @@
         "domain": "ikisi",
         "battle": false,
         "title": "Mondros’ta çıkarma hazırlığı",
-        "text": "Çıkarma gemileri Mondros’ta toplandı.",
+        "text": "Çıkarma hazırlığı için gemiler Limni’deki Mondros Limanı’nda toplandı.",
         "place": null,
         "chronologySource": {
           "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
@@ -303,7 +303,7 @@
           "publicationDate": null,
           "accessDate": "2026-10-25",
           "status": "kurumsal_ozet_pasaji_okundu",
-          "evidenceText": "Çıkarma gemileri Mondros’ta toplandı.",
+          "evidenceText": "Çıkarma hazırlığı için gemiler Limni’deki Mondros Limanı’nda toplandı.",
           "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi."
         }
       },

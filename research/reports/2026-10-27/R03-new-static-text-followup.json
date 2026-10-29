@@ -12,7 +12,8 @@
       ],
       "quantity_candidate": false,
       "text_sha256": "6d88fdd418b30dd282c88344837eea3d848e6cf9309d13d88eef4aab4ff4d319",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "28 October reconciliation with 25 October chronology DEVAM final continuation and records e-mayis-sessiz-1: image5/leaf47 completed after earlier image3-4 note. No new external reading. 63 pages is collection extent, not read count; selected passages only; clock system uncalibrated."
     },
     {
       "page": "kronoloji-kaynaklari/index.html",
@@ -22,7 +23,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "4da89b696d6712f28db83561cfa58dc513cb56e25eca5807d74294696153e9c8",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "28 October reconciliation with 25 October chronology DEVAM final continuation and records e-mayis-sessiz-1: image5/leaf47 completed after earlier image3-4 note. No new external reading. 63 pages is collection extent, not read count; selected passages only; clock system uncalibrated."
     },
     {
       "page": "olaylar/anzak-sevk-emri/index.html",
@@ -32,7 +34,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "Historical snapshot label superseded by explicit first25Oct/review28Oct dates in current HTML. Selected DVA entries read28Oct; original orders unseen. Narrow browser acceptance completed28Oct. No whole-event verification."
     },
     {
       "page": "olaylar/ariburnu-suvla-tahliye-onayi/index.html",
@@ -42,7 +45,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "Historical snapshot label superseded by explicit first25Oct/review28Oct dates in current HTML. Selected DVA entries read28Oct; original orders unseen. Narrow browser acceptance completed28Oct. No whole-event verification."
     },
     {
       "page": "olaylar/ateskes-gorusmeleri/index.html",
@@ -52,7 +56,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "4602354ed9c3c985894dc61809fa8062670a47b5004ae926084ff02d33c91416",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "28Oct catalogue review and local narrative now record first25Oct/review28Oct separately. Signed agreement not read; narrow browser acceptance passed."
     },
     {
       "page": "olaylar/conkbayiri-muharebesi/index.html",
@@ -64,7 +69,8 @@
       ],
       "quantity_candidate": false,
       "text_sha256": "13dcb17c960d145d6aae0a1575a8fb68f73ced682c54d74873747eff90774284",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "Reconciled with R03-conkbayiri-stage-scope.json27Oct and current HTML. 6-10 local slice,10Aug assault,6-21 DVA title scope distinct. No new external reading, original orders unseen; no separate10Aug campaign record claimed."
     },
     {
       "page": "olaylar/conkbayiri-muharebesi/index.html",
@@ -76,7 +82,8 @@
       ],
       "quantity_candidate": false,
       "text_sha256": "e512bb3d27c136c07ac305dc5104d81e03fd3dcc4975a603b4ca21c479a3263c",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "Reconciled with R03-conkbayiri-stage-scope.json27Oct and current HTML. 6-10 local slice,10Aug assault,6-21 DVA title scope distinct. No new external reading, original orders unseen; no separate10Aug campaign record claimed."
     },
     {
       "page": "olaylar/conkbayiri-muharebesi/index.html",
@@ -86,7 +93,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "58fea6199b4e5b2aae7402e41b111387dbb248337d4e1f59c90365e6a741b6f8",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "Reconciled with R03-conkbayiri-stage-scope.json27Oct and current HTML. 6-10 local slice,10Aug assault,6-21 DVA title scope distinct. No new external reading, original orders unseen; no separate10Aug campaign record claimed."
     },
     {
       "page": "olaylar/conkbayiri-muharebesi/index.html",
@@ -96,7 +104,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "cc8bc4fa73014a595a5a3f312087fbdc009022cfed3e2a93000dc2305f68c628",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "Reconciled with R03-conkbayiri-stage-scope.json27Oct and current HTML. 6-10 local slice,10Aug assault,6-21 DVA title scope distinct. No new external reading, original orders unseen; no separate10Aug campaign record claimed."
     },
     {
       "page": "olaylar/hamiltona-talimat/index.html",
@@ -106,7 +115,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct Hamilton instruction scope record; current HTML separates first25Oct/review29Oct. Original instructions unseen;18March onward link acceptance remains open in DEVAM. Historical snapshot text/hash retained; context reconciliation only, not whole-event verification."
     },
     {
       "page": "olaylar/hastane-ekibi-limnide/index.html",
@@ -116,7 +126,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct selected DVA29July rereading confirms arrival/equipment delay distinction already visible. No service commencement date inferred; no repeated HTML change."
     },
     {
       "page": "olaylar/ikinci-anafartalar-muharebesi/index.html",
@@ -129,7 +140,8 @@
       ],
       "quantity_candidate": false,
       "text_sha256": "bac0cb177ea27478cd10f6fc4b6e3589d87e1b8baa0c8f05b53ef8f4d624663b",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct reconciliation with27Oct DEVAM and current linked KTB/DVA paragraphs.21Aug local event,Scimitar/W Hills,Hill60 and27-29Aug followup distinct. No new reading or original operational orders."
     },
     {
       "page": "olaylar/ikinci-anafartalar-muharebesi/index.html",
@@ -139,7 +151,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "b5fbfd88d4af6b48a31294063f8ab6051c89ac02b2eed47afcb7762cb2bc2c92",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct reconciliation with27Oct DEVAM and current linked KTB/DVA paragraphs.21Aug local event,Scimitar/W Hills,Hill60 and27-29Aug followup distinct. No new reading or original operational orders."
     },
     {
       "page": "olaylar/kirectepe-taarruzu/index.html",
@@ -149,7 +162,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct Kirectepe scope record reuses27Oct selected entry; British advance/little progress only, not whole ridge capture. Historical snapshot text/hash retained; context reconciliation only, not whole-event verification."
     },
     {
       "page": "olaylar/kolera-asilamasi/index.html",
@@ -159,7 +173,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct reconciliation with existing25Oct7July DVA entry and later direct timeline reading: inoculations began, not all personnel vaccinated or outbreak proven. Existing HTML scope retained; no new external reading."
     },
     {
       "page": "olaylar/mayin-tarama-girisimleri/index.html",
@@ -169,7 +184,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct DEVAM mine-sweeping review:1–17March interval not single sortie; existing25Oct institutional reading; no original operational log. Historical snapshot text/hash retained; context reconciliation only, not whole-event verification."
     },
     {
       "page": "olaylar/mondrosta-cikarma-hazirligi/index.html",
@@ -179,7 +195,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct Mudros scope record and narrative distinguish generic ships from landing-craft classification; current HTML separates review dates. Historical snapshot text/hash retained; context reconciliation only, not whole-event verification."
     },
     {
       "page": "olaylar/quinns-post-lagim-taarruzu/index.html",
@@ -189,7 +206,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct selected DVA29May reading and revised first/review date note; narrow browser acceptance passed. Not9-10Mayraid;original orders unseen."
     },
     {
       "page": "olaylar/quinns-post-siper-baskini/index.html",
@@ -201,7 +219,8 @@
       ],
       "quantity_candidate": false,
       "text_sha256": "93694f759cc43973c469154a46276aa923e376345ee6ebebd6e37ac4c34abdbc",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct reconciliation with25Oct selected diary image4-5/leaf46-47 and completed continuation note.21:00plan22:30attack,nextday06:00return07:00counterattack distinct;63pages not all read;clocks uncalibrated. No new source reading."
     },
     {
       "page": "olaylar/quinns-post-siper-baskini/index.html",
@@ -211,7 +230,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "de75426ba310e8329dcb96009964fa804af5d016932e1ff60d22cbdf611e848e",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct reconciliation with25Oct selected diary image4-5/leaf46-47 and completed continuation note.21:00plan22:30attack,nextday06:00return07:00counterattack distinct;63pages not all read;clocks uncalibrated. No new source reading."
     },
     {
       "page": "olaylar/quinns-post-siper-baskini/index.html",
@@ -221,7 +241,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "36d05f1adcf3c38ba1ce5ba5a6f97a36c0e0d4fe6dc702ddcb17702e716c2231",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct reconciliation with25Oct selected diary image4-5/leaf46-47 and completed continuation note.21:00plan22:30attack,nextday06:00return07:00counterattack distinct;63pages not all read;clocks uncalibrated. No new source reading."
     },
     {
       "page": "olaylar/seddulbahir-tahliye-emri/index.html",
@@ -231,7 +252,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct reconciliation with DVA27Dec entry already read in evacuation review;order not physical final withdrawal,original order unseen."
     },
     {
       "page": "olaylar/sonbahar-firtinasi/index.html",
@@ -241,7 +263,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "27Oct autumn/evacuation scope and29Oct storm narrative/browser acceptance:8Oct Anzac water-supply damage not whole-front effect. Historical snapshot text/hash retained; context reconciliation only, not whole-event verification."
     },
     {
       "page": "olaylar/tahliye-tavsiyesi/index.html",
@@ -251,7 +274,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "27Oct DVA22Nov selected passage reused29Oct; advice not approval/order/execution; later approval linked. Historical snapshot text/hash retained; context reconciliation only, not whole-event verification."
     },
     {
       "page": "olaylar/watson-iskelesi-tamamlandi/index.html",
@@ -261,7 +285,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct Watson scope and browser acceptance; completed pier not measured capacity/service total; current HTML explicit review dates. Historical snapshot text/hash retained; context reconciliation only, not whole-event verification."
     },
     {
       "page": "olaylar/yagmur-ve-kar-firtinasi/index.html",
@@ -271,7 +296,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "27Oct autumn/evacuation scope reused29Oct;27–28Nov storm distinct from8Oct; no aggregate casualty claim. Historical snapshot text/hash retained; context reconciliation only, not whole-event verification."
     },
     {
       "page": "olaylar/yaralilar-misira-ulasiyor/index.html",
@@ -281,7 +307,8 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct Gascon scope/browser record; original25Oct selected entry, arrival not admission or unique patient total. Historical snapshot text/hash retained; context reconciliation only, not whole-event verification."
     },
     {
       "page": "olaylar/yeraltindan-kazma-sesleri/index.html",
@@ -291,8 +318,11 @@
       "links": [],
       "quantity_candidate": false,
       "text_sha256": "913f6265ca259b0e252552ec6c408a5b5307f09ef5cc0abef72755d1a5db54f4",
-      "review_status": "unreviewed_candidate"
+      "review_status": "context_checked",
+      "review_note": "29Oct Slack scope/browser record; original25Oct selected entry, individual observation not universal mining start. Historical snapshot text/hash retained; context reconciliation only, not whole-event verification."
     }
   ],
-  "staleReviewCount": 24
+  "staleReviewCount": 24,
+  "pendingBlockCount": 0,
+  "reconciledDate": "2026-10-29"
 }
