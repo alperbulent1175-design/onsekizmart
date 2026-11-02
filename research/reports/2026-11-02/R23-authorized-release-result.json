@@ -1,0 +1,24 @@
+{
+  "task": "R02/R23",
+  "status": "tamamlandı (2Kasım yetkili yayın işlemi;genelAtlas tamamlanması değildir)",
+  "date": "2026-11-02",
+  "authorization": "Kullanıcının açık commit/push/yayın talebi ve yinelenen devam talebi;otomatik sonraki yayınları yetkilendirmez.",
+  "commit": "e2757be0cf420a2b64c9d503152a7c80479995f0",
+  "repository": "https://github.com/alperbulent1175-design/onsekizmart",
+  "domain": "https://onsekizmart.com",
+  "scope": "88sayfa;161kamusal dosyaHTTP200+SHA256birebir;canlı483bayt.htaccessönce/sonraAPIiçerik/boyut eşleşmesi",
+  "backup": "research/deployment/2026-11-02-atlas-release/before;162dosyanın yerel yedek hashleri kontrol edildi. YapılandırmaAPIaktarımı son satır sonunu atlar.",
+  "tests": {
+    "javascript": 299,
+    "python": 298,
+    "failed": 0
+  },
+  "excluded": [
+    "archive/",
+    "eurorailtimes-production/",
+    ".codex/",
+    "tmp/",
+    "screenshots"
+  ],
+  "limits": "R12genel kabulü ve ilk sürüm bitiş kapıları bu yayınla kapanmadı. Geri dönüş paketi hazır;canlı geri yükleme yapılmadı."
+}

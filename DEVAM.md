@@ -2032,3 +2032,10 @@ Kullanıcı commit, push ve yayın istedi. 158 dosyalık paket hazırlandı; ön
 - Kapsam:88sayfa/161kamusal dosya ve mevcut canlı .htaccess;onsekizmart.com Hostinger hedefi doğrulandı.161HTTP200dosya yeni yedekten hash ile doğrulandı. Canlı483bayt yapılandırmanın API aktarımı önceki dosyayla karşılaştırıldı;yalnız aktarımın atladığı son satır sonu farkı var.94kamusal dosya değişik. Atlas kod/veri/metin/test ve metin araştırma izleri commit kapsamı;archive/,başka proje,.codex/,tmp ve ekran görüntüleri dışarıda.
 - Test:bütün299JavaScript ve bütün298Python geçti,0hata;research/deployment/2026-11-02-atlas-release/tests.txt. Paket/geri dönüş planı ve yedek aynı klasörde;yayın sonucu result.json/verification.json içinde tutulacak. GenelR12kapatılmadı.
 - Sonraki somut adım:hazır dosyaları commit/push et,stage dizinini Hostinger’a yayınla ve162dosyayı doğrula.
+
+
+## R02/R23 · 2 Kasım2026 — yetkili commit/push/yayın tamamlandı
+- Durum: tamamlandı (bu yayın işlemi). Atlas değişiklikleri e2757be commit’iyle origin/main’e gönderildi ve onsekizmart.com’a yayınlandı.161kamusal dosya HTTP200+SHA256ile paketle birebir eşleşti;483bayt.htaccess yayından sonra HostingerAPIile tekrar okunup önceki içerik/boyutla eşleşti.API son satır sonunu atladığından yapılandırmanın içerik karşılaştırması bu sınırla kaydedildi.
+- Test:bütün299JavaScript/298Python geçti,0hata.162dosyalık güncel yedek/hash listesi ve geri dönüş paketi research/deployment/2026-11-02-atlas-release içinde. Sonuç research/reports/2026-11-02/R23-authorized-release-result.json. archive/,ilgili olmayan proje,.codex/,tmp ve ekran görüntüleri commit/yayın dışında kaldı.
+- Kabul sınırı:Yayın işlemi tamam;genelR12/ilk88sayfanın bitiş kapıları kapanmadı.Geri dönüş dosyaları hazır;canlı geri yükleme yapılmadı.Bu açık talep sonraki otomasyon yayınlarına sürekli yetki değildir.
+- Sonraki tek somut adım:araştırma kuyruğundaki R12’ye dön;js/data.js beş narrativeSource kaydı ve narrativeEvidence gösteriminde ilk AWMdaktilo kopyasının tarih/künye/konumlayıcı ayrımını mevcut kanıtla okuyucuya uygula.
