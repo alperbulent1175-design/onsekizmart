@@ -1,0 +1,25 @@
+{
+  "task": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "changed": [
+    {
+      "id": "e-mart-nisan",
+      "section": 2
+    },
+    {
+      "id": "e-mayis-sessiz-2",
+      "section": 1
+    },
+    {
+      "id": "e-haziran-sessiz",
+      "section": 1
+    }
+  ],
+  "pages": [
+    "olaylar/anzak-sevk-emri/index.html",
+    "olaylar/yeraltindan-kazma-sesleri/index.html",
+    "olaylar/watson-iskelesi-tamamlandi/index.html"
+  ],
+  "scope": "Üç mevcut DVA kronoloji notu aynı URLnin önceden kontrol edilmiş2024künyesiyle yapılandırıldı;olay pasajları yeniden okunmuş sayılmadı,eski erişim tarihleri korundu.19Haziran kurum başlığı kesin yapım tarihi değildir."
+}

@@ -1,0 +1,220 @@
+{
+  "task": "R10",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "purpose": "YolharitasınınDVAağırlıklıyeni18kısakayıtbulgusuiçinkapsamkontrolü;anaçıkarmaolaylarınaeklenen5bölümlepaketkapatılmaz.",
+  "rows": [
+    {
+      "id": "e-mart-sessiz-1",
+      "title": "Mayın tarama girişimleri",
+      "narrativeSources": [
+        "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/dardanelles-strategy",
+        "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "DVA dönem özeti ile kurumun obüs değerlendirmesi aynı kaynak ailesi; özgün Osmanlı ateş emri açık ve görünür.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-mart-sessiz-2",
+      "title": "Hamilton’a talimat",
+      "narrativeSources": [
+        "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "Hamilton geriye dönük görüşme anlatısı ile DVA talimat tarihi ayrılıyor; özgün onaylı belge görülmüş sayılmıyor.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-mart-nisan",
+      "title": "ANZAK sevk emri",
+      "narrativeSources": [
+        "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+        "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "Hamilton karargâh hazırlığı bütün birliklerin bindirilmesi değildir; DVA 1 Nisan emir ve12 Nisan varış başlangıcı ayrı. İki anlatı bağımsız sevk cetveli sayılmıyor.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-nisan-sessiz",
+      "title": "Mondros’ta çıkarma hazırlığı",
+      "narrativeSources": [
+        "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "Hamilton20–21 Nisan bekleme/yayımlanan emir anlatısı; meteoroloji cetveli ve her birliğe teslim/uygulama açık.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-nisan-mayis",
+      "title": "Yaralılar Mısır’a ulaşıyor",
+      "narrativeSources": [
+        "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1069997/document/5520745.PDF#page=14",
+        "https://www.gutenberg.org/files/41911/41911-h/41911-h.htm"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "Butler resmî sağlık tarihi ile Barrett–Deane görevli anlatısı ayrı eserlerdir; gemi yolcuları ve karma hastane kabulleri aynı nüfus kabul edilmemiş.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-mayis-sessiz-1",
+      "title": "Quinn’s Post siper baskını",
+      "narrativeSources": [
+        "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922380.JPG",
+        "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922381.JPG",
+        "https://atamdergi.gov.tr/eng/full-text/1146/tur"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "15.Tabur günlüğü ve Öz üzerinden10 Mayıs Osmanlı emri; kaynak kapsamı aynı değil, emir uygulama sayılmıyor. Saat farkı açık.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-mayis-sessiz-2",
+      "title": "Yeraltından kazma sesleri",
+      "narrativeSources": [
+        "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "Slack kişisel gözlemi DVA üzerinden; belirli tünel/patlama eşlemesi yok. Esat Paşa’nın sonraki hazırlık anlatısı aynı17 Mayıs gözlemi yapılmamış.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-mayis-sessiz-3",
+      "title": "Ateşkes görüşmeleri",
+      "narrativeSources": [
+        "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "AWM22 Mayıs fotoğraf kaydı ve Hamilton önceki gün teması farklı olay aşamaları. Ortak görüşme tutanağı sayılmıyor; R11 anlaşma zinciri ayrıca açık.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-mayis-haziran",
+      "title": "Quinn’s Post lağım taarruzu",
+      "narrativeSources": [
+        "https://dergipark.org.tr/en/download/article-file/45082#page=8",
+        "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1009992/bundled/RCDIG1009992.pdf#page=39"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "AWM harekât raporu ve Karataş üzerinden Esat Paşa hatıratı; farklı taraftan pasajlar görünür. Özgün hatırat ve Osmanlı emri açık; tek kesin saat yok.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-haziran-sessiz",
+      "title": "Watson İskelesi tamamlandı",
+      "narrativeSources": [
+        "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "https://www.awm.gov.au/collection/C2690050"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "DVA tamamlanma ve AWM menü açıklaması18/19 Haziran farkı görünür. Özgün menü/mühendislik teslim tutanağı okunmuş sayılmıyor.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-temmuz-sessiz",
+      "title": "Kolera aşılaması",
+      "narrativeSources": [
+        "https://www.gutenberg.org/files/41911/41911-h/41911-h.htm"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "DVA7 Temmuz Anzak başlangıcı kısa cevapta açıkça atfedildi. Barrett–Deane’in Mısır risk notu ayrı bağlam; Anzak özgün aşılama emri veya salgın kanıtı değil.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-temmuz-agustos",
+      "title": "Hastane ekibi Limni’de",
+      "narrativeSources": [
+        "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1070002/document/5520750.PDF#page=15"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "DVA29 Temmuz ile resmî sağlık tarihinin Ağustos aşamaları görünür ayrılmış. Personel/donanım/hasta kabulü eşzamanlı sayılmıyor; görüntü erişim sınırı yazılı.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-agustos-sessiz",
+      "title": "Kireçtepe taarruzu",
+      "narrativeSources": [
+        "https://www.gallipoli-association.org/on-this-day/august/15",
+        "https://acikerisim.comu.edu.tr/server/api/core/bitstreams/81a91c95-16be-4661-a892-1018254822bd/content#page=146"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "Gallipoli Association yerel İngiliz kesimi ile Dinç üzerinden16 Ağustos Osmanlı koruma yazısı ayrı gün/kapsam. Aynı Dinç ansiklopedi maddesi ikinci tanık sayılmıyor.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-sonbahar",
+      "title": "Sonbahar fırtınası",
+      "narrativeSources": [
+        "https://www.gutenberg.org/cache/epub/22021/pg22021-images.html"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "Hamilton hasar haberini9 Ekimde önceki gece için aktarıyor. Yeni iskele/gemi önerileri uygulama veya bütün cephenin su sonucu sayılmıyor.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-kitchener-tahliye",
+      "title": "Tahliye tavsiyesi",
+      "narrativeSources": [
+        "https://www.usni.org/magazines/proceedings/1916/may/european-war-notes"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "DVA Kitchener tavsiyesi ile Monro’nun önceki askerî değerlendirmesi ayrı. Monro metni Kitchener22 Kasım telgrafının aslı yapılmamış.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-kasim-firtina",
+      "title": "Yağmur ve kar fırtınası",
+      "narrativeSources": [
+        "https://www.awm.gov.au/articles/blog/preliminary-stage-evacuation-anzac-cove"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "AWM günlük temelli anlatı Anzak2.Taburla sınırlı; bütün yarımada/Osmanlı hava ve sağlık kaybı genellemesi yapılmamış. Koruma emri uygulama sonucu değil.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-aralik-onay",
+      "title": "Arıburnu–Suvla tahliye onayı",
+      "narrativeSources": [
+        "https://www.awm.gov.au/articles/blog/preliminary-stage-evacuation-anzac-cove",
+        "https://www.usni.org/magazines/proceedings/1916/may/european-war-notes"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "DVA7 Aralık onayı kısa cevapta Arıburnu/Suvla ile sınırlandı. AWM plan aşamaları ve Monro gerekçesi imzalı hükümet kararı veya Osmanlıların hiçbir şey fark etmediği kanıtı değil.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    },
+    {
+      "id": "e-aralik-ocak",
+      "title": "Seddülbahir tahliye emri",
+      "narrativeSources": [
+        "https://wm.awm.gov.au/read/evacuation-helles",
+        "https://transcribe.awm.gov.au/transcription/item/rcdig0000002-5"
+      ],
+      "reviewStatus": "tamamlandı",
+      "scope": "URLenvanteridir;domainbağımsıztanıkveyaiddiadoğrulaması değildir.",
+      "evaluation": "DVA27 Aralık ile Birdwood28 Aralık kaydı aynı emrin çıkış/teslim zinciri diye kesinleştirilmemiş. Hart sonraki değerlendirme, Birdwood aktarım; Fransız ayrılış planı fiilî bindirme değil.",
+      "acceptanceScope": "Yalnız mevcut okuyucu metninin kaynak perspektifi, olay kapsamı ve görüş/olgu sınırı denetimi. Bütün tarihsel iddiaların bağımsız özgün belge doğrulaması veya R10 paket kabulü değildir."
+    }
+  ],
+  "nextStep": "Seçilmiş karşılaşmalar için R10 kabul matrisini değerlendir: Quinn9–10/29Mayıs,Kireçtepe,Kumkale,Arıburnu,Seddülbahir. Her satırda taraf hedefi/karşılaşma/sonuç ve türeyen kaynak zincirini mevcut HTML ile eşleştir; açık kalan somut koşulu belirt.",
+  "constraints": "İdariemir/sağlık/havaolayındaheriddiaiçinyapayiki-tarafsimetrisiaranmaz;gözleminalanıvegenellemesınırıayrıcadenetlenir.Çatışmaolaylarındakarşılıklıamaç/karşılaşma/sonuçvebilinmeyenlergörünürolmalıdır.",
+  "reviewedScopeCount": 18,
+  "reviewMethod": "Mevcut18kaydın özet/bağlam/anlatı metinleri dar partilerle okundu; kesilen Watson/sağlık pasajları ayrıca alındı. Yeni tarihsel kaynak okuması sayılmadı."
+}

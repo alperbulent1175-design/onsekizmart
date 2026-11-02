@@ -1,0 +1,11 @@
+{
+  "task": "R23",
+  "scope": "R10 Arıburnu yerel farkı;tammanifest değil.",
+  "publication": "Yeni açık talebe bağlı engelli.",
+  "files": [
+    {
+      "path": "olaylar/ariburnu-cikarmasi/index.html",
+      "sha256": "ac2f565b6a155709eb6815dd7aeccadd0185c535684e507f0fac97cbbbf5db52"
+    }
+  ]
+}

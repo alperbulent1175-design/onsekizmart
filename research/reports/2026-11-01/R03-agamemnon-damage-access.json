@@ -1,0 +1,37 @@
+{
+  "task": "R03",
+  "reviewDate": "2026-11-01",
+  "claim": "Agamemnon18March deck/wireless damage detail",
+  "claimVerified": false,
+  "eventDate": "1915-03-18",
+  "evidence": null,
+  "attempts": [
+    {
+      "url": "https://transcripts.sl.nsw.gov.au/page/item-02-ellis-ashmead-bartlett-articles-gallipoli-campaign-1915-page-11",
+      "result": "Direct fetch timed out; indexed text not treated as direct passage reading.",
+      "accessAttemptDate": "2026-11-01",
+      "publicationDate": null
+    },
+    {
+      "url": "https://archival-classic.sl.nsw.gov.au/_transcript/2014/D24758/a6834.html",
+      "result": "Direct open/find502; alternateacms timed out. Index exposes A1584/page17 lead; do not publish its counts/minutes from search text.",
+      "accessAttemptDate": "2026-11-01",
+      "publicationDate": null
+    },
+    {
+      "url": "https://www.naval-history.net/WW1Books-Sources-Navy_Records-Naval%20Review.htm",
+      "result": "Bibliographical index read,notarticle. Index associates Agamemnon narrative with1916-1 while parenthetical date range ends1917; unresolved index inconsistency. Not damage evidence.",
+      "accessDate": "2026-11-01",
+      "publicationDate": null
+    },
+    {
+      "url": "https://www.naval-review.com/pastiss.asp",
+      "result": "Old archive link404; current homepage timed out. Stop repeating until access changes.",
+      "accessAttemptDate": "2026-11-01",
+      "publicationDate": null
+    }
+  ],
+  "readerAction": "Existing explicit uncertainty retained; no indexed damage quantities or times added.",
+  "condition": "Need readable dated original log/damage report or page image with provenance. Private diary edition/catalogue and copied log notes are distinct.",
+  "next": "Independent R03 navy duty/outcome triage after existing four candidates; do not restart blocked URLs."
+}

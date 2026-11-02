@@ -1,0 +1,21 @@
+{
+  "task": "R23",
+  "status": "yerel dar değişiklik kaydı; yayın engelli",
+  "date": "2026-11-02",
+  "files": [
+    {
+      "path": "olaylar/ariburnu-gomme-ateskesi/index.html",
+      "sha256": "4a7ab3ecbaa2466359ee3f5c27caaa73d00fd824ab05ab48d8739cb2e2147886"
+    },
+    {
+      "path": "build_pages.py",
+      "sha256": "45acfb1aa5d45f7e96941ff9d55eeca2c2810ebf9a52aa960e2f46f622a96a99"
+    },
+    {
+      "path": "kronoloji-kaynaklari/index.html",
+      "sha256": "f86b8f21f3f8e8855be0ae5c06a1a0a1c39f5ff405fa350910c59e3692c092b4"
+    }
+  ],
+  "scope": "R11 tarih ayrımı ve R12 kaynak-anlatı dönüşü; tam yayın manifesti/geri dönüş hazırlığı değil.",
+  "publication": "Commit/push/deploy için yeni açık talep gerekir; bu çalışmada yapılmadı."
+}

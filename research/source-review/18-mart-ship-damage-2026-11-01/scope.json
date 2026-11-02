@@ -1,0 +1,59 @@
+{
+  "task": "R04",
+  "status": "devam ediyor",
+  "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "event_date": "1915-03-18",
+  "report_date": "1915-03-24",
+  "cover_letter_date": "1915-03-26",
+  "official_publication_date": "1919-05-02",
+  "web_publication_date": null,
+  "access_date": "2026-11-01",
+  "evidence": [
+    "12.47: Agamemnon was being made the target",
+    "0.56: fore bridge observed to be on fire",
+    "1.25: Inflexible quitted line"
+  ],
+  "scope": "24 Mart ek raporunun 12.47, 12.56 ve 13.25 aktarımları okundu; üst yazıdaki Inflexible kontrol yeri paragrafı ayrıca görüldü. Bütün derleme veya özgün görüntü incelenmedi.",
+  "verification": "cevrimyazi_pasaji_okundu_asli_acik",
+  "time_basis": "Rapordaki yerel GMT+2; öğleden sonraki 0.56 ve 1.25 gösterimleri 12.56 ve 13.25 olarak yazıldı; modern Türkiye saatine dönüşüm değil.",
+  "open": [
+    "İki geminin kesin isabet anları",
+    "Şarapnel/HE türü",
+    "Telsiz anteni hasarı"
+  ],
+  "sourceTime_added": false,
+  "legacy_key": "11:35/695",
+  "test_log": "research/reports/2026-11-01/R04-ship-damage-tests.txt",
+  "tests": {
+    "javascript_passed": 297,
+    "mandatory_python_passed": 19,
+    "failed": 0
+  },
+  "browser_acceptance": {
+    "desktop": [
+      1280,
+      720
+    ],
+    "mobile": [
+      320,
+      800
+    ],
+    "surface": "IAB sekme 2",
+    "card": "Yeni metin ve Saat doğrulanmadı etiketi iki görünümde okundu. Kaynak ve seçili kayda dönüş kontrol edildi.",
+    "heading_top_px": {
+      "desktop": 88.175,
+      "mobile": 168.225
+    },
+    "mobile_width": {
+      "client": 305,
+      "scroll": 305
+    },
+    "map_return": {
+      "side_scope": "İki taraf: 31 kayıt",
+      "loaded_tiles": 12,
+      "markers": 23
+    },
+    "screenshots": "İki boyutta kaynak açıklaması araç görüntüsünden incelendi; dosya kaydı iddia edilmez.",
+    "viewport_reset": true
+  }
+}

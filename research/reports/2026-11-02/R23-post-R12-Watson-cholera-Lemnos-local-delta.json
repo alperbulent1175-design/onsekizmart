@@ -1,0 +1,28 @@
+{
+  "task": "R23",
+  "date": "2026-11-02",
+  "status": "yerel dar değişiklik;yayın engelli",
+  "scope": "Tam manifest değil;commit/push/deploy yok.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "a15187e787c76de792ef7aba4a2d7738c180dfe9bcdd50fdf39f06c15d402606"
+    },
+    {
+      "path": "build_pages.py",
+      "sha256": "e7c9b02b540fdaa7784ea6f0f9f71aac1328d997d432e2bceccf81eca4b6f4c0"
+    },
+    {
+      "path": "olaylar/watson-iskelesi-tamamlandi/index.html",
+      "sha256": "1cce58692298286836cf737993675e82edfffce056a985dd23bc896379d5321f"
+    },
+    {
+      "path": "olaylar/kolera-asilamasi/index.html",
+      "sha256": "f581c014256010edcf5636d67a66e8aa8268549d4c97aea4caff5001f1c0c172"
+    },
+    {
+      "path": "olaylar/hastane-ekibi-limnide/index.html",
+      "sha256": "b7c5ebd1f3b897a78ee8fd5b3ace140ad1e33a47c8eedb479e7d0e234775f753"
+    }
+  ]
+}

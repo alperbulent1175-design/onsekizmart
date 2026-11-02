@@ -1,0 +1,93 @@
+{
+  "task": "R04",
+  "status": "devam ediyor",
+  "review_date": "2026-11-01",
+  "sources": [
+    {
+      "id": "hatip-alarm-aktarimi",
+      "url": "https://cdn.comu.edu.tr/cms/ckalesavaslari/files/44-birinci-dunya-harbi-canakkale-savaslarina-genel-ba.pdf#page=20",
+      "author": "S. Murad Hatip",
+      "publication_date": "Bahar 2015",
+      "event_date": "1915-03-18",
+      "access_date": "2026-11-01",
+      "printed_page": 180,
+      "pdf_page": 20,
+      "evidence": "Bu iki raporla boğazın savunma tesislerine alarm verildi.",
+      "scope": "Yalnız Keşif Uçuşu pasajı ve 69–71. dipnotlar yerel PDF görüntüsünden okundu; 34 sayfalık eserin bütünü okunmadı.",
+      "upstream": "Birinci Dünya Harbi Hava Harekâtı IX, Ankara 1969, s.38. Bu sayfa ve özgün ceride görülmedi.",
+      "supports": "Akademik anlatı Yenişehir gözetleme ve hava keşif raporlarını alarm verilmesiyle ilişkilendirir.",
+      "limits": "Kesin gönderim, alınma, emir veya uygulama saati atanmadı. Göreli bir saat ifadesi dakikaya çevrilmedi; birlik listesi, cephanelik ve telefon işlemleri doğrulanmadı.",
+      "verification": "academic_pdf_selected_passage_image_read;upstream_original_open"
+    },
+    {
+      "id": "semiz-alarm-saati-aktarimi",
+      "url": "https://dergipark.org.tr/tr/download/article-file/258192#page=19",
+      "catalog_url": "https://dergipark.org.tr/tr/pub/sutad/article/276993",
+      "author": "Yaşar Semiz",
+      "catalog_publication_date": "2003-12-01",
+      "printed_issue_date": null,
+      "event_date": "1915-03-18",
+      "access_date": "2026-11-01",
+      "printed_page": 239,
+      "pdf_page": 19,
+      "evidence": "10.25’te verildi",
+      "reported_time": "10:25",
+      "accepted_event_time": null,
+      "time_system": null,
+      "scope": "PDF s.19 / basılı s.239 ile dipnot künyesi için PDF s.11 / basılı s.231 görüntüleri okundu; 27 sayfalık eserin bütünü okunmadı.",
+      "upstream": "73. dipnot Yurdoğlu; tam künye 36. dipnot: İhsan Yurdoğlu, 18 Mart Çanakkale Zaferi, Demokrasi Gazetesi, 18 Mart 1947, s.4. Gazete nüshası görülmedi.",
+      "limits": "Sonraki akademik aktarım ve 1947 gazete yazısı özgün 1915 alarm emri değildir; bildirilen 10.25 sourceTime alanına taşınmadı.",
+      "verification": "academic_pdf_selected_passage_and_citation_images_read;upstream_original_open"
+    }
+  ],
+  "affected_events": [
+    "İlk yaklaşma raporu",
+    "Genel muharebe alarmı"
+  ],
+  "legacy_keys_not_verified": [
+    "08:45/525",
+    "09:00/540"
+  ],
+  "sourceTime_added": false,
+  "claim_verified": false,
+  "no_new_casualty_coordinate_or_force_count": true,
+  "access_limits": "Hatip web PDF görüntüsünde önbellek hatası vardı. İki sabit PDF elle indirildi; URL, erişim ve hash yan kayıtları tutuldu; seçili sayfalar Poppler ile görüntülendi. Araştırma görüntüleri yayımlanmadı. Genel Signal 12 araması tekrarlanmadı.",
+  "next": "Donanma intikali kaydına geç; özgün 1969 s.38 veya 1947 gazete s.4 bulunursa kaynak zincirini ayrıca değerlendir.",
+  "browser_acceptance": {
+    "date": "2026-11-01",
+    "surface": "IAB tab 2; yeniden bağlama sonrası çalıştı",
+    "desktop": [
+      1280,
+      720
+    ],
+    "mobile": [
+      320,
+      800
+    ],
+    "cards": "İki kartın yeni metni ve Saat doğrulanmadı etiketi kontrol edildi. Kaynak bağlantıları yeni başlığa gider. Yaklaşma kartından kaynak ve seçili kayda dönüş bağlamı korundu.",
+    "source_heading_top_px": {
+      "desktop": 88.175,
+      "mobile": 168.225
+    },
+    "mobile_widths": {
+      "client": 305,
+      "scroll": 305
+    },
+    "map_filter": "Esri taban haritası ve işaretler görünür. Osmanlı seçimi 15 kayıt; bunların 4 tanesi ortak.",
+    "screenshots": "Masaüstü kaynak, mobil kaynak ve mobil harita görüntüleri araç çıktısında incelendi; bağımsız görüntü dosyası kaydı yok.",
+    "viewport_reset": true
+  },
+  "tests": {
+    "log": "research/reports/2026-11-01/R04-observation-alarm-tests.txt",
+    "javascript": {
+      "scope": "tests/*.test.js",
+      "passed": 297,
+      "failed": 0
+    },
+    "python": {
+      "scope": "tests.test_build_pages tests.test_import_catalog tests.test_catalog_network",
+      "passed": 19,
+      "failed": 0
+    }
+  }
+}

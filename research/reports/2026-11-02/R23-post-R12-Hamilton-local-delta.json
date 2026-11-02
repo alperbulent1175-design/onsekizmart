@@ -1,0 +1,24 @@
+{
+  "task": "R23",
+  "date": "2026-11-02",
+  "status": "yerel dar değişiklik; yayın engelli",
+  "scope": "Tam yayın manifesti değildir; commit/push/deploy yok.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "55b4fcef03e553773656fadf9fcf23b09d2748a58437d48a70768872bc1b91aa"
+    },
+    {
+      "path": "build_pages.py",
+      "sha256": "002637c31d8e3c90308242860643e3315638af1f4de1649d7b0304c01390f71c"
+    },
+    {
+      "path": "tests/test_build_pages.py",
+      "sha256": "3028fa5d52b6de6bb56191dcb420f59297e958b26bdf4eb303a56bbdc72ddef9"
+    },
+    {
+      "path": "olaylar/hamiltona-talimat/index.html",
+      "sha256": "48f5ea66cf1eec78f1cd7d54e51479e0e3f4b2f4e598556305e7177ddb40e83e"
+    }
+  ]
+}

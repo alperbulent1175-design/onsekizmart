@@ -1,0 +1,24 @@
+{
+  "task": "R23",
+  "date": "2026-11-02",
+  "status": "yerel dar değişiklik;yayın engelli",
+  "scope": "Tam manifest değil;commit/push/deploy yok.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "c86a8cdda883f44ff849b183ee2eee4d677cf4680fb42083dddbf624d8eff76e"
+    },
+    {
+      "path": "build_pages.py",
+      "sha256": "84738ff3e461b9d410d09765cd028825a965bca0be65224142b1503b96b3eb20"
+    },
+    {
+      "path": "tests/test_build_pages.py",
+      "sha256": "634f33f2263185d1c42d829a4776093609ca3eca72f8ebfe628a03ac3d52959e"
+    },
+    {
+      "path": "olaylar/mayin-tarama-girisimleri/index.html",
+      "sha256": "e7b32b86466b45369e7fcfc3c1d6f8b367ffea73fc90f1341f77928daf384120"
+    }
+  ]
+}

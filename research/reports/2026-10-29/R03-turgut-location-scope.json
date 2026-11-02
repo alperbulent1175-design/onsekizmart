@@ -1,0 +1,15 @@
+{
+  "task": "R03",
+  "localReviewDate": "2026-10-29",
+  "page": "donanma/index.html#turgut-reis",
+  "eventDate": "1915-03-18",
+  "publicationDate": null,
+  "accessDate": null,
+  "sourceUrl": null,
+  "evidenceText": null,
+  "claimVerified": false,
+  "status": "unsupported_residual_location_claim_narrowed",
+  "oldText": "Marmara ihtiyatında tutulur.",
+  "limits": "Existing duty field leaves exact position open; no dated journal/order passage attached to this residual prose claim. No new external reading or alternative location inferred. Barbaros scope record does not verify TurgutReis.",
+  "uiAcceptance": "29Oct:desktop1265/mobile305 no overflow; current scope text in DOM; name-only Space checked and1/30; clear30/30. Mobile result screenshot inspected,not full-card physical device test. setChecked automation click failed; keyboard worked."
+}

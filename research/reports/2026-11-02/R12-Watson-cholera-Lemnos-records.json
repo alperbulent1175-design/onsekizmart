@@ -1,0 +1,122 @@
+{
+  "task": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "sourceRecords": [
+    {
+      "id": "e-haziran-sessiz",
+      "section": 2,
+      "record": {
+        "claim": "AWM’nin RC11584.224 numaralı menü kaydı, 18 Haziran 1915’te Gelibolu’da düzenlenen mühendisler yemeğinin Watson İskelesi’nin tamamlanmasını anmak için yapıldığını söyler. DVA ise tamamlanmayı 19 Haziran başlığında verir. Burada menünün kurum açıklaması ile kronoloji karşılaştırılıyor; menünün özgün sayfaları okunamadı. Bu nedenle 18 Haziran kesin yapım bitişi ilan edilmedi ve 19 Haziran kaydı da tartışmasız bir mühendislik teslim tarihi sayılmadı.",
+        "url": "https://www.awm.gov.au/collection/C2690050",
+        "sourceType": "archive",
+        "bibliography": "Australian War Memorial, RC11584.224, menü nesnesinin çevrimiçi katalog kaydı C2690050.",
+        "locator": "Nesne tarih alanı ve Watson İskelesi tamamlanmasını anan mühendisler yemeğine ilişkin katalog açıklaması",
+        "eventDate": "18 Haziran 1915: katalog açıklamasında anma yemeği; DVA tamamlanma başlığı 19 Haziran 1915",
+        "recordDate": "Katalogda nesne tarihi 1915; açıklamanın yazım tarihi belirlenmedi",
+        "publicationDate": null,
+        "digitalPublicationDate": null,
+        "publicationDateNote": "Nesnenin 1915 tarihi dijital katalog açıklamasının yayım tarihi değildir; ilk yayım ve güncelleme tarihleri bu incelemede belirlenmedi.",
+        "accessDate": "2026-11-02",
+        "evidenceText": "Katalog açıklaması 18 Haziran mühendis yemeğini iskelenin tamamlanmasını anan etkinlik olarak tanımlar.",
+        "scope": "Yemek: 18 Haziran 1915; katalogda nesne tarihi: 1915; dijital açıklamanın yayın tarihi bilinmiyor; erişim: 2 Kasım 2026. PDF ve iki görüntü isteği erişim hatası verdi. Menü metninin veya imzalı yapım tutanağının doğrulaması değildir. Görsel yayımlanmadı. Önceki katalog okuması yapılandırıldı; bu parti yeni nesne görüntüsü okuması değildir. Anma günü kesin yapım/teslim günü yapılmadı.",
+        "status": "katalog_aciklamasi_okundu",
+        "witnessGroup": "AWM-RC11584.224-catalogue"
+      }
+    },
+    {
+      "id": "e-temmuz-sessiz",
+      "section": 1,
+      "record": {
+        "claim": "Barrett ve Deane’in 1918 tarihli sağlık anlatısı, kolera riskine karşı Ruffer’ın bir notunun yayımlandığını ve ardından geniş ölçekte aşılama yapıldığını aktarır. Aktardıkları not, aşılamanın salgın başlamadan önce yapılması gerektiğini savunur. Bu, dönemin koruyucu sağlık gerekçesini açıklar; 7 Temmuz’daki Anzak uygulamasının özgün emri veya uygulanan dozların listesi değildir. Mısır’daki hazırlık anlatısı, Gelibolu’da kolera salgınının başladığı kanıtı olarak kullanılamaz.",
+        "url": "https://www.gutenberg.org/files/41911/41911-h/41911-h.htm",
+        "bibliography": "James W. Barrett ve P. E. Deane, The Australian Army Medical Corps in Egypt: An Illustrated and Detailed Account of the Early Organisation and Work of the Australian Medical Units in Egypt in 1914–1915, London: H. K. Lewis & Co., 1918.",
+        "locator": "The Risk of Cholera / Dr. Ruffer’s Views on Cholera, basılı s.106–108 ilgili paragraflar",
+        "eventDate": "Mısır’da kolera riskine karşı hazırlık bağlamı; pasajda kesin uygulama tarihi belirlenmedi. 7 Temmuz 1915 Anzak başlangıcı ayrı DVA kaydıdır.",
+        "recordDate": "Aktarılan Ruffer notunun kesin yazım tarihi bu pasajda belirlenmedi",
+        "publicationDate": "1918",
+        "digitalPublicationDate": null,
+        "publicationDateNote": "1918 kitabın basım yılıdır; kullanılan dijital aktarımın ilk yayımı ayrıca doğrulanmadı.",
+        "accessDate": "2026-11-02",
+        "evidenceText": "Bölüm girişi risk nedeniyle bir not yayımlandığını ve ardından aşılama yapıldığını aktarır; not salgından önce aşılamayı savunur.",
+        "scope": "Yayın: Londra, H. K. Lewis, 1918; erişim: 2 Kasım 2026. E-kitaptaki bölüm girişi ve aktarılan Ruffer notunun ilgili paragrafları okundu. Notun kesin tarihi bu pasajda belirlenmedi; bütün eser veya özgün not incelenmedi. Bu tarihsel görüşler güncel tıbbi öneri değildir. Önceki yayımlanmış aktarım okuması yapılandırıldı; Mısır hazırlığı Anzak’ın özgün emri, doz/benzersiz kişi sayısı veya Gelibolu’da salgın kanıtı değildir.",
+        "status": "yayin_aktarimi_pasaji_okundu",
+        "witnessGroup": "Barrett-Deane-1918-Ruffer-transfer"
+      }
+    },
+    {
+      "id": "e-temmuz-agustos",
+      "section": 1,
+      "record": {
+        "claim": "Avustralya resmî sağlık tarihinin XV. bölümündeki anlatı, hastanenin Ağustos harekâtı sırasında bir yandan kurulmaya çalışırken bir yandan acil cerrahi ve hasta kabulü yürüttüğünü belirtir. Kayalık alanın temizlenmesi, yol ve çadır hazırlığı ile hemşirelerin ve ilk hastaların gelişi ayrı adımlardır. Bu nedenle hastanenin adaya ulaşması ile bakım verebilecek düzenin kurulması tek olay gibi okunmamalıdır.",
+        "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1070002/document/5520750.PDF#page=15",
+        "bibliography": "Butler, The Australian Army Medical Services in the War of 1914–1918, Volume I, Part I: The Gallipoli Campaign, 2. baskı, Melbourne: Australian War Memorial, 1938; Chapter XV: The Supreme Effort: Lines of Communication.",
+        "locator": "Basılı s.335 / fiziksel PDF15",
+        "eventDate": "Ağustos 1915: kuruluş sırasında bakım",
+        "recordDate": "Geriye dönük resmî tarih anlatısı; dayandığı özgün kayıtların yazım tarihleri burada belirlenmedi",
+        "publicationDate": "1938",
+        "digitalPublicationDate": null,
+        "publicationDateNote": "Cilt I başlık sayfası ikinci baskı/Melbourne/Australian War Memorial/1938 bilgisini verir. Dijital ilk yayım bilinmiyor; başlık sayfasının URL’si araştırma kaydında tutulur.",
+        "metadataAccessDate": "2026-11-02",
+        "accessDate": "2026-11-02",
+        "evidenceText": "Hastane harekât sürerken kurulmaya çalışırken acil cerrahi ve hasta kabulü de yürütür; alan hazırlığı ile personel/hasta gelişi ayrı adımlardır.",
+        "scope": "Olay dönemi: Ağustos 1915. PDF15/metin sayfası335’in ilgili paragrafları 2 Kasım 2026’da metin aktarımından okundu. Sayfa görüntüsü isteği erişim hatası verdi; görüntüden okuma veya özgün hastane günlüğü doğrulaması sayılmadı. Baskı ve dijital yayın tarihi bu erişimde ayrıca doğrulanmadı; bütün bölüm okunmadı. Bu partide ilgili metin paragrafları ve cilt başlık sayfasının metin aktarımı tekrar kontrol edildi; görüntü ve özgün hastane günlüğü görülmedi. DVA29Temmuz başlığı/Ağustos kuruluş aşamaları farkı çözülmedi; bütün eksiklerin giderildiği, kapasite, benzersiz kişi sayısı veya tedavi başarısı çıkarılmadı.",
+        "status": "yayin_aktarimi_pasaji_okundu",
+        "witnessGroup": "Butler-I-1938-Chapter-XV"
+      }
+    },
+    {
+      "id": "e-temmuz-agustos",
+      "section": 2,
+      "record": {
+        "claim": "Aynı bölüm, hastane donanımının başka gemiye yüklenmesini kuruluşu güçleştiren bir sorun olarak anlatır. Ağustos akışı içinde 21’inde donanımın ulaştığını, ardından hastanenin yeniden düzenlendiğini ve çadırların daha düzenli biçimde yeniden kurulduğunu kaydeder. Bu, malzemenin gelişiyle çalışma düzeninin değişmesini gösterir; bütün eksiklerin giderildiğini, kesintisiz hizmeti veya tedavi başarısını kanıtlamaz.",
+        "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1070002/document/5520750.PDF#page=15",
+        "bibliography": "Butler, The Australian Army Medical Services in the War of 1914–1918, Volume I, Part I: The Gallipoli Campaign, 2. baskı, Melbourne: Australian War Memorial, 1938; Chapter XV: The Supreme Effort: Lines of Communication.",
+        "locator": "Basılı s.335–336 / fiziksel PDF15–16; donanım ve yeniden düzenleme paragrafı s.336",
+        "eventDate": "21 Ağustos 1915: anlatıda donanım gelişi ve ardından yeniden düzenleme",
+        "recordDate": "Geriye dönük resmî tarih anlatısı; dayandığı özgün kayıtların yazım tarihleri burada belirlenmedi",
+        "publicationDate": "1938",
+        "digitalPublicationDate": null,
+        "publicationDateNote": "Cilt I başlık sayfası ikinci baskı/Melbourne/Australian War Memorial/1938 bilgisini verir. Dijital ilk yayım bilinmiyor; başlık sayfasının URL’si araştırma kaydında tutulur.",
+        "metadataAccessDate": "2026-11-02",
+        "accessDate": "2026-11-02",
+        "evidenceText": "21 Ağustos donanım gelişi, yeniden düzenleme ve çadırların yeniden kurulması art arda anlatılır.",
+        "scope": "İlgili PDF15–16 metin aktarımı 2 Kasım 2026’da okundu; görüntüler okunamadı. DVA’nın üç hafta sonra donanım gelişi özeti bu anlatıyla aynı kesin takvim hesabına dönüştürülmedi. Yatak, hasta ve sevk toplamları eklenmedi. Bu partide ilgili metin paragrafları ve cilt başlık sayfasının metin aktarımı tekrar kontrol edildi; görüntü ve özgün hastane günlüğü görülmedi. DVA29Temmuz başlığı/Ağustos kuruluş aşamaları farkı çözülmedi; bütün eksiklerin giderildiği, kapasite, benzersiz kişi sayısı veya tedavi başarısı çıkarılmadı.",
+        "status": "yayin_aktarimi_pasaji_okundu",
+        "witnessGroup": "Butler-I-1938-Chapter-XV"
+      }
+    }
+  ],
+  "metadataSource": {
+    "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1069900/document/5520655.PDF#page=1",
+    "accessDate": "2026-11-02",
+    "evidence": "CiltI başlık sayfası PartI:TheGallipoliCampaign,SecondEdition,AustralianWarMemorial,Melbourne1938.",
+    "verification": "Başlık sayfasının metin aktarımı okundu;görüntü incelenmedi."
+  },
+  "passageReview": {
+    "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1070002/document/5520750.PDF#page=15",
+    "locator": "s335–336/fizikselPDF15–16",
+    "accessDate": "2026-11-02",
+    "evidence": "Kuruluş sırasında acil cerrahi ve hasta kabulü;s33621Ağustos donanımı ardından yeniden düzenleme/çadırların yeniden kurulması.",
+    "verification": "İlgili metin aktarımı yeniden incelendi;20sayfanın bütünü veya özgün günlük okunmadı;görüntü erişim hatası koşulu değişmedi."
+  },
+  "tests": {
+    "javascript": 299,
+    "python": 25,
+    "failures": 0,
+    "log": "R12-Watson-cholera-Lemnos-record-tests.txt"
+  },
+  "ui": {
+    "pages": [
+      "watson-iskelesi-tamamlandi",
+      "kolera-asilamasi",
+      "hastane-ekibi-limnide"
+    ],
+    "desktop": "1280×720:1265/1265",
+    "mobile": "320×800:305/305",
+    "keyboard": "Yeni ayrıntılar Enter ile açıldı;Watson#anlati-2,kolera#anlati-1,Limni#anlati-2 dönüşleri görüldü;viewport sıfırlandı",
+    "correction": "Limni notundaki uzun düz URL ilk kontrolde305/510taşma yaptı;URL araştırma kaydına alındı,sonuç305/305.",
+    "map": "Harita/süzgeç değişmedi"
+  },
+  "acceptance": "26/36 eknot yapılandırıldı;genelR12 kabulü açık."
+}

@@ -1,0 +1,17 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Ateşkes anlatısı sonrası iki yerel dosya; tam yayın manifesti değil.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "25e8c8b10dd03d55d2e6054468ee4528e114505b1f3ecca86a7f445f03f94306"
+    },
+    {
+      "path": "olaylar/ateskes-gorusmeleri/index.html",
+      "sha256": "7ac9188209bc9eef50ed16d86546dcb9006ba5b90265810529ce87bf2aca92be"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi ve taze tam envanter/uzak geri dönüş; .htaccess korunacak."
+}

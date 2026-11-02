@@ -1,0 +1,24 @@
+{
+  "task": "R11",
+  "phase": "R11-F",
+  "status": "devam ediyor",
+  "reviewed": "2026-11-02",
+  "url": "https://catab.ktb.gov.tr/Eklenti/81451%2C105-yilinda-canakkale-muharebelerine-bakis-09032021pdf.pdf#page=147",
+  "eventAndDocumentDate": "1915-05-24",
+  "publicationDate": "2020",
+  "accessDate": "2026-11-02",
+  "scope": "Ek 7 başlangıç s.147 ve devam s.148 görüntüden okundu. 17 Ekim kaydında açık olan devam görüntüsü kontrol edildi; tüm kitap okunmadı.",
+  "evidence": [
+    {
+      "clause": 3,
+      "summary": "İlk üç kesitte 14.30, son kesitte 15.45 itibarıyla işin tamamlandığı bildirimi."
+    },
+    {
+      "clause": 6,
+      "summary": "16.15 sınır tahdit ekiplerine geri çağırma işareti; 17.00 ateşin yeniden başlaması bildirimi."
+    }
+  ],
+  "verification": "Yayımlanmış Türkçe aktarım görüntüden okundu; dipnot 68 WO 158-921 özgün İngilizce rapor görülmedi. Aktarımdaki saatler, saat sistemi çevrimi yapılmadan ve raporun kapsamı ile verildi.",
+  "exclusions": "Defin tahmini kesin zayiat toplamına dönüştürülmedi; bütün cephede eşzamanlı icra çıkarılmadı.",
+  "readerPage": "olaylar\\ariburnu-gomme-ateskesi\\index.html#uygulama-raporu"
+}

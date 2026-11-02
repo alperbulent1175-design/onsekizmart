@@ -1,0 +1,25 @@
+{
+  "task": "R09",
+  "id": "e-temmuz-sessiz",
+  "status": "devam ediyor",
+  "url": "https://www.gutenberg.org/files/41911/41911-h/41911-h.htm",
+  "passage": "The Risk of Cholera / Dr. Ruffer’s Views on Cholera, s.106–108 ilgili paragraflar",
+  "eventDate": "1915-07-07 yalnız DVA kronoloji girişi",
+  "documentDate": null,
+  "publicationDate": "1918",
+  "accessDate": "2026-11-02",
+  "evidence": "Bölüm girişi kolera riski nedeniyle not yayımlandığını ve ardından aşılama uygulandığını söyler; aktarılan Ruffer notu salgından önce aşılama önerir.",
+  "verification": "Yayımlanmış sağlık anlatısının e-kitap aktarımı; özgün not değil.",
+  "limits": "Mısır bağlamı7TemmuzAnzakemriyle özdeşlenmedi. Doz/kişi sayısı, salgın varlığı, koruma oranı ve tedavi tavsiyesi üretilmedi. Ruffer’ın bilimsel varsayımları güncel bilgi sayılmadı.",
+  "uiAcceptance": {
+    "desktopWidth": [
+      1265,
+      1265
+    ],
+    "mobileWidth": [
+      305,
+      305
+    ],
+    "nextLink": "Enter→sağlık-ve-tahliye URL/h1 doğrulandı."
+  }
+}

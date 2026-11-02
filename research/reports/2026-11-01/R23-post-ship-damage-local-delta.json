@@ -1,0 +1,25 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Hasar partisi sonrası yerel fark kaydı; önceki line-entry delta ve manifest güncel değildir. Uzak yedek/yayın kabulü değildir.",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "4e48ef0f775c59e7ad79c9075f661fc9262377a87c9d32503dbc4466bbf84d22"
+    },
+    {
+      "path": "js/data.js",
+      "sha256": "ef0d8c2703a093d5f46c08b34b03222b913c93993106fc080047b79be7536d6f"
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "b980b589da7646290889f2c4e99e100d0d6cfd2c34809ea8609056f93e9b0c6c"
+    },
+    {
+      "path": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "sha256": "921acf2cc5737009a7a1378a6612ab8c55296a620650bdec9c166624bc655569"
+    }
+  ],
+  "requires": "Yeni açık yayın talebinde envanter, doğrulama ve taze uzak geri dönüş hazırlığı; .htaccess korunacak.",
+  "published": false
+}

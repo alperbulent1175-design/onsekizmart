@@ -1,0 +1,13 @@
+{
+  "task": "R23",
+  "status": "yerel dar değişiklik kaydı; yayın engelli",
+  "date": "2026-11-02",
+  "files": [
+    {
+      "path": "olaylar/ariburnu-gomme-ateskesi/index.html",
+      "sha256": "085fec44d756f7e4a8dfe68fc33ca263cc2b81f939b1832c3f9c83708461dd46"
+    }
+  ],
+  "scope": "R11 yerel temas nedeni ve defin uygulama raporu; tam yayın manifesti veya geri dönüş hazırlığı değildir.",
+  "publication": "Commit/push/deploy için yeni açık kullanıcı talebi gerekir; bu çalışmada yapılmadı."
+}

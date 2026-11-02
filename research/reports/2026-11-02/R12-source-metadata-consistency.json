@@ -1,0 +1,48 @@
+{
+  "task": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "changedExistingRecords": [
+    {
+      "id": "e-mart-sessiz-1",
+      "fields": [
+        "passage",
+        "accessDate"
+      ]
+    },
+    {
+      "id": "e-mart-sessiz-2",
+      "fields": [
+        "accessDate"
+      ]
+    },
+    {
+      "id": "e-mart-nisan",
+      "fields": [
+        "accessDate",
+        "evidenceText"
+      ]
+    },
+    {
+      "id": "e-nisan-sessiz",
+      "fields": [
+        "accessDate",
+        "evidenceText"
+      ]
+    },
+    {
+      "id": "e-mayis-sessiz-1",
+      "fields": [
+        "scope"
+      ]
+    },
+    {
+      "id": "e-mayis-sessiz-2",
+      "fields": [
+        "accessDate"
+      ]
+    }
+  ],
+  "change": "Altı kayıttaki eski kaynak notu alanları önceden incelenmiş mevcut olay kanıtına eşlendi. Yeni tarihsel kanıt veya yeni erişim tarihi üretilmedi. Merkez kaynak notunda özet ve kayıt bazında olay/yayın/erişim tarihi görünür. Üretici iki kanıt kopyası ayrışırsa sessizce devam etmez.",
+  "limits": "18 temel kayıt yayın tarihi null: doğrulanmadı olarak gösterilir. Tam künye/sayfa-yaprak/yayın sınırı envanteri ve diğer kanıt katmanlarının düzeni açık."
+}

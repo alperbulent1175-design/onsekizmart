@@ -1,0 +1,22 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "reviewDate": "2026-11-01",
+  "page": "donanma/index.html#ark-royal",
+  "field": "ship-copy paragraph, not already accepted outcome field",
+  "old": "Keşif uçuşlarının saatleri ve mayınların neden görülemediği, bu sayfada belge kanıtıyla kesinleştirilmedi.",
+  "new": "Keşif uçuşlarının saatleri, mayın aramasının kapsamı ve sonucu bu sayfada belge kanıtıyla kesinleştirilmedi.",
+  "reason": "Neden görülemediği assumes a non-detection outcome; selected battery-report passage cannot establish mine-search result.",
+  "sourceRecord": "research/reports/2026-10-27/R03-ark-royal-scope.json",
+  "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "evidence": "Seaplane reported Fort No. 16 firing",
+  "eventDate": "1915-03-18",
+  "documentDate": "1915-03-24",
+  "publicationDate": null,
+  "originalAccessDate": "2026-10-27",
+  "newExternalAccess": false,
+  "verifiedScope": "Existing selected transcription supports battery observation only,not mine search scope/result. Original flight log unseen.",
+  "mineSearchResultVerified": false,
+  "uiAcceptance": "pending; closed UISight contexts, native browser launch app approval timed out. Earlier29Oct outcome acceptance not revoked or counted again.",
+  "next": "One combined render acceptance for pending4 navy cards plus ArkRoyal prose when browser is available; no repeated failed recovery loop."
+}

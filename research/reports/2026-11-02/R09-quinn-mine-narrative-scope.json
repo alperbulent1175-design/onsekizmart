@@ -1,0 +1,27 @@
+{
+  "task": "R09",
+  "id": "e-mayis-haziran",
+  "status": "devam ediyor",
+  "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1009992/bundled/RCDIG1009992.pdf#page=39",
+  "passage": "Appendix44, PDF39–41/yaprak317–319",
+  "eventDate": "1915-05-29",
+  "documentDate": null,
+  "publicationDate": null,
+  "accessDate": "2026-10-23",
+  "editorialReuseDate": "2026-11-02",
+  "evidence": "Önceki görüntü okuması: patlamanın siper/bağlantı tahribatı takviye ulaştırmayı güçleştirir; geri alma emri, hareket haberi, sonuç ve onarım ayrı aşamalar.",
+  "verification": "İlgili üç taranmış sayfanın 23Ekim okuma kaydı kullanıldı; bugün yeni görüntü incelemesi sayılmadı.",
+  "localReadingRecord": "research/source-review/quinn-rapor-2026-10-23/INCELEME.md",
+  "limits": "60sayfanın bütünü okunmadı; imza/yazar tasdiki, Osmanlı planı, saat kalibrasyonu ve03.20/03.30farkı açık. Yeni sayı/koordinat eklenmedi.",
+  "uiAcceptance": {
+    "desktopWidth": [
+      1265,
+      1265
+    ],
+    "mobileWidth": [
+      305,
+      305
+    ],
+    "nextLink": "Yenileme sonrası yeni iki başlık görüldü; Enter ile9–10Mayıs URL/h1 doğrulandı."
+  }
+}

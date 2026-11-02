@@ -1,0 +1,15 @@
+{
+  "task": "R23",
+  "scope": "R10 Quinn Osmanlı hatıratı yerel farkı; tam yayın manifesti değildir.",
+  "publication": "Açık yeni kullanıcı isteğine bağlı engelli; commit/push/deploy yok.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "1b9aff15997f9bba21b3984eb725c666e06d16bfd41c6ce0293c66cca088b476"
+    },
+    {
+      "path": "olaylar/quinns-post-lagim-taarruzu/index.html",
+      "sha256": "70aa0eb7929169ae7858685d7644bdba9db2e78e2c9d3bf3c4ae252f260ec597"
+    }
+  ]
+}

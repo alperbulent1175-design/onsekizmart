@@ -1,0 +1,147 @@
+{
+  "task": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "sourceRecords": [
+    {
+      "id": "e-kasim-firtina",
+      "section": 1,
+      "record": {
+        "claim": "AWM’nin tabur günlüklerinden hazırladığı anlatı, 27 Kasım’da 2. Taburun soğuk, rüzgâr ve sağanak bildirdiğini, gece karın başladığını aktarır. Ertesi gün yer karla örtülüdür ve tipi sürer. Bu, yağmurdan kara geçişin belirli birlik kayıtlarındaki izidir; tek bir ölçüm istasyonu veya bütün yarımadanın eşzamanlı hava çizelgesi değildir.",
+        "url": "https://www.awm.gov.au/articles/blog/preliminary-stage-evacuation-anzac-cove",
+        "sourceType": "web",
+        "bibliography": "Theresa Cronk, Australian War Memorial, Anzak Koyu tahliyesinin hazırlık aşamasına ilişkin çevrimiçi yazı (preliminary-stage-evacuation-anzac-cove), 18 Kasım 2015.",
+        "locator": "27–28 Kasım günlük anlatısı; soğuk, sağanak ve kar paragrafları",
+        "eventDate": "27–28 Kasım 1915: Anzak kesimindeki günlük anlatısı",
+        "recordDate": "Dayanak tabur günlüklerinin dönem kayıtları aktarılır;özgün yazım/imza tarihleri burada ayrıca doğrulanmadı",
+        "publicationDate": "2015-11-18",
+        "digitalPublicationDate": null,
+        "publicationDateNote": "18 Kasım2015 web yazısının görünür yayım tarihidir;özgün günlüklerin tarihiyle aynı alan değildir. Görünür yayım alanı ilk dijital yayım/güncelleme tarihçesinin ayrıca doğrulandığı anlamına gelmez;ilk dijital yayım ayrıca belirlenmedi.",
+        "accessDate": "2026-11-02",
+        "evidenceText": "2. Tabur aktarımında sağanak ve soğuk ardından gece kar,ertesi gün tipi anlatılır.",
+        "scope": "Theresa Cronk, AWM, 18 Kasım 2015; olay: 27–28 Kasım 1915; erişim: 2 Kasım 2026. Yalnız ilgili günlük anlatısı ve kaynak kapsamı okundu. Kurumun tabur günlüklerine dayalı aktarımıdır; bu incelemede özgün günlük görüntüleri ve bütün taburların kayıtları okunmadı. Bu parti önceki seçili web paragraflarının yapılandırılmasıdır;yeni özgün günlük okuması yapılmadı. Aynı web yazısının pasajları bağımsız tanıklar sayılmaz.",
+        "status": "yayin_aktarimi_pasaji_okundu",
+        "witnessGroup": "Cronk-2015-Anzac-evacuation-diary-transfer"
+      }
+    },
+    {
+      "id": "e-kasim-firtina",
+      "section": 2,
+      "record": {
+        "claim": "Aynı anlatıda, makineli tüfeklerin soğukta korunması için kısa atışlar yapılması emri, su gömleklerinin örtülmesi ve donmayı önlemek için suya gliserin katılması yer alır. Siper iyileştirmeleri ve yeni işler de hava koşullarından etkilenir. Bu ayrıntılar soğuğun yalnız kişisel rahatsızlıkla sınırlı olmadığını gösterir; emredilen her tedbirin bütün birliklerde eksiksiz uygulandığı veya etkili olduğu sonucunu vermez.",
+        "url": "https://www.awm.gov.au/articles/blog/preliminary-stage-evacuation-anzac-cove",
+        "sourceType": "web",
+        "bibliography": "Theresa Cronk, Australian War Memorial, Anzak Koyu tahliyesinin hazırlık aşamasına ilişkin çevrimiçi yazı (preliminary-stage-evacuation-anzac-cove), 18 Kasım 2015.",
+        "locator": "28 Kasım günlük anlatısı; makineli tüfek koruma ve çalışma koşulları paragrafları",
+        "eventDate": "27–28 Kasım 1915: Anzak kesimindeki günlük anlatısı",
+        "recordDate": "Dayanak tabur günlüklerinin dönem kayıtları aktarılır;özgün yazım/imza tarihleri burada ayrıca doğrulanmadı",
+        "publicationDate": "2015-11-18",
+        "digitalPublicationDate": null,
+        "publicationDateNote": "18 Kasım2015 web yazısının görünür yayım tarihidir;özgün günlüklerin tarihiyle aynı alan değildir. Görünür yayım alanı ilk dijital yayım/güncelleme tarihçesinin ayrıca doğrulandığı anlamına gelmez;ilk dijital yayım ayrıca belirlenmedi.",
+        "accessDate": "2026-11-02",
+        "evidenceText": "Soğukta donanımı korumaya yönelik tedbirler ve çalışmaların hava koşullarından etkilenmesi anlatılır.",
+        "scope": "Theresa Cronk, AWM, 18 Kasım 2015; olay: 27–28 Kasım 1915; erişim: 2 Kasım 2026. Yalnız ilgili günlük anlatısı ve kaynak kapsamı okundu. Kurumun tabur günlüklerine dayalı aktarımıdır; bu incelemede özgün günlük görüntüleri ve bütün taburların kayıtları okunmadı. Hastaneye gönderilenler için verilen günlük rakamlar hava olayının toplam kaybı diye kullanılmadı. Bu parti önceki seçili web paragraflarının yapılandırılmasıdır;yeni özgün günlük okuması yapılmadı. Aynı web yazısının pasajları bağımsız tanıklar sayılmaz.",
+        "status": "yayin_aktarimi_pasaji_okundu",
+        "witnessGroup": "Cronk-2015-Anzac-evacuation-diary-transfer"
+      }
+    },
+    {
+      "id": "e-aralik-onay",
+      "section": 1,
+      "record": {
+        "claim": "AWM’nin tahliye günlüklerine dayalı anlatısı, planı hazırlık, ara ve son aşama olarak açıklar. Hazırlık aşaması, henüz son karar beklenirken kışın mevzileri tutmak için gereken kuvveti azaltmayı; ara aşama, mevzileri kısa süre savunabilecek yeterliliği koruyarak personel ve malzemeyi azaltmayı öngörüyordu. Son aşama kalanların çekilmesiydi. Bu bir planlama mantığıdır; her taburun aynı gün aynı miktarda azaltıldığını göstermez.",
+        "url": "https://www.awm.gov.au/articles/blog/preliminary-stage-evacuation-anzac-cove",
+        "sourceType": "web",
+        "bibliography": "Theresa Cronk, Australian War Memorial, Anzak Koyu tahliyesinin hazırlık aşamasına ilişkin çevrimiçi yazı (preliminary-stage-evacuation-anzac-cove), 18 Kasım 2015.",
+        "locator": "Girişte hazırlık, ara ve son aşama planı paragrafları",
+        "eventDate": "Kasım–Aralık 1915: tahliye planının aşamaları;7 Aralık onay belgesi değildir",
+        "recordDate": "Dayanak tabur günlüklerinin dönem kayıtları aktarılır;özgün yazım/imza tarihleri burada ayrıca doğrulanmadı",
+        "publicationDate": "2015-11-18",
+        "digitalPublicationDate": null,
+        "publicationDateNote": "18 Kasım2015 web yazısının görünür yayım tarihidir;özgün günlüklerin tarihiyle aynı alan değildir. Görünür yayım alanı ilk dijital yayım/güncelleme tarihçesinin ayrıca doğrulandığı anlamına gelmez;ilk dijital yayım ayrıca belirlenmedi.",
+        "accessDate": "2026-11-02",
+        "evidenceText": "Personel ve malzeme azaltılırken savunma yeterliliğini koruyan hazırlık,ara ve son aşama planı açıklanır.",
+        "scope": "Theresa Cronk, 18 Kasım 2015; olay dönemi: Kasım–Aralık 1915; erişim: 2 Kasım 2026. Önceki okumada incelenen girişteki aşama paragrafları kullanıldı. Özgün plan veya hükümet kararı görülmedi. Yazının parlamento ifadesi yeni karar künyesi olarak kullanılmadı. Bu parti önceki seçili web paragraflarının yapılandırılmasıdır;yeni özgün günlük okuması yapılmadı. Aynı web yazısının pasajları bağımsız tanıklar sayılmaz.",
+        "status": "yayin_aktarimi_pasaji_okundu",
+        "witnessGroup": "Cronk-2015-Anzac-evacuation-diary-transfer"
+      }
+    },
+    {
+      "id": "e-aralik-onay",
+      "section": 2,
+      "record": {
+        "claim": "Monro’nun yayımlanmış raporu, açık kıyılardan bindirmenin Osmanlı topçu menzili ve güneyli rüzgârların oluşturduğu dalgalar nedeniyle güçleştiğini anlatır. Kendisi, şüphe uyandırmamak için kara ve denizdeki olağan görünümün korunmasını daha uygun bulduğunu yazar. Böylece bir onayın uygulanması, yalnız emir vermeye değil, kıyıyla bağlantıyı sürdürebilme ve hazırlığı gizleyebilme sorunlarına da bağlıydı. Bu değerlendirme, Osmanlı birliklerinin hiçbir hazırlığı fark etmediğinin tek başına kanıtı değildir.",
+        "url": "https://www.usni.org/magazines/proceedings/1916/may/european-war-notes",
+        "sourceType": "article",
+        "bibliography": "Charles Monro raporunun aktarımı, European War Notes, The Evacuation of Gallipoli, U.S. Naval Institute Proceedings, Mayıs 1916. Resmî rapor: London Gazette, sayı29541 eki, 10 Nisan1916, s.3777’den başlayan metin.",
+        "locator": "The Evacuation of Gallipoli: bindirme,açık kıyılar,hava ve olağan görünüm paragrafları",
+        "eventDate": "Kasım–Aralık1915 tahliye hazırlığı;7Aralık onay metni değildir",
+        "recordDate": "6 Mart1916: sonradan düzenlenen raporun tarihi",
+        "publicationDate": "Resmî yayım10 Nisan1916; kullanılan Proceedings aktarımı Mayıs1916",
+        "digitalPublicationDate": null,
+        "publicationDateNote": "1916 basılı yayım tarihleri dijital aktarımın ilk yayımı sayılmaz; dijital ilk yayım ayrıca belirlenmedi.",
+        "accessDate": "2026-11-02",
+        "evidenceText": "Açık kıyılarda topçu menzili ve dalgalar bindirmeyi güçleştirir;Monro olağan görünümün korunmasını uygun bulduğunu anlatır.",
+        "scope": "Rapor: 6 Mart 1916; Proceedings aktarımı: Mayıs 1916; erişim: 2 Kasım 2026. The Evacuation of Gallipoli bölümündeki bindirme ve hava paragrafları okundu. Özgün rapor, karşı taraf gözlemleri ve bütün dergi okunmadı; raporun genel tahliye değerlendirmesi 7 Aralık karar metniyle eşitlenmedi. Önceki seçili pasaj okuması yapılandırıldı;bu paragraflar Osmanlı birliklerinin hiçbir hazırlığı fark etmediğini veya bütün bindirmelerin gerçekleştiğini kanıtlamaz.",
+        "status": "yayin_aktarimi_pasaji_okundu",
+        "witnessGroup": "Monro-1916-report-transfer"
+      }
+    },
+    {
+      "id": "e-aralik-ocak",
+      "section": 1,
+      "record": {
+        "claim": "Peter Hart’ın AWM’de yayımlanan anlatısı, Arıburnu ve Suvla’nın boşaltılmasından sonra Osmanlı kuvvetleri ve topçusunun Seddülbahir’e yoğunlaşabilmesini kalan garnizon için artan bir tehlike olarak değerlendirir. Bu, sonraki tahliye kararının askerî bağlamını açıklar; hükümetin bütün gerekçelerini içeren karar tutanağı değildir. Aynı anlatı, son ayrılış için düşünülen takvimin uygun hava koşullarına bağlı olduğunu da vurgular.",
+        "url": "https://wm.awm.gov.au/read/evacuation-helles",
+        "sourceType": "web",
+        "bibliography": "Peter Hart, The Evacuation of Helles, Australian War Memorial (Wartime çevrimiçi yayını), 17 Haziran2025.",
+        "locator": "Giriş ve Seddülbahir karar/hazırlık bağlamı paragrafları",
+        "eventDate": "Aralık1915–Ocak1916: Seddülbahir tahliyesinin askerî bağlamı",
+        "recordDate": "Geriye dönük tarih anlatısı;özgün hükümet karar tutanağı değildir",
+        "publicationDate": "2025-06-17",
+        "digitalPublicationDate": null,
+        "publicationDateNote": "17Haziran2025 çevrimiçi yazının görünür yayım tarihidir;dayandığı anıların yazım veya ilk basım tarihleri burada ayrıca belirlenmedi. Görünür yayım alanı ilk dijital yayım/güncelleme tarihçesinin ayrıca doğrulandığı anlamına gelmez;ilk dijital yayım ayrıca belirlenmedi.",
+        "accessDate": "2026-11-02",
+        "evidenceText": "Arıburnu–Suvla sonrasında Osmanlı kuvvet/topçusunun Seddülbahir’e yoğunlaşabilmesi kalan garnizon için tehlike olarak değerlendirilir;takvim uygun havaya bağlanır.",
+        "scope": "Yayın: 17 Haziran 2025; olay dönemi: Aralık 1915–Ocak 1916; erişim: 2 Kasım 2026. İlgili giriş ve hazırlık paragrafları okundu; bütün yazı ve atıf verilen anıların asılları okunmadı. Yazarın değerlendirmesi ile özgün emir ayrıldı. Bu parti önceki seçili web okumasının yapılandırılmasıdır;27AralıkDVA başlığı/28Aralık karar-telgraf anlatımı farkı çözülmedi.",
+        "status": "yayin_aktarimi_pasaji_okundu",
+        "witnessGroup": "Hart-2025-Helles-narrative"
+      }
+    },
+    {
+      "id": "e-aralik-ocak",
+      "section": 2,
+      "record": {
+        "claim": "Birdwood’un günlüğünün AWM metin aktarımı, 28 Aralık altında Seddülbahir’i tahliye emrini aldığını kaydeder. 29 Aralık girişinde Mudros’ta Monro ile ayrıntıları konuşmasını, 30 Aralık’ta Davies ve Brulard ile tahliye düzenlemelerini görüşmesini anlatır. Fransız piyadesinin daha sonra ayrılmasına ilişkin plan da bu görüşme kaydında yer alır. Görüşülen takvim, bütün birliklerin o tarihte gerçekten gemiye bindiğinin kanıtı değildir.",
+        "url": "https://transcribe.awm.gov.au/transcription/item/rcdig0000002-5",
+        "sourceType": "archive",
+        "bibliography": "William Birdwood, kişisel günlük;Australian War Memorial,RCDIG0000002,Transcribe metin aktarımı,rcdig0000002-5;28–30Aralık1915 girişleri.",
+        "locator": "Metin aktarımında yaprak104–105;28,29 ve30Aralık gün başlıkları",
+        "eventDate": "28–30Aralık1915:emrin alımı ve hazırlık görüşmeleri",
+        "recordDate": "28–30Aralık tarihli günlük girişleri;bu başlıklar özgün yazım anını tek başına tasdik etmez",
+        "publicationDate": null,
+        "digitalPublicationDate": null,
+        "publicationDateNote": "Gün başlıkları olay/kayıt tarihleridir;günlüğün ilk yayımı ve dijital çevriyazının yayım tarihi ayrıca belirlenmedi.",
+        "accessDate": "2026-11-02",
+        "evidenceText": "28Aralık emrin alımı,29AralıkMonro ile ayrıntılar,30AralıkDavies/Brulard ile düzenlemeler aktarılır;Fransız ayrılış takvimi plandır.",
+        "scope": "Belge: kişisel günlük, ilgili 28–30 Aralık kayıtları; AWM RCDIG0000002, aktarımda yaprak104–105. Dijital yayın tarihi bilinmiyor; erişim: 2 Kasım 2026. Yalnız seçili metin aktarımı okundu; el yazısı görüntüsü ve emrin aslı görülmedi. Sayfanın başlığındaki tarih aralığı seçili girişleri kapsamasa da metindeki gün başlıkları ayrıca kontrol edildi. Bu parti önceki seçili çevriyazı okumasının yapılandırılmasıdır;elyazısı/asıl emir görülmedi. DVA27Aralık kaydıyla aynı emrin gönderim–alım zinciri kesinleştirilmedi.",
+        "status": "yayin_aktarimi_pasaji_okundu",
+        "witnessGroup": "Birdwood-RCDIG0000002-Dec28-30-transcription"
+      }
+    }
+  ],
+  "sourceReview": "R09-november-storm-narrative-scope.json;R09-evacuation-approval-narrative-scope.json;R09-helles-order-narrative-scope.json tam okundu. Bu parti önceki seçili pasaj okumalarının yapılandırılmasıdır;yeni özgün belge okuması değildir.",
+  "tests": {
+    "javascript": 299,
+    "python": 25,
+    "failures": 0,
+    "log": "R12-final-six-narrative-record-tests.txt"
+  },
+  "ui": {
+    "desktop": "Üç sayfa1280×720:1265/1265",
+    "mobile": "Üç sayfa320×800:305/305",
+    "keyboard": "Altı ayrıntı Enter ile açıldı;üç sayfanın#anlati-2 dönüşü görüldü;viewport sıfırlandı",
+    "map": "Harita/süzgeç değişmedi"
+  },
+  "acceptance": "Ek anlatı kaynakları36/36 yapılandırıldı;bu alt envanterin tamamlanması genelR12kabulü değildir."
+}

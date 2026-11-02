@@ -1,0 +1,62 @@
+{
+  "task": "R02",
+  "status": "engelli (publication requires new explicit request)",
+  "fetched_at_utc": "2026-11-01T13:02:18.998429+00:00",
+  "mode": "two fixed public HTTP GETs only; no crawl, scraper, upload, commit, push or deploy",
+  "limits": [
+    "Response hashes describe these requests; CDN/cache/origin differences may remain.",
+    "Historical release manifest is not a fresh remote backup.",
+    "No conclusion about other86HTMLpages or other assets."
+  ],
+  "files": [
+    {
+      "path": "cephede-beslenme/index.html",
+      "requested_url": "https://onsekizmart.com/cephede-beslenme/",
+      "local_sha256": "74d01abecf75ec09923b465bf8797ef6a2acb4f608171d207cb8e01277641ecf",
+      "historical_release_sha256": "94adb1ccae619deeecdc4ff79a356aa2e6b1f8f9013587b74659151d21ec2edd",
+      "initial_environment_error": "<urlopen error [WinError 10013] Erişim izinlerince izin verilmeyen bir şekilde bir yuvaya erişilmeye çalışıldı>",
+      "http_status": 200,
+      "final_url": "https://onsekizmart.com/cephede-beslenme/",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Encoding": null,
+        "ETag": "\"4fa3-6ae33a60-32e0638291f666b2;;;\"",
+        "Last-Modified": "Thu, 29 Oct 2026 12:21:52 GMT",
+        "Age": null,
+        "Cache-Control": null,
+        "CF-Cache-Status": null,
+        "X-Cache": null
+      },
+      "body_bytes": 20387,
+      "body_sha256": "94adb1ccae619deeecdc4ff79a356aa2e6b1f8f9013587b74659151d21ec2edd",
+      "matches_local": false,
+      "matches_historical_release": true
+    },
+    {
+      "path": "donanma/index.html",
+      "requested_url": "https://onsekizmart.com/donanma/",
+      "local_sha256": "d615b2fa5e4bbbc1b0c0a72f8a56d2d3421d86a210b933c27276e55d5d53b30b",
+      "historical_release_sha256": "8fc3cf2859d8de33c3a1eaa6a5de5a9013ee29965d8f017b8a30937fd0fbd9c8",
+      "initial_environment_error": "<urlopen error [WinError 10013] Erişim izinlerince izin verilmeyen bir şekilde bir yuvaya erişilmeye çalışıldı>",
+      "http_status": 200,
+      "final_url": "https://onsekizmart.com/donanma/",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Encoding": null,
+        "ETag": "\"14187-6ae33a60-817f116d08358c3d;;;\"",
+        "Last-Modified": "Thu, 29 Oct 2026 12:21:52 GMT",
+        "Age": null,
+        "Cache-Control": null,
+        "CF-Cache-Status": null,
+        "X-Cache": null
+      },
+      "body_bytes": 82311,
+      "body_sha256": "8fc3cf2859d8de33c3a1eaa6a5de5a9013ee29965d8f017b8a30937fd0fbd9c8",
+      "matches_local": false,
+      "matches_historical_release": true
+    }
+  ],
+  "web_tool_fallback": "Both fixed URLs inaccessible via web tool.",
+  "finding": "Both HTTP200response hashes match29Octoberrelease inventory and differ from current local files. This confirms local/live difference for these2responses only.",
+  "unblock": "New explicit publication request plus pending UI acceptance/fresh remote backups. Do not upload automatically."
+}

@@ -1,0 +1,15 @@
+{
+  "task": "R23",
+  "scope": "Yerelfark;tammanifestdeğil.",
+  "publication": "Yeni açıktalebebağlıengelli.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "bcb471a174f0bb603775a0daad5205dace5fa926060cf7412c33baf7e95b4e01"
+    },
+    {
+      "path": "olaylar/quinns-post-siper-baskini/index.html",
+      "sha256": "f626c7f214edfa725bb0b767214a32b038bfb6116570addf08a22db07ad03818"
+    }
+  ]
+}

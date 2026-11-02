@@ -1,0 +1,17 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Kasım fırtınası sonrası yerel iki dosya; tam yayınmanifesti değil.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "9a3c8b8067eab91afc5259f460c60670b7619507c0730ca324163d125a26e589"
+    },
+    {
+      "path": "olaylar/yagmur-ve-kar-firtinasi/index.html",
+      "sha256": "5d0b3733d6784f39f4b310b3e909b64c09c9554a9c1fb18a71e744215daa483b"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi ve taze tam envanter/uzak geri dönüş; .htaccess korunacak."
+}

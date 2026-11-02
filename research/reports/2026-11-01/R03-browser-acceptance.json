@@ -1,0 +1,62 @@
+{
+  "task": "R03",
+  "date": "2026-11-01",
+  "status": "tamamlandı",
+  "browser": "Supported ChatGPT in-app browser (IAB), not Chrome extension or native Windows control",
+  "recovery": "New Browser Use connection available; local loopback server required scoped permission to bind. Chrome still absent from extension browser inventory. No URL policy bypass.",
+  "desktop": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "documentClientWidth": 1265,
+    "horizontalOverflow": false,
+    "cards": [
+      "gaulois",
+      "charlemagne",
+      "canopus",
+      "cornwallis",
+      "ark-royal",
+      "inflexible",
+      "triumph-18"
+    ]
+  },
+  "mobile": {
+    "viewport": [
+      320,
+      800
+    ],
+    "documentClientWidth": 305,
+    "horizontalOverflow": false,
+    "cards": [
+      "gaulois",
+      "charlemagne",
+      "canopus",
+      "cornwallis",
+      "ark-royal",
+      "inflexible",
+      "triumph-18"
+    ]
+  },
+  "visual_evidence": "Screenshots captured and inspected in Browser Use tool outputs for each listed card and both beslenme source-link viewports; no standalone screenshot file is claimed.",
+  "functional_checks": [
+    "Gaulois/Charlemagne/Canopus/Cornwallis/ArkRoyal/Inflexible name-only search shows matching card;Triumph shows both18March/25Maycards,not a false1/30claim.",
+    "Gaulois mobile and desktop map transition selects scoped Gaulois panel;Leaflet markers,Esri tiles,scale andbase layers visible.",
+    "Map return retains /donanma/?q=Gaulois&ad=1#gaulois and query property Gaulois.",
+    "Escape clears navy query,retains name-only checkbox,and restores30headings.",
+    "Map Itilaf filter pressed true:20naval records including4common;separatecampaigncounter46/47was not called20.",
+    "Wreck layer off removes Gaulois marker;on restores visible marker.",
+    "Beslenme24Nisan/12Mayis links target PDFpage28/page38;Tabfocus moves to12Mayis;desktop/mobile no horizontal overflow."
+  ],
+  "limits": [
+    "Responsive desktop/mobile emulation;not a physical-deviceR19acceptance.",
+    "These checks do not verify historical content,allpages,allaccessibilityorallreleasegates.",
+    "IAB viewport overrides are restored before handoff."
+  ],
+  "tests": {
+    "javascript": 297,
+    "python": 29,
+    "failures": 0,
+    "log": "R03-acceptance-R04-headquarters-tests.txt"
+  }
+}

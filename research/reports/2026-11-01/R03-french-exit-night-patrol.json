@@ -1,0 +1,43 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "reviewDate": "2026-11-01",
+  "source": {
+    "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+    "eventDate": "1915-03-18",
+    "documentDate": "1915-03-24",
+    "publicationDate": null,
+    "accessDate": "2026-11-01",
+    "scope": "Only selected1.43/1.54, closing patrol and Gaulois disposition transcription passages read. Not original image/full work.",
+    "evidence": {
+      "withdrawal": "The French Squadron were ordered out of the Straits",
+      "gaulois": "Gaulois grounded on north of Drepano Island",
+      "patrol": "Türkçe kanıt özeti: Canopus ve Cornwallis, muhriplerle Boğaz girişinde devriyede anılır; filonun geceTenedosdemirlemesi ayrı anlatılır."
+    }
+  },
+  "changes": [
+    {
+      "ship": "charlemagne",
+      "claim": "Fransız hattına çekilme emri ve hattın hareketi, Charlemagne için ayrı kesin çıkış dakikası değildir.",
+      "verifiedScope": "report entries only",
+      "individualExitTimeVerified": false
+    },
+    {
+      "ship": "gaulois",
+      "claim": "Rapor aktarımında adanın kuzeyi; modern yer eşleştirmesi/koordinat değil.",
+      "coordinateVerified": false
+    },
+    {
+      "ship": "canopus",
+      "claim": "Görev kısa alanı mevcut alt açıklamadaki gece devriyesi kapsamına daraltıldı.",
+      "wholeDayDutyVerified": false
+    },
+    {
+      "ship": "cornwallis",
+      "claim": "Görev kısa alanı mevcut alt açıklamadaki gece devriyesi kapsamına daraltıldı.",
+      "wholeDayDutyVerified": false
+    }
+  ],
+  "uiAcceptance": "pending: UISight browser/context closed persists after one recovery attempt. Do not repeat accepted LordNelson/PrinceGeorge/Agamemnon checks.",
+  "next": "Validate these four revised cards on desktop/mobile when browser access returns; no automatic release."
+}

@@ -1,0 +1,19 @@
+{
+  "task": "R23",
+  "scope": "R11yerelfarkı;tammanifestdeğil.",
+  "publication": "Yeni açıktalebebağlıengelli.",
+  "files": [
+    {
+      "path": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "sha256": "29b6d096ade305ad154bb04590b894766b7609b68e988523916e427cf113f53c"
+    },
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "346aee55492a69db4879dc6007cde90876734ff07aeedfd9f6cecfcc623d4478"
+    },
+    {
+      "path": "olaylar/ateskes-gorusmeleri/index.html",
+      "sha256": "9afe58129a0ec3e1ea83ee67decdc1f4eb228eb488e806d9206279c43f4f4101"
+    }
+  ]
+}

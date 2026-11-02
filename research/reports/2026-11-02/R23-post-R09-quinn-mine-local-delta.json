@@ -1,0 +1,17 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Quinn29Mayıs anlatısı sonrası yerel iki dosya; tammanifest değil.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "b237e8d80f81c88ffdf2b2de0b25a47f9b0faebdbb5b3a93125f8fe6616eea37"
+    },
+    {
+      "path": "olaylar/quinns-post-lagim-taarruzu/index.html",
+      "sha256": "d311598834974090b72353eb20ba25c19ca099da91dbde29b477b3b2e07d575b"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi ve taze tam envanter/uzak geri dönüş; .htaccess korunacak."
+}

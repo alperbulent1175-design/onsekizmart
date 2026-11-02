@@ -1,0 +1,17 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "R08 filo kaynak geçişi sonrası index/app yerel hashleri; önceki delta ve manifest bu iki dosyada güncel değildir. Tam yayın paketi veya uzak yedek değil.",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "2722304541c5fdebb210b34716097cded799eb6cf579e3a1cb5e2f5160bdeb97"
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "95deb5377ce2c6fbdecd98fa0a5254772e11fe1e2f09542cdba90f6cf6dd3293"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi, güncel tam envanter ve taze uzak geri dönüş hazırlığı; .htaccess korunacak."
+}

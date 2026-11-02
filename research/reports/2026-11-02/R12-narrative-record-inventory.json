@@ -1,0 +1,253 @@
+{
+  "task": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "scope": "36/36 ek anlatı kaynağı yapılandırıldı;bu alt envanter kapandı. GenelR12kabulü için sourceTime ve diğer kanıt katmanlarının envanter/geri dönüş kabulü açık.",
+  "source": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+  "evidence": "The Start basılı 8–9 ve14–15;15 Mart başlıklı yayımlanmış kaydın geriye dönük görüşme/taslak anlatısı.",
+  "dates": {
+    "event": "12–13 Mart 1915",
+    "publishedRecordHeading": "15 Mart 1915",
+    "bookPublication": "1920",
+    "digitalPublication": "2006-09-19",
+    "passageAccess": "2026-11-01",
+    "structuring": "2026-11-02"
+  },
+  "verification": "Yayımlanmış aktarımın ilgili paragrafları önceki incelemede okundu; el yazısı defter/asıl talimat belgesi görülmedi. 2 Kasım yapılandırma tarihi eski pasaj erişiminin yerine geçmedi.",
+  "inventory": [
+    {
+      "id": "e-mart-sessiz-1",
+      "section": 1,
+      "title": "Neden mayın taramak gerekiyordu?",
+      "structured": true
+    },
+    {
+      "id": "e-mart-sessiz-1",
+      "section": 2,
+      "title": "Girişimler nasıl sonuçlandı?",
+      "structured": true
+    },
+    {
+      "id": "e-mart-sessiz-2",
+      "section": 1,
+      "title": "Hazırlık: donanmanın önceliği",
+      "structured": true
+    },
+    {
+      "id": "e-mart-sessiz-2",
+      "section": 2,
+      "title": "13 Mart: taslak ile onaylı kopya",
+      "structured": true
+    },
+    {
+      "id": "e-mart-nisan",
+      "section": 1,
+      "title": "Hazırlık yalnız hareket emrinden ibaret değildi",
+      "structured": true
+    },
+    {
+      "id": "e-mart-nisan",
+      "section": 2,
+      "title": "Emirden intikale, intikalden çıkarmaya",
+      "structured": true
+    },
+    {
+      "id": "e-nisan-sessiz",
+      "section": 1,
+      "title": "Hava koşulları hazırlığı nasıl etkiledi?",
+      "structured": true
+    },
+    {
+      "id": "e-nisan-sessiz",
+      "section": 2,
+      "title": "Plan, emir ve çıkarma neden ayrı?",
+      "structured": true
+    },
+    {
+      "id": "e-nisan-mayis",
+      "section": 1,
+      "title": "Limana varıştan hastane kabulüne",
+      "structured": true
+    },
+    {
+      "id": "e-nisan-mayis",
+      "section": 2,
+      "title": "Hastane tablosu neden gemi yolcu listesi değildir?",
+      "structured": true
+    },
+    {
+      "id": "e-mayis-sessiz-1",
+      "section": 1,
+      "title": "Taarruzun hedefi hangi mevziydi?",
+      "structured": true
+    },
+    {
+      "id": "e-mayis-sessiz-1",
+      "section": 2,
+      "title": "9 Mayıs: planlanan saat ile hücum ayrılıyor",
+      "structured": true
+    },
+    {
+      "id": "e-mayis-sessiz-1",
+      "section": 3,
+      "title": "10 Mayıs: eski mevziye dönüş ve karşı taarruz",
+      "structured": true
+    },
+    {
+      "id": "e-mayis-sessiz-1",
+      "section": 4,
+      "title": "Osmanlı emri hangi karşılığı hedefliyordu?",
+      "structured": true
+    },
+    {
+      "id": "e-mayis-sessiz-2",
+      "section": 1,
+      "title": "Kazı sesi neden önemliydi?",
+      "structured": true
+    },
+    {
+      "id": "e-mayis-sessiz-3",
+      "section": 1,
+      "title": "Görüşmelerde güven ve yetki sorunu",
+      "structured": true
+    },
+    {
+      "id": "e-mayis-haziran",
+      "section": 1,
+      "title": "Osmanlı hazırlığı hangi kaygıyla anlatılıyor?",
+      "structured": true
+    },
+    {
+      "id": "e-mayis-haziran",
+      "section": 2,
+      "title": "Patlama takviyeyi neden güçleştirdi?",
+      "structured": true
+    },
+    {
+      "id": "e-mayis-haziran",
+      "section": 3,
+      "title": "Geri alma emrinden siper onarımına",
+      "structured": true
+    },
+    {
+      "id": "e-haziran-sessiz",
+      "section": 1,
+      "title": "Yapım ile ikmal hizmetini ayırmak",
+      "structured": true
+    },
+    {
+      "id": "e-haziran-sessiz",
+      "section": 2,
+      "title": "Tamamlanma günü neden açık bırakılıyor?",
+      "structured": true
+    },
+    {
+      "id": "e-temmuz-sessiz",
+      "section": 1,
+      "title": "Aşılama neden gündeme geldi?",
+      "structured": true
+    },
+    {
+      "id": "e-temmuz-agustos",
+      "section": 1,
+      "title": "Hastane kurulurken bakım da sürüyordu",
+      "structured": true
+    },
+    {
+      "id": "e-temmuz-agustos",
+      "section": 2,
+      "title": "Donanımın gelişi neyi değiştirdi?",
+      "structured": true
+    },
+    {
+      "id": "e-agustos-sessiz",
+      "section": 1,
+      "title": "Taarruzun destek görevi",
+      "structured": true
+    },
+    {
+      "id": "e-agustos-sessiz",
+      "section": 2,
+      "title": "İlerleme neden kesintiye uğradı?",
+      "structured": true
+    },
+    {
+      "id": "e-agustos-sessiz",
+      "section": 3,
+      "title": "Mevziyi koruma emri neyi gösterir?",
+      "structured": true
+    },
+    {
+      "id": "e-sonbahar",
+      "section": 1,
+      "title": "Denizdeki hasar su ikmalini nasıl etkiledi?",
+      "structured": true
+    },
+    {
+      "id": "e-sonbahar",
+      "section": 2,
+      "title": "Korunaklı bir ikmal noktası arayışı",
+      "structured": true
+    },
+    {
+      "id": "e-kitchener-tahliye",
+      "section": 1,
+      "title": "Tavsiyeden önceki askerî değerlendirme",
+      "structured": true
+    },
+    {
+      "id": "e-kasim-firtina",
+      "section": 1,
+      "title": "İki günlük değişim tabur kayıtlarında",
+      "structured": true
+    },
+    {
+      "id": "e-kasim-firtina",
+      "section": 2,
+      "title": "Soğuk günlük işi de değiştiriyordu",
+      "structured": true
+    },
+    {
+      "id": "e-aralik-onay",
+      "section": 1,
+      "title": "Onaydan sonra neden aşamalar gerekiyordu?",
+      "structured": true
+    },
+    {
+      "id": "e-aralik-onay",
+      "section": 2,
+      "title": "Hava ve gizlilik bindirmeyi nasıl sınırlıyordu?",
+      "structured": true
+    },
+    {
+      "id": "e-aralik-ocak",
+      "section": 1,
+      "title": "Seddülbahir neden ayrı bir sorun hâline geldi?",
+      "structured": true
+    },
+    {
+      "id": "e-aralik-ocak",
+      "section": 2,
+      "title": "Emrin alınmasından hazırlık görüşmelerine",
+      "structured": true
+    }
+  ],
+  "structuredCount": 19,
+  "tests": {
+    "javascript": 299,
+    "python": 25,
+    "failures": 0,
+    "log": "R12-Quinn-record-tests.txt"
+  },
+  "ui": "Dört ayrıntı mevcut;ilk günlük ayrıntısı masaüstü ve dördüncü makale ayrıntısı mobil Enter ile açıldı.1280x720/320x8001265/1265ve305/305px,#anlati-4dönüşü doğrulandı,boyut sıfırlandı;harita/süzgeç değişmedi.",
+  "latestBatch": {
+    "report": "R12-final-six-narrative-records.json",
+    "testLog": "R12-final-six-narrative-record-tests.txt",
+    "ui": {
+      "desktop": "Üç sayfa1280×720:1265/1265",
+      "mobile": "Üç sayfa320×800:305/305",
+      "keyboard": "Altı ayrıntı Enter ile açıldı;üç sayfanın#anlati-2 dönüşü görüldü;viewport sıfırlandı",
+      "map": "Harita/süzgeç değişmedi"
+    }
+  }
+}

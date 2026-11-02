@@ -1,0 +1,547 @@
+{
+  "task": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "reviewScope": "18 temel kanıtın künye/konumlayıcı/URL/tarih/kapsam alanları mevcut anlatı ve merkez notuna eşlendi. 36 ek anlatı kaynağı notlarıyla envantere alındı; tek tek yeniden tarihsel doğrulama sayılmadı.",
+  "sourcesRead": [
+    {
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "passage": "Başlık; Last updated 6 December 2024; Cite this page bölümünde DVA (2024).",
+      "accessDate": "2026-11-02",
+      "scope": "Künye kontrolü. 16 olay pasajının tamamı yeniden okunmadı; eski pasaj erişim tarihi korunur."
+    },
+    {
+      "url": "https://www.awm.gov.au/collection/C45317",
+      "passage": "H02318; Date made 22 May 1915; Butler/Ohri dönüş açıklaması.",
+      "accessDate": "2026-11-02",
+      "scope": "Nesne kaydı; çekim tarihi dijital yayım tarihi yapılmadı. Fotoğrafçı belirlenmedi; yeni görsel yok."
+    },
+    {
+      "url": "https://www.awm.gov.au/collection/C1342882",
+      "passage": "AWM4 23/32/7 - May 1915; 15th Infantry Battalion; 63 görüntü.",
+      "accessDate": "2026-11-02",
+      "scope": "Katalog başlığı/kurumsal kimlik; bu kontrolde tüm günlük okunmadı."
+    }
+  ],
+  "summary": {
+    "basicRecords": 18,
+    "bibliographies": 18,
+    "publicationYearsFromDvaCitation": 16,
+    "unknownDigitalPublicationDates": 2,
+    "additionalNarrativeSourceNotes": 36
+  },
+  "records": [
+    {
+      "id": "e-mart-sessiz-1",
+      "page": "olaylar/mayin-tarama-girisimleri/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "1 March 1915 başlığı altındaki 1–17 Mart tarih aralığı",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "1–17 Mart 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-11-01",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Neden mayın taramak gerekiyordu?",
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/dardanelles-strategy",
+          "note": "İlgili geçit açma/obüs ateşi paragrafı 1 Kasım 2026’da okundu. Olay bağlamı Mart 1915; yayın tarihi bilinmiyor. Özgün görev günlüğü veya Osmanlı ateş emri incelenmedi. Komşu paragraftaki 1914 tarih ifadesi bu kaydın tarihine aktarılmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Girişimler nasıl sonuçlandı?",
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "note": "1–17 Mart 1915 pasajı 1 Kasım 2026’da okundu; yayın tarihi bilinmiyor. Tekne sayısı, tarama rotası ve temizlenen mayın toplamı çıkarılmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-mart-sessiz-2",
+      "page": "olaylar/hamiltona-talimat/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "13 March 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "13 Mart 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-29",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Hazırlık: donanmanın önceliği",
+          "url": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+          "note": "15 Mart 1915 başlıklı kayıt, önceki görüşmeyi geriye dönerek anlatır; 12 Mart görüşmesiyle 13 Mart talimatı tek belge yapılmadı. New York: George H. Doran, 1920; e-kitap yayımı 19 Eylül 2006; seçili pasaj incelemesi 1 Kasım 2026. Aktarım okundu, el yazısı defter görülmedi.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "13 Mart: taslak ile onaylı kopya",
+          "url": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+          "note": "Anlatılan olay 13 Mart 1915; pasaj 15 Mart başlıklı kaydın devamındadır. Kitap 1920, e-kitap 2006; erişim 1 Kasım 2026. Yalnız ilgili paragraflar ve künye okundu, bütün eser değil.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-mart-nisan",
+      "page": "olaylar/anzak-sevk-emri/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "1 April 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "1 Nisan 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-28",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Hazırlık yalnız hareket emrinden ibaret değildi",
+          "url": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+          "note": "Olay/kayıt başlığı 1 Nisan 1915; basım New York: George H. Doran, 1920; e-kitap 19 Eylül 2006; seçili pasaj erişimi 2 Kasım 2026. E-kitap aktarımı okundu; el yazısı defter veya yükleme cetveli görülmedi. Karargâh anlatısı her birliğin fiilî hazırlık sonucu sayılmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Emirden intikale, intikalden çıkarmaya",
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "note": "İlgili iki giriş 28 Ekim 2026’da incelendi; yayın tarihi bilinmiyor. Özgün sevk emri ve taşıma günlükleriyle karşılaştırma açık. Bu önceki okuma 2 Kasım’da yeni erişim yapılmış gibi tarihlenmedi.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-nisan-sessiz",
+      "page": "olaylar/mondrosta-cikarma-hazirligi/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "20 April 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "20 Nisan 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-29",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Hava koşulları hazırlığı nasıl etkiledi?",
+          "url": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+          "note": "Olay/kayıt günü 20 Nisan 1915; basım New York: George H. Doran, 1920; e-kitap 19 Eylül 2006; seçili pasaj erişimi 2 Kasım 2026. E-kitap aktarımı okundu, el yazısı veya meteoroloji cetveli incelenmedi.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Plan, emir ve çıkarma neden ayrı?",
+          "url": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+          "note": "Olay/kayıt günü 21 Nisan 1915; aynı 1920 baskısının e-kitap aktarımı, erişim 2 Kasım 2026. Yalnız ilgili kayıt ve emir metnine giriş okundu; özgün dağıtım/teslim kayıtları görülmedi.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-nisan-mayis",
+      "page": "olaylar/yaralilar-misira-ulasiyor/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "29 April 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "29 Nisan 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-25",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Limana varıştan hastane kabulüne",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1069997/document/5520745.PDF#page=14",
+          "note": "Olay 29 Nisan 1915; yayın 1938. İlgili iki sayfanın görüntüsü 24 Ekim 2026’da incelendi; bu parti önceki okuma kaydını kullanır, yeni görüntü okuması değildir. Verilen PDF bağlantısı s.195 pasajına gider. Farklı seferler veya hastaneler arası nakiller aynı toplam yapılmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Hastane tablosu neden gemi yolcu listesi değildir?",
+          "url": "https://www.gutenberg.org/files/41911/41911-h/41911-h.htm",
+          "note": "Tablo dönemi 28 Nisan–1 Mayıs 1915; Londra: H. K. Lewis,1918. E-kitap aktarımındaki başlık/tablo 2 Kasım 2026’da okundu; önceki 24 Ekim baskı görüntüsü incelemesi ayrıca korunur. Özgün hasta kabul defteri görülmedi; iki yayının aynı kayıt zincirinden bağımsız olduğu varsayılmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-mayis-sessiz-1",
+      "page": "olaylar/quinns-post-siper-baskini/index.html",
+      "bibliography": "Australian War Memorial, Australian Imperial Force unit war diaries, 1914–18 War; 15th Infantry Battalion, AWM4 23/32/7, May 1915; dijital kayıt C1342882, RCDIG1004304.",
+      "locator": "Görüntü 4–5 / yaprak 46–47; 9–10 Mayıs 1915",
+      "url": "https://www.awm.gov.au/collection/C1342882",
+      "eventDate": "9–10 Mayıs 1915",
+      "publicationDate": null,
+      "publicationDateNote": "Mayıs 1915 günlük belge dönemidir; taramanın veya dijital katalog kaydının yayım tarihi ayrıca doğrulanmadı.",
+      "passageAccessDate": "2026-10-25",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "Avustralya 15. Taburunun el yazılı günlük taramasında 9–10 Mayıs pasajları okundu. 63 sayfanın tümü okunmadı; Osmanlı emir/raporlarıyla tam karşılaştırma yapılmadı. Saat sistemi ayrıca kalibre edilmedi.",
+      "status": "gunluk_goruntusu_ilgili_pasaj_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Taarruzun hedefi hangi mevziydi?",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922380.JPG",
+          "note": "Olay ve günlük kaydı: 9 Mayıs 1915. İlgili hedef ve hazırlık cümleleri 2 Kasım 2026’da AWM’nin el yazılı günlük taramasından görüntüyle okundu. Kısa kanıtın anlamı: Quinn’s Post önündeki karşı siperlere hücum kararı. Dijital yayın tarihi bilinmiyor; 63 sayfalık dosyanın tamamı okunmadı. Bu kayıt her birliğin ayrıntılı emri veya Osmanlı tarafının amacı değildir.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "9 Mayıs: planlanan saat ile hücum ayrılıyor",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922380.JPG",
+          "note": "Olay ve günlük bağlamı 9 Mayıs 1915. Görüntü 25 Ekim 2026’da incelendi; dijital yayın tarihi bilinmiyor. Bu parti önceki okuma kaydını kullanır; yeni görüntü okuması değildir. Saatler günlükteki kayıtlardır, karşı tarafın saatleriyle eşitlenmedi.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "10 Mayıs: eski mevziye dönüş ve karşı taarruz",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922381.JPG",
+          "note": "Olay/günlük bağlamı 10 Mayıs 1915; görüntü incelemesi 25 Ekim 2026, dijital yayın tarihi bilinmiyor. Kısa kanıtın anlamı: eski mevzi ertesi gün saat06.00’da yeniden tutuldu. Özgün görüntü önceki incelemede okunmuştur; bu parti kapsam ve okuyucu aktarımıdır.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Osmanlı emri hangi karşılığı hedefliyordu?",
+          "url": "https://atamdergi.gov.tr/eng/full-text/1146/tur",
+          "note": "Olay/emir: 9–10 Mayıs 1915. Yayın: Kasım 2025, Atatürk Araştırma Merkezi Dergisi, XLI/112. Erişim: 2 Kasım 2026. İlgili paragraflar ve dipnot48–49 okundu; atıf Harp Ceridelerine Göre Çanakkale Savaşları’nda 27. Alay, C.II, 2018, s.111. Kitap sayfası ve özgün emir görülmedi; doğrulama yayımlanmış dolaylı aktarımla sınırlı. Makalenin saati tabur günlüğünün saatiyle uzlaştırılmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-mayis-sessiz-2",
+      "page": "olaylar/yeraltindan-kazma-sesleri/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "17 May 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "17 Mayıs 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-11-02",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Kazı sesi neden önemliydi?",
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "note": "Olay 17 Mayıs 1915; ilgili giriş 2 Kasım 2026’da okundu; yayın tarihi bilinmiyor. İlk25Ekim ve29Ekimkapsam incelemeleri korunur. Özgün kişisel günlük veya Osmanlı kazı/emir belgesi incelenmedi; kurumun “ilk belirti” ifadesi bütün cephe için kesin başlangıç tarihine çevrilmedi.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-mayis-sessiz-3",
+      "page": "olaylar/ateskes-gorusmeleri/index.html",
+      "bibliography": "Australian War Memorial, H02318, siyah beyaz fotoğraf; dijital katalog kaydı C45317, Butler ve Ohri’nin Osmanlı hatlarına dönüşü.",
+      "locator": "22 May 1915",
+      "url": "https://www.awm.gov.au/collection/C45317",
+      "eventDate": "22 Mayıs 1915",
+      "publicationDate": null,
+      "publicationDateNote": "22 Mayıs 1915 fotoğrafın çekim tarihidir; dijital katalog kaydının yayım tarihi ayrıca doğrulanmadı. Bu kontrolde fotoğrafçı belirlenmedi.",
+      "passageAccessDate": "2026-10-25",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "Fotoğrafın tarih ve açıklama alanları okundu; anlaşma metni değildir.",
+      "status": "fotograf_katalog_aciklamasi_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Görüşmelerde güven ve yetki sorunu",
+          "url": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+          "note": "Yayın: New York, George H. Doran, 1920; dijital aktarım: 19 Eylül 2006; erişim: 2 Kasım 2026. Yalnız 22 Mayıs girişinin ilk iki paragrafı okundu. Özgün el yazısı, imzalı anlaşma ve Osmanlı görüşme kaydı incelenmedi.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-mayis-haziran",
+      "page": "olaylar/quinns-post-lagim-taarruzu/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "29 May 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "29 Mayıs 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-25",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Osmanlı hazırlığı hangi kaygıyla anlatılıyor?",
+          "url": "https://dergipark.org.tr/en/download/article-file/45082#page=8",
+          "note": "Olay: 28/29 Mayıs 1915. Karataş PDF’sinin s.49–50 metin aktarımı ve 15. dipnotu 2 Kasım 2026’da okundu; bütün makale veya özgün hatırat okunmadı. Atıf: Esat Paşa, Çanakkale Savaşı Hatıraları, 2004, s.118–119. PDF başlığı 2008, dergi kaydı 1 Nisan 2009 gösterir; dijital yükleme tarihi kesinleştirilmedi. Doğrulama: yayımlanmış dolaylı aktarım.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Patlama takviyeyi neden güçleştirdi?",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1009992/bundled/RCDIG1009992.pdf#page=39",
+          "note": "Olay: 29 Mayıs 1915. AWM4 1/25/2 Part 5, Appendix 44, PDF39–41/yaprak317–319; taramanın ilgili üç sayfası 23 Ekim 2026’da okundu. Belgenin düzenlenme ve dijital yayın tarihi bu incelemede kesinleştirilmedi. 2 Kasım 2026’da önceki okuma notundan aktarıldı; 60 sayfalık dosyanın bütünü okunmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Geri alma emrinden siper onarımına",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1009992/bundled/RCDIG1009992.pdf#page=39",
+          "note": "Olay: 29 Mayıs 1915. AWM4 1/25/2 Part 5, Appendix 44, PDF39–41/yaprak317–319; taramanın ilgili üç sayfası 23 Ekim 2026’da okundu. Belgenin düzenlenme ve dijital yayın tarihi bu incelemede kesinleştirilmedi. 2 Kasım 2026’da önceki okuma notundan aktarıldı; 60 sayfalık dosyanın bütünü okunmadı. Saat düzeltmesinin eli ve yetkisi belirlenmedi; zayiat veya esir toplamı bu anlatıya eklenmedi.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-haziran-sessiz",
+      "page": "olaylar/watson-iskelesi-tamamlandi/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "19 June 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "19 Haziran 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-25",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Yapım ile ikmal hizmetini ayırmak",
+          "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+          "note": "İlgili tarihli paragraf 2 Kasım 2026’da okundu. Olay tarihi kurum kronolojisinin başlığıdır; yayın tarihi bilinmiyor. Özgün yapım günlüğü veya teslim cetveli incelenmedi.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Tamamlanma günü neden açık bırakılıyor?",
+          "url": "https://www.awm.gov.au/collection/C2690050",
+          "note": "Yemek: 18 Haziran 1915; katalogda nesne tarihi: 1915; dijital açıklamanın yayın tarihi bilinmiyor; erişim: 2 Kasım 2026. PDF ve iki görüntü isteği erişim hatası verdi. Menü metninin veya imzalı yapım tutanağının doğrulaması değildir. Görsel yayımlanmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-temmuz-sessiz",
+      "page": "olaylar/kolera-asilamasi/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "7 July 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "7 Temmuz 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-25",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Aşılama neden gündeme geldi?",
+          "url": "https://www.gutenberg.org/files/41911/41911-h/41911-h.htm",
+          "note": "Yayın: Londra, H. K. Lewis, 1918; erişim: 2 Kasım 2026. E-kitaptaki bölüm girişi ve aktarılan Ruffer notunun ilgili paragrafları okundu. Notun kesin tarihi bu pasajda belirlenmedi; bütün eser veya özgün not incelenmedi. Bu tarihsel görüşler güncel tıbbi öneri değildir.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-temmuz-agustos",
+      "page": "olaylar/hastane-ekibi-limnide/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "29 July 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "29 Temmuz 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-25",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Hastane kurulurken bakım da sürüyordu",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1070002/document/5520750.PDF#page=15",
+          "note": "Olay dönemi: Ağustos 1915. PDF15/metin sayfası335’in ilgili paragrafları 2 Kasım 2026’da metin aktarımından okundu. Sayfa görüntüsü isteği erişim hatası verdi; görüntüden okuma veya özgün hastane günlüğü doğrulaması sayılmadı. Baskı ve dijital yayın tarihi bu erişimde ayrıca doğrulanmadı; bütün bölüm okunmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Donanımın gelişi neyi değiştirdi?",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1070002/document/5520750.PDF#page=15",
+          "note": "İlgili PDF15–16 metin aktarımı 2 Kasım 2026’da okundu; görüntüler okunamadı. DVA’nın üç hafta sonra donanım gelişi özeti bu anlatıyla aynı kesin takvim hesabına dönüştürülmedi. Yatak, hasta ve sevk toplamları eklenmedi.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-agustos-sessiz",
+      "page": "olaylar/kirectepe-taarruzu/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "15 August 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "15 Ağustos 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-25",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Taarruzun destek görevi",
+          "url": "https://www.gallipoli-association.org/on-this-day/august/15",
+          "note": "Olay: 15 Ağustos 1915; sayfanın yayın tarihi bilinmiyor; erişim: 2 Kasım 2026. Kurumun tarih anlatısı okundu. Kaynakçada Rimmer’ın 1917 eseri ve alay sitesi anılıyor; özgün eser ve harekât emri bu incelemede okunmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "İlerleme neden kesintiye uğradı?",
+          "url": "https://www.gallipoli-association.org/on-this-day/august/15",
+          "note": "Yalnız ilgili giriş, arazi ve sonuç paragrafları ile kaynakça bu anlatıya dayanak yapıldı. Aktarılan kişisel anıların asılları kontrol edilmedi. Yeni mesafe, zayiat, saat veya koordinat eklenmedi; DVA ile kaynak bağımsızlığı varsayılmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Mevziyi koruma emri neyi gösterir?",
+          "url": "https://acikerisim.comu.edu.tr/server/api/core/bitstreams/81a91c95-16be-4661-a892-1018254822bd/content#page=146",
+          "note": "Olay/yazı: 16 Ağustos 1915; bu sayfanın 15 Ağustos girişinden ayrı gün. Yayın: ÇOMÜ yüksek lisans tezi, 2022; erişim: 2 Kasım 2026. Basılı s.127/PDF146’daki aktarım ve dipnot376 okundu. Kaynak zinciri: Dinç → ATASE Kls.5776, Dos.H1, F.001-30. Özgün arşiv belgesi ve bütün tez okunmadı; durum yayımlanmış dolaylı aktarımdır. Ansiklopedi maddesi de aynı yazara aittir; ikinci bağımsız tanık sayılmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-sonbahar",
+      "page": "olaylar/sonbahar-firtinasi/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "8 October 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "8 Ekim 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-25",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Denizdeki hasar su ikmalini nasıl etkiledi?",
+          "url": "https://www.gutenberg.org/cache/epub/22021/pg22021-images.html",
+          "note": "Hamilton, Gallipoli Diary II, 9 Ekim 1915 girişinin ilk üç paragrafı; yayın: New York, George H. Doran, 1920; dijital aktarım: 9 Temmuz 2007; erişim: 2 Kasım 2026. Yayımlanmış günlüğün e-kitap metni okundu; özgün iskele hasar raporu veya gemi jurnali görülmedi, bütün eser okunmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Korunaklı bir ikmal noktası arayışı",
+          "url": "https://www.gutenberg.org/cache/epub/22021/pg22021-images.html",
+          "note": "Hamilton, Gallipoli Diary II, 9 Ekim 1915 girişinin ilk üç paragrafı; yayın: New York, George H. Doran, 1920; dijital aktarım: 9 Temmuz 2007; erişim: 2 Kasım 2026. Yayımlanmış günlüğün e-kitap metni okundu; özgün iskele hasar raporu veya gemi jurnali görülmedi, bütün eser okunmadı. Yeni iskele Watson İskelesi ile özdeşleştirilmedi; öneri uygulama kaydı sayılmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-kitchener-tahliye",
+      "page": "olaylar/tahliye-tavsiyesi/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "22 November 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "22 Kasım 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-25",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Tavsiyeden önceki askerî değerlendirme",
+          "url": "https://www.usni.org/magazines/proceedings/1916/may/european-war-notes",
+          "note": "Rapor: 6 Mart 1916; resmî yayının ilk sayfası London Gazette, 10 Nisan 1916, s.3777’de rapor tarihini verir. Buradaki gerekçeler Mayıs 1916 Proceedings metin aktarımının ilgili giriş paragraflarından okundu; erişim: 2 Kasım 2026. Özgün imzalı rapor, Kitchener telgrafı ve bütün dergi okunmadı. Askerî inceleme ile 22 Kasım tavsiyesi ayrı kayıtlardır.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-kasim-firtina",
+      "page": "olaylar/yagmur-ve-kar-firtinasi/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "27 November 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "27–28 Kasım 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-25",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "İki günlük değişim tabur kayıtlarında",
+          "url": "https://www.awm.gov.au/articles/blog/preliminary-stage-evacuation-anzac-cove",
+          "note": "Theresa Cronk, AWM, 18 Kasım 2015; olay: 27–28 Kasım 1915; erişim: 2 Kasım 2026. Yalnız ilgili günlük anlatısı ve kaynak kapsamı okundu. Kurumun tabur günlüklerine dayalı aktarımıdır; bu incelemede özgün günlük görüntüleri ve bütün taburların kayıtları okunmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Soğuk günlük işi de değiştiriyordu",
+          "url": "https://www.awm.gov.au/articles/blog/preliminary-stage-evacuation-anzac-cove",
+          "note": "Theresa Cronk, AWM, 18 Kasım 2015; olay: 27–28 Kasım 1915; erişim: 2 Kasım 2026. Yalnız ilgili günlük anlatısı ve kaynak kapsamı okundu. Kurumun tabur günlüklerine dayalı aktarımıdır; bu incelemede özgün günlük görüntüleri ve bütün taburların kayıtları okunmadı. Hastaneye gönderilenler için verilen günlük rakamlar hava olayının toplam kaybı diye kullanılmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-aralik-onay",
+      "page": "olaylar/ariburnu-suvla-tahliye-onayi/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "7 December 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "7 Aralık 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-25",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Onaydan sonra neden aşamalar gerekiyordu?",
+          "url": "https://www.awm.gov.au/articles/blog/preliminary-stage-evacuation-anzac-cove",
+          "note": "Theresa Cronk, 18 Kasım 2015; olay dönemi: Kasım–Aralık 1915; erişim: 2 Kasım 2026. Önceki okumada incelenen girişteki aşama paragrafları kullanıldı. Özgün plan veya hükümet kararı görülmedi. Yazının parlamento ifadesi yeni karar künyesi olarak kullanılmadı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Hava ve gizlilik bindirmeyi nasıl sınırlıyordu?",
+          "url": "https://www.usni.org/magazines/proceedings/1916/may/european-war-notes",
+          "note": "Rapor: 6 Mart 1916; Proceedings aktarımı: Mayıs 1916; erişim: 2 Kasım 2026. The Evacuation of Gallipoli bölümündeki bindirme ve hava paragrafları okundu. Özgün rapor, karşı taraf gözlemleri ve bütün dergi okunmadı; raporun genel tahliye değerlendirmesi 7 Aralık karar metniyle eşitlenmedi.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    },
+    {
+      "id": "e-aralik-ocak",
+      "page": "olaylar/seddulbahir-tahliye-emri/index.html",
+      "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+      "locator": "27 December 1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "eventDate": "27 Aralık 1915",
+      "publicationDate": "2024",
+      "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur.",
+      "passageAccessDate": "2026-10-25",
+      "metadataAccessDate": "2026-11-02",
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "additionalNarrativeSources": [
+        {
+          "title": "Seddülbahir neden ayrı bir sorun hâline geldi?",
+          "url": "https://wm.awm.gov.au/read/evacuation-helles",
+          "note": "Yayın: 17 Haziran 2025; olay dönemi: Aralık 1915–Ocak 1916; erişim: 2 Kasım 2026. İlgili giriş ve hazırlık paragrafları okundu; bütün yazı ve atıf verilen anıların asılları okunmadı. Yazarın değerlendirmesi ile özgün emir ayrıldı.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        },
+        {
+          "title": "Emrin alınmasından hazırlık görüşmelerine",
+          "url": "https://transcribe.awm.gov.au/transcription/item/rcdig0000002-5",
+          "note": "Belge: kişisel günlük, ilgili 28–30 Aralık kayıtları; AWM RCDIG0000002, aktarımda yaprak104–105. Dijital yayın tarihi bilinmiyor; erişim: 2 Kasım 2026. Yalnız seçili metin aktarımı okundu; el yazısı görüntüsü ve emrin aslı görülmedi. Sayfanın başlığındaki tarih aralığı seçili girişleri kapsamasa da metindeki gün başlıkları ayrıca kontrol edildi.",
+          "status": "mevcut serbest kaynak notu; yapılandırılmış alan eşlemesi açık"
+        }
+      ]
+    }
+  ],
+  "tests": {
+    "javascript": 299,
+    "python": 21,
+    "failures": 0,
+    "log": "R12-bibliography-tests.txt"
+  },
+  "ui": "Merkez DVA künye/yıl masaüstü1280x720 ve mobil320x800, AWM kısa olay kaynak notu mobil: 1265/1265 ve305/305px. Geçici boyut sıfırlandı. Harita/süzgeç değişmedi.",
+  "nextStep": "36 ek anlatı sourceNote kaydındaki künye/konumlayıcı/olay-yayın-erişim bilgilerini yapılandırılmış temel kayıt düzenine nasıl bağlayacağını belirle; önce ilk Hamilton kaydından eksik alanı kullanıcı metninde görünür kıl."
+}

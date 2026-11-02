@@ -1,0 +1,17 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Hamilton anlatısı sonrası veri ve hedefHTMLyerel hashleri; veri geliştirme girdisidir, otomatik yayın listesi değil. Önceki ilgili hashler güncel değil.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "088afa01c0255aee894e51a00348db9fb9324824a283c3b7ec9ed0b3058f1493"
+    },
+    {
+      "path": "olaylar/hamiltona-talimat/index.html",
+      "sha256": "2be52d12daba61231978ddb3d9aaa3d3ba42c4daaea1f756d2c9a27a76dfa2b3"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi, tam güncel envanter/taze uzak geri dönüş; .htaccess korunacak."
+}

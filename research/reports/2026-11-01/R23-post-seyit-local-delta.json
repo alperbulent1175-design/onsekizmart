@@ -1,0 +1,25 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Seyit ve bağlantı denetimi sonrası dört dosyanın yerel hashleri. Önceki delta/manifest güncel değildir. Taze uzak yedek veya yayın kabulü değildir.",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "8fb3e2cae2a392051c0f6111477337d56770e388b6218da1d3d4f5f77536a913"
+    },
+    {
+      "path": "js/data.js",
+      "sha256": "2f210bb09f3bba9c0e3c72fe7ac95d4f797e3dbaa4f1fb5f42fb783bdf97739c"
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "b902fd7231b48a3d78e2391f4850b5645594aff74fdd1c6422f93c41ff32dd68"
+    },
+    {
+      "path": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "sha256": "b92bdb0ae3ce1b3d2ac7cac684e6b5e6bc5deefa0d87a16bf7803c69839595d9"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebinden sonra güncel envanter, kontrol ve uzak geri dönüş hazırlığı; .htaccess korunacak."
+}

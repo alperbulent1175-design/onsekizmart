@@ -1,0 +1,15 @@
+{
+  "task": "R23",
+  "scope": "R10 Quinn10Mayıs yerel farkı; tam yayın manifesti değil.",
+  "publication": "Yeni açık talebe bağlı engelli.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "2712cca2e71cbeecbfda3350204b8a7789fffcbec9d856e1d7f68dcac6453a76"
+    },
+    {
+      "path": "olaylar/quinns-post-siper-baskini/index.html",
+      "sha256": "78d755ae63248714172827b4452a9e97d0db70bda92080cb98cbfa6a5bbe5e35"
+    }
+  ]
+}

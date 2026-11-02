@@ -1,0 +1,32 @@
+{
+  "task": "R11",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "change": "19Mayıssayfasında22görüşme/23talimat/24definbağlantılızinciri;22Mayıskısasayfasındaöncesi/talimat/uygulamabağlambağlantıları. Yeni tarihselsaat/sayı/iddiaeklenmedi.",
+  "sourceScope": "Mevcut48.Alaydurdurma/gerihareket/uygulamaparagraflarının tamamı veUYGULAMA-DEVAMI.md okundu. 23MayısN.Z.G.609ve22/24Mayısfotoğrafayrımımevcutokuyucuparagraflarıylakarşılaştırıldı;eskikaynakokumalarıyenikeşifsayılmadı.",
+  "sourceUrls": [
+    "https://canakkaletarihialan.gov.tr/data/fm/Kitap/48alay-kitabipdf_3903a503-f449-4563-ab0f-1877f918de9d.pdf#page=181",
+    "https://transcribe.awm.gov.au/transcription/item/rcdig0000588-7"
+  ],
+  "eventDates": [
+    "1915-05-19",
+    "1915-05-22",
+    "1915-05-23",
+    "1915-05-24"
+  ],
+  "historicalVerification": "Bu parti yeni belge doğrulaması değil;mevcutkanıtlıayrımlarınokuyucudatakipedilebilirliğidir. Özgünceride/saatyazımıvefiilîuygulamanıntamzinciriaçık.",
+  "siteFiles": [
+    "olaylar/ariburnu-genel-taarruzu/index.html",
+    "data/chronology-events.json",
+    "olaylar/ateskes-gorusmeleri/index.html"
+  ],
+  "acceptance": "İkiyönlüanlatıgeçişiişlerhalegetirildi;R11genel19–24Mayıskaynak/saatkabulü henüzdenetlenmedi.",
+  "nextStep": "19–24Mayısfazenvanterindegörüşmeyi tetikleyen ihtiyaç,21Mayısyereltemasve24Mayısfiilîdefinkayıtlarınınneden-sonuç/saatdayanağınımevcutkaynaklarlaeşle.",
+  "tests": {
+    "allJavaScriptPassed": 297,
+    "mandatoryPythonPassed": 19,
+    "failed": 0,
+    "log": "research/reports/2026-11-02/R11-linked-chain-tests.txt",
+    "ui": "19Mayıszincirinavıve22Mayısyenilinkleri1280×720/320×800görünür;1265/1265ve305/305px. Enterile19→22görüşmeURLve22→24sayfasındaki23Mayısemirankrajı/başlığıdoğrulandı. Boyutsıfırlandı. Harita/süzgeçdeğişmedi."
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "task": "R04",
+  "status": "tamamlandı",
+  "scope": "31 bağlantı ve saat etiketi teknik denetimi; manuel beş alan kabulü yerine geçmez.",
+  "rows": [
+    {
+      "index": 0,
+      "title": "Karargâh güne başlar",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#karargah-sabah-kaynagi",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 1,
+      "title": "Donanma intikali",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#intikal-harekat-karari",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 2,
+      "title": "İlk yaklaşma raporu",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#gozetleme-alarm-kaynagi",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 3,
+      "title": "Genel muharebe alarmı",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#gozetleme-alarm-kaynagi",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 4,
+      "title": "Savaş düzeni ve telsiz sessizliği",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#a-hatti-hazirlik-giris",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 5,
+      "title": "Gözetleme tepesine intikal",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#cevat-hareket-kapsami",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 6,
+      "title": "Boğaz girişinin geçilmesi",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#a-hatti-hazirlik-giris",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 7,
+      "title": "İlk atış emri",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#queen-elizabeth-saat-incelemesi",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 8,
+      "title": "Queen Elizabeth’in ateşe başlaması",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#queen-elizabeth-saat-incelemesi",
+      "sourceTime": {
+        "time": "11:25",
+        "kind": "ateşe başlama",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "opened fire",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "displayTime": "11:25 · ateşe başlama (rapor)",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 9,
+      "title": "Seyyar bataryalara serbest atış",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#ilk-karsilik-kapsami",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 10,
+      "title": "İlk Türk karşılığı",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#ilk-karsilik-kapsami",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 11,
+      "title": "Agamemnon ve Inflexible isabet alır",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#agamemnon-inflexible-hasar-ayrimi",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 12,
+      "title": "Fransız B Hattı hücum emri",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#asama-saatleri",
+      "sourceTime": {
+        "time": "12:06",
+        "kind": "emir",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "were ordered",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "displayTime": "12:06 · emir (rapor)",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 13,
+      "title": "Ağır tabyalara ateş",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#agir-tabya-emri-kapsami",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 14,
+      "title": "Göğüs göğüse düello",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#gemi-tabya-ates-gozlemi",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 15,
+      "title": "Saf değişimi",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#asama-saatleri",
+      "sourceTime": {
+        "time": "13:43",
+        "kind": "çekilme emri",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "ordered out",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yalnız belirtilen rapor aşaması okundu; özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "displayTime": "13:43 · çekilme emri (rapor)",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 16,
+      "title": "Bouvet mayına çarpar",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#bouvet-saat-incelemesi",
+      "sourceTime": {
+        "time": "13:54",
+        "kind": "patlama kaydı",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "1.54",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yalnız belirtilen rapor aşaması okundu; özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "displayTime": "13:54 · patlama kaydı (rapor)",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 17,
+      "title": "Inflexible’ın mayın isabeti bildirimi",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#inflexible-saat-incelemesi",
+      "sourceTime": {
+        "time": "16:11",
+        "kind": "bildirim",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "reported",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "displayTime": "16:11 · bildirim (rapor)",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 18,
+      "title": "Gaulois karaya oturtulur",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#gaulois-kaynak",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 19,
+      "title": "Cevat Bey’in hareketlerine ilişkin kayıtlar",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#cevat-hareket-kapsami",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 20,
+      "title": "Seyit Onbaşı ve elle yükleme",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#seyit-elle-yukleme-kaynagi",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 21,
+      "title": "Irresistible mayına çarpar",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#tahliye-batis-ayrimi",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 22,
+      "title": "Wear tahliye edilenlerle döner",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#tahliye-batis-ayrimi",
+      "sourceTime": {
+        "time": "16:50",
+        "kind": "dönüş",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "returned",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "displayTime": "16:50 · dönüş (rapor)",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 23,
+      "title": "Ocean mayına çarpar",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#colne-ocean-saat-farki",
+      "sourceTime": {
+        "time": "18:05",
+        "kind": "isabet kaydı",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "6.5",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yalnız belirtilen rapor aşaması okundu; özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "displayTime": "18:05 · isabet kaydı (rapor)",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 24,
+      "title": "B hattına çekilme emri",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#b-hatti-cekilme-emri",
+      "sourceTime": {
+        "time": "16:50",
+        "kind": "B hattına çekilme emri",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-26",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "4.50. - ... orders were given for line \"B\" to withdraw.",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "B hattına emir aşamasıdır; bütün filonun çıkışı veya Signal No. 12 numarası değildir. Özgün rapor ve sinyal defteriyle karşılaştırma açık."
+      },
+      "displayTime": "16:50 · B hattına çekilme emri (rapor)",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 25,
+      "title": "Dardanos rasat yeri şehit düşer",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#dardanos-sarf-isabet",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 26,
+      "title": "Filo Ege’ye çıkar",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#queen-elizabeth-saat-incelemesi",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 27,
+      "title": "Vengeance’ın ateşi kesmesi ve çıkışı",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#vengeance-ates-kesme",
+      "sourceTime": {
+        "time": "18:29",
+        "kind": "Vengeance’ın ateşi kesmesi",
+        "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-034_1.jpg",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-18",
+        "accessDate": "2026-10-26",
+        "status": "gunluk_goruntusu_ilgili_satir_okundu",
+        "evidenceText": "6.29 Ceased fire - procd out of Dardanelles",
+        "timeSystem": "Günlükteki PM 6.29, 18.29 olarak yazıldı. GMT veya günümüz Türkiye saatine dönüşüm yapılmadı.",
+        "limit": "Yalnız Vengeance’ın ateşi kesip çıkışa yönelmesi; bütün filonun veya Osmanlı bataryalarının son atışı değildir. Diğer günlüklerle karşılaştırma açık."
+      },
+      "displayTime": "18:29 · Vengeance’ın ateşi kesmesi (günlük)",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 28,
+      "title": "Zafer raporu",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#zafer-raporu-kaynagi",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 29,
+      "title": "Irresistible batar",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#tahliye-batis-ayrimi",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    },
+    {
+      "index": 30,
+      "title": "Ocean batar",
+      "href": "/olaylar/18-mart-deniz-muharebesi/#tahliye-batis-ayrimi",
+      "sourceTime": null,
+      "displayTime": "Saat doğrulanmadı",
+      "anchorExists": true,
+      "manualAcceptance": "R04-acceptance-matrix.json ile kabul; tarihsel tam doğrulama değil"
+    }
+  ],
+  "acceptanceMatrix": "R04-acceptance-matrix.json"
+}

@@ -1,0 +1,36 @@
+{
+  "task": "R09",
+  "id": "e-aralik-onay",
+  "status": "devam ediyor",
+  "eventDate": "1915-12-07 onay;Kasım–Aralık plan/uygulama bağlamı",
+  "accessDate": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.awm.gov.au/articles/blog/preliminary-stage-evacuation-anzac-cove",
+      "publicationDate": "2015-11-18",
+      "passage": "Girişte hazırlık/ara/son aşama tasarımı",
+      "evidence": "Azaltma sırasında savunma yeterliliğini koruyan aşamalı plan;sonra kalanların çekilmesi.",
+      "verification": "Önceki2Kasımgiriş okuması yenidenyapılmış sayılmadan kullanıldı."
+    },
+    {
+      "url": "https://www.usni.org/magazines/proceedings/1916/may/european-war-notes",
+      "documentDate": "1916-03-06",
+      "publicationDate": "1916-05",
+      "passage": "The Evacuation of Gallipoli,bindirme/normalgörünüm/havaparagrafları",
+      "evidence": "Açık kıyı,topçumenzili,güneyli dalga ve olağan yaşam görünümünü koruma değerlendirmesi.",
+      "verification": "Seçili yayımlanmış rapor aktarımı okundu;özgünrapor değil."
+    }
+  ],
+  "limits": "Yeni miktar/saat/bindirme kapasitesi yok. Her tabur eşitazaltma,Osmanlı hiçfarketmedi,parlamento karar künyesi veya7Aralık imzalımetni varsayılmadı.",
+  "uiAcceptance": {
+    "desktopWidth": [
+      1265,
+      1265
+    ],
+    "mobileWidth": [
+      305,
+      305
+    ],
+    "nextLink": "Enter→Seddülbahir tahliye emri URL/h1 doğrulandı."
+  }
+}

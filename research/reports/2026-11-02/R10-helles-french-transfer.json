@@ -1,0 +1,31 @@
+{
+  "task": "R10",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "sourceUrl": "https://horizon14-18.eu/wa_files/Historique_2056eRIC.pdf#page=6",
+  "eventDate": "Metinde29Nisan1915;Kumkalesonrasındageçiş",
+  "originalPublicationDate": null,
+  "digitalTransferDate": "2009",
+  "accessDate": "2026-11-02",
+  "readScope": "PDF6Kérévès-Dérébaşlangıcı,aciltakviye/29NisanAvrupayakasıparagrafı. Bütün12sayfa veözgünbaskı incelenmedi.",
+  "evidenceParaphrase": "Kumkalesonrası dinlenme düşünülmüşken aciltakviye talebi;sonra29Nisan alayın bütünüAvrupayakasındabeklememevziindeanlatılıyor.",
+  "verification": "dijital_metin_aktarimi_pasaji_okundu_ozgun_baski_acik",
+  "scopeLimits": [
+    "29Nisan bütünFransızkuvvetleri için ilkçıkarma tarihi değildir.",
+    "Talep,fiilîhareket vealayıntamamınınoradaoluşu ayrıaşamalardır.",
+    "PDF6devamındaki20moisveMayıstarihsırasıhatalarıçözülmedi.29Nisanaktarımı tek başınatamgünlükkronolojisayılmadı.",
+    "OsmanlıSeddülbahirbirlikdagılımı veyakumsalsaatleribuFransıztarihçesiyledoğrulanmadı."
+  ],
+  "siteFiles": [
+    "olaylar/seddulbahir-cikarmasi/index.html"
+  ],
+  "acceptance": "Seddülbahir25Nisançıkarması ilebirFransızalayınınsonrakigeçişikapsamıayrıldı;R10genelOsmanlı/İtilafkarşılaşmasıvebirlikgünlüğü denetimiaçık.",
+  "nextStep": "Seddülbahir25Nisan için mevcut Osmanlı yayımlanmış rapor adaylarını dar yerel taramayla belirle; ilk somut emir/durum pasajını hedefle.",
+  "tests": {
+    "allJavaScriptPassed": 297,
+    "mandatoryPythonPassed": 19,
+    "failed": 0,
+    "log": "research/reports/2026-11-02/R10-helles-balanced-tests.txt",
+    "ui": "Yeni bölümler masaüstü1280×720/mobil320×800görünür;1265/1265ve305/305px. YeniKumkalebağlamlinkiEnteriledoğruURL/başlığaulaştı. Boyutsıfırlandı. Harita/süzgeçdeğişmedi."
+  }
+}

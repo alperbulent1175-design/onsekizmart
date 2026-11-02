@@ -1,0 +1,21 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "R04 son ortak açıklama sonrası üç okuyucu dosyasının güncel yerel hashleri. Önceki delta/manifest güncel değildir; uzak yedek veya yayın kabulü değildir.",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "12f2bbecd4b447c0c94d873b14ed56d02c05db44534b7c2e864870196e6728c1"
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "06521e488b633a2439d41be773c08d83653648c7c13c7d20d41b0ba79196d15a"
+    },
+    {
+      "path": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "sha256": "fcda9a4502a39cfb3911d4123832519dea1b7bd23bad9ea86f11585d6e6f9980"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi, güncel envanter ve taze uzak geri dönüş hazırlığı; .htaccess korunacak."
+}

@@ -9,7 +9,14 @@ from build_pages import published_pages
 
 TAGS = {"p", "dd", "li", "td", "th", "h1", "h2", "h3", "figcaption"}
 NUMBER = re.compile(r"\d|\b(?:bir|iki|üç|dört|beş|altı|yedi|sekiz|dokuz|on|yüz|bin)\b", re.I)
-QUANTITY = re.compile(r"(?:\d[\d.,–—-]*|bir|iki|üç|dört|beş|altı|yedi|sekiz|dokuz|on|yüz|bin)\s*(?:(?:bin|milyon)\s+)?(?:kişi|asker|yaralı|ölü|şehit|kayıp|mermi|namlu|yatak|ton|top\b)", re.I)
+QUANTITY = re.compile(
+    r"\b(?:\d+(?:[.,–—-]\d+)*[½¼¾]?|bir|iki|üç|dört|beş|altı|yedi|sekiz|dokuz|on|yüz|bin)"
+    r"\s*(?:(?:bin|milyon)\s+)?"
+    r"(?:kişi|asker(?:in|i|e|den|ler(?:in|i|e|den)?)?\b|yaralı|"
+    r"ölü(?:nün|ye|yü|den|ler(?:in|i|e|den)?)?\b|şehit|kayıp|mermi|namlu|yatak|ton|top\b|"
+    r"mm\b|inç\b|metre|kilometre|gram|kilogram|kg\b|mayın|torpil|isabet)",
+    re.I,
+)
 
 class Blocks(HTMLParser):
     def __init__(self):

@@ -1,0 +1,44 @@
+{
+  "task": "R10",
+  "status": "tamamlandı",
+  "date": "2026-11-02",
+  "scope": "Mevcut beş olay için başlangıç taraf/kaynak envanteri; R10 bütün kapsamı veya bütün sayfa pasajlarının yeni okuması değildir.",
+  "rows": [
+    {
+      "page": "olaylar/ariburnu-cikarmasi/index.html",
+      "observedScope": "AWM/Aker yanınaATBD2133güniçihaberininkapsamıeklendi. Komutahaberindekikaçış/çıkarmaduruşutopluvekalıcıtahliyeyeeşitlenmedi. Birlik/an/mevkieşlemesiaçık.",
+      "status": "devam ediyor"
+    },
+    {
+      "page": "olaylar/seddulbahir-cikarmasi/index.html",
+      "observedScope": "AWMİngilizçıkarması;ATBD2133sonuçhaberiyok/2134gecehücumemri;Fransız6.KarmaAlay2009aktarımıylaKumkalesonrasıgeçiş. Özgünraporlar vekumsalbazlıtamkarşılaştırma açık.",
+      "status": "devam ediyor"
+    },
+    {
+      "page": "olaylar/kumkale-oyalama-cikarmasi/index.html",
+      "observedScope": "Fransız1916mektubu/OsmanlıATBD2136yanına6.KarmaAlayın56eRICbaşlıklı2009aktarımından hedef/mezarlık ve güneyeilerleme/savunmayadönüş eklendi. Özgünbaskı/JMOvegecesiperleri eşleştirmesiaçık.",
+      "status": "devam ediyor"
+    },
+    {
+      "page": "olaylar/quinns-post-siper-baskini/index.html",
+      "observedScope": "15.Tabur günlüğü ile Öz üzerinden10MayısOsmanlıemri; emir kitabı/özgün nüsha açık.",
+      "status": "devam ediyor"
+    },
+    {
+      "page": "olaylar/quinns-post-lagim-taarruzu/index.html",
+      "observedScope": "AWM harekât raporu ile Karataş üzerindenEsatPaşa hatıratı; özgünOsmanlıemri açık.",
+      "status": "devam ediyor"
+    }
+  ],
+  "frenchSourceCandidate": {
+    "url": "https://www.memoiredeshommes.sga.defense.gouv.fr/fichier/300/1604",
+    "type": "Les Armées françaises dans la Grande Guerre dizin adayı",
+    "result": "2026-11-02 web erişimi zaman aşımı; metin okunmadı, tarihi iddia kanıtı sayılmadı. Aynı URL koşul değişmeden tekrar denenmeyecek.",
+    "independentNextLead": "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/notices_files/SHDGR_INV_21N_25N_1872_1919.pdf",
+    "nextQuestion": "Kumkale25–26NisanFransızbirlik raporuna götüren arşiv tasnifi/dosya var mı? Dizin, harekât pasajının yerine geçmez."
+  },
+  "nextStep": "R11:19–24Mayısolayzinciri",
+  "latestSourceReview": "R10-kumkale-french-regimental-account.json",
+  "acceptance": "YolharitasıR10eylem/kabultekrarseçiliokundu. Buenvanterbaşlangıçseçilmişolaylarlistesidir;beşkartdüzeltmesiylegenelpaketkapatılmaz. Kaynakzincirleri,karşılıklıamaç/karşılaşma/sonuçvetüredengörüş/faktayrımıtümseçilmişkapsamdaayrıdenetlenecek.",
+  "acceptanceReference": "research/reports/2026-11-02/R10-acceptance-review.json"
+}

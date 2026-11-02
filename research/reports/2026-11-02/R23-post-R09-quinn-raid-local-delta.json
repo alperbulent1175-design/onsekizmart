@@ -1,0 +1,17 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Quinn9–10Mayıs anlatısı sonrası yerel hashler; önceki ilgili hashler güncel değil. Veri geliştirme girdisi, otomatik yayın listesi değil.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "23226a39ab2c15c42c8586896e4c069e02ff0ec378b1faf2ad595550e0b0d308"
+    },
+    {
+      "path": "olaylar/quinns-post-siper-baskini/index.html",
+      "sha256": "4ae0debeba0569972b59330c71deb12787332383ed934decbb95413316d4b661"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi, tam güncel envanter/taze uzak geri dönüş; .htaccess korunacak."
+}

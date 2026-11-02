@@ -1,0 +1,28 @@
+{
+  "task": "R23",
+  "date": "2026-11-02",
+  "status": "yerel dar değişiklik; yayın engelli",
+  "scope": "Tam manifest değil;commit/push/deploy yok.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "a0321bcb002c4941a68aec3f93df7a16cee7494498b5425078792ce194e2080a"
+    },
+    {
+      "path": "olaylar/anzak-sevk-emri/index.html",
+      "sha256": "0b63370a48aba6fbc5ca11cf9e1c8bf8425d007b0cc64576ec359c6b143b9a76"
+    },
+    {
+      "path": "olaylar/ateskes-gorusmeleri/index.html",
+      "sha256": "4c581153ba207ce0f97f0fa6010b33313027606a501bf84edb1efaf11cd4a85b"
+    },
+    {
+      "path": "olaylar/mondrosta-cikarma-hazirligi/index.html",
+      "sha256": "0f1bf3c8e3dabf9fdd4c4fb6be725f02aa540f671a460f676212564b749a2714"
+    },
+    {
+      "path": "olaylar/sonbahar-firtinasi/index.html",
+      "sha256": "cbaac65ee915269a2e4e5e283675a6ac051e6de5a69b970ed25eabdf02e6b7d7"
+    }
+  ]
+}

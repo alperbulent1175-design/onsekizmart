@@ -1,0 +1,21 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Watson ve kolera sonrası yerel üç dosya; tam yayınmanifesti değil. Önceki ilgili veri hashleri güncel değil.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "f2f3285bf17a0f27773ae2132b04cb13ea36a36ad5a50495198230dff844ebef"
+    },
+    {
+      "path": "olaylar/watson-iskelesi-tamamlandi/index.html",
+      "sha256": "17cf44aa1009208f46e794e0195e182013bac4521ce706e38fbc8f1aade27c2a"
+    },
+    {
+      "path": "olaylar/kolera-asilamasi/index.html",
+      "sha256": "b21c8099686e48a10186b0e723a9669d592b12a48f225048cb2a1cc67a9c3cbb"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi ve taze tam envanter/uzak geri dönüş; .htaccess korunacak."
+}

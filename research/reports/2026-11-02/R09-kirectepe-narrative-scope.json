@@ -1,0 +1,25 @@
+{
+  "task": "R09",
+  "id": "e-agustos-sessiz",
+  "status": "devam ediyor",
+  "sourceUrl": "https://www.gallipoli-association.org/on-this-day/august/15",
+  "passages": "Giriş14,arazi16,sonuç26,kaynakça30–31",
+  "eventDate": "1915-08-15",
+  "publicationDate": null,
+  "accessDate": "2026-11-02",
+  "evidence": "162TugayınKidneyHill destekgörevi;arazi/sıcak/Osmanlıateşi;farklı kesimlerde farklı sonuçlar.",
+  "verification": "Kurumun yayımlanmış ikincil anlatısı doğrudan okundu; Rimmer1917/alay sitesi/asıl anılar ve emirler okunmadı.",
+  "limits": "Mesafe,zayiat,saat,koordinat ve kesin Osmanlı emir zinciri üretilmedi. DVA bağımsız tanık sayılmadı.",
+  "unusedReading": "HamiltonII15Ağustos girişinin seçili yayımlanmış telgraf/komuta paragrafları okundu;15AğustosKireçtepe saha hedefini tek başına doğrulamadığı için yeni sahaanlatısına kanıt yapılmadı.",
+  "uiAcceptance": {
+    "desktopWidth": [
+      1265,
+      1265
+    ],
+    "mobileWidth": [
+      305,
+      305
+    ],
+    "nextLink": "Enter→İkinci Anafartalar URL/h1 doğrulandı."
+  }
+}

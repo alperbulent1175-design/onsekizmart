@@ -1,0 +1,25 @@
+{
+  "task": "R04",
+  "status": "devam ediyor",
+  "date": "2026-11-01",
+  "event": "Karargâh güne başlar",
+  "source_url": null,
+  "document_date": null,
+  "event_date": "1915-03-18",
+  "publication_date": null,
+  "access_date": null,
+  "local_review_date": "2026-11-01",
+  "time_system": null,
+  "verification": "İlgili özgün ceride/emir pasajı eşleştirilmedi; tarihsel doğrulama değil görünür kapsam daraltması.",
+  "change": "Specific report-taking/journal-opening actions removed from assertive event text. Sequence,timingandwhichreportsarrivedremainopen.",
+  "legacy_atlas_key": {
+    "t": "07:30",
+    "m": 450,
+    "status": "navigation/playback key only;not verified event time"
+  },
+  "reader_source_note": "/olaylar/18-mart-deniz-muharebesi/#karargah-sabah-kaynagi",
+  "separation": "Existing2019Cevatinspection/returnreadingdoesnotproveearlyheadquartersworkflow.",
+  "ui": "Desktop1280/mobile320eventtextchecked;sourcehreflandsatnewsection. Mobile heading top168.34 is below stickytoolsbottom133.75 afterCSSfix;nohorizontaloverflow. Landscape320x400toolsstatic/margin80;desktopmargin88.",
+  "next": "First-approach report and generalalarm: identifydatedOttomanwatchstation/orderrecord;ifabsent,retainexplicituncertainty.",
+  "css_fix": "Generic prose heading margin was overriding event-page mobile clearance;excludeeventpagesfromgenericrule. Stylesheetversionupdatedacross88publishedpages;data/appversionsbumpedforfreshassets."
+}

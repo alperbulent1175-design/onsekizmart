@@ -1,0 +1,17 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Slack neden anlatısı sonrası yerel hashler; önceki ilgili veri hashleri güncel değil. Tam yayın manifesti değildir.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "60be976537ccabbee51dec86ea2825c9f73f38a2dcd0f549f9110672a35374df"
+    },
+    {
+      "path": "olaylar/yeraltindan-kazma-sesleri/index.html",
+      "sha256": "399de97dbef6f8c8fb93c237f36fcfd5c86d58cddb99f049a26d86c4f7697230"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi, taze uzak geri dönüş ve tam güncel envanter; .htaccess korunacak."
+}

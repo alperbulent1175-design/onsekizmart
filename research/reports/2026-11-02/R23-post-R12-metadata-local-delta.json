@@ -1,0 +1,24 @@
+{
+  "task": "R23",
+  "date": "2026-11-02",
+  "status": "yerel dar değişiklik; yayın engelli",
+  "scope": "Tam yayın manifesti/geri dönüş hazırlığı değildir. Commit/push/deploy yapılmadı.",
+  "files": [
+    {
+      "path": "data/chronology-sources.json",
+      "sha256": "2488134e758ea2bd1ca54ad1ee211278afef29b88a537adbed6038f3ce9fca02"
+    },
+    {
+      "path": "build_pages.py",
+      "sha256": "467cdb91894fc1354a84fa31ff4763e39f50728b0edcbd606afab89e60ea8b29"
+    },
+    {
+      "path": "kronoloji-kaynaklari/index.html",
+      "sha256": "bdcab2641a7fcd11d7e6819b80bc082c3ed2d2219bd7103b71fc2a9612e30837"
+    },
+    {
+      "path": "tests/test_build_pages.py",
+      "sha256": "e5f7ab7c83ed349c22cd9d736d30549fd6b0c6973ddfb6c1257a7776b8409ba2"
+    }
+  ]
+}

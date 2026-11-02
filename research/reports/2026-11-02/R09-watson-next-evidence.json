@@ -1,0 +1,45 @@
+{
+  "task": "R09",
+  "id": "e-haziran-sessiz",
+  "status": "devam ediyor",
+  "accessDate": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://www.awm.gov.au/collection/C2690050",
+      "record": "RC11584.224",
+      "eventDate": "1915-06-18",
+      "publicationDate": null,
+      "evidence": "Katalog açıklaması18Haziran mühendis yemeğinin Watson iskelesinin tamamlanmasını anmak için düzenlendiğini söyler.",
+      "verification": "Katalog açıklaması okundu; PDF Cache miss, iki büyük görüntü Cache miss; özgün menü okunmadı."
+    },
+    {
+      "url": "https://www.awm.gov.au/collection/G01041",
+      "record": "G01041",
+      "eventDate": "1915-06 (katalog)",
+      "publicationDate": null,
+      "evidence": "Arama sonucunda Watson yönetimindeki1Tümen işaretçilerinin iskele yapımı tanımlanıyor.",
+      "verification": "2Kasım G01041 tam açıklaması okundu; görüntü incelenmedi. Sitede yeni ekip/alet iddiası için kullanılmadı."
+    }
+  ],
+  "openQuestion": "DVA19Haziran tamamlanma kaydı ile AWM18Haziran kutlama açıklaması hangi aşamaları tanımlar? Aynı tamamlanma saati/günü varsayılmadı.",
+  "nextStep": "Menü erişimi koşulu değişmeden aynı hatalı URLleri tekrar deneme; sıradaki7Temmuz aşılaması sayfasının neden/uygulama kapsamını incele.",
+  "rights": "Menü telif/kar amacı gütmeyen kullanım koşulu taşıyor; yeni görsel yayımlanmadı.",
+  "blockedUrls": [
+    "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RC11584.224/bundled/RC11584.224.pdf",
+    "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RC11584.224/large/7504118.JPG",
+    "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RC11584.224/large/7504200.JPG"
+  ],
+  "editorialChange": "DVA19Haziran/AWM18Haziran ayrımı görünür; yapım ve hizmet/teslim ayrıldı. Kesin yeni tamamlanma tarihi üretilmedi.",
+  "uiAcceptance": {
+    "desktopWidth": [
+      1265,
+      1265
+    ],
+    "mobileWidth": [
+      305,
+      305
+    ],
+    "nextLink": "Enter→Sonbahar fırtınası URL/h1 doğrulandı."
+  },
+  "acceptanceScope": "Dar anlatı kabulü: ikmal amacı/yapım ilişkisi ve gün farkı görünür. Özgün teslim tarihi çözülmüş veya menü okunmuş sayılmaz."
+}

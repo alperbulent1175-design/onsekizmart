@@ -1,0 +1,24 @@
+{
+  "task": "R23",
+  "date": "2026-11-02",
+  "status": "yerel dar değişiklik;yayın engelli",
+  "scope": "Tam manifest değil;commit/push/deploy yok.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "249f944720e60f164c8fcf373d9b0aa5900f6bcff9dd71ba19931c590c2a3422"
+    },
+    {
+      "path": "olaylar/anzak-sevk-emri/index.html",
+      "sha256": "2d3b1a7671e5b1f5a43200a4d9645345b9e738d29e365511bb1c1260ef8c6a6b"
+    },
+    {
+      "path": "olaylar/yeraltindan-kazma-sesleri/index.html",
+      "sha256": "714da70f4d7709822993fa69255d2be049604aae347068fb7af1260c066f0453"
+    },
+    {
+      "path": "olaylar/watson-iskelesi-tamamlandi/index.html",
+      "sha256": "3ab209634aac65db75199ad7c74616cbd3d91f89e099f11e585a08ee43a2c6a9"
+    }
+  ]
+}

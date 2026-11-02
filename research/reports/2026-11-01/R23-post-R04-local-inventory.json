@@ -1,0 +1,915 @@
+{
+  "mode": "local_inventory_only",
+  "files": [
+    {
+      "path": "cephede-beslenme/index.html",
+      "bytes": 20545,
+      "sha256": "0d59c374c7eec9e2f9e16b59b7130073a8531e55b0f328186bcdd33fa19c3176"
+    },
+    {
+      "path": "css/glossary.css",
+      "bytes": 2581,
+      "sha256": "daaa9f21f9af2453fbde3dbf4bfc8fa825aab16a210cd1ee337a345bd49e4055"
+    },
+    {
+      "path": "css/photo-archive.css",
+      "bytes": 6112,
+      "sha256": "d970150096e5c9398fbd10fb2530dcdede29b02148ed42efa48e96b556ef0d65"
+    },
+    {
+      "path": "css/style.css",
+      "bytes": 65201,
+      "sha256": "34afe3f32b5f4009a7b82a483e5f61d15dd04b1b5225dda7935d92b9db4ebe0f"
+    },
+    {
+      "path": "data/chronology-events.json",
+      "bytes": 18360,
+      "sha256": "ba2b88d3467e906b0e59a0f1b19ed719c4691df1b9fe5ba3e758dba6e5fb4233"
+    },
+    {
+      "path": "data/chronology-sources.json",
+      "bytes": 10910,
+      "sha256": "2a6f42df6535e8cff114cc4a35fadbe90222f3f542076f4874feb17df2e92f84"
+    },
+    {
+      "path": "donanma/index.html",
+      "bytes": 85201,
+      "sha256": "eb2c5ec25a83d4c06f9b8abecfcfa23c2dbe2df97fb76322db11afccdd45f28a"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 228,
+      "sha256": "c3e9d62df6cdd670e20a8a1931b93781ceea2360627dd399a601b5a2b3a7d3e1"
+    },
+    {
+      "path": "fotograf-arsivi/index.html",
+      "bytes": 60940,
+      "sha256": "ada5766e835496144946f847dcecf3f4dceb882c2a25342e0e3913885d2f4730"
+    },
+    {
+      "path": "gizlilik/index.html",
+      "bytes": 4295,
+      "sha256": "e16dd0867b3b5b6ace2e9b2f6e5c9ffb769748ab952007a9b5a3de79e3f98736"
+    },
+    {
+      "path": "hakkinda/index.html",
+      "bytes": 3609,
+      "sha256": "a300fe9d7ba253f269fca03be76b20d2d1740016eb9dc05ebe3ce498193053ba"
+    },
+    {
+      "path": "iletisim/index.html",
+      "bytes": 7172,
+      "sha256": "459ea78068852f7e44a95c7aec4d60137b6e2ca5302176a1500e182c25751037"
+    },
+    {
+      "path": "images/commanders/awm-a02867.jpg",
+      "bytes": 155321,
+      "sha256": "e2420d1ccd89286c940d86e4edac445fd21cc2faf8daa2d4089a807e71f852d3"
+    },
+    {
+      "path": "images/commanders/awm-g00290.jpg",
+      "bytes": 180288,
+      "sha256": "0a11d20965e880b203c0005fba2d4b60771fd7a3b38220a8dc2a2df95832146c"
+    },
+    {
+      "path": "images/commanders/awm-g00761.jpg",
+      "bytes": 244960,
+      "sha256": "f5369f85d8d808d5d1f19adc092887a8f14a5fe952d3f7542d06904babbd297b"
+    },
+    {
+      "path": "images/commanders/awm-g01015.jpg",
+      "bytes": 162995,
+      "sha256": "cdcf3900ae5f0af7ebfd4baa64d592cbc19f10d990fa97d546b45f4b3b6b118e"
+    },
+    {
+      "path": "images/commanders/awm-h10298.jpg",
+      "bytes": 274416,
+      "sha256": "a21b1e67a9704863224ce6b3ce0ea81e4ef2bf478eeb1e6ba371f8534ebad0e4"
+    },
+    {
+      "path": "images/commanders/awm-h10350.jpg",
+      "bytes": 201040,
+      "sha256": "bbe428fd81084f3af30fbfe768ebc75e77948763e4515bf38aa8b46d376e780c"
+    },
+    {
+      "path": "images/commanders/awm-p01148.004.jpg",
+      "bytes": 210406,
+      "sha256": "ed9fa48728aaff2359e248400a55dfb0bd9f520622e510a2b1dd5c342f47c990"
+    },
+    {
+      "path": "images/commanders/bundesarchiv-bild-183-h29994.jpg",
+      "bytes": 431654,
+      "sha256": "079c0ee6964ab91017d388126251c1d476848e69ef6ce675f100ea512078ca65"
+    },
+    {
+      "path": "images/commanders/bundesarchiv-bild-183-r36163.jpg",
+      "bytes": 66063,
+      "sha256": "468fbeedd4c5180b171310967e536cf5a3c4cdbcea11f55013537f05e5fccac0"
+    },
+    {
+      "path": "images/commanders/de-robeck-hamilton-g00528.jpg",
+      "bytes": 161833,
+      "sha256": "ffd98af5f696e49ba4cf398232d4fe591448f92334ca483f726224b3f24273f9"
+    },
+    {
+      "path": "images/commanders/esat-pasa-a05295.jpg",
+      "bytes": 195260,
+      "sha256": "a85ade4a4b9073c466ba64095fb4985bdbfdf1730cd9788f671d2aaaea3ae729"
+    },
+    {
+      "path": "images/commanders/ian-hamilton-a03549.jpg",
+      "bytes": 202067,
+      "sha256": "224e4855b13af41512eb96499325c54a038d3f3043c7b0828ee1a81932e48a92"
+    },
+    {
+      "path": "images/commanders/mustafa-kemal-a05319.jpg",
+      "bytes": 214143,
+      "sha256": "394236b6d233612955d2369b3a7c4b7ae52b1963fd5b54df80976f379c538939"
+    },
+    {
+      "path": "images/events/awm-a02599.jpg",
+      "bytes": 178993,
+      "sha256": "bcb9616675f6b620368a2df4f7fe39f216d2c1233022fe48fa311fecd1f190f2"
+    },
+    {
+      "path": "images/events/awm-a02781.jpg",
+      "bytes": 182788,
+      "sha256": "227e84788712832bbc3bb870750374ec52daf0725a5143af4172fc04fde29a68"
+    },
+    {
+      "path": "images/events/awm-a03228.jpg",
+      "bytes": 169868,
+      "sha256": "1166010285ebb0b08d43a1bf9f30551d9792976950680918da1f412ee7233790"
+    },
+    {
+      "path": "images/events/awm-a05615.jpg",
+      "bytes": 280798,
+      "sha256": "8f544f8c64f4106ccb09a925b11fd272df49d9371aa930fa9fa486fe44efc712"
+    },
+    {
+      "path": "images/events/awm-g00952.jpg",
+      "bytes": 155762,
+      "sha256": "6ec30c3dd50efdac505ed7c28a450efd59e9862d4f062fe956849fd094682a06"
+    },
+    {
+      "path": "images/events/awm-g00965c.jpg",
+      "bytes": 160576,
+      "sha256": "d922041aa52537a5f69fe02097ea8b4eb36c5bd4aa84442b5fcf9191ec09250b"
+    },
+    {
+      "path": "images/events/awm-g01143.jpg",
+      "bytes": 120208,
+      "sha256": "33c657cebd58a0ad1c595055e0ee71aebb5c820f0651b85b74fd6e43061170bd"
+    },
+    {
+      "path": "images/events/awm-g02127.jpg",
+      "bytes": 135645,
+      "sha256": "3c365b0546cccfef2d21761b0712c76fdcef2d0630db0547a2f90d57adb30c0d"
+    },
+    {
+      "path": "images/events/awm-h00333.jpg",
+      "bytes": 176230,
+      "sha256": "b3252fd53ef0d5b71e0df54a379f8d137ae12f7756f28f4f4b9d6b0aafbb2e7d"
+    },
+    {
+      "path": "images/events/awm-h10391.jpg",
+      "bytes": 362403,
+      "sha256": "08ef9dfeb64bec152d6a0ff1113d6bb843ecfb005be5cdf415ee5467e7e9ac8a"
+    },
+    {
+      "path": "images/events/awm-h12308.jpg",
+      "bytes": 114303,
+      "sha256": "4d9ae07268e1c21ec63a7ea36fd63f749615528bc3b26d070992d70cc47c07dc"
+    },
+    {
+      "path": "images/events/awm-h16496.jpg",
+      "bytes": 167842,
+      "sha256": "dd8307e607c238a52c69cff4a6ee5e4fa3eed0865fe0b309625b6321a657bf8d"
+    },
+    {
+      "path": "images/events/awm-p06127.001.jpg",
+      "bytes": 250993,
+      "sha256": "bd15b6de29200365eef9243ec1ad7d8bc28292d04fd02fbfbc92f76470cbdfac"
+    },
+    {
+      "path": "images/events/awm-p11165.024.001.jpg",
+      "bytes": 218251,
+      "sha256": "d15893fc78a8a54394c2e07b1b4e4667336394438d2407db83ce39c476fdb23b"
+    },
+    {
+      "path": "images/ships/ae2-h12541.jpg",
+      "bytes": 120757,
+      "sha256": "53c8c97df28783f60c46ba8f655b4a3b473f9463f885dc47614be623f85673e9"
+    },
+    {
+      "path": "images/ships/awm-c01619.jpg",
+      "bytes": 209453,
+      "sha256": "e659162815122188be537b8a01b3d0bb392eea0d27f07bc34487772c704e3ab3"
+    },
+    {
+      "path": "images/ships/awm-g00229.jpg",
+      "bytes": 174586,
+      "sha256": "939793033ca843401aee90e5a21e693bd1bcc775fbbdba0c848517ce64a411a1"
+    },
+    {
+      "path": "images/ships/awm-g00243.jpg",
+      "bytes": 180253,
+      "sha256": "c22a178e52c706fb85b0393b4cf8f85ecf725f525ce8ab6a85cf94e59fd24ab9"
+    },
+    {
+      "path": "images/ships/awm-g00992.jpg",
+      "bytes": 181193,
+      "sha256": "e21ad3515970c8a10c009fb2f7a0e6b0c825f4abd55a1cbb518a53b8aa676dad"
+    },
+    {
+      "path": "images/ships/awm-g01393.jpg",
+      "bytes": 147904,
+      "sha256": "6af32d11ab1c7a46b1253523067c4a15c9e80e2a8c299e98f27bd5ae6b7e6be1"
+    },
+    {
+      "path": "images/ships/awm-h00209.jpg",
+      "bytes": 181771,
+      "sha256": "80a0815a61231fea2479a0cdd2567ec4ea71e77245b5cc5f48e8acb5d1576eed"
+    },
+    {
+      "path": "images/ships/awm-h00219.jpg",
+      "bytes": 135752,
+      "sha256": "b542609ac48aec3c74cdfd56e76517e3c79dde55825acefec128b697a1aa0552"
+    },
+    {
+      "path": "images/ships/awm-h10388.jpg",
+      "bytes": 155447,
+      "sha256": "9868589c5f970f444f2838d4337e2ec6d777043f75d6467026eff7ddf3daaa62"
+    },
+    {
+      "path": "images/ships/awm-p01236.019.jpg",
+      "bytes": 214260,
+      "sha256": "ebcd1246832cc2047851b139d1d69762a955865a7dbcb0009fc93ad2d72a8628"
+    },
+    {
+      "path": "images/ships/awm-p04411.003.jpg",
+      "bytes": 181620,
+      "sha256": "06c55d525c46816f279554c6b8b7fbf1a16393d7dda70c8601ea3fc48b1808d0"
+    },
+    {
+      "path": "images/ships/awm-p05194.012.jpg",
+      "bytes": 167180,
+      "sha256": "f0116326c81b6c8da0ada67941a6b4e98b0ac5e75a7c3b56f94ffce3d09ce672"
+    },
+    {
+      "path": "images/ships/bouvet-p00369.014.jpg",
+      "bytes": 125460,
+      "sha256": "2c48c8d2e4d473942ccc30635d6faffd74c04e2eb423bc4ae4fd8a257904412e"
+    },
+    {
+      "path": "images/ships/e15-p04411.002.jpg",
+      "bytes": 134067,
+      "sha256": "b1344232480163b55a32c85ccd631d9a4f2b8a1a076c5c9612864f376311fa53"
+    },
+    {
+      "path": "images/ships/goliath-triumph-majestic-g00198.jpg",
+      "bytes": 224767,
+      "sha256": "9293b62df9f90118a28e9864a83dfb43580b0c28aee5aadd7781b457355b1e95"
+    },
+    {
+      "path": "images/ships/ocean-a02360.jpg",
+      "bytes": 132043,
+      "sha256": "56159648e196fc20d26c39e42b6d8994b06ec96aca6f35ca90c06ad288b7ef56"
+    },
+    {
+      "path": "images/ships/triumph-g00755.jpg",
+      "bytes": 198905,
+      "sha256": "7bcde22d8f5dc5e7d8db55eb3f817e8bb949cee95f9fd367baa46d6d7fcf8db6"
+    },
+    {
+      "path": "inceleme-notlari/index.html",
+      "bytes": 28914,
+      "sha256": "850b04c0f609ab792c5108584b58b16f6da75f932c20f75438ae941628cf5528"
+    },
+    {
+      "path": "index.html",
+      "bytes": 22085,
+      "sha256": "ad7599ba738c2f29baf20a1b752ad018ca5bf9b8ade2d3553ca7874518384b41"
+    },
+    {
+      "path": "js/app.js",
+      "bytes": 106016,
+      "sha256": "66b9f6d61942fa809b75c07f4ff9a42b8e3dd821c4e92c75a62c895dd375b89e"
+    },
+    {
+      "path": "js/campaign.js",
+      "bytes": 46271,
+      "sha256": "d036820a42fe9d23561d02a01c6af9b52731b5b3ed805f2c5a90afafa3ea1945"
+    },
+    {
+      "path": "js/commanders-search.js",
+      "bytes": 6169,
+      "sha256": "4e79eb6279286cf383270cea6eb0f1e4879fe3bbc764ce24c7aeb866be9750ec"
+    },
+    {
+      "path": "js/data.js",
+      "bytes": 53814,
+      "sha256": "1153ef2464e80c7fd177860cf4400d5dbc5f1e1e49fffba5a8ec2f796ce519e0"
+    },
+    {
+      "path": "js/events-index.js",
+      "bytes": 6398,
+      "sha256": "08c9d9194506c9badb18eb58fbb1904b22c0decb48d205e9e88aaa71e7f9f73d"
+    },
+    {
+      "path": "js/glossary.js",
+      "bytes": 4406,
+      "sha256": "3394f36c2894df03e015ba3bddf021c4d953fcb317ef42963650ccb32316841b"
+    },
+    {
+      "path": "js/model.js",
+      "bytes": 5488,
+      "sha256": "77c6478c04e07dbd19f92b1f8cb423e407f83ad9a15c76a0de991b1630c44fb9"
+    },
+    {
+      "path": "js/navigation.js",
+      "bytes": 12395,
+      "sha256": "b780c23201a164ec51cb3eff92797d8f5bb6b69d7d7bff48118c97484fc56457"
+    },
+    {
+      "path": "js/navy-search.js",
+      "bytes": 6665,
+      "sha256": "b6ce54d997709b55be56dfd81bb6deb6566717c25b82f9824299bd02efdf581c"
+    },
+    {
+      "path": "js/photo-archive.js",
+      "bytes": 12640,
+      "sha256": "41c48fb297fe5f440453cbfc951c65429aa95b21d06ba2f49c2036adbad0a3fc"
+    },
+    {
+      "path": "js/photo-search.js",
+      "bytes": 5103,
+      "sha256": "d6fa64ea453c67096a82b9a92d5639063dbccee38f965a00ef54de339a4d4221"
+    },
+    {
+      "path": "kaynak-politikasi/index.html",
+      "bytes": 5561,
+      "sha256": "da752193490ea856f925ea3672901b86452dca5b6a7fe63a7127c1461fb8f00b"
+    },
+    {
+      "path": "kaynakca/index.html",
+      "bytes": 35888,
+      "sha256": "4e987cbd72f169c1ed12d994a453206b68bcfdb49ebe111c886659bf93358e91"
+    },
+    {
+      "path": "komutanlar/albert-damade/index.html",
+      "bytes": 8097,
+      "sha256": "084bb13a220715db44603ed0d9309dda66624c79f861b6527110d0333b5ba25a"
+    },
+    {
+      "path": "komutanlar/alexander-godley/index.html",
+      "bytes": 10063,
+      "sha256": "b37ff513fa2ca2138ac6c8d45d28f6290ce7e006f5f026b1fd45cfc0e439032f"
+    },
+    {
+      "path": "komutanlar/aylmer-hunter-weston/index.html",
+      "bytes": 12177,
+      "sha256": "3db027e7e53e137e4b6ef496f7d0d246a14e3b100ec886a094a5a2c990f6c874"
+    },
+    {
+      "path": "komutanlar/cevat-bey-cobanli/index.html",
+      "bytes": 8105,
+      "sha256": "6c3448f9dc8647da55fdaf9decdd13f7ea56a9d727c7b3222c80d2203ec24fa1"
+    },
+    {
+      "path": "komutanlar/charles-monro/index.html",
+      "bytes": 7686,
+      "sha256": "ba8b00db70be5ed72f1db9d1791685fc6d25b5ffcda315b1ab8e2f0daeb77998"
+    },
+    {
+      "path": "komutanlar/emile-guepratte/index.html",
+      "bytes": 7829,
+      "sha256": "23d8283dab08625b964c086496dc8623dc3d7e046bd92412dcdaba009f4e11f1"
+    },
+    {
+      "path": "komutanlar/esat-pasa-bulkat/index.html",
+      "bytes": 11522,
+      "sha256": "d363ee9a7d4e24b453c72ea565f0c08d20ec01e71bb160be5d6c503c6cd5cc8a"
+    },
+    {
+      "path": "komutanlar/frederick-stopford/index.html",
+      "bytes": 8977,
+      "sha256": "8eb0f007f4516d6d1635eb70fc72b8e62f3e215d260927833a7cd10f757d9f8b"
+    },
+    {
+      "path": "komutanlar/guido-von-usedom/index.html",
+      "bytes": 10292,
+      "sha256": "d16768a8431802ae3e2772457c464acbed45d4d79c2f733bae586f91d08fc40d"
+    },
+    {
+      "path": "komutanlar/halil-sami-bey/index.html",
+      "bytes": 8187,
+      "sha256": "54f43721306471309e36d75453efbad96245c7ebc76c844c8e5aaeaa2b943f02"
+    },
+    {
+      "path": "komutanlar/henri-gouraud/index.html",
+      "bytes": 9657,
+      "sha256": "e1b5ae19bb8bb14021ab73e49aaf0bbf9be4b215d32b8b5b26edd1156910bcfc"
+    },
+    {
+      "path": "komutanlar/ian-hamilton/index.html",
+      "bytes": 9876,
+      "sha256": "8c4f345b5054442c947c6c745a691208f8ff656463d5dbc2275558169c139b5b"
+    },
+    {
+      "path": "komutanlar/index.html",
+      "bytes": 10156,
+      "sha256": "1da590f12fa915fb21eb16598e20a4018775428de370735bdb6d40ef02f8f7cb"
+    },
+    {
+      "path": "komutanlar/johannes-merten/index.html",
+      "bytes": 10101,
+      "sha256": "25695cf2608d60849c13b77cb4fd344ab1ef3dc71ab055fe76d2826509d651e0"
+    },
+    {
+      "path": "komutanlar/john-de-robeck/index.html",
+      "bytes": 9838,
+      "sha256": "848f94d4380f568347245c02db862e334c6f371abcc26600f9e1f81526d33b55"
+    },
+    {
+      "path": "komutanlar/liman-von-sanders/index.html",
+      "bytes": 11296,
+      "sha256": "88e0b3c170cec453e5646f6d94588a2579f206b0c5bc9025934514214a1eaa61"
+    },
+    {
+      "path": "komutanlar/mustafa-kemal/index.html",
+      "bytes": 10017,
+      "sha256": "2267f410ec3c2d0d48653925b02a8418bb08c766f203f4d59d46a2d30977452e"
+    },
+    {
+      "path": "komutanlar/rafet-bey-bele/index.html",
+      "bytes": 7007,
+      "sha256": "00c4f73d5c956e252abe2fff9eb47e372e784ea730213f53af54603c5eb438f9"
+    },
+    {
+      "path": "komutanlar/remzi-bey/index.html",
+      "bytes": 6565,
+      "sha256": "3c5be25f4dcaf7bd29d2078b3be804efbe3dbb90e54e69ae5c2fdde604db5a62"
+    },
+    {
+      "path": "komutanlar/roger-keyes/index.html",
+      "bytes": 9584,
+      "sha256": "f35c613c86f3ba4015de4c9fcbe029ae65ff3f02606d02671b8d888b1f2a9146"
+    },
+    {
+      "path": "komutanlar/sackville-carden/index.html",
+      "bytes": 7580,
+      "sha256": "1aa4d6e622f1e775b16a8b6a39625f3557b737a0d46183b21d6d6716277ba4eb"
+    },
+    {
+      "path": "komutanlar/selahattin-adil-bey/index.html",
+      "bytes": 7956,
+      "sha256": "a16c28fb4d82b6c1b3a2447331682195a2c82681a3a1968c147eaa9764f26ade"
+    },
+    {
+      "path": "komutanlar/vehip-pasa-kaci/index.html",
+      "bytes": 10739,
+      "sha256": "3acb3b58987533662e68f03f13c28ab9d2868060cb956c41a5283d2d26014884"
+    },
+    {
+      "path": "komutanlar/weber-pasa/index.html",
+      "bytes": 7162,
+      "sha256": "3185c5e3e08551232141135b88b1f6b4f5d2080930e8ab59a40745ab3226e102"
+    },
+    {
+      "path": "komutanlar/william-birdwood/index.html",
+      "bytes": 10032,
+      "sha256": "37c0cb2a86c894c9884a424f7dad403d2c62c842b051fb1b3d9545e10d87c3e4"
+    },
+    {
+      "path": "komutanlar/william-bridges/index.html",
+      "bytes": 9834,
+      "sha256": "a1f87a44cdda6c147800f31b736194f6f18f71bfea112e2ba8b1f6fce919630b"
+    },
+    {
+      "path": "kronoloji-kaynaklari/index.html",
+      "bytes": 12129,
+      "sha256": "6645135ed8f57bff67bacac654d05619e00bb85f8e677c3d361c8d20d86857f5"
+    },
+    {
+      "path": "nasil-okunur/index.html",
+      "bytes": 19304,
+      "sha256": "4fed34a4aa731657c3ce8d9a66206b53e717d2cb63036392107a83daca05fcf8"
+    },
+    {
+      "path": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "bytes": 55495,
+      "sha256": "a44587113199fa25a3f82c3be442e5a051c6fb63c47210c20537d4387f025748"
+    },
+    {
+      "path": "olaylar/anafartalar-suvla-cikarmasi/index.html",
+      "bytes": 10532,
+      "sha256": "943e5f990cefc43247f4856abcd0e78b3742c2feefa6b5187819725fd1f6aaff"
+    },
+    {
+      "path": "olaylar/anafartalar-tahliyesi/index.html",
+      "bytes": 12505,
+      "sha256": "243ccb783b41ab7c43174e0aa6b90e024a2b264aea4d647a207e078826b0ccf7"
+    },
+    {
+      "path": "olaylar/anzak-sevk-emri/index.html",
+      "bytes": 5314,
+      "sha256": "a51ceb9eb22afe22161aef4afe6952ffe53f6e3794f9d608361077870df5f126"
+    },
+    {
+      "path": "olaylar/ariburnu-cikarmasi/index.html",
+      "bytes": 15867,
+      "sha256": "2038eaf6e83a6b18e40d56c9f38d2b7110c169a8d5ea74330bf8d2015c256b21"
+    },
+    {
+      "path": "olaylar/ariburnu-genel-taarruzu/index.html",
+      "bytes": 32484,
+      "sha256": "918e00aebed31d13b00a9209fc4853a6068bd0bff2a501f4f1446b7497c19847"
+    },
+    {
+      "path": "olaylar/ariburnu-gomme-ateskesi/index.html",
+      "bytes": 22352,
+      "sha256": "c3ce53e70c8a3520a03e5161d1bd93566d68555ef0f3dd6f9e25a9ea1dc95071"
+    },
+    {
+      "path": "olaylar/ariburnu-suvla-tahliye-onayi/index.html",
+      "bytes": 5295,
+      "sha256": "9ecff9e3f04fe7d5b415b26d0d60e11491648ee1fcf4566cebee390400be1716"
+    },
+    {
+      "path": "olaylar/ariburnu-tahliyesi/index.html",
+      "bytes": 11893,
+      "sha256": "fefabc85e750c9ed83f612c1098bbdf50b771b687c5fb9cd621015b671c372c6"
+    },
+    {
+      "path": "olaylar/ateskes-gorusmeleri/index.html",
+      "bytes": 5370,
+      "sha256": "2399af3ab444134830eea53335fbeb2017546ba8456bbdd96fd0e2b92e355278"
+    },
+    {
+      "path": "olaylar/barbaros-hayreddin-batar/index.html",
+      "bytes": 7691,
+      "sha256": "c812ee9d706a16c671078df63438bf5cbc896d260f1bef6a445bd516e3a9db31"
+    },
+    {
+      "path": "olaylar/birinci-anafartalar-muharebesi/index.html",
+      "bytes": 8467,
+      "sha256": "d3919efcd91344d87648c80b17a105a454eac0f74b1490b4981fc7c167a8e1ab"
+    },
+    {
+      "path": "olaylar/birinci-kirte-muharebesi/index.html",
+      "bytes": 10257,
+      "sha256": "97ffae853f94a283a7265b652392d4290f7cdfa6d4b70f5d3c3e3dd726d18b6b"
+    },
+    {
+      "path": "olaylar/conkbayiri-muharebesi/index.html",
+      "bytes": 11373,
+      "sha256": "4f190fea1371e89e21d8d4e877be0621294ac0209a16f03ae693c7ecbb03a752"
+    },
+    {
+      "path": "olaylar/dis-tabyalarin-bombardimani/index.html",
+      "bytes": 8545,
+      "sha256": "06ef1c4f40c4d89e899371c3eba26a08e65c3becadcfc37b1780ab3fb703c1b7"
+    },
+    {
+      "path": "olaylar/e15-bogazda-karaya-oturur/index.html",
+      "bytes": 9417,
+      "sha256": "2a0936ec09e3e03100bbdc414cb82b22a134ad3f48ee394c5372d009c368b3fd"
+    },
+    {
+      "path": "olaylar/giris-tabyalari-ve-kisa-cikarmalar/index.html",
+      "bytes": 10131,
+      "sha256": "e78c3688541b764ed1e9a8f3cecb1abbf9f1a702003e016bdb6e88ae695c0c49"
+    },
+    {
+      "path": "olaylar/goliath-batar/index.html",
+      "bytes": 9197,
+      "sha256": "a6a951acacc3a36150abbf196290cb5d028789ed924e3109ee4b98aa589918a6"
+    },
+    {
+      "path": "olaylar/hamiltona-talimat/index.html",
+      "bytes": 5296,
+      "sha256": "b4b5c7e807b5c725b7e0109de5cec32339405dc6a83083a6b585ff022b0ad1be"
+    },
+    {
+      "path": "olaylar/hastane-ekibi-limnide/index.html",
+      "bytes": 4686,
+      "sha256": "740d978b391313322f4f1c099157652e4a4481d07a6a0a2aa7bb97b8a3fb5189"
+    },
+    {
+      "path": "olaylar/ikinci-anafartalar-muharebesi/index.html",
+      "bytes": 9313,
+      "sha256": "189e2b391414d56cc6224c6543b02597cd6bee925b341819ecf2e29fb71a9aca"
+    },
+    {
+      "path": "olaylar/ikinci-kirte-muharebesi/index.html",
+      "bytes": 12610,
+      "sha256": "d7669434cf054d1f0e17bdf21c4496be776f0b7b68b6a060c4bb4a9bffedba69"
+    },
+    {
+      "path": "olaylar/index.html",
+      "bytes": 13982,
+      "sha256": "eedb5e9a1b33603d859b1f596e449a9315d7991dcaac00be575d283bbedba7f8"
+    },
+    {
+      "path": "olaylar/kanlisirt-muharebesi/index.html",
+      "bytes": 10813,
+      "sha256": "90662d1404f313c34f8f8aab0d1721f4bdb725228326dad64a23f9a7fa9f53fa"
+    },
+    {
+      "path": "olaylar/kerevizdere-muharebesi/index.html",
+      "bytes": 8109,
+      "sha256": "ceb3fc004bc900e2f0c4792e624e45bea4b0900f119cf06d0b7047055ef80393"
+    },
+    {
+      "path": "olaylar/kirectepe-taarruzu/index.html",
+      "bytes": 5171,
+      "sha256": "86dad1af30c0fcedc5db162985d7534edc990f4ae70ed31a2ff8fc6e658962f3"
+    },
+    {
+      "path": "olaylar/kolera-asilamasi/index.html",
+      "bytes": 4599,
+      "sha256": "ea187ff3956b56a5d3caaf6f45befbfa513dda6b759c81aa3bd0e2c51e45e842"
+    },
+    {
+      "path": "olaylar/kumkale-oyalama-cikarmasi/index.html",
+      "bytes": 19277,
+      "sha256": "cc087ed1da143126fb2facd226206ac4b25214db9c2edf987781fef56c9ef727"
+    },
+    {
+      "path": "olaylar/majestic-batar/index.html",
+      "bytes": 10189,
+      "sha256": "35944144063e6deb2b1f8f42f21f816314aba3bf187658dc757474b3be060abd"
+    },
+    {
+      "path": "olaylar/mayin-tarama-girisimleri/index.html",
+      "bytes": 5280,
+      "sha256": "c2ee53a7aae20261bb2966b5f5e6bca9c4eef941ac63cbecf5b13cada40b7300"
+    },
+    {
+      "path": "olaylar/mondrosta-cikarma-hazirligi/index.html",
+      "bytes": 5340,
+      "sha256": "422cfcdb9c1abc2c94e73eb50e32271269bee22823a1467cd07be54fa5fa4236"
+    },
+    {
+      "path": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+      "bytes": 12603,
+      "sha256": "0ced402ec9d67b3af44852d1daf17cd34674c5c7b98540a451c1de5d938c3571"
+    },
+    {
+      "path": "olaylar/quinns-post-lagim-taarruzu/index.html",
+      "bytes": 5423,
+      "sha256": "d90d3c46038f67f44dc55fe34e0d84de5feb847804c1cd4d9e34f6c2facdef18"
+    },
+    {
+      "path": "olaylar/quinns-post-siper-baskini/index.html",
+      "bytes": 4896,
+      "sha256": "45bf944dbbc37881f46fb3821d1851a35f27cbf2c487ead482eb5d093dc1ccb0"
+    },
+    {
+      "path": "olaylar/saros-gosterisi/index.html",
+      "bytes": 7881,
+      "sha256": "98dbaa4f5372a4d6f97fabad63792b2772ebaa0115b51085b80101d1a59b5b2e"
+    },
+    {
+      "path": "olaylar/seddulbahir-cikarmasi/index.html",
+      "bytes": 13089,
+      "sha256": "f68eae467f74356f2ef774e7bb4948ff1ece90862f19f6823c997b757da7c94f"
+    },
+    {
+      "path": "olaylar/seddulbahir-tahliye-emri/index.html",
+      "bytes": 4656,
+      "sha256": "65162e402483f13d1de07f2491fce469560df45e89010aad71186680e83d9386"
+    },
+    {
+      "path": "olaylar/seddulbahir-tahliyesi/index.html",
+      "bytes": 11093,
+      "sha256": "3041417419a562ad51d20e0134951de8bac509b37d37a226c95a10e2dcd39af0"
+    },
+    {
+      "path": "olaylar/sonbahar-firtinasi/index.html",
+      "bytes": 4999,
+      "sha256": "7dfed9a12371bda9f74af0989648e0f0f3885ef1509807b0002b01359915e199"
+    },
+    {
+      "path": "olaylar/tahliye-tavsiyesi/index.html",
+      "bytes": 5033,
+      "sha256": "1769506b9a232a591feed6bb1a7332376e03304b8f117b4276c285766c2069dd"
+    },
+    {
+      "path": "olaylar/triumph-batar/index.html",
+      "bytes": 10226,
+      "sha256": "3c033a9b3eeec28445e7f1621bd712d28de8cd6cae264c1a9c4a4816cc275b1d"
+    },
+    {
+      "path": "olaylar/ucuncu-kirte-muharebesi/index.html",
+      "bytes": 10567,
+      "sha256": "f1da59cec63d360b4aadb2b45c525863c862cec43ddf7e9166f1882f9fe6fc22"
+    },
+    {
+      "path": "olaylar/watson-iskelesi-tamamlandi/index.html",
+      "bytes": 5312,
+      "sha256": "59a8ad788cbf62932533c790631d130bbbadb5bfedd90f080888123b5b56c403"
+    },
+    {
+      "path": "olaylar/yagmur-ve-kar-firtinasi/index.html",
+      "bytes": 5082,
+      "sha256": "a4a13ba1e63555f4ee862e67f38b5efe859579072eb6b6fdc17278bd5835a348"
+    },
+    {
+      "path": "olaylar/yaralilar-misira-ulasiyor/index.html",
+      "bytes": 5242,
+      "sha256": "a06edd6020ffec5b1c420cc38c383a6bf80161f6db8aea8c8542988cde633396"
+    },
+    {
+      "path": "olaylar/yeraltindan-kazma-sesleri/index.html",
+      "bytes": 5212,
+      "sha256": "cc202da5be73cb89b0ed7ccde813fa4aa5a308bee4401a11201dcced33b413b1"
+    },
+    {
+      "path": "olaylar/zigindere-muharebesi/index.html",
+      "bytes": 11247,
+      "sha256": "91606b42bdad03023dc2d6dc3e9685b38707da3bb6f25cdcfa52570d62b70b00"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 69,
+      "sha256": "7bfa0d93ca6a187f11e8212a583706dd0dc6e4c602357bd6d0b0074904bb7431"
+    },
+    {
+      "path": "saglik-ve-tahliye/index.html",
+      "bytes": 8906,
+      "sha256": "c8f8fb76323acc880082c2469535bb02407b096e4adc8bcbf949f1632d24e655"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 7423,
+      "sha256": "defa011cd923d10adf8c808dadd2f83442692a419b0aed3a1b5d27d35f63f361"
+    },
+    {
+      "path": "sozluk/index.html",
+      "bytes": 29878,
+      "sha256": "90d6f77e5833191eb54f715ede4f87410c4f18890b1383af0f5def31cfe79461"
+    },
+    {
+      "path": "telif/index.html",
+      "bytes": 3542,
+      "sha256": "05b72aa2601b2c68a7816000c3e8eb3437b16636fddc0b9d8c738238e9b4df92"
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/images/layers-2x.png",
+      "bytes": 1259,
+      "sha256": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf"
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/images/layers.png",
+      "bytes": 696,
+      "sha256": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6"
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/images/marker-icon-2x.png",
+      "bytes": 2464,
+      "sha256": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528"
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/images/marker-icon.png",
+      "bytes": 1466,
+      "sha256": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437"
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/images/marker-shadow.png",
+      "bytes": 618,
+      "sha256": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da"
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/leaflet.css",
+      "bytes": 14806,
+      "sha256": "a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6"
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/leaflet.js",
+      "bytes": 147552,
+      "sha256": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a"
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/leaflet.js.map",
+      "bytes": 225544,
+      "sha256": "600a10dc5cd110de0699510d322afcbe01c7ca90b4c5f48adc20314c70aac753"
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/LICENSE",
+      "bytes": 1395,
+      "sha256": "53e8dc25862014e4324741ca18fbe3611e11d42ef69f59f86ea8c5389647d4cb"
+    },
+    {
+      "path": "vendor/leaflet-1.9.4/SOURCE.json",
+      "bytes": 1889,
+      "sha256": "a063d80f39382d93c9fe43708f87f85a84c9c4a96a045382b0ad9d13df4f5c16"
+    }
+  ],
+  "limits": "Inventory is not publication approval, image rights verification, or a remote backup.",
+  "page_coverage": {
+    "status": "matched",
+    "pages_missing_from_sitemap": [],
+    "sitemap_without_page": []
+  },
+  "difference": {
+    "added": [],
+    "changed": [
+      "cephede-beslenme/index.html",
+      "css/style.css",
+      "donanma/index.html",
+      "fotograf-arsivi/index.html",
+      "gizlilik/index.html",
+      "hakkinda/index.html",
+      "iletisim/index.html",
+      "inceleme-notlari/index.html",
+      "index.html",
+      "js/app.js",
+      "js/data.js",
+      "kaynak-politikasi/index.html",
+      "kaynakca/index.html",
+      "komutanlar/albert-damade/index.html",
+      "komutanlar/alexander-godley/index.html",
+      "komutanlar/aylmer-hunter-weston/index.html",
+      "komutanlar/cevat-bey-cobanli/index.html",
+      "komutanlar/charles-monro/index.html",
+      "komutanlar/emile-guepratte/index.html",
+      "komutanlar/esat-pasa-bulkat/index.html",
+      "komutanlar/frederick-stopford/index.html",
+      "komutanlar/guido-von-usedom/index.html",
+      "komutanlar/halil-sami-bey/index.html",
+      "komutanlar/henri-gouraud/index.html",
+      "komutanlar/ian-hamilton/index.html",
+      "komutanlar/index.html",
+      "komutanlar/johannes-merten/index.html",
+      "komutanlar/john-de-robeck/index.html",
+      "komutanlar/liman-von-sanders/index.html",
+      "komutanlar/mustafa-kemal/index.html",
+      "komutanlar/rafet-bey-bele/index.html",
+      "komutanlar/remzi-bey/index.html",
+      "komutanlar/roger-keyes/index.html",
+      "komutanlar/sackville-carden/index.html",
+      "komutanlar/selahattin-adil-bey/index.html",
+      "komutanlar/vehip-pasa-kaci/index.html",
+      "komutanlar/weber-pasa/index.html",
+      "komutanlar/william-birdwood/index.html",
+      "komutanlar/william-bridges/index.html",
+      "kronoloji-kaynaklari/index.html",
+      "nasil-okunur/index.html",
+      "olaylar/18-mart-deniz-muharebesi/index.html",
+      "olaylar/anafartalar-suvla-cikarmasi/index.html",
+      "olaylar/anafartalar-tahliyesi/index.html",
+      "olaylar/anzak-sevk-emri/index.html",
+      "olaylar/ariburnu-cikarmasi/index.html",
+      "olaylar/ariburnu-genel-taarruzu/index.html",
+      "olaylar/ariburnu-gomme-ateskesi/index.html",
+      "olaylar/ariburnu-suvla-tahliye-onayi/index.html",
+      "olaylar/ariburnu-tahliyesi/index.html",
+      "olaylar/ateskes-gorusmeleri/index.html",
+      "olaylar/barbaros-hayreddin-batar/index.html",
+      "olaylar/birinci-anafartalar-muharebesi/index.html",
+      "olaylar/birinci-kirte-muharebesi/index.html",
+      "olaylar/conkbayiri-muharebesi/index.html",
+      "olaylar/dis-tabyalarin-bombardimani/index.html",
+      "olaylar/e15-bogazda-karaya-oturur/index.html",
+      "olaylar/giris-tabyalari-ve-kisa-cikarmalar/index.html",
+      "olaylar/goliath-batar/index.html",
+      "olaylar/hamiltona-talimat/index.html",
+      "olaylar/hastane-ekibi-limnide/index.html",
+      "olaylar/ikinci-anafartalar-muharebesi/index.html",
+      "olaylar/ikinci-kirte-muharebesi/index.html",
+      "olaylar/index.html",
+      "olaylar/kanlisirt-muharebesi/index.html",
+      "olaylar/kerevizdere-muharebesi/index.html",
+      "olaylar/kirectepe-taarruzu/index.html",
+      "olaylar/kolera-asilamasi/index.html",
+      "olaylar/kumkale-oyalama-cikarmasi/index.html",
+      "olaylar/majestic-batar/index.html",
+      "olaylar/mayin-tarama-girisimleri/index.html",
+      "olaylar/mondrosta-cikarma-hazirligi/index.html",
+      "olaylar/nusret-erenkoy-hattini-doker/index.html",
+      "olaylar/quinns-post-lagim-taarruzu/index.html",
+      "olaylar/quinns-post-siper-baskini/index.html",
+      "olaylar/saros-gosterisi/index.html",
+      "olaylar/seddulbahir-cikarmasi/index.html",
+      "olaylar/seddulbahir-tahliye-emri/index.html",
+      "olaylar/seddulbahir-tahliyesi/index.html",
+      "olaylar/sonbahar-firtinasi/index.html",
+      "olaylar/tahliye-tavsiyesi/index.html",
+      "olaylar/triumph-batar/index.html",
+      "olaylar/ucuncu-kirte-muharebesi/index.html",
+      "olaylar/watson-iskelesi-tamamlandi/index.html",
+      "olaylar/yagmur-ve-kar-firtinasi/index.html",
+      "olaylar/yaralilar-misira-ulasiyor/index.html",
+      "olaylar/yeraltindan-kazma-sesleri/index.html",
+      "olaylar/zigindere-muharebesi/index.html",
+      "saglik-ve-tahliye/index.html",
+      "sozluk/index.html",
+      "telif/index.html"
+    ],
+    "removed": [
+      ".htaccess"
+    ]
+  }
+}

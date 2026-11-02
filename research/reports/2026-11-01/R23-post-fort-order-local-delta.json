@@ -1,0 +1,21 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Son emir/düello partisi üç dosyanın yerel hashleri; önceki Seyit delta/manifest güncel değildir. Uzak yedek/yayın kabulü değildir.",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "12f2bbecd4b447c0c94d873b14ed56d02c05db44534b7c2e864870196e6728c1"
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "06521e488b633a2439d41be773c08d83653648c7c13c7d20d41b0ba79196d15a"
+    },
+    {
+      "path": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "sha256": "839a19fa00cbc4479b70b38131a4b8c4d31be085904f5381e35d01fe2eff368b"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebinde güncel envanter ve taze uzak geri dönüş hazırlığı; .htaccess korunacak."
+}

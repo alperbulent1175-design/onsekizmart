@@ -1,0 +1,3 @@
+WARNING: proceeding, even though we could not create PATH aliases: Could not find home directory
+{"error":{"code":-32600,"data":{"reason":"configLoad","filePath":null,"line":null,"column":null,"detail":"Could not find home directory"},"message":"failed to load configuration: Could not find home directory"}}
+Error: startup configuration unavailable

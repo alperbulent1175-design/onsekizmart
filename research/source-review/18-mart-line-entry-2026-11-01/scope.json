@@ -1,0 +1,57 @@
+{
+  "task": "R04",
+  "status": "devam ediyor",
+  "event_date": "1915-03-18",
+  "report_date": "1915-03-24",
+  "cover_letter_date": "1915-03-26",
+  "official_publication_date": "1919-05-02",
+  "web_publication_date": null,
+  "access_date": "2026-11-01",
+  "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "evidence": [
+    "Ships reported - Ready for action",
+    "Destroyers with sweeps preceded Line A"
+  ],
+  "scope": "10.30 hazır bildirimi ve A hattı sıralaması, öncü muhripler ile Prince George / Triumph yan konumları çevrimyazı pasajından okundu. Tüm rapor ve özgün görüntü okunmadı.",
+  "verification": "cevrimyazi_pasaji_okundu_asli_acik",
+  "open": [
+    "Telsiz sessizliği emrinin özgün metni",
+    "Bütün mürettebatın görev yerine geçiş zamanı",
+    "Seddülbahir–Kumkale çizgisinin tam geçiş anı"
+  ],
+  "legacy_keys_unchanged": [
+    "09:00/540",
+    "10:00/600"
+  ],
+  "sourceTime_added": false,
+  "coordinates_changed": false,
+  "tests_log": "research/reports/2026-11-01/R04-line-entry-tests.txt",
+  "browser_acceptance": {
+    "surface": "IAB sekme 2; eski bağlantı kullanılamayınca oturum yenilendi",
+    "desktop": [
+      1280,
+      720
+    ],
+    "mobile": [
+      320,
+      800
+    ],
+    "cards": "İki yeni kart metni masaüstünde ve mobilde okundu; saat doğrulanmadı etiketi korundu. Hazırlık kartı mobilde sayfa geri yüklemesi tamamlandıktan sonra yeniden seçilerek doğrulandı.",
+    "source_heading_top_px": {
+      "desktop": 88.175,
+      "mobile": 168.225
+    },
+    "mobile_width": {
+      "client": 305,
+      "scroll": 305
+    },
+    "filter": "Son DOM durumunda İtilaf aria-pressed=true, 20 kayıt / 4 ortak. Harita karoları görünür.",
+    "limits": "Geçişten hemen sonraki ekran görüntüsü önceki süzgeç görünümünü taşıyabildi; son seçim salt okunur DOM durumu ile teyit edildi. Fiziksel cihaz kabulü değil.",
+    "viewport_reset": true
+  },
+  "tests": {
+    "javascript_passed": 297,
+    "mandatory_python_passed": 19,
+    "failed": 0
+  }
+}

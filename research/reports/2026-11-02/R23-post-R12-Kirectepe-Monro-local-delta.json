@@ -1,0 +1,20 @@
+{
+  "task": "R23",
+  "date": "2026-11-02",
+  "status": "yerel dar değişiklik;yayın engelli",
+  "scope": "Tam manifest değil;commit/push/deploy yok.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "67342153c2ad290ed5cdd89c3d41387fc89b9a29f8ae8a2a192c7e8b209b8fbc"
+    },
+    {
+      "path": "olaylar/kirectepe-taarruzu/index.html",
+      "sha256": "fc2a29e9daabadf75509e9f31e3f11ba9c9ac72930683a39ee6b9c4ce4f90e4f"
+    },
+    {
+      "path": "olaylar/tahliye-tavsiyesi/index.html",
+      "sha256": "de2879748124c996f00b3b62efdb15b815edc15d4f28051b531792cf2a58e7a3"
+    }
+  ]
+}

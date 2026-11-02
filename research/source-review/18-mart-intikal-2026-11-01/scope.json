@@ -1,0 +1,55 @@
+{
+  "task": "R04",
+  "status": "devam ediyor",
+  "source_url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "event_date": "1915-03-18",
+  "enclosed_report_date": "1915-03-24",
+  "cover_letter_date": "1915-03-26",
+  "official_publication_date": "1919-05-02",
+  "web_publication_date": null,
+  "access_date": "2026-11-01",
+  "evidence": "the signal was made at 8.26 a.m.",
+  "scope": "Ek raporun yerel saat açıklaması, sabah hava/karar paragrafı ve 10.30 hareket kaydı web çevrimyazısından okundu. Bütün belge veya özgün görüntü okunmuş sayılmaz.",
+  "verification": "cevrimyazi_pasaji_okundu_asli_acik",
+  "distinctions": [
+    "08.26 devam kararı",
+    "10.30 öngörülen başlangıç; ayrı kayıtta A hattı hareketi",
+    "08.30/510 eski atlas anahtarı; liman çıkış saati değil"
+  ],
+  "limits": [
+    "Limanlardan hangi geminin ne zaman ayrıldığı doğrulanmadı.",
+    "Bütün sabah deniz sakin genellemesi yapılmadı.",
+    "Gazette sayfa 5502 ve supplement PDF web erişimi başarısız; koşul değişmeden tekrar deneme.",
+    "GMT+2 rapor açıklaması günümüz Türkiye saatine veya diğer jurnallere taşınmadı.",
+    "İmzalı asıl ve gemilerin çıkış jurnalleri okunmadı."
+  ],
+  "sourceTime_added": false,
+  "tests_log": "research/reports/2026-11-01/R04-intikal-tests.txt",
+  "browser_acceptance": {
+    "surface": "IAB sekme 2; oturum yenilemesi sonrası çalıştı",
+    "desktop": [
+      1280,
+      720
+    ],
+    "mobile": [
+      320,
+      800
+    ],
+    "heading_top_px": {
+      "desktop": 88.175,
+      "mobile": 168.225
+    },
+    "mobile_width": {
+      "client": 305,
+      "scroll": 305
+    },
+    "flow": "Yeni kart metni, Saat doğrulanmadı, kaynak başlığı, seçili kayda dönüş ve İtilaf süzgeci (20 kayıt / 4 ortak) kontrol edildi. Önceki Osmanlı seçimi temizlenince intikal kartı bulundu.",
+    "screenshot_scope": "Masaüstü ve mobil kaynak görüntüleri araç çıktısında incelendi; dosyaya kaydedilmiş görüntü iddia edilmez.",
+    "viewport_reset": true
+  },
+  "tests": {
+    "javascript_passed": 297,
+    "python_mandatory_passed": 19,
+    "failed": 0
+  }
+}

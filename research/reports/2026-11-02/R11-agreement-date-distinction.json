@@ -1,0 +1,27 @@
+{
+  "task": "R11",
+  "phase": "R11-D",
+  "status": "alt kontrol tamam",
+  "date": "2026-11-02",
+  "evidence": [
+    {
+      "url": "https://www.awm.gov.au/collection/A05615",
+      "eventDate": "1915-05-22",
+      "publicationDate": "Dijital kaydın ilk yayını bilinmiyor",
+      "accessDate": "2026-11-02",
+      "passage": "Date made 22 May 1915; Butler ve Ohri görüşmeler sonrası Osmanlı hattına dönüşte.",
+      "verification": "Kurum nesne kaydı tekrar okundu; Oglander’deki belirli ikinci görüşmenin fotoğrafı olduğu çıkarılmadı. Kayıptoplamları aktarılmadı."
+    },
+    {
+      "url": "https://catab.ktb.gov.tr/Eklenti/81451%2C105-yilinda-canakkale-muharebelerine-bakis-09032021pdf.pdf#page=147",
+      "documentDate": "1915-05-23",
+      "intendedApplication": "1915-05-24",
+      "publicationDate": "2020",
+      "accessDate": "2026-11-02",
+      "passage": "Ek 6 madde 13: 23 Mayıs tarihli iki nüsha, tam yetkili delegelerin imzalama/karşılıklı alıp verme düzenlemesi.",
+      "verification": "s.147 görüntüden okundu. Türkçe aktarım; imzalı özgünler, fiilî imzalama/değişim saati doğrulanmadı."
+    }
+  ],
+  "comparison": "Oglander II s.22 (1932) resmî görüşme/üst komuta kabulü anlatısıdır; nesne kaydı ve anlaşma aktarımıyla aynı belge/tanık sayılmadı.",
+  "readerPage": "olaylar\\ariburnu-gomme-ateskesi\\index.html#gorusmeden-ateskese"
+}

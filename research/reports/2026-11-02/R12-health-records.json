@@ -1,0 +1,44 @@
+{
+  "task": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "id": "e-nisan-mayis",
+  "sourceRecords": [
+    {
+      "claim": "Butler’ın resmî sağlık tarihi, Gascon’un Mısır’a varışını anlatan pasajdan ayrı olarak Kahire’de gemiden gelen yaralıların hastaneye kabulünü kaydeder. Böylece deniz yolculuğunun sonuyla hastanedeki kabul ayrı aşamalar olarak izlenebilir. Bu anlatı, özgün yolcu ve kabul defterlerinin yerine geçmez; bütün yolcuların tedavi sonucunu göstermez.",
+      "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1069997/document/5520745.PDF#page=14",
+      "bibliography": "A. G. Butler, Official History of the Australian Army Medical Services, 1914–1918, cilt I, ikinci baskı, 1938; bölüm X, The Landing: Expeditionary Base; Australian War Memorial, RCDIG1069997.",
+      "locator": "Bölüm X, basılı s.191 ve195; fiziksel PDF8 ve14. Verilen bağlantı s.195/PDF14 pasajına gider.",
+      "eventDate": "29 Nisan 1915",
+      "recordDate": "Özgün hasta/kabul kaydının yazım tarihi ayrıca doğrulanmadı",
+      "publicationDate": "1938",
+      "digitalPublicationDate": null,
+      "publicationDateNote": "Basılı eserin baskı yılı ile dijital tarama yayımı ayrıdır; taramanın yayım tarihi belirlenmedi.",
+      "accessDate": "2026-10-24",
+      "evidenceText": "Mısır’a varış ile Kahire’de Gascon’dan gelen yaralıların hastaneye kabulü ayrı pasajlardır.",
+      "scope": "Olay 29 Nisan 1915; yayın 1938. İlgili iki sayfanın görüntüsü 24 Ekim 2026’da incelendi; bu parti önceki okuma kaydını kullanır, yeni görüntü okuması değildir. Verilen PDF bağlantısı s.195 pasajına gider. Farklı seferler veya hastaneler arası nakiller aynı toplam yapılmadı. Bu yapılandırma yeni özgün belge okuması değildir.",
+      "status": "yayin_aktarimi_pasaji_okundu"
+    },
+    {
+      "claim": "Barrett ve Deane’in yayımlanmış görevli anlatısındaki Nisan sonu kabul tablosu, Birinci Avustralya Genel Hastanesine gelen hasta ve yaralıları gün gün birlikte kaydeder. Tablo gemi adı vermez. Bu yüzden tablodaki günlük kabullerin tamamı Gascon yolcuları veya yalnız muharebe yaralıları olarak okunamaz.",
+      "url": "https://www.gutenberg.org/files/41911/41911-h/41911-h.htm",
+      "bibliography": "James W. Barrett ve P. E. Deane, The Australian Army Medical Corps in Egypt: An Illustrated and Detailed Account of the Early Organisation and Work of the Australian Medical Units in Egypt in 1914–1915; Londra: H. K. Lewis & Co., 1918.",
+      "locator": "Basılı s.54, Nisan sonundaki Birinci Avustralya Genel Hastanesi hasta ve yaralı kabul tablosu; önceki baskı taramasında fiziksel PDF112.",
+      "eventDate": "28 Nisan–1 Mayıs 1915 tablo dönemi",
+      "recordDate": "Özgün hasta/kabul kaydının yazım tarihi ayrıca doğrulanmadı",
+      "publicationDate": "1918",
+      "digitalPublicationDate": null,
+      "publicationDateNote": "1918 basılı eserin yılıdır; bu kontrolde Gutenberg dijital aktarımının ilk yayım tarihi belirlenmedi.",
+      "accessDate": "2026-11-02",
+      "evidenceText": "Tablo, hasta ve yaralı kabullerini birlikte günlere ayırır; gemi adı vermez.",
+      "scope": "Tablo dönemi 28 Nisan–1 Mayıs 1915; Londra: H. K. Lewis,1918. E-kitap aktarımındaki başlık/tablo 2 Kasım 2026’da okundu; önceki 24 Ekim baskı görüntüsü incelemesi ayrıca korunur. Özgün hasta kabul defteri görülmedi; iki yayının aynı kayıt zincirinden bağımsız olduğu varsayılmadı. Bu yapılandırma yeni özgün belge okuması değildir.",
+      "status": "yayin_aktarimi_pasaji_okundu"
+    }
+  ],
+  "previousReviews": [
+    "research/source-review/saglik-2026-10-24/BUTLER-MISIR-KABUL.md",
+    "research/source-review/saglik-2026-10-24/AGH-KABUL-TABLOSU.md",
+    "research/reports/2026-11-02/R09-gascon-reception-narrative-scope.json"
+  ],
+  "scope": "Seçili önceki inceleme notları okundu, özgün belgeler yeniden okunmuş sayılmadı. Kabul tablosu Gascon yolcu listesi veya benzersiz kişi toplamına çevrilmedi."
+}

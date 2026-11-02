@@ -1,0 +1,17 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Arıburnu–Suvla onayı sonrası yerel iki dosya; tam yayınmanifesti değil.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "293d203d02a42bc29baa814ea7aa0b594a1b5b8c2446cb8a56b31b4acfbfacfd"
+    },
+    {
+      "path": "olaylar/ariburnu-suvla-tahliye-onayi/index.html",
+      "sha256": "ad56c605ee868b37debb0395dfc53ab95d05ba78edbdbd2e23d201943d3c5a4c"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi ve taze tam envanter/uzak geri dönüş; .htaccess korunacak."
+}

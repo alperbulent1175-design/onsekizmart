@@ -1,0 +1,17 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Watson sonrası yerel iki dosya; tam yayınmanifesti değil.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "477e9028f8ff70fb276621c0bdc1f94aab64416c62eb5d687c241ec21cb729b1"
+    },
+    {
+      "path": "olaylar/watson-iskelesi-tamamlandi/index.html",
+      "sha256": "17cf44aa1009208f46e794e0195e182013bac4521ce706e38fbc8f1aade27c2a"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi ve taze tam envanter/uzak geri dönüş; .htaccess korunacak."
+}

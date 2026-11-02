@@ -1,0 +1,546 @@
+{
+  "task": "R08",
+  "status": "tamamlandı",
+  "reviewDate": "2026-11-01",
+  "scope": "14 çizginin tamamı için 28 masaüstü/mobil panel kabulü; tarihsel geometriler doğrulanmış sayılmaz. Şemayı koruma seçeneğiyle kabul.",
+  "counts": {
+    "lines": 14,
+    "uiRows": 28,
+    "uiFailures": 0,
+    "verifiedGeometries": 0
+  },
+  "priorSourceReview": "research/source-review/harita-konum-2026-10-20/konum-denetimi.json",
+  "sourcesLimit": "20 Ekim harita görüntüsü/katalog incelemeleri yeniden yapılmış sayılmadı; RN2-230 bu tur web metni vermedi, yeni görüntü okuması sayılmadı. Ocak1916 kaydı18Mart geometrisine taşınmadı.",
+  "tests": {
+    "javascript": 297,
+    "pythonRequired": 19,
+    "fail": 0,
+    "log": "R08-geometry-guide-tests.txt"
+  },
+  "lines": [
+    {
+      "id": "nusret-hat",
+      "name": "Nusret gizli hattı (26 mayın)",
+      "type": "mayin",
+      "coordinates": [
+        [
+          40.0085,
+          26.262
+        ],
+        [
+          40.014,
+          26.2665
+        ],
+        [
+          40.01917,
+          26.27167
+        ],
+        [
+          40.0255,
+          26.276
+        ],
+        [
+          40.032,
+          26.2805
+        ],
+        [
+          40.0382,
+          26.2875
+        ],
+        [
+          40.0445,
+          26.2935
+        ],
+        [
+          40.051,
+          26.299
+        ]
+      ],
+      "note": "Alan Başkanlığının deniz muharebeleri anlatısı Erenköy Koyu’nda kıyıya paralel 26 mayınlık hattı aktarır. Bu çizginin uç noktaları, uzunluğu ve mayın aralıkları sayısal belgeyle doğrulanmadı. Çizgi üzerindeki köşeler tek tek mayın değildir.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/nasil-okunur/#konum-denetimi",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    },
+    {
+      "id": "hat-a",
+      "name": "A Hattı — İngiliz zırhlıları",
+      "type": "filo",
+      "coordinates": [
+        [
+          40.068,
+          26.238
+        ],
+        [
+          40.06,
+          26.252
+        ],
+        [
+          40.053,
+          26.266
+        ],
+        [
+          40.046,
+          26.28
+        ]
+      ],
+      "note": "Queen Elizabeth, Inflexible, Agamemnon, Lord Nelson. Şematik grup gösterimidir; çizginin belirli bir andaki filo konumu ve tabyalara mesafesi belgeyle eşleştirilmedi.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/olaylar/18-mart-deniz-muharebesi/#asama-saatleri",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    },
+    {
+      "id": "hat-b",
+      "name": "B Hattı — Fransız zırhlıları",
+      "type": "filo",
+      "coordinates": [
+        [
+          40.082,
+          26.268
+        ],
+        [
+          40.075,
+          26.28
+        ],
+        [
+          40.068,
+          26.292
+        ],
+        [
+          40.061,
+          26.304
+        ]
+      ],
+      "note": "Suffren, Bouvet, Gaulois, Charlemagne. Raporda ilk B Hattı olarak anılırlar; ilerleme emri ile fiilî çatışma ayrı aşamalardır. Bu grup notu kesin atış mesafesi vermez.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/olaylar/18-mart-deniz-muharebesi/#asama-saatleri",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    },
+    {
+      "id": "hat-c",
+      "name": "C Hattı — ihtiyat / destek",
+      "type": "filo",
+      "coordinates": [
+        [
+          40.052,
+          26.22
+        ],
+        [
+          40.044,
+          26.236
+        ],
+        [
+          40.036,
+          26.252
+        ],
+        [
+          40.028,
+          26.266
+        ]
+      ],
+      "note": "Vengeance, Irresistible, Albion, Ocean, Majestic, Swiftsure. Destek grubunun şematik gösterimidir; emir, ileri geçiş ve her geminin fiilî konumu ayrı kayıtlardır. Bu çizgi kesin hareket saati vermez.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/olaylar/18-mart-deniz-muharebesi/#asama-saatleri",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    },
+    {
+      "id": "sema-1",
+      "name": "Enlemesine hat 1",
+      "type": "mayin",
+      "coordinates": [
+        [
+          40.078,
+          26.332
+        ],
+        [
+          40.072,
+          26.378
+        ]
+      ],
+      "note": "Atlas çizim sırası; tarihî hat numarası, uçlar ve aralıklar doğrulanmadı.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/nasil-okunur/#konum-denetimi",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    },
+    {
+      "id": "sema-2",
+      "name": "Enlemesine hat 2",
+      "type": "mayin",
+      "coordinates": [
+        [
+          40.086,
+          26.338
+        ],
+        [
+          40.08,
+          26.384
+        ]
+      ],
+      "note": "Atlas çizim sırası; tarihî hat numarası, uçlar ve aralıklar doğrulanmadı.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/nasil-okunur/#konum-denetimi",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    },
+    {
+      "id": "sema-3",
+      "name": "Enlemesine hat 3",
+      "type": "mayin",
+      "coordinates": [
+        [
+          40.094,
+          26.344
+        ],
+        [
+          40.088,
+          26.39
+        ]
+      ],
+      "note": "Atlas çizim sırası; tarihî hat numarası, uçlar ve aralıklar doğrulanmadı.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/nasil-okunur/#konum-denetimi",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    },
+    {
+      "id": "sema-4",
+      "name": "Enlemesine hat 4",
+      "type": "mayin",
+      "coordinates": [
+        [
+          40.102,
+          26.35
+        ],
+        [
+          40.096,
+          26.396
+        ]
+      ],
+      "note": "Atlas çizim sırası; tarihî hat numarası, uçlar ve aralıklar doğrulanmadı.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/nasil-okunur/#konum-denetimi",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    },
+    {
+      "id": "sema-5",
+      "name": "Enlemesine hat 5",
+      "type": "mayin",
+      "coordinates": [
+        [
+          40.11,
+          26.354
+        ],
+        [
+          40.104,
+          26.4
+        ]
+      ],
+      "note": "Atlas çizim sırası; tarihî hat numarası, uçlar ve aralıklar doğrulanmadı.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/nasil-okunur/#konum-denetimi",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    },
+    {
+      "id": "sema-6",
+      "name": "Enlemesine hat 6",
+      "type": "mayin",
+      "coordinates": [
+        [
+          40.118,
+          26.358
+        ],
+        [
+          40.112,
+          26.404
+        ]
+      ],
+      "note": "Atlas çizim sırası; tarihî hat numarası, uçlar ve aralıklar doğrulanmadı.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/nasil-okunur/#konum-denetimi",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    },
+    {
+      "id": "sema-7",
+      "name": "Enlemesine hat 7",
+      "type": "mayin",
+      "coordinates": [
+        [
+          40.126,
+          26.362
+        ],
+        [
+          40.12,
+          26.408
+        ]
+      ],
+      "note": "Atlas çizim sırası; tarihî hat numarası, uçlar ve aralıklar doğrulanmadı.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/nasil-okunur/#konum-denetimi",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    },
+    {
+      "id": "sema-8",
+      "name": "Enlemesine hat 8",
+      "type": "mayin",
+      "coordinates": [
+        [
+          40.132,
+          26.366
+        ],
+        [
+          40.126,
+          26.41
+        ]
+      ],
+      "note": "Atlas çizim sırası; tarihî hat numarası, uçlar ve aralıklar doğrulanmadı.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/nasil-okunur/#konum-denetimi",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    },
+    {
+      "id": "sema-9",
+      "name": "Enlemesine hat 9",
+      "type": "mayin",
+      "coordinates": [
+        [
+          40.138,
+          26.37
+        ],
+        [
+          40.132,
+          26.412
+        ]
+      ],
+      "note": "Atlas çizim sırası; tarihî hat numarası, uçlar ve aralıklar doğrulanmadı.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/nasil-okunur/#konum-denetimi",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    },
+    {
+      "id": "sema-10",
+      "name": "Enlemesine hat 10",
+      "type": "mayin",
+      "coordinates": [
+        [
+          40.144,
+          26.374
+        ],
+        [
+          40.138,
+          26.414
+        ]
+      ],
+      "note": "Atlas çizim sırası; tarihî hat numarası, uçlar ve aralıklar doğrulanmadı.",
+      "geometryVerified": false,
+      "geometryChanged": false,
+      "scaleTiePointsDatumReview": "Tamamlanmadı; sayısallaştırılmış tarihsel geometri veya metre cinsinden hata sınırı yok.",
+      "readerLink": "/nasil-okunur/#konum-denetimi",
+      "uiAcceptance": {
+        "desktop": "1280x720; Enter ile doğru başlık, şematik/köşe/hata sınırı/kaynak açıklaması görüldü",
+        "mobile": "320x800; aynı alanlar görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "task": "R23",
+  "status": "engelli (yayın/uzak yedek ve geri dönüş için yeni açık talep gerekir)",
+  "mode": "local_preparation_only",
+  "baseline": "research/deployment/2026-10-29-content-release/manifest.json; historical release inventory, not current server state",
+  "changed_files": [
+    {
+      "path": "cephede-beslenme/index.html",
+      "local": {
+        "path": "cephede-beslenme/index.html",
+        "bytes": 20545,
+        "sha256": "74d01abecf75ec09923b465bf8797ef6a2acb4f608171d207cb8e01277641ecf"
+      },
+      "historical_release_baseline": {
+        "path": "cephede-beslenme/index.html",
+        "bytes": 20387,
+        "sha256": "94adb1ccae619deeecdc4ff79a356aa2e6b1f8f9013587b74659151d21ec2edd"
+      },
+      "rollback_condition": "Before an explicitly authorized release, back up current remote content and verify its hash; this historical baseline is not the rollback backup."
+    },
+    {
+      "path": "donanma/index.html",
+      "local": {
+        "path": "donanma/index.html",
+        "bytes": 85201,
+        "sha256": "d615b2fa5e4bbbc1b0c0a72f8a56d2d3421d86a210b933c27276e55d5d53b30b"
+      },
+      "historical_release_baseline": {
+        "path": "donanma/index.html",
+        "bytes": 82311,
+        "sha256": "8fc3cf2859d8de33c3a1eaa6a5de5a9013ee29965d8f017b8a30937fd0fbd9c8"
+      },
+      "rollback_condition": "Before an explicitly authorized release, back up current remote content and verify its hash; this historical baseline is not the rollback backup."
+    }
+  ],
+  "new_files": [],
+  "removed_from_local_only": [
+    ".htaccess"
+  ],
+  "preserve_remote": [
+    ".htaccess"
+  ],
+  "rollback_steps": [
+    "After new explicit publication instruction, obtain and verify current remote backup for each changed file before upload.",
+    "Stop release if backup is missing or fails hash verification.",
+    "If rollback is required within the authorized release plan, restore only changed files from that fresh backup and verify remote hashes.",
+    "Do not delete .htaccess or synchronize the remote tree as a mirror of this local inventory."
+  ],
+  "limits": [
+    "No remote connection, backup, upload, deletion, commit or push performed.",
+    "161 local files/88 HTML pages match sitemap; this does not verify live content or image rights.",
+    "R03 UI acceptance pending; local inventory is not publication approval.",
+    "archive, research, unrelated project and agent configuration are excluded."
+  ],
+  "public_read_check": "R02-two-public-pages-check.json: HTTP200 both changed pages match29Octoberhistorical release and differ from local. This is not a rollback backup."
+}

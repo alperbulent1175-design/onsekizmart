@@ -1,0 +1,7 @@
+{
+  "task": "R04",
+  "scope": "Only new local modifications after priorR03triage;not restart of oldclaims",
+  "pages": 88,
+  "quantity_pending": 0,
+  "stale_review_count": 0
+}

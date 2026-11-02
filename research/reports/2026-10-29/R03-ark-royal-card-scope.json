@@ -1,0 +1,16 @@
+{
+  "task": "R03",
+  "reviewDate": "2026-10-29",
+  "page": "donanma/index.html#ark-royal",
+  "previousEvidence": "research/reports/2026-10-27/R03-ark-royal-scope.json",
+  "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "evidence": "Seaplane reported Fort No. 16 firing",
+  "eventDate": "1915-03-18",
+  "documentDate": "1915-03-24",
+  "publicationDate": null,
+  "originalAccessDate": "2026-10-27",
+  "status": "existing_selected_transcription_scope_reused",
+  "change": "Residual definitive mine-detection claim removed from navy outcome field; aligns with already narrowed map summary.",
+  "limits": "Battery observation does not establish ArkRoyal aircraft attribution,mine search coverage or reason for non-detection. Original flight logs unseen.",
+  "uiAcceptance": "29Oct desktop1265/mobile305 no overflow; desktop card and mobile result view inspected; search full text3/30,name-only1/30; map marker Enter opened ArkRoyal panel with scope-limited summary and Leaflet. No physical-device test."
+}

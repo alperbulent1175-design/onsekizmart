@@ -1,0 +1,19 @@
+{
+  "task": "R09",
+  "id": "e-mayis-sessiz-3",
+  "status": "devam ediyor",
+  "eventDates": [
+    "1915-05-21 (22 Mayıs girişinde önceki gün olarak aktarılan temas)",
+    "1915-05-22 (günlük girişi ve ayrı fotoğraf kaydı)"
+  ],
+  "sourceUrl": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+  "passage": "22 Mayıs 1915 başlığı altındaki ilk iki paragraf; basılı s.243 öncesi/sonrası bölüm sınırı",
+  "publicationDate": "1920",
+  "digitalReleaseDate": "2006-09-19",
+  "accessDate": "2026-11-02",
+  "evidence": "Hamilton önceki günkü gayriresmî temas hakkında haber aldığını, karşılıklı kuşku sonrası ateş açıldığını ve Herbert ile yetki/usulü konuştuğunu yazar.",
+  "verification": "Yayımlanmış kişisel anlatının e-kitap aktarımı okundu; özgün belge değil. Bütün eser okunmadı.",
+  "limits": "Kayıplar/saatler eklenmedi; aktarılan 21 Mayıs olayı 22 Mayıs fotoğrafı ile özdeşlenmedi. 20 Mayıs başlığındaki 1919 yazımı kullanılmadı. 24 Mayıs uygulaması bu pasajla doğrulanmadı.",
+  "previousEvidence": "AWM H02318/C45317 fotoğraf kimliği ve dönüş yönü önceki incelemeden korundu; yeni fotoğraf/hak araştırması yapılmadı.",
+  "uiAcceptance": "1280×720 ve320×800: başlık/metin görüldü;1265/1265 ve305/305px; Enter→Arıburnu gömme ateşkesi URL/h1 doğrulandı. Görüntü alınmadı; harita/süzgeç değişmedi."
+}

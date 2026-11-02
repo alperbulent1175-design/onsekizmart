@@ -1,0 +1,29 @@
+{
+  "task": "R10",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "finding": "Kabul matrisi sırasında Arıburnu metninin uzak hedeflere değinip genel planın somut amacını açıklamadığı görüldü.",
+  "sourceUrl": "https://www.awm.gov.au/visit/exhibitions/dawn/plan",
+  "eventContext": "Nisan1915 kara çıkarma planı",
+  "pageLastUpdated": "2021-03-18",
+  "accessDate": "2026-11-02",
+  "evidenceParaphrase": "Yarımadanın işgaliyle kara/kıyı savunmalarını ortadan kaldırıp donanmaya Boğaz geçişi açma planı;ANZAK batı kıyısındaki kol.",
+  "readScope": "Plan ve genel sonuç paragrafları. Sayfanın18Martdonanmaoranı aktarılmadı; bütün sergi/özgün emir okunmadı.",
+  "verification": "kurum_sergi_ozeti_pasaji_okundu_ozgun_emir_acik",
+  "limits": [
+    "Genel planın hedefi tek tek birliklerin günlük hedefi değildir.",
+    "AWMözetindekiOsmanlısavunması değerlendirmesiOsmanlıtarafınınbağımsızbeyanıdeğildir.",
+    "Aynıkurumunlanding/bloodyday/planbağlantılarıüçbağımsıztanıksayılmaz."
+  ],
+  "siteFiles": [
+    "olaylar/ariburnu-cikarmasi/index.html"
+  ],
+  "acceptance": "Genelİtilafhedefi,yerelkarşılaşma veOsmanlıkomutahaberiyanındasomutlaştırıldı. Altıolaymatrisiningenelkararıhenüzyazılmadı.",
+  "tests": {
+    "allJavaScriptPassed": 297,
+    "mandatoryPythonPassed": 19,
+    "failed": 0,
+    "log": "research/reports/2026-11-02/R10-ariburnu-plan-tests.txt",
+    "ui": "1280×720/320×800yeniplanmetnigörünür;1265/1265ve305/305px,boyutsıfırlandı,harita/süzgeçdeğişmedi."
+  }
+}

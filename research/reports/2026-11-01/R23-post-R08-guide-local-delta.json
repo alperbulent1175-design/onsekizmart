@@ -1,0 +1,13 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "R08 rehber metni sonrası tek dosya yerel farkı; önceki rehber hashleri güncel değildir. Tam yayın manifesti değil.",
+  "files": [
+    {
+      "path": "nasil-okunur/index.html",
+      "sha256": "a8efba1b31c341dc4ef527776dbd76997c8a2edecf96f73db60f37a5a965c066"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi, taze uzak geri dönüş ve tam güncel envanter; .htaccess korunacak."
+}

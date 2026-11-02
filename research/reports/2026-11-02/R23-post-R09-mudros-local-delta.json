@@ -1,0 +1,25 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "ANZAK/Mondros partisi sonrası yerel hashler; build/veri geliştirme girdileridir, otomatik yayın listesi değil. Önceki ilgili hashler güncel değildir.",
+  "files": [
+    {
+      "path": "build_pages.py",
+      "sha256": "43454478a7a4e1d5bb54b730973e6a5d9743ed52127041a8ec9b04346256944f"
+    },
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "6003071fc3fde1b81c58ba7017a8414a39150fea41d401be105602a64b4915b9"
+    },
+    {
+      "path": "olaylar/anzak-sevk-emri/index.html",
+      "sha256": "cd45c4779e4d8bf90182905643bf78a0682ccc97c9bba0689f70cfeac593b52d"
+    },
+    {
+      "path": "olaylar/mondrosta-cikarma-hazirligi/index.html",
+      "sha256": "398a431fbca74ad12201318f656816c8646c2061ecef6975f9b78356d16c2a6e"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi, taze uzak geri dönüş ve tam güncel envanter; .htaccess korunacak."
+}

@@ -1,0 +1,37 @@
+{
+  "updated": "2026-11-01",
+  "purpose": "Same-chat cache of unchanged planning documents; not historical evidence or task completion. Re-read a document when its SHA256 changes. Fresh sessions read initial documents.",
+  "documents": [
+    {
+      "path": "research/reports/2026-10-25/ATLAS-DURUM-VE-YOL-HARITASI.md",
+      "sha256": "9a337de513adb43d2612dab8ebddca2fa33806a0f52f31b8a16b51345de5558a"
+    },
+    {
+      "path": "research/reports/2026-10-25/roadmap.json",
+      "sha256": "b55fc18c28a3c90db2e146359b2fed4812ccae17b0d97bc5fb1b5ed2e62e6505"
+    },
+    {
+      "path": "research/reports/2026-10-25/ILK-SURUM-BITIS-LISTESI.md",
+      "sha256": "c96d49d22cc208759ce1eee86284744b00d17a06f43471842cc606c07cf043bc"
+    },
+    {
+      "path": "research/reports/2026-10-28/UX-SEO-UYGULAMA-PLANI.md",
+      "sha256": "be600d14ec1f0e3f8c054ffea494d1574d72cda3b1409caa08e578e57a9755b9"
+    }
+  ],
+  "scope": "Existing88pages;HTML/CSS/JS/Leaflet;catalogue10columns unchanged.",
+  "queue": "R01-R24: priorityP0>P1>P2>P3,thenIDanddependencies. R01 historical10failures solved; reopen only on new failure. Currenttask/nextstep comes from DEVAM.md tail.",
+  "gates": [
+    "critical numbers scoped or evidenced",
+    "causal event narratives",
+    "18March stage/time distinctions",
+    "approximate map/wreck geometry",
+    "claim-to-passage source access",
+    "side/commander/health/food scope",
+    "image provenance/rights",
+    "navigation/accessibility/performance/publication checks"
+  ],
+  "uxOrder": "R03-R17 reliability and clear narrative;R18-R20 findability/context;R19mobile/focus;R20existingnavy-serifidentity;R21-R23measuredperformance/SEO. Does not override queue dependencies.",
+  "rules": "Do not restart accepted cards or blockedURLs. Package completion requires full stated acceptance,not a fewcards. No commit/push/deploy/scraper/externalmessages/newautomation without applicable explicitauthorization;archive neverGitHub.",
+  "tests": "AGENTS mandatoryJS3files+Python3modules; relevantcode/HTML/dataparties alsoallJS. Record actualcounts/scope,not historical totals."
+}

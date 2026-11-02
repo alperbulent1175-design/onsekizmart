@@ -1,0 +1,21 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Gascon anlatısı ve Mondros son hedef üretimi sonrası yerel hashler; önceki ilgili hashler güncel değil. Veri geliştirme girdisidir, otomatik yayın listesi değil.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "0252f18e7bb30425a075355ef8101de79b0eea7eed4d317a45a8cca52475cd7d"
+    },
+    {
+      "path": "olaylar/mondrosta-cikarma-hazirligi/index.html",
+      "sha256": "481c270ced66ea1cf8ba372fe8e9613b73218cea00255040ba33380d510ba463"
+    },
+    {
+      "path": "olaylar/yaralilar-misira-ulasiyor/index.html",
+      "sha256": "836780f2861525cec8ae2fac0ed26be105137bca3dd71a0851422e698196869a"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi, tam güncel envanter/taze uzak geri dönüş; .htaccess korunacak."
+}

@@ -1,0 +1,33 @@
+{
+  "task": "R10",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "sourceUrl": "https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_88.pdf",
+  "publicationDate": "1989-08",
+  "eventAndDocumentDates": "Belge2133altında25Nisan1915;2134altında25/26Nisan1915",
+  "accessDate": "2026-11-02",
+  "readScope": "Yerelpage-023.pngBelge2133Latinaktarım,s30;review-024.pngBelge2134Latinaktarım,s33madde1. Tümdergi/özgünOsmanlıca bağımsızokunmadı.",
+  "imagesViewed": [
+    "tmp/pdfs/atbd-1989/page-023.png",
+    "tmp/pdfs/atbd-1989/review-024.png"
+  ],
+  "evidenceParaphrase": "2133Zığındere/Seddülbahir/Domuzdereçıkarmalarınakarşıtaarruz vehenüzsonuçhaberiyok;2134madde1Zığındere/Tekeburnu/Hisarlıkçıkarmakuvvetlerini gecetaarruzuyla uzaklaştırmaemri.",
+  "verification": "yayinlanmis_latin_aktarim_goruntuden_okundu_ozgun_osmanlica_acik",
+  "limits": [
+    "2133gövdede25Mart/altkayıtta25Nisanbaskıfarkı çözülmedi.",
+    "Sonuçraporu olmadığıyazılanbelge başarıkanıtısayılmadı.",
+    "2134madde1kısaeksiltilicümle emirhedefiolarakparafrazedildi;icraraporu yapılmadı.",
+    "Kuvvetvegemitahminleri/saatler/Arıburnumadde2başarıbildirimleri Seddülbahire taşınmadı."
+  ],
+  "siteFiles": [
+    "olaylar/seddulbahir-cikarmasi/index.html"
+  ],
+  "acceptance": "Mevcut İngilizkurumözetiyanınaOsmanlıhaberbelirsizliği/komutahedefi ve ayrıFransızgeçişikapsamı görünür;R10genelpaket açık.",
+  "tests": {
+    "allJavaScriptPassed": 297,
+    "mandatoryPythonPassed": 19,
+    "failed": 0,
+    "log": "research/reports/2026-11-02/R10-helles-balanced-tests.txt",
+    "ui": "Yeni bölümler masaüstü1280×720/mobil320×800görünür;1265/1265ve305/305px. YeniKumkalebağlamlinkiEnteriledoğruURL/başlığaulaştı. Boyutsıfırlandı. Harita/süzgeçdeğişmedi."
+  }
+}

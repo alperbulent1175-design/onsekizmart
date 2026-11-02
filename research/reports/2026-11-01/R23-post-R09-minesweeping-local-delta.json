@@ -1,0 +1,21 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "R09 anlatı partisi yerel değişiklikleri; build/veri dosyaları geliştirme girdisidir, otomatik yayın listesi değildir. Önceki ilgili hashler güncel değil.",
+  "files": [
+    {
+      "path": "build_pages.py",
+      "sha256": "d3abb5ae02bac9a34178f42a5b4106457f28e107a005cc28354af392749cb738"
+    },
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "c8c346102c8b2ba85825f99ff14dc8ad31cf0b20902e24e6b4aabeed914ff1ca"
+    },
+    {
+      "path": "olaylar/mayin-tarama-girisimleri/index.html",
+      "sha256": "58b1f66843aab3e204e98b5aee630696144d3d205bd1ad83537808b56f9361eb"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi; tam güncel envanter/taze uzak geri dönüş; .htaccess korunacak."
+}

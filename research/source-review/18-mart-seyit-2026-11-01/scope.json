@@ -1,0 +1,56 @@
+{
+  "task": "R04",
+  "status": "devam ediyor",
+  "url": "https://www.havran.bel.tr/seyit-onbasi/canakkale-kahramani-koca-seyit/",
+  "event_context": "1915-03-18",
+  "web_publication_date": null,
+  "attributed_interview_year": 1936,
+  "attributed_interview_year_verification": "Yalnız belediye atfı; gazetenin sayı/gün/sayfası görülmedi.",
+  "access_date": "2026-11-01",
+  "evidence": "Topun mataforası (vinci) kırılmış",
+  "scope": "Yetkin mülakatı diye verilen vinç/taşıma paragrafları ile Yedikıta 79 olarak tanıtılan aile röportajı okundu. Asıl gazete/dergi ve 1915 ceridesi görülmedi.",
+  "verification": "kurum_web_hatira_aktarimi_okundu_asli_acik",
+  "open": [
+    "Kesin saat ve işlem sırası",
+    "Niğdeli Ali ile aynı anda yükleme işlemi",
+    "Vinçlerin enkaz altında olduğu ayrıntısı",
+    "Ocean isabetinin bu topa aidiyeti"
+  ],
+  "not_promoted": [
+    "Mermi ağırlığı",
+    "Atış adedi",
+    "Tek hareketten bütün muharebenin sonucuna genelleme"
+  ],
+  "legacy_key": "15:15/915",
+  "sourceTime_added": false,
+  "new_image_published": false,
+  "tests_log": "research/reports/2026-11-01/R04-seyit-tests.txt",
+  "tests": {
+    "final_log": "research/reports/2026-11-01/R04-seyit-link-audit-tests.txt",
+    "javascript_passed": 297,
+    "mandatory_python_passed": 19,
+    "failed": 0
+  },
+  "browser_acceptance": {
+    "surface": "IAB sekme 2",
+    "desktop": [
+      1280,
+      720
+    ],
+    "mobile": [
+      320,
+      800
+    ],
+    "heading_top_px": {
+      "desktop": 88.175,
+      "mobile": 168.225
+    },
+    "mobile_width": {
+      "client": 305,
+      "scroll": 305
+    },
+    "flow": "Seyit kartı, kaynak, seçili kayda dönüş; harita 4 yüklenmiş karo / 23 işaret; iki taraf süzgeci 31 kayıt.",
+    "additional_links": "Altı yeni hedefin panel başlığı ve bağlam taşıyan href değeri gerçek arayüzden tek tek okundu.",
+    "viewport_reset": true
+  }
+}

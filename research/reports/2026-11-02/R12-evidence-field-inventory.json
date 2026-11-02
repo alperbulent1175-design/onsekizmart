@@ -1,0 +1,389 @@
+{
+  "task": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "chronologyRecords": [
+    {
+      "id": "e-mart-sessiz-1",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-mart-sessiz-2",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-mart-nisan",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-nisan-sessiz",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-nisan-mayis",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-mayis-sessiz-1",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "Avustralya 15. Taburunun el yazılı günlük taramasında 9–10 Mayıs pasajları okundu. 63 sayfanın tümü okunmadı; Osmanlı emir/raporlarıyla tam karşılaştırma yapılmadı. Saat sistemi ayrıca kalibre edilmedi.",
+      "status": "gunluk_goruntusu_ilgili_pasaj_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-mayis-sessiz-2",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-mayis-sessiz-3",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "Fotoğrafın tarih ve açıklama alanları okundu; anlaşma metni değildir.",
+      "status": "fotograf_katalog_aciklamasi_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-mayis-haziran",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-haziran-sessiz",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-temmuz-sessiz",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-temmuz-agustos",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-agustos-sessiz",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-sonbahar",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-kitchener-tahliye",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-kasim-firtina",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-aralik-onay",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    },
+    {
+      "id": "e-aralik-ocak",
+      "existingFields": [
+        "accessDate",
+        "eventDate",
+        "evidenceText",
+        "label",
+        "passage",
+        "publicationDate",
+        "scope",
+        "status",
+        "url"
+      ],
+      "hasPassageLocator": true,
+      "publicationDate": null,
+      "hasStructuredFullBibliography": false,
+      "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "claimBoundary": "Bu kayıt yalnız evidenceText kısa özetini destekler; narrativeSections ek iddiaları kendi kaynak notlarına dayanır."
+    }
+  ],
+  "summary": {
+    "records": 18,
+    "matchingNoteCopies": 18,
+    "unverifiedPublicationDates": 18,
+    "structuredFullBibliographiesMissing": 18,
+    "passageLocatorsPresent": 18,
+    "sourceTimeRecordsParsed": 9,
+    "sourceTimeFieldUnion": [
+      "accessDate",
+      "documentDate",
+      "eventDate",
+      "evidenceText",
+      "kind",
+      "limit",
+      "status",
+      "time",
+      "timeSystem",
+      "url"
+    ]
+  },
+  "interpretation": "Web kaynaklarının tarihli başlığı veya nesne numarası geçerli konumlayıcıdır; her kaynağa uydurma basılı sayfa atanmaz. publicationDate null, olay tarihiyle doldurulmaz. Structured bibliography yokluğu mevcut label/URL ve anlatı içi künye yok demek değildir; ayrı katman kapsamı açık.",
+  "nextStep": "js/model.js hasVerifiedEvidence içindeki tek date alanının olay/yayın/erişim ayrımı ve mevcut kanıt fixture kapsamını incele; doğrulandı koşullarının açık tarih anlamını mevcut şemayı bozmadan belgeleyip uygula."
+}

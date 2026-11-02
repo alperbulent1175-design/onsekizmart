@@ -1,0 +1,1143 @@
+[
+  {
+    "page": "cephede-beslenme/index.html",
+    "tag": "p",
+    "text_sha256": "384995fe7f5b73825ec0e36c77594a7f56813a3495afb0f6eb3a861162944cd3",
+    "review_status": "false_positive",
+    "review_note": "Metin sayısal mevcut/zayiat iddiası değil; dilsel bir ifadesi, kimlik uyarısı veya tarih/kişi kaydı. Tarihsel doğrulama yapılmadı."
+  },
+  {
+    "page": "cephede-beslenme/index.html",
+    "tag": "p",
+    "text_sha256": "ea90ff91d22f6fc9992897d143706955c9a4045e1c41d9956137be38f9856daa",
+    "review_status": "context_checked",
+    "review_note": "Görünür paragraf okundu: sayı kaynak aktarımı veya doğrulanmamış eski değer olarak kapsamıyla belirtiliyor. Bu inceleme kaynağı yeniden okuma ve iddiayı doğrulama değildir."
+  },
+  {
+    "page": "cephede-beslenme/index.html",
+    "tag": "h3",
+    "text_sha256": "ba8f3ddd7c3e7fb958ae71f5a2469b259e567d6a7c15b1bf64525cdace5b00d7",
+    "review_status": "false_positive",
+    "review_note": "Metin sayısal mevcut/zayiat iddiası değil; dilsel bir ifadesi, kimlik uyarısı veya tarih/kişi kaydı. Tarihsel doğrulama yapılmadı."
+  },
+  {
+    "page": "komutanlar/rafet-bey-bele/index.html",
+    "tag": "p",
+    "text_sha256": "1162bc5221d1237a98a0bab0acef96e22752ab5db6c660d61e1ab1471a6e7148",
+    "review_status": "false_positive",
+    "review_note": "Metin sayısal mevcut/zayiat iddiası değil; dilsel bir ifadesi, kimlik uyarısı veya tarih/kişi kaydı. Tarihsel doğrulama yapılmadı."
+  },
+  {
+    "page": "komutanlar/william-bridges/index.html",
+    "tag": "p",
+    "text_sha256": "8efa18a3b18d7a2d07908fe1e577aba9cfab6123de15b17e2310ba55c3f41a08",
+    "review_status": "false_positive",
+    "review_note": "Metin sayısal mevcut/zayiat iddiası değil; dilsel bir ifadesi, kimlik uyarısı veya tarih/kişi kaydı. Tarihsel doğrulama yapılmadı."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "836a9a6c87f7fe35e34d0cd74b8e072dc3d097f65920f980a7a170b49dc00906",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "bc9abee56cf884a71bd778744e5a71c8e56f5c743f852ca19e8021ac2483394c",
+    "review_status": "context_checked",
+    "review_note": "Görünür paragraf okundu: sayı kaynak aktarımı veya doğrulanmamış eski değer olarak kapsamıyla belirtiliyor. Bu inceleme kaynağı yeniden okuma ve iddiayı doğrulama değildir."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "f2cfb19b00b28418a2a9840ed572e3644052fb70f23468b79ddefdf74f6bbf02",
+    "review_status": "context_checked",
+    "review_note": "Görünür paragraf okundu: sayı kaynak aktarımı veya doğrulanmamış eski değer olarak kapsamıyla belirtiliyor. Bu inceleme kaynağı yeniden okuma ve iddiayı doğrulama değildir."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "li",
+    "text_sha256": "7b49727ca2bd7a815bb6b3a23cab84042eed0879243ec1ecb483f32b2cf7bcb7",
+    "review_status": "context_checked",
+    "review_note": "Görünür paragraf okundu: sayı kaynak aktarımı veya doğrulanmamış eski değer olarak kapsamıyla belirtiliyor. Bu inceleme kaynağı yeniden okuma ve iddiayı doğrulama değildir."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "17298077191776bf47a254dd83abbefbad491611d16fb9ce58e348faa1034977",
+    "review_status": "context_checked",
+    "review_note": "Görünür paragraf okundu: sayı kaynak aktarımı veya doğrulanmamış eski değer olarak kapsamıyla belirtiliyor. Bu inceleme kaynağı yeniden okuma ve iddiayı doğrulama değildir."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "829e11e8c1e52773e13ac06633314aeb324e9d87f37365d0eaf0cb110cb15cbc",
+    "review_status": "context_checked",
+    "review_note": "Görünür paragraf okundu: sayı kaynak aktarımı veya doğrulanmamış eski değer olarak kapsamıyla belirtiliyor. Bu inceleme kaynağı yeniden okuma ve iddiayı doğrulama değildir."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "326122b325440e9404db06d28c059b1e6f223a0af6dd4e656ad3cf24dea58f31",
+    "review_status": "context_checked",
+    "review_note": "Görünür paragraf okundu: sayı kaynak aktarımı veya doğrulanmamış eski değer olarak kapsamıyla belirtiliyor. Bu inceleme kaynağı yeniden okuma ve iddiayı doğrulama değildir."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "687e344c7331a574a038108c87e8e31f78d00ce738f78ded65bbbfd77f0675b7",
+    "review_status": "context_checked",
+    "review_note": "Görünür paragraf okundu: sayı kaynak aktarımı veya doğrulanmamış eski değer olarak kapsamıyla belirtiliyor. Bu inceleme kaynağı yeniden okuma ve iddiayı doğrulama değildir."
+  },
+  {
+    "page": "olaylar/anafartalar-suvla-cikarmasi/index.html",
+    "tag": "dd",
+    "text_sha256": "996398c7042e461b283eb111ee85784b4591a49be0f5f8567e73b4290e4574c7",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/anafartalar-suvla-cikarmasi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/anafartalar-tahliyesi/index.html",
+    "tag": "dd",
+    "text_sha256": "45c72eaad6badc30b1231dc754e74187a533b1aae237579f6186a7aa116145f9",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/ariburnu-cikarmasi/index.html",
+    "tag": "dd",
+    "text_sha256": "f0f5624006285f052ccde0733eacfdb44cfe04776348e580468a683303abd982",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/ariburnu-cikarmasi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+    "tag": "dd",
+    "text_sha256": "14ea682b53e30d9c7047cf090dfce92b9539f70e486a570db16990ac0f049886",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/ariburnu-genel-taarruzu/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/ariburnu-gomme-ateskesi/index.html",
+    "tag": "dd",
+    "text_sha256": "02e703d7e9f15b943b4e2e4a12a43f97c860a9c4b129bf8318a494e0d7b705f1",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/ariburnu-gomme-ateskesi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/ariburnu-tahliyesi/index.html",
+    "tag": "dd",
+    "text_sha256": "45c72eaad6badc30b1231dc754e74187a533b1aae237579f6186a7aa116145f9",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/barbaros-hayreddin-batar/index.html",
+    "tag": "dd",
+    "text_sha256": "89a568bf41c8cd4c2911c3727b188a68605ce52fef04f7ca7ec0eedff6820c9e",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/barbaros-hayreddin-batar/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/birinci-anafartalar-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "7cf1f731fb0f63e6d1038df95ef52864780cf54e0d36a165c2d4cdacacd55ce4",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/birinci-anafartalar-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/birinci-kirte-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "14ddeb94b0e84af1f7ac59ddf9eeeacbc2cf457e18d9cc9c6a1aa571d430d579",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/birinci-kirte-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/conkbayiri-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "87ec49f25aa04368e86ca424da033952fa6a3bf36b0e9fcee5fbe6c9870717d8",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/conkbayiri-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/dis-tabyalarin-bombardimani/index.html",
+    "tag": "dd",
+    "text_sha256": "b12a58eb896a796c35a6a08a196da0e724aac172bc9003844b9b1ba888cfef87",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/dis-tabyalarin-bombardimani/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/e15-bogazda-karaya-oturur/index.html",
+    "tag": "dd",
+    "text_sha256": "6765f1f39cd80491b76c5b035a6269149e3033f5f4d5d6d48f79968326856953",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/e15-bogazda-karaya-oturur/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/giris-tabyalari-ve-kisa-cikarmalar/index.html",
+    "tag": "dd",
+    "text_sha256": "53621a6ec868ee2b08db8e59fe41ce67fd91237ed871ab591ef785881212ea6b",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/giris-tabyalari-ve-kisa-cikarmalar/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/goliath-batar/index.html",
+    "tag": "dd",
+    "text_sha256": "59ceb0ff937a7dd9db1b07989d6162a44b0a55be5e1b64145192b7ae83fe6c5b",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/goliath-batar/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/ikinci-anafartalar-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "d38eb71d6f4cea691dbf5491d88c0894cd4054268066d3130d468037c0b39df2",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/ikinci-anafartalar-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/ikinci-kirte-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "b2b0337c2725fd54ac74cf4d6cdea0bd81e5bb5d5e205a7df21a480e14391507",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/ikinci-kirte-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/kanlisirt-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "f201e92ef1b071cdb690c5d8a91a136f80e65f7b2e72ba8d040b44e7d7f35f93",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/kanlisirt-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/kerevizdere-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "aa9e4b584edae9691575ef71a876e7da3ef4cc242659db321c69103e0c2359f4",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/kerevizdere-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/kumkale-oyalama-cikarmasi/index.html",
+    "tag": "dd",
+    "text_sha256": "f0f5624006285f052ccde0733eacfdb44cfe04776348e580468a683303abd982",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/kumkale-oyalama-cikarmasi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/majestic-batar/index.html",
+    "tag": "dd",
+    "text_sha256": "7df512b1fa7ee28920904206a2e31d6ec361399df97d26560084a13bbeddca8e",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+    "tag": "dd",
+    "text_sha256": "0c93a0b1739b101195e4e644a0b6acf8c0390b3ebc537fc420cd0f0dfbfeab97",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/saros-gosterisi/index.html",
+    "tag": "dd",
+    "text_sha256": "f0f5624006285f052ccde0733eacfdb44cfe04776348e580468a683303abd982",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/saros-gosterisi/index.html",
+    "tag": "dd",
+    "text_sha256": "8083013f6d4a731dfee6c65af639a9aec54e8c69ae8910c4574d4e230129360b",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/seddulbahir-cikarmasi/index.html",
+    "tag": "dd",
+    "text_sha256": "f0f5624006285f052ccde0733eacfdb44cfe04776348e580468a683303abd982",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/seddulbahir-cikarmasi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/seddulbahir-tahliyesi/index.html",
+    "tag": "dd",
+    "text_sha256": "e8dd73f45600a350760dfcfd5292dcbfca4012f79cd54e7f7adfe2af40517885",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/triumph-batar/index.html",
+    "tag": "dd",
+    "text_sha256": "adc399c700c1645bc96b6dfe3bc4f430e1838abafcc9accf3af324c48d22b471",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/ucuncu-kirte-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "aaa6083ebce03c63fae2451b5ec3f85ed7594e5e31d5777924ad1b649434d773",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/ucuncu-kirte-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "olaylar/zigindere-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "6f59d7140c351287a8312e5d130e6ea97ff0d6654fde84a69b68d0515e7ec12a",
+    "review_status": "false_positive",
+    "review_note": "Tarih alanı; mevcut/personel/zayiat niceliği değildir. Tarihin tarihsel doğruluğu bu tasnifle teyit edilmedi."
+  },
+  {
+    "page": "olaylar/zigindere-muharebesi/index.html",
+    "tag": "dd",
+    "text_sha256": "adeb23097d28d8074b7a704bc7a133f11944c56e932a6f35755648a9998241c6",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "p",
+    "text_sha256": "90c2ccf386d10526fd5019537d6c7f85dfc68888571a24da376e84cfcb6fedb0",
+    "review_status": "false_positive",
+    "review_note": "Metin sayısal mevcut/zayiat iddiası değil; dilsel bir ifadesi, kimlik uyarısı veya tarih/kişi kaydı. Tarihsel doğrulama yapılmadı."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "c4b553bdd1f3fd42974d89cb80a7e4ae2ab50d12d6d85f244011d66d417a5a49",
+    "review_status": "false_positive",
+    "review_note": "Metin sayısal mevcut/zayiat iddiası değil; dilsel bir ifadesi, kimlik uyarısı veya tarih/kişi kaydı. Tarihsel doğrulama yapılmadı."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "fb6779c24886d6b7d144f2123f8dab5b08339bff75d54415cc1466f33640a1a2",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "3f096c78cdc2d0456cadff65169a934a2d81a9e7897fdc12163f6669ae5a8587",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "347ed6cd093061383a26009d349fb5eed893e0dd5d2f2a2d8a01a28ab06cf24f",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "p",
+    "text_sha256": "d4a2b3f23a21a5eeffb0132a87d79ea148ba3e2b178c68ebffe2eab52b90ca29",
+    "review_status": "false_positive",
+    "review_note": "Metin sayısal mevcut/zayiat iddiası değil; dilsel bir ifadesi, kimlik uyarısı veya tarih/kişi kaydı. Tarihsel doğrulama yapılmadı."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "0aa1c39d13fcd1f639a8890f9d1b4cb3d2826a213bfde87aaff5c66143878e6a",
+    "review_status": "false_positive",
+    "review_note": "Metin sayısal mevcut/zayiat iddiası değil; dilsel bir ifadesi, kimlik uyarısı veya tarih/kişi kaydı. Tarihsel doğrulama yapılmadı."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "1d1f62728d122133f53fb94ab2efbfb51837465566b87b6fc423c59c1a6dad3f",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "70823742146c4582f47be8027a14fa928bbfb480e481bc6a21492c32d77ad021",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "2a1b23f8275d0938c7dae2a25c439a207cd4bcd0529e2288c62da8080a8d3506",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "902fe2e7093023e35d95ea13485e56bded3d31449c5a63b339d9a01ab36f1b4b",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "054326165e91f599ab0248ebe2b32b5cd16e7925c399fe44bf42a0257f3c1a0f",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "d22eb0453ed5b54c3dded0073f2acc11ae245dec0bc876864fe4d1f390cad308",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "d11836d15524cb3a520e0315c13efbe4351e9f7e8150c35672ce1db0258eeac9",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "2ae3b34b8eee40916fe8a8e9234367c5d6b20fd9258168945764298617a409b4",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "76b14072f22808c0759debb9c97fce75b2ae4c258179f31e1b1c53a74e5f1dd1",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "p",
+    "text_sha256": "f6f834a4afe1125a1eb9ce4f6d304e3e07058660c84b24480b1a68be131a6a2f",
+    "review_status": "false_positive",
+    "review_note": "Metin sayısal mevcut/zayiat iddiası değil; dilsel bir ifadesi, kimlik uyarısı veya tarih/kişi kaydı. Tarihsel doğrulama yapılmadı."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "ab6f39661ccfb5bcd18b58b0a3a54da081b6f6548145c769cc2c7e227feff070",
+    "review_status": "false_positive",
+    "review_note": "Metin sayısal mevcut/zayiat iddiası değil; dilsel bir ifadesi, kimlik uyarısı veya tarih/kişi kaydı. Tarihsel doğrulama yapılmadı."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "dd5791cab02e736fdd7fb206ab023decc8dd7b30f3788d5514353f821ca1a0a0",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "0fe0bd6cdd9101037635624fa7594dfd3429e977a60b4f34438fb8c0811c7377",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "2ca2bed04d7fcc1fc3151f28070e32bf950270878fe77e5374e3ccca41432178",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "b19f831f6548b16373acef1f9dccc5f3034aed14f9956032179d1bdc04f1fb93",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "5e71eba63284d3b77339aef705adce999806109e3d40160b538a10ff776a5fc2",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "sozluk/index.html",
+    "tag": "dd",
+    "text_sha256": "6e97d5c3ba399022cc2983718e8b5cf77d07478d6a38b050b6810f2ca9b6cca5",
+    "review_status": "false_positive",
+    "review_note": "Taraf/birlik adı veya sözlük bağlamı; sabit personel/zayiat miktarı iddiası değildir. İlgili tarih/terim doğrulaması ayrı kapsamdır."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "34dc9ad20291990ff56851e4aa4fb34b3f474738dd2a51814cbc625d7aec2027",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-25/R03-queen-elizabeth-calibre.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "a0902a58cb08b57b0e739417a6378718e38b69353a591e15ef591ddf36add4e7",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-lord-nelson-1906.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "3ca909002be14e54df3d853e207f88f7cb5af86da919e9cc8a55e823d8579021",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-lord-nelson-1906.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "2b892e6e888c32d8e92469f152ed28782aa0c78909cbc519c5781cc91fb2e4c9",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-irresistible-1902.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "6efb1155cb9e7422cecda8b73d438fa4e12631d111f192a0d77b7334ea14c935",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-irresistible-1902.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "128b43cb470d9fd9f4e48f774e87d69852d0a9987cd950d7786418f40188bc35",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-ocean-hurd-1914.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "152a534afdc65e830835cc9cc688f7efe623c02662f0d6a11addca6a36edf5c9",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-ocean-hurd-1914.json, research/reports/2026-10-26/R03-majestic-duncan-1914.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "63b756957ed65911e2077d4a61521995d3e2ebeca9da2c665d23c3311b1240f4",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-albion-1898.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "17a381da7f1e6c43421ef17c5e566d180304ff46f08a27c9322da26aff0b557a",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-albion-1898.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "6b45ffe580f1b41d71b2a85cec9f157342cdac2e3e96db7b6f23ecb50b0af77f",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-canopus-1897.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "410f36530e965e7fbeeef6f35c89d69c3bf30f84f4bd05cbbc4e0f4d95dceacd",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-canopus-1897.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "98f890984bec958b8726ab84c75b9011831293e5a08664baddbaf6969dd2226b",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-swiftsure-triumph.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "de58209bc629c1598068fb5c0e5900f49da872a32a666b4ca0ac9708b9a5078b",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-swiftsure-triumph.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "f0ad6d447d9124c4fd6c1e6a7b67920f6c2d44bf1485678e5b81929811770853",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-majestic-duncan-1914.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "3c294b5835e590cdb6889465a7502130c5cc6709e66972da51168969cc51a37f",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-majestic-duncan-1914.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "fb3ac6e81eca6584079d3a795dc1c37a51371b72e84405eb51866990d07327db",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-26/R03-suffren-1902.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "dd",
+    "text_sha256": "5be410022af2623166eded3663db54fdae4cd87eaa53caf2299480456a89f093",
+    "review_status": "context_checked",
+    "review_note": "1 Kasım2026 yerel tammetin kapsam eşleştirmesi. Dönem/sınıf/bölüm sınırı ve1915belirsizliği mevcut kartta korunur; yeni tarihsel doğrulama değildir. Önceki kaynak kayıtları: research/reports/2026-10-25/R03-bouvet-armour.json"
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "fc5cc9df44984123ec0a1e1530174b89c49d7158884cc36cf2bc95e56ddf3aff",
+    "review_status": "context_checked",
+    "review_note": "25 Ekim R03-nusret-mine-count.json revisedText ile birebir eşleşir. AWM C1068416 katalog açıklaması; özgün imzalı rapor/fotoğrafın döşeme anı olarak okunmadığı görünür. Kaynak bağlantısı ve olay/fotoğraf/yayın/erişim ayrımı hemen sonraki p içindedir; bloktaki boş links kaynak yokluğu değildir. Yeni dış doğrulama yapılmadı."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "e953a00884ec187fa5e3f8f200c031d6b8e43fabcad3415b545d92c1019c44a0",
+    "review_status": "context_checked",
+    "review_note": "25 Ekim R03-nusret-institution-comparison.json ile kapsam uyumlu: 7/8 Mart ve 26 mayın kurumsal özet; özgün cetvel veya AWMden bağımsız birincil kanıt sayılmıyor. Olay/yayın/erişim ayrımı mevcut. Yeni dış doğrulama yok."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "d8f050bea9a92ac85e2de8068972078281f9ca5e4be6a71ccd776915e6d3973f",
+    "review_status": "context_checked",
+    "review_note": "26 Ekim R03-atbd132-nusret-discrepancy.json ve R03-nusret-thesis-comparison.json ile uyumlu. Üçüncü taraf metin aktarımı 36; 26 ile fark görünür. Tarama görüntüsü yok, neden çözülmedi ve 36 kesinleştirilmedi. İlgili çevre kaynak metni tarihlerle birlikte korunur. Bu kayıt farkı kapatmaz."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "7989b953fad5508ab0d37edbf2ed60428433b488b80b77465fa65672f5ea2e4e",
+    "review_status": "context_checked",
+    "review_note": "25 Ekim R03-nazmi-citation-chain.json ile uyumlu. Hatip basılı s171 akademik aktarımında 26 ve05.30; özgün günlük/2010s40 okunmuş sayılmıyor. Tam künye/bağlantı/tarih ve inceleme sınırı sonraki p öğelerinde mevcut. 05.30 tamamlama/dönüş saatine çevrilmedi. Yeni dış doğrulama yok."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "7a1a45f577d85af21880061d35ed5973a72fd39fc93648654e551b8310c49fa8",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-25/R03-queen-elizabeth-calibre.json. Güncel paragraf tam okundu; kapsam uyumlu: NAM katalog açıklamasındaki baş taraftaki15inç;381mm yalnız birim dönüşümü;toplam adet/zırh/atış saati çıkarılmıyor. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "c59eb3450c00b2cee3d652100417bea315b81b8317c1e8578014bf8418197592",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-26/R03-irresistible-1902.json. Güncel paragraf tam okundu; kapsam uyumlu: 1902 web teknik anlatısı dört12inç;8inç hood ve12inç redoubt ayrı parçalar;1915 fiilî cetvel değil. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "9fc299fcdadf0c6b54921eeef9fd66a778eb02241622dafea001970f7c847e4c",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-26/R03-ocean-hurd-1914.json. Güncel paragraf tam okundu; kapsam uyumlu: Hurd1914 Canopus sınıf anlatısı;Ocean sınıfta listeli;6inç kemer bütün gemi değil;1915 fiilî donatım/hasar cetveli değil. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "bff193c18c3f17dd5b5b2241614c3c78172dded1ab637a5b41e4d5585f23e7f8",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-26/R03-albion-1898.json. Güncel paragraf tam okundu; kapsam uyumlu: Tamamlanmamış geminin inşa dönemi tarifi;1915 cetveli değil. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "13bae167b1bd4d79b2169aa2a0c7d4a0076fddf95cc1e73362b48b84202bf723",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-26/R03-albion-1898.json. Güncel paragraf tam okundu; kapsam uyumlu: Kemer ve diğer koruma parçaları ayrılıyor;Engineering özgün sayfası görülmediği ve performans tahminlerinin muharebe sonucu olmadığı görünür. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "9338c11f1211bb174b2eb0b09b7515c24eadab14f78b3020ab9c1005fd0b13b2",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-26/R03-canopus-1897.json. Güncel paragraf tam okundu; kapsam uyumlu: Planlanan donatım ve6inçkemer/10–12inçkaide ayrı;diğer gemilere veya1915e otomatik aktarılmıyor. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "d6539c4a4e35e6d959d1c97ea83984e4e56e85c2080c523281760c58a647cce6",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-26/R03-suffren-1902.json. Güncel paragraf tam okundu; kapsam uyumlu: 12inçorta/8inçuç su hattı kemeri;diğer bölümler ve1915cetveli ayrı. WebNisan/atfedilen9Mayıs tarih çelişkisi önceki özelkaydıyla açık kalır. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "f86fdc6cf0ed95a1167edc6de4d7d994ffef70477f4ea67b638d6a281db237fa",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-25/R03-bouvet-armour.json. Güncel paragraf tam okundu; kapsam uyumlu: 1898 teknik değerlendirmesinin bölüm ayrımlı zırhı;eski400mm bağlamsız değerin neden kaldırıldığı açıklanıyor. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "325c2fe50a428e00546b162256a8afbb8c1e786f0f4cc1e27dd9099bff26c4c6",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-25/R03-french-artillery-inventory.json. Güncel paragraf tam okundu; kapsam uyumlu: SHDenvanteri Bouvet274,4/305Mle1893 kundak kaydı;toplam namlu/1915 donatımı kanıtı değil. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "8b9842106196f78b566e8e1f0d8212e472bc404267e1b38219ebead52aaf3def",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-25/R03-french-artillery-inventory.json. Güncel paragraf tam okundu; kapsam uyumlu: SHDortakbaşlık305Mle1893;Nisan1903/Ocak1909 belge tarihleri;donatım değişimi değil. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "70560cf99aad186675170fcc9175a32e9fad7d9671c7b27d2f034c6e814a506b",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-25/R03-french-artillery-inventory.json. Güncel paragraf tam okundu; kapsam uyumlu: Aynı ortakbaşlıkta iki belge;belge tarihi toplam silah adedi veya uygulama tarihi değil. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "5c96137d488a82c582fe6568fd2cf36d50696ada40e5393e7d4dafa27d17d660",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-26/R03-lord-nelson-1906.json. Güncel paragraf tam okundu; kapsam uyumlu: 1906 iki gemi teknik anlatısı4×12/10×9,2;12inçorta kemer bütün gemi değil;1915fiilî cetvel olarak okunmuyor. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "1476a1509defcb2639f5388ae51c5347422663b1479a0672aeda757073c853fd",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-26/R03-swiftsure-triumph.json. Güncel paragraf tam okundu; kapsam uyumlu: Hurd1914sınıf anlatısı4×10/14×7,5;zırh anlatısı/tablo farkı açık;tek bütün-gemi kalınlığı üretilmiyor. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "16e5c8ffe5d9dd023b7ce8d847b6661384d6d3272b3634a5a7308e67050b4279",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-26/R03-majestic-duncan-1914.json. Güncel paragraf tam okundu; kapsam uyumlu: Majestic sınıfı4×12/12×6;9inçorta kemer;Majestic vePrinceGeorge sınıf düzeyinde. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "21f9cc24656281bbd91d63a31d3fc0ced1a601cdc7b4d854b292f9c8e8efefb5",
+    "review_status": "context_checked",
+    "review_note": "Önceki kaynak kaydı: research/reports/2026-10-26/R03-majestic-duncan-1914.json. Güncel paragraf tam okundu; kapsam uyumlu: Duncan sınıfıCornwallis4×12/12×6;7inçkemer;borda ateşi toplam donatımdan ayrı. Yeni dış erişim yok; önceki URL/kanıt/tarih/inceleme sınırları korunur. Editoryal uzlaştırma; tarihsel iddia_dogrulandi değildir."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "5fae8ef43a6914910552eee7d2de7f544e09d41ab44af6e45d3184778b787655",
+    "review_status": "context_checked",
+    "review_note": "R03-charlemagne-range.json (25 Ekim) ile uyumlu:12.06 ilkB Hattına emir,13.25 hedef13/16;9.000metre pasajdan doğrulanmadığı açık. R03-victory-report-scope.json farklı telgraf konusudur; bu paragraf için kaynak yapılmadı. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "nasil-okunur/index.html",
+    "tag": "p",
+    "text_sha256": "3e160dd72fee4646f573815e2919257f82f15e00473aee98b6aacfacab628d87",
+    "review_status": "false_positive",
+    "review_note": "Birkaç yüz metre kesin hata payı ileri sürülmüyor; böyle bir sınırın söylenemeyeceği belirtiliyor. Bu miktar doğrulama bekleyen yeni bir koordinat hassasiyeti iddiası değildir. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "nasil-okunur/index.html",
+    "tag": "p",
+    "text_sha256": "bce9debc4874a50dec0acfed0c9a0ed5ec1307fb7613a50f4852218bbfd056c9",
+    "review_status": "context_checked",
+    "review_note": "Önceki R03-nusret-institution-comparison.json kurum pasajını mayın sayısıyla sınırlar. Güncel metin mayın geometrisinin kaynaktan doğrulanmadığını,Corbett konumlarının yaklaşık olduğunu ve1916kaydıyla1915çizgisinin doğrulanamayacağını görünür tutar. Bu kontrol yalnız mevcut kapsam uyarısının okunmasıdır; planı yeniden doğrulamaz. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "li",
+    "text_sha256": "6358a6d16c9d0552ab8b34ba7ccf823df50ee5492cd2c8d2e253b3dd957e51f5",
+    "review_status": "false_positive",
+    "review_note": "Belirli bir mayın hattı ifadesi miktar toplamı değildir. Güncel metin kesin saat,koordinat,hat ve zayiat toplamını açıkça bu künye kanıtı dışında bırakır. IWM erişimi/görüntü incelemesi bu tur yeniden yapılmadı. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "56b6f5109d65f06ae3e6a9f47f11e484b7d05ccc2988df7345a87b6ba0cc5365",
+    "review_status": "context_checked",
+    "review_note": "Güncel metin355mm değerini doğrulanmış kalibre olarak kullanmıyor; kaynağın kalibre vermediğini ve ölçünün açık olduğunu anlatıyor. Eski değerin metinde görünmesi yeni doğrulanmış sayı değildir; kaynak pasajı yeniden okunmuş sayılmadı. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "5610f72a0136e733cbb083ca190ab0be1ada214555f06a45733ffa8b12f1b20b",
+    "review_status": "context_checked",
+    "review_note": "4birlik numarası;40–50isabet açıkça kaynakta bulunmayan eski tahmin. Güncel uyarı yeni isabet toplamı atamıyor. Bu kontrol mevcut metnin kapsamını belirler; batarya ceridesi doğrulanmadı. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "661e453e50e629aac94162092f91224dc34abcfc2963dc7365639f669e02d62c",
+    "review_status": "context_checked",
+    "review_note": "80–100isabet ve hasar sıralaması güncel metinde doğrulanmayan eski iddialar olarak açıklanıyor; hasar olgusu ile toplam/sıralama ayrı. Yeni kurum pasajı incelemesi veya tarihsel doğrulama yok. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "efc21651988a3f4e17a04f29d94305ddf6f795e610d9b9a6d527af1ef961650b",
+    "review_status": "false_positive",
+    "review_note": "Yeni bir isabet ifadesi isabet adedi değildir.13.54saat karşılaştırması ve evre ayrımı var; kayıp toplamı ileri sürülmüyor. Saat incelemesi bu miktar triyağıyla kapatılmaz. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "f9400b86843bdae9ca39f9ffc583a12852db34e3dbeaeb892fdd40e40bb46d82",
+    "review_status": "false_positive",
+    "review_note": "18.05isabet eşleşmesi miktar değil saat. Günlükteki yaklaşma/bordalama/ayrılma hareketleri ayrı; filo raporuyla saat farkı görünür. Bu miktar incelemesi günlük veya saat eşleştirmesini doğrulanmış yapmaz. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "c61e32809ffea484f453e2b8d8178a43396d03deb42d1f616a09ccfb0a3c008e",
+    "review_status": "false_positive",
+    "review_note": "18.05mayın eşleşmesi miktar değil saat.18.00tahliye ile filo raporu isabet kaydı farkı açık; alınan kişi adedi verilmez. Kaynakların saatlerinin eşlendiği sonucuna gidilmiyor. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+    "tag": "p",
+    "text_sha256": "25a8fae384a1520c9c480593d579bfcb43a600debbdc0ae384c7856afa63b9d0",
+    "review_status": "context_checked",
+    "review_note": "26mayın kurum anlatılarına atfediliyor;AWMkatalog kapsamı önceki R03-nusret-mine-count.json ile korunur. Sayfanın diğer aktarım farkı notu da açık; bağımsız birincil kanıt sayımı yapılmadı. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+    "tag": "li",
+    "text_sha256": "92305a84f904ab3e5fe9bc9f99e11009fb296a68683e3c5ac9d5b3dd0aa24dbb",
+    "review_status": "context_checked",
+    "review_note": "8Mart2025yayın tarihi ile8Mart1915olayı ayrı.26mayın bir anma haberi aktarımı;özgün ceride olarak sunulmuyor. Bu yerel kontrol kaynak metnine yeni erişim değildir. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+    "tag": "p",
+    "text_sha256": "8ca0a50a77a9dd5d4784c8b6149c55d9da0dda7541dcb44500cab95101df1802",
+    "review_status": "context_checked",
+    "review_note": "26Ekim R03-nusret-thesis-comparison.json ile uyumlu:aynı tez sayfasındaki36ceride/26günlük aktarımı farkı açık;36yeni kesin toplam değil.ÖzgünATBD/günlük görüntüleri görülmüş sayılmıyor. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/yeraltindan-kazma-sesleri/index.html",
+    "tag": "p",
+    "text_sha256": "6c0feb56ba9885288df5331ca21b5f4159a698f85ceeffef57f91cb674f46b60",
+    "review_status": "context_checked",
+    "review_note": "29Ekim R03-slack-observation-scope.json ile uyumlu:17May1915tek kişi/tek mevki gözlemi. Bir kişinin ifadesi ordu toplamı değil;ilk/evrensel lağım başlangıcı,uzunluk veya patlayıcı miktarı çıkarılmıyor. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "p",
+    "text_sha256": "15032255900d9251baf9a012f5f862cb445102c60c02b1fbe0e0c880510ac6b9",
+    "review_status": "false_positive",
+    "review_note": "Belirli bir isabet ifadesi sayısal isabet toplamı değildir;fotoğrafın18Marttaki belirli isabete kanıt olmadığı açık.İki sayfa ve iç içe p/figcaption nedeniyle tekrarlanan metinler. Bu miktar kontrolü fotoğrafın künye/hak/görüntü kabulünü yeniden açmaz veya doğrulamaz. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "donanma/index.html",
+    "tag": "figcaption",
+    "text_sha256": "cef77223a250df18a436d768af942a1877a228db8e1d6d310afcd58b890655d8",
+    "review_status": "false_positive",
+    "review_note": "Belirli bir isabet ifadesi sayısal isabet toplamı değildir;fotoğrafın18Marttaki belirli isabete kanıt olmadığı açık.İki sayfa ve iç içe p/figcaption nedeniyle tekrarlanan metinler. Bu miktar kontrolü fotoğrafın künye/hak/görüntü kabulünü yeniden açmaz veya doğrulamaz. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "fotograf-arsivi/index.html",
+    "tag": "p",
+    "text_sha256": "15032255900d9251baf9a012f5f862cb445102c60c02b1fbe0e0c880510ac6b9",
+    "review_status": "false_positive",
+    "review_note": "Belirli bir isabet ifadesi sayısal isabet toplamı değildir;fotoğrafın18Marttaki belirli isabete kanıt olmadığı açık.İki sayfa ve iç içe p/figcaption nedeniyle tekrarlanan metinler. Bu miktar kontrolü fotoğrafın künye/hak/görüntü kabulünü yeniden açmaz veya doğrulamaz. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "fotograf-arsivi/index.html",
+    "tag": "figcaption",
+    "text_sha256": "558ca84d25ad871df7d78e5172881bc0d029bc6d597fbec7b2022581350a0865",
+    "review_status": "false_positive",
+    "review_note": "Belirli bir isabet ifadesi sayısal isabet toplamı değildir;fotoğrafın18Marttaki belirli isabete kanıt olmadığı açık.İki sayfa ve iç içe p/figcaption nedeniyle tekrarlanan metinler. Bu miktar kontrolü fotoğrafın künye/hak/görüntü kabulünü yeniden açmaz veya doğrulamaz. Güncel blok tam okundu. Yeni dış erişim yok; editoryal triyağ, iddia_dogrulandi değil."
+  },
+  {
+    "page": "cephede-beslenme/index.html",
+    "tag": "p",
+    "text_sha256": "856363cabdcabf1d358420ea83b81695d3799c6c4fb4d691a8b2be1f119fbbf1",
+    "review_status": "context_checked",
+    "review_note": "research/source-review/saglik-2026-10-24/DEVINE-CIKARMA-HAZIRLIGI.md veDEVINE-OZGUN-12-MAYIS.md:PDF28sağ24Nisan üçgünlük erzak verilmesi,PDF38sol12Mayıs sıcak yemek ayrı. Güncel okuyucu paragrafına her iki sayfaya doğrudan bağlantı eklendi;fiilîüçgünbeslenme sonucu yok. Güncel paragraf tam okundu; yeni dış erişim/tarihsel doğrulama yok."
+  },
+  {
+    "page": "cephede-beslenme/index.html",
+    "tag": "p",
+    "text_sha256": "b8590bcef9cd6ba05739527636f7bb6b68392b16e73bc199726dec261288372f",
+    "review_status": "context_checked",
+    "review_note": "AynıDeVineözelkayıtlarıyla uyumlu:erzakverilmesi tüketim cetveli değil;mutfak/kayıpçanta kurum aktarımı;tam elyazısı ve bütün günlük okunmuş sayılmıyor;tekkişi orduya genellenmiyor. Güncel paragraf tam okundu; yeni dış erişim/tarihsel doğrulama yok."
+  },
+  {
+    "page": "gizlilik/index.html",
+    "tag": "p",
+    "text_sha256": "226c7da8c86a0c830bedb2e8d79d64a8e5ebbc7ceb5308230e0caf2801504af6",
+    "review_status": "false_positive",
+    "review_note": "30dakika tarihsel süre değil yazılım saklama süresi;js/app.js569kontrolü30*60*1000. Genel miktar incelemesinde tarihsel iddia diye araştırılmaz. Güncel paragraf tam okundu; yeni dış erişim/tarihsel doğrulama yok."
+  },
+  {
+    "page": "hakkinda/index.html",
+    "tag": "p",
+    "text_sha256": "225968d0470e385d7da0c8568209c3594ed6191a163d2767b697e089cf5f780b",
+    "review_status": "false_positive",
+    "review_note": "Bir gün belirsiz genel ifade;ölçülmüş tarihsel süre yok. Güncel paragraf tam okundu; yeni dış erişim/tarihsel doğrulama yok."
+  },
+  {
+    "page": "index.html",
+    "tag": "p",
+    "text_sha256": "eb669c3a58379f46dcba0dc8f9ecb06e964526a2b1be5eb32a02805761b80b91",
+    "review_status": "false_positive",
+    "review_note": "Bir gün genel arayüz/kapsam ifadesi;tarihsel süre yok. Güncel paragraf tam okundu; yeni dış erişim/tarihsel doğrulama yok."
+  },
+  {
+    "page": "komutanlar/johannes-merten/index.html",
+    "tag": "p",
+    "text_sha256": "e12b37d33aed73b43e457a44f62729a723f800802704108d56bfcdcdf9e771ed",
+    "review_status": "false_positive",
+    "review_note": "Belirli bir gün ifadesi süre değil;görev günlerinin belirsizliğini görünür tutuyor. Güncel paragraf tam okundu; yeni dış erişim/tarihsel doğrulama yok."
+  },
+  {
+    "page": "komutanlar/john-de-robeck/index.html",
+    "tag": "p",
+    "text_sha256": "b90bf148779a2f04628ccfbc355d0837a42957b091ca2b0af5bb288897ce84f5",
+    "review_status": "false_positive",
+    "review_note": "Tek bir yıl ifadesi süre değil;1862/1863doğum yılı farkı açık veçözülmemiş. Biyografik doğrulama bu triyağla yükseltilmiyor. Güncel paragraf tam okundu; yeni dış erişim/tarihsel doğrulama yok."
+  },
+  {
+    "page": "komutanlar/liman-von-sanders/index.html",
+    "tag": "dd",
+    "text_sha256": "7b1e00940156d52a13a28b2b0ea881f06f08cc0f7fa8c244722c40f406a54410",
+    "review_status": "false_positive",
+    "review_note": "17/18günfarkı doğumun ay içindeki günü konusudur;18günlük süre iddiası değil. Fark açık kalır. Güncel paragraf tam okundu; yeni dış erişim/tarihsel doğrulama yok."
+  },
+  {
+    "page": "nasil-okunur/index.html",
+    "tag": "li",
+    "text_sha256": "bf04569c3ce070a3ffe2f975b4f79afe794be8dbeaae1779add0ea18764b1ace",
+    "review_status": "false_positive",
+    "review_note": "30dakika haritaya dönüş yazılım süresi;js/app.js569ile uyumlu,tarihsel süre değil. Güncel paragraf tam okundu; yeni dış erişim/tarihsel doğrulama yok."
+  },
+  {
+    "page": "nasil-okunur/index.html",
+    "tag": "li",
+    "text_sha256": "f35272ee58718f18cbc2440c2796abb2d3db047a2ce89e257bc3934acdf809ca",
+    "review_status": "false_positive",
+    "review_note": "24saat gösterimi saat biçimi;24saatlik harekât süresi değil.18.29gemihareketi filonunsonatışı yapılmıyor. Güncel paragraf tam okundu; yeni dış erişim/tarihsel doğrulama yok."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "li",
+    "text_sha256": "4ddee6e5a562cd2e522de3508cd7bbdb80f8aec4df934ecb3c94364a92c11537",
+    "review_status": "context_checked",
+    "review_note": "research/source-review/18-mart-gelen-arastirma-2026-10-19/bouvet-karsilastirmasi.json awm-daktilo-45:ilkpatlamadanitibaren iki dakika içinde;66raporun kurtarma bildirimi,nihai personel cetveli değil.13.54patlama kaydı;13.58/100–110saniye verilmediği açık. Kurumkopyası/imzalıasıl ayrımı korunur. Güncel blok tam okundu; bu tur yeni dış erişim/özgün görüntü incelemesi yok. Editoryal kapsam, tarihsel iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "d675d4933b54c94d07539967c141449c4670121d3fc939e164e9ba128b9155b8",
+    "review_status": "context_checked",
+    "review_note": "research/source-review/deniz-kaynak-2026-10-20/gazette-rapor-incelemesi.json ve18-mart-rapor-saat-sistemi-2026-10-19.json ileuyumlu:saatGMTden2ileri,modernTürkiye saati değil. Bu bir harekât süresi değil saat sistemidir. Güncel blok tam okundu; bu tur yeni dış erişim/özgün görüntü incelemesi yok. Editoryal kapsam, tarihsel iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "d761adc462a9a2f3db146351a568e563c88a05203a3fcd9fb919c9a459ad60a2",
+    "review_status": "context_checked",
+    "review_note": "research/source-review/18-mart-gelen-arastirma-2026-10-19/iddia-karsilastirmasi.json inflexible-demirleme:Corbetts222isabetten birbuçuksaat göreli anlatım;doğrudan17.30damgası değil.Günlükboşalanlarıyla kesinleştirilmiyor. Güncel blok tam okundu; bu tur yeni dış erişim/özgün görüntü incelemesi yok. Editoryal kapsam, tarihsel iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "e5c5dda8073b061d5322ee5970046f000278cbe236b2d802581477eac0944e17",
+    "review_status": "context_checked",
+    "review_note": "18-mart-rapor-saat-sistemi-2026-10-19.json:26Martüstyazı/24Martraporsonu veGMTden2saatileri açıklaması ayrı;diğerbelgelere otomatik uygulanmıyor. Güncel blok tam okundu; bu tur yeni dış erişim/özgün görüntü incelemesi yok. Editoryal kapsam, tarihsel iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "0ca5fdf3be9489a823eb5e81d33ff801ffe788850ad6640bf984e319232a3dbc",
+    "review_status": "false_positive",
+    "review_note": "30saatleri eşleşmesi11.30saat damgasının parçası;30saatlik süre yok.Eski11.00/11.30doğrulanmış sayılmıyor. Güncel blok tam okundu; bu tur yeni dış erişim/özgün görüntü incelemesi yok. Editoryal kapsam, tarihsel iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "d87512dab2d5292b627de3f08ec8d924a858dd4c44544b41b450c064d469c1c9",
+    "review_status": "false_positive",
+    "review_note": "24saat gösterimi biçim dönüşümü;24saatlik ateş/harekât süresi değil.Gemiye özgü18.29filonun sonateşi olarakgenellenmiyor. Güncel blok tam okundu; bu tur yeni dış erişim/özgün görüntü incelemesi yok. Editoryal kapsam, tarihsel iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "2aa6e4503c6babe891b8db08038726877f21b1a628098e0f892a0bf308ca111c",
+    "review_status": "false_positive",
+    "review_note": "24saat gösterimi biçim dönüşümü;PM/GMTayrımıvepersonelgruplarınıtoplamama uyarısı korunuyor. Güncel blok tam okundu; bu tur yeni dış erişim/özgün görüntü incelemesi yok. Editoryal kapsam, tarihsel iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "e4693ed1d4b253e6a18a5a8eae1ecf4f1eca5bc4466eec7cdb9b9c8732cf0cae",
+    "review_status": "false_positive",
+    "review_note": "24saat gösterimi biçim dönüşümü;raporGMT+2günlüğe uygulanmıyor;yenisaat/koordinat yok. Güncel blok tam okundu; bu tur yeni dış erişim/özgün görüntü incelemesi yok. Editoryal kapsam, tarihsel iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/ikinci-anafartalar-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "bac0cb177ea27478cd10f6fc4b6e3589d87e1b8baa0c8f05b53ef8f4d624663b",
+    "review_status": "false_positive",
+    "review_note": "Tekbirgün ifadesi tarihsel sayısal süre değil.21Ağustos/Hill60devamaşamaları ayrıldığı için yenibirtek-gün iddiası yok. Güncel blok tam okundu; bu tur yeni dış erişim/özgün görüntü incelemesi yok. Editoryal kapsam, tarihsel iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/ikinci-kirte-muharebesi/index.html",
+    "tag": "li",
+    "text_sha256": "37ace468718f478ea99824c9d54cb50acd77de83ef759a6fea940f6db895dfe0",
+    "review_status": "context_checked",
+    "review_note": "research/source-review/ikinci-kirte-okuma-2026-10-18.json:6–8Mayıstarih aralığı ve8Mayıskatılımı ayrılmış.Üçgünlük başlık takvim aralığını özetler;72saat kesintisiztaarruz veya herbirliğin3günkatılımı diyeokunmaz. Güncel blok tam okundu; bu tur yeni dış erişim/özgün görüntü incelemesi yok. Editoryal kapsam, tarihsel iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/ikinci-kirte-muharebesi/index.html",
+    "tag": "h2",
+    "text_sha256": "37ace468718f478ea99824c9d54cb50acd77de83ef759a6fea940f6db895dfe0",
+    "review_status": "context_checked",
+    "review_note": "Aynı sayfadaki içindekiler bağlantısıyla yinelenen başlık;ikinci-kirte-okuma-2026-10-18.json kapsamı6–8Mayıs takvimaralığı,72saatkesintisiztaarruz değil. Güncel blok tam okundu; bu tur yeni dış erişim/özgün görüntü incelemesi yok. Editoryal kapsam, tarihsel iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/nusret-erenkoy-hattini-doker/index.html",
+    "tag": "p",
+    "text_sha256": "626f338a2f35f021987acf51f28b4f11589f0c9b164dd692c3e055e47a18f0df",
+    "review_status": "false_positive",
+    "review_note": "579günlük eşleşmesi dipnot579ile günlükeseri arasındaki metindir;579günlük süre yok.26/36farkı veözgün görüntü sınırları korunur. Güncel blok tam okundu; bu tur yeni dış erişim/özgün görüntü incelemesi yok. Editoryal kapsam, tarihsel iddia_dogrulandi değil."
+  },
+  {
+    "page": "olaylar/ucuncu-kirte-muharebesi/index.html",
+    "tag": "p",
+    "text_sha256": "1138244bf6bc032e54810623787c1c339105d7ab4d7c7667b603a158b6c5026e",
+    "review_status": "context_checked",
+    "review_note": "research/source-review/ucuncu-kirte-okuma-2026-10-18.json AWM E84365 over the next two days pasajıylauyumlu.4Haziranveizleyen karşısaldırılar ayrılır;4Hazirantümçatışmalarınsonu yapılmaz.Özgüngünlükraporlar açık. Güncel blok tam okundu; bu tur yeni dış erişim/özgün görüntü incelemesi yok. Editoryal kapsam, tarihsel iddia_dogrulandi değil."
+  }
+]

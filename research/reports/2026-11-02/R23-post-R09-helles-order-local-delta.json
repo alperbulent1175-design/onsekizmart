@@ -1,0 +1,17 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Seddülbahir emri sonrası yerel iki dosya; tam yayınmanifesti değil.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "98bd765f5becf5bcaa6d6fa409f49bcdc467ea607fabffc8bafec3c69fc954b2"
+    },
+    {
+      "path": "olaylar/seddulbahir-tahliye-emri/index.html",
+      "sha256": "cc7521c80c724b9cab8cb12df05c8c4a9fae7cbd748f261bc93bf6fbd9887914"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi ve taze tam envanter/uzak geri dönüş; .htaccess korunacak."
+}

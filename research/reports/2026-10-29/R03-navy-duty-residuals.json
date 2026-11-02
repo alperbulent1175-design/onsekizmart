@@ -1,0 +1,45 @@
+{
+  "task": "R03",
+  "reviewDate": "2026-10-29",
+  "scope": "Navy duty/outcome versus prose local scope triage; not complete historical verification of30 cards. Technical measurements already scoped are not reopened.",
+  "resolved": {
+    "page": "donanma/index.html#nusret",
+    "old": "Kara harekâtı boyunca mayın gemisi olarak kalır.",
+    "action": "Continuous land-campaign service not inferred from7–8March mine-laying passage. Reader now sees this scope gap.",
+    "eventDates": [
+      "1915-03-07",
+      "1915-03-08"
+    ],
+    "urls": [
+      "https://www.awm.gov.au/collection/C1068416",
+      "https://canakkaletarihialan.gov.tr/tr/canakkale-savaslari/deniz-savaslari"
+    ],
+    "evidenceScope": "Existing25Oct selected catalogue/institutional passages support mine-laying account,not whole land campaign service continuity. No new external reading.",
+    "originalAccessDate": "2026-10-25",
+    "publicationDate": null,
+    "claimVerified": false,
+    "uiAcceptance": "2026-11-01: desktop1265/mobile305 no overflow; mobile card viewed; name-only search1/30; Leaflet Nusret group selected; ship-card return retained q=Nusret&ad=1#nusret. Emulation, not physical device."
+  },
+  "nextCandidates": [
+    {
+      "ship": "queen-elizabeth",
+      "text": "A Hattı’nın başında çekilmeyi yönetir.",
+      "question": "Link exact report stage before treating this as whole-day movement."
+    },
+    {
+      "ship": "lord-nelson",
+      "text": "Hat’ta kaldı.",
+      "question": "Does first-fire sequence support uninterrupted presence?"
+    },
+    {
+      "ship": "agamemnon",
+      "text": "Güverte ve telsiz hasarı.",
+      "question": "Match damage claim to passage separately from first-fire sequence."
+    },
+    {
+      "ship": "prince-george",
+      "text": "Kanat koruma.",
+      "question": "Scope to10:30 formation rather than all-day task."
+    }
+  ]
+}

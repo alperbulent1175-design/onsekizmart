@@ -12,7 +12,7 @@ function setup() {
 function fixture(model) {
   // Deliberately fictional software fixture, never a historical source or published record.
   model.catalog.push({ id: 'test-only', scope: 'belge', claimSupport: true, page: 'test-page', documentNo: 'test-document', url: 'https://example.invalid/test-document' });
-  return { id: 'test-record', text: 'Test statement', sourceIds: ['test-only'], evidence: [{ recordId: 'test-record', sourceId: 'test-only', claim: 'Test statement', url: 'https://example.invalid/test-document', evidenceText: 'Test evidence', date: '2026-10-16', status: 'iddia_dogrulandi' }] };
+  return { id: 'test-record', text: 'Test statement', sourceIds: ['test-only'], evidence: [{ recordId: 'test-record', sourceId: 'test-only', claim: 'Test statement', url: 'https://example.invalid/test-document', evidenceText: 'Test evidence', eventDate: 'Fictional event date', publicationDate: 'Fictional edition', accessDate: '2026-10-16', bibliography: 'Fictional source for software tests', scope: 'Only the fictional test statement', status: 'iddia_dogrulandi' }] };
 }
 
 test('künye numaraları ve önceden yazılmış doğrulama etiketi kanıt yerine geçmez', () => {
@@ -37,7 +37,7 @@ test('eksik kanıt, geçersiz tarih, ana sayfa ve güvensiz URL doğrulama üret
     r => { delete r.evidence; }, r => { r.evidence = []; },
     r => { r.evidence = [null]; },
     r => { r.evidence[0].evidenceText = '  '; },
-    r => { r.evidence[0].date = ''; }, r => { r.evidence[0].date = '2026-02-30'; },
+    r => { r.evidence[0].accessDate = ''; }, r => { r.evidence[0].accessDate = '2026-02-30'; },
     r => { r.evidence[0].status = 'metadata_kontrol_edildi'; },
     r => { r.evidence[0].sourceId = 'unknown'; },
     r => { r.sourceIds = ['awm']; },
@@ -67,4 +67,25 @@ test('mevcut katalog ve atlas kayıtları değiştirilmeden çerçeve durumunda 
   const before = JSON.stringify(model.catalog);
   [...data.places, ...data.events, ...data.campaign.events].forEach(record => assert.equal(model.annotate(record).verification, 'cerceve'));
   assert.equal(JSON.stringify(model.catalog), before);
+});
+
+
+test('tek eski tarih veya eksik künye kapsam doğrulama üretmez', () => {
+  for (const field of ['eventDate', 'accessDate', 'publicationDate', 'bibliography', 'scope']) {
+    const model = setup(), record = fixture(model);
+    record.evidence[0].date = '2026-10-16';
+    delete record.evidence[0][field];
+    assert.equal(model.annotate(record).verification, 'cerceve', field);
+  }
+});
+
+test('bilinmeyen yayın tarihi gerekçeyle açık kalır ve olay tarihi yerine geçmez', () => {
+  const model = setup(), record = fixture(model), proof = record.evidence[0];
+  proof.publicationDate = null;
+  assert.equal(model.annotate(record).verification, 'cerceve');
+  proof.publicationDateNote = 'Publication date was not verified in this fictional fixture';
+  assert.equal(model.annotate(record).verification, 'sayfa');
+  assert.equal(proof.publicationDate, null);
+  proof.eventDate = '  ';
+  assert.equal(model.annotate(record).verification, 'cerceve');
 });

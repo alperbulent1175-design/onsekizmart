@@ -1,0 +1,27 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "reason": "Yayın için yeni açık kullanıcı talebi gerekir. Bu kayıt yalnız R04 alarm partisi sonrası yerel hash farklarını tutar; yayın manifesti veya taze uzak yedek değildir.",
+  "previous_snapshot": "research/reports/2026-11-01/R23-post-R04-local-inventory.json",
+  "previous_snapshot_current": false,
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "5303fb890a74bb63040d2546a613faf4c34f730e6339b134ac936f15a3f8b8f8"
+    },
+    {
+      "path": "js/data.js",
+      "sha256": "c948a01e499fe6ba2e77ecf0f07cbabae070004c3019ff0fc1feed995cf09d7e"
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "ccc74f96fcd42802eaf9c218e48fa94681c16fc2af52281138f4dd729deaf0a0"
+    },
+    {
+      "path": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "sha256": "5fb8d8ad475319c16c822e68f72abb6d7688a53dd8bfa92bf391bb101e8bba8a"
+    }
+  ],
+  "required_before_authorized_publication": "Yayın envanteri ve dondurulmuş liste kontrolünü yeniden üret; taze uzak yedek ve somut geri dönüş listesi hazırla. Yerelde olmayan .htaccess sunucuda korunur.",
+  "external_write_performed": false
+}

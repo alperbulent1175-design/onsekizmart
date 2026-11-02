@@ -1,0 +1,13 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "R07 gemi konumları açıklaması sonrası donanma yerel farkı; tam yayın manifesti değildir.",
+  "files": [
+    {
+      "path": "donanma/index.html",
+      "sha256": "885d4fec8b756b6cd0220d3a6d3148c2fc196f40e088539780d6342134a02968"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi, taze uzak geri dönüş ve tam güncel envanter; .htaccess korunacak."
+}

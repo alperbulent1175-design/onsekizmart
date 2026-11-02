@@ -1,0 +1,25 @@
+{
+  "task": "R09",
+  "status": "tamamlandı",
+  "date": "2026-11-02",
+  "criterion": "Okuyucu ne olduğunu,nedenönemliolduğunu ve sonrane değiştiğini anlamalı;belirsizlikler görünür olmalı.",
+  "scope": "Yalnız yolharitasıR09:18mevcutkısasayfada kaynaklı neden/hazırlık/gelişme/sonuç/bağlamlı geçiş ve görünürbelirsizlik. Bütün tarihsel ayrıntıların özgünbelge doğrulaması,R10tarafdengesi veya ilk sürümün tamamı değil.",
+  "evidenceInventory": "research/reports/2026-11-01/R09-narrative-work-inventory.json",
+  "checks": {
+    "acceptedRows": 18,
+    "existingPages": 18,
+    "sourceLinkedNarrativeSections": 32,
+    "targetBodiesMatchGenerator": 18,
+    "bodyMismatches": 0,
+    "ui": "18hedefin dar masaüstü/mobil ve sonrakiolay bağlantı kabulleri ayrıpartikayıtlarında mevcut;buoturumda18i yenidengezilmedi.",
+    "latestTests": "R09-helles-order-narrative-tests.txt:297JS+19Python,0hata"
+  },
+  "openHistoricalConditions": [
+    "Watson18/19Haziran",
+    "Limnihastanesinde29Temmuz/Ağustos aşamaları",
+    "Quinn03.20/elle03.30",
+    "Seddülbahir27Aralıkemir/28Aralıkgünlükalımı",
+    "Özgüntelgraflar,görüntüsüokunamayanpasajlar ve tarafdengesi kayıtlısınırlar içindeaçık"
+  ],
+  "nextTask": "R10"
+}

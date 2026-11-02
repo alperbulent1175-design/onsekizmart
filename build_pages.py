@@ -271,17 +271,40 @@ def source_status_label(status):
     return {
         "kurumsal_ozet_pasaji_okundu": "Kurum özetinin ilgili bölümü okundu",
         "fotograf_katalog_aciklamasi_okundu": "Fotoğrafın katalog açıklaması okundu",
+        "katalog_aciklamasi_okundu": "Nesnenin katalog açıklaması okundu",
         "gunluk_goruntusu_ilgili_pasaj_okundu": "Günlük görüntüsünün ilgili bölümü okundu",
+        "yayin_aktarimi_pasaji_okundu": "Yayımlanmış aktarımın ilgili bölümü okundu",
+        "belge_goruntusu_ilgili_pasaj_okundu": "Belge görüntüsünün ilgili bölümü okundu",
     }.get(status, "Kaynak incelemesi açık")
+
+
+def chronology_event_slug(title):
+    title_for_slug = re.sub(r"['’´`]", '', title)
+    folded = title_for_slug.translate(str.maketrans('ıİşŞğĞüÜöÖçÇ', 'iissgguuoocc')).lower()
+    return re.sub(r'[^a-z0-9]+', '-', unicodedata.normalize('NFD', folded)).strip('-')
 
 
 def chronology_source_page(root):
     rows = json.loads((Path(root) / "data/chronology-sources.json").read_text(encoding="utf-8"))
-    body = '<p class="kicker">Kronoloji</p><h1>Kronoloji kaynak notları</h1><p>Ana sayfadaki yeni kayıtların dayanakları. Bu seçki her günün bütün olaylarını kapsamaz. Kurumsal özet, özgün emir veya harp ceridesiyle aynı kanıt türü değildir.</p><p>Olay tarihi her başlıkta; erişim tarihi 25 Ekim 2026. Kaynakların yayın tarihi belirtilmemişse tahmin edilmedi. İngilizce girişler kısa Türkçe özetlendi; doğrudan alıntı değildir.</p>'
+    events = json.loads((Path(root) / "data/chronology-events.json").read_text(encoding="utf-8"))
+    event_paths = {event['id']: '/olaylar/' + chronology_event_slug(event['title']) + '/' for event in events}
+    event_sources = {event['id']: event['chronologySource'] for event in events}
+    for row in rows:
+        if row['id'] not in event_sources or row['source'] != event_sources[row['id']]:
+            raise ValueError("Kronoloji kaynak notu olayın kanıt kaydıyla eşleşmiyor: " + row['id'])
+    body = '<p class="kicker">Kronoloji</p><h1>Kronoloji kaynak notları</h1><p>Ana sayfadaki yeni kayıtların dayanakları. Bu seçki her günün bütün olaylarını kapsamaz. Kurumsal özet, özgün emir veya harp ceridesiyle aynı kanıt türü değildir.</p><p>Olay, yayın ve erişim tarihleri her kaynak notunda ayrı gösterilir. Kaynağın yayın tarihi doğrulanmamışsa tahmin edilmedi. İngilizce girişler kısa Türkçe özetlendi; doğrudan alıntı değildir.</p>'
     for row in rows:
         source = row['source']
         body += '<h2 id="' + escape(row['id']) + '">' + escape(row['date']) + '</h2>'
         body += '<p><a href="' + escape(source['url']) + '">' + escape(source['label']) + '</a> · İlgili kayıt: ' + escape(source['passage']) + '.</p>'
+        if source.get('bibliography'):
+            body += '<p>Künye: ' + escape(source['bibliography']) + '</p>'
+        if source.get('publicationDateNote'):
+            body += '<p>' + escape(source['publicationDateNote']) + '</p>'
+        if source.get('metadataAccessDate'):
+            body += '<p>Künye alanlarının kontrolü: ' + escape(source['metadataAccessDate']) + '.</p>'
+        body += '<p>Kanıtın kısa Türkçe özeti: ' + escape(source['evidenceText']) + ' Bu ifade doğrudan alıntı değildir.</p>'
+        body += '<p>Olay tarihi: ' + escape(source['eventDate']) + ' · Kaynağın yayın tarihi: ' + escape(source['publicationDate'] or 'ayrıca doğrulanmadı') + ' · Erişim: ' + escape(source['accessDate']) + '.</p>'
         body += '<p>' + escape(source['scope']) + ' Doğrulama durumu: ' + escape(source_status_label(source['status'])) + '.</p>'
         if row['id'] == 'e-mayis-sessiz-1':
             body += '<p>Günlükte 9 Mayıs için 21.00 planı, 22.30 hücumu; devamında ertesi sabah 06.00’da eski mevziye dönüş ve 07.00 karşı taarruzu ayrılıyor. Bu kayıt tek taburun anlatımıdır; bütün cepheye genellenmez.</p><p><a href="https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922380.JPG">Günlük yaprak46</a> · <a href="https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922381.JPG">Günlük yaprak47</a>. Kısa kanıt: <q>again occupied at 6 am next day</q>. Yer veya tünel koordinatı bu pasajdan çıkarılmadı.</p>'
@@ -289,6 +312,8 @@ def chronology_source_page(root):
             body += '<p>Varış, hasta kabulüne başlama tarihi değildir; bu kayıttan hastanenin o gün faaliyete geçtiği sonucu çıkarılmadı.</p>'
         if row['id'] == 'e-mayis-sessiz-3':
             body += '<p>Görüşme fotoğrafı 24 Mayıs defin fotoğrafı olarak kullanılmadı.</p>'
+        if row['id'] in event_paths:
+            body += '<p><a href="' + escape(event_paths[row['id']]) + '#kaynak-notu">Bu kanıtın kullanıldığı olay anlatısına dön</a></p>'
         body += '<p><a href="/?olay=' + escape(row['id']) + '#kronoloji">Kronolojideki kayda dön</a></p>'
     return {"kronoloji-kaynaklari/index.html": ("Kronoloji kaynak notları", "Kronoloji kayıtlarının kaynakları ve inceleme sınırları.", SITE + "/kronoloji-kaynaklari/", body)}
 
@@ -298,18 +323,47 @@ def chronology_event_pages(root):
     pages = {}
     for event in records:
         title = event['title']
-        title_for_slug = re.sub(r"['’´`]", '', title)
-        folded = title_for_slug.translate(str.maketrans('ıİşŞğĞüÜöÖçÇ', 'iissgguuoocc')).lower()
-        slug = re.sub(r'[^a-z0-9]+', '-', unicodedata.normalize('NFD', folded)).strip('-')
+        slug = chronology_event_slug(title)
         source = event['chronologySource']
         note = '/kronoloji-kaynaklari/#' + event['id']
         body = '<p class="kicker">Cephe kronolojisi</p><h1>' + escape(title) + '</h1><p>' + escape(event['date']) + '</p>'
         body += '<aside class="verification-notice"><strong>Belge doğrulaması tamamlanmadı</strong><p>Aşağıdaki kaynak belirtilen kısa anlatıyı destekler; bütün olayın ayrıntıları doğrulanmış sayılmaz.</p></aside>'
         body += '<h2>Olayın özeti</h2><p>' + escape(event['text']) + '</p>'
+        for section_index, section in enumerate(event.get('narrativeSections', []), 1):
+            anchor = 'anlati-' + str(section_index)
+            body += '<h2 id="' + anchor + '">' + escape(section['title']) + '</h2><p>' + escape(section['text']) + '</p>'
+            body += '<p><a href="' + escape(section['url']) + '">' + escape(section['label']) + '</a>. ' + escape(section['sourceNote']) + '</p>'
+            proof = section.get('sourceRecord')
+            if proof:
+                if proof.get('claim') != section['text'] or proof.get('url') != section['url']:
+                    raise ValueError("Ek anlatı kanıtı metin veya URL ile eşleşmiyor: " + event['id'])
+                body += '<details id="' + anchor + '-kaynak"><summary>Bu anlatının kanıt kaydı</summary>'
+                body += '<p>Künye: ' + escape(proof['bibliography']) + ' İlgili bölüm: ' + escape(proof['locator']) + '.</p>'
+                publication_label = 'Kitabın basımı' if proof.get('sourceType', 'book') == 'book' else 'Kaynağın yayımı'
+                digital_label = 'İlk web yayımı' if proof.get('sourceType') == 'web' else 'Dijital aktarımın yayımı'
+                body += '<p>Olay: ' + escape(proof['eventDate']) + ' · Kaydın başlığı: ' + escape(proof['recordDate']) + ' · ' + publication_label + ': ' + escape(proof['publicationDate'] or 'ayrıca doğrulanmadı') + ' · ' + digital_label + ': ' + escape(proof['digitalPublicationDate'] or 'ayrıca doğrulanmadı') + ' · Pasajın erişim/incelemesi: ' + escape(proof['accessDate']) + '.</p>'
+                if proof.get('publicationDateNote'):
+                    body += '<p>' + escape(proof['publicationDateNote']) + '</p>'
+                if proof.get('metadataAccessDate'):
+                    body += '<p>Künye alanlarının kontrolü: ' + escape(proof['metadataAccessDate']) + '.</p>'
+                body += '<p>Kanıtın kısa Türkçe özeti: ' + escape(proof['evidenceText']) + ' Bu ifade doğrudan alıntı değildir.</p>'
+                body += '<p>Durum: ' + escape(source_status_label(proof['status'])) + '. Kapsam: ' + escape(proof['scope']) + '</p>'
+                body += '<p><a href="#' + anchor + '">İlgili anlatıya dön</a></p></details>'
         body += '<h2>Olayı nasıl okumalı?</h2><p>' + escape(event['context']) + '</p>'
+        next_readings = event.get('nextReadings', [])
+        if not next_readings and event.get('nextReading'):
+            next_readings = [event['nextReading']]
+        for next_reading in next_readings:
+            body += '<p>' + escape(next_reading['text']) + ' <a href="' + escape(next_reading['url']) + '">' + escape(next_reading['label']) + '</a>.</p>'
         body += '<h2 id="kaynak-notu">Kanıt metni ve inceleme sınırı</h2><p><a href="' + escape(source['url']) + '">' + escape(source['label']) + '</a>. İlgili bölüm: ' + escape(source['passage']) + '.</p>'
+        if source.get('bibliography'):
+            body += '<p>Künye: ' + escape(source['bibliography']) + '</p>'
+        if source.get('publicationDateNote'):
+            body += '<p>' + escape(source['publicationDateNote']) + '</p>'
+        if source.get('metadataAccessDate'):
+            body += '<p>Künye alanlarının kontrolü: ' + escape(source['metadataAccessDate']) + '.</p>'
         body += '<p>Kanıtın kısa Türkçe özeti: ' + escape(source['evidenceText']) + ' Bu ifade doğrudan alıntı değildir.</p>'
-        body += '<p>' + escape(source['scope']) + '</p><p>İnceleme: ' + escape(source['accessDate']) + '. Durum: ' + escape(source_status_label(source['status'])) + '. Kaynağın yayın tarihi ayrıca doğrulanmadı; olay tarihiyle karıştırılmadı.</p>'
+        body += '<p>' + escape(source['scope']) + '</p><p>Olay tarihi: ' + escape(source['eventDate']) + ' · Kaynağın yayın tarihi: ' + escape(source['publicationDate'] or 'ayrıca doğrulanmadı') + ' · Pasajın erişim/inceleme tarihi: ' + escape(source['accessDate']) + '. Durum: ' + escape(source_status_label(source['status'])) + '.</p>'
         body += '<h2>Ayrıntılar ve açık kalanlar</h2><p>Birliklerin tam dağılımı, kesin saatler ve koordinatlar bu kısa kaynaktan çıkarılmadı. Bir tarafın anlatısı bütün cepheye genellenmedi. <a href="' + note + '">Bu kaydın ayrıntılı kaynak notunu oku</a>.</p>'
         body += '<p><a href="/?olay=' + escape(event['id']) + '#kronoloji">Kronolojideki kayda dön</a> · <a href="/olaylar/">Olaylar dizini</a></p>'
         pages['olaylar/' + slug + '/index.html'] = (title, event['text'], SITE + '/olaylar/' + slug + '/', body)

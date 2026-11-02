@@ -45,7 +45,7 @@
       source: review ? "İnceleme: " + review.date + ". Anlatı incelendi; çizgi geometrisi doğrulanmadı. " + review.limit : "Çizgi geometrisinin sayısal kaynakla eşleştirilmesi tamamlanmadı.",
       sourceUrl: review ? review.url : "",
       sourceLabel: review ? review.label : "",
-      reviewHref: "/nasil-okunur/#konum-denetimi"
+      reviewHref: mine ? "/nasil-okunur/#konum-denetimi" : "/olaylar/18-mart-deniz-muharebesi/#asama-saatleri"
     });
     paintIcons();
     focusSelectedPanel(returnTarget || null);
@@ -822,6 +822,24 @@
       sourceLink.href = sourceUrl;
       body.appendChild(sourceLink);
     }
+    if (spec.timeEvidence) {
+      var timeProof = spec.timeEvidence;
+      var proofDetails = document.createElement("details");
+      proofDetails.className = "source-time-evidence";
+      proofDetails.appendChild(textEl("summary", "Bu saat kaydının kanıtı"));
+      proofDetails.appendChild(textEl("p", "Künye: " + timeProof.bibliography + " İlgili bölüm: " + timeProof.locator + "."));
+      proofDetails.appendChild(textEl("p", "Olay: " + timeProof.eventDate + " · Belge: " + timeProof.documentDate + " · Kaynağın yayımı: " + (timeProof.publicationDate || "ayrıca doğrulanmadı") + " · Pasajın erişimi: " + timeProof.accessDate + "."));
+      proofDetails.appendChild(textEl("p", timeProof.publicationDateNote));
+      proofDetails.appendChild(textEl("p", "Kısa kanıt: “" + timeProof.evidenceText + "”. " + timeProof.timeSystem));
+      proofDetails.appendChild(textEl("p", "İnceleme: " + (timeProof.status === "gunluk_goruntusu_ilgili_satir_okundu" ? "Günlük görüntüsünün ilgili satırı okundu. " : "Yayımlanmış raporun çevrimyazısı okundu. ") + timeProof.limit));
+      var proofUrl = Model && Model.safeUrl ? Model.safeUrl(timeProof.url) : "";
+      if (proofUrl) {
+        var proofLink = textEl("a", "İncelenen belge veya aktarımı aç");
+        proofLink.href = proofUrl;
+        proofDetails.appendChild(proofLink);
+      }
+      body.appendChild(proofDetails);
+    }
     if (evidence) body.appendChild(evidence);
     function readingLink(href, label) {
       var link = document.createElement("a");
@@ -919,6 +937,19 @@
   }
 
   function navalReviewHref(placeId, title) {
+    if (title === "Karargâh güne başlar") return "/olaylar/18-mart-deniz-muharebesi/#karargah-sabah-kaynagi";
+    if (title === "Ağır tabyalara ateş") return "/olaylar/18-mart-deniz-muharebesi/#agir-tabya-emri-kapsami";
+    if (title === "Göğüs göğüse düello") return "/olaylar/18-mart-deniz-muharebesi/#gemi-tabya-ates-gozlemi";
+    if (title === "Gözetleme tepesine intikal") return "/olaylar/18-mart-deniz-muharebesi/#cevat-hareket-kapsami";
+    if (title === "İlk atış emri") return "/olaylar/18-mart-deniz-muharebesi/#queen-elizabeth-saat-incelemesi";
+    if (title === "Fransız B Hattı hücum emri" || title === "Saf değişimi") return "/olaylar/18-mart-deniz-muharebesi/#asama-saatleri";
+    if (title === "Dardanos rasat yeri şehit düşer") return "/olaylar/18-mart-deniz-muharebesi/#dardanos-sarf-isabet";
+    if (title === "Zafer raporu") return "/olaylar/18-mart-deniz-muharebesi/#zafer-raporu-kaynagi";
+    if (title === "Seyit Onbaşı ve elle yükleme") return "/olaylar/18-mart-deniz-muharebesi/#seyit-elle-yukleme-kaynagi";
+    if (title === "Agamemnon ve Inflexible isabet alır") return "/olaylar/18-mart-deniz-muharebesi/#agamemnon-inflexible-hasar-ayrimi";
+    if (title === "Savaş düzeni ve telsiz sessizliği" || title === "Boğaz girişinin geçilmesi") return "/olaylar/18-mart-deniz-muharebesi/#a-hatti-hazirlik-giris";
+    if (title === "Donanma intikali") return "/olaylar/18-mart-deniz-muharebesi/#intikal-harekat-karari";
+    if (title === "İlk yaklaşma raporu" || title === "Genel muharebe alarmı") return "/olaylar/18-mart-deniz-muharebesi/#gozetleme-alarm-kaynagi";
     if (title === "Ocean mayına çarpar") return "/olaylar/18-mart-deniz-muharebesi/#colne-ocean-saat-farki";
     if (title === "Vengeance’ın ateşi kesmesi ve çıkışı") return "/olaylar/18-mart-deniz-muharebesi/#vengeance-ates-kesme";
     if (placeId === "anadolu-hamidiye" && !title) return "/olaylar/18-mart-deniz-muharebesi/#anadolu-hamidiye-donatim";
@@ -971,6 +1002,7 @@
       reviewHref: navalReviewHref(ev.place, ev.title),
       accuracy: place ? accuracyText(place) : "Haritada ayrı nokta yok.",
       source: ev.sourceTime ? ev.sourceTime.timeSystem + " " + ev.sourceTime.limit : sourceText(ev),
+      timeEvidence: ev.sourceTime && navalTimeLabel(ev) !== "Saat doğrulanmadı" ? ev.sourceTime : null,
       href: "/olaylar/18-mart-deniz-muharebesi/",
       shareHref: "/?dakika=" + encodeURIComponent(ev.m) + "&deniz=" + encodeURIComponent(slugify(ev.title)) + "#harita",
       shareLabel: "Bu kayda bağlantı",

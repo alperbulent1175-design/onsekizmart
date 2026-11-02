@@ -1,0 +1,323 @@
+{
+  "task": "R03",
+  "reviewDate": "2026-11-01",
+  "page": "donanma/index.html",
+  "count": 30,
+  "scope": "30 duty/outcome field/prose local consistency pass. Do not rerun completed cards just because older557block snapshot says unreviewed. Not wholeR03 acceptance.",
+  "rows": [
+    {
+      "id": "nusret",
+      "fields": {
+        "Görev": "Mayın gemisi. 7–8 Mart gecesi Erenköy hattını döker.",
+        "Akıbet": "18 Mart’ta batmaz. Kara harekâtı dönemindeki görev sürekliliği bu kartın mayın dökümü kaynaklarıyla doğrulanmış sayılmaz."
+      },
+      "articleSha256": "62bf2fe3fe0c76eded858df4b3feaf899b5143792fd83b9352ea55d1b4f3a391",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "barbaros",
+      "fields": {
+        "Görev": "18 Mart Boğaz taarruz hattında değildir. Gün içindeki kesin konumu için gemi jurnali karşılaştırması gerekir.",
+        "Akıbet": "8 Ağustos 1915’te Marmara’da E11 tarafından batırılır."
+      },
+      "articleSha256": "12f4feefe1d5ec2cd31340b76aa8ad69efc730586f170df0037116f50acb7949",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "turgut-reis",
+      "fields": {
+        "Görev": "18 Mart Boğaz taarruz hattında değildir. Gün içindeki kesin konumu için gemi jurnali karşılaştırması gerekir.",
+        "Akıbet": "Çanakkale harekâtı sırasında batmaz."
+      },
+      "articleSha256": "a66c889bc624a1929c3f3cdc9e633287fbdfd268bc11dfb641b6864293b8bb9e",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "mesudiye",
+      "fields": {
+        "Görev": "18 Mart kadrosunda ve Boğaz taarruz hattında yoktur.",
+        "Akıbet": "13 Aralık 1914’te HMS B11 tarafından Sarısığlar’da batırılmıştır."
+      },
+      "articleSha256": "7c3049381833b570d4545f6084cf24b5443d0f41df5e982013637674bea0666d",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "muavenet",
+      "fields": {
+        "Görev": "Muhrip. 18 Mart ana muharebe hattında değildir.",
+        "Akıbet": "13 Mayıs 1915’te Morto Koyu’nda HMS Goliath’ı batırır."
+      },
+      "articleSha256": "4ab0f815393e559205f35009f8b656feba84acddf924070732c3700c5ad2688b",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "queen-elizabeth",
+      "fields": {
+        "Görev": "Sancak gemisi. Çekilme emri ile geminin fiilî hareketi ayrı değerlendirilir.",
+        "Akıbet": "18 Mart’ta batmaz."
+      },
+      "articleSha256": "cac032ddf30425f6c8f7ee8d876ebb21f33ab4bee90d29711dfe3fe62a94d84a",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "inflexible",
+      "fields": {
+        "Görev": "Rapordaki ilk A Hattı düzeninde.",
+        "Akıbet": "Ağır hasarla çekildi; kesin saat ve zayiat incelemede."
+      },
+      "articleSha256": "4f9e8e338a2aea2c400bd6b7f16f47e9622363cdfc9cf8bf70d28c8a33db9f52",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "lord-nelson",
+      "fields": {
+        "Görev": "A Hattı.",
+        "Akıbet": "18 Mart’ta batmaz. Hatta kesintisiz kalış süresi bu kartın ateşe başlama kaydıyla doğrulanmaz."
+      },
+      "articleSha256": "0473eae3475e206dac2f3c458ff068b21f0121eccfa124c31551e83ecb3380b7",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "agamemnon",
+      "fields": {
+        "Görev": "A Hattı.",
+        "Akıbet": "18 Mart’ta batmaz. Güverte ve telsiz hasarının ayrıntıları için ayrı hasar kaydı karşılaştırması gerekir."
+      },
+      "articleSha256": "2575952dbbeb89a00eef7522bb5b7c5f3b8e98764bc438e8a4eaa71ed2636ec9",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "irresistible",
+      "fields": {
+        "Görev": "Rapordaki 14.32 ileri hat kaydında.",
+        "Akıbet": "18 Mart’ta battı; kesin saat incelemede."
+      },
+      "articleSha256": "4ee60701df4ea8e3daf817481c4cf850fd3ff74c63028340bc61f251c27b0748",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "ocean",
+      "fields": {
+        "Görev": "Rapordaki 14.32 ileri hat kaydında.",
+        "Akıbet": "18 Mart’ta battı; isabet ve batış saatleri incelemede."
+      },
+      "articleSha256": "13b096ce8f0beebd709b8fa0fdcd6c13d425969be7e58fc53b0e24d14bd06372",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "albion",
+      "fields": {
+        "Görev": "Rapordaki 14.32 ileri hat kaydında.",
+        "Akıbet": "18 Mart’ta battığına dair kayıt yoktur."
+      },
+      "articleSha256": "b919ac6ad596720007216b39e38d502df269dcf02f202c0af8e4b9eca9c5be1d",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "vengeance",
+      "fields": {
+        "Görev": "Rapordaki 14.32 ileri hat kaydında.",
+        "Akıbet": "18 Mart’ta battığına dair kayıt yoktur."
+      },
+      "articleSha256": "e7ba3144d1112498675f093f4f9cf2c589ee56e59cadcc685e80c01e79bdf08e",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "canopus",
+      "fields": {
+        "Görev": "Raporun gece bölümünde Boğaz girişinde devriye; günün bütün görevlerini kapsamaz.",
+        "Akıbet": "18 Mart’ta battığına dair kayıt yoktur."
+      },
+      "articleSha256": "d2f00de1e523496ed9fbea0b607f0642ffa3f958b585c56a8ce10f352267ee35",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "swiftsure",
+      "fields": {
+        "Görev": "Rapordaki 14.32 ileri hat kaydında destek.",
+        "Akıbet": "18 Mart’ta battığına dair kayıt yoktur."
+      },
+      "articleSha256": "9b019b990dc3469336613936c96dfe5f74ab53550ebd019e4ddb318838994699",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "triumph-18",
+      "fields": {
+        "Görev": "Rapordaki 10.30 düzeninde sancak kanadı; bütün günün görev dökümü değildir.",
+        "Akıbet": "18 Mart’ta batmaz. Sonraki batış aşağıdadır."
+      },
+      "articleSha256": "6bc5489ef419d8084fe0790b2c76b1dced4e4f93ed27a65d7a9164d9cfc46654",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "majestic-18",
+      "fields": {
+        "Görev": "Rapordaki 14.32 ileri hat kaydında destek.",
+        "Akıbet": "18 Mart’ta batmaz. Sonraki batış aşağıdadır."
+      },
+      "articleSha256": "7863689580e21d22bfc8cd81c0dc94456c9281b76175325938a333e85234a4a8",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "prince-george",
+      "fields": {
+        "Görev": "Rapordaki 10.30 A Hattı düzeninde iskele kanadı; bütün günün görev dökümü değildir.",
+        "Akıbet": "18 Mart’ta battığına dair kayıt yoktur."
+      },
+      "articleSha256": "4ab37f00757d4bd90ab9c5268f518ffd9a0b60ecbeed6ef3006931a13af95e5d",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "cornwallis",
+      "fields": {
+        "Görev": "Raporun gece bölümünde Boğaz girişinde devriye; günün bütün görevlerini kapsamaz.",
+        "Akıbet": "18 Mart’ta battığına dair kayıt yoktur."
+      },
+      "articleSha256": "1669925041e64ee3a136e02f162c17d07ce93a8cd9d0585686a0db87763fbeb7",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "suffren",
+      "fields": {
+        "Görev": "B Hattı ön-dretnotu. Amiral Guépratte.",
+        "Akıbet": "Kesin isabet ve hasar dökümünün belge karşılaştırması sürüyor. 18 Mart’ta batmaz."
+      },
+      "articleSha256": "8239b0295e77d06a867e1adc06e7050942b1a63394f32ff27e1d082d5cdd9eb0",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "bouvet",
+      "fields": {
+        "Görev": "B Hattı ön-dretnotu.",
+        "Akıbet": "18 Mart’ta battı; kesin süre ve zayiat incelemede."
+      },
+      "articleSha256": "54f71d122f4af9dbf400e77370f05ad6b3bf423384d9cd5a59275254abb26dbf",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "gaulois",
+      "fields": {
+        "Görev": "B Hattı ön-dretnotu.",
+        "Akıbet": "Rapor çevrimyazısında Drepano Adası’nın kuzeyinde karaya oturduğu anlatılır. Kesin yer eşleştirmesi açık; 18 Mart’ta batmaz."
+      },
+      "articleSha256": "3c6c1aa7165fa200bccd54caf88399a511236b254637759436564f9c70a0f316",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "charlemagne",
+      "fields": {
+        "Görev": "İlk B Hattı; Fransız hattına verilen çekilme emri gemiye özgü çıkış dakikası değildir.",
+        "Akıbet": "18 Mart’ta battığına dair kayıt yoktur."
+      },
+      "articleSha256": "acd1033c1ac96e39027065c42472d887fc36124b3295fdce7eceaa377968339f",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "kruvazorler",
+      "fields": {
+        "Görev": "Destek grubu. Ayrı gemi akıbeti yazılmaz."
+      },
+      "articleSha256": "ae46b65f765124155d5119e94badee273256799317a248218890965037f8425f",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "muhripler",
+      "fields": {
+        "Görev": "Tarama koruması, perdeleme, tahliye."
+      },
+      "articleSha256": "77fa832610120955cfaab7c898692265b1df6764ce0c3224e3b7ee2a552e9ab0",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "tarama",
+      "fields": {
+        "Görev": "Mayın tarama."
+      },
+      "articleSha256": "5d2032627f84a4ab370bee8c0a965c0d18553362466abd29bec08feea2d94324",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "ark-royal",
+      "fields": {
+        "Görev": "Keşif ve atış tanzimi.",
+        "Akıbet": "18 Mart’ta battığına dair kayıt yoktur. Mayın aramasının kapsamı ve sonucu bu kartta kesinleştirilmedi."
+      },
+      "articleSha256": "e575945106f536e521ab5410ef6e306ded2b7602be23d949bebede11aca1ee70",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "goliath",
+      "fields": {
+        "Görev": "Bu sayfanın 18 Mart gemi seçkisinden ayrı, Mayıs kaydıdır.",
+        "Akıbet": "13 Mayıs 1915, Morto Koyu, Muavenet-i Milliye."
+      },
+      "articleSha256": "b916dbb099c237022d27c9d2e67d87d6bd6a286dc00fec86c4f5bd4cb703e91d",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "triumph-sonra",
+      "fields": {
+        "Görev": "18 Mart’ta filodadır ve o gün batmaz.",
+        "Akıbet": "25 Mayıs 1915, Arıburnu açığı, Alman U-21."
+      },
+      "articleSha256": "594e1269efe79bef422c548a1c76df36e38c39ba361ae27801ac5f8862ffb23a",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    },
+    {
+      "id": "majestic-sonra",
+      "fields": {
+        "Görev": "18 Mart raporunda destek göreviyle anılır ve o gün batmaz.",
+        "Akıbet": "27 Mayıs 1915, Seddülbahir açığı, U-21."
+      },
+      "articleSha256": "7f96e4da649ea55525cd3879cc2ecb845cbccffee7c7984a2028292231616f0c",
+      "status": "local_field_prose_scope_compared_not_historical_verification",
+      "scope": "Görev/Akıbet versus current prose only; technical,date,personnel and source verification are separate."
+    }
+  ],
+  "lastChanges": {
+    "inflexible": "Generic starboard-wing wording replaced by firstAline formation; no new whole-day side/route claim.",
+    "triumph-18": "10.30 starboard formation tied to report; broad all-day task removed."
+  },
+  "source": {
+    "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+    "evidence": "TRIUMPH (on starboard beam)",
+    "eventDate": "1915-03-18",
+    "documentDate": "1915-03-24",
+    "publicationDate": null,
+    "accessDate": "2026-11-01",
+    "scope": "Reuse today selected10.30 reading,not new external access; original image/log not read."
+  },
+  "uiPending": [],
+  "uiBlocker": "Resolved for this local acceptance via IAB;seeR03-browser-acceptance.json. Not physical-deviceR19completion.",
+  "nextIndependentR03": "Read current js/model.js numeric/strength fields and actual render callers against priorR03 records; prioritize first actually rendered unsupported critical quantity. Do not reopen cleareddata.js ammo/spend/fortHits/dardanosPeople.",
+  "uiAcceptance": "2026-11-01:all7pendingcardsdesktop1280/mobile320viewport,client1265/305,nohorizontaloverflow;scopedtextscreenshotsinspected;map/filter/returnflowschecked."
+}

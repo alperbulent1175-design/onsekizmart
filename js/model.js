@@ -81,13 +81,19 @@
 
   // Optional record-level evidence; the source catalog/import schema stays unchanged.
   // claim must match the displayed statement exactly so edits invalidate old evidence.
+  // Dates have separate meanings. Legacy `date` alone cannot verify a claim;
+  // an unknown publication date needs an explicit reason, never an invented date.
   function hasVerifiedEvidence(item) {
     var claim = item.text || item.short || item.title || item.name;
     if (!nonempty(item.id) || !nonempty(claim) || !Array.isArray(item.evidence)) return false;
     return item.evidence.some(function (proof) {
       if (!proof || proof.recordId !== item.id || proof.claim !== claim ||
           proof.status !== "iddia_dogrulandi" || !nonempty(proof.evidenceText) ||
-          !evidenceDate(proof.date) || !documentUrl(proof.url)) return false;
+          !nonempty(proof.eventDate) || !evidenceDate(proof.accessDate) ||
+          !nonempty(proof.bibliography) || !nonempty(proof.scope) ||
+          !(nonempty(proof.publicationDate) ||
+            (proof.publicationDate === null && nonempty(proof.publicationDateNote))) ||
+          !documentUrl(proof.url)) return false;
       if (item.sourceIds.indexOf(proof.sourceId) === -1) return false;
       var src = byId(proof.sourceId);
       return !!(src && src.scope === "belge" && src.claimSupport === true &&

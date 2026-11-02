@@ -1,0 +1,52 @@
+{
+  "task": "R11",
+  "status": "tamamlandı",
+  "date": "2026-11-02",
+  "criterion": "19Mayıstan24Mayısaneden-sonuçzinciri,kaynakpasajlarıvesaatsınırlarıylatakipedilebilmeli.",
+  "phases": [
+    {
+      "id": "R11-A",
+      "phase": "Taarruz hazırlığı ve plan saati",
+      "status": "tamamlandı",
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html#osmanli-plan-kaynagi",
+      "condition": "03.30plan/03.50ayrıemirvebirlikkapsamları;yeniteksaateçevirmedenmevcutkaynaklarıeşle."
+    },
+    {
+      "id": "R11-B",
+      "phase": "Durdurma, geri hareket emri ve hareket bildirimi",
+      "status": "tamamlandı",
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html#48-alay-emirleri",
+      "condition": "Mevcutparagraflartamokundu;48AlayUYGULAMA-DEVAMI.mdokundu. Sabahakadarhareketvesonrakiemirdeyerleregelindibildirimiayrı,günümüzsaatçevrimi/özgüncerideaçık."
+    },
+    {
+      "id": "R11-C",
+      "phase": "Yerel temas ve görüşme ihtiyacı",
+      "status": "tamamlandı",
+      "page": "olaylar/ateskes-gorusmeleri/index.html",
+      "condition": "Basılı Oglander 20–22 görüntüden yeniden kontrol edildi; 19 Mayıs gece kaldırma ihtiyacı/önerisi ile 20 Mayıs yerel temas bağlantısı okuyucuya eklendi. Özgün yazışma ve ilk girişimi yapan taraf açık; alt kontrol tamam, genel faz kabulü zincir denetiminde."
+    },
+    {
+      "id": "R11-D",
+      "phase": "22Mayıs temsilci dönüş kaydı ve resmî anlaşma",
+      "status": "tamamlandı",
+      "page": "olaylar/ariburnu-gomme-ateskesi/index.html#yerel-temastan-anlasmaya",
+      "condition": "22fotoğraf/ikilianlaşma/24definayrımınıkaynaktarihleriyleeşle."
+    },
+    {
+      "id": "R11-E",
+      "phase": "23Mayıs birlik talimatı",
+      "status": "tamamlandı",
+      "page": "olaylar/ariburnu-gomme-ateskesi/index.html#birliklere-iletilen-emir",
+      "condition": "MONASH-EMIR-KONTROLU.mdveokuyucumetnieşleşiyor;N.Z.G.609ertesi07.30başlangıcıplan/uygulamaayrımıgörünür. Yeniözgünokumasayılmadı."
+    },
+    {
+      "id": "R11-F",
+      "phase": "24Mayıs ateşkes/çalışma saatleri ve fiilî defin",
+      "status": "tamamlandı",
+      "page": "olaylar/ariburnu-gomme-ateskesi/index.html#ateskes-ve-calisma-saatleri",
+      "condition": "Ek 7 s.147–148 görüntüden okundu; 14.30/15.45 tamamlanma bildirimi, 16.15 geri çağırma ve 17.00 ateş bildirimi planlanan aralıktan ayrı okuyucuya işlendi. Türkçe aktarım; WO 158-921 özgünü/saat dönüşümü açık. Kesin zayiat üretilmedi."
+    }
+  ],
+  "nextStep": "R12: mevcut iddia-kanıt alanlarının kapsamını çıkar; 10 sütunlu katalogdan ayrı düzeni mevcut okuyucu kaynak bağlantılarıyla tutarlılaştır.",
+  "acceptanceRef": "R11-acceptance-review.json"
+}

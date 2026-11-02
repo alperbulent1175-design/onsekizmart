@@ -1,0 +1,19 @@
+{
+  "task": "R23",
+  "scope": "R10 kaynak atfı yerel farkı;tammanifest değil.",
+  "publication": "Yeni açık talebe bağlı engelli.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "0d9195a53b482c8b5949708545cf27262c4c6cdff6fcbfdfbed84aefccd28317"
+    },
+    {
+      "path": "olaylar/kolera-asilamasi/index.html",
+      "sha256": "b0a0ae3db0a45a6b476c632c02296ce943c81744494f89edcda9664403d2800a"
+    },
+    {
+      "path": "olaylar/ariburnu-suvla-tahliye-onayi/index.html",
+      "sha256": "4a0142f68be508bb9584998756adba77037c985740837f9d82e774c2768ab371"
+    }
+  ]
+}

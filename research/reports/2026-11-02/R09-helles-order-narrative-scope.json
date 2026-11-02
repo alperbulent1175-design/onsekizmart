@@ -1,0 +1,45 @@
+{
+  "task": "R09",
+  "id": "e-aralik-ocak",
+  "status": "devam ediyor",
+  "eventDates": [
+    "1915-12-27 DVAemirbaşlığı",
+    "1915-12-28 Birdwoodalımkaydı",
+    "1915-12-29/30 hazırlıkgörüşmeleri"
+  ],
+  "accessDate": "2026-11-02",
+  "sources": [
+    {
+      "url": "https://wm.awm.gov.au/read/evacuation-helles",
+      "author": "Peter Hart",
+      "publicationDate": "2025-06-17",
+      "passage": "Giriş,Hellesinaskerîdurumu vekarar/havakoşulları",
+      "verification": "Yayımlanmış ikincil anlatı seçili paragraflar okundu."
+    },
+    {
+      "url": "https://transcribe.awm.gov.au/transcription/item/rcdig0000002-5",
+      "publicationDate": null,
+      "passage": "28–30Aralık,günlükaktarımı104–105",
+      "evidence": "28emrialdım;29Monroayrıntılar;30Davies/Brularddüzenlemeler.",
+      "verification": "Seçili metinaktarımı okundu;elyazısıgörülmedi."
+    },
+    {
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/evacuations-from-anzac",
+      "publicationDate": null,
+      "passage": "Giriş,Fransız/Britanyabirliklerinin9Ocaka kadarHelleskalışı",
+      "verification": "İlgili kurum özeti okundu; yalnız sonrakimevcutanlatı bağlantısındaki dönem için kullanıldı."
+    }
+  ],
+  "limits": "27/28farkı aynıemringönderim/teslimzinciri diye kesinleştirilmedi. Hart28karar/telgraf anlatımıDVA27ile örtüştüvarsayılmadı. Yeni kişi/günsaat/zayiat yok. PlanFransızhareketi gerçekleşmişbindirme sayılmadı.",
+  "uiAcceptance": {
+    "desktopWidth": [
+      1265,
+      1265
+    ],
+    "mobileWidth": [
+      305,
+      305
+    ],
+    "nextLink": "Enter→Seddülbahir tahliyesi URL/h1 doğrulandı."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "task": "R09",
+  "id": "e-sonbahar",
+  "status": "devam ediyor",
+  "sourceUrl": "https://www.gutenberg.org/cache/epub/22021/pg22021-images.html",
+  "passage": "9October1915 ilk3paragraf",
+  "eventDate": "1915-10-08 gecesi (9Ekimde önceki gece diye aktarılıyor)",
+  "reportDate": "1915-10-09",
+  "publicationDate": "1920",
+  "digitalReleaseDate": "2007-07-09",
+  "accessDate": "2026-11-02",
+  "evidence": "İskeleler ve su mavnaları hasarı;raporlar9Ekim;amiral alternatifiskele değerlendirmesi ve yazarın eski gemiyi batırarak liman önerisi.",
+  "verification": "Yayımlanmış günlük e-kitap aktarımı seçili pasaj okundu; özgün hasarraporu/gemijurnali değil.",
+  "limits": "Mavna/iskele sayısı,sukapasitesi,onarım/teslim saati eklenmedi. İki yerin hasarı eşitlenmedi;öneri uygulama sayılmadı;yeniskeleWatsonile özdeşlenmedi.",
+  "uiAcceptance": {
+    "desktopWidth": [
+      1265,
+      1265
+    ],
+    "mobileWidth": [
+      305,
+      305
+    ],
+    "nextLink": "Enter→yağmur ve kar fırtınası URL/h1 doğrulandı."
+  }
+}

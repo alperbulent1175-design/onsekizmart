@@ -1,0 +1,30 @@
+{
+  "task": "R09",
+  "id": "e-mayis-sessiz-1",
+  "status": "devam ediyor",
+  "eventDates": [
+    "1915-05-09",
+    "1915-05-10"
+  ],
+  "sources": [
+    {
+      "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922380.JPG",
+      "document": "AWM4 23/32/7, image4/leaf46",
+      "accessDate": "2026-10-25",
+      "publicationDate": null,
+      "evidenceSummary": "21.00plan ile22.30hücum ayrı."
+    },
+    {
+      "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922381.JPG",
+      "document": "AWM4 23/32/7, image5/leaf47",
+      "accessDate": "2026-10-25",
+      "publicationDate": null,
+      "evidence": "again occupied at 6 am next day",
+      "evidenceSummary": "06.00eski mevzi/07.00karşıtaarruz ayrı."
+    }
+  ],
+  "scopeReviewDate": "2026-11-02",
+  "verification": "Önceki görüntü okuma notları ve ham yanURL/hash kayıtları eşleştirildi; yeni görüntü okuması/keşfi değil.",
+  "limits": "63sayfanıntümü okunmadı. Osmanlı tarafı/saat kalibrasyonu/toplam kayıp/hedef emri açık.29Mayıslağımsaldırısınotları9Mayısa taşınmadı.",
+  "readerChange": "Tekcümleözet yerine plan/hücum/dönüş/karşıtaarruz ve geçici mevzi sonucu; kaynaklar doğrudan ilgili görüntülere bağlandı."
+}

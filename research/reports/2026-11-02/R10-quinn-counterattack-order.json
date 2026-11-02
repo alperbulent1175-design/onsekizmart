@@ -1,0 +1,42 @@
+{
+  "task": "R10",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "source": {
+    "url": "https://atamdergi.gov.tr/eng/full-text/1146/tur",
+    "author": "Necdet Öz",
+    "title": "Çanakkale Muharebelerinde Mustafa Kemal’in (Atatürk) Siper Savaşına Yönelik Emirlerinin Analizi",
+    "publication": "Kasım 2025, XLI/112, s.431–488",
+    "eventDate": "9–10 Mayıs 1915",
+    "accessDate": "2026-11-02",
+    "readScope": "II.1 9/10 Mayıs paragrafı, 10 Mayıs emri açıklaması ve dipnot48–49; kaynak künye/özet sayfası. Bütün makale okunmadı.",
+    "chain": "Öz → Harp Ceridelerine Göre Çanakkale Savaşları’nda 27. Alay C.II, haz. Murat Karataş/Barış Borlat, 2018, s.111",
+    "originalOrderSeen": false,
+    "bookPageSeen": false,
+    "evidenceParaphrase": "Karşı taraf geri çekildiğinde fırsattan yararlanarak karşı taarruz; bunun için siperlerin uzatılması ve yaklaşma emri.",
+    "verification": "ilgili_yayin_pasaji_okundu_dolayli_aktarim"
+  },
+  "candidateResolution": {
+    "url": "https://canakkalesavaslariansiklopedisi.com/14uncu-piyade-alayi/",
+    "result": "Önceki arama özetinde görülen 10 Mayıs pasajı açılan sayfada bulunmadı. Arama özeti kanıt yapılmadı; bağımsız dar sorguda ilgili emri ve kaynak sayfasını açıkça veren Öz çalışmasına geçildi. Bu kaynaklar aynı yayın sayılmadı."
+  },
+  "scopeLimits": [
+    "Osmanlı emri daha geniş birlik cephesini anlatır; tek Avustralya tabur günlüğüyle birebir rapor karşılaştırması değildir.",
+    "Makaledeki23.00 ile tabur günlüğündeki22.30 farkı çözülmedi; yeni kesin saat eklenmedi.",
+    "Beş hücum, birlik mevcudu, kayıp sayısı ve tüm birliklerin karşı hücum ettiği iddiası aktarılmadı.",
+    "Kaynak kataloğu durumu yükseltilmedi."
+  ],
+  "siteFiles": [
+    "data/chronology-events.json",
+    "olaylar/quinns-post-siper-baskini/index.html"
+  ],
+  "acceptance": "İkinci mevcut Quinn olayında karşı tarafın hedefi okuyucuya işlendi; genel R10 ve özgün emir denetimi açık.",
+  "nextStep": "R10 için mevcut Arıburnu ve Seddülbahir ana anlatılarının kaynak taraflarını envanterle; Fransız birlik belgesinin hedef ve sonuçla eşlenebileceği ilk mevcut olayı seç.",
+  "tests": {
+    "allJavaScript": 297,
+    "mandatoryPython": 19,
+    "failed": 0,
+    "log": "research/reports/2026-11-02/R10-quinn-order-tests.txt",
+    "ui": "Masaüstü1280×720 yeni başlık/metin;1265/1265px. Mobil320×800 başlık görünür,kaynak href doğru;305/305px. Boyut sıfırlandı;harita/süzgeç değişmedi."
+  }
+}

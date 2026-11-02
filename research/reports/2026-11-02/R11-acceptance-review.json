@@ -1,0 +1,77 @@
+{
+  "task": "R11",
+  "status": "tamamlandı",
+  "date": "2026-11-02",
+  "criterion": "19 Mayıstan 24 Mayısa neden-sonuç zinciri, kaynak pasajları ve saat sınırlarıyla takip edilebilmeli.",
+  "reviewScope": "Altı fazın mevcut anlatı/kaynak eşleşmesi birlikte denetlendi; yalnız son eklenen paragrafın kabulü değildir. Yeni arşiv tam doğrulaması değildir.",
+  "phases": [
+    {
+      "id": "R11-A",
+      "phase": "Taarruz hazırlığı ve plan saati",
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html#osmanli-plan-kaynagi",
+      "acceptance": "tamamlandı",
+      "boundary": "03.30plan/03.50ayrıemirvebirlikkapsamları;yeniteksaateçevirmedenmevcutkaynaklarıeşle."
+    },
+    {
+      "id": "R11-B",
+      "phase": "Durdurma, geri hareket emri ve hareket bildirimi",
+      "page": "olaylar/ariburnu-genel-taarruzu/index.html#48-alay-emirleri",
+      "acceptance": "tamamlandı",
+      "boundary": "Mevcutparagraflartamokundu;48AlayUYGULAMA-DEVAMI.mdokundu. Sabahakadarhareketvesonrakiemirdeyerleregelindibildirimiayrı,günümüzsaatçevrimi/özgüncerideaçık."
+    },
+    {
+      "id": "R11-C",
+      "phase": "Yerel temas ve görüşme ihtiyacı",
+      "page": "olaylar/ateskes-gorusmeleri/index.html",
+      "acceptance": "tamamlandı",
+      "boundary": "Basılı Oglander 20–22 görüntüden yeniden kontrol edildi; 19 Mayıs gece kaldırma ihtiyacı/önerisi ile 20 Mayıs yerel temas bağlantısı okuyucuya eklendi. Özgün yazışma ve ilk girişimi yapan taraf açık; alt kontrol tamam, genel faz kabulü zincir denetiminde."
+    },
+    {
+      "id": "R11-D",
+      "phase": "22Mayıs temsilci dönüş kaydı ve resmî anlaşma",
+      "page": "olaylar/ariburnu-gomme-ateskesi/index.html#yerel-temastan-anlasmaya",
+      "acceptance": "tamamlandı",
+      "boundary": "22fotoğraf/ikilianlaşma/24definayrımınıkaynaktarihleriyleeşle."
+    },
+    {
+      "id": "R11-E",
+      "phase": "23Mayıs birlik talimatı",
+      "page": "olaylar/ariburnu-gomme-ateskesi/index.html#birliklere-iletilen-emir",
+      "acceptance": "tamamlandı",
+      "boundary": "MONASH-EMIR-KONTROLU.mdveokuyucumetnieşleşiyor;N.Z.G.609ertesi07.30başlangıcıplan/uygulamaayrımıgörünür. Yeniözgünokumasayılmadı."
+    },
+    {
+      "id": "R11-F",
+      "phase": "24Mayıs ateşkes/çalışma saatleri ve fiilî defin",
+      "page": "olaylar/ariburnu-gomme-ateskesi/index.html#ateskes-ve-calisma-saatleri",
+      "acceptance": "tamamlandı",
+      "boundary": "Ek 7 s.147–148 görüntüden okundu; 14.30/15.45 tamamlanma bildirimi, 16.15 geri çağırma ve 17.00 ateş bildirimi planlanan aralıktan ayrı okuyucuya işlendi. Türkçe aktarım; WO 158-921 özgünü/saat dönüşümü açık. Kesin zayiat üretilmedi."
+    }
+  ],
+  "acceptanceReasons": [
+    "Plan (03.30/ayrı emirde 03.50) fiilî ortak başlangıçtan ayrılıyor.",
+    "Telefonla durdurma/geri hareket talimatı ve sabaha kadar hareket/sonraki bildirim ayrı; kesin iletim/alım/icra saati bilinmediği görünür.",
+    "19 Mayıs sonrası kaldırma ihtiyacı → 20 Mayıs yerel temas → resmî görüşme neden zinciri kaynaklı.",
+    "22 Mayıs görüşme fotoğrafı → 23 Mayıs anlaşma metni/dağıtım emri → 24 Mayıs defin ayrı; imzalama talimatı gerçekleşmiş işlem diye sunulmuyor.",
+    "07.30–16.30 ateşkes/08.00–16.00 veya bitim çalışma düzeni, raporun 14.30/15.45/16.15/17.00 bildirimlerinden ayrı.",
+    "Kaynaklı anlatılar arasında bağlam bağlantıları ve yerel kaynak dönüşleri mevcut; üç sayfanın yerel ankrajları doğrulandı."
+  ],
+  "openHistoricalQuestions": [
+    "Özgün Osmanlı cerideleri ve yazışmaların karşılaştırılması; emirlerin kesin yazım/iletim/alım/icra saatleri.",
+    "İlk girişimi yapan taraf ve belirli 22 Mayıs fotoğrafının Oglander’deki görüşmeyle eşleşmesi.",
+    "Özgün imzalı anlaşmalar ve WO 158-921 İngilizce rapor karşılaştırması; kesin imza saati.",
+    "Kayıp/defin tahminleri kesin tek toplam oluşturmaz; bütün cephede eşzamanlı uygulama çıkarılmaz."
+  ],
+  "tests": {
+    "javascript": 297,
+    "python": 19,
+    "failures": 0,
+    "log": "R11-agreement-tests.txt"
+  },
+  "ui": "Son değişen tarih ayrımı 1280×720 ve 320×800; 1265/1265 ve 305/305 px. Kaynak notu bağlantısına Enter ile gidildi. Önceki zincir bağlantıları R11-linked-chain-navigation.json ile kayıtlı. Harita/süzgeç değişmedi.",
+  "hashes": {
+    "olaylar/ariburnu-genel-taarruzu/index.html": "29b6d096ade305ad154bb04590b894766b7609b68e988523916e427cf113f53c",
+    "olaylar/ariburnu-gomme-ateskesi/index.html": "4a7ab3ecbaa2466359ee3f5c27caaa73d00fd824ab05ab48d8739cb2e2147886",
+    "olaylar/ateskes-gorusmeleri/index.html": "9afe58129a0ec3e1ea83ee67decdc1f4eb228eb488e806d9206279c43f4f4101"
+  }
+}

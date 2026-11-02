@@ -1,0 +1,96 @@
+{
+  "task": "R23",
+  "status": "yerel dar değişiklik; yayın engelli",
+  "date": "2026-11-02",
+  "scope": "Tam manifest ve geri dönüş hazırlığı değildir; commit/push/deploy yok.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "c998257924a911ed773914d391e0fbf494c601f689f387a819e0e169dcbc4d3d"
+    },
+    {
+      "path": "data/chronology-sources.json",
+      "sha256": "05ea34a1ea23730bd1f0b9a059d26c29f3cdcf5b060b5bda59ef7ce8a1712321"
+    },
+    {
+      "path": "build_pages.py",
+      "sha256": "2d94a6f11b37983916d52dc21b3eb92bb823d8d692550559734ab97fbdec288a"
+    },
+    {
+      "path": "kronoloji-kaynaklari/index.html",
+      "sha256": "86039b40eae079915aa1bc9f5552a979108171b5b03f78158b3d9ca703f99bfc"
+    },
+    {
+      "path": "olaylar/mayin-tarama-girisimleri/index.html",
+      "sha256": "62a9de5307bf9b843ede33dcf48d19d28a9292d3e2c1cb376fa50c6407feb730"
+    },
+    {
+      "path": "olaylar/hamiltona-talimat/index.html",
+      "sha256": "a2c5e2e2bcb0f0f736eb1d593ed1134eabdeef387a00d323b6f43354a564a916"
+    },
+    {
+      "path": "olaylar/anzak-sevk-emri/index.html",
+      "sha256": "069538090b8ca01072246045fe0f718d1a2b4800648af18d8a10181390a97675"
+    },
+    {
+      "path": "olaylar/mondrosta-cikarma-hazirligi/index.html",
+      "sha256": "ad5ea2f5c922ca80f8749a28a434f1a22e16131782804df786814a8cc94158d4"
+    },
+    {
+      "path": "olaylar/yaralilar-misira-ulasiyor/index.html",
+      "sha256": "06b7f26d0c43865fbfec957b00c3e0a4bf674ebed30741ae84c2cf846e4c732d"
+    },
+    {
+      "path": "olaylar/quinns-post-siper-baskini/index.html",
+      "sha256": "2ed3b2fcccf6b61ff1f866f2e4a25a42d8b82a6296fa6237fc95ef1dbc080883"
+    },
+    {
+      "path": "olaylar/yeraltindan-kazma-sesleri/index.html",
+      "sha256": "0e4a46e86992021679467ddcbed3b6f04265b6ffdf5b6b0541cfd17218b3bafe"
+    },
+    {
+      "path": "olaylar/ateskes-gorusmeleri/index.html",
+      "sha256": "31acffc2fa85306cd9b9865bc2aaa4a5c4ec945d4eef35e4efc136a1564f415e"
+    },
+    {
+      "path": "olaylar/quinns-post-lagim-taarruzu/index.html",
+      "sha256": "e29e718c05c9df62884f3030882f57eeb7f0f43461966ee4034fab8befbccc05"
+    },
+    {
+      "path": "olaylar/watson-iskelesi-tamamlandi/index.html",
+      "sha256": "4a13a59fe260e249b657d5be42f2e1444aac7cf05256dfd71a632cd8cff86514"
+    },
+    {
+      "path": "olaylar/kolera-asilamasi/index.html",
+      "sha256": "fbff97270134d332d3cc24a4f889c7610a8eb22a48b85762b9960d335e0e7705"
+    },
+    {
+      "path": "olaylar/hastane-ekibi-limnide/index.html",
+      "sha256": "3cbb945fc228f107b929b69f8f757e83d901deed19f6c202f166497647cc8966"
+    },
+    {
+      "path": "olaylar/kirectepe-taarruzu/index.html",
+      "sha256": "346be7e4487926203ffa566202b2ff1a65b8210206d309ab9fab70f3f352ead7"
+    },
+    {
+      "path": "olaylar/sonbahar-firtinasi/index.html",
+      "sha256": "11e9a66ca9bff7dca99d96dc70e5e4c38394085ccf7bc9b0436f8cd9ab5e595f"
+    },
+    {
+      "path": "olaylar/tahliye-tavsiyesi/index.html",
+      "sha256": "6e7c306f27b56170be657d8820dd471768ba78c471a72692c1bbf18a39ff0c42"
+    },
+    {
+      "path": "olaylar/yagmur-ve-kar-firtinasi/index.html",
+      "sha256": "3bd4b1a2a7cc43d6a11bf59d8eb4030bec89c13d2cfbf2dc624d954af4d76b0a"
+    },
+    {
+      "path": "olaylar/ariburnu-suvla-tahliye-onayi/index.html",
+      "sha256": "ee7f299380b1db1705aef964a51bcf34f8dbe972956102c3d0e1bd1a14a087df"
+    },
+    {
+      "path": "olaylar/seddulbahir-tahliye-emri/index.html",
+      "sha256": "b501326b80e673edf694a5a13aa9cd49bdfc26e717e08d97d7674d06a3e073f1"
+    }
+  ]
+}

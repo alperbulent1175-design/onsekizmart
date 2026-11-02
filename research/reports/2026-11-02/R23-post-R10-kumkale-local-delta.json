@@ -1,0 +1,11 @@
+{
+  "task": "R23",
+  "scope": "Kumkale R10 yerel farkı;tam yayın manifesti değil.",
+  "publication": "Yeni açık talebe bağlı engelli.",
+  "files": [
+    {
+      "path": "olaylar/kumkale-oyalama-cikarmasi/index.html",
+      "sha256": "bb0d81851fb37f747533cce620a61c7cf99c67603acad5d88cbfc4a7d0a3c7cf"
+    }
+  ]
+}

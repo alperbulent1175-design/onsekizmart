@@ -1,0 +1,128 @@
+{
+  "task": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "change": "Mevcut 18 kronoloji kaynak notundan kanıtın kullanıldığı olay anlatısına doğrudan dönüş eklendi. Ortak slug işlevi mevcut yolları korur.",
+  "roundTrips": [
+    {
+      "id": "e-mart-sessiz-1",
+      "narrative": "/olaylar/mayin-tarama-girisimleri/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-mart-sessiz-1",
+      "checked": true
+    },
+    {
+      "id": "e-mart-sessiz-2",
+      "narrative": "/olaylar/hamiltona-talimat/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-mart-sessiz-2",
+      "checked": true
+    },
+    {
+      "id": "e-mart-nisan",
+      "narrative": "/olaylar/anzak-sevk-emri/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-mart-nisan",
+      "checked": true
+    },
+    {
+      "id": "e-nisan-sessiz",
+      "narrative": "/olaylar/mondrosta-cikarma-hazirligi/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-nisan-sessiz",
+      "checked": true
+    },
+    {
+      "id": "e-nisan-mayis",
+      "narrative": "/olaylar/yaralilar-misira-ulasiyor/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-nisan-mayis",
+      "checked": true
+    },
+    {
+      "id": "e-mayis-sessiz-1",
+      "narrative": "/olaylar/quinns-post-siper-baskini/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-mayis-sessiz-1",
+      "checked": true
+    },
+    {
+      "id": "e-mayis-sessiz-2",
+      "narrative": "/olaylar/yeraltindan-kazma-sesleri/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-mayis-sessiz-2",
+      "checked": true
+    },
+    {
+      "id": "e-mayis-sessiz-3",
+      "narrative": "/olaylar/ateskes-gorusmeleri/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-mayis-sessiz-3",
+      "checked": true
+    },
+    {
+      "id": "e-mayis-haziran",
+      "narrative": "/olaylar/quinns-post-lagim-taarruzu/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-mayis-haziran",
+      "checked": true
+    },
+    {
+      "id": "e-haziran-sessiz",
+      "narrative": "/olaylar/watson-iskelesi-tamamlandi/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-haziran-sessiz",
+      "checked": true
+    },
+    {
+      "id": "e-temmuz-sessiz",
+      "narrative": "/olaylar/kolera-asilamasi/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-temmuz-sessiz",
+      "checked": true
+    },
+    {
+      "id": "e-temmuz-agustos",
+      "narrative": "/olaylar/hastane-ekibi-limnide/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-temmuz-agustos",
+      "checked": true
+    },
+    {
+      "id": "e-agustos-sessiz",
+      "narrative": "/olaylar/kirectepe-taarruzu/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-agustos-sessiz",
+      "checked": true
+    },
+    {
+      "id": "e-sonbahar",
+      "narrative": "/olaylar/sonbahar-firtinasi/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-sonbahar",
+      "checked": true
+    },
+    {
+      "id": "e-kitchener-tahliye",
+      "narrative": "/olaylar/tahliye-tavsiyesi/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-kitchener-tahliye",
+      "checked": true
+    },
+    {
+      "id": "e-kasim-firtina",
+      "narrative": "/olaylar/yagmur-ve-kar-firtinasi/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-kasim-firtina",
+      "checked": true
+    },
+    {
+      "id": "e-aralik-onay",
+      "narrative": "/olaylar/ariburnu-suvla-tahliye-onayi/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-aralik-onay",
+      "checked": true
+    },
+    {
+      "id": "e-aralik-ocak",
+      "narrative": "/olaylar/seddulbahir-tahliye-emri/#kaynak-notu",
+      "sourceNote": "/kronoloji-kaynaklari/#e-aralik-ocak",
+      "checked": true
+    }
+  ],
+  "boundaries": [
+    "10 sütunlu katalog değişmedi; yeni doğrulandı etiketi verilmedi.",
+    "Mevcut chronologySource kayıtları ayrı kayıt düzenidir; model evidence katmanı birebir claim/recordId ve belge desteği arar.",
+    "Genel R12 kabulü açık: tam künye/sayfa/yaprak/yayın tarihi kapsamı ve diğer claim katmanları denetlenecek."
+  ],
+  "tests": {
+    "javascript": 297,
+    "python": 19,
+    "failures": 0,
+    "log": "R12-source-return-tests.txt"
+  },
+  "ui": "Merkez sayfada 18 dönüş bağlantısı gözlendi. 1280x720 ve 320x800: 1265/1265 ve 305/305 px. Oturum yenilendikten sonra 22 Mayıs kaynak notundan Enter ile /olaylar/ateskes-gorusmeleri/#kaynak-notu yoluna gidildi; Kanıt metni ve inceleme sınırı başlığı görüldü. Geçici boyut sıfırlandı."
+}

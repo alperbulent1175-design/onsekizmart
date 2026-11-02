@@ -1,0 +1,25 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Hat/giriş partisi sonrası yalnız yerel hash fark kaydı. Önceki manifest ve intikal delta kaydı güncel değildir. Taze uzak yedek veya yayın kabulü sayılmaz.",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "edb79a98e3b8502db728e339f947817ec47774cc0edbfb1bc84a3f17b27af80e"
+    },
+    {
+      "path": "js/data.js",
+      "sha256": "4789cb5d733cbc88d00f8ca6659e3f66ab1afe7de2ac64d895bb4a74984b33d7"
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "b9e9a20b35473f8176fd94c9972161d13271db858837a3ae1c689850b65198e3"
+    },
+    {
+      "path": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "sha256": "07451270ff1cd9b04fc9f3ef04ca9382f205edebb25d22cdea18778eb51462a7"
+    }
+  ],
+  "requires": "Yeni açık yayın talebinde envanter, kontrol ve taze uzak geri dönüş hazırlığı yenilenecek; .htaccess korunacak.",
+  "published": false
+}

@@ -1,0 +1,11 @@
+{
+  "task": "R23",
+  "scope": "Yerelfark;tammanifestdeğil.",
+  "publication": "Yeni açıktalebebağlıengelli.",
+  "files": [
+    {
+      "path": "olaylar/ariburnu-cikarmasi/index.html",
+      "sha256": "8373031787a45dd0ef237212ffc02693c5ded2f71c1e388cb5159b05bf73edf2"
+    }
+  ]
+}

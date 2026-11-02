@@ -1,0 +1,25 @@
+{
+  "task": "R09",
+  "id": "e-kasim-firtina",
+  "status": "devam ediyor",
+  "sourceUrl": "https://www.awm.gov.au/articles/blog/preliminary-stage-evacuation-anzac-cove",
+  "author": "Theresa Cronk",
+  "eventDate": "1915-11-27/28",
+  "publicationDate": "2015-11-18",
+  "accessDate": "2026-11-02",
+  "passage": "27/28Kasım anlatısı;girişte kapsam ve günlük kaynak sınırı",
+  "evidence": "27Kasımsoğuk/rüzgâr/sağanak ve gecekar;28Kasım tipi,makinelitüfek korumatedbirleri ve işlerin etkilenmesi.",
+  "verification": "AWMnin tabur günlüklerine dayalı yayımlanmış anlatısı okundu. Özgün günlük görüntüleri görülmedi.",
+  "limits": "Kayıpsayısı/sıcaklık/rüzgârhızı üretilmedi;Anzakgözlemleri bütüncepheye genellenmedi;emir ve uygulama eşitlenmedi. USNIaktarımındaki21Kasımfırtınatarihi kullanılmadı.",
+  "uiAcceptance": {
+    "desktopWidth": [
+      1265,
+      1265
+    ],
+    "mobileWidth": [
+      305,
+      305
+    ],
+    "nextLink": "Enter→Sonbahar fırtınası URL/h1 doğrulandı."
+  }
+}

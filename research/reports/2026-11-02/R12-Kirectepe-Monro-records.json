@@ -1,0 +1,113 @@
+{
+  "task": "R12",
+  "date": "2026-11-02",
+  "status": "devam ediyor",
+  "sourceRecords": [
+    {
+      "id": "e-agustos-sessiz",
+      "section": 1,
+      "record": {
+        "claim": "Gallipoli Association’ın 15 Ağustos anlatısı, Kireçtepe’deki 10. İrlanda Tümenini destekleyen 162. Tugaya güneydeki Kidney Hill çıkıntısını alma görevi verildiğini belirtir. Bu görev, Kireçtepe sırtındaki bütün taarruzun tek hedefi gibi okunmamalıdır; anlatı burada özellikle Bedfordshire birliğinin bulunduğu kesime odaklanır.",
+        "url": "https://www.gallipoli-association.org/on-this-day/august/15",
+        "sourceType": "web",
+        "bibliography": "Gallipoli Association, On This Day, 15 August; Kireçtepe ve Bedfordshire kesimine ilişkin çevrimiçi tarih anlatısı.",
+        "locator": "Giriş/destek görevi paragrafı",
+        "eventDate": "15 Ağustos 1915",
+        "recordDate": "Geriye dönük web anlatısı; yazım tarihi belirlenmedi",
+        "publicationDate": null,
+        "digitalPublicationDate": null,
+        "publicationDateNote": "Sayfanın ilk yayım ve güncelleme tarihleri bu incelemede belirlenmedi; 15 Ağustos olay başlığı web yayımı değildir.",
+        "accessDate": "2026-11-02",
+        "evidenceText": "162. Tugayın 10. İrlanda Tümenini destekleme ve Kidney Hill hedefi yerel görev olarak anlatılır.",
+        "scope": "Olay: 15 Ağustos 1915; sayfanın yayın tarihi bilinmiyor; erişim: 2 Kasım 2026. Kurumun tarih anlatısı okundu. Kaynakçada Rimmer’ın 1917 eseri ve alay sitesi anılıyor; özgün eser ve harekât emri bu incelemede okunmadı. Bu parti önceki seçili paragraf okumasını yapılandırır; Rimmer1917, alay sitesi, asıl anı ve harekât emri yeni okunmuş sayılmaz. İki pasaj aynı web anlatısıdır.",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "witnessGroup": "GallipoliAssociation-15August-narrative"
+      }
+    },
+    {
+      "id": "e-agustos-sessiz",
+      "section": 2,
+      "record": {
+        "claim": "Aynı anlatı, bu yamaçtaki çalılıkları, yarık ve derin dereleri, sıcağı ve Osmanlı tüfek–makineli tüfek ateşini ilerlemeyi güçleştiren etkenler olarak birlikte ele alır. Kidney Hill’in alınamaması ile sırtın başka kesimindeki ilerleme ayrı sonuçlardır. Bunlar kurumun yayımlanmış değerlendirmesidir; tek bir askerin deneyimi bütün orduya genellenmedi ve olayın tek nedeni ilan edilmedi.",
+        "url": "https://www.gallipoli-association.org/on-this-day/august/15",
+        "sourceType": "web",
+        "bibliography": "Gallipoli Association, On This Day, 15 August; Kireçtepe ve Bedfordshire kesimine ilişkin çevrimiçi tarih anlatısı.",
+        "locator": "Arazi, ilerleme ve farklı kesimlerin sonuç paragrafları",
+        "eventDate": "15 Ağustos 1915",
+        "recordDate": "Geriye dönük web anlatısı; yazım tarihi belirlenmedi",
+        "publicationDate": null,
+        "digitalPublicationDate": null,
+        "publicationDateNote": "Sayfanın ilk yayım ve güncelleme tarihleri bu incelemede belirlenmedi; 15 Ağustos olay başlığı web yayımı değildir.",
+        "accessDate": "2026-11-02",
+        "evidenceText": "Arazi, sıcak ve Osmanlı ateşi birlikte değerlendirilir; Kidney Hill sonucu ile sırtın diğer kesimlerinin sonuçları ayrılır.",
+        "scope": "Yalnız ilgili giriş, arazi ve sonuç paragrafları ile kaynakça bu anlatıya dayanak yapıldı. Aktarılan kişisel anıların asılları kontrol edilmedi. Yeni mesafe, zayiat, saat veya koordinat eklenmedi; DVA ile kaynak bağımsızlığı varsayılmadı. Bu parti önceki seçili paragraf okumasını yapılandırır; Rimmer1917, alay sitesi, asıl anı ve harekât emri yeni okunmuş sayılmaz. İki pasaj aynı web anlatısıdır.",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "witnessGroup": "GallipoliAssociation-15August-narrative"
+      }
+    },
+    {
+      "id": "e-agustos-sessiz",
+      "section": 3,
+      "record": {
+        "claim": "Bekir Dinç’in tezinde aktarılan 16 Ağustos tarihli Osmanlı yazısı, Kireçtepe’nin korunmasını önemli bulur; takviye kuvvet ve makineli tüfek gönderildiğini bildirerek bunların siperlerde ateşe hazır tutulmasını ister. Bu, 15 Ağustos’taki çatışmayı izleyen günün savunma hedefidir. Gönderildiği bildirilen desteğin teslimi ve emrin sahada uygulanması bu pasajla tek başına doğrulanmaz. İngiliz birliklerinin bir kesimde ilerlemesiyle bütün sırtın el değiştirmesi de aynı sonuç değildir.",
+        "url": "https://acikerisim.comu.edu.tr/server/api/core/bitstreams/81a91c95-16be-4661-a892-1018254822bd/content#page=146",
+        "sourceType": "article",
+        "bibliography": "Bekir Dinç, Çanakkale Savaşlarında Kireçtepe Muharebesi (06–16 Ağustos 1915), Çanakkale Onsekiz Mart Üniversitesi, yüksek lisans tezi, 2022.",
+        "locator": "Basılı s.127/fiziksel PDF146, dipnot376 → ATASE Kls.5776, Dos.H1, F.001-30",
+        "eventDate": "16 Ağustos 1915: savunma yazısı; bu sayfanın 15 Ağustos girişinden ayrı gün",
+        "recordDate": "Tezde aktarılan Osmanlı yazısının tarihi 16 Ağustos 1915; özgün belge görülmedi",
+        "publicationDate": "2022",
+        "digitalPublicationDate": null,
+        "publicationDateNote": "2022 tez künyesinin yılıdır; kurumsal depoya ilk yükleme tarihi ayrıca belirlenmedi.",
+        "accessDate": "2026-11-02",
+        "evidenceText": "Kireçtepe’nin korunması istenir; takviye ve makineli tüfek gönderildiği bildirilerek ateşe hazır tutulması talep edilir.",
+        "scope": "Olay/yazı: 16 Ağustos 1915; bu sayfanın 15 Ağustos girişinden ayrı gün. Yayın: ÇOMÜ yüksek lisans tezi, 2022; erişim: 2 Kasım 2026. Basılı s.127/PDF146’daki aktarım ve dipnot376 okundu. Kaynak zinciri: Dinç → ATASE Kls.5776, Dos.H1, F.001-30. Özgün arşiv belgesi ve bütün tez okunmadı; durum yayımlanmış dolaylı aktarımdır. Ansiklopedi maddesi de aynı yazara aittir; ikinci bağımsız tanık sayılmadı. Bu parti önceki seçili tez pasajı/künye okumasını yapılandırır; gönderim bildirimi teslim veya uygulama olarak doğrulanmadı.",
+        "status": "yayin_aktarimi_pasaji_okundu",
+        "witnessGroup": "Dinc-2022-ATASE5776-H1-00130-transfer"
+      }
+    },
+    {
+      "id": "e-kitchener-tahliye",
+      "section": 1,
+      "record": {
+        "claim": "Monro, sonradan yayımlanan raporunda tutulan mevzilerin derinlikten yoksun olduğunu, personel ve malzeme akışının dayandığı kıyı ve iskelelerin topçu ateşine açık kaldığını, ulaşımın hava koşullarına bağlı olduğunu belirtir. Hastalık ve önceki kayıpların birliklere etkisini de değerlendirir ve askerî bakımdan çekilmeyi uygun bulduğunu yazar. Bu, Monro’nun gerekçelendirmesidir; bütün tarafların ortak hükmü veya Kitchener’ın sonraki tavsiyesinin birebir tutanağı değildir.",
+        "url": "https://www.usni.org/magazines/proceedings/1916/may/european-war-notes",
+        "sourceType": "article",
+        "bibliography": "Charles Monro raporunun aktarımı, European War Notes, The Evacuation of Gallipoli, U.S. Naval Institute Proceedings, Mayıs 1916. Resmî rapor: London Gazette, sayı29541 eki, 10 Nisan1916, s.3777’den başlayan metin.",
+        "locator": "Proceedings aktarımında görev ve askerî durum/gerekçelendirme giriş paragrafları; Gazette s.3777 rapor başlığı/tarihi",
+        "eventDate": "1915 sonbaharındaki askerî değerlendirme;22 Kasım1915 Kitchener tavsiyesinin birebir metni değildir",
+        "recordDate": "6 Mart1916: sonradan düzenlenen raporun tarihi",
+        "publicationDate": "Resmî yayım10 Nisan1916; kullanılan Proceedings aktarımı Mayıs1916",
+        "digitalPublicationDate": null,
+        "publicationDateNote": "1916 basılı yayım tarihleri dijital aktarımın ilk yayımı sayılmaz; dijital ilk yayım ayrıca belirlenmedi.",
+        "accessDate": "2026-11-02",
+        "evidenceText": "Monro mevzilerin derinliğini, kıyıların ateşe açıklığını, hava koşullarını ve birliklerin durumunu değerlendirerek askerî bakımdan çekilmeyi uygun bulur.",
+        "scope": "Rapor: 6 Mart 1916; resmî yayının ilk sayfası London Gazette, 10 Nisan 1916, s.3777’de rapor tarihini verir. Buradaki gerekçeler Mayıs 1916 Proceedings metin aktarımının ilgili giriş paragraflarından okundu; erişim: 2 Kasım 2026. Özgün imzalı rapor, Kitchener telgrafı ve bütün dergi okunmadı. Askerî inceleme ile 22 Kasım tavsiyesi ayrı kayıtlardır. Bu parti önceki seçili paragraf okumasını yapılandırır; Gazette s.3778 erişim engeli tekrar denenmedi. Gazette tarihi ile Proceedings yayım ayı ayrı tutuldu.",
+        "status": "yayin_aktarimi_pasaji_okundu",
+        "witnessGroup": "Monro-1916-report-transfer"
+      }
+    }
+  ],
+  "sourceReview": "R09-kirectepe-narrative-scope.json;R10-kirectepe-defence-order.json;R09-evacuation-advice-narrative-scope.json seçili kayıtları tam okundu. Bu parti yeni web/belge pasajı okuması değildir.",
+  "metadataSource": {
+    "url": "https://www.thegazette.co.uk/London/issue/29541/supplement/3777/data.pdf",
+    "recordDate": "1916-03-06",
+    "publicationDate": "1916-04-10",
+    "accessDate": "2026-11-02",
+    "evidence": "Rapor başlığı/tarihinin önceki metin aktarımı incelemesi;görüntü okuması yapılmadı.",
+    "scope": "3778erişim engeli koşul değişmeden tekrar denenmedi."
+  },
+  "tests": {
+    "javascript": 299,
+    "python": 25,
+    "failures": 0,
+    "log": "R12-Kirectepe-Monro-record-tests.txt"
+  },
+  "ui": {
+    "desktop": "1280×720:1265/1265",
+    "mobile": "320×800:305/305",
+    "keyboard": "Dört ayrıntı Enter ile açıldı;Kireçtepe#anlati-3 ve tavsiye#anlati-1 dönüşleri görüldü;viewport sıfırlandı",
+    "map": "Harita/süzgeç değişmedi"
+  },
+  "acceptance": "30/36eknot;genelR12kabulü açık."
+}

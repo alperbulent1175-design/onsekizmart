@@ -1,0 +1,20 @@
+{
+  "task": "R23",
+  "date": "2026-11-02",
+  "status": "yerel dar değişiklik;yayın engelli",
+  "scope": "Tam manifest değil;commit/push/deploy yok.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "bc328f118994c1d07b7afdbaeebb906ad27db25edacea3ffde8b3b7f874bb11d"
+    },
+    {
+      "path": "build_pages.py",
+      "sha256": "a38efbcf51ee337dbd63acee38ba2865f5cc906f02390c2ba210255168aad21b"
+    },
+    {
+      "path": "olaylar/quinns-post-lagim-taarruzu/index.html",
+      "sha256": "1ef0b5895ae27763e688fa125c292931f45f54161282a5a3532d412fb83d1dcd"
+    }
+  ]
+}

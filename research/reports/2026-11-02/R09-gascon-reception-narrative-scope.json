@@ -1,0 +1,26 @@
+{
+  "task": "R09",
+  "id": "e-nisan-mayis",
+  "status": "devam ediyor",
+  "eventDate": "1915-04-29",
+  "sources": [
+    {
+      "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1069997/document/5520745.PDF#page=14",
+      "publicationYear": 1938,
+      "accessDate": "2026-10-24",
+      "currentScopeReview": "2026-11-02",
+      "verification": "Önceki s.191/195 görüntü inceleme kaydı yeniden kullanıldı, yeni görüntü okuması değil.",
+      "evidence": "Gascon arrival and Cairo hospital reception are separate passages; no patient totals copied."
+    },
+    {
+      "url": "https://www.gutenberg.org/files/41911/41911-h/41911-h.htm",
+      "publicationYear": 1918,
+      "accessDate": "2026-11-02",
+      "verification": "E-kitap aktarımında künye ve s.54başlık/tablo okundu; bütün eser değil.",
+      "evidence": "Sick and wounded received at the First Australian General Hospital",
+      "limit": "Tablo gemi adı vermez; Gascon yolcu listesi veya yalnız yaralı sayısı değildir."
+    }
+  ],
+  "scope": "Yeni sayı, zayiat veya tedavi başarısı atanmadı. Tarihsel sonuç:varış/kabul/nakil ayrımı; özgün defter karşılaştırması açık.",
+  "remaining": "Dar görünüm kabulü; R09genelkabulüaçık."
+}

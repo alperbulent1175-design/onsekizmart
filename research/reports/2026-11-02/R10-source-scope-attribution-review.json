@@ -1,0 +1,28 @@
+{
+  "task": "R10",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "changes": "Kolera başlangıcı ve Arıburnu/Suvla onayı kısa cevaplarında DVA atfı/olay kapsamı görünür yapıldı. Yeni tarihsel iddia veya yeni kaynak okuması eklenmedi.",
+  "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+  "eventDates": [
+    "1915-07-07",
+    "1915-12-07"
+  ],
+  "sourcePublicationDate": null,
+  "priorAccessDate": "2026-10-25",
+  "reviewDate": "2026-11-02",
+  "verification": "Önceki kurum pasajı okumasının mevcut chronologySource alanı karşılaştırıldı; yeni web erişimi diye tarihlenmedi.",
+  "tests": {
+    "allJavaScriptPassed": 297,
+    "mandatoryPythonPassed": 19,
+    "failed": 0,
+    "log": "research/reports/2026-11-02/R10-source-scope-attribution-tests.txt",
+    "ui": "Her iki kısa cevap1280×720/320×800görünür;1265/1265ve305/305px;boyutsıfırlandı. Harita/süzgeçdeğişmedi."
+  },
+  "siteFiles": [
+    "data/chronology-events.json",
+    "olaylar/kolera-asilamasi/index.html",
+    "olaylar/ariburnu-suvla-tahliye-onayi/index.html"
+  ],
+  "acceptance": "18/18 dar okuyucu kapsam denetimi tamam; R10 genel kabul matrisi henüz tamamlanmadı."
+}

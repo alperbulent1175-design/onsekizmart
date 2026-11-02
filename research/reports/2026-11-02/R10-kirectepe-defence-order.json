@@ -1,0 +1,34 @@
+{
+  "task": "R10",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "sourceUrl": "https://acikerisim.comu.edu.tr/server/api/core/bitstreams/81a91c95-16be-4661-a892-1018254822bd/content#page=146",
+  "author": "Bekir Dinç",
+  "title": "Çanakkale Savaşlarında Kireçtepe Muharebesi (06–16 Ağustos1915)",
+  "publicationDate": "2022",
+  "eventAndDocumentDate": "16Ağustos1915;15Ağustossayfasınınertesi günbağlamı",
+  "accessDate": "2026-11-02",
+  "readScope": "Başlık/künye;basılıs127/PDF146raporaktarımıvedipnot376;15Ağustosbölümündenseçilimişs121–122/PDF140–141pasajlarıkapsamadaylarıolarakgörüldü,fakatbunlardan yenisayı/saat/tamsonuçithaledilmedi. Bütün212sayfaokunmadı.",
+  "chain": "Dinç2022 → ATASEKls.5776,Dos.H1,F.001-30;özgünarşivbelgesigörülmedi.",
+  "evidenceParaphrase": "Kireçtepeninkorunmasıönemli,takviyevemakinelitüfekgönderildiğibildiriliyor;ateşehazırtutulmasıisteniyor.",
+  "verification": "yayinlanmis_dolayli_aktarim_pasaji_okundu_ozgun_belge_acik",
+  "limits": [
+    "Bildirilengönderim,teslimveuygulamaolarakdoğrulanmadı.",
+    "16Ağustos emri15Ağustosunemriolarakyazılmadı.",
+    "Aynıyazarınansiklopedimaddesiikinci bağımsız tanıksayılmadı.",
+    "Mevcut/kuvvetoranı/kayıp/koordinat/yenikesinsaat aktarılmadı."
+  ],
+  "siteFiles": [
+    "data/chronology-events.json",
+    "olaylar/kirectepe-taarruzu/index.html"
+  ],
+  "acceptance": "İngiliz ilerlemesi/yerelsonuçanlatısınaertesi günOsmanlıkorumahedefivebildirimsınırıeklendi. R10paketkabulüvebuolayınözgünrapor/teslim/uygulamadenetimiaçık.",
+  "nextStep": "R10-chronology-source-scope.json ilk18satırını görünüramaç/karşılaşma/sonuç ve kaynakzincirisınırlarıyla denetle; yeniDVAağırlıklıilkgeçerliaçığıseç.",
+  "tests": {
+    "allJavaScriptPassed": 297,
+    "mandatoryPythonPassed": 19,
+    "failed": 0,
+    "log": "research/reports/2026-11-02/R10-kirectepe-order-tests.txt",
+    "ui": "1280×720/320×800 başlık/yeni16Ağustoskapsamıgörünür;1265/1265ve305/305px,boyutsıfırlandı;harita/süzgeç değişmedi."
+  }
+}

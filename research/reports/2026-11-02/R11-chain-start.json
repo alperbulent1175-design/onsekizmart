@@ -1,0 +1,16 @@
+{
+  "task": "R11",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "dependsOn": "R10tamamlandı",
+  "criterion": "19Mayıstan24Mayısaneden-sonuçzinciri,kaynakpasajlarıvesaatsınırlarıylatakipedilebilmeli.",
+  "reviewed": [
+    "YolharitasıR11eylem/kabul",
+    "MONASH-EMIR-KONTROLU.md tamamı",
+    "TAARRUZ-LISTESI-2026-10-18.md Beanbölüm/saatbaşlangıcı",
+    "Mevcut19Mayısve24Mayıssayfalarınınseçilihedef/23Mayısemri/22Mayısfotoğrafparagrafları;kesilenkısımlartamokumasayılmadı."
+  ],
+  "knownScope": "23MayısN.Z.G.609emri/ertesi07.30planıve22Mayısgörüşmefotoğrafımevcutsitedezatenayrı;yenibulgusayılmayacak.",
+  "openStep": "19Mayıstaarruzunundurdurulmasıvemevzidekalma/gerihareketile22Mayısgörüşmeleriarasındakimevcutokuyucuzincirini denetle.",
+  "nextStep": "ariburnu-genel-taarruzuHTML’sindekisonuç/durdurma/gerihareketparagraflarınıtamolarakoku;ilgilibirlikraporundakiyazım–iletim–icraaşamasınaeşle."
+}

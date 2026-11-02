@@ -1,0 +1,29 @@
+{
+  "task": "R10",
+  "status": "tamamlandı",
+  "date": "2026-11-02",
+  "criterion": "Tarafların amaçları, sahadaki karşılaşma ve sonuçları birlikte anlatılmalı; görüş ile kesin olgu ayrılmalı.",
+  "scope": [
+    "18mevcutkısakronolojininbütünündekaynakperspektifi/genellemesınırıdenetimi",
+    "6seçilmişkarşılaşma:Quinn9–10Mayıs,Quinn29Mayıs,Kireçtepe,Kumkale,Arıburnu,Seddülbahir",
+    "Osmanlıemir/rapor/hatırataktarımları,ANZAKözgüngünlüğü,Britanyakarargâhgünlükleri,Fransızalayaktarımıveyayımlanmışmektupanlatısınınilgiliiddialarabağlanması"
+  ],
+  "evidenceFiles": [
+    "R10-chronology-source-scope.json",
+    "R10-encounter-acceptance-matrix.json",
+    "R10-quinn-raid-objective.json"
+  ],
+  "sourceChainLimits": [
+    "AynıkurumunfarklıURLleribağımsıztanıksayılmadı.",
+    "Argent1971/1988/AWM2015zinciriveDinçtez/ansiklopediilişkisikorundu.",
+    "P.Chagnoux2009aktarımıözgünbaskıgörüntüsüdeğil;OsmanlıLatinaktarımlarıbağımsızOsmanlıcaçözümüsayılmadı.",
+    "Saat/tarih/an/mevki/teslim/uygulamaaçıklarıokuyucudagörünür;R10kabulübunlarıçözülmüşyapmaz."
+  ],
+  "validation": "Sonokuyucudeğişikliğisonrası297/297JSve19/19zorunluPython;değişenakışlardamasaüstü/mobilvebağlamlinkidenetimlerikayıtlı. Yalnızkabulkaydısonrasıyenidentestyok.",
+  "notClaimed": [
+    "Bütün88sayfanınbütüniddialarıözgünarşivdoğrulaması",
+    "Bütünbirliklerinmevcut/zayiatcetvelleri",
+    "İlksürümünbütünüveyayayınkabulü"
+  ],
+  "nextTask": "R11"
+}

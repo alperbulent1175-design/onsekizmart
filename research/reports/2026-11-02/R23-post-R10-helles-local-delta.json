@@ -1,0 +1,11 @@
+{
+  "task": "R23",
+  "scope": "R10 Seddülbahir yerel farkı;tammanifest değil.",
+  "publication": "Yeni açık talebe bağlı engelli.",
+  "files": [
+    {
+      "path": "olaylar/seddulbahir-cikarmasi/index.html",
+      "sha256": "c43e721e06c19c75733da9f87299e88db0824385ff9a4f5d505a7db4c62109ea"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "task": "R10",
+  "status": "devam ediyor",
+  "eventDate": "1915-05-28/29",
+  "accessDate": "2026-11-02",
+  "sourceUrl": "https://dergipark.org.tr/en/download/article-file/45082#page=8",
+  "metadataUrl": "https://dergipark.org.tr/tr/pub/canakkalearastirmalari/article/52797",
+  "author": "Murat Karataş",
+  "title": "Çanakkale Muharebelerinde Lağım Muharebeleri",
+  "publicationDates": {
+    "pdfHeader": "Bahar–Güz 2008",
+    "journalRecord": "2009-04-01",
+    "digitalUploadVerified": false
+  },
+  "readScope": "PDF metin aktarımı s.49–50, 15.dipnot; Esat Paşa künyesi s.48 dipnot7 ve dergi kaynakçası. Bütün eser ve özgün hatırat okunmadı; PDF görüntüsü görülmüş sayılmadı.",
+  "sourceChain": "Karataş → Esat Paşa, Çanakkale Savaşı Hatıraları, haz. İhsan Ilgar ve Nurer Uğurlu, Örgün, 2.baskı, İstanbul 2004, s.118–119.",
+  "evidenceParaphrase": "Esat Paşa kazma seslerinden düşman lağımı kuşkusunu, uzman lağımcı talebini, gönderilmelerini ve ardından 14.Alay hazırlığını anlatır. Makale bu aktarımı 28/29 Mayıs Bombasırtı/Quinn anlatısına yerleştirir.",
+  "verification": "yayin_pasaji_okundu_dolayli_aktarim_ozgun_hatirat_acik",
+  "notImported": [
+    "Makalenin bütün cephede ilk lağım iddiası",
+    "Lağımcı sayısı ve kesin süre",
+    "03.20 saatinin kesinleştirilmesi",
+    "Dipnot14 ATASE 4528/21/02 telgrafının doğrulanmış sayılması",
+    "Kırmızısırt kazılarının Quinn ile eşitlenmesi"
+  ],
+  "siteFiles": [
+    "data/chronology-events.json",
+    "olaylar/quinns-post-lagim-taarruzu/index.html"
+  ],
+  "acceptance": "Bir mevcut olayda Osmanlı hazırlık gerekçesi, karşı tarafın hasar/geri alma anlatısıyla birlikte görünür; R10 genel kabulü açık.",
+  "nextStep": "9–10 Mayıs Bombasırtı baskını için 14.Alay kaynağının mevcut sayfa sürümünü ve asıl rapor atfını bul; arama özetiyle güncel sayfa uyuşmazlığını çözmeden iddia aktarma.",
+  "tests": {
+    "allJavaScript": {
+      "passed": 297,
+      "failed": 0
+    },
+    "mandatoryPython": {
+      "passed": 19,
+      "failed": 0
+    },
+    "log": "research/reports/2026-11-02/R10-quinn-ottoman-tests.txt",
+    "ui": {
+      "desktop": "1280×720;1265/1265px",
+      "mobile": "320×800;305/305px",
+      "headingVisible": true,
+      "sourceHrefVerified": true,
+      "viewportReset": true,
+      "mapAndFilters": "Değişmedi; bu küçük metin partisinde yeniden gezilmedi."
+    }
+  }
+}

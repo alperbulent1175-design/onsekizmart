@@ -1,0 +1,557 @@
+{
+  "task": "R04",
+  "status": "tamamlandı",
+  "reviewDate": "2026-11-01",
+  "scope": "Güncel 31 deniz kaydı. Eski bağlantı anahtarları doğrulanmış saat değildir. 9 sourceTime aşama kapsamındadır; 22 saati açık kayıt, 22 hiç incelenmemiş kayıt anlamına gelmez.",
+  "counts": {
+    "total": 31,
+    "withSourceTime": 9,
+    "withoutSourceTime": 22
+  },
+  "events": [
+    {
+      "index": 0,
+      "title": "Karargâh güne başlar",
+      "side": "turk",
+      "place": "mustahkem-hq",
+      "text": "18 Mart sabahındaki karargâh faaliyetlerinin sırası ve saatleri için belge karşılaştırması sürüyor. Hangi durum raporlarının ne zaman ulaştığı henüz belge pasajıyla eşleştirilmedi.",
+      "legacyAtlasKey": {
+        "t": "07:30",
+        "m": 450
+      },
+      "sourceTime": null,
+      "reviewStatus": "scoped_uncertainty_source_not_assigned",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#karargah-sabah-kaynagi"
+    },
+    {
+      "index": 1,
+      "title": "Donanma intikali",
+      "side": "itilaf",
+      "place": "ark-royal",
+      "text": "De Robeck raporunun aktarımında sabahki rüzgâr ve pusun ardından harekâta devam kararı anlatılır. Gemilerin limanlardan ayrılış saatleri ve toplanma sırası bu kayıt için kesinleştirilmedi.",
+      "legacyAtlasKey": {
+        "t": "08:30",
+        "m": 510
+      },
+      "sourceTime": null,
+      "reviewStatus": "report_transfer_scoped_movement_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#intikal-harekat-karari",
+      "sourceNote": "24 Mart de Robeck raporunun çevrimyazısında sabah rüzgâr/pus, 08.26 karar ve 10.30 planı okundu; bu saatler limandan ayrılış değildir. Özgün görüntü bu tur açılamadı."
+    },
+    {
+      "index": 2,
+      "title": "İlk yaklaşma raporu",
+      "side": "turk",
+      "place": "seddulbahir",
+      "text": "Hatip’in aktarımı, Yenişehir gözetleme postası ile hava keşfi raporlarını birlikte ele alır. Raporların iletilme saatleri özgün belgelerle karşılaştırılıyor.",
+      "legacyAtlasKey": {
+        "t": "08:45",
+        "m": 525
+      },
+      "sourceTime": null,
+      "reviewStatus": "academic_transfer_scoped_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#gozetleme-alarm-kaynagi",
+      "sourceNote": "Hatip s.180 / PDF20; Semiz s.239 / PDF19 ve s.231 / PDF11 dipnot zinciri incelendi. Özgün alarm emri, 1969 s.38 ve 1947 gazete s.4 görülmedi; kesin saat atanmadı."
+    },
+    {
+      "index": 3,
+      "title": "Genel muharebe alarmı",
+      "side": "turk",
+      "place": "mustahkem-hq",
+      "text": "Hatip’in anlatısında bu raporlar savunma tesislerine alarm verilmesiyle ilişkilendirilir. Emrin metni, ulaştığı birlikler ve uygulama saati henüz kesinleştirilmedi.",
+      "legacyAtlasKey": {
+        "t": "09:00",
+        "m": 540
+      },
+      "sourceTime": null,
+      "reviewStatus": "academic_transfer_scoped_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#gozetleme-alarm-kaynagi",
+      "sourceNote": "Hatip s.180 / PDF20; Semiz s.239 / PDF19 ve s.231 / PDF11 dipnot zinciri incelendi. Özgün alarm emri, 1969 s.38 ve 1947 gazete s.4 görülmedi; kesin saat atanmadı."
+    },
+    {
+      "index": 4,
+      "title": "Savaş düzeni ve telsiz sessizliği",
+      "side": "itilaf",
+      "place": null,
+      "text": "Raporun 10.30 aktarımı gemilerin muharebeye hazır bildirimini ve A hattının ilerleyişini kaydeder. Bu kayıt için telsiz sessizliği emri ve bütün mürettebatın görev yerlerine geçiş saati doğrulanmadı.",
+      "legacyAtlasKey": {
+        "t": "09:00",
+        "m": 540
+      },
+      "sourceTime": null,
+      "reviewStatus": "report_transfer_readiness_movement_scoped",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#a-hatti-hazirlik-giris",
+      "sourceNote": "24 Mart raporunun 10.30 hazır bildirimi, A hattı ve öncü muhrip pasajı okundu. Telsiz emri, bütün personelin görev yeri saati veya giriş çizgisinin tam geçiş anı doğrulanmadı."
+    },
+    {
+      "index": 5,
+      "title": "Gözetleme tepesine intikal",
+      "side": "turk",
+      "place": "kilitbahir",
+      "text": "Cevat Bey’in gözetleme faaliyeti bu kayıtta ele alınır. Gözetleme yerine geçişin saati ve ateş açma mesafesine ilişkin emir belgeyle eşleştirilmedi.",
+      "legacyAtlasKey": {
+        "t": "09:30",
+        "m": 570
+      },
+      "sourceTime": null,
+      "reviewStatus": "existing_reader_scope_rechecked_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#cevat-hareket-kapsami"
+    },
+    {
+      "index": 6,
+      "title": "Boğaz girişinin geçilmesi",
+      "side": "itilaf",
+      "place": "seddulbahir",
+      "text": "Rapor aktarımında tarama donanımlı muhripler A hattının önünde ilerler. Giriş çizgisinin tam geçiş saati kesinleştirilmedi; Queen Elizabeth’in bütün filonun en önünde olduğu söylenmez.",
+      "legacyAtlasKey": {
+        "t": "10:00",
+        "m": 600
+      },
+      "sourceTime": null,
+      "reviewStatus": "report_transfer_readiness_movement_scoped",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#a-hatti-hazirlik-giris",
+      "sourceNote": "24 Mart raporunun 10.30 hazır bildirimi, A hattı ve öncü muhrip pasajı okundu. Telsiz emri, bütün personelin görev yeri saati veya giriş çizgisinin tam geçiş anı doğrulanmadı."
+    },
+    {
+      "index": 7,
+      "title": "İlk atış emri",
+      "side": "itilaf",
+      "place": null,
+      "text": "Filonun merkez tabyalara yönelik taarruz başlangıcı ele alınır. Bu kartın kesin emir saati, atış mesafesi ve bayrak işareti ayrıntısı belgeyle eşleştirilmedi; Queen Elizabeth’in rapordaki ateşe başlama kaydı ayrı gösterilir.",
+      "legacyAtlasKey": {
+        "t": "10:30",
+        "m": 630
+      },
+      "sourceTime": null,
+      "reviewStatus": "existing_reader_scope_rechecked_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#queen-elizabeth-saat-incelemesi"
+    },
+    {
+      "index": 8,
+      "title": "Queen Elizabeth’in ateşe başlaması",
+      "side": "itilaf",
+      "place": "cimenlik",
+      "text": "Queen Elizabeth için raporun ateşe başlama kaydı 11.25’tir; bütün filonun ilk atışı sayılmaz.",
+      "legacyAtlasKey": {
+        "t": "11:00",
+        "m": 660
+      },
+      "sourceTime": {
+        "time": "11:25",
+        "kind": "ateşe başlama",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "opened fire",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "reviewStatus": "existing_stage_evidence_requires_scope_review",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#queen-elizabeth-saat-incelemesi"
+    },
+    {
+      "index": 9,
+      "title": "Seyyar bataryalara serbest atış",
+      "side": "turk",
+      "place": "dardanos",
+      "text": "Seyyar bataryalar ve Dardanos’un ateşe katılması inceleniyor. Cevat Bey’e atfedilen serbest atış emrinin özgün metni, muhatabı ve iletim saati henüz belgeyle eşleştirilmedi.",
+      "legacyAtlasKey": {
+        "t": "11:00",
+        "m": 660
+      },
+      "sourceTime": null,
+      "reviewStatus": "existing_reader_scope_rechecked_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#ilk-karsilik-kapsami"
+    },
+    {
+      "index": 10,
+      "title": "İlk Türk karşılığı",
+      "side": "turk",
+      "place": "mesudiye",
+      "text": "Çeliker’in sonraki anlatısı, merkez tabyaları menzil nedeniyle susarken Dardanos ve Mesudiye’nin karşılık verebildiğini belirtir. Bu pasaj bütün Osmanlı bataryalarının ilk ateş anını veya Şevket bataryasının aynı anda ateşe başladığını doğrulamaz.",
+      "legacyAtlasKey": {
+        "t": "11:30",
+        "m": 690
+      },
+      "sourceTime": null,
+      "reviewStatus": "existing_reader_scope_rechecked_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#ilk-karsilik-kapsami"
+    },
+    {
+      "index": 11,
+      "title": "Agamemnon ve Inflexible isabet alır",
+      "side": "itilaf",
+      "place": null,
+      "text": "Rapor aktarımı Agamemnon’un ateş altında manevrasını, Inflexible’ın ön köprü yangını ve atış kontrol yeri hasarını ayrı anlatır. İki geminin isabet anları ve anten hasarı bu kayıt için kesinleştirilmedi.",
+      "legacyAtlasKey": {
+        "t": "11:35",
+        "m": 695
+      },
+      "sourceTime": null,
+      "reviewStatus": "report_transfer_gunfire_damage_scoped",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#agamemnon-inflexible-hasar-ayrimi",
+      "sourceNote": "12.47 Agamemnon manevrası; 12.56 Inflexible ön köprü yangını gözlemi; 13.25 Inflexible hattan ayrılışı. Ortak isabet anı değildir. Anten ve mermi türü açık."
+    },
+    {
+      "index": 12,
+      "title": "Fransız B Hattı hücum emri",
+      "side": "itilaf",
+      "place": null,
+      "text": "Fransız hattına ilerleme emri 12.06’da verildi; mevziye varış ayrı aşamadır.",
+      "legacyAtlasKey": {
+        "t": "12:00",
+        "m": 720
+      },
+      "sourceTime": {
+        "time": "12:06",
+        "kind": "emir",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "were ordered",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "reviewStatus": "existing_stage_evidence_requires_scope_review",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#asama-saatleri"
+    },
+    {
+      "index": 13,
+      "title": "Ağır tabyalara ateş",
+      "side": "turk",
+      "place": "anadolu-hamidiye",
+      "text": "Merkez tabyaların ateşe katılması ele alınır. Cevat Bey’e atfedilen emrin metni, iletim saati ve Fransız gemilerinin o andaki mesafesi için belge karşılaştırması tamamlanmadı.",
+      "legacyAtlasKey": {
+        "t": "12:00",
+        "m": 720
+      },
+      "sourceTime": null,
+      "reviewStatus": "report_observation_scoped_order_or_count_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#agir-tabya-emri-kapsami",
+      "sourceNote": "24 Mart raporunun 12.32 karşılıklı ateş ve 13.15 Suffren gözlemi okundu; Osmanlı emir metni, kesin isabet cetveli ve eski atlas saati doğrulanmadı."
+    },
+    {
+      "index": 14,
+      "title": "Göğüs göğüse düello",
+      "side": "both",
+      "place": "anadolu-hamidiye",
+      "text": "Gemi ve kıyı bataryaları arasındaki karşılıklı ateş ele alınır. Suffren’in kesin isabet sayısı ve tabyaların tek tek ateş durumu bu kayıt için belgeyle eşleştirilmedi; Gaulois’nın hasar ve karaya oturma aşamaları ayrıca incelenir.",
+      "legacyAtlasKey": {
+        "t": "12:20",
+        "m": 740
+      },
+      "sourceTime": null,
+      "reviewStatus": "report_observation_scoped_order_or_count_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#gemi-tabya-ates-gozlemi",
+      "sourceNote": "24 Mart raporunun 12.32 karşılıklı ateş ve 13.15 Suffren gözlemi okundu; Osmanlı emir metni, kesin isabet cetveli ve eski atlas saati doğrulanmadı."
+    },
+    {
+      "index": 15,
+      "title": "Saf değişimi",
+      "side": "itilaf",
+      "place": null,
+      "text": "Raporda Fransız hattına 13.43’te çekilme emri verilir. Yeni hattın ileri geçişi 14.32’de kaydedilir; emir ile hareket ayrı aşamalardır.",
+      "legacyAtlasKey": {
+        "t": "13:45",
+        "m": 825
+      },
+      "sourceTime": {
+        "time": "13:43",
+        "kind": "çekilme emri",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "ordered out",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yalnız belirtilen rapor aşaması okundu; özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "reviewStatus": "existing_stage_evidence_requires_scope_review",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#asama-saatleri"
+    },
+    {
+      "index": 16,
+      "title": "Bouvet mayına çarpar",
+      "side": "both",
+      "place": "bouvet",
+      "text": "Bouvet için rapordaki patlama kaydı 13.54’tür; batışın iki dakika içinde gerçekleştiği anlatılır. Bu saat raporun gözlemidir; özgün raporla karşılaştırma açık; kesin kayıp toplamı ayrıca araştırılıyor.",
+      "legacyAtlasKey": {
+        "t": "13:54",
+        "m": 834
+      },
+      "sourceTime": {
+        "time": "13:54",
+        "kind": "patlama kaydı",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "1.54",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yalnız belirtilen rapor aşaması okundu; özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "reviewStatus": "existing_stage_evidence_requires_scope_review",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#bouvet-saat-incelemesi"
+    },
+    {
+      "index": 17,
+      "title": "Inflexible’ın mayın isabeti bildirimi",
+      "side": "itilaf",
+      "place": "inflexible",
+      "text": "Inflexible’ın mayın isabeti bildirim saati 16.11’dir; isabetin kesin anı değildir.",
+      "legacyAtlasKey": {
+        "t": "14:14",
+        "m": 854
+      },
+      "sourceTime": {
+        "time": "16:11",
+        "kind": "bildirim",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "reported",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "reviewStatus": "existing_stage_evidence_requires_scope_review",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#inflexible-saat-incelemesi"
+    },
+    {
+      "index": 18,
+      "title": "Gaulois karaya oturtulur",
+      "side": "itilaf",
+      "place": "tavsan",
+      "text": "Karaya oturma anlatısı rapor çevrimyazısında bulunur. Kesin saat, hasar ayrıntıları ve Drepano–Tavşan eşleştirmesi belgeyle doğrulanmadı.",
+      "legacyAtlasKey": {
+        "t": "14:35",
+        "m": 875
+      },
+      "sourceTime": null,
+      "reviewStatus": "existing_reader_scope_rechecked_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#gaulois-kaynak"
+    },
+    {
+      "index": 19,
+      "title": "Cevat Bey’in hareketlerine ilişkin kayıtlar",
+      "side": "turk",
+      "place": "mecidiye",
+      "text": "Cevat Paşa’nın karargâha dönüşü ve komutayı yürütmesi inceleniyor. Mecidiye ve Namazgâh’a atla gidiş anlatısı ile bu hareketin saati belgeyle eşleştirilmedi.",
+      "legacyAtlasKey": {
+        "t": "14:45",
+        "m": 885
+      },
+      "sourceTime": null,
+      "reviewStatus": "existing_reader_scope_rechecked_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#cevat-hareket-kapsami"
+    },
+    {
+      "index": 20,
+      "title": "Seyit Onbaşı ve elle yükleme",
+      "side": "turk",
+      "place": "mecidiye",
+      "text": "Havran Belediyesinin aktardığı hatırada Seyit’in elle mermi taşıması anlatılır. Niğdeli Ali’nin rolü, kesin işlem sırası ve bu hareketin saati özgün belgeyle eşleştirilmedi.",
+      "legacyAtlasKey": {
+        "t": "15:15",
+        "m": 915
+      },
+      "sourceTime": null,
+      "reviewStatus": "memoir_web_transfer_scoped_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#seyit-elle-yukleme-kaynagi",
+      "sourceNote": "Havran Belediyesinin Yetkin mülakatı ve Yedikıta 79 aile röportajı aktarımı okundu. Gazete, ceride, kesin saat ve ortak yükleme işlemi doğrulanmadı."
+    },
+    {
+      "index": 21,
+      "title": "Irresistible mayına çarpar",
+      "side": "itilaf",
+      "place": "irresistible",
+      "text": "İsabet saati ve hasar ayrıntılarının belge karşılaştırması tamamlanmadı. Enkaz noktası isabet yeri olarak alınamaz.",
+      "legacyAtlasKey": {
+        "t": "16:11",
+        "m": 971
+      },
+      "sourceTime": null,
+      "reviewStatus": "existing_reader_scope_rechecked_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#tahliye-batis-ayrimi"
+    },
+    {
+      "index": 22,
+      "title": "Wear tahliye edilenlerle döner",
+      "side": "itilaf",
+      "place": "irresistible",
+      "text": "Wear tahliye edilenlerle 16.50’de Queen Elizabeth’e döndü; bu tahliyeye başlama veya Irresistible’ın batış saati değildir.",
+      "legacyAtlasKey": {
+        "t": "16:32",
+        "m": 992
+      },
+      "sourceTime": {
+        "time": "16:50",
+        "kind": "dönüş",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "returned",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yayımlanmış raporun çevrimyazısı okundu; bu saat yalnız belirtilen aşamaya aittir. Özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "reviewStatus": "existing_stage_evidence_requires_scope_review",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#tahliye-batis-ayrimi"
+    },
+    {
+      "index": 23,
+      "title": "Ocean mayına çarpar",
+      "side": "itilaf",
+      "place": "ocean",
+      "text": "Filo raporu Ocean’ın mayın isabetini 18.05 olarak verir. Jed’in 17.55 ve Colne’un 18.00 tahliye kayıtlarıyla saat farkı çözülmedi; gemi saatleri kendiliğinden eşitlenmez. Bu saat batış zamanı değildir.",
+      "legacyAtlasKey": {
+        "t": "16:45",
+        "m": 1005
+      },
+      "sourceTime": {
+        "time": "18:05",
+        "kind": "isabet kaydı",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-25",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "6.5",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "Yalnız belirtilen rapor aşaması okundu; özgün gemi jurnaliyle karşılaştırma açık."
+      },
+      "reviewStatus": "existing_stage_evidence_requires_scope_review",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#colne-ocean-saat-farki"
+    },
+    {
+      "index": 24,
+      "title": "B hattına çekilme emri",
+      "side": "both",
+      "place": "mustahkem-hq",
+      "text": "24 Mart tarihli rapor, Irresistible’ın mayın isabeti öğrenilince B hattına 16.50’de çekilme emri verildiğini kaydeder. Bu, bütün filonun Boğaz’dan çıkış saati değildir; eski Signal No. 12 numarası bu pasajla doğrulanmaz.",
+      "legacyAtlasKey": {
+        "t": "17:00",
+        "m": 1020
+      },
+      "sourceTime": {
+        "time": "16:50",
+        "kind": "B hattına çekilme emri",
+        "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-24",
+        "accessDate": "2026-10-26",
+        "status": "rapor_cevrimyazisi_okundu",
+        "evidenceText": "4.50. - ... orders were given for line \"B\" to withdraw.",
+        "timeSystem": "Raporda GMT+2 yerel saat; günümüz Türkiye saati değildir.",
+        "limit": "B hattına emir aşamasıdır; bütün filonun çıkışı veya Signal No. 12 numarası değildir. Özgün rapor ve sinyal defteriyle karşılaştırma açık."
+      },
+      "reviewStatus": "existing_stage_evidence_requires_scope_review",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#b-hatti-cekilme-emri"
+    },
+    {
+      "index": 25,
+      "title": "Dardanos rasat yeri şehit düşer",
+      "side": "turk",
+      "place": "dardanos",
+      "text": "Dardanos’taki gözetleme ve irtibat mevkiine ilişkin kayıp anlatısı ele alınır. İsabet eden merminin kalibresi, hangi gemiden atıldığı, personel listesi ve komutanın görevi devralma sırası için belge karşılaştırması tamamlanmadı.",
+      "legacyAtlasKey": {
+        "t": "17:15",
+        "m": 1035
+      },
+      "sourceTime": null,
+      "reviewStatus": "existing_reader_scope_rechecked_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#dardanos-sarf-isabet"
+    },
+    {
+      "index": 26,
+      "title": "Filo Ege’ye çıkar",
+      "side": "both",
+      "place": "seddulbahir",
+      "text": "Filonun kesin çıkış saati, sırası ve son atış anlatısının belge karşılaştırması tamamlanmadı.",
+      "legacyAtlasKey": {
+        "t": "17:45",
+        "m": 1065
+      },
+      "sourceTime": null,
+      "reviewStatus": "existing_reader_scope_rechecked_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#queen-elizabeth-saat-incelemesi"
+    },
+    {
+      "index": 27,
+      "title": "Vengeance’ın ateşi kesmesi ve çıkışı",
+      "side": "itilaf",
+      "place": null,
+      "text": "Vengeance’ın 18 Mart seyir günlüğü, geminin akşam 6.29’da ateşi kesip Boğaz dışına yöneldiğini kaydeder. Bu tek geminin kaydıdır; bütün filonun veya Osmanlı bataryalarının ateşi aynı anda kestiğini göstermez.",
+      "legacyAtlasKey": {
+        "t": "18:00",
+        "m": 1080
+      },
+      "sourceTime": {
+        "time": "18:29",
+        "kind": "Vengeance’ın ateşi kesmesi",
+        "url": "https://oldweather.s3.amazonaws.com/ADM%2053-67111/ADM%2053-67111-034_1.jpg",
+        "eventDate": "1915-03-18",
+        "documentDate": "1915-03-18",
+        "accessDate": "2026-10-26",
+        "status": "gunluk_goruntusu_ilgili_satir_okundu",
+        "evidenceText": "6.29 Ceased fire - procd out of Dardanelles",
+        "timeSystem": "Günlükteki PM 6.29, 18.29 olarak yazıldı. GMT veya günümüz Türkiye saatine dönüşüm yapılmadı.",
+        "limit": "Yalnız Vengeance’ın ateşi kesip çıkışa yönelmesi; bütün filonun veya Osmanlı bataryalarının son atışı değildir. Diğer günlüklerle karşılaştırma açık."
+      },
+      "reviewStatus": "existing_stage_evidence_requires_scope_review",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#vengeance-ates-kesme"
+    },
+    {
+      "index": 28,
+      "title": "Zafer raporu",
+      "side": "turk",
+      "place": "mustahkem-hq",
+      "text": "Günün sonucuna ilişkin raporlama bu kayıtta ele alınır. Cevat Bey’den Enver Paşa’ya gönderildiği ileri sürülen telgrafın özgün metni, gönderim saati ve bu telgrafa atfedilen gemi sayısı belgeyle eşleştirilmedi. Kutlama telgrafları aynı günün harekât raporu yerine kullanılamaz.",
+      "legacyAtlasKey": {
+        "t": "18:15",
+        "m": 1095
+      },
+      "sourceTime": null,
+      "reviewStatus": "existing_reader_scope_rechecked_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#zafer-raporu-kaynagi"
+    },
+    {
+      "index": 29,
+      "title": "Irresistible batar",
+      "side": "itilaf",
+      "place": "irresistible",
+      "text": "Kesin batış saati doğrulanmadı. Geminin terk edilmesi ve gece aramasında bulunamaması, batış anının gözlemlendiği anlamına gelmez.",
+      "legacyAtlasKey": {
+        "t": "19:30",
+        "m": 1170
+      },
+      "sourceTime": null,
+      "reviewStatus": "existing_reader_scope_rechecked_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#tahliye-batis-ayrimi"
+    },
+    {
+      "index": 30,
+      "title": "Ocean batar",
+      "side": "itilaf",
+      "place": "ocean",
+      "text": "Ocean’ın 18 Mart’ta batışı kaynak notunda ele alınır. Bu kaydın 22:30 saati özgün gemi raporuyla kesinleştirilmedi; gece arama ve tespit anlatısı için belge incelemesi açık.",
+      "legacyAtlasKey": {
+        "t": "22:30",
+        "m": 1350
+      },
+      "sourceTime": null,
+      "reviewStatus": "existing_reader_scope_rechecked_time_open",
+      "readerNote": "/olaylar/18-mart-deniz-muharebesi/#tahliye-batis-ayrimi"
+    }
+  ],
+  "next": "31 kartın mevcut okuyucu metni ve sourceTime alanlarını kabul matrisinde belge tarihi/saat sistemi/kanıt/açık soru alanlarıyla eşleştir; yeni tarihsel araştırma yerine eksik alanı açıkça belirle.",
+  "acceptanceMatrix": "R04-acceptance-matrix.json"
+}

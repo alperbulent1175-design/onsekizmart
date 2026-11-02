@@ -1,0 +1,55 @@
+{
+  "task": "R10",
+  "status": "devam ediyor",
+  "eventDate": "1915-04-25/26",
+  "accessDate": "2026-11-02",
+  "sourceUrl": "https://horizon14-18.eu/wa_files/Historique_2056eRIC.pdf#page=3",
+  "title": "Historique du 56e Régiment d’Infanterie Coloniale",
+  "sourceForm": "P.Chagnoux 2009 dijital metin aktarımı; özgün baskı sayfa görüntüsü değil",
+  "originalPublicationDate": null,
+  "digitalTransferDate": "2009",
+  "readScope": "PDF1başlık/birim adı,PDF3görev ve taarruz hedefleri;PDF4mezarlık/güneye genişleme başarısızlığı ve gece ihtiyatların sokulmasına kadar. Bütün12sayfa veya devamındaki beyaz bayrak olayı okunmadı.",
+  "evidenceParaphrase": "Görev köy/kale/mezarlık ile güneye ilerlemeyi içeriyor. Sonraki anlatı mezarlık/güneye girişimleri sonuçsuz ve akşama tahkimata dönüş olarak açıklıyor; gece ihtiyatların savunmaya sokulmasını anlatıyor.",
+  "verification": "dijital_metin_aktarimi_pasaji_okundu_ozgun_baski_acik",
+  "viewpoint": "Alayın kendi mücadelesini yücelten anlatısı; düşman niyeti, üstünlük oranları ve etnik betimlemeler bağımsız olgu yapılmadı.",
+  "identityLimit": "Başlık56eRIC;Nisanolayını metin6eRégimentMixte olarak anlatıyor. SonrakiadNisanbirliği adı gibi kullanılmadı.",
+  "comparison": "ATBD2136köyün yarısı raporu ile gözlem saati/siper sınırı eşlenmedi. Fransız tarihçesi Osmanlıraporunu çürütmüş sayılmadı.",
+  "notImported": [
+    "08.30/10.30/21.00/02.30saatleri",
+    "tutunma emrindeki üçgünün fiilîkalış olarak sunulması",
+    "mevcut/zayiat/cephane/mekansalmetre sayıları",
+    "beyazbayrak olayının yorumu",
+    "özgünharekâtemri veya JMO okunmuşsayılması"
+  ],
+  "blockedSources": [
+    {
+      "url": "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/notices_files/SHDGR_INV_21N_25N_1872_1919.pdf",
+      "result": "Zaman aşımı;envanter okunmadı."
+    },
+    {
+      "url": "https://www.horizon14-18.eu/wa_files/56eRIC.pdf",
+      "result": "Araçerişimine kapalı; aramadan gelen ayrıHistorique_2056eRIC.pdfmetni erişilebilir."
+    }
+  ],
+  "siteFiles": [
+    "olaylar/kumkale-oyalama-cikarmasi/index.html"
+  ],
+  "acceptance": "Kumkale mevcut sayfasına Fransız alayının hedef/gelişme anlatısı ve Osmanlı durumraporuyla kıyas sınırı eklendi. R10 genel kapsamı ve özgün birlikgünlüğü açık.",
+  "nextStep": "Mevcut Seddülbahir/Kerevizdere sayfalarının hedefleriyle Fransız tarihçesinin sonraki ilgili bölümünü eşleştir; Kumkale aktarımını tüm Fransız cephesine genelleme.",
+  "tests": {
+    "allJavaScriptPassed": 297,
+    "mandatoryPythonPassed": 19,
+    "failed": 0,
+    "log": "research/reports/2026-11-02/R10-kumkale-french-tests.txt",
+    "ui": "Yeni başlık ve kıyas sınırı masaüstü1280×720/mobil320×800görünür;1265/1265 ve305/305px;href doğrulandı,boyut sıfırlandı;harita/süzgeç değişmedi."
+  },
+  "nextPassageRead": {
+    "scope": "PDF6 Kérévès-Déré başlangıcı ve devamındaki tarihler metin aktarımından görüldü; henüz siteye eklenmedi.",
+    "finding": "MetinKumkale sonrası önce acil takviye talebi,sonra29Nisanbirliğin bütününün Avrupa yakasında bulunmasını anlatır. BütünFransızbirliklerinin aynı tarihte çıkması demekdeğil.",
+    "cautions": [
+      "Aynı bölüm20moisve28Mayıssonrası20günileride8/9Mayıstan söz eder; aktarımın kronolojik yazım hataları çözülmedi.",
+      "2/3Mayıs,5Mayısve8/9Mayısaçıklamaları yeni kesin kronoloji yapılmayacak.",
+      "29Nisanaktarımı kullanılacaksa yalnız bu alayın anlatımı olarak ve aktarım sınırıyla sunulmalı."
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "limits": "Quantity-flag triage only; zero pending flags is not completion of R03, historical verification, all numeric claims, or UI acceptance.",
+  "blocks": []
+}

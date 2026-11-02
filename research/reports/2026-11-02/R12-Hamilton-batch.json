@@ -1,0 +1,38 @@
+{
+  "task": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "changed": [
+    {
+      "id": "e-mart-nisan",
+      "section": 1
+    },
+    {
+      "id": "e-nisan-sessiz",
+      "section": 1
+    },
+    {
+      "id": "e-nisan-sessiz",
+      "section": 2
+    },
+    {
+      "id": "e-mayis-sessiz-3",
+      "section": 1
+    },
+    {
+      "id": "e-sonbahar",
+      "section": 1
+    },
+    {
+      "id": "e-sonbahar",
+      "section": 2
+    }
+  ],
+  "pages": [
+    "olaylar/anzak-sevk-emri/index.html",
+    "olaylar/ateskes-gorusmeleri/index.html",
+    "olaylar/mondrosta-cikarma-hazirligi/index.html",
+    "olaylar/sonbahar-firtinasi/index.html"
+  ],
+  "scope": "Önceden okunmuş altı kaynak notunun yapılandırılması; yeni özgün belge okuması veya yeni tarihsel iddia değil. Basılı sayfası bilinmeyen bölümde tarihli giriş konumlayıcıdır. Eski pasaj erişim tarihleri korunur."
+}

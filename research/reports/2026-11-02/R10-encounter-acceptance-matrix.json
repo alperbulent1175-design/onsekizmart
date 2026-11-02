@@ -1,0 +1,58 @@
+{
+  "task": "R10",
+  "status": "tamamlandı",
+  "date": "2026-11-02",
+  "scope": "Yolharitasındaki seçilmiş olaylarda kaynak dengesi ve görüş/olgu ayrımı için6/6editoryalkabul. 18kısakayıtta kaynak-perspektif/genelleme denetimi ayrıca18/18. Özgün arşivlerin tamamının doğrulanması değildir.",
+  "rows": [
+    {
+      "page": "olaylar/quinns-post-siper-baskini/index.html",
+      "status": "tamamlandı",
+      "criterionAssessment": "9MayısözgüngünlüktaramasındaQuinn’sPostönündekikarşısiperlerehücumkararıgörüldüveokuyucuyaişlendi. Osmanlı10Mayıskarşıhücumhedefiyle,geçicisiperkazanımı/ertesisabahdönüşayrıaşamalarolarakgörünür.",
+      "sourceChain": "15.Tabur günlüğü → mevcutgörüntüokuması; Öz2025 → 27.Alay2018s111. Karşılıklı tam birlik/saat eşlemesi yok.",
+      "sha256": "f626c7f214edfa725bb0b767214a32b038bfb6116570addf08a22db07ad03818",
+      "acceptanceScope": "Yalnızseçilmişolaydaamaç/karşılaşma/sonuç/görüşsınırınınokuyucudagörünürlüğü. Tümözgünbelgelerindoğrulanmasıdeğil."
+    },
+    {
+      "page": "olaylar/quinns-post-lagim-taarruzu/index.html",
+      "status": "tamamlandı",
+      "criterionAssessment": "Osmanlı hazırlık gerekçesi ve siper altına yaklaşma bağlamı; ANZAK bağlantı hasarı/takviye/geri alma/onarım akışı birlikte, saat ve tünel hedef sınırları görünür.",
+      "sourceChain": "Karataş → EsatPaşa2004hatıratı; AWMharekâtraporu. Argent1971/1988/AWM2015 bağımsızüçtanık değildir.",
+      "sha256": "70aa0eb7929169ae7858685d7644bdba9db2e78e2c9d3bf3c4ae252f260ec597",
+      "acceptanceScope": "Yalnızseçilmişolaydaamaç/karşılaşma/sonuç/görüşsınırınınokuyucudagörünürlüğü. Tümözgünbelgelerindoğrulanmasıdeğil."
+    },
+    {
+      "page": "olaylar/kirectepe-taarruzu/index.html",
+      "status": "tamamlandı",
+      "criterionAssessment": "İngilizyerelhedef/ilerlemeyiengelleyenetken/yerelsonuç ileertesi16AğustosOsmanlıkorumaemriayrıgünolarakgörünür. Destekbildirimi teslim/uygulama değildir.",
+      "sourceChain": "GallipoliAssociation → yayımlanmışyerelanlatı; Dinç2022 → ATASE5776/H1/001-30. Aynıyazarınansiklopedisiikincitanıkdeğil.",
+      "sha256": "cdc0943821c055d201de4c2c1ced79fe6f2701a7d4c024e78c620ee13db8192e",
+      "acceptanceScope": "Yalnızseçilmişolaydaamaç/karşılaşma/sonuç/görüşsınırınınokuyucudagörünürlüğü. Tümözgünbelgelerindoğrulanmasıdeğil."
+    },
+    {
+      "page": "olaylar/kumkale-oyalama-cikarmasi/index.html",
+      "status": "tamamlandı",
+      "criterionAssessment": "Fransızsınırlıgörev/mezarlıkvegüneyegirişimler/akşamtahkimat ileOsmanlıuzaklaştırmaemri/geceköykapsamıbirlikte. Mevki/anuyuşmazlığıaçık.",
+      "sourceChain": "1916görevli mektubu,56eRIC2009aktarımı,ATBD2134/2136Latinaktarımları ayrı türler. Özgün baskı/Osmanlıca/JMO tamdoğrulamasıdeğil.",
+      "sha256": "bb0d81851fb37f747533cce620a61c7cf99c67603acad5d88cbfc4a7d0a3c7cf",
+      "acceptanceScope": "Yalnızseçilmişolaydaamaç/karşılaşma/sonuç/görüşsınırınınokuyucudagörünürlüğü. Tümözgünbelgelerindoğrulanmasıdeğil."
+    },
+    {
+      "page": "olaylar/ariburnu-cikarmasi/index.html",
+      "status": "tamamlandı",
+      "criterionAssessment": "Genelİtilafplanamacıbu incelemede somutlaştırıldı;ilk sırtlar/yereldirenme/kıyıdatutunma ileOsmanlıgüniçihaberiaynısonuçyapılmadı. Birlik/an/kesimeşlemesiaçık.",
+      "sourceChain": "AWMplan/landing/bloodydayaynıkurumaait;Aker1935sonrakianlatı;ATBD2133Latinaktarımla komutahaberi.",
+      "sha256": "8373031787a45dd0ef237212ffc02693c5ded2f71c1e388cb5159b05bf73edf2",
+      "acceptanceScope": "Yalnızseçilmişolaydaamaç/karşılaşma/sonuç/görüşsınırınınokuyucudagörünürlüğü. Tümözgünbelgelerindoğrulanmasıdeğil."
+    },
+    {
+      "page": "olaylar/seddulbahir-cikarmasi/index.html",
+      "status": "tamamlandı",
+      "criterionAssessment": "İngiliz29.Tümengörevi/kumsalkarşılaşması/kıyıdatutunma ileOsmanlısonuçhaberiyok/geceemri;Fransızsonrakigeçişikapsamıayrı.",
+      "sourceChain": "AWMsergiözetiveATBD2133/2134;56eRIC2009aktarımıFransızsonrakigeçişiniyorumlar. Gövde/alt tarih farkıgörünür.",
+      "sha256": "c43e721e06c19c75733da9f87299e88db0824385ff9a4f5d505a7db4c62109ea",
+      "acceptanceScope": "Yalnızseçilmişolaydaamaç/karşılaşma/sonuç/görüşsınırınınokuyucudagörünürlüğü. Tümözgünbelgelerindoğrulanmasıdeğil."
+    }
+  ],
+  "openCondition": null,
+  "nextStep": "R11:19–24Mayısolayzinciri"
+}

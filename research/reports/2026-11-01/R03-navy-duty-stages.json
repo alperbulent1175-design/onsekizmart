@@ -1,0 +1,51 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "reviewDate": "2026-11-01",
+  "page": "donanma/index.html",
+  "source": {
+    "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+    "eventDate": "1915-03-18",
+    "reportDate": "1915-03-24",
+    "publicationDate": null,
+    "accessDate": "2026-11-01",
+    "evidence": "orders were given for line \"B\" to withdraw",
+    "scope": "Report 4.50 entry and10.30 formation selected transcription read; original logs and full work not read."
+  },
+  "changes": [
+    {
+      "ship": "queen-elizabeth",
+      "result": "B-line withdrawal order not treated as QE actual movement or A-line leadership.",
+      "claimVerified": false
+    },
+    {
+      "ship": "lord-nelson",
+      "result": "First-fire sequence not proof of uninterrupted line presence. Prior25Oct source retained.",
+      "claimVerified": false
+    },
+    {
+      "ship": "prince-george",
+      "result": "Duty bounded to10.30 port-beam formation already stated in prose.",
+      "claimVerified": "selected_report_stage_only"
+    },
+    {
+      "ship": "agamemnon",
+      "result": "Unmatched deck/wireless damage detail no longer asserted from first-fire passage. Damage record remains open; not proof of no damage.",
+      "claimVerified": false,
+      "priorReview": "research/reports/2026-10-25/R03-navy-report-consistency.json",
+      "evidence": null,
+      "eventDate": "1915-03-18",
+      "publicationDate": null,
+      "accessDate": null
+    }
+  ],
+  "uiAcceptance": {
+    "nusret": "complete narrow desktop/mobile/map-return check; see prior residuals record",
+    "queen-elizabeth": "desktop1265/mobile305 no overflow; revised passage viewed on both; name search1/30",
+    "lord-nelson": "2026-11-01: prior mobile305 accepted; new laptop1366 full-page screenshot inspected, scoped outcome visible; name-only1/30.",
+    "prince-george": "2026-11-01: prior mobile305 accepted; new laptop1366 full-page screenshot inspected,10.30 scope visible; name-only1/30.",
+    "blocker": "Earlier CUA tool still absent; UISight allowed limited remaining render checks. Its viewport screenshots did not follow scroll as expected; only full-page captures counted. Prior CUA149 cleanup remains unverified.",
+    "agamemnon": "2026-11-01: laptop1366 and Pixel7 emulation412 full-page screenshots inspected; damage gap visible; name-only1/30. Not physical device, not320px."
+  },
+  "next": "Agamemnon exact damage evidence remains open; NSW direct passage and Naval Review archive unavailable. Continue R03 current navy duty/outcome fields after the four listed candidates, without repeating accepted UI checks."
+}

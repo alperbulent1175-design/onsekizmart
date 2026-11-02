@@ -1,0 +1,15 @@
+{
+  "task": "R23",
+  "scope": "R10 Kireçtepe yerel farkı;tammanifest değil.",
+  "publication": "Yeni açık talebe bağlı engelli.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "b1018c51d5c65118e7e8e0d3d6814eac0d36c19eef284142e9a86f912e4c181f"
+    },
+    {
+      "path": "olaylar/kirectepe-taarruzu/index.html",
+      "sha256": "cdc0943821c055d201de4c2c1ced79fe6f2701a7d4c024e78c620ee13db8192e"
+    }
+  ]
+}

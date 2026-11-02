@@ -1,0 +1,17 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Limni hastanesi sonrası yerel iki dosya; tam yayınmanifesti değil. Önceki ilgili veri hashleri güncel değil.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "01dab99ec3e7173db410997005e33ff088f8d3d237921a2fe1dda3ca1356a8e6"
+    },
+    {
+      "path": "olaylar/hastane-ekibi-limnide/index.html",
+      "sha256": "ef63a1106d514b81e1c76adf690b487e83d92e8787a91a0ecd575921e50e409b"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi ve taze tam envanter/uzak geri dönüş; .htaccess korunacak."
+}

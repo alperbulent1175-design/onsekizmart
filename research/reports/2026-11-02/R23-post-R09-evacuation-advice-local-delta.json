@@ -1,0 +1,17 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Tahliye tavsiyesi sonrası yerel iki dosya; tam yayınmanifesti değil.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "55955fd0e2cc04b1f0d46ec5cac0f1c3c8394d86bfadb2e2b25b1cc5b255695f"
+    },
+    {
+      "path": "olaylar/tahliye-tavsiyesi/index.html",
+      "sha256": "b61c6dbda88d9e441bffda198d306efdb03d53017966fcfadb914eadb8a7b23a"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi ve taze tam envanter/uzak geri dönüş; .htaccess korunacak."
+}

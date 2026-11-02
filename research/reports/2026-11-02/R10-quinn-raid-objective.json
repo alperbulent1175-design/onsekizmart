@@ -1,0 +1,32 @@
+{
+  "task": "R10",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "eventAndDocumentDate": "1915-05-09",
+  "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1004304/large/4922380.JPG",
+  "catalogueUrl": "https://www.awm.gov.au/collection/C1342882",
+  "document": "AWM4 23/32/7,görüntü4/yaprak46",
+  "publicationDate": null,
+  "accessDate": "2026-11-02",
+  "readScope": "9Mayıshedef/hazırlık/hücumsatırlarıtarayıcıdagörüntüdenokundu. 63sayfanıntümüokunmadı.",
+  "evidenceParaphrase": "Quinn’sPostönündekikarşısiperlerehücumkararı;hazırlık/planlananvesonrakiuygulamasatırlarıayrı.",
+  "verification": "ozgun_gunluk_taramasi_ilgili_pasaj_goruntuden_okundu",
+  "limits": [
+    "Kararıalanisim/rütbe elyazısından yeniden kesinleştirilmedi.",
+    "Hücumhedefisiperolarakbelirli;kalıcıelde tutmayıvebütünbirliklerinhedeflerini bukısapasajtekbaşınagöstermez.",
+    "Saatkalibrasyonu veya21.00/22.30aşamasıyenikesinsaatyapılmadı.",
+    "Webgörüntü/PDFscreenshoterişimhatalarısonrasıtarayıcıdaasıl2048×1336görüntüaçıldı; başarısızaraççağrılarıokumasayılmadı."
+  ],
+  "siteFiles": [
+    "data/chronology-events.json",
+    "olaylar/quinns-post-siper-baskini/index.html"
+  ],
+  "acceptance": "R10matrisininsonhedefcümlesiaçığı,görüntüdegerçek kararcümlesiylegiderildi;nihai paketkabulütest/UIsonrasıyazılacak.",
+  "tests": {
+    "allJavaScriptPassed": 297,
+    "mandatoryPythonPassed": 19,
+    "failed": 0,
+    "log": "research/reports/2026-11-02/R10-quinn-objective-tests.txt",
+    "ui": "1280×720/320×800yenihedefbaşlığıgörünür;1265/1265ve305/305px,boyutsıfırlandı,harita/süzgeçdeğişmedi."
+  }
+}

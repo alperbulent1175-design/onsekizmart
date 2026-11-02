@@ -1,0 +1,67 @@
+{
+  "task": "R03",
+  "status": "devam ediyor",
+  "scope": "Equipment/unit noun supplemental search across current 88 published static pages. Exact blocks read; not historical verification, not proof that every numerical claim is covered.",
+  "quantity_flags": 79,
+  "pending_quantity_flags": 0,
+  "stale_reviews": 0,
+  "supplemental_blocks": [
+    {
+      "page": "donanma/index.html",
+      "tag": "p",
+      "line": 741,
+      "text": "Proceedings, Ocak 1904, cilt 30/1/109, Britanya bölümü iki geminin Home Fleet hizmetine alınması niyetini gerekli kordit mühimmatının sağlanması koşuluyla aktarır. Bu niyet, teslim veya hizmete giriş gerçekleşti kaydı değildir. İlgili web pasajı okundu; atfedilen United Service Gazette ve Times özgün nüshaları incelenmedi. Yayın: Ocak 1904; erişim: 26 Ekim 2026; teslim günü belirtilmez.",
+      "links": [
+        "https://www.usni.org/magazines/proceedings/1904/january/professional-notes"
+      ],
+      "quantity_candidate": false,
+      "text_sha256": "9a6dc4ddb978468fbb51559ca44cfdd19b4f0e638cb114160466164282ad2bfb",
+      "review_status": "unreviewed_candidate",
+      "supplemental_review_note": "R03-swiftsure-triumph.json supply_source:iki gemi için hizmete alma niyeti,mühimmat koşulu;teslim/uygulama değil."
+    },
+    {
+      "page": "donanma/index.html",
+      "tag": "p",
+      "line": 742,
+      "text": "Bu değerler 1914 sınıf anlatısıdır; 18 Mart 1915 gemiye özgü fiilî donatım cetvelleri değildir. Kemer, taret ve top kaidesi koruması birbirinin yerine kullanılmaz. Personel kadrosu gerçek günlük mevcuda veya zayiata çevrilmedi; milimetre ve direnç hesabı yapılmadı. İnceleme: ilgili iki bölüm ve sınıf tablolarının çevrimyazısı okundu; özgün baskı görüntüsü ve bütün eser incelenmedi. Basılı yayın: 1914; e-kitap yayımı: 3 Mart 2017, güncelleme: 23 Ekim 2024; erişim: 26 Ekim 2026. Teknik anlatının belirli olay günü yoktur.",
+      "links": [],
+      "quantity_candidate": false,
+      "text_sha256": "b1ae19102066f60cf139f888b88e6d34990945e33d54439714779affe4ee8e69",
+      "review_status": "unreviewed_candidate",
+      "supplemental_review_note": "1915gemiye özgü ifadesindeki1915yıl;iki bölüm inceleme kapsamı.Sınıf1914/fiilî1915ayrımı korunur."
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "tag": "p",
+      "line": 167,
+      "text": "19 Ekim 2026 — kurum arşivindeki daktilo kopyası görüntüden okundu. AWM RCDIG1066703, bölüm 7 içindeki 47 numaralı belge sayfasında iki geminin aramada bulunamaması anlatılır: No trace of either ship could be found . Görüntü dosyası page65 adını taşır. Bu, batış anının doğrudan gözlemi değildir; kesin batış saatini vermez. Kurum kopyası ile aşağıdaki çevrimyazı aynı rapor aktarımı olabilir; bağımsız iki tanıklık sayılmadı. Platform transkripsiyonu onay beklemektedir.",
+      "links": [
+        "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+        "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5"
+      ],
+      "quantity_candidate": false,
+      "text_sha256": "db51147fe9fdde6919225df32a35d3ca3bf4fedde5e2f412c8e37e4713e70ad4",
+      "review_status": "unreviewed_candidate",
+      "supplemental_review_note": "İki geminin aramada bulunamaması batış anı veya kesin saat değildir;kurumkopyası/çevrimyazı bağımsız tanıklık sayılmıyor."
+    },
+    {
+      "page": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "tag": "p",
+      "line": 169,
+      "text": "19 Ekim 2026 — çevrimyazı okundu; özgün görüntü karşılaştırması açık. 24 Mart tarihli harekât raporu , Ocean’ın yaklaşık 19.30’da terk edildiğini anlatır: finally abandoned . İki geminin gece aramasında bulunamaması için No trace of either ship could be found ifadesini kullanır. Terk ve arama kayıtları kesin batış saatini vermez; Irresistible’ın 19.30, Ocean’ın 22.30 atlas anahtarları bunlarla doğrulanmaz.",
+      "links": [
+        "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm"
+      ],
+      "quantity_candidate": false,
+      "text_sha256": "4aacbf1bd5af63ecc4f4fcb22b7479c0a9c9cdfc98b82aceaa4312e4f06fc69e",
+      "review_status": "unreviewed_candidate",
+      "supplemental_review_note": "İki geminin aramada bulunamaması ile terk/batış evreleri ayrı;19.30/22.30atlas anahtarları doğrulanmış saat değil."
+    }
+  ],
+  "limits": [
+    "2065general numeric blocks include dates and IDs;quantity flags are prioritization only.",
+    "Existing JS data cleanup/model render review not repeated.",
+    "General R03 and pending UI acceptance remain open.",
+    "No new external access, no source status promoted."
+  ]
+}

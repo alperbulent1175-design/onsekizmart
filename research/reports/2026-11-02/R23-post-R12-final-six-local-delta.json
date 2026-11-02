@@ -1,0 +1,24 @@
+{
+  "task": "R23",
+  "date": "2026-11-02",
+  "status": "yerel dar değişiklik;yayın engelli",
+  "scope": "Tam manifest değil;commit/push/deploy yok.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "b6ce2ed6459b438b45296ad2cf8d989c77b07a6f792b622964f6b4b63f7fe900"
+    },
+    {
+      "path": "olaylar/yagmur-ve-kar-firtinasi/index.html",
+      "sha256": "81d5365af2c131ed001933fdd1e2b7318d73b8a39a591795eb2cbaf6f3d28695"
+    },
+    {
+      "path": "olaylar/ariburnu-suvla-tahliye-onayi/index.html",
+      "sha256": "3669992cf3b6a7586a3478882fc639c9af1b650665693dc8e4e184d72c3509c4"
+    },
+    {
+      "path": "olaylar/seddulbahir-tahliye-emri/index.html",
+      "sha256": "8aadb1ab3fd99bc4c062154be381a91318a77fcb82a2a7502226f66649484adc"
+    }
+  ]
+}

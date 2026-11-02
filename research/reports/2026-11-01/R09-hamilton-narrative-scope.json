@@ -1,0 +1,24 @@
+{
+  "task": "R09",
+  "id": "e-mart-sessiz-2",
+  "status": "devam ediyor",
+  "sourceUrl": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+  "bookEdition": "Ian Hamilton, Gallipoli Diary, Vol.I, New York: George H. Doran Company, 1920",
+  "digitalPublicationDate": "2006-09-19",
+  "accessDate": "2026-11-01",
+  "entryHeadingDate": "1915-03-15",
+  "eventDates": [
+    "1915-03-12",
+    "1915-03-13"
+  ],
+  "passages": [
+    "The Start, s.8–9: görüşmeyi geriye dönerek anlatım; kuvvet hazırlığı/parça parça taarruz sınırı",
+    "The Start, s.14–15:13Mart taslaklar ve onaylı kopya"
+  ],
+  "shortEvidence": [
+    "No piecemeal attack is to be made",
+    "both this corrected draft and the copy as finally approved"
+  ],
+  "verification": "E-kitap aktarımındaki seçili paragraflar/künye okundu; kitap görüntüsü, el yazısı defter veya imzalı özgün talimat görülmedi.",
+  "limit": "DVA13Mart kurum özetiyle birlikte kullanıldı; iki metin bağımsız resmî tasdik sayılmadı. Komşu düşman mevcut/top sayıları veya kişisel yorumlar aktarılmadı. Önceki29Ekim şartlıtalimat/bağlantı kabulü yeniden yapılmış sayılmadı."
+}

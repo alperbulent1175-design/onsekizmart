@@ -1,0 +1,20 @@
+{
+  "task": "R23",
+  "date": "2026-11-02",
+  "status": "yerel dar değişiklik;yayın engelli",
+  "scope": "Tam manifest değil;commit/push/deploy yok.",
+  "files": [
+    {
+      "path": "js/data.js",
+      "sha256": "ae9e67e7053ad38d66a79f11bf7e2a4f77468e10ae1437ef60a0b17fa5fa4d45"
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "a34648efb604b36a5d3b7fe97b9d456834e290f7868471579e590f23dcbac8e6"
+    },
+    {
+      "path": "index.html",
+      "sha256": "a5276e3987897fe915d28b462b53fdd3cecaff57061a2302e6c7db4b71dbc5b1"
+    }
+  ]
+}

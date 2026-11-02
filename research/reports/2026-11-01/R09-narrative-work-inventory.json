@@ -1,0 +1,431 @@
+{
+  "task": "R09",
+  "status": "tamamlandı",
+  "scope": "Mevcut18sayfa; yeni sayfa yok. R03 sayısal kabulü yeniden açılmaz. Alan varlığı tek başına derin anlatı kabulü değildir.",
+  "rows": [
+    {
+      "id": "e-mart-sessiz-1",
+      "title": "Mayın tarama girişimleri",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "1 March 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Bu kayıt donanmanın geçiş girişimindeki mayın temizleme aşamasıdır; mayın taramak ile güvenli geçit açmak aynı sonuç değildir.",
+      "acceptancePending": [],
+      "acceptanceLimit": "Bu sayfanın mevcut kurum özeti kapsamındaki neden/girişim sonucu/sonraki olay/belirsizlik kabulü. Özgün görev/emir belgesi veya R10 taraf dengesi tamamlandı sayılmaz.",
+      "evidenceRecord": "R09-minesweeping-narrative-scope.json",
+      "buildAcceptance": "Neden/sonuç bölümleri ve sonraki olay bağlantısı build girdisinde; ikinci hedef build değişiklik üretmedi.",
+      "uiAcceptance": {
+        "desktopWidth": [
+          1265,
+          1265
+        ],
+        "mobileWidth": [
+          305,
+          305
+        ],
+        "nextLink": "Enter ile18Martbaşlığı/URLdoğrulandı; ilk fare tıklaması geçiş üretmedi, fare genel kabulü verilmedi."
+      }
+    },
+    {
+      "id": "e-mart-sessiz-2",
+      "title": "Hamilton’a talimat",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "13 March 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Kitchener’in talimatı kara kuvvetlerinin hangi koşulda kullanılacağını belirler. Talimat, o gün bir çıkarma yapıldığı anlamına gelmez.",
+      "acceptancePending": [],
+      "evidenceRecord": "../2026-11-01/R09-hamilton-narrative-scope.json",
+      "change": "Şartlı talimatın hazırlığı ile12Mart görüşme/13Mart taslak-onaylı kopya/15Mart başlıklı yayımlanmış kayıt ayrımı build girdisine işlendi.",
+      "acceptanceLimit": "Mevcut anlatının kaynak/pasaj, aşama ve belirsizlik kabulü; özgün emir/taşıma belgesinin tam doğrulaması veya bütünR09/R10kapanışı değil.",
+      "uiAcceptance": {
+        "desktop": [
+          1265,
+          1265
+        ],
+        "mobile": [
+          305,
+          305
+        ],
+        "headingCheck": "İki yeni anlatı başlığı iki boyutta DOMda görüldü.",
+        "onward": "ANZAK→Arıburnu bağlantısı Enter ile doğruURL/h1 açtı; Hamilton önceki bağlantı kabulü tekrar sayılmadı."
+      }
+    },
+    {
+      "id": "e-mart-nisan",
+      "title": "ANZAK sevk emri",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "1 April 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Emir Mısır’daki ANZAK Kolordusuna yöneliktir. Hareket emrinin alınması, birliklerin aynı gün Gelibolu kıyısına ulaştığı anlamına gelmez.",
+      "acceptancePending": [],
+      "evidenceRecord": "../2026-11-02/R09-anzak-embarkation-scope.json",
+      "acceptanceLimit": "Mevcut anlatının kaynak/pasaj, aşama ve belirsizlik kabulü; özgün emir/taşıma belgesinin tam doğrulaması veya bütünR09/R10kapanışı değil.",
+      "uiAcceptance": {
+        "desktop": [
+          1265,
+          1265
+        ],
+        "mobile": [
+          305,
+          305
+        ],
+        "headingCheck": "İki yeni anlatı başlığı iki boyutta DOMda görüldü.",
+        "onward": "ANZAK→Arıburnu bağlantısı Enter ile doğruURL/h1 açtı; Hamilton önceki bağlantı kabulü tekrar sayılmadı."
+      }
+    },
+    {
+      "id": "e-nisan-sessiz",
+      "title": "Mondros’ta çıkarma hazırlığı",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "20 April 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Mondros, Limni Adası’ndaki hazırlık alanıdır. Gemilerin burada toplanmasıyla Gelibolu’da kıyıya çıkılması ayrı aşamalardır.",
+      "acceptancePending": [],
+      "evidenceRecord": "../2026-11-02/R09-mudros-weather-orders-scope.json",
+      "acceptanceLimit": "Mevcut sayfanın kaynaklı anlatı/ayrı aşama/belirsizlik ve sonraki okuma kabulü; özgün belge zincirinin tamamı veya R09/R10/R15 genel kabulü değil.",
+      "uiAcceptance": {
+        "desktop": [
+          1265,
+          1265
+        ],
+        "mobile": [
+          305,
+          305
+        ],
+        "heads": "İki yeni anlatı başlığı iki boyutta DOMda görüldü.",
+        "onward": "Mondros→Seddülbahir veArıburnu;Gascon→sağlık bağlantıları Enterile doğruURLaçtı."
+      }
+    },
+    {
+      "id": "e-nisan-mayis",
+      "title": "Yaralılar Mısır’a ulaşıyor",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "29 April 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Gascon’un İskenderiye’ye ulaşması, cepheden Mısır’a uzanan yaralı tahliye zincirinin bir aşamasıdır. Varış tarihi bütün yaralıların aynı gün hastaneye kabul edildiğini göstermez.",
+      "acceptancePending": [],
+      "evidenceRecord": "../2026-11-02/R09-gascon-reception-narrative-scope.json",
+      "acceptanceLimit": "Mevcut sayfanın kaynaklı anlatı/ayrı aşama/belirsizlik ve sonraki okuma kabulü; özgün belge zincirinin tamamı veya R09/R10/R15 genel kabulü değil.",
+      "uiAcceptance": {
+        "desktop": [
+          1265,
+          1265
+        ],
+        "mobile": [
+          305,
+          305
+        ],
+        "heads": "İki yeni anlatı başlığı iki boyutta DOMda görüldü.",
+        "onward": "Mondros→Seddülbahir veArıburnu;Gascon→sağlık bağlantıları Enterile doğruURLaçtı."
+      }
+    },
+    {
+      "id": "e-mayis-sessiz-1",
+      "title": "Quinn’s Post siper baskını",
+      "status": "tamamlandı",
+      "sourceUrl": "https://www.awm.gov.au/collection/C1342882",
+      "sourcePassage": "Görüntü 4–5 / yaprak 46–47; 9–10 Mayıs 1915",
+      "sourceStatus": "gunluk_goruntusu_ilgili_pasaj_okundu",
+      "existingContext": "15. Taburun günlüğü 9 Mayıs için 21.00 planını ve hücumun 22.30’a ertelenmesini ayırır. Devam sayfası eski mevziye ertesi sabah 06.00’da dönüşü, ardından 07.00 karşı taarruzunu anlatır. Bunlar günlüğün yerel kayıtlarıdır; saat sistemi karşı tarafla kalibre edilmedi.",
+      "acceptancePending": [],
+      "evidenceRecord": "../2026-11-02/R09-quinn-raid-narrative-scope.json",
+      "acceptanceLimit": "Mevcut kaydın kaynaklı anlatı/aşama/belirsizlik ve sonraki okuma kabulü; bütünR09veya iki tarafın bütün belgeleri doğrulandı sayılmaz.",
+      "uiAcceptance": {
+        "desktop": [
+          1265,
+          1265
+        ],
+        "mobile": [
+          305,
+          305
+        ],
+        "onward": "Her iki sayfadan29Mayısayrıolayı Enterile doğruURLaçtı; başlıklar iki boyutta görüldü."
+      }
+    },
+    {
+      "id": "e-mayis-sessiz-2",
+      "title": "Yeraltından kazma sesleri",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "17 May 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Kazma seslerinin duyulması bir gözlem kaydıdır. Bu gözlem tek başına lağımın uzunluğunu, tam güzergâhını veya patlatılacağı zamanı belirlemez.",
+      "acceptancePending": [],
+      "evidenceRecord": "../2026-11-02/R09-slack-observation-narrative-scope.json",
+      "acceptanceLimit": "Mevcut kaydın kaynaklı anlatı/aşama/belirsizlik ve sonraki okuma kabulü; bütünR09veya iki tarafın bütün belgeleri doğrulandı sayılmaz.",
+      "uiAcceptance": {
+        "desktop": [
+          1265,
+          1265
+        ],
+        "mobile": [
+          305,
+          305
+        ],
+        "onward": "Her iki sayfadan29Mayısayrıolayı Enterile doğruURLaçtı; başlıklar iki boyutta görüldü."
+      }
+    },
+    {
+      "id": "e-mayis-sessiz-3",
+      "title": "Ateşkes görüşmeleri",
+      "status": "tamamlandı",
+      "sourceUrl": "https://www.awm.gov.au/collection/C45317",
+      "sourcePassage": "22 May 1915",
+      "sourceStatus": "fotograf_katalog_aciklamasi_okundu",
+      "existingContext": "AWM fotoğraf künyesi Kemal Ohri’nin Birdwood karargâhından Osmanlı hatlarına dönüşünü tanımlar. Görüşme günü ile 24 Mayıs defin ateşkesi birbirinden ayrıdır.",
+      "acceptancePending": [],
+      "acceptanceScope": "Dar anlatı: defin amacı, görüşmeden dönüş, önceki gün aktarılan temasın ayrı tutulması, yetki/usul sorunu ve 24 Mayıs uygulamasına geçiş. R09 bütünü veya imzalı anlaşma doğrulaması değildir.",
+      "evidenceRecord": "2026-11-02/R09-truce-negotiation-narrative-scope.json",
+      "buildAcceptance": "Kaynaklı paragraf, görünür kapsam ve defin anlatısına geçiş build girdisi/hedef HTML içinde.",
+      "uiAcceptance": {
+        "desktopWidth": [
+          1265,
+          1265
+        ],
+        "mobileWidth": [
+          305,
+          305
+        ],
+        "nextLink": "Enter ile gömme ateşkesi URL ve h1 doğrulandı."
+      }
+    },
+    {
+      "id": "e-mayis-haziran",
+      "title": "Quinn’s Post lağım taarruzu",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "29 May 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Kaynak, lağım patlamasının ardından Osmanlı askerlerinin mevziye girdiğini ve mücadele sonunda çıkarıldığını anlatır. Geçici siper kaybı, mevzinin kalıcı olarak el değiştirmesi değildir.",
+      "acceptancePending": [],
+      "acceptanceScope": "Dar neden/gelişme/sonuç anlatısı: bağlantı tahribatı ve takviye güçlüğü; emir/haber/geri alma/onarım ayrı. Osmanlı hazırlığı ve saat farkı açık, genel R09 değil.",
+      "evidenceRecord": "2026-11-02/R09-quinn-mine-narrative-scope.json",
+      "buildAcceptance": "İki kaynaklı bölüm ve önceki ayrı baskına bağlantı hedef build içinde.",
+      "uiAcceptance": {
+        "desktopWidth": [
+          1265,
+          1265
+        ],
+        "mobileWidth": [
+          305,
+          305
+        ],
+        "nextLink": "Yenileme sonrası yeni iki başlık görüldü; Enter ile9–10Mayıs URL/h1 doğrulandı."
+      }
+    },
+    {
+      "id": "e-haziran-sessiz",
+      "title": "Watson İskelesi tamamlandı",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "19 June 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "İskele erzak ve teçhizatın karaya çıkarılması için yapıldı. Yapının tamamlanması, ikmalin bütün sorunlarının o gün çözüldüğünü göstermez.",
+      "acceptancePending": [],
+      "acceptanceScope": "Dar anlatı kabulü: ikmal amacı/yapım ilişkisi ve gün farkı görünür. Özgün teslim tarihi çözülmüş veya menü okunmuş sayılmaz.",
+      "evidenceRecord": "2026-11-02/R09-watson-next-evidence.json",
+      "uiAcceptance": {
+        "desktopWidth": [
+          1265,
+          1265
+        ],
+        "mobileWidth": [
+          305,
+          305
+        ],
+        "nextLink": "Enter→Sonbahar fırtınası URL/h1 doğrulandı."
+      }
+    },
+    {
+      "id": "e-temmuz-sessiz",
+      "title": "Kolera aşılaması",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "7 July 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Kaynak Anzak sahasında aşılamanın başlamasını kaydeder. Başlangıç kaydı bütün personelin aşılandığı veya cephede kolera salgını bulunduğu sonucunu tek başına desteklemez.",
+      "acceptancePending": [],
+      "acceptanceScope": "Dar anlatı kabulü: dönemin koruyucu gerekçesi, Anzak başlangıç kaydı ve bilinmeyen uygulama sonucu ayrıldı. Salgın/kişi/doz doğrulaması ve genel R09 değil.",
+      "evidenceRecord": "2026-11-02/R09-cholera-prevention-narrative-scope.json",
+      "uiAcceptance": {
+        "desktopWidth": [
+          1265,
+          1265
+        ],
+        "mobileWidth": [
+          305,
+          305
+        ],
+        "nextLink": "Enter→sağlık-ve-tahliye URL/h1 doğrulandı."
+      }
+    },
+    {
+      "id": "e-temmuz-agustos",
+      "title": "Hastane ekibi Limni’de",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "29 July 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Kaynak hastane donanımının başka bir gemiyle daha sonra ulaştığını da belirtir. Ekibin adaya varışı, hastanenin tam kapasiteyle hasta kabulüne başlamasıyla aynı tarih sayılmadı.",
+      "acceptancePending": [],
+      "acceptanceScope": "Dar kuruluş/bakım/donanım anlatısı ve tarih farkı görünür. DVA29Temmuzun özgün varış doğrulaması veya genel R09/R15 değil.",
+      "evidenceRecord": "2026-11-02/R09-lemnos-hospital-narrative-scope.json",
+      "uiAcceptance": {
+        "desktopWidth": [
+          1265,
+          1265
+        ],
+        "mobileWidth": [
+          305,
+          305
+        ],
+        "nextLink": "Enter→sağlık-ve-tahliye URL/h1 doğrulandı."
+      }
+    },
+    {
+      "id": "e-agustos-sessiz",
+      "title": "Kireçtepe taarruzu",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "15 August 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Kaynak Kireçtepe sırtındaki İngiliz ilerlemesini sınırlı olarak niteler. Bu kısa sonuç bilgisi birliklerin bütün hareketlerini veya kesin durma çizgisini vermez.",
+      "acceptancePending": [],
+      "acceptanceScope": "Dar anlatı kabulü: destek görevi/yerel engeller/farklı kesim sonuçları/sonraki olay ve kaynak sınırı. Osmanlı emri ve genel R09/R10 değil.",
+      "evidenceRecord": "2026-11-02/R09-kirectepe-narrative-scope.json",
+      "uiAcceptance": {
+        "desktopWidth": [
+          1265,
+          1265
+        ],
+        "mobileWidth": [
+          305,
+          305
+        ],
+        "nextLink": "Enter→İkinci Anafartalar URL/h1 doğrulandı."
+      }
+    },
+    {
+      "id": "e-sonbahar",
+      "title": "Sonbahar fırtınası",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "8 October 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Kayıt özellikle Anzak Koyu’ndaki su ikmali hasarına işaret eder. Yarımadanın bütün kesimlerinin aynı ölçüde zarar gördüğü sonucu çıkarılmadı.",
+      "acceptancePending": [],
+      "acceptanceScope": "Dar anlatı: fırtına/ikmal hasarı/rapor/alternatif öneri/sonraki olay ayrı. Önerinin uygulanması ve tam hasar cetveli doğrulaması değil.",
+      "evidenceRecord": "2026-11-02/R09-autumn-storm-narrative-scope.json",
+      "uiAcceptance": {
+        "desktopWidth": [
+          1265,
+          1265
+        ],
+        "mobileWidth": [
+          305,
+          305
+        ],
+        "nextLink": "Enter→yağmur ve kar fırtınası URL/h1 doğrulandı."
+      }
+    },
+    {
+      "id": "e-kitchener-tahliye",
+      "title": "Tahliye tavsiyesi",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "22 November 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Bu aşama bir tavsiyedir. Hükümet onayı ve birliklerin gemilere bindirilmesi sonraki, ayrı karar ve uygulama aşamalarıdır.",
+      "acceptancePending": [],
+      "acceptanceScope": "Dar anlatı: önceki askerî gerekçe ve tavsiye/onay/uygulama ayrımı. Kitchener22Kasım telgrafının özgün doğrulaması ve genelR09 değil.",
+      "evidenceRecord": "2026-11-02/R09-evacuation-advice-narrative-scope.json",
+      "uiAcceptance": {
+        "desktopWidth": [
+          1265,
+          1265
+        ],
+        "mobileWidth": [
+          305,
+          305
+        ],
+        "nextLink": "Enter→Arıburnu–Suvla tahliye onayı URL/h1 doğrulandı."
+      }
+    },
+    {
+      "id": "e-kasim-firtina",
+      "title": "Yağmur ve kar fırtınası",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "27 November 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Kaynak yağmur ve gök gürültülü havanın tipi koşullarına dönüşmesini anlatır. Buradan iki tarafın kesin donma veya ölüm sayıları hesaplanmadı.",
+      "acceptancePending": [],
+      "acceptanceScope": "Dar anlatı kabulü: gün akışı, donanım/iş etkileri, yerel kapsam ve ayrıEkimolayına geçiş. Bütüncephe kaybı/özgün günlük doğrulaması değil.",
+      "evidenceRecord": "2026-11-02/R09-november-storm-narrative-scope.json",
+      "uiAcceptance": {
+        "desktopWidth": [
+          1265,
+          1265
+        ],
+        "mobileWidth": [
+          305,
+          305
+        ],
+        "nextLink": "Enter→Sonbahar fırtınası URL/h1 doğrulandı."
+      }
+    },
+    {
+      "id": "e-aralik-onay",
+      "title": "Arıburnu–Suvla tahliye onayı",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "7 December 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Onay Arıburnu ve Suvla mevzilerinden çekilmeye ilişkindir. Seddülbahir’in başlangıçta tutulması, tahliyenin tek karar ve tek geceden ibaret olmadığını gösterir.",
+      "acceptancePending": [],
+      "acceptanceScope": "Dar anlatı kabulü: azaltma aşamaları ve açık kıyı/hava/gizlilik sınırlamaları. İmzalı hükümet kararı/tüm birlik uygulaması/genelR09 değil.",
+      "evidenceRecord": "2026-11-02/R09-evacuation-approval-narrative-scope.json",
+      "uiAcceptance": {
+        "desktopWidth": [
+          1265,
+          1265
+        ],
+        "mobileWidth": [
+          305,
+          305
+        ],
+        "nextLink": "Enter→Seddülbahir tahliye emri URL/h1 doğrulandı."
+      }
+    },
+    {
+      "id": "e-aralik-ocak",
+      "title": "Seddülbahir tahliye emri",
+      "status": "tamamlandı",
+      "sourceUrl": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "sourcePassage": "27 December 1915",
+      "sourceStatus": "kurumsal_ozet_pasaji_okundu",
+      "existingContext": "Seddülbahir için verilen tahliye emri, Arıburnu–Suvla kararından ayrı tutulur. Emir tarihi ile son birliklerin ayrılış tarihi aynı şey değildir.",
+      "acceptancePending": [],
+      "acceptanceScope": "Dar anlatı: ayrıHelleskararı,askerîbağlam,alım/hazırlıkplanı ve sonayrılışbağlantısı.27/28farkıözgünemirleçözülmedi.",
+      "evidenceRecord": "2026-11-02/R09-helles-order-narrative-scope.json",
+      "uiAcceptance": {
+        "desktopWidth": [
+          1265,
+          1265
+        ],
+        "mobileWidth": [
+          305,
+          305
+        ],
+        "nextLink": "Enter→Seddülbahir tahliyesi URL/h1 doğrulandı."
+      }
+    }
+  ],
+  "acceptanceDate": "2026-11-02",
+  "acceptanceScope": "Yalnız yolharitasıR09:18mevcutkısasayfada kaynaklı neden/hazırlık/gelişme/sonuç/bağlamlı geçiş ve görünürbelirsizlik. Bütün tarihsel ayrıntıların özgünbelge doğrulaması,R10tarafdengesi veya ilk sürümün tamamı değil."
+}

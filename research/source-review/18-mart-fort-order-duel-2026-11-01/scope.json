@@ -1,0 +1,63 @@
+{
+  "task": "R04",
+  "status": "devam ediyor",
+  "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+  "event_date": "1915-03-18",
+  "report_date": "1915-03-24",
+  "cover_letter_date": "1915-03-26",
+  "official_publication_date": "1919-05-02",
+  "web_publication_date": null,
+  "access_date": "2026-11-01",
+  "evidence": [
+    "by 0.32 p.m. she came under fire",
+    "Suffren apparently hit several times"
+  ],
+  "scope": "12.06 emir, izleyen Suffren 12.32 karşılıklı ateş ve 13.15 gözlem paragrafları çevrimyazıdan okundu. Bütün rapor ve özgün görüntü görülmedi.",
+  "verification": "rapor_cevrimyazisi_pasajlari_okundu",
+  "time_basis": "Rapor GMT+2 yerel; Osmanlı emir saatinin sistemi bilinmiyor.",
+  "open": [
+    "Osmanlı ateş emrinin belge kimliği/metni/muhatabı/saati",
+    "Fransız gemilerinin o andaki kesin mesafesi",
+    "Suffren kesin isabet cetveli",
+    "Tabyaların tek tek ateş başlangıcı"
+  ],
+  "sourceTime_added": false,
+  "legacy_keys_unchanged": [
+    "12:00/720",
+    "12:20/740"
+  ],
+  "test_log": "research/reports/2026-11-01/R04-fort-order-duel-tests.txt",
+  "tests": {
+    "javascript_passed": 297,
+    "mandatory_python_passed": 19,
+    "failed": 0
+  },
+  "reader_audit": {
+    "records": 31,
+    "sourceTime": 9,
+    "unknown_time_labels": 22,
+    "generic_source_targets": 0,
+    "missing_anchors": 0,
+    "scope": "Teknik bağlantı/saat etiketi tamam; bütün kartların beş alanlı manuel kabul eşleştirmesi ayrı açık."
+  },
+  "additional_correction": "Inflexible 14.14 ve Ocean 16.45/22.30 eski taslak saatleri, güncel 16.11 bildirim / 18.05 isabet kartlarından açıkça ayrıldı. Önceki kaynak okumaları yeniden yapılmış sayılmadı.",
+  "browser_acceptance": {
+    "surface": "IAB sekme 2",
+    "desktop": [
+      1280,
+      720
+    ],
+    "mobile": [
+      320,
+      800
+    ],
+    "flow": "Her iki kart kaynak başlığına bağlanır; masaüstü ve mobil başlıklar okundu. Osmanlı süzgeci 15 kayıt / 4 ortak; harita 6 yüklenmiş karo / 8 işaret.",
+    "navigation_lesson": "Kaynak ve seçili kayda dönüşte expectNavigation + domcontentloaded kullan; ilk geçişin eski DOM görünümüne dayanma.",
+    "desktop_order_heading_top_px": 88.175,
+    "mobile_duel_heading_top_px": 168.0625,
+    "mobile_width": {
+      "client": 305,
+      "scroll": 305
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "Sonbahar fırtınası sonrası yerel iki dosya; tam yayınmanifesti değil.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "433d13951f6c16c762815f29ecc12b9c531134853f1eeadaeff8473c91c8782b"
+    },
+    {
+      "path": "olaylar/sonbahar-firtinasi/index.html",
+      "sha256": "5215424a1f2e3e995e9115a6d31475fc32f5500b784a689ebb6f06a4b9d7295a"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi ve taze tam envanter/uzak geri dönüş; .htaccess korunacak."
+}

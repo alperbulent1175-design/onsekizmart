@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
+import json
 import sys
 import tempfile
 import unittest
@@ -24,6 +25,64 @@ BODY
 
 
 class BuildPagesTests(unittest.TestCase):
+
+    def test_arsiv_kayit_tarihi_yayin_tarihi_yapilmaz(self):
+        body = build_pages.chronology_event_pages(ROOT)['olaylar/quinns-post-siper-baskini/index.html'][3]
+        self.assertIn('Kaynağın yayımı: ayrıca doğrulanmadı', body)
+        self.assertIn('Kaynağın yayımı: Kasım 2025', body)
+        self.assertNotIn('Kitabın basımı:', body)
+        self.assertIn('üç bağımsız tanık sayılmaz', body)
+        self.assertIn('özgün emir görülmedi', body)
+
+    def test_web_kaniti_kitap_basimi_ve_bilinmeyen_dijital_tarih_uydurmaz(self):
+        body = build_pages.chronology_event_pages(ROOT)['olaylar/mayin-tarama-girisimleri/index.html'][3]
+        self.assertIn('Kaynağın yayımı: ayrıca doğrulanmadı', body)
+        self.assertIn('Kaynağın yayımı: 2024', body)
+        self.assertIn('İlk web yayımı: ayrıca doğrulanmadı', body)
+        self.assertNotIn('Kitabın basımı:', body)
+        self.assertNotIn('İlk web yayımı: None', body)
+        self.assertIn('Künye alanlarının kontrolü: 2026-11-02', body)
+
+    def test_ek_anlati_metni_degisince_eski_kanit_kullanilmaz(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "data").mkdir()
+            events = json.loads((ROOT / "data/chronology-events.json").read_text(encoding="utf-8"))
+            event = next(row for row in events if row['id'] == 'e-mart-sessiz-2')
+            event['narrativeSections'][0]['text'] = 'Changed statement, old evidence'
+            (root / "data/chronology-events.json").write_text(json.dumps(events), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, event['id']):
+                build_pages.chronology_event_pages(root)
+
+    def test_ek_anlati_kayit_ve_yayin_tarihleri_ayri_gosterilir(self):
+        body = build_pages.chronology_event_pages(ROOT)['olaylar/hamiltona-talimat/index.html'][3]
+        self.assertIn('Kaydın başlığı: 15 Mart 1915', body)
+        self.assertIn('Kitabın basımı: 1920', body)
+        self.assertIn('Dijital aktarımın yayımı: 2006-09-19', body)
+        self.assertIn('href="#anlati-1"', body)
+        self.assertIn('Yayımlanmış aktarımın ilgili bölümü okundu', body)
+
+    def test_kronoloji_kaynak_notu_eski_kanitla_uretilmez(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "data").mkdir()
+            for name in ("chronology-events.json", "chronology-sources.json"):
+                (root / "data" / name).write_bytes((ROOT / "data" / name).read_bytes())
+            notes = json.loads((root / "data/chronology-sources.json").read_text(encoding="utf-8"))
+            notes[0]["source"]["evidenceText"] = "Eski ve farklı iddia"
+            (root / "data/chronology-sources.json").write_text(json.dumps(notes), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, notes[0]["id"]):
+                build_pages.chronology_source_page(root)
+
+    def test_kronoloji_kaynak_tarihleri_kayit_bazinda_gorunur(self):
+        body = build_pages.chronology_source_page(ROOT)["kronoloji-kaynaklari/index.html"][3]
+        notes = json.loads((ROOT / "data/chronology-sources.json").read_text(encoding="utf-8"))
+        for note in notes:
+            source = note["source"]
+            self.assertIn("Erişim: " + source["accessDate"], body)
+            self.assertIn("Olay tarihi: " + source["eventDate"], body)
+        self.assertIn("Kaynağın yayın tarihi: ayrıca doğrulanmadı", body)
+        self.assertNotIn("erişim tarihi 25 Ekim 2026", body)
 
     def test_kaynak_durumu_okuyucu_dilinde_ve_bilinmeyen_durum_acik_kalir(self):
         self.assertEqual(build_pages.source_status_label("gunluk_goruntusu_ilgili_pasaj_okundu"),

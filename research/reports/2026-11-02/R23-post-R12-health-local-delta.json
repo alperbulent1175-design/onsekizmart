@@ -1,0 +1,16 @@
+{
+  "task": "R23",
+  "date": "2026-11-02",
+  "status": "yerel dar değişiklik;yayın engelli",
+  "scope": "Tam manifest değil;commit/push/deploy yok.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "063ad3c5799f5ed48f7d0bac0b08615c8539e19fb5e4a4e53c4bce48976b5145"
+    },
+    {
+      "path": "olaylar/yaralilar-misira-ulasiyor/index.html",
+      "sha256": "1826b21cb72c144793b695056c31619960a74fa33399c5bdb5e8d7a5cb60c268"
+    }
+  ]
+}

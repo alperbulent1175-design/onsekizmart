@@ -1,0 +1,29 @@
+{
+  "task": "R05",
+  "status": "devam ediyor",
+  "reviewDate": "2026-11-01",
+  "target": "Wear, 18 Mart 1915; rapordaki 16.50 dönüş ile özgün günlük karşılaştırması",
+  "localCheck": "research içindeki MD/JSON dar araması Wear için kesin ADM günlük künyesi/görüntü URL’si vermedi. Bu sonuç belgenin yokluğunu göstermez.",
+  "searches": [
+    "site.discovery.nationalarchives.gov.uk \"Wear\" \"1915 Mar\"",
+    "site.naval-history.net \"Wear\" \"log\" \"1915\""
+  ],
+  "result": "Wear günlüğü bulunamadı; Jed sonucu daha önce incelenmiş başka gemiye aittir, Wear kanıtı yapılmadı. Arama sonucu belge pasajı sayılmadı.",
+  "documentDate": null,
+  "publicationDate": null,
+  "evidenceUrl": null,
+  "historicalClaimVerified": false,
+  "next": "Ocean/Irresistible için eldeki özgün günlük veya kayıp raporu katalog izlerini ayır; Wear katalog erişimi koşul değişmeden yeniden denenmeyecek.",
+  "repeatLimit": "Aynı iki sonuçsuz web sorgusunu koşul değişmeden yineleme.",
+  "catalogueAttempt": {
+    "url": "https://discovery.nationalarchives.gov.uk/results/r?_q=HMS%20Wear%201915",
+    "accessDate": "2026-11-01",
+    "result": "Web aracında erişilemedi; katalog kaydı veya belge pasajı görülmedi."
+  },
+  "additionalQueries": [
+    "\"Wear\" \"ADM 53\" 1915",
+    "\"HMS Wear\" \"log\" \"March\" 1915"
+  ],
+  "additionalResult": "Wear için kesin sonuç yok; Jed ve Inflexible çevrimyazıları Wear’ın kendi günlüğü sayılmadı. Aynı sorgular tekrarlanmayacak.",
+  "readerChange": "/olaylar/18-mart-deniz-muharebesi/#gemi-gunlugu-karsilastirma-kapsami"
+}

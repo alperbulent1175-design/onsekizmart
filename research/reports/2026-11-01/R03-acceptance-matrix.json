@@ -1,0 +1,84 @@
+{
+  "task": "R03",
+  "status": "tamamlandı",
+  "review_date": "2026-11-01",
+  "acceptance": "Yayımlanan her kritik sayı belge pasajına bağlanmalı veya açıkça tahmin/aktarılmış iddia olarak işaretlenmeli.",
+  "counts": {
+    "published_pages": 88,
+    "numeric_blocks": 2065,
+    "quantity_flags": 79,
+    "pending_quantity_flags": 0,
+    "stale_reviews": 0,
+    "supplemental_duration_blocks": 23,
+    "pending_duration_blocks": 0
+  },
+  "matrix": [
+    {
+      "scope": "Static quantity flag triage",
+      "status": "tamamlandı",
+      "evidence": [
+        "R03-quantity-scope-reviews.json",
+        "R03-quantity-scope-reconciled.json",
+        "R03-quantity-coverage-summary.json"
+      ],
+      "limit": "Zero pending flags is not proof of all historical quantities; context_checked is editorial scope only."
+    },
+    {
+      "scope": "Former JS ammo/spend/fortHits/dardanosPeople and strengths",
+      "status": "tamamlandı (önceki dar alt kapsam)",
+      "evidence": [
+        "../2026-10-27/R03-unused-unit-strengths.json",
+        "../../../DEVAM.md"
+      ],
+      "limit": "Existing11field/7unit cleanup and actual render review recorded; not repeated. js/model.js is source framework, not a hidden personnel dataset."
+    },
+    {
+      "scope": "30 navy duty/outcome fields",
+      "status": "tamamlandı",
+      "evidence": [
+        "R03-navy-field-scope-pass.json",
+        "R03-navy-duty-stages.json",
+        "R03-browser-acceptance.json"
+      ],
+      "ui_pending": [],
+      "unblock": "Resolved via supported IAB browser; native Chrome extension remains unavailable."
+    },
+    {
+      "scope": "Navy/commander short numeric dd fields without date/year/clock",
+      "status": "yerel sınıflandırma tamamlandı",
+      "count": 19,
+      "finding": "All19 fully read: unit designations/commands, not personnel quantities. Dates/command histories remain outside this narrow classification."
+    },
+    {
+      "scope": "Supplemental duration claims",
+      "status": "tamamlandı (23blok yerel kapsam triyağı)",
+      "evidence": [
+        "R03-duration-candidates.json",
+        "R03-duration-remaining.json"
+      ],
+      "next": "Do not restart these23blocks; historical uncertainties remain visible."
+    }
+  ],
+  "limits": [
+    "Old557block residual snapshot is not a current queue and must not restart completed navy/commander work.",
+    "General R03 and eight release gates are not closed by this matrix.",
+    "No new external access, no historical source promoted, no UI acceptance inferred from static tests."
+  ],
+  "next": "R04 current31records:9withstageevidence,22without. Start with headquarters/alarm records;legacy keys never verified times.",
+  "additional_ui_pending": [],
+  "browser_blocker_update": {
+    "date": "2026-11-01",
+    "uisight": "New WebKit context attempt failed: browser.newContext target/browser closed.",
+    "native_windows": "Chrome launched and local navy page title appeared; get_window_state/activate_window stopped by URL-confidence policy. No visual acceptance obtained.",
+    "recovery_condition": "Reconnect browser via supported Settings > Computer Use / browser-extension setup; confirm policy can determine URL before resuming. Do not bypass URL enforcement.",
+    "guidance": "https://learn.chatgpt.com/docs/chrome-extension",
+    "next": "Do not retry native Windows URL-policy failures or absent Chrome connection.",
+    "status": "resolved_for_project_acceptance_via_IAB"
+  },
+  "acceptanceDecision": "Critical numeric templates were removed/scoped,existing static quantities/durations reconciled against passage-specific records,and pending UI checks completed. Unresolved historical details remain explicitly uncertain; completion is not a blanket historical verification or publication approval.",
+  "closure_tests": {
+    "javascript": 297,
+    "python": 29,
+    "failed": 0
+  }
+}

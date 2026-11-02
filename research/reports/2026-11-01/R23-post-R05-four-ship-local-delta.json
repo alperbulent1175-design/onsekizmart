@@ -1,0 +1,13 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "scope": "R05 dört gemi kapsam özeti sonrası olay sayfası yerel farkı; R23-post-R04-acceptance-local-delta.json olay sayfası hashini geçersiz kılar. Tam yayın manifesti veya uzak yedek değildir.",
+  "files": [
+    {
+      "path": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "sha256": "cf6c137c83bc66f5f9baee21c9338df3ea48b0d0fff8c887e6bea99a25bab91c"
+    }
+  ],
+  "published": false,
+  "requires": "Yeni açık yayın talebi ve güncel tam envanter/taze uzak geri dönüş hazırlığı; .htaccess korunacak."
+}

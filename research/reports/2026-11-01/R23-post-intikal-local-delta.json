@@ -1,0 +1,26 @@
+{
+  "task": "R23",
+  "status": "engelli",
+  "reason": "Yeni açık yayın talebi yok. Önceki manifest ve alarm delta kaydı bu parti sonrası güncel değildir.",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "9e24974d868f5710fa10dbd3355bcceebab2ebb55c98c22868a6d5607f9e9674"
+    },
+    {
+      "path": "js/data.js",
+      "sha256": "7bd93412e9f642498bfc5305a1d67012c04a5393b1ecd2bda55e866cc34cc4fc"
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "143e9f52101d9d736528058ea822fc65ccec1ec9e3a39fc03b891b907ec077f5"
+    },
+    {
+      "path": "olaylar/18-mart-deniz-muharebesi/index.html",
+      "sha256": "2268484085dbc151b911ab4293c798a9d3bfdcc2114310f53388bed376c4dae8"
+    }
+  ],
+  "scope": "Yalnız dört dosyanın yerel hash kaydı; envanter, taze uzak yedek veya yayına hazır kabulü değildir.",
+  "next": "Yetkili yayın talebinden sonra güncel envanter, doğrulama ve taze uzak geri dönüş hazırlığı gerekir. .htaccess korunacak.",
+  "published": false
+}

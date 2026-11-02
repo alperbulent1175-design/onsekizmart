@@ -1,0 +1,24 @@
+{
+  "task": "R23",
+  "date": "2026-11-02",
+  "status": "yerel dar değişiklik;yayın engelli",
+  "scope": "Tam manifest değil;commit/push/deploy yok.",
+  "files": [
+    {
+      "path": "data/chronology-events.json",
+      "sha256": "e8cdcea5fb7da7331d6fb43279c9ac9e8323acb55fa109e14c3cb2c93f9119de"
+    },
+    {
+      "path": "build_pages.py",
+      "sha256": "f2a883be937565b409292433de7b3d238c79719d5226317e7be77734954c2d06"
+    },
+    {
+      "path": "tests/test_build_pages.py",
+      "sha256": "6a01b5d5602a989918ca86a1d2b2b7e702037097c0161c6e5ad18c75086e9553"
+    },
+    {
+      "path": "olaylar/quinns-post-siper-baskini/index.html",
+      "sha256": "1f72063939f2eaf9c83a7c1f7da837b7bcd151d9b1510fcfa0751456ea219cc1"
+    }
+  ]
+}

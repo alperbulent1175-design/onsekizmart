@@ -1,0 +1,28 @@
+{
+  "task": "R09",
+  "status": "devam ediyor",
+  "id": "e-mart-sessiz-1",
+  "eventDate": "1915-03-01/1915-03-17",
+  "reviewDate": "2026-11-01",
+  "sources": [
+    {
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "passage": "1 March 1915",
+      "evidence": "Between 1 and 17 March, British fishing trawlers failed to clear the Dardanelles of mines.",
+      "publicationDate": null,
+      "accessDate": "2026-11-01",
+      "verification": "İlgili paragraf okundu; özgün belge değil kurum özeti."
+    },
+    {
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/dardanelles-strategy",
+      "passage": "Bombardment of the Turkish forts; geçit açma paragrafı",
+      "evidence": "accurate fire from mobile Turkish howitzer batteries",
+      "publicationDate": null,
+      "accessDate": "2026-11-01",
+      "verification": "İlgili paragraf okundu; neden değerlendirmesi kuruma atfedildi.",
+      "limit": "Önceki paragraf 19 Şubat–17 Mart için1914yazar; bu tarih sessizce düzeltilerek kanıt yapılmadı. Dönem timeline1915pasajından alındı."
+    }
+  ],
+  "scope": "İki seçili pasaj; iki eserin tamamı veya özgün gemi/Osmanlı emirleri okunmadı. Önceki R03 tarih aralığı kabulü yeniden başlatılmadı; yeni neden ve yeniden üretilebilir build girdisi eklendi.",
+  "next": "Görünüm/kaynak geçişi kabulü; sonra Hamilton talimatına geç."
+}

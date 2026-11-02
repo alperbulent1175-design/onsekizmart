@@ -1,0 +1,37 @@
+{
+  "task": "R09",
+  "id": "e-temmuz-agustos",
+  "status": "devam ediyor",
+  "sources": [
+    {
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+      "passage": "29July1915",
+      "eventDate": "1915-07-29 (DVA başlığı)",
+      "publicationDate": null,
+      "accessDate": "2026-11-02",
+      "evidence": "Gelibolu yaralılarını tedavi amacı; donanım başka gemiyle üç hafta sonra.",
+      "verification": "İlgili kurum özeti okundu."
+    },
+    {
+      "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1070002/document/5520750.PDF#page=15",
+      "passage": "ChapterXV,s.335–336/PDF15–16",
+      "eventDate": "Ağustos1915;donanım21Ağustos",
+      "publicationDate": null,
+      "accessDate": "2026-11-02",
+      "evidence": "Kuruluş sırasında acil cerrahi/hasta kabulü; donanımın21inde gelmesi ardından yeniden düzenleme/çadırların yeniden kuruluşu.",
+      "verification": "PDFmetin aktarımı okundu; iki görüntü Cache miss. Özgün günlük ve bütün bölüm okunmadı."
+    }
+  ],
+  "limits": "DVA29Temmuz ile resmî tarih Ağustos aşamaları arasındaki fark çözülmedi. Erkek personelin OCRda Sth görünen günü kullanılmadı. Kayıp/kapasite/başarı veya bütün donanım eşitliği çıkarılmadı.",
+  "uiAcceptance": {
+    "desktopWidth": [
+      1265,
+      1265
+    ],
+    "mobileWidth": [
+      305,
+      305
+    ],
+    "nextLink": "Enter→sağlık-ve-tahliye URL/h1 doğrulandı."
+  }
+}

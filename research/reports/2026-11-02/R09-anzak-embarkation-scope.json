@@ -1,0 +1,17 @@
+{
+  "task": "R09",
+  "id": "e-mart-nisan",
+  "status": "devam ediyor",
+  "sourceUrl": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+  "eventAndEntryDate": "1915-04-01",
+  "bookPublicationYear": 1920,
+  "digitalPublicationDate": "2006-09-19",
+  "accessDate": "2026-11-02",
+  "evidence": [
+    "On paper at least",
+    "We should begin embarking these formations within the next three days"
+  ],
+  "passage": "1st April,1915.Alexandria; iki paragraf",
+  "verification": "E-kitap aktarımının seçili kaydı okundu; bütün eser veya el yazısı/yükleme cetveli değil.",
+  "scope": "Plan/beklenti ile uygulama ayrıldı; exact departure/arrival,total troop counts not inferred. DVA1/12Nisan önceki28Ekimokuması korundu. Önceki HTMLanlatısı yeniden yapılmış sayılmadı; karargâh hazırlık/bindirme beklentisi yeni kaynak katkısıdır."
+}

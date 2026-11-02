@@ -1,0 +1,28 @@
+{
+  "task": "R10",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "dependsOn": "R09tamamlandı",
+  "criterion": "Tarafların amaçları,sahadaki karşılaşma ve sonuçları birlikteanlatılmalı;görüşilekesinolgu ayrılmalı.",
+  "reviewed": [
+    "research/source-review/chronology-2026-10-25/ARGENT-KAYNAK-ZINCIRI.md",
+    "research/source-review/borlat-kullanici-pdf-2026-10-18/TAM-OKUMA.md (ilgili başlangıç/paragraf)",
+    "research/source-review/borlat-kullanici-pdf-2026-10-18/tam-okuma-bulgulari.json LGM-01"
+  ],
+  "constraints": [
+    {
+      "chain": "Argent1971→Argent1988→AWM2015",
+      "finding": "Üçbağımsız1915tanığı sayılmaz;1971engelliPDFyenidöngüye alınmaz."
+    },
+    {
+      "record": "LGM-01/Borlat12–17Mayıs,125AlayKırmızısırt/Kanlısırt",
+      "finding": "Quinn17Mayıskazısesi/29Mayıspatlamasına doğrudancoğrafikbelgebağıyok. BuOsmanlımetni aynıolaydoğrulaması sayılmayacak.",
+      "sourceUrl": "https://drive.google.com/file/d/16Dk4kS_4jjxrQ9bp1c9HZEk457GsIEHh/view",
+      "originalReviewDate": "2026-10-18",
+      "publicationDate": "dosya-kaydi.json üzerinden kontrol edilecek;buönnotta tahminyok",
+      "verification": "Eskiyayımlanmışmetinokuması;özgünbelge doğrulamasıaçık."
+    }
+  ],
+  "nextStep": "Quinn9–10/29Mayıs için mevcutOsmanlıyeradları ve ceride adaylarının kaynak izini yerelde çıkar;KırmızısırtkazılarınıQuinneşitleme. Yeniokumaöncesi adayın olay/tarih/mevki eşleşmesini doğrula.",
+  "siteChange": "BuR10başlangıçnotundasiteye yeniiddiaeklenmedi."
+}

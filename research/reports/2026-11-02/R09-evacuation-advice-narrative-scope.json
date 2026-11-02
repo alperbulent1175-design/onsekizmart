@@ -1,0 +1,41 @@
+{
+  "task": "R09",
+  "id": "e-kitchener-tahliye",
+  "status": "devam ediyor",
+  "sources": [
+    {
+      "url": "https://www.usni.org/magazines/proceedings/1916/may/european-war-notes",
+      "passage": "The Evacuation of Gallipoli,görev ve askerî durum paragrafları",
+      "eventDate": "1915sonbahar askerî değerlendirme;22KasımKitchenermetni değil",
+      "documentDate": "1916-03-06 (Gazette ilk sayfa)",
+      "publicationDate": "1916-05",
+      "accessDate": "2026-11-02",
+      "evidence": "Derinliksiz mevzi,kıyı/iskelelerin topçu ateşine açıklığı,havaya bağlı haberleşme/ulaşım,hastalık ve önceki kayıplar;Monronun çekilme değerlendirmesi.",
+      "verification": "1916yayımlanmış rapor aktarımı seçili paragraflar okundu."
+    },
+    {
+      "url": "https://www.thegazette.co.uk/London/issue/29541/supplement/3777/data.pdf",
+      "passage": "Rapor başlığı ve tarih",
+      "documentDate": "1916-03-06",
+      "publicationDate": "1916-04-10",
+      "accessDate": "2026-11-02",
+      "verification": "PDFmetin aktarımı okundu; ekran görüntüsü araç çıktısı okunabilir görsel vermedi, görüntü okuması iddia edilmedi."
+    }
+  ],
+  "blocked": [
+    "Gazette29541s3778erişilemedi",
+    "GallipoliAssociation22Kasım Cache miss;arama sonucu tavsiye kapsamı için doğrulanmış pasaj yapılmadı"
+  ],
+  "limits": "Kitchener22Kasımözgüntelgrafı görülmedi. Monronun değerlendirmesi onunmetniyle özdeşlenmedi. USNIhavaolayıtarihaktarımı kullanılmadı. Yeni zayiat ve tahliye kayıptahmini eklenmedi.",
+  "uiAcceptance": {
+    "desktopWidth": [
+      1265,
+      1265
+    ],
+    "mobileWidth": [
+      305,
+      305
+    ],
+    "nextLink": "Enter→Arıburnu–Suvla tahliye onayı URL/h1 doğrulandı."
+  }
+}

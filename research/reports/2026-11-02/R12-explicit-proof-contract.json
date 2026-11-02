@@ -1,0 +1,16 @@
+{
+  "task": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-02",
+  "change": "Kayıt düzeyindeki doğrulama koşulunda belirsiz date yerine olay/yayın/erişim ayrımı; tam künye ve kapsam zorunlu. Yayın tarihi bilinmiyorsa null+gerekçe.",
+  "documentation": "research/KANIT-KAYIT-DUZENI.md",
+  "tests": {
+    "javascript": 299,
+    "python": 21,
+    "failures": 0,
+    "log": "R12-explicit-proof-tests.txt"
+  },
+  "actualData": "Yeni tarihsel kanıt veya doğrulandı etiketi yok. Mevcut atlas kayıtlarının tümünün çerçeve durumunda kaldığı test edildi.",
+  "interface": "Görünür arayüz/harita/süzgeç davranışı değişmedi. index.html model önbellek sürümü yenilendi.",
+  "open": "Tam künye konumlayıcı eşlemesi ve diğer kanıt katmanlarının kabul envanteri sürüyor."
+}

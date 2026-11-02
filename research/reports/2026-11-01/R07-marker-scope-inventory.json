@@ -1,0 +1,257 @@
+{
+  "task": "R07",
+  "status": "tamamlandı",
+  "reviewDate": "2026-11-01",
+  "scope": "Güncel beş enkaz türü işaretin tam envanteri; tür anahtarı aynı, anlamları ayrı. Önceki kaynak pasajları bu tur yeniden okunmuş sayılmaz.",
+  "reader": "/donanma/#gemi-konumlarini-okuma",
+  "rows": [
+    {
+      "id": "tavsan",
+      "name": "Gaulois — konum doğrulaması açık",
+      "eventMeaning": "Karaya oturma anlatısının yaklaşık gösterimi",
+      "atlasCoordinates": {
+        "lat": 40.0038,
+        "lng": 26.152,
+        "format": "ondalık derece; enlem-boylam"
+      },
+      "sourceFormat": "belirlenmedi",
+      "datum": "belirlenmedi",
+      "coordinateEvidence": null,
+      "narrativeEvidence": {
+        "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+        "imageUrl": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+        "label": "AWM RCDIG1066703 · daktilo sayfası 47",
+        "evidenceText": "Gaulois grounded on North of Drepano Island.",
+        "translation": "Gaulois, Drepano Adası’nın kuzeyinde karaya oturdu.",
+        "date": "2026-10-19",
+        "status": "daktilo_kopyasi_goruntuden_okundu",
+        "limit": "Özgün imzalı raporla karşılaştırma açık; kesin saat veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor."
+      },
+      "approximationReason": "Drepano adının Tavşan Adası ile eşleştirilmesi ve bu harita noktası doğrulanmadı. Yaklaşık gösterimdir; kesin karaya oturma yeri değildir.",
+      "coordinateChanged": false,
+      "manualUiAcceptance": {
+        "desktop": "1280x720, klavye Enter ile doğru mevki başlığı ve belirsizlik paragrafı görüldü",
+        "mobile": "320x800, klavye Enter ile aynı başlık ve belirsizlik görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        },
+        "sourceScope": "Konum/anlatı kanıtı ayrımı panelde görünür; yeni tarihsel doğrulama değil."
+      }
+    },
+    {
+      "id": "bouvet",
+      "name": "Bouvet — yaklaşık gösterim",
+      "eventMeaning": "Yaklaşık gösterim; kesin batış/enkaz noktası değil",
+      "atlasCoordinates": {
+        "lat": 40.01917,
+        "lng": 26.27167,
+        "format": "ondalık derece; enlem-boylam"
+      },
+      "sourceFormat": "belirlenmedi",
+      "datum": "belirlenmedi",
+      "coordinateEvidence": null,
+      "narrativeEvidence": {
+        "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+        "imageUrl": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43822-rcdig1066703-page63.jpg",
+        "label": "AWM RCDIG1066703 · daktilo sayfası 45",
+        "evidenceText": "only 66 survivors were picked up.",
+        "translation": "Yalnızca 66 kişi kurtarıldı.",
+        "context": "Bu, rapordaki kurtarma bildirimidir; kesinleşmiş kurtulan toplamı veya eksiksiz personel cetveli değildir. Farklı kaynaklardaki sayılar 18 Mart kaynak notunda ayrı değerlendirilir.",
+        "date": "2026-10-19",
+        "status": "daktilo_kopyasi_goruntuden_okundu",
+        "limit": "İmzalı özgün rapor ve nihai personel listeleriyle karşılaştırma açık; kesin zayiat toplamı veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor."
+      },
+      "approximationReason": "Bu işaret için incelenmiş sayısal enkaz koordinatı dayanağı tamamlanmadı. Yaklaşık gösterimdir; kesin batış veya enkaz noktası sayılmaz.",
+      "coordinateChanged": false,
+      "manualUiAcceptance": {
+        "desktop": "1280x720, klavye Enter ile doğru mevki başlığı ve belirsizlik paragrafı görüldü",
+        "mobile": "320x800, klavye Enter ile aynı başlık ve belirsizlik görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        },
+        "sourceScope": "Konum/anlatı kanıtı ayrımı panelde görünür; yeni tarihsel doğrulama değil."
+      }
+    },
+    {
+      "id": "inflexible",
+      "name": "HMS Inflexible — yaklaşık hasar gösterimi",
+      "eventMeaning": "Yaklaşık hasar gösterimi; enkaz noktası değil",
+      "atlasCoordinates": {
+        "lat": 40.0435,
+        "lng": 26.292,
+        "format": "ondalık derece; enlem-boylam"
+      },
+      "sourceFormat": "belirlenmedi",
+      "datum": "belirlenmedi",
+      "coordinateEvidence": null,
+      "narrativeEvidence": {
+        "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-4",
+        "imageUrl": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43819-rcdig1066703-page60.jpg",
+        "label": "AWM RCDIG1066703 · daktilo sayfası 42",
+        "evidenceText": "reported shortly after 4.p.m.",
+        "translation": "Saat 16.00’dan kısa süre sonra bildirdi.",
+        "context": "Pasaj Inflexible’ın mayına çarptığını bildirmesine ilişkindir. Bildirimin zamanı, mayına çarpma anını ayrıca doğrulamaz.",
+        "date": "2026-10-19",
+        "status": "daktilo_kopyasi_goruntuden_okundu",
+        "limit": "Özgün imzalı raporla karşılaştırma açık; kesin isabet saati veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor.",
+        "publishedComparison": {
+          "url": "https://www.thegazette.co.uk/London/issue/31322",
+          "label": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+          "date": "2026-10-20",
+          "status": "resmi_yayin_goruntusu_incelendi",
+          "evidenceText": "4.11.—“Inflexible” reported",
+          "translation": "16.11 — Inflexible bildirdi.",
+          "context": "Basılı 5503, mayın isabetinin bildirimini bu saatte kaydeder. İsabet anı ayrıca belirlenmez. Raporun yerel saatleri GMT’den iki saat ileridir.",
+          "limit": "Resmî yayımdaki rapor incelendi; imzalı asıl nüsha değildir. AWM daktilo kopyasıyla bağımsız iki tanıklık sayılmaz. Kartın tamamını veya harita koordinatını doğrulamaz."
+        }
+      },
+      "approximationReason": "Bu harita noktası için incelenmiş sayısal konum dayanağı tamamlanmadı. Hasar anlatısının kaynak desteği, kesin mayın isabeti yerini doğrulamaz; enkaz noktası olarak okunmamalıdır.",
+      "coordinateChanged": false,
+      "manualUiAcceptance": {
+        "desktop": "1280x720, klavye Enter ile doğru mevki başlığı ve belirsizlik paragrafı görüldü",
+        "mobile": "320x800, klavye Enter ile aynı başlık ve belirsizlik görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        },
+        "sourceScope": "Konum/anlatı kanıtı ayrımı panelde görünür; yeni tarihsel doğrulama değil."
+      }
+    },
+    {
+      "id": "irresistible",
+      "name": "HMS Irresistible — enkaz konumu",
+      "eventMeaning": "2023 yayınındaki enkaz konumu; isabet/tahliye yeri değil",
+      "atlasCoordinates": {
+        "lat": 40.073966667,
+        "lng": 26.340683333,
+        "format": "ondalık derece; enlem-boylam"
+      },
+      "sourceFormat": "derece ve ondalıklı dakika",
+      "datum": "belirtilmemis",
+      "coordinateEvidence": {
+        "url": "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download",
+        "label": "Kedioğlu ve Öz (2023), s. 76 · enkaz koordinatı",
+        "evidenceText": "40°04.438 N, 26°20.441 E",
+        "date": "2026-10-17",
+        "status": "yayin_koordinati_karsilastirildi",
+        "datum": "belirtilmemis"
+      },
+      "narrativeEvidence": {
+        "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+        "imageUrl": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+        "label": "AWM RCDIG1066703 · daktilo sayfası 47",
+        "evidenceText": "No trace of either ship could be found",
+        "translation": "İki gemiden de hiçbir iz bulunamadı.",
+        "date": "2026-10-19",
+        "status": "daktilo_kopyasi_goruntuden_okundu",
+        "limit": "Özgün imzalı raporla karşılaştırma açık; kesin saat veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor.",
+        "publishedComparison": {
+          "url": "https://www.thegazette.co.uk/London/issue/31322",
+          "label": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+          "date": "2026-10-20",
+          "status": "resmi_yayin_goruntusu_incelendi",
+          "evidenceText": "at 4.50 p.m.",
+          "translation": "Saat 16.50’de.",
+          "context": "Basılı 5503–5504, Wear’in Irresistible’dan alınan personelle Queen Elizabeth’e dönüşünü anlatır. Tahliyenin başlangıcı veya batış anı değildir. Raporun yerel saatleri GMT’den iki saat ileridir.",
+          "limit": "Resmî yayımdaki rapor incelendi; imzalı asıl nüsha değildir. AWM daktilo kopyasıyla bağımsız iki tanıklık sayılmaz. Kartın tamamını veya harita koordinatını doğrulamaz."
+        }
+      },
+      "approximationReason": "2023 yayınının enkaz noktasıdır; mayın isabeti veya tahliye yerini ayrıca doğrulamaz. Kaynak datum belirtmiyor; metre düzeyinde kesinlik iddiası yok.",
+      "coordinateChanged": false,
+      "manualUiAcceptance": {
+        "desktop": "1280x720, klavye Enter ile doğru mevki başlığı ve belirsizlik paragrafı görüldü",
+        "mobile": "320x800, klavye Enter ile aynı başlık ve belirsizlik görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        },
+        "sourceScope": "Konum/anlatı kanıtı ayrımı panelde görünür; yeni tarihsel doğrulama değil."
+      }
+    },
+    {
+      "id": "ocean",
+      "name": "HMS Ocean — yaklaşık gösterim",
+      "eventMeaning": "Yaklaşık gösterim; kesin batış/enkaz noktası değil",
+      "atlasCoordinates": {
+        "lat": 40.0315,
+        "lng": 26.2788,
+        "format": "ondalık derece; enlem-boylam"
+      },
+      "sourceFormat": "belirlenmedi",
+      "datum": "belirlenmedi",
+      "coordinateEvidence": null,
+      "narrativeEvidence": {
+        "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+        "imageUrl": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+        "label": "AWM RCDIG1066703 · daktilo sayfası 47",
+        "evidenceText": "No trace of either ship could be found",
+        "translation": "İki gemiden de hiçbir iz bulunamadı.",
+        "date": "2026-10-19",
+        "status": "daktilo_kopyasi_goruntuden_okundu",
+        "limit": "Özgün imzalı raporla karşılaştırma açık; kesin saat veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor.",
+        "publishedComparison": {
+          "url": "https://www.thegazette.co.uk/London/issue/31322",
+          "label": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+          "date": "2026-10-20",
+          "status": "resmi_yayin_goruntusu_incelendi",
+          "evidenceText": "about 7.30 p.m.",
+          "translation": "Yaklaşık saat 19.30’da.",
+          "context": "Basılı 5503’te bu saat Ocean’ın nihai terk edilmesine ilişkindir; batış saati değildir. Basılı 5504’te gece araması sonuçsuzdur. Raporun yerel saatleri GMT’den iki saat ileridir.",
+          "limit": "Resmî yayımdaki rapor incelendi; imzalı asıl nüsha değildir. AWM daktilo kopyasıyla bağımsız iki tanıklık sayılmaz. Kartın tamamını veya harita koordinatını doğrulamaz."
+        }
+      },
+      "approximationReason": "Bu işaret için incelenmiş sayısal enkaz koordinatı dayanağı tamamlanmadı. Yaklaşık gösterimdir; kesin batış veya enkaz noktası sayılmaz.",
+      "coordinateChanged": false,
+      "manualUiAcceptance": {
+        "desktop": "1280x720, klavye Enter ile doğru mevki başlığı ve belirsizlik paragrafı görüldü",
+        "mobile": "320x800, klavye Enter ile aynı başlık ve belirsizlik görüldü",
+        "widths": {
+          "desktop": [
+            1265,
+            1265
+          ],
+          "mobile": [
+            305,
+            305
+          ]
+        },
+        "sourceScope": "Konum/anlatı kanıtı ayrımı panelde görünür; yeni tarihsel doğrulama değil."
+      }
+    }
+  ],
+  "acceptance": "Beş işaretin anlamı, belirsizliği ve kaynak sınırı okuyucuya açık; sayısal kaynağı olmayan nokta kesin enkaz yeri diye sunulmuyor.",
+  "coordinateDisclosure": "Irresistible konum dayanağı açıldı: kaynak biçimi 40°04.438 N, 26°20.441 E; inceleme tarihi 2026-10-17; datum belirtilmiyor ve saha yeniden ölçümü değil açıklaması masaüstü/mobilde okundu.",
+  "interactionLimit": "Klavye panel kabulü beş kayıtta tam. Fare denemelerinde mevcut harita görünümünde bazı işaretler seçimi değiştirmedi; Ocean/Irresistible görünür konumda tıklamayla değişti. Bütün işaretlerin bütün zoom düzeylerinde dokunma/fare kabulü verilmiyor; R19 kapsamında ayrı denetlenmeli.",
+  "tests": {
+    "log": "R07-marker-meaning-tests.txt",
+    "javascriptPass": 297,
+    "pythonRequiredPass": 19,
+    "rerun": "Bu tur yalnız kabul kayıtları değişti; geçen son parti testleri tekrarlanmadı."
+  }
+}
