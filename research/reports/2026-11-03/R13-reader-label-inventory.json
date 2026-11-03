@@ -5,8 +5,8 @@
   "scope": "Mevcut88rotada gerçek verification-notice üst etiketi ve rehberlerdeki eski etiket ifadesi ayrı sayılır; bütünUXkabulü değildir",
   "counts": {
     "routes": 88,
-    "genericNoticesRemaining": 27,
-    "genericPhrasePages": 27
+    "genericNoticesRemaining": 12,
+    "genericPhrasePages": 12
   },
   "rows": [
     {
@@ -84,122 +84,122 @@
     {
       "route": "/komutanlar/albert-damade/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Kişi kaydı ile komuta raporu ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/alexander-godley/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Yaşam tarihleri ve görev dönemi ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/aylmer-hunter-weston/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Görev değişimi, ayrılış ve yaşam kaydı ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/cevat-bey-cobanli/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Ansiklopedi aktarımı, atama ve terfi ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/charles-monro/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Atama, tahliye önerisi ve uygulama ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/emile-guepratte/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Ölüm günü farklı, komuta kapsamı sınırlı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/esat-pasa-bulkat/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Değişen görevler ve açık ölüm günü"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/frederick-stopford/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Geçici görev, kolordu komutası ve devir ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/guido-von-usedom/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "İki makam ve metin aktarımı ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/halil-sami-bey/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Kesin olmayan ölüm yılı ve görev geçişi"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/henri-gouraud/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Yaşam kaydı ile komuta ve fotoğraf kapsamı ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/ian-hamilton/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Geri çağırma ile görev teslimi ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/johannes-merten/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Temsilcilik aktarımı ve fotoğrafın açık tarihi"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/john-de-robeck/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Doğum yılı farklı, görev günleri ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/liman-von-sanders/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Doğum günü farklı, kuruluş ve atama ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/mustafa-kemal/",
@@ -688,27 +688,74 @@
       "genericPhrasePresent": false
     }
   ],
-  "next": "olaylar/kanlisirt-muharebesi/index.html ve ilgili mevcut kaynak/kapsam notunu oku; desteklenen olay özetiyle açık kalan gün/saat/birlik/konum ayrımını okuyucu etiketi ve gerekçesinde göster. Tamamlanan18özel sayfa ve18kronoloji etiketi yeniden başlatılmayacak.",
+  "next": "Liman von Sanders desktop/mobile UI acceptance; then Mustafa Kemal. Package remains active.",
   "accepted_custom": [
-    "/olaylar/dis-tabyalarin-bombardimani/",
-    "/olaylar/giris-tabyalari-ve-kisa-cikarmalar/",
-    "/olaylar/e15-bogazda-karaya-oturur/",
+    "/olaylar/ariburnu-cikarmasi/",
     "/olaylar/ariburnu-genel-taarruzu/",
     "/olaylar/ariburnu-gomme-ateskesi/",
-    "/olaylar/goliath-batar/",
-    "/olaylar/triumph-batar/",
-    "/olaylar/majestic-batar/",
-    "/olaylar/saros-gosterisi/",
-    "/olaylar/kerevizdere-muharebesi/",
-    "/olaylar/ariburnu-cikarmasi/",
     "/olaylar/birinci-kirte-muharebesi/",
+    "/olaylar/dis-tabyalarin-bombardimani/",
+    "/olaylar/e15-bogazda-karaya-oturur/",
+    "/olaylar/giris-tabyalari-ve-kisa-cikarmalar/",
+    "/olaylar/goliath-batar/",
     "/olaylar/ikinci-kirte-muharebesi/",
+    "/olaylar/kerevizdere-muharebesi/",
     "/olaylar/kumkale-oyalama-cikarmasi/",
+    "/olaylar/majestic-batar/",
     "/olaylar/nusret-erenkoy-hattini-doker/",
+    "/olaylar/saros-gosterisi/",
     "/olaylar/seddulbahir-cikarmasi/",
+    "/olaylar/triumph-batar/",
     "/olaylar/ucuncu-kirte-muharebesi/",
     "/olaylar/zigindere-muharebesi/"
   ],
   "guideOrOtherMentions": [],
-  "methodNote": "Ham ifade varlığı ve gerçek verification-notice üst etiketi ayrı kontrol edildi; mevcut36eşleşmenin tamamı uyarı bloğundadır. Rehber istisnası bulunmadı."
+  "methodNote": "88 existing routes re-counted from actual HTML; prepared readerSupport is not UI acceptance or new historical verification. Earlier accepted_custom list retained as historical subset; individual support-records and DEVAM hold newer acceptance.",
+  "prepared_custom": [
+    "/komutanlar/albert-damade/",
+    "/komutanlar/alexander-godley/",
+    "/komutanlar/aylmer-hunter-weston/",
+    "/komutanlar/cevat-bey-cobanli/",
+    "/komutanlar/charles-monro/",
+    "/komutanlar/emile-guepratte/",
+    "/komutanlar/esat-pasa-bulkat/",
+    "/komutanlar/frederick-stopford/",
+    "/komutanlar/guido-von-usedom/",
+    "/komutanlar/halil-sami-bey/",
+    "/komutanlar/henri-gouraud/",
+    "/komutanlar/ian-hamilton/",
+    "/komutanlar/johannes-merten/",
+    "/komutanlar/john-de-robeck/",
+    "/komutanlar/liman-von-sanders/",
+    "/olaylar/anafartalar-suvla-cikarmasi/",
+    "/olaylar/anafartalar-tahliyesi/",
+    "/olaylar/ariburnu-cikarmasi/",
+    "/olaylar/ariburnu-genel-taarruzu/",
+    "/olaylar/ariburnu-gomme-ateskesi/",
+    "/olaylar/ariburnu-tahliyesi/",
+    "/olaylar/barbaros-hayreddin-batar/",
+    "/olaylar/birinci-anafartalar-muharebesi/",
+    "/olaylar/birinci-kirte-muharebesi/",
+    "/olaylar/conkbayiri-muharebesi/",
+    "/olaylar/dis-tabyalarin-bombardimani/",
+    "/olaylar/e15-bogazda-karaya-oturur/",
+    "/olaylar/giris-tabyalari-ve-kisa-cikarmalar/",
+    "/olaylar/goliath-batar/",
+    "/olaylar/ikinci-anafartalar-muharebesi/",
+    "/olaylar/ikinci-kirte-muharebesi/",
+    "/olaylar/kanlisirt-muharebesi/",
+    "/olaylar/kerevizdere-muharebesi/",
+    "/olaylar/kumkale-oyalama-cikarmasi/",
+    "/olaylar/majestic-batar/",
+    "/olaylar/nusret-erenkoy-hattini-doker/",
+    "/olaylar/saros-gosterisi/",
+    "/olaylar/seddulbahir-cikarmasi/",
+    "/olaylar/seddulbahir-tahliyesi/",
+    "/olaylar/triumph-batar/",
+    "/olaylar/ucuncu-kirte-muharebesi/",
+    "/olaylar/zigindere-muharebesi/"
+  ],
+  "pending_ui_custom": [
+    "/komutanlar/liman-von-sanders/"
+  ]
 }

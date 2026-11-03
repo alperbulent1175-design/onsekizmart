@@ -178,6 +178,7 @@ button, input, select { font: inherit; }
 
 .map-stage {
   position: relative;
+  isolation: isolate;
   height: min(92vh, 920px);
   min-height: 620px;
   border-bottom: 1px solid var(--line);

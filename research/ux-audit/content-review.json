@@ -1049,10 +1049,25 @@
         "csa-navy"
       ],
       "summary": "Merten, Başkomutanlığın Çanakkale temsilcisi olarak aktarılır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Temsilcilik görevi yayımlanmış araştırmanın aktarımıdır; özgün atama emri, kesin görev günleri ve günlük hareketler açık kalır. Yaşam tarihleri ilgili pasajdan çıkarılmadı; fotoğrafın tarih farkı çözülmedi.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Temsilcilik aktarımı ve fotoğrafın açık tarihi",
+        "summary": "Merten’in temsilcilik görevi Usedom’un müfettişliğiyle aynı makam değildir. Fotoğraf kayıtlarındaki yıl farkı çözülmedi; harita işareti belirli bir anda bulunduğu yeri kanıtlamaz.",
+        "reasons": [
+          "Usedom maddesinin PDF sayfa 2 pasajı 27 Ekim incelemesinde okundu. Bu, yayımlanmış araştırmanın aktarımıdır; özgün atama emri, kesin görev başlangıcı ve bitişi görülmedi. PDF’nin tamamı ve bütün kaynakça eserleri okunmuş sayılmaz.",
+          "Bundesarchiv ile Commons fotoğraf kayıtlarının tarihleri farklıdır; kesin çekim yılı açık bırakıldı. Fotoğraf kimlik açıklaması yaşam tarihlerini veya günlük hareketleri belgelemez."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 ve 27 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceRefs": [
+          "https://canakkalesavaslariansiklopedisi.com/wp-content/uploads/2023/10/guido-von-usedom-csa-2.pdf#page=2",
+          "https://www.bild.bundesarchiv.de/dba/de/search/?query=Bild+183-R36163",
+          "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R36163,_T%C3%BCrkei,_Hauptquartier_Tschernak.jpg"
+        ]
+      }
     },
     {
       "path": "komutanlar/john-de-robeck/",
@@ -1060,10 +1075,25 @@
         "naval-reports"
       ],
       "summary": "De Robeck’in deniz komutanlığı dönem raporlarında görülür.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Doğum yılı kaynaklarda 1862/1863 olarak farklıdır; özgün yaşam kayıtları ve atama emri görülmedi. 16 Mart Carden ayrılışı ile 17 Mart görev satırı ayrı tutulur; kesin devir günü ve günlük hareketler açık kalır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Doğum yılı farklı, görev günleri ayrı",
+        "summary": "Doğum yılı kaynaklarda 1862 ve 1863 olarak farklıdır. Carden’ın 16 Mart ayrılışı ile de Robeck’in 17 Mart görev kaydı birleştirilmez.",
+        "reasons": [
+          "DIB ile NPG’nin seçili kimlik ve görev paragrafları 28 Ekim incelemesinde karşılaştırıldı; özgün nüfus ve ölüm kayıtları görülmedi. DIB’nin Mart ayındaki komuta anlatısı kesin devir günlerini ayrıca doğrulamaz.",
+          "Dönem raporlarının çevrimyazısı özgün belge görüntüsünün yerine geçmez. Atama emri ve kaynakçadaki bütün eserler okunmadı; Ekim tarihli fotoğraf 18 Mart muharebesinin görüntüsü değildir."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceRefs": [
+          "https://www.dib.ie/biography/de-robeck-sir-john-michael-a2469",
+          "https://www.npg.org.uk/collections/search/person/mp01268/sir-john-michael-de-robeck-bt",
+          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm"
+        ]
+      }
     },
     {
       "path": "komutanlar/liman-von-sanders/",
@@ -1071,10 +1101,25 @@
         "belleten-alkan"
       ],
       "summary": "Liman von Sanders, Beşinci Ordu savunma düzeninin başındadır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Doğumun 17/18 Şubat gün farkı çözülmedi; özgün yaşam kayıtları ve atama emri görülmedi. Ordu kuruluşu, atama ve fiilî göreve başlama ayrı tutulur; kesin görev günleri ve günlük hareketler açık kalır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Doğum günü farklı, kuruluş ve atama ayrı",
+        "summary": "Biyografiler doğum gününü 17 ve 18 Şubat olarak farklı verir. 5. Ordu’nun kuruluşu, komutanlığa atama ve fiilî göreve başlama aynı işlem sayılmaz.",
+        "reasons": [
+          "AWM ve NDB’nin seçili kimlik ve görev paragrafları 28 Ekim incelemesinde karşılaştırıldı. Ölüm bilgileri uyumludur; özgün nüfus ve ölüm kayıtları görülmedi, doğum günü farkı çözülmedi.",
+          "AWM’nin kuruluş ve komutanlık anlatısı kesin atama veya teslim gününü tek başına belgelemez. Özgün atama emri, bütün eser ve kaynakçalar okunmadı; fotoğraf tarihleri de görev başlangıcı değildir."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/visit/exhibitions/gmaps/turkish/vonsanders",
+          "https://www.deutsche-biographie.de/sfz51440.html",
+          "https://belleten.gov.tr/tam-metin/279/tur"
+        ]
+      }
     },
     {
       "path": "komutanlar/mustafa-kemal/",
@@ -1083,10 +1128,25 @@
         "belleten-alkan"
       ],
       "summary": "Mustafa Kemal’in 19. Tümen ve Anafartalar Grubu görevleri farklı aşamalardır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Yaşam alanları kurum biyografisinin seçili paragraflarıyla desteklidir; özgün yaşam belgeleri, Anafartalar görevinin kesin teslim günü ve günlük karargâh konumları için karşılaştırma açıktır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Yaşam kaydı ve değişen görev aşamaları",
+        "summary": "19. Tümen ile Anafartalar Grubu komutanlıkları farklı aşamalardır. Yaşam kaydına verilen kaynak desteği, kesin görev teslim gününü veya günlük karargâh yerini doğrulamaz.",
+        "reasons": [
+          "Kültür ve Turizm Bakanlığı biyografisinin ilgili yaşam paragrafları 28 Ekim incelemesinde okundu; özgün nüfus ve ölüm belgeleri görülmedi. Doğuma kesin gün ve ay eklenmedi.",
+          "Görev aşamaları önceki kronoloji ve araştırma incelemesine dayanır. Haritadaki genel ihtiyat noktası günlük karargâh konumu değildir; kaynağın diğer muharebe ve zayiat ayrıntıları topluca benimsenmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceRefs": [
+          "https://www.ktb.gov.tr/TR-96300/ataturk39un-hayati.html",
+          "https://www.ktb.gov.tr/TR-96322/1915.html",
+          "https://belleten.gov.tr/tam-metin/279/tur"
+        ]
+      }
     },
     {
       "path": "komutanlar/rafet-bey-bele/",

@@ -1,0 +1,56 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/mustafa-kemal/",
+    "sources": [
+      "ktb-1915",
+      "belleten-alkan"
+    ],
+    "summary": "Mustafa Kemal’in 19. Tümen ve Anafartalar Grubu görevleri farklı aşamalardır.",
+    "open": "Yaşam alanları kurum biyografisinin seçili paragraflarıyla desteklidir; özgün yaşam belgeleri, Anafartalar görevinin kesin teslim günü ve günlük karargâh konumları için karşılaştırma açıktır.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Yaşam kaydı ve değişen görev aşamaları",
+      "summary": "19. Tümen ile Anafartalar Grubu komutanlıkları farklı aşamalardır. Yaşam kaydına verilen kaynak desteği, kesin görev teslim gününü veya günlük karargâh yerini doğrulamaz.",
+      "reasons": [
+        "Kültür ve Turizm Bakanlığı biyografisinin ilgili yaşam paragrafları 28 Ekim incelemesinde okundu; özgün nüfus ve ölüm belgeleri görülmedi. Doğuma kesin gün ve ay eklenmedi.",
+        "Görev aşamaları önceki kronoloji ve araştırma incelemesine dayanır. Haritadaki genel ihtiyat noktası günlük karargâh konumu değildir; kaynağın diğer muharebe ve zayiat ayrıntıları topluca benimsenmedi."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+      "sourceRefs": [
+        "https://www.ktb.gov.tr/TR-96300/ataturk39un-hayati.html",
+        "https://www.ktb.gov.tr/TR-96322/1915.html",
+        "https://belleten.gov.tr/tam-metin/279/tur"
+      ]
+    }
+  },
+  "sha256": "14bd2510fa7c44d345d450ff4cf337d5da9b35aea0f514d5c701a915ee53b6a3",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Mustafa-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adımı kabul; genel R13 açık."
+}

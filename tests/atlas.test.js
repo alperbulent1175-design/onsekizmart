@@ -78,7 +78,7 @@ test("kayıt sayfası özetten sonra kaynak çerçevesini gösterir", () => {
   const html18 = fs.readFileSync(path.join(root, "olaylar/18-mart-deniz-muharebesi/index.html"), "utf8");
   assert.match(html, /Doğum/);
   assert.match(html, /doğrulanmış kayıt olarak işaretlenmez/);
-  assert.ok(html.indexOf("<h1>") < html.indexOf("<h2>Kaynakça</h2>"));
+  assert.ok(html.indexOf("<h1>") < html.search(/<h2(?:\s[^>]*)?>Kaynakça<\/h2>/));
   assert.match(html18, /<h1>18 Mart Deniz Muharebesi<\/h1>/);
   assert.match(html18, /doğrulanmış kayıt olarak işaretlenmez/);
 });
