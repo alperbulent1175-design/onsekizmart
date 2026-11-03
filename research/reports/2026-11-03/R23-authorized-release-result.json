@@ -1,0 +1,16 @@
+{
+  "commit": "63963fa6286f034c10f52beac1ac1c9b1d0cb775",
+  "push": "origin/main succeeded",
+  "domain": "onsekizmart.com",
+  "deployment": "deployed",
+  "publicFilesHttp200AndHashMatched": 161,
+  "configuration": "Hostinger reread matches pre-release content and483byte size; HTTP not used for htaccess.",
+  "backup": "research/deployment/2026-11-03-atlas-release/before",
+  "tests": {
+    "javascript": 320,
+    "python": 300,
+    "failed": 0
+  },
+  "scope": "88pages;162packagefiles;archive,tmp,unrelatedproject excluded",
+  "research": "R13 remains active; next Johannes Merten"
+}
