@@ -1,0 +1,21 @@
+{
+  "commit": "b6d0887edb399b2beec150fd21eb201ee9c6f4c8",
+  "push": "origin/main succeeded",
+  "domain": "onsekizmart.com",
+  "deployment": "deployed",
+  "publicFilesHttp200AndHashMatched": 161,
+  "pages": 88,
+  "configuration": "483byte htaccess API reread unchanged",
+  "tests": {
+    "javascript": 320,
+    "python": 300,
+    "failures": 0
+  },
+  "backup": "research\\deployment\\2026-11-03-scroll-release\\before",
+  "excluded": [
+    "archive",
+    "tmp",
+    "unrelated projects"
+  ],
+  "continuation": "Rafet readerSupport edited locally after deployment; not included in deployed package; UI pending"
+}
