@@ -114,11 +114,13 @@ test('mayın çizgisi kartı oynatmayı durdurur ve eski işaret seçimini temiz
   assert.match(shown.text, /tarihî hat numarası olarak doğrulanmadı/);
   assert.match(shown.source, /çizgi geometrisi doğrulanmadı/);
   assert.equal(shown.sourceUrl, data.mineReview.url);
+  assert.equal(shown.mineReview, data.mineReview);
   assert.equal(shown.reviewHref, '/nasil-okunur/#konum-denetimi');
   c.showMapLine(data.lines.find(line => line.id === 'nusret-hat'));
   assert.match(shown.accuracy, /köşeleri mayın veya gemi koordinatı değildir/);
   c.showMapLine(data.lines.find(line => line.id === 'hat-a'));
   assert.equal(shown.sourceUrl, '');
+  assert.equal(shown.mineReview, null);
   assert.match(shown.meta, /Filo/);
 });
 

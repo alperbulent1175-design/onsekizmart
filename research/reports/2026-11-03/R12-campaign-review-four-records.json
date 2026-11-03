@@ -1,0 +1,159 @@
+{
+  "id": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "scope": "Dört campaign coordinateReview mini-künye; genelR12 veya88sayfa kabulü değildir",
+  "records": [
+    {
+      "id": "kanlisirt",
+      "coordinates": [
+        40.2304,
+        26.2873
+      ],
+      "review": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/sehitlikveanitlar/kanlisirt-kitabesi",
+        "label": "Alan Başkanlığı · Kanlısırt Kitabesi",
+        "evidenceText": "Kitabe, Kanlısırt’ın doğu ucunda yer alır.",
+        "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Kanlısırt Kitabesi, Şehitlikler ve Anıtlar, kurumsal ziyaret sayfası.",
+        "locator": "Kanlısırt Kitabesi başlığının ilk anlatı cümlesi: kitabenin Kanlısırt’ın doğu ucunda bulunması.",
+        "sourceKind": "Kurumsal yer ve anıt anlatımı",
+        "eventDate": null,
+        "eventDateNote": "Kitabenin yer anlatımıdır; bir muharebenin tarihi veya platonun tamamının sayısal sınırı değildir.",
+        "documentDate": null,
+        "documentDateNote": "Bu bölüm özgün bir 1915 belgesinin düzenlenme tarihini vermez.",
+        "publicationDate": null,
+        "publicationDateNote": "İncelenen özel sayfada ilk yayım tarihi belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim plato–kitabe ayrımı korundu; 3 Kasım başlık ve ilk yer cümlesi yeniden okundu. Kitabenin ziyaret hedefi bütün plato yerine geçirilmedi; mevcut sayısal nokta doğrulanmadı. Diğer olay, saat ve zayiat anlatıları bu künye incelemesinde doğrulanmadı.",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi"
+      }
+    },
+    {
+      "id": "anafartalar",
+      "coordinates": [
+        40.302,
+        26.252
+      ],
+      "review": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/map-australian-locations",
+        "label": "DVA Anzac Portal · Gallipoli haritaları",
+        "evidenceText": "Suvla Bay to the north of Anzac Cove",
+        "bibliography": "Australian Government, Department of Veterans’ Affairs, Anzac Portal, Maps of Australian locations on Gallipoli 1915, haritalar ve coğrafi açıklamalar.",
+        "locator": "Genel Gelibolu haritasının konum listesi: Suvla Bay ile Anzac Cove arasındaki kuzey–güney ilişkisi.",
+        "sourceKind": "Kurumsal tarihî coğrafya açıklaması",
+        "eventDate": null,
+        "eventDateNote": "Haritalar seferin farklı dönemlerini gösterir; bu yer ilişkisi tek bir muharebe günü veya saha merkezi belirlemez.",
+        "documentDate": null,
+        "documentDateNote": "Açıklama, özgün bir askerî haritanın çizim veya raporun düzenlenme tarihi olarak kullanılmadı.",
+        "publicationDate": null,
+        "publicationDateNote": "İncelenen harita açıklamasında ilk yayım tarihi ayrıca belirlenmedi.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim bölgesel ilişki incelemesi korundu; 3 Kasım başlık ve ilgili konum maddesi yeniden okundu. Harita görüntüsünden koordinat türetilmedi; Anafartalar saha merkezi doğrulanmadı. Kirte künyesi aynı sayfanın başka pasajıdır; bağımsız ikinci kaynak değildir.",
+        "evidenceLanguage": "en",
+        "translation": "Anzak Koyu’nun kuzeyindeki Suvla Koyu",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi"
+      }
+    },
+    {
+      "id": "kirte",
+      "coordinates": [
+        40.0714,
+        26.2036
+      ],
+      "review": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/map-australian-locations",
+        "label": "DVA Anzac Portal · Seddülbahir harita açıklaması",
+        "evidenceText": "Achi Baba, the hill above Krithia",
+        "bibliography": "Australian Government, Department of Veterans’ Affairs, Anzac Portal, Maps of Australian locations on Gallipoli 1915, haritalar ve coğrafi açıklamalar.",
+        "locator": "Seddülbahir/Cape Helles haritasının konum listesi: Krithia ve Achi Baba ayrı maddeleri.",
+        "sourceKind": "Kurumsal tarihî coğrafya açıklaması",
+        "eventDate": null,
+        "eventDateNote": "Köy ile tepenin coğrafi ayrımı için okunmuştur; muharebe veya köy sınırının tespit tarihi değildir.",
+        "documentDate": null,
+        "documentDateNote": "Açıklama, özgün bir askerî haritanın çizim veya raporun düzenlenme tarihi olarak kullanılmadı.",
+        "publicationDate": null,
+        "publicationDateNote": "İncelenen harita açıklamasında ilk yayım tarihi ayrıca belirlenmedi.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim köy–tepe ayrımı korundu; 3 Kasım başlık ve ilgili iki konum maddesi yeniden okundu. Köy çevresindeki nokta tepe zirvesi veya hücum hattı yapılmadı; sayısal doğrulama yoktur. Anafartalar künyesi aynı sayfanın başka pasajıdır; bağımsız ikinci kaynak değildir.",
+        "evidenceLanguage": "en",
+        "translation": "Kirte’nin yukarısındaki tepe: Achi Baba",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi"
+      }
+    },
+    {
+      "id": "kerevizdere",
+      "coordinates": [
+        40.065,
+        26.228
+      ],
+      "review": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/diger-ziyaret-noktalari/fransiz-toplari",
+        "label": "Alan Başkanlığı · Fransız Topları",
+        "evidenceText": "özellikle Kerevizdere ve Zığındere Muharebeleri’nde kullanılan",
+        "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Fransız Topları, Diğer Ziyaret Noktaları, kurumsal ziyaret sayfası.",
+        "locator": "Fransız Topları başlığının ikinci anlatı paragrafı: Kerevizdere ve Zığındere muharebelerinin adlandırılması.",
+        "sourceKind": "Kurumsal ziyaret ve muharebe anlatısı",
+        "eventDate": null,
+        "eventDateNote": "Muharebe adlarına değinen pasajdır; belirli bir günün ateş, yerleştirme veya terk saati verilmiş sayılmaz.",
+        "documentDate": null,
+        "documentDateNote": "Sayfa özgün bir topçu raporunun düzenlenme tarihini belirtmez.",
+        "publicationDate": null,
+        "publicationDateNote": "İncelenen özel sayfada ilk yayım tarihi belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim saha–ziyaret noktası ayrımı korundu; 3 Kasım başlık ve ilgili adlandırma pasajı yeniden okundu. Topların ziyaret kaydı dere yatağı, bütün muharebe sahası veya siper hattı için sayısal kanıt yapılmadı. Diğer tarih, silah adı ve kayıp anlatıları ayrıca doğrulanmadı.",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi"
+      }
+    }
+  ],
+  "reading": "Kanlısırt özel sayfasının ilk yer cümlesi; Fransız Topları özel sayfasının muharebe adlandırma paragrafı; DVA Maps of Australian locations on Gallipoli1915 genel ve Seddülbahir haritalarının ilgili konum maddeleri yeniden okundu. 20Ekim kanlisirt-anafartalar ve kirte-kerevizdere karşılaştırmaları/INCELEME.md kullanıldı.",
+  "limits": "Sayısal koordinat/datum/status değişmedi. Anıt, kitabe, top ziyaret noktası ve saha merkezi ayrıldı. İngilizce asıl ile atlas çevirisi korundu. Anafartalar ve Kirte iki bağımsız kaynak değildir. Diğer tarih/saat/zayiat ve silah adları ayrıca doğrulanmadı.",
+  "tests": {
+    "allJavaScript": 317,
+    "requiredPython": 25,
+    "failures": 0,
+    "log": "R12-campaign-review-tests.txt",
+    "latestFullRun": "318/25 R12-mine-review-tests.txt"
+  },
+  "ui": {
+    "ids": [
+      "kanlisirt",
+      "anafartalar",
+      "kirte",
+      "kerevizdere"
+    ],
+    "keyboard": "Enter",
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "client": 1265,
+      "scroll": 1265
+    },
+    "mobile": {
+      "viewport": [
+        320,
+        800
+      ],
+      "client": 305,
+      "scroll": 305
+    },
+    "metadataAndUncertaintyVisible": true,
+    "englishLanguage": "en",
+    "viewportReset": true
+  },
+  "hashes": {
+    "js/data.js": "1a24f9f0336395cb8f3bed30a58f7837b0a1220bf22b3e902e8b822dcea357d0",
+    "js/campaign.js": "fa6fda62ab64db9c70693a2ab511ecc020e9c804369a93aa69e0a5ceadd3863d",
+    "js/app.js": "53e0282614f5484de30946027e5e5f06407e37fb631cd8b69614cd4405d7c1e4",
+    "index.html": "222262cfb0303c457ce5c9c4d661c175fe63d50c464a86d080a4c51895defc1e"
+  }
+}

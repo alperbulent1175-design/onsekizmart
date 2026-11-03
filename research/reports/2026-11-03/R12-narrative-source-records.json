@@ -1,0 +1,209 @@
+{
+  "id": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "scope": "Beş mevcut narrativeSource daktilo kaydının künye ve tarih ayrımı; yeni tarihsel iddia eklenmedi",
+  "records": [
+    {
+      "id": "tavsan",
+      "source": {
+        "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+        "imageUrl": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+        "label": "AWM RCDIG1066703 · daktilo sayfası 47",
+        "bibliography": "Australian War Memorial, Charles E W Bean, Diaries, AWM38 3DRL 606/267/1 – 1914–1915 – Part 7; RCDIG1066703. Bean koleksiyonunda saklanan deniz harekâtı raporunun daktilo kopyası.",
+        "locator": "Daktilo s. 47; görüntü dosyası 43824-rcdig1066703-page65.jpg.",
+        "eventDate": "1915-03-18",
+        "eventScope": "18 Mart deniz muharebesinin bağlam tarihidir; alıntılanan aşamanın kesin saati veya Gaulois’nın karaya oturma anı bu alanla doğrulanmaz.",
+        "documentDate": null,
+        "documentDateNote": "Bu daktilo sayfasının hazırlanma tarihi ayrıca belirlenmedi; koleksiyon başlığındaki tarih aralığı belge tarihi değildir.",
+        "publicationDate": null,
+        "publicationDateNote": "Bu arşiv kopyasının ilk yayım veya dijitalleştirme tarihi ayrıca belirlenmedi; görüntü URL’sindeki klasör tarihi yayım kanıtı değildir.",
+        "accessDate": "2026-10-19",
+        "readingScope": "Yalnız ilgili daktilo sayfasındaki seçili pasaj görüntüden okundu. Koleksiyonun bütünü veya imzalı özgün rapor incelenmiş sayılmaz.",
+        "witnessGroup": "AWM-RCDIG1066703-naval-report-copy",
+        "evidenceText": "Gaulois grounded on North of Drepano Island.",
+        "translation": "Gaulois, Drepano Adası’nın kuzeyinde karaya oturdu.",
+        "date": "2026-10-19",
+        "status": "daktilo_kopyasi_goruntuden_okundu",
+        "limit": "Özgün imzalı raporla karşılaştırma açık; kesin saat veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor."
+      }
+    },
+    {
+      "id": "bouvet",
+      "source": {
+        "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+        "imageUrl": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43822-rcdig1066703-page63.jpg",
+        "label": "AWM RCDIG1066703 · daktilo sayfası 45",
+        "bibliography": "Australian War Memorial, Charles E W Bean, Diaries, AWM38 3DRL 606/267/1 – 1914–1915 – Part 7; RCDIG1066703. Bean koleksiyonunda saklanan deniz harekâtı raporunun daktilo kopyası.",
+        "locator": "Daktilo s. 45; görüntü dosyası 43822-rcdig1066703-page63.jpg.",
+        "eventDate": "1915-03-18",
+        "eventScope": "18 Mart deniz muharebesinin bağlam tarihidir; alıntılanan bildirim, kurtarma veya gece araması için kesin saat bu alanla doğrulanmaz.",
+        "documentDate": null,
+        "documentDateNote": "Bu daktilo sayfasının hazırlanma tarihi ayrıca belirlenmedi; koleksiyon başlığındaki tarih aralığı belge tarihi değildir.",
+        "publicationDate": null,
+        "publicationDateNote": "Bu arşiv kopyasının ilk yayım veya dijitalleştirme tarihi ayrıca belirlenmedi; görüntü URL’sindeki klasör tarihi yayım kanıtı değildir.",
+        "accessDate": "2026-10-19",
+        "readingScope": "Yalnız ilgili daktilo sayfasındaki seçili pasaj görüntüden okundu. Koleksiyonun bütünü veya imzalı özgün rapor incelenmiş sayılmaz.",
+        "witnessGroup": "AWM-RCDIG1066703-naval-report-copy",
+        "evidenceText": "only 66 survivors were picked up.",
+        "translation": "Yalnızca 66 kişi kurtarıldı.",
+        "context": "Bu, rapordaki kurtarma bildirimidir; kesinleşmiş kurtulan toplamı veya eksiksiz personel cetveli değildir. Farklı kaynaklardaki sayılar 18 Mart kaynak notunda ayrı değerlendirilir.",
+        "date": "2026-10-19",
+        "status": "daktilo_kopyasi_goruntuden_okundu",
+        "limit": "İmzalı özgün rapor ve nihai personel listeleriyle karşılaştırma açık; kesin zayiat toplamı veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor."
+      }
+    },
+    {
+      "id": "inflexible",
+      "source": {
+        "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-4",
+        "imageUrl": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43819-rcdig1066703-page60.jpg",
+        "label": "AWM RCDIG1066703 · daktilo sayfası 42",
+        "bibliography": "Australian War Memorial, Charles E W Bean, Diaries, AWM38 3DRL 606/267/1 – 1914–1915 – Part 7; RCDIG1066703. Bean koleksiyonunda saklanan deniz harekâtı raporunun daktilo kopyası.",
+        "locator": "Daktilo s. 42; görüntü dosyası 43819-rcdig1066703-page60.jpg.",
+        "eventDate": "1915-03-18",
+        "eventScope": "18 Mart deniz muharebesinin bağlam tarihidir; alıntılanan bildirim, kurtarma veya gece araması için kesin saat bu alanla doğrulanmaz.",
+        "documentDate": null,
+        "documentDateNote": "Bu daktilo sayfasının hazırlanma tarihi ayrıca belirlenmedi; koleksiyon başlığındaki tarih aralığı belge tarihi değildir.",
+        "publicationDate": null,
+        "publicationDateNote": "Bu arşiv kopyasının ilk yayım veya dijitalleştirme tarihi ayrıca belirlenmedi; görüntü URL’sindeki klasör tarihi yayım kanıtı değildir.",
+        "accessDate": "2026-10-19",
+        "readingScope": "Yalnız ilgili daktilo sayfasındaki seçili pasaj görüntüden okundu. Koleksiyonun bütünü veya imzalı özgün rapor incelenmiş sayılmaz.",
+        "witnessGroup": "AWM-RCDIG1066703-naval-report-copy",
+        "evidenceText": "reported shortly after 4.p.m.",
+        "translation": "Saat 16.00’dan kısa süre sonra bildirdi.",
+        "context": "Pasaj Inflexible’ın mayına çarptığını bildirmesine ilişkindir. Bildirimin zamanı, mayına çarpma anını ayrıca doğrulamaz.",
+        "date": "2026-10-19",
+        "status": "daktilo_kopyasi_goruntuden_okundu",
+        "limit": "Özgün imzalı raporla karşılaştırma açık; kesin isabet saati veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor.",
+        "publishedComparison": {
+          "url": "https://www.thegazette.co.uk/London/issue/31322",
+          "label": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+          "date": "2026-10-20",
+          "status": "resmi_yayin_goruntusu_incelendi",
+          "evidenceText": "4.11.—“Inflexible” reported",
+          "translation": "16.11 — Inflexible bildirdi.",
+          "context": "Basılı 5503, mayın isabetinin bildirimini bu saatte kaydeder. İsabet anı ayrıca belirlenmez. Raporun yerel saatleri GMT’den iki saat ileridir.",
+          "limit": "Resmî yayımdaki rapor incelendi; imzalı asıl nüsha değildir. AWM daktilo kopyasıyla bağımsız iki tanıklık sayılmaz. Kartın tamamını veya harita koordinatını doğrulamaz."
+        }
+      }
+    },
+    {
+      "id": "irresistible",
+      "source": {
+        "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+        "imageUrl": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+        "label": "AWM RCDIG1066703 · daktilo sayfası 47",
+        "bibliography": "Australian War Memorial, Charles E W Bean, Diaries, AWM38 3DRL 606/267/1 – 1914–1915 – Part 7; RCDIG1066703. Bean koleksiyonunda saklanan deniz harekâtı raporunun daktilo kopyası.",
+        "locator": "Daktilo s. 47; görüntü dosyası 43824-rcdig1066703-page65.jpg.",
+        "eventDate": "1915-03-18",
+        "eventScope": "18 Mart deniz muharebesinin bağlam tarihidir; alıntılanan bildirim, kurtarma veya gece araması için kesin saat bu alanla doğrulanmaz.",
+        "documentDate": null,
+        "documentDateNote": "Bu daktilo sayfasının hazırlanma tarihi ayrıca belirlenmedi; koleksiyon başlığındaki tarih aralığı belge tarihi değildir.",
+        "publicationDate": null,
+        "publicationDateNote": "Bu arşiv kopyasının ilk yayım veya dijitalleştirme tarihi ayrıca belirlenmedi; görüntü URL’sindeki klasör tarihi yayım kanıtı değildir.",
+        "accessDate": "2026-10-19",
+        "readingScope": "Yalnız ilgili daktilo sayfasındaki seçili pasaj görüntüden okundu. Koleksiyonun bütünü veya imzalı özgün rapor incelenmiş sayılmaz.",
+        "witnessGroup": "AWM-RCDIG1066703-naval-report-copy",
+        "evidenceText": "No trace of either ship could be found",
+        "translation": "İki gemiden de hiçbir iz bulunamadı.",
+        "date": "2026-10-19",
+        "status": "daktilo_kopyasi_goruntuden_okundu",
+        "limit": "Özgün imzalı raporla karşılaştırma açık; kesin saat veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor.",
+        "publishedComparison": {
+          "url": "https://www.thegazette.co.uk/London/issue/31322",
+          "label": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+          "date": "2026-10-20",
+          "status": "resmi_yayin_goruntusu_incelendi",
+          "evidenceText": "at 4.50 p.m.",
+          "translation": "Saat 16.50’de.",
+          "context": "Basılı 5503–5504, Wear’in Irresistible’dan alınan personelle Queen Elizabeth’e dönüşünü anlatır. Tahliyenin başlangıcı veya batış anı değildir. Raporun yerel saatleri GMT’den iki saat ileridir.",
+          "limit": "Resmî yayımdaki rapor incelendi; imzalı asıl nüsha değildir. AWM daktilo kopyasıyla bağımsız iki tanıklık sayılmaz. Kartın tamamını veya harita koordinatını doğrulamaz."
+        }
+      }
+    },
+    {
+      "id": "ocean",
+      "source": {
+        "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+        "imageUrl": "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-01/43824-rcdig1066703-page65.jpg",
+        "label": "AWM RCDIG1066703 · daktilo sayfası 47",
+        "bibliography": "Australian War Memorial, Charles E W Bean, Diaries, AWM38 3DRL 606/267/1 – 1914–1915 – Part 7; RCDIG1066703. Bean koleksiyonunda saklanan deniz harekâtı raporunun daktilo kopyası.",
+        "locator": "Daktilo s. 47; görüntü dosyası 43824-rcdig1066703-page65.jpg.",
+        "eventDate": "1915-03-18",
+        "eventScope": "18 Mart deniz muharebesinin bağlam tarihidir; alıntılanan bildirim, kurtarma veya gece araması için kesin saat bu alanla doğrulanmaz.",
+        "documentDate": null,
+        "documentDateNote": "Bu daktilo sayfasının hazırlanma tarihi ayrıca belirlenmedi; koleksiyon başlığındaki tarih aralığı belge tarihi değildir.",
+        "publicationDate": null,
+        "publicationDateNote": "Bu arşiv kopyasının ilk yayım veya dijitalleştirme tarihi ayrıca belirlenmedi; görüntü URL’sindeki klasör tarihi yayım kanıtı değildir.",
+        "accessDate": "2026-10-19",
+        "readingScope": "Yalnız ilgili daktilo sayfasındaki seçili pasaj görüntüden okundu. Koleksiyonun bütünü veya imzalı özgün rapor incelenmiş sayılmaz.",
+        "witnessGroup": "AWM-RCDIG1066703-naval-report-copy",
+        "evidenceText": "No trace of either ship could be found",
+        "translation": "İki gemiden de hiçbir iz bulunamadı.",
+        "date": "2026-10-19",
+        "status": "daktilo_kopyasi_goruntuden_okundu",
+        "limit": "Özgün imzalı raporla karşılaştırma açık; kesin saat veya koordinat doğrulanmaz. Platform çevrimyazısı onay bekliyor.",
+        "publishedComparison": {
+          "url": "https://www.thegazette.co.uk/London/issue/31322",
+          "label": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+          "date": "2026-10-20",
+          "status": "resmi_yayin_goruntusu_incelendi",
+          "evidenceText": "about 7.30 p.m.",
+          "translation": "Yaklaşık saat 19.30’da.",
+          "context": "Basılı 5503’te bu saat Ocean’ın nihai terk edilmesine ilişkindir; batış saati değildir. Basılı 5504’te gece araması sonuçsuzdur. Raporun yerel saatleri GMT’den iki saat ileridir.",
+          "limit": "Resmî yayımdaki rapor incelendi; imzalı asıl nüsha değildir. AWM daktilo kopyasıyla bağımsız iki tanıklık sayılmaz. Kartın tamamını veya harita koordinatını doğrulamaz."
+        }
+      }
+    }
+  ],
+  "sources_reviewed_this_batch": [
+    {
+      "url": "https://transcribe.awm.gov.au/transcription/item/rcdig1066703-5",
+      "accessDate": "2026-11-03",
+      "evidence": "Charles E W Bean, Diaries, AWM38 3DRL 606/267/1 – 1914–1915 – Part 7; RCDIG1066703; Awaiting approval",
+      "scope": "Kurum kayıt başlığı ve durum alanı; tüm koleksiyon okunmadı"
+    }
+  ],
+  "prior_passage_reviews": [
+    "research/source-review/18-mart-gazette-2026-10-19/awm-page47-review.json",
+    "research/source-review/18-mart-gazette-2026-10-19/review.json",
+    "js/data.js mevcut19Ekim görüntü okuma kayıtları"
+  ],
+  "limits": [
+    "19Ekim görüntü okuması erişim tarihi korunur;3Kasım katalog başlığı kontrolü yeni bütün-belge okuması sayılmaz",
+    "Belge hazırlanma ve ilk yayım tarihleri null; koleksiyon tarihi ve görüntüklasöründen tarih üretilmedi",
+    "18Mart tarih alanı muharebe bağlamıdır; Gaulois karayaoturma, kurtarma,bildirim,gecearama anları kesinleştirilmedi",
+    "Beş kayıt aynı kopya zinciri; özgün imzalı rapor/nihai personel listeleri/koordinat doğrulanmadı",
+    "Resmî karşılaştırmanın2026tarihi açıkça inceleme diye etiketlendi; nestedpublishedComparison tam metadata henüz açık"
+  ],
+  "tests": {
+    "all_javascript": 308,
+    "required_python": 25,
+    "failures": 0,
+    "log": "R12-narrative-source-tests.txt"
+  },
+  "ui": {
+    "desktop": "Gaulois1280×720,1265/1265px;Enterilekaynak ayrıntısı açıldı",
+    "mobile": "Beş kart320×800,305/305px;Gaulois açık kartı boyut değişiminde,diğer dört kart Enterile doğrulandı",
+    "map": "Leafletpane ve İtilaf süzgeci çalıştı",
+    "viewport_reset": true
+  },
+  "publication": false,
+  "local_delta": [
+    {
+      "path": "index.html",
+      "sha256": "41ac34c0534569a59f8d7e3d7d943a437ef0be1c7c50da8877db7f05e8afbe27"
+    },
+    {
+      "path": "js/data.js",
+      "sha256": "4e4563edcaf51a468b6cc3e0a51b6013102f4c7466182fa3e7c845b09ba30955"
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "ab0290eb63c800ee3466e2516f05a3e3f68d89220d8563a23a6a7cf02d58ae0d"
+    }
+  ],
+  "acceptance": "Beş ana narrativeSource alt adımı geçti; genelR12kabulü ve üçpublishedComparison ayrıntısı açık",
+  "next": "Inflexible/Irresistible/Ocean publishedComparison üç kaydının olay-belge-yayım-inceleme tarihlerini ve konumlayıcılarını önceki Gazette görüntü kayıtlarıyla ayır."
+}

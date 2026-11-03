@@ -47,7 +47,7 @@ test('resmî yayım karşılaştırması kendi durumu ve sınırlarıyla görün
     const original = JSON.stringify(place);
     const source = place.narrativeSource.publishedComparison;
     const details = context.narrativeEvidence(place);
-    assert.ok(allText(details).includes('Ek kontrol: resmî yayım · 2026-10-20'));
+    assert.ok(allText(details).includes('Ek kontrol: resmî yayımın incelenme tarihi · 2026-10-20'));
     assert.ok(allText(details).includes(source.context));
     assert.ok(allText(details).includes('bağımsız iki tanıklık sayılmaz'));
     assert.equal(details.children.find(n => n.href === source.url).textContent, source.label);
@@ -188,6 +188,39 @@ test('eksik koordinat kaydı karşılaştırıldı açıklaması üretmez', () =
   assert.doesNotMatch(text, /karşılaştırıldı|undefined/);
 });
 
+test('mayın anlatısı İngilizce pasajı ve çeviriyi gösterir; geometri veya kesin tarih kanıtı sayılmaz', () => {
+  const source = data.window.OM.mineReview, details = context.mineNarrativeEvidence(source), text = allText(details);
+  assert.equal(details.children[0].textContent, 'Mayın anlatısının kaynağını göster');
+  assert.equal(details.children.find(n => n.tag === 'blockquote').lang, 'en');
+  assert.equal(details.children.find(n => n.tag === 'a').href, source.url);
+  assert.ok(text.includes(source.translation)); assert.ok(text.includes(source.readingScope));
+  assert.match(text, /çizgi geometrisi doğrulanmadı/);
+  assert.match(text, /Enlemesine şematik hatların numarası ve mayın sayısı bu pasajdan çıkarılamaz/);
+  stopped = 0; details.open = true; details.listeners.toggle(); assert.equal(stopped, 1);
+  for (const patch of [{url: 'javascript:alert(1)'},{status: 'iddia_dogrulandi'},{date: '2026-02-30'},{accessDate: '2026-11-03'},{metadataReviewDate: 'dün'},{eventDate: '1915-03-08'},{translation: ''},{bibliography: ''}]) {
+    assert.equal(context.mineNarrativeEvidence({...source,...patch}), null);
+  }
+});
+
+test('18 kronoloji kartı künye yılını, pasaj erişimini ve inceleme kapsamını ayırır', () => {
+  const records = data.window.OM.campaign.events.filter(e => e.chronologySource);
+  assert.equal(records.length, 18);
+  for (const event of records) {
+    const source = event.chronologySource, details = context.chronologyEvidence(source), text = allText(details);
+    assert.equal(details.children[0].textContent, 'Bu olayın kaynak künyesini göster');
+    assert.equal(details.children.find(n => n.tag === 'a').href, source.url);
+    for (const field of ['bibliography','passage','evidenceText','eventDate','accessDate','metadataAccessDate','publicationDateNote','scope']) assert.ok(text.includes(source[field]), event.id + ':' + field);
+    assert.match(text, /doğrudan alıntı değil/); assert.match(text, /bütün ayrıntılarının doğrulandığı anlamına gelmez/);
+  }
+});
+
+test('geçersiz künye, güvenli olmayan adres veya doğrulandı etiketi kronoloji kanıtı üretmez', () => {
+  const source = data.window.OM.campaign.events.find(e => e.chronologySource).chronologySource;
+  for (const patch of [{url: 'javascript:alert(1)'},{status: 'iddia_dogrulandi'},{accessDate: '2026-02-30'},{metadataAccessDate: ''},{publicationDate: '2026-02-30'},{publicationDate: undefined},{publicationDateNote: ''},{bibliography: ''}]) assert.equal(context.chronologyEvidence({...source,...patch}), null);
+  const details = context.chronologyEvidence(source);
+  stopped = 0; details.open = true; details.listeners.toggle(); assert.equal(stopped, 1);
+});
+
 test('kaynak çelişkisi özgün belge doğrulaması sayılmaz; açmak oynatmayı durdurur', () => {
   const place = data.window.OM.places.find(p => p.id === 'rumeli-hamidiye');
   const details = context.claimConflictEvidence(place);
@@ -202,6 +235,16 @@ test('kaynak çelişkisi özgün belge doğrulaması sayılmaz; açmak oynatmay�
   }
   assert.equal(context.claimConflictEvidence({ claimReview: { ...place.claimReview, url: 'javascript:alert(1)' } }), null);
   assert.equal(context.claimConflictEvidence({ claimReview: { ...place.claimReview, status: 'iddia_dogrulandi' } }), null);
+});
+
+test('çelişki künyesi kurumsal aktarımı tarihsiz özgün belge gibi sunmaz', () => {
+  const place = data.window.OM.places.find(p => p.id === 'rumeli-hamidiye'), source = place.claimReview;
+  const text = allText(context.claimConflictEvidence(place));
+  for (const field of ['bibliography','locator','readingScope','eventDateNote','documentDateNote','publicationDateNote']) assert.ok(text.includes(source[field]), field);
+  for (const patch of [{eventDate: '1915-03-18'},{documentDate: ''},{accessDate: '2026-11-03'},{metadataReviewDate: '2026-02-30'},{bibliography: ''}]) {
+    const result = allText(context.claimConflictEvidence({claimReview: {...source,...patch}}));
+    assert.ok(!result.includes('Künye kontrolü:')); assert.ok(result.includes(source.evidenceText));
+  }
 });
 
 test('konum kanıtı kapalı başlar, kaynak ve sınırlar korunur; açmak oynatmayı durdurur', () => {
@@ -356,4 +399,138 @@ test('geçersiz tarih veya kaynak türüne uymayan statü konum doğrulaması ü
     assert.doesNotMatch(text, /karşılaştırıldı|coğrafi anlatımı incelendi|Konum inceleme tarihi:/);
   }
   assert.match(allText(context.coordinateEvidence({ coordinateReview: { ...review, date: '2024-02-29' } })), /coğrafi anlatımı incelendi/);
+});
+
+
+test('beş AWM daktilo kaydı bağlam, erişim ve bilinmeyen belge/yayım tarihlerini ayırır', () => {
+  const records = data.window.OM.places.filter(p => p.narrativeSource);
+  assert.equal(records.length, 5);
+  assert.equal(new Set(records.map(p => p.narrativeSource.witnessGroup)).size, 1);
+  for (const place of records) {
+    const source = place.narrativeSource, text = allText(context.narrativeEvidence(place));
+    assert.equal(source.eventDate, '1915-03-18'); assert.equal(source.accessDate, '2026-10-19');
+    assert.equal(source.documentDate, null); assert.equal(source.publicationDate, null);
+    for (const key of ['bibliography','locator','eventScope','documentDateNote','publicationDateNote','readingScope']) assert.ok(text.includes(source[key]), place.id + ':' + key);
+    assert.match(text, /Bean koleksiyonunda saklanan/); assert.match(text, /Belge tarihi: ayrıca belirlenmedi/);
+    assert.match(text, /Yayım tarihi: ayrıca belirlenmedi/); assert.match(text, /Görüntünün incelendiği tarih: 2026-10-19/);
+  }
+});
+
+test('daktilo kanıtı eksik künye veya tarih ayrımıyla gösterilmez; ek kontrol tarihi yayım tarihi yapılmaz', () => {
+  const source = data.window.OM.places.find(p => p.id === 'ocean').narrativeSource;
+  for (const changes of [{bibliography: ''},{locator: ' '},{eventDate: '1915-02-30'},{accessDate: '2026-10-20'},{documentDate: '1915-03-99'},{publicationDate: undefined},{publicationDateNote: ''},{readingScope: ''}]) {
+    assert.equal(context.narrativeEvidence({narrativeSource: {...source, ...changes}}), null);
+  }
+  const text = allText(context.narrativeEvidence({narrativeSource: source}));
+  assert.match(text, /resmî yayımın incelenme tarihi · 2026-10-20/);
+  assert.doesNotMatch(text, /resmî yayım · 2026-10-20/);
+});
+
+
+test('üç Gazette karşılaştırması 18Mart olayını,24Mart raporu,26Mart üst yazısı ve1919yayımını ayrı gösterir', () => {
+  const places = data.window.OM.places.filter(p => p.narrativeSource && p.narrativeSource.publishedComparison);
+  assert.equal(places.length, 3);
+  for (const place of places) {
+    const comparison = place.narrativeSource.publishedComparison, text = allText(context.narrativeEvidence(place));
+    assert.equal(comparison.eventDate, '1915-03-18'); assert.equal(comparison.documentDate, '1915-03-24');
+    assert.equal(comparison.coverLetterDate, '1915-03-26'); assert.equal(comparison.publicationDate, '1919-05-02');
+    assert.equal(comparison.accessDate, '2026-10-20'); assert.equal(comparison.metadataReviewDate, '2026-11-03');
+    assert.equal(comparison.witnessGroup, place.narrativeSource.witnessGroup);
+    assert.match(text, /Rapor: 1915-03-24 · Üst yazı: 1915-03-26 · Resmî yayım: 1919-05-02/);
+    for (const field of ['bibliography','locator','eventStage','documentDateNote','readingScope']) assert.ok(text.includes(comparison[field]), place.id + ':' + field);
+    assert.match(text, /bağımsız iki tanıklık sayılmaz/);
+  }
+});
+
+test('eksik veya tutarsız yayım tarihi ve tanık zinciri ek kontrolü doğrulanmış gibi göstermez', () => {
+  const source = data.window.OM.places.find(p => p.id === 'inflexible').narrativeSource;
+  for (const patch of [{publicationDate: null},{documentDate: '1915-02-30'},{accessDate: '2026-11-03'},{locator: ''},{bibliography: ''},{eventStage: ''},{metadataReviewDate: 'dün'},{witnessGroup: 'farklı-tanık'}]) {
+    const result = context.narrativeEvidence({narrativeSource: {...source,publishedComparison: {...source.publishedComparison,...patch}}});
+    assert.ok(!allText(result).includes('Ek kontrol: resmî yayım'));
+    assert.ok(allText(result).includes(source.evidenceText));
+  }
+});
+
+
+test('Kilitbahir konum künyesi güncel ziyaret dayanağını 1915 olay tarihine çevirmeden gösterir', () => {
+  const place = data.window.OM.places.find(p => p.id === 'kilitbahir'), source = place.coordinateSource;
+  const text = allText(context.coordinateEvidence(place));
+  assert.equal(place.lat, 40.146554); assert.equal(place.lng, 26.380381);
+  assert.equal(source.eventDate, null); assert.equal(source.documentDate, null); assert.equal(source.publicationDate, null);
+  assert.equal(source.accessDate, '2026-10-20'); assert.equal(source.metadataReviewDate, '2026-11-03');
+  for (const field of ['bibliography','locator','sourceKind','eventDateNote','documentDateNote','publicationDateNote','readingScope']) assert.ok(text.includes(source[field]), field);
+  assert.match(text, /jeodezik referans sistemini/); assert.match(text, /1915 mevzi tespiti yapılmadı/);
+});
+
+test('eksik konum künyesi yeni tarih alanlarını kanıtlaştırmaz; mevcut incelenmiş ziyaret dayanağı korunur', () => {
+  const place = data.window.OM.places.find(p => p.id === 'kilitbahir');
+  for (const patch of [{publicationDate: undefined},{documentDate: '1915-02-30'},{accessDate: '2026-11-03'},{bibliography: ''},{metadataReviewDate: 'dün'}]) {
+    const text = allText(context.coordinateEvidence({...place, coordinateSource: {...place.coordinateSource,...patch}}));
+    assert.ok(!text.includes('Künye kontrolü:'));
+    assert.ok(text.includes(place.coordinateSource.evidenceText));
+  }
+});
+
+test('kampanyanın dört coğrafi künyesi nokta doğrulamasını ve iki dildeki pasajları karıştırmaz', () => {
+  const places = data.window.OM.campaign.places.filter(p => p.coordinateReview);
+  assert.equal(places.length, 4);
+  for (const place of places) {
+    const source = place.coordinateReview, text = allText(context.coordinateEvidence(place));
+    assert.equal(source.status, 'anlatim_incelendi_nokta_dogrulanmadi');
+    assert.equal(source.eventDate, null); assert.equal(source.documentDate, null); assert.equal(source.publicationDate, null);
+    assert.equal(source.accessDate, source.date);
+    for (const field of ['bibliography','locator','readingScope']) assert.ok(text.includes(source[field]), place.id + ':' + field);
+    assert.ok(text.includes(source.evidenceText));
+    if (source.evidenceLanguage === 'en') {
+      assert.ok(text.includes(source.translation));
+      assert.equal(context.coordinateEvidence(place).children.find(n => n.tag === 'blockquote').lang, 'en');
+      assert.match(text, /bağımsız ikinci kaynak değildir/);
+    }
+    assert.match(text, /haritadaki sayısal noktayı doğrulamaz/);
+  }
+});
+
+test('üç coğrafi anlatım künyesi sayısal nokta doğrulamasına dönüşmez', () => {
+  const places = data.window.OM.places.filter(p => p.coordinateReview);
+  assert.equal(places.length, 3);
+  for (const place of places) {
+    const source = place.coordinateReview, text = allText(context.coordinateEvidence(place));
+    assert.equal(source.status, 'anlatim_incelendi_nokta_dogrulanmadi');
+    assert.equal(source.eventDate, null); assert.equal(source.documentDate, null);
+    assert.equal(source.accessDate, source.date); assert.equal(source.metadataReviewDate, '2026-11-03');
+    for (const field of ['bibliography','locator','readingScope','publicationDateNote']) assert.ok(text.includes(source[field]), place.id + ':' + field);
+    assert.match(text, /sayısal|koordinat/i);
+  }
+  const portal = places.find(p => p.id === 'dardanos').coordinateReview;
+  assert.equal(portal.publicationDate, '2013-02-25'); assert.equal(portal.modifiedDate, '2019-04-03');
+});
+
+test('altı Alan Başkanlığı ziyaret künyesi güncel gezi noktası ve bilinmeyen yayım tarihini açık tutar', () => {
+  const places = data.window.OM.places.filter(p => p.coordinateSource && p.coordinateSource.bibliography && p.coordinateSource.sourceKind === 'Güncel kurumsal ziyaret rehberi');
+  assert.equal(places.length, 6);
+  for (const place of places) {
+    const source = place.coordinateSource, text = allText(context.coordinateEvidence(place));
+    assert.equal(source.eventDate, null); assert.equal(source.documentDate, null); assert.equal(source.publicationDate, null);
+    assert.equal(source.accessDate, '2026-10-20'); assert.equal(source.metadataReviewDate, '2026-11-03');
+    assert.ok(text.includes(source.bibliography)); assert.ok(text.includes(source.locator));
+    assert.match(text, /tarihlenmiş tek bir muharebe olayını göstermez/);
+    assert.match(text, /telif yılı yayım tarihi sayılmadı/);
+    assert.equal(source.status, 'kurumsal_ziyaret_noktasi_karsilastirildi');
+  }
+});
+
+test('portal eklenme tarihi ile modern enkaz araştırmasının yayım yılı ölçüm veya muharebe tarihi yapılmaz', () => {
+  const castle = data.window.OM.places.find(p => p.id === 'cimenlik'), wreck = data.window.OM.places.find(p => p.id === 'irresistible');
+  assert.equal(castle.coordinateSource.publicationDate, '2014-07-18');
+  assert.equal(castle.coordinateSource.modifiedDate, '2022-02-28');
+  assert.equal(wreck.coordinateSource.publicationDate, null); assert.equal(wreck.coordinateSource.publicationYear, '2023');
+  for (const place of [castle,wreck]) {
+    const source = place.coordinateSource, text = allText(context.coordinateEvidence(place));
+    assert.equal(source.eventDate, null); assert.equal(source.documentDate, null);
+    assert.ok(text.includes(source.bibliography)); assert.ok(text.includes(source.locator));
+    assert.ok(text.includes(source.publicationDateNote)); assert.ok(text.includes(source.readingScope));
+    assert.match(text, /datum/);
+  }
+  assert.match(allText(context.coordinateEvidence(wreck)), /zayiat ve batış saati anlatısı doğrulanmış sayılmaz/);
+  assert.match(allText(context.coordinateEvidence(wreck)), /Yayım tarihi: 2023 \(gün ve ay belirlenmedi\)/);
 });

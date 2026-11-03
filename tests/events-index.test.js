@@ -7,7 +7,7 @@ const vm = require('node:vm');
 test('olay aramasının URL metni 200 karakterle sınırlanır ve güvenli dönüş üretir', () => {
   const { elements: e, rows } = setup('https://example.invalid/olaylar/?q=' + encodeURIComponent('ş'.repeat(201)) + '&bolum=kara');
   assert.equal(e['events-query'].value, 'ş'.repeat(200));
-  const back = new URL(new URL(rows[0].link.href, 'https://example.invalid').searchParams.get('listeyeDon'), 'https://example.invalid');
+  const back = new URL(rows[0].link.omReadingParams.listeyeDon, 'https://example.invalid');
   assert.equal(back.searchParams.get('q'), 'ş'.repeat(200));
   assert.equal(back.searchParams.get('bolum'), 'kara');
   const html = fs.readFileSync(path.join(__dirname, '../olaylar/index.html'), 'utf8');
@@ -26,7 +26,7 @@ function setup(url = 'https://example.invalid/olaylar/') {
   ['events-tools', 'events-results', 'events-query', 'events-category', 'events-count', 'events-clear'].forEach(id => { elements[id] = el(); });
   elements['events-category'].value = 'all';
   const rows = [el('Arıburnu çıkarması 25 Nisan 1915'), el('Nusret 8 Mart 1915'), el('Arıburnu tahliyesi 19 Aralık 1915')];
-  rows.forEach((row, i) => { row.link = { href: '/olaylar/kayit-' + i + '/' }; row.querySelector = () => row.link; });
+  rows.forEach((row, i) => { row.link = Object.assign(el(), { href: '/olaylar/kayit-' + i + '/' }); row.querySelector = () => row.link; });
   const subgroup = el();
   subgroup.id = "kirte";
   subgroup.querySelectorAll = () => [rows[0]];
@@ -35,11 +35,14 @@ function setup(url = 'https://example.invalid/olaylar/') {
     group.querySelectorAll = selector => selector === 'section' ? (index === 0 ? [subgroup] : []) : [rows[index]];
     elements[id] = group;
   });
-  const document = { getElementById: id => elements[id] };
+  const document = { getElementById: id => elements[id], querySelector: () => null, querySelectorAll: () => [] };
   const window = { location: new URL(url), listeners: {}, history: { state: { retained: true } },
     addEventListener(key, fn) { this.listeners[key] = fn; } };
   let writes = 0;
   window.history.replaceState = (state, title, next) => { writes++; window.location = new URL(next); window.history.state = state; };
+  const storage = new Map();
+  window.sessionStorage = { getItem: key => storage.get(key) || null, setItem: (key, value) => storage.set(key, value), removeItem: key => storage.delete(key) };
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, '../js/navigation.js'), 'utf8'), { document, window, URL, URLSearchParams });
   vm.runInNewContext(fs.readFileSync(path.join(__dirname, '../js/events-index.js'), 'utf8'), { document, window, URL, URLSearchParams });
   return { elements, rows, subgroup, window, writes: () => writes };
 }
@@ -56,7 +59,7 @@ test('Esc olay aramasını temizlerken bölümü ve dönüş bağlantısını ko
   assert.equal(prevented, 1); assert.equal(input.value, ''); assert.equal(e['events-category'].value, 'kara');
   assert.deepEqual(rows.map(r => r.hidden), [false, true, true]);
   assert.equal(w.location.searchParams.get('q'), null); assert.equal(w.location.searchParams.get('ref'), 'koru');
-  assert.equal(new URL(rows[0].link.href, w.location.href).searchParams.get('listeyeDon'), '/olaylar/?bolum=kara#events-tools');
+  assert.equal(rows[0].link.omReadingParams.listeyeDon, '/olaylar/?bolum=kara#events-tools');
 });
 
 test('olay dizini Türkçe arama ile bölüm seçimini birleştirir', () => {
@@ -181,11 +184,12 @@ test('olay ayrıntı bağlantısı arama ve bölümü liste dönüşüne taşır
   e['events-query'].value = 'Arıburnu'; e['events-query'].listeners.input();
   e['events-category'].value = 'kara'; e['events-category'].listeners.change();
   const link = new URL(rows[0].link.href, 'https://example.invalid');
-  const back = new URL(link.searchParams.get('listeyeDon'), 'https://example.invalid');
+  assert.equal(link.search, '');
+  const back = new URL(rows[0].link.omReadingParams.listeyeDon, 'https://example.invalid');
   assert.equal(back.pathname, '/olaylar/'); assert.equal(back.searchParams.get('q'), 'Arıburnu');
   assert.equal(back.searchParams.get('bolum'), 'kara'); assert.equal(back.hash, '#events-tools');
   e['events-clear'].listeners.click();
-  assert.equal(new URL(rows[0].link.href, 'https://example.invalid').searchParams.get('listeyeDon'), '/olaylar/#events-tools');
+  assert.equal(rows[0].link.omReadingParams.listeyeDon, '/olaylar/#events-tools');
 });
 
 test('canlı olay araması ve bölüm değişimi odağı ya da okuma konumunu taşımaz', () => {
@@ -222,7 +226,7 @@ test('form gönderimi güncel arama sonucuna gider ve sorgu, dönüş ile geçmi
   e['events-tools'].listeners.submit({ preventDefault() { prevented++; } });
   assert.equal(writes(), beforeRepeat);
   const destination = new URL(rows[0].link.href, w.location.href);
-  const back = new URL(destination.searchParams.get('listeyeDon'), w.location.href);
+  const back = new URL(rows[0].link.omReadingParams.listeyeDon, w.location.href);
   assert.equal(back.searchParams.get('q'), 'Arıburnu');
   assert.equal(back.searchParams.get('bolum'), 'kara');
   assert.equal(back.hash, '#events-tools');
@@ -242,4 +246,19 @@ test('boş sonuç gönderimi açıklamaya odaklanır; temizleme yeniden arama al
   assert.ok(rows.every(row => !row.hidden));
   assert.equal(e['events-query'].focused, true);
   assert.equal(e['events-query'].value, '');
+});
+
+
+test('temiz olay bağlantısının tıklaması en son liste süzgecini tek kullanımlık bağlama kaydeder', () => {
+  const {elements: e, rows, window: w} = setup();
+  e['events-query'].value = 'Arıburnu'; e['events-query'].listeners.input();
+  e['events-category'].value = 'kara'; e['events-category'].listeners.change();
+  assert.equal(new URL(rows[0].link.href, w.location.href).search, '');
+  rows[0].link.listeners.click({defaultPrevented: false});
+  const pending = JSON.parse(w.sessionStorage.getItem('om-reading-context-v1'));
+  assert.equal(pending.target, '/olaylar/kayit-0/');
+  assert.equal(pending.params.listeyeDon, '/olaylar/?q=Ar%C4%B1burnu&bolum=kara#events-tools');
+  e['events-clear'].listeners.click();
+  rows[0].link.listeners.click({defaultPrevented: false});
+  assert.equal(JSON.parse(w.sessionStorage.getItem('om-reading-context-v1')).params.listeyeDon, '/olaylar/#events-tools');
 });

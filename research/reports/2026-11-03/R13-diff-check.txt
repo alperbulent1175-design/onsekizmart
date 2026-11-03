@@ -1,0 +1,2 @@
+warning: in the working copy of 'tests/chronology-sources.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tests/content-review.test.js', LF will be replaced by CRLF the next time Git touches it

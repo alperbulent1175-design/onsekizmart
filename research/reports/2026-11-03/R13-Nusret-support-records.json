@@ -1,0 +1,64 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "scope": "Nusret mevcut okuyucu destek/sınır sunumu; genelR13kabulü değildir",
+  "record": {
+    "path": "olaylar/nusret-erenkoy-hattini-doker/",
+    "originalReviewDate": "2026-10-17",
+    "status": "Sayfaya özgü kaynak notu mevcut",
+    "readerSupport": {
+      "label": "Döküm aktarımı ile kesin saat ve hat ayrı",
+      "summary": "Gün ve mayın sayısı kurum kayıtlarının aktarımı olarak veriliyor. Sayı farkının kaynağı, kesin döküm saati ve harita geometrisi açık.",
+      "reasons": [
+        "Anma haberi ve AWM koleksiyon açıklamasındaki rapor aktarımı dayanak olarak kullanılır. Koleksiyon açıklamasında alıntılanan raporun özgün görüntüsü ayrıca incelenmiş değildir.",
+        "Tez sayfasındaki ceride ve günlük aktarımları farklı mayın sayıları verir; fark çözülmeden tek kesin toplam üretilmedi. Aynı yazarın tez ve makalesi bağımsız iki birincil kaynak sayılmadı. Kıyıya paralel veya genel yön tarifi, atlas çizgisinin kesin uçlarını doğrulamaz."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "Yalnız sayfada önceden incelenmiş kurum/rapor aktarımı ve tez sayfası kapsamının okuyucu sunumu;16/26Ekim incelemeleri korunur. Yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+      "sourceRefs": [
+        "https://www.awm.gov.au/collection/C1068416",
+        "https://canakkaletarihialan.gov.tr/tr/kurumsal/haber/93-nusrat-mayin-gemisinde-toren-duzenlendi",
+        "https://katalog.marmara.edu.tr/veriler/yordambt/cokluortam/1C/5f36799bf308a.pdf#page=139"
+      ]
+    },
+    "sha256": "dbedd5647741d5389a052129011807ef139dac21bbc648d3574e4c2980400f48"
+  },
+  "sourceBoundary": "Sayfadaki16Ekim kurum metni ve26Ekim tez sayfası inceleme notları okundu. Rapor aktarımı, özgün rapor ve aynı yazarın iki yayını ayrıldı. Yeni dış kaynak erişimi, tarihsel sayı/tarih/koordinat/görsel veya doğrulama etiketi eklenmedi.",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Nusret-support-tests.txt"
+  },
+  "ui": {
+    "states": 2,
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "client": 1265,
+      "scroll": 1265
+    },
+    "mobile": {
+      "viewport": [
+        320,
+        800
+      ],
+      "client": 305,
+      "scroll": 305
+    },
+    "open": true,
+    "unresolvedCountAndGeometryVisible": true,
+    "focus": "kaynak-notu",
+    "viewportReset": true,
+    "mapNote": "Aynı çalışma E15 ve ateşkes doğru kayıtlarında İtilaf süzgeci/13işaret/552pxharita yüksekliği doğrulandı;bu değişiklikte harita kodu yok."
+  },
+  "remaining": {
+    "routes": 88,
+    "genericNoticesRemaining": 36,
+    "genericPhrasePages": 36
+  },
+  "next": "olaylar/kanlisirt-muharebesi/index.html ve ilgili mevcut kaynak/kapsam notunu oku; desteklenen olay özetiyle açık kalan gün/saat/birlik/konum ayrımını okuyucu etiketi ve gerekçesinde göster. Tamamlanan18özel sayfa ve18kronoloji etiketi yeniden başlatılmayacak."
+}

@@ -127,8 +127,9 @@
       try {
         var destination = new URL(related.href, location.href);
         if (destination.origin !== location.origin || !(/^\/(olaylar|komutanlar)\/[a-z0-9-]+\/$/.test(destination.pathname) || destination.pathname === '/donanma/')) return;
-        destination.searchParams.set('fotografaDon', backHref);
+        destination.searchParams.delete('fotografaDon');
         related.href = destination.pathname + destination.search + destination.hash;
+        if (window.OMReadingContext) window.OMReadingContext.carry(related, { fotografaDon: backHref });
       } catch (error) { /* Keep source and editorial links unchanged. */ }
     });
     controls.hidden = activeLinks.length < 2;

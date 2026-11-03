@@ -1,0 +1,307 @@
+{
+  "id": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "scope": "18 map chronologySource kopyasının mevcut yapılandırılmış kaynak notlarıyla alan karşılaştırması; yeni dış kaynak erişimi veya doğrulama değildir",
+  "rows": [
+    {
+      "id": "e-mart-sessiz-1",
+      "different": {
+        "passage": {
+          "map": "1 March 1915",
+          "canonical": "1 March 1915 başlığı altındaki 1–17 Mart tarih aralığı"
+        },
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        },
+        "accessDate": {
+          "map": "2026-10-25",
+          "canonical": "2026-11-01"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-mart-sessiz-2",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        },
+        "accessDate": {
+          "map": "2026-10-25",
+          "canonical": "2026-10-29"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-mart-nisan",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        },
+        "accessDate": {
+          "map": "2026-10-25",
+          "canonical": "2026-10-28"
+        },
+        "evidenceText": {
+          "map": "Mısır’daki birliklere hareket emri verildi.",
+          "canonical": "Mısır’daki ANZAK Kolordusu cepheye hareket emri aldı."
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-nisan-sessiz",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        },
+        "accessDate": {
+          "map": "2026-10-25",
+          "canonical": "2026-10-29"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-nisan-mayis",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-mayis-sessiz-1",
+      "different": {
+        "scope": {
+          "map": "El yazılı günlük taramasında 9–10 Mayıs pasajları okundu. 63 sayfanın tümü okunmadı; karşı tarafın raporudur. Saat sistemi ayrıca kalibre edilmedi.",
+          "canonical": "Avustralya 15. Taburunun el yazılı günlük taramasında 9–10 Mayıs pasajları okundu. 63 sayfanın tümü okunmadı; Osmanlı emir/raporlarıyla tam karşılaştırma yapılmadı. Saat sistemi ayrıca kalibre edilmedi."
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-mayis-sessiz-2",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        },
+        "accessDate": {
+          "map": "2026-10-25",
+          "canonical": "2026-11-02"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-mayis-sessiz-3",
+      "different": {},
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-mayis-haziran",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-haziran-sessiz",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-temmuz-sessiz",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-temmuz-agustos",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-agustos-sessiz",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-sonbahar",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-kitchener-tahliye",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-kasim-firtina",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-aralik-onay",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    },
+    {
+      "id": "e-aralik-ocak",
+      "different": {
+        "publicationDate": {
+          "map": null,
+          "canonical": "2024"
+        }
+      },
+      "missing": [
+        "metadataAccessDate",
+        "bibliography",
+        "publicationDateNote"
+      ]
+    }
+  ],
+  "counts": {
+    "total": 18,
+    "withDifferentFields": 17,
+    "missingBibliography": 18
+  },
+  "canonical": {
+    "path": "data/chronology-sources.json",
+    "sha256": "05ea34a1ea23730bd1f0b9a059d26c29f3cdcf5b060b5bda59ef7ce8a1712321"
+  },
+  "priorEvidence": [
+    "research/reports/2026-11-02/R12-source-metadata-consistency.json",
+    "research/reports/2026-11-02/R12-DVA-web-records.json",
+    "research/reports/2026-11-02/R12-Quinn-records.json"
+  ],
+  "finding": "Olay sayfaları ve kaynak notlarında önceden tamamlanan künye güncellemeleri harita kopyalarına tümüyle geçmemiş. Özellikle eski null yayım yılları, bazı erişim/pasaj/özet alanları ve Quinn kapsam ifadesi ayrışıyor. Mevcut318test bu tam nesne eşitliğini sınamıyor; yeni test başarısızlığı diye raporlanmadı.",
+  "next": "Önce e-mart-sessiz-1 ile mevcut DVA kayıt raporunu karşılaştır;18harita kopyasını kanonik kaynak notlarıyla kontrollü eşleştir ve tam nesne tutarlılığı denetimi ekle. İlk erişimleri3Kasım yapılmasın; kaynakların gerçek inceleme tarihleri korunsun.",
+  "resolution": {
+    "date": "2026-11-03",
+    "mapSources": 18,
+    "mismatches": 0,
+    "canonicalUnchanged": true,
+    "canonicalSha256": "05ea34a1ea23730bd1f0b9a059d26c29f3cdcf5b060b5bda59ef7ce8a1712321",
+    "scope": "Eski harita kopyaları mevcut kanonik kayıtlarla eşlendi. Kaynak URL/status/olay tarihi değiştirilmedi; gerçek pasaj/künye erişim tarihleri korundu. Yeni dış kaynak erişimi sayılmadı."
+  }
+}

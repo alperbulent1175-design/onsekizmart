@@ -1,0 +1,1 @@
+warning: in the working copy of 'research/ux-audit/content-review.json', LF will be replaced by CRLF the next time Git touches it

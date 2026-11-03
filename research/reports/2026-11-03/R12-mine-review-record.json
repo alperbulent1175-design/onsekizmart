@@ -1,0 +1,75 @@
+{
+  "id": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "source": {
+    "url": "https://canakkaletarihialan.gov.tr/en/canakkale-battles/naval-battles",
+    "label": "Alan Başkanlığı · Deniz muharebeleri",
+    "evidenceText": "26 mines, parallel to the shore in Erenköy Bay",
+    "evidenceLanguage": "en",
+    "translation": "Erenköy Koyu’nda kıyıya paralel 26 mayın",
+    "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Naval Battles, Çanakkale Battles, kurumsal İngilizce tarih anlatısı.",
+    "locator": "Erenköy Bay içinde birleşik filonun manevralarından söz eden ve Nusret’in mayın hattını açıklayan paragraf.",
+    "sourceKind": "Kurumsal tarih anlatısı (İngilizce aktarım)",
+    "eventDate": null,
+    "eventDateNote": "Pasaj dökümü 7/8 Mart gecesine yerleştirir; bu künye kontrolü özgün mayın döküm ceridesiyle tarih veya saat doğrulaması değildir.",
+    "documentDate": null,
+    "documentDateNote": "Sayfa özgün bir mayın döküm belgesinin düzenlenme tarihini vermez.",
+    "publicationDate": null,
+    "publicationDateNote": "İncelenen özel sayfada ilk yayım tarihi belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+    "accessDate": "2026-10-20",
+    "metadataReviewDate": "2026-11-03",
+    "readingScope": "20 Ekim anlatı incelemesi korundu; 3 Kasım ilgili İngilizce paragraf yeniden okundu. Kısa pasaj yalnız mayın sayısı ve kıyıya paralel yön anlatımına aittir; sayısal uç nokta, hat aralığı veya atlas çizgisi doğrulanmadı. Sayfadaki diğer tarih, saat ve kayıp anlatıları bu incelemede doğrulanmadı.",
+    "date": "2026-10-20",
+    "status": "anlati_incelendi_geometri_dogrulanmadi",
+    "limit": "Kaynak hattın varlığını ve genel yönünü anlatır; bu haritadaki sayısal çizgi geometrisini doğrulamaz. Enlemesine çizgilerin sırası, uç noktaları ve aralıkları da belgeyle eşleştirilmedi."
+  },
+  "reading": "İngilizce Naval Battles özel sayfasında Erenköy Bay manevraları ve Nusret hattı paragrafı yeniden okundu;20Ekim mayın anlatısı incelemesi korundu. Sayfa altbilgi yılı yayım tarihi yapılmadı.",
+  "change": "Şematik mayın çizgileri artık kısa İngilizce pasajı, Türkçe çeviriyi, künye/tarih/kapsamı açılır bölümde gösterir. Enlemesine çizgi numarası veya mayın sayısı bu kıyıya paralel hat pasajından çıkarılamaz. Aynı kaynak bağlantısının tekrarı kaldırıldı. Filo çizgilerine mayın kanıtı eklenmedi.",
+  "tests": {
+    "allJavaScript": 318,
+    "requiredPython": 25,
+    "failures": 0,
+    "log": "R12-mine-review-tests.txt",
+    "scope": "Bütün tests/*.test.js ve AGENTS üç Python modülü"
+  },
+  "ui": {
+    "lineKinds": [
+      "Nusret gizli hattı",
+      "Enlemesine hat1"
+    ],
+    "keyboard": "Enter",
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "client": 1265,
+      "scroll": 1265
+    },
+    "mobile": {
+      "viewport": [
+        320,
+        800
+      ],
+      "client": 305,
+      "scroll": 305
+    },
+    "metadataAndScopeVisible": true,
+    "sourceLinkCount": 1,
+    "fleetLineHasMineEvidence": false,
+    "map": {
+      "width": 624.8,
+      "height": 552,
+      "markers": 10
+    },
+    "itilafSelected": true,
+    "viewportReset": true
+  },
+  "hashes": {
+    "js/data.js": "1a24f9f0336395cb8f3bed30a58f7837b0a1220bf22b3e902e8b822dcea357d0",
+    "js/campaign.js": "fa6fda62ab64db9c70693a2ab511ecc020e9c804369a93aa69e0a5ceadd3863d",
+    "js/app.js": "53e0282614f5484de30946027e5e5f06407e37fb631cd8b69614cd4405d7c1e4",
+    "index.html": "222262cfb0303c457ce5c9c4d661c175fe63d50c464a86d080a4c51895defc1e"
+  }
+}

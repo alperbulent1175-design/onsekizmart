@@ -1,0 +1,54 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/guido-von-usedom/",
+    "sources": [
+      "csa-navy"
+    ],
+    "summary": "Usedom’un görevi sahil topçu ve torpil birlikleri müfettişliği olarak aktarılır.",
+    "open": "Yaşam alanları ansiklopedi metin aktarımına dayanır; özgün kimlik kayıtları, iki makamın atama emirleri ve günlük hareketler için karşılaştırma açıktır.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "İki makam ve metin aktarımı ayrı",
+      "summary": "Özel Komutanlık ile sahil istihkâmatı ve torpil müfettişliği ayrı makamlardır. Yaşam ve görev bilgileri ansiklopedi aktarımıdır; harita noktası kesintisiz bulunulan yeri belgelemez.",
+      "reasons": [
+        "PDF’nin kimlik, iki makam ve son yaşam paragraflarıyla kaynakça künyesi önceki incelemede metin aktarımından okundu; o erişimde sayfa görüntüsü açılamadı. Aktarım, özgün görüntü incelemesi olarak sunulmaz.",
+        "Alman arşiv dosyaları, atama emirleri ve bütün kaynakça eserleri görülmedi. İki görev tek atama gününe indirgenmez; özgün yaşam kayıtları ve günlük hareketler açık kalır."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "Mevcut17/27Ekim inceleme kapsamlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+      "sourceRefs": [
+        "https://canakkalesavaslariansiklopedisi.com/wp-content/uploads/2023/10/guido-von-usedom-csa-2.pdf#page=1",
+        "https://canakkalesavaslariansiklopedisi.com/turk-donanmasi/"
+      ]
+    }
+  },
+  "sha256": "8fa755a46329162ae2a7790fb92eccd58e3bdecee357c21e38f8e8809d7556b5",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Usedom-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adımı kabul; genel R13 açık."
+}

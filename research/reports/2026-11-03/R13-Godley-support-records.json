@@ -1,0 +1,54 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/alexander-godley/",
+    "sources": [
+      "nz-godley"
+    ],
+    "summary": "Godley, çıkarma sırasında Yeni Zelanda ve Avustralya Tümeni komutanıdır.",
+    "open": "Yaşam tarihleri kurumsal biyografiyle desteklenir; görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler ayrıca belge karşılaştırması gerektirir.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Yaşam tarihleri ve görev dönemi ayrı",
+      "summary": "Yaşam tarihleri kurumsal biyografiye, çıkarma sırasındaki görev özeti kurum metnine dayanır. Kesin görev günleri ve günlük hareketler ayrıca incelenmelidir.",
+      "reasons": [
+        "Te Ara biyografisinin yaşam ve Çanakkale paragrafları önceki incelemede okundu; özgün nüfus kayıtları ve bütün atıf eserleri incelenmedi. Bu destek, kesin görev başlangıcı veya bitişi anlamına gelmez.",
+        "NZHistory kaydının görev özeti bütün harekât boyunca aynı görevin sürdüğünü doğrulamaz. Kuvvet ve zayiat toplamları yaşam tarihleri eşleşmesinden türetilmez."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "Mevcut17ve27Ekim inceleme kapsamlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+      "sourceRefs": [
+        "https://nzhistory.govt.nz/media/photo/alexander-godley",
+        "https://teara.govt.nz/en/biographies/3g12/godley-alexander-john"
+      ]
+    }
+  },
+  "sha256": "2ff9648892436e2194415fa9c4010c1b8647f7a96ec50cfe035532f537a84a0e",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Godley-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Godley sunum alt adimi kabul edildi; genel R13 acik."
+}

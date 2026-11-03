@@ -1,0 +1,101 @@
+{
+  "id": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "scope": "campaign coordinateSource2/2 mini-künye kabulü; tüm R12 veya88sayfa kabulü değildir",
+  "records": [
+    {
+      "id": "ariburnu",
+      "coordinates": [
+        40.240522,
+        26.281153
+      ],
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/diger-ziyaret-noktalari/anzak-koyu",
+        "label": "Alan Başkanlığı · Anzak Koyu",
+        "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Anzak Koyu, Diğer Ziyaret Noktaları, kurumsal ziyaret rehberi.",
+        "locator": "Anzak Koyu başlığı altındaki Ziyaret Noktasına Git bağlantısı.",
+        "sourceKind": "Güncel kurumsal ziyaret rehberi",
+        "eventDate": null,
+        "eventDateNote": "Güncel kıyı ziyaret noktası için yer dayanağıdır; ilk çıkarma veya siper çizgisinin kesin noktası değildir.",
+        "documentDate": null,
+        "documentDateNote": "Sayfanın hazırlanma tarihi ve özgün bir 1915 belgesinin düzenlenme tarihi ayrıca belirlenmedi.",
+        "publicationDate": null,
+        "publicationDateNote": "İncelenen sayfada ilk yayım tarihi belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim ziyaret hedefi karşılaştırması korundu; 3 Kasım özel sayfa başlığı ve ziyaret bağlantısının varlığı kontrol edildi. Sayısal hedef yeniden ölçülmedi; 1915 mevzi tespiti yapılmadı. Diğer tarihsel anlatılar bu künye kontrolünde doğrulanmadı.",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.240522, 26.281153",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    },
+    {
+      "id": "conkbayiri",
+      "coordinates": [
+        40.250658,
+        26.308544
+      ],
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/sehitlikveanitlar/conkbayiri-ataturk-zafer-aniti",
+        "label": "Alan Başkanlığı · Conkbayırı Atatürk Zafer Anıtı",
+        "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Conkbayırı Atatürk Zafer Anıtı, Şehitlikler ve Anıtlar, kurumsal ziyaret rehberi.",
+        "locator": "Conkbayırı Atatürk Zafer Anıtı başlığı altındaki Ziyaret Noktasına Git bağlantısı.",
+        "sourceKind": "Güncel kurumsal ziyaret rehberi",
+        "eventDate": null,
+        "eventDateNote": "Güncel anıt çevresi için yer dayanağıdır; 1915 siperinin, hücumun veya komuta noktasının kesin konumu değildir.",
+        "documentDate": null,
+        "documentDateNote": "Sayfanın hazırlanma tarihi ve özgün bir 1915 belgesinin düzenlenme tarihi ayrıca belirlenmedi.",
+        "publicationDate": null,
+        "publicationDateNote": "İncelenen sayfada ilk yayım tarihi belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim ziyaret hedefi karşılaştırması korundu; 3 Kasım özel sayfa başlığı ve ziyaret bağlantısının varlığı kontrol edildi. Sayısal hedef yeniden ölçülmedi; 1915 mevzi tespiti yapılmadı. Diğer tarihsel anlatılar bu künye kontrolünde doğrulanmadı.",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.250658, 26.308544",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    }
+  ],
+  "reading": "Her iki özel sayfada görünen başlık ve Ziyaret Noktasına Git bağlantısı okundu. 20 Ekim INCELEME.md konum sınırları ve güncel denetim envanteri kullanıldı. Kasım kontrolü sayısal hedefin yeniden ölçümü değildir.",
+  "tests": {
+    "allJavaScript": 316,
+    "requiredPython": 25,
+    "failures": 0,
+    "log": "R12-campaign-coordinate-tests.txt"
+  },
+  "ui": {
+    "ids": [
+      "ariburnu",
+      "conkbayiri"
+    ],
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "client": 1265,
+      "scroll": 1265
+    },
+    "mobile": {
+      "viewport": [
+        320,
+        800
+      ],
+      "client": 305,
+      "scroll": 305
+    },
+    "metadataAndUncertaintyVisible": true,
+    "keyboard": "Enter",
+    "viewportReset": true
+  },
+  "hashes": {
+    "js/data.js": "d8ab60fe0c4c5b6619b9084433ed6270422539914be0fb4c06c16bd15bc55f0a",
+    "js/campaign.js": "8fadf4f22456534c6d2c2c9d1d2fe3a52e9e4791b9e247c061f83240b2314930",
+    "js/app.js": "2b6ef6b3b2098f2dbca74d83a3d0de269ac4b3edbaec64cf08eb3bcc46c47068",
+    "index.html": "0418236d447f2d810dbeba7facd20f478c781ecb1d3187d660c0cd0c3e204020"
+  },
+  "next": "js/campaign.js kanlisirt coordinateReview: Kanlısırt Kitabesi özel sayfasının ilgili yer anlatımını ve 20 Ekim plato–kitabe ayrımını oku; kitabe noktasını bütün plato yerine geçirmeden künye/tarih ayrımı ekle."
+}

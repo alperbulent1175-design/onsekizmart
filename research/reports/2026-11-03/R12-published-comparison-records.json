@@ -1,0 +1,127 @@
+{
+  "id": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "scope": "Üç mevcut publishedComparison: künye,konumlayıcı,olay/rapor/üst yazı/yayım/erişim/yeniden kontrol tarihleri",
+  "records": [
+    {
+      "id": "inflexible",
+      "comparison": {
+        "url": "https://www.thegazette.co.uk/London/issue/31322",
+        "label": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+        "date": "2026-10-20",
+        "status": "resmi_yayin_goruntusu_incelendi",
+        "evidenceText": "4.11.—“Inflexible” reported",
+        "translation": "16.11 — Inflexible bildirdi.",
+        "context": "Basılı 5503, mayın isabetinin bildirimini bu saatte kaydeder. İsabet anı ayrıca belirlenmez. Raporun yerel saatleri GMT’den iki saat ileridir.",
+        "limit": "Resmî yayımdaki rapor incelendi; imzalı asıl nüsha değildir. AWM daktilo kopyasıyla bağımsız iki tanıklık sayılmaz. Kartın tamamını veya harita koordinatını doğrulamaz.",
+        "bibliography": "J. M. de Robeck, 17–18 Mart 1915 deniz harekâtı raporu, 24 Mart 1915; The London Gazette, sayı 31322, Yedinci Ek, 2 Mayıs 1919, s. 5501–5504. Londra: His Majesty’s Stationery Office.",
+        "locator": "Basılı s. 5503, sol sütun, 4.11 bildirim kaydı; PDF s. 9.",
+        "eventDate": "1915-03-18",
+        "eventStage": "Inflexible’ın isabet bildirimi; isabetin kesin anı değildir.",
+        "documentDate": "1915-03-24",
+        "coverLetterDate": "1915-03-26",
+        "documentDateNote": "24 Mart raporun, 26 Mart onu sunan üst yazının tarihidir; olay ve resmî yayım tarihleri yukarıda ayrıca gösterilir.",
+        "publicationDate": "1919-05-02",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim 2026 görüntü incelemesi korunur; basılı 5503–5504’teki ilgili pasajlar ve basılı 24 Mart imza atfı 3 Kasım 2026’da yeniden kontrol edildi. İnceleme bu pasajlarla sınırlıdır; imzalı asıl belge incelenmedi.",
+        "witnessGroup": "AWM-RCDIG1066703-naval-report-copy"
+      }
+    },
+    {
+      "id": "irresistible",
+      "comparison": {
+        "url": "https://www.thegazette.co.uk/London/issue/31322",
+        "label": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+        "date": "2026-10-20",
+        "status": "resmi_yayin_goruntusu_incelendi",
+        "evidenceText": "at 4.50 p.m.",
+        "translation": "Saat 16.50’de.",
+        "context": "Basılı 5503–5504, Wear’in Irresistible’dan alınan personelle Queen Elizabeth’e dönüşünü anlatır. Tahliyenin başlangıcı veya batış anı değildir. Raporun yerel saatleri GMT’den iki saat ileridir.",
+        "limit": "Resmî yayımdaki rapor incelendi; imzalı asıl nüsha değildir. AWM daktilo kopyasıyla bağımsız iki tanıklık sayılmaz. Kartın tamamını veya harita koordinatını doğrulamaz.",
+        "bibliography": "J. M. de Robeck, 17–18 Mart 1915 deniz harekâtı raporu, 24 Mart 1915; The London Gazette, sayı 31322, Yedinci Ek, 2 Mayıs 1919, s. 5501–5504. Londra: His Majesty’s Stationery Office.",
+        "locator": "Basılı s. 5503 sağ sütun, Wear dönüş paragrafı; s. 5504 sağ sütun, muhrip eki; PDF s. 9–10.",
+        "eventDate": "1915-03-18",
+        "eventStage": "Wear’in personelle dönüşü ve Queen Elizabeth’e aktarımı; tahliye başlangıcı veya batış anı değildir.",
+        "documentDate": "1915-03-24",
+        "coverLetterDate": "1915-03-26",
+        "documentDateNote": "24 Mart raporun, 26 Mart onu sunan üst yazının tarihidir; olay ve resmî yayım tarihleri yukarıda ayrıca gösterilir.",
+        "publicationDate": "1919-05-02",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim 2026 görüntü incelemesi korunur; basılı 5503–5504’teki ilgili pasajlar ve basılı 24 Mart imza atfı 3 Kasım 2026’da yeniden kontrol edildi. İnceleme bu pasajlarla sınırlıdır; imzalı asıl belge incelenmedi.",
+        "witnessGroup": "AWM-RCDIG1066703-naval-report-copy"
+      }
+    },
+    {
+      "id": "ocean",
+      "comparison": {
+        "url": "https://www.thegazette.co.uk/London/issue/31322",
+        "label": "The London Gazette · 2 Mayıs 1919 · sayı 31322",
+        "date": "2026-10-20",
+        "status": "resmi_yayin_goruntusu_incelendi",
+        "evidenceText": "about 7.30 p.m.",
+        "translation": "Yaklaşık saat 19.30’da.",
+        "context": "Basılı 5503’te bu saat Ocean’ın nihai terk edilmesine ilişkindir; batış saati değildir. Basılı 5504’te gece araması sonuçsuzdur. Raporun yerel saatleri GMT’den iki saat ileridir.",
+        "limit": "Resmî yayımdaki rapor incelendi; imzalı asıl nüsha değildir. AWM daktilo kopyasıyla bağımsız iki tanıklık sayılmaz. Kartın tamamını veya harita koordinatını doğrulamaz.",
+        "bibliography": "J. M. de Robeck, 17–18 Mart 1915 deniz harekâtı raporu, 24 Mart 1915; The London Gazette, sayı 31322, Yedinci Ek, 2 Mayıs 1919, s. 5501–5504. Londra: His Majesty’s Stationery Office.",
+        "locator": "Basılı s. 5503, sağ sütun son paragraf; PDF s. 9. Tarih atfı s.5504’te; PDF s. 10.",
+        "eventDate": "1915-03-18",
+        "eventStage": "Ocean’ın nihai terk edilmesi; batış anı değildir.",
+        "documentDate": "1915-03-24",
+        "coverLetterDate": "1915-03-26",
+        "documentDateNote": "24 Mart raporun, 26 Mart onu sunan üst yazının tarihidir; olay ve resmî yayım tarihleri yukarıda ayrıca gösterilir.",
+        "publicationDate": "1919-05-02",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim 2026 görüntü incelemesi korunur; basılı 5503–5504’teki ilgili pasajlar ve basılı 24 Mart imza atfı 3 Kasım 2026’da yeniden kontrol edildi. İnceleme bu pasajlarla sınırlıdır; imzalı asıl belge incelenmedi.",
+        "witnessGroup": "AWM-RCDIG1066703-naval-report-copy"
+      }
+    }
+  ],
+  "prior_review": "research/source-review/deniz-kaynak-2026-10-20/gazette-rapor-incelemesi.json",
+  "local_pdf": {
+    "sha256": "8ace5abd52f24d1282d4511578389a2697d9727a7acfcaeabc6b380e738fe033",
+    "matched_20_october_record": true
+  },
+  "reading_this_batch": [
+    "Basılı5503/PDF9 ve5504/PDF10 yerel görüntüleri yeniden incelendi; Inflexible4.11 bildirimi,Wear4.50 dönüşü,Ocean7.30terk paragrafı ve24Mart basılı imza atfı",
+    "26Mart üst yazısı için önceki20Ekim görüntü incelemesi ve yerel5501metin başlığı kullanıldı;kapak görüntüsü bu partide yeniden okunmadı"
+  ],
+  "limits": [
+    "Bütün sayı ve imzalı asıl belge görülmüş sayılmadı",
+    "Aynı raporun AWM kopyası ve resmî basımı bağımsız tanık yapılmadı; ortak witnessGroup",
+    "Yeni saat/koordinat/zayiat veya doğrulandı etiketi yok",
+    "CanlıPDF indirme engeli yeniden denenmedi; mevcut yerel dosya kullanıldı"
+  ],
+  "tests": {
+    "all_javascript": 310,
+    "required_python": 25,
+    "failures": 0,
+    "log": "R12-published-comparison-tests.txt"
+  },
+  "ui": {
+    "desktop": "Inflexible1280×7201265/1265px,Enterileayrıntı ve ayrıtarihler",
+    "mobile": "Üçkarşılaştırma320×800305/305px,Enterileokundu",
+    "map": "Leaflet ve İtilaf süzgeci çalıştı",
+    "viewport_reset": true
+  },
+  "publication": false,
+  "local_delta": [
+    {
+      "path": "index.html",
+      "sha256": "abaaeb24e6fce3d8496d53ea5ed7dc74df634f3a14ac32422e08bf7b8d6317a4"
+    },
+    {
+      "path": "js/data.js",
+      "sha256": "e3bde0db50421d06537de9c689163364882bd2b36463b69012f9eacad34790cc"
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "43b2f7c859d529f6e41e2e72a91dafddd7ce8e8e58ceb436693781f754e4f239"
+    }
+  ],
+  "acceptance": "Üç karşılaştırma alt adımı geçti; genelR12 ve diğer kaynak aileleri açık",
+  "next": "Kilitbahir coordinateSource kaydının mevcut alanlarını ve kaynak sayfasını oku; künye/konumlayıcı/tarih ayrımını koordinatları değiştirmeden okuyucuya taşı."
+}

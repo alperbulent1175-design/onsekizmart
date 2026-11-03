@@ -1,0 +1,57 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/ian-hamilton/",
+    "sources": [
+      "nam-general",
+      "dva-evacuation"
+    ],
+    "summary": "Hamilton, kara harekâtının komutanıdır. 18 Mart deniz muharebesinin komutanı değildir.",
+    "open": "Yaşam yılları ve Korfu doğumu seçili koleksiyon yazısına dayanır; kesin yaşam günleri, ölüm yeri, fiziksel ayrılış ve fiilî görev teslimi için özgün kayıt karşılaştırması açıktır.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Geri çağırma ile görev teslimi ayrı",
+      "summary": "Hamilton kara harekâtının komutanıdır. 16 Ekim geri çağırma kaydı, fiziksel ayrılışın veya Monro’ya fiilî görev tesliminin aynı gün olduğunu göstermez.",
+      "reasons": [
+        "KCL koleksiyon yazısındaki seçili yaşam paragrafı yılları ve Korfu doğumunu destekler; kesin yaşam günleri ve ölüm yeri bu pasajda yoktur. Koleksiyonun bütün kitap ve şahsi evrakları incelenmedi.",
+        "NAM kayıt açıklamasının geri çağırma paragrafı okundu; özgün emir ve teslim belgesi görülmedi. Müzenin performans değerlendirmesi bağımsız soruşturma hükmü değildir; resim tarihi kişinin yaşam veya görev tarihi sayılmaz."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin okuyucu sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+      "sourceRefs": [
+        "https://www.kcl.ac.uk/hamilton-collection",
+        "https://collection.nam.ac.uk/detail.php?acc=2004-03-22-1",
+        "https://www.nam.ac.uk/explore/gallipoli"
+      ]
+    }
+  },
+  "sha256": "93b3c070b979d976e9f203cbdd0bcf5e04b1040bc60d2ba9bfe00c5bd02b637e",
+  "tests": {
+    "allJavaScript": 320,
+    "allPython": 300,
+    "failures": 0,
+    "log": "research/deployment/2026-11-03-atlas-release/tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true,
+    "map": "Kanlisirt panel and Leaflet present; Itilaf Enter aria-pressed true"
+  },
+  "acceptance": "Profil sunum alt adımı kabul; genel R13 açık."
+}

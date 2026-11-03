@@ -1,0 +1,94 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "scope": "Mevcut sayfalarda destek/sınır sunumu;genelR13kabulü değildir",
+  "records": [
+    {
+      "path": "olaylar/goliath-batar/",
+      "originalReviewDate": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Batış özeti katalog açıklamasına dayanıyor",
+        "summary": "AWM’nin kurtulanlara ait fotoğraf kaydı bu kısa özeti destekler. Batış saati, torpido sayısı ve kayıp dökümü için gemi jurnalleriyle karşılaştırma açık.",
+        "reasons": [
+          "Kurum kaydındaki fotoğraf açıklaması, geminin adı ve batış bağlamı için okunmuştur. Kurtulanların görüntüsü batış anının görüntüsü olarak sunulmaz; fotoğraf tarihi geminin batış tarihi yerine geçirilmez.",
+          "Katalog açıklaması, gemi jurnallerinin veya personel kayıp dökümünün incelendiği anlamına gelmez. Haritadaki yaklaşık işaret kesin enkaz noktası sayılmadı; bu kısa kayıttan yeni saat, zayiat toplamı veya koordinat üretilmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut AWMkatalog incelemesinin okuyucu sunumu;17Ekim kaynak erişimi değiştirilmedi. Yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/C1003295"
+        ]
+      },
+      "sha256": "6e86665b17e33a619f7daa7c3b7538c6a351ad324bdc68aa3a6593aef7962eba"
+    },
+    {
+      "path": "olaylar/triumph-batar/",
+      "originalReviewDate": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Batış özeti katalog açıklamasına dayanıyor",
+        "summary": "AWM’nin kurtulanlara ait fotoğraf kaydı batışın kısa özetini destekler. Kesin enkaz noktası ve kayıp sayıları için belge karşılaştırması açık.",
+        "reasons": [
+          "Kurum kaydındaki fotoğraf açıklaması, geminin adı ve batış bağlamı için okunmuştur. Kurtulanların görüntüsü batış anının görüntüsü olarak sunulmaz; fotoğraf tarihi geminin batış tarihi yerine geçirilmez.",
+          "Katalog açıklaması, gemi jurnallerinin veya personel kayıp dökümünün incelendiği anlamına gelmez. Haritadaki yaklaşık işaret kesin enkaz noktası sayılmadı; bu kısa kayıttan yeni saat, zayiat toplamı veya koordinat üretilmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut AWMkatalog incelemesinin okuyucu sunumu;17Ekim kaynak erişimi değiştirilmedi. Yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/C1003295"
+        ]
+      },
+      "sha256": "c17ed1f209df753536c7ca3bfaeff2a928823eb4f1a77cc991d654650d41ffc9"
+    },
+    {
+      "path": "olaylar/majestic-batar/",
+      "originalReviewDate": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Batış özeti katalog açıklamasına dayanıyor",
+        "summary": "AWM’nin kurtulanlara ait fotoğraf kaydı batışın kısa özetini destekler. Kesin enkaz noktası ve kayıp sayıları için belge karşılaştırması açık.",
+        "reasons": [
+          "Kurum kaydındaki fotoğraf açıklaması, geminin adı ve batış bağlamı için okunmuştur. Kurtulanların görüntüsü batış anının görüntüsü olarak sunulmaz; fotoğraf tarihi geminin batış tarihi yerine geçirilmez.",
+          "Katalog açıklaması, gemi jurnallerinin veya personel kayıp dökümünün incelendiği anlamına gelmez. Haritadaki yaklaşık işaret kesin enkaz noktası sayılmadı; bu kısa kayıttan yeni saat, zayiat toplamı veya koordinat üretilmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut AWMkatalog incelemesinin okuyucu sunumu;17Ekim kaynak erişimi değiştirilmedi. Yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/C1003295"
+        ]
+      },
+      "sha256": "fbe06d678f364e1768ce31e38a3644c9fd9c37598365493a5b8a8adf6032b477"
+    }
+  ],
+  "sourceBoundary": "Yalnız mevcut sayfa metinleri ve önceki kaynak/kapsam kayıtları okundu; dış kaynak yeniden incelenmiş sayılmadı. Tarih, sayı, koordinat, görsel ve doğrulama statüsü eklenmedi.3Kasım sunum incelemesidir.",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Mayis-batis-support-tests.txt"
+  },
+  "ui": {
+    "allPagesDesktopAndMobile": true,
+    "states": 6,
+    "keyboard": "Enter ile gerekçe açıldı",
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "client": 1265,
+      "scroll": 1265
+    },
+    "mobile": {
+      "viewport": [
+        320,
+        800
+      ],
+      "client": 305,
+      "scroll": 305
+    },
+    "viewportReset": true
+  }
+}

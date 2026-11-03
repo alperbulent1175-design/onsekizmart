@@ -1,0 +1,53 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/cevat-bey-cobanli/",
+    "sources": [
+      "csa-cevat"
+    ],
+    "summary": "Cevat Paşa’nın görevi Çanakkale Müstahkem Mevkii komutanlığıdır.",
+    "open": "Yaşam alanları ansiklopedi aktarımıyla eşleşir; özgün kimlik kayıtları, atama ve terfi emirleri, görev bitişi ve günlük hareketlerin karşılaştırması açıktır.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Ansiklopedi aktarımı, atama ve terfi ayrı",
+      "summary": "Kimlik ve görev anlatısı ansiklopedi maddesine dayanır. Atanma ile terfi farklı işlemlerdir; özgün kayıt ve emirlerin karşılaştırması açıktır.",
+      "reasons": [
+        "Mevcut inceleme kimlik, atama ve terfi paragraflarıyla kaynakçayı kapsar. Kaynakçada anılan subay dosyası ve arşiv belgeleri görülmedi; aktarım özgün belge yerine sunulmaz.",
+        "Yaşam alanlarının maddeyle eşleşmesi, muharebenin bütün saatlerini veya bütün biyografiyi doğrulamaz. Kesin görev bitişi ve günlük hareketler için ayrıca belge karşılaştırması gerekir."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "Mevcut17/26Ekim incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+      "sourceRefs": [
+        "https://canakkalesavaslariansiklopedisi.com/cevat-cobanli-pasa/"
+      ]
+    }
+  },
+  "sha256": "1e3b1877dc1f13b2d1f90b2ec6a1d0ed04be3ec95c8c127fc118571122381dec",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Cevat-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adimi kabul;genel R13 acik."
+}

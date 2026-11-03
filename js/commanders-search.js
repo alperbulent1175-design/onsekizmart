@@ -54,8 +54,9 @@
           try {
             var destination = new URL(entry.link.href, window.location.href);
             if (destination.origin !== window.location.origin || !/^\/komutanlar\/[^/]+\/$/.test(destination.pathname)) return;
-            destination.searchParams.set("komutanlaraDon", share.getAttribute("href"));
+            destination.searchParams.delete("komutanlaraDon");
             entry.link.href = destination.pathname + destination.search + destination.hash;
+            if (window.OMReadingContext) window.OMReadingContext.carry(entry.link, { komutanlaraDon: share.getAttribute("href") });
           } catch (error) { /* Editorial links stay usable if they cannot be rewritten. */ }
         });
       });

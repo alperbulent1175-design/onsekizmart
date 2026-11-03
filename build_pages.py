@@ -165,7 +165,7 @@ PAGES = {
 <p><a href="#osmanli">↑ Osmanlı birlikleri anlatısına dön</a></p>
 <h3 id="devine-kaynagi" tabindex="-1">Avustralyalı bir askerin günlüğünden kurum aktarımı</h3>
 <p>Robyn Van Dyk, <em>Rations for the landing, 25 April 1915 – the diary of Sergeant Apcar De Vine</em>, Australian War Memorial, 24 Nisan 2014. <a href="https://www.awm.gov.au/articles/blog/rations-landing-25-april-1915-c3a2e282ace2809c-diary-sergeant-apcar-de-vine">Günlük pasajlarını aktaran kurum yazısı</a> · <a href="https://www.awm.gov.au/collection/C1304506">1915 günlüğünün koleksiyon kaydı</a>.</p>
-<p><strong>Olaylar: Nisan–Mayıs 1915. Kurum yazısına erişim: 24 Ekim 2026. Günlük görüntülerinin incelenmesi: 25 Ekim 2026.</strong> AWM RCDIG0000330 günlüğünün PDF28 sağ sayfasındaki 24 Nisan kaydında üç günlük erzak verilmesi, PDF38 sol sayfasındaki 12 Mayıs kaydında sıcak yemek alınması görüntüden kontrol edildi. Kısa kanıtlar: “rations for three days served out” ve “got a hot dinner today”. <a href="https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG0000330/bundled/RCDIG0000330.pdf#page=38">Günlük taraması, sıcak yemek kaydı</a>.</p>
+<p><strong>Olaylar: Nisan–Mayıs 1915. Kurum yazısına erişim: 24 Ekim 2026. Günlük görüntülerinin incelenmesi: 25 Ekim 2026.</strong> AWM RCDIG0000330 günlüğünün PDF28 sağ sayfasındaki 24 Nisan kaydında üç günlük erzak verilmesi, PDF38 sol sayfasındaki 12 Mayıs kaydında sıcak yemek alınması görüntüden kontrol edildi. Kısa kanıtlar: “rations for three days served out” ve “got a hot dinner today”. Günlük taramasında <a href="https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG0000330/bundled/RCDIG0000330.pdf#page=28">24 Nisan erzak kaydı</a> ve <a href="https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG0000330/bundled/RCDIG0000330.pdf#page=38">12 Mayıs sıcak yemek kaydı</a>.</p>
 <p>Üç günlük erzak verilmesi, üç gün boyunca düzenli yemek yenildiğini göstermez. Mutfakların kurulması ve kayıp yiyecek çantası anlatısı burada kurumun aktarımına dayanır; bu pasajların tam el yazısı karşılaştırması tamamlanmadı. Bütün günlük okunmadı. Bu kişisel deneyim bütün İtilaf birliklerini temsil etmez; günlük görüntüleri siteye alınmadı.</p>
 <p><a href="#anzak">↑ Anzak anlatısına dön</a></p>
 <h3 id="gillam-kaynagi" tabindex="-1">Britanya iaşe subayının yayımlanmış tanıklığı</h3>
@@ -194,7 +194,12 @@ PAGES = {
 <p><a href="#yarali">↑ Yaralıların beslenmesi anlatısına dön</a></p>
 <p><strong>Açık kalanlar:</strong> Britanya ve Fransız birliklerinin günlük dağıtım cetvelleri; kişisel tanıklıkların bu cetvellerle karşılaştırılması; özgün günlük sayfaları. Gramaj, kalori veya kişi başı tüketim tablosu bu kanıtlarla kurulmadı.</p>
 <p><a href="/saglik-ve-tahliye/">Sağlık ve yaralı sevki</a> · <a href="/kaynak-politikasi/#kaniti-okuma">Kanıtları değerlendirme rehberi</a> · <a href="/#kronoloji">Kronolojiye dön</a></p>
-</div>""",
+</div>
+<section class="prose" aria-labelledby="fransiz-subay-kahvaltisi">
+<h2 id="fransiz-subay-kahvaltisi">25 Nisan: gemideki subay kahvaltısı</h2>
+<p><a href="https://archive.org/download/39020025956171-uncensoredlette/HighRes_39020025956171.pdf#page=71">Uncensored Letters from the Dardanelles (Heinemann, 1916), basılı s.47 / PDF s.71</a> bölümünde, 25 Nisan 1915 günlüğünün sabah anlatısı subayların yemek salonunda kahvaltı ettiğini ve alışılmıştan fazla yediğini belirtir. Menü, gramaj ve erlere dağıtım verilmez; bu gözlem bütün Fransız kuvvetlerinin o günkü beslenmesi diye genellenemez.</p>
+<p>Bu günlük bölümü 28 Nisan tarihli mektupla sunulur. Yayın 1916, erişim 26 Ekim 2026. İlgili sayfa görüntüden okundu; özgün günlük ve bütün kitap incelenmedi.</p>
+</section>""",
     ),
     "saglik-ve-tahliye/index.html": (
         "Sağlık ve yaralı sevki",
@@ -318,6 +323,24 @@ def chronology_source_page(root):
     return {"kronoloji-kaynaklari/index.html": ("Kronoloji kaynak notları", "Kronoloji kayıtlarının kaynakları ve inceleme sınırları.", SITE + "/kronoloji-kaynaklari/", body)}
 
 
+def chronology_support_notice(status):
+    labels = {
+        'kurumsal_ozet_pasaji_okundu': (
+            'Kurum özetine dayanan anlatı',
+            'Bu kısa özet, kurumun ilgili tarihli girişine dayanır. Kesin saatler ve ayrıntılı konumlar bu girişten çıkarılmadı.'),
+        'gunluk_goruntusu_ilgili_pasaj_okundu': (
+            'Günlük pasajına dayanan anlatı',
+            'İlgili günlük yaprakları bu kısa özet için okundu. Tek birliğin deneyimi bütün cepheye genellenmedi; karşı tarafın raporlarıyla tam karşılaştırma açık.'),
+        'fotograf_katalog_aciklamasi_okundu': (
+            'Fotoğraf katalog açıklamasına dayanan anlatı',
+            'Bu kısa özet için fotoğrafın tarih ve açıklama alanları okundu. Görüşmelerin bütün seyri ve kesin konum ayrıca incelenmeyi bekliyor.'),
+    }
+    title, scope = labels.get(status, (
+        'Kaynak incelemesi açık',
+        'Kanıt kapsamının incelenmesi sürüyor; ilgili kaynak notu açık kalanları gösterir.'))
+    return '<aside class="verification-notice"><strong>' + escape(title) + '</strong><p>' + escape(scope) + '</p></aside>'
+
+
 def chronology_event_pages(root):
     records = json.loads((Path(root) / "data/chronology-events.json").read_text(encoding="utf-8"))
     pages = {}
@@ -327,7 +350,7 @@ def chronology_event_pages(root):
         source = event['chronologySource']
         note = '/kronoloji-kaynaklari/#' + event['id']
         body = '<p class="kicker">Cephe kronolojisi</p><h1>' + escape(title) + '</h1><p>' + escape(event['date']) + '</p>'
-        body += '<aside class="verification-notice"><strong>Belge doğrulaması tamamlanmadı</strong><p>Aşağıdaki kaynak belirtilen kısa anlatıyı destekler; bütün olayın ayrıntıları doğrulanmış sayılmaz.</p></aside>'
+        body += chronology_support_notice(source.get('status'))
         body += '<h2>Olayın özeti</h2><p>' + escape(event['text']) + '</p>'
         for section_index, section in enumerate(event.get('narrativeSections', []), 1):
             anchor = 'anlati-' + str(section_index)
@@ -365,7 +388,7 @@ def chronology_event_pages(root):
         body += '<p>Kanıtın kısa Türkçe özeti: ' + escape(source['evidenceText']) + ' Bu ifade doğrudan alıntı değildir.</p>'
         body += '<p>' + escape(source['scope']) + '</p><p>Olay tarihi: ' + escape(source['eventDate']) + ' · Kaynağın yayın tarihi: ' + escape(source['publicationDate'] or 'ayrıca doğrulanmadı') + ' · Pasajın erişim/inceleme tarihi: ' + escape(source['accessDate']) + '. Durum: ' + escape(source_status_label(source['status'])) + '.</p>'
         body += '<h2>Ayrıntılar ve açık kalanlar</h2><p>Birliklerin tam dağılımı, kesin saatler ve koordinatlar bu kısa kaynaktan çıkarılmadı. Bir tarafın anlatısı bütün cepheye genellenmedi. <a href="' + note + '">Bu kaydın ayrıntılı kaynak notunu oku</a>.</p>'
-        body += '<p><a href="/?olay=' + escape(event['id']) + '#kronoloji">Kronolojideki kayda dön</a> · <a href="/olaylar/">Olaylar dizini</a></p>'
+        body += '<p><a class="event-map-action" href="/?olay=' + escape(event['id']) + '#kronoloji">Kronolojideki kayda dön</a> · <a href="/olaylar/">Olaylar dizini</a></p>'
         pages['olaylar/' + slug + '/index.html'] = (title, event['text'], SITE + '/olaylar/' + slug + '/', body)
     return pages
 

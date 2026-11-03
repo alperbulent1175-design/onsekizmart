@@ -1,0 +1,84 @@
+{
+  "id": "R12",
+  "date": "2026-11-03",
+  "status": "devam ediyor",
+  "scope": "Kilitbahir coordinateSource mini künyesi ve tarih ayrımı; mevcut konum incelemesi yeniden açılmadı",
+  "record": {
+    "id": "kilitbahir",
+    "lat": 40.146554,
+    "lng": 26.380381,
+    "source": {
+      "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/kilitbahir-kalesi",
+      "label": "Alan Başkanlığı · Kilitbahir Kalesi",
+      "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Kilitbahir Kalesi, kurumsal ziyaret rehberi (web sayfası).",
+      "locator": "Kilitbahir Kalesi başlığı altındaki Ziyaret Noktasına Git bağlantısının destination parametresi.",
+      "sourceKind": "Güncel kurumsal ziyaret rehberi",
+      "eventDate": null,
+      "eventDateNote": "Konum dayanağı güncel ziyaret noktasıdır; tarihlenmiş tek bir muharebe olayını göstermez.",
+      "documentDate": null,
+      "documentDateNote": "Web sayfasının hazırlanma tarihi ayrıca belirlenmedi.",
+      "publicationDate": null,
+      "publicationDateNote": "İlk yayım tarihi ayrıca belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+      "accessDate": "2026-10-20",
+      "metadataReviewDate": "2026-11-03",
+      "readingScope": "20 Ekim 2026 konum karşılaştırması korunur. Sayfa başlığı ve ziyaret bağlantısının varlığı 3 Kasım 2026’da kontrol edildi; sahada yeni ölçüm veya 1915 mevzi tespiti yapılmadı.",
+      "evidenceText": "Ziyaret Noktasına Git: destination=40.146554, 26.380381",
+      "date": "2026-10-20",
+      "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+      "datum": "belirtilmemis"
+    }
+  },
+  "catalog_check": {
+    "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/kilitbahir-kalesi",
+    "accessDate": "2026-11-03",
+    "evidence": "Kilitbahir Kalesi başlığı;Ziyaret Noktasına Git bağlantısı;kurum altbilgisi",
+    "scope": "Kurum sayfasının ilgili başlık/bağlantı/altbilgi alanı; sayfadaki kale inşa/restorasyon iddiaları bu partiye taşınmadı"
+  },
+  "limits": [
+    "destination sayısal karşılaştırması20Ekim kaydından korunur;3Kasım yeni ölçüm/koordinat doğrulaması değildir",
+    "Olay,belge ve ilk yayım tarihleri null ve görünür gerekçeli;2026telif yılı yayım tarihine çevrilmedi",
+    "Geodezikdatum bilinmiyor;1915komuta/gözetleme noktası sayılmıyor",
+    "Diğer7coordinateSource/3coordinateReview/1claimReview künyeleri bu partide tamamlanmadı"
+  ],
+  "tests": {
+    "all_javascript": 312,
+    "required_python": 25,
+    "failures": 0,
+    "log": "R12-Kilitbahir-coordinate-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "keyboard": "Konum dayanağı Enterile açıldı;alanlar okundu",
+    "viewport_reset": true,
+    "map": "AynıLeafletharitasındaKilitbahirseçildi;öncekiaynıpartiİtilafsüzgecikontrolügeçti"
+  },
+  "inventory_update": "research/source-review/harita-konum-2026-10-20/konum-denetimi.json yalnızKilitbahirsourcekünyealanları ve3KasımmetadataUpdateileuyumlandı;koordinat/evidence/statusaynı,tamnesnekarşılaştırmatestikorundu",
+  "publication": false,
+  "local_delta": [
+    {
+      "path": "index.html",
+      "sha256": "f9c53b339fa1f7f04294aa3a1ab81e8bcc25e64edde6efc1d5488fe9257651c6"
+    },
+    {
+      "path": "js/data.js",
+      "sha256": "d3a6c4a954a67c6ed25fb92e6c69956fa5bbe404b71574b4dfa5db2d58222469"
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "798ca2f25a5f9a3084f9f8c2f780c3e1f00b71a20aa681ac573c135054dad6e6"
+    }
+  ],
+  "acceptance": "Kilitbahir alt adımı geçti; genel R12 açık",
+  "next": "mecidiye"
+}

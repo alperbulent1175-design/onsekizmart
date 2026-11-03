@@ -1,0 +1,54 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/charles-monro/",
+    "sources": [
+      "dva-evacuation"
+    ],
+    "summary": "Monro, Hamilton’dan sonra komutayı aldı ve tahliyeyi önerdi.",
+    "open": "Yaşam günleri alay birliği biyografisine dayanır; yaşam yerleri, kesin görev başlangıç/bitiş günleri ve günlük hareketler açık kalır.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Atama, tahliye önerisi ve uygulama ayrı",
+      "summary": "Yaşam günleri biyografiyle, tahliye değerlendirmesi kurum özetiyle desteklenir. Kesin atama ve fiilî devir günü aynı kaynaklardan çıkarılmadı.",
+      "reasons": [
+        "Alay birliği biyografisinin yaşam, Akdeniz ataması ve Fransa’ya dönüş paragrafları önceki incelemede okundu. Özgün kimlik kayıtları, atama emri ve görev teslim belgesi görülmedi; yaşam yerleri açık kalır.",
+        "Tahliye önerisi, önerinin kabulü ve çekilmenin uygulanması ayrı aşamalardır. Biyografi başlığındaki başka görev dönemleri Çanakkale komutanlığının süresi sayılmaz; bu destek tahliye kayıplarını doğrulamaz."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "Mevcut17/27Ekim inceleme kapsamlarının sunumu; yeni erişim veya tarihsel doğrulama değil.",
+      "sourceRefs": [
+        "https://www.queensroyalsurreys.org.uk/colonels-and-co/colonels/queens-royal-regiment/gen-sir-charles-monro.html",
+        "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/evacuations-from-anzac"
+      ]
+    }
+  },
+  "sha256": "0716fc1a7eeca5774c30a826288a1e157901eeafb1fac5245e4fa8614f69afce",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Monro-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adimi kabul;genel R13 acik."
+}

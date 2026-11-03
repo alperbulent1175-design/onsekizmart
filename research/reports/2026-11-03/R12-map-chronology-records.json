@@ -1,0 +1,361 @@
+{
+  "id": "R12",
+  "status": "tamamlandı",
+  "date": "2026-11-03",
+  "scope": "Harita chronologySource18/18 kopyası ve açılabilir okuyucu mini-künyesi",
+  "records": [
+    {
+      "id": "e-mart-sessiz-1",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "1 March 1915 başlığı altındaki 1–17 Mart tarih aralığı",
+        "eventDate": "1–17 Mart 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-11-01",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "İngiliz trol tekneleri geçidi temizleyemedi.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-mart-sessiz-2",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "13 March 1915",
+        "eventDate": "13 Mart 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-29",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Kara harekâtı donanmanın başarısızlığına bağlandı.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-mart-nisan",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "1 April 1915",
+        "eventDate": "1 Nisan 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-28",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Mısır’daki ANZAK Kolordusu cepheye hareket emri aldı.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-nisan-sessiz",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "20 April 1915",
+        "eventDate": "20 Nisan 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-29",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Çıkarma hazırlığı için gemiler Limni’deki Mondros Limanı’nda toplandı.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-nisan-mayis",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "29 April 1915",
+        "eventDate": "29 Nisan 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-25",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Gascon İskenderiye’ye ulaştı.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-mayis-sessiz-1",
+      "source": {
+        "url": "https://www.awm.gov.au/collection/C1342882",
+        "label": "AWM4 23/32/7 · 15. Tabur günlüğü",
+        "passage": "Görüntü 4–5 / yaprak 46–47; 9–10 Mayıs 1915",
+        "eventDate": "9–10 Mayıs 1915",
+        "publicationDate": null,
+        "accessDate": "2026-10-25",
+        "status": "gunluk_goruntusu_ilgili_pasaj_okundu",
+        "evidenceText": "Alınan Osmanlı siperi ertesi sabah bırakıldı.",
+        "scope": "Avustralya 15. Taburunun el yazılı günlük taramasında 9–10 Mayıs pasajları okundu. 63 sayfanın tümü okunmadı; Osmanlı emir/raporlarıyla tam karşılaştırma yapılmadı. Saat sistemi ayrıca kalibre edilmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Australian War Memorial, Australian Imperial Force unit war diaries, 1914–18 War; 15th Infantry Battalion, AWM4 23/32/7, May 1915; dijital kayıt C1342882, RCDIG1004304.",
+        "publicationDateNote": "Mayıs 1915 günlük belge dönemidir; taramanın veya dijital katalog kaydının yayım tarihi ayrıca doğrulanmadı."
+      }
+    },
+    {
+      "id": "e-mayis-sessiz-2",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "17 May 1915",
+        "eventDate": "17 Mayıs 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-11-02",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Joseph Slack, Quinn’s Post’ta kazı duydu.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-mayis-sessiz-3",
+      "source": {
+        "url": "https://www.awm.gov.au/collection/C45317",
+        "label": "AWM · H02318 fotoğraf kaydı",
+        "passage": "22 May 1915",
+        "eventDate": "22 Mayıs 1915",
+        "publicationDate": null,
+        "accessDate": "2026-10-25",
+        "status": "fotograf_katalog_aciklamasi_okundu",
+        "evidenceText": "Kemal Ohri, Birdwood karargâhında görüşmelere katıldı.",
+        "scope": "Fotoğrafın tarih ve açıklama alanları okundu; anlaşma metni değildir.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Australian War Memorial, H02318, siyah beyaz fotoğraf; dijital katalog kaydı C45317, Butler ve Ohri’nin Osmanlı hatlarına dönüşü.",
+        "publicationDateNote": "22 Mayıs 1915 fotoğrafın çekim tarihidir; dijital katalog kaydının yayım tarihi ayrıca doğrulanmadı. Bu kontrolde fotoğrafçı belirlenmedi."
+      }
+    },
+    {
+      "id": "e-mayis-haziran",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "29 May 1915",
+        "eventDate": "29 Mayıs 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-25",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Patlamayı Osmanlı hücumu izledi; mevzi tutulamadı.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-haziran-sessiz",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "19 June 1915",
+        "eventDate": "19 Haziran 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-25",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Anzak ikmali için iskele tamamlandı.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-temmuz-sessiz",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "7 July 1915",
+        "eventDate": "7 Temmuz 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-25",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Anzak’ta kolera aşılamasına başlandı.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-temmuz-agustos",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "29 July 1915",
+        "eventDate": "29 Temmuz 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-25",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Üçüncü Avustralya Genel Hastanesi Limni’ye ulaştı.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-agustos-sessiz",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "15 August 1915",
+        "eventDate": "15 Ağustos 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-25",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "İngiliz ilerlemesi sınırlı kaldı.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-sonbahar",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "8 October 1915",
+        "eventDate": "8 Ekim 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-25",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Anzak su ikmali zarar gördü.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-kitchener-tahliye",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "22 November 1915",
+        "eventDate": "22 Kasım 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-25",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Kitchener çekilmeyi tavsiye etti.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-kasim-firtina",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "27 November 1915",
+        "eventDate": "27–28 Kasım 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-25",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Şiddetli yağışı tipi izledi.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-aralik-onay",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "7 December 1915",
+        "eventDate": "7 Aralık 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-25",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Britanya hükümeti çekilmeyi onayladı; Seddülbahir bekletildi.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    },
+    {
+      "id": "e-aralik-ocak",
+      "source": {
+        "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline",
+        "label": "DVA · tarihli kurum özeti",
+        "passage": "27 December 1915",
+        "eventDate": "27 Aralık 1915",
+        "publicationDate": "2024",
+        "accessDate": "2026-10-25",
+        "status": "kurumsal_ozet_pasaji_okundu",
+        "evidenceText": "Britanya hükümeti Seddülbahir’in tahliyesini emretti.",
+        "scope": "İlgili tarihli giriş okundu; özgün harp belgesi incelenmedi.",
+        "metadataAccessDate": "2026-11-02",
+        "bibliography": "Department of Veterans’ Affairs (DVA), Timeline of Australians and the Gallipoli Campaign, Anzac Portal; ilgili tarihli web girişi.",
+        "publicationDateNote": "Kurumun önerdiği kaynak künyesi 2024 yılını verir; son güncelleme 6 Aralık 2024. İlk yayım tarihi ayrıca belirlenmedi. 2 Kasım 2026 kontrolü başlık/künye alanlarınadır; ilgili olay pasajının önceki erişim tarihi korunur."
+      }
+    }
+  ],
+  "priorEvidence": [
+    "research/reports/2026-11-02/R12-bibliography-locator-inventory.json",
+    "research/reports/2026-11-02/R12-source-metadata-consistency.json",
+    "research/reports/2026-11-02/R12-DVA-web-records.json"
+  ],
+  "change": "17harita kopyasındaki eski alanlar ve18künye eksiği giderildi; tam nesne eşitliği artık bütün JavaScript takımında sınanır. Kurum özeti, günlük pasajı ve fotoğraf katalog açıklaması ayrı etiketlenir; Türkçe özet doğrudan alıntı yapılmaz. Merkez kaynak notuna temiz URL ile geçilir.",
+  "returnFix": "18olay sayfasının harita dönüş bağlantısı mevcut event-map-action bağlam aktarımına bağlandı. Eski #kronoloji hedefi saklanan #harita görünümünü geri getirmiyordu; seçili kayda dönüş tam hedefi ve süzgeci korur.",
+  "generatorFix": "Yerel üretim denetiminde eski şablonun yayımlanmış Fransız subay kahvaltısı bölümünü ve DeVine PDF28/38 bağlantılarını geri yazmadığı görüldü. Bunlar HEAD yayımlanmış metninden üreticiye eşlendi; yeni tarihsel iddia eklenmedi. Şablon güncelCSS20261101a ile uyumlandı; içerik kaybı testi eklendi.",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 26,
+    "failures": 0,
+    "log": "R12-map-chronology-tests.txt"
+  },
+  "ui": {
+    "all18DesktopAndMobile": true,
+    "checkedStates": 36,
+    "failures": 0,
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "client": 1265,
+      "scroll": 1265
+    },
+    "mobile": {
+      "viewport": [
+        320,
+        800
+      ],
+      "client": 305,
+      "scroll": 305
+    },
+    "roundTrips": [
+      "Masaüstü: e-mart-sessiz-1 → merkeznot → olay → aynıharita; İtilaf süzgeci korundu",
+      "Mobil: e-mayis-sessiz-3 → merkeznot → olay → aynıharita"
+    ],
+    "reloadNote": "Yerel tarayıcı önbelleğindeki eski HTML yeniden yüklendikten sonra yeni dönüş sınıfı doğrulandı."
+  },
+  "hashes": {
+    "js/campaign.js": "1a1fd49e04026efa0e5a5440469038176a32bd968bf384c1e909e3b1b9bae0a6",
+    "js/app.js": "814fb74f62181f5e84ad7270282cf6b8fb89a6a3d6d2d258814ea585d2a25de0",
+    "build_pages.py": "cd9224393dc46c1708b6bf0f3cb35061b2d3122d16bbf770348356729f9e4afd",
+    "page-shell.html": "2a7cc744e0cb30b7db1b9506d15f2fcd3494d02457c7ffaf74725abb2c99308b",
+    "index.html": "dda637b898f3ac4217f04ba6866fb6706c47ac58ab444164989f7235e961d7e8"
+  }
+}

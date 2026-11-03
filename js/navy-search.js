@@ -46,8 +46,11 @@
           try {
             var url = new URL(link.href, window.location.href);
             if (url.origin !== window.location.origin || url.pathname !== '/' || !url.searchParams.get('mevki') || url.hash !== '#harita') return;
-            url.searchParams.set('donanmayaDon', '/donanma/' + (params.toString() ? '?' + params.toString() : '') + '#' + card.id);
+            url.searchParams.delete('donanmayaDon');
             link.href = url.pathname + url.search + url.hash;
+            if (window.OMReadingContext) window.OMReadingContext.carry(link, {
+              donanmayaDon: '/donanma/' + (params.toString() ? '?' + params.toString() : '') + '#' + card.id
+            });
           } catch (error) { /* Leave links unchanged when no local map target can be read. */ }
         });
       });

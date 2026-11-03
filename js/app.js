@@ -45,6 +45,7 @@
       source: review ? "İnceleme: " + review.date + ". Anlatı incelendi; çizgi geometrisi doğrulanmadı. " + review.limit : "Çizgi geometrisinin sayısal kaynakla eşleştirilmesi tamamlanmadı.",
       sourceUrl: review ? review.url : "",
       sourceLabel: review ? review.label : "",
+      mineReview: review || null,
       reviewHref: mine ? "/nasil-okunur/#konum-denetimi" : "/olaylar/18-mart-deniz-muharebesi/#asama-saatleri"
     });
     paintIcons();
@@ -626,7 +627,11 @@
     }
     if (!url || source.status !== "daktilo_kopyasi_goruntuden_okundu" ||
         !validReviewDate(source.date) ||
-        [source.evidenceText, source.date, source.limit, source.label].some(function (value) {
+        !validReviewDate(source.eventDate) || !validReviewDate(source.accessDate) || source.date !== source.accessDate ||
+        (source.documentDate !== null && !validReviewDate(source.documentDate)) ||
+        (source.publicationDate !== null && !validReviewDate(source.publicationDate)) ||
+        [source.evidenceText, source.date, source.limit, source.label, source.bibliography, source.locator,
+          source.eventScope, source.documentDateNote, source.publicationDateNote, source.readingScope, source.witnessGroup].some(function (value) {
           return typeof value !== "string" || !value.trim();
         })) return null;
     var details = document.createElement("details");
@@ -638,7 +643,13 @@
       }
     });
     details.appendChild(textEl("summary", "Belge kanıtını göster"));
-    details.appendChild(textEl("p", "İnceleme tarihi: " + source.date + " · Daktilo kopyası incelendi; özgün raporla karşılaştırma açık."));
+    details.appendChild(textEl("p", source.bibliography));
+    details.appendChild(textEl("p", source.locator));
+    details.appendChild(textEl("p", "Muharebe bağlamı: " + source.eventDate + " · Görüntünün incelendiği tarih: " + source.accessDate + "."));
+    details.appendChild(textEl("p", source.eventScope));
+    details.appendChild(textEl("p", "Belge tarihi: " + (source.documentDate || "ayrıca belirlenmedi") + ". " + source.documentDateNote));
+    details.appendChild(textEl("p", "Yayım tarihi: " + (source.publicationDate || "ayrıca belirlenmedi") + ". " + source.publicationDateNote));
+    details.appendChild(textEl("p", source.readingScope));
     if (source.translation) {
       details.appendChild(textEl("p", "Türkçe çeviri (atlas): " + source.translation));
     }
@@ -661,10 +672,21 @@
     var comparisonUrl = comparison && Model.safeUrl(comparison.url);
     if (comparison && /^https:\/\//.test(comparisonUrl) &&
         comparison.status === "resmi_yayin_goruntusu_incelendi" && validReviewDate(comparison.date) &&
-        [comparison.label, comparison.evidenceText, comparison.translation, comparison.context, comparison.limit].every(function (value) {
+        comparison.date === comparison.accessDate && comparison.witnessGroup === source.witnessGroup &&
+        [comparison.eventDate, comparison.documentDate, comparison.coverLetterDate, comparison.publicationDate,
+          comparison.accessDate, comparison.metadataReviewDate].every(validReviewDate) &&
+        [comparison.label, comparison.evidenceText, comparison.translation, comparison.context, comparison.limit,
+          comparison.bibliography, comparison.locator, comparison.eventStage, comparison.documentDateNote,
+          comparison.readingScope, comparison.witnessGroup].every(function (value) {
           return typeof value === "string" && !!value.trim();
         })) {
-      details.appendChild(textEl("p", "Ek kontrol: resmî yayım · " + comparison.date));
+      details.appendChild(textEl("p", "Ek kontrol: resmî yayımın incelenme tarihi · " + comparison.date));
+      details.appendChild(textEl("p", comparison.bibliography));
+      details.appendChild(textEl("p", comparison.locator));
+      details.appendChild(textEl("p", "Olay: " + comparison.eventDate + " · " + comparison.eventStage));
+      details.appendChild(textEl("p", "Rapor: " + comparison.documentDate + " · Üst yazı: " + comparison.coverLetterDate + " · Resmî yayım: " + comparison.publicationDate + "."));
+      details.appendChild(textEl("p", comparison.documentDateNote));
+      details.appendChild(textEl("p", "Bu eşleştirmenin son kontrolü: " + comparison.metadataReviewDate + ". " + comparison.readingScope));
       details.appendChild(textEl("p", "Türkçe çeviri (atlas): " + comparison.translation));
       var comparisonQuote = textEl("blockquote", comparison.evidenceText);
       comparisonQuote.lang = "en";
@@ -675,6 +697,78 @@
       comparisonLink.href = comparisonUrl;
       details.appendChild(comparisonLink);
     }
+    return details;
+  }
+
+  function mineNarrativeEvidence(source) {
+    var url = source && Model && Model.safeUrl ? Model.safeUrl(source.url) : "";
+    if (!source || source.status !== "anlati_incelendi_geometri_dogrulanmadi" || !/^https?:\/\//.test(url)) return null;
+    function validDate(value) {
+      return typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value) &&
+        !isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
+    }
+    if (!validDate(source.date) || source.accessDate !== source.date || !validDate(source.metadataReviewDate) ||
+        source.evidenceLanguage !== "en" ||
+        ![source.eventDate, source.documentDate, source.publicationDate].every(function (value) { return value === null; }) ||
+        ![source.label, source.evidenceText, source.translation, source.bibliography, source.locator, source.sourceKind,
+          source.eventDateNote, source.documentDateNote, source.publicationDateNote, source.readingScope, source.limit].every(function (value) {
+            return typeof value === "string" && !!value.trim();
+          })) return null;
+    var details = document.createElement("details");
+    details.className = "panel-evidence";
+    details.appendChild(textEl("summary", "Mayın anlatısının kaynağını göster"));
+    details.appendChild(textEl("p", source.bibliography));
+    details.appendChild(textEl("p", source.locator));
+    details.appendChild(textEl("p", "Kaynak türü: " + source.sourceKind + ". " + source.eventDateNote));
+    details.appendChild(textEl("p", "Belge tarihi: ayrıca belirlenmedi. " + source.documentDateNote));
+    details.appendChild(textEl("p", "Yayım tarihi: ayrıca belirlenmedi. " + source.publicationDateNote));
+    details.appendChild(textEl("p", "Bu pasaj Erenköy’deki kıyıya paralel hattı anlatır. Enlemesine şematik hatların numarası ve mayın sayısı bu pasajdan çıkarılamaz."));
+    var quote = textEl("blockquote", source.evidenceText);
+    quote.lang = "en";
+    details.appendChild(quote);
+    details.appendChild(textEl("p", "Türkçe çeviri (atlas): " + source.translation));
+    details.appendChild(textEl("p", "İlk inceleme/erişim: " + source.accessDate + " · Künye kontrolü: " + source.metadataReviewDate + ". " + source.readingScope));
+    details.appendChild(textEl("p", "İnceleme durumu: anlatı incelendi; çizgi geometrisi doğrulanmadı. " + source.limit));
+    var link = textEl("a", source.label);
+    link.href = url;
+    details.appendChild(link);
+    details.addEventListener("toggle", function () { if (details.open) stopPlay(); });
+    return details;
+  }
+
+  function chronologyEvidence(source) {
+    var url = source && Model && Model.safeUrl ? Model.safeUrl(source.url) : "";
+    var labels = {
+      kurumsal_ozet_pasaji_okundu: "Kurum özetinin ilgili pasajı okundu",
+      gunluk_goruntusu_ilgili_pasaj_okundu: "Günlük görüntüsünün ilgili pasajı okundu",
+      fotograf_katalog_aciklamasi_okundu: "Fotoğrafın katalog açıklaması okundu"
+    };
+    if (!source || !labels[source.status] || !/^https?:\/\//.test(url)) return null;
+    function validDate(value) {
+      return typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value) &&
+        !isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
+    }
+    if (!validDate(source.accessDate) || !validDate(source.metadataAccessDate) ||
+        !(source.publicationDate === null || (typeof source.publicationDate === "string" &&
+          (/^\d{4}$/.test(source.publicationDate) || validDate(source.publicationDate)))) ||
+        ![source.label, source.passage, source.bibliography, source.eventDate, source.evidenceText,
+          source.scope, source.publicationDateNote].every(function (value) {
+            return typeof value === "string" && !!value.trim();
+          })) return null;
+    var details = document.createElement("details");
+    details.className = "panel-evidence";
+    details.appendChild(textEl("summary", "Bu olayın kaynak künyesini göster"));
+    details.appendChild(textEl("p", source.bibliography));
+    details.appendChild(textEl("p", "İlgili giriş veya yaprak: " + source.passage));
+    details.appendChild(textEl("p", "Olay: " + source.eventDate + " · Kaynak künyesinin yayım bilgisi: " + (source.publicationDate || "ayrıca belirlenmedi") + " · Pasajın erişimi: " + source.accessDate + "."));
+    details.appendChild(textEl("p", source.publicationDateNote));
+    details.appendChild(textEl("p", "Künye alanlarının kontrolü: " + source.metadataAccessDate + "."));
+    details.appendChild(textEl("p", "Kanıtın kısa Türkçe özeti (doğrudan alıntı değil): " + source.evidenceText));
+    details.appendChild(textEl("p", "İnceleme: " + labels[source.status] + ". " + source.scope + " Bu durum, olayın bütün ayrıntılarının doğrulandığı anlamına gelmez."));
+    var link = textEl("a", source.label);
+    link.href = url;
+    details.appendChild(link);
+    details.addEventListener("toggle", function () { if (details.open) stopPlay(); });
     return details;
   }
 
@@ -689,6 +783,20 @@
     details.className = "panel-evidence";
     details.appendChild(textEl("summary", "Anlatıdaki kaynak çelişkisi"));
     details.appendChild(textEl("p", "İnceleme: " + source.date + ". Kaynak çelişkisi tespit edildi; özgün belge karşılaştırması açık."));
+    if (source.accessDate === source.date && typeof source.metadataReviewDate === "string" &&
+        /^\d{4}-\d{2}-\d{2}$/.test(source.metadataReviewDate) &&
+        !isNaN(Date.parse(source.metadataReviewDate)) && new Date(source.metadataReviewDate).toISOString().slice(0, 10) === source.metadataReviewDate &&
+        [source.eventDate, source.documentDate, source.publicationDate].every(function (value) { return value === null; }) &&
+        [source.bibliography, source.locator, source.eventDateNote, source.documentDateNote, source.publicationDateNote, source.readingScope].every(function (value) {
+          return typeof value === "string" && !!value.trim();
+        })) {
+      details.appendChild(textEl("p", source.bibliography));
+      details.appendChild(textEl("p", source.locator));
+      details.appendChild(textEl("p", "Olay tarihi: ayrıca belirlenmedi. " + source.eventDateNote));
+      details.appendChild(textEl("p", "Belge tarihi: ayrıca belirlenmedi. " + source.documentDateNote));
+      details.appendChild(textEl("p", "Yayım tarihi: ayrıca belirlenmedi. " + source.publicationDateNote));
+      details.appendChild(textEl("p", "Künye kontrolü: " + source.metadataReviewDate + ". " + source.readingScope));
+    }
     var quote = textEl("blockquote", source.evidenceText);
     quote.lang = "tr";
     details.appendChild(quote);
@@ -722,6 +830,28 @@
       if ([coordinateSource.evidenceText, coordinateSource.date, coordinateSource.label].every(function (value) {
         return typeof value === "string" && !!value.trim();
       }) && validDate && allowedStatus.indexOf(coordinateSource.status) !== -1) {
+        function metadataDate(value) {
+          if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+          var date = new Date(value + "T00:00:00Z");
+          return !isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value;
+        }
+        if (coordinateSource.accessDate === coordinateSource.date && metadataDate(coordinateSource.metadataReviewDate) &&
+            [coordinateSource.eventDate, coordinateSource.documentDate, coordinateSource.publicationDate].every(function (value) {
+              return value === null || metadataDate(value);
+            }) && [coordinateSource.bibliography, coordinateSource.locator, coordinateSource.sourceKind, coordinateSource.eventDateNote,
+              coordinateSource.documentDateNote, coordinateSource.publicationDateNote, coordinateSource.readingScope].every(function (value) {
+              return typeof value === "string" && !!value.trim();
+            })) {
+          details.appendChild(textEl("p", coordinateSource.bibliography));
+          details.appendChild(textEl("p", coordinateSource.locator));
+          details.appendChild(textEl("p", "Kaynak türü: " + coordinateSource.sourceKind + ". " + coordinateSource.eventDateNote));
+          details.appendChild(textEl("p", "Belge tarihi: " + (coordinateSource.documentDate || "ayrıca belirlenmedi") + ". " + coordinateSource.documentDateNote));
+          var publicationDisplay = coordinateSource.publicationDate ||
+            (typeof coordinateSource.publicationYear === "string" && /^\d{4}$/.test(coordinateSource.publicationYear)
+              ? coordinateSource.publicationYear + " (gün ve ay belirlenmedi)" : "ayrıca belirlenmedi");
+          details.appendChild(textEl("p", "Yayım tarihi: " + publicationDisplay + ". " + coordinateSource.publicationDateNote));
+          details.appendChild(textEl("p", "Künye kontrolü: " + coordinateSource.metadataReviewDate + ". " + coordinateSource.readingScope));
+        }
         if (coordinateSource.evidenceLanguage === "en") {
           details.appendChild(textEl("p", "Kaynakta okunan özgün ifade:"));
           var originalEvidence = textEl("blockquote", coordinateSource.evidenceText);
@@ -752,12 +882,33 @@
     return details;
   }
 
+  function navyReadingContext() {
+    var state = window.history && window.history.state && window.history.state.omReadingContext;
+    function valid(value, age) {
+      return value && value.target === '/' && value.targetSearch === window.location.search &&
+        Number.isFinite(value.savedAt) && Date.now() >= value.savedAt && Date.now() - value.savedAt <= age &&
+        value.params && typeof value.params.donanmayaDon === 'string';
+    }
+    try {
+      var pending = JSON.parse(window.sessionStorage.getItem('om-reading-context-v1'));
+      if (valid(pending, 60000)) {
+        state = pending;
+        if (window.history && window.history.replaceState) {
+          window.history.replaceState(Object.assign({}, window.history.state, { omReadingContext: state }), '', window.location.href);
+        }
+        window.sessionStorage.removeItem('om-reading-context-v1');
+      }
+    } catch (error) { /* Existing history remains available if storage is blocked. */ }
+    return valid(state, 30 * 60 * 1000) ? state.params.donanmayaDon : '';
+  }
+
   function navyReturnHref(place) {
     if (!place || typeof window === "undefined" || !window.location || !window.location.search) return "";
     try {
       var request = new URLSearchParams(window.location.search);
-      if (request.get("mevki") !== place || request.getAll("donanmayaDon").length !== 1) return "";
-      var value = request.get("donanmayaDon");
+      if (request.getAll("mevki").length !== 1 || request.get("mevki") !== place) return "";
+      if (request.has("donanmayaDon") && request.getAll("donanmayaDon").length !== 1) return "";
+      var value = request.has("donanmayaDon") ? request.get("donanmayaDon") : navyReadingContext();
       if (!value || value.length > 4000 || value.indexOf("/donanma/") !== 0) return "";
       var url = new URL(value, window.location.href);
       if (url.origin !== window.location.origin || url.pathname !== "/donanma/" || !/^#[a-z0-9-]{1,80}$/.test(url.hash)) return "";
@@ -795,6 +946,12 @@
     else body.innerHTML = "";
     if (spec.text) body.appendChild(textEl("p", spec.text));
     if (spec.accuracy) body.appendChild(textEl("p", spec.accuracy));
+    if (spec.mineReview) {
+      var mineDetails = mineNarrativeEvidence(spec.mineReview);
+      if (mineDetails) body.appendChild(mineDetails);
+    }
+    var chronologyDetails = spec.chronologySource ? chronologyEvidence(spec.chronologySource) : null;
+    if (chronologyDetails) body.appendChild(chronologyDetails);
     var coordinatePlace = spec.placeId ? findPlace(spec.placeId) : null;
     if (spec.showPlaceReturn && coordinatePlace) {
       var placeReturn = textEl("button", "Mevki kartını aç: " + coordinatePlace.name);
@@ -813,11 +970,11 @@
     if (conflict) body.appendChild(conflict);
     if (evidence) {
       body.appendChild(textEl("p", "Anlatı kaynağı: Aşağıdaki belge kanıtı yalnız belirtilen pasajı destekler. Kartın tamamını, kesin saatleri veya harita koordinatını doğrulamaz."));
-    } else if (spec.source) {
+    } else if (spec.source && !mineDetails && !chronologyDetails) {
       body.appendChild(textEl("p", spec.source));
     }
     var sourceUrl = spec.sourceUrl && Model && Model.safeUrl ? Model.safeUrl(spec.sourceUrl) : "";
-    if (sourceUrl) {
+    if (sourceUrl && !mineDetails) {
       var sourceLink = textEl("a", spec.sourceLabel || "İncelenen kaynak");
       sourceLink.href = sourceUrl;
       body.appendChild(sourceLink);
@@ -852,15 +1009,24 @@
           var destination = new URL(local, window.location.href);
           var back = new URL(target, window.location.href);
           if (destination.origin === window.location.origin && back.origin === window.location.origin) {
-            destination.searchParams.set("atlasaDon", target);
+            ["atlasaDon", "olayaDon", "listeyeDon", "fotografaDon", "komutanlaraDon", "donanmayaDon"].forEach(function (key) { destination.searchParams.delete(key); });
             link.href = destination.pathname + destination.search + destination.hash;
             link.addEventListener("click", function (event) {
-              if (!event.defaultPrevented) saveAtlasView(target);
+              if (event.defaultPrevented) return;
+              saveAtlasView(target);
+              try {
+                window.sessionStorage.setItem("om-reading-context-v1", JSON.stringify({
+                  target: destination.pathname, savedAt: Date.now(), params: { atlasaDon: target }
+                }));
+              } catch (error) { /* The article remains readable without stored return context. */ }
             });
           }
         } catch (error) { /* Keep the original link when return context cannot be added. */ }
       }
       return link;
+    }
+    if (chronologyDetails && localHref(spec.sourceNoteHref)) {
+      chronologyDetails.appendChild(readingLink(spec.sourceNoteHref, "Bu olayın merkez kaynak notunu aç"));
     }
     var reviewLink = readingLink(localHref(spec.reviewHref) || "/inceleme-notlari/", "Kanıt metinleri ve açık kalanlar");
     body.appendChild(reviewLink);
@@ -1037,6 +1203,8 @@
       accuracy: accuracy,
       source: chronologySource ? chronologySource.label + " · İlgili giriş: " + chronologySource.passage +
         " · Erişim: " + chronologySource.accessDate + ". " + chronologySource.scope : sourceText(ev),
+      chronologySource: chronologySource || null,
+      sourceNoteHref: chronologySource ? "/kronoloji-kaynaklari/#" + encodeURIComponent(ev.id) : "",
       href: href,
       shareHref: "/?olay=" + encodeURIComponent(ev.id) + "#harita",
       hrefLabel: chronologySource ? "Kaynak ve inceleme sınırı" : "Ayrıntı"

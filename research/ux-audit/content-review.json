@@ -256,7 +256,20 @@
       "open": "Atış saatleri, hasar miktarı ve birlik dağılımı.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Başlangıç tarihi için kronoloji desteği",
+        "summary": "Kurum kronolojisi bombardımanın başlangıcını destekler. Tek tek atış saatleri, hasar miktarı ve birlik dağılımı açık.",
+        "reasons": [
+          "DVA’nın kronoloji sayfasındaki ilgili tarihli giriş okunmuştur. Bu kısa kurum kaydı, ayrıntılı atış raporu veya bütün tabyaların hasar çizelgesi değildir.",
+          "Başlangıç tarihinin kaynak desteği, gün içindeki bütün emir ve atışların doğrulandığı anlamına gelmez. Özgün harp belgeleriyle karşılaştırma açık; bu kayıttan yeni saat, hasar toplamı veya koordinat üretilmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim DVA kaynak/kapsam incelemesinin okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline"
+        ]
+      }
     },
     {
       "path": "olaylar/giris-tabyalari-ve-kisa-cikarmalar/",
@@ -267,7 +280,20 @@
       "open": "Günlere göre birlikler ve bütün tabyaların durumu.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Bombardıman, kısa çıkarma ve geri çekilme ayrı",
+        "summary": "Kaynak, farklı günlerdeki bombardıman ve kıyı hareketlerini kısa bir sırayla verir. Bütün tabyaların durumu ve her günün birlik ayrıntıları açık.",
+        "reasons": [
+          "DVA’nın aynı kronoloji sayfasındaki ilgili gün ve tarih aralıkları kullanılır. Birden çok tarihli giriş, bağımsız birden çok tanıklık olarak sayılmaz.",
+          "Bombardıman, tahrip amacıyla kıyıya çıkma ve geri çekilme aynı olay anı değildir. Günlere göre birlikler, emirler ve bütün tabyaların durumu için özgün kayıtlarla karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim DVA kaynak/kapsam incelemesinin okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline"
+        ]
+      }
     },
     {
       "path": "olaylar/e15-bogazda-karaya-oturur/",
@@ -278,7 +304,20 @@
       "open": "Karaya oturma, personelin durumu ve denizaltının sonradan tahribi ayrı aşamalardır.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Karaya oturma ile sonraki tahrip ayrı",
+        "summary": "Kronoloji kaydı karaya oturmayı destekler. Personelin durumu ve denizaltının sonradan tahribi tek bir anmış gibi birleştirilmedi.",
+        "reasons": [
+          "DVA kronolojisinin ilgili tarihli girişi bu kısa olay çerçevesi için okunmuştur. Kurum özeti, ayrıntılı personel raporu veya bütün işlemlerin zaman çizelgesi değildir.",
+          "Karaya oturma, personelin akıbeti ve sonraki tahrip için kanıtın kapsamı ayrı değerlendirilir. Fotoğraf künyesi de bu aşamaların tamamını veya kesin enkaz konumunu doğrulamaz; özgün harp belgeleriyle karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim DVA kaynak/kapsam incelemesinin okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline"
+        ]
+      }
     },
     {
       "path": "olaylar/ariburnu-genel-taarruzu/",
@@ -289,7 +328,33 @@
       "open": "Bütün siperlerin 25 Nisan akşamıyla aynı kaldığı iddiası ve birliklerin günlük dağılımı doğrulanmadı.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Emir, gözlem ve durdurma ayrı okunuyor",
+        "summary": "Yayımlanmış emir aktarımları, karşı tarafın anlatısı ve akademik aktarımlar belirli bölümleri destekliyor. Bütün cephe için tek bir başlangıç veya durdurma saati çıkarılmadı.",
+        "reasons": [
+          "Osmanlı emirlerinin modern yayımdaki çevriyazıları ile Bean’in yayımlanmış anlatısı kaynak türleri ayrılarak gösterilir. Aynı yayının iki nüshası veya benzer aktarım metinleri bağımsız iki tanıklık sayılmadı.",
+          "Bir emrin saati fiilî hareketin bütün birliklerde aynı anda başladığını göstermez. Gün içindeki durdurma ve mevzi değişimleri için özgün emir ve birlik raporlarının karşılaştırılması açık; yayınlardaki saat ve yer adı farkları sessizce birleştirilmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız mevcut sayfanın önceden incelenmiş kaynak/kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://drive.google.com/file/d/16Dk4kS_4jjxrQ9bp1c9HZEk457GsIEHh/view",
+          "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1069991/document/5520739.PDF#page=2",
+          "https://www.awm.gov.au/collection/C1417086",
+          "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1069991/document/5520739.PDF#page=3",
+          "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1069991/document/5520739.PDF#page=30",
+          "https://dergipark.org.tr/tr/download/article-file/2314844#page=10",
+          "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/zahNNEJiKbDMnmvn5A34sv3vnwhAbLSAPhGixy3F.pdf#page=83",
+          "https://canakkaletarihialan.gov.tr/data/fm/Kitap/48alay-kitabipdf_3903a503-f449-4563-ab0f-1877f918de9d.pdf#page=177",
+          "https://canakkaletarihialan.gov.tr/data/fm/Kitap/48alay-kitabipdf_3903a503-f449-4563-ab0f-1877f918de9d.pdf#page=181",
+          "https://dergipark.org.tr/tr/pub/canakkalearastirmalari/article/52797",
+          "https://dergipark.org.tr/tr/download/article-file/45082",
+          "https://canakkaletarihialan.gov.tr/data/fm/Kitap/48alay-kitabipdf_3903a503-f449-4563-ab0f-1877f918de9d.pdf#page=182",
+          "https://www.awm.gov.au/collection/C1212055",
+          "https://www.awm.gov.au/learn/schools/resources/understanding-gallipoli/landing"
+        ]
+      }
     },
     {
       "path": "olaylar/ariburnu-gomme-ateskesi/",
@@ -297,10 +362,38 @@
         "awm-truce"
       ],
       "summary": "24 Mayıs 1915 kaydı, ateşkeste iki tarafın ölülerinin gömülmesini belgelendirir.",
-      "open": "Kesin saatler, ateşkes şartları ve bütün cephe boyunca uygulama için protokol gerekir.",
+      "open": "Özgün imzalı anlaşma nüshaları, planlanan saatlerin fiilî uygulanışı ve bütün cephe boyunca uygulama için karşılaştırma açık.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Anlaşma, emir ve uygulama ayrı okunuyor",
+        "summary": "Kaynaklar gömme ateşkesini, planlanan düzeni ve uygulama bildirimlerini farklı kapsamlarla ele alıyor. Özgün anlaşma nüshaları ve bütün cephe uygulamasıyla karşılaştırma açık.",
+        "reasons": [
+          "Kaynak notları platform transkripsiyonu, incelenmiş emir görüntüsü, kitap anlatısı ve yayımlanmış Türkçe aktarımları ayrı gösterir. Onay bekleyen transkripsiyon, incelenmiş görüntüyle aynı kanıt düzeyi sayılmadı.",
+          "Anlaşmadaki planlanan saatler, uygulama raporundaki bildirimler ve defin tahmini farklı bilgilerdir. Bunlardan tek bir kesin zaman çizelgesi veya kesin kayıp toplamı üretilmedi. Özgün belgeler ve uygulamanın bütün sahadaki karşılığı için inceleme açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız mevcut sayfanın önceden incelenmiş kaynak/kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://transcribe.awm.gov.au/transcription/item/rcdig1066847-7",
+          "https://transcribe.awm.gov.au/transcription/item/rcdig0000588-8",
+          "https://www.awm.gov.au/collection/A05615",
+          "https://www.awm.gov.au/collection/H03955",
+          "https://archive.org/download/gallipoli-v-2-pt-01-p-003-008/GallipoliV2Pt02p008-027_text.pdf#page=14",
+          "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-07/17676-rcdig0000588-page86.jpg",
+          "https://transcribe.awm.gov.au/transcription/item/rcdig0000588-7",
+          "https://catab.ktb.gov.tr/Eklenti/81451%2C105-yilinda-canakkale-muharebelerine-bakis-09032021pdf.pdf#page=146",
+          "https://catab.ktb.gov.tr/Eklenti/81451%2C105-yilinda-canakkale-muharebelerine-bakis-09032021pdf.pdf#page=147",
+          "https://www.canakkalecephesi.com/index.php/2022/12/26/57-alaya-ait-14-mayis-4-haziran-1915-tarihleri-arasindaki-muharebe-tutanaklari/",
+          "https://www.awm.gov.au/collection/H03947"
+        ],
+        "scopeCorrection": {
+          "before": "Kesin saatler, ateşkes şartları ve bütün cephe boyunca uygulama için protokol gerekir.",
+          "after": "Özgün imzalı anlaşma nüshaları, planlanan saatlerin fiilî uygulanışı ve bütün cephe boyunca uygulama için karşılaştırma açık.",
+          "basis": "Sayfadaki N.Z.G.609 emir görüntüsü, Ek6 anlaşma aktarımı ve Ek7 uygulama raporu kapsamı; özgün nüsha/fiilî uygulama sınırı açık."
+        }
+      }
     },
     {
       "path": "olaylar/goliath-batar/",
@@ -311,7 +404,20 @@
       "open": "Batış saati, torpido sayısı ve kayıp dökümü.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Batış özeti katalog açıklamasına dayanıyor",
+        "summary": "AWM’nin kurtulanlara ait fotoğraf kaydı bu kısa özeti destekler. Batış saati, torpido sayısı ve kayıp dökümü için gemi jurnalleriyle karşılaştırma açık.",
+        "reasons": [
+          "Kurum kaydındaki fotoğraf açıklaması, geminin adı ve batış bağlamı için okunmuştur. Kurtulanların görüntüsü batış anının görüntüsü olarak sunulmaz; fotoğraf tarihi geminin batış tarihi yerine geçirilmez.",
+          "Katalog açıklaması, gemi jurnallerinin veya personel kayıp dökümünün incelendiği anlamına gelmez. Haritadaki yaklaşık işaret kesin enkaz noktası sayılmadı; bu kısa kayıttan yeni saat, zayiat toplamı veya koordinat üretilmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut AWMkatalog incelemesinin okuyucu sunumu;17Ekim kaynak erişimi değiştirilmedi. Yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/C1003295"
+        ]
+      }
     },
     {
       "path": "olaylar/triumph-batar/",
@@ -322,7 +428,20 @@
       "open": "Kesin enkaz koordinatı ve kayıplar.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Batış özeti katalog açıklamasına dayanıyor",
+        "summary": "AWM’nin kurtulanlara ait fotoğraf kaydı batışın kısa özetini destekler. Kesin enkaz noktası ve kayıp sayıları için belge karşılaştırması açık.",
+        "reasons": [
+          "Kurum kaydındaki fotoğraf açıklaması, geminin adı ve batış bağlamı için okunmuştur. Kurtulanların görüntüsü batış anının görüntüsü olarak sunulmaz; fotoğraf tarihi geminin batış tarihi yerine geçirilmez.",
+          "Katalog açıklaması, gemi jurnallerinin veya personel kayıp dökümünün incelendiği anlamına gelmez. Haritadaki yaklaşık işaret kesin enkaz noktası sayılmadı; bu kısa kayıttan yeni saat, zayiat toplamı veya koordinat üretilmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut AWMkatalog incelemesinin okuyucu sunumu;17Ekim kaynak erişimi değiştirilmedi. Yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/C1003295"
+        ]
+      }
     },
     {
       "path": "olaylar/majestic-batar/",
@@ -333,7 +452,20 @@
       "open": "Kesin enkaz koordinatı ve kayıplar.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Batış özeti katalog açıklamasına dayanıyor",
+        "summary": "AWM’nin kurtulanlara ait fotoğraf kaydı batışın kısa özetini destekler. Kesin enkaz noktası ve kayıp sayıları için belge karşılaştırması açık.",
+        "reasons": [
+          "Kurum kaydındaki fotoğraf açıklaması, geminin adı ve batış bağlamı için okunmuştur. Kurtulanların görüntüsü batış anının görüntüsü olarak sunulmaz; fotoğraf tarihi geminin batış tarihi yerine geçirilmez.",
+          "Katalog açıklaması, gemi jurnallerinin veya personel kayıp dökümünün incelendiği anlamına gelmez. Haritadaki yaklaşık işaret kesin enkaz noktası sayılmadı; bu kısa kayıttan yeni saat, zayiat toplamı veya koordinat üretilmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut AWMkatalog incelemesinin okuyucu sunumu;17Ekim kaynak erişimi değiştirilmedi. Yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/C1003295"
+        ]
+      }
     },
     {
       "path": "olaylar/barbaros-hayreddin-batar/",
@@ -344,7 +476,20 @@
       "open": "Mart konumu, seyir ayrıntıları ve kayıplar için özgün jurnal gerekir. Yeni enkaz noktası eklenmedi.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Batış özeti ile jurnal ayrıntıları ayrı",
+        "summary": "Batış anlatısı ansiklopedi maddesine dayanır. Seyir, kayıplar ve kesin enkaz konumu için aynı düzeyde belge desteği yoktur.",
+        "reasons": [
+          "Mevcut inceleme, ansiklopedi maddesinin olay özetini desteklediği kapsamla sınırlıdır; özgün gemi veya denizaltı jurnalinin karşılaştırıldığı anlamına gelmez.",
+          "Mart ayındaki konum, seyir ayrıntıları ve kayıplar açık kalır. Harita işareti yaklaşık mevkiyi gösterir; kesin enkaz noktası olarak okunmaz."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim kaynak notunun sunumu; yeni kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://canakkalesavaslariansiklopedisi.com/barbaros-hayreddin-zirhlisi/"
+        ]
+      }
     },
     {
       "path": "olaylar/saros-gosterisi/",
@@ -355,7 +500,20 @@
       "open": "Gösteri, kıyıya hiç kimsenin çıkmadığı anlamına gelmez; ana çıkarma ile keşif hareketleri ayrılmalıdır.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Gösteri planı için kısmi kaynak desteği",
+        "summary": "Gösteri harekâtının plandaki yeri bir rapor çevrimyazısında görülüyor. Kıyıdaki bütün keşif ve birlik hareketlerinin ayrıntıları açık.",
+        "reasons": [
+          "Kaynak notu, London Gazette’de yayımlanan raporların Naval-History.net çevrimyazısına dayanır. Aynı sayfada farklı tarihli raporlar bulunur; kaynak notundaki ilgili rapor kapsamı korunur.",
+          "Çevrimyazı özgün gazete görüntüsüyle karşılaştırılmadı. Gösteri harekâtı, kıyıya hiç kimsenin çıkmadığı anlamına gelmez; ana çıkarma ve keşif hareketleri birbirine eşitlenmedi. Harita işareti kesin hareket hattı değildir."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim kaynak incelemesinin okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm"
+        ]
+      }
     },
     {
       "path": "olaylar/kerevizdere-muharebesi/",
@@ -367,7 +525,21 @@
       "open": "Temmuz harekâtı ilk Kerevizdere çatışması değildir. Türk, Fransız ve İngiliz kaynaklarında adlandırmalar değişebilir.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Haziran ve Temmuz aşamaları ayrı",
+        "summary": "Bu sayfanın tarih kartı Temmuz aşamasını kapsıyor. Haziran’daki çatışma ve kaynaklardaki farklı adlandırmalar aynı olaymış gibi birleştirilmedi.",
+        "reasons": [
+          "Ahmet Diriker’in iki araştırma maddesi dönem, adlandırma ve genel sonuç ayrımı için kullanılır. Maddelerin atıf yaptığı harp kayıtları bu incelemede bağımsız olarak karşılaştırılmadı.",
+          "Bu destek ayrıntılı siper geometrisi, eksiksiz birlik dağılımı veya kesin saat çizelgesi üretmez. Farklı dönemlerin ayrıntıları tek tarih kartına taşınmadı; harita işareti gün gün cephe hattı sayılmadı."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut kaynak/kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://canakkalesavaslariansiklopedisi.com/birinci-kerevizdere-muharebesi/",
+          "https://canakkalesavaslariansiklopedisi.com/ikinci-kerevizdere-muharebesi/"
+        ]
+      }
     },
     {
       "path": "olaylar/anafartalar-suvla-cikarmasi/",
@@ -378,7 +550,20 @@
       "open": "6–7 Ağustos çıkarma gecesi ile 6–15 Ağustos harekât kapsamı farklıdır.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Çıkarma gecesi ile harekâtın bütünü ayrı",
+        "summary": "İlk yakın tepe kazanımları ile iç kesimdeki hedefler aynı sonuç değildir. Çıkarma gecesi, daha uzun Suvla harekâtının tarih aralığıyla birleştirilmedi.",
+        "reasons": [
+          "DVA’nın Suvla çıkarması anlatısı başlangıç ve genel gelişme çerçevesi için kullanılır. İlk kıyı ve yakın tepe hareketleri, harekâtın bütün hedeflerinin tamamlandığı şeklinde okunmadı.",
+          "Sayfanın kısa çıkarma kesiti ile kaynağın daha geniş tarih kapsamı farklıdır. Günlere göre bütün birliklerin hareketleri, emir saatleri ve kesin cephe hattı için özgün kayıtlarla karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut kurum kronolojisi/anlatısı kaynak ve kapsam notlarının okuyucu sunumu;17Ekim inceleme tarihleri ve doğrulama statüleri korunur. Yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/august-offensive/suvla-bay"
+        ]
+      }
     },
     {
       "path": "olaylar/birinci-anafartalar-muharebesi/",
@@ -389,7 +574,20 @@
       "open": "Grup ataması 8–9 Ağustos kaydıdır; birlik hareketleri ve emir saatleri ayrıca incelenmelidir.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Atama ve muharebe tarihi ayrı",
+        "summary": "Grup komutanlığına atama ile muharebe kaydı aynı olay değildir. Kronolojinin tarih desteği, birlik hareketleri ve emir saatlerinin tamamını doğrulamaz.",
+        "reasons": [
+          "Kültür ve Turizm Bakanlığının kronolojisindeki ilgili atama ve muharebe satırları okunmuştur. Kaynağın diğer bütün tarih satırları topluca doğrulanmış sayılmadı.",
+          "Atama, emrin bildirilmesi, birliklerin hareketi ve muharebenin seyri ayrı sorulardır. Bu kısa kronoloji özgün emirlerin ve birlik raporlarının tam karşılaştırması yerine kullanılmadı."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut kurum kronolojisi/anlatısı kaynak ve kapsam notlarının okuyucu sunumu;17Ekim inceleme tarihleri ve doğrulama statüleri korunur. Yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.ktb.gov.tr/TR-96322/1915.html"
+        ]
+      }
     },
     {
       "path": "olaylar/ikinci-anafartalar-muharebesi/",
@@ -401,7 +599,21 @@
       "open": "Yusufçuk Tepe ile Bomba Tepe aynı mevki veya aynı süreli muharebe gibi birleştirilmedi.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Muharebe günü ve farklı mevkiler ayrı",
+        "summary": "Muharebe tarihi için kronoloji desteği var. Yusufçuk Tepe ile Bomba Tepe aynı mevki veya aynı süreli çatışma gibi birleştirilmedi.",
+        "reasons": [
+          "Kültür ve Turizm Bakanlığı kronolojisi tarih için; National Army Museum anlatısının ilgili bölümü farklı mevkilerdeki girişimler için kullanılır. Bu iki kapsam aynı nokta veya tek bir süreye indirgenmedi.",
+          "Genel sonuç, her birliğin günlük mevzisinin ve hareket saatinin belgelendiği anlamına gelmez. Ayrıntılı birlik dağılımı, emirler ve siper sınırları için özgün harp kayıtlarıyla karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut kurum kronolojisi/anlatısı kaynak ve kapsam notlarının okuyucu sunumu;17Ekim inceleme tarihleri ve doğrulama statüleri korunur. Yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.ktb.gov.tr/TR-96322/1915.html",
+          "https://www.nam.ac.uk/explore/gallipoli"
+        ]
+      }
     },
     {
       "path": "olaylar/conkbayiri-muharebesi/",
@@ -413,7 +625,21 @@
       "open": "6–10 Ağustos kesiti ile daha geniş Sarıbayır harekâtının tarih kapsamı ayrılır.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Zirveye çıkış ve karşı taarruz ayrı",
+        "summary": "Kurum kronolojisi ve Sarıbayır anlatısı farklı aşamaları destekliyor. Bu sayfanın kısa tarih kesiti, daha geniş Sarıbayır harekâtının bütünü değildir.",
+        "reasons": [
+          "Kültür ve Turizm Bakanlığı kronolojisinin ilgili satırları ile DVA’nın Sarıbayır anlatısı kullanılır. Zirveye çıkış ve Osmanlı karşı taarruzu farklı aşamalar olarak korunur.",
+          "Kronoloji satırları, bütün emir ve birlik hareketlerinin özgün belgelerle karşılaştırıldığı anlamına gelmez. Bu sayfanın tarih kesitinden daha geniş harekât için tek bir bitiş günü veya kesin mevzi çizgisi çıkarılmadı."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut kurum kronolojisi/anlatısı kaynak ve kapsam notlarının okuyucu sunumu;17Ekim inceleme tarihleri ve doğrulama statüleri korunur. Yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.ktb.gov.tr/TR-96322/1915.html",
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/august-offensive/sari-bair"
+        ]
+      }
     },
     {
       "path": "olaylar/kanlisirt-muharebesi/",
@@ -424,7 +650,20 @@
       "open": "Tarih kartı 6–9 Ağustos kullanır; bağlantılı DVA Lone Pine başlığı 6–10 Ağustos kapsamındadır. Kesin tek bitiş günü olarak sunulmaz.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Yerel sonuç ve tarih kapsamı ayrı",
+        "summary": "Kanlısırt’taki yerel kazanım, Ağustos harekâtının genel sonucuyla aynı değildir. Kaynakların farklı tarih kapsamlarından tek kesin bitiş günü çıkarılmadı.",
+        "reasons": [
+          "DVA’nın Ağustos harekâtı anlatısı ve bağlantılı Kanlısırt/Lone Pine kapsamı yerel sonuç için kullanılır. Bu kurum anlatısı, bütün birliklerin günlük raporlarının karşılaştırıldığı anlamına gelmez.",
+          "Tarih kartı ile bağlantılı kaynağın kapsadığı günler farklıdır; bunlar aynı kesin bitiş günü gibi okunmadı. Kesin siper sınırları, birlik hareketleri ve saatler için inceleme açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut kurum kronolojisi/anlatısı kaynak ve kapsam notlarının okuyucu sunumu;17Ekim inceleme tarihleri ve doğrulama statüleri korunur. Yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/august-offensive"
+        ]
+      }
     },
     {
       "path": "olaylar/ariburnu-tahliyesi/",
@@ -436,7 +675,21 @@
       "open": "Yalnız son gece bütün tahliye süresi değildir. Aralık komuta dağılımı Nisan görevlerinden türetilmez.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Son gece ile bütün tahliye ayrı",
+        "summary": "Arıburnu çekilişi aşamalıydı; son birlikler 20 Aralık sabahının erken saatlerinde ayrıldı.",
+        "reasons": [
+          "Kurumun tarihsel özeti, tahliyenin aşamalarını anlatır; özgün harp ceridelerinin ve günlük birlik hareketlerinin bütünü karşılaştırılmış değildir.",
+          "Yalnız son gece bütün tahliye süresi değildir. Aralık komuta dağılımı Nisan görevlerinden türetilmez."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim kurum metni incelemesinin sunumu; yeni erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/evacuations-from-anzac",
+          "https://www.ktb.gov.tr/TR-96322/1915.html"
+        ]
+      }
     },
     {
       "path": "olaylar/anafartalar-tahliyesi/",
@@ -448,7 +701,21 @@
       "open": "Mustafa Kemal 10 Aralıkta cepheden ayrılmıştır; tahliye gecesinin komutanı olarak sunulmaz.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Suvla ile Seddülbahir aşamaları ayrı",
+        "summary": "Suvla tahliyesi Aralık ayında tamamlandı; Seddülbahir çekilişi Ocak ayındaki ayrı aşamadır.",
+        "reasons": [
+          "Kurumun tarihsel özeti, tahliyenin aşamalarını anlatır; özgün harp ceridelerinin ve günlük birlik hareketlerinin bütünü karşılaştırılmış değildir.",
+          "Mustafa Kemal 10 Aralıkta cepheden ayrılmıştır; tahliye gecesinin komutanı olarak sunulmaz."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim kurum metni incelemesinin sunumu; yeni erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/evacuations-from-anzac",
+          "https://www.ktb.gov.tr/TR-96322/1915.html"
+        ]
+      }
     },
     {
       "path": "olaylar/seddulbahir-tahliyesi/",
@@ -459,7 +726,20 @@
       "open": "Nisanda kullanılan bütün kumsalların Ocakta da tahliye noktası olduğu iddia edilmez; Ocak komuta dağılımı ayrıca belgelenmelidir.",
       "rewrite": true,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Son çekiliş ile bütün kumsallar ayrı",
+        "summary": "Seddülbahir’deki son çekiliş 8–9 Ocak 1916 aşamasıdır.",
+        "reasons": [
+          "Kurumun tarihsel özeti, tahliyenin aşamalarını anlatır; özgün harp ceridelerinin ve günlük birlik hareketlerinin bütünü karşılaştırılmış değildir.",
+          "Nisanda kullanılan bütün kumsalların Ocakta da tahliye noktası olduğu iddia edilmez; Ocak komuta dağılımı ayrıca belgelenmelidir."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim kurum metni incelemesinin sunumu; yeni erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/evacuations-from-anzac"
+        ]
+      }
     },
     {
       "path": "komutanlar/albert-damade/",
@@ -467,10 +747,24 @@
         "naval-reports"
       ],
       "summary": "d’Amade, Çanakkale’ye gönderilen Fransız sefer kuvvetiyle ilişkilidir.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler açık kalır; yaşam tarihleri ayrı kurum kişi kaydıyla desteklenir.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Kişi kaydı ile komuta raporu ayrı",
+        "summary": "Yaşam tarihleri kurum kişi kaydına, sefer kuvveti bağlantısı rapor aktarımına dayanır. Bu iki destek kesin görev günlerini topluca doğrulamaz.",
+        "reasons": [
+          "INHA kişi kaydının kimlik alanları ve ilgili biyografi paragrafı önceki incelemede okundu; özgün nüfus kayıtları ve atıf verilen arşiv dosyaları incelenmedi.",
+          "Raporların çevrimyazısı ile özgün gazete görüntüsü ayrı tutulur. Aynı dosyadaki farklı tarihli raporlar tek görev dönemi gibi okunmaz; günlük hareketler için karşılaştırma açıktır."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17/27Ekim inceleme sınırlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+          "https://agorha.inha.fr/ark:/54721/bafe13cc-fa47-4d0e-a4c8-50de5d5d6e66?database=81"
+        ]
+      }
     },
     {
       "path": "komutanlar/alexander-godley/",
@@ -478,10 +772,24 @@
         "nz-godley"
       ],
       "summary": "Godley, çıkarma sırasında Yeni Zelanda ve Avustralya Tümeni komutanıdır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Yaşam tarihleri kurumsal biyografiyle desteklenir; görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler ayrıca belge karşılaştırması gerektirir.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Yaşam tarihleri ve görev dönemi ayrı",
+        "summary": "Yaşam tarihleri kurumsal biyografiye, çıkarma sırasındaki görev özeti kurum metnine dayanır. Kesin görev günleri ve günlük hareketler ayrıca incelenmelidir.",
+        "reasons": [
+          "Te Ara biyografisinin yaşam ve Çanakkale paragrafları önceki incelemede okundu; özgün nüfus kayıtları ve bütün atıf eserleri incelenmedi. Bu destek, kesin görev başlangıcı veya bitişi anlamına gelmez.",
+          "NZHistory kaydının görev özeti bütün harekât boyunca aynı görevin sürdüğünü doğrulamaz. Kuvvet ve zayiat toplamları yaşam tarihleri eşleşmesinden türetilmez."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17ve27Ekim inceleme kapsamlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://nzhistory.govt.nz/media/photo/alexander-godley",
+          "https://teara.govt.nz/en/biographies/3g12/godley-alexander-john"
+        ]
+      }
     },
     {
       "path": "komutanlar/aylmer-hunter-weston/",
@@ -490,10 +798,25 @@
         "naval-reports"
       ],
       "summary": "Hunter-Weston, çıkarma aşamasında 29. Tümen komutanıdır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Ölüm tarihi kişi kaydıyla desteklenir; doğumun gün/ay/yeri, ölüm yeri ve kesin görev başlangıç/bitiş günleri bu kayıtla doğrulanmaz.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Görev değişimi, ayrılış ve yaşam kaydı ayrı",
+        "summary": "Tümen ve kolordu görevleri farklı dönemlere aittir. Yarımadadan ayrılış, resmî görevin bitiş günü olarak kabul edilmez; kişi kaydının yaşam desteği de sınırlıdır.",
+        "reasons": [
+          "NAM açıklaması görev sırasını, Hamilton raporunun çevrimyazısı ayrılışı anlatır. İmzalı asıl ve atama emri incelenmediği için bu pasajlardan kesin görev başlangıcı veya sonu çıkarılmaz.",
+          "Hansard kişi kaydı ölüm tarihini destekler; doğumun gününü, ayını ve yerini ya da ölüm yerini belirtmez. Kayıt farklı kaynaklardan derlenmiştir; özgün nüfus ve ölüm belgeleri incelenmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut25/27Ekim kaynak incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://collection.nam.ac.uk/detail.php?acc=2007-03-8-27",
+          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+          "https://api.parliament.uk/historic-hansard/people/lieut-general-sir-aylmer-hunter-weston/index.html"
+        ]
+      }
     },
     {
       "path": "komutanlar/cevat-bey-cobanli/",
@@ -501,10 +824,23 @@
         "csa-cevat"
       ],
       "summary": "Cevat Paşa’nın görevi Çanakkale Müstahkem Mevkii komutanlığıdır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Yaşam alanları ansiklopedi aktarımıyla eşleşir; özgün kimlik kayıtları, atama ve terfi emirleri, görev bitişi ve günlük hareketlerin karşılaştırması açıktır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Ansiklopedi aktarımı, atama ve terfi ayrı",
+        "summary": "Kimlik ve görev anlatısı ansiklopedi maddesine dayanır. Atanma ile terfi farklı işlemlerdir; özgün kayıt ve emirlerin karşılaştırması açıktır.",
+        "reasons": [
+          "Mevcut inceleme kimlik, atama ve terfi paragraflarıyla kaynakçayı kapsar. Kaynakçada anılan subay dosyası ve arşiv belgeleri görülmedi; aktarım özgün belge yerine sunulmaz.",
+          "Yaşam alanlarının maddeyle eşleşmesi, muharebenin bütün saatlerini veya bütün biyografiyi doğrulamaz. Kesin görev bitişi ve günlük hareketler için ayrıca belge karşılaştırması gerekir."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17/26Ekim incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://canakkalesavaslariansiklopedisi.com/cevat-cobanli-pasa/"
+        ]
+      }
     },
     {
       "path": "komutanlar/charles-monro/",
@@ -512,10 +848,24 @@
         "dva-evacuation"
       ],
       "summary": "Monro, Hamilton’dan sonra komutayı aldı ve tahliyeyi önerdi.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Yaşam günleri alay birliği biyografisine dayanır; yaşam yerleri, kesin görev başlangıç/bitiş günleri ve günlük hareketler açık kalır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Atama, tahliye önerisi ve uygulama ayrı",
+        "summary": "Yaşam günleri biyografiyle, tahliye değerlendirmesi kurum özetiyle desteklenir. Kesin atama ve fiilî devir günü aynı kaynaklardan çıkarılmadı.",
+        "reasons": [
+          "Alay birliği biyografisinin yaşam, Akdeniz ataması ve Fransa’ya dönüş paragrafları önceki incelemede okundu. Özgün kimlik kayıtları, atama emri ve görev teslim belgesi görülmedi; yaşam yerleri açık kalır.",
+          "Tahliye önerisi, önerinin kabulü ve çekilmenin uygulanması ayrı aşamalardır. Biyografi başlığındaki başka görev dönemleri Çanakkale komutanlığının süresi sayılmaz; bu destek tahliye kayıplarını doğrulamaz."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17/27Ekim inceleme kapsamlarının sunumu; yeni erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.queensroyalsurreys.org.uk/colonels-and-co/colonels/queens-royal-regiment/gen-sir-charles-monro.html",
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/evacuations-from-anzac"
+        ]
+      }
     },
     {
       "path": "komutanlar/emile-guepratte/",
@@ -523,10 +873,24 @@
         "naval-reports"
       ],
       "summary": "Guépratte, Fransız deniz filosunun komutanı olarak raporda geçer.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Kurum kişi kaydındaki ölüm günü farkı çözülmedi; özgün yaşam kayıtları, kesin görev başlangıç/bitiş günleri ve günlük hareketler için karşılaştırma açıktır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Ölüm günü farklı, komuta kapsamı sınırlı",
+        "summary": "Kurum kişi kaydının bölümleri ölüm günü konusunda uyuşmuyor. Deniz komutası rapor aktarımında yer alır; yaşam kaydı muharebe düzenini tek başına doğrulamaz.",
+        "reasons": [
+          "Meclis kaydının genel bilgileri ve ilgili biyografi paragrafları önceki incelemede okundu. Sözlüğün özgün baskısı ve nüfus/ölüm kaydı görülmedi; farklı günlerden biri kesin kabul edilmedi.",
+          "Rapor çevrimyazısı ile özgün gazete görüntüsü ayrı tutulur. Kişinin milletvekilliği dönemi askerî komuta süresi değildir; görev teslim günleri ve muharebe düzeni için ayrıca kanıt gerekir."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17/27Ekim inceleme sınırlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www2.assemblee-nationale.fr/sycomore/fiche/3624",
+          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm"
+        ]
+      }
     },
     {
       "path": "komutanlar/esat-pasa-bulkat/",
@@ -534,10 +898,23 @@
         "csa-esat"
       ],
       "summary": "Esat Paşa’nın Çanakkale görevi başlangıçta 3. Kolordu komutanlığıdır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Ölümün kesin günü, özgün atama ve görev teslim belgeleri ile günlük hareketler açıktır; ansiklopedi aktarımı özgün belge düzeyinde doğrulama değildir.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Değişen görevler ve açık ölüm günü",
+        "summary": "Ansiklopedi maddesi kolordu ve grup görevlerini farklı dönemler için anlatır. Cepheden ayrılma, yeni görevin atama veya teslim günü sayılmaz; ölümün kesin günü açık tutulur.",
+        "reasons": [
+          "Mevcut inceleme kimlik, görev değişimi ve ayrılış paragraflarıyla künyeyi kapsar. Özgün nüfus kaydı, grup teşkil emri ve görev teslim belgesi görülmedi; bütün kaynakça okunmuş değildir.",
+          "Ansiklopedi aktarımıyla önceki çalışma kaydındaki ölüm günü eşleşmediği için kesin gün seçilmedi. Haritadaki kolordu işareti de bütün yıl değişmeyen sorumluluk alanı olarak okunmaz."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17/27Ekim inceleme sınırlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://canakkalesavaslariansiklopedisi.com/esad-bulkat-pasa/"
+        ]
+      }
     },
     {
       "path": "komutanlar/frederick-stopford/",
@@ -545,10 +922,24 @@
         "dva-suvla"
       ],
       "summary": "Stopford, Suvla harekâtını komuta etti; kaynak 15 Ağustosta görevden alındığını belirtir.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Yaşam yılları çalışma kaydıdır; kesin yaşam günleri/yerleri bu görev kaynaklarıyla belgelenmedi. Geçici görev ve devir pasajları özgün atama emirleri ve günlük hareketleri bütünüyle doğrulamaz.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Geçici görev, kolordu komutası ve devir ayrı",
+        "summary": "Temmuzdaki geçici Helles görevi, Ağustostaki Suvla komutasıyla aynı değildir. Rapor pasajı görev devrini anlatır; yaşam ayrıntıları ve bütün günlük hareketler bu kaynakla belgelenmez.",
+        "reasons": [
+          "Hamilton raporunun ilgili yayımlanmış çevrimyazı pasajları önceki incelemede okundu; bütün rapor, imzalı asıl ve atama emirleri incelenmedi. Rapordaki komuta değerlendirmeleri bağımsız soruşturmanın kesin hükmü sayılmadı.",
+          "Kurumun Suvla özeti ile rapordaki geçici görevlendirme ve devir ayrı kapsamlar sunar. Bu görev kaynaklarından kesin doğum/ölüm günü veya yeri çıkarılmaz; yaşam yılları çalışma kaydı olarak kalır."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17/25Ekim kaynak sınırlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/august-offensive/suvla-bay"
+        ]
+      }
     },
     {
       "path": "komutanlar/guido-von-usedom/",
@@ -556,10 +947,24 @@
         "csa-navy"
       ],
       "summary": "Usedom’un görevi sahil topçu ve torpil birlikleri müfettişliği olarak aktarılır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Yaşam alanları ansiklopedi metin aktarımına dayanır; özgün kimlik kayıtları, iki makamın atama emirleri ve günlük hareketler için karşılaştırma açıktır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "İki makam ve metin aktarımı ayrı",
+        "summary": "Özel Komutanlık ile sahil istihkâmatı ve torpil müfettişliği ayrı makamlardır. Yaşam ve görev bilgileri ansiklopedi aktarımıdır; harita noktası kesintisiz bulunulan yeri belgelemez.",
+        "reasons": [
+          "PDF’nin kimlik, iki makam ve son yaşam paragraflarıyla kaynakça künyesi önceki incelemede metin aktarımından okundu; o erişimde sayfa görüntüsü açılamadı. Aktarım, özgün görüntü incelemesi olarak sunulmaz.",
+          "Alman arşiv dosyaları, atama emirleri ve bütün kaynakça eserleri görülmedi. İki görev tek atama gününe indirgenmez; özgün yaşam kayıtları ve günlük hareketler açık kalır."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17/27Ekim inceleme kapsamlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://canakkalesavaslariansiklopedisi.com/wp-content/uploads/2023/10/guido-von-usedom-csa-2.pdf#page=1",
+          "https://canakkalesavaslariansiklopedisi.com/turk-donanmasi/"
+        ]
+      }
     },
     {
       "path": "komutanlar/halil-sami-bey/",
@@ -567,10 +972,23 @@
         "csa-halil"
       ],
       "summary": "Halil Sami Bey, 9. Tümen komutanı olarak görev yaptı.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Ölüm yılı kesin olmayan aktarımdır; Haziran görev değişiminin kesin teslim günü, özgün özlük ve görev yazışmaları ile günlük hareketler için karşılaştırma açıktır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Kesin olmayan ölüm yılı ve görev geçişi",
+        "summary": "1925 ölüm yılı kesin olmayan bir aktarımdır. Haziran 1915’te görevden alma girişimi, vekâlet, izin ve dönüş tek bir görev teslim günü olarak okunmaz.",
+        "reasons": [
+          "Ansiklopedi maddesinin kimlik, atama, Haziran geçişi ve son yaşam paragrafları 27 Ekim incelemesinin kapsamıdır; özgün özlük dosyası, görevden alma yazısı ve teslim tutanağı görülmedi.",
+          "Yayın künyesi ayrıca doğrulanmadı; bütün kaynakça eserleri okunmadı. Tümen harita işareti bütün yıl aynı komutanı veya kesintisiz aynı sorumluluk alanını belgelemez."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 ve 27 Ekim mevcut incelemelerinin okuyucu sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceRefs": [
+          "https://canakkalesavaslariansiklopedisi.com/halil-sami-bey/"
+        ]
+      }
     },
     {
       "path": "komutanlar/henri-gouraud/",
@@ -578,10 +996,25 @@
         "nam-gouraud"
       ],
       "summary": "Gouraud, Çanakkale’deki Fransız kolordusunun komutanıdır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Yaşam tarihleri kişi veri tabanının aktarımıdır; komutanlığın kesin başlangıç ve devir günleri ile günlük hareketler için belge karşılaştırması açıktır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Yaşam kaydı ile komuta ve fotoğraf kapsamı ayrı",
+        "summary": "Kişi kaydı yaşam tarihlerini, kurum açıklaması Fransız kolordusu komutanlığını destekler. Fotoğraf künyesi kesin komuta veya devir gününü belgelemez.",
+        "reasons": [
+          "CTHS kaydının kimlik satırı, kaynakçası ve künyesi 27 Ekim incelemesinde okundu; özgün nüfus ve ölüm belgeleri, listelenen kitaplar ve arşiv dosyaları görülmedi. Cemiyet üyelikleri askerî görev tarihleri değildir.",
+          "National Army Museum açıklaması komutanlık rolünü destekler. AWM G00290 fotoğrafının 1915 tarih alanı ve künyesi, Mayıs başlangıcını, kesin görev devrini veya günlük hareketleri tek başına doğrulamaz."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 ve 27 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceRefs": [
+          "https://www.cths.fr/an/savant.php?id=104468",
+          "https://www.nam.ac.uk/explore/gallipoli",
+          "https://www.awm.gov.au/collection/G00290"
+        ]
+      }
     },
     {
       "path": "komutanlar/ian-hamilton/",
@@ -590,10 +1023,25 @@
         "dva-evacuation"
       ],
       "summary": "Hamilton, kara harekâtının komutanıdır. 18 Mart deniz muharebesinin komutanı değildir.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Yaşam yılları ve Korfu doğumu seçili koleksiyon yazısına dayanır; kesin yaşam günleri, ölüm yeri, fiziksel ayrılış ve fiilî görev teslimi için özgün kayıt karşılaştırması açıktır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Geri çağırma ile görev teslimi ayrı",
+        "summary": "Hamilton kara harekâtının komutanıdır. 16 Ekim geri çağırma kaydı, fiziksel ayrılışın veya Monro’ya fiilî görev tesliminin aynı gün olduğunu göstermez.",
+        "reasons": [
+          "KCL koleksiyon yazısındaki seçili yaşam paragrafı yılları ve Korfu doğumunu destekler; kesin yaşam günleri ve ölüm yeri bu pasajda yoktur. Koleksiyonun bütün kitap ve şahsi evrakları incelenmedi.",
+          "NAM kayıt açıklamasının geri çağırma paragrafı okundu; özgün emir ve teslim belgesi görülmedi. Müzenin performans değerlendirmesi bağımsız soruşturma hükmü değildir; resim tarihi kişinin yaşam veya görev tarihi sayılmaz."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin okuyucu sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceRefs": [
+          "https://www.kcl.ac.uk/hamilton-collection",
+          "https://collection.nam.ac.uk/detail.php?acc=2004-03-22-1",
+          "https://www.nam.ac.uk/explore/gallipoli"
+        ]
+      }
     },
     {
       "path": "komutanlar/johannes-merten/",
@@ -779,7 +1227,26 @@
       "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
       "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
       "reviewed": "2026-10-17",
-      "status": "Sayfaya özgü kaynak notu mevcut"
+      "status": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Pasajlarla desteklenen çıkarma anlatısı",
+        "summary": "Çıkarmanın genel seyri ve haber–emir–hareket ayrımı için incelenmiş pasajlar var. Kesin saatler ve gün içindeki birlik konumları açık.",
+        "reasons": [
+          "AWM’nin sergi metinleri, Şefik Aker’in sonradan yayımlanmış anlatısı ve ATBD’deki Osmanlı rapor aktarımı farklı bölümlerin dayanağıdır. Sergi özeti, sonradan yazılmış tanıklık ve olay sırasındaki bildirim aynı kaynak türü değildir.",
+          "Komuta zincirinde o sırada bildirilen değerlendirme, bütün çıkarma kuvvetlerinin çekildiğinin kesin sonucu olarak okunmadı. Birlik hareketlerinin saatleri, rapordaki tarih farkı ve mevzi eşleştirmeleri için karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız sayfada önceden incelenmiş pasaj ve kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/visit/exhibitions/dawn/plan",
+          "https://drive.google.com/file/d/1P2U8RvVWChGPubJGTz0YxQS1Bjy3jYaG/view",
+          "https://www.awm.gov.au/visit/exhibitions/dawn/plan/landing",
+          "https://www.awm.gov.au/visit/exhibitions/dawn/plan/bloodyday",
+          "https://www.awm.gov.au/collection/A02781",
+          "https://www.awm.gov.au/collection/C1010373",
+          "https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_88.pdf#page=23"
+        ]
+      }
     },
     {
       "path": "olaylar/birinci-kirte-muharebesi/",
@@ -787,7 +1254,21 @@
       "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
       "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
       "reviewed": "2026-10-17",
-      "status": "Sayfaya özgü kaynak notu mevcut"
+      "status": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Tarih ve genel sonuç için kurum desteği",
+        "summary": "Kirte köyü ile Achi Baba tepesi ayrı hedefler olarak ele alınıyor. Tarih ve genel sonuç için kaynak var; birliklerin gün içindeki hatları ve saatleri açık.",
+        "reasons": [
+          "National Army Museum kronolojisi ile NZHistory’nin tarih anlatısı, sayfadaki tarih ve genel sonuç değerlendirmesinin dayanağıdır. Köy ile tepenin ayrı hedefler olduğu kaynak kapsamı içinde korunur.",
+          "Bu kısa kurum metinleri, bütün birliklerin günlük hareket ve emirlerini göstermez. Osmanlı birlik dağılımı, kumsallardan ilerleme çizgileri ve gün sonu hattı için özgün emir ve birlik raporlarıyla karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız mevcut sayfanın önceden incelenmiş kaynak/kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://ww1.nam.ac.uk/timeline/first-battle-krithia/",
+          "https://nzhistory.govt.nz/war/the-gallipoli-campaign/early-battles"
+        ]
+      }
     },
     {
       "path": "olaylar/ikinci-kirte-muharebesi/",
@@ -795,7 +1276,22 @@
       "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
       "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
       "reviewed": "2026-10-17",
-      "status": "Sayfaya özgü kaynak notu mevcut"
+      "status": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Yerel ilerleme ile hedefe ulaşma ayrı",
+        "summary": "Kurum kayıtları yerel ilerleme ile son hedeflere ulaşmayı ayırıyor. Bir bölüm başlığındaki gün, bütün muharebenin başlangıcı yerine geçirilmedi.",
+        "reasons": [
+          "AWM olay kaydı ile DVA’nın tarih anlatısı, tarih ve katılım çerçevesini destekler. Birliklerin belirli gündeki saldırıları ile muharebenin bütün süresi ayrı okunur.",
+          "Yerel ilerleme, hattın hiç değişmediği veya bütün birliklerin aynı sipere döndüğü sonucunu vermez. Günlük birlik dağılımı, kesin ilerleme mesafesi ve siper hatları için özgün raporlarla karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız mevcut sayfanın önceden incelenmiş kaynak/kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/E84361",
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/early-battles",
+          "https://www.awm.gov.au/collection/G00965C"
+        ]
+      }
     },
     {
       "path": "olaylar/kumkale-oyalama-cikarmasi/",
@@ -803,7 +1299,27 @@
       "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
       "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
       "reviewed": "2026-10-17",
-      "status": "Sayfaya özgü kaynak notu mevcut"
+      "status": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Amaç ve sonuç ayrı inceleniyor",
+        "summary": "Oyalama amacı, muharebe bildirimi ve sonraki geçiş farklı kaynaklarla ele alınıyor. Hedeflenen hareket ile bildirilen sonuç aynı kabul edilmedi.",
+        "reasons": [
+          "Kurumsal özet ve modern başvuru metni, resmî harp tarihinin çevrimyazısı, Fransız alay tarihçesinin dijital aktarımı ve Osmanlı raporunun yayımlanmış aktarımı farklı sorular için kullanılır. Bölge sorumluluğu tek başına fiilî muharebeye katılımı kanıtlamaz.",
+          "Çevrimyazı ve dijital aktarımlar özgün baskı veya elyazmasıyla tam karşılaştırma yapılmış sayılmaz. Karşılıklı anlatıların gözlem anı, köy içindeki mevki sınırları ve birliklerin sonraki varış/karaya çıkış saatleri için inceleme açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız sayfada önceden incelenmiş pasaj ve kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/C57197",
+          "https://www.nam.ac.uk/explore/gallipoli",
+          "https://www.naval-history.net/WW1Book-RN2b.htm",
+          "https://canakkalesavaslariansiklopedisi.com/kumkale-muharebesi/",
+          "https://archive.org/download/39020025956171-uncensoredlette/HighRes_39020025956171.pdf#page=69",
+          "https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_88.pdf#page=24",
+          "https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_88.pdf#page=27",
+          "https://horizon14-18.eu/wa_files/Historique_2056eRIC.pdf#page=3"
+        ]
+      }
     },
     {
       "path": "olaylar/nusret-erenkoy-hattini-doker/",
@@ -811,7 +1327,22 @@
       "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
       "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
       "reviewed": "2026-10-17",
-      "status": "Sayfaya özgü kaynak notu mevcut"
+      "status": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Döküm aktarımı ile kesin saat ve hat ayrı",
+        "summary": "Gün ve mayın sayısı kurum kayıtlarının aktarımı olarak veriliyor. Sayı farkının kaynağı, kesin döküm saati ve harita geometrisi açık.",
+        "reasons": [
+          "Anma haberi ve AWM koleksiyon açıklamasındaki rapor aktarımı dayanak olarak kullanılır. Koleksiyon açıklamasında alıntılanan raporun özgün görüntüsü ayrıca incelenmiş değildir.",
+          "Tez sayfasındaki ceride ve günlük aktarımları farklı mayın sayıları verir; fark çözülmeden tek kesin toplam üretilmedi. Aynı yazarın tez ve makalesi bağımsız iki birincil kaynak sayılmadı. Kıyıya paralel veya genel yön tarifi, atlas çizgisinin kesin uçlarını doğrulamaz."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız sayfada önceden incelenmiş kurum/rapor aktarımı ve tez sayfası kapsamının okuyucu sunumu;16/26Ekim incelemeleri korunur. Yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/C1068416",
+          "https://canakkaletarihialan.gov.tr/tr/kurumsal/haber/93-nusrat-mayin-gemisinde-toren-duzenlendi",
+          "https://katalog.marmara.edu.tr/veriler/yordambt/cokluortam/1C/5f36799bf308a.pdf#page=139"
+        ]
+      }
     },
     {
       "path": "olaylar/seddulbahir-cikarmasi/",
@@ -819,7 +1350,25 @@
       "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
       "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
       "reviewed": "2026-10-17",
-      "status": "Sayfaya özgü kaynak notu mevcut"
+      "status": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Sergi ve belge aktarımlarına dayanan anlatı",
+        "summary": "Çıkarma, takviye geçişi ve Osmanlı komuta bildirimleri ayrı kaynaklarla ele alınıyor. Kumsal bazındaki kesin saatler ve eksiksiz birlik dağılımı açık.",
+        "reasons": [
+          "AWM’nin İngiliz çıkarması sergi anlatısı, Fransız alay tarihçesinin dijital aktarımı ve ATBD’de yayımlanmış Osmanlı rapor aktarımları ilgili bölümlerde kullanılır. Sonraki tarihli fotoğraf kaydı ilk çıkarma anının görüntüsü sayılmadı.",
+          "Taarruz emri, taarruzun sonucu ve sonuç haberinin karargâha ulaşması ayrı aşamalardır. Fransız birliğinin sonradan Avrupa yakasında bulunması, bütün Fransız kuvvetlerinin aynı gün karaya çıktığını göstermez. Özgün birlik kayıtlarıyla tam karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız sayfada önceden incelenmiş pasaj ve kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/visit/exhibitions/dawn/plan/british",
+          "https://www.awm.gov.au/collection/C57093",
+          "https://www.awm.gov.au/collection/C318260",
+          "https://horizon14-18.eu/wa_files/Historique_2056eRIC.pdf#page=6",
+          "https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_88.pdf#page=23",
+          "https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_88.pdf#page=24"
+        ]
+      }
     },
     {
       "path": "olaylar/ucuncu-kirte-muharebesi/",
@@ -827,7 +1376,21 @@
       "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
       "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
       "reviewed": "2026-10-17",
-      "status": "Sayfaya özgü kaynak notu mevcut"
+      "status": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Başlangıç ile devam eden çatışmalar ayrı",
+        "summary": "Taarruzun başlangıç tarihi, sonraki karşı saldırıların bittiği gün sayılmadı. Genel sonuç her kesimin aynı durumda olduğu anlamına gelmez.",
+        "reasons": [
+          "AWM olay kaydı ile National Army Museum kronolojisi başlangıç ve genel sonuç için kullanılır. AWM’nin devam eden çatışmalara ilişkin anlatısı, tarih kartını kesin bir bitiş tarihi olarak okumamayı gerektirir.",
+          "Kurum özetleri bütün birliklerin günlere göre mevzilerini ve karşı saldırılarını belgeleyen günlük raporlar değildir. Komuta değişimleri, emir metinleri ve kesin hatlar için karşılaştırma açık; yeni toplam veya koordinat üretilmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız mevcut sayfanın önceden incelenmiş kaynak/kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/E84365",
+          "https://ww1.nam.ac.uk/timeline/third-battle-krithia/"
+        ]
+      }
     },
     {
       "path": "olaylar/zigindere-muharebesi/",
@@ -835,7 +1398,22 @@
       "summary": "Önceki içerik incelemesinin doğrudan kaynakları ve kanıt alıntıları olay sayfasındadır.",
       "open": "Sayfadaki açık kalanlar bölümü geçerlidir; tam belge doğrulaması yapılmış sayılmaz.",
       "reviewed": "2026-10-17",
-      "status": "Sayfaya özgü kaynak notu mevcut"
+      "status": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Tarih, sınırlı kazanım ve yer anlatımı ayrı",
+        "summary": "Kurum kronolojisi tarih ve genel sonucu; koleksiyon açıklaması yer bağlamını destekliyor. Kesin siper sınırları ve birliklerin gün gün hareketleri açık.",
+        "reasons": [
+          "National Army Museum kronolojisi ile fotoğrafın katalog açıklaması farklı sorular için okunmuştur. Katalogdaki yer ve ilerleme anlatısı görüntüden yapılmış bağımsız ölçüm veya kesin fotoğraf çekim günü olarak kullanılmadı.",
+          "Genel sonuç, bütün hattın değişmeden kaldığı veya her kesimin aynı sonucu aldığı anlamına gelmez. Osmanlı karşı taarruzlarının günlere göre seyri, iki tarafın birlik dağılımı ve ayrıntılı emir kayıtları için karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut kaynak/kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/C373647",
+          "https://ww1.nam.ac.uk/timeline/battle-gully-ravine/",
+          "https://collection.nam.ac.uk/detail.php?acc=1984-07-41-2"
+        ]
+      }
     },
     {
       "path": "olaylar/mayin-tarama-girisimleri/",

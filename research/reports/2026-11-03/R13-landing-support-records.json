@@ -1,0 +1,146 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "scope": "Dört mevcut çıkarma/gösteri sayfasında sayfaya özgü destek etiketi ve açılır gerekçe; genelR13kabulü değildir",
+  "records": [
+    {
+      "path": "olaylar/ariburnu-cikarmasi/",
+      "originalReviewDate": "2026-10-17",
+      "originalStatus": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Pasajlarla desteklenen çıkarma anlatısı",
+        "summary": "Çıkarmanın genel seyri ve haber–emir–hareket ayrımı için incelenmiş pasajlar var. Kesin saatler ve gün içindeki birlik konumları açık.",
+        "reasons": [
+          "AWM’nin sergi metinleri, Şefik Aker’in sonradan yayımlanmış anlatısı ve ATBD’deki Osmanlı rapor aktarımı farklı bölümlerin dayanağıdır. Sergi özeti, sonradan yazılmış tanıklık ve olay sırasındaki bildirim aynı kaynak türü değildir.",
+          "Komuta zincirinde o sırada bildirilen değerlendirme, bütün çıkarma kuvvetlerinin çekildiğinin kesin sonucu olarak okunmadı. Birlik hareketlerinin saatleri, rapordaki tarih farkı ve mevzi eşleştirmeleri için karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız sayfada önceden incelenmiş pasaj ve kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/visit/exhibitions/dawn/plan",
+          "https://drive.google.com/file/d/1P2U8RvVWChGPubJGTz0YxQS1Bjy3jYaG/view",
+          "https://www.awm.gov.au/visit/exhibitions/dawn/plan/landing",
+          "https://www.awm.gov.au/visit/exhibitions/dawn/plan/bloodyday",
+          "https://www.awm.gov.au/collection/A02781",
+          "https://www.awm.gov.au/collection/C1010373",
+          "https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_88.pdf#page=23"
+        ]
+      },
+      "sha256": "3b5e5bd79bde5941bd6d58e12a1a89beff0ce489d12f936f5bbdc2b2087d65d3"
+    },
+    {
+      "path": "olaylar/seddulbahir-cikarmasi/",
+      "originalReviewDate": "2026-10-17",
+      "originalStatus": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Sergi ve belge aktarımlarına dayanan anlatı",
+        "summary": "Çıkarma, takviye geçişi ve Osmanlı komuta bildirimleri ayrı kaynaklarla ele alınıyor. Kumsal bazındaki kesin saatler ve eksiksiz birlik dağılımı açık.",
+        "reasons": [
+          "AWM’nin İngiliz çıkarması sergi anlatısı, Fransız alay tarihçesinin dijital aktarımı ve ATBD’de yayımlanmış Osmanlı rapor aktarımları ilgili bölümlerde kullanılır. Sonraki tarihli fotoğraf kaydı ilk çıkarma anının görüntüsü sayılmadı.",
+          "Taarruz emri, taarruzun sonucu ve sonuç haberinin karargâha ulaşması ayrı aşamalardır. Fransız birliğinin sonradan Avrupa yakasında bulunması, bütün Fransız kuvvetlerinin aynı gün karaya çıktığını göstermez. Özgün birlik kayıtlarıyla tam karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız sayfada önceden incelenmiş pasaj ve kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/visit/exhibitions/dawn/plan/british",
+          "https://www.awm.gov.au/collection/C57093",
+          "https://www.awm.gov.au/collection/C318260",
+          "https://horizon14-18.eu/wa_files/Historique_2056eRIC.pdf#page=6",
+          "https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_88.pdf#page=23",
+          "https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_88.pdf#page=24"
+        ]
+      },
+      "sha256": "dcadc021b4821a4113cfa7b92feb6dbbed0781e56924f3334ffec8c51da01f79"
+    },
+    {
+      "path": "olaylar/kumkale-oyalama-cikarmasi/",
+      "originalReviewDate": "2026-10-17",
+      "originalStatus": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Amaç ve sonuç ayrı inceleniyor",
+        "summary": "Oyalama amacı, muharebe bildirimi ve sonraki geçiş farklı kaynaklarla ele alınıyor. Hedeflenen hareket ile bildirilen sonuç aynı kabul edilmedi.",
+        "reasons": [
+          "Kurumsal özet ve modern başvuru metni, resmî harp tarihinin çevrimyazısı, Fransız alay tarihçesinin dijital aktarımı ve Osmanlı raporunun yayımlanmış aktarımı farklı sorular için kullanılır. Bölge sorumluluğu tek başına fiilî muharebeye katılımı kanıtlamaz.",
+          "Çevrimyazı ve dijital aktarımlar özgün baskı veya elyazmasıyla tam karşılaştırma yapılmış sayılmaz. Karşılıklı anlatıların gözlem anı, köy içindeki mevki sınırları ve birliklerin sonraki varış/karaya çıkış saatleri için inceleme açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız sayfada önceden incelenmiş pasaj ve kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/C57197",
+          "https://www.nam.ac.uk/explore/gallipoli",
+          "https://www.naval-history.net/WW1Book-RN2b.htm",
+          "https://canakkalesavaslariansiklopedisi.com/kumkale-muharebesi/",
+          "https://archive.org/download/39020025956171-uncensoredlette/HighRes_39020025956171.pdf#page=69",
+          "https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_88.pdf#page=24",
+          "https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_88.pdf#page=27",
+          "https://horizon14-18.eu/wa_files/Historique_2056eRIC.pdf#page=3"
+        ]
+      },
+      "sha256": "4572fb4be3152d02d5a67c3cb45938c75c833ba88d3bb0b720306bab2fb8589c"
+    },
+    {
+      "path": "olaylar/saros-gosterisi/",
+      "originalReviewDate": "2026-10-17",
+      "originalStatus": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Gösteri planı için kısmi kaynak desteği",
+        "summary": "Gösteri harekâtının plandaki yeri bir rapor çevrimyazısında görülüyor. Kıyıdaki bütün keşif ve birlik hareketlerinin ayrıntıları açık.",
+        "reasons": [
+          "Kaynak notu, London Gazette’de yayımlanan raporların Naval-History.net çevrimyazısına dayanır. Aynı sayfada farklı tarihli raporlar bulunur; kaynak notundaki ilgili rapor kapsamı korunur.",
+          "Çevrimyazı özgün gazete görüntüsüyle karşılaştırılmadı. Gösteri harekâtı, kıyıya hiç kimsenin çıkmadığı anlamına gelmez; ana çıkarma ve keşif hareketleri birbirine eşitlenmedi. Harita işareti kesin hareket hattı değildir."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim kaynak incelemesinin okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm"
+        ]
+      },
+      "sha256": "f105c7c2aa1e27aafe161df3b83adc6ec6e0b63007f3dd09ccc9d72cf519c454"
+    }
+  ],
+  "change": "Tek genel uyarı yerine kısa destek/sınır özeti, Enterile açılan iki gerekçe paragrafı ve mevcut kaynak bölümüne odaklanan bağlantı eklendi. Sergi, sonradan yayımlanmış tanıklık, rapor aktarımı ve çevrimyazı ayrıldı; görev/emir/bildirim/sonuç ile anaçıkarma/keşif ayrımları korundu.",
+  "sourceBoundary": "Yalnız mevcut sayfalardaki daha önce incelenmiş pasajlar ve content-review.json kapsam notları okundu. Yeni dış kaynak erişimi, sayı, tarih, koordinat, görsel veya tarihsel doğrulama eklenmedi; eski reviewed/status alanları değişmedi.3Kasım tarihi okuyucu sunumu incelemesidir.",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-landing-support-tests.txt",
+    "diffCheck": "R13-landing-diff-check.txt"
+  },
+  "ui": {
+    "allFourDesktopAndMobile": true,
+    "states": 8,
+    "keyboard": "Enter ile gerekçe açılır; kaynak bağlantısı #kaynak-notu başlığına odaklandı",
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "client": 1265,
+      "scroll": 1265
+    },
+    "mobile": {
+      "viewport": [
+        320,
+        800
+      ],
+      "client": 305,
+      "scroll": 305
+    },
+    "sourceTargetFocus": {
+      "id": "kaynak-notu",
+      "text": "Kaynakça"
+    },
+    "map": "Kumkale oyalama çıkarması seçildikten sonra İtilaf süzgeci true,13işaret,552pxharita yüksekliği; geçici boyut sıfırlandı."
+  },
+  "remaining": {
+    "routes": 88,
+    "genericNoticesRemaining": 50
+  },
+  "next": "olaylar/birinci-kirte-muharebesi/index.html ve content-review.json içindeki ilgili kaynak/kapsamı oku; desteklenen genel sonuçla açık kalan plan, saat ve konum ayrımını okuyucu etiketine/açılır gerekçeye dönüştür. Dört çıkarma/gösteri ve18kronoloji etiketi yeniden başlatılmayacak.",
+  "hashes": {
+    "research/ux-audit/content-review.json": "01b89e4ca4c2adba29daea5bf0735588c5b01858a28d28d2900701ab39dcab6b",
+    "tests/content-review.test.js": "ed56fef41c08705d843cc28a2587c3cb132d120e5c1bd77004a0056596f0ff1b"
+  }
+}

@@ -4,6 +4,72 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 const source = fs.readFileSync(path.join(__dirname, '../js/navigation.js'), 'utf8');
+function visitWithStorage(href, storage, historyState = null) {
+  const make = (tag, href) => ({tag, href, children: [], listeners: {},
+    appendChild(node) {this.children.push(node);},
+    addEventListener(type, fn) {this.listeners[type] = fn;}});
+  const map = make('a', '/?olay=default#harita');
+  const next = make('a', '/olaylar/sonraki/#kaynak-notu');
+  const commander = make('a', '/komutanlar/esat-pasa-bulkat/');
+  const inserted = [];
+  const back = {parentNode: {insertBefore(node) {inserted.push(node);}}};
+  const history = {state: historyState, replaceState(state) {this.state = state;}};
+  vm.runInNewContext(source, {URL, URLSearchParams,
+    window: {location: new URL(href, 'https://onsekizmart.com'), history, sessionStorage: storage},
+    document: {getElementById: () => null, createElement: make,
+      querySelector: selector => selector === '.back-link' ? back : null,
+      querySelectorAll(selector) {
+        if (selector === '.event-map-action') return [map];
+        if (selector === '.page-main a[href]') return [next];
+        if (selector === '.page-main a[href^="/komutanlar/"]') return [commander];
+        return [];
+      }} });
+  return {map, next, commander, history,
+    eventBack: inserted.find(node => node.id === 'event-context-return')?.children[0]};
+}
+function memoryStorage() {
+  const data = new Map();
+  return {getItem: key => data.get(key) || null, setItem: (key, value) => data.set(key, value), removeItem: key => data.delete(key)};
+}
+test('temiz bağlantılarla harita–olay–komutan–olay dönüşü ve geçmiş bağlamı korunur', () => {
+  const target = '/?olay=e-may19#harita';
+  const panel = readingPanel({shareHref: target, href: '/olaylar/ariburnu-genel-taarruzu/#kaynak-notu'});
+  const detail = panel.links.find(link => link.textContent === 'Ayrıntı');
+  assert.equal(new URL(detail.href, 'https://onsekizmart.com').search, '');
+  detail.listeners.click({defaultPrevented: false});
+  const storage = memoryStorage();
+  storage.setItem('om-reading-context-v1', JSON.stringify(panel.context()));
+  const event = visitWithStorage(detail.href, storage);
+  assert.equal(event.map.href, target);
+  assert.equal(storage.getItem('om-reading-context-v1'), null);
+  assert.equal(new URL(event.commander.href, 'https://onsekizmart.com').search, '');
+  event.commander.listeners.click({defaultPrevented: false});
+  const commander = visitWithStorage(event.commander.href, storage);
+  assert.equal(commander.eventBack.href, '/olaylar/ariburnu-genel-taarruzu/#kaynak-notu');
+  commander.eventBack.listeners.click({defaultPrevented: false});
+  assert.equal(visitWithStorage(commander.eventBack.href, storage).map.href, target);
+  assert.equal(visitWithStorage(detail.href, storage, event.history.state).map.href, target);
+  // A new direct visit must not inherit the previous visit's context.
+  assert.equal(visitWithStorage(detail.href, storage).map.href, '/?olay=default#harita');
+});
+test('yanlış hedef, süresi geçmiş ve dış adresli oturum bağlamı güvenli dönüş oluşturmaz', () => {
+  for (const state of [
+    {target: '/olaylar/baska/', savedAt: Date.now(), params: {atlasaDon: '/?olay=test#harita'}},
+    {target: '/olaylar/test/', savedAt: Date.now() - 61000, params: {atlasaDon: '/?olay=test#harita'}},
+    {target: '/olaylar/test/', savedAt: Date.now() + 10000, params: {atlasaDon: '/?olay=test#harita'}},
+    {target: '/olaylar/test/', savedAt: Date.now(), params: {atlasaDon: 'https://evil.invalid/'}}
+  ]) {
+    const storage = memoryStorage(); storage.setItem('om-reading-context-v1', JSON.stringify(state));
+    assert.equal(visitWithStorage('/olaylar/test/', storage).map.href, '/?olay=default#harita');
+  }
+});
+test('depolama engelliyken temiz bağlantı okunabilir kalır ve eski paylaşılan URL çalışır', () => {
+  const storage = {getItem() {throw new Error('blocked');}, setItem() {throw new Error('blocked');}};
+  const page = visitWithStorage('/olaylar/test/?atlasaDon=' + encodeURIComponent('/?mevki=bouvet#harita'), storage);
+  assert.equal(page.map.href, '/?mevki=bouvet#harita');
+  assert.equal(page.next.href, '/olaylar/sonraki/#kaynak-notu');
+  assert.doesNotThrow(() => page.next.listeners.click({defaultPrevented: false}));
+});
 function visit(value) {
   const link = { href: '/?olay=default#harita', textContent: 'Haritada göster' };
   vm.runInNewContext(source, { URL, URLSearchParams,
@@ -77,7 +143,8 @@ test('olaydan komutana geçiş liste ve harita dönüşünü taşır; dış hede
     document: { querySelectorAll: selector => selector === '.page-main a[href^="/komutanlar/"]' ? [commander, outside] : [], getElementById: () => null } });
   const target = new URL(commander.href, 'https://onsekizmart.com');
   assert.equal(target.hash, '#inceleme-baslik');
-  const back = new URL(target.searchParams.get('olayaDon'), 'https://onsekizmart.com');
+  assert.equal(target.search, '');
+  const back = new URL(commander.omReadingParams.olayaDon, 'https://onsekizmart.com');
   assert.equal(back.pathname, '/olaylar/ariburnu-genel-taarruzu/');
   assert.equal(back.hash, '#kaynak-notu');
   assert.equal(back.searchParams.get('listeyeDon'), list); assert.equal(back.searchParams.get('atlasaDon'), map);
@@ -86,7 +153,7 @@ test('olaydan komutana geçiş liste ve harita dönüşünü taşır; dış hede
     window.location.href = 'https://onsekizmart.com/olaylar/ariburnu-genel-taarruzu/?' + params + '#48-alay-emirleri';
     handlers[event]();
     const updated = new URL(commander.href, window.location.href);
-    const returned = new URL(updated.searchParams.get('olayaDon'), window.location.href);
+    const returned = new URL(commander.omReadingParams.olayaDon, window.location.href);
     assert.equal(returned.hash, '#48-alay-emirleri');
     assert.equal(returned.searchParams.get('listeyeDon'), list);
     assert.equal(returned.searchParams.get('atlasaDon'), map);
@@ -127,7 +194,8 @@ test('önceki ve sonraki kayıtlar aramaya dönüşü taşır, dış hedef ve ha
     window: { location: { href: 'https://onsekizmart.com/olaylar/test/', origin: 'https://onsekizmart.com', search: '?listeyeDon=' + encodeURIComponent(back) } },
     document: { querySelectorAll: selector => selector === '.page-main a[href]' ? [next, outside, map] : [list], getElementById: () => null } });
   const url = new URL(next.href, 'https://onsekizmart.com');
-  assert.equal(url.searchParams.get('listeyeDon'), back);
+  assert.equal(url.searchParams.has('listeyeDon'), false);
+  assert.equal(next.omReadingParams.listeyeDon, back);
   assert.equal(url.searchParams.get('ref'), 'koru'); assert.equal(url.hash, '#icerik');
   assert.equal(next.textContent, 'Sonraki kayıt');
   assert.equal(outside.href, 'https://evil.example/olaylar/test/');
@@ -136,7 +204,7 @@ test('önceki ve sonraki kayıtlar aramaya dönüşü taşır, dış hedef ve ha
 });
 
 const app = fs.readFileSync(path.join(__dirname, '../js/app.js'), 'utf8');
-function readingPanel(spec, search = '') {
+function readingPanel(spec, search = '', options = {}) {
   function element(tag) {
     return { tag, children: [], listeners: {},
       setAttribute(key, value) { this[key] = value; },
@@ -146,9 +214,11 @@ function readingPanel(spec, search = '') {
   }
   const body = element('div');
   const saved = [];
+  const storage = new Map();
+  if (options.pending) storage.set('om-reading-context-v1', JSON.stringify(options.pending));
   const nodes = { panel: { classList: { add() {} } }, 'panel-title': {}, 'panel-meta': {}, 'panel-body': body };
   const ctx = { URL, URLSearchParams, panelRevision: 0,
-    window: { location: { href: 'https://onsekizmart.com/?mevki=bouvet#harita', origin: 'https://onsekizmart.com', search } },
+    window: { history: {state: options.state || null, replaceState(state) {this.state = state;}}, sessionStorage: {setItem(k,v) {storage.set(k,v);}, getItem(k) {return storage.get(k) || null;}, removeItem(k) {storage.delete(k);}}, location: { href: 'https://onsekizmart.com/?mevki=bouvet#harita', origin: 'https://onsekizmart.com', search } },
     document: { getElementById: id => nodes[id], createElement: element },
     textEl(tag, text) { return { ...element(tag), textContent: text }; },
     findPlace: () => null, narrativeEvidence: () => null, closeTools() {},
@@ -160,7 +230,7 @@ function readingPanel(spec, search = '') {
   vm.runInContext(app.slice(app.indexOf('  function localHref('), app.indexOf('  function fillCells(')), ctx);
   vm.runInContext(app.slice(app.indexOf('  function claimConflictEvidence('), app.indexOf('  function paintCurrent(')), ctx);
   ctx.fillPanel(spec);
-  return { links: body.children.filter(n => n.tag === 'a'), saved };
+  return { links: body.children.filter(n => n.tag === 'a'), saved, history: ctx.window.history, storage, context: () => JSON.parse(storage.get('om-reading-context-v1')) };
 }
 
 test('haritadan gemi kartına dönüş aynı mevki ve güvenli arama bağlamıyla sınırlıdır', () => {
@@ -184,18 +254,22 @@ test('kanıt ve ayrıntı bağlantıları sorguyu ve bölüm çapasını koruyar
   result.links.slice(0, 2).forEach((link, i) => {
     const destination = new URL(link.href, 'https://onsekizmart.com');
     assert.equal(destination.searchParams.get('inceleme'), String(i + 1));
-    assert.deepEqual(destination.searchParams.getAll('atlasaDon'), [target]);
+    assert.equal(destination.searchParams.has('atlasaDon'), false);
     assert.equal(destination.hash, i === 0 ? '#bouvet-saat-incelemesi' : '#kaynak-notu');
     link.listeners.click({ defaultPrevented: false, preventDefault() { assert.fail('Yerel gezinme engellenmemeli'); } });
   });
   assert.deepEqual(result.saved, [target, target]);
+  assert.equal(result.context().params.atlasaDon, target);
 });
 
 test('kanıt sayfasından dönüş mevki, olay ve aynı dakikadaki deniz kaydını ayırt eder', () => {
   for (const target of ['/?mevki=bouvet#harita', '/?olay=e-may19#harita', '/?dakika=834&deniz=bouvet-mayina-carpar#harita']) {
-    const review = readingPanel({ reviewHref: '/olaylar/18-mart-deniz-muharebesi/#bouvet-saat-incelemesi', shareHref: target }).links[0];
+    const result = readingPanel({ reviewHref: '/olaylar/18-mart-deniz-muharebesi/#bouvet-saat-incelemesi', shareHref: target });
+    const review = result.links[0];
+    review.listeners.click({defaultPrevented: false});
     const destination = new URL(review.href, 'https://onsekizmart.com');
-    const back = visit(destination.searchParams.get('atlasaDon'));
+    assert.equal(destination.search, '');
+    const back = readingPage(destination.href, {}, result.context().params).map;
     assert.equal(back.href, target);
     assert.equal(back.textContent, 'Seçili kayda dön');
   }
@@ -232,13 +306,15 @@ test('kanıt bağlantısı tarayıcı kısayollarını engellemez ve iptal edilm
 test('genel inceleme yedeğinde haritaya dönüş için görünür bağlantı bulunur', () => {
   const page = fs.readFileSync(path.join(__dirname, '../inceleme-notlari/index.html'), 'utf8');
   assert.match(page, /class="btn event-map-action" href="\/#harita">Haritaya dön/);
-  const review = readingPanel({ shareHref: '/?olay=e-may19#harita' }).links[0];
+  const result = readingPanel({ shareHref: '/?olay=e-may19#harita' });
+  const review = result.links[0];
+  review.listeners.click({defaultPrevented: false});
   const destination = new URL(review.href, 'https://onsekizmart.com');
   assert.equal(destination.pathname, '/inceleme-notlari/');
-  assert.equal(visit(destination.searchParams.get('atlasaDon')).href, '/?olay=e-may19#harita');
+  assert.equal(readingPage(destination.href, {}, result.context().params).map.href, '/?olay=e-may19#harita');
 });
 
-function readingPage(href, destinations = {}) {
+function readingPage(href, destinations = {}, context = {}) {
   const origin = 'https://onsekizmart.com';
   const location = new URL(href, origin);
   const link = (href, textContent) => ({ href, textContent });
@@ -252,7 +328,7 @@ function readingPage(href, destinations = {}) {
   const untouched = ['#kaynak-notu', '/olaylar/#kara',
     '/kaynakca/', 'https://example.invalid/olaylar/kayit/', '//example.invalid/olaylar/kayit/',
     '/\\example.invalid/olaylar/kayit/', 'javascript:alert(1)'].map(href => link(href, 'Özgün metin'));
-  vm.runInNewContext(source, { URL, URLSearchParams, window: { location },
+  vm.runInNewContext(source, { URL, URLSearchParams, window: { location, sessionStorage: { getItem() {return null;} }, history: {state: {omReadingContext: {target: location.pathname, savedAt: Date.now(), params: context}}} },
     document: { getElementById: () => null, querySelectorAll(selector) {
       if (selector === '.page-main a[href]') return [next, previous, related, list, map, ownMap, self, ...untouched];
       if (selector === '.event-map-action') return [map];
@@ -267,8 +343,9 @@ test('olay komşuları ve metin içi olay bağlantıları seçili harita kaydın
     const page = readingPage('/olaylar/ariburnu-genel-taarruzu/?atlasaDon=' + encodeURIComponent(target));
     for (const item of [page.next, page.previous, page.related]) {
       const url = new URL(item.href, 'https://onsekizmart.com');
-      assert.deepEqual(url.searchParams.getAll('atlasaDon'), [target]);
-      const following = readingPage(url.href);
+      assert.equal(url.searchParams.has('atlasaDon'), false);
+      assert.equal(item.omReadingParams.atlasaDon, target);
+      const following = readingPage(url.href, {}, item.omReadingParams);
       assert.equal(following.map.href, target);
       assert.equal(following.map.textContent, 'Seçili kayda dön');
     }
@@ -286,8 +363,8 @@ test('okuma boyunca harita seçimi ve liste araması birlikte korunur; eski para
   const first = readingPage('/olaylar/ariburnu-genel-taarruzu/?atlasaDon=' + encodeURIComponent(target) + '&listeyeDon=' + encodeURIComponent(back), {
     next: '/olaylar/ariburnu-gomme-ateskesi/?atlasaDon=eski&atlasaDon=diger&listeyeDon=eski#icerik'
   });
-  const second = readingPage(first.next.href, { next: '/olaylar/triumph-batar/' });
-  const third = readingPage(second.next.href);
+  const second = readingPage(first.next.href, { next: '/olaylar/triumph-batar/' }, first.next.omReadingParams);
+  const third = readingPage(second.next.href, {}, second.next.omReadingParams);
   for (const page of [first, second, third]) {
     assert.equal(page.map.href, target);
     assert.equal(page.list.href, back);
@@ -295,8 +372,10 @@ test('okuma boyunca harita seçimi ve liste araması birlikte korunur; eski para
   }
   for (const item of [first.next, first.related, second.next]) {
     const url = new URL(item.href, 'https://onsekizmart.com');
-    assert.deepEqual(url.searchParams.getAll('atlasaDon'), [target]);
-    assert.deepEqual(url.searchParams.getAll('listeyeDon'), [back]);
+    assert.equal(url.searchParams.has('atlasaDon'), false);
+    assert.equal(url.searchParams.has('listeyeDon'), false);
+    assert.equal(item.omReadingParams.atlasaDon, target);
+    assert.equal(item.omReadingParams.listeyeDon, back);
   }
 });
 
@@ -313,8 +392,10 @@ test('iki dönüş bilgisinden yalnız geçerli olanı olay bağlantılarına ta
   for (const [map, list, expectedMap, expectedList] of [[target, '//example.invalid/', target, null], ['//example.invalid/', back, null, back]]) {
     const page = readingPage('/olaylar/ariburnu-genel-taarruzu/?atlasaDon=' + encodeURIComponent(map) + '&listeyeDon=' + encodeURIComponent(list));
     const next = new URL(page.related.href, 'https://onsekizmart.com');
-    assert.equal(next.searchParams.get('atlasaDon'), expectedMap);
-    assert.equal(next.searchParams.get('listeyeDon'), expectedList);
+    assert.equal(next.searchParams.has('atlasaDon'), false);
+    assert.equal(next.searchParams.has('listeyeDon'), false);
+    assert.equal(page.related.omReadingParams.atlasaDon || null, expectedMap);
+    assert.equal(page.related.omReadingParams.listeyeDon || null, expectedList);
   }
 });
 
@@ -334,13 +415,40 @@ test('aynı olayı yeniden açan bağlantı dönüş bilgisini korurken mevcut s
     const href = '/olaylar/' + slug + '/?atlasaDon=' + encodeURIComponent(target) + '&listeyeDon=' + encodeURIComponent(back);
     const page = readingPage(href);
     const self = new URL(page.self.href, 'https://onsekizmart.com');
-    assert.equal(self.searchParams.get('atlasaDon'), target);
-    assert.equal(self.searchParams.get('listeyeDon'), back);
+    assert.equal(self.searchParams.has('atlasaDon'), false);
+    assert.equal(self.searchParams.has('listeyeDon'), false);
+    assert.equal(page.self.omReadingParams.atlasaDon, target);
+    assert.equal(page.self.omReadingParams.listeyeDon, back);
     assert.equal(self.searchParams.get('ref'), 'yerel');
     assert.equal(self.hash, '#icerik');
     assert.equal(page.untouched[0].href, '#kaynak-notu');
-    const reopened = readingPage(self.href);
+    const reopened = readingPage(self.href, {}, page.self.omReadingParams);
     assert.equal(reopened.map.href, target);
     assert.equal(reopened.list.href, back);
+  }
+});
+
+
+test('temiz donanma–harita geçişi oturum bağlamını tüketir ve geçmişte güvenli gemi dönüşünü korur', () => {
+  const back = '/donanma/?q=Goliath&ad=1#goliath';
+  const pending = {target: '/', targetSearch: '?mevki=morto', savedAt: Date.now(), params: {donanmayaDon: back}};
+  const page = readingPanel({placeId: 'morto'}, '?mevki=morto', {pending});
+  assert.equal(page.links.find(a => a.textContent === 'Gemi kartına dön').href, back);
+  assert.equal(page.storage.get('om-reading-context-v1'), undefined);
+  const restored = readingPanel({placeId: 'morto'}, '?mevki=morto', {state: page.history.state});
+  assert.equal(restored.links.find(a => a.textContent === 'Gemi kartına dön').href, back);
+  assert.ok(!readingPanel({placeId: 'morto'}, '?mevki=morto').links.some(a => a.textContent === 'Gemi kartına dön'));
+});
+
+test('donanma bağlamı yanlış hedefi, sorguyu, süresi geçmiş kaydı ve güvenli olmayan dönüşü reddeder', () => {
+  const safe = {target: '/', targetSearch: '?mevki=morto', savedAt: Date.now(), params: {donanmayaDon: '/donanma/#goliath'}};
+  for (const pending of [
+    {...safe, target: '/olaylar/test/'}, {...safe, targetSearch: '?mevki=bouvet'},
+    {...safe, savedAt: Date.now() - 61000}, {...safe, savedAt: Date.now() + 10000},
+    {...safe, params: {donanmayaDon: '//evil.invalid/'}}, {...safe, params: {donanmayaDon: '/donanma/?ad=2#goliath'}}
+  ]) assert.ok(!readingPanel({placeId: 'morto'}, '?mevki=morto', {pending}).links.some(a => a.textContent === 'Gemi kartına dön'));
+  for (const search of ['?mevki=morto&mevki=morto', '?mevki=morto&donanmayaDon=invalid', '?mevki=morto&donanmayaDon=x&donanmayaDon=y']) {
+    const pending = {...safe, targetSearch: search};
+    assert.ok(!readingPanel({placeId: 'morto'}, search, {pending}).links.some(a => a.textContent === 'Gemi kartına dön'));
   }
 });

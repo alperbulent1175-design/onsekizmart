@@ -1,0 +1,71 @@
+{
+  "id": "R12",
+  "status": "tamamlandı",
+  "date": "2026-11-03",
+  "scope": "Yalnız js/data.js mevki nesnelerinin URL taşıyan doğrudan kaynak alanları; tüm88sayfa kabul envanteri değildir",
+  "counts": {
+    "coordinateSource": {
+      "total": 8,
+      "metadata_fields_missing": 0
+    },
+    "claimReview": {
+      "total": 1,
+      "metadata_fields_missing": 0
+    },
+    "coordinateReview": {
+      "total": 3,
+      "metadata_fields_missing": 0
+    },
+    "narrativeSource": {
+      "total": 5,
+      "metadata_fields_missing": 0
+    }
+  },
+  "limits": "Alan adları ailelere göre farklıdır; bu yokluk taraması yeni tarihsel hata/başarısızlık veya doğrulama durumu kararı değildir. Mevcut koordinat denetimi tekrar açılmadı.",
+  "next": "R13:18kronoloji olay sayfasının genel doğrulama uyarısını kaynak türünü ve açık kalan ayrıntıyı anlatan kısa etiket/gerekçeyle değiştir; genelR13kabulü için88sayfa kapsamı açık.",
+  "accepted_substeps": {
+    "coordinateSource": [
+      "kilitbahir",
+      "mecidiye",
+      "namazgah",
+      "rumeli-hamidiye",
+      "cimenlik",
+      "anadolu-hamidiye",
+      "seddulbahir",
+      "irresistible"
+    ],
+    "publishedComparison": [
+      "inflexible",
+      "irresistible",
+      "ocean"
+    ],
+    "coordinateReview": [
+      "dardanos",
+      "kumkale",
+      "mesudiye"
+    ],
+    "claimReview": [
+      "rumeli-hamidiye"
+    ],
+    "campaignCoordinateSource": [
+      "ariburnu",
+      "conkbayiri"
+    ],
+    "campaignCoordinateReview": [
+      "kanlisirt",
+      "anafartalar",
+      "kirte",
+      "kerevizdere"
+    ],
+    "mineReview": [
+      "mineReview"
+    ]
+  },
+  "campaign_pending": [],
+  "remainingScope": "Kaynak sistemi kabulü R12-KABUL-MATRISI.json ile yerelde kapandı; tarihsel bilinmeyenlerin kapsam notları sürer.",
+  "mapChronology": {
+    "total": 18,
+    "mismatches": 0,
+    "metadataMissing": 0
+  }
+}

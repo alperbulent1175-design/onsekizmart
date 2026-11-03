@@ -1,0 +1,107 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "records": [
+    {
+      "path": "olaylar/ariburnu-tahliyesi/",
+      "sources": [
+        "dva-evacuation",
+        "ktb-1915"
+      ],
+      "summary": "Arıburnu çekilişi aşamalıydı; son birlikler 20 Aralık sabahının erken saatlerinde ayrıldı.",
+      "open": "Yalnız son gece bütün tahliye süresi değildir. Aralık komuta dağılımı Nisan görevlerinden türetilmez.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Son gece ile bütün tahliye ayrı",
+        "summary": "Arıburnu çekilişi aşamalıydı; son birlikler 20 Aralık sabahının erken saatlerinde ayrıldı.",
+        "reasons": [
+          "Kurumun tarihsel özeti, tahliyenin aşamalarını anlatır; özgün harp ceridelerinin ve günlük birlik hareketlerinin bütünü karşılaştırılmış değildir.",
+          "Yalnız son gece bütün tahliye süresi değildir. Aralık komuta dağılımı Nisan görevlerinden türetilmez."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim kurum metni incelemesinin sunumu; yeni erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/evacuations-from-anzac",
+          "https://www.ktb.gov.tr/TR-96322/1915.html"
+        ]
+      }
+    },
+    {
+      "path": "olaylar/anafartalar-tahliyesi/",
+      "sources": [
+        "dva-evacuation",
+        "ktb-1915"
+      ],
+      "summary": "Suvla tahliyesi Aralık ayında tamamlandı; Seddülbahir çekilişi Ocak ayındaki ayrı aşamadır.",
+      "open": "Mustafa Kemal 10 Aralıkta cepheden ayrılmıştır; tahliye gecesinin komutanı olarak sunulmaz.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Suvla ile Seddülbahir aşamaları ayrı",
+        "summary": "Suvla tahliyesi Aralık ayında tamamlandı; Seddülbahir çekilişi Ocak ayındaki ayrı aşamadır.",
+        "reasons": [
+          "Kurumun tarihsel özeti, tahliyenin aşamalarını anlatır; özgün harp ceridelerinin ve günlük birlik hareketlerinin bütünü karşılaştırılmış değildir.",
+          "Mustafa Kemal 10 Aralıkta cepheden ayrılmıştır; tahliye gecesinin komutanı olarak sunulmaz."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim kurum metni incelemesinin sunumu; yeni erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/evacuations-from-anzac",
+          "https://www.ktb.gov.tr/TR-96322/1915.html"
+        ]
+      }
+    },
+    {
+      "path": "olaylar/seddulbahir-tahliyesi/",
+      "sources": [
+        "dva-evacuation"
+      ],
+      "summary": "Seddülbahir’deki son çekiliş 8–9 Ocak 1916 aşamasıdır.",
+      "open": "Nisanda kullanılan bütün kumsalların Ocakta da tahliye noktası olduğu iddia edilmez; Ocak komuta dağılımı ayrıca belgelenmelidir.",
+      "rewrite": true,
+      "reviewed": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Son çekiliş ile bütün kumsallar ayrı",
+        "summary": "Seddülbahir’deki son çekiliş 8–9 Ocak 1916 aşamasıdır.",
+        "reasons": [
+          "Kurumun tarihsel özeti, tahliyenin aşamalarını anlatır; özgün harp ceridelerinin ve günlük birlik hareketlerinin bütünü karşılaştırılmış değildir.",
+          "Nisanda kullanılan bütün kumsalların Ocakta da tahliye noktası olduğu iddia edilmez; Ocak komuta dağılımı ayrıca belgelenmelidir."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim kurum metni incelemesinin sunumu; yeni erişim veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/evacuations-from-anzac"
+        ]
+      }
+    }
+  ],
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-tahliye-support-tests.txt"
+  },
+  "ui": {
+    "statesPassed": 6,
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focus": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Üç sayfanın sunum alt adımı kabul;genelR13açık."
+}

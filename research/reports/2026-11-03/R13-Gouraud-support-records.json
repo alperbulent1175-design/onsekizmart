@@ -1,0 +1,55 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/henri-gouraud/",
+    "sources": [
+      "nam-gouraud"
+    ],
+    "summary": "Gouraud, Çanakkale’deki Fransız kolordusunun komutanıdır.",
+    "open": "Yaşam tarihleri kişi veri tabanının aktarımıdır; komutanlığın kesin başlangıç ve devir günleri ile günlük hareketler için belge karşılaştırması açıktır.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Yaşam kaydı ile komuta ve fotoğraf kapsamı ayrı",
+      "summary": "Kişi kaydı yaşam tarihlerini, kurum açıklaması Fransız kolordusu komutanlığını destekler. Fotoğraf künyesi kesin komuta veya devir gününü belgelemez.",
+      "reasons": [
+        "CTHS kaydının kimlik satırı, kaynakçası ve künyesi 27 Ekim incelemesinde okundu; özgün nüfus ve ölüm belgeleri, listelenen kitaplar ve arşiv dosyaları görülmedi. Cemiyet üyelikleri askerî görev tarihleri değildir.",
+        "National Army Museum açıklaması komutanlık rolünü destekler. AWM G00290 fotoğrafının 1915 tarih alanı ve künyesi, Mayıs başlangıcını, kesin görev devrini veya günlük hareketleri tek başına doğrulamaz."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "17 ve 27 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+      "sourceRefs": [
+        "https://www.cths.fr/an/savant.php?id=104468",
+        "https://www.nam.ac.uk/explore/gallipoli",
+        "https://www.awm.gov.au/collection/G00290"
+      ]
+    }
+  },
+  "sha256": "95b60e534700f99c1fd80d6bbd7686be9fe093784e1c1a23dbf61a0798a76e1d",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Gouraud-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adımı kabul; genel R13 açık."
+}

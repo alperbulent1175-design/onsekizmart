@@ -1,0 +1,56 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/aylmer-hunter-weston/",
+    "sources": [
+      "dva-overview",
+      "naval-reports"
+    ],
+    "summary": "Hunter-Weston, çıkarma aşamasında 29. Tümen komutanıdır.",
+    "open": "Ölüm tarihi kişi kaydıyla desteklenir; doğumun gün/ay/yeri, ölüm yeri ve kesin görev başlangıç/bitiş günleri bu kayıtla doğrulanmaz.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Görev değişimi, ayrılış ve yaşam kaydı ayrı",
+      "summary": "Tümen ve kolordu görevleri farklı dönemlere aittir. Yarımadadan ayrılış, resmî görevin bitiş günü olarak kabul edilmez; kişi kaydının yaşam desteği de sınırlıdır.",
+      "reasons": [
+        "NAM açıklaması görev sırasını, Hamilton raporunun çevrimyazısı ayrılışı anlatır. İmzalı asıl ve atama emri incelenmediği için bu pasajlardan kesin görev başlangıcı veya sonu çıkarılmaz.",
+        "Hansard kişi kaydı ölüm tarihini destekler; doğumun gününü, ayını ve yerini ya da ölüm yerini belirtmez. Kayıt farklı kaynaklardan derlenmiştir; özgün nüfus ve ölüm belgeleri incelenmedi."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "Mevcut25/27Ekim kaynak incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+      "sourceRefs": [
+        "https://collection.nam.ac.uk/detail.php?acc=2007-03-8-27",
+        "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "https://api.parliament.uk/historic-hansard/people/lieut-general-sir-aylmer-hunter-weston/index.html"
+      ]
+    }
+  },
+  "sha256": "c5864cbd1dfcd311829902d0b328187cb7d0af653c92f6ef620a7f33764b1c54",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Hunter-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adimi kabul;genel R13 acik."
+}

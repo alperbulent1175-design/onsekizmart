@@ -1,0 +1,40 @@
+{
+  "id": "R12",
+  "status": "tamamlandı",
+  "date": "2026-11-03",
+  "acceptance": "Olaydan kanıta ve kanıttan ilgili anlatıya dönülebilmeli; iddia_dogrulandi yalnız açık koşullarla kullanılmalı.",
+  "scope": "Mevcut kaynak sisteminin yerel kabulü. Bütün tarihsel iddiaların doğrulandığı veya diğer R13–R24 paketlerinin bittiği anlamına gelmez.",
+  "matrix": [
+    {
+      "criterion": "Ayrı iddia–kanıt kayıt düzeni ve mini-künye",
+      "result": "90/90 mevcut yapılandırılmış kanıt nesnesi;9aile; URL/künye/konumlayıcı/kısa kanıt/olay-yayım-erişim/kapsam alanı eksiği0",
+      "evidence": "R12-structured-proof-coverage.json"
+    },
+    {
+      "criterion": "Harita, anlatı ve merkez not aynı kaydı kullanır",
+      "result": "18/18 tam nesne eşitliği;36/36 ek anlatı kaydı daha önce kabul edildi; harita ve anlatı dönüşleri iki görünümde doğrulandı",
+      "evidence": "R12-map-chronology-records.json; tests/chronology-sources.test.js"
+    },
+    {
+      "criterion": "Mevcut88sayfada yerel kaynak hedefleri ve bölüm bağları",
+      "result": "88rota,18merkez kaynak çapası,18olay dönüş bağlantısı; canonical/yerelbilinenfragment sorunu0. Yerel bağlantılar/görseller tümJStakımında da geçti.",
+      "evidence": "R12-route-coverage.json; tests/site-links.test.js"
+    },
+    {
+      "criterion": "Doğrulandı etiketinin açık koşulları",
+      "result": "Model kayıtID/iddia birebirliği, belgeURL/katalog desteği/sayfa/belgeno/künye/kapsam/erişim ve yayım bilgisini gerektirir; kurum ana sayfası veya önceden yazılmış etiket yeterli değildir. Negatif ve olumlu kurgusal yazılım testleri geçer; gerçek kayıtlara yeni doğrulandı etiketi verilmedi.",
+      "evidence": "js/model.js; tests/evidence.test.js"
+    },
+    {
+      "criterion": "Katalog şeması korunur",
+      "result": "10sütun ve import şeması değişmedi; katalog testleri geçti",
+      "evidence": "tests/catalog.test.js; tests.test_import_catalog"
+    }
+  ],
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 26,
+    "failures": 0
+  },
+  "remaining": "Özgün belge/koordinat/tarih bilinmeyenleri kendi kapsam notlarında açık kalır. R13 okuyucu dili ve uyarı yorgunluğu paketi sıradadır. Yayın bu kabulün parçası değildir."
+}

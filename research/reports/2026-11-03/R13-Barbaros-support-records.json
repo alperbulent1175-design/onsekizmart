@@ -1,0 +1,54 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "record": {
+    "path": "olaylar/barbaros-hayreddin-batar/",
+    "sources": [
+      "csa-barbaros"
+    ],
+    "summary": "Barbaros Hayreddin, 8 Ağustos 1915’te E-11 tarafından batırıldı.",
+    "open": "Mart konumu, seyir ayrıntıları ve kayıplar için özgün jurnal gerekir. Yeni enkaz noktası eklenmedi.",
+    "rewrite": true,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Batış özeti ile jurnal ayrıntıları ayrı",
+      "summary": "Batış anlatısı ansiklopedi maddesine dayanır. Seyir, kayıplar ve kesin enkaz konumu için aynı düzeyde belge desteği yoktur.",
+      "reasons": [
+        "Mevcut inceleme, ansiklopedi maddesinin olay özetini desteklediği kapsamla sınırlıdır; özgün gemi veya denizaltı jurnalinin karşılaştırıldığı anlamına gelmez.",
+        "Mart ayındaki konum, seyir ayrıntıları ve kayıplar açık kalır. Harita işareti yaklaşık mevkiyi gösterir; kesin enkaz noktası olarak okunmaz."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "Mevcut17Ekim kaynak notunun sunumu; yeni kaynak erişimi veya tarihsel doğrulama değil.",
+      "sourceRefs": [
+        "https://canakkalesavaslariansiklopedisi.com/barbaros-hayreddin-zirhlisi/"
+      ]
+    }
+  },
+  "sha256": "9a5ee5af2b794ce16990c2eb3796548ca07a2fbf6c65ca401ae7b07caef7927d",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Barbaros-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "detailsOpen": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Tek sayfa sunum alt adımı kabul edildi;genel R13 açık."
+}

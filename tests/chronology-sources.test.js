@@ -22,11 +22,14 @@ test('yeni kronoloji kayıtları tarihli kanıt ve çalışan kaynak hedefi taş
     assert.equal(source.eventDate, event.date);
     assert.ok(new URL(source.url).pathname !== '/');
     assert.notEqual(source.status, 'iddia_dogrulandi');
-    assert.ok(notes.some(note => note.id === event.id && note.source.url === source.url));
+    const canonical = notes.find(note => note.id === event.id);
+    assert.ok(canonical, event.id);
+    assert.deepEqual(JSON.parse(JSON.stringify(source)), canonical.source, event.id + ': harita ve kaynak notu ayrışmamalı');
     assert.ok(html.includes('id="' + event.id + '"'));
     const detail = fs.readFileSync(path.join(root, 'olaylar', ctx.slugify(event.title), 'index.html'), 'utf8');
     assert.ok(detail.includes(source.url));
     assert.ok(detail.includes('Olayı nasıl okumalı?'));
+    assert.ok(detail.includes('class="event-map-action" href="/?olay=' + event.id + '#kronoloji"'), event.id + ': saklanan harita görünümüne dönüş bağlanmalı');
     assert.ok(event.place == null || ctx.window.OM.places.concat(ctx.window.OM.campaign.places).some(p => p.id === event.place));
   }
   const decisions = ['e-kitchener-tahliye', 'e-aralik-onay', 'e-tahliye-ari', 'e-aralik-ocak', 'e-tahliye-sedd'];

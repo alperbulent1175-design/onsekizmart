@@ -43,11 +43,14 @@ function setup(search = '', hash = '') {
   }
   const elements = { ...groups };
   for (const id of ['commanders-search', 'commanders-query', 'commanders-side', 'commanders-clear', 'commanders-results', 'commanders-search-link']) elements[id] = node();
-  const document = { activeElement: null, getElementById: id => elements[id] };
+  const document = { activeElement: null, getElementById: id => elements[id], querySelector: () => null, querySelectorAll: () => [] };
   const location = { origin: 'https://onsekizmart.com', href: 'https://onsekizmart.com/komutanlar/' + search + hash, search, hash };
   const window = node({ location, history: { state: null, replaceState(state, title, value) {
     location.href = value; const u = new URL(value); location.search = u.search; location.hash = u.hash;
   } } });
+  const storage = new Map();
+  window.sessionStorage = { getItem: key => storage.get(key) || null, setItem: (key, value) => storage.set(key, value), removeItem: key => storage.delete(key) };
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, '../js/navigation.js'), 'utf8'), { document, window, URL, URLSearchParams });
   vm.runInNewContext(source, { document, window, URL, URLSearchParams });
   return { entries, elements, document, window, groups,
     query: elements['commanders-query'], side: elements['commanders-side'], status: elements['commanders-results'],
@@ -75,7 +78,7 @@ test('taraf süzgeci, boş sonuç, temizleme ve paylaşılabilir arama adresi tu
   assert.equal(ctx.document.activeElement, ctx.status); assert.ok(ctx.status.scrolled);
   assert.match(ctx.status.textContent, /Eşleşen komutan bulunamadı/);
   assert.equal(ctx.elements['commanders-search-link'].href, '/komutanlar/?q=Cevat&taraf=itilaf#commanders-search');
-  assert.equal(new URL(ctx.entries[0].link.href, ctx.window.location.href).searchParams.get('komutanlaraDon'), '/komutanlar/?q=Cevat&taraf=itilaf#commanders-search');
+  assert.equal(ctx.entries[0].link.omReadingParams.komutanlaraDon, '/komutanlar/?q=Cevat&taraf=itilaf#commanders-search');
   assert.match(ctx.window.location.search, /q=Cevat/);
   ctx.elements['commanders-clear'].handlers.click();
   assert.equal(ctx.query.value, ''); assert.equal(ctx.side.value, 'all');
@@ -126,4 +129,15 @@ test('geçmişte gizli bölüm hash değeri aramayı temizlemez; önbellekten d�
   ctx.window.handlers.pageshow();
   assert.equal(ctx.query.value, 'Cevat'); assert.equal(ctx.side.value, 'osmanli');
   assert.deepEqual(ctx.entries.map(e => e.row.hidden), [false, true, true]);
+});
+
+
+test('temiz komutan bağlantısı son arama ve taraf dönüşünü oturumda korur', () => {
+  const ctx = setup('?q=Cevat&taraf=osmanli');
+  const link = ctx.entries[0].link;
+  assert.equal(new URL(link.href, ctx.window.location.href).search, '');
+  link.handlers.click({defaultPrevented: false});
+  const pending = JSON.parse(ctx.window.sessionStorage.getItem('om-reading-context-v1'));
+  assert.equal(pending.target, '/komutanlar/test-0/');
+  assert.equal(pending.params.komutanlaraDon, '/komutanlar/?q=Cevat&taraf=osmanli#commanders-search');
 });

@@ -1,0 +1,53 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/halil-sami-bey/",
+    "sources": [
+      "csa-halil"
+    ],
+    "summary": "Halil Sami Bey, 9. Tümen komutanı olarak görev yaptı.",
+    "open": "Ölüm yılı kesin olmayan aktarımdır; Haziran görev değişiminin kesin teslim günü, özgün özlük ve görev yazışmaları ile günlük hareketler için karşılaştırma açıktır.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Kesin olmayan ölüm yılı ve görev geçişi",
+      "summary": "1925 ölüm yılı kesin olmayan bir aktarımdır. Haziran 1915’te görevden alma girişimi, vekâlet, izin ve dönüş tek bir görev teslim günü olarak okunmaz.",
+      "reasons": [
+        "Ansiklopedi maddesinin kimlik, atama, Haziran geçişi ve son yaşam paragrafları 27 Ekim incelemesinin kapsamıdır; özgün özlük dosyası, görevden alma yazısı ve teslim tutanağı görülmedi.",
+        "Yayın künyesi ayrıca doğrulanmadı; bütün kaynakça eserleri okunmadı. Tümen harita işareti bütün yıl aynı komutanı veya kesintisiz aynı sorumluluk alanını belgelemez."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "17 ve 27 Ekim mevcut incelemelerinin okuyucu sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+      "sourceRefs": [
+        "https://canakkalesavaslariansiklopedisi.com/halil-sami-bey/"
+      ]
+    }
+  },
+  "sha256": "a90971f683ab4539265c1095688804a88ef6e7b1b8fd3909cfd775d53f7b77ef",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Halil-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adımı kabul; genel R13 açık."
+}

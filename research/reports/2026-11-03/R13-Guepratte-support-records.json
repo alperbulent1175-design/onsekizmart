@@ -1,0 +1,54 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/emile-guepratte/",
+    "sources": [
+      "naval-reports"
+    ],
+    "summary": "Guépratte, Fransız deniz filosunun komutanı olarak raporda geçer.",
+    "open": "Kurum kişi kaydındaki ölüm günü farkı çözülmedi; özgün yaşam kayıtları, kesin görev başlangıç/bitiş günleri ve günlük hareketler için karşılaştırma açıktır.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Ölüm günü farklı, komuta kapsamı sınırlı",
+      "summary": "Kurum kişi kaydının bölümleri ölüm günü konusunda uyuşmuyor. Deniz komutası rapor aktarımında yer alır; yaşam kaydı muharebe düzenini tek başına doğrulamaz.",
+      "reasons": [
+        "Meclis kaydının genel bilgileri ve ilgili biyografi paragrafları önceki incelemede okundu. Sözlüğün özgün baskısı ve nüfus/ölüm kaydı görülmedi; farklı günlerden biri kesin kabul edilmedi.",
+        "Rapor çevrimyazısı ile özgün gazete görüntüsü ayrı tutulur. Kişinin milletvekilliği dönemi askerî komuta süresi değildir; görev teslim günleri ve muharebe düzeni için ayrıca kanıt gerekir."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "Mevcut17/27Ekim inceleme sınırlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+      "sourceRefs": [
+        "https://www2.assemblee-nationale.fr/sycomore/fiche/3624",
+        "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm"
+      ]
+    }
+  },
+  "sha256": "9eeebdeb63bfca126b70ee0c2d77f1484cccb3359b2b7e7ce4c83bc5f8fd3a5c",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Guepratte-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adimi kabul;genel R13 acik."
+}

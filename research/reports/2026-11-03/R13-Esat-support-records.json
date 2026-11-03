@@ -1,0 +1,53 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/esat-pasa-bulkat/",
+    "sources": [
+      "csa-esat"
+    ],
+    "summary": "Esat Paşa’nın Çanakkale görevi başlangıçta 3. Kolordu komutanlığıdır.",
+    "open": "Ölümün kesin günü, özgün atama ve görev teslim belgeleri ile günlük hareketler açıktır; ansiklopedi aktarımı özgün belge düzeyinde doğrulama değildir.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Değişen görevler ve açık ölüm günü",
+      "summary": "Ansiklopedi maddesi kolordu ve grup görevlerini farklı dönemler için anlatır. Cepheden ayrılma, yeni görevin atama veya teslim günü sayılmaz; ölümün kesin günü açık tutulur.",
+      "reasons": [
+        "Mevcut inceleme kimlik, görev değişimi ve ayrılış paragraflarıyla künyeyi kapsar. Özgün nüfus kaydı, grup teşkil emri ve görev teslim belgesi görülmedi; bütün kaynakça okunmuş değildir.",
+        "Ansiklopedi aktarımıyla önceki çalışma kaydındaki ölüm günü eşleşmediği için kesin gün seçilmedi. Haritadaki kolordu işareti de bütün yıl değişmeyen sorumluluk alanı olarak okunmaz."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "Mevcut17/27Ekim inceleme sınırlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+      "sourceRefs": [
+        "https://canakkalesavaslariansiklopedisi.com/esad-bulkat-pasa/"
+      ]
+    }
+  },
+  "sha256": "1149983d10020b4550ac2c2e97a012a625c9e6cf85408d2b954f9fa755232096",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Esat-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adimi kabul;genel R13 acik."
+}

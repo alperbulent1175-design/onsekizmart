@@ -1,0 +1,95 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "scope": "Üç mevcut erken deniz sayfasının destek/sınır sunumu;genelR13kabulü değildir",
+  "records": [
+    {
+      "path": "olaylar/dis-tabyalarin-bombardimani/",
+      "originalReviewDate": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Başlangıç tarihi için kronoloji desteği",
+        "summary": "Kurum kronolojisi bombardımanın başlangıcını destekler. Tek tek atış saatleri, hasar miktarı ve birlik dağılımı açık.",
+        "reasons": [
+          "DVA’nın kronoloji sayfasındaki ilgili tarihli giriş okunmuştur. Bu kısa kurum kaydı, ayrıntılı atış raporu veya bütün tabyaların hasar çizelgesi değildir.",
+          "Başlangıç tarihinin kaynak desteği, gün içindeki bütün emir ve atışların doğrulandığı anlamına gelmez. Özgün harp belgeleriyle karşılaştırma açık; bu kayıttan yeni saat, hasar toplamı veya koordinat üretilmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim DVA kaynak/kapsam incelemesinin okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline"
+        ]
+      },
+      "sha256": "8998164969ad72da59e4f99572f03ac79c0610c70dc7013c0afece0699d14c3b"
+    },
+    {
+      "path": "olaylar/giris-tabyalari-ve-kisa-cikarmalar/",
+      "originalReviewDate": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Bombardıman, kısa çıkarma ve geri çekilme ayrı",
+        "summary": "Kaynak, farklı günlerdeki bombardıman ve kıyı hareketlerini kısa bir sırayla verir. Bütün tabyaların durumu ve her günün birlik ayrıntıları açık.",
+        "reasons": [
+          "DVA’nın aynı kronoloji sayfasındaki ilgili gün ve tarih aralıkları kullanılır. Birden çok tarihli giriş, bağımsız birden çok tanıklık olarak sayılmaz.",
+          "Bombardıman, tahrip amacıyla kıyıya çıkma ve geri çekilme aynı olay anı değildir. Günlere göre birlikler, emirler ve bütün tabyaların durumu için özgün kayıtlarla karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim DVA kaynak/kapsam incelemesinin okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline"
+        ]
+      },
+      "sha256": "4ca628e3e96236fd5c6fb9065983874ddfbc40ba3913aec2795293cb041fd230"
+    },
+    {
+      "path": "olaylar/e15-bogazda-karaya-oturur/",
+      "originalReviewDate": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Karaya oturma ile sonraki tahrip ayrı",
+        "summary": "Kronoloji kaydı karaya oturmayı destekler. Personelin durumu ve denizaltının sonradan tahribi tek bir anmış gibi birleştirilmedi.",
+        "reasons": [
+          "DVA kronolojisinin ilgili tarihli girişi bu kısa olay çerçevesi için okunmuştur. Kurum özeti, ayrıntılı personel raporu veya bütün işlemlerin zaman çizelgesi değildir.",
+          "Karaya oturma, personelin akıbeti ve sonraki tahrip için kanıtın kapsamı ayrı değerlendirilir. Fotoğraf künyesi de bu aşamaların tamamını veya kesin enkaz konumunu doğrulamaz; özgün harp belgeleriyle karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut17Ekim DVA kaynak/kapsam incelemesinin okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/timeline"
+        ]
+      },
+      "sha256": "d3102dbfafe19c6274f96996781bc048857e17ffff9c68941e9b5fe51382d800"
+    }
+  ],
+  "sourceBoundary": "Mevcut DVAkronoloji kaynak/kapsam incelemesi ve sayfa metinleri kullanıldı;17Ekim erişim tarihi korunur.3Kasım yalnız sunum incelemesi. Yeni dış kaynak erişimi, tarih, sayı, koordinat, görsel veya doğrulama etiketi eklenmedi.",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-erken-deniz-support-tests.txt"
+  },
+  "ui": {
+    "states": 6,
+    "allPagesDesktopAndMobile": true,
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "client": 1265,
+      "scroll": 1265
+    },
+    "mobile": {
+      "viewport": [
+        320,
+        800
+      ],
+      "client": 305,
+      "scroll": 305
+    },
+    "keyboard": "Enter ile gerekçe açılır;#kaynak-notu başlığına odak geçti",
+    "map": "E15kartı seçildikten sonra İtilaf süzgeci true,13işaret ve552pxharita yüksekliği doğrulandı.",
+    "viewportReset": true
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "id": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "scope": "coordinateSource8/8 metadata alt adımı;bu partide5AlanBaşkanlığı ve2farklıyayın,kabulüöncegeçenKilitbahiryenidenbaşlatılmadı",
+  "records": [
+    {
+      "id": "kilitbahir",
+      "lat": 40.146554,
+      "lng": 26.380381,
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/kilitbahir-kalesi",
+        "label": "Alan Başkanlığı · Kilitbahir Kalesi",
+        "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Kilitbahir Kalesi, kurumsal ziyaret rehberi (web sayfası).",
+        "locator": "Kilitbahir Kalesi başlığı altındaki Ziyaret Noktasına Git bağlantısının destination parametresi.",
+        "sourceKind": "Güncel kurumsal ziyaret rehberi",
+        "eventDate": null,
+        "eventDateNote": "Konum dayanağı güncel ziyaret noktasıdır; tarihlenmiş tek bir muharebe olayını göstermez.",
+        "documentDate": null,
+        "documentDateNote": "Web sayfasının hazırlanma tarihi ayrıca belirlenmedi.",
+        "publicationDate": null,
+        "publicationDateNote": "İlk yayım tarihi ayrıca belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim 2026 konum karşılaştırması korunur. Sayfa başlığı ve ziyaret bağlantısının varlığı 3 Kasım 2026’da kontrol edildi; sahada yeni ölçüm veya 1915 mevzi tespiti yapılmadı.",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.146554, 26.380381",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    },
+    {
+      "id": "mecidiye",
+      "lat": 40.141532,
+      "lng": 26.37561,
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-mecidiye-tabyasi-ve-sehitligi",
+        "label": "Alan Başkanlığı · Rumeli Mecidiye Tabyası ve Şehitliği",
+        "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Rumeli Mecidiye Tabyası ve Şehitliği, kurumsal ziyaret rehberi (web sayfası).",
+        "locator": "Rumeli Mecidiye Tabyası ve Şehitliği başlığı altındaki Ziyaret Noktasına Git bağlantısının destination parametresi.",
+        "sourceKind": "Güncel kurumsal ziyaret rehberi",
+        "eventDate": null,
+        "eventDateNote": "Konum dayanağı güncel ziyaret noktasıdır; tarihlenmiş tek bir muharebe olayını göstermez.",
+        "documentDate": null,
+        "documentDateNote": "Web sayfasının hazırlanma tarihi ayrıca belirlenmedi.",
+        "publicationDate": null,
+        "publicationDateNote": "İlk yayım tarihi ayrıca belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim 2026 konum karşılaştırması korunur. Sayfa başlığı ve ziyaret bağlantısının varlığı 3 Kasım 2026’da kontrol edildi; sahada yeni ölçüm veya 1915 mevzi tespiti yapılmadı.",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.141532, 26.37561",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    },
+    {
+      "id": "namazgah",
+      "lat": 40.145371,
+      "lng": 26.379579,
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/namazgah-tabyasi",
+        "label": "Alan Başkanlığı · Namazgâh Tabyası",
+        "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Namazgâh Tabyası, kurumsal ziyaret rehberi (web sayfası).",
+        "locator": "Namazgâh Tabyası başlığı altındaki Ziyaret Noktasına Git bağlantısının destination parametresi.",
+        "sourceKind": "Güncel kurumsal ziyaret rehberi",
+        "eventDate": null,
+        "eventDateNote": "Konum dayanağı güncel ziyaret noktasıdır; tarihlenmiş tek bir muharebe olayını göstermez.",
+        "documentDate": null,
+        "documentDateNote": "Web sayfasının hazırlanma tarihi ayrıca belirlenmedi.",
+        "publicationDate": null,
+        "publicationDateNote": "İlk yayım tarihi ayrıca belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim 2026 konum karşılaştırması korunur. Sayfa başlığı ve ziyaret bağlantısının varlığı 3 Kasım 2026’da kontrol edildi; sahada yeni ölçüm veya 1915 mevzi tespiti yapılmadı.",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.145371, 26.379579",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    },
+    {
+      "id": "rumeli-hamidiye",
+      "lat": 40.142829,
+      "lng": 26.377707,
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-hamidiye-tabyasi",
+        "label": "Alan Başkanlığı · Rumeli Hamidiye Tabyası",
+        "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Rumeli Hamidiye Tabyası, kurumsal ziyaret rehberi (web sayfası).",
+        "locator": "Rumeli Hamidiye Tabyası başlığı altındaki Ziyaret Noktasına Git bağlantısının destination parametresi.",
+        "sourceKind": "Güncel kurumsal ziyaret rehberi",
+        "eventDate": null,
+        "eventDateNote": "Konum dayanağı güncel ziyaret noktasıdır; tarihlenmiş tek bir muharebe olayını göstermez.",
+        "documentDate": null,
+        "documentDateNote": "Web sayfasının hazırlanma tarihi ayrıca belirlenmedi.",
+        "publicationDate": null,
+        "publicationDateNote": "İlk yayım tarihi ayrıca belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim 2026 konum karşılaştırması korunur. Sayfa başlığı ve ziyaret bağlantısının varlığı 3 Kasım 2026’da kontrol edildi; sahada yeni ölçüm veya 1915 mevzi tespiti yapılmadı.",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.142829, 26.377707",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    },
+    {
+      "id": "cimenlik",
+      "lat": 40.146395,
+      "lng": 26.399161,
+      "source": {
+        "url": "https://www.kulturportali.gov.tr/turkiye/canakkale/gezilecekyer/cimenlik-kalesi",
+        "label": "Kültür Bakanlığı · Çimenlik Kalesi",
+        "bibliography": "T.C. Kültür ve Turizm Bakanlığı, Türkiye Kültür Portalı, Çimenlik Kalesi – Çanakkale (web sayfası).",
+        "locator": "Konum Bilgileri bölümü; gömülü haritanın merkez ve işaret ayarları.",
+        "sourceKind": "Kurumsal kültür/ziyaret sayfası",
+        "eventDate": null,
+        "eventDateNote": "Güncel kale haritasının merkez işaretidir; 1915 top, komuta veya gözetleme mevziinin kesin noktası değildir.",
+        "documentDate": null,
+        "documentDateNote": "Web sayfasının hazırlanma tarihi ayrıca belirlenmedi.",
+        "publicationDate": "2014-07-18",
+        "publicationDateNote": "Portal, eklenme tarihini 18 Temmuz 2014, güncellenme tarihini 28 Şubat 2022 olarak gösterir. Bunlar muharebe tarihi değildir.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim 2026 harita merkezi karşılaştırması korunur. Sayfa başlığı, Konum Bilgileri ve eklenme/güncellenme alanları 3 Kasım 2026’da okundu; gömülü haritanın sayısal ayarı bu turda yeniden ölçülmedi.",
+        "modifiedDate": "2022-02-28",
+        "evidenceText": "center: [40.146395,26.399161]; ÇİMENLİK KALESİ işareti myMap.getCenter() üzerinde oluşturulur.",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    },
+    {
+      "id": "anadolu-hamidiye",
+      "lat": 40.138566,
+      "lng": 26.404352,
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/anadolu-hamidiye-tabyasi",
+        "label": "Alan Başkanlığı · Anadolu Hamidiye Tabyası",
+        "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Anadolu Hamidiye Tabyası, kurumsal ziyaret rehberi (web sayfası).",
+        "locator": "Anadolu Hamidiye Tabyası başlığı altındaki Ziyaret Noktasına Git bağlantısının destination parametresi.",
+        "sourceKind": "Güncel kurumsal ziyaret rehberi",
+        "eventDate": null,
+        "eventDateNote": "Konum dayanağı güncel ziyaret noktasıdır; tarihlenmiş tek bir muharebe olayını göstermez.",
+        "documentDate": null,
+        "documentDateNote": "Web sayfasının hazırlanma tarihi ayrıca belirlenmedi.",
+        "publicationDate": null,
+        "publicationDateNote": "İlk yayım tarihi ayrıca belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim 2026 konum karşılaştırması korunur. Sayfa başlığı ve ziyaret bağlantısının varlığı 3 Kasım 2026’da kontrol edildi; sahada yeni ölçüm veya 1915 mevzi tespiti yapılmadı.",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.138566, 26.404352",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    },
+    {
+      "id": "seddulbahir",
+      "lat": 40.042881,
+      "lng": 26.188885,
+      "source": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/seddulbahir-kalesi",
+        "label": "Alan Başkanlığı · Seddülbahir Kalesi",
+        "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Seddülbahir Kalesi, kurumsal ziyaret rehberi (web sayfası).",
+        "locator": "Seddülbahir Kalesi başlığı altındaki Ziyaret Noktasına Git bağlantısının destination parametresi.",
+        "sourceKind": "Güncel kurumsal ziyaret rehberi",
+        "eventDate": null,
+        "eventDateNote": "Konum dayanağı güncel ziyaret noktasıdır; tarihlenmiş tek bir muharebe olayını göstermez.",
+        "documentDate": null,
+        "documentDateNote": "Web sayfasının hazırlanma tarihi ayrıca belirlenmedi.",
+        "publicationDate": null,
+        "publicationDateNote": "İlk yayım tarihi ayrıca belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim 2026 konum karşılaştırması korunur. Sayfa başlığı ve ziyaret bağlantısının varlığı 3 Kasım 2026’da kontrol edildi; sahada yeni ölçüm veya 1915 mevzi tespiti yapılmadı.",
+        "evidenceText": "Ziyaret Noktasına Git: destination=40.042881, 26.188885",
+        "date": "2026-10-20",
+        "status": "kurumsal_ziyaret_noktasi_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    },
+    {
+      "id": "irresistible",
+      "lat": 40.073966667,
+      "lng": 26.340683333,
+      "source": {
+        "url": "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download",
+        "label": "Kedioğlu ve Öz (2023), s. 76 · enkaz koordinatı",
+        "bibliography": "Çetin Kedioğlu ve M. İdil Öz, Current condition of the Dardanelles Campaign shipwrecks from a diver’s point of view and technical diving requirements, s. 73–98; M. İdil Öz (ed.), Shipwrecks of the Gallipoli Campaign and Protection of Marine Biodiversity. İstanbul: TÜDAV, yayın 69, 2023. ISBN 978-975-8825-61-5.",
+        "locator": "Irresistible alt başlığı, basılı s. 76; TÜDAV PDF s. 86, Top point of the wreck paragrafı.",
+        "sourceKind": "Yayımlanmış modern sualtı araştırması",
+        "eventDate": null,
+        "eventDateNote": "Enkaz konumuna ait yayımlanmış araştırma bilgisidir; mayın isabeti, tahliye veya batış anının konumu değildir.",
+        "documentDate": null,
+        "documentDateNote": "Bu koordinatın saha ölçüm tarihi ve kullanılan ölçüm aygıtı ilgili paragrafta belirtilmez.",
+        "publicationDate": null,
+        "publicationDateNote": "Basılı yayım yılı 2023’tür; gün ve ay ayrıca belirlenmedi. Yayım yılı saha ölçüm tarihi değildir.",
+        "accessDate": "2026-10-17",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "17 Ekim 2026 konum karşılaştırması korunur. TÜDAV 2023 kopyasının basılı 76. sayfasındaki koordinat paragrafı 3 Kasım 2026’da görüntüden yeniden okundu. Bütün kitap ve özgün saha ölçüm formu incelenmedi; sayfanın zayiat ve batış saati anlatısı doğrulanmış sayılmaz.",
+        "publicationYear": "2023",
+        "evidenceText": "40°04.438 N, 26°20.441 E",
+        "date": "2026-10-17",
+        "status": "yayin_koordinati_karsilastirildi",
+        "datum": "belirtilmemis"
+      }
+    }
+  ],
+  "reading_this_batch": [
+    "BeşAlanBaşkanlığı özel ziyaret sayfasının başlık ve Ziyaret Noktasına Git bağlantısı okundu; tarihi anlatı,sayı ve görseller taşınmadı",
+    "KültürPortalındaÇimenlik başlık,Konum Bilgileri,18Temmuz2014eklenme/28Şubat2022güncellenme alanları okundu;20Ekimharita ayarı korunur",
+    "TÜDAV2023basılı76/PDF86yerelgörüntüsündeIrresistiblekoordinatparagrafı yeniden okundu;22EkimINCELEME.md künyesi ve kapsamı kullanıldı"
+  ],
+  "source_review_urls": [
+    "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-mecidiye-tabyasi-ve-sehitligi",
+    "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/namazgah-tabyasi",
+    "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-hamidiye-tabyasi",
+    "https://www.kulturportali.gov.tr/turkiye/canakkale/gezilecekyer/cimenlik-kalesi",
+    "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/anadolu-hamidiye-tabyasi",
+    "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/seddulbahir-kalesi",
+    "https://acikerisim.comu.edu.tr/bitstreams/1196b458-36ad-41bc-ab41-87c8517b49b9/download"
+  ],
+  "alternate_modern_book": "https://www.tudav.org/images/Kitaplar/shipwrecks-of-the-gallipoli-campaign-and-protection-of-marine-biodiversity_53833.pdf",
+  "limits": [
+    "Hiçbir sayısal konum,datum,kanıt metni veya doğrulama durumu değiştirilmedi;R07tamamlanmışgeometridenetimiyenidenbaşlatılmadı",
+    "Güncel gezi noktası1915mevzii veya tarihli tekolay sayılmadı",
+    "Portal eklenme/güncelleme,2023basım yılı,ölçüm tarihi ve ilk erişim ayrıldı; bilinmeyen ay/gün/datum uydurulmadı",
+    "Irresistiblemodernsayfasının711/780kadrosu,200kayıp ve19.30batışanlatısı doğrulanmış veriye dönüştürülmedi; modern görsel yayımlanmadı",
+    "YerelTÜDAVpasajı mevcutCOMUURLliaynıyayınkaydını ayrıntılandırır;COMUerişimi bu tur yeniden sınanmadı"
+  ],
+  "tests": {
+    "all_javascript": 314,
+    "required_python": 25,
+    "failures": 0,
+    "log": "R12-coordinate-family-tests.txt",
+    "earlier_five_record_log": "R12-Alan-visit-source-tests.txt"
+  },
+  "ui": {
+    "desktop": "Yedi yeni künye1280×7201265/1265px,Enterile açıldı",
+    "mobile": "Yedi yeni künye320×800305/305px;2023yıl/günaybelirsizliğisonsürümdeyenidendoğrulandı",
+    "map": "Leaflet ve İtilaf süzgeci çalıştı",
+    "viewport_reset": true
+  },
+  "inventory_update": "Güncelkonumenvanterinineğitimselsource metadata alanları ve3Kasım değişimizigüncellendi;tamnesnekarşılaştırmatestizayıflatılmadı",
+  "publication": false,
+  "local_delta": [
+    {
+      "path": "index.html",
+      "sha256": "200641798395adf0b8d4d80eae0b9970e238d320a385081cddf2a919ca80aa57"
+    },
+    {
+      "path": "js/data.js",
+      "sha256": "d0881923fbcc8de47a8f999a92f79a8fcde8cbf3d1c6fc33280a1cf2d291a838"
+    },
+    {
+      "path": "js/app.js",
+      "sha256": "3508d4f84ff2d4aa48038fbe94a31319e587d7a39dc2fed1a9aa9d94d6166ef0"
+    }
+  ],
+  "acceptance": "coordinateSource8/8yalnızmini-künye/tarih alt adımı tamam;genelR12açık",
+  "next": "dardanos coordinateReview kaynak başlığı/bölümünüve önceki coğrafi anlatım kaydınıoku; sayısal konumun doğrulanmadığı sınırıyla künye/tarih ayrımı ekle."
+}

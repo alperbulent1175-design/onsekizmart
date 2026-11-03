@@ -1,0 +1,165 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "scope": "Mevcut sayfalarda destek/sınır sunumu;genelR13kabulü değildir",
+  "records": [
+    {
+      "path": "olaylar/birinci-kirte-muharebesi/",
+      "originalReviewDate": "2026-10-17",
+      "status": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Tarih ve genel sonuç için kurum desteği",
+        "summary": "Kirte köyü ile Achi Baba tepesi ayrı hedefler olarak ele alınıyor. Tarih ve genel sonuç için kaynak var; birliklerin gün içindeki hatları ve saatleri açık.",
+        "reasons": [
+          "National Army Museum kronolojisi ile NZHistory’nin tarih anlatısı, sayfadaki tarih ve genel sonuç değerlendirmesinin dayanağıdır. Köy ile tepenin ayrı hedefler olduğu kaynak kapsamı içinde korunur.",
+          "Bu kısa kurum metinleri, bütün birliklerin günlük hareket ve emirlerini göstermez. Osmanlı birlik dağılımı, kumsallardan ilerleme çizgileri ve gün sonu hattı için özgün emir ve birlik raporlarıyla karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız mevcut sayfanın önceden incelenmiş kaynak/kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://ww1.nam.ac.uk/timeline/first-battle-krithia/",
+          "https://nzhistory.govt.nz/war/the-gallipoli-campaign/early-battles"
+        ]
+      },
+      "sha256": "316356d90e7ce37f79b584e39fc41283e7cc286088a99e5b963662872bca2cb2"
+    },
+    {
+      "path": "olaylar/ikinci-kirte-muharebesi/",
+      "originalReviewDate": "2026-10-17",
+      "status": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Yerel ilerleme ile hedefe ulaşma ayrı",
+        "summary": "Kurum kayıtları yerel ilerleme ile son hedeflere ulaşmayı ayırıyor. Bir bölüm başlığındaki gün, bütün muharebenin başlangıcı yerine geçirilmedi.",
+        "reasons": [
+          "AWM olay kaydı ile DVA’nın tarih anlatısı, tarih ve katılım çerçevesini destekler. Birliklerin belirli gündeki saldırıları ile muharebenin bütün süresi ayrı okunur.",
+          "Yerel ilerleme, hattın hiç değişmediği veya bütün birliklerin aynı sipere döndüğü sonucunu vermez. Günlük birlik dağılımı, kesin ilerleme mesafesi ve siper hatları için özgün raporlarla karşılaştırma açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız mevcut sayfanın önceden incelenmiş kaynak/kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/E84361",
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/early-battles",
+          "https://www.awm.gov.au/collection/G00965C"
+        ]
+      },
+      "sha256": "b642f1e7ba96f5cdb7310bf0bc7381a28167a86b9c44cb658a11bf30267b657b"
+    },
+    {
+      "path": "olaylar/ucuncu-kirte-muharebesi/",
+      "originalReviewDate": "2026-10-17",
+      "status": "Sayfaya özgü kaynak notu mevcut",
+      "readerSupport": {
+        "label": "Başlangıç ile devam eden çatışmalar ayrı",
+        "summary": "Taarruzun başlangıç tarihi, sonraki karşı saldırıların bittiği gün sayılmadı. Genel sonuç her kesimin aynı durumda olduğu anlamına gelmez.",
+        "reasons": [
+          "AWM olay kaydı ile National Army Museum kronolojisi başlangıç ve genel sonuç için kullanılır. AWM’nin devam eden çatışmalara ilişkin anlatısı, tarih kartını kesin bir bitiş tarihi olarak okumamayı gerektirir.",
+          "Kurum özetleri bütün birliklerin günlere göre mevzilerini ve karşı saldırılarını belgeleyen günlük raporlar değildir. Komuta değişimleri, emir metinleri ve kesin hatlar için karşılaştırma açık; yeni toplam veya koordinat üretilmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız mevcut sayfanın önceden incelenmiş kaynak/kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/collection/E84365",
+          "https://ww1.nam.ac.uk/timeline/third-battle-krithia/"
+        ]
+      },
+      "sha256": "5d6cee6dd55992e9be81fc4738248f5d90bee35777aedb8d5f5711f86bf031b4"
+    },
+    {
+      "path": "olaylar/ariburnu-genel-taarruzu/",
+      "originalReviewDate": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Emir, gözlem ve durdurma ayrı okunuyor",
+        "summary": "Yayımlanmış emir aktarımları, karşı tarafın anlatısı ve akademik aktarımlar belirli bölümleri destekliyor. Bütün cephe için tek bir başlangıç veya durdurma saati çıkarılmadı.",
+        "reasons": [
+          "Osmanlı emirlerinin modern yayımdaki çevriyazıları ile Bean’in yayımlanmış anlatısı kaynak türleri ayrılarak gösterilir. Aynı yayının iki nüshası veya benzer aktarım metinleri bağımsız iki tanıklık sayılmadı.",
+          "Bir emrin saati fiilî hareketin bütün birliklerde aynı anda başladığını göstermez. Gün içindeki durdurma ve mevzi değişimleri için özgün emir ve birlik raporlarının karşılaştırılması açık; yayınlardaki saat ve yer adı farkları sessizce birleştirilmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız mevcut sayfanın önceden incelenmiş kaynak/kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://drive.google.com/file/d/16Dk4kS_4jjxrQ9bp1c9HZEk457GsIEHh/view",
+          "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1069991/document/5520739.PDF#page=2",
+          "https://www.awm.gov.au/collection/C1417086",
+          "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1069991/document/5520739.PDF#page=3",
+          "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1069991/document/5520739.PDF#page=30",
+          "https://dergipark.org.tr/tr/download/article-file/2314844#page=10",
+          "https://canakkaletarihialan.gov.tr/data/uploads/corporate/files/zahNNEJiKbDMnmvn5A34sv3vnwhAbLSAPhGixy3F.pdf#page=83",
+          "https://canakkaletarihialan.gov.tr/data/fm/Kitap/48alay-kitabipdf_3903a503-f449-4563-ab0f-1877f918de9d.pdf#page=177",
+          "https://canakkaletarihialan.gov.tr/data/fm/Kitap/48alay-kitabipdf_3903a503-f449-4563-ab0f-1877f918de9d.pdf#page=181",
+          "https://dergipark.org.tr/tr/pub/canakkalearastirmalari/article/52797",
+          "https://dergipark.org.tr/tr/download/article-file/45082",
+          "https://canakkaletarihialan.gov.tr/data/fm/Kitap/48alay-kitabipdf_3903a503-f449-4563-ab0f-1877f918de9d.pdf#page=182",
+          "https://www.awm.gov.au/collection/C1212055",
+          "https://www.awm.gov.au/learn/schools/resources/understanding-gallipoli/landing"
+        ]
+      },
+      "sha256": "5aceb04f24d4e4906eddaba757fa8c9b6b4ce5927629644986fd59e3cb934bc0"
+    },
+    {
+      "path": "olaylar/ariburnu-gomme-ateskesi/",
+      "originalReviewDate": "2026-10-17",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Anlaşma, emir ve uygulama ayrı okunuyor",
+        "summary": "Kaynaklar gömme ateşkesini, planlanan düzeni ve uygulama bildirimlerini farklı kapsamlarla ele alıyor. Özgün anlaşma nüshaları ve bütün cephe uygulamasıyla karşılaştırma açık.",
+        "reasons": [
+          "Kaynak notları platform transkripsiyonu, incelenmiş emir görüntüsü, kitap anlatısı ve yayımlanmış Türkçe aktarımları ayrı gösterir. Onay bekleyen transkripsiyon, incelenmiş görüntüyle aynı kanıt düzeyi sayılmadı.",
+          "Anlaşmadaki planlanan saatler, uygulama raporundaki bildirimler ve defin tahmini farklı bilgilerdir. Bunlardan tek bir kesin zaman çizelgesi veya kesin kayıp toplamı üretilmedi. Özgün belgeler ve uygulamanın bütün sahadaki karşılığı için inceleme açık."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Yalnız mevcut sayfanın önceden incelenmiş kaynak/kapsam notlarının okuyucu sunumu; yeni dış kaynak erişimi veya tarihsel doğrulama değil.",
+        "sourceRefs": [
+          "https://transcribe.awm.gov.au/transcription/item/rcdig1066847-7",
+          "https://transcribe.awm.gov.au/transcription/item/rcdig0000588-8",
+          "https://www.awm.gov.au/collection/A05615",
+          "https://www.awm.gov.au/collection/H03955",
+          "https://archive.org/download/gallipoli-v-2-pt-01-p-003-008/GallipoliV2Pt02p008-027_text.pdf#page=14",
+          "https://transcribe.awm.gov.au/sites/default/files/transcription-images/2024-07/17676-rcdig0000588-page86.jpg",
+          "https://transcribe.awm.gov.au/transcription/item/rcdig0000588-7",
+          "https://catab.ktb.gov.tr/Eklenti/81451%2C105-yilinda-canakkale-muharebelerine-bakis-09032021pdf.pdf#page=146",
+          "https://catab.ktb.gov.tr/Eklenti/81451%2C105-yilinda-canakkale-muharebelerine-bakis-09032021pdf.pdf#page=147",
+          "https://www.canakkalecephesi.com/index.php/2022/12/26/57-alaya-ait-14-mayis-4-haziran-1915-tarihleri-arasindaki-muharebe-tutanaklari/",
+          "https://www.awm.gov.au/collection/H03947"
+        ],
+        "scopeCorrection": {
+          "before": "Kesin saatler, ateşkes şartları ve bütün cephe boyunca uygulama için protokol gerekir.",
+          "after": "Özgün imzalı anlaşma nüshaları, planlanan saatlerin fiilî uygulanışı ve bütün cephe boyunca uygulama için karşılaştırma açık.",
+          "basis": "Sayfadaki N.Z.G.609 emir görüntüsü, Ek6 anlaşma aktarımı ve Ek7 uygulama raporu kapsamı; özgün nüsha/fiilî uygulama sınırı açık."
+        }
+      },
+      "sha256": "fdd99137951ff3088724d8bbc52e38bf703778121cd64a05adfa98690203265f"
+    }
+  ],
+  "sourceBoundary": "Yalnız mevcut sayfa metinleri ve önceki kaynak/kapsam kayıtları okundu; dış kaynak yeniden incelenmiş sayılmadı. Tarih, sayı, koordinat, görsel ve doğrulama statüsü eklenmedi.3Kasım sunum incelemesidir.",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Kirte-Mayis-support-tests.txt"
+  },
+  "ui": {
+    "allPagesDesktopAndMobile": true,
+    "states": 10,
+    "keyboard": "Enter ile gerekçe açıldı",
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "client": 1265,
+      "scroll": 1265
+    },
+    "mobile": {
+      "viewport": [
+        320,
+        800
+      ],
+      "client": 305,
+      "scroll": 305
+    },
+    "viewportReset": true
+  },
+  "scopeCorrection": "Ateşkes sayfasında iki eski “protokol gerekir” ifadesi, zaten incelenmiş emir görüntüsü ve anlaşma/uygulama aktarımlarını inkâr etmeyen özgün nüsha/fiilî uygulama karşılaştırması sınırıyla eşlendi. Kaynak bölümüne klavye odağı ve haritada ateşkes kaydı/İtilaf süzgeci/13işaret/552pxyükseklik doğrulandı."
+}

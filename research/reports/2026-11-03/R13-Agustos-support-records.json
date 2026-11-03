@@ -1,0 +1,72 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "records": [
+    {
+      "path": "olaylar\\kanlisirt-muharebesi\\index.html",
+      "sha256": "9e363dc17f20be861c705a5886ee5dc8b5330eddee8440be8b9b8100d8e81c4f",
+      "sourceTargetExists": true,
+      "reasonLinkExists": true
+    },
+    {
+      "path": "olaylar\\anafartalar-suvla-cikarmasi\\index.html",
+      "sha256": "9e0a179c9ab6b5336772d93a732f501de0d499d0c23dd84148e10b0d2859bc77",
+      "sourceTargetExists": true,
+      "reasonLinkExists": true
+    },
+    {
+      "path": "olaylar\\conkbayiri-muharebesi\\index.html",
+      "sha256": "319b93eb5ee53eccdc70903554999e7310c101eb07d4d3bc62ce527cd78d1f47",
+      "sourceTargetExists": true,
+      "reasonLinkExists": true
+    },
+    {
+      "path": "olaylar\\birinci-anafartalar-muharebesi\\index.html",
+      "sha256": "ab4099110aae25f829de4b80a1252596a4f74eb49e79693dbc328730240a993c",
+      "sourceTargetExists": true,
+      "reasonLinkExists": true
+    },
+    {
+      "path": "olaylar\\ikinci-anafartalar-muharebesi\\index.html",
+      "sha256": "3a09f38520f628eb3b9448ee0f8db05ca6c82ffe72ae021c8aedcb188053d39a",
+      "sourceTargetExists": true,
+      "reasonLinkExists": true
+    }
+  ],
+  "ui": {
+    "disclosureStatesPassed": 10,
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "keyboard": "Enter ile açıldı",
+    "focus": {
+      "passed": 5,
+      "target": "kaynak-notu",
+      "method": "Gerekçe ve kaynak bağlantısı Enter"
+    },
+    "map": {
+      "title": "Kanlısırt Muharebesi",
+      "sideFilter": "İtilaf",
+      "ariaPressed": "true",
+      "method": "Haritada göster Enter; olay başlığını bekle; taraf düğmesi tıkla"
+    }
+  },
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Agustos-support-tests.txt"
+  },
+  "sourceBoundary": "Mevcut kaynak/kapsam notlarının sunumu; yeni tarihsel doğrulama veya erişim değil.",
+  "acceptance": "Beş Ağustos sayfasının sunum alt adımı kabul edildi; genel R13 tamamlanmadı."
+}

@@ -1,0 +1,127 @@
+{
+  "id": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "scope": "js/data.js coordinateReview3/3 mini-künye kabulü; genel R12 kabulü değildir",
+  "records": [
+    {
+      "id": "dardanos",
+      "coordinates": [
+        40.085728,
+        26.371181
+      ],
+      "review": {
+        "url": "https://www.kulturportali.gov.tr/turkiye/canakkale/ilprojeleri/troia-antik-kenti-cevre-duzenleme-uygulamalari",
+        "label": "Kültür Portalı · Hasan Mevsuf Şehitliği Tabya ve Bataryalarının Restorasyonu",
+        "evidenceText": "İlimiz, Merkez Çınarlı Köyünde bulunan Hasan Mevsuf Şehitliği",
+        "bibliography": "T.C. Kültür ve Turizm Bakanlığı, Kültür Portalı, Hasan Mevsuf Şehitliği Tabya ve Bataryalarının Restorasyon ve Çevre Düzenlenmesi – Çanakkale, İl Projeleri kaydı.",
+        "locator": "İl Projeleri: Adı, Tarih ve Açıklama alanları; sayfa sonundaki eklenme ve güncellenme bilgileri. URL yolundaki Troia adı yerine sayfanın görünen başlığı esas alındı.",
+        "sourceKind": "Kurumsal restorasyon proje kaydı",
+        "eventDate": null,
+        "eventDateNote": "Yer anlatımı incelendi; proje alanındaki 2016–2019 tarihleri 1915 muharebesinin, isabetin veya rasat yerinin tarihi değildir.",
+        "documentDate": null,
+        "documentDateNote": "Sayfa, özgün bir 1915 belgesinin düzenlenme tarihini vermez.",
+        "publicationDate": "2013-02-25",
+        "modifiedDate": "2019-04-03",
+        "publicationDateNote": "Portalın eklenme alanı 25 Şubat 2013, güncellenme alanı 3 Nisan 2019 gösterir. Eklenme tarihi, sonradan güncellenen proje metninin tamamının 2013'te yayımlandığını kanıtlamaz.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim yer anlatımı incelemesi korundu; 3 Kasım başlık, ilgili proje alanları ve portal tarihleri yeniden okundu. Sayısal koordinat, top mevzii veya rasat noktası doğrulanmadı.",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi"
+      }
+    },
+    {
+      "id": "kumkale",
+      "coordinates": [
+        40.0103,
+        26.1975
+      ],
+      "review": {
+        "url": "https://canakkale.ktb.gov.tr/TR-70518/kaleler.html",
+        "label": "Çanakkale İl Kültür ve Turizm Müdürlüğü · Kaleler",
+        "evidenceText": "Kumkale Köyü kale yapısına 3 km. uzaklıktadır.",
+        "bibliography": "Çanakkale İl Kültür ve Turizm Müdürlüğü, Kaleler, Kumkale Kalesi bölümü, kurumsal web sayfası.",
+        "locator": "KUMKALE KALESİ başlığı altında günümüzdeki köy ile kale yapısını ayıran paragraf.",
+        "sourceKind": "Kurumsal yer ve yapı tanıtımı",
+        "eventDate": null,
+        "eventDateNote": "Günümüzdeki köy ve kalenin yer anlatımıdır; muharebe, çıkarma veya mevzi kuruluş tarihi belirlenmedi.",
+        "documentDate": null,
+        "documentDateNote": "İncelenen bölüm özgün bir 1915 belgesinin düzenlenme tarihini vermez.",
+        "publicationDate": null,
+        "publicationDateNote": "İncelenen sayfa metninde eklenme veya yayım tarihi ayrıca belirlenmedi.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim incelemesi korundu; 3 Kasım Kumkale Kalesi bölümündeki köy–kale ayrımı yeniden okundu. Mesafe bağımsız ölçülmedi; kale, kumsal veya gözetleme postasının sayısal noktası doğrulanmadı.",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi"
+      }
+    },
+    {
+      "id": "mesudiye",
+      "coordinates": [
+        40.0965,
+        26.362
+      ],
+      "review": {
+        "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/diger-ziyaret-noktalari/mesudiye-topu",
+        "label": "Alan Başkanlığı · Mesudiye Topu",
+        "evidenceText": "Mesudiye Zırhlısı’ndan sökülen toplar; Baykuş (Mesudiye) bataryası olarak",
+        "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Mesudiye Topu, Diğer Ziyaret Noktaları, kurumsal ziyaret sayfası.",
+        "locator": "Mesudiye Topu başlığı altındaki son anlatı paragrafı: Baykuş (Mesudiye) adlandırması.",
+        "sourceKind": "Kurumsal ziyaret ve adlandırma anlatısı",
+        "eventDate": null,
+        "eventDateNote": "Batarya adlandırması için okunmuştur; paragraftaki dönem anlatımı kesin kurulum, ateşe başlama veya mevzi koordinatı tarihi olarak alınmadı.",
+        "documentDate": null,
+        "documentDateNote": "Sayfa özgün bir askerî belgenin düzenlenme tarihini belirtmez.",
+        "publicationDate": null,
+        "publicationDateNote": "İncelenen sayfada ilk yayım tarihi belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+        "accessDate": "2026-10-20",
+        "metadataReviewDate": "2026-11-03",
+        "readingScope": "20 Ekim adlandırma incelemesi korundu; 3 Kasım başlık ve ilgili paragraf yeniden okundu. Yıldız ile özdeşlik veya ortak koordinat doğrulanmadı; ziyaret noktası gemi batığı ya da tarihsel batarya konumu yerine geçirilmedi. Diğer tarih, saat ve kayıp sayıları bu incelemede doğrulanmadı.",
+        "date": "2026-10-20",
+        "status": "anlatim_incelendi_nokta_dogrulanmadi"
+      }
+    }
+  ],
+  "reading": "3 Kasım ilgili özel sayfa pasajları yeniden okundu. Dardanos proje adı/Açıklama/tarih alanları ve eklenme-güncellenme; Kumkale Kalesi köy-kale ayrımı; Mesudiye Topu son paragraf adlandırması. Önceki dardanos-devam, kumkale-devam ve mesudiye-adlandirma incelemeleri kullanıldı.",
+  "limits": "Yeni koordinat ölçümü veya tarihsel doğrulama yapılmadı. Dardanos 2013 portal eklenmesi, 2019 güncellemesinin içeriğini 2013 yayımı yapmaz. Yer, saat, kayıp ve yapı tarihleri ayrıca doğrulanmış sayılmadı. Görsel yayımlanmadı.",
+  "tests": {
+    "allJavaScript": 315,
+    "requiredPython": 25,
+    "failures": 0,
+    "log": "R12-coordinate-review-tests.txt",
+    "latestFullRun": "316 JavaScript ve25 zorunluPython; R12-claim-review-tests.txt"
+  },
+  "ui": {
+    "ids": [
+      "dardanos",
+      "kumkale",
+      "mesudiye"
+    ],
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "client": 1265,
+      "scroll": 1265
+    },
+    "mobile": {
+      "viewport": [
+        320,
+        800
+      ],
+      "client": 305,
+      "scroll": 305
+    },
+    "keyboard": "Enter ile her üç bölüm açıldı; künye ve haritadaki sayısal noktayı doğrulamaz sınırı görünür",
+    "map": "Süzgeç İtilaf aria-pressed=true; harita kutusu624.8x552 ve10 işaret mevcut",
+    "viewportReset": true
+  },
+  "hashes": {
+    "js/data.js": "d8ab60fe0c4c5b6619b9084433ed6270422539914be0fb4c06c16bd15bc55f0a",
+    "js/app.js": "2b6ef6b3b2098f2dbca74d83a3d0de269ac4b3edbaec64cf08eb3bcc46c47068",
+    "index.html": "8ea57a7da22b4e58341bbe8dea1b8ecf1fe9b35ef340469171be741c1c6dcdd4"
+  }
+}

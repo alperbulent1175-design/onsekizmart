@@ -1,0 +1,54 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/frederick-stopford/",
+    "sources": [
+      "dva-suvla"
+    ],
+    "summary": "Stopford, Suvla harekâtını komuta etti; kaynak 15 Ağustosta görevden alındığını belirtir.",
+    "open": "Yaşam yılları çalışma kaydıdır; kesin yaşam günleri/yerleri bu görev kaynaklarıyla belgelenmedi. Geçici görev ve devir pasajları özgün atama emirleri ve günlük hareketleri bütünüyle doğrulamaz.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Geçici görev, kolordu komutası ve devir ayrı",
+      "summary": "Temmuzdaki geçici Helles görevi, Ağustostaki Suvla komutasıyla aynı değildir. Rapor pasajı görev devrini anlatır; yaşam ayrıntıları ve bütün günlük hareketler bu kaynakla belgelenmez.",
+      "reasons": [
+        "Hamilton raporunun ilgili yayımlanmış çevrimyazı pasajları önceki incelemede okundu; bütün rapor, imzalı asıl ve atama emirleri incelenmedi. Rapordaki komuta değerlendirmeleri bağımsız soruşturmanın kesin hükmü sayılmadı.",
+        "Kurumun Suvla özeti ile rapordaki geçici görevlendirme ve devir ayrı kapsamlar sunar. Bu görev kaynaklarından kesin doğum/ölüm günü veya yeri çıkarılmaz; yaşam yılları çalışma kaydı olarak kalır."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "Mevcut17/25Ekim kaynak sınırlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+      "sourceRefs": [
+        "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/august-offensive/suvla-bay"
+      ]
+    }
+  },
+  "sha256": "e4827691e69b125d773d128cb79ec73163d06bf530486ce83d4d5a35846efa95",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Stopford-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adimi kabul;genel R13 acik."
+}

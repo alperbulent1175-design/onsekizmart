@@ -23,6 +23,11 @@ test('gemi araması Türkçe harfleri, boş sonucu, temizlemeyi ve gizli karta b
   win.history = { state: null, replaceState(state, title, value) {
     location.href = value; const parsed = new URL(value); location.search = parsed.search;
   } };
+  const storage = new Map();
+  win.sessionStorage = { getItem: key => storage.get(key) || null, setItem: (key, value) => storage.set(key, value), removeItem: key => storage.delete(key) };
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, '../js/navigation.js'), 'utf8'), {
+    document: {getElementById: () => null, querySelector: () => null, querySelectorAll: () => []}, window: win, URL, URLSearchParams
+  });
   vm.runInNewContext(fs.readFileSync(path.join(__dirname, '../js/navy-search.js'), 'utf8'), {
     document: { createElement: () => node(), getElementById: id => elements[id], querySelectorAll: selector => selector === '.ship-card' ? cards : groups }, window: win, location, URLSearchParams, URL
   });
@@ -35,7 +40,11 @@ test('gemi araması Türkçe harfleri, boş sonucu, temizlemeyi ve gizli karta b
   input.value = 'ocean'; input.handlers.input(); assert.equal(cards[1].hidden, false);
   assert.match(status.textContent, /Yalnız adlarda/);
   assert.equal(share.href, '/donanma/?q=ocean&ad=1#navy-search');
-  assert.equal(new URL(oceanMap.href, location.href).searchParams.get('donanmayaDon'), '/donanma/?q=ocean&ad=1#ocean');
+  assert.equal(new URL(oceanMap.href, location.href).search, '?mevki=ocean');
+  oceanMap.handlers.click({defaultPrevented: false});
+  const pending = JSON.parse(storage.get('om-reading-context-v1'));
+  assert.equal(pending.target, '/'); assert.equal(pending.targetSearch, '?mevki=ocean');
+  assert.equal(pending.params.donanmayaDon, '/donanma/?q=ocean&ad=1#ocean');
   assert.equal(new URL(location.href).searchParams.get('q'), 'ocean');
   assert.equal(new URL(location.href).searchParams.get('ad'), '1');
   assert.equal(new URL(location.href).searchParams.get('ref'), 'koru');

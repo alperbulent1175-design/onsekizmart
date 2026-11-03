@@ -66,8 +66,9 @@
         if (!link) return;
         var url = new URL(link.href, window.location.href);
         if (url.origin !== window.location.origin || !/^\/olaylar\/[^/]+\/$/.test(url.pathname)) return;
-        url.searchParams.set('listeyeDon', back);
+        url.searchParams.delete('listeyeDon');
         link.href = url.pathname + url.search + url.hash;
+        if (window.OMReadingContext) window.OMReadingContext.carry(link, { listeyeDon: back });
       });
     });
     count.textContent = visible ? visible + " olay gösteriliyor." : "Eşleşen olay bulunamadı. Aramayı veya bölümü değiştirin.";

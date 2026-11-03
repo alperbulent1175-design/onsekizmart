@@ -27,10 +27,12 @@ test('fotoğraftan ilgili sayfaya dönüş aynı fotoğrafı, sorguyu ve görsel
   assert.equal(inserted.length, 1); assert.equal(inserted[0].id, 'photo-context-return');
   assert.equal(inserted[0].children[0].href, back);
   assert.equal(inserted[0].children[0].textContent, 'Fotoğrafa dön');
-  assert.equal(new URL(inserted.next.href, 'https://onsekizmart.com').searchParams.get('fotografaDon'), back);
+  assert.equal(new URL(inserted.next.href, 'https://onsekizmart.com').search, '');
+  assert.equal(inserted.next.omReadingParams.fotografaDon, back);
   const commander = new URL(inserted.commander.href, 'https://onsekizmart.com');
-  assert.equal(commander.searchParams.get('fotografaDon'), back);
-  const eventBack = new URL(commander.searchParams.get('olayaDon'), 'https://onsekizmart.com');
+  assert.equal(commander.search, '');
+  assert.equal(inserted.commander.omReadingParams.fotografaDon, back);
+  const eventBack = new URL(inserted.commander.omReadingParams.olayaDon, 'https://onsekizmart.com');
   assert.equal(eventBack.pathname, '/olaylar/test/'); assert.equal(eventBack.searchParams.get('fotografaDon'), back);
   assert.equal(visit('/fotograf-arsivi/#foto-Bild%20183-H29994').length, 1);
 });

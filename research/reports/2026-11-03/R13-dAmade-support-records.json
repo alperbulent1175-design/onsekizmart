@@ -1,0 +1,54 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/albert-damade/",
+    "sources": [
+      "naval-reports"
+    ],
+    "summary": "d’Amade, Çanakkale’ye gönderilen Fransız sefer kuvvetiyle ilişkilidir.",
+    "open": "Görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler açık kalır; yaşam tarihleri ayrı kurum kişi kaydıyla desteklenir.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Kişi kaydı ile komuta raporu ayrı",
+      "summary": "Yaşam tarihleri kurum kişi kaydına, sefer kuvveti bağlantısı rapor aktarımına dayanır. Bu iki destek kesin görev günlerini topluca doğrulamaz.",
+      "reasons": [
+        "INHA kişi kaydının kimlik alanları ve ilgili biyografi paragrafı önceki incelemede okundu; özgün nüfus kayıtları ve atıf verilen arşiv dosyaları incelenmedi.",
+        "Raporların çevrimyazısı ile özgün gazete görüntüsü ayrı tutulur. Aynı dosyadaki farklı tarihli raporlar tek görev dönemi gibi okunmaz; günlük hareketler için karşılaştırma açıktır."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "Mevcut17/27Ekim inceleme sınırlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+      "sourceRefs": [
+        "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "https://agorha.inha.fr/ark:/54721/bafe13cc-fa47-4d0e-a4c8-50de5d5d6e66?database=81"
+      ]
+    }
+  },
+  "sha256": "cfb27231e0ff2dee4d2a2c0d201ea640dacb29fcb3d9a3a82940014c02b0497f",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-dAmade-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adimi kabul;genel R13 acik."
+}

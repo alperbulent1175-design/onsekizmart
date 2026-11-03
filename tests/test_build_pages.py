@@ -25,6 +25,27 @@ BODY
 
 
 class BuildPagesTests(unittest.TestCase):
+    def test_kronoloji_destek_etiketleri_kaynak_turunu_ve_acik_kapsami_ayirir(self):
+        institution = build_pages.chronology_support_notice('kurumsal_ozet_pasaji_okundu')
+        diary = build_pages.chronology_support_notice('gunluk_goruntusu_ilgili_pasaj_okundu')
+        photo = build_pages.chronology_support_notice('fotograf_katalog_aciklamasi_okundu')
+        self.assertIn('Kurum özetine dayanan anlatı', institution)
+        self.assertIn('Kesin saatler ve ayrıntılı konumlar', institution)
+        self.assertIn('Günlük pasajına dayanan anlatı', diary)
+        self.assertIn('Tek birliğin deneyimi', diary)
+        self.assertIn('Fotoğraf katalog açıklamasına dayanan anlatı', photo)
+        self.assertIn('Görüşmelerin bütün seyri', photo)
+        unknown = build_pages.chronology_support_notice('iddia_dogrulandi')
+        self.assertIn('Kaynak incelemesi açık', unknown)
+        self.assertNotIn('iddia_dogrulandi', unknown)
+
+    def test_beslenme_ureticisi_yayimlanmis_kanit_bolumlerini_korur(self):
+        body = build_pages.PAGES['cephede-beslenme/index.html'][3]
+        self.assertIn('id="fransiz-subay-kahvaltisi"', body)
+        self.assertIn('HighRes_39020025956171.pdf#page=71', body)
+        self.assertIn('RCDIG0000330.pdf#page=28', body)
+        self.assertIn('RCDIG0000330.pdf#page=38', body)
+
 
     def test_arsiv_kayit_tarihi_yayin_tarihi_yapilmaz(self):
         body = build_pages.chronology_event_pages(ROOT)['olaylar/quinns-post-siper-baskini/index.html'][3]
@@ -90,7 +111,8 @@ class BuildPagesTests(unittest.TestCase):
         self.assertEqual(build_pages.source_status_label("iddia_dogrulandi"), "Kaynak incelemesi açık")
         for page in build_pages.chronology_event_pages(ROOT).values():
             self.assertNotIn("gunluk_goruntusu_ilgili_pasaj_okundu", page[3])
-            self.assertIn("Belge doğrulaması tamamlanmadı", page[3])
+            self.assertNotIn("Belge doğrulaması tamamlanmadı", page[3])
+            self.assertRegex(page[3], r'<aside class="verification-notice"><strong>(Kurum özetine|Günlük pasajına|Fotoğraf katalog açıklamasına) dayanan anlatı</strong>')
 
 
     def test_kok_betigin_klasorudur(self):

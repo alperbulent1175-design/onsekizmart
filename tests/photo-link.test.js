@@ -58,10 +58,15 @@ test('fotoğraf yüklemesi ve hatası eski görüntüyü yeni künyeyle gösterm
   const retry = { hidden: true, addEventListener(type, fn) { retryClick = fn; } };
   image.removeAttribute = () => {};
   const link = { href: '/images/test.jpg', parentElement: { getAttribute: () => 'TEST', querySelector: () => null }, querySelector: () => ({ alt: 'Test fotoğrafı' }) };
-  const related = ['/olaylar/test/', '/komutanlar/test/', '/donanma/', 'https://www.awm.gov.au/collection/test', '/kaynakca/', '/?mevki=test#harita'].map(href => ({ href }));
+  const related = ['/olaylar/test/', '/komutanlar/test/', '/donanma/', 'https://www.awm.gov.au/collection/test', '/kaynakca/', '/?mevki=test#harita'].map(href => ({ href, listeners: {}, addEventListener(key, fn) { this.listeners[key] = fn; } }));
   const ctx = { image, loading, error, retry, close: { focus() { focused++; } }, activeLinks: [link], URL, location: { href: 'https://onsekizmart.com/', origin: 'https://onsekizmart.com' },
     heading: {}, permalink: {}, fileLink: { setAttribute(key, value) { this[key] = value; } }, copy: {}, copyRevision: 0, copyStatus: {}, dialog: {}, caption: { replaceChildren() {}, querySelectorAll: selector => selector === 'a[href]' ? related : [] }, controls: {}, keyboardHelp: {}, status: {} };
+  const storage = new Map();
+  ctx.URLSearchParams = URLSearchParams;
+  ctx.document = { getElementById: () => null, querySelector: () => null, querySelectorAll: () => [] };
+  ctx.window = { location: ctx.location, sessionStorage: {getItem: key => storage.get(key) || null, setItem: (key, value) => storage.set(key, value), removeItem: key => storage.delete(key)} };
   vm.createContext(ctx);
+  vm.runInContext(fs.readFileSync(path.join(__dirname, '../js/navigation.js'), 'utf8'), ctx);
   vm.runInContext(source.slice(source.indexOf('  function photoReturnHref('), source.indexOf('  close.addEventListener(')), ctx);
   assert.equal(ctx.show(0), true);
   assert.equal(ctx.fileLink.href, '/images/test.jpg');
@@ -70,7 +75,13 @@ test('fotoğraf yüklemesi ve hatası eski görüntüyü yeni künyeyle gösterm
   ctx.activeLinks.push(other); assert.equal(ctx.show(1), true);
   assert.equal(ctx.fileLink.href, '/images/other.jpg'); assert.match(ctx.fileLink['aria-label'], /OTHER/);
   assert.equal(ctx.show(0), true);
-  for (const item of related.slice(0, 3)) assert.equal(new URL(item.href, ctx.location.href).searchParams.get('fotografaDon'), '/fotograf-arsivi/?q=TEST#foto-TEST');
+  for (const item of related.slice(0, 3)) {
+    assert.equal(new URL(item.href, ctx.location.href).searchParams.has('fotografaDon'), false);
+    item.listeners.click({defaultPrevented: false});
+    const pending = JSON.parse(storage.get('om-reading-context-v1'));
+    assert.equal(pending.target, new URL(item.href, ctx.location.href).pathname);
+    assert.equal(pending.params.fotografaDon, '/fotograf-arsivi/?q=TEST#foto-TEST');
+  }
   assert.equal(related[3].href, 'https://www.awm.gov.au/collection/test');
   assert.equal(related[4].href, '/kaynakca/'); assert.equal(related[5].href, '/?mevki=test#harita');
   assert.equal(image.hidden, true); assert.equal(loading.hidden, false); assert.equal(image.attrs['aria-busy'], 'true');

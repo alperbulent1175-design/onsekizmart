@@ -1,0 +1,71 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "scope": "Mevcut18kronoloji olay sayfasının üst destek etiketi; genelR13 veya88sayfa kabulü değildir",
+  "change": "Tek genel doğrulama uyarısı yerine kurum özeti16/günlük pasajı1/fotoğraf katalog açıklaması1 ayrıldı. Her etiket desteklenen kısa özet ile kesin saat/konum veya tek birlik/katalog kapsamının sınırını birlikte gösterir. Tanınmayan veya doğrulandı kodu güvenli açık inceleme etiketinde kalır.",
+  "sources": "Mevcut data/chronology-sources.json kaynak statüsü ve kapsamı; R12 kabulünde incelenmiş kayıtlar. Bu değişiklik yeni tarihsel kaynak erişimi veya doğrulama değildir.",
+  "pages": [
+    "/olaylar/mayin-tarama-girisimleri/",
+    "/olaylar/hamiltona-talimat/",
+    "/olaylar/anzak-sevk-emri/",
+    "/olaylar/mondrosta-cikarma-hazirligi/",
+    "/olaylar/yaralilar-misira-ulasiyor/",
+    "/olaylar/quinns-post-siper-baskini/",
+    "/olaylar/yeraltindan-kazma-sesleri/",
+    "/olaylar/ateskes-gorusmeleri/",
+    "/olaylar/quinns-post-lagim-taarruzu/",
+    "/olaylar/watson-iskelesi-tamamlandi/",
+    "/olaylar/kolera-asilamasi/",
+    "/olaylar/hastane-ekibi-limnide/",
+    "/olaylar/kirectepe-taarruzu/",
+    "/olaylar/sonbahar-firtinasi/",
+    "/olaylar/tahliye-tavsiyesi/",
+    "/olaylar/yagmur-ve-kar-firtinasi/",
+    "/olaylar/ariburnu-suvla-tahliye-onayi/",
+    "/olaylar/seddulbahir-tahliye-emri/"
+  ],
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-chronology-labels-tests.txt",
+    "expectationChange": "Eski genel etiket testi,18kayıtta gerçek kaynak türü ve açık kapsamın birlikte görünmesi koşuluna taşındı;diğer olay/komutan sayfalarının inceleme kontrolü korundu."
+  },
+  "ui": {
+    "routes": [
+      "/olaylar/mayin-tarama-girisimleri/",
+      "/olaylar/quinns-post-siper-baskini/",
+      "/olaylar/ateskes-gorusmeleri/"
+    ],
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "client": 1265,
+      "scroll": 1265
+    },
+    "mobile": {
+      "viewport": [
+        320,
+        800
+      ],
+      "client": 305,
+      "scroll": 305
+    },
+    "allThreeTypesReadable": true,
+    "viewportReset": true,
+    "mapControl": "Aynı çalışma R12kaynak turunda harita/İtilaf süzgeci korunarak doğrulandı;R13app/harita kodu değiştirmedi."
+  },
+  "remaining": {
+    "routes": 88,
+    "genericNoticesRemaining": 54
+  },
+  "next": "olaylar/ariburnu-cikarmasi/index.html ve research/ux-audit/content-review.json içindeki ilgili kaynak/kapsamı oku; genel uyarıyı o sayfanın desteklenen sonucu ve açık kalan saat/konumuyla eşleştir.18Mart ve18yeni kronoloji etiketi yeniden başlatılmayacak.",
+  "hashes": {
+    "build_pages.py": "f868cd013e82387eb96ac64479b69a64a6c027ef5366d3d1cf356b75975b133a",
+    "tests/content-review.test.js": "dfb704f31d1950f27676efaf14e07e682bea223273a1c6a3b8b3d11de0ca1216",
+    "tests/test_build_pages.py": "c411cc9e7c6b95669e312550d610a5aac89409ddc80a33d8dcfcf89fa04cc391"
+  }
+}

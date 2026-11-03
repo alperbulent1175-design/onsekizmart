@@ -1,5 +1,62 @@
 (function () {
   "use strict";
+  // Reading context belongs to this browser visit, not to crawlable link URLs.
+  var readingContextKey = 'om-reading-context-v1';
+  var returnKeys = ['atlasaDon', 'olayaDon', 'listeyeDon', 'fotografaDon', 'komutanlaraDon', 'donanmayaDon'];
+  function readingContext() {
+    try {
+      var current = new URL(window.location.href);
+      var state = window.history && window.history.state && window.history.state.omReadingContext;
+      var pending = JSON.parse(window.sessionStorage.getItem(readingContextKey));
+      function valid(value, age) {
+        return value && value.target === current.pathname && Number.isFinite(value.savedAt) &&
+          Date.now() >= value.savedAt && Date.now() - value.savedAt <= age &&
+          value.params && typeof value.params === 'object' && !Array.isArray(value.params);
+      }
+      if (valid(pending, 60000)) {
+        state = pending;
+        if (window.history && window.history.replaceState) {
+          window.history.replaceState(Object.assign({}, window.history.state, { omReadingContext: state }), '', window.location.href);
+        }
+        window.sessionStorage.removeItem(readingContextKey);
+      }
+      return valid(state, 30 * 60 * 1000) ? state.params : {};
+    } catch (error) { return {}; }
+  }
+  var storedReadingContext = readingContext();
+  function contextParam(key) {
+    if (typeof URLSearchParams === 'undefined') return '';
+    var params = new URLSearchParams(window.location.search || '');
+    if (params.has(key)) return params.getAll(key).length === 1 ? params.get(key) : '';
+    return typeof storedReadingContext[key] === 'string' ? storedReadingContext[key] : '';
+  }
+  function carryReadingContext(link, params) {
+    try {
+      var destination = new URL(link.href, window.location.href);
+      if (destination.origin !== new URL(window.location.href).origin) return;
+      var context = {};
+      returnKeys.forEach(function (key) {
+        if (destination.searchParams.getAll(key).length === 1) context[key] = destination.searchParams.get(key);
+        destination.searchParams.delete(key);
+        if (params && typeof params[key] === 'string' && params[key]) context[key] = params[key];
+      });
+      link.href = destination.pathname + destination.search + destination.hash;
+      link.omReadingParams = context;
+      if (!link.addEventListener || link.omReadingBound) return;
+      link.omReadingBound = true;
+      link.addEventListener('click', function (event) {
+        if (event.defaultPrevented) return;
+        try {
+          var target = new URL(link.href, window.location.href);
+          window.sessionStorage.setItem(readingContextKey, JSON.stringify({
+            target: target.pathname, targetSearch: target.search, savedAt: Date.now(), params: link.omReadingParams
+          }));
+        } catch (error) { /* Clean links still work when session storage is blocked. */ }
+      });
+    } catch (error) { /* Keep ordinary navigation available. */ }
+  }
+  // Directory scripts use the same handoff instead of adding return queries.
+  window.OMReadingContext = { carry: carryReadingContext };
   function atlasReturnUrl(value) {
     if (!value || value.length > 1000 || value.indexOf("/?") !== 0) return "";
     try {
@@ -64,8 +121,7 @@
       return url.pathname + url.search + url.hash;
     } catch (error) { return ''; }
   }
-  var photoReturnParams = window.location && window.location.search ? new URLSearchParams(window.location.search) : null;
-  var photoReturn = photoReturnParams && photoReturnParams.getAll('fotografaDon').length === 1 ? photoReturnUrl(photoReturnParams.get('fotografaDon')) : '';
+  var photoReturn = photoReturnUrl(contextParam('fotografaDon'));
   if (photoReturn) {
     var photoMain = document.querySelector('.page-main');
     if (photoMain && !document.getElementById('photo-context-return')) {
@@ -76,7 +132,7 @@
       photoBack.appendChild(photoLink); photoMain.insertBefore(photoBack, photoMain.firstChild);
     }
   }
-  var eventReturn = window.location && window.location.search ? eventReturnUrl(new URLSearchParams(window.location.search).get('olayaDon')) : '';
+  var eventReturn = eventReturnUrl(contextParam('olayaDon'));
   if (eventReturn) {
     var backToList = document.querySelector('.back-link');
     if (backToList && !document.getElementById('event-context-return')) {
@@ -85,19 +141,20 @@
       var eventLink = document.createElement('a');
       eventLink.className = 'btn';
       eventLink.href = eventReturn;
+      carryReadingContext(eventLink);
       eventLink.textContent = 'Okuduğunuz olaya dön';
       backToEvent.appendChild(eventLink);
       backToList.parentNode.insertBefore(backToEvent, backToList);
     }
   }
-  var commandersReturn = window.location && window.location.search ? commandersReturnUrl(new URLSearchParams(window.location.search).get('komutanlaraDon')) : '';
+  var commandersReturn = commandersReturnUrl(contextParam('komutanlaraDon'));
   if (commandersReturn) {
     document.querySelectorAll('.back-link a[href^="/komutanlar/"]').forEach(function (link) {
       link.href = commandersReturn;
       link.textContent = 'Komutan aramasına dön';
     });
   }
-  var listReturn = window.location && window.location.search ? eventListReturnUrl(new URLSearchParams(window.location.search).get('listeyeDon')) : '';
+  var listReturn = eventListReturnUrl(contextParam('listeyeDon'));
   if (listReturn) {
     document.querySelectorAll('.event-actions a[href^="/olaylar/"], .back-link a[href^="/olaylar/"], .event-all-records a').forEach(function (link) {
       link.href = listReturn;
@@ -105,8 +162,8 @@
     });
   }
   var returnUrl = "";
-  if (window.location && window.location.search && typeof URLSearchParams !== "undefined") {
-    returnUrl = atlasReturnUrl(new URLSearchParams(window.location.search).get("atlasaDon"));
+  if (window.location && typeof URLSearchParams !== "undefined") {
+    returnUrl = atlasReturnUrl(contextParam("atlasaDon"));
   }
   if (returnUrl) {
     document.querySelectorAll(".event-map-action").forEach(function (link) {
@@ -121,10 +178,7 @@
         var url = new URL(link.href, current.href);
         if (url.origin !== current.origin || !/^\/olaylar\/[^/]+\/$/.test(url.pathname) ||
             (url.pathname === current.pathname && url.search === current.search)) return;
-        if (listReturn) url.searchParams.set('listeyeDon', listReturn);
-        if (returnUrl) url.searchParams.set('atlasaDon', returnUrl);
-        if (photoReturn) url.searchParams.set('fotografaDon', photoReturn);
-        link.href = url.pathname + url.search + url.hash;
+        carryReadingContext(link, { listeyeDon: listReturn, atlasaDon: returnUrl, fotografaDon: photoReturn });
       } catch (error) { /* Invalid editorial links must not interrupt navigation. */ }
     });
   }
@@ -142,9 +196,7 @@
         if (eventBackHref) document.querySelectorAll('.page-main a[href^="/komutanlar/"]').forEach(function (link) {
           var destination = new URL(link.href, currentEvent.href);
           if (destination.origin !== currentEvent.origin || !/^\/komutanlar\/[a-z0-9-]+\/$/.test(destination.pathname)) return;
-          destination.searchParams.set('olayaDon', eventBackHref);
-          if (photoReturn) destination.searchParams.set('fotografaDon', photoReturn);
-          link.href = destination.pathname + destination.search + destination.hash;
+          carryReadingContext(link, { olayaDon: eventBackHref, fotografaDon: photoReturn });
         });
       }
     } catch (error) { /* Keep normal links if a reading context cannot be formed. */ }

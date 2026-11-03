@@ -1,0 +1,64 @@
+{
+  "id": "R12",
+  "status": "devam ediyor",
+  "date": "2026-11-03",
+  "record": {
+    "id": "rumeli-hamidiye",
+    "review": {
+      "url": "https://canakkaletarihialan.gov.tr/tr/ziyaret/kaleler-ve-tabyalar/rumeli-hamidiye-tabyasi",
+      "label": "Alan Başkanlığı · Rumeli Hamidiye Tabyası",
+      "evidenceText": "döşeme raylarının kırılması ve nişan tertibatının hasar görmüş olması nedeniyle müttefik gemilerine hiç ateş edememiştir",
+      "bibliography": "Çanakkale Savaşları Gelibolu Tarihi Alan Başkanlığı, Rumeli Hamidiye Tabyası, Kaleler ve Tabyalar, kurumsal ziyaret sayfası.",
+      "locator": "Rumeli Hamidiye Tabyası başlığının ikinci anlatı paragrafı: Boğaz Muharebesi'nde mekanizma hasarı ve ateş edilememesi aktarımı.",
+      "eventDate": null,
+      "eventDateNote": "Paragraf Boğaz Muharebesi der; hasarın oluştuğu veya bildirildiği kesin gün ve saat ayrıca belirtilmez.",
+      "documentDate": null,
+      "documentDateNote": "Bu, özgün batarya ceridesi veya hasar raporu değildir; böyle bir belgenin düzenlenme tarihi verilmez.",
+      "publicationDate": null,
+      "publicationDateNote": "Sayfanın ilk yayım tarihi belirlenmedi; altbilgideki telif yılı yayım tarihi sayılmadı.",
+      "accessDate": "2026-10-20",
+      "metadataReviewDate": "2026-11-03",
+      "readingScope": "20 Ekim çelişki kaydı korundu; 3 Kasım başlık ve ilgili paragraf yeniden okundu. Yalnız kurum aktarımının yeri belirginleştirildi; bağımsız özgün belge karşılaştırması tamamlanmadı.",
+      "date": "2026-10-20",
+      "status": "kaynak_celiskisi_tespit_edildi",
+      "limit": "Bu kurum anlatısı, eski atlas kartındaki gün boyu ateş edildiği cümlesiyle çelişir. Özgün batarya ceridesi ve hasar raporu karşılaştırılmadı; kartın diğer sayı, isabet ve teçhizat ayrıntıları doğrulanmış sayılmaz."
+    }
+  },
+  "reading": "Rumeli Hamidiye özel sayfası başlığı ve ikinci anlatı paragrafı yeniden okundu; 20 Ekim INCELEME.md çelişki kaydı korundu.",
+  "limits": "Kurum anlatımı özgün batarya ceridesi veya hasar raporu değildir; çelişki giderilmedi. Muharebe günü/saat, belge ve ilk yayım tarihi belirlenmedi; status yükseltilmedi.",
+  "tests": {
+    "allJavaScript": 316,
+    "requiredPython": 25,
+    "failures": 0,
+    "log": "R12-claim-review-tests.txt",
+    "scope": "Bütün tests/*.test.js ve AGENTS üç Python modülü"
+  },
+  "ui": {
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "client": 1265,
+      "scroll": 1265
+    },
+    "mobile": {
+      "viewport": [
+        320,
+        800
+      ],
+      "client": 305,
+      "scroll": 305,
+      "open": true
+    },
+    "metadataVisible": true,
+    "sourceConflictPreserved": true,
+    "viewportReset": true
+  },
+  "hashes": {
+    "js/data.js": "d8ab60fe0c4c5b6619b9084433ed6270422539914be0fb4c06c16bd15bc55f0a",
+    "js/app.js": "2b6ef6b3b2098f2dbca74d83a3d0de269ac4b3edbaec64cf08eb3bcc46c47068",
+    "index.html": "8ea57a7da22b4e58341bbe8dea1b8ecf1fe9b35ef340469171be741c1c6dcdd4"
+  },
+  "next": "js/campaign.js ariburnu coordinateSource: Anzak Koyu özel sayfası ve 20 Ekim karşılaştırmasını oku; ilk erişimi ve sayısal nokta sınırını koruyarak künye/tarih ayrımı ekle."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "R22/R23",
+  "status": "yerel taslak hazır; yayın engelli",
+  "local_date": "2026-11-03",
+  "source": "research/deployment/2026-11-02-atlas-release/stage/.htaccess",
+  "source_sha256": "74bd6178ff824c6dc71cd533f8438dc13221c76e0a33ffb8e42c1dcf991ad164",
+  "proposed_sha256": "bab499d329f90f4e09aebc704c33dd20537a7be177a198eeac2af6432cd15067",
+  "source_bytes": 483,
+  "proposed_bytes": 656,
+  "static_checks": {
+    "original_payload_preserved": true,
+    "fixed_destination_host": true,
+    "no_query_discard": true,
+    "only_www_condition": true
+  },
+  "sources": [
+    {
+      "url": "https://httpd.apache.org/docs/2.4/rewrite/remapping.html#canonicalhost",
+      "passage": "Canonical Hostnames: sabit tercih edilen hosta koşullu yönlendirme; .htaccess desteği",
+      "read_scope": "Yalnız ilgili dokümantasyon bölümü incelendi"
+    },
+    {
+      "url": "https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html#rewriterule",
+      "passage": "RewriteRule eşleşme/yerine koyma ve sorgu davranışı; mod_rewrite URI değerleri yüzde çözülmüş olabilir",
+      "read_scope": "İlgili değişken ve kural açıklamaları"
+    }
+  ],
+  "runtime_verification": "Yerel Apache/httpd/apachectl/Docker bulunmadı; gerçek sunucu sözdizimi ve HTTP301 davranışı çalıştırılarak doğrulanmadı. Statik kontroller HTTP testi değildir.",
+  "publication": false,
+  "rollback": "Yayın sırasında yeni canlı yedek alınmalı; önceki .htaccess mevcut483bayt yedekte tutuluyor; otomatik geri yükleme yok.",
+  "post_publish_cases": [
+    {
+      "url": "https://www.onsekizmart.com/",
+      "expected_status": 301,
+      "expected_location": "https://onsekizmart.com/"
+    },
+    {
+      "url": "https://www.onsekizmart.com/olaylar/18-mart-deniz-muharebesi/?atlasaDon=%2F%3Folay%3De-may19%23harita",
+      "expected_status": 301,
+      "expected_location": "https://onsekizmart.com/olaylar/18-mart-deniz-muharebesi/?atlasaDon=%2F%3Folay%3De-may19%23harita"
+    },
+    {
+      "url": "https://onsekizmart.com/",
+      "expected_status": 200,
+      "expected_location": null
+    },
+    {
+      "url": "http://onsekizmart.com/",
+      "expected_status": 301,
+      "expected_location": "https://onsekizmart.com/"
+    }
+  ],
+  "acceptance": "Taslak incelemeye hazır; gerçek HTTP/encode-yol ve sorgu korunumu, döngü ve mevcut HTTPS akışı yayın yetkisi/ortamında doğrulanmadan genelR22 tamamlanmaz."
+}
