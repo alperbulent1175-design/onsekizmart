@@ -1,0 +1,4 @@
+interface:
+  display_name: "Çanakkale Atlası"
+  short_description: "Atlas araştırmasını ve yerel geliştirmeyi sürdür"
+  default_prompt: "$canakkale-atlas ile DEVAM.md son somut adımından araştırma ve yerel geliştirmeye devam et."

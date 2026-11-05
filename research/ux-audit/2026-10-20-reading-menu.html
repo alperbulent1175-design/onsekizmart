@@ -1,0 +1,15 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><title>Olay menüsü dar ekran kontrolü</title><style>body{font:16px system-ui;margin:12px}iframe{display:block;height:780px;border:1px solid;margin:16px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:300px;overflow:auto}</style><h1>Olay menüsü dar ekran kontrolü</h1><pre id="result">Kontrol sürüyor</pre><div id="frames"></div><script>
+const results=[];
+for(const width of [320,390]){
+ const frame=document.createElement('iframe'); frame.style.width=width+'px';frame.title=width+' piksel kaynak okuması';frame.src='/olaylar/18-mart-deniz-muharebesi/?qa=reading-20261020#bouvet-saat-incelemesi';document.querySelector('#frames').append(frame);
+ frame.onload=()=>{const d=frame.contentDocument,w=frame.contentWindow;let tries=0;const timer=setInterval(()=>{
+  const toggle=d.querySelector('#nav-toggle');if(!toggle||toggle.hidden){if(++tries<50)return;clearInterval(timer);return;}
+  clearInterval(timer);d.querySelector('#bouvet-saat-incelemesi').scrollIntoView();toggle.click();
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{
+   const menu=d.querySelector('#nav-panel'),bar=d.querySelector('.event-actions');w.scrollTo({top:w.scrollY+d.querySelector('#bouvet-saat-incelemesi').getBoundingClientRect().top+400,behavior:'instant'});const links=[...menu.querySelectorAll('a')].filter(a=>{const r=a.getBoundingClientRect();return r.width>0&&r.height>0&&r.top>=0&&r.bottom<=w.innerHeight;});
+   const checks=links.map(a=>{const r=a.getBoundingClientRect(),hit=d.elementFromPoint(r.left+r.width/2,r.top+r.height/2);return {text:a.textContent.trim(),top:r.top,bottom:r.bottom,covered:!(hit===a||a.contains(hit)),coveredBy:hit?hit.closest('nav')?.className:null};});
+   results.push({width,cssHref:d.querySelector('link[href*="/css/style.css"]').getAttribute('href'),summaryPresent:!!d.querySelector('#olay-ozeti'),scrollY:w.scrollY,pageOverflow:d.documentElement.scrollWidth>d.documentElement.clientWidth,menuOpen:toggle.getAttribute('aria-expanded'),menuZ:w.getComputedStyle(d.querySelector('header.nav')).zIndex,barZ:w.getComputedStyle(bar).zIndex,barTop:bar.getBoundingClientRect().top,checks});document.querySelector('#result').textContent=JSON.stringify(results,null,2);
+  }));
+ },100);};
+}
+</script></html>

@@ -1,0 +1,21 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><title>Oynatma sırasında harita görünümü</title>
+<style>body{font:16px system-ui;margin:12px}pre{white-space:pre-wrap;overflow-wrap:anywhere}iframe{display:block;border:1px solid}</style>
+<h1>Oynatma sırasında harita görünümü</h1><pre id="result">Kontrol sürüyor</pre><div id="frames"></div>
+<script>
+const results=[],run=new URLSearchParams(location.search).get('run')||'before';
+function measure(d,w){const map=d.querySelector('#map').getBoundingClientRect(),nav=d.querySelector('.nav').getBoundingClientRect();return{mapTop:Math.round(map.top),mapBottom:Math.round(map.bottom),visibleHeight:Math.round(Math.max(0,Math.min(map.bottom,w.innerHeight)-Math.max(map.top,nav.bottom))),viewport:w.innerHeight,focus:d.activeElement?.id,playing:d.querySelector('#tl-play').getAttribute('aria-pressed')};}
+async function check(width,height,guideOpen){return new Promise(resolve=>{
+ const frame=document.createElement('iframe');frame.style.width=width+'px';frame.style.height=height+'px';frame.title=width+' piksel rehber '+guideOpen;
+ frame.onload=()=>{const d=frame.contentDocument,w=frame.contentWindow,guide=d.querySelector('.map-guide'),play=d.querySelector('#tl-play'),title=d.querySelector('#panel-title').textContent;guide.open=guideOpen;play.focus();play.click();
+  setTimeout(()=>{
+   const result={width,height,guideOpen,afterPlay:measure(d,w)};
+   // Rehberin oynatma kaydırmasını gölgelemesinden bağımsız olarak Duraklat dönüşünü de ölç.
+   d.querySelector('#map').scrollIntoView({behavior:'instant',block:'start'});
+   const pause=d.querySelector('#map-playback-pause');pause.focus({preventScroll:true});result.beforePause=measure(d,w);pause.click();
+   setTimeout(()=>{result.afterPause=measure(d,w);result.titlePreserved=d.querySelector('#panel-title').textContent===title;result.guidePreserved=guide.open===guideOpen;result.pageOverflow=d.documentElement.scrollWidth>d.documentElement.clientWidth;results.push(result);document.querySelector('#result').textContent=JSON.stringify({complete:results.length===6,results},null,2);resolve();},700);
+  },700);
+ };
+ frame.src='/?qa=playback-viewport-'+width+'-'+guideOpen+'&run='+encodeURIComponent(run)+'#harita';document.querySelector('#frames').replaceChildren(frame);
+});}
+(async()=>{for(const [width,height] of [[320,844],[390,844],[1280,900]])for(const guideOpen of [false,true])await check(width,height,guideOpen);})();
+</script></html>

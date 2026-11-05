@@ -1,0 +1,54 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/roger-keyes/",
+    "sources": [
+      "naval-reports"
+    ],
+    "summary": "Keyes, deniz komutanının kurmay başkanı olarak raporlarda geçer.",
+    "open": "Yaşam günleri anma kaydının aktarımıdır; daha dar doğum yeri, özgün yaşam belgeleri ve 1915 kurmay başkanlığının kesin başlangıç/bitiş günleri için karşılaştırma açıktır.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Anma biyografisi ve kurmaylık dönemi ayrı",
+      "summary": "Parlamento anma kaydı yaşam tarihlerini aktarır; Çanakkale kurmay başkanlığının kesin görev günlerini belirlemez. Daha sonraki görevler 1915 dönemi yerine kullanılmaz.",
+      "reasons": [
+        "Anma kaydının seçili kimlik ve son yaşam paragrafları 28 Ekim incelemesinde okundu; özgün nüfus ve ölüm belgeleri görülmedi. Babanın görev yeri daha dar doğum yeri kanıtı sayılmadı.",
+        "Kurmay başkanlığı için önceki dönem raporu çevrimyazısı incelemesi ayrı tutulur. Parlamento üyeliği ve Ekim tarihli grup fotoğrafı, bu görevin başlangıç ve bitiş günlerini topluca belgelemez."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+      "sourceRefs": [
+        "https://www.parliament.uk/about/living-heritage/building/cultural-collections/memorials/in-the-collection/world-war-ii/wwii-heraldic-shields/keyes/",
+        "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm"
+      ]
+    }
+  },
+  "sha256": "d77b44263820aa39acd2486ce4dd1cab46c50b4f3754e2d6d8e4cb8784dcd949",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Keyes-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adımı kabul; genel R13 açık."
+}

@@ -1155,10 +1155,24 @@
         "csa-33"
       ],
       "summary": "Kaynaklarda 11. Tümen komutanı Rafet Bey adı geçer; Bele soyadıyla kimlik eşleştirmesi bu kayıtlardan kurulamaz.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Rafet Bey adının Bele soyadıyla kimlik eşleştirmesi kurulamadı; yaşam alanları bu nedenle kaldırılmıştır. Kesin görev günleri ve günlük hareketler için belge karşılaştırması açıktır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Rafet Bey adı var, Bele eşleştirmesi açık",
+        "summary": "İncelenen kaynaklarda 11. Tümen komutanı Rafet Bey adı geçer. Bu kayıtlar Bele soyadıyla aynı kişi olduğunu göstermediğinden yaşam tarihleri eklenmedi.",
+        "reasons": [
+          "Mevcut araştırma ve alay maddesi incelemesi ad ile görev için kısmi destek sağlar; soyadı ve kişi kimliği bu kapsamdan çıkarılamaz. Başka bir kişiye ait olabilecek doğum ve ölüm alanları kaldırılmıştır.",
+          "Birlik sorumluluk sahası ve harita işareti kişinin günlük bulunduğu yer değildir. Görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler topluca doğrulanmış sayılmaz."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 Ekim mevcut incelemesinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceRefs": [
+          "https://belleten.gov.tr/tam-metin/279/tur",
+          "https://canakkalesavaslariansiklopedisi.com/33uncu-piyade-alayi/"
+        ]
+      }
     },
     {
       "path": "komutanlar/remzi-bey/",
@@ -1169,7 +1183,20 @@
       "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Ad ve tümen görevi için kısmi destek",
+        "summary": "İncelenen makalede Ali Remzi Bey, 7. Tümen komutanı olarak anılır. Bu kayıt yaşam tarihlerini, kesin görev günlerini veya günlük hareketlerini topluca belgelemez.",
+        "reasons": [
+          "Mevcut incelemenin dayanağı yayımlanmış araştırmadaki ad ve görev aktarımıdır. Bu kapsam özgün atama emrinin veya bütün biyografinin incelendiği anlamına gelmez; boş yaşam alanları tahminle doldurulmadı.",
+          "Haritadaki tümen işareti sorumluluk sahasını temsil eder. Aynı işarette listelenen bir olay, komutanın o anda orada bulunduğunun bağımsız kanıtı değildir."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 Ekim mevcut incelemesinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceRefs": [
+          "https://belleten.gov.tr/tam-metin/279/tur"
+        ]
+      }
     },
     {
       "path": "komutanlar/roger-keyes/",
@@ -1177,10 +1204,24 @@
         "naval-reports"
       ],
       "summary": "Keyes, deniz komutanının kurmay başkanı olarak raporlarda geçer.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Yaşam günleri anma kaydının aktarımıdır; daha dar doğum yeri, özgün yaşam belgeleri ve 1915 kurmay başkanlığının kesin başlangıç/bitiş günleri için karşılaştırma açıktır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Anma biyografisi ve kurmaylık dönemi ayrı",
+        "summary": "Parlamento anma kaydı yaşam tarihlerini aktarır; Çanakkale kurmay başkanlığının kesin görev günlerini belirlemez. Daha sonraki görevler 1915 dönemi yerine kullanılmaz.",
+        "reasons": [
+          "Anma kaydının seçili kimlik ve son yaşam paragrafları 28 Ekim incelemesinde okundu; özgün nüfus ve ölüm belgeleri görülmedi. Babanın görev yeri daha dar doğum yeri kanıtı sayılmadı.",
+          "Kurmay başkanlığı için önceki dönem raporu çevrimyazısı incelemesi ayrı tutulur. Parlamento üyeliği ve Ekim tarihli grup fotoğrafı, bu görevin başlangıç ve bitiş günlerini topluca belgelemez."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceRefs": [
+          "https://www.parliament.uk/about/living-heritage/building/cultural-collections/memorials/in-the-collection/world-war-ii/wwii-heraldic-shields/keyes/",
+          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm"
+        ]
+      }
     },
     {
       "path": "komutanlar/sackville-carden/",
@@ -1188,10 +1229,23 @@
         "naval-reports"
       ],
       "summary": "Carden’ın raporu Şubat–Mart deniz harekâtını anlatır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "open": "Yaşam yılları çalışma kaydıdır; kesin doğum/ölüm günleri ve yerleri açık kalır. Görev başlangıcı ve günlük hareketler bu rapor bağlantısıyla topluca doğrulanmaz; 16 Mart ayrılışı ile 17 Mart görev kaydı birleştirilmez.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Deniz harekâtı raporu ve yaşam alanları ayrı",
+        "summary": "Dönem raporunun çevrimyazısı deniz harekâtına ilişkindir; yaşam yıllarını ve kesin doğum/ölüm günlerini doğrulamaz. Carden’ın 16 Mart ayrılışı ile de Robeck’in 17 Mart görev kaydı ayrı okunur.",
+        "reasons": [
+          "Mevcut inceleme raporun çevrimyazısıyla sınırlıdır; özgün rapor görüntüsünün veya bütün biyografinin incelendiği anlamına gelmez. Deniz harekâtına ilişkin bir pasaj yaşam alanlarının kanıtı yerine kullanılmadı.",
+          "28 Ekim yaşam alanı denetimi kesin gün ve yerleri doğrudan okunmuş bir kurum veya nüfus kaydıyla eşleştiremedi. Korunan yaşam yılları çalışma kaydıdır; arama özetleri ve soybilim derlemeleri özgün kayıt sayılmadı."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceRefs": [
+          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm"
+        ]
+      }
     },
     {
       "path": "komutanlar/selahattin-adil-bey/",

@@ -1,0 +1,27 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><title>Mobil olay okumasında dönüş</title>
+<style>body{font:16px system-ui;margin:12px}pre{white-space:pre-wrap;overflow-wrap:anywhere}iframe{display:block;height:800px;border:1px solid}</style>
+<h1>Mobil olay okumasında dönüş</h1><pre id="result">Kontrol sürüyor</pre><div id="frames"></div>
+<script>
+const target='/?olay=e-may19#harita',back='/olaylar/?q=Ar%C4%B1burnu&bolum=kara#events-tools',results=[];
+async function check(width,via){return new Promise(resolve=>{
+ const frame=document.createElement('iframe');frame.style.width=width+'px';frame.title=width+' piksel '+via;let phase=0,finished=false;
+ const result={width,via};
+ const timeout=setTimeout(()=>{if(finished)return;finished=true;result.error='Akış zaman aşımı';results.push(result);publish();resolve();},20000);
+ function finish(){if(finished)return;finished=true;clearTimeout(timeout);results.push(result);publish();resolve();}
+ frame.onload=()=>{try{
+  const d=frame.contentDocument;
+  if(phase===0){
+   const link=via==='next'?d.querySelector('.event-navigation a[rel=next]'):[...d.querySelectorAll('.page-main a[href]')].find(a=>a.textContent.trim()==='24 Mayıs gömme ateşkesi');
+   const destination=new URL(link.href);result.mapContextCarried=destination.searchParams.get('atlasaDon')===target;result.listContextCarried=destination.searchParams.get('listeyeDon')===back;phase=1;link.click();
+  }else if(phase===1){
+   const link=d.querySelector('.event-map-action');result.returnHref=link.getAttribute('href');result.returnLabel=link.textContent;
+   result.listHref=d.querySelector('.event-actions a[href^="/olaylar/"]').getAttribute('href');
+   result.pageOverflow=d.documentElement.scrollWidth>d.documentElement.clientWidth;phase=2;link.click();
+  }else if(phase===2){phase=3;setTimeout(()=>{result.returnedTitle=frame.contentDocument.querySelector('#panel-title')?.textContent;finish();},700);}
+ }catch(error){result.error=error.message;finish();}};
+ frame.src='/olaylar/ariburnu-genel-taarruzu/?atlasaDon='+encodeURIComponent(target)+'&listeyeDon='+encodeURIComponent(back)+'&qa=reading-context-'+width+'-'+via;
+ document.querySelector('#frames').replaceChildren(frame);
+});}
+function publish(){document.querySelector('#result').textContent=JSON.stringify({complete:results.length===4,results},null,2);}
+(async()=>{for(const width of [320,390])for(const via of ['next','inline'])await check(width,via);})();
+</script></html>

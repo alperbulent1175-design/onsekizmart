@@ -1,0 +1,34 @@
+[
+  {
+    "url": "http://onsekizmart.com/",
+    "status": 301,
+    "location": "https://onsekizmart.com/",
+    "xRobotsTag": null,
+    "canonical": null,
+    "robotsText": null
+  },
+  {
+    "url": "https://www.onsekizmart.com/",
+    "status": 200,
+    "location": null,
+    "xRobotsTag": null,
+    "canonical": "https://onsekizmart.com/",
+    "robotsText": null
+  },
+  {
+    "url": "https://onsekizmart.com/olaylar/18-mart-deniz-muharebesi/?atlasaDon=%2F%3Fmevki%3Dariburnu%23harita",
+    "status": 200,
+    "location": null,
+    "xRobotsTag": null,
+    "canonical": "https://onsekizmart.com/olaylar/18-mart-deniz-muharebesi/",
+    "robotsText": null
+  },
+  {
+    "url": "https://onsekizmart.com/robots.txt",
+    "status": 200,
+    "location": null,
+    "xRobotsTag": null,
+    "canonical": null,
+    "robotsText": "User-agent: *\nAllow: /\n\nSitemap: https://onsekizmart.com/sitemap.xml\n"
+  }
+]

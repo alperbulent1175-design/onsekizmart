@@ -1,0 +1,112 @@
+{
+  "site": "onsekizmart.com",
+  "accessDate": "2026-11-02",
+  "userScopeConfirmed": true,
+  "gsc": {
+    "property": "sc-domain:onsekizmart.com",
+    "requestedPeriod": [
+      "2026-10-01",
+      "2026-10-31"
+    ],
+    "returnedDailyRange": [
+      "2026-10-14",
+      "2026-10-31"
+    ],
+    "clicks": 0,
+    "impressions": 137,
+    "ctr": 0,
+    "impressionWeightedPosition": 12.007291240875913,
+    "pageRows": 64,
+    "wwwPageRows": 17,
+    "parameterizedPageRows": 9,
+    "queryRows": 29,
+    "indexingReportDisplayedUpdated": "2026-10-23",
+    "indexedUrls": 156,
+    "notIndexedUrls": 1175,
+    "exclusionReasons": {
+      "alternateProperCanonical": 1100,
+      "redirect": 2,
+      "crawledCurrentlyNotIndexed": 73
+    },
+    "sampleLimit": "10 visible alternative examples and10 visible crawled-not-indexed examples are state/return parameter URLs;not all73 inspected.156known indexed URLs is not coverage of current88sitemap pages.",
+    "sitemap": {
+      "url": "https://onsekizmart.com/sitemap.xml",
+      "status": "Başarılı",
+      "lastRead": "2026-11-02",
+      "discovered": 88
+    },
+    "legacySitemap": {
+      "url": "http://www.onsekizmart.com/sitemap.xml",
+      "submitted": "2011-07-17",
+      "lastRead": "2018-10-16",
+      "status": "1hata;historical,not current HTTPS sitemap"
+    },
+    "urlInspection": {
+      "url": "https://onsekizmart.com/komutanlar/john-de-robeck/",
+      "indexed": true,
+      "lastCrawl": "2026-10-29T12:08:47",
+      "agent": "Googlebot smartphone",
+      "crawlAllowed": true,
+      "fetch": "successful",
+      "indexAllowed": true,
+      "declaredCanonicalMatchesGoogle": true,
+      "sitemapAssociation": "Temporary processing error in this URL card;main sitemap itself successful.",
+      "scope": "Single URL sample,not all88"
+    }
+  },
+  "bing": {
+    "performancePeriod": [
+      "2026-08-02",
+      "2026-11-01"
+    ],
+    "clicks": 0,
+    "impressions": 0,
+    "sitemap": {
+      "status": "Success",
+      "urlsDiscovered": 88,
+      "lastCrawl": "2026-10-27"
+    },
+    "siteExplorer": "Indexed URLs view No data available;not a verified absolute zero-site index count.",
+    "indexSamples": [
+      {
+        "url": "https://onsekizmart.com/",
+        "status": "Discovered but not crawled",
+        "discovered": "2017-12-14"
+      },
+      {
+        "url": "https://onsekizmart.com/olaylar/18-mart-deniz-muharebesi/",
+        "status": "Discovered but not crawled",
+        "discovered": "2026-10-27"
+      }
+    ],
+    "liveRootTest": {
+      "status": "URL can be indexed by Bing",
+      "seoGeo": "No SEO/GEO issues found",
+      "markup": "Failed to load insights;not evidence of invalid markup"
+    },
+    "limits": "Live eligibility does not guarantee indexing. No request-indexing action performed."
+  },
+  "technicalRootCause": {
+    "sourcePointers": [
+      "js/app.js:855",
+      "js/navigation.js:127",
+      "js/navigation.js:145"
+    ],
+    "evidence": "Reading links append atlasaDon;navigation spreads return context to links and adds nested olayaDon. GSC examples match these parameters.",
+    "inference": "This produces crawlable duplicate URL combinations. It is a concrete source of URL proliferation,not proof that all low traffic or Bing delay is caused by it.",
+    "www": "Current wwwHTTPS returns200;canonical non-www is correct but permanent redirect absent."
+  },
+  "measurementLimits": [
+    "Page-row impressions157and property total137have different aggregation;do not add page rows to claim property total.",
+    "Query table50impressions is not the whole137;do not describe it as exhaustive.",
+    "Tiny sample and pre-release period cannot identify penalty,prove snippet failure,or evaluate2Nov release effects.",
+    "Google indexing report is older than current sitemap report and inspected URL crawl;do not treat it as real-time coverage."
+  ],
+  "actionsNotPerformed": [
+    "No code edits",
+    "No deployment",
+    "No sitemap re-submission",
+    "No URL indexing requests",
+    "No robots/noindex changes"
+  ]
+}

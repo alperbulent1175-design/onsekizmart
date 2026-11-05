@@ -1,0 +1,57 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><title>Taraf süzgeci kontrolü</title>
+<style>body{background:#10202e;color:#eee;font:16px sans-serif}iframe{height:844px;border:1px solid #aaa}pre{white-space:pre-wrap}</style>
+<h1>Taraf süzgeci: masaüstü ve dar ekran</h1><pre id="result">Çalışıyor…</pre><div id="frames"></div>
+<script>
+(async function () {
+  var results = [];
+  for (var width of [320, 390, 1280]) {
+    var frame = document.createElement('iframe'); frame.style.width = width + 'px';
+    frame.src = '/?qa=side-filter-' + width + '-' + Date.now() + '#harita';
+    document.getElementById('frames').replaceChildren(frame);
+    await new Promise(resolve => frame.onload = resolve);
+    await new Promise(resolve => setTimeout(resolve, 600));
+    var doc = frame.contentDocument, win = frame.contentWindow, data = win.OM;
+    var checks = [];
+    function check(name, ok, detail) { checks.push({name:name, pass:!!ok, detail:detail}); }
+    function click(id) { doc.getElementById(id).click(); }
+    function snapshot() { return { title:doc.getElementById('panel-title').textContent,
+      meta:doc.getElementById('panel-meta').textContent, open:doc.getElementById('panel').classList.contains('open'),
+      status:doc.getElementById('side-filter-status').textContent, value:doc.getElementById('tl-range').value,
+      pins:Array.from(doc.querySelectorAll('#map .leaflet-marker-icon')).map(x => x.title).sort(),
+      count:doc.querySelectorAll('#event-list li').length }; }
+    function expectedPins(events) {
+      var ids = new Set(events.map(x=>x.place));
+      return data.places.concat(data.campaign.places).filter(x=>ids.has(x.id) && x.type !== 'kampanya').map(x=>x.name).sort();
+    }
+    click('tl-itilaf'); var allied = snapshot();
+    var pool = data.events.filter(x=>x.side === 'itilaf' || x.side === 'both');
+    check('İtilaf ilk uygun kaydı açar', allied.open && allied.title === pool[0].title && allied.value === String(pool[0].m), allied);
+    check('İtilaf listesi gerçek veriyle eşleşir', allied.count === pool.length, allied.count);
+    check('İtilaf işaretleri olay konumlarından gelir', JSON.stringify(allied.pins) === JSON.stringify(expectedPins(pool)), allied.pins);
+    click('filter-clear'); var cleared = snapshot();
+    check('Temizle tüm deniz kayıtlarını ve işaretleri geri getirir', cleared.count === data.events.length && cleared.pins.length === data.places.length, cleared);
+    check('Temizle uyumlu kaydı korur ve sonucu açıklar', cleared.title === allied.title && /Süzgeçler temizlendi/.test(cleared.status) && doc.getElementById('tl-both').getAttribute('aria-pressed') === 'true', cleared.status);
+    click('tl-turk'); var turk = snapshot();
+    check('Osmanlı İtilaf kaydında kalmaz', /Osmanlı|İki taraf/.test(turk.meta) && !/ · İtilaf · /.test(turk.meta), turk.meta);
+    click('filter-clear');
+    var shared = data.events.find(x=>x.side === 'both');
+    Array.from(doc.querySelectorAll('#event-list button')).find(x=>x.querySelector('h3').textContent === shared.title).click();
+    click('tl-itilaf'); var common = snapshot();
+    check('Ortak olay iki tarafta korunur ve açıklanır', common.title === shared.title && /İki taraf/.test(common.meta) && /ortak kayıt/.test(common.status), common);
+    click('filter-clear'); frame.src = '/?qa=side-filter-mode-' + width + '-' + Date.now() + '#harita';
+    await new Promise(resolve => frame.onload = resolve); await new Promise(resolve => setTimeout(resolve, 300));
+    doc = frame.contentDocument; click('mode-camp'); click('tl-itilaf'); click('mode-18');
+    check('Cepheden 18 Mart’a dönüşte İtilaf kaydı açılır', snapshot().open && snapshot().title === pool[0].title, snapshot());
+    click('mode-camp');
+    doc.querySelector('[data-camp="kara"]').click();
+    check('Taraf ve kara seçimi birleşir', /Kara/.test(doc.getElementById('panel-meta').textContent) || doc.querySelector('[data-camp="kara"]').getAttribute('aria-pressed') === 'true', doc.getElementById('camp-results').textContent);
+    click('filter-clear');
+    check('Temizle iki seçimi birlikte sıfırlar', doc.querySelector('[data-camp="all"]').getAttribute('aria-pressed') === 'true' && /44 \/ 44/.test(doc.getElementById('camp-results').textContent), doc.getElementById('camp-results').textContent);
+    var shipLayer = doc.querySelector('[data-layer="gemi"]'); shipLayer.click(); click('tl-itilaf'); click('filter-clear');
+    check('Temizle bağımsız katman seçimini değiştirmez', shipLayer.getAttribute('aria-pressed') === 'false');
+    check('Yatay taşma yok', doc.documentElement.scrollWidth <= doc.documentElement.clientWidth, {scroll:doc.documentElement.scrollWidth, client:doc.documentElement.clientWidth});
+    results.push({width:width, pass:checks.every(x=>x.pass), checks:checks});
+    document.getElementById('result').textContent = JSON.stringify(results, null, 2);
+  }
+})();
+</script></html>

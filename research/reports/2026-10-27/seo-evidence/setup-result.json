@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-27",
+  "scope": "Explicit user request: onsekizmart GSC and Bing sitemap/settings",
+  "gsc": {
+    "property": "sc-domain:onsekizmart.com",
+    "sitemap": "https://onsekizmart.com/sitemap.xml",
+    "status": "Sitemap processed successfully",
+    "discovered_pages": 88,
+    "home": "URL is on Google; page is indexed; user canonical and Google-selected inspected URL match https://onsekizmart.com/",
+    "robots": "All files are valid",
+    "https_report": "0 non-HTTPS; 40 HTTPS; no issues detected in last90days",
+    "manual_actions": "No issues detected",
+    "security_issues": "No issues detected",
+    "legacy_sitemap": "http://www.onsekizmart.com/sitemap.xml submitted2011 error remains as historical record; not removed"
+  },
+  "bing": {
+    "site": "https://onsekizmart.com/",
+    "ownership": "CNAME verified; site selectable and dashboard accessible",
+    "sitemap": "https://onsekizmart.com/sitemap.xml",
+    "status": "Success",
+    "discovered_pages": 88,
+    "errors": 0,
+    "warnings": 0,
+    "active_url_blocks": 0,
+    "crawl_control": "Default observed; no custom throttle added",
+    "lastCrawl": "2026-10-27",
+    "followup": "Processing completed;88 discovered URLs, not indexed-page count."
+  },
+  "dns": {
+    "authoritative": "Cloudflare elmo.ns.cloudflare.com / sandra.ns.cloudflare.com",
+    "zone_id": "4030b78aca7769d7e911367dfd629553",
+    "new_record_id": "cc9a4896f7bbda3543fc85a2e5beeffe",
+    "name": "8bd30a8e8874e8c8665d3cfbb3fa1a57.onsekizmart.com",
+    "type": "CNAME",
+    "content": "verify.bing.com",
+    "ttl": 300,
+    "proxied": false,
+    "readback": "Confirmed via Cloudflare API",
+    "correction": "Initially added same record to inactive Hostinger zone before checking authoritative nameservers. That harmless inactive record remains; actual verification succeeded after Cloudflare addition. No pre-existing record changed.",
+    "hostinger_prior_snapshot": 188871441,
+    "preserved": "All pre-existing MX, SPF, DKIM, DMARC, Google verification, A and www records"
+  },
+  "live_checks": {
+    "robots_http": 200,
+    "sitemap_http": 200,
+    "xml_urls": 88,
+    "http_root": "redirects to HTTPS",
+    "www": "serves200, HTML canonical points non-www; redirect consolidation remains optional",
+    "root_robots": "index, follow",
+    "x_robots_tag": null
+  },
+  "publication": "No atlas content deploy, commit or push. Only search-console submissions and additive ownership DNS records.",
+  "followup": "Bing sitemap processing completed; no repeated submission needed. Continue R03."
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="tr"><meta charset="utf-8"><title>Açılış bağlantısı ve harita araçları kontrolü</title>
+<style>body{font:16px system-ui;margin:16px}pre{white-space:pre-wrap;overflow-wrap:anywhere}iframe{display:block;height:780px;border:1px solid;max-width:100%}</style>
+<h1>Açılış bağlantısı ve harita araçları kontrolü</h1><p>Yerel tarayıcı kontrolü; tarihsel içerik üretmez.</p><pre id="result">Kontrol sürüyor</pre><div id="frames"></div>
+<script>
+const tools=[['tool-search','is-search-open'],['tool-filter','is-filter-open'],['tool-layers','is-layer-open']];
+const links=['?mevki=bouvet','?olay=e-may19','?dakika=600'];
+const results=[];
+function publish(){document.querySelector('#result').textContent=JSON.stringify({complete:results.length===21,results},null,2);}
+async function check(width,query,tool){
+ return new Promise(resolve=>{
+  const frame=document.createElement('iframe');frame.style.width=width+'px';frame.title=width+' piksel '+query+' '+(tool?.[0]||'müdahalesiz');frame.src='/'+query+'&qa=opening-tools-'+results.length+'#harita';document.querySelector('#frames').replaceChildren(frame);
+  let ticks=0;
+  const timer=setInterval(()=>{
+   const d=frame.contentDocument, title=d?.querySelector('#panel-title')?.textContent;
+   if(!title){if(++ticks>1500){clearInterval(timer);results.push({width,query,tool:tool?.[0],error:'Atlas başlatılamadı'});publish();resolve();}return;}
+   clearInterval(timer);
+   const initial=frame.contentWindow.OM.events[0].title;
+   if(tool){d.querySelector('#'+tool[0]).focus();d.querySelector('#'+tool[0]).click();}
+   const active=d.activeElement?.id;
+   setTimeout(()=>{
+    const after=d.querySelector('#panel-title').textContent;
+    results.push({width,query,tool:tool?.[0]||null,startedBeforeLink:title===initial,
+     selectionPreserved:tool?after===title:after!==title,
+     toolOpen:tool?d.body.classList.contains(tool[1]):null,
+     focusPreserved:tool?d.activeElement?.id===active:null,
+     pageOverflow:d.documentElement.scrollWidth>d.documentElement.clientWidth,
+     titleAfter:after});publish();resolve();
+   },700);
+  },10);
+ });
+}
+(async()=>{for(const width of [320,390])for(const query of links)for(const tool of tools)await check(width,query,tool);for(const query of links)await check(390,query,null);})();
+</script></html>
