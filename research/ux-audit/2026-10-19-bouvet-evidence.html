@@ -1,0 +1,16 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><title>Bouvet kanıtı dar ekran kontrolü</title><style>body{font:16px system-ui;margin:16px}iframe{display:block;height:900px;border:1px solid #999;margin:16px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere}</style><h1>Bouvet kanıtı dar ekran kontrolü</h1><pre id="result">Kontrol sürüyor</pre><div id="frames"></div><script>
+const results=[];
+for(const width of [320,390]){
+ const frame=document.createElement('iframe');frame.style.width=width+'px';frame.title=width+' piksel atlas';frame.src='/?mevki=bouvet#harita';document.querySelector('#frames').append(frame);
+ frame.onload=()=>{let tries=0;const timer=setInterval(()=>{
+  const d=frame.contentDocument,details=d.querySelector('.panel-evidence');
+  if(!details){if(++tries>50){clearInterval(timer);results.push({width,error:'Kanıt kartı açılmadı'});document.querySelector('#result').textContent=JSON.stringify(results,null,2);}return;}
+  clearInterval(timer);details.open=true;
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{
+   details.scrollIntoView({block:'start'});
+   results.push({width,title:d.querySelector('#panel-title').textContent,open:details.open,pageOverflow:d.documentElement.scrollWidth>d.documentElement.clientWidth,panelOverflow:details.scrollWidth>details.clientWidth,summaryHeight:details.querySelector('summary').getBoundingClientRect().height,translationVisible:details.textContent.includes('Türkçe çeviri (atlas): Yalnızca 66 kişi kurtarıldı.'),limitVisible:details.textContent.includes('kesinleşmiş kurtulan toplamı veya eksiksiz personel cetveli değildir'),quote:details.querySelector('blockquote').textContent,links:[...details.querySelectorAll('a')].map(a=>({text:a.textContent,height:a.getBoundingClientRect().height,href:a.href}))});
+   document.querySelector('#result').textContent=JSON.stringify(results,null,2);
+  }));
+ },200);};
+}
+</script></html>

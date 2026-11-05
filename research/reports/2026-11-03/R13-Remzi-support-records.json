@@ -1,0 +1,53 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/remzi-bey/",
+    "sources": [
+      "belleten-alkan"
+    ],
+    "summary": "Makalede Ali Remzi Bey, 7. Tümen komutanı olarak anılır.",
+    "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Ad ve tümen görevi için kısmi destek",
+      "summary": "İncelenen makalede Ali Remzi Bey, 7. Tümen komutanı olarak anılır. Bu kayıt yaşam tarihlerini, kesin görev günlerini veya günlük hareketlerini topluca belgelemez.",
+      "reasons": [
+        "Mevcut incelemenin dayanağı yayımlanmış araştırmadaki ad ve görev aktarımıdır. Bu kapsam özgün atama emrinin veya bütün biyografinin incelendiği anlamına gelmez; boş yaşam alanları tahminle doldurulmadı.",
+        "Haritadaki tümen işareti sorumluluk sahasını temsil eder. Aynı işarette listelenen bir olay, komutanın o anda orada bulunduğunun bağımsız kanıtı değildir."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "17 Ekim mevcut incelemesinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+      "sourceRefs": [
+        "https://belleten.gov.tr/tam-metin/279/tur"
+      ]
+    }
+  },
+  "sha256": "4cbf0701595c94519fbb52264438956a7c33041ccb5de908ffb31b954a6e6b2d",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Remzi-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adımı kabul; genel R13 açık."
+}

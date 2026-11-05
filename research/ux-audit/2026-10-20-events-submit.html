@@ -1,0 +1,27 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><title>Olay aramasından sonuçlara geçiş</title>
+<style>body{font:16px system-ui;margin:12px}pre{white-space:pre-wrap;overflow-wrap:anywhere}iframe{display:block;height:844px;border:1px solid}</style>
+<h1>Olay aramasından sonuçlara geçiş</h1><pre id="result">Kontrol sürüyor</pre><div id="frames"></div>
+<script>
+const results=[];
+async function check(width,empty){return new Promise(resolve=>{
+ const frame=document.createElement('iframe');frame.style.width=width+'px';frame.title=width+' piksel '+(empty?'boş':'eşleşen')+' arama';
+ frame.onload=()=>{
+  frame.onload=null;const d=frame.contentDocument,w=frame.contentWindow,q=d.querySelector('#events-query'),category=d.querySelector('#events-category'),form=d.querySelector('#events-tools');
+  q.value=empty?'yazılım testi eşleşmeyen sorgu':'Arıburnu';category.value='kara';q.focus();q.dispatchEvent(new Event('input',{bubbles:true}));
+  const locationBefore=w.location.href;form.querySelector('button[type=submit]').click();
+  setTimeout(()=>{
+   const target=d.getElementById(empty?'events-count':'events-results'),rect=target.getBoundingClientRect(),nav=d.querySelector('.nav').getBoundingClientRect();
+   const result={width,empty,focus:d.activeElement.id,targetTop:Math.round(rect.top),targetVisible:rect.top>=nav.bottom-1&&rect.top<w.innerHeight,
+    visibleRows:[...d.querySelectorAll('.roster > li')].filter(row=>!row.hidden).length,
+    query:q.value,category:category.value,urlUnchangedOnSubmit:w.location.href===locationBefore,
+    hash:w.location.hash,ref:new URL(w.location.href).searchParams.get('ref'),
+    buttonHeights:[...form.querySelectorAll('button')].map(button=>Math.round(button.getBoundingClientRect().height)),
+    pageOverflow:d.documentElement.scrollWidth>d.documentElement.clientWidth};
+   d.querySelector('#events-clear').click();result.clearedFocus=d.activeElement.id;result.clearedCount=[...d.querySelectorAll('.roster > li')].filter(row=>!row.hidden).length;result.clearedQuery=q.value;result.clearedCategory=category.value;
+   results.push(result);document.querySelector('#result').textContent=JSON.stringify({complete:results.length===10,results},null,2);resolve();
+  },700);
+ };
+ frame.src='/olaylar/?qa=events-submit-final-'+width+'-'+empty+'&ref=keep#events-tools';document.querySelector('#frames').replaceChildren(frame);
+});}
+(async()=>{for(const width of [320,390,601,768,1280])for(const empty of [false,true])await check(width,empty);})();
+</script></html>

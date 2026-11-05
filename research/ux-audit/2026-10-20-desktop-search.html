@@ -1,0 +1,13 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><title>Masaüstü atlas araması</title>
+<style>body{font:16px system-ui;margin:12px}pre{white-space:pre-wrap;overflow-wrap:anywhere}iframe{display:block;width:1280px;height:850px;border:1px solid}</style>
+<h1>Masaüstü araması sırasında oynatma</h1><pre id="result">Kontrol sürüyor</pre><iframe id="preview" title="1280 piksel atlas araması" src="/?qa=desktop-search-play#harita"></iframe>
+<script>
+const frame=document.querySelector('#preview');let tries=0;
+const timer=setInterval(()=>{
+ const d=frame.contentDocument,title=d?.querySelector('#panel-title')?.textContent;
+ if(!title){if(++tries>1500){clearInterval(timer);document.querySelector('#result').textContent=JSON.stringify({error:'Atlas başlatılamadı'});}return;}
+ clearInterval(timer);const play=d.querySelector('#tl-play'),q=d.querySelector('#q');play.click();const playingBefore=play.getAttribute('aria-pressed');q.focus();q.value='Bouvet';q.dispatchEvent(new Event('input',{bubbles:true}));
+ const stoppedOnSearch=play.getAttribute('aria-pressed')==='false';
+ setTimeout(()=>{document.querySelector('#result').textContent=JSON.stringify({width:d.documentElement.clientWidth,playingBefore,stoppedOnSearch,playingAfter:play.getAttribute('aria-pressed'),titleBefore:title,titleAfter:d.querySelector('#panel-title').textContent,query:q.value,resultCount:d.querySelectorAll('#q-results button').length,resultsOpen:!d.querySelector('#q-results').hidden,focus:d.activeElement?.id,playbackHidden:d.querySelector('#map-playback').hidden,pageOverflow:d.documentElement.scrollWidth>d.documentElement.clientWidth},null,2);},3300);
+},10);
+</script></html>

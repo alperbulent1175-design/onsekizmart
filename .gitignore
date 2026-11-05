@@ -20,3 +20,9 @@ research/photo-archive/**/*.jpg
 venv/
 env/
 
+
+# Local tool config / scratch output
+.codex/
+tmp/
+eurorailtimes-production/
+eurorailtimes-search.png

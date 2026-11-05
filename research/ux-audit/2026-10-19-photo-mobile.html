@@ -1,0 +1,10 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Fotoğraf dar ekran kontrolü</title>
+<style>body{margin:16px;font:14px system-ui;background:#e7e5e0}main{display:flex;gap:16px;align-items:start}section{flex:none}h2{font-size:16px}output{display:block;white-space:pre-wrap;font-size:12px;min-height:60px}iframe{border:1px solid #888;width:320px;height:640px}section:nth-child(2) iframe{width:390px;height:760px}section:nth-child(3) iframe{width:760px;height:390px}</style></head>
+<body><h1>Fotoğraf görüntüleyicisi — dar tarayıcı görünümleri</h1><p>Gerçek telefon testi değildir.</p><main>
+<section><h2>320 × 640 · uzun künye numarası</h2><output></output><iframe title="320 piksel fotoğraf" src="/fotograf-arsivi/?q=P11165.024.001&amp;qa=20261019c#foto-P11165.024.001"></iframe></section>
+<section><h2>390 × 760 · iki fotoğraf</h2><output></output><iframe title="390 piksel fotoğraf" src="/olaylar/18-mart-deniz-muharebesi/?qa=20261019c#foto-A02360"></iframe></section>
+<section><h2>760 × 390 · yatay görünüm</h2><output></output><iframe title="Yatay fotoğraf" src="/olaylar/18-mart-deniz-muharebesi/?qa=20261019c#foto-A02360"></iframe></section>
+</main><script>document.querySelectorAll('iframe').forEach(function(frame){frame.addEventListener('load',function(){setTimeout(function(){
+var doc=frame.contentDocument,dialog=doc.querySelector('.photo-viewer'),bar=dialog&&dialog.firstElementChild;
+frame.previousElementSibling.textContent=dialog&&dialog.open?'Pencere: '+dialog.clientWidth+' px · İçerik: '+dialog.scrollWidth+' px\nÜst araçlar: '+Math.round(bar.getBoundingClientRect().height)+' px\nAçık: '+dialog.querySelector('h2').textContent:'Fotoğraf açılmadı';
+},1000);});});</script></body></html>

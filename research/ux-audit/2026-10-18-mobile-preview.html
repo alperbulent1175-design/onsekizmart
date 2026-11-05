@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Yerel dar ekran kontrolü</title>
+<style>body{margin:16px;background:#e7e5e0;color:#18232d;font:14px system-ui}main{display:flex;gap:16px;align-items:start}section{width:390px;flex:none}h2{font-size:16px}iframe{width:390px;height:760px;border:1px solid #999;background:#0d1823}output{display:block;white-space:pre-wrap;font-size:12px;min-height:42px}</style></head>
+<body><h1>390 × 760 CSS piksel — yerel görünüm kontrolü</h1><p>Dar tarayıcı görünümü; gerçek telefon/dokunma testi değildir.</p><main>
+<section><h2>Ana sayfa</h2><output></output><iframe title="Ana sayfa dar ekran" src="/"></iframe></section>
+<section><h2>Olay okuma</h2><output></output><iframe title="Olay sayfası dar ekran" src="/olaylar/ariburnu-genel-taarruzu/#kisa-bakis"></iframe></section>
+<section><h2>Harita ve seçili kayıt</h2><output></output><iframe title="Harita dar ekran" src="/?dakika=854&amp;deniz=inflexible-mayinlanir#harita"></iframe></section>
+</main><script>
+document.querySelectorAll('iframe').forEach(function(frame){frame.addEventListener('load',function(){setTimeout(function(){
+var doc=frame.contentDocument,root=doc.documentElement,hero=doc.getElementById('giris');
+var report='Genişlik: '+root.clientWidth+' · İçerik: '+root.scrollWidth+' · Yatay taşma: '+(root.scrollWidth>root.clientWidth?'VAR':'yok');
+if(hero)report+='\nGiriş yüksekliği: '+Math.round(hero.getBoundingClientRect().height)+' px';
+var actions=doc.querySelector('.event-actions'),target=doc.getElementById('kisa-bakis');
+if(actions&&target)report+='\nSabit bağlantı: '+Math.round(actions.getBoundingClientRect().height)+' px · Başlık payı: '+doc.defaultView.getComputedStyle(target).scrollMarginTop;
+frame.previousElementSibling.textContent=report;
+},1000);});});
+</script></body></html>

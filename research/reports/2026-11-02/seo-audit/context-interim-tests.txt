@@ -1,0 +1,30 @@
+✔ temiz bağlantılarla harita–olay–komutan–olay dönüşü ve geçmiş bağlamı korunur (15.0817ms)
+✔ yanlış hedef, süresi geçmiş ve dış adresli oturum bağlamı güvenli dönüş oluşturmaz (5.8807ms)
+✔ depolama engelliyken temiz bağlantı okunabilir kalır ve eski paylaşılan URL çalışır (1.6603ms)
+✔ olay sayfası haritadan seçilen kayda geri döner (3.0122ms)
+✔ dış adres, bilinmeyen parametre ve bozuk dönüş varsayılan bağlantıyı değiştirmez (8.3909ms)
+✔ olay listesinden dönüş aramayı korur ve dış hedefleri reddeder (11.6002ms)
+✔ komutan sayfasından güvenli arama dönüşü korunur; dış hedef ve bozuk süzgeç reddedilir (12.3414ms)
+✔ olaydan komutana geçiş liste ve harita dönüşünü taşır; dış hedefleri değiştirmez (2.0146ms)
+✔ komutanın olay dönüşü yalnız yerel olay ve doğrulanmış iç dönüş adreslerini kabul eder (9.554ms)
+✔ önceki ve sonraki kayıtlar aramaya dönüşü taşır, dış hedef ve harita bağlantısı korunur (2.8273ms)
+✔ haritadan gemi kartına dönüş aynı mevki ve güvenli arama bağlamıyla sınırlıdır (13.9294ms)
+✔ kanıt ve ayrıntı bağlantıları sorguyu ve bölüm çapasını koruyarak aynı kayda dönüş taşır (2.8506ms)
+✔ kanıt sayfasından dönüş mevki, olay ve aynı dakikadaki deniz kaydını ayırt eder (9.4888ms)
+✔ dış hedeflere veya tarayıcının dış adrese dönüştürdüğü yollara dönüş bilgisi eklenmez (9.4654ms)
+✔ kanıt bağlantısı tarayıcı kısayollarını engellemez ve iptal edilmiş tıklama görünümü değiştirmez (2.0084ms)
+✔ genel inceleme yedeğinde haritaya dönüş için görünür bağlantı bulunur (5.0482ms)
+✔ olay komşuları ve metin içi olay bağlantıları seçili harita kaydına dönüşü taşır (17.5427ms)
+✔ okuma boyunca harita seçimi ve liste araması birlikte korunur; eski parametreler çoğalmaz (3.6822ms)
+✔ okuma bağlamı sayfa içi çapalara, dış hedeflere veya mevcut olayın harita bağlantısına eklenmez (1.3628ms)
+✔ iki dönüş bilgisinden yalnız geçerli olanı olay bağlantılarına taşınır (2.0989ms)
+✔ dönüş bilgisi olmayan veya bütünüyle geçersiz olan sayfada olay bağlantıları değişmez (1.6092ms)
+✔ aynı olayı yeniden açan bağlantı dönüş bilgisini korurken mevcut sayfa içi çapa değişmez (7.8956ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 298.1909

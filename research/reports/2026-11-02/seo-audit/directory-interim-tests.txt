@@ -1,0 +1,32 @@
+✔ Esc komutan aramasını temizlerken tarafı, paylaşımı ve odağı korur (11.4069ms)
+✔ komutan araması Türkçe ve aksanlı adları, görevleri ve çok sözcüğü bulur (3.6597ms)
+✔ taraf süzgeci, boş sonuç, temizleme ve paylaşılabilir arama adresi tutarlı kalır (3.8765ms)
+✔ gizli taraf bölümüne normal bağlantı açılır; değiştirici tuşlu tıklama süzgeci bozmaz (4.757ms)
+✔ JavaScript olmadan 25 komutan bağlantısı ve taraf başlıkları görünür kalır (2.4394ms)
+✔ tarayıcı geçmişi değişince arama ve taraf URL ile yeniden eşleşir (4.0341ms)
+✔ geçmişte gizli bölüm hash değeri aramayı temizlemez; önbellekten dönüş URL ile eşleşir (2.862ms)
+✔ temiz komutan bağlantısı son arama ve taraf dönüşünü oturumda korur (2.633ms)
+✔ olay aramasının URL metni 200 karakterle sınırlanır ve güvenli dönüş üretir (12.9468ms)
+✔ Esc olay aramasını temizlerken bölümü ve dönüş bağlantısını korur (5.417ms)
+✔ olay dizini Türkçe arama ile bölüm seçimini birleştirir (4.5916ms)
+✔ paylaşılan bağlantı Türkçe aramayı ve bölümü açılışta uygular (4.7907ms)
+✔ süzgeç değişimi diğer URL alanlarını ve geçmiş durumunu korur, temizleme yalnız kendi alanlarını kaldırır (5.8674ms)
+✔ geri dönüş ve sayfa önbelleğinden açılış URL durumunu uygular; geçersiz bölüm bütününü gösterir (4.027ms)
+✔ geçmiş erişimi engellense de süzgeç ve temizleme çalışır (3.6291ms)
+✔ olay dizini temizleme ile tüm kayıtları ve odağı geri getirir (4.1589ms)
+✔ olay araması tarih ve ad kelimelerini sıra bağımsız birleştirir (4.6213ms)
+✔ gizlenen bölüme bağlantı aramayı temizler ve ilgili ana bölümü gösterir (4.2995ms)
+✔ aynı bölüm bağlantısı gizli hedefi açar; geçmiş dönüşündeki arama korunur (3.2995ms)
+✔ olay ayrıntı bağlantısı arama ve bölümü liste dönüşüne taşır (3.0754ms)
+✔ canlı olay araması ve bölüm değişimi odağı ya da okuma konumunu taşımaz (4.3062ms)
+✔ form gönderimi güncel arama sonucuna gider ve sorgu, dönüş ile geçmiş bağlamını korur (3.0694ms)
+✔ boş sonuç gönderimi açıklamaya odaklanır; temizleme yeniden arama alanını açar (2.9985ms)
+✔ temiz olay bağlantısının tıklaması en son liste süzgecini tek kullanımlık bağlama kaydeder (2.9415ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 229.1677

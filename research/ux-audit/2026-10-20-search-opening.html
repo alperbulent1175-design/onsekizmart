@@ -1,0 +1,18 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><title>Arama ve açılış bağlantısı</title>
+<style>body{font:16px system-ui;margin:12px}pre{white-space:pre-wrap;overflow-wrap:anywhere}iframe{display:block;width:1280px;height:850px;border:1px solid}</style>
+<h1>Arama ve açılış bağlantısı</h1><pre id="result">Kontrol sürüyor</pre><div id="frames"></div>
+<script>
+const results=[],queries=['?mevki=bouvet','?olay=e-may19','?dakika=600'];
+async function check(query,search){return new Promise(resolve=>{
+ const frame=document.createElement('iframe');frame.title='1280 piksel '+query+' '+(search?'arama':'müdahalesiz');frame.src='/'+query+'&qa=search-opening-'+results.length+'#harita';document.querySelector('#frames').replaceChildren(frame);let tries=0;
+ const timer=setInterval(()=>{
+  const d=frame.contentDocument,title=d?.querySelector('#panel-title')?.textContent;
+  if(!title){if(++tries>1500){clearInterval(timer);results.push({query,search,error:'Atlas başlatılamadı'});publish();resolve();}return;}
+  clearInterval(timer);const beforeLink=title===frame.contentWindow.OM.events[0].title;
+  if(search){const q=d.querySelector('#q');q.focus();q.value='Bouvet';q.dispatchEvent(new Event('input',{bubbles:true}));}
+  setTimeout(()=>{results.push({query,search,startedBeforeLink:beforeLink,selectionPreserved:search?d.querySelector('#panel-title').textContent===title:d.querySelector('#panel-title').textContent!==title,queryAfter:d.querySelector('#q').value,focus:d.activeElement?.id,resultCount:d.querySelectorAll('#q-results button').length,playing:d.querySelector('#tl-play').getAttribute('aria-pressed'),pageOverflow:d.documentElement.scrollWidth>d.documentElement.clientWidth});publish();resolve();},700);
+ },10);
+});}
+function publish(){document.querySelector('#result').textContent=JSON.stringify({complete:results.length===6,results},null,2);}
+(async()=>{for(const query of queries)await check(query,true);for(const query of queries)await check(query,false);})();
+</script></html>

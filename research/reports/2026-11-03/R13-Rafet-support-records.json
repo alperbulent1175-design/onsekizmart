@@ -1,0 +1,55 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/rafet-bey-bele/",
+    "sources": [
+      "belleten-alkan",
+      "csa-33"
+    ],
+    "summary": "Kaynaklarda 11. Tümen komutanı Rafet Bey adı geçer; Bele soyadıyla kimlik eşleştirmesi bu kayıtlardan kurulamaz.",
+    "open": "Rafet Bey adının Bele soyadıyla kimlik eşleştirmesi kurulamadı; yaşam alanları bu nedenle kaldırılmıştır. Kesin görev günleri ve günlük hareketler için belge karşılaştırması açıktır.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Rafet Bey adı var, Bele eşleştirmesi açık",
+      "summary": "İncelenen kaynaklarda 11. Tümen komutanı Rafet Bey adı geçer. Bu kayıtlar Bele soyadıyla aynı kişi olduğunu göstermediğinden yaşam tarihleri eklenmedi.",
+      "reasons": [
+        "Mevcut araştırma ve alay maddesi incelemesi ad ile görev için kısmi destek sağlar; soyadı ve kişi kimliği bu kapsamdan çıkarılamaz. Başka bir kişiye ait olabilecek doğum ve ölüm alanları kaldırılmıştır.",
+        "Birlik sorumluluk sahası ve harita işareti kişinin günlük bulunduğu yer değildir. Görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler topluca doğrulanmış sayılmaz."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "17 Ekim mevcut incelemesinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+      "sourceRefs": [
+        "https://belleten.gov.tr/tam-metin/279/tur",
+        "https://canakkalesavaslariansiklopedisi.com/33uncu-piyade-alayi/"
+      ]
+    }
+  },
+  "sha256": "c07f6b35b24762f1fe9fb56dd8bf2a4e8a4493a11a9962700d9a579f7768f37c",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Rafet-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      305,
+      305
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adımı kabul; genel R13 açık."
+}

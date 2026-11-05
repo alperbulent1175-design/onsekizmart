@@ -1,0 +1,12 @@
+<!doctype html><html lang="tr"><meta charset="utf-8"><title>Mobil harita araçları ve oynatma</title><style>body{font:16px system-ui;margin:12px}pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:360px;overflow:auto}iframe{display:block;height:780px;border:1px solid;margin:16px 0}</style><h1>Mobil harita araçları ve oynatma</h1><pre id="result">Kontrol sürüyor</pre><div id="frames"></div><script>
+const results=[];
+for(const width of [320,390])for(const [id,cls] of [['tool-search','is-search-open'],['tool-filter','is-filter-open'],['tool-layers','is-layer-open']]){
+ const frame=document.createElement('iframe');frame.style.width=width+'px';frame.title=width+' piksel '+id;frame.src='/?mevki=bouvet&qa=tool-play-'+width+'-'+id+'#harita';document.querySelector('#frames').append(frame);
+ frame.onload=()=>{const d=frame.contentDocument;let tries=0;const timer=setInterval(()=>{
+  if(d.querySelector('#panel-title')?.textContent!=='Bouvet mayına çarpar'){if(++tries>70){clearInterval(timer);results.push({width,id,error:'Açılış seçimi tamamlanmadı'});document.querySelector('#result').textContent=JSON.stringify(results,null,2);}return;}
+  clearInterval(timer);const title=d.querySelector('#panel-title').textContent,play=d.querySelector('#tl-play');play.click();const playingBefore=play.getAttribute('aria-pressed');d.querySelector('#'+id).click();
+  const stoppedOnOpen=play.getAttribute('aria-pressed')==='false';
+  setTimeout(()=>{results.push({width,id,playingBefore,stoppedOnOpen,playingAfter:play.getAttribute('aria-pressed'),toolOpen:d.body.classList.contains(cls),titleUnchanged:d.querySelector('#panel-title').textContent===title,pageOverflow:d.documentElement.scrollWidth>d.documentElement.clientWidth,playbackHidden:d.querySelector('#map-playback').hidden});document.querySelector('#result').textContent=JSON.stringify(results,null,2);},3300);
+ },100);};
+}
+</script></html>

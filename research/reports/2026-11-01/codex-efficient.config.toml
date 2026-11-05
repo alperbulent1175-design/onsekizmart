@@ -1,0 +1,10 @@
+# Atlas project defaults; model and security settings inherit user configuration.
+model_reasoning_effort = "low"
+model_verbosity = "low"
+tool_output_token_limit = 2000
+
+[skills]
+max_context_tokens = 2000
+
+[features]
+multi_agent = false
