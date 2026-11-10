@@ -1,0 +1,256 @@
+(function () {
+  "use strict";
+  // Reading context belongs to this browser visit, not to crawlable link URLs.
+  var readingContextKey = 'om-reading-context-v1';
+  var returnKeys = ['atlasaDon', 'olayaDon', 'listeyeDon', 'fotografaDon', 'komutanlaraDon', 'donanmayaDon'];
+  function readingContext() {
+    try {
+      var current = new URL(window.location.href);
+      var state = window.history && window.history.state && window.history.state.omReadingContext;
+      var pending = JSON.parse(window.sessionStorage.getItem(readingContextKey));
+      function valid(value, age) {
+        return value && value.target === current.pathname && Number.isFinite(value.savedAt) &&
+          Date.now() >= value.savedAt && Date.now() - value.savedAt <= age &&
+          value.params && typeof value.params === 'object' && !Array.isArray(value.params);
+      }
+      if (valid(pending, 60000)) {
+        state = pending;
+        if (window.history && window.history.replaceState) {
+          window.history.replaceState(Object.assign({}, window.history.state, { omReadingContext: state }), '', window.location.href);
+        }
+        window.sessionStorage.removeItem(readingContextKey);
+      }
+      return valid(state, 30 * 60 * 1000) ? state.params : {};
+    } catch (error) { return {}; }
+  }
+  var storedReadingContext = readingContext();
+  function contextParam(key) {
+    if (typeof URLSearchParams === 'undefined') return '';
+    var params = new URLSearchParams(window.location.search || '');
+    if (params.has(key)) return params.getAll(key).length === 1 ? params.get(key) : '';
+    return typeof storedReadingContext[key] === 'string' ? storedReadingContext[key] : '';
+  }
+  function carryReadingContext(link, params) {
+    try {
+      var destination = new URL(link.href, window.location.href);
+      if (destination.origin !== new URL(window.location.href).origin) return;
+      var context = {};
+      returnKeys.forEach(function (key) {
+        if (destination.searchParams.getAll(key).length === 1) context[key] = destination.searchParams.get(key);
+        destination.searchParams.delete(key);
+        if (params && typeof params[key] === 'string' && params[key]) context[key] = params[key];
+      });
+      link.href = destination.pathname + destination.search + destination.hash;
+      link.omReadingParams = context;
+      if (!link.addEventListener || link.omReadingBound) return;
+      link.omReadingBound = true;
+      link.addEventListener('click', function (event) {
+        if (event.defaultPrevented) return;
+        try {
+          var target = new URL(link.href, window.location.href);
+          window.sessionStorage.setItem(readingContextKey, JSON.stringify({
+            target: target.pathname, targetSearch: target.search, savedAt: Date.now(), params: link.omReadingParams
+          }));
+        } catch (error) { /* Clean links still work when session storage is blocked. */ }
+      });
+    } catch (error) { /* Keep ordinary navigation available. */ }
+  }
+  // Directory scripts use the same handoff instead of adding return queries.
+  window.OMReadingContext = { carry: carryReadingContext };
+  function atlasReturnUrl(value) {
+    if (!value || value.length > 1000 || value.indexOf("/?") !== 0) return "";
+    try {
+      var url = new URL(value, window.location.href);
+      if (url.origin !== window.location.origin || url.pathname !== "/" || url.hash !== "#harita") return "";
+      var allowed = ["olay", "mevki", "dakika", "deniz"];
+      var keys = Array.from(url.searchParams.keys());
+      if (keys.some(function (key) { return allowed.indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return "";
+      var event = keys.length === 1 && (keys[0] === "olay" || keys[0] === "mevki");
+      var naval = keys.indexOf("dakika") !== -1 && keys.every(function (key) { return key === "dakika" || key === "deniz"; }) && /^\d{1,4}$/.test(url.searchParams.get("dakika"));
+      if ((!event && !naval) || keys.some(function (key) { return !url.searchParams.get(key).trim(); })) return "";
+      return url.pathname + url.search + url.hash;
+    } catch (error) { return ""; }
+  }
+  function eventListReturnUrl(value) {
+    if (!value || value.length > 4000 || value.indexOf('/olaylar/') !== 0) return '';
+    try {
+      var url = new URL(value, window.location.href);
+      if (url.origin !== window.location.origin || url.pathname !== '/olaylar/' || url.hash !== '#events-tools') return '';
+      var keys = Array.from(url.searchParams.keys());
+      if (keys.some(function (key) { return ['q', 'bolum'].indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return '';
+      if ((url.searchParams.get('q') || '').length > 200) return '';
+      if (url.searchParams.has('bolum') && ['deniz', 'kara', 'tahliye'].indexOf(url.searchParams.get('bolum')) === -1) return '';
+      return url.pathname + url.search + url.hash;
+    } catch (error) { return ''; }
+  }
+  function commandersReturnUrl(value) {
+    if (!value || value.length > 4000 || value.indexOf('/komutanlar/') !== 0) return '';
+    try {
+      var url = new URL(value, window.location.href);
+      if (url.origin !== window.location.origin || url.pathname !== '/komutanlar/' || url.hash !== '#commanders-search') return '';
+      var keys = Array.from(url.searchParams.keys());
+      if (keys.some(function (key) { return ['q', 'taraf'].indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return '';
+      if (url.searchParams.has('q') && url.searchParams.get('q').length > 200) return '';
+      if (url.searchParams.has('taraf') && ['osmanli', 'itilaf'].indexOf(url.searchParams.get('taraf')) === -1) return '';
+      return url.pathname + url.search + url.hash;
+    } catch (error) { return ''; }
+  }
+  function eventReturnUrl(value) {
+    if (!value || value.length > 8000 || value.indexOf('/olaylar/') !== 0) return '';
+    try {
+      var url = new URL(value, window.location.href);
+      if (url.origin !== window.location.origin || !/^\/olaylar\/[a-z0-9-]+\/$/.test(url.pathname)) return '';
+      if (url.hash && !/^#[a-z0-9-]+$/.test(url.hash)) return '';
+      var keys = Array.from(url.searchParams.keys());
+      if (keys.some(function (key) { return ['listeyeDon', 'atlasaDon', 'fotografaDon'].indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return '';
+      if (url.searchParams.has('listeyeDon') && !eventListReturnUrl(url.searchParams.get('listeyeDon'))) return '';
+      if (url.searchParams.has('atlasaDon') && !atlasReturnUrl(url.searchParams.get('atlasaDon'))) return '';
+      if (url.searchParams.has('fotografaDon') && !photoReturnUrl(url.searchParams.get('fotografaDon'))) return '';
+      return url.pathname + url.search + url.hash;
+    } catch (error) { return ''; }
+  }
+  function photoReturnUrl(value) {
+    if (!value || value.length > 4000 || value.indexOf('/fotograf-arsivi/') !== 0) return '';
+    try {
+      var url = new URL(value, window.location.href);
+      if (url.origin !== window.location.origin || url.pathname !== '/fotograf-arsivi/' || url.hash.indexOf('#foto-') !== 0 || !/^[A-Za-z0-9][A-Za-z0-9 ._-]{0,99}$/.test(decodeURIComponent(url.hash.slice(6)))) return '';
+      var keys = Array.from(url.searchParams.keys());
+      if (keys.some(function (key) { return ['q', 'tur'].indexOf(key) === -1 || url.searchParams.getAll(key).length !== 1; })) return '';
+      if ((url.searchParams.get('q') || '').length > 200) return '';
+      if (url.searchParams.has('tur') && ['gemiler', 'denizciler', 'komutanlar', 'olaylar'].indexOf(url.searchParams.get('tur')) === -1) return '';
+      return url.pathname + url.search + url.hash;
+    } catch (error) { return ''; }
+  }
+  var photoReturn = photoReturnUrl(contextParam('fotografaDon'));
+  if (photoReturn) {
+    var photoMain = document.querySelector('.page-main');
+    if (photoMain && !document.getElementById('photo-context-return')) {
+      var photoBack = document.createElement('p');
+      photoBack.id = 'photo-context-return';
+      var photoLink = document.createElement('a');
+      photoLink.className = 'btn'; photoLink.href = photoReturn; photoLink.textContent = 'Fotoğrafa dön';
+      photoBack.appendChild(photoLink); photoMain.insertBefore(photoBack, photoMain.firstChild);
+    }
+  }
+  var eventReturn = eventReturnUrl(contextParam('olayaDon'));
+  if (eventReturn) {
+    var backToList = document.querySelector('.back-link');
+    if (backToList && !document.getElementById('event-context-return')) {
+      var backToEvent = document.createElement('p');
+      backToEvent.id = 'event-context-return';
+      var eventLink = document.createElement('a');
+      eventLink.className = 'btn';
+      eventLink.href = eventReturn;
+      carryReadingContext(eventLink);
+      eventLink.textContent = 'Okuduğunuz olaya dön';
+      backToEvent.appendChild(eventLink);
+      backToList.parentNode.insertBefore(backToEvent, backToList);
+    }
+  }
+  var commandersReturn = commandersReturnUrl(contextParam('komutanlaraDon'));
+  if (commandersReturn) {
+    document.querySelectorAll('.back-link a[href^="/komutanlar/"]').forEach(function (link) {
+      link.href = commandersReturn;
+      link.textContent = 'Komutan aramasına dön';
+    });
+  }
+  var listReturn = eventListReturnUrl(contextParam('listeyeDon'));
+  if (listReturn) {
+    document.querySelectorAll('.event-actions a[href^="/olaylar/"], .back-link a[href^="/olaylar/"], .event-all-records a').forEach(function (link) {
+      link.href = listReturn;
+      link.textContent = 'Arama sonuçlarına dön';
+    });
+  }
+  var returnUrl = "";
+  if (window.location && typeof URLSearchParams !== "undefined") {
+    returnUrl = atlasReturnUrl(contextParam("atlasaDon"));
+  }
+  if (returnUrl) {
+    document.querySelectorAll(".event-map-action").forEach(function (link) {
+      link.href = returnUrl;
+      link.textContent = "Seçili kayda dön";
+    });
+  }
+  if (listReturn || returnUrl || photoReturn) {
+    document.querySelectorAll('.page-main a[href]').forEach(function (link) {
+      try {
+        var current = new URL(window.location.href);
+        var url = new URL(link.href, current.href);
+        if (url.origin !== current.origin || !/^\/olaylar\/[^/]+\/$/.test(url.pathname) ||
+            (url.pathname === current.pathname && url.search === current.search)) return;
+        carryReadingContext(link, { listeyeDon: listReturn, atlasaDon: returnUrl, fotografaDon: photoReturn });
+      } catch (error) { /* Invalid editorial links must not interrupt navigation. */ }
+    });
+  }
+  function syncEventCommanderLinks() {
+    if (!window.location || !window.location.href) return;
+    try {
+      var currentEvent = new URL(window.location.href);
+      if (/^\/olaylar\/[a-z0-9-]+\/$/.test(currentEvent.pathname)) {
+        var eventContext = new URL(currentEvent.pathname, currentEvent.origin);
+        if (listReturn) eventContext.searchParams.set('listeyeDon', listReturn);
+        if (returnUrl) eventContext.searchParams.set('atlasaDon', returnUrl);
+        if (photoReturn) eventContext.searchParams.set('fotografaDon', photoReturn);
+        eventContext.hash = currentEvent.hash;
+        var eventBackHref = eventReturnUrl(eventContext.pathname + eventContext.search + eventContext.hash);
+        if (eventBackHref) document.querySelectorAll('.page-main a[href^="/komutanlar/"]').forEach(function (link) {
+          var destination = new URL(link.href, currentEvent.href);
+          if (destination.origin !== currentEvent.origin || !/^\/komutanlar\/[a-z0-9-]+\/$/.test(destination.pathname)) return;
+          carryReadingContext(link, { olayaDon: eventBackHref, fotografaDon: photoReturn });
+        });
+      }
+    } catch (error) { /* Keep normal links if a reading context cannot be formed. */ }
+  }
+  syncEventCommanderLinks();
+  if (typeof window.addEventListener === 'function') {
+    window.addEventListener('hashchange', syncEventCommanderLinks);
+    window.addEventListener('pageshow', syncEventCommanderLinks);
+  }
+  function markCurrentNavigation(panel) {
+    if (!panel || !panel.querySelectorAll || !window.location || !window.location.href) return;
+    var current = new URL(window.location.href), best = null;
+    panel.querySelectorAll('a[href]').forEach(function (link) {
+      if (link.removeAttribute) link.removeAttribute('aria-current');
+      try {
+        var target = new URL(link.href, current.href);
+        if (target.origin !== current.origin || target.hash || target.pathname === '/' || !target.pathname.endsWith('/')) return;
+        if (current.pathname.indexOf(target.pathname) !== 0) return;
+        if (!best || target.pathname.length >= best.path.length) best = { link: link, path: target.pathname };
+      } catch (error) { /* Keep malformed or external editorial links unchanged. */ }
+    });
+    if (best) best.link.setAttribute('aria-current', current.pathname === best.path ? 'page' : 'location');
+  }
+  markCurrentNavigation(document.getElementById("nav-panel"));
+  var button = document.getElementById("nav-toggle");
+  var panel = document.getElementById("nav-panel");
+  if (!button || !panel) return;
+  function close(restoreFocus) {
+    panel.classList.remove("is-open");
+    button.setAttribute("aria-expanded", "false");
+    if (restoreFocus) button.focus();
+  }
+  button.addEventListener("click", function () {
+    var open = panel.classList.toggle("is-open");
+    button.setAttribute("aria-expanded", String(open));
+  });
+  panel.addEventListener("click", function (event) {
+    if (event.target.closest("a")) close(false);
+  });
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape" && !event.defaultPrevented && !event.isComposing && !event.altKey && !event.ctrlKey && !event.metaKey && !event.shiftKey && panel.classList.contains("is-open")) {
+      close(true);
+    }
+  });
+  document.addEventListener("click", function (event) {
+    if (panel.classList.contains("is-open") && !panel.contains(event.target) && !button.contains(event.target)) {
+      close(panel.contains(document.activeElement));
+    }
+  });
+  var mobile = window.matchMedia("(max-width: 860px)");
+  document.addEventListener("focusin", function (event) {
+    if (mobile.matches && panel.classList.contains("is-open") && !panel.contains(event.target) && !button.contains(event.target)) close(false);
+  });
+  mobile.addEventListener("change", function () { close(mobile.matches && panel.contains(document.activeElement)); });
+  panel.setAttribute("data-enhanced", "true");
+  button.hidden = false;
+})();
