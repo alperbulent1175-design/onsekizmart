@@ -5,8 +5,8 @@
   "scope": "Mevcut88rotada gerçek verification-notice üst etiketi ve rehberlerdeki eski etiket ifadesi ayrı sayılır; bütünUXkabulü değildir",
   "counts": {
     "routes": 88,
-    "genericNoticesRemaining": 12,
-    "genericPhrasePages": 12
+    "genericNoticesRemaining": 0,
+    "genericPhrasePages": 0
   },
   "rows": [
     {
@@ -26,10 +26,10 @@
     {
       "route": "/donanma/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Rapor ve koleksiyon aktarımı; teknik değerler ayrı kayıt"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/fotograf-arsivi/",
@@ -76,10 +76,10 @@
     {
       "route": "/komutanlar/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Dizin; görev yeri yazılı olanlar, tam kadro değil"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/albert-damade/",
@@ -204,82 +204,82 @@
     {
       "route": "/komutanlar/mustafa-kemal/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Yaşam kaydı ve değişen görev aşamaları"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/rafet-bey-bele/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Rafet Bey adı var, Bele eşleştirmesi açık"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/remzi-bey/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Ad ve tümen görevi için kısmi destek"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/roger-keyes/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Anma biyografisi ve kurmaylık dönemi ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/sackville-carden/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Deniz harekâtı raporu ve yaşam alanları ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/selahattin-adil-bey/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Ansiklopedi aktarımı; kurmay ve tümen aşamaları ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/vehip-pasa-kaci/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Makale aktarımı; Temmuz görevi ve kesin gün ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/weber-pasa/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Ansiklopedi/makale aktarımı; kolordu ve Güney Grubu ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/william-birdwood/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Kurum kişi kaydı; ANZAK harekâtı ve AIF idaresi ayrı"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/komutanlar/william-bridges/",
       "labels": [
-        "Belge doğrulaması tamamlanmadı"
+        "Kurum kişi kaydı; yaralanma ve ölüm ayrı günler"
       ],
-      "generic": true,
-      "genericPhrasePresent": true
+      "generic": false,
+      "genericPhrasePresent": false
     },
     {
       "route": "/kronoloji-kaynaklari/",

@@ -1,0 +1,113 @@
+{
+  "id": "R14",
+  "slice": "gouraud-14-mayis-damade-12-14-kiyi-terki",
+  "date": "2026-11-09",
+  "status": "dar_alt_adim_kabul; genel_R14_acik",
+  "iddia_dogrulandi": false,
+  "katalog_belge_acildi": false,
+  "datesKeptSeparate": {
+    "damadeFarewellVisit": "12 Mayıs 1915",
+    "damadeFarewellLetter": "12 Mayıs 1915",
+    "gouraudArrivalAndTakeOverRecord": "14 Mayıs 1915",
+    "damadeReturnedWithGouraud": "14 Mayıs 1915 öğleden sonra",
+    "damadeShoreDeparture": "raporda gün yok; 14 Mayıs teslim günü yapılmadı",
+    "cardenLeft": "16 Mart 1915",
+    "robeckFrom": "17 Mart 1915",
+    "hamiltonMarchDeparture": "13 Mart 1915",
+    "hamiltonTenedos": "17 Mart 1915",
+    "hamiltonRecall": "16 Ekim 1915",
+    "hamiltonImbrosDeparture": "17 Ekim 1915",
+    "monroLondonInstruction": "20 Ekim 1915",
+    "monroAssumedCommand": "28 Ekim 1915",
+    "note": "12 Mayıs veda, 14 Mayıs varış/tanıtma ve kıyıyı terk birleştirilmedi. 16/17 Mart ve Ekim Hamilton/Monro dokunulmadı."
+  },
+  "passages": [
+    {
+      "claim": "Yayımlanmış günlük 12 Mayıs akşamında d’Amade’ın veda ziyaretine geldiğini ve geri çağırma emrini göstermesine izin verildiğini yazar.",
+      "url": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+      "bibliography": "Ian Hamilton, Gallipoli Diary, cilt I; New York: George H. Doran, 1920; Project Gutenberg e-kitap 19317.",
+      "locator": "12th May, 1915. H.M.T. Arcadian; veda ziyareti paragrafı; Gutenberg [Pg 221]–[Pg 223] aralığı",
+      "eventDate": "1915-05-12 evening farewell visit",
+      "documentDate": "1920",
+      "accessDate": "2026-11-09",
+      "evidenceText": "In the evening I received General d'Amade who had come over to pay his farewell visit. He is permitted to let me see his order of recall. \"Important modifications having come about in the general political situation\" his Government have urgent need for his services on a \"military mission.\"",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Yayımlanmış günlük; el yazısı defter ve özgün Fransız geri çağırma emri görülmedi. 12 Mayıs veda kaydı kıyıyı terk veya Gouraud teslim günü yapılmadı."
+    },
+    {
+      "claim": "Hamilton 12 Mayıs tarihli veda mektubunu kaleme alır; mektup yaklaşan ayrılıktan söz eder.",
+      "url": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+      "bibliography": "Ian Hamilton, Gallipoli Diary, cilt I, 12 Mayıs 1915 tarihli veda mektubu.",
+      "locator": "Also I have penned a farewell line to d'Amade; Gutenberg [Pg 223]–[Pg 224]",
+      "eventDate": "1915-05-12 letter date",
+      "documentDate": "1920",
+      "accessDate": "2026-11-09",
+      "evidenceText": "With sincere regrets at your coming departure but with the full assurance that in your new sphere of activity, you will continue to render the same valuable service",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Mektup tarihi 12 Mayıs’tır; fiilî kıyı terki günü üretmez."
+    },
+    {
+      "claim": "14 Mayıs öğleden sonra d’Amade, halefi Gouraud ile birlikte Hamilton’a gelir.",
+      "url": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+      "bibliography": "Ian Hamilton, Gallipoli Diary, cilt I, 14 Mayıs 1915 kaydı.",
+      "locator": "14th May, 1915. H.M.T. Arcadian; Gutenberg [Pg 226]–[Pg 227]",
+      "eventDate": "1915-05-14 afternoon",
+      "documentDate": "1920",
+      "accessDate": "2026-11-09",
+      "evidenceText": "In the afternoon d'Amade came back with General Gouraud, his successor, the new Chief of the French. A resolute, solid looking gaillard is Gouraud.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Öğleden sonra tanıtma kaydıdır. Günlük, d’Amade’ın o gün kıyıyı terk ettiğini söylemez. «successor / new Chief» rapordaki «took over» cümlesinin dakikası değildir."
+    },
+    {
+      "claim": "26 Ağustos 1915 raporu 14 Mayıs’ta Gouraud’nun geldiğini ve komutayı aldığını yazar; kıyıyı terk ayrı cümledir ve gün taşımaz.",
+      "url": "https://archive.org/details/sirianhamiltonsd00hami",
+      "bibliography": "Sir Ian Hamilton's Despatches from the Dardanelles, etc.; Londra: George Newnes; ikinci rapor 26 Ağustos 1915, basılı s.57.",
+      "locator": "PDF 83 / basılı s.57; başlık Departure of General D'Amade",
+      "eventDate": "1915-05-14 arrival and took over in this report; shore departure undated in the next sentence",
+      "documentDate": "1915-08-26",
+      "publicationDateNote": "Newnes derlemesi; Gazette 29303 üçüncü ek (17/20 Eylül 1915) bu turda 504/500 verdi, okunmadı",
+      "accessDate": "2026-11-09",
+      "evidenceText": "On May 14 General Gouraud arrived and took over from General d'Amade the command of the Corps Expeditionnaire. As General d'Amade quitted the shores of the peninsula he received a spontaneous ovation from the British soldiers at work upon the beaches.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Sonradan yazılmış yayımlanmış rapordur; özgün atama/teslim emri değildir. «arrived and took over» ile «quitted the shores» birleştirilmedi. Newnes, Gazette özgün sayfası yerine geçmez."
+    },
+    {
+      "claim": "NAM açıklaması Gouraud’yu Fransız kolordusu komutanı olarak niteler; gün vermez.",
+      "url": "https://www.nam.ac.uk/explore/gallipoli",
+      "bibliography": "National Army Museum, Gallipoli campaign, Fransız kolordusu komutanı görsel açıklaması.",
+      "locator": "görsel açıklaması; inceleme 17 Ekim 2026",
+      "eventDate": null,
+      "documentDate": null,
+      "accessDate": "2026-10-17",
+      "evidenceText": "commander of the French Corps in the Dardanelles",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "limit": "Genel görev; 14 Mayıs varış veya kıyı terki belgesi değildir."
+    }
+  ],
+  "rejectedCollapse": [
+    {
+      "source": "Hamilton 26 Ağustos 1915 raporu, Departure of General D'Amade başlığı",
+      "why": "Başlık ve ardışık cümleler 14 Mayıs varış/komuta kaydını kıyıyı terk günü yapmaz. Kullanıcı ayrımı: d’Amade ayrılışı ile Gouraud komuta alma birleştirilmez."
+    },
+    {
+      "source": "Bean, The Story of ANZAC, cilt 1",
+      "why": "Cilt Mayıs 1915 başına kadar; Gouraud adı yok. Cilt 2 bu tur okunmadı."
+    },
+    {
+      "source": "London Gazette 29303 data.pdf",
+      "why": "Doğrudan açılış 504 sonra 500. Aynı başarısız URL tekrar denenmedi. Metin Newnes derlemesinden okundu."
+    },
+    {
+      "source": "CTHS 104468 / AWM G00290 / INHA kişi kaydı",
+      "why": "Yaşam veya fotoğraf künyesi Mayıs görev günü belgelemez."
+    }
+  ],
+  "pagesUpdated": [
+    "komutanlar/henri-gouraud/index.html",
+    "komutanlar/albert-damade/index.html",
+    "olaylar/kumkale-oyalama-cikarmasi/index.html",
+    "js/campaign.js",
+    "tests/catalog.test.js",
+    "research/ux-audit/content-review.json"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "donanma/",
+    "sources": [
+      "naval-reports",
+      "awm-may-ships",
+      "csa-barbaros"
+    ],
+    "summary": "18 Mart kayıpları ile sonraki aylardaki gemi batışları ayrı olaylar olarak incelenir.",
+    "open": "Zırh, top donanımı, isabet, cephane ve zayiat değerlerinin her biri ayrı teknik kayıt gerektirir.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Rapor ve koleksiyon aktarımı; teknik değerler ayrı kayıt",
+      "summary": "18 Mart kayıpları ile sonraki aylardaki gemi batışları ayrı olaylardır. Zırh, top, isabet, cephane ve zayiat her kartta ayrı teknik kayıt ister.",
+      "reasons": [
+        "London Gazette raporlarının çevrimyazısı, AWM Mayıs fotoğraf künyesi ve Barbaros ansiklopedi maddesi seçili batış/görev anlatılarının dayanağıdır. Çevrimyazı özgün gazete taramasının yerine geçmez.",
+        "Kart başlıklarının altındaki denetim durumu yalnız ilgili kaynak notunun sınırları içindir. Zırh bölümü, fiilî 1915 donatım ve zayiat toplamı bu dizin notuyla doğrulanmış sayılmaz."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "17 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+      "sourceRefs": [
+        "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+        "https://www.awm.gov.au/collection/C1003295",
+        "https://canakkalesavaslariansiklopedisi.com/barbaros-hayreddin-zirhlisi/"
+      ]
+    }
+  },
+  "sha256": "599e432fdceb52d9a0893702a276ee7853357c7b169ac4984032e12be0b7a664",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Weber-chain-support-tests.txt",
+    "pythonLog": "R13-Weber-chain-support-python.txt"
+  },
+  "ui": {
+    "desktop": [1280, 720, 1265, 1265],
+    "mobile": [320, 800, 320, 320],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "leaflet": true,
+    "mapPlace": "Ocean / donanma listesi",
+    "search": "Ocean → 4/30 donanma araması",
+    "filter": "İtilaf aria-pressed=true, 10 işaret; temizle 23 işaret",
+    "viewportReset": true
+  },
+  "acceptance": "Dizin sunum alt adımı kabul. Canlı HTML genel uyarı bu zincirle 0."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/",
+    "sources": [],
+    "summary": "Bu sayfa görev yeri sitede yazılı olanları listeler.",
+    "open": "Sefer sırasında gelen bütün tümenler ve her profilin özgün belgesi burada tamamlanmış değildir.",
+    "rewrite": false,
+    "reviewed": "2026-11-09",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Dizin; görev yeri yazılı olanlar, tam kadro değil",
+      "summary": "Bu sayfa görev yeri sitede yazılı olanları listeler. Sefer sırasında gelen bütün tümenler ve her profilin özgün belgesi burada tamamlanmış değildir.",
+      "reasons": [
+        "Osmanlı ve İtilaf grupları görev satırındaki ordu, kolordu ve tümene göredir. Haritadaki birlik işaretleri sorumluluk sahası merkezleridir; günlük karargâh noktası değildir.",
+        "Her komutan sayfasının kendi kaynak notu vardır. Bu dizin, o notlardaki yaşam tarihi veya görev günü iddialarını topluca doğrulamaz."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "Mevcut dizin metninin okuyucu sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+      "sourceRefs": []
+    }
+  },
+  "sha256": "d6e85507d427123d09d82f4d3d18bd16119834945d099cf34e324992f2e2c503",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Weber-chain-support-tests.txt",
+    "pythonLog": "R13-Weber-chain-support-python.txt"
+  },
+  "ui": {
+    "desktop": [1280, 720, 1265, 1265],
+    "mobile": [320, 800, 320, 320],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "leaflet": false,
+    "mapPlace": null,
+    "search": "Birdwood 1/25; temizle 25/25",
+    "filter": null,
+    "viewportReset": true
+  },
+  "acceptance": "Dizin sunum alt adımı kabul. Canlı HTML genel uyarı 0; 88-rota paket kapanışı ayrı."
+}

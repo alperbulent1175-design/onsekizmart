@@ -1,0 +1,129 @@
+{
+  "id": "R14",
+  "slice": "mustafa-kemal-anafartalar-8-9-agustos-1915-teslim",
+  "date": "2026-11-09",
+  "status": "dar_alt_adim_kabul; genel_R14_acik",
+  "iddia_dogrulandi": false,
+  "katalog_belge_acildi": false,
+  "datesKeptSeparate": {
+    "nightOrderBeforeMidnight": "8 Ağustos 1915; tarihçe gece yarısından takriben bir iki saat evvel ordu emri aktarımı",
+    "hqFound0130": "9 Ağustos 1915; gece yarısından sonra 01.30 karargâh",
+    "unitOrder0400": "9 Ağustos 1915; 04.00 «tayin edildim / şimdi deruhte ettim»",
+    "battleDay9": "9 Ağustos 1915; tarihçe gün başlığı muharebe",
+    "conkbayiri10": "10 Ağustos 1915; teslim günü yapılmadı",
+    "originalAppointment": "görülmedi",
+    "handover": "açık; teslim belgesi yok",
+    "cardenLeft": "16 Mart 1915",
+    "robeckFrom": "17 Mart 1915",
+    "hamiltonMarchDeparture": "13 Mart 1915",
+    "hamiltonTenedos": "17 Mart 1915",
+    "hamiltonRecall": "16 Ekim 1915",
+    "hamiltonImbrosDeparture": "17 Ekim 1915",
+    "monroLondonInstruction": "20 Ekim 1915",
+    "monroAssumedCommand": "28 Ekim 1915",
+    "damadeFarewellVisit": "12 Mayıs 1915",
+    "gouraudArrivalAndTakeOverRecord": "14 Mayıs 1915",
+    "limanArmyFormedBean": "24 Mart 1915",
+    "limanTravel": "25 Mart 1915",
+    "vehipArticleStart8": "8 Temmuz 1915",
+    "vehipArticleStart9": "9 Temmuz 1915",
+    "note": "8 Ağustos ve 9 Ağustos birleştirilmedi. Özgün atama görülmedi. 16/17 Mart, Ekim Hamilton/Monro, Gouraud 12/14 Mayıs, Liman 24/25 Mart ve Vehip 8/9 Temmuz dokunulmadı. Metin katmanı çıkarımı doğrulanmış iddia değildir."
+  },
+  "passages": [
+    {
+      "claim": "Tarihçe methali, 19. Tümen komutanlığının 8/9 Ağustos gecesine kadar uhdesinde olduğunu yazar.",
+      "url": "https://archive.org/details/mustafa-kemal-anafartalar-muharebatina-ait-tarihce",
+      "bibliography": "Mustafa Kemal, Anafartalar Muharebatı’na Ait Tarihçe, haz. Uluğ İğdemir, TTK 3. baskı, Ankara 2020.",
+      "locator": "basılı s.3; harvest PDF 29; metin/sayfa-029.txt",
+      "eventDate": "1915-08-08/09 night span for 19th Division command end in this sentence",
+      "documentDate": null,
+      "publicationDate": "2020",
+      "accessDate": "2026-11-09",
+      "evidenceText": "Mezkûr fırkanın kumandanlığı 26/27 temmuz 1331 (8/9 ağustos 1915) gecesine kadar uhdemde idi.",
+      "status": "yayin_aktarimi_metin_katmani_okundu",
+      "limit": "PDF metin katmanı; OCR gürültüsü var. Kaynağın gece notudur. 8 Ağustos günü ile 9 Ağustos gününü tek teslim günü yapmaz. Özgün atama emri değildir."
+    },
+    {
+      "claim": "Tarihçe, gece yarısından takriben bir iki saat evvel Şimal Grubu vasıtasıyla ordu emri alındığını yazar.",
+      "url": "https://archive.org/details/mustafa-kemal-anafartalar-muharebatina-ait-tarihce",
+      "bibliography": "Mustafa Kemal, Anafartalar Muharebatı’na Ait Tarihçe, haz. Uluğ İğdemir, TTK 3. baskı, Ankara 2020.",
+      "locator": "basılı s.28; harvest PDF 56; metin/sayfa-056.txt",
+      "eventDate": "1915-08-08 before midnight in this sentence",
+      "documentDate": null,
+      "publicationDate": "2020",
+      "accessDate": "2026-11-09",
+      "evidenceText": "26/27 temmuz 1331 de gece yarısından takriben bir iki saat evvel Şimal Gurubu kumandanlığı vasıtasiyle aldığım ordu emrinde, Anafartalar Gurubu kumandasını deruhte etmek üzere hemen Çamlıtekke'ye hareketim ve 27 Temmuz günü fecirle beraber taarruz icra etmekliğim lüzumu bildiriliyordu.",
+      "status": "yayin_aktarimi_metin_katmani_okundu",
+      "limit": "Yayımlanmış anlatıdaki emir aktarımı. Özgün ordu emri görülmedi. 9 Ağustos karargâh varışına veya 04.00 birlik emrine çevrilmez."
+    },
+    {
+      "claim": "Tarihçe ikinci fasıl, anlatıya 26/27 temmuz saat 9.50 sonradan komuta deruhte ettiğini yazar.",
+      "url": "https://archive.org/details/mustafa-kemal-anafartalar-muharebatina-ait-tarihce",
+      "bibliography": "Mustafa Kemal, Anafartalar Muharebatı’na Ait Tarihçe, haz. Uluğ İğdemir, TTK 3. baskı, Ankara 2020.",
+      "locator": "basılı s.31; harvest PDF 59; metin/sayfa-059.txt",
+      "eventDate": "1915-08-08 21:50 in this sentence",
+      "documentDate": null,
+      "publicationDate": "2020",
+      "accessDate": "2026-11-09",
+      "evidenceText": "Anafartalar muharebatını tafsile, ancak kumandayi deruhte eylediğim 26/27 temmuz saat 9.50 sonradan itibaren başlamak salahiyetine malikim.",
+      "status": "yayin_aktarimi_metin_katmani_okundu",
+      "limit": "Anlatı başlangıcı. 04.00 «şimdi kumandayı deruhte ettim» cümlesine birleştirilmedi. Özgün emir değildir."
+    },
+    {
+      "claim": "Tarihçe, gece yarısından sonra 01.30’da Anafartalar Grubu karargâhını bulduğunu yazar.",
+      "url": "https://archive.org/details/mustafa-kemal-anafartalar-muharebatina-ait-tarihce",
+      "bibliography": "Mustafa Kemal, Anafartalar Muharebatı’na Ait Tarihçe, haz. Uluğ İğdemir, TTK 3. baskı, Ankara 2020.",
+      "locator": "basılı s.33; harvest PDF 63; metin/sayfa-063.txt",
+      "eventDate": "1915-08-09 01:30 HQ found in this sentence",
+      "documentDate": null,
+      "publicationDate": "2020",
+      "accessDate": "2026-11-09",
+      "evidenceText": "Gece yarısından sonra saat 1.30 da Gümbürdekbayırı'nın bir buçuk kilometre cenubundaki bir mahalde Anafartalar Gurubu karargahını bulabildim.",
+      "status": "yayin_aktarimi_metin_katmani_okundu",
+      "limit": "Karargâh varış kaydı. Atama günü veya teslim belgesi değildir. 8 Ağustos gece emrine çevrilmez."
+    },
+    {
+      "claim": "Tarihçe, 9 Ağustos sabah 04.00 birlik emrinde tayin ve deruhte cümlesini yazar.",
+      "url": "https://archive.org/details/mustafa-kemal-anafartalar-muharebatina-ait-tarihce",
+      "bibliography": "Mustafa Kemal, Anafartalar Muharebatı’na Ait Tarihçe, haz. Uluğ İğdemir, TTK 3. baskı, Ankara 2020.",
+      "locator": "basılı s.34; harvest PDF 64; metin/sayfa-064.txt",
+      "eventDate": "1915-08-09 04:00 unit order in this sentence",
+      "documentDate": null,
+      "publicationDate": "2020",
+      "accessDate": "2026-11-09",
+      "evidenceText": "Anafartalar Gurubu kumandanlığına tayin edildim. Şimdi kumandayı deruhte ettim.",
+      "status": "yayin_aktarimi_metin_katmani_okundu",
+      "limit": "Yayımlanmış birlik emri metni. Özgün ordu atama emri değildir. 8 Ağustos gece emrini 9 Ağustos’a çevirmez."
+    }
+  ],
+  "rejectedCollapse": [
+    {
+      "source": "Site kartındaki «8/9 Ağustos 1915’ten Anafartalar Grup Komutanı» ve campaign «8/9 Ağustos gecesi getirilir»",
+      "why": "8 Ağustos gece emri ile 9 Ağustos karargâh/04.00 emri ayrı kayıtlardır. Gece notu tek teslim günü yapılmadı."
+    },
+    {
+      "source": "Enis Şahin ATAM kronolojisi «8-9 Ağustos 1915 – … Anafartalar Grubu Kumandanlığı’na tayin edildi»",
+      "why": "İki günü tek tayin satırında birleştirir. Tarihçenin gün başlıklarını ezmez. Alınmadı."
+    },
+    {
+      "source": "Çavuşoğlu Anafartalar 7 gün, tarihçeyi «8-9 Ağustos gecesi saat 21.50» olarak aktarır",
+      "why": "Aynı yayımlanmış anlatının ikincil aktarımıdır; bağımsız emir değildir. 21.50 ile 04.00 deruhte cümleleri birleştirilmedi."
+    },
+    {
+      "source": "Birinci Anafartalar olay sayfasındaki «Grup ataması 8–9 Ağustos kaydıdır»",
+      "why": "Muharebe günü (9 Ağustos) atama günü değildir. 8 ve 9 Ağustos birleştirilmedi."
+    }
+  ],
+  "readerSupportUpdated": {
+    "label": "Yayımlanmış tarihçe aktarımı; 8 ve 9 Ağustos ayrı",
+    "presentationReviewDate": "2026-11-09"
+  },
+  "pagesUpdated": [
+    "komutanlar/mustafa-kemal/index.html",
+    "olaylar/birinci-anafartalar-muharebesi/index.html",
+    "js/campaign.js",
+    "inceleme-notlari/index.html",
+    "tests/catalog.test.js",
+    "research/ux-audit/content-review.json"
+  ]
+}

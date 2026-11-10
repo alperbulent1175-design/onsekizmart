@@ -1,0 +1,126 @@
+{
+  "id": "R14",
+  "slice": "halil-sami-rafet-remzi-duty-days",
+  "date": "2026-11-10",
+  "status": "dar_alt_adim_kabul; genel_R14_acik",
+  "iddia_dogrulandi": false,
+  "katalog_belge_acildi": false,
+  "datesKeptSeparate": {
+    "halilAppointmentArticleMonth": "Eylül 1914; gün yok",
+    "halilJuneExpression12": "12 Haziran 1915; teslim günü yapılmadı",
+    "halilJuneExpression13": "13 Haziran 1915; 12 Haziran ile birleştirilmedi",
+    "halilLeaveInterimReturn": "vekâlet / izin / dönüş ayrı; tek teslim değil",
+    "rafetAlkanRole": "savunma dağılımında 11. Tümen adı; atama günü yok",
+    "rafetLandingSector": "25 Nisan 1915 Kumkale kesimi; atama günü değil",
+    "rafetBeleIdentity": "açık; yaşam alanları yok",
+    "remziAlkanRole": "Albay Ali Remzi komutasındaki 7. Tümen; atama günü değil",
+    "remziSarosSector": "25 Nisan 1915 Saros gösterişi; atama günü değil",
+    "originalAppointment": "görülmedi",
+    "cardenLeft": "16 Mart 1915",
+    "robeckFrom": "17 Mart 1915",
+    "hamiltonMarchDeparture": "13 Mart 1915",
+    "hamiltonTenedos": "17 Mart 1915",
+    "hamiltonRecall": "16 Ekim 1915",
+    "hamiltonImbrosDeparture": "17 Ekim 1915",
+    "monroLondonInstruction": "20 Ekim 1915",
+    "monroAssumedCommand": "28 Ekim 1915",
+    "damadeFarewellVisit": "12 Mayıs 1915",
+    "gouraudArrivalAndTakeOverRecord": "14 Mayıs 1915",
+    "limanArmyFormedBean": "24 Mart 1915",
+    "limanTravel": "25 Mart 1915",
+    "vehipArticleStart8": "8 Temmuz 1915",
+    "vehipArticleStart9": "9 Temmuz 1915",
+    "mustafaNightOrder8": "8 Ağustos 1915",
+    "mustafaHqArrival9": "9 Ağustos 1915",
+    "stopfordIxHandoverEvening": "15 Ağustos 1915",
+    "hunterLeftPeninsula17July": "17 Temmuz 1915",
+    "note": "Eylül ayı, 12 ve 13 Haziran birleştirilmedi. Rafet ve Remzi atama günü üretilmedi. Özgün emir görülmedi. Önceki R14 İtilaf dilimleri dokunulmadı."
+  },
+  "passages": [
+    {
+      "claim": "Türkmen maddesi 9. Tümen atamasını Eylül 1914 ayı içinde tarihler.",
+      "url": "https://canakkalesavaslariansiklopedisi.com/halil-sami-bey/",
+      "bibliography": "Zekeriya Türkmen — Halil Sami Bey, Çanakkale Savaşları Ansiklopedisi.",
+      "locator": "17 Ekim ve 27 Ekim 2026 seçili okuma; content-review csa-halil",
+      "eventDate": "1914-09 appointment month in this sentence; day not given",
+      "documentDate": null,
+      "publicationDate": null,
+      "accessDate": "2026-10-27",
+      "evidenceText": "9’uncu Tümen Komutanlığına Eylül 1914’de atanmıştır.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Ay düzeyi aktarım. Gün yok. Özgün atama emri değildir. 18 Mart veya 25 Nisan saha kaydına çevrilmez."
+    },
+    {
+      "claim": "Aynı maddede 12 ve 13 Haziran ifadeleri ayrı durur; tek teslim günü yapılmadı.",
+      "url": "https://canakkalesavaslariansiklopedisi.com/halil-sami-bey/",
+      "bibliography": "Zekeriya Türkmen — Halil Sami Bey, Çanakkale Savaşları Ansiklopedisi.",
+      "locator": "27 Ekim 2026 Haziran geçişi paragrafları; R03-halil-life-command-scope.json",
+      "eventDate": "1915-06-12 and 1915-06-13 expressions kept separate; handover day not selected",
+      "documentDate": null,
+      "publicationDate": null,
+      "accessDate": "2026-10-27",
+      "evidenceText": null,
+      "status": "mevcut_inceleme_notu; ayri_ifadeler_birlestirilmedi",
+      "limit": "12 ve 13 Haziran ifadeleri 27 Ekim okumasında kaydedildi; bu turda yeni pasaj üretilmedi. Mektup/girişim ayrımı kanıtsız yazılmadı. Özgün yazışma görülmedi."
+    },
+    {
+      "claim": "Alkan 2016 savunma dağılımında Ali Remzi 7. Tümen komutanı olarak anılır.",
+      "url": "https://belleten.gov.tr/tam-metin/279/tur",
+      "bibliography": "Necmettin Alkan — Alman Kaynaklarına Göre Çanakkale Savaşı ve Zaferi, Belleten 80/289 (2016).",
+      "locator": "17 Ekim 2026; content-review belleten-alkan",
+      "eventDate": "role record without appointment day",
+      "documentDate": null,
+      "publicationDate": "2016",
+      "accessDate": "2026-10-17",
+      "evidenceText": "Albay Ali Remzi komutasındaki 7. Tümen",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Rol kaydı. Atama, göreve başlama veya bitiş günü yoktur. 25 Nisan Saros gösterişi atama günü yapılmadı. Özgün emir görülmedi."
+    },
+    {
+      "claim": "Aynı Alkan bölümünde Rafet/11. Tümen adı geçer; ayrı gün cümlesi bu incelemede yoktur.",
+      "url": "https://belleten.gov.tr/tam-metin/279/tur",
+      "bibliography": "Necmettin Alkan — Alman Kaynaklarına Göre Çanakkale Savaşı ve Zaferi, Belleten 80/289 (2016).",
+      "locator": "17 Ekim 2026 kapsam notu; Rafet için ayrı kanıt cümlesi kaydedilmedi",
+      "eventDate": null,
+      "documentDate": null,
+      "publicationDate": "2016",
+      "accessDate": "2026-10-17",
+      "evidenceText": null,
+      "status": "kapsam_notu; atama_gunu_yok",
+      "limit": "Rafet cümlesi uydurulmadı. Bele soyadı kurulmadı. 25 Nisan Kumkale saha kaydı atama günü değildir. 33’üncü Alay maddesindeki Weber/15. Kolordu cümlesi Rafet ataması değildir."
+    }
+  ],
+  "rejectedCollapse": [
+    {
+      "source": "12 ve 13 Haziran tek teslim günü",
+      "why": "Maddede ayrı ifadeler. Özgün yazışma yok. Birleştirilmedi."
+    },
+    {
+      "source": "3 Ağustos 1914 tümen mevcudu / Yarbay Halil Sami scraper özeti",
+      "why": "content-review komutan kaynağı değil. Atama günü yapılmadı."
+    },
+    {
+      "source": "Erdemir 25 Nisan notu Halil Sami / Ali Remzi adları",
+      "why": "Bu dilimde bağlanmadı. Atama günü üretilmedi."
+    },
+    {
+      "source": "Rafet = Refet Bele yaşam tarihleri",
+      "why": "Kimlik eşleştirmesi kurulamadı. Yaşam alanları geri eklenmedi."
+    }
+  ],
+  "readerSupportKept": {
+    "halilLabel": "Eylül ay kaydı ile 12/13 Haziran ifadeleri ayrı",
+    "rafetLabel": "Rafet Bey adı var, Bele eşleştirmesi açık",
+    "remziLabel": "Ad ve tümen görevi için kısmi destek",
+    "presentationReviewDate": "2026-11-03"
+  },
+  "pagesUpdated": [
+    "komutanlar/halil-sami-bey/index.html",
+    "komutanlar/rafet-bey-bele/index.html",
+    "komutanlar/remzi-bey/index.html",
+    "js/campaign.js",
+    "inceleme-notlari/index.html",
+    "tests/catalog.test.js",
+    "research/ux-audit/content-review.json"
+  ]
+}

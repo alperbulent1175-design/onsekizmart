@@ -1,0 +1,126 @@
+{
+  "id": "R14",
+  "slice": "stopford-ix-corps-helles-suvla-15-agustos-1915",
+  "date": "2026-11-09",
+  "status": "dar_alt_adim_kabul; genel_R14_acik",
+  "iddia_dogrulandi": false,
+  "katalog_belge_acildi": false,
+  "datesKeptSeparate": {
+    "hellesTemporaryStart": "açık; 17 Temmuz Hunter-Weston ayrılışı Stopford Helles başlangıcı yapılmadı",
+    "hellesTemporaryEnd": "24 Temmuz 1915; kendi kolordusuna dönüş kaydı",
+    "ixCorpsAppointment": "görülmedi; Mudros toplanması ve Suvla emanet cümlesi atama günü değildir",
+    "suvlaLanding": "6–7 Ağustos 1915; atama günü değildir",
+    "secretTables22July": "22 Temmuz 1915 gizli talimat/iskele cetveli; atama emri değildir",
+    "ixHandoverEveningHamilton": "15 Ağustos 1915 akşamı; handed over command of the 9th Corps",
+    "dvaRelieved15August": "15 Ağustos 1915; relieved of his command; Hamilton handed over ile birleştirilmedi",
+    "deLisleTemporary": "15 Ağustos sonrası geçici IX. Kolordu; Stopford atama günü değildir",
+    "originalAppointment": "görülmedi",
+    "cardenLeft": "16 Mart 1915",
+    "robeckFrom": "17 Mart 1915",
+    "hamiltonMarchDeparture": "13 Mart 1915",
+    "hamiltonTenedos": "17 Mart 1915",
+    "hamiltonRecall": "16 Ekim 1915",
+    "hamiltonImbrosDeparture": "17 Ekim 1915",
+    "monroLondonInstruction": "20 Ekim 1915",
+    "monroAssumedCommand": "28 Ekim 1915",
+    "damadeFarewellVisit": "12 Mayıs 1915",
+    "gouraudArrivalAndTakeOverRecord": "14 Mayıs 1915",
+    "limanArmyFormedBean": "24 Mart 1915",
+    "limanTravel": "25 Mart 1915",
+    "vehipArticleStart8": "8 Temmuz 1915",
+    "vehipArticleStart9": "9 Temmuz 1915",
+    "mustafaNightOrder8": "8 Ağustos 1915",
+    "mustafaHqArrival9": "9 Ağustos 1915",
+    "cevatAppointmentArticle": "10 Ağustos 1914",
+    "selahattinStaffAppointmentArticle": "15 Ağustos 1914",
+    "note": "Geçici Helles, 6–7 Ağustos çıkarma ve 15 Ağustos devri birleştirilmedi. Özgün atama görülmedi. Önceki R14 dilimleri dokunulmadı. readerSupport etiketi korundu."
+  },
+  "passages": [
+    {
+      "claim": "Hamilton raporu Stopford’u Hunter-Weston yerine geçici görevlendirdiğini ve 24 Temmuz’da kendi kolordusuna döndüğünü yazar.",
+      "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+      "bibliography": "Ian Hamilton, Army Despatch dated 11 December 1915; Naval-History.net çevrimyazısı. War Office başlığı 6 January 1916.",
+      "locator": "Hunter-Weston 17 Temmuz ayrılış paragrafının hemen sonrası; 25 Ekim 2026 ve 9 Kasım 2026 seçili okuma",
+      "eventDate": "1915-07-24 own-corps return in this sentence; temporary Helles start day not in this sentence",
+      "documentDate": "1915-12-11",
+      "publicationDate": "1916-01-06 War Office heading in this transcription",
+      "accessDate": "2026-11-09",
+      "evidenceText": "I appointed Lieutenant-General Hon. Sir Frederick Stopford, whose own Corps were now assembling at Mudros, temporarily to succeed Lieutenant-General Hunter Weston, but on July 24th, when General Stopford had to set to work with his own Corps, Major-General W. Douglas, General Officer Commanding 42nd Division, took over temporary command of the 8th Corps",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Çevrimyazı. İmzalı asıl ve atama emri değildir. 17 Temmuz Hunter-Weston ayrılışı Stopford Helles başlangıcı yapılmadı. Geçici Helles, IX. Kolordu/Suvla görevi değildir."
+    },
+    {
+      "claim": "Hamilton raporu Suvla harekâtının yönetimini Stopford’a emanet ettiğini ve IX. Kolordu’yu emrine verdiğini yazar.",
+      "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+      "bibliography": "Ian Hamilton, Army Despatch dated 11 December 1915; Naval-History.net çevrimyazısı.",
+      "locator": "Suvla harekâtı giriş paragrafı; 9 Kasım 2026",
+      "eventDate": "IX Corps/Suvla conduct entrusted; not a calendar appointment day in this sentence",
+      "documentDate": "1915-12-11",
+      "publicationDate": "1916-01-06 War Office heading in this transcription",
+      "accessDate": "2026-11-09",
+      "evidenceText": "The conduct of the operations which were to be based upon Suvla Bay was entrusted to Lieutenant-General The Hon. Sir F. Stopford. At his disposal was placed the 9th Army Corps, less the 13th Division and the 29th Brigade of the 10th Division.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Emanet/emir cümlesi atama günü değildir. 6–7 Ağustos çıkarma gecesine çevrilmez. 22 Temmuz gizli talimat atama emri değildir. Özgün atama görülmedi."
+    },
+    {
+      "claim": "Hamilton raporu 15 Ağustos akşamı IX. Kolordu komutasının devredildiğini yazar.",
+      "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+      "bibliography": "Ian Hamilton, Army Despatch dated 11 December 1915; Naval-History.net çevrimyazısı.",
+      "locator": "15 Ağustos akşamı paragrafı; 25 Ekim 2026 ve 9 Kasım 2026",
+      "eventDate": "1915-08-15 evening handover in this sentence",
+      "documentDate": "1915-12-11",
+      "publicationDate": "1916-01-06 War Office heading in this transcription",
+      "accessDate": "2026-11-09",
+      "evidenceText": "On the evening of the 15th August General Stopford handed over command of the 9th Corps.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Devir kaydı. Özgün emir değildir. DVA relieved cümlesiyle birleştirilmedi. De Lisle geçici komuta ayrı anlatılır. Çıkarma gecesi değildir."
+    },
+    {
+      "claim": "DVA Suvla özeti Stopford’un 15 Ağustos 1915’te komutadan alındığını yazar.",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/august-offensive/suvla-bay",
+      "bibliography": "Department of Veterans' Affairs, Landing at Suvla Bay 6 to 15 August 1915.",
+      "locator": "After the landing bölümü; 17 Ekim 2026 ve 9 Kasım 2026",
+      "eventDate": "1915-08-15 relief in this sentence",
+      "documentDate": null,
+      "publicationDate": "2022-06-30 last updated on this page",
+      "accessDate": "2026-11-09",
+      "evidenceText": "Blamed for the failure of the action, Stopford was relieved of his command on 15 August 1915.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "limit": "Kurum özeti. Özgün emir değildir. Hamilton handed over kaydıyla birleştirilmedi. 6–15 Ağustos başlığı çıkarma gecesi değildir. Yaklaşık 20.000 zayiat alınmadı."
+    }
+  ],
+  "rejectedCollapse": [
+    {
+      "source": "Atlas kartındaki «6–7 Ağustos 1915 Suvla çıkarmasını komuta eder. Ağustos 1915 içinde görevden alınır.»",
+      "why": "Çıkarma gecesi ile belirsiz Ağustos görevden alma birleştiriliyordu. Kaldırıldı."
+    },
+    {
+      "source": "DVA başlığı Landing at Suvla Bay 6 to 15 August 1915",
+      "why": "Harekât başlığı çıkarma gecesi, komuta günü ve 15 Ağustos devrini tek blok yapmaz."
+    },
+    {
+      "source": "Hamilton 17 Temmuz Hunter-Weston ayrılışı",
+      "why": "Stopford’un geçici Helles başlangıç günü üretilmedi."
+    },
+    {
+      "source": "Hamilton 22 Temmuz gizli talimat ve iskele cetveli",
+      "why": "Atama emri değildir. Alınmadı."
+    },
+    {
+      "source": "harvest-757 Hamilton despatches Newnes basımı",
+      "why": "Metin katmanında Stopford yok; 11 Aralık 1915 raporu bu cilt değildir. Bağımsız kanıt sayılmadı."
+    }
+  ],
+  "readerSupportKept": {
+    "label": "Geçici görev, kolordu komutası ve devir ayrı",
+    "presentationReviewDate": "2026-11-03"
+  },
+  "pagesUpdated": [
+    "komutanlar/frederick-stopford/index.html",
+    "olaylar/anafartalar-suvla-cikarmasi/index.html",
+    "js/campaign.js",
+    "inceleme-notlari/index.html",
+    "tests/catalog.test.js",
+    "research/ux-audit/content-review.json"
+  ]
+}

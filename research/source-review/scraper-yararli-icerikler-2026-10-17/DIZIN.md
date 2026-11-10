@@ -1,6 +1,12 @@
 # Scraper araştırma derlemesi
 
-17 Ekim 2026. Bu dosya araştırma adayları dizinidir; tarihsel doğrulama veya yayın onayı değildir. Başlıklara göre ön tasnif yapılmıştır. Kaynak URL, arşiv satırı, kısa kanıt, erişim/inceleme tarihi ve durum secim.json içinde korunur. Tam çalışma metinleri ham/ altında Git dışındadır.
+17 Ekim 2026 dizin; 9 Kasım 2026 delta (canlı post-sitemap.xml 291 tarihli yazı, önceki 269 aday, 22 yeni URL tarandı, 3 metin adayı eklendi). Bu dosya araştırma adayları dizinidir; tarihsel doğrulama veya yayın onayı değildir. Başlıklara göre ön tasnif yapılmıştır. Kaynak URL, arşiv satırı, kısa kanıt, erişim/inceleme tarihi ve durum secim.json içinde korunur. Tam çalışma metinleri ham/ altında Git dışındadır.
+
+## 9 Kasım 2026 delta notu
+
+- Canlı `post-sitemap.xml` tarihli yazı: 291. Yerel 17 Ekim dizin: 269. Sitemap farkı 22 URL; hepsi HTTP 200, 403/429 yok. Metin adayı (ham/dizin): 3. `emptyBody` 19: 17 Video Galeri sohbet/kayıt, 1 kütüphane künyesi (`menzil-hidemati-nizamnamesi`), 1 neredeyse boş yazı (`/2026/01/05/2157/`). Ham JSONL: `delta-2026-11-09/pages.jsonl`.
+- 57. Alay tutanakları yeni URL olarak gelmedi; sitedeki mevcut örtüşme korunur: [57. Alay tutanakları web aktarımı](https://www.canakkalecephesi.com/index.php/2022/12/26/57-alaya-ait-14-mayis-4-haziran-1915-tarihleri-arasindaki-muharebe-tutanaklari/) atlas `olaylar/ariburnu-gomme-ateskesi/` sayfasında zaten kullanılıyor. Yeni yazılar arasında 57. Alay başlığı yok.
+- `canakkale-cephesinde-beslenme` video galeri sayfasıdır (gövde yok); atlas `cephede-beslenme` ile konu adı örtüşebilir, iddia doğrulaması değildir.
 
 ## belge-aktarimlari (19)
 
@@ -88,7 +94,7 @@
 - [Yüzbaşı C.A. Milward’ın günlüğünün ikinci cildidir. 1915 GELİBOLU KURMAY SUBAYLAR TÜMENİ, YİRMİ DOKUZUNCU ALAY](https://www.canakkalecephesi.com/index.php/2022/12/25/yuzbasi-c-a-milwardin-gunlugunun-ikinci-cildidir-1915-gelibolu-kurmay-subaylar-tumeni-yirmi-dokuzuncu-alay/) · kayıt bb42fe99e97e
 - [33’üncü Piyade Alayı](https://www.canakkalecephesi.com/index.php/2022/12/26/33uncu-piyade-alayi/) · kayıt 8cbdfaf2d0ac
 
-## diger-insan-incelemesi (151)
+## diger-insan-incelemesi (153)
 
 - [| Çanakkale Cephesi](https://www.canakkalecephesi.com/index.php/2026/09/27/ilk-ateskes-gorusmesi-nerede-ve-kimin-tarafindan-yapilmisti/) · kayıt 886dba401a70
 - [| Çanakkale Cephesi](https://www.canakkalecephesi.com/index.php/2026/03/18/2238/) · kayıt b205faeb6e88
@@ -241,8 +247,10 @@
 - [Siperlerde](https://www.canakkalecephesi.com/index.php/2022/12/26/siperlerde/) · kayıt 22ebf73a274d
 - [Türk Zaferini Kanlarıyla Yaza Yaza İlerleyen Bu Kahramanlar](https://www.canakkalecephesi.com/index.php/2022/12/26/turk-zaferini-kanlariyla-yaza-yaza-ilerleyen-bu-kahramanlar/) · kayıt 61c2f7778ebe
 - [Yaralandınız Binbaşım](https://www.canakkalecephesi.com/index.php/2022/12/26/yaralandiniz-binbasim/) · kayıt ab9205afcf16
+- [Kılavuzlar ve gece yürüyüşleri](https://www.canakkalecephesi.com/index.php/2026/11/07/2277/) · kayıt 620e58e2adba
+- [Çanakkale Muharebelerinde Askerî Haritacılık](https://www.canakkalecephesi.com/index.php/2026/10/31/2267/) · kayıt e20b775eb527
 
-## kaynak-yayin-izleri (15)
+## kaynak-yayin-izleri (16)
 
 - [Tarih Yazımı ve Okumaları Üzerine Küçük Bir Hatırlatma: Cevat İNCE](https://www.canakkalecephesi.com/index.php/2026/07/25/tarih-yazimi-ve-okumalari-uzerine-kucuk-bir-hatirlama/) · kayıt 1742e48a23b2
 - [Ayın Belgesi](https://www.canakkalecephesi.com/index.php/2023/01/16/ayin-belgesi/) · kayıt e36ad774f1b7
@@ -259,6 +267,7 @@
 - [Gelibolu Hatıratı](https://www.canakkalecephesi.com/index.php/2022/12/25/gelibolu-hatirati/) · kayıt d86e8c3b3008
 - [Harp Hatıralarım](https://www.canakkalecephesi.com/index.php/2022/12/25/harp-hatiralarim/) · kayıt 7b8402ce1748
 - [TBMM Arşivi](https://www.canakkalecephesi.com/index.php/2022/12/25/tbmm-arsivi/) · kayıt d40491d00c16
+- [Teftişte görülen asker ile günlük asker aynı görünmeyebilir](https://www.canakkalecephesi.com/index.php/2026/10/18/2262/) · kayıt e412c4271a67
 
 ## olaylar-ve-harekat (20)
 
@@ -288,3 +297,4 @@
 - [Çanakkale Cephesi’nde Muharebe Araçlarının Tamir ve Bakım İşlemleri](https://www.canakkalecephesi.com/index.php/2022/12/25/canakkale-cephesinde-muharebe-araclarinin-tamir-ve-bakim-islemleri/) · kayıt 02760b6f65fc
 - [Çanakkale Cephesi’nde Sağlık Hizmetleri](https://www.canakkalecephesi.com/index.php/2022/12/25/canakkale-cephesinde-saglik-hizmetleri/) · kayıt dd86f0638c69
 - [Çanakkale Cephesinde Yaralanma ve Hastalıklar Üzerine İncelemeler](https://www.canakkalecephesi.com/index.php/2022/12/25/canakkale-cephesinde-yaralanma-ve-hastaliklar-uzerine-incelemeler/) · kayıt 70b1dc85018f
+

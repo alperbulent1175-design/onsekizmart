@@ -1,0 +1,92 @@
+{
+  "id": "R14",
+  "slice": "carden-16-robeck-17-hamilton-13-17",
+  "date": "2026-11-09",
+  "status": "dar_alt_adim_kabul; genel_R14_acik",
+  "iddia_dogrulandi": false,
+  "katalog_belge_acildi": false,
+  "datesKeptSeparate": {
+    "cardenBirakma": "16 Mart 1915",
+    "robeckGorev": "17 Mart 1915",
+    "hamiltonYolaCikis": "13 Mart 1915",
+    "hamiltonTenedosDespatch": "17 Mart 1915, öğleden hemen sonra",
+    "hamiltonTenedosDiary": "17 Mart 1915, 15.00",
+    "note": "Varış saatleri ve Carden ayrılışı ile de Robeck görev kaydı birleştirilmedi."
+  },
+  "passages": [
+    {
+      "claim": "Carden, 18 Mart taarruzundan iki gün önce hasta listesine alındı; de Robeck yerine geçti.",
+      "url": "https://archive.org/details/storyanzacvol1",
+      "bibliography": "C. E. W. Bean, The Story of ANZAC, cilt 1; Sydney: Angus & Robertson, 1921.",
+      "locator": "basılı s.195; PDF 308; yerel extract research/source-review/bean-story-anzac-vol1-2026-11-09/metin/sayfa-308.txt",
+      "eventDate": "1915-03-16 implied by Bean as two days before 18 March attack; Bean does not write 16 March",
+      "documentDate": "1921",
+      "accessDate": "2026-11-09",
+      "evidenceText": "two days before it occurred, Carden was placed by the medical officers upon the sick list. Rear-Admiral de Robeck succeeded him",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Resmi tarih aktarımıdır; atama emri veya özgün hasta raporu değildir. 16 Mart rakamı Bean cümlesinde yoktur."
+    },
+    {
+      "claim": "17 Mart öğle, Hamilton denizde Carden’ın Malta’ya hasta naklini görür.",
+      "url": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+      "bibliography": "Ian Hamilton, Gallipoli Diary, cilt I; New York: George H. Doran, 1920; Project Gutenberg e-kitap 19317.",
+      "locator": "17th March, 1915. H.M.S. Phaeton. At sea; basılı s.19",
+      "eventDate": "1915-03-17 noon at sea",
+      "documentDate": "1920",
+      "accessDate": "2026-11-09",
+      "evidenceText": "At noon passed a cruiser taking back Admiral Carden invalided to Malta.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Yayımlanmış günlük aktarımı; el yazısı defter görülmedi. 16 Mart ayrılış kaydıyla aynı olay değildir."
+    },
+    {
+      "claim": "Hamilton 13 Mart Londra’dan yola çıkar; 17 Mart Tenedos’ta de Robeck’i filo komutanı olarak kaydeder.",
+      "url": "https://archive.org/details/sirianhamiltonsd00hami",
+      "bibliography": "Sir Ian Hamilton's Despatches from the Dardanelles, etc.; Londra: George Newnes; ilk rapor 20 Mayıs 1915. Başlık sayfasında yayın yılı yok.",
+      "locator": "basılı s.1; PDF 21; yerel extract hamilton-despatches-2026-11-09/metin/sayfa-021.txt",
+      "eventDate": "1915-03-13 departure; 1915-03-17 Tenedos shortly after noon",
+      "documentDate": "1915-05-20",
+      "accessDate": "2026-11-09",
+      "evidenceText": "I left London on March 13 ... reaching Tenedos on March 17 shortly after noon. Immediately on arrival I conferred with Vice-Admiral de Robeck, Commanding the Eastern Mediterranean Fleet",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Komuta kaydıdır; Admiralty atama emri tarihi değildir. Rapordaki öğleden hemen sonra ile günlük 15.00 birleştirilmedi."
+    },
+    {
+      "claim": "17 Mart 15.00 Tenedos; Queen Elizabeth toplantısında de Robeck, Guépratte, d’Amade.",
+      "url": "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+      "bibliography": "Ian Hamilton, Gallipoli Diary, cilt I; New York: George H. Doran, 1920.",
+      "locator": "CHAPTER II THE STRAITS; basılı s.21–22",
+      "eventDate": "1915-03-17 15:00 Tenedos",
+      "documentDate": "1920",
+      "accessDate": "2026-11-09",
+      "evidenceText": "Cast anchor at Tenedos at 3 p.m., 17th March, 1915, having entered the harbour at the very same instant as le général d'Amade. ... Admiral de Robeck, Commodore Roger Keyes, Admiral Guépratte, cmdg. French Fleet, General d'Amade",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Toplantı/varlık kaydı; atama veya 18 Mart B Hattı düzeni değildir."
+    }
+  ],
+  "rejectedCollapse": [
+    {
+      "source": "Enis Şahin ATAM kronolojisi, PDF 16",
+      "why": "16 Mart maddesinde istifayı ve de Robeck’in getirilişini aynı güne yazar; 17 Mart’ı Bozcaada toplantısı yapar. Atlas 16/17 ayrımını bu yüzden birleştirmez."
+    },
+    {
+      "source": "Gallipoli Simulation Center 2012, PDF 33",
+      "why": "16 March maddesinde Carden resigns and de Robeck takes command aynı günde."
+    },
+    {
+      "source": "DTIC ADA283476, PDF 18",
+      "why": "15 Mart planından ertesi gün Carden relief ve hemen ardından 18 Mart taarruzu; 17 Mart atama günü yok."
+    },
+    {
+      "source": "Yaşar Semiz, PDF 18",
+      "why": "16 Mart’ta Carden’in alınışı ve de Robeck atamasını aynı cümlede birleştirir."
+    }
+  ],
+  "pagesUpdated": [
+    "komutanlar/sackville-carden/index.html",
+    "komutanlar/john-de-robeck/index.html",
+    "komutanlar/ian-hamilton/index.html",
+    "komutanlar/albert-damade/index.html",
+    "komutanlar/emile-guepratte/index.html",
+    "olaylar/18-mart-deniz-muharebesi/index.html"
+  ]
+}

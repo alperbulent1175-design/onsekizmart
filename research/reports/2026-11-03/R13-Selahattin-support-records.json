@@ -1,0 +1,58 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/selahattin-adil-bey/",
+    "sources": [
+      "csa-cevat"
+    ],
+    "summary": "Selahattin Adil Bey, Müstahkem Mevkii kurmay başkanı olarak anılır.",
+    "open": "Yaşam alanları ve atama tarihlerine ilişkin ansiklopedi aktarımı yukarıda ayrı açıklanır. Özgün kimlik kayıtları, emir ve teslim tutanakları, görev bitişi ile günlük hareketlerin belge karşılaştırması açıktır.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Ansiklopedi aktarımı; kurmay ve tümen aşamaları ayrı",
+      "summary": "Kimlik ve görev anlatısı ansiklopedi maddelerine dayanır. 18 Mart’taki kurmay başkanlığı ile sonraki tümen komutanlığı ayrı aşamalardır; özgün emir karşılaştırması açıktır.",
+      "reasons": [
+        "Cevat maddesi kurmay başkanı ilişkisini anar; kendi maddesi doğum, ölüm ve atama tarihlerini aktarır. Kaynakçalardaki nüfus, safahat ve arşiv belgeleri görülmedi; aktarım özgün belge yerine sunulmaz.",
+        "15 Ağustos 1914 kurmay ataması ile 28 Nisan 1915 tümen ataması yazarın aktardığı tarihlerdir; fiilî teslim veya günlük karargâh bulunması harita işaretinden çıkarılmaz. Defin yeri ölüm yeri olarak eklenmedi."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+      "sourceRefs": [
+        "https://canakkalesavaslariansiklopedisi.com/cevat-cobanli-pasa/",
+        "https://canakkalesavaslariansiklopedisi.com/selahaddin-adil/"
+      ]
+    }
+  },
+  "sha256": "08914278fa7548d35f11598f286ff0a0b43f448d50f9a5463d64d0da85315a93",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Selahattin-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      320,
+      320
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "leaflet": true,
+    "mapPlace": "Çanakkale Müstahkem Mevkii Karargâhı",
+    "search": "Müstahkem → 1 sonuç; Aramayı temizle",
+    "filter": "İtilaf aria-pressed=true, 10 işaret, 552px harita; Süzgeci temizle sonrası 23 işaret ve karargâh yeniden seçildi",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adımı kabul; genel R13 açık."
+}

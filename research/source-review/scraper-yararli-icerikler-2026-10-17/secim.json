@@ -7,7 +7,7 @@
     "notDatedArticle": 343,
     "emptyBody": 19
   },
-  "selectedCandidates": 269,
+  "selectedCandidates": 272,
   "records": [
     {
       "id": "886dba401a70",
@@ -4974,6 +4974,85 @@
       "status": "arastirma_adayi_ozgun_kaynak_dogrulamasi_bekliyor",
       "historicalClaimVerified": false,
       "textFile": "ham/ab9205afcf16.txt"
+    },
+    {
+      "id": "620e58e2adba",
+      "title": "Kılavuzlar ve gece yürüyüşleri",
+      "sourceUrl": "https://www.canakkalecephesi.com/index.php/2026/11/07/2277/",
+      "archiveLine": 1,
+      "fetchedAtUtc": "2026-11-08T21:41:02.926167+00:00",
+      "webPublicationDate": "2026-11-07T16:48:20+00:00",
+      "reviewDate": "2026-11-09",
+      "group": "diger-insan-incelemesi",
+      "groupStatus": "otomatik_on_tasnif",
+      "evidenceText": "Cephede Kaybolmak Barış BORLAT Çanakkale muharebeleri esnasında askerlerimizin karşılaştığı güçlüklerden başında görev yapacağı mevziiye ulaşmak, kendi birliğini bulmak ve komşu kıtalarla irtibatını devam ettirmek oluştu",
+      "bodyCharacters": 52271,
+      "bodyBoundaryStatus": "arayuz_sinirlari_bulundu",
+      "sourceSignals": [],
+      "status": "arastirma_adayi_ozgun_kaynak_dogrulamasi_bekliyor",
+      "historicalClaimVerified": false,
+      "textFile": "ham/620e58e2adba.txt",
+      "delta": "2026-11-09"
+    },
+    {
+      "id": "e20b775eb527",
+      "title": "Çanakkale Muharebelerinde Askerî Haritacılık",
+      "sourceUrl": "https://www.canakkalecephesi.com/index.php/2026/10/31/2267/",
+      "archiveLine": 2,
+      "fetchedAtUtc": "2026-11-08T21:41:05.378667+00:00",
+      "webPublicationDate": "2026-10-31T18:12:06+00:00",
+      "reviewDate": "2026-11-09",
+      "group": "diger-insan-incelemesi",
+      "groupStatus": "otomatik_on_tasnif",
+      "evidenceText": "Çanakkale Muharebelerinde Askerî Haritacılık Barış Borlat Çanakkale’de savaşın her günü araziyi yeniden okumayı gerektirmiştir. Birlikler yer değiştirmiş, yeni siperler açılmış, bağlantı yolları uzamış, topçu mevzileri v",
+      "bodyCharacters": 34037,
+      "bodyBoundaryStatus": "arayuz_sinirlari_bulundu",
+      "sourceSignals": [],
+      "status": "arastirma_adayi_ozgun_kaynak_dogrulamasi_bekliyor",
+      "historicalClaimVerified": false,
+      "textFile": "ham/e20b775eb527.txt",
+      "delta": "2026-11-09"
+    },
+    {
+      "id": "e412c4271a67",
+      "title": "Teftişte görülen asker ile günlük asker aynı görünmeyebilir",
+      "sourceUrl": "https://www.canakkalecephesi.com/index.php/2026/10/18/2262/",
+      "archiveLine": 3,
+      "fetchedAtUtc": "2026-11-08T21:41:07.876463+00:00",
+      "webPublicationDate": "2026-10-18T17:39:18+00:00",
+      "reviewDate": "2026-11-09",
+      "group": "kaynak-yayin-izleri",
+      "groupStatus": "otomatik_on_tasnif",
+      "evidenceText": "Dönem dizileri, filmleri ve tarihî canlandırmalar söz konusu olduğunda en hızlı hükümlerden biri asker kıyafeti üzerinden verilir: “Bu üniforma yanlış”, “Bu başlık hatalı”, “Osmanlı askeri böyle giyinmezdi.” Kabalağın sa",
+      "bodyCharacters": 24381,
+      "bodyBoundaryStatus": "arayuz_sinirlari_bulundu",
+      "sourceSignals": [],
+      "status": "arastirma_adayi_ozgun_kaynak_dogrulamasi_bekliyor",
+      "historicalClaimVerified": false,
+      "textFile": "ham/e412c4271a67.txt",
+      "delta": "2026-11-09"
     }
-  ]
+  ],
+  "deltas": [
+    {
+      "date": "2026-11-09",
+      "inputFile": "C:\\Users\\crawi\\Desktop\\onsekizmart-atlas\\research\\source-review\\scraper-yararli-icerikler-2026-10-17\\delta-2026-11-09\\pages.jsonl",
+      "inputSha256": "e9dbd76e0c25c5bf63d2efc9f1aa44ae1e6dea5690752f1d7b3014f9ea8d6e1e",
+      "sitemapDatedArticles": 291,
+      "previousSelected": 269,
+      "added": 3,
+      "excluded": {
+        "duplicate": 0,
+        "notDatedArticle": 0,
+        "emptyBody": 19,
+        "alreadyInDizin": 0
+      },
+      "newIds": [
+        "620e58e2adba",
+        "e20b775eb527",
+        "e412c4271a67"
+      ]
+    }
+  ],
+  "lastDeltaDate": "2026-11-09"
 }

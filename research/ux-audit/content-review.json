@@ -16,7 +16,7 @@
       "title": "London Gazette raporlarının Naval-History.net çevrimyazısı",
       "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
       "evidence": "a demonstration in force / my Chief of Staff",
-      "scope": "1 Temmuz 1915 deniz raporunun çıkarma planı Saros gösterisini; 20 Mayıs kara raporu ve deniz raporları komuta görevlerini anlatır. Çevrimyazı okundu; özgün gazete taraması karşılaştırılmadı. Aynı dosyada farklı tarihli raporlar bulunur.",
+      "scope": "1 Temmuz 1915 deniz raporunun çıkarma planı Saros gösterisini; 20 Mayıs kara raporu ve deniz raporları komuta görevlerini anlatır. Çevrimyazı okundu; özgün gazete taraması karşılaştırılmadı. Aynı dosyada farklı tarihli raporlar bulunur. «my Chief of Staff» rol kaydıdır; Keyes kurmaylık başlangıç veya bitiş günü değildir.",
       "reviewed": "2026-10-17",
       "status": "Birincil rapor çevrimyazısı okundu; özgün tarama karşılaştırması açık"
     },
@@ -79,7 +79,7 @@
       "title": "Kültür ve Turizm Bakanlığı — 1915 kronolojisi",
       "url": "https://www.ktb.gov.tr/TR-96322/1915.html",
       "evidence": "I. Anafartalar Zaferi kazanıldı. / II. Anafartalar Zaferi / Mustafa Kemal, Çanakkale Cephesi'nden ayrıldı.",
-      "scope": "8–9 Ağustos ataması, 9/10/21 Ağustos ve 10 Aralık ayrılış satırları okundu. Atama, muharebe ve cepheden ayrılış farklı kayıtlardır. Diğer tarih satırları için toplu doğrulama yapılmadı.",
+      "scope": "17 Ekim notundaki 8–9 Ağustos atama aralığı tek teslim günü yapılmadı. 9/10/21 Ağustos ve 10 Aralık ayrılış satırları atama, muharebe ve cepheden ayrılış olarak ayrı durur. Diğer tarih satırları için toplu doğrulama yapılmadı.",
       "reviewed": "2026-10-17",
       "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
     },
@@ -87,9 +87,10 @@
       "id": "dva-suvla",
       "title": "DVA — Landing at Suvla Bay 6 to 15 August 1915",
       "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/august-offensive/suvla-bay",
-      "evidence": "British troops quickly secured the closest hills after the landing.",
-      "scope": "6 Ağustos başlangıcı, Stopford ve 15 Ağustos görevden alınması; yakın tepeler ile iç kesimdeki hedefler ayrılır. Kaynak başlığının kapsamı ilk çıkarma gecesinden geniştir.",
+      "evidence": "British troops quickly secured the closest hills after the landing. / Stopford was relieved of his command on 15 August 1915.",
+      "scope": "6 Ağustos başlangıcı, Stopford’un Suvla eylemini komuta ettiği cümle ve 15 Ağustos görevden alınması ayrı durur; yakın tepeler ile iç kesimdeki hedefler ayrılır. 15 Ağustos relieved cümlesi Hamilton handed over kaydıyla birleştirilmedi.",
       "reviewed": "2026-10-17",
+      "r14Review": "2026-11-09",
       "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
     },
     {
@@ -133,7 +134,7 @@
       "title": "Necmettin Alkan — Alman Kaynaklarına Göre Çanakkale Savaşı ve Zaferi, Belleten 80/289 (2016)",
       "url": "https://belleten.gov.tr/tam-metin/279/tur",
       "evidence": "Albay Ali Remzi komutasındaki 7. Tümen",
-      "scope": "Savunma dağılımı bölümünde Remzi/7. Tümen, Halil Sami/9. Tümen, Mustafa Kemal/19. Tümen ve Rafet/11. Tümen yer alır. Rafet kaydı tek başına Bele soyadını kanıtlamaz.",
+      "scope": "Savunma dağılımı bölümünde Remzi/7. Tümen, Halil Sami/9. Tümen, Mustafa Kemal/19. Tümen ve Rafet/11. Tümen yer alır. Rafet kaydı tek başına Bele soyadını kanıtlamaz. Bu bölüm atama, göreve başlama veya görev bitiş günü vermez; 25 Nisan saha kaydı atama günü yapılmadı.",
       "reviewed": "2026-10-17",
       "status": "Araştırma makalesi okundu; atıf verilen özgün belgeler tek tek karşılaştırılmadı"
     },
@@ -142,35 +143,71 @@
       "title": "Çanakkale Savaşları Ansiklopedisi — 33’üncü Piyade Alayı",
       "url": "https://canakkalesavaslariansiklopedisi.com/33uncu-piyade-alayi/",
       "evidence": "Tuğgeneral Erich Weber’in komutanı olduğu 15’inci Kolorduda",
-      "scope": "Anadolu yakasında 11. Tümen ve Weber/15. Kolordu bağı için kullanıldı. Birlik sayıları ile personel kimlikleri bu maddeden genişletilmedi.",
-      "reviewed": "2026-10-17",
+      "scope": "Anadolu yakasında 11. Tümen ve Weber/15. Kolordu bağı için kullanıldı. Kolordu rol kaydı atama günü değildir. Birlik sayıları ile personel kimlikleri bu maddeden genişletilmedi.",
+      "reviewed": "2026-11-10",
       "status": "Araştırma maddesi okundu; atıf verilen özgün belgeler karşılaştırılmadı"
     },
     {
       "id": "atam-vehip",
       "title": "Abdullah İlgazi, Mustafa Bıyıklı — Mehmet Vehip (Kaçi) Paşa’nın Çanakkale Muharebelerindeki Yeri ve Önemi, ATAM 28/82 (2012)",
       "url": "https://atamdergi.gov.tr/tam-metin/225/tur",
-      "evidence": "8 Temmuz’da, yarımadaya gelerek yeni görevine başlayan Vehip Paşa",
-      "scope": "Güney Grubunda Weber’den Vehip’e geçiş ve göreve başlama incelendi. Bu kayıt Ocak 1916 komutasını kendiliğinden kanıtlamaz.",
-      "reviewed": "2026-10-17",
+      "evidence": "8 Temmuz’da, yarımadaya gelerek yeni görevine başlayan Vehip Paşa · 9 Temmuz 1915 tarihinde Çanakkale’de göreve başlayan",
+      "scope": "Güney Grubunda Weber’den Vehip’e geçiş ve göreve başlama incelendi. 8 Temmuz ve 9 Temmuz ifadeleri ayrı durur; birleştirilmedi. Özgün atama görülmedi. Bu kayıt Ocak 1916 komutasını kendiliğinden kanıtlamaz. Vehip başlangıcı Weber bitiş günü değildir.",
+      "reviewed": "2026-11-10",
       "status": "Araştırma makalesi okundu; aktarılan emirlerin özgün taraması karşılaştırılmadı"
+    },
+    {
+      "id": "bean-story-anzac-vol1",
+      "title": "C. E. W. Bean — The Story of ANZAC, cilt 1 (Sydney, 1921)",
+      "url": "https://archive.org/details/storyanzacvol1",
+      "evidence": "the XV Army Corps (3rd and 11th Divisions) was charged with the defence of the Asiatic side, where a German officer, Weber Pasha, was in general command",
+      "scope": "XX. bölüm açılışı, PDF 603 / basılı s.444. 24/25 Nisan bağlamında Anadolu yakası XV. Kolordu komutası. Atama günü, Güney Grubu günü veya Kumkale muharebe saati değildir. 1914 Boğaz tabyaları aktarımı birleştirilmedi.",
+      "reviewed": "2026-11-10",
+      "status": "Yayımlanmış cilt metin katmanı okundu; özgün emir görülmedi"
+    },
+    {
+      "id": "enis-sahin-kronoloji",
+      "title": "Enis Şahin — Kronolojik Çanakkale Savaşları Tarihi, ATAM XXV/73 (2009)",
+      "url": "https://atamdergi.gov.tr/tam-metin-pdf/204/tur",
+      "evidence": "Kuzey grubunun kumandanlığına Esat Paşa getirilirken, Güney grubuna ise Alman asıllı Weber Paşa atandı",
+      "scope": "5 Mayıs maddesi, basılı s.134 / PDF 28. Güney Grubu atama aktarımı. 4/5 Mayıs Esat kaydıyla birleştirilmedi; 5 Mayıs kesin gün seçilmedi. XV. Kolordu bitiş günü üretilmedi. Özgün emir görülmedi.",
+      "reviewed": "2026-11-10",
+      "status": "Yayımlanmış makale metin katmanı okundu; özgün emir görülmedi"
+    },
+    {
+      "id": "ttk-anafartalar-tarihce",
+      "title": "Mustafa Kemal — Anafartalar Muharebatı’na Ait Tarihçe, haz. Uluğ İğdemir, TTK 3. baskı, Ankara 2020",
+      "url": "https://archive.org/details/mustafa-kemal-anafartalar-muharebatina-ait-tarihce",
+      "evidence": "gece yarısından takriben bir iki saat evvel Şimal Gurubu kumandanlığı vasıtasiyle aldığım ordu emrinde · Anafartalar Gurubu kumandanlığına tayin edildim. Şimdi kumandayı deruhte ettim.",
+      "scope": "8 Ağustos günü, gece yarısından önceki ordu emri aktarımı, 9 Ağustos 01.30 karargâh varışı ve 04.00 birlik emri ayrı durur; birleştirilmedi. PDF metin katmanı çıkarımı özgün atama emri değildir.",
+      "reviewed": "2026-11-09",
+      "status": "Yayımlanmış tarihçe metin katmanı okundu; özgün atama emri görülmedi"
     },
     {
       "id": "csa-cevat",
       "title": "Selçuk Osmanoğlu — Cevat (Çobanlı) Paşa",
       "url": "https://canakkalesavaslariansiklopedisi.com/cevat-cobanli-pasa/",
-      "evidence": "Miralay Cevat Bey ve Kurmay Başkanı Selahattin Adil Bey",
-      "scope": "Müstahkem Mevkii ve kurmay başkanı ilişkisi, savunma planı; 29 Kasım 1914 mirliva terfisi maddede bulunur. Gün içindeki bütün saatler bu maddeyle doğrulanmış sayılmadı.",
-      "reviewed": "2026-10-17",
+      "evidence": "10 Ağustos 1914 tarihinde Çanakkale Müstahkem Mevkii Komutanlığı gibi önemli bir göreve atanmıştır · Cevat Bey, 29 Kasım 1914 tarihinde Mirliva rütbesine yükselerek “Paşa” olmuştur · Miralay Cevat Bey ve Kurmay Başkanı Selahattin Adil Bey",
+      "scope": "Müstahkem Mevkii ve kurmay başkanı ilişkisi, savunma planı; 10 Ağustos 1914 atama ve 29 Kasım 1914 mirliva terfisi maddede bulunur. 18 Mart rol kaydı atama günü değildir. Gün içindeki bütün saatler bu maddeyle doğrulanmış sayılmadı.",
+      "reviewed": "2026-11-09",
       "status": "Araştırma maddesi okundu; özgün özlük ve emir belgeleri karşılaştırılmadı"
+    },
+    {
+      "id": "csa-selahaddin",
+      "title": "Murat Kütükçü — Selahaddin Adil",
+      "url": "https://canakkalesavaslariansiklopedisi.com/selahaddin-adil/",
+      "evidence": "15 Ağustos 1914 tarihinde Selahaddin Adil’in yeni görevi, Albay Cevat Çobanlı’nın komutanı olduğu Müstahkem Mevki Komutanlığı Kurmay Başkanlığı olmuştur · 12’nci Tümene 28 Nisan 1915 tarihinden itibaren Albay Fevzi Bey’in yerine Komutan olarak atanmıştır",
+      "scope": "15 Ağustos 1914 kurmay ataması ile 28 Nisan 1915 tümen ataması ayrı durur. 18 Mart rol kaydı atama günü değildir. Yoklukta komuta anlatısı ve karargâh saatleri atama günü yapılmadı.",
+      "reviewed": "2026-11-09",
+      "status": "Araştırma maddesi okundu; özgün emir ve teslim belgeleri karşılaştırılmadı"
     },
     {
       "id": "csa-esat",
       "title": "Levent Ünal — Esad (Bülkat) Paşa",
       "url": "https://canakkalesavaslariansiklopedisi.com/esad-bulkat-pasa/",
-      "evidence": "Çanakkale Cephesi’nde Esat Paşa başlangıçta 3’üncü Kolordu Komutanı",
-      "scope": "Kolordu komutanlığı ve cephenin zaman içinde değişen sorumlulukları incelendi. Nisan görev dağılımı Aralık ayına otomatik taşınmadı.",
-      "reviewed": "2026-10-17",
+      "evidence": "Çanakkale Cephesi’nde Esat Paşa başlangıçta 3’üncü Kolordu Komutanı · Tekirdağ’daki 3’üncü Kolordu Komutanlığına atanmıştır · 4/5 Mayıs 1915 tarihinde 5’inci Ordu Komutanı Liman von Sanders, Gelibolu Yarımadası’ndaki kuvvetler için grup teşkilatlanmasına geçmiştir. Buna göre Esat Paşa artık Kabatepe’den itibaren cephenin kuzeyinden sorumlu Kuzey (Şimal) Grubu Komutanı olmuştur · 14 Ekim 1915 tarihinde cepheden ayrılıncaya kadar",
+      "scope": "3. Kolordu ile Kuzey Grubu ayrı durur. 2 Aralık 1913 Tekirdağ aktarımı Kuzey Grubu günü değildir. 4/5 Mayıs grup teşkil/komuta kaydı 4 Mayıs ile 5 Mayıs’a çevrilmedi. 14 Ekim cepheden ayrılıştır; 1. Ordu atama/teslim günü yapılmadı. Özgün atama emri görülmedi.",
+      "reviewed": "2026-11-10",
       "status": "Araştırma maddesi okundu; özgün emirlerle karşılaştırma açık"
     },
     {
@@ -178,7 +215,7 @@
       "title": "Zekeriya Türkmen — Halil Sami Bey",
       "url": "https://canakkalesavaslariansiklopedisi.com/halil-sami-bey/",
       "evidence": "9’uncu Tümen Komutanlığına Eylül 1914’de atanmıştır.",
-      "scope": "Tümen görevi ve 1915 Haziranındaki görevden ayrılma süreci. Ölüm tarihi maddede kesin değildir; kesin ölüm bilgisi üretilmedi.",
+      "scope": "Tümen görevi ve 1915 Haziranındaki görevden ayrılma süreci. Eylül 1914 ay düzeyi atama; gün yok. 12 ve 13 Haziran ifadeleri ayrı durur; tek teslim günü yapılmadı. Ölüm tarihi maddede kesin değildir; kesin ölüm bilgisi üretilmedi. Özgün atama emri görülmedi.",
       "reviewed": "2026-10-17",
       "status": "Araştırma maddesi okundu; özlük belgesi taraması karşılaştırılmadı"
     },
@@ -187,7 +224,7 @@
       "title": "Çanakkale Savaşları Ansiklopedisi — Türk Donanması",
       "url": "https://canakkalesavaslariansiklopedisi.com/turk-donanmasi/",
       "evidence": "Amiral Usedom, Sahil Topçu ve Torpil Birlikleri Müfettişi",
-      "scope": "Merten ve Usedom görevleri için araştırma metnindeki ifade incelendi; 18 Martta kesin gözetleme yeri veya tek tek top idaresi kanıtı değildir.",
+      "scope": "Merten ve Usedom görevleri için araştırma metnindeki ifade incelendi. Müfettişlik ve temsilcilik rol kayıtları atama günü değildir. 18 Martta kesin gözetleme yeri veya tek tek top idaresi kanıtı değildir.",
       "reviewed": "2026-10-17",
       "status": "Araştırma maddesi okundu; özgün arşiv belgesi karşılaştırması açık"
     },
@@ -196,7 +233,7 @@
       "title": "AWM — William Birdwood, Dawn of the Legend",
       "url": "https://www.awm.gov.au/visit/exhibitions/dawn/legend/birdwood",
       "evidence": "led the ANZAC corps on Gallipoli",
-      "scope": "Kolordu komutanlığı desteklenir; her günün komuta devri ayrı belge gerektirir.",
+      "scope": "Kolordu komutanlığı desteklenir; her günün komuta devri ayrı belge gerektirir. ANZAK harekât komutası ile Bridges sonrası geçici AIF idaresi ayrı durur; iki görev aynı atama günü değildir.",
       "reviewed": "2026-10-17",
       "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
     },
@@ -205,7 +242,7 @@
       "title": "AWM — Burning Bridges",
       "url": "https://www.awm.gov.au/wartime/50/pederson_bridge",
       "evidence": "At Anzac on 15 May 1915",
-      "scope": "Yazının girişinde 1. Avustralya Tümeni komutanı Bridges’in ağır yaralanması anlatılır. Yaralanma ile ölüm tarihi aynı olay değildir.",
+      "scope": "Yazının girişinde 1. Avustralya Tümeni komutanı Bridges’in ağır yaralanması anlatılır. 15 Mayıs yaralanması ile 18 Mayıs ölüm ayrı günlerdir; yaralanma görev sonu yapılmadı.",
       "reviewed": "2026-10-17",
       "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
     },
@@ -214,7 +251,7 @@
       "title": "Manatū Taonga / NZHistory — Alexander Godley",
       "url": "https://nzhistory.govt.nz/media/photo/alexander-godley",
       "evidence": "he was in charge of the New Zealand and Australian Division",
-      "scope": "25 Nisan tümen görevi için kullanıldı; sonraki tüm aylarda aynı komuta görevinin sürdüğünü kanıtlamaz.",
+      "scope": "25 Nisan tümen görevi için kullanıldı; sonraki tüm aylarda aynı komuta görevinin sürdüğünü kanıtlamaz. 25 Nisan saha kaydı atama günü yapılmadı.",
       "reviewed": "2026-10-17",
       "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
     },
@@ -222,8 +259,8 @@
       "id": "dva-overview",
       "title": "DVA — Gallipoli Campaign 1915",
       "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli",
-      "evidence": "Led by General Aylmer Hunter-Weston, the British 29th Division",
-      "scope": "Hunter-Weston/29. Tümen bağlantısı metinde bulunur. Sonraki kolordu görevi için ayrıca dönem raporları gerekir.",
+      "evidence": "Led by General Aylmer Hunter-Weston, the British 29th Division was to land at Cape Helles",
+      "scope": "Hunter-Weston/29. Tümen çıkarma planı cümlesi 9 Kasım 2026’da yeniden okundu. VIII. Kolordu ataması, 17 Temmuz ayrılışı ve hasta nakli bu cümlede yoktur.",
       "reviewed": "2026-10-17",
       "status": "Kurum metni okundu; özgün harp belgesiyle karşılaştırma açık"
     },
@@ -547,7 +584,7 @@
         "dva-suvla"
       ],
       "summary": "Suvla çıkarması 6 Ağustosta başladı. Kaynak, ilk yakın tepe kazanımlarını iç kesimdeki hedeflerden ayırır.",
-      "open": "6–7 Ağustos çıkarma gecesi ile 6–15 Ağustos harekât kapsamı farklıdır.",
+      "open": "6–7 Ağustos çıkarma gecesi ile 6–15 Ağustos harekât kapsamı farklıdır. Çıkarma gecesi, IX. Kolordu komuta günü ve 15 Ağustos devri birleştirilmedi; özgün emir görülmedi.",
       "rewrite": true,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
@@ -571,7 +608,7 @@
         "ktb-1915"
       ],
       "summary": "Kültür ve Turizm Bakanlığı kronolojisi Birinci Anafartalar’ı 9 Ağustos 1915’te verir.",
-      "open": "Grup ataması 8–9 Ağustos kaydıdır; birlik hareketleri ve emir saatleri ayrıca incelenmelidir.",
+      "open": "8 Ağustos gece emir kaydı ile 9 Ağustos karargâh ve birlik emri ayrı durur; özgün atama görülmedi. Birlik hareketleri ayrıca incelenmelidir.",
       "rewrite": true,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
@@ -747,22 +784,24 @@
         "naval-reports"
       ],
       "summary": "d’Amade, Çanakkale’ye gönderilen Fransız sefer kuvvetiyle ilişkilidir.",
-      "open": "Görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler açık kalır; yaşam tarihleri ayrı kurum kişi kaydıyla desteklenir.",
+      "open": "Özgün geri çağırma emri ve teslim belgesi görülmedi. 12 Mayıs veda, 14 Mayıs Gouraud ile dönüş ve kıyıyı terk birleştirilmedi; kıyı terkinin günü açık kalır. 17 Mart Tenedos varışı toplantı kaydıdır; atama günü değildir. Doğum/ölüm alanlarının ayrı kurum kaydı aşağıda açıklanır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "Kişi kaydı ile komuta raporu ayrı",
-        "summary": "Yaşam tarihleri kurum kişi kaydına, sefer kuvveti bağlantısı rapor aktarımına dayanır. Bu iki destek kesin görev günlerini topluca doğrulamaz.",
+        "label": "Veda ziyareti, tanıtma ve kıyı terki ayrı",
+        "summary": "12 Mayıs veda ziyareti, 14 Mayıs öğleden sonra Gouraud ile dönüş ve rapordaki kıyıyı terk anlatısı birleştirilmedi. 17 Mart Tenedos varışı atama günü değildir.",
         "reasons": [
           "INHA kişi kaydının kimlik alanları ve ilgili biyografi paragrafı önceki incelemede okundu; özgün nüfus kayıtları ve atıf verilen arşiv dosyaları incelenmedi.",
-          "Raporların çevrimyazısı ile özgün gazete görüntüsü ayrı tutulur. Aynı dosyadaki farklı tarihli raporlar tek görev dönemi gibi okunmaz; günlük hareketler için karşılaştırma açıktır."
+          "Hamilton günlüğündeki «order of recall» cümlesi Atlas’ın özgün emri gördüğü anlamına gelmez. 26 Ağustos raporundaki kıyıyı terk cümlesine gün konmamıştır; 14 Mayıs Gouraud varış kaydı teslim günü yapılmadı."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "Mevcut17/27Ekim inceleme sınırlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceScope": "17/27 Ekim INHA/rapor sınırı korunur. 9 Kasım: Hamilton günlük 12/14 Mayıs ve 26 Ağustos raporu s.57; özgün emir yok; iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
-          "https://agorha.inha.fr/ark:/54721/bafe13cc-fa47-4d0e-a4c8-50de5d5d6e66?database=81"
+          "https://agorha.inha.fr/ark:/54721/bafe13cc-fa47-4d0e-a4c8-50de5d5d6e66?database=81",
+          "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html",
+          "https://archive.org/details/sirianhamiltonsd00hami"
         ]
       }
     },
@@ -771,20 +810,20 @@
       "sources": [
         "nz-godley"
       ],
-      "summary": "Godley, çıkarma sırasında Yeni Zelanda ve Avustralya Tümeni komutanıdır.",
-      "open": "Yaşam tarihleri kurumsal biyografiyle desteklenir; görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler ayrıca belge karşılaştırması gerektirir.",
+      "summary": "Godley’in 25 Nisan tümen kaydı sonraki aylardaki komutayı belgelemez. Özgün emir görülmedi.",
+      "open": "25 Nisan kaydı atama günü değildir. Özgün atama emri, görev bitişi, sonraki aylardaki komuta ve günlük hareketler belgesiz çözülmedi.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "Yaşam tarihleri ve görev dönemi ayrı",
-        "summary": "Yaşam tarihleri kurumsal biyografiye, çıkarma sırasındaki görev özeti kurum metnine dayanır. Kesin görev günleri ve günlük hareketler ayrıca incelenmelidir.",
+        "label": "25 Nisan tümen kaydı sonraki ayları belgelemez",
+        "summary": "NZHistory çıkarma sırasındaki tümen komutasını yazar. Bu özet bütün harekât boyunca aynı görevin sürdüğünü kanıtlamaz. Yaşam tarihleri komuta başlangıcı veya bitişi değildir.",
         "reasons": [
           "Te Ara biyografisinin yaşam ve Çanakkale paragrafları önceki incelemede okundu; özgün nüfus kayıtları ve bütün atıf eserleri incelenmedi. Bu destek, kesin görev başlangıcı veya bitişi anlamına gelmez.",
-          "NZHistory kaydının görev özeti bütün harekât boyunca aynı görevin sürdüğünü doğrulamaz. Kuvvet ve zayiat toplamları yaşam tarihleri eşleşmesinden türetilmez."
+          "NZHistory kaydının görev özeti bütün harekât boyunca aynı görevin sürdüğünü doğrulamaz. 25 Nisan saha kaydı atama günü yapılmadı. Kuvvet ve zayiat toplamları yaşam tarihleri eşleşmesinden türetilmez."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "Mevcut17ve27Ekim inceleme kapsamlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceScope": "17 ve 27 Ekim mevcut incelemeleri; 11 Kasım görev-tarih ayrımı. Yeni dış erişim veya iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://nzhistory.govt.nz/media/photo/alexander-godley",
           "https://teara.govt.nz/en/biographies/3g12/godley-alexander-john"
@@ -797,23 +836,24 @@
         "dva-overview",
         "naval-reports"
       ],
-      "summary": "Hunter-Weston, çıkarma aşamasında 29. Tümen komutanıdır.",
-      "open": "Ölüm tarihi kişi kaydıyla desteklenir; doğumun gün/ay/yeri, ölüm yeri ve kesin görev başlangıç/bitiş günleri bu kayıtla doğrulanmaz.",
+      "summary": "Hunter-Weston, çıkarma aşamasında 29. Tümen komutanıdır. Sonraki VIII. Kolordu görevi ayrıdır; 17 Temmuz ayrılışı resmî bitiş değildir.",
+      "open": "Özgün atama emri görülmedi. 29. Tümen / VIII. Kolordu geçiş günü, resmî görev sonu ve yaralanma/tahliye günü belgesiz çözülmedi. Ölüm tarihi kişi kaydıyla desteklenir; doğumun gün/ay/yeri ve ölüm yeri bu kayıtla doğrulanmaz.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "Görev değişimi, ayrılış ve yaşam kaydı ayrı",
-        "summary": "Tümen ve kolordu görevleri farklı dönemlere aittir. Yarımadadan ayrılış, resmî görevin bitiş günü olarak kabul edilmez; kişi kaydının yaşam desteği de sınırlıdır.",
+        "label": "Tümen, kolordu, ayrılış ve hasta nakli ayrı",
+        "summary": "29. Tümen görevi ile VIII. Kolordu görevi aynı dönem değildir. 17 Temmuz ayrılışı resmî görev sonu değildir; sonraki hasta nakli atama veya görevden alma günü yapılmadı.",
         "reasons": [
-          "NAM açıklaması görev sırasını, Hamilton raporunun çevrimyazısı ayrılışı anlatır. İmzalı asıl ve atama emri incelenmediği için bu pasajlardan kesin görev başlangıcı veya sonu çıkarılmaz.",
+          "NAM görev sırasını, DVA 29. Tümen çıkarma planını, Hamilton 20 Mayıs raporu çıkarma takdirini ve 11 Aralık raporu 28 Haziran kolordu rolü ile 17 Temmuz ayrılışını anlatır. Özgün atama emri görülmedi; geçiş günü, resmî bitiş ve yaralanma/tahliye günü üretilmedi.",
           "Hansard kişi kaydı ölüm tarihini destekler; doğumun gününü, ayını ve yerini ya da ölüm yerini belirtmez. Kayıt farklı kaynaklardan derlenmiştir; özgün nüfus ve ölüm belgeleri incelenmedi."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "Mevcut25/27Ekim kaynak incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceScope": "25/27 Ekim görev ve yaşam sınırları korunur; 29. Tümen / VIII. Kolordu / 17 Temmuz ayrılış ayrımı 9 Kasım rapor pasajına bağlandı. Özgün emir veya iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://collection.nam.ac.uk/detail.php?acc=2007-03-8-27",
           "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+          "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli",
           "https://api.parliament.uk/historic-hansard/people/lieut-general-sir-aylmer-hunter-weston/index.html"
         ]
       }
@@ -823,20 +863,21 @@
       "sources": [
         "csa-cevat"
       ],
-      "summary": "Cevat Paşa’nın görevi Çanakkale Müstahkem Mevkii komutanlığıdır.",
-      "open": "Yaşam alanları ansiklopedi aktarımıyla eşleşir; özgün kimlik kayıtları, atama ve terfi emirleri, görev bitişi ve günlük hareketlerin karşılaştırması açıktır.",
+      "summary": "Cevat Paşa’nın görevi Çanakkale Müstahkem Mevkii komutanlığıdır. 18 Mart kaydı o günkü rolüdür; 10 Ağustos 1914 atama aktarımı değildir.",
+      "open": "18 Mart rol kaydı atama günü değildir. Özgün atama ve terfi emirleri, görev bitişi ile günlük hareketlerin belge karşılaştırması açıktır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
         "label": "Ansiklopedi aktarımı, atama ve terfi ayrı",
-        "summary": "Kimlik ve görev anlatısı ansiklopedi maddesine dayanır. Atanma ile terfi farklı işlemlerdir; özgün kayıt ve emirlerin karşılaştırması açıktır.",
+        "summary": "Kimlik ve görev anlatısı ansiklopedi maddesine dayanır. 18 Mart’taki komutanlık o günkü rol kaydıdır; atama günü değildir. Atanma ile terfi farklı işlemlerdir; özgün kayıt ve emirlerin karşılaştırması açıktır.",
         "reasons": [
           "Mevcut inceleme kimlik, atama ve terfi paragraflarıyla kaynakçayı kapsar. Kaynakçada anılan subay dosyası ve arşiv belgeleri görülmedi; aktarım özgün belge yerine sunulmaz.",
-          "Yaşam alanlarının maddeyle eşleşmesi, muharebenin bütün saatlerini veya bütün biyografiyi doğrulamaz. Kesin görev bitişi ve günlük hareketler için ayrıca belge karşılaştırması gerekir."
+          "Yaşam alanlarının maddeyle eşleşmesi, muharebenin bütün saatlerini veya bütün biyografiyi doğrulamaz. Kesin görev bitişi ve günlük hareketler için ayrıca belge karşılaştırması gerekir.",
+          "18 Mart’taki komutanlık o günkü rol kaydıdır. Maddenin 10 Ağustos 1914 atama ve 29 Kasım 1914 terfi aktarımları ayrı işlemlerdir; 18 Mart atama günü yapılmadı."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "Mevcut17/26Ekim incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceScope": "17/26 Ekim kimlik incelemesi korunur; 18 Mart rol/atama ayrımı 9 Kasım ansiklopedi pasajına bağlandı. Özgün emir veya iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://canakkalesavaslariansiklopedisi.com/cevat-cobanli-pasa/"
         ]
@@ -847,22 +888,23 @@
       "sources": [
         "dva-evacuation"
       ],
-      "summary": "Monro, Hamilton’dan sonra komutayı aldı ve tahliyeyi önerdi.",
-      "open": "Yaşam günleri alay birliği biyografisine dayanır; yaşam yerleri, kesin görev başlangıç/bitiş günleri ve günlük hareketler açık kalır.",
+      "summary": "Monro, Hamilton’dan sonra komutayı aldı ve tahliyeyi önerdi. 20 Ekim talimatı, 28 Ekim komuta kaydı ve Hamilton’un 16 Ekim geri çağrılması birleştirilmedi.",
+      "open": "Yaşam günleri alay birliği biyografisine dayanır; yaşam yerleri açık kalır. Özgün atama emri, varış günü ve Hamilton’dan fiilî teslim belgesi görülmedi. 20 Ekim talimatı ile 28 Ekim komuta kaydı birleştirilmedi.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "Atama, tahliye önerisi ve uygulama ayrı",
-        "summary": "Yaşam günleri biyografiyle, tahliye değerlendirmesi kurum özetiyle desteklenir. Kesin atama ve fiilî devir günü aynı kaynaklardan çıkarılmadı.",
+        "label": "Talimat, komuta kaydı ve Hamilton geri çağırması ayrı",
+        "summary": "Yaşam günleri biyografiyle desteklenir. 20 Ekim talimat kaydı ile 28 Ekim komuta kaydı ayrıdır; 16 Ekim Hamilton geri çağırması teslim günü değildir.",
         "reasons": [
-          "Alay birliği biyografisinin yaşam, Akdeniz ataması ve Fransa’ya dönüş paragrafları önceki incelemede okundu. Özgün kimlik kayıtları, atama emri ve görev teslim belgesi görülmedi; yaşam yerleri açık kalır.",
+          "Alay birliği biyografisi atamayı Ekim ayı düzeyinde verir. 6 Mart 1916 raporu 20 Ekim’de yola çıkıp komutayı alma talimatını, 28 Ekim’de komutayı aldığını yazar. Özgün atama emri ve görev teslim belgesi görülmedi; varış günü 28 Ekim ile birleştirilmedi; yaşam yerleri açık kalır.",
           "Tahliye önerisi, önerinin kabulü ve çekilmenin uygulanması ayrı aşamalardır. Biyografi başlığındaki başka görev dönemleri Çanakkale komutanlığının süresi sayılmaz; bu destek tahliye kayıplarını doğrulamaz."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "Mevcut17/27Ekim inceleme kapsamlarının sunumu; yeni erişim veya tarihsel doğrulama değil.",
+        "sourceScope": "27 Ekim yaşam notu ile 9 Kasım Gazette/DVA/günlük pasajları; özgün emir görülmedi, iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://www.queensroyalsurreys.org.uk/colonels-and-co/colonels/queens-royal-regiment/gen-sir-charles-monro.html",
+          "https://www.thegazette.co.uk/London/issue/29541/supplement/3777/data.pdf",
           "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/evacuations-from-anzac"
         ]
       }
@@ -872,23 +914,24 @@
       "sources": [
         "naval-reports"
       ],
-      "summary": "Guépratte, Fransız deniz filosunun komutanı olarak raporda geçer.",
-      "open": "Kurum kişi kaydındaki ölüm günü farkı çözülmedi; özgün yaşam kayıtları, kesin görev başlangıç/bitiş günleri ve günlük hareketler için karşılaştırma açıktır.",
+      "summary": "Guépratte’ın 17 Mart filo kaydı 18 Mart B Hattı düzeninin yerine geçmez. Özgün emir görülmedi.",
+      "open": "17 Mart filo kaydı 18 Mart B Hattı düzeni değildir. Özgün atama emri, görev teslim günü, ölüm günü farkı ve günlük hareketler belgesiz çözülmedi.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "Ölüm günü farklı, komuta kapsamı sınırlı",
-        "summary": "Kurum kişi kaydının bölümleri ölüm günü konusunda uyuşmuyor. Deniz komutası rapor aktarımında yer alır; yaşam kaydı muharebe düzenini tek başına doğrulamaz.",
+        "label": "17 Mart filo kaydı 18 Mart B Hattı değildir",
+        "summary": "Hamilton’ın 17 Mart toplantısı Guépratte’ı Fransız filosunun komutanı diye yazar; bu kayıt 18 Mart B Hattı düzeninin yerine geçmez. Ölüm günü kaynakta çelişkilidir; yaşam kaydı muharebe düzenini belgelemez.",
         "reasons": [
           "Meclis kaydının genel bilgileri ve ilgili biyografi paragrafları önceki incelemede okundu. Sözlüğün özgün baskısı ve nüfus/ölüm kaydı görülmedi; farklı günlerden biri kesin kabul edilmedi.",
-          "Rapor çevrimyazısı ile özgün gazete görüntüsü ayrı tutulur. Kişinin milletvekilliği dönemi askerî komuta süresi değildir; görev teslim günleri ve muharebe düzeni için ayrıca kanıt gerekir."
+          "17 Mart komuta kaydı 18 Mart B Hattı görevi veya teslim günü değildir. Rapor çevrimyazısı ile özgün gazete görüntüsü ayrı tutulur. Milletvekilliği dönemi askerî komuta süresi değildir."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "Mevcut17/27Ekim inceleme sınırlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceScope": "17/27 Ekim ve 9 Kasım mevcut pasajlar; 11 Kasım görev-tarih ayrımı. Yeni dış erişim veya iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://www2.assemblee-nationale.fr/sycomore/fiche/3624",
-          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm"
+          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+          "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html"
         ]
       }
     },
@@ -897,20 +940,20 @@
       "sources": [
         "csa-esat"
       ],
-      "summary": "Esat Paşa’nın Çanakkale görevi başlangıçta 3. Kolordu komutanlığıdır.",
-      "open": "Ölümün kesin günü, özgün atama ve görev teslim belgeleri ile günlük hareketler açıktır; ansiklopedi aktarımı özgün belge düzeyinde doğrulama değildir.",
+      "summary": "Esat Paşa’nın Çanakkale görevi başlangıçta 3. Kolordu komutanlığıdır. Madde Kuzey Grubu’nu 4/5 Mayıs kaydıyla ayırır; özgün emir görülmedi.",
+      "open": "Özgün atama emri görülmedi. 4/5 Mayıs grup teşkilinin kesin günü, 1. Ordu atama/teslim günü, ölümün kesin günü ve günlük hareketler belgesiz çözülmedi. Ansiklopedi aktarımı özgün belge düzeyinde doğrulama değildir.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "Değişen görevler ve açık ölüm günü",
-        "summary": "Ansiklopedi maddesi kolordu ve grup görevlerini farklı dönemler için anlatır. Cepheden ayrılma, yeni görevin atama veya teslim günü sayılmaz; ölümün kesin günü açık tutulur.",
+        "label": "3. Kolordu ile Kuzey Grubu ayrı; ölüm günü açık",
+        "summary": "Ansiklopedi maddesi kolordu ile Kuzey Grubu’nu ayrı anlatır. 4/5 Mayıs grup teşkili özgün emir değildir; 4 Mayıs ile 5 Mayıs seçilmedi. Cepheden ayrılma 1. Ordu atama veya teslim günü sayılmaz; ölümün kesin günü açık tutulur.",
         "reasons": [
-          "Mevcut inceleme kimlik, görev değişimi ve ayrılış paragraflarıyla künyeyi kapsar. Özgün nüfus kaydı, grup teşkil emri ve görev teslim belgesi görülmedi; bütün kaynakça okunmuş değildir.",
-          "Ansiklopedi aktarımıyla önceki çalışma kaydındaki ölüm günü eşleşmediği için kesin gün seçilmedi. Haritadaki kolordu işareti de bütün yıl değişmeyen sorumluluk alanı olarak okunmaz."
+          "Levent Ünal maddesinin kimlik, kolordu, 4/5 Mayıs grup ve 14 Ekim ayrılış paragrafları okundu. Özgün nüfus kaydı, grup teşkil emri ve görev teslim belgesi görülmedi; bütün kaynakça okunmuş değildir.",
+          "Ansiklopedi aktarımıyla önceki çalışma kaydındaki ölüm günü eşleşmediği için kesin gün seçilmedi. Haritadaki kolordu işareti Kuzey Grubu teşkil günü veya bütün yıl değişmeyen sorumluluk alanı değildir."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "Mevcut17/27Ekim inceleme sınırlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceScope": "17 ve 27 Ekim mevcut incelemelerinin okuyucu sunumu; 10 Kasım görev-tarih ayrımı aynı CASA pasajlarına bağlandı. Yeni özgün emir veya iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://canakkalesavaslariansiklopedisi.com/esad-bulkat-pasa/"
         ]
@@ -919,19 +962,20 @@
     {
       "path": "komutanlar/frederick-stopford/",
       "sources": [
-        "dva-suvla"
+        "dva-suvla",
+        "naval-reports"
       ],
-      "summary": "Stopford, Suvla harekâtını komuta etti; kaynak 15 Ağustosta görevden alındığını belirtir.",
-      "open": "Yaşam yılları çalışma kaydıdır; kesin yaşam günleri/yerleri bu görev kaynaklarıyla belgelenmedi. Geçici görev ve devir pasajları özgün atama emirleri ve günlük hareketleri bütünüyle doğrulamaz.",
+      "summary": "Stopford IX. Kolordu komutanıdır. Temmuzdaki geçici Helles görevi, 6–7 Ağustos Suvla çıkarması ve 15 Ağustos akşamı IX. Kolordu devri birleştirilmedi.",
+      "open": "Özgün atama emri görülmedi. Geçici Helles’in başlangıç günü, IX. Kolordu atama günü ve 15 Ağustos devir ile görevden alma ayrımı belgesiz çözülmedi. Yaşam yılları çalışma kaydıdır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
         "label": "Geçici görev, kolordu komutası ve devir ayrı",
-        "summary": "Temmuzdaki geçici Helles görevi, Ağustostaki Suvla komutasıyla aynı değildir. Rapor pasajı görev devrini anlatır; yaşam ayrıntıları ve bütün günlük hareketler bu kaynakla belgelenmez.",
+        "summary": "Temmuzdaki geçici Helles görevi, 6–7 Ağustos Suvla çıkarması ve 15 Ağustos IX. Kolordu devri aynı gün değildir. Rapor pasajı görev devrini anlatır; özgün atama emri görülmedi.",
         "reasons": [
-          "Hamilton raporunun ilgili yayımlanmış çevrimyazı pasajları önceki incelemede okundu; bütün rapor, imzalı asıl ve atama emirleri incelenmedi. Rapordaki komuta değerlendirmeleri bağımsız soruşturmanın kesin hükmü sayılmadı.",
-          "Kurumun Suvla özeti ile rapordaki geçici görevlendirme ve devir ayrı kapsamlar sunar. Bu görev kaynaklarından kesin doğum/ölüm günü veya yeri çıkarılmaz; yaşam yılları çalışma kaydı olarak kalır."
+          "Hamilton raporunun ilgili yayımlanmış çevrimyazı pasajları 25 Ekim ve 9 Kasım 2026’da okundu; bütün rapor, imzalı asıl ve atama emirleri incelenmedi. Rapordaki komuta değerlendirmeleri bağımsız soruşturmanın kesin hükmü sayılmadı.",
+          "Kurumun Suvla özeti ile rapordaki geçici görevlendirme ve devir ayrı kapsamlar sunar. 6–7 Ağustos çıkarma gecesi atama günü yapılmadı. Bu görev kaynaklarından kesin doğum/ölüm günü veya yeri çıkarılmaz; yaşam yılları çalışma kaydı olarak kalır."
         ],
         "presentationReviewDate": "2026-11-03",
         "sourceScope": "Mevcut17/25Ekim kaynak sınırlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
@@ -946,20 +990,20 @@
       "sources": [
         "csa-navy"
       ],
-      "summary": "Usedom’un görevi sahil topçu ve torpil birlikleri müfettişliği olarak aktarılır.",
-      "open": "Yaşam alanları ansiklopedi metin aktarımına dayanır; özgün kimlik kayıtları, iki makamın atama emirleri ve günlük hareketler için karşılaştırma açıktır.",
+      "summary": "Usedom’un müfettişlik kaydı atama günü değildir. 18 Mart gözetleme yeri bu maddeden kanıtlanmaz. Özgün emir görülmedi.",
+      "open": "Özgün atama emri görülmedi. Müfettişlik atama günü, 18 Mart gözetleme yeri, iki makamın başlangıç/bitiş günleri, yaşam kayıtları ve günlük hareketler belgesiz çözülmedi.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "İki makam ve metin aktarımı ayrı",
-        "summary": "Özel Komutanlık ile sahil istihkâmatı ve torpil müfettişliği ayrı makamlardır. Yaşam ve görev bilgileri ansiklopedi aktarımıdır; harita noktası kesintisiz bulunulan yeri belgelemez.",
+        "label": "Müfettişlik kaydı, 18 Mart rolü ve atama günü ayrı",
+        "summary": "Sahil topçu ve torpil müfettişliği madde kaydıdır; atama günü değildir. 18 Mart gözetleme yeri bu kayıttan kanıtlanmaz. Özel Komutanlık ile müfettişlik ayrı makamlardır; özgün emir görülmedi.",
         "reasons": [
-          "PDF’nin kimlik, iki makam ve son yaşam paragraflarıyla kaynakça künyesi önceki incelemede metin aktarımından okundu; o erişimde sayfa görüntüsü açılamadı. Aktarım, özgün görüntü incelemesi olarak sunulmaz.",
-          "Alman arşiv dosyaları, atama emirleri ve bütün kaynakça eserleri görülmedi. İki görev tek atama gününe indirgenmez; özgün yaşam kayıtları ve günlük hareketler açık kalır."
+          "Donanma maddesi Usedom’u sahil topçu ve torpil birlikleri müfettişi olarak anar. Bu rol kaydıdır; atama günü, görev başlangıcı veya 18 Mart gözetleme yeri değildir. PDF’nin kimlik, iki makam ve son yaşam paragrafları metin aktarımından okundu; o erişimde sayfa görüntüsü açılamadı.",
+          "Alman arşiv dosyaları, atama emirleri ve bütün kaynakça eserleri görülmedi. İki görev tek atama gününe indirgenmez; 18 Mart heyet/gözetleme anlatısı atama günü yapılmadı. Özgün yaşam kayıtları ve günlük hareketler açık kalır."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "Mevcut17/27Ekim inceleme kapsamlarının sunumu; yeni dış erişim veya tarihsel doğrulama değil.",
+        "sourceScope": "17/27 Ekim mevcut pasajlar; 11 Kasım görev-tarih ayrımı. Yeni dış erişim veya iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://canakkalesavaslariansiklopedisi.com/wp-content/uploads/2023/10/guido-von-usedom-csa-2.pdf#page=1",
           "https://canakkalesavaslariansiklopedisi.com/turk-donanmasi/"
@@ -971,20 +1015,20 @@
       "sources": [
         "csa-halil"
       ],
-      "summary": "Halil Sami Bey, 9. Tümen komutanı olarak görev yaptı.",
-      "open": "Ölüm yılı kesin olmayan aktarımdır; Haziran görev değişiminin kesin teslim günü, özgün özlük ve görev yazışmaları ile günlük hareketler için karşılaştırma açıktır.",
+      "summary": "Halil Sami Bey, 9. Tümen komutanı olarak görev yaptı. Ansiklopedi atamayı Eylül 1914 ayı içinde tarihler; 12 ve 13 Haziran ifadeleri birleştirilmedi.",
+      "open": "Özgün atama emri görülmedi. Eylül 1914 günü, 12 ve 13 Haziran ifadelerinin kesin teslim günü, özgün özlük ve görev yazışmaları ile günlük hareketler belgesiz çözülmedi. Ölüm yılı kesin olmayan aktarımdır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "Kesin olmayan ölüm yılı ve görev geçişi",
-        "summary": "1925 ölüm yılı kesin olmayan bir aktarımdır. Haziran 1915’te görevden alma girişimi, vekâlet, izin ve dönüş tek bir görev teslim günü olarak okunmaz.",
+        "label": "Eylül ay kaydı ile 12/13 Haziran ifadeleri ayrı",
+        "summary": "Ansiklopedi atamayı Eylül 1914 ayı içinde tarihler; gün vermez. Maddede 12 ve 13 Haziran ifadeleri ayrı durur; vekâlet, izin ve dönüş tek teslim günü değildir. 1925 ölüm yılı kesin olmayan aktarımdır.",
         "reasons": [
           "Ansiklopedi maddesinin kimlik, atama, Haziran geçişi ve son yaşam paragrafları 27 Ekim incelemesinin kapsamıdır; özgün özlük dosyası, görevden alma yazısı ve teslim tutanağı görülmedi.",
-          "Yayın künyesi ayrıca doğrulanmadı; bütün kaynakça eserleri okunmadı. Tümen harita işareti bütün yıl aynı komutanı veya kesintisiz aynı sorumluluk alanını belgelemez."
+          "Yayın künyesi ayrıca doğrulanmadı; bütün kaynakça eserleri okunmadı. Tümen harita işareti bütün yıl aynı komutanı veya kesintisiz aynı sorumluluk alanını belgelemez. 18 Mart ve 25 Nisan saha kaydı atama günü değildir."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "17 ve 27 Ekim mevcut incelemelerinin okuyucu sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceScope": "17 ve 27 Ekim mevcut incelemelerinin okuyucu sunumu; 10 Kasım görev-tarih ayrımı aynı pasajlara bağlandı. Yeni dış erişim veya iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://canakkalesavaslariansiklopedisi.com/halil-sami-bey/"
         ]
@@ -996,23 +1040,25 @@
         "nam-gouraud"
       ],
       "summary": "Gouraud, Çanakkale’deki Fransız kolordusunun komutanıdır.",
-      "open": "Yaşam tarihleri kişi veri tabanının aktarımıdır; komutanlığın kesin başlangıç ve devir günleri ile günlük hareketler için belge karşılaştırması açıktır.",
+      "open": "Yaşam tarihleri kişi veri tabanının aktarımıdır. Özgün atama emri görülmedi. Rapordaki 14 Mayıs varış/komuta kaydı ile d’Amade’ın kıyıyı terki birleştirilmedi; kıyı terkinin günü açık kalır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "Yaşam kaydı ile komuta ve fotoğraf kapsamı ayrı",
-        "summary": "Kişi kaydı yaşam tarihlerini, kurum açıklaması Fransız kolordusu komutanlığını destekler. Fotoğraf künyesi kesin komuta veya devir gününü belgelemez.",
+        "label": "Varış/komuta kaydı ile d’Amade ayrılışı ayrı",
+        "summary": "26 Ağustos 1915 raporu 14 Mayıs’ta geldiğini ve komutayı aldığını yazar. d’Amade’ın kıyıyı terki bu kayıttan ayrı durur; raporda o cümleye gün konmamıştır.",
         "reasons": [
           "CTHS kaydının kimlik satırı, kaynakçası ve künyesi 27 Ekim incelemesinde okundu; özgün nüfus ve ölüm belgeleri, listelenen kitaplar ve arşiv dosyaları görülmedi. Cemiyet üyelikleri askerî görev tarihleri değildir.",
-          "National Army Museum açıklaması komutanlık rolünü destekler. AWM G00290 fotoğrafının 1915 tarih alanı ve künyesi, Mayıs başlangıcını, kesin görev devrini veya günlük hareketleri tek başına doğrulamaz."
+          "National Army Museum açıklaması komutanlık rolünü destekler; Mayıs günü vermez. AWM G00290 fotoğrafının 1915 tarih alanı ve künyesi, 14 Mayıs kaydını veya kıyı terikini tek başına doğrulamaz. Özgün atama emri görülmedi."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "17 ve 27 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceScope": "17/27 Ekim NAM/CTHS/AWM sınırı korunur. 9 Kasım: Hamilton 26 Ağustos raporu s.57 ve günlük 14 Mayıs; özgün emir yok; iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://www.cths.fr/an/savant.php?id=104468",
           "https://www.nam.ac.uk/explore/gallipoli",
-          "https://www.awm.gov.au/collection/G00290"
+          "https://www.awm.gov.au/collection/G00290",
+          "https://archive.org/details/sirianhamiltonsd00hami",
+          "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html"
         ]
       }
     },
@@ -1023,23 +1069,24 @@
         "dva-evacuation"
       ],
       "summary": "Hamilton, kara harekâtının komutanıdır. 18 Mart deniz muharebesinin komutanı değildir.",
-      "open": "Yaşam yılları ve Korfu doğumu seçili koleksiyon yazısına dayanır; kesin yaşam günleri, ölüm yeri, fiziksel ayrılış ve fiilî görev teslimi için özgün kayıt karşılaştırması açıktır.",
+      "open": "Yaşam yılları ve Korfu doğumu seçili koleksiyon yazısına dayanır; kesin yaşam günleri, ölüm yeri, atama emri ve özgün geri çağırma/teslim belgesi görülmedi. 16 Ekim geri çağırma, 17 Ekim ayrılış ve 28 Ekim Monro komuta kaydı birleştirilmedi. Rapordaki ve günlükteki 17 Mart varış saatleri birleştirilmedi.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "Geri çağırma ile görev teslimi ayrı",
-        "summary": "Hamilton kara harekâtının komutanıdır. 16 Ekim geri çağırma kaydı, fiziksel ayrılışın veya Monro’ya fiilî görev tesliminin aynı gün olduğunu göstermez.",
+        "label": "Geri çağırma, ayrılış ve teslim ayrı",
+        "summary": "Hamilton kara harekâtının komutanıdır. 16 Ekim geri çağırma kaydı, 17 Ekim Imbros ayrılışı ve Monro’nun 28 Ekim komuta kaydı aynı gün değildir.",
         "reasons": [
           "KCL koleksiyon yazısındaki seçili yaşam paragrafı yılları ve Korfu doğumunu destekler; kesin yaşam günleri ve ölüm yeri bu pasajda yoktur. Koleksiyonun bütün kitap ve şahsi evrakları incelenmedi.",
-          "NAM kayıt açıklamasının geri çağırma paragrafı okundu; özgün emir ve teslim belgesi görülmedi. Müzenin performans değerlendirmesi bağımsız soruşturma hükmü değildir; resim tarihi kişinin yaşam veya görev tarihi sayılmaz."
+          "NAM kayıt açıklaması 16 Ekim geri çağırmasını tarihler; yayımlanmış günlük 16 Ekim telgrafı ile 17 Ekim ayrılışı ayırır. Monro’nun yayımlanmış raporu komutayı 28 Ekim’de aldığını yazar. Özgün emir ve teslim belgesi görülmedi. Müzenin performans değerlendirmesi bağımsız soruşturma hükmü değildir; resim tarihi kişinin yaşam veya görev tarihi sayılmaz."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin okuyucu sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceScope": "28 Ekim NAM/KCL notu ile 9 Kasım günlük cilt II ve Gazette pasajları; özgün emir görülmedi, iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://www.kcl.ac.uk/hamilton-collection",
           "https://collection.nam.ac.uk/detail.php?acc=2004-03-22-1",
-          "https://www.nam.ac.uk/explore/gallipoli"
+          "https://www.gutenberg.org/cache/epub/22021/pg22021-images.html",
+          "https://www.thegazette.co.uk/London/issue/29541/supplement/3777/data.pdf"
         ]
       }
     },
@@ -1048,20 +1095,20 @@
       "sources": [
         "csa-navy"
       ],
-      "summary": "Merten, Başkomutanlığın Çanakkale temsilcisi olarak aktarılır.",
-      "open": "Temsilcilik görevi yayımlanmış araştırmanın aktarımıdır; özgün atama emri, kesin görev günleri ve günlük hareketler açık kalır. Yaşam tarihleri ilgili pasajdan çıkarılmadı; fotoğrafın tarih farkı çözülmedi.",
+      "summary": "Merten’in temsilcilik kaydı atama günü değildir. 18 Mart ateş idaresi bu maddeden kanıtlanmaz. Özgün emir görülmedi.",
+      "open": "Özgün atama emri görülmedi. Temsilcilik başlangıç/bitiş günü, 18 Mart ateş idaresi, yaşam tarihleri ve fotoğraf yılı belgesiz çözülmedi.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "Temsilcilik aktarımı ve fotoğrafın açık tarihi",
-        "summary": "Merten’in temsilcilik görevi Usedom’un müfettişliğiyle aynı makam değildir. Fotoğraf kayıtlarındaki yıl farkı çözülmedi; harita işareti belirli bir anda bulunduğu yeri kanıtlamaz.",
+        "label": "Temsilcilik kaydı, 18 Mart rolü ve atama günü ayrı",
+        "summary": "Merten’in temsilcilik görevi Usedom’un müfettişliğiyle aynı makam değildir. 18 Mart Anadolu Hamidiye ateş idaresi bu kayıttan kanıtlanmaz; atama günü değildir. Fotoğraf yılı ve harita işareti günlük bulunmayı belgelemez.",
         "reasons": [
           "Usedom maddesinin PDF sayfa 2 pasajı 27 Ekim incelemesinde okundu. Bu, yayımlanmış araştırmanın aktarımıdır; özgün atama emri, kesin görev başlangıcı ve bitişi görülmedi. PDF’nin tamamı ve bütün kaynakça eserleri okunmuş sayılmaz.",
-          "Bundesarchiv ile Commons fotoğraf kayıtlarının tarihleri farklıdır; kesin çekim yılı açık bırakıldı. Fotoğraf kimlik açıklaması yaşam tarihlerini veya günlük hareketleri belgelemez."
+          "Donanma maddesi 18 Mart’ta kesin top idaresi kanıtı değildir. Bundesarchiv ile Commons fotoğraf kayıtlarının tarihleri farklıdır; kesin çekim yılı açık bırakıldı. Fotoğraf kimlik açıklaması yaşam tarihlerini veya günlük hareketleri belgelemez."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "17 ve 27 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceScope": "17 ve 27 Ekim mevcut incelemeleri; 11 Kasım görev-tarih ayrımı. Yeni dış erişim veya iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://canakkalesavaslariansiklopedisi.com/wp-content/uploads/2023/10/guido-von-usedom-csa-2.pdf#page=2",
           "https://www.bild.bundesarchiv.de/dba/de/search/?query=Bild+183-R36163",
@@ -1075,7 +1122,7 @@
         "naval-reports"
       ],
       "summary": "De Robeck’in deniz komutanlığı dönem raporlarında görülür.",
-      "open": "Doğum yılı kaynaklarda 1862/1863 olarak farklıdır; özgün yaşam kayıtları ve atama emri görülmedi. 16 Mart Carden ayrılışı ile 17 Mart görev satırı ayrı tutulur; kesin devir günü ve günlük hareketler açık kalır.",
+      "open": "Doğum yılı kaynaklarda 1862/1863 olarak farklıdır; özgün yaşam kayıtları ve atama emri görülmedi. 16 Mart Carden ayrılışı ile 17 Mart görev kaydı ayrı tutulur; rapor ve günlükteki varış saatleri birleştirilmedi; kesin devir günü ve günlük hareketler açık kalır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
@@ -1101,20 +1148,21 @@
         "belleten-alkan"
       ],
       "summary": "Liman von Sanders, Beşinci Ordu savunma düzeninin başındadır.",
-      "open": "Doğumun 17/18 Şubat gün farkı çözülmedi; özgün yaşam kayıtları ve atama emri görülmedi. Ordu kuruluşu, atama ve fiilî göreve başlama ayrı tutulur; kesin görev günleri ve günlük hareketler açık kalır.",
+      "open": "Doğumun 17/18 Şubat gün farkı çözülmedi. Özgün kuruluş emri, atama emri ve teslim belgesi görülmedi. Ordu kuruluşu, atama ve fiilî göreve başlama birleştirilmedi; kesin görev günleri ve günlük hareketler açık kalır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "Doğum günü farklı, kuruluş ve atama ayrı",
-        "summary": "Biyografiler doğum gününü 17 ve 18 Şubat olarak farklı verir. 5. Ordu’nun kuruluşu, komutanlığa atama ve fiilî göreve başlama aynı işlem sayılmaz.",
+        "label": "Kuruluş, atama ve fiilî başlama ayrı",
+        "summary": "5. Ordu’nun kuruluşu, komutanlığa atama ve fiilî göreve başlama aynı işlem sayılmaz. Biyografiler doğum gününü 17 ve 18 Şubat olarak farklı verir.",
         "reasons": [
-          "AWM ve NDB’nin seçili kimlik ve görev paragrafları 28 Ekim incelemesinde karşılaştırıldı. Ölüm bilgileri uyumludur; özgün nüfus ve ölüm kayıtları görülmedi, doğum günü farkı çözülmedi.",
-          "AWM’nin kuruluş ve komutanlık anlatısı kesin atama veya teslim gününü tek başına belgelemez. Özgün atama emri, bütün eser ve kaynakçalar okunmadı; fotoğraf tarihleri de görev başlangıcı değildir."
+          "Bean 24 Mart’ta ordu teşkilini ve aynı cümlede komutanlığın verilmesini yazar; 25 Mart’ta Boğaz’a gidişi ayrıca kaydeder. AWM 25 Mart’ta kuruluşu ve komutanlığın verilmesini birleştirir. ATBD 2129, 25 Mart bildiriminin tarihidir; özgün kuruluş veya atama emri değildir.",
+          "AWM ve NDB’nin kimlik satırları 28 Ekim’de karşılaştırıldı; doğum günü farkı çözülmedi. Özgün kuruluş/atama emri ve teslim belgesi görülmedi; fotoğraf tarihleri görev başlangıcı değildir."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceScope": "Bean s.236 ve AWM biyografisi 9 Kasım 2026; ATBD 2129 Latin aktarımı 20 Ekim 2026. Özgün emir görülmedi; iddia_dogrulandi yok.",
         "sourceRefs": [
+          "https://archive.org/details/storyanzacvol1",
           "https://www.awm.gov.au/visit/exhibitions/gmaps/turkish/vonsanders",
           "https://www.deutsche-biographie.de/sfz51440.html",
           "https://belleten.gov.tr/tam-metin/279/tur"
@@ -1124,24 +1172,26 @@
     {
       "path": "komutanlar/mustafa-kemal/",
       "sources": [
+        "ttk-anafartalar-tarihce",
         "ktb-1915",
         "belleten-alkan"
       ],
-      "summary": "Mustafa Kemal’in 19. Tümen ve Anafartalar Grubu görevleri farklı aşamalardır.",
-      "open": "Yaşam alanları kurum biyografisinin seçili paragraflarıyla desteklidir; özgün yaşam belgeleri, Anafartalar görevinin kesin teslim günü ve günlük karargâh konumları için karşılaştırma açıktır.",
+      "summary": "Mustafa Kemal’in 19. Tümen ve Anafartalar Grubu görevleri farklı aşamalardır; tarihçenin 8 Ağustos ve 9 Ağustos kayıtları birleştirilmedi.",
+      "open": "8 Ağustos gece emir kaydı ile 9 Ağustos karargâh ve birlik emri ayrı durur; kesin gün seçilmedi. Özgün atama emri, teslim belgesi, yaşam belgeleri ve günlük karargâh konumları için karşılaştırma açıktır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "Yaşam kaydı ve değişen görev aşamaları",
-        "summary": "19. Tümen ile Anafartalar Grubu komutanlıkları farklı aşamalardır. Yaşam kaydına verilen kaynak desteği, kesin görev teslim gününü veya günlük karargâh yerini doğrulamaz.",
+        "label": "Yayımlanmış tarihçe aktarımı; 8 ve 9 Ağustos ayrı",
+        "summary": "19. Tümen ile Anafartalar Grubu farklı aşamalardır. 8 Ağustos gece emir kaydı ile 9 Ağustos karargâh ve birlik emri birleştirilmedi; özgün atama görülmedi.",
         "reasons": [
           "Kültür ve Turizm Bakanlığı biyografisinin ilgili yaşam paragrafları 28 Ekim incelemesinde okundu; özgün nüfus ve ölüm belgeleri görülmedi. Doğuma kesin gün ve ay eklenmedi.",
-          "Görev aşamaları önceki kronoloji ve araştırma incelemesine dayanır. Haritadaki genel ihtiyat noktası günlük karargâh konumu değildir; kaynağın diğer muharebe ve zayiat ayrıntıları topluca benimsenmedi."
+          "Anafartalar teslimi, 2020 TTK baskısının PDF metin katmanındaki seçili gün başlıklarından okundu. Çıkarım özgün atama emri değildir. 8 Ağustos günü, gece emri, 9 Ağustos karargâh varışı ve 04.00 birlik emri ayrı durur. Haritadaki genel ihtiyat noktası günlük karargâh konumu değildir."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceScope": "17 ve 28 Ekim yaşam incelemesi korunur; 8/9 Ağustos teslimi 9 Kasım tarihçe metin katmanına bağlandı. Özgün emir veya iddia_dogrulandi yok.",
         "sourceRefs": [
+          "https://archive.org/details/mustafa-kemal-anafartalar-muharebatina-ait-tarihce",
           "https://www.ktb.gov.tr/TR-96300/ataturk39un-hayati.html",
           "https://www.ktb.gov.tr/TR-96322/1915.html",
           "https://belleten.gov.tr/tam-metin/279/tur"
@@ -1155,19 +1205,19 @@
         "csa-33"
       ],
       "summary": "Kaynaklarda 11. Tümen komutanı Rafet Bey adı geçer; Bele soyadıyla kimlik eşleştirmesi bu kayıtlardan kurulamaz.",
-      "open": "Rafet Bey adının Bele soyadıyla kimlik eşleştirmesi kurulamadı; yaşam alanları bu nedenle kaldırılmıştır. Kesin görev günleri ve günlük hareketler için belge karşılaştırması açıktır.",
+      "open": "Rafet Bey adının Bele soyadıyla kimlik eşleştirmesi kurulamadı; yaşam alanları bu nedenle kaldırılmıştır. Özgün atama emri görülmedi. Kesin görev başlangıç ve bitiş günü mevcut pasajlarda yoktur; günlük hareketler belgesiz çözülmedi.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
         "label": "Rafet Bey adı var, Bele eşleştirmesi açık",
-        "summary": "İncelenen kaynaklarda 11. Tümen komutanı Rafet Bey adı geçer. Bu kayıtlar Bele soyadıyla aynı kişi olduğunu göstermediğinden yaşam tarihleri eklenmedi.",
+        "summary": "İncelenen kaynaklarda 11. Tümen komutanı Rafet Bey adı geçer. Bu kayıtlar Bele soyadıyla aynı kişi olduğunu göstermediğinden yaşam tarihleri eklenmedi. Mevcut pasajlarda atama günü yoktur.",
         "reasons": [
           "Mevcut araştırma ve alay maddesi incelemesi ad ile görev için kısmi destek sağlar; soyadı ve kişi kimliği bu kapsamdan çıkarılamaz. Başka bir kişiye ait olabilecek doğum ve ölüm alanları kaldırılmıştır.",
-          "Birlik sorumluluk sahası ve harita işareti kişinin günlük bulunduğu yer değildir. Görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler topluca doğrulanmış sayılmaz."
+          "Birlik sorumluluk sahası ve harita işareti kişinin günlük bulunduğu yer değildir. Alkan savunma dağılımı ve 25 Nisan saha kaydı atama günü değildir. Görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler topluca doğrulanmış sayılmaz."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "17 Ekim mevcut incelemesinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceScope": "17 Ekim mevcut incelemesinin sunumu; 10 Kasım görev-tarih boşluğu aynı pasajlara bağlandı. Yeni dış erişim veya iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://belleten.gov.tr/tam-metin/279/tur",
           "https://canakkalesavaslariansiklopedisi.com/33uncu-piyade-alayi/"
@@ -1179,20 +1229,20 @@
       "sources": [
         "belleten-alkan"
       ],
-      "summary": "Makalede Ali Remzi Bey, 7. Tümen komutanı olarak anılır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "summary": "Makalede Ali Remzi Bey, 7. Tümen komutanı olarak anılır. Bu rol kaydı atama günü değildir.",
+      "open": "Özgün atama emri görülmedi. Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla belgesiz çözülmedi.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
         "label": "Ad ve tümen görevi için kısmi destek",
-        "summary": "İncelenen makalede Ali Remzi Bey, 7. Tümen komutanı olarak anılır. Bu kayıt yaşam tarihlerini, kesin görev günlerini veya günlük hareketlerini topluca belgelemez.",
+        "summary": "İncelenen makalede Ali Remzi Bey, 7. Tümen komutanı olarak anılır. Bu kayıt yaşam tarihlerini, kesin görev günlerini veya günlük hareketlerini topluca belgelemez. Atama günü üretilmedi.",
         "reasons": [
           "Mevcut incelemenin dayanağı yayımlanmış araştırmadaki ad ve görev aktarımıdır. Bu kapsam özgün atama emrinin veya bütün biyografinin incelendiği anlamına gelmez; boş yaşam alanları tahminle doldurulmadı.",
-          "Haritadaki tümen işareti sorumluluk sahasını temsil eder. Aynı işarette listelenen bir olay, komutanın o anda orada bulunduğunun bağımsız kanıtı değildir."
+          "Haritadaki tümen işareti sorumluluk sahasını temsil eder. Aynı işarette listelenen bir olay, komutanın o anda orada bulunduğunun bağımsız kanıtı değildir. 25 Nisan Saros gösterişi atama günü değildir."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "17 Ekim mevcut incelemesinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceScope": "17 Ekim mevcut incelemesinin sunumu; 10 Kasım görev-tarih boşluğu aynı pasajlara bağlandı. Yeni dış erişim veya iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://belleten.gov.tr/tam-metin/279/tur"
         ]
@@ -1203,23 +1253,24 @@
       "sources": [
         "naval-reports"
       ],
-      "summary": "Keyes, deniz komutanının kurmay başkanı olarak raporlarda geçer.",
-      "open": "Yaşam günleri anma kaydının aktarımıdır; daha dar doğum yeri, özgün yaşam belgeleri ve 1915 kurmay başkanlığının kesin başlangıç/bitiş günleri için karşılaştırma açıktır.",
+      "summary": "Keyes’in 17 Mart varlık kaydı kurmaylık başlangıcı değildir. Rapor rol kaydıdır; özgün emir görülmedi.",
+      "open": "17 Mart varlık kaydı atama günü değildir. Özgün atama emri, kurmaylık başlangıç/bitiş günü, daha dar doğum yeri ve günlük hareketler belgesiz çözülmedi.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
       "readerSupport": {
-        "label": "Anma biyografisi ve kurmaylık dönemi ayrı",
-        "summary": "Parlamento anma kaydı yaşam tarihlerini aktarır; Çanakkale kurmay başkanlığının kesin görev günlerini belirlemez. Daha sonraki görevler 1915 dönemi yerine kullanılmaz.",
+        "label": "17 Mart varlık kaydı kurmaylık başlangıcı değildir",
+        "summary": "Hamilton’ın 17 Mart toplantı listesi Keyes’in o gün varlığını yazar; kurmay başkanlığı atama günü değildir. Rapor «Chief of Staff» rol kaydıdır. Yaşam tarihleri ve Ekim fotoğrafı görev süresini belgelemez.",
         "reasons": [
           "Anma kaydının seçili kimlik ve son yaşam paragrafları 28 Ekim incelemesinde okundu; özgün nüfus ve ölüm belgeleri görülmedi. Babanın görev yeri daha dar doğum yeri kanıtı sayılmadı.",
-          "Kurmay başkanlığı için önceki dönem raporu çevrimyazısı incelemesi ayrı tutulur. Parlamento üyeliği ve Ekim tarihli grup fotoğrafı, bu görevin başlangıç ve bitiş günlerini topluca belgelemez."
+          "17 Mart Queen Elizabeth toplantısı varlık kaydıdır. Dönem raporundaki «my Chief of Staff» rol ifadesi başlangıç veya bitiş günü değildir. Parlamento üyeliği ve 17 Ekim grup fotoğrafı bu görevin süresini topluca belgelemez."
         ],
         "presentationReviewDate": "2026-11-03",
-        "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceScope": "17/28 Ekim ve 9 Kasım mevcut pasajlar; 11 Kasım görev-tarih ayrımı. Yeni dış erişim veya iddia_dogrulandi yok.",
         "sourceRefs": [
           "https://www.parliament.uk/about/living-heritage/building/cultural-collections/memorials/in-the-collection/world-war-ii/wwii-heraldic-shields/keyes/",
-          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm"
+          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+          "https://www.gutenberg.org/cache/epub/19317/pg19317-images.html"
         ]
       }
     },
@@ -1229,7 +1280,7 @@
         "naval-reports"
       ],
       "summary": "Carden’ın raporu Şubat–Mart deniz harekâtını anlatır.",
-      "open": "Yaşam yılları çalışma kaydıdır; kesin doğum/ölüm günleri ve yerleri açık kalır. Görev başlangıcı ve günlük hareketler bu rapor bağlantısıyla topluca doğrulanmaz; 16 Mart ayrılışı ile 17 Mart görev kaydı birleştirilmez.",
+      "open": "Yaşam yılları çalışma kaydıdır; kesin doğum/ölüm günleri ve yerleri açık kalır. Görev başlangıcı, atama emri ve günlük hareketler topluca doğrulanmaz; 16 Mart ayrılışı ile 17 Mart görev kaydı birleştirilmez.",
       "rewrite": false,
       "reviewed": "2026-10-17",
       "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
@@ -1250,58 +1301,133 @@
     {
       "path": "komutanlar/selahattin-adil-bey/",
       "sources": [
-        "csa-cevat"
+        "csa-cevat",
+        "csa-selahaddin"
       ],
-      "summary": "Selahattin Adil Bey, Müstahkem Mevkii kurmay başkanı olarak anılır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "summary": "Selahattin Adil Bey, Müstahkem Mevkii kurmay başkanı olarak anılır. 18 Mart kaydı o günkü rolüdür; 15 Ağustos 1914 atama aktarımı değildir.",
+      "open": "18 Mart rol kaydı atama günü değildir. Özgün emir ve teslim tutanakları, görev bitişi ile günlük hareketlerin belge karşılaştırması açıktır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Ansiklopedi aktarımı; kurmay ve tümen aşamaları ayrı",
+        "summary": "Kimlik ve görev anlatısı ansiklopedi maddelerine dayanır. 18 Mart’taki kurmay başkanlığı o günkü rol kaydıdır; atama günü değildir. Sonraki tümen komutanlığı ayrı aşamadır; özgün emir karşılaştırması açıktır.",
+        "reasons": [
+          "Cevat maddesi kurmay başkanı ilişkisini anar; kendi maddesi doğum, ölüm ve atama tarihlerini aktarır. Kaynakçalardaki nüfus, safahat ve arşiv belgeleri görülmedi; aktarım özgün belge yerine sunulmaz.",
+          "15 Ağustos 1914 kurmay ataması ile 28 Nisan 1915 tümen ataması yazarın aktardığı tarihlerdir; fiilî teslim veya günlük karargâh bulunması harita işaretinden çıkarılmaz. Defin yeri ölüm yeri olarak eklenmedi.",
+          "18 Mart’taki kurmay başkanlığı o günkü rol kaydıdır. Maddenin 15 Ağustos 1914 kurmay ataması ile 28 Nisan 1915 tümen ataması ayrı aşamalardır; 18 Mart atama günü yapılmadı."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 ve 28 Ekim kimlik incelemesi korunur; 18 Mart rol/atama ayrımı 9 Kasım ansiklopedi pasajına bağlandı. Özgün emir veya iddia_dogrulandi yok.",
+        "sourceRefs": [
+          "https://canakkalesavaslariansiklopedisi.com/cevat-cobanli-pasa/",
+          "https://canakkalesavaslariansiklopedisi.com/selahaddin-adil/"
+        ]
+      }
     },
     {
       "path": "komutanlar/vehip-pasa-kaci/",
       "sources": [
         "atam-vehip"
       ],
-      "summary": "Vehip Paşa’nın Güney Grubu görevi Temmuzda başlar; makale 8 Temmuzda göreve başlamayı aktarır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "summary": "Vehip Paşa’nın Güney Grubu görevi Temmuzda başlar; makalenin 8 Temmuz ve 9 Temmuz göreve başlama ifadeleri birleştirilmedi.",
+      "open": "8 Temmuz ve 9 Temmuz makale kayıtları ayrı durur; kesin gün seçilmedi. Özgün atama, teslim ve ölüm belgeleri, görev bitişi ile günlük hareketlerin belge karşılaştırması açıktır.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Makale aktarımı; Temmuz görevi ve kesin gün ayrı",
+        "summary": "Güney Grubu görevi Temmuzda başlar. Makalenin 8 ve 9 Temmuz ifadeleri çözülmediği için üstte ay korunur; özgün atama karşılaştırması açıktır.",
+        "reasons": [
+          "Abdullah İlgazi ve Mustafa Bıyıklı’nın Mart 2012 araştırması, bir bölümünde 8 Temmuz’da göreve başladığını, sonraki bölümünde başlangıcı 9 Temmuz 1915 olarak yazar. 1 Temmuz karargâh ziyareti, Weber’in ayrılış anlatısı, atama ve fiilî görev başlangıcı tek gün kabul edilmedi. Aktarılan emirlerin özgün taraması görülmedi.",
+          "Makale ölümü 13 Haziran 1940 olarak aktarır; Karacaahmet defin yeri ölüm yeri yapılmadı. Doğum alanı açık bırakıldı. 17 Ekim incelemesi bu başlangıç kaydının Ocak 1916 komutasını kendiliğinden kanıtlamadığını belirtir."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceRefs": [
+          "https://atamdergi.gov.tr/tam-metin/225/tur"
+        ]
+      }
     },
     {
       "path": "komutanlar/weber-pasa/",
       "sources": [
         "csa-33",
+        "bean-story-anzac-vol1",
+        "enis-sahin-kronoloji",
         "atam-vehip"
       ],
-      "summary": "Weber’in Anadolu yakasındaki kolordu görevi ile sonraki Güney Grubu görevi ayrı aşamalardır.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "summary": "Weber Paşa’nın Anadolu yakasındaki XV. Kolordu görevi ile sonraki Güney Grubu ayrı durur. Özgün emir görülmedi.",
+      "open": "Özgün atama emri görülmedi. XV. Kolordu atama günü, Güney Grubu kesin günü, Weber’in grup/kolordu bitiş günü, yaşam tarihleri ve günlük hareketler belgesiz çözülmedi.",
       "rewrite": false,
-      "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "reviewed": "2026-11-10",
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Kolordu ile Güney Grubu ayrı; atama günü açık",
+        "summary": "Anadolu yakasındaki XV. Kolordu ile sonraki Güney Grubu ayrı durur. Enis Şahin’in 5 Mayıs aktarımı, Esat maddesindeki 4/5 Mayıs kaydıyla birleştirilmedi. Vehip’in 8 ve 9 Temmuz kayıtları Weber bitiş günü değildir. Üstteki yaşam tarihleri bu notlarda belgelenmedi; özgün atama görülmedi.",
+        "reasons": [
+          "33. Alay maddesi Weber’i 15. Kolordu komutanı olarak anar; Bean 1921 Anadolu yakası komutasını 25 Nisan bağlamında yazar. Bunlar atama günü değildir. Enis Şahin 5 Mayıs’ta Güney Grubu atamasını aktarır; kesin gün seçilmedi. ATAM makalesi Güney Grubu’nda Vehip’in başlangıcını 8 ve 9 Temmuz olarak ayrı yazar; Weber’in kolordu veya grup bitiş günü üretilmedi. Aktarılan emirlerin özgün taraması görülmedi.",
+          "12 Eylül 1860 Kamen ve 29 Ekim 1933 Berlin çalışma kaydıdır. 28 Ekim GND/Deutsche Biographie denemeleri pasaj okumadı; yaşam alanları bu notla doğrulanmış sayılmaz. Kumkale harita işareti günlük konum veya Güney Grubu karargâhı değildir. Aynı adlı başka kişilerle kimlik üretilmedi."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "Mevcut madde ve 9 Kasım metin katmanı pasajları; yeni dış erişim yok. GND tekrar denenmedi.",
+        "sourceRefs": [
+          "https://canakkalesavaslariansiklopedisi.com/33uncu-piyade-alayi/",
+          "https://archive.org/details/storyanzacvol1",
+          "https://atamdergi.gov.tr/tam-metin-pdf/204/tur",
+          "https://atamdergi.gov.tr/tam-metin/225/tur"
+        ]
+      }
     },
     {
       "path": "komutanlar/william-birdwood/",
       "sources": [
         "awm-birdwood"
       ],
-      "summary": "Birdwood, Gelibolu’da ANZAK Kolordusunu komuta etti.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "summary": "Birdwood’un ANZAK harekât komutası ile Bridges sonrası geçici AIF idaresi ayrı durur. Özgün emir görülmedi.",
+      "open": "ANZAK ile geçici AIF ayrı görevlerdir. Özgün atama emri, her günün komuta devri, daha dar ölüm yeri ve günlük hareketler belgesiz çözülmedi.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "ANZAK harekâtı ile geçici AIF idaresi ayrı",
+        "summary": "AWM sergi metni ANZAK kolordu komutasını yazar. Müze anlatısı Bridges sonrası geçici AIF idaresini ayrı tutar; iki görev aynı atama günü değildir. Yaşam tarihleri komuta süresini belgelemez.",
+        "reasons": [
+          "Kişi kaydı doğumu 13 Eylül 1865, Kirkee; ölümü 17 Mayıs 1951, Middlesex olarak verir. Hampton Court bu kayıtta yer almadığından daha dar ölüm yeri açık bırakıldı. Özgün nüfus ve ölüm belgeleri görülmedi.",
+          "Kolordu komutanlığı AWM sergi metninde desteklenir; her günün komuta devri ayrı belge gerektirir. Geçici AIF idaresi ANZAK harekât komutasıyla birleştirilmedi. Arıburnu harita noktası bütün görev süresinin günlük karargâhı değildir."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 ve 28 Ekim mevcut incelemeleri; 11 Kasım görev-tarih ayrımı. Yeni dış erişim veya iddia_dogrulandi yok.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/visit/exhibitions/dawn/legend/birdwood",
+          "https://www.awm.gov.au/collection/P11013160"
+        ]
+      }
     },
     {
       "path": "komutanlar/william-bridges/",
       "sources": [
         "awm-bridges"
       ],
-      "summary": "Bridges, 1. Avustralya Tümeni komutanıydı; 15 Mayısta ağır yaralandı.",
-      "open": "Doğum/ölüm alanları, görevlerin kesin başlangıç ve bitiş günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+      "summary": "Bridges’in 15 Mayıs yaralanması ile 18 Mayıs ölümü ayrı günlerdir. Yaralanma görev sonu yapılmadı.",
+      "open": "15 Mayıs yaralanma görev sonu değildir. Özgün atama emri, sağlık/ölüm görüntüleri ve günlük hareketler belgesiz çözülmedi.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "15 Mayıs yaralanma ile 18 Mayıs ölüm ayrı günler",
+        "summary": "1. Avustralya Tümeni komutanlığı, 15 Mayıs yaralanması ve 18 Mayıs ölüm ayrı durur. Yaralanma görev sonu veya atama günü yapılmadı. Özgün sağlık kaydı görülmedi.",
+        "reasons": [
+          "AWM kişi kaydı doğumu 18 Şubat 1861, Greenock; ölümü 18 Mayıs 1915 olarak listeler. Zaman çizelgesi 15 Mayıs yaralanması ile 18 Mayıs yaralardan ölümü ayırır. Doğum belgesi, sağlık dosyası ve özgün ölüm kaydı görüntüleri incelenmedi.",
+          "Wartime yazısının girişi 15 Mayıs’ta Anzac’taki ağır yaralanmayı anlatır; bu pasaj bütün görev günlerini veya günlük karargâhı doğrulamaz. 15 Mayıs görev bitişi yapılmadı. Arıburnu harita işareti günlük konum değildir."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 ve 26 Ekim mevcut incelemeleri; 11 Kasım görev-tarih ayrımı. Yeni dış erişim veya iddia_dogrulandi yok.",
+        "sourceRefs": [
+          "https://www.awm.gov.au/wartime/50/pederson_bridge",
+          "https://www.awm.gov.au/collection/P11013172"
+        ]
+      }
     },
     {
       "path": "donanma/",
@@ -1314,7 +1440,22 @@
       "open": "Zırh, top donanımı, isabet, cephane ve zayiat değerlerinin her biri ayrı teknik kayıt gerektirir.",
       "rewrite": false,
       "reviewed": "2026-10-17",
-      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı"
+      "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+      "readerSupport": {
+        "label": "Rapor ve koleksiyon aktarımı; teknik değerler ayrı kayıt",
+        "summary": "18 Mart kayıpları ile sonraki aylardaki gemi batışları ayrı olaylardır. Zırh, top, isabet, cephane ve zayiat her kartta ayrı teknik kayıt ister.",
+        "reasons": [
+          "London Gazette raporlarının çevrimyazısı, AWM Mayıs fotoğraf künyesi ve Barbaros ansiklopedi maddesi seçili batış/görev anlatılarının dayanağıdır. Çevrimyazı özgün gazete taramasının yerine geçmez.",
+          "Kart başlıklarının altındaki denetim durumu yalnız ilgili kaynak notunun sınırları içindir. Zırh bölümü, fiilî 1915 donatım ve zayiat toplamı bu dizin notuyla doğrulanmış sayılmaz."
+        ],
+        "presentationReviewDate": "2026-11-03",
+        "sourceScope": "17 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+        "sourceRefs": [
+          "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+          "https://www.awm.gov.au/collection/C1003295",
+          "https://canakkalesavaslariansiklopedisi.com/barbaros-hayreddin-zirhlisi/"
+        ]
+      }
     },
     {
       "path": "sozluk/",

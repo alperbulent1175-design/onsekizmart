@@ -62,7 +62,7 @@ window.OM = {
       short: "Alan Başkanlığı kalenin inşasını 1462–63 olarak aktarır. Kale alanı, 18 Mart 1915 komuta ve gözetleme yerinin kesin noktası olarak doğrulanmadı.",
       note: [
         "Boğaz’ın en dar yerinde, Çimenlik (Kale-i Sultaniye) ile karşılıklı durur; adı ‘denizin kilidi’ anlamına gelir.",
-        "Cevat Bey, Selahattin Adil Bey ve Amiral Usedom muharebeyi buradaki gözetleme yerinden yönetti.",
+        "Kale alanı 18 Mart komuta ve gözetleme yerinin kesin noktası olarak doğrulanmadı. Usedom’un müfettişlik kaydı bu noktayı veya o günkü bulunmayı belgelemez.",
         "13.54’te Bouvet’nin Erenköy Koyu’nda havaya uçuşu buradan bizzat izlendi; Nusret hattının işe yaradığı teyit edildi."
       ]
     },
@@ -690,7 +690,7 @@ window.OM = {
       short: "Savunma üst komutanlığı. Tarihli mevcut cetveliyle karşılaştırma açık; kuruluş kadrosu ile fiilen görevdeki personel sayısı eşitlenmez.",
       note: [
         "Bünyesindeki tüm tümenlerle toplam piyade gücü. Çanakkale Boğazı çevresi, Gelibolu Yarımadası ve Saros Körfezi’nden Anadolu kıyılarına uzanan genel savunma sahası.",
-        "18 Mart bir deniz muharebesidir; kara tümenleri henüz çıkarma beklemektedir. 5. Ordu 24 Mart’ta ihdas edilecektir."
+        "18 Mart bir deniz muharebesidir; kara tümenleri henüz çıkarma beklemektedir. 5. Ordu’nun kuruluşu, atama ve fiilî başlama ayrı tutulur; özgün emir görülmedi. Harita işareti 3. Kolordu komutanlığıdır; Kuzey Grubu teşkil günü bu noktadan üretilmez."
       ]
     },
     {

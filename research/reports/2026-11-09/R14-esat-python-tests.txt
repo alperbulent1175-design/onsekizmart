@@ -1,0 +1,11 @@
+﻿python : ...........................
+At line:1 char:1
++ python -m unittest tests.test_build_pages tests.test_import_catalog t ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (...........................:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+----------------------------------------------------------------------
+Ran 27 tests in 0.380s
+
+OK

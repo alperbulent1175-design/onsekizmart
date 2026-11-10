@@ -1,0 +1,106 @@
+{
+  "id": "R14",
+  "slice": "esat-3rd-corps-north-group",
+  "date": "2026-11-10",
+  "status": "dar_alt_adim_kabul; genel_R14_acik",
+  "iddia_dogrulandi": false,
+  "katalog_belge_acildi": false,
+  "datesKeptSeparate": {
+    "corpsStartArticle": "başlangıçta 3’üncü Kolordu Komutanı; atama günü değil",
+    "tekirdagAppointmentArticle": "2 Aralık 1913; Kuzey Grubu günü değil",
+    "northGroupArticle": "4/5 Mayıs 1915; 4 Mayıs ile 5 Mayıs seçilmedi",
+    "departureArticle": "14 Ekim 1915 cepheden ayrılış; 1. Ordu atama/teslim günü değil",
+    "landingDualSector": "25 Nisan–4/5 Mayıs saha kaydı; atama günü değil",
+    "originalAppointment": "görülmedi",
+    "cardenLeft": "16 Mart 1915",
+    "robeckFrom": "17 Mart 1915",
+    "halilAppointmentArticleMonth": "Eylül 1914; gün yok",
+    "hunterLeftPeninsula17July": "17 Temmuz 1915",
+    "note": "3. Kolordu ile Kuzey Grubu birleştirilmedi. 4/5 Mayıs gece kaydı 4 veya 5 Mayıs atama gününe çevrilmedi. Özgün emir görülmedi. Önceki R14 dilimleri dokunulmadı."
+  },
+  "passages": [
+    {
+      "claim": "Ünal maddesi Çanakkale’de başlangıç görevini 3. Kolordu komutanlığı olarak yazar.",
+      "url": "https://canakkalesavaslariansiklopedisi.com/esad-bulkat-pasa/",
+      "bibliography": "Levent Ünal — Esad (Bülkat) Paşa, Çanakkale Savaşları Ansiklopedisi.",
+      "locator": "17/27 Ekim ve 10 Kasım 2026 seçili okuma; content-review csa-esat",
+      "eventDate": "Gallipoli opening role; appointment day not given in this sentence",
+      "documentDate": null,
+      "publicationDate": "2022",
+      "accessDate": "2026-11-10",
+      "evidenceText": "Çanakkale Cephesi’nde Esat Paşa başlangıçta 3’üncü Kolordu Komutanı",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Rol kaydı. Atama günü yoktur. 25 Nisan saha kaydı atama günü yapılmadı. Özgün atama emri değildir."
+    },
+    {
+      "claim": "Aynı madde 3. Kolordu atamasını Tekirdağ’a dönüşle 2 Aralık 1913 olarak aktarır.",
+      "url": "https://canakkalesavaslariansiklopedisi.com/esad-bulkat-pasa/",
+      "bibliography": "Levent Ünal — Esad (Bülkat) Paşa, Çanakkale Savaşları Ansiklopedisi.",
+      "locator": "10 Kasım 2026; Balkan dönüş / kolordu atama paragrafı",
+      "eventDate": "1913-12-02 encyclopedia appointment transfer; not North Group day",
+      "documentDate": null,
+      "publicationDate": "2022",
+      "accessDate": "2026-11-10",
+      "evidenceText": "2 Aralık 1913 tarihinde İstanbul’a döndüğünde Tekirdağ’daki 3’üncü Kolordu Komutanlığına atanmıştır.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Dönüş ve atama aynı cümlede. Kuzey Grubu günü veya 25 Nisan çıkarma ataması değildir. Özgün emir görülmedi."
+    },
+    {
+      "claim": "Madde 4/5 Mayıs 1915’te grup teşkiline geçildiğini ve Esat’ın Kuzey Grubu komutanı olduğunu yazar.",
+      "url": "https://canakkalesavaslariansiklopedisi.com/esad-bulkat-pasa/",
+      "bibliography": "Levent Ünal — Esad (Bülkat) Paşa, Çanakkale Savaşları Ansiklopedisi.",
+      "locator": "27 Ekim ve 10 Kasım 2026; Çanakkale grup teşkil paragrafı",
+      "eventDate": "1915-05-04/05 encyclopedia night date; 4 May and 5 May not selected",
+      "documentDate": null,
+      "publicationDate": "2022",
+      "accessDate": "2026-11-10",
+      "evidenceText": "4/5 Mayıs 1915 tarihinde 5’inci Ordu Komutanı Liman von Sanders, Gelibolu Yarımadası’ndaki kuvvetler için grup teşkilatlanmasına geçmiştir. Buna göre Esat Paşa artık Kabatepe’den itibaren cephenin kuzeyinden sorumlu Kuzey (Şimal) Grubu Komutanı olmuştur.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Teşkil ve komuta aynı gece kaydında birleşik. 4 Mayıs ile 5 Mayıs seçilmedi. Özgün grup teşkil emri veya teslim belgesi değildir."
+    },
+    {
+      "claim": "Madde cepheden ayrılışı 14 Ekim 1915 olarak tarihler; bu 1. Ordu teslim günü yapılmadı.",
+      "url": "https://canakkalesavaslariansiklopedisi.com/esad-bulkat-pasa/",
+      "bibliography": "Levent Ünal — Esad (Bülkat) Paşa, Çanakkale Savaşları Ansiklopedisi.",
+      "locator": "27 Ekim ve 10 Kasım 2026; ayrılış paragrafı",
+      "eventDate": "1915-10-14 departure from front; not 1st Army appointment or takeover day",
+      "documentDate": null,
+      "publicationDate": "2022",
+      "accessDate": "2026-11-10",
+      "evidenceText": "Bu mücadeleyi atandığı 1’inci Ordu Komutanlığı görevine katılmak için 14 Ekim 1915 tarihinde cepheden ayrılıncaya kadar sürdürmüştür.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Ayrılış günü. Atandığı ifadesi 1. Ordu atama günü üretmez. Teslim belgesi görülmedi."
+    }
+  ],
+  "rejectedCollapse": [
+    {
+      "source": "4 Mayıs atama / 5 Mayıs göreve başlama",
+      "why": "Madde 4/5 Mayıs gece kaydı kullanır. İki takvim günü üretilmedi."
+    },
+    {
+      "source": "25 Nisan çıkarma = 3. Kolordu atama günü",
+      "why": "Madde saha sorumluluğu anlatır. Atama günü yapılmadı."
+    },
+    {
+      "source": "14 Ekim = 1. Ordu atama/teslim günü",
+      "why": "Madde cepheden ayrılışı tarihler. Teslim belgesi yok."
+    },
+    {
+      "source": "Maddenin 10 gün süresi ayrı doğrulanmış süre",
+      "why": "Madde anlatımı. Ayrı hesap üretilmedi."
+    }
+  ],
+  "readerSupportKept": {
+    "label": "3. Kolordu ile Kuzey Grubu ayrı; ölüm günü açık",
+    "presentationReviewDate": "2026-11-03"
+  },
+  "pagesUpdated": [
+    "komutanlar/esat-pasa-bulkat/index.html",
+    "komutanlar/index.html",
+    "js/campaign.js",
+    "js/data.js",
+    "inceleme-notlari/index.html",
+    "tests/catalog.test.js",
+    "research/ux-audit/content-review.json"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "R14",
+  "slice": "hunter-weston-29th-division-viii-corps-17-july-1915",
+  "date": "2026-11-09",
+  "status": "dar_alt_adim_kabul; genel_R14_acik",
+  "iddia_dogrulandi": false,
+  "katalog_belge_acildi": false,
+  "datesKeptSeparate": {
+    "twentyNinthDivisionLandingPlan": "25 Nisan 1915 çıkarma planı/çıkarma aşaması; atama günü değil",
+    "hamiltonLandingAppreciationRank": "20 Mayıs 1915 raporunda Major-General; çıkarma dönemi takdiri",
+    "viiiCorpsRole28June": "28 Haziran 1915 şemasında commanding VIIIth Army Corps; atama günü değil",
+    "leftPeninsula17July": "17 Temmuz 1915; a few days' rest; resmi bitiş değil",
+    "subsequentlyInvalidedHome": "raporda subsequently; yaralanma/tahliye günü üretilmedi; atama veya görev sonu yapılmadı",
+    "stopfordTemporaryAfterDeparture": "ayrılış sonrası geçici halef; 17 Temmuz Stopford Helles başlangıcı değil",
+    "douglasTemporary8thCorps": "24 Temmuz 1915; Stopford 15 Ağustos bu dilimde açılmadı",
+    "originalAppointment": "görülmedi",
+    "officialEndOfCommand": "açık",
+    "cardenLeft": "16 Mart 1915",
+    "robeckFrom": "17 Mart 1915",
+    "hamiltonMarchDeparture": "13 Mart 1915",
+    "hamiltonTenedos": "17 Mart 1915",
+    "hamiltonRecall": "16 Ekim 1915",
+    "hamiltonImbrosDeparture": "17 Ekim 1915",
+    "monroLondonInstruction": "20 Ekim 1915",
+    "monroAssumedCommand": "28 Ekim 1915",
+    "damadeFarewellVisit": "12 Mayıs 1915",
+    "gouraudArrivalAndTakeOverRecord": "14 Mayıs 1915",
+    "limanArmyFormedBean": "24 Mart 1915",
+    "limanTravel": "25 Mart 1915",
+    "vehipArticleStart8": "8 Temmuz 1915",
+    "vehipArticleStart9": "9 Temmuz 1915",
+    "mustafaNightOrder8": "8 Ağustos 1915",
+    "mustafaHqArrival9": "9 Ağustos 1915",
+    "cevatAppointmentArticle": "10 Ağustos 1914",
+    "selahattinStaffAppointmentArticle": "15 Ağustos 1914",
+    "stopfordIxHandoverEvening": "15 Ağustos 1915; bu turda dokunulmadı",
+    "note": "29. Tümen, VIII. Kolordu, 17 Temmuz dinlenme ayrılışı ve subsequent invalided home birleştirilmedi. Özgün atama görülmedi. Önceki R14 dilimleri ve Stopford 15 Ağustos dokunulmadı. readerSupport etiketi güncellendi; presentationReviewDate 2026-11-03 korundu."
+  },
+  "passages": [
+    {
+      "claim": "DVA 25 Nisan planında Hunter-Weston’ın 29. Tümen’i Seddülbahir’e çıkaracağını yazar.",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli",
+      "bibliography": "Department of Veterans' Affairs, Gallipoli Campaign 1915. Last updated 26 October 2026.",
+      "locator": "Allied plans bölümü; 17 Ekim 2026 ve 9 Kasım 2026",
+      "eventDate": "1915-04-25 landing plan in this sentence; not an appointment day",
+      "documentDate": null,
+      "publicationDate": "2026-10-26 last updated on this page",
+      "accessDate": "2026-11-09",
+      "evidenceText": "Led by General Aylmer Hunter-Weston, the British 29th Division was to land at Cape Helles.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "limit": "Kurum özeti. Özgün atama emri değildir. VIII. Kolordu, 17 Temmuz ayrılışı ve hasta nakli bu cümlede yoktur."
+    },
+    {
+      "claim": "NAM açıklaması Gelibolu’ya 29. Tümen komutanı olarak geldiğini ve daha sonra VIII. Kolordu’yu komuta ettiğini belirtir.",
+      "url": "https://collection.nam.ac.uk/detail.php?acc=2007-03-8-27",
+      "bibliography": "National Army Museum, NAM.2007-03-8-27, General Hunter Weston and two of his Staff outside their dug-out, 1915.",
+      "locator": "Online Collection açıklama paragrafı; 25 Ekim 2026 ve 9 Kasım 2026",
+      "eventDate": "1915 sequence without calendar transition day",
+      "documentDate": null,
+      "publicationDate": null,
+      "accessDate": "2026-11-09",
+      "evidenceText": "Aylmer Gould Hunter-Weston commanded the 11th Infantry Brigade on the Western Front in 1914 before landing at Gallipoli in 1915 in command of 29th Division. He later commanded VIII Corps",
+      "status": "kurum_koleksiyon_aciklamasi_okundu",
+      "limit": "Katalog açıklaması. Fotoğraf künyesi 1915; çekim günü veya komuta değişikliği günü değildir. Later commanded atama günü yapılmadı."
+    },
+    {
+      "claim": "Hamilton 20 Mayıs 1915 raporu çıkarma döneminde Hunter-Weston’ı Major-General olarak anar.",
+      "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+      "bibliography": "Ian Hamilton, Army Despatch dated 20 May 1915; Naval-History.net çevrimyazısı. Gazette 29217 heading 2 July 1915.",
+      "locator": "Landings despatch kapanış takdir paragrafı; 9 Kasım 2026",
+      "eventDate": "landings appreciation; not a 29th Division appointment day",
+      "documentDate": "1915-05-20",
+      "publicationDate": "1915-07-02 Gazette 29217 heading in this transcription",
+      "accessDate": "2026-11-09",
+      "evidenceText": "Major-General A. G. Hunter-Weston, C.B., D.S.O., was tried very highly, not only during the landings, but more especially in the day and night attacks and counter attacks which ensued.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Çevrimyazı. Bu cümlede 29. Tümen veya VIII. Kolordu adı yoktur. Rütbe terfi günü üretilmedi. İmzalı asıl görülmedi."
+    },
+    {
+      "claim": "Hamilton 11 Aralık 1915 raporu 28 Haziran şemasında Hunter-Weston’ı VIIIth Army Corps komutanı olarak yazar.",
+      "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+      "bibliography": "Ian Hamilton, Army Despatch dated 11 December 1915; Naval-History.net çevrimyazısı. War Office başlığı 6 January 1916.",
+      "locator": "28 June Gully Ravine scheme paragraph (2); 9 Kasım 2026",
+      "eventDate": "1915-06-28 role record in this sentence; not an appointment day",
+      "documentDate": "1915-12-11",
+      "publicationDate": "1916-01-06 War Office heading in this transcription",
+      "accessDate": "2026-11-09",
+      "evidenceText": "In the scheme of attack submitted by Lieutenant- General A. G. Hunter Weston, commanding VIIIth Army Corps, our left, pivoting upon a point in our line about one mile from the sea, was to push forward until its outer flank advanced about 1,000 yards.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Rol kaydı. Atama günü değildir. 17 Temmuz ayrılışı resmi bitiş yapılmadı. Özgün emir görülmedi."
+    },
+    {
+      "claim": "Hamilton 11 Aralık 1915 raporu 17 Temmuz’da 8th Corps komutanının birkaç günlük dinlenme için ayrıldığını ve subsequently invalided home olduğunu yazar.",
+      "url": "https://www.naval-history.net/WW1Battle1503Dardanelles2.htm",
+      "bibliography": "Ian Hamilton, Army Despatch dated 11 December 1915; Naval-History.net çevrimyazısı. War Office başlığı 6 January 1916.",
+      "locator": "17 July paragraph immediately before Stopford temporary succession; 25 Ekim 2026 ve 9 Kasım 2026",
+      "eventDate": "1915-07-17 rest departure in this sentence; invaliding subsequent, day not given",
+      "documentDate": "1915-12-11",
+      "publicationDate": "1916-01-06 War Office heading in this transcription",
+      "accessDate": "2026-11-09",
+      "evidenceText": "On 17th July Lieutenant-General Hunter Weston, commanding the 8th Corps, left the peninsula for a few days' rest, and, to my very deep regret, was subsequently invalided home.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Dinlenme ayrılışı resmi görev sonu değildir. Subsequently invalided home yaralanma/tahliye günü veya kolordu ataması yapılmadı. Çevrimyazı. İmzalı asıl ve atama emri değildir."
+    },
+    {
+      "claim": "Bean çıkarma yeri tartışmasında Hunter-Weston’ı 29. Tümen komutanı olarak yazar.",
+      "url": "https://archive.org/details/storyanzacvol1",
+      "bibliography": "C. E. W. Bean, The Story of ANZAC, cilt 1; Sydney: Angus & Robertson, 1921.",
+      "locator": "basılı s.207; harvest PDF 322",
+      "eventDate": "landing-place discussion; not an appointment day",
+      "documentDate": "1921",
+      "accessDate": "2026-11-09",
+      "evidenceText": "This was the point of attack favoured by Major-General A. Hunter-Weston, commanding the 29th Division, and Major-General Paris, commanding the Royal Naval Division",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Yayımlanmış resmi tarih. Özgün atama emri değildir. VIII. Kolordu geçiş günü bu cümlede yoktur. Çıkarım doğrulanmış iddia değildir."
+    }
+  ],
+  "rejectedCollapse": [
+    {
+      "source": "Wikipedia / Carlyon 24 Mayıs 1915 VIII. Kolordu ataması",
+      "why": "Özgün emir görülmedi. Gazette 29245 metin katmanı bu turda okunamadı. 24 Mayıs üretilmedi."
+    },
+    {
+      "source": "Drive August Offensive notu: territorial divisions → VIII Corps formation → promoted; evacuated with sunstroke",
+      "why": "İmzasız not. Kuruluş, terfi ve güneş çarpması tahliyesi birleşik. Gün yok. Alınmadı."
+    },
+    {
+      "source": "Corps History Vol. 6: In July ... formed into the VIII Corps",
+      "why": "Hamilton 28 Haziran rol kaydıyla çelişir. Temmuz kuruluş günü seçilmedi."
+    },
+    {
+      "source": "Wikipedia 23 Temmuz relief / sunstroke / enteric",
+      "why": "Pasaj görülmedi. 17 Temmuz dinlenme ayrılışı ile subsequent invalided home birleştirilmedi; tanı ve 23 Temmuz üretilmedi."
+    },
+    {
+      "source": "1916 Somme VIII Corps",
+      "why": "1915 Gelibolu görevi yerine kullanılmadı."
+    }
+  ],
+  "readerSupportKept": {
+    "label": "Tümen, kolordu, ayrılış ve hasta nakli ayrı",
+    "presentationReviewDate": "2026-11-03"
+  },
+  "pagesUpdated": [
+    "komutanlar/aylmer-hunter-weston/index.html",
+    "js/campaign.js",
+    "inceleme-notlari/index.html",
+    "tests/catalog.test.js",
+    "research/ux-audit/content-review.json"
+  ]
+}

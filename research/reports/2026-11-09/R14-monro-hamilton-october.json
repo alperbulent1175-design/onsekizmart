@@ -1,0 +1,104 @@
+{
+  "id": "R14",
+  "slice": "monro-ekim-hamilton-16-17-28",
+  "date": "2026-11-09",
+  "status": "dar_alt_adim_kabul; genel_R14_acik",
+  "iddia_dogrulandi": false,
+  "katalog_belge_acildi": false,
+  "datesKeptSeparate": {
+    "hamiltonRecall": "16 Ekim 1915",
+    "hamiltonImbrosDeparture": "17 Ekim 1915",
+    "monroLondonInstruction": "20 Ekim 1915",
+    "monroAssumedCommand": "28 Ekim 1915",
+    "cardenLeft": "16 Mart 1915",
+    "robeckFrom": "17 Mart 1915",
+    "hamiltonMarchDeparture": "13 Mart 1915",
+    "hamiltonTenedos": "17 Mart 1915",
+    "note": "Ekim geri çağırma, ayrılış, talimat ve komuta kaydı birleştirilmedi. 16/17 Mart dokunulmadı."
+  },
+  "passages": [
+    {
+      "claim": "NAM açıklaması Hamilton’un 16 Ekim 1915’te Londra’ya geri çağrıldığını yazar.",
+      "url": "https://collection.nam.ac.uk/detail.php?acc=2004-03-22-1",
+      "bibliography": "National Army Museum, NAM. 2004-03-22-1, An Aide-de-camp, Captain (later General Sir) Ian Standish Monteith Hamilton.",
+      "locator": "kayıt açıklamasının son iki cümlesi",
+      "eventDate": "1915-10-16",
+      "documentDate": null,
+      "accessDate": "2026-11-09",
+      "evidenceText": "Hamilton was recalled to London on 16 October 1915. This effectively ended his military career.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "limit": "1882 tablo açıklamasıdır; özgün emir, ayrılış veya teslim belgesi değildir. Müze performans değerlendirmesi alınmadı."
+    },
+    {
+      "claim": "Yayımlanmış günlük 16 Ekim Imbros’ta gece telgrafını sabah çözer; Munro’nun yerine geçeceğini ve Birdwood’un varıncaya kadar yerini alacağını yazar.",
+      "url": "https://www.gutenberg.org/cache/epub/22021/pg22021-images.html",
+      "bibliography": "Ian Hamilton, Gallipoli Diary, cilt II; New York: George H. Doran, 1920; Project Gutenberg e-kitap 22021.",
+      "locator": "16th October, 1915. Imbros.; basılı s.271–275",
+      "eventDate": "1915-10-16 Imbros; quoted cable says War Council held last night",
+      "documentDate": "1920",
+      "accessDate": "2026-11-09",
+      "evidenceText": "Charles Munro is to relieve me ... When I go, Birdie is to take my place pending Munro's arrival. De Robeck must give me a cruiser so that we may start for home to-morrow.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Yayımlanmış günlük; el yazısı defter ve özgün telgraf görülmedi. «last night» ayrı 15 Ekim emir tarihi yapılmadı. Birdwood fiilî teslim belgesi değildir. Günlük Munro yazar; Gazette Monro."
+    },
+    {
+      "claim": "17 Ekim’de Hamilton Imbros’tan ayrılır; veda emri Munro’ya teslim dilini kullanır.",
+      "url": "https://www.gutenberg.org/cache/epub/22021/pg22021-images.html",
+      "bibliography": "Ian Hamilton, Gallipoli Diary, cilt II; New York: George H. Doran, 1920.",
+      "locator": "17th October, 1915. H.M.S. Chatham (At sea); basılı s.276–278; veda emri 17 Ekim 1915",
+      "eventDate": "1915-10-17 14:30 Triad then Chatham at sea",
+      "documentDate": "1920",
+      "accessDate": "2026-11-09",
+      "evidenceText": "So, by 2.30, I made my last salute to the last of the old lot and boarded the Triad. ... On handing over the Command of the Mediterranean Expeditionary Force to General Sir C. C. Munro",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Ayrılış kaydı ve veda emri dilidir; Monro’nun o gün hazır bulunduğu veya komutayı fiilen aldığı belgesi değildir."
+    },
+    {
+      "claim": "Monro raporu 28 Ekim 1915’te komutayı aldığını; 20 Ekim’de yola çıkıp komutayı alma talimatını aldığını yazar.",
+      "url": "https://www.thegazette.co.uk/London/issue/29541/supplement/3777/data.pdf",
+      "bibliography": "Charles C. Monro, 6 Mart 1916 raporu; London Gazette, sayı 29541 eki, 10 Nisan 1916, s.3777.",
+      "locator": "ilk sayfa, rapor başlığı ve açılış paragrafları",
+      "eventDate": "1915-10-20 instruction in London; 1915-10-28 assumed command",
+      "documentDate": "1916-03-06",
+      "publicationDate": "1916-04-10",
+      "accessDate": "2026-11-09",
+      "evidenceText": "from the 28th October, 1915, on which date I assumed command of the Mediterranean Expeditionary Force ... On the 20th October in London, I received your Lordship's instructions to proceed as soon as possible to the near East and take over the command",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Sonradan yazılmış yayımlanmış rapordur; özgün atama emri değildir. «Two days after my arrival at Imbros» varış günü üretmez. USNI Mayıs 1916 aktarımı 20 Ekim cümlesini verir, 28 Ekim komuta cümlesini bu incelemede atlar."
+    },
+    {
+      "claim": "DVA Ekim ayı düzeyinde Hamilton’un Munro ile değiştirildiğini yazar.",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/evacuations-from-anzac",
+      "bibliography": "Department of Veterans’ Affairs, Evacuation from Gallipoli 1915, Anzac Portal.",
+      "locator": "giriş paragrafı",
+      "eventDate": "1915-10",
+      "documentDate": null,
+      "publicationDateNote": "Sayfa son güncelleme 5 January 2026",
+      "accessDate": "2026-11-09",
+      "evidenceText": "In October, the British replaced General Sir Ian Hamilton with Lieutenant-General Sir Charles Munro. Munro immediately proposed evacuation.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "limit": "Ay düzeyidir; kesin gün vermez. Munro yazımı Gazette Monro ile aynı kişi kaydı sayılmaz diye ayrıca kimlik üretilmedi. «immediately» 16 Ekim teslim günü yapılmadı."
+    }
+  ],
+  "rejectedCollapse": [
+    {
+      "source": "DTIC ADA283476, PDF 28",
+      "why": "On 15 October, General Sir Charles Munro replaced Hamilton ile Munro arrived in theater on 28 October aynı anlatıda birleşir. 15 Ekim Atlas’ta geri çağırma/teslim günü yapılmadı."
+    },
+    {
+      "source": "Drive gallipoli general notes, PDF 2",
+      "why": "By September ... decided to recall Hamilton to replace him by Lieut. Gen. Sir Charles Monroe; gün yok, yazım Monroe."
+    },
+    {
+      "source": "Bean, The Story of ANZAC, cilt 1",
+      "why": "Cilt Mayıs 1915’e kadar; Ekim 1915 komuta değişimi bu ciltte yoktur. Cilt 2 bu tur okunmadı."
+    }
+  ],
+  "pagesUpdated": [
+    "komutanlar/ian-hamilton/index.html",
+    "komutanlar/charles-monro/index.html",
+    "js/campaign.js",
+    "tests/catalog.test.js",
+    "research/ux-audit/content-review.json"
+  ]
+}

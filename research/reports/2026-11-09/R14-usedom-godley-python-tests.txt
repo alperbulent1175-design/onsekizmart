@@ -1,0 +1,6 @@
+python -m unittest tests.test_build_pages tests.test_import_catalog tests.test_catalog_network
+Ran 27 tests in 1.221s
+OK
+cwd: C:\Users\crawi\Desktop\onsekizmart-atlas
+date: 2026-11-11
+slice: R14 Usedom–Godley

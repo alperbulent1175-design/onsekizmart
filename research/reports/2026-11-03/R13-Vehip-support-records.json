@@ -1,0 +1,57 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/vehip-pasa-kaci/",
+    "sources": [
+      "atam-vehip"
+    ],
+    "summary": "Vehip Paşa’nın Güney Grubu görevi Temmuzda başlar; makale 8 Temmuzda göreve başlamayı aktarır.",
+    "open": "Görev başlangıcı günleri ve ölüm yerine ilişkin makale aktarımı yukarıda ayrı açıklanır. Özgün atama, teslim ve ölüm belgeleri, görev bitişi ile günlük hareketlerin belge karşılaştırması açıktır.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Makale aktarımı; Temmuz görevi ve kesin gün ayrı",
+      "summary": "Güney Grubu görevi Temmuzda başlar. Makalenin 8 ve 9 Temmuz ifadeleri çözülmediği için üstte ay korunur; özgün atama karşılaştırması açıktır.",
+      "reasons": [
+        "Abdullah İlgazi ve Mustafa Bıyıklı’nın Mart 2012 araştırması, bir bölümünde 8 Temmuz’da göreve başladığını, sonraki bölümünde başlangıcı 9 Temmuz 1915 olarak yazar. 1 Temmuz karargâh ziyareti, Weber’in ayrılış anlatısı, atama ve fiilî görev başlangıcı tek gün kabul edilmedi. Aktarılan emirlerin özgün taraması görülmedi.",
+        "Makale ölümü 13 Haziran 1940 olarak aktarır; Karacaahmet defin yeri ölüm yeri yapılmadı. Doğum alanı açık bırakıldı. 17 Ekim incelemesi bu başlangıç kaydının Ocak 1916 komutasını kendiliğinden kanıtlamadığını belirtir."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+      "sourceRefs": [
+        "https://atamdergi.gov.tr/tam-metin/225/tur"
+      ]
+    }
+  },
+  "sha256": "51d3f63e2e67977bb5ec3e2bca02d97cc8bf804d91c408f31f2c0b1ae14e16ba",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Vehip-support-tests.txt"
+  },
+  "ui": {
+    "desktop": [
+      1280,
+      720,
+      1265,
+      1265
+    ],
+    "mobile": [
+      320,
+      800,
+      320,
+      320
+    ],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "leaflet": true,
+    "mapPlace": "Seddülbahir",
+    "search": "Seddülbahir → 13 eşleşme (ilk 8 gösterildi); Aramayı temizle",
+    "filter": "İtilaf aria-pressed=true, 10 işaret, 552px harita; Süzgeci temizle sonrası 23 işaret ve İki taraf. Seddülbahir Osmanlı işareti olduğu için İtilaf süzgecinde gizlendi; seçim Donanma intikali kaldı",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adımı kabul; genel R13 açık."
+}

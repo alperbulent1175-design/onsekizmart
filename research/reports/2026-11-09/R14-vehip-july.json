@@ -1,0 +1,77 @@
+{
+  "id": "R14",
+  "slice": "vehip-8-9-temmuz-1915-guney-grubu",
+  "date": "2026-11-09",
+  "status": "dar_alt_adim_kabul; genel_R14_acik",
+  "iddia_dogrulandi": false,
+  "katalog_belge_acildi": false,
+  "datesKeptSeparate": {
+    "articleStart8": "8 Temmuz 1915",
+    "articleStart9": "9 Temmuz 1915",
+    "hqVisit": "1 Temmuz 1915; göreve başlama günü yapılmadı",
+    "originalAppointment": "görülmedi",
+    "handover": "açık; teslim belgesi yok",
+    "cardenLeft": "16 Mart 1915",
+    "robeckFrom": "17 Mart 1915",
+    "hamiltonMarchDeparture": "13 Mart 1915",
+    "hamiltonTenedos": "17 Mart 1915",
+    "hamiltonRecall": "16 Ekim 1915",
+    "hamiltonImbrosDeparture": "17 Ekim 1915",
+    "monroLondonInstruction": "20 Ekim 1915",
+    "monroAssumedCommand": "28 Ekim 1915",
+    "damadeFarewellVisit": "12 Mayıs 1915",
+    "gouraudArrivalAndTakeOverRecord": "14 Mayıs 1915",
+    "limanArmyFormedBean": "24 Mart 1915",
+    "limanTravel": "25 Mart 1915",
+    "note": "8 Temmuz ve 9 Temmuz birleştirilmedi. Özgün atama görülmedi. 16/17 Mart, Ekim Hamilton/Monro, Gouraud 12/14 Mayıs ve Liman 24/25 Mart dokunulmadı. readerSupport etiketi korundu."
+  },
+  "passages": [
+    {
+      "claim": "ATAM 2012 makalesi bir bölümünde 8 Temmuz’da yarımadaya gelerek yeni göreve başladığını yazar.",
+      "url": "https://atamdergi.gov.tr/tam-metin/225/tur",
+      "bibliography": "Abdullah İlgazi, Mustafa Bıyıklı — Mehmet Vehip (Kaçi) Paşa’nın Çanakkale Muharebelerindeki Yeri ve Önemi, ATAM 28/82 (2012).",
+      "locator": "17 Ekim 2026 seçili pasaj; R03-vehip-date-scope.json ve inceleme-notlari #atam-vehip",
+      "eventDate": "1915-07-08 arrival-and-start in this sentence",
+      "documentDate": null,
+      "publicationDate": "2012-03",
+      "accessDate": "2026-10-17",
+      "evidenceText": "8 Temmuz’da, yarımadaya gelerek yeni görevine başlayan Vehip Paşa",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Araştırma makalesi aktarımı; özgün atama emri değildir. Yarımadaya geliş ile göreve başlama bu cümlede birleşiktir. 9 Temmuz kaydına çevrilmez. Ocak 1916 komutasını kendiliğinden kanıtlamaz."
+    },
+    {
+      "claim": "Aynı makalenin sonraki bölümü 9 Temmuz 1915 tarihinde Çanakkale’de göreve başladığını yazar.",
+      "url": "https://atamdergi.gov.tr/tam-metin/225/tur",
+      "bibliography": "Abdullah İlgazi, Mustafa Bıyıklı — Mehmet Vehip (Kaçi) Paşa’nın Çanakkale Muharebelerindeki Yeri ve Önemi, ATAM 28/82 (2012).",
+      "locator": "28 Ekim 2026 seçili pasaj; R03-vehip-date-scope.json",
+      "eventDate": "1915-07-09 start in this sentence",
+      "documentDate": null,
+      "publicationDate": "2012-03",
+      "accessDate": "2026-10-28",
+      "evidenceText": "9 Temmuz 1915 tarihinde Çanakkale’de göreve başlayan",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Aynı makale içindeki ikinci ifade. 8 Temmuz kaydını 9 Temmuz’a çevirmez. İki gün birleştirilmedi. Kesin gün seçilmedi. Özgün atama emri değildir."
+    }
+  ],
+  "rejectedCollapse": [
+    {
+      "source": "Aynı ATAM makalesindeki 8 Temmuz ve 9 Temmuz cümlelerini tek göreve başlama günü yapmak",
+      "why": "İç fark çözülmedi. Üst alanda Temmuz ayı korunur; 8–9 aralığı veya tek gün üretilmedi."
+    },
+    {
+      "source": "1 Temmuz karargâh ziyaretini fiilî görev başlangıcı yapmak",
+      "why": "Ziyaret, atama ve fiilî başlama ayrı işlemlerdir. 28 Ekim notu tek gün kabul etmedi."
+    }
+  ],
+  "readerSupportKept": {
+    "label": "Makale aktarımı; Temmuz görevi ve kesin gün ayrı",
+    "presentationReviewDate": "2026-11-03"
+  },
+  "pagesUpdated": [
+    "komutanlar/vehip-pasa-kaci/index.html",
+    "js/campaign.js",
+    "inceleme-notlari/index.html",
+    "tests/catalog.test.js",
+    "research/ux-audit/content-review.json"
+  ]
+}

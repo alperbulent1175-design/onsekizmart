@@ -1,0 +1,49 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/william-bridges/",
+    "sources": [
+      "awm-bridges"
+    ],
+    "summary": "Bridges, 1. Avustralya Tümeni komutanıydı; 15 Mayısta ağır yaralandı.",
+    "open": "15 Mayıs yaralanması ile 18 Mayıs ölüm ayrı olaylardır. Özgün sağlık/ölüm görüntüleri ve günlük hareketler açıktır.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Kurum kişi kaydı; yaralanma ve ölüm ayrı günler",
+      "summary": "1. Avustralya Tümeni komutanlığı ve 15 Mayıs yaralanması kurum metinlerinde ayrı durur. Ölüm 18 Mayıs’tır; iki tarih tek olay yapılmaz.",
+      "reasons": [
+        "AWM kişi kaydı doğumu 18 Şubat 1861, Greenock; ölümü 18 Mayıs 1915 olarak listeler. Zaman çizelgesi 15 Mayıs yaralanması ile 18 Mayıs yaralardan ölümü ayırır. Doğum belgesi, sağlık dosyası ve özgün ölüm kaydı görüntüleri incelenmedi.",
+        "Wartime yazısının girişi 15 Mayıs’ta Anzac’taki ağır yaralanmayı anlatır; bu pasaj bütün görev günlerini veya günlük karargâhı doğrulamaz. Arıburnu harita işareti günlük konum değildir."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+      "sourceRefs": [
+        "https://www.awm.gov.au/wartime/50/pederson_bridge",
+        "https://www.awm.gov.au/collection/P11013172"
+      ]
+    }
+  },
+  "sha256": "26e98d9540262098c5826851bd439b0120904e84694948e359469377277b85f4",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Weber-chain-support-tests.txt",
+    "pythonLog": "R13-Weber-chain-support-python.txt"
+  },
+  "ui": {
+    "desktop": [1280, 720, 1265, 1265],
+    "mobile": [320, 800, 320, 320],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "leaflet": true,
+    "mapPlace": "Arıburnu",
+    "search": "Bridges profili; komutan araması Birdwood turunda 1/25→25/25",
+    "filter": "İtilaf süzgeci Weber/donanma turunda ölçüldü",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adımı kabul. Canlı HTML genel uyarı bu zincirle 0."
+}

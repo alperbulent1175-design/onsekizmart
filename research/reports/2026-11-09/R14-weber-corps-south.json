@@ -1,0 +1,105 @@
+{
+  "id": "R14",
+  "slice": "weber-xv-corps-south-group",
+  "date": "2026-11-10",
+  "status": "dar_alt_adim_kabul; genel_R14_acik",
+  "iddia_dogrulandi": false,
+  "katalog_belge_acildi": false,
+  "datesKeptSeparate": {
+    "xvCorpsArticle": "15’inci Kolordu komutanı; atama günü değil",
+    "beanAsiaticCommand": "24/25 Nisan bağlamı; atama günü değil",
+    "landingDualSector": "25 Nisan Kumkale saha kaydı; atama günü değil",
+    "southGroupArticle": "5 Mayıs 1915 Enis aktarımı; 4/5 Mayıs ile birleştirilmedi; kesin gün seçilmedi",
+    "vehipStart8": "8 Temmuz 1915; Weber bitiş günü değil",
+    "vehipStart9": "9 Temmuz 1915; Weber bitiş günü değil",
+    "originalAppointment": "görülmedi",
+    "cardenLeft": "16 Mart 1915",
+    "robeckFrom": "17 Mart 1915",
+    "esatNorthGroup": "4/5 Mayıs 1915; 4 Mayıs ile 5 Mayıs seçilmedi",
+    "note": "XV. Kolordu ile Güney Grubu birleştirilmedi. Enis 5 Mayıs, Ünal 4/5 Mayıs birleştirilmedi. Vehip 8/9 Temmuz Weber bitişi yapılmadı. Bean 1914 tabya aktarımı 1915 kolordu kaydıyla birleştirilmedi. Özgün emir görülmedi. GND tekrar denenmedi. Önceki R14 dilimleri dokunulmadı."
+  },
+  "passages": [
+    {
+      "claim": "33. Alay maddesi Weber’i 15. Kolordu komutanı olarak anar.",
+      "url": "https://canakkalesavaslariansiklopedisi.com/33uncu-piyade-alayi/",
+      "bibliography": "Çanakkale Savaşları Ansiklopedisi — 33’üncü Piyade Alayı.",
+      "locator": "17 Ekim ve 10 Kasım 2026; content-review csa-33",
+      "eventDate": "XV Corps role; appointment day not given",
+      "documentDate": null,
+      "publicationDate": null,
+      "accessDate": "2026-10-17",
+      "evidenceText": "Tuğgeneral Erich Weber’in komutanı olduğu 15’inci Kolorduda",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Rol kaydı. Atama günü yoktur. Birlik sayıları ve personel kimlikleri genişletilmedi. Özgün atama emri değildir."
+    },
+    {
+      "claim": "Bean 1921, 24/25 Nisan bağlamında XV. Kolordu’nun Anadolu yakasını savunduğunu ve Weber’in genel komutada olduğunu yazar.",
+      "url": "https://archive.org/details/storyanzacvol1",
+      "bibliography": "C. E. W. Bean, The Story of ANZAC, vol. 1, Angus & Robertson, Sydney, 1921.",
+      "locator": "harvest-728 PDF 603 / basılı s.444; XX. bölüm açılışı; metin katmanı 9 Kasım 2026",
+      "eventDate": "1915-04-24/25 Asiatic command in this chapter opening; not appointment day",
+      "documentDate": null,
+      "publicationDate": "1921",
+      "accessDate": "2026-11-09",
+      "evidenceText": "the XV Army Corps (3rd and 11th Divisions) was charged with the defence of the Asiatic side, where a German officer, Weber Pasha, was in general command",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Çıkarma gecesi/günü komuta aktarımı. Atama günü, Güney Grubu günü veya Kumkale muharebe saati değildir. 1914 Boğaz tabyaları kapatma aktarımı (PDF 251 / basılı s.140) birleştirilmedi."
+    },
+    {
+      "claim": "Enis Şahin 5 Mayıs maddesinde Güney Grubu’na Weber atandığını yazar.",
+      "url": "https://atamdergi.gov.tr/tam-metin-pdf/204/tur",
+      "bibliography": "Enis Şahin, Kronolojik Çanakkale Savaşları Tarihi (3 Kasım 1914–9 Ocak 1916), ATAM XXV/73, 2009.",
+      "locator": "basılı s.134 / PDF 28; yerel çıkarım 9 Kasım 2026; dipnot 153 Konukçu / Türkmen aktarımı",
+      "eventDate": "1915-05-05 encyclopedia appointment transfer; not selected as exact day",
+      "documentDate": null,
+      "publicationDate": "2009",
+      "accessDate": "2026-11-10",
+      "evidenceText": "Kuzey grubunun kumandanlığına Esat Paşa getirilirken, Güney grubuna ise Alman asıllı Weber Paşa atandı",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Güney Grubu atama aktarımı. 4/5 Mayıs Esat kaydıyla birleştirilmedi. 5 Mayıs kesin gün seçilmedi. XV. Kolordu bitiş günü üretilmedi. Özgün emir görülmedi."
+    },
+    {
+      "claim": "ATAM 2012 makalesi Vehip’in Güney Grubu başlangıcını 8 Temmuz ve 9 Temmuz olarak ayrı yazar; bu Weber bitişi değildir.",
+      "url": "https://atamdergi.gov.tr/tam-metin/225/tur",
+      "bibliography": "Abdullah İlgazi, Mustafa Bıyıklı — Mehmet Vehip (Kaçi) Paşa’nın Çanakkale Muharebelerindeki Yeri ve Önemi, ATAM 28/82 (2012).",
+      "locator": "17 ve 28 Ekim 2026 seçili pasajlar; R14-vehip-july.json",
+      "eventDate": "1915-07-08 and 1915-07-09 Vehip start sentences; not Weber end",
+      "documentDate": null,
+      "publicationDate": "2012-03",
+      "accessDate": "2026-10-28",
+      "evidenceText": "8 Temmuz’da, yarımadaya gelerek yeni görevine başlayan Vehip Paşa · 9 Temmuz 1915 tarihinde Çanakkale’de göreve başlayan",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Vehip başlangıcı. 8 ve 9 Temmuz birleştirilmedi. Weber kolordu/grup bitiş günü, teslim belgesi veya günlük karargâh üretilmedi."
+    }
+  ],
+  "rejectedCollapse": [
+    {
+      "source": "5 Mayıs = kesin Güney Grubu atama/teslim günü",
+      "why": "Enis aktarımı. Ünal 4/5 Mayıs gece kaydı ayrı durur. Kesin gün seçilmedi."
+    },
+    {
+      "source": "25 Nisan Kumkale = XV. Kolordu atama günü",
+      "why": "Bean ve madde saha/rol kaydı. Atama günü yapılmadı."
+    },
+    {
+      "source": "Vehip 8 veya 9 Temmuz = Weber görev sonu",
+      "why": "ATAM cümleleri Vehip başlangıcıdır. Teslim belgesi yok."
+    },
+    {
+      "source": "Bean 1914 Boğaz tabyaları kapatma = 1915 kolordu ataması",
+      "why": "Ayrı rol aktarımı. Kimlik üretmek için birleştirilmedi."
+    }
+  ],
+  "readerSupportKept": {
+    "label": "Kolordu ile Güney Grubu ayrı; atama günü açık",
+    "presentationReviewDate": "2026-11-03"
+  },
+  "pagesUpdated": [
+    "komutanlar/weber-pasa/index.html",
+    "komutanlar/index.html",
+    "js/campaign.js",
+    "inceleme-notlari/index.html",
+    "tests/catalog.test.js",
+    "research/ux-audit/content-review.json"
+  ]
+}

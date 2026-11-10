@@ -1,0 +1,50 @@
+{
+  "id": "R13",
+  "status": "devam ediyor",
+  "record": {
+    "path": "komutanlar/weber-pasa/",
+    "sources": [
+      "csa-33",
+      "atam-vehip"
+    ],
+    "summary": "Weber’in Anadolu yakasındaki kolordu görevi ile sonraki Güney Grubu görevi ayrı aşamalardır.",
+    "open": "Yaşam tarihleri, kolordu/Güney Grubu geçişinin kesin günleri ile günlük hareketler bu notla topluca doğrulanmış sayılmaz.",
+    "rewrite": false,
+    "reviewed": "2026-10-17",
+    "status": "Kısmi kaynak desteği; tüm ayrıntılar doğrulanmadı",
+    "readerSupport": {
+      "label": "Ansiklopedi/makale aktarımı; kolordu ve Güney Grubu ayrı",
+      "summary": "Anadolu yakasındaki XV. Kolordu görevi ile sonraki Güney Grubu ayrı aşamalardır. Üstteki yaşam tarihleri bu notlarda belgelenmedi; özgün atama karşılaştırması açıktır.",
+      "reasons": [
+        "33. Alay maddesi Weber’i 15. Kolordu komutanı olarak anar; birlik sayıları ve personel kimlikleri bu maddeden genişletilmedi. ATAM makalesi Güney Grubu’nda Weber’den Vehip’e geçişi inceler; bu geçiş kolordu görevinin bitiş gününü veya günlük karargâhı doğrulamaz. Aktarılan emirlerin özgün taraması görülmedi.",
+        "12 Eylül 1860 Kamen ve 29 Ekim 1933 Berlin çalışma kaydıdır. 28 Ekim GND/Deutsche Biographie denemeleri pasaj okumadı; yaşam alanları bu notla doğrulanmış sayılmaz. Kumkale harita işareti günlük konum değildir. Aynı adlı başka kişilerle kimlik üretilmedi."
+      ],
+      "presentationReviewDate": "2026-11-03",
+      "sourceScope": "17 ve 28 Ekim mevcut incelemelerinin sunumu; yeni dış erişim veya tarihsel doğrulama yok.",
+      "sourceRefs": [
+        "https://canakkalesavaslariansiklopedisi.com/33uncu-piyade-alayi/",
+        "https://atamdergi.gov.tr/tam-metin/225/tur"
+      ]
+    }
+  },
+  "sha256": "c2618c7b9bfbd4db389aeac1d27167bc67120738470b933d3a142723ec5658bd",
+  "tests": {
+    "allJavaScript": 320,
+    "requiredPython": 27,
+    "failures": 0,
+    "log": "R13-Weber-chain-support-tests.txt",
+    "pythonLog": "R13-Weber-chain-support-python.txt"
+  },
+  "ui": {
+    "desktop": [1280, 720, 1265, 1265],
+    "mobile": [320, 800, 320, 320],
+    "open": true,
+    "focusBoth": "kaynak-notu",
+    "leaflet": true,
+    "mapPlace": "Kumkale",
+    "search": "Kumkale → 4 sonuç; Aramayı temizle",
+    "filter": "İtilaf aria-pressed=true, 10 işaret, 552px harita; Süzgeci temizle sonrası 23 işaret / 31 kayıt. Kumkale Osmanlı işareti olduğu için İtilaf süzgecinde gizlendi; seçim Donanma intikali kaldı",
+    "viewportReset": true
+  },
+  "acceptance": "Profil sunum alt adımı kabul. Canlı HTML genel uyarı bu zincirle 0."
+}

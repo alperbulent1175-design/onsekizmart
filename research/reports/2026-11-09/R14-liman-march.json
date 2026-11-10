@@ -1,0 +1,105 @@
+{
+  "id": "R14",
+  "slice": "liman-mart-1915-kurulus-atama-fiili-baslama",
+  "date": "2026-11-09",
+  "status": "dar_alt_adim_kabul; genel_R14_acik",
+  "iddia_dogrulandi": false,
+  "katalog_belge_acildi": false,
+  "datesKeptSeparate": {
+    "beanArmyFormed": "24 Mart 1915",
+    "beanGivenCommand": "24 Mart 1915 aynı paragraf; kuruluşla birleşik",
+    "beanWentToDardanelles": "25 Mart 1915",
+    "awmCreatedAndGivenCommand": "25 Mart 1915 aynı cümle",
+    "atbd2129Notification": "25 Mart 1915 bildirim; teşkil ve tayin bilgisi birlikte",
+    "actualStart": "açık; gidiş teslim belgesi yapılmadı",
+    "cardenLeft": "16 Mart 1915",
+    "robeckFrom": "17 Mart 1915",
+    "hamiltonMarchDeparture": "13 Mart 1915",
+    "hamiltonTenedos": "17 Mart 1915",
+    "hamiltonRecall": "16 Ekim 1915",
+    "hamiltonImbrosDeparture": "17 Ekim 1915",
+    "monroLondonInstruction": "20 Ekim 1915",
+    "monroAssumedCommand": "28 Ekim 1915",
+    "damadeFarewellVisit": "12 Mayıs 1915",
+    "gouraudArrivalAndTakeOverRecord": "14 Mayıs 1915",
+    "note": "Kuruluş, atama ve fiilî başlama birleştirilmedi. 16/17 Mart, Ekim Hamilton/Monro ve Gouraud 12/14 Mayıs dokunulmadı."
+  },
+  "passages": [
+    {
+      "claim": "Bean 24 Mart’ta 5. Ordu teşkilini yazar; aynı paragrafta komutanlığın Liman’a verildiğini ekler.",
+      "url": "https://archive.org/details/storyanzacvol1",
+      "bibliography": "C. E. W. Bean, The Story of ANZAC, cilt 1; Sydney: Angus & Robertson, 1921.",
+      "locator": "basılı s.236; harvest PDF 353",
+      "eventDate": "1915-03-24 formation and given command in this paragraph",
+      "documentDate": "1921",
+      "accessDate": "2026-11-09",
+      "evidenceText": "The Turks met the now obvious danger by forming, on March 24th, a special army-the 5th Turkish-for the defence of the Dardanelles. Liman von Sanders, who till then had been in charge of the 1st Army at Constantinople, was given the command",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Yayımlanmış resmi tarih; özgün kuruluş veya atama emri değildir. Teşkil ile «given the command» aynı paragraftadır; bu turda ayrılmadı ve tek kesin atama günü yapılmadı."
+    },
+    {
+      "claim": "Bean 25 Mart’ta Liman’ın Boğaz’a gittiğini yazar.",
+      "url": "https://archive.org/details/storyanzacvol1",
+      "bibliography": "C. E. W. Bean, The Story of ANZAC, cilt 1, 1921, basılı s.236.",
+      "locator": "basılı s.236; harvest PDF 353, «On March 25th he went to the Dardanelles»",
+      "eventDate": "1915-03-25 travel",
+      "documentDate": "1921",
+      "accessDate": "2026-11-09",
+      "evidenceText": "On March 25th he went to the Dardanelles.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Gidiş kaydıdır. Teslim, karargâhın fiilen işe başlaması veya ilk emir belgesi değildir. «spent his first few days» (s.238) dönem anlatısıdır; tek gün üretilmedi."
+    },
+    {
+      "claim": "AWM biyografisi 5. Ordu’nun 25 Mart 1915’te kurulduğunu ve komutanlığın aynı cümlede verildiğini yazar.",
+      "url": "https://www.awm.gov.au/visit/exhibitions/gmaps/turkish/vonsanders",
+      "bibliography": "Australian War Memorial, Liman von Sanders (1855–1929) sergi biyografisi.",
+      "locator": "Fifth Army cümlesi; Last updated: 3 September 2020",
+      "eventDate": "1915-03-25 created and given command in this sentence",
+      "documentDate": null,
+      "updatedDate": "2020-09-03",
+      "accessDate": "2026-11-09",
+      "evidenceText": "The Ottoman Turks created the Fifth Army, for the defence of the Dardanelles, on 25 March 1915 and von Sanders was given command.",
+      "status": "kurumsal_ozet_pasaji_okundu",
+      "limit": "Kurum biyografisi; özgün emir değildir. 25 Mart kuruluşu Bean’deki 24 Mart teşkil kaydına çevrilmez. Kuruluş ile atama bu cümlede birleşiktir."
+    },
+    {
+      "claim": "ATBD 2129, 25 Mart 1915 Enver emrinin yayımlanmış aktarımında teşkil ve tayin bilgisini iletir; bu bildirimin tarihidir.",
+      "url": null,
+      "bibliography": "Askerî Tarih Belgeleri Dergisi, Ağustos 1989, yıl 38, sayı 88, belge 2129; Ankara: Genelkurmay Basımevi; basılı s.19, künye s.20.",
+      "locator": "PDF 17–18 / basılı 19; arşiv 1-1, klasör 180, dosya 774, fihrist 1-5; inceleme 20 Ekim 2026",
+      "eventDate": "1915-03-25 notification date in the published transcription",
+      "documentDate": "1915-03-25",
+      "publicationDate": "1989-08",
+      "accessDate": "2026-10-20",
+      "evidenceText": "irtibatı tebdil olunmamıştır; tevhid-i mesai edecektir",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Yayımlanmış Latin aktarım; Osmanlıca faksimile bağımsız paleografik çevriyazı değildir; arşiv aslı görülmedi. Bu turda PDF yeniden açılmadı. Bildirim tarihi kuruluş veya atama emrinin günü yapılmadı. Gönderiliş 7.45 / geliş 9.15 / takdim 9.30 olay saati değildir."
+    }
+  ],
+  "rejectedCollapse": [
+    {
+      "source": "Enis Şahin ATAM kronolojisi s.20 (24 Mart teklif, 25 Mart varış, 26 Mart göreve başladı)",
+      "why": "İkincil dipnot zinciri (Konukçu/Akgün/Arı/Gencer/Erikan). Kuruluş, atama ve fiilî başlamayı 24/25/26 dizisine indirger. Özgün emir değildir; alınmadı."
+    },
+    {
+      "source": "Erdemir 25 Nisan makalesi s.3 (24 Mart kuruluş+atama, 26 Mart Gelibolu’ya geliş)",
+      "why": "Kuruluş ile atamayı 24 Mart’ta birleştirir; varışı 26 Mart yapar. Bean 25 Mart gidişiyle çelişir. Özgün emir değildir."
+    },
+    {
+      "source": "Gallipoli Simulation Center 2012 s.34 (24 March formation; 24-26 March appointment and arrival)",
+      "why": "Atama ve varışı 24–26 aralığında birleştirir. Kuruluş/atama/fiilî başlama ayrımını siler."
+    },
+    {
+      "source": "Esenkaya lojistik s.14 (25 Mart kuruluş ve Liman ataması; Genelkurmay 1. kitap dipnotu)",
+      "why": "25 Mart’ta kuruluş ve atamayı birleştirir. Genelkurmay cildi bu tur açılmadı; dipnot özgün emir yerine geçmez."
+    }
+  ],
+  "pagesUpdated": [
+    "komutanlar/liman-von-sanders/index.html",
+    "olaylar/seddulbahir-cikarmasi/index.html",
+    "js/campaign.js",
+    "js/data.js",
+    "tests/catalog.test.js",
+    "research/ux-audit/content-review.json"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "R14",
+  "slice": "cevat-selahattin-18-mart-rol-atama-degil",
+  "date": "2026-11-09",
+  "status": "dar_alt_adim_kabul; genel_R14_acik",
+  "iddia_dogrulandi": false,
+  "katalog_belge_acildi": false,
+  "datesKeptSeparate": {
+    "cevatRole18March": "18 Mart 1915; o gün komutan; atama günü değil",
+    "cevatAppointmentArticle": "10 Ağustos 1914",
+    "cevatPromotionArticle": "29 Kasım 1914 mirliva; atama değildir",
+    "selahattinRole18March": "18 Mart 1915; o gün kurmay başkanı; atama günü değil",
+    "selahattinStaffAppointmentArticle": "15 Ağustos 1914",
+    "selahattinDivisionAppointmentArticle": "28 Nisan 1915, 12. Tümen",
+    "selahattinActingCommandNarrative": "18 Mart sabahı yoklukta komuta anlatısı atama günü yapılmadı; saat seçilmedi",
+    "originalAppointment": "görülmedi",
+    "handover": "açık; teslim belgesi yok",
+    "cardenLeft": "16 Mart 1915",
+    "robeckFrom": "17 Mart 1915",
+    "hamiltonMarchDeparture": "13 Mart 1915",
+    "hamiltonTenedos": "17 Mart 1915",
+    "hamiltonRecall": "16 Ekim 1915",
+    "hamiltonImbrosDeparture": "17 Ekim 1915",
+    "monroLondonInstruction": "20 Ekim 1915",
+    "monroAssumedCommand": "28 Ekim 1915",
+    "damadeFarewellVisit": "12 Mayıs 1915",
+    "gouraudArrivalAndTakeOverRecord": "14 Mayıs 1915",
+    "limanArmyFormedBean": "24 Mart 1915",
+    "limanTravel": "25 Mart 1915",
+    "vehipArticleStart8": "8 Temmuz 1915",
+    "vehipArticleStart9": "9 Temmuz 1915",
+    "mustafaNightOrder8": "8 Ağustos 1915",
+    "mustafaHqArrival9": "9 Ağustos 1915",
+    "note": "18 Mart rol kaydı atama günü yapılmadı. Özgün atama görülmedi. 16/17 Mart, Ekim Hamilton/Monro, Gouraud 12/14 Mayıs, Liman 24/25 Mart, Vehip 8/9 Temmuz ve Mustafa 8/9 Ağustos dokunulmadı. readerSupport etiketleri korundu."
+  },
+  "passages": [
+    {
+      "claim": "Osmanoğlu maddesi Cevat’ın Müstahkem Mevkii atamasını 10 Ağustos 1914 olarak aktarır.",
+      "url": "https://canakkalesavaslariansiklopedisi.com/cevat-cobanli-pasa/",
+      "bibliography": "Selçuk Osmanoğlu — Cevat (Çobanlı) Paşa, Çanakkale Savaşları Ansiklopedisi, İstanbul 2022.",
+      "locator": "9. Tümen / atama paragrafı; 26 Ekim 2026 ve 9 Kasım 2026 seçili okuma",
+      "eventDate": "1914-08-10 appointment in this sentence",
+      "documentDate": null,
+      "publicationDate": "2022",
+      "accessDate": "2026-11-09",
+      "evidenceText": "10 Ağustos 1914 tarihinde Çanakkale Müstahkem Mevkii Komutanlığı gibi önemli bir göreve atanmıştır.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Ansiklopedi aktarımı. Özgün atama emri değildir. 18 Mart 1915 rol kaydına çevrilmez. Goeben/Breslau aynı gün cümlesi atama kanıtı yapılmadı."
+    },
+    {
+      "claim": "Osmanoğlu maddesi 29 Kasım 1914 mirliva terfisini aktarır.",
+      "url": "https://canakkalesavaslariansiklopedisi.com/cevat-cobanli-pasa/",
+      "bibliography": "Selçuk Osmanoğlu — Cevat (Çobanlı) Paşa, Çanakkale Savaşları Ansiklopedisi, İstanbul 2022.",
+      "locator": "savunma planı paragrafının sonu; 26 Ekim 2026 ve 9 Kasım 2026",
+      "eventDate": "1914-11-29 promotion in this sentence",
+      "documentDate": null,
+      "publicationDate": "2022",
+      "accessDate": "2026-11-09",
+      "evidenceText": "Cevat Bey, 29 Kasım 1914 tarihinde Mirliva rütbesine yükselerek “Paşa” olmuştur.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Terfi aktarımı. Atama günü değildir. 18 Mart rol kaydına çevrilmez. Özgün terfi emri görülmedi."
+    },
+    {
+      "claim": "Kütükçü maddesi Selahattin’in kurmay başkanlığı atamasını 15 Ağustos 1914 olarak aktarır.",
+      "url": "https://canakkalesavaslariansiklopedisi.com/selahaddin-adil/",
+      "bibliography": "Murat Kütükçü — Selahaddin Adil, Çanakkale Savaşları Ansiklopedisi, İstanbul 2022.",
+      "locator": "1914 atama paragrafı; 28 Ekim 2026 ve 9 Kasım 2026 seçili okuma",
+      "eventDate": "1914-08-15 staff appointment in this sentence",
+      "documentDate": null,
+      "publicationDate": "2022",
+      "accessDate": "2026-11-09",
+      "evidenceText": "15 Ağustos 1914 tarihinde Selahaddin Adil’in yeni görevi, Albay Cevat Çobanlı’nın komutanı olduğu Müstahkem Mevki Komutanlığı Kurmay Başkanlığı olmuştur.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Ansiklopedi aktarımı. Özgün atama emri değildir. 18 Mart 1915 rol kaydına çevrilmez."
+    },
+    {
+      "claim": "Kütükçü maddesi 12. Tümen atamasını 28 Nisan 1915 olarak aktarır.",
+      "url": "https://canakkalesavaslariansiklopedisi.com/selahaddin-adil/",
+      "bibliography": "Murat Kütükçü — Selahaddin Adil, Çanakkale Savaşları Ansiklopedisi, İstanbul 2022.",
+      "locator": "kara muharebe paragrafı; 28 Ekim 2026 ve 9 Kasım 2026",
+      "eventDate": "1915-04-28 division appointment in this sentence",
+      "documentDate": null,
+      "publicationDate": "2022",
+      "accessDate": "2026-11-09",
+      "evidenceText": "12’nci Tümene 28 Nisan 1915 tarihinden itibaren Albay Fevzi Bey’in yerine Komutan olarak atanmıştır.",
+      "status": "yayin_aktarimi_pasaji_okundu",
+      "limit": "Tümen atama aktarımı. 18 Mart kurmay rolü değildir. Özgün emir görülmedi."
+    }
+  ],
+  "rejectedCollapse": [
+    {
+      "source": "Atlas kartındaki «18 Mart 1915’te Çanakkale Müstahkem Mevkii Komutanı» ve «18 Mart 1915’te Müstahkem Mevkii kurmay başkanı»",
+      "why": "18 Mart o günkü rol kaydıdır. Atama günü değildir. 10 Ağustos 1914 / 15 Ağustos 1914 aktarımlarıyla birleştirilmedi."
+    },
+    {
+      "source": "Osmanoğlu maddesindeki «18 Mart 1915’te Çanakkale’de kazanılan zaferle özdeşleşmiştir»",
+      "why": "Zaferle özdeşleşme atama günü değildir. Alınmadı."
+    },
+    {
+      "source": "Kütükçü maddesindeki 18 Mart sabahı yoklukta komuta anlatısı ve 13.00 / 14.00 / 16.30 karargâh saatleri",
+      "why": "Rol/yokluk anlatısı atama günü değildir. Saat farkı çözülmedi; saat seçilmedi."
+    }
+  ],
+  "readerSupportKept": {
+    "cevatLabel": "Ansiklopedi aktarımı, atama ve terfi ayrı",
+    "selahattinLabel": "Ansiklopedi aktarımı; kurmay ve tümen aşamaları ayrı",
+    "presentationReviewDate": "2026-11-03"
+  },
+  "pagesUpdated": [
+    "komutanlar/cevat-bey-cobanli/index.html",
+    "komutanlar/selahattin-adil-bey/index.html",
+    "js/campaign.js",
+    "inceleme-notlari/index.html",
+    "tests/catalog.test.js",
+    "research/ux-audit/content-review.json"
+  ]
+}
