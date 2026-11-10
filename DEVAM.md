@@ -2585,3 +2585,12 @@ Kullanıcı commit, push ve yayın istedi. 158 dosyalık paket hazırlandı; ön
 - Kabul/açık: bu dilim kabul; R14 genel kabul ölçütü kapanmadı. Özgün atama emirleri, Usedom/Merten görev günleri, Keyes kurmaylık başlangıç/bitiş, Guépratte B Hattı teslimi, Birdwood günlük komuta devri, Bridges resmi görev sonu ve Godley sonraki aylar belgesiz açık. 25 sayfanın mevcut pasajlarla birleştirilebilir gün ayrımı bu dilimle bitti. Envanter: `R14-commander-inventory.json`.
 - Dosyalar: yedi komutan HTML + komutanlar dizini + 18 Mart olay listesi; `js/campaign.js`; `js/data.js`; `inceleme-notlari/index.html`; `content-review.json`; `tests/catalog.test.js`; `R14-usedom-to-godley.json`.
 - Sonraki tek somut adım: R14 genel kabulü kapatma — 25 sayfalık envanterdeki özgün emir boşlukları uydurulmaz; yeni harvest/crawl/LoC/OCR/yayın yok. Mevcut pasajlarda birleştirilebilir yeni gün yoksa R14 görev-tarih dilimleri burada durur.
+
+## R14 · 11 Kasım 2026 — yetkili yayın
+
+- Kimlik: kullanıcı «commit push ve yayın». Durum: tamamlandı. `katalog.json` `belge_acildi` / `iddia_dogrulandi` yok. Scraper yok.
+- Git: `ad69d29` site + R14 notları; `origin/main` üzerindeki görev listesi belgelerini `558e98e` ile birleştirip `origin/main` push. `archive/` gitte yok. Araştırma notları GitHub’da; canlı köke gitmedi.
+- Yayın: `publish/onsekizmart` (`8a268d5`) yalnız 162 dosyalık paket (161 genel + 483 bayt `.htaccess`). Hostinger `onsekizmart.com` deployed. Tam `main` deposu belge köküne klonlanmadı.
+- Doğrulama: 161 genel dosya HTTP 200; 57 çalışan ağaç SHA256 birebir, 104 metin dosyası Linux LF ile eşleşti, 0 hata. `.htaccess` API tekrar okuması 483 bayt ve önceki içerik. Canlı Usedom «Müfettişlik kaydı» var, eski gözetleme yeri cümlesi yok. `js/campaign.js` `commandDatesResolved: false`. `/research/` 404; sunucuda research dizini yok.
+- Sonuç: `research/reports/2026-11-11/R14-authorized-release-result.json`. Yerel stage `research/deployment/2026-11-11-r14-release`.
+- Sonraki tek somut adım: R14 genel kabulü kapatılmaz; özgün emir boşlukları uydurulmaz. Harvest/crawl/LoC/OCR yok.

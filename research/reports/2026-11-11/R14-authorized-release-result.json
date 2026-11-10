@@ -1,0 +1,32 @@
+{
+  "commit": "558e98e",
+  "push": "origin/main succeeded",
+  "publishBranch": "publish/onsekizmart",
+  "publishCommit": "8a268d5",
+  "domain": "onsekizmart.com",
+  "deployment": "deployed",
+  "source": "git isolated branch, not full main",
+  "publicFilesHttp200": 161,
+  "hashMatch": {
+    "exactWorkingTree": 57,
+    "lfNormalized": 104,
+    "failed": 0,
+    "note": "Git clone on Linux stores text as LF; Windows working-tree inventory keeps CRLF on 104 text files. Bodies match after LF normalization. Images and already-LF files matched exactly."
+  },
+  "configuration": "Hostinger reread matches pre-release content and 483-byte size; HTTP not used for htaccess.",
+  "liveChecks": {
+    "usedomInspectorateLabel": true,
+    "usedomObservationPostClaimAbsent": true,
+    "campaignCommandDatesResolvedFalse": true,
+    "researchHttp": 404,
+    "researchDirectory": "does not exist"
+  },
+  "backup": "research/deployment/2026-11-11-r14-release",
+  "tests": {
+    "javascript": 332,
+    "python": 27,
+    "failed": 0
+  },
+  "scope": "88 pages; 162 package files; archive, research, tmp, tests excluded from document root",
+  "research": "R14 duty-date slices published; original-order gaps remain uninvented"
+}
